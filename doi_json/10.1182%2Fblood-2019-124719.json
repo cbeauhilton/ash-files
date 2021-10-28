@@ -2,5 +2,35 @@
     "doi": "https://doi.org/10.1182/blood-2019-124719",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4258",
     "start_url_page_num": 4258,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Svd-SRS: A Highly Specific Algorithm for Identifying Somatic Genomic Rearrangements in Haematological Malignancy ",
+    "article_date": "November 13, 2019",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "The detection of chromosomal rearrangements in haematological malignancies is important for providing appropriate clinical care. Many chromosomal rearrangements are detected by standard cytogenetic analysis (G-banding) but others are too subtle and evade detection by this method. Techniques such as PCR or FISH can be used to focus detection on specific rearrangements to confirm or refute their presence, but other less common but potentially significant rearrangements will be missed by gene-centric methods. Whole Genome Sequencing (WGS) has the potential to identify all possible genomic rearrangements and mutations in patients. Analysing WGS data is not trivial however, and currently available programs detect thousands of structural abnormalities in a single patient by comparison to the reference genome. Most of these abnormalities are simply not real somatic changes and have the potential to mislead and waste effort and resources in their confirmation. There is an urgent need for an analysis pipeline that is both sensitive and specific so that only the true somatic changes that cause the malignancy and influence its clinical course are detected. Here we describe SVD-SRS, a new algorithm for the detection of somatic genomic structural rearrangements in paired-end WGS data with high specificity, and without the need for a germline comparator. SVD-SRS was developed using a 64-core server to enable massively parallel data processing, but the algorithm is scalable and can be implemented on systems with fewer resources. SVD-SRS uses discordant and split reads to identify and model structural rearrangements in paired-end WGS data. SVD-SRS differs from other less specific algorithms because it performs a series of internal validation steps to identify only those discordant split reads that give reliable evidence of structural rearrangement. The orientation of reads with respect to their pairs is then used to categorise breakpoint sequences into the different types of structural rearrangement. To exclude structural polymorphisms, each putative breakpoint sequence is compared with publicly available databases of normal variants. To demonstrate the performance and utility of SVD-SRS, we analysed whole genome sequences of primary samples taken from patients with acute or chronic haematological malignancy, and compared these to that of MANTA, a commonly used structural variant caller. We also engineered 10 structural rearrangements into the reference genome at various levels to see if they would be detected. MANTA reported an average of 16,711 \u00b1 800 structural variants in each primary sample. Using 16 cores, MANTA had a run time of 1h per sample. Filtering the output for only translocations with an allele frequency \u226530%, the output was reduced to <100 events per sample but this removed clinically important validated rearrangements from the dataset. This demonstrates that filtering by read-depth is not adequate for improving the specificity of MANTA. It simply reduces the number of calls. In contrast, SVD-SRS reported <10 events for each sample, with a run time of <12h using 16 cores. The run time per sample is longer compared with MANTA because of the validation steps taken to select appropriate reads and exclude structural polymorphisms. Notably the massively reduced number of reported variants makes scrutiny of the data much more feasible in a clinical setting. SVD-SRS detected all rearrangements present in the initial cytogenetic report of the samples tested. This included t(9;22)(q34;q11) BCR/ ABL1 , inv(3)(q21;q26) GATA2/ MECOM , and t(8;14)(q24;q32) IGH/ MYC in CML, ALL, and Burkitt's Lymphoma samples, as well as the immunoglobulin heavy chain recombination events important for ALL and CLL prognosis. SVD-SRS also detected 1 or 2 additional rearrangements of clinical importance (e.g. del(9p21) CDKN2A/ CDKN2B ) in 30% of the samples analysed. All additional rearrangements were validated by PCR. For the engineered sample, SVD-SRS detected all but one event which was present at a very low level, whilst MANTA identified all events as well as an additional 20 that were not introduced into the reference genome in the first place. Based on these data, SVD-SRS has massively improved the specificity of structural variant detection compared with MANTA, and is suitably sensitive and specific to replace cytogenetic techniques in clinical practice. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "burkitt's lymphoma",
+        "gene rearrangement",
+        "hematologic neoplasms",
+        "cytogenetic analysis",
+        "polymerase chain reaction",
+        "cancer",
+        "g-banding",
+        "immunoglobulin heavy chains",
+        "protein p16",
+        "chromosome rearrangements"
+    ],
+    "author_names": [
+        "Lloyd Ian Bibby, MSc, BSc",
+        "Bernard Ramsahoye, MB, ChB, PhD FRCPath, MRCP"
+    ],
+    "author_affiliations": [
+        [
+            "MRC Institute for Genetic & Molecular Medicine, University of Edinburgh, Edinburgh, United Kingdom "
+        ],
+        [
+            "MRC Institute of Genetic & Molecular Medicine, University of Edinburgh, Edinburgh, United Kingdom"
+        ]
+    ],
+    "first_author_latitude": "55.962319799999996",
+    "first_author_longitude": "-3.2320709"
 }
