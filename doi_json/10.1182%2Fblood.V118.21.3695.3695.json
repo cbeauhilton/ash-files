@@ -2,5 +2,59 @@
     "doi": "https://doi.org/10.1182/blood.V118.21.3695.3695",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1909",
     "start_url_page_num": 1909,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "DNA Microarray Analysis in DLBCL Dependent on Skp2 Expression, ",
+    "article_date": "November 18, 2011",
+    "session_type": "622. Non-Hodgkin Lymphoma - Biology, excluding Therapy: Poster III",
+    "abstract_text": "Abstract 3695 Background The heterogeneity of diffuse large B-cell lymphoma (DLBCL) has prompted the search for new markers that can accurately separate prognostic risk groups. We previously reported in multivariate analysis that Skp2 high expression by immunohistochemical method was a strong predictor of poor outcome in DLBCL patient treatment with CHOP and CHOP-R. (Ann of Oncology, 2010 21:833). However the precise mechanisms that regulate Skp2 expression in lymphoma are not fully understood. To better characterize the molecular mechanisms, we performed the DNA microarray study on uniformly treated DLBCL patients. Material and Methods Total RNA was extracted from fresh tumor samples. All patients were diagnosis of de novo DLBCL. We compared with high(n=12) and low-Skp2(n=10) groups. Gene expression profiling was performed with the use of Illumina Human WG-6 array. The raw signal intensities of all samples were log 2 -transformed and normalized by rsn algorithm with \u25a1elumi' library package on Bioconductor software. We selected the probes, excluding the control probes, where the detection p-values of all samples were less than 0.01 and use them to identify differentially expressed genes.Then we applied Linear Models for Microarray Analysis (limma) package of Bioconductor software. To identify up or down-regulated genes between high and low Skp2, we calculated Z-scores and ratios (non-log scaled fold-change) from the normalized signal intensities of each probe. Results We selected 633 genes, 311 upregulated and 322 downregulated, which showed significant differences with a P-value of <0.01. Heat map of the differentally expressed genes between high and low-Skp2 groups ( Figure 1 ). In addition, IPA (Ingenuity pathway analysis) showed clearly the network composed of cell cycle regulators, which mediate cell cycle progression during the G1/S checkpoint. A computer-assisted approach was used to procure specific molecular signalling pathways that were aberrantly expressed in DLBCL cells. Several genes related to cyclins and cell cycle regulation and to the MAPK, WNT, NF-k\u0192A\u0300 and Myc mediated apoptosis signalling pathways were altered in DLBCL cells when compared with Skp2 levels. Gene highly expressed in high Skp2 included CDKN2A, MTA3, and TUBB2A. CDKN2A is known as a gene encoding a CDK inhibitor which functions in cell cycle regulator and the regulator of Myc pathway, and TUBB2A is known as a regulatory gene of the Mitosis. Recent studies have revealed that Skp2 is a transcriptional coactivator of Myc. MTA3 (Metastasis \u2013associated protein 3), which was direct corepressor WNT4 pathway, was a high average increase (1.16-limma/log-fold change, respectively) in high Skp2 DLBCL. Although the basis for differentiation blockade is unkown in DLBCL, recent data suggest that BCL6 binding to the MTA3 corepressormight be involved. Additional biochemicaland functional studies are needed to determine whether MTA3 is a transcriptional factor of the Skp2 oncogene. The synergistic interaction of Myc, MTA3, and Skp2 may enhance the aggressiveness of Skp2-overexpressing lymphoma cells. View large Download slide View large Download slide  Conclusions These genes may play a significant role in the pathogenesis of DLBCL anddeserve further investigation as candidates for new therapeutic targets. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "diffuse large b-cell lymphoma",
+        "dna microarrays",
+        "cell cycle regulator",
+        "lymphoma",
+        "protein p16",
+        "cyclin-dependent kinase inhibitors",
+        "cyclins",
+        "cyclophosphamide, doxorubicin, prednisone, and vincristine",
+        "gene expression profiling",
+        "mitogen-activated protein kinases"
+    ],
+    "author_names": [
+        "Ritsuko Seki, PhD",
+        "Fumiko Arakawa, PhD",
+        "Kaori Yasuda, PhD",
+        "Atushi Doi, PhD",
+        "Toshihiro Miyamoto, MD, PhD",
+        "Koichi Akashi, MD, PhD",
+        "Koichi Ohshima, MD, PhD",
+        "Takashi Okamura, MD, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Medicine/Hematology and Oncology, Kurume University School of Medicine, Kurume, Japan, "
+        ],
+        [
+            "Department of Pathology, Kurume University School of Medicine, Kurume, Japan, "
+        ],
+        [
+            "Cell Innovator Inc., Fukuoka, Japan, "
+        ],
+        [
+            "Cell Innovator Inc, Fukuoka, Japan, "
+        ],
+        [
+            "Ctr. for Cellular & Mole. Med., Kyushu University Hospital, Fukuoka, Japan, "
+        ],
+        [
+            "Department of Medicine and Biosystemic Science, Kyushu University, Fukuoka, Japan, "
+        ],
+        [
+            "Department of Pathology, Kurume University, School of Medicine, Kurume, Japan, "
+        ],
+        [
+            "Division of Hematology and Oncology, Department of Medicine, Kurume University School of Medicine, Kurume, Japan"
+        ]
+    ],
+    "first_author_latitude": "33.3287206",
+    "first_author_longitude": "130.5111838"
 }
