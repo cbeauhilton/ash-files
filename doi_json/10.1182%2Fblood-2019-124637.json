@@ -2,5 +2,67 @@
     "doi": "https://doi.org/10.1182/blood-2019-124637",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4387",
     "start_url_page_num": 4387,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Gene Expression Profiling of Structural and Functional High-Risk Multiple Myeloma ",
+    "article_date": "November 13, 2019",
+    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
+    "abstract_text": "Introduction: High-risk multiple myeloma can be defined by the presence of specific cytogenetic abnormalities (structural) or by characteristic changes in bone marrow and peripheral blood biomarkers (functional). While both entities are characterized by therapeutic resistance, frequent disease relapses, and adverse survival outcomes, the underlying molecular mechanisms remain incompletely understood. Methods: We performed gene expression profiling (GEP) using an Affymetrix GeneChip Human Genome U133 Plus 2.0 microarray on CD138 + bone marrow cells from 137 patients diagnosed with multiple myeloma between 2004 and 2012. All patients underwent Fluorescence In-situ Hybridization (FISH) evaluation, plasma cell labeling, International Staging System (ISS) risk stratification, and GEP prior to initiating treatment with novel agents. The presence of del(17p), t(4;14), t(14;16), and t(14;20) on FISH, a plasma cell labeling index (PCLI) > 2%, and ISS stage III were considered high-risk abnormalities: FISH-HR (n = 15, structural high-risk, at least one high-risk FISH lesion), PCLI-HR (n = 20; functional high-risk, PCLI > 2%), and ISS-HR (n = 12; functional high-risk, ISS stage III). For each HR group we sampled standard risk (SR) controls in a 4:1 ratio. After data quality control and normalization, differential gene expression was estimated using limma . Statistical significance was adjusted for multiple comparisons using a false discovery rate-based approach for genome-wide experiments (q-value). We employed PANTHER pathway analysis for the differentially expressed genes in each HR group. We implemented a simple gene expression score (GES) by calculating the sum of quartiles of the normalized gene expression values for genes differentially expressed in more than one HR group (GES = \u03a3 UP (quartile - 1) + \u03a3 DN (4 - quartile)) and externally validated its prognostic significance (UAMS TT2 / TT3, GSE24080). Survival outcomes were analyzed using the methods described by Kaplan , Meier , and Cox . Computation and visualization were performed in R . Results: Median age at diagnosis was 63 years (32 - 87), 53% of the patients were male. High-risk disease was associated with inferior overall survival, regardless of the used definition (left Kaplan-Meier plots): FISH-HR (HR 4.3, 95% CI 1.9 - 9.8, p < 0.001), PCLI-HR (HR 2.7, 95% CI 1.4 - 5.3, p = 0.004), and ISS-HR (HR 2.8, 95% CI 1.2 - 6.5, p = 0.015). There were 59 (FISH-HR), 424 (ISS-HR), and 507 (PCLI-HR) differentially expressed genes (q < 0.050 for all genes, volcano plots). PCLI-HR and FISH-HR demonstrated a predominance of transcriptional up-regulation while ISS-HR had a balanced gene expression profile with a similar number of genes being up- and down-regulated. The involved cellular pathways were different across the HR groups except for anti-apoptotic signaling (bar graphs). All HR groups had distinct gene expression profiles with no complete overlap between all HR groups. There were 71 genes with overlap between two HR groups (69 up-regulated, 2 down-regulated, Venn diagrams). The median GES was 97 (18 - 206, higher numbers indicating higher expression of up-regulated and lower numbers of down-regulated high-risk genes) in 559 patients treated on UAMS TT2 / TT3 (GSE24080). Tertiles of the GES were associated with event-free survival (HR 1.4, 95% CI 1.2 - 1.6, p < 0.001) and remained independently prognostic after adjusting for age, sex, and ISS stage (HR 1.3, 95% CI 1.1 - 1.5, p < 0.001). Conclusions: High-risk multiple myeloma remains associated with inferior overall survival, regardless of the used definition (structural or functional). The subtypes of high-risk disease have distinct gene expression profiles and involve different cellular pathways, providing important clues to the underlying biology. A 71 gene signature derived from the different high-risk subtypes was of prognostic significance in a clinical trial population after adjusting for known prognostic factors. Figure View large Download slide Figure View large Download slide  Disclosures Lacy: Celgene: Research Funding. Dispenzieri: Akcea: Consultancy; Intellia: Consultancy; Janssen: Consultancy; Pfizer: Research Funding; Takeda: Research Funding; Celgene: Research Funding; Alnylam: Research Funding. Stewart: Takeda: Consultancy; Seattle Genetics: Consultancy; Roche: Consultancy; Ono: Consultancy; Celgene: Consultancy, Research Funding; Ionis: Consultancy; Janssen: Consultancy, Research Funding; Oncopeptides: Consultancy; Amgen: Consultancy, Research Funding; Bristol Myers-Squibb: Consultancy. Bergsagel: Celgene: Consultancy; Ionis Pharmaceuticals: Consultancy; Janssen Pharmaceuticals: Consultancy. Kumar: Celgene: Consultancy, Research Funding; Janssen: Consultancy, Research Funding; Takeda: Research Funding.",
+    "topics": [
+        "gene expression profiling",
+        "multiple myeloma",
+        "biological markers",
+        "prognostic factors",
+        "chromosome abnormality",
+        "in situ hybridization",
+        "plasma cells",
+        "bone marrow",
+        "bone marrow cells",
+        "fluorescence"
+    ],
+    "author_names": [
+        "Moritz Binder, MDMPH",
+        "S. Vincent Rajkumar, MD",
+        "Martha Q. Lacy, MD",
+        "Jessica L. Haug",
+        "Angela Dispenzieri, MD",
+        "Kimberly J. Henderson",
+        "Teresa K. Kimlinger",
+        "A. Keith Stewart, MB, ChB",
+        "P. Leif Bergsagel, MD",
+        "Shaji K. Kumar, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Scottsdale, AZ"
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Scottsdale, AZ"
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN "
+        ]
+    ],
+    "first_author_latitude": "44.02149094999999",
+    "first_author_longitude": "-92.47453290000001"
 }
