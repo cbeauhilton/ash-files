@@ -2,5 +2,63 @@
     "doi": "https://doi.org/10.1182/blood.V128.22.1054.1054",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3291",
     "start_url_page_num": 3291,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Isocitrate Dehydrogenase 1 Mutant Cancers Are Metabolically Vulnerable to Inhibition of Acetyl CoA Carboxylase Via a 2-Hydroxyglutarate Independent Mechanism ",
+    "article_date": "December 2, 2016",
+    "session_type": "603. Oncogenes and Tumor Suppressors: Altered Epigenetic and Metabolic Regulation",
+    "abstract_text": "Introduction: Mutations substituting arginine 132 of isocitrate dehydrogenase 1 ( IDH1 ) are recurrent in acute myeloid leukemia (AML) and several other cancers, resulting in the aberrant production of the onco-metabolite, R-2-hydroxyglutarate (2-HG), as well as an inability to convert cytoplasmic alpha-ketoglutarate to isocitrate via reductive carboxylation. Currently, small molecules that effectively inhibit the neomorphic enzyme and abrogate the production of 2-HG, such as AG-120, are in clinical trials with promising results. However, these inhibitors have not proven to be curative in most AML cases, indicating a need for additional targeted therapies. We have previously investigated synthetic lethal vulnerabilities in IDH1-mutated AML and identified an interaction with BCL2 leading to increased susceptibility to ABT-199 (Chan et al, 2015). Synthetic lethal approaches targeting 2-HG independent metabolic vulnerabilities conferred by mutant IDH1 may complement IDH1 mutant inhibitors. Using a novel computational method (MiSL) based on Boolean implication (if-then rules) mining of pan-cancer data, we identified acetyl CoA carboxylase (ACACA) as a potential druggable target in IDH1- mutated AML. ACACA is the rate-limiting step in the de novo synthesis of fatty acids, and mutant IDH1 leads to a reduction in malonyl-CoA, a key building block for fatty acids, in a 2-HG independent manner. This finding led us to investigate a potential synthetic lethal interaction between mutant IDH1 and ACACA based on the hypothesis that the combination causes marked inhibition of fatty acid synthesis required for cell growth. Methods: Boolean implications (MiSL) were used to identify candidate synthetic lethal interactions with mutant IDH1 by isolating genes deleted only in the absence of the mutation and with differential gene expression within pan-cancer TCGA data. Validation was performed using THP-1 cells transduced with doxycycline-inducible wildtype and R132H mutant IDH1 lentiviral vectors, and primary patient IDH1-mutant and wildtype AML samples, using both shRNAs and a targeted pharmacologic inhibitor of ACACA. Metabolomics was performed using semi-targeted mass spectrometry and liquid chromatography. Finally, primary AML samples and IDH1-mutant and wildtype cancer cell lines (HT-1080, U118, U87) were transduced with validated shRNA and engrafted into NSG mice. Results: Our computational method found that IDH1 mutation and ACACA deletions were mutually exclusive in pan-cancer TCGA data, ACACA deletions resulted in lowered expression of ACACA , and ACACA was differentially over-expressed in IDH1 -mutant AML compared to IDH1 -wildtypeAML. Pharmacologic inhibition of ACACA with 2 uM TOFA caused a marked reduction in cell growth in the presence of IDH1 R132H (+ dox), but not in its absence (- dox; p = 0.0001). Similarly, knockdown of ACACA with independent shRNAs caused a defect in viable cell growth in the presence of IDH1 R132H (+ dox), but not in its absence (- dox) or with scrambled shRNA (p=0.009, shRNA #1 vs. scrambled; p=0.01, shRNA #2 vs. scrambled). Primary IDH1 R132 mutated purified AML blasts were selectively sensitive to TOFA treatment compared to IDH1 wildtype normal karyotype blasts (IC50 0.6 uM vs 6 uM, p=0.009) in viable growth assays. Furthermore, when transduced with lentivirus encoding shRNA to ACACA , primary IDH1-mutant AML cells exhibited markedly reduced engraftment of RFP-positive human CD45+CD33+ leukemic cells compared to scrambled non-targeting shRNA (p < 0.05, Mann-Whitney U). As predicted, IDH1-mutant AML blasts pre-treated with 10uM AG-120 (sufficient to inhibit production of detectable 2-HG) remained susceptible to ACACA inhibition in vitro. Strikingly, in vivo models of IDH1 R132C mutated, but not wildtype, sarcoma cell lines exhibited a dramatic decrease in cell growth after ACACA inhibition that was not reversible by treatment with AG-120. Finally, metabolomic profiling revealed a major perturbation in multiple phospholipid fatty acid species and decreased malonyl-CoA conferred by IDH1 R132H, consistent with our proposed mechanism. Conclusion: We have identified de novo lipogenesis through ACACA as a critical metabolic vulnerability linked to IDH1 mutation in AML and provide evidence that therapeutic inhibition of ACACA with small molecules may be beneficial in AML, as well as in other cancers with IDH1 mutations. Disclosures Majeti: Forty Seven Inc.: Consultancy, Equity Ownership, Membership on an entity's Board of Directors or advisory committees, Patents & Royalties.",
+    "topics": [
+        "acetyl-coa carboxylase",
+        "alpha-hydroxyglutarate",
+        "cancer",
+        "isocitrate dehydrogenase",
+        "fatty acids",
+        "ivosidenib",
+        "malonyl coenzyme a",
+        "molecule",
+        "alpha ketoglutarate",
+        "arginine"
+    ],
+    "author_names": [
+        "Daniel Thomas, MD PhD",
+        "Subarna Sinha, PhD",
+        "Steven M. Chan, MD PhD",
+        "Manhong Wu",
+        "Damoun Torabi",
+        "Gary Peltz, MD PhD",
+        "Yang Gao",
+        "David L Dill, PhD",
+        "Ravi Majeti, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Medicine, Division of Hematology, Cancer Institute, and Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Palo Alto, CA "
+        ],
+        [
+            "Computer Science, Stanford University, Palo Alto, CA "
+        ],
+        [
+            "Department of Medicine, Division of Hematology, Cancer Institute, and Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Palo Alto, CA "
+        ],
+        [
+            "Stanford University, Stanford, "
+        ],
+        [
+            "Department of Medicine, Division of Hematology, Cancer Institute, and Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Palo Alto, CA "
+        ],
+        [
+            "Stanford University, Stanford, "
+        ],
+        [
+            "Electrical Engineering and Computer Sciences, University of California at Berkeley, Berkeley, CA "
+        ],
+        [
+            "Computer Science, Stanford University, Palo Alto, CA "
+        ],
+        [
+            "Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Stanford, CA"
+        ]
+    ],
+    "first_author_latitude": "37.4314331",
+    "first_author_longitude": "-122.17755500000001"
 }
