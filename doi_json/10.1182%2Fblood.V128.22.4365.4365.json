@@ -2,5 +2,103 @@
     "doi": "https://doi.org/10.1182/blood.V128.22.4365.4365",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3355",
     "start_url_page_num": 3355,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Automated Clustering Analysis of Immunoglobulin Sequences in Chronic Lymphocytic Leukemia Based on 3D Structural Descriptors ",
+    "article_date": "December 2, 2016",
+    "session_type": "641. CLL: Biology and Pathophysiology, excluding Therapy: Poster III",
+    "abstract_text": "Immunoglobulins (Igs) are crucial for the defense against pathogens, but they are also important in many clinical and biotechnological applications. Their characteristics, and ultimately their function, depend on their three-dimensional (3D) structure; however, the procedures to experimentally determine it are extremely laborious and demanding. Hence, the ability to gain insight into the structure of Igs at large relies on the availability of tools and algorithms for producing accurate Ig structural models based on their primary sequence alone. These models can then be used to determine structural and eventually functional similarities between different Igs. An example of such a task is the clustering of Igs based on their structure to determine meaningful common features such as the possible existence of common molecular targets (antigens). Several approaches have been proposed in order to achieve an optimal solution to this task yet their results were hindered mainly due to the lack of efficient clustering methods based on the similarity of 3D structure descriptors. Here, we present a novel workflow for robust Ig 3D modeling and automated clustering. We validated our protocol in chronic lymphocytic leukemia (CLL), where the clonotypic Igs are critically implicated in the disease ontogeny and evolution. Indeed, immunogenetic studies on the clonotypic Igs have strongly implicated antigen selection in the pathogenesis of CLL, while also providing robust prognostic information. In the present study, we used the structure prediction tools PIGS and I-TASSER for creating the 3D models and the TM-align algorithm to superpose them. The innovation of the current methodology resides in the usage of methods adapted from 3D content-based search methodologies to determine the local structural similarity between the 3D models. The Fast Point Feature Histograms descriptors derived from the structurally aligned parts are used to compute a distance matrix, which is then used as input for the clustering procedure. Clustering analysis on the data is performed through the application of the agglomerative and density-based clustering approaches. The first method is unsupervised whereas the second belongs to the semi-supervised type, i.e. requires a predefined number of clusters. To evaluate the quality of the herein described workflow, we performed a supervised analysis of 125 Ig 3D models originating from 5 CLL stereotyped subsets i.e. subgroups sharing (quasi) identical IGs, namely subsets #1, #2, #4, #6, #8. The reasoning behind this choice was that (i) homologous Ig primary sequences can be reasonably anticipated to be reflected in overall similar 3D structures, hence providing a reference for evaluating the developed workflow; and, (ii) these subsets are well characterized at both the clinical and biological levels. Subset size distribution was as follows: subset #1 (IGHV clan I/IGKV1(D)-39), n=37; subset #2 (IGHV3-21/IGLV3-21), n=43; subset #4 (IGHV4-34/IGKV2-30), n=22; subset #6 (IGHV1-69/IGKV3-20), n=12; and, subset #8 (IGHV4-39/IGKV1(D)-39), n=11. Overall, we obtained a high level of clustering accuracy i.e. Ig 3D model clusters matched to a very high degree the subsets defined by Ig primary sequence similarity. In detail, 5 Ig 3D model clusters were produced by: (i) cluster 1 containing 37/37 (100%) subset #1 models and one (8.3%) subset #6 model, (ii) cluster 2 containing 43/43 (100%) subset #2 models, (iii) cluster 3 containing 21/22 (95.5%) subset #4 models, (iv) cluster 4 containing 11/12 (91.7%) #6 models, and, (v) cluster 5 containing 11/11 (100%) subset #8 models along with a single (4.5%) subset #4 model (subsets #4 and #8 concern IgG CLL, in itself a rarity for CLL). These findings support that the innovative workflow described here enables robust clustering of 3D models produced from Ig sequences from patients with CLL. Furthermore, they indicate that CLL classification based on stereotypy of Ig primary sequences is likely also verified at the Ig 3D structural level. Studies are ongoing for both addressing the minor discrepancies observed here and producing the unsupervised 3D clustering of the IGs from a large series of both stereotyped and non-stereotyped CLL cases. Disclosures Rosenquist: Gilead Sciences: Speakers Bureau. Stamatopoulos: Gilead: Consultancy, Honoraria, Research Funding; Abbvie: Honoraria, Other: Travel expenses; Janssen: Honoraria, Other: Travel expenses, Research Funding; Novartis: Honoraria, Research Funding.",
+    "topics": [
+        "chronic b-cell leukemias",
+        "chronic lymphocytic leukemia",
+        "immunoglobulins",
+        "antigens",
+        "immunoglobulin g",
+        "molecular target",
+        "stereotypic movement disorder",
+        "histogram",
+        "workflow",
+        "pathogenic organism"
+    ],
+    "author_names": [
+        "Paolo Marcatili",
+        "Konstantinos Mochament",
+        "Andreas Agathangelidis",
+        "Panagiotis Moschonas",
+        "Lesley-Ann Sutton",
+        "Xiao-Jie Yan, MD PhD",
+        "Vasilis Bikos",
+        "Anna Vardi",
+        "Anna Chailyan",
+        "Niki Stavroyianni, MD",
+        "Kamilla Kj\u00e6rgaard Jensen",
+        "Achilles Anagnostopoulos",
+        "Nicholas Chiorazzi",
+        "Chrysoula Belessi",
+        "Richard Rosenquist",
+        "Paolo Ghia",
+        "Kostas Stamatopoulos, MD PhD",
+        "Anastasia Hadzidimitriou",
+        "Dimitrios Tzovaras"
+    ],
+    "author_affiliations": [
+        [
+            "Center for Biological Sequence Analysis, Department of Bio and Health Informatics, Technical University of Denmark, Lyngby, Denmark "
+        ],
+        [
+            "Information Technologies Institute, Center for Research and Technologies Hellas, Thessaloniki, Greece "
+        ],
+        [
+            "Institute of Applied Biosciences, Center for Research and Technology Hellas, Thessaloniki, Greece "
+        ],
+        [
+            "Information Technologies Institute, Center for Research and Technologies Hellas, Thessaloniki, Greece "
+        ],
+        [
+            "Department of Immunology, Genetics and Pathology, Science for Life Laboratory, Uppsala University, Uppsala, Sweden "
+        ],
+        [
+            "Karches Center for Chronic Lymphocytic Leukemia Research, The Feinstein Institute for Medical Research, Northwell Health, Manhasset, NY "
+        ],
+        [
+            "Central European Institute of Technology, Masaryk University, Brno, Czech Republic "
+        ],
+        [
+            "Hematology Department and HCT Unit, G. Papanikolaou Hospital, Thessaloniki, Greece "
+        ],
+        [
+            "Carlsberg Research Laboratory, Copenhagen, Denmark "
+        ],
+        [
+            "Hematology Department and HCT Unit, G. Papanicolaou Hospital, Thessaloniki, Greece "
+        ],
+        [
+            "Center for Biological Sequence Analysis, Department of Bio and Health Informatics, Technical University of Denmark, Lyngby, Denmark "
+        ],
+        [
+            "Hematology Department and HCT Unit, G. Papanikolaou Hospital, Thessaloniki, Greece "
+        ],
+        [
+            "Karches Center for Chronic Lymphocytic Leukemia Research, The Feinstein Institute for Medical Research, Manhasset, NY "
+        ],
+        [
+            "Hematology Department, Nikea General Hospital, Piraeus, Greece "
+        ],
+        [
+            "Department of Immunology, Genetics and Pathology, Science for Life Laboratory, Uppsala University, Uppsala, Sweden "
+        ],
+        [
+            "Division of Experimental Oncology, IRCCS San Raffaele Scientific Institute and Universit\u00e0 Vita-Salute San Raffaele, Milan, Italy"
+        ],
+        [
+            "Institute of Applied Biosciences, Center for Research and Technology Hellas, Thessaloniki, Greece "
+        ],
+        [
+            "Institute of Applied Biosciences, Center for Research and Technology Hellas, Thessaloniki, Greece "
+        ],
+        [
+            "Information Technologies Institute, Center for Research and Technologies Hellas, Thessaloniki, Greece "
+        ]
+    ],
+    "first_author_latitude": "55.78557419999999",
+    "first_author_longitude": "12.521380999999998"
 }

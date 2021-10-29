@@ -2,5 +2,44 @@
     "doi": "https://doi.org/10.1182/blood-2020-134780",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4493",
     "start_url_page_num": 4493,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Automated Baseline Fluorodeoxyglucose-Positron Emission Tomography Imaging and High BCL2 Expression Provide Orthogonal Prognostic Value in Predicting High-Risk De Novo Diffuse Large B-Cell Lymphoma Patients ",
+    "article_date": "November 5, 2020",
+    "session_type": "627.Aggressive Lymphoma (Diffuse Large B-Cell and Other Aggressive B-Cell Non-Hodgkin Lymphomas)-Results from Retrospective/Observational Studies",
+    "abstract_text": "Introduction: Diffuse large B-cell lymphoma (DLBCL) is the most common type of non-Hodgkin lymphoma, accounting for 30\u250040% of cases (Li, et al. Pathology 2017). Although rituximab (R) plus CHOP (cyclophosphamide, doxorubicin, vincristine, prednisone) cures approximately 50\u250060% of patients, clinical outcomes remain poor for those with relapsed or refractory (R/R) disease (Liu and Barta. Am J Hematol 2019). Current prognostic models such as the International Prognostic Index (IPI) have suboptimal sensitivity and specificity to identify these patients at diagnosis. Models that combine biological, clinical and imaging markers may improve prognostication in DLBCL. Methods: We evaluated fluorodeoxyglucose-positron emission tomography (FDG-PET) imaging features alongside clinical and biomarker data in modeling disease prognosis with a primary endpoint of investigator-assessed progression-free survival (PFS) for de novo DLBCL patients from the randomized phase III GOYA study (NCT01287741) comparing R-CHOP versus obinutuzumab (G)-CHOP. Imaging features were derived using a computer-vision modeling algorithm (Jemaa, et al. J Digit Imaging 2020), and included total and by-organ number and volume of lesions. The evaluable population (n=1286) was split into pre-defined training (n=964; PFS events=307) and holdout populations (n=322; PFS events=96). Baseline clinical and imaging features were dichotomized by median or a clinically relevant threshold, and screened with univariate Cox proportional hazard (PH) models ( Figure A ). Screened variables were further selected to construct a multivariate Cox PH model for risk prognosis utilizing a regularized LASSO Cox regression (Simon, et al. J Statistical Software 2011). Model performance was evaluated by area under the receiver operating characteristic curve (AUC) and C-index on the holdout population. Additional biomarker features were evaluated, including, BCL2 protein expression as determined by Ventana investigational-use only immunohistochemistry (IHC) assay, gene expression quantified by TruSeq \u00ae (Illumina) RNAseq, next generation sequencing-based genomic profiling using the FoundationOne Heme TM platform (F1H, Foundation Medicine Inc. [FMI]) and cell of origin (COO) by the Nanostring assay. Results: Total metabolic tumor volume (TMTV), total number of lesions, longest diameter of any lesion, number of kidney lesions, and number of liver lesions were selected as prognostic imaging factors for PFS in de novo DLBCL patients. Strong correlation was observed between corresponding volume and lesion number features, as expected, though collinearity appeared to otherwise be minimal ( Figure B ). Performance of the resulting model composed of these imaging variables alongside standard clinical features and treatment (AUC=0.66; C-Index=0.64) improved upon a model composed of IPI categories (AUC=0.60; C-Index=0.60). High risk, defined by log-hazard >0 was associated with reduced PFS ( Figure C ). High BCL2 expression by IHC (score >1) was prognostic for PFS independent of clinical and imaging features (HR, 2.02; CI: 1.36\u25002.98). High BCL2 was predictive of PFS in patients treated with G-CHOP over R-CHOP in de novo DLBCL patients (HR, 0.55; CI: 0.32\u25000.97) ( Figure D ). This trend held when adjusting for COO separate to imaging features. Mutational analysis using the FMI panel also indicated the additional prognostic value of BCL2 and TP53 single-nucleotide variants through selection by LASSO. Conclusions: Automated baseline imaging features and high BCL2 expression demonstrated prognostic value orthogonal to standard clinical features in predicting high-risk de novo DLBCL despite limitations imposed by sample size and multicollinearity among features. These findings support the integration of imaging, genomic and clinical factors in prognostic models to improve the identification of high-risk de novo DLBCL patients. View large Download slide View large Download slide  Disclosures Jemaa: F. Hoffmann-La Roche: Current equity holder in publicly-traded company; Genentech, Inc.: Current Employment. Tracy: Genentech, Inc.: Current Employment; F. Hoffmann-La Roche: Current Employment, Current equity holder in publicly-traded company. Bottos: F. Hoffmann-La Roche: Current Employment, Current equity holder in private company. de Crespigny: Genentech, Inc.: Current Employment; F Hoffmann-La Roche: Current equity holder in publicly-traded company. Bengtsson: Genentech, Inc.: Current Employment; F Hoffmann-La Roche: Current equity holder in publicly-traded company. Nielsen: F. Hoffmann-La Roche: Current Employment, Current equity holder in publicly-traded company. Paulson: Genentech, Inc.: Current Employment; F. Hoffmann-Roche: Current equity holder in private company, Current equity holder in publicly-traded company.",
+    "topics": null,
+    "author_names": [
+        "Skander Jemaa",
+        "Samuel Tracy",
+        "Alessia Bottos",
+        "Alex de Crespigny",
+        "Thomas Bengtsson",
+        "Tina G Nielsen",
+        "Joseph N Paulson"
+    ],
+    "author_affiliations": [
+        [
+            "Genentech, Inc., South San Francisco, CA "
+        ],
+        [
+            "Genentech, Inc., South San Francisco, CA "
+        ],
+        [
+            "F. Hoffmann-La Roche Ltd, Basel, Switzerland"
+        ],
+        [
+            "Genentech, Inc., South San Francisco, CA "
+        ],
+        [
+            "Genentech, Inc., South San Francisco, CA "
+        ],
+        [
+            "F. Hoffmann-La Roche Ltd, Basel, Switzerland"
+        ],
+        [
+            "Genentech, Inc., South San Francisco, CA "
+        ]
+    ],
+    "first_author_latitude": "37.65551464999999",
+    "first_author_longitude": "-122.38384819999999"
 }
