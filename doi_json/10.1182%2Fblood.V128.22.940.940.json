@@ -2,5 +2,91 @@
     "doi": "https://doi.org/10.1182/blood.V128.22.940.940",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3346",
     "start_url_page_num": 3346,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Clinical Application of Artificial Intelligence in Patients with Chronic Myeloid Leukemia in Chronic Phase ",
+    "article_date": "December 2, 2016",
+    "session_type": "632. Chronic Myeloid Leukemia: Therapy: TKI-Optimization and Switching",
+    "abstract_text": "Introduction Artificial intelligence (AI) has been applied to a wide range of daily activities to assist in decision-making. Randomized clinical trials can compare the efficacy of treatment between patient groups. However, the best treatment decision for each individual patient, with their own clinical and biological features, and in the context of comparable treatment options, is more difficult to predict. The integrated consideration of various prognostic features can reach the point beyond human recognition. An AI-assisted approach may help with decision-making in complex clinical situations. The aim of this study is to introduce a prototype of AI to predict outcome such as achievement of major molecular response (MMR) within 1 year of the start of tyrosine kinase inhibitor (TKI). Methods Response data for 630 patients with newly diagnosed CML-CP in consecutive prospective clinical trials of frontline imatinib (n=73; NCT00048672), high-dose imatinib (n=208; NCT00038469 and NCT00050531), nilotinib (n=148; NCT00129740), dasatinib (n=150; NCT00254423), and ponatinib (n=51; NCT01570868) were analyzed. After multiple imputation for missing variables, neural network analysis with a multilayer perceptron model using the statistically significant variables by stepwise multivariate analysis was performed to predict the cumulative incidence of MMR within 1 year. The hyperbolic tangent and softmax activation function were used to create the architecture of hidden layers and output layers, respectively. Batch training with scaled conjugate gradient optimization algorithm with learning parameters (initial Lambda of 0.0000005, initial Sigma of 0.00005, interval center of 0, and interval offset of \u00b10.5) was used to train the neural network. To evaluate the accuracy of prediction, the entire cohort was randomly divided into training dataset (70%) and test dataset (30%). The correct prediction in the test dataset was repeatedly assessed 1,000 times to validate this approach. The whole cohort was subsequently used to create the AI model for MMR prediction, and was divided into two cohorts based on the prediction by the AI; AI-predicted response, and AI-predicted nonresponse. Hypothetical choice of TKI was assumed to rank the selection of TKI among imatinib 400 mg/day, imatinib 800 mg/day, dasatinib, nilotinib, and ponatinib to calculate the estimated percentage of MMR within 1 year for each patient. The Kaplan-Meier method with a log-rank test was used for failure-free survival (FFS), transformation-free survival (TFS), event-free survival (EFS), and overall survival (OS). To balance baseline patient characteristics between cohorts, propensity score matching after propensity score calculation by logistic regression was performed with nearest neighbor matching method with a caliper of 0.20. Exact matching was used for the type of cytogenetic, transcript, and TKI. Results Of 630 patients treated, 464 (74%) achieved MMR within 1 year. The stepwise multivariate analysis identified the selection of TKI, type of transcript, white blood cell count, albumin, and spleen size at diagnosis were the predictors for MMR within 1 year. Neural network analysis with a multilayer perceptron model is shown in figure 1. Through repeated random selection for training set (70%) and test set (30%), the mean correct prediction for MMR within 1 year was 77.4% (95% confidence interval [CI], 74.2-80.5), and 76.9% (95% CI, 71.4-82.3), respectively. Of 630 patients, the neural network model predicted 539 patients (86%) as responders, and 91 patients (14%) as nonresponders (table 1). Before propensity score matching, the AI-response cohort had higher rates of CCyR, MMR, MR4, MR4.5, and CMR as well as FFS, TFS, EFS, and OS compared to those of the AI-nonresponse cohort (figure 2). After propensity score matching, 25 patients in each cohort were identified, and the baseline differences were minimized (table 1). The AI-response cohort had higher rates of MMR, MR4, and FFS than those of AI-non-response cohort (figure 2). Conclusion AI with a multilayer perceptron model can predict target outcome. Incorporation of additional clinical and biological variables may improve the prediction rates to suggest the best treatment option in each patient with CML-CP. Such strategy is ongoing. View large Download slide View large Download slide View large Download slide View large Download slide View large Download slide View large Download slide Disclosures Kantarjian: ARIAD: Research Funding; Bristol-Myers Squibb: Research Funding; Amgen: Research Funding; Pfizer Inc: Research Funding; Delta-Fly Pharma: Research Funding; Novartis: Research Funding. Jabbour: ARIAD: Consultancy, Research Funding; Pfizer: Consultancy, Research Funding; Novartis: Research Funding; BMS: Consultancy. Ravandi: BMS: Research Funding; Seattle Genetics: Consultancy, Honoraria, Research Funding. Konopleva: AbbVie: Research Funding; Genentech: Research Funding. Wierda: Novartis: Research Funding; Abbvie: Research Funding; Acerta: Research Funding; Gilead: Research Funding; Genentech: Research Funding. Daver: Pfizer: Consultancy, Research Funding; Kiromic: Research Funding; BMS: Research Funding; Otsuka: Consultancy, Honoraria; Sunesis: Consultancy, Research Funding; Karyopharm: Honoraria, Research Funding; Ariad: Research Funding.",
+    "topics": [
+        "albumins",
+        "artificial intelligence",
+        "cardiac mri",
+        "dasatinib",
+        "imatinib mesylate",
+        "leukemia, myelocytic, chronic",
+        "measles-mumps-rubella vaccine",
+        "nilotinib",
+        "ponatinib",
+        "protein-tyrosine kinase inhibitor"
+    ],
+    "author_names": [
+        "Koji Sasaki, MD",
+        "Hagop M. Kantarjian, MD",
+        "Elias J. Jabbour, MD",
+        "Susan O'Brien, MD",
+        "Farhad Ravandi, MD",
+        "Marina Konopleva, MDPhD",
+        "Gautam Borthakur, MD",
+        "William G. Wierda, MD PhD",
+        "Naval Daver, MD",
+        "Koichi Takahashi, MD",
+        "Preetesh Jain, MBBS,MDDM,PhD",
+        "Jeffrey Skinner",
+        "Mary Beth Rios, RN",
+        "Sherry Pierce, BSN, BA",
+        "Guillermo Garcia-Manero, MD",
+        "Jorge E. Cortes, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Division of Cancer Medicine, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "UCI Cancer Center, Orange, CA "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Section of Molecular Hematology and Therapy, Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX"
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ]
+    ],
+    "first_author_latitude": "29.7068146",
+    "first_author_longitude": "-95.3971547"
 }
