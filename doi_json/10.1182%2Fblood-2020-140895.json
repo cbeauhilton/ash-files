@@ -2,5 +2,44 @@
     "doi": "https://doi.org/10.1182/blood-2020-140895",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4516",
     "start_url_page_num": 4516,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Variation in Stem Cell Driven Hierarchies Underlies Clinical Outcome and Drug Response in AML ",
+    "article_date": "November 5, 2020",
+    "session_type": "617.Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
+    "abstract_text": "AML is a stem cell disease wherein the properties of the disease-driving leukemia stem cells (LSCs) are reflected in the cellular hierarchies that they generate. We sought to understand how these hierarchies vary across patients and whether their characteristics are clinically relevant. To evaluate cellular hierarchies in AML, we re-analyzed the scRNA-seq data of 13,653 cells from 12 AML patients at diagnosis (van Galen, Cell 2019) and in particular the stem and progenitor blast populations. We identified three novel leukemia stem populations differing in their depth of quiescence, inflammatory signaling, and myeloid priming. Using the signatures of 7 malignant populations as well as 7 immune cell populations from this scRNA-seq data, we applied CIBERSORTx deconvolution (Newman, Nat Biotechnol 2019) on bulk RNA-seq data from multiple patient cohorts. This enabled determination of the relative abundance of each cell type in each patient, thereby capturing the \"shape\" of the leukemic hierarchies of hundreds of AML patients. AML patients within these cohorts clustered into 4 groups defined by different proportions of stem, progenitor, and mature blasts - each of which differed in their underlying genomic alterations and overall survival. Differences in chemotherapy response were mediated by specific cell types, notably a GMP-like blast population and a quiescent stem-like population (qLSPC). Dominance of the GMP-like population was associated with longer survival (HR -3.1, p=0.002), and these blasts were enriched among younger patients ( 65 years) and patients with adverse cytogenetic alterations. Critically, this qLSPC population was enriched at relapse as well as within a subset of pediatric AML patients that failed to respond to induction chemotherapy. We confirmed that qLSPCs were also enriched among functionally validated leukemia engrafting (LSC+) sorted AML fractions. Accordingly, a high LSC17 score was strongly correlated with qLSPC abundance and anti-correlated with GMP-like abundance, suggesting that the score may reflect the underlying cellular hierarchy of each AML patient. Next, we generated drug sensitivity profiles for each cell type by correlating ex vivo drug sensitivity data for each of 112 inhibitors screened in the BEAT-AML trial with the relative abundance of each cell type across individual patients. In particular, Venetoclax sensitivity correlated with the abundance of primitive cell types and anti-correlated with mature cell types, suggesting that the composition of the leukemic hierarchy in AML patients is associated with drug response. We previously demonstrated that a high LSC17 score identifies patients who do not benefit from standard chemotherapy (Ng, Nature 2016). To develop a diagnostic tool for therapy selection amongst these poor prognosis patients, we retrained the LSC17 genes against cell type abundance and derived a subscore (LSC-7) to map patients along an axis of primitive vs mature leukemic hierarchies. We show that AML samples with a high LSC-7 score (more stem-like blasts) were more sensitive to Venetoclax whereas AML patients with a low LSC-7 score (more mature blasts) benefited from treatment with Gemtuzumab-Ozogamicin (GO). Used together, the LSC17 and LSC-7 scores enable risk stratification as well as subsequent drug selection for high-risk patients, and can both be measured by a single rapid NanoString assay. To apply this approach more broadly, we identified several published studies with drug screening data from primary patient samples and accompanying RNAseq data. By correlating cell type abundance with drug response, we were able to map the critical cell types that mediate sensitivity and resistance to inhibitors of mitochondrial metabolism, histone demethylation, and the CD47-SIRPa axis, among others. Our data establish that scRNA-seq informed deconvolution of bulk expression data permits characterization of the cellular hierarchy of individual AML patients. This framework can enhance our understanding of many aspects of biological, genomic, and clinical heterogeneity in AML, and represents a powerful tool to enable personalized therapeutic decision-making in AML. Figure View large Download slide Figure View large Download slide  Disclosures Wang: Trilium Therapeutics: Patents & Royalties. Dick: Bristol-Myers Squibb/Celgene: Research Funding.",
+    "topics": null,
+    "author_names": [
+        "Andy G.X. Zeng, BSc",
+        "Amanda Mitchell, PhD",
+        "Oleksandr Galkin, PhD",
+        "Jean C.Y. Wang, MD PhD",
+        "James A. Kennedy, MDPhD",
+        "John E. Dick, PhD FRS"
+    ],
+    "author_affiliations": [
+        [
+            "Princess Margaret Cancer Centre, University Health Network, Toronto, Canada ",
+            "Department of Molecular Genetics, University of Toronto, Toronto, Canada "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network, Toronto, Canada "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network, Toronto, Canada "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network, Toronto, Canada ",
+            "Department of Medicine, University of Toronto, Toronto, Canada "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network, Toronto, Canada ",
+            "Sunnybrook Health Sciences Centre, Toronto, Canada "
+        ],
+        [
+            "Department of Molecular Genetics, University of Toronto, Toronto, Canada ",
+            "Princess Margaret Cancer Centre, University Health Network (UHN), Toronto, Canada"
+        ]
+    ],
+    "first_author_latitude": "43.65819489999999",
+    "first_author_longitude": "-79.39059329999999"
 }
