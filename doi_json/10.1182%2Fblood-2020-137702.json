@@ -2,5 +2,68 @@
     "doi": "https://doi.org/10.1182/blood-2020-137702",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4500",
     "start_url_page_num": 4500,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Transcriptomic Features and Deregulation of Genes Involved in Monopoiesis Influence Outcomes of Patients with Chronic Myelomonocytic Leukemia ",
+    "article_date": "November 5, 2020",
+    "session_type": "632.Chronic Myeloid Leukemia: Therapy",
+    "abstract_text": "INTRODUCTION: Chronic myelomonocytic leukemia (CMML) is characterized by TET2, SRSF2, ASXL1 and RAS pathway mutations known to induce myelomonocytic bias. We have previously shown that upregulation of KDM6B, a histone demethylase that acts as an innate immune signal activator, leads to myeloid bias and expansion of immature myelomonocytic precursors and LSK cells in mice, resulting in rapid development of a myeloproliferative CMML (MP-CMML) phenotype particularly in cooperation with TET2 deletion. However, the role of genes involved in innate immunity regulation and monocyte differentiation in CMML phenotype and outcomes remains unclear. METHODS: We evaluated bone marrow aspirates from 19 patients with CMML and compared their transcriptomic features to those of healthy individuals obtained from AllCells (Emeryville, CA). CD34+ cells were isolated using the CD34 MicroBead Kit and RNA was isolated using the PicoPure RNA isolation kit. Fastq files were mapped to the human genome (build GRCh38) in TopHat2 using the default options. Differential gene expression analysis was conducted using DESeq2 in R version 3.4.2. Pathway enrichment analysis was performed using gene set enrichment analysis, with the fgsea library in R. Genes were ranked according to their Spearman correlation with the gene of interest, and this ranking was used as the input to fgsea. 10 000 gene permutations were used to calculate statistical significance, and a false discovery corrected p-value of 0.05 was required for statistical significance of a gene set. Cox regression and time ROC curves were used to study the relationship between gene expression and survival. We implemented Kaplan-Meier estimator along with optimum cutoff method to show the survival behavior in high versus low predicted model groups. RESULTS: Compared to healthy controls, a total of 1495 genes had significantly differential expression in CMML (q2) including 1271 genes which were significantly upregulated, and 224 which were significantly downregulated in CMML (Figure 1A). Gene set enrichment analysis identified 162 gene sets with differential expression in CMML compared to control (q2). In addition, 6 gene sets were differentially upregulated and 139 were significantly downregulated in pts with MP-CMML compared to MD-CMML (Figure 1C). To evaluate aberrant monopoiesis in CMML, we compared the expression of genes reported to be involved in regulation of monopoiesis among healthy controls and patients with CMML. A total of 23 genes involved in regulation of monopoiesis were found to be upregulated in CMML (Figure 1D). No significant differences in expression of these genes was found between MP-CMML and MD-CMML. To determine if aberrant expression of genes involved in monopoiesis influenced outcomes of pts with CMML, we developed a prediction model using Cox regression including 18 of these genes. Use of this model with optimum cutoffs allowed segregation of pts into two prognostic subsets with distinct survival outcomes (Figure 1E). Use of ROC curves identified high AUC particularly in pts with prolonged survival (>40 months). CONCLUSIONS: CMML is characterized by upregulation of IFN and chemokine receptor signaling which could represent potential therapeutic targets. Aberrant expression of genes involved in regulation of monopoiesis may influence prognosis in CMML. Figure View large Download slide Figure View large Download slide  Disclosures Sasaki: Otsuka: Honoraria; Pfizer Japan: Consultancy; Daiichi Sankyo: Consultancy; Novartis: Consultancy, Research Funding. Kantarjian: Sanofi: Research Funding; Pfizer: Honoraria, Research Funding; Abbvie: Honoraria, Research Funding; Amgen: Honoraria, Research Funding; BMS: Research Funding; Daiichi-Sankyo: Honoraria, Research Funding; Novartis: Honoraria, Research Funding; Immunogen: Research Funding; Actinium: Honoraria, Membership on an entity's Board of Directors or advisory committees; Ascentage: Research Funding; Adaptive biotechnologies: Honoraria; Aptitute Health: Honoraria; BioAscend: Honoraria; Delta Fly: Honoraria; Janssen: Honoraria; Oxford Biomedical: Honoraria; Jazz: Research Funding. Garcia-Manero: AbbVie: Honoraria, Research Funding; Bristol-Myers Squibb: Consultancy, Research Funding; Genentech: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Novartis: Research Funding; Onconova: Research Funding; Acceleron Pharmaceuticals: Consultancy, Honoraria; H3 Biomedicine: Research Funding; Jazz Pharmaceuticals: Consultancy; Merck: Research Funding; Amphivena Therapeutics: Research Funding; Helsinn Therapeutics: Consultancy, Honoraria, Research Funding; Astex Pharmaceuticals: Consultancy, Honoraria, Research Funding; Celgene: Consultancy, Honoraria, Research Funding.",
+    "topics": null,
+    "author_names": [
+        "Guillermo Montalban Bravo, MD",
+        "Faezeh Darbaniyan, PhD",
+        "Rashmi Kanagal-Shamanna, MD",
+        "Irene Ganan-Gomez, PhD",
+        "Koji Sasaki, MD",
+        "Kiran Naqvi, MD MPH",
+        "Yue Wei, PhD",
+        "Hui Yang, MD PhD",
+        "Kelly A. Soltysiak, PhD",
+        "Kelly S. Chien, MD",
+        "Carlos E. Bueso-Ramos, MD PhD",
+        "Hagop M. Kantarjian, MD",
+        "Guillermo Garcia-Manero, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Leukemia, University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Biostatistics, University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Hematopathology, University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX"
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX"
+        ],
+        [
+            "Department of Leukemia, University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX"
+        ],
+        [
+            "Department of Leukemia, University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Hematopathology, University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX"
+        ]
+    ],
+    "first_author_latitude": "29.707097200000003",
+    "first_author_longitude": "-95.39710199999999"
 }
