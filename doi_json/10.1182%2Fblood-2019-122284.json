@@ -2,5 +2,72 @@
     "doi": "https://doi.org/10.1182/blood-2019-122284",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4366",
     "start_url_page_num": 4366,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "IPO11 Is Upregulated in Relapsed AML and Supports Survival of Leukemic Stem Cells ",
+    "article_date": "November 13, 2019",
+    "session_type": "603.Oncogenes and Tumor Suppressors",
+    "abstract_text": "Patients with relapsed AML (Acute Myeloid Leukemia) have a poor prognosis and few therapeutic options. Therefore, it remains critical to identify biological vulnerabilities in relapsed AML cells. To identify such vulnerabilities, we analyzed mRNA expression by RNA sequencing of 11 paired diagnosis and relapsed AML samples and identified 34 genes that were upregulated at FDR <= 0.01 at relapse. In parallel, we conducted a genome-wide CRISPR screen of 91,320 barcoded gRNA in human OCI-AML2 AML cells and identified 570 genes that reduced growth and viability with a negative FDR (false discovery rate) of 0.01 or less. We then compared the upregulated genes at relapse with the genes necessary for AML growth and viability through the CRISPR screen and identified only one hit, IPO11. IPO11 is a member of the importin-\u03b2 family of proteins functions that facilitate the import of protein cargo into the nucleus. To date, 10 importin-\u03b2 family members have been identified, but only IPO11 was upregulated at AML relapse, although, importin \u03b21, TNPO3 AND IPO13 were also hits in the CRISPR screen and necessary for AML growth and viability. Therefore, we focused our study on IPO11. Using independent databases of gene expression, we confirmed that IPO11 mRNA was upregulated in LSC+ (engrafting) vs. LSC- (non-engrafting) samples (rank 125, FDR <=0.05, GSE76008), CD34+ vs CD34- LSC (rank 42, FDR <=0.05, GSE76008) and undifferentiated cluster (M0) vs. myeloid cluster M4/M5 (rank 648, FDR <=0.05, TCGA-LAML). To verify that IPO11 protein was also increased in AML stem cells, we separated 8227 low passage primary AML cells into functionally defined stem (CD34+CD38-) and bulk (CD34-CD38+) fractions. IPO11 protein was only detected in AML stem cells compared to bulk cells as measured by immunoblotting. To determine whether IPO11 is necessary for AML growth and viability, we knocked down IPO11 in OCI-AML2, TEX and NB4 leukemia cells with shRNA in lentiviral vectors. Knockdown of IPO11 induced cell cycle arrest with reduced AML growth and viability by 80-90%. In contrast, knockdown of another importin-\u03b2 family member, IPO5, that was not a hit in our CRIPSR screen did not reduce AML growth and viability. In addition, we demonstrated that knockdown of IPO11 increased differentiation of AML cells as evidenced by increased CD11b expression and staining with non-specific esterase. Finally, knockdown of IPO11 reduced the clonogeneic growth of the above-mentioned AML cell lines and engraftment of TEX cells and the low passage primary AML sample 8227 cells into immune deficient mice by over 90%. To identify cargos of IPO11 whose nuclear import is necessary for AML survival, we compared IPO11 cargo identified through a Bio-ID mass spectrometry protein-protein interaction screen with hits identified from our CRISPR screen. Through this analysis, we identified 7 hits in common to both screens, including RFC5 (replication fork complex unit 5). RFC5 is an essential DNA polymerase accessory protein, involved in telomere maintenance, DNA replication and mismatch repair. Knockdown of IPO11 decreased the nuclear localization of RFC5 in AML cells. In addition, knockdown of RFC5 in AML cells decreased AML growth and decreased clonogeneic growth. Thus, in summary, comparing genes that are upregulated in paired diagnosis and relapse AML samples to our CRISPR screen we identified IPO11 as a single hit. IPO11 knockdown reduced growth and viability, promoted differentiation, reduced CFU generation of several AML cells lines. In a mouse model we show that IPO11 knockdown dramatically reduced engraftment of leukemic cells. We further identify RFC5, a protein involved in replication and DNA damage response as one of the cargos of IPO11. Our study suggests IPO11 supports LSC survival and relapse and provides a new target for novel therapeutic intervention. Disclosures Schimmer: Otsuka Pharmaceuticals: Consultancy; Medivir Pharmaceuticals: Research Funding; Jazz Pharmaceuticals: Consultancy; Novartis Pharmaceuticals: Consultancy.",
+    "topics": [
+        "cd34 antigens",
+        "cell lines",
+        "cell nucleus",
+        "dna damage",
+        "dna-directed dna polymerase",
+        "esterase",
+        "immunoblotting",
+        "importins",
+        "leukemia",
+        "leukemia, myelocytic, acute"
+    ],
+    "author_names": [
+        "Boaz Nachmias, MD PhD",
+        "Veronique Voisin, PhD",
+        "Rose Hurren, BSc",
+        "Xioaming Wang",
+        "Neil Maclean",
+        "G. Wei Xu",
+        "Ayesh K Seneviratne, BSc, MSc",
+        "Changjiang Xu",
+        "Gary D Bader",
+        "Liran I. Shlush, MD",
+        "Aaron D Schimmer, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Division of Medical Oncology and Hematology, Princess Margaret Cancer Centre, University Health Network, Toronto, Canada "
+        ],
+        [
+            "Terrence Donnelly Centre for Cellular and Biomedical Research, University of Toronto, Toronto, Canada "
+        ],
+        [
+            "Princess Margaret Cancer Centre, Toronto, Canada "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network, Toronto, Canada "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network, Toronto, Canada "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network, Toronto, Canada "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network, Toronto, Canada "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network, Toronto, Canada "
+        ],
+        [
+            "The Donnelly Centre, University of Toronto, Toronto, Canada "
+        ],
+        [
+            "Department of Immunology, Weizmann Institute of Science, Rehovot, Israel ",
+            "Department of Immunology, The Weizmann Institute of Science, Rehovot, Israel "
+        ],
+        [
+            "Leukemia Program, Department of Medical Oncology and Hematology, Princess Margaret Cancer Centre, University Health Network, Toronto, Canada"
+        ]
+    ],
+    "first_author_latitude": "43.65819489999999",
+    "first_author_longitude": "-79.39059329999999"
 }
