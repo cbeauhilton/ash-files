@@ -2,5 +2,64 @@
     "doi": "https://doi.org/10.1182/blood-2019-123704",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4354",
     "start_url_page_num": 4354,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Modeling the Behavior of Hematopoietic Compartments from Stem to Red Cells in Murine Steady State and Stress Hematopoiesis ",
+    "article_date": "November 13, 2019",
+    "session_type": "101.Red Cells and Erythropoiesis, Structure and Function, Metabolism, and Survival, Excluding Iron",
+    "abstract_text": "Maintenance of the blood cell system throughout the lifetime of an organism at steady state and in response to stress requires longevity and integrity of the hematopoietic stem cell pool (HSC). Modeling of erythropoiesis has been previously proposed by solely considering late stages of erythropoiesis, but a model based on all hematopoietic stem and progenitor compartments, efficient in steady state as well as in stress hematopoiesis, has never been proposed. Here we report an erythropoiesis model based on a steady state approach, further complexified by integrating regulatory processes in order to establish a model able to recapitulate steady state and acute stress erythropoiesis. As a first step, we defined a stochastic model (without regulation) relied upon a minimum of 6 cell-amplification compartments to ensure a steady state production of erythroid cells based on: i- the number of LT-HSC, ii- the number of terminal mitosis to enable red cell production from mature erythroid progenitor, iii-the differential probability of differentiation versus self-renewal in each progenitor compartment, and the division rates from iv- LT-HSC and v-last mature erythroid progenitor compartment. Computer analysis was performed using Python language with an optimization method (CMA-ES: Covariance Matric Adaptation- Evolution Strategy). This model mimics well what is observed in vivo with the LT-HSC, ST-HSC, MPP, CMP, MEP and mature red blood cell compartments. We next assessed the effects of an acute stress targeting mature red blood cells such as phenylhydrazine treatment (PHZ) on these different progenitor compartments, from LT-HSC to mature red blood cells. PHZ was i.p administered (one dose of 60 mg/ Kg) , and mice were analyzed at days 0,1,3, 5, 10, 16, and 28 for blood parameters, for the proportion of the different bone marrow (BM) and spleen progenitor compartments as well as their percentages into cell cycle (BrdU incorporation), and apoptosis (Annexin V labelling). PHZ treatment induced a severe anemia, characterized by a strong fall of the hematocrit (30-50%) at day 3, followed by a rapid 10-day recovery. Regarding BM progenitor compartments, our results showed that, together with a stability in the number of BM cells, PHZ treatment drastically reduced at day 3-5 all progenitor compartments with a direct flush from LT-HSC (-75%) to mature cells without modifying apoptosis, proliferation or egress of progenitors from BM to compensate the loss of mature cells. In a second phase, a gradual replenishment of all progenitor compartments, from the most mature (MEP, CMP) to intermediate (MPP) and immature (ST-HSC and LT-HSC), with oscillations around the equilibrium reached at day 28, was observed. Such recovery was accompanied by a recruitment of LT and ST-HSC into cell cycle: \u00bc of all LT-HSC and ST-HSC cycling at day 10 compared to 2% in steady state. The former mathematical model was then applied to PHZ treatment, but a strong discrepancy occurred in the time course of red blood cell recovery, which was 3 times longer than what was observed in vivo (30 days instead of 10 days). We therefore added to the stochastic model regulations between the different compartments based on what is observed with cytokines in vivo and the modifications of the size of the progenitor compartments. This mathematic model, now complemented by addition of these regulations, recapitulated the evolution of the different progenitor compartments observed after PHZ treatment as well as in steady state. To our knowledge, this is the first multi-step modeling of hematopoiesis able to recapitulate steady state as well as stressed hematopoiesis, by taking into account the current progenitor compartments of the BM, and able to explain at the single cell level what happens during hematopoietic differentiation process. This is also the first model demonstrating that hematopoietic regulation just like cytokines effects is necessary during stress hematopoiesis but dispensable during steady state hematopoiesis. Modeling of hematopoiesis integrating heterogeneity of the cell populations as described here will allow us to study the effects of abnormal event integration in a cell population just like the effects of the emergence of a single cancer-initiating cell. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "erythrocytes",
+        "hematopoiesis",
+        "mice",
+        "steady state",
+        "stress",
+        "cytokine",
+        "anemia",
+        "annexin a5",
+        "bromodeoxyuridine",
+        "cancer"
+    ],
+    "author_names": [
+        "Celine Bonnet, BSc",
+        "Panhong Gou, BSc",
+        "Vincent Bensaye, PhD Associate Professor",
+        "Catherine Lacout, Ingeneer",
+        "Karine Bailly, Ingeneer",
+        "Marie-helene Schlagetter, MD PhD",
+        "Evelyne Lauret, PhD",
+        "Sylvie Meleard, PhD Professor",
+        "Stephane Giraudier, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Ecole Polytechnique, Centre de Math\u00e9matiques appliqu\u00e9es, Palaiseau, France "
+        ],
+        [
+            "INSERM UMR-S1131, Institut Universitaire d'H\u00e9matologie, Universit\u00e9 Paris-Diderot, Paris, France "
+        ],
+        [
+            "Ecole Polytechnique. Centre de math\u00e9matique Appliqu\u00e9e, Palaiseau, France "
+        ],
+        [
+            "INSERM- UMRS1131, Paris, France "
+        ],
+        [
+            "INSTITUT COCHIN, PARIS, FRA "
+        ],
+        [
+            "INSERM UMRS-1131, Paris, France "
+        ],
+        [
+            "INSTITUT COCHIN, PARIS, FRA "
+        ],
+        [
+            "Ecole Polytechnique. Centre de Mathematiques appliqu\u00e9es, Paris, France "
+        ],
+        [
+            "INSERM UMR-S1131, Institut Universitaire d'H\u00e9matologie, Universit\u00e9 Paris-Diderot, Assistance Publique-H\u00f4pitaux de Paris H\u00f4pital Saint-Louis, Paris, France ",
+            "Service de Biologie Cellulaire, AP-HP, Hopital Saint-Louis, Paris, France"
+        ]
+    ],
+    "first_author_latitude": "48.714011199999995",
+    "first_author_longitude": "2.2077481"
 }
