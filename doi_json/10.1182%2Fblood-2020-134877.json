@@ -2,5 +2,48 @@
     "doi": "https://doi.org/10.1182/blood-2020-134877",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4663",
     "start_url_page_num": 4663,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Prognostic Model Incorporating Tumor Lesion Morphology and Texture Features Identifies High-Risk Patient Subpopulations in De Novo DLBCL and FL ",
+    "article_date": "November 5, 2020",
+    "session_type": "627.Aggressive Lymphoma (Diffuse Large B-Cell and Other Aggressive B-Cell Non-Hodgkin Lymphomas)-Results from Retrospective/Observational Studies",
+    "abstract_text": "Background: Despite effective first-line (1L) treatment options for patients with NHL almost 40% of patients with diffuse large B cell lymphoma (DLBCL) will have a poor response or disease progression after 1L treatment. In follicular lymphoma (FL) 15-20% of patients experience early relapse, and almost 8% may develop transformation to more aggressive forms of the disease (such as DLBCL) after 1L treatment. More accurate identification of patients at high-risk for a poor prognosis with the standard of care could lead to improved outcomes. Although the International Prognostic Index (IPI) and its FL extension (FLIPI) are often used to stratify patients by prognosis, they have relatively modest sensitivity and specificity for predicting individualized risk. Radiomics is a promising approach to improve upon existing prognostic models because it provides a comprehensive quantification of tumor lesion morphology and texture derived from FDG-PET scans and may provide new and important information about disease biology and progression risk on an individual level. Methods: A collection of 107 radiomics features [pyradiomics v2.20] that describe shape, size or volume and texture of tumor lesions, including complex features that are believed to reflect the underlying biological tumor phenotype and microenvironment, were derived for n=1093 de novo DLBCL patients with available baseline FDG-PET scans from the Phase III GOYA study (NCT01287741) evaluating obinutuzumab plus CHOP chemotherapy (G-CHOP) versus rituximab plus CHOP chemotherapy (R-CHOP) (Vitolo, et al. J Clin Oncol 2017). The same set of features were also extracted from n=451 de novo FL patients with available baseline FDG-PET scans from the Phase III GALLIUM study (NCT01332968) comparing obinutuzumab plus chemotherapy with rituximab plus chemotherapy [Marcus, et al. N Engl J Med 2017]. To investigate the association between the derived radiomics features along with baseline clinical variables and progression-free survival (PFS), a Cox proportional hazard model with L1 regularization was trained and internally validated using the GOYA study. We used a nested Monte Carlo Cross Validation (nMCCV) strategy to train our model and provide high- and low-risk group predictions on held-out samples of data. This modeling strategy allows us to make a group prediction on all GOYA patients while reducing overfitting. To evaluate prognostic performance, we ported the final model trained using the GOYA study (called the Li prognostic model) to the fully independent GALLIUM study. Results: Using our nMCCV approach we identified 11 factors, with an inclusion probability of >50%, that are associated with PFS of DLBCL patients ( Figure A ). Included within the top features are several image-derived morphometric (i.e. metabolic tumor volume, surface area) and radiomics features (i.e. tumor elongation, NGTDM contrast, GLCM inverse variance). When stratifying patients on the predicted (via majority vote) low-risk vs high-risk groupings we found that our high-risk group had significantly worse prognosis vs the low-risk group ( Figure B ). In comparison, the high-risk group from the IPI model (defined as IPI > 2) had significantly worse prognosis vs the low-risk group, but the performance was slightly worse than our model ( Figure C ). PFS probability estimates at 2 and 5 years for predicted high-risk patients was 72.7% [70.0-76.6] and 59.8% [54.8-65.2] (vs 74% [70.0-78.2] and 60.4% [55.1-66.2] for the IPI model). After training and testing in the DLBCL population, we evaluated the prognostic performance of our model in an independent set of FL patients. We found that high-risk FL patients had a significantly worse prognosis than the low-risk group ( Figure D ). PFS probability estimates at 2 and 5 years for predicted high-risk patients was 77.4% [69.8-85.8] and 48.9% [39.5-60.5] (vs. 80% [0.748-0.856] and 58.3% [51.6-65.9] in the full group). Conclusions: Radiomics features are prognostic in DLBCL and provide a modest improvement in prognostic performance when combined with traditional IPI scores, clinical features, and lab values (vs IPI alone). Our prognostic signature, developed in DLBCL, has significant prognostic performance in an independent dataset of patients with FL. While these results are promising, our FL validation dataset was relatively small and further evidence is required to confirm our findings. View large Download slide View large Download slide  Disclosures Li: Genentech, Inc.: Current Employment; F. Hoffmann-La Roche: Current Employment, Current equity holder in publicly-traded company. Jemaa: F. Hoffmann-La Roche: Current equity holder in publicly-traded company; Genentech, Inc.: Current Employment. Carano: F. Hoffmann-La Roche: Current equity holder in publicly-traded company; Genentech, Inc.: Current Employment. Bengtsson: Genentech, Inc.: Current Employment; F. Hoffmann-La Roche: Current equity holder in publicly-traded company. Paulson: F. Hoffmann-La Roche: Current equity holder in private company, Current equity holder in publicly-traded company; Genentech, Inc.: Current Employment. Jansen: F. Hoffmann-La Roche: Current Employment; Molecular Health GmbH: Ended employment in the past 24 months; F. Hoffmann-La Roche, Abbvie, Alphabet, other (non-healthcare), indexed funds and ETFs: Current equity holder in publicly-traded company. Nielsen: F. Hoffmann-La Roche: Current Employment, Current equity holder in publicly-traded company. Hibar: Genentech, Inc.: Current Employment; F. Hoffmann-La Roche: Current equity holder in publicly-traded company.",
+    "topics": null,
+    "author_names": [
+        "Xiao Li",
+        "Skander Jemaa",
+        "Richard AD Carano",
+        "Thomas Bengtsson",
+        "Joseph N Paulson",
+        "Gunther Jansen",
+        "Tina G Nielsen",
+        "Derrek P Hibar"
+    ],
+    "author_affiliations": [
+        [
+            "Genentech, Inc., South San Francisco, CA "
+        ],
+        [
+            "Genentech, Inc., South San Francisco, CA "
+        ],
+        [
+            "Genentech, Inc., South San Francisco, CA "
+        ],
+        [
+            "Genentech, Inc., South San Francisco, CA "
+        ],
+        [
+            "Genentech, Inc., South San Francisco, CA "
+        ],
+        [
+            "F. Hoffmann-La Roche Ltd, Basel, Switzerland"
+        ],
+        [
+            "F. Hoffmann-La Roche Ltd, Basel, Switzerland"
+        ],
+        [
+            "Genentech, Inc., South San Francisco, CA "
+        ]
+    ],
+    "first_author_latitude": "37.65551464999999",
+    "first_author_longitude": "-122.38384819999999"
 }
