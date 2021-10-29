@@ -2,5 +2,56 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-111390",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4049",
     "start_url_page_num": 4049,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Comprehensive Single-Cell RNA-Sequencing Mapping of Primary Acute Myeloid Leukemias and Profiling of NPM1-Mutated Cells ",
+    "article_date": "November 29, 2018",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Integrating Genomics into Risk Stratification and Therapeutic Decisions",
+    "abstract_text": "Introduction: Acute myeloid leukemia (AML) evolution is a multistep process in which cells evolve from hematopoietic stem and progenitor cells (HSPCs) that acquire genetic anomalies, such as chromosomal rearrangements and mutations, which define distinct subgroups. Mutations in Nucleophosmin 1 ( NPM1 ), which occur in ~30% patients, are the most frequent subgroup-defining mutations in AML and appear to be a late driver event in this disease. Bulk RNA-sequencing studies have identified differentially expressed genes between AML subgroups, but they are uninformative of the composition of cell types populating each sample. Large scale Single-cell RNA sequencing (scRNA-seq) technologies now enable a detailed characterization of intra tumoral heterogeneity, and could help to better understand the stepwise evolution from normal to malignant cells. Methods: Twelve primary human AML specimens from MSKCC and Quebec Leukemia Cell Bank, including 8 with NPM1 mutations, were included in this cohort. Cells were subjected to scRNA-seq using 10X Genomics Chromium Single Cell 3' protocols and libraries were sequenced on Illumina HiSeq or NovaSeq platforms. FASTQ files were processed using SEQC pipeline (Azizi E et al, Cell 2018), resulting in a carefully filtered count matrix of > 100,000 single cells (4877 to 11532 cells per sample). Results: Using euclidean distance metrics and t-Distributed Stochastic Neighbor Embedding (t-SNE) visualization, we explored the phenotypic overlap between samples and showed that leukemia cells from different patients were mostly dissimilar, suggesting inter-sample heterogeneity. However, samples with similar morphology and similar NPM1 mutational status were phenotypically closer (Fig A), as anticipated from bulk RNA-sequencing data (TCGA, NEJM 2013). We partitioned cells into distinct clusters using Phenograph (Levine J et al , Cell 2015) (Fig B) and measured the diversity of samples per cluster using Shannon's entropy metric, revealing that mature cell types (B/plasma cells, T/NK and erythroid cells, Fig C), presumably excluded from the tumor bulk, are transcriptionally similar across samples. Most notably, the next most diverse cluster (C36), comprising 438 cells from 11/12 samples, contains cells with a HSPC-like phenotype, as suggested by i) highest correlation of the centroid of this cluster with HSC1 (lin-/CD133+/CD34dim) population from sorted bulk RNA-sequencing data (Novershtern N et al , Cell 2011), and ii) marked GSEA enrichment for stem cell signatures (top enrichment: Jaatinen_hematopoeitic_stem_cell_up, NES = 9.04, FDR q-val = 0). To study the extent to which NPM1 or other mutations drive heterogeneity in leukemia populations, we interrogated 3'-derived single-cell sequences for all recurrent mutations in AML and found that NPM1 gene has unique features (e.g. relatively high single-cell expression and 3' localization) that allow specific identification of mutations in 5 to 34% of cells per mutated sample. To control for the high frequency of false negatives caused by dropouts in scRNA-seq data, we normalized the abundance of mutated vs wild-type cells to provide an estimation of mutation frequency in different cell types (Fig D). As expected, NPM1 mutations were rare in B and T/NK lymphoid cells (also observed using RT-qPCR in sorted populations by Dvorakova D et al, Leuk Lymphoma 2013) and were found in the majority of leukemia and myeloid cells. Interestingly, these mutations were detected at various frequencies in erythroid cells, suggesting that NPM1 mutations are acquired in cells with different lineage commitment in different patients. Most notably, the HSPC-like cluster C36 also contained a subpopulation of cells that have acquired NPM1 mutations and are transcriptionally different from wild-type cells. Conclusion: This study presents a first comprehensive single-cell map of primary AML, and the first 3'-based interrogation of mutations in single cells. It led to the identification phenotypically distinct cells presenting a HSPC-like expression profile which were sub-clonally harboring NPM1 mutations, providing the means to identify deregulated genes in these important leukemia subpopulations. Figure View large Download slide Figure View large Download slide  Disclosures Levine: Epizyme: Patents & Royalties; Celgene: Consultancy, Research Funding; Janssen: Consultancy, Honoraria; Isoplexis: Equity Ownership; C4 Therapeutics: Equity Ownership; Prelude: Research Funding; Gilead: Honoraria; Imago: Equity Ownership; Novartis: Consultancy; Roche: Consultancy, Research Funding; Loxo: Consultancy, Equity Ownership; Qiagen: Equity Ownership, Membership on an entity's Board of Directors or advisory committees.",
+    "topics": [
+        "leukemia, myelocytic, acute",
+        "mutation",
+        "npm1 gene",
+        "sequence analysis, rna",
+        "leukemia",
+        "rna, small cytoplasmic",
+        "chromium",
+        "false-negative results",
+        "lymphoma",
+        "neoplasms"
+    ],
+    "author_names": [
+        "Vincent-Philippe Lavallee, MD",
+        "Elham Azizi, PhD",
+        "Vaidotas Kiseliovas",
+        "Ignas Masilionis",
+        "Linas Mazutis, PhD",
+        "Ross L. Levine, MD",
+        "Dana Pe'er, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY ",
+            "Institute for Research in Immunology and Cancer (IRIC), Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, Canada "
+        ],
+        [
+            "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Center for Hematologic Malignancies, Memorial Sloan Kettering Cancer Center, New York, NY"
+        ],
+        [
+            "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ]
+    ],
+    "first_author_latitude": "40.7645095",
+    "first_author_longitude": "-73.95644455"
 }
