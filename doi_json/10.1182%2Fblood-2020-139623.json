@@ -2,5 +2,50 @@
     "doi": "https://doi.org/10.1182/blood-2020-139623",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4566",
     "start_url_page_num": 4566,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Accurate Prediction of Gene Mutations with Flow Cytometry Immune-Phenotyping By Machine Learning Algorithm ",
+    "article_date": "November 5, 2020",
+    "session_type": "617.Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
+    "abstract_text": "Introduction Identification of gene mutation status prior treatment has improved our capability in risk stratifying acute myeloid leukemia (AML) patients greatly, but it is really a labor-exhausting work to identify these mutations. In this this study, we hypothesize immunophenotyping could predict gene mutation and we aim to develop machine learning algorithms that could predict the AML gene mutation status with the immunophenotype by clinical flow cytometry. Method Retrospective clinical data of patients with AML, including demographic (age & gender), molecular genetics, cytogenetics as well as flow cytometry (FC) data at National Taiwan University Hospital were collected. A total of 529 newly diagnosed de novo AML from 2009 to 2019 enrolled this study. The median age at diagnosis was 58 years (Table 1). In total, 428 NPM1, 415 FLT3, 331 CEBPA and 338 RUNX1 gene testing results and a total of 529 initial diagnostic FC data from these patients were used in developing the gene mutation prediction models. Each FC data sample contained 100,000 cells acquired on FACSCantoII machine 6 fluorescent channels with multiple fluorescent markers. The markers measured are listed in Table 2. There were 19 combinations of markers and fluorescent channels which were served as feature inputs of the machine learning framework. Our proposed machine learning framework can be divided as a phenotype representation learning paradigm and a classification model. To derive the phenotype representation, we trained a multivariate Gaussian Mixture Model (GMM) on the 19-dimension FC data to capture the training data distribution and characteristics in a probabilistic unsupervised manner. Then, a Fisher-scoring method was used to vectorize each sample as a high dimensional representation via differential computation in terms of the learned GMM parameters. This Fisher vectorization method transformed samples to a high dimensional feature space as phenotype vectors. We performed analysis of variance (ANOVA)-based feature selection on these representations which were finally fed into the support vector machine (SVM) classifier. To alleviate the negative effects of imbalance classes in gene mutation identification tasks, we applied synthetic minority oversampling technique (SMOTE) algorithm which augmented the minority class by interpolating samples near support vectors. We train independent SVM models to detect the occurrences of the four gene mutation. The algorithm is evaluated by randomly divided 5-fold cross validation which separates 80% data for training and 20% for testing. Results This gene mutation rate of this cohort for NPM1, FLT3, CEBPA and RUNX1 were 22.2% (95/428), 25.1% (104/415), 20.2% (67/331), and 13.6% (46/338), respectively. The average accuracies (ACC) of the prediction model performance for NPM1, FLT3, CEBPA and RUNX1 were 82.6%, 76.3%, 84.2% and 84.1%, respectively, whereas the area under the ROC curve (AUC) were 77.9%, 63.4%, 80.7% and 67.7%, respectively (Table. 3). Conclusions We demonstrated the potential of the correlation of recurrent AML gene mutation status with immunophenotype of AML through our preliminary gene mutation prediction model. Further study with larger cohorts followed by external validation are needed to further evaluate the feasibility of using machine learning based algorithm as one of triage tools to support physicians in aggressive AML clinical decision before receiving molecular genetic reports. View large Download slide View large Download slide  Disclosures Ko: Roche: Honoraria.",
+    "topics": null,
+    "author_names": [
+        "Bor-Sheng Ko, MD PhD",
+        "Yu-Fen Wang, MS",
+        "Jeng-Lin Li, BS",
+        "Hsin-An Hou",
+        "Wen-Chien Chou, MD PhD",
+        "Hwei-Fang Tien, MD, PhD",
+        "Ting-Yu Chang, M.S.",
+        "Chi-Chun Lee, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan ",
+            "Department of Hematological Oncology, National Taiwan University Cancer Center, Taipei, Taiwan "
+        ],
+        [
+            "AHEAD Medicine, Berkeley, CA ",
+            "Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+        ],
+        [
+            "Department of Electrical Engineering, National Tsing Hua University, Hsinchu, Taiwan "
+        ],
+        [
+            "National Taiwan University Hospital, Taipei, TWN "
+        ],
+        [
+            "Department of Laboratory Medicine, National Taiwan University Hospital, Taipei, Taiwan"
+        ],
+        [
+            "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+        ],
+        [
+            "AHEAD Medicine, Berkeley, CA "
+        ],
+        [
+            "Department of Electrical Engineering, National Tsing Hua University, Hsinchu, Taiwan "
+        ]
+    ],
+    "first_author_latitude": "25.0407391",
+    "first_author_longitude": "121.51898630000001"
 }
