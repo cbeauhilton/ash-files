@@ -2,5 +2,107 @@
     "doi": "https://doi.org/10.1182/blood-2019-126128",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4207",
     "start_url_page_num": 4207,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "The Children's Hospital-Acquired Thrombosis (CHAT) Consortium Admission Risk-Assessment Models from Traditional Biostatistics and Machine Learning ",
+    "article_date": "November 13, 2019",
+    "session_type": "331.Pathophysiology of Thrombosis",
+    "abstract_text": "Introduction Incidence of pediatric hospital-acquired venous thromboembolism (HA-VTE) is increasing raising concern for acute and chronic sequelae and impact on the health care system. This has prompted many pediatric centers to implement prophylaxis programs despite the lack of a validated risk-assessment model (RAM) or evidence of a favorable risk/benefit ratio for pharmacologic prophylaxis. The multi-center Children's Hospital-Acquired Thrombosis (CHAT) Consortium was created in 2014 to derive RAMs with subsequent prospective validation (i.e. CHAT 1901, the second study from the CHAT Consortium). We present the CHAT RAMs using traditional biostatistical (CHAT-TB) and machine learning (CHAT-ML) methods. Methods The first project of the CHAT Consortium was an eight-center, retrospective, case-control study of subjects aged 0-21 years diagnosed with a radiographic-confirmed, symptomatic HA-VTE and frequency-matched controls (by year and hospital) from January 1, 2012 through December 31, 2016. Controls were randomly sampled from the complete list of children without HA-VTE hospitalized and the sampling proportion of controls with hospital stay < 48 hours was 20%. CHAT-TB: Weighted logistic regression examined univariate effects of variables known at baseline (prior to and on day of admission) on incidence of symptomatic HA-VTE. Key predictors with sufficient frequency and significance in univariate analyses progressed as candidates in the multivariable RAM developed via the Lasso method. Clinically important interaction effects were tested separately and considered a candidate predictor when the p-value of the interaction term was < 0.10. Five approximately equal-sized samples were used for internal validation. The RAM was built independently in each sub-sample and the model fit was tested in the n - sub-sample cohort. Receiver operating characteristic (ROC) curves were used to assess performance in both a model re-substitution and average of the 5-sample internal validation subsets. CHAT-ML: We developed and evaluated four machine learning (ML) models (adaptive boosting, random forest, gradient boosting, and logistic regression), and the most accurate RAM was selected by comparing the relationship of model specificity and sensitivity in ROC curves. ML modelling consists of: pre-processing and feature extraction, data profiling and exploration, model selection, training, and testing, model re-calibration in partnership with subject-matter experts. With more than 250 variables for each patient, lasso regression was utilized to reduce the number of features to have only those with non-zero weight in the regression. We then divided the dataset into training (n=1250) and test (n=540) groups and report the F1 score, i.e. the harmonic mean of precision (i.e. positive predictive value) and recall (i.e. sensitivity) which is used to measure accuracy of a ML classifier. Results Demographics are summarized in Table 1. CHAT-TB: Significant predictors from the weighted logistic regression model are shown in Table 2 and ROC curves from the model re-substitution and 5-sample internal validation demonstrate precision with AUC of 79.9% (CI: 77.7-82.1%) and 77.9% (75.6-80.2%), respectively. CHAT-ML: Significant clinical variables included: change in mobility as assessed by BradenQ scoring, CVC, congenital heart disease, presence of a complex chronic condition (Feudtner 2014), contraindication to VTE prophylaxis (Table 3), ICU admission, infection, and change in platelet count. Figure 1 shows that gradient boosting outperformed other models via area under the ROC curve (AUC=0.95) and F1-score (0.89). Adaptive boosting also performed well with AUC=0.93 and F1-score (0.87). Discussion We present two novel RAMs from the CHAT Consortium. The CHAT RAM-TB and RAM-ML demonstrate sufficient performance for prospective validation and RAM-ML shows a stronger AUC. CHAT 1901 is designed to validate the RAMs, assess performance individually and comparatively, and develop risk-assessment calculators for clinical use and/or integration into the electronic health record (specific to the CHAT-ML, a visual analytics application will provide an interface for clinicians to enter information on significant predictors and receive a calculated risk score). View large Download slide View large Download slide  Disclosures Mahajerin: Spark: Speakers Bureau; Genentech: Consultancy, Speakers Bureau; Kedrion: Membership on an entity's Board of Directors or advisory committees; Alexion: Speakers Bureau. Jaffray: CSL Behring: Research Funding. Croteau: Bayer: Consultancy, Honoraria; CSL Behring: Consultancy, Honoraria; Shire: Consultancy, Honoraria; Novo Nordisk: Consultancy, Honoraria, Research Funding; Spark Therapeutics: Research Funding; Pfizer: Research Funding; Genentech: Consultancy, Honoraria; Octapharma: Honoraria; Genentech: Consultancy, Honoraria; Octapharma: Honoraria. Silvey: Genentech: Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Bayer: Membership on an entity's Board of Directors or advisory committees. Goldenberg: NIH: Other: research support and salary support. Young: Kedrion: Consultancy, Honoraria; Novo Nordisk: Consultancy, Honoraria; Spark: Consultancy, Honoraria; Shire/Takeda: Consultancy, Honoraria; Uniqure: Consultancy, Honoraria; CSL Behring: Consultancy, Honoraria; Freeline: Consultancy, Honoraria; Genentech/Roche: Consultancy, Honoraria, Research Funding; Bioverativ/Sanofi: Consultancy, Honoraria; Grifols: Consultancy, Honoraria.",
+    "topics": [
+        "child",
+        "machine learning",
+        "risk assessment",
+        "thrombosis",
+        "biometry",
+        "venous thromboembolism",
+        "tuberculosis",
+        "calibration",
+        "central venous catheterization",
+        "central venous catheters"
+    ],
+    "author_names": [
+        "Arash Mahajerin, MD MS",
+        "Julie Jaffray, MD",
+        "Amy Stillings",
+        "Emily Krava",
+        "Jemily Malvar, MS",
+        "Lingyun Ji, PhD",
+        "Richard Sposto, PhD",
+        "John H. Fargo, DO",
+        "James D. Cooper, MD",
+        "Stacy E. Croteau",
+        "Michael Silvey, DO",
+        "Nihal Bakeer, MBBS",
+        "Ali Jalali, MSME, PhD",
+        "Hannah Lonsdale, BSc, MBChB",
+        "Luis Ahumada, PhD",
+        "Neil A. Zakai, MD MSc",
+        "E Vince S Faustino, MD MHS",
+        "Neil A Goldenberg, MD PhD",
+        "Guy Young, MD",
+        "Brian R. Branchford, MD"
+    ],
+    "author_affiliations": [
+        [
+            "CHOC Children's Hospital, Irvine, CA "
+        ],
+        [
+            "Children's Hospital of Los Angeles, Los Angeles, CA "
+        ],
+        [
+            "Children's Hospital Los Angeles, Los Angeles, CA "
+        ],
+        [
+            "Children's Hospital Los Angeles, Los Angeles, CA "
+        ],
+        [
+            "Children's Hospital Los Angeles, Los Angeles, CA "
+        ],
+        [
+            "Department of Preventive Medicine, Keck School of Medicine, University of Southern California, Los Angeles, CA "
+        ],
+        [
+            "Children's Center for Cancer and Blood Disorders, Children's Hospital Los Angeles, Los Angeles, CA "
+        ],
+        [
+            "Akron Children's Hospital, Akron, OH "
+        ],
+        [
+            "Childrens Hospital of Pittsburgh, Pittsburgh, PA "
+        ],
+        [
+            "Children's Hospital Boston, Boston, MA "
+        ],
+        [
+            "Childrens Mercy Hospital, Kansas City, MO "
+        ],
+        [
+            "Indiana Hemophilia and Thrombosis Center, Indianapolis, IN "
+        ],
+        [
+            "Health Informatics, Johns Hopkins All Children's Hospital, St. Petersburg, FL "
+        ],
+        [
+            "Department of Anesthesia and Pain Medicine, Johns Hopkins All Children's Hospital, St. Petersburg, FL "
+        ],
+        [
+            "Health Informatics, Johns Hopkins All Children's Hospital, St. Petersburg, FL "
+        ],
+        [
+            "Fletcher Allen Health Care, University of Vermont, Burlington, VT "
+        ],
+        [
+            "Department of Pediatrics, Yale School of Medicine, New Haven, CT "
+        ],
+        [
+            "Clinical and Translational Research Organization, Johns Hopkins All Children's Hospital, St Petersburg, FL "
+        ],
+        [
+            "Children's Hospital Los Angeles, Los Angeles, CA "
+        ],
+        [
+            "University of Colorado Hemophilia and Thrombosis Center, University of Colorado School of Medicine, Department of Pediatrics, Section of Hematology/Oncology, Westminster, CO"
+        ]
+    ],
+    "first_author_latitude": "33.78062510000001",
+    "first_author_longitude": "-117.8660831"
 }
