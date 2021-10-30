@@ -2,5 +2,74 @@
     "doi": "https://doi.org/10.1182/blood.V124.21.2568.2568",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2841",
     "start_url_page_num": 2841,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Prediction of Allogeneic HSCT Related Mortality in Acute Leukemia: Exploring Boundaries of Prediction through Machine Learning Based Modeling. a Data Mining Study from the Acute Leukemia Working Party (ALWP) of the EBMT ",
+    "article_date": "December 6, 2014",
+    "session_type": "732. Clinical Allogeneic Transplantation: Results: Poster II",
+    "abstract_text": "Background: Allogeneic hematopoietic stem cell transplantation (allo-HSCT) has been shown to increase survival and induce cure of acute leukemia (AL). Unfortunately, transplant related mortality (TRM) remains high. Risk scores, based on a conventional statistical approach, have been developed for TRM prediction. These have been well validated. Nevertheless, predictive performance is sub-optimal; thus, limiting clinical utility. Factors impeding prediction might be attributed to the statistical methodology, number and quality of features collected, or simply the size of the population analyzed. We set to explore these factors, using a novel computational approach, based on machine learning algorithms (ML). ML is a subfield of computer science and artificial intelligence that deals with the construction and study of systems that can learn from data, rather than follow only explicitly programmed instructions. Commonly applied in complex data scenarios, such as financial and technological settings, it may be suitable for outcome prediction if the field of HSCT. Study design: Using a cohort of 28,236 adult allo-HSCT recipients from the ALWP registry of the EBMT, transplanted between 2000-2011, owing to Acute Myeloid Leukemia or Acute Lymphoblastic Leukemia, and containing 24 variables (i.e., patient, leukemia, donor, and transplant characteristics) we devised a two phase data mining study 1) Development of ML based prediction models for day 100 TRM; 2) In- silico analysis (i.e., performed through a computerized simulation) of the developed models. Factors necessary for optimal prediction were explored: type of model, size of data set, number of necessary variables, and performance in specific subpopulations; Model development and analysis were performed with \"WEKA\" a data mining suite. The area under the receiver operating characteristic curve (AUC) is a commonly used evaluation method for binary choice problems, which involve classifying an instance as either positive or negative. A perfect model will score an AUC of 1, while random guessing will score an AUC of around of 0.5. The AUC was used as measure of predictive performance for the developed models. Results: We developed six machine learning based prediction models for TRM at day 100. Optimal AUCs ranged from 0.65-0.68. Predictive performance plateaued for a population size ranging from n=5647-8471, depending on the algorithm ( Figure 1 ). A feature selection algorithm ranked variables according to importance. Provided with the ranked variable data, we discovered that a range of 6-12 ranked variables were necessary for optimal prediction, depending on the algorithm ( Figure 2 ). Predictive performance of models developed for specific subpopulations, ranged from an average of 0.59 to 0.67 for patient in second complete remission and patients receiving reduced intensity conditioning respectively. Conclusions: We present a novel computational approach for prediction model development and analysis in the field of HSCT. Using data commonly collected on transplant patients, our simulation elucidate outcome prediction limiting factors. Regardless of the methodology applied, predictive performance converged when sampling more than 5000 patients. Few variables (approximately 6-12), \"carry the weight\" with regard to predictive influence. In summary, the presented findings describe a phenomenon of predictive saturation, with data traditionally collected. Improving the current performance will likely require additional types of input like genetic, biologic and procedural factors. Figure 1 View large Download slide Figure 1 View large Download slide Figure 2 View large Download slide Figure 2 View large Download slide Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "allogeneic hematopoietic stem cell transplant",
+        "data mining",
+        "leukemia, acute",
+        "machine learning",
+        "hematopoietic stem cell transplantation",
+        "transplantation",
+        "allopurinol",
+        "acute lymphocytic leukemia",
+        "complete remission",
+        "leukemia"
+    ],
+    "author_names": [
+        "Roni Shouval, MD",
+        "Myriam Labopin, MD",
+        "Ron Unger, PhD",
+        "Sebastian Giebel",
+        "Fabio Ciceri, MD",
+        "Christoph Schmid, MD",
+        "Jordi Esteve, MD PhD",
+        "Fr\u00e9d\u00e9ric Baron, MD PhD",
+        "Bipin N. Savani, MD",
+        "Mohamad Mohty, MD PhD",
+        "Arnon Nagler, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Division of Hematology and Bone Marrow Transplantation, Chaim Sheba Medical Center, Tel-Hashomer, Ramat- Gan, Israel ",
+            "Department of Computational Biology and Bioinfromatics, The Mina and Everard Goodman Faculty of Life Sciences, Bar-Ilan University, Ramat-Gan, Israel ",
+            "The Chaim Sheba Medical Center, Tel-Hashomer, Tel-Hashomer, Israel "
+        ],
+        [
+            "EBMT Acute Leukemia Working Party and Registry, Paris, France "
+        ],
+        [
+            "Department of Computational Biology and Bioinfromatics, The Mina and Everard Goodman Faculty of Life Sciences, Bar-Ilan University, Ramat-Gan, Israel "
+        ],
+        [
+            "Maria Sklodowska-Curie Memorial Cancer Center and Institute of Oncology, Gliwice Branch, Gliwice, Poland "
+        ],
+        [
+            "San Raffaele Scientific Institute, Milano, Italy "
+        ],
+        [
+            "Department of Hematology and Oncology, Klinikum Augsburg, Ludwig-Maximilians-University, Munich, Germany "
+        ],
+        [
+            "Hospital Cl\u00ednic, IDIBAPS, Barcelona, Spain "
+        ],
+        [
+            "University of Li\u00e8ge, Liege, Belgium "
+        ],
+        [
+            "Vanderbilt University Medical Center, Nashville, TN "
+        ],
+        [
+            "Service d'H\u00e9matologie et Th\u00e9rapie Cellulaire, AP-HP, UPMC Universit\u00e9 Paris 6, UMR-S 938, CEREST-TC EBMT, H\u00f4pital Saint Antoine, Paris, France "
+        ],
+        [
+            "EBMT Acute Leukemia Working Party and Registry, Paris, France ",
+            "EBMT Acute Leukemia Working Party and Registry, Hematology Division, BMT and Cord Blood Bank, Tel-Aviv University, Chaim Sheba Medical Center, Tel-Hashomer, Ramat- Gan, Israel"
+        ]
+    ],
+    "first_author_latitude": "32.047284499999996",
+    "first_author_longitude": "34.8427175"
 }
