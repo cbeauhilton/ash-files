@@ -2,5 +2,47 @@
     "doi": "https://doi.org/10.1182/blood-2019-124070",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4212",
     "start_url_page_num": 4212,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Unique Monocyte Transcriptome Discriminates Sickle Cell Disease from Other Hereditary Hemolytic Anemias and Shows the Particular Importance of Lipid and Interferon Signaling ",
+    "article_date": "November 13, 2019",
+    "session_type": "113.Hemoglobinopathies, Excluding Thalassemia-Basic and Translational Science",
+    "abstract_text": "Introduction Sickle cell disease (SCD) is a hereditary hemolytic disease characterized by a complex pathophysiology including inflammation and oxidative stress. Intravascular hemolysis leads to release of heme, an erythrocyte-derived Danger Associated Molecular Pattern (e-DAMP) that augments Toll Like Receptor 4 (TLR4) signaling. TLR4 signaling is important in development of acute and chronic complications in SCD. We investigated gene expression profiles of TLR4 + cells (by positive selection of its co-receptor CD14) of patients with SCD and other hemolytic anemias to identify differential regulated pathophysiological pathways. Methods Analyses were performed in 60 adults with hereditary hemolytic anemia and 10 healthy controls included in the ZEbRA cohort (UMC Utrecht, [NL5189]). Patients treated with systemic anti-inflammatory drugs were excluded (n=1). Deferasirox (DFX)-treated SCD patients were analyzed separately as DFX ameliorated pro-inflammatory effects of heme. CD14 + cells were isolated using anti-CD14 microbeads. RNA sequencing was performed on a Nextseq500 platform (Illumina) using a single-end 75bp high-output run. Differentially expressed genes (DEGs) were identified using DESeq2 v1.24.0 in R. To correct for presence of reticulocytes and lymphocytes, data were corrected for expression of 4 hemoglobin ( HBA1 , HBB , HBG1 , HBG2 ) and 4 T cell specific genes ( CD3E , CD3D , CD3G , CD247 ). A list was constructed from all genes differentially expressed (adj. p1) in both the comparisons of SCD without DFX versus other hemolytic anemias and of SCD without DFX versus healthy controls. Pathway enrichment analysis (ReactomePA v1.28.0 in R) was performed with preselected DEGs (adj. p0.5). P-values were adjusted with the Benjamini-Hochberg procedure. Results Demographics and hematological values are provided in Table 1 . Principal component analysis based on RNA sequencing data separated SCD patients without DFX from hemolytic anemia patients, healthy controls and SCD patients with DFX ( Figure 1 ). Analysis of DEGs discriminating SCD patients from both patients with other hemolytic anemias and healthy controls rendered 29 genes ( Figure 2 ). Heme oxygenase-1 ( HMOX1 ) was one of these genes (versus healthy controls adj. p=5.6E-13; versus other hemolytic anemias adj. p=3.3E-15) and this is in line with the hypothesis that intravascular free heme is an important effector of gene regulation in monocytes. This sets SCD apart from the other studied hemolytic anemias. The other 28 genes included, PPARG , GUCY1A1 , KLF5 and CXCR3 signaling ( CXCL9 and CXCL11 ) which are associated with vascular remodeling and development of pulmonary hypertension. The list of 29 DEGs highlights interesting differences in gene expression of two processes related to immune signaling: CXCR3 signaling by CXCL9 and CXCL11, and lipid metabolism ( STARD4 , DLC1 , SQLE , ME1 ). Pathway enrichment analysis showed enrichment of genes involved in IFN signaling (type I and II) in SCD versus healthy controls (adj. p=4.4E-16). And, in line with the list of 29 genes, enrichment of genes concerning chemokine signaling in SCD versus both healthy controls and other hemolytic anemias (respectively adj. p=0.06 and adj. p=0.01) and cholesterol biosynthesis in SCD versus other hemolytic anemias (adj. p=0.09). Conclusion Our data shows the unique inflammatory profile of SCD monocytes as opposed to other hemolytic anemias. Moreover, it suggests that lipid metabolism and IFN signaling are important differentiating immune signaling pathways. It is known that alterations in plasma lipid levels in SCD relate to hemolytic severity and vasculopathy. Our data suggests an important role for lipid biology in SCD monocytes. We hypothesize on an important contribution of cholesterol accumulation in enhancement of TLR4 signaling, as lipid rafts accelerated Nf-kB activation in macrophages. (Lee et al., Nat. Commun. 2017; Koseki et al., J. Lip. Res. 2007) The importance of type I and II IFN signaling in SCD suggests widespread involvement of the immune system. IFNg-inducible cytokines CXCL9 and CXCL11 are associated with Th1 polarization and activation. In summary, the data support the unique role of monocyte immune signaling in SCD. Furthermore, we identified pathways that seem to be relevant for immune regulation and thereby for development of disease complications. View large Download slide View large Download slide  Disclosures van Wijk: Agios Pharmaceuticals: Consultancy, Research Funding; RR Mechatronics: Research Funding. van Beers: Agios Pharmaceuticals, Inc.: Membership on an entity's Board of Directors or advisory committees, Research Funding; Pfizer: Research Funding; RR Mechatronics: Research Funding; Novartis: Consultancy, Research Funding.",
+    "topics": [
+        "anemia, hemolytic, congenital",
+        "human leukocyte interferon",
+        "interferons",
+        "lipids",
+        "monocytes",
+        "sickle cell anemia",
+        "signal transduction",
+        "hemolytic anemia",
+        "toll-like receptor 4",
+        "heme"
+    ],
+    "author_names": [
+        "Annelies J. Van Vuren, MD",
+        "Stephanie van Straaten, MD PhD",
+        "Michal Mokry, PhD",
+        "Richard van Wijk, PhD",
+        "Eduard J. van Beers, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Van Creveldkliniek, UMC Utrecht, Utrecht University, Utrecht, Netherlands "
+        ],
+        [
+            "Van Creveldkliniek, UMC Utrecht, Utrecht University, Utrecht, Netherlands "
+        ],
+        [
+            "Division Heart and Lungs, Department of Cardiology, UMC Utrecht, Utrecht University, Utrecht, Netherlands "
+        ],
+        [
+            "Laboratory of Clinical Chemistry and Hematology, University Medical Center Utrecht, Utrecht, Netherlands "
+        ],
+        [
+            "Van Creveldkliniek, University Medical Center Utrecht, University of Utrecht, Utrecht, Netherlands"
+        ]
+    ],
+    "first_author_latitude": "52.0865646",
+    "first_author_longitude": "5.179913099999999"
 }
