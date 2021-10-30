@@ -2,5 +2,59 @@
     "doi": "https://doi.org/10.1182/blood-2019-131208",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4274",
     "start_url_page_num": 4274,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Genome Scale CRISPR Screen Identifies the ER Cargo Receptor That Facilitates the Efficient Secretion of Erythropoietin ",
+    "article_date": "November 13, 2019",
+    "session_type": "101.Red Cells and Erythropoiesis, Structure and Function, Metabolism, and Survival, Excluding Iron",
+    "topics": [
+        "bodily secretions",
+        "crispr",
+        "emergency service, hospital",
+        "erythropoietin",
+        "genome",
+        "alpha 1-antitrypsin",
+        "glycoprotein",
+        "puromycin",
+        "artifacts",
+        "brefeldin a"
+    ],
+    "author_names": [
+        "Zesen Lin, B.S.",
+        "Greggory Myers",
+        "Beth McGee",
+        "Richard King, MD",
+        "Vi Tang, B.S.",
+        "Ann Friedman, B.S.",
+        "Brian Emmer, MD",
+        "Rami Khoriaty"
+    ],
+    "author_affiliations": [
+        [
+            "Department of pharmacology, University of Michigan, University of Michigan, Ann Arbor, MI "
+        ],
+        [
+            "Department of Cell and Developmental Biology, University of Michigan, Ann Arbor, MI "
+        ],
+        [
+            "Life Sciences Institute, University of Michigan, Ann Arbor, MI "
+        ],
+        [
+            "Department of Internal medicine, University of Michigan, Ann Arbor, MI "
+        ],
+        [
+            "Department of Molecular and Integrative Physiology, University of Michigan, Ann Arbor, MI"
+        ],
+        [
+            "Department of Internal medicine, University of Michigan, Ann Arbor, MI "
+        ],
+        [
+            "Department of Internal medicine, University of Michigan, Ann Arbor, MI "
+        ],
+        [
+            "Department of Internal medicine, University of Michigan, Ann Arbor, MI "
+        ]
+    ],
+    "first_author_latitude": "42.28458769999999",
+    "first_author_longitude": "-83.7342417",
+    "abstract_text": "Abstract Erythropoietin (EPO) is a plasma glycoprotein that binds erythroid progenitors in the bone marrow and stimulates their proliferation and differentiation. EPO is secreted into the circulation by specialized kidney peritubular fibroblasts. Though the transcriptional regulation of EPO production has been well studied, the intracellular regulation of EPO trafficking remains poorly understood. In an effort to identify genes involved in EPO secretion, we developed a genome-wide functional screen that provides a quantifiable and selectable readout of intracellular EPO accumulation. In order to perform such a screen, we generated a reporter HEK293T cell line stably expressing EPO fused to GFP and as an internal control, alpha-1-antitrypsin (A1AT) fused to mCherry. We showed that both EPO and A1AT are efficiently secreted from the cell and that treatment with Brefeldin A (which disrupts endoplasmic reticulum [ER] to Golgi transport) results in intracellular accumulation of EPO and A1AT. These findings demonstrate that the machinery required for the efficient secretion of EPO via the classical secretory pathway is intact in this cell line. To identify genes that affect EPO secretion, we mutagenized the reporter cell line with a CRISPR/Cas9 knock-out library (GeCKO-v2), which delivers SpCas9, a puromycin resistance cassette, and a pooled collection of 123,411 single guide RNAs (sgRNAs) that include six independent sgRNAs targeting nearly every coding gene in the human genome. Transduction was performed at low multiplicity of infection (MOI ~0.3), such that most infected cells receive 1 sgRNA to mutate 1 gene in the genome. Puromycin selection was applied from days 1-4 post-transduction. After 14 days, cells with normal mCherry but increased (top 7%) or decreased (bottom 7%) GFP fluorescence were isolated. Integrated sgRNAs sequences were quantified by deep sequencing and analyzed for their enrichment in the GFP high compared to the GFP low population. This strategy allows the identification of genes that affect EPO but not A1AT levels, therefore ruling out genes that affect global secretion. This screen, performed in triplicates, identified that the sgRNAs targeting surfeit locus protein 4 ( SURF4 ) are the mostly enriched sgRNAs (at the gene level) in the GFP high population: 5 out of 6 sgRNAs targeting SURF4 were enriched in the GFP high population, at a genome-wide statistical level. To validate these results, we generated a sgRNA targeting SURF4 and demonstrated that SURF4 deletion results in intra-cellular accumulation of EPO with no effect on A1AT. We confirmed these results in several independent reporter cell line clones, excluding an artifact unique to the original reporter clone used in the screen. Additionally, the intracellular EPO accumulation in SURF4 deficient cells was rescued by SURF4 cDNA, ruling out an off-target sgRNA effect. We next showed that SURF4 interacts with EPO (by co-immunoprecipitation) and that EPO accumulates in the ER of SURF4 deleted cells (using endo-H and fluorescent confocal microscopy). In contrast to EPO, we found that SURF4 deletion does not result in the intracellular accumulation of a related glycoprotein, thrombopoietin. To examine if SURF4 facilitates the secretion of EPO when expressed at a more physiological level, we deleted SURF4 in HEP3B cells induced to express EPO from its endogenous locus and found that SURF4 also mediates the secretion of EPO under these conditions. Taken together, the studies summarized above demonstrate that SURF4 is the ER cargo receptor that promotes the efficient secretion of EPO. Additional work is currently ongoing to further characterize the role of SURF4 in the secretion of EPO. Disclosures No relevant conflicts of interest to declare."
 }
