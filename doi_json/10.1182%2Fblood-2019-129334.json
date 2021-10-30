@@ -2,5 +2,63 @@
     "doi": "https://doi.org/10.1182/blood-2019-129334",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4306",
     "start_url_page_num": 4306,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Maria-I: A Deep-Learning Approach for Accurate Prediction of MHC Class I Tumor Neoantigen Presentation ",
+    "article_date": "November 13, 2019",
+    "session_type": "203.Lymphocytes, Lymphocyte Activation, and Immunodeficiency, including HIV and Other Infections",
+    "abstract_text": "Background: Therapeutic cancer vaccines targeting neoantigens have shown promise in early phase clinical trials for inducing tumor-specific T-cell responses in diverse tumor types. Identification of the small number of optimal cancer vaccine targets is essential to limit cost and improve efficacy of patient-specific vaccine design. Therefore, there is a need to narrow neoantigen selection to those peptides with the highest potential to induce anti-tumor immune responses, and to maximize the associated clinical benefits. The presentation of these antigens by Major Histocompatibility Complex (MHC) class I is key for prioritizing candidates. Previous algorithms to predict antigen presentation have had limited success and have primarily been trained on in-vitro binding affinity assays, or are commercial platforms not widely available for use. Methods: We previously developed MARIA (MHC Analysis with Recurrent Integrated Architecture) as a method for predicting MHC-II neoantigens [Chen B et al. 2017 ASH, and Chen et al. 2019, Nature Biotechnology, in press]; here we adapt and develop the same MARIA design for MHC-I and benchmark its performance. Specifically, we used deep-learning for predicting the likelihood of neoantigen presentation trained on presented lymphoma peptides as identified by mass-spectrometry (LC-MS/MS). MARIA-I was initially trained on >47,000 ligands we previously identified by mass-spectrometry through antigen presentation profiling of patients with mantle cell lymphomas [Khodadoust et al. 2017, Nature]. Recurrent neural network (RNN) layers within MARIA-I integrate 4 key features: peptide sequence-MHC key residues relationship, peptide-MHC binding, peptide cleavage pattern, and gene expression. Results: We internally validated MARIA-I using 10-fold cross validation, where we observed an average AUC of 0.99 for the integrated model (Fig 1a); the peptide-MHC key residues relationships conferred the largest contribution to MARIA-I performance. We also further tested MARIA-I using an external dataset of ~19,000 diverse peptides from MHC-I antigen presentation profiles of four cancer cell lines (ACC1143, HCT116, HCC1937, and SUP-B15). MARIA-I maintains above 0.92 AUC across four diverse cancer types (AUC = 0.92, 0.92, 0.96, and 0.95, respectively). Since presentation of immunogenic peptides is essential for activation of T cell effector functions, we separately tested MARIA-I's ability to identify CD8 tumor infiltrating lymphocyte responses using corresponding data from 62 patients and 7587 neoantigens [Parkhurst et al. 2019, Cancer Discovery]. Despite MARIA-I not being trained on T cell reactivity data, neoantigens known to elicit positive T cell responses had significantly higher MARIA-I scores (Fig 1b, p=6.92e-5, Mann-Whitney U test). Conclusion: MARIA-I enables accurate prediction of neoantigen presentation for MHC class I at scale. Given its generalizability, we expect MARIA-I to yield insights for development of therapeutic cancer vaccines as well as applications in transplantation and autoimmune pathology. Figure 1. MARIA-I performance on antigen presentation and identifying immunogenic peptides. a) MARIA-I and sub-model predictors evaluated on 10% held-out validation set. Merging peptide sequence, gene expression, binding, and cleavage scores yielded improvements in performance as compared to each predictor's individual ability. b) MARIA-I assigns significantly higher scores to peptides known to elicit positive CD8 T cell response (p=6.92e-5, Mann-Whitney U test). View large Download slide View large Download slide  Disclosures Khodadoust: Corvus Pharmaceuticals: Research Funding. Davis: Vir Biotechnology: Consultancy, Equity Ownership, Honoraria; PACT Bio: Consultancy, Equity Ownership, Honoraria; Adicet Inc: Consultancy, Equity Ownership, Honoraria; Chuga Pharmabody: Consultancy, Honoraria; Amgen: Consultancy, Research Funding; Atreca: Consultancy, Equity Ownership, Honoraria; Juno: Consultancy, Equity Ownership, Honoraria. Levy: Five Prime: Membership on an entity's Board of Directors or advisory committees; Corvus: Membership on an entity's Board of Directors or advisory committees; Quadriga: Membership on an entity's Board of Directors or advisory committees; BeiGene: Membership on an entity's Board of Directors or advisory committees; GigaGen: Membership on an entity's Board of Directors or advisory committees; Teneobio: Membership on an entity's Board of Directors or advisory committees; Sutro: Membership on an entity's Board of Directors or advisory committees; Checkmate: Membership on an entity's Board of Directors or advisory committees; Nurix: Membership on an entity's Board of Directors or advisory committees; Dragonfly: Membership on an entity's Board of Directors or advisory committees; Innate Pharma: Membership on an entity's Board of Directors or advisory committees; Abpro: Membership on an entity's Board of Directors or advisory committees; Apexigen: Membership on an entity's Board of Directors or advisory committees; Nohla: Membership on an entity's Board of Directors or advisory committees; Spotlight: Membership on an entity's Board of Directors or advisory committees; 47 Inc: Membership on an entity's Board of Directors or advisory committees; XCella: Membership on an entity's Board of Directors or advisory committees; Immunocore: Membership on an entity's Board of Directors or advisory committees; Walking Fish: Membership on an entity's Board of Directors or advisory committees. Altman: Personalis: Consultancy; Pfizer: Consultancy; Karius: Consultancy.",
+    "topics": [
+        "deep learning",
+        "genes, mhc class i",
+        "neoplasms",
+        "peptides",
+        "cancer vaccines",
+        "cancer",
+        "mass spectrometry",
+        "peptide/mhc complex",
+        "antigens",
+        "ligands"
+    ],
+    "author_names": [
+        "Karan R. Kathuria",
+        "Binbin Chen, PhD",
+        "Michael S. Khodadoust, MD PhD",
+        "Niclas Olsson, PhD",
+        "Mark M Davis, PhD",
+        "Joshua E Elias, PhD",
+        "Ronald Levy, MD",
+        "Russ B. Altman, MD PhD",
+        "Arash A. Alizadeh, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Genetics Department, Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University Medical Center, Stanford, CA "
+        ],
+        [
+            "Department of Chemical & Systems Biology, Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Department of Chemical & Systems Biology, Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Department of Medicine, Division of Oncology, Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Stanford University, Stanford, CA"
+        ],
+        [
+            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University Medical Center, Stanford, CA "
+        ]
+    ],
+    "first_author_latitude": "37.4318102",
+    "first_author_longitude": "-122.17575799999997"
 }
