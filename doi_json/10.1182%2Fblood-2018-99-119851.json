@@ -2,5 +2,64 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-119851",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4062",
     "start_url_page_num": 4062,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Prognostic Value of Radiomics Signature By Diagnostic 18F-FDG PET/CT Analysis in Aggressive Non-Hodgkin's Lymphoma ",
+    "article_date": "November 29, 2018",
+    "session_type": "627. Aggressive Lymphoma (Diffuse Large B-Cell and Other Aggressive B-Cell Non-Hodgkin Lymphomas)-Results from Retrospective/Observational Studies: Poster I",
+    "abstract_text": "BACKGROUND Although the overall prognosis of patients with aggressive non-Hodgkin's lymphoma (NHL) has improved, nearly a third of patients will have refractory disease or relapse. Identification of these high-risk patients using traditional prognostic factors is limited. PET is the recommended imaging modality for the staging of FDG-avid lymphoma but the value of a comprehensive new imaging biomarkers analysis applied to PET for the prediction of patients outcome has still not been deeply investigated. New metrics estimating the overall tumor burden such as metabolic tumor volume (MTV) and those that may capture intratumoral biological heterogeneity such as total lesion glycolysis (TLG) have been used to predict progression-free survival. AIM The goal of the present work was to characterize Lymphoma lesions by extracting several metabolic volume and textural properties as radiomics features and evaluate their performance as surrogate indicators of the number of treatment cycles, and treatment response. Materials and methods In this retrospective, observational study, we included aggressive non-Hodgkin's lymphoma patients consecutively diagnosed according to the WHO 2016 between January of 2015 to December of 2017. A diagnostic PET/CT scan were essential. 1 patient without treatment was excluded. Clinical and biological data were extracted from medical records. PET/CT examinations were exported from the PACS and loaded into QUIBIM Precision 2.3 analysis platform (QUIBIM, Valencia, Spain) for the calculation of metabolic volumes and textural properties. The SUV values of the PET images were normalized to the average liver SUV, and the lesions were automatically segmented considering a threshold of 41% of the maximum SUV (SUVmax). Physiological uptakes in organs and tissues like bowel, bladder, brain, among others, were manually removed. In the lesions volumetry analysis, the metabolic tumor volume (MTV) and total lesion glycolysis (TLG) were calculated. For the extraction of texture features, first order histogram descriptors (SUV values distribution, skewness, kurtosis) as well as second order descriptors were extracted after computing the Gray-Level Co-Occurrence Matrix (GLCM). For the statistical analysis, the Z-score of all imaging features obtained was calculated and a multi-variate analysis was performed by first calculating the intra-class correlation (ICC) to reduce redundant variables. Second, data hierarchy clustering was applied to automatically obtain patient groups according to different imaging signatures. The prognostic performance of IPI with and without the imaging signature was evaluated by a Discriminant Analysis for the number of treatment cycles and treatment response. Prognostic value of OS was performed through Kaplan-Meier analysis. Results A total of 41 patients were included. The descriptive analysis of patients recruited with demographic and clinical data can be appreciated in Table 1. Radiomics features extracted allowed to clusterize patients in different groups that were later introduced in the classifier (Figure 1). The classifier based on discriminant model including the IPI factors predicted number of treatment cycles with a 65.9% of accuracy, being the age the factor with the highest weight (0.818). Adding information about imaging features from PET increased the accuracy to 86.5%. For the treatment response assessment, the IPI factors predicted response correctly in 71.4% of cases, being ECOG the parameter with the highest weight (0.974). Prediction was fully accurate when adding the imaging features, with a 100% of accuracy. The texture feature with the highest importance was 'dissimilarity' of the pixels (weight of 15.919). Conclusion The addition of radiomics features to the conventional IPI evaluation of patients allows for a significant increase in predictive performance, both for determining which patients will have more than 1 treatment lines and those who will respond to treatment. The results of this study would have an impact in disease management with a combined IPI and radiomics-based prognostic evaluation of patients at diagnosis. View large Download slide View large Download slide  Disclosures No relevant conflicts of interest to declare.",
+    "topics": null,
+    "author_names": [
+        "Blanca Ferrer Lores, MDcal Doctor",
+        "Irene Mayorga-Ruiz",
+        "Angel Alberich Bayarri, PhD",
+        "Daniella Morello-Gonz\u00e1lez, MDcal Doctor",
+        "Irene Pastor-Gal\u00e1n, MDcal Doctor",
+        "Blanca Navarro-Cubells, MD PhD",
+        "Alicia Serrano",
+        "Ana Isabel Teruel, MDcal Doctor",
+        "Rosa Dosd\u00e1-Mu\u00f1oz, MD PhD",
+        "Carlos Solano, MD PhD",
+        "Luis Marti-Bonmati, MD PhD",
+        "Maria Jose Terol, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Hematology Department, Clinic University Hospital. INCLIVA, Valencia, Spain "
+        ],
+        [
+            "QUIBIM, Valencia, Spain "
+        ],
+        [
+            "QUIBIM (QUantitative Imaging Biomarkers In Medicine), Valencia, Spain "
+        ],
+        [
+            "Hematology department, Clinic University Hospital. INCLIVA, Valencia, Spain "
+        ],
+        [
+            "Hematology, Hospital Clinico Universitario, Valencia, Spain "
+        ],
+        [
+            "Hematology department, Clinic University Hospital. INCLIVA, Valencia, Spain "
+        ],
+        [
+            "Hematology Department, Clinic University Hospital. INCLIVA, Valencia, Spain "
+        ],
+        [
+            "Hospital Cl\u00ednico Universitario de Valencia, VALENCIA, ESP "
+        ],
+        [
+            "Radiology Department, Clinic University Hospital, Valencia, Spain "
+        ],
+        [
+            "Hematology Department, Hospital Cl\u00ednico Universitario de Valencia, Valencia, Spain "
+        ],
+        [
+            "La Fe Hospital, Valencia, Spain"
+        ],
+        [
+            "Hematology Department, Clinic University Hospital. INCLIVA, Valencia, Spain "
+        ]
+    ],
+    "first_author_latitude": "29.7068146",
+    "first_author_longitude": "-95.3971547"
 }

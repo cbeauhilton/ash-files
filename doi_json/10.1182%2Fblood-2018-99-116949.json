@@ -2,5 +2,60 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-116949",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3997",
     "start_url_page_num": 3997,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Cell-of-Origin Subtype Prediction of Diffuse Large B-Cell Lymphoma Using Gene Expression and Proteomic Data ",
+    "article_date": "November 29, 2018",
+    "session_type": "627. Aggressive Lymphoma (Diffuse Large B-Cell and Other Aggressive B-Cell Non-Hodgkin Lymphomas)-Results from Retrospective/Observational Studies: Poster I",
+    "abstract_text": "Introduction Diffuse large B-cell lymphoma (DLBCL) subtypes can be identified based on immunohistochemistry, somatic mutation and gene expression profiles. These cell-of-origin (COO) subtypes have distinct biological and pathogenic characteristics. In addition, studies have shown the association of COO with drug response such as with rituximab plus cyclophosphamide, doxorubicin, vincristine, and prednisone (R-CHOP) as well as targeted therapy. Therefore, proper assessment of COO subgroup is an important step in treatment selection and outcome. In this study, we sought to develop predictive COO models using RNA-Seq based gene expression profiling and plasma proteomic data, focusing on the two defined major DLBCL subtypes - germinal center B cell-like (GCB) and activated B cell-like (ABC). Methods COO subgroups of patient samples were assigned by the Hans algorithm. Data from archival formalin-fixed paraffin-embedded (FFPE) tissues were obtained using the Illumina HiSeq platform (RNA-Seq). A subset of samples were used as a training set to select differentially expressed genes (DEGs) in ABC vs. GCB lymphomas to build support vector machine (SVM) classification models. The model with best leave-one-out cross validation (LOOCV) on the training set was applied to the remaining samples to assess its initial predictive power. Gene set enrichment analysis (GSEA, Broad Institute) and key pathway analysis (KPA, Clarivate Analytics) were also utilized to further explore the underlying biology of each COO subtype. Protein expression data using the Olink Proteomics platform was obtained from baseline patient plasma samples. Protein biomarkers to differentiate ABC and GCB subgroups were identified from a set of training samples and evaluated in independent cohorts. Due to notable batch effect, batch information was included and specified as a random factor in the model. Results Genes identified by Scott et al. (Blood 2014) for COO assignment were first tested in our RNA-Seq training data of 6 GCB and 8 ABC samples. Thirteen of 15 gene markers showed significant differences between the ABC and GCB subgroups. From these markers, we further selected 6 to build machine learning models based on fold change, false discovery rate and entropy. This 6-gene signature include 3 markers relatively up-regulated in ABC subtype and 3 up-regulated in GCB subtype. A SVM model with these genes achieved 100% LOOCV on the training data and correctly predicted COO of 20/22 samples in the validating cohort with 1 GCB and 1 ABC samples misclassified. These two samples were also misclassified if a larger panel of signature genes from Scott et al. (Blood 2014) was used. KPA on the DEGs from ABC vs. GCB predicted the activation of NFKB1and STAT4/5 transcription factors as key elements upstream of the DEGs, indicating promoted signaling of NF\u043aB and STAT pathways in ABC subgroup. On the other hand, REST was predicted as an inhibited upstream regulator of some DEGs. RCOR1, a corepressor of REST, has significantly lower expression level in the ABC subgroup in our data. These may imply the inhibition of REST/RCOR1 pathway in ABC patients. Plasma protein data from two studies were used to form a training set with 21 GCB and 6 ABC. A set of differentially expressed analytes from ABC vs. GCB were identified which included several targets of the NF\u043aB pathway. In an independent cohort containing 5 GCB and 4 ABC plasma samples, many of these same plasma proteins showed differential expression profiles between ABC and GCB, making them potential blood-based biomarkers for COO determination. Conclusions In this study, we built a SVM model with a subset of genes from Scott et al. (Blood 2014) to accurately predict COO of refractory DLBCL from archival FFPE tissue. Further analyses of the RNA-Seq data disclosed alterations in key transcriptional hubs between the different COO subgroups. Olink plasma data from independent cohorts demonstrated potential protein markers for a plasma-based differentiation of the ABC and GCB subtypes. These biomarkers and machine learning models are being further validated using additional datasets. Disclosures Liu: Incyte Research Institute: Employment, Equity Ownership. Lu: Incyte Research Institute: Employment, Equity Ownership. Dong: Incyte Research Institute: Employment, Equity Ownership. Liu: Incyte Research Institute: Employment, Equity Ownership. Salinas: Incyte Research Institute: Employment, Equity Ownership. Owens: Incyte Research Institute: Employment, Equity Ownership. Pratta: Incyte Research Institute: Employment, Equity Ownership. Smith: Incyte Research Institute: Employment, Equity Ownership. Tada: Incyte Research Institute: Employment, Equity Ownership. Newton: Incyte Research Institute: Employment, Equity Ownership. Burn: Incyte Research Institute: Employment, Equity Ownership.",
+    "topics": null,
+    "author_names": [
+        "Huiqing Liu, PhD",
+        "Jin Lu, PhD",
+        "Zhiwan Dong, PhD",
+        "Hao Liu, PhD",
+        "Edward Salinas, MSc",
+        "Sherry Owens, PhD",
+        "Michael A. Pratta, MSc",
+        "Michael F. Smith, PhD",
+        "Hiroomi Tada, MD PhD",
+        "Robert C Newton, PhD",
+        "Timothy Burn, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Incyte Research Institute, Wilmington, DE "
+        ],
+        [
+            "Incyte Research Institute, Wilmington,"
+        ],
+        [
+            "Incyte Research Institute, Wilmington,"
+        ],
+        [
+            "Incyte Research Institute, Wilmington, DE "
+        ],
+        [
+            "Incyte Research Institute, Wilmington,"
+        ],
+        [
+            "Incyte Research Institute, Wilmington, DE "
+        ],
+        [
+            "Incyte Research Institute, Wilmington, DE "
+        ],
+        [
+            "Incyte Research Institute, Wilmington, DE "
+        ],
+        [
+            "Incyte Research Institute, Wilmington, DE "
+        ],
+        [
+            "Incyte Research Institute, Wilmington, DE "
+        ],
+        [
+            "Incyte Research Institute, Wilmington, DE "
+        ]
+    ],
+    "first_author_latitude": "39.7624235",
+    "first_author_longitude": "-75.5536894"
 }
