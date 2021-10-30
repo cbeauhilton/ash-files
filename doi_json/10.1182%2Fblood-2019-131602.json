@@ -2,5 +2,94 @@
     "doi": "https://doi.org/10.1182/blood-2019-131602",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4211",
     "start_url_page_num": 4211,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Deep Sequencing of Viral Cell-Free DNA for Noninvasive Detection of Immunosuppression-Related Lymphoid Malignancies ",
+    "article_date": "November 13, 2019",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Background: Immunocompromised patients have higher risk for virally-driven lymphomas associated with pathogens including Epstein-Barr Virus (EBV), Kaposi Sarcoma Herpesvirus (KSHV), HTLV-1, and HIV-1. Within this high-risk patient population, early cancer detection remains a critically unmet clinical need. Recently, analysis of viral cell-free DNA (cfDNA) has shown promise as a predictive biomarker for both immune status and cancer risk. In solid organ transplant recipients, immunosuppression is associated with expansion of a circulating family of viruses called Anelloviridae (De Vlaminck I, Cell, 2013). In screening for EBV-driven nasopharyngeal carcinomas (NPC), EBV cfDNA fragment length distributions distinguish normal adults with transient viremia from those with high risk of NPC (Lam WK, PNAS, 2018). We developed VirCAPP-Seq (Viral Cancer Personalized Profiling by Deep Sequencing) as a clinical virome capture approach for enriching and deeply sequencing circulating viral nucleic acids to elucidate virome composition, fragment length distribution, host genome integration sites, and viral polymorphisms. These features of viral cfDNA may clarify patient risk for malignancy and immunosuppression. Method: 180 viral species from 15 families were selected on the basis of 3 criteria: (1) Known oncoviruses (eg, EBV, Human Papillomavirus (HPV), Hepatitis B Virus (HBV)); (2) Commensal viruses associated with immune state (eg, Anelloviridae); (3) Common clinically relevant viruses (Adenovirus, CMV, BK, etc.). Viral reference genomes were segmented into continuous sliding 50mer windows, and compared to hg19 and a pan-viral reference database for homology using BLASTN. Non-unique regions were excluded. Remaining regions were clustered using CD-HIT at 85% homology to minimize redundant probes (figure 1A). We applied VirCAPP-Seq to plasma samples of patients with known levels of EBV viremia. To evaluate possible interactions of VirCAPP-Seq with human probes, we applied the viral panel alone and in combination with a CAPP-Seq lymphoma panel (Kurtz DM, JCO, 2018). Reads were aligned to a composite reference genome consisting of 180 viral reference genomes and hg19. For each targeted virus, plasma (GE) were estimated by computing the ratio of unique viral depth to human depth, and multiplying by the measured plasma DNA concentration and plasma volume. We correlated the sequencing-based GE estimate to viral titers determined by a clinical RT-PCR assay measured in a CLIA laboratory. Viral integration sites were evaluated with Virus-Clip (Ho DW, Oncotarget, 2015). Results: The final VirCAPP-Seq design consists of 2349 target regions across 180 species, spanning 2.097 Mb. A median of 95.9% of each targeted virus was covered by the panel (IQR 85.1% - 99.0%). Sequence-based phylogenetic analysis demonstrated clear relationships between members of each viral family. However, following in silico masking of non-unique regions, these phylogenetic relationships were no longer discernible, demonstrating that our design avoids targeting regions with interspecies ambiguity (figure 1B). Surprisingly, addition of VirCAPP-Seq to a human capture panel did not significantly impact the human on-target rate compared to human-only capture of lymphoma CAPP-Seq targets (Kurtz et al 2018 JCO), suggesting minimal non-specific interaction between viral probes and host DNA (figure 1C). Across EBV-positive samples, VirCAPP-Seq enriched EBV cfDNA a median of 214,000x compared to off-target EBV abundance in human-only capture (IQR 55,100x - 277,600x) (figure 1D). EBV-positive samples achieved a median EBV depth of 1015x (IQR 210x - 2802x) after enrichment. Additionally, viral GE estimates from read counts were highly correlated with viral titer estimates by clinical RT-PCR (r = 0.92, p < 0.001, n=9) (figure 1E). We observed several significant correlations between virome measurements across a range of immunosuppression states and lymphoma subtypes, with details to be presented at the meeting. Conclusions: VirCAPP-Seq enables simultaneous enrichment of clinically relevant viral and host cfDNA from plasma over several orders of magnitude. This framework holds promise for monitoring diverse features of viral cfDNA that capture risks for malignancy and immunosuppression, facilitating personalized diagnostic and therapeutic interventions. View large Download slide View large Download slide  Disclosures Kurtz: Roche: Consultancy. Advani: Janssen: Research Funding; Kura: Research Funding; Merck: Research Funding; Pharmacyclics: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Cell Medica, Ltd: Consultancy; Kyowa Kirin Pharmaceutical Developments, Inc.: Consultancy; Forty-Seven: Research Funding; Agensys: Research Funding; Bayer: Consultancy, Membership on an entity's Board of Directors or advisory committees; Bristol-Myers Squibb: Membership on an entity's Board of Directors or advisory committees, Research Funding; Seattle Genetics: Consultancy, Research Funding; AstraZeneca: Consultancy, Membership on an entity's Board of Directors or advisory committees; Celgene: Research Funding; Celmed: Consultancy, Membership on an entity's Board of Directors or advisory committees; Roche/Genentech: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Gilead Sciences, Inc./Kite Pharma, Inc.: Consultancy, Membership on an entity's Board of Directors or advisory committees; Infinity Pharma: Research Funding; Millennium: Research Funding; Regeneron: Research Funding; Takeda: Consultancy, Membership on an entity's Board of Directors or advisory committees; Stanford University: Employment, Equity Ownership; Autolus: Consultancy, Membership on an entity's Board of Directors or advisory committees. Diehn: AstraZeneca: Consultancy; BioNTech: Consultancy; Quanticell: Consultancy; Novartis: Consultancy; Roche: Consultancy.",
+    "topics": [
+        "cell-free dna",
+        "lymphoid neoplasm, malignant",
+        "massively-parallel genome sequencing",
+        "natural immunosuppression",
+        "therapeutic immunosuppression",
+        "lymphoma",
+        "cancer",
+        "dna",
+        "reverse transcriptase polymerase chain reaction",
+        "viremia"
+    ],
+    "author_names": [
+        "Andrea Garofalo, BS, BA",
+        "Joseph G Schroers-Martin, MD",
+        "Joanne Soo, MD",
+        "David M. Kurtz, MD PhD",
+        "Brian Sworder, MD PhD",
+        "Chih Long Liu, PhD",
+        "Benjamin A Pinsky, MD PhD",
+        "Helen Luikart, RN, MSN",
+        "Ranjana H Advani, MD",
+        "Yasodha Natkunam, MD PhD",
+        "Kiran Khush, MD",
+        "Maximilian Diehn, MD PhD",
+        "Arash A. Alizadeh, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Stanford University School of Medicine, Redwood City, CA "
+        ],
+        [
+            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA ",
+            "Stanford, Menlo Park, CA ",
+            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University Medical Center, Stanford, CA "
+        ],
+        [
+            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA ",
+            "Division of Oncology, Stanford University Medical Center, Stanford, CA ",
+            "Duke University School of Medicine, Redwood City, CA "
+        ],
+        [
+            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA ",
+            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University Medical Center, Stanford, CA ",
+            "Stanford Cancer Institute, Stanford, CA ",
+            "Department of Bioengineering, Stanford University Medical Center, Stanford, CA ",
+            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, San Francisco, CA ",
+            "Division of Oncology, Department of Medicine, Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA ",
+            "Department of Oncology and Hematology, Stanford University Medical Center, Stanford, CA "
+        ],
+        [
+            "Division of Oncology, Department of Medicine, Stanford Cancer Institute, Stanford University, Stanford, CA "
+        ],
+        [
+            "Department of Clinical Pathology, Stanford University, Stanford, CA "
+        ],
+        [
+            "Division of Cardiovascular Medicine, Stanford University, Stanford, CA "
+        ],
+        [
+            "Stanford Cancer Institute, Stanford Cancer Center, CC-2338, CA ",
+            "Stanford University, Stanford, CA ",
+            "Division of Oncology, Department of Medicine, Stanford University Medical Center, Stanford, CA ",
+            "Division of Oncology, Department of Medicine, Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Department of Pathology, Stanford University Medical Center, Stanford, CA "
+        ],
+        [
+            "Division of Cardiovascular Medicine, Stanford University, Stanford, CA "
+        ],
+        [
+            "Department of Radiation Oncology, Stanford University Medical Center, Stanford, CA "
+        ],
+        [
+            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University Medical Center, Stanford, CA ",
+            "Stanford Cancer Institute, Stanford University Medical Center, Stanford, CA ",
+            "Institute for Stem Cell Biology and Regenerative Medicine, Stanford University Medical Center, Stanford, CA"
+        ]
+    ],
+    "first_author_latitude": "37.4318102",
+    "first_author_longitude": "-122.17575799999997"
 }
