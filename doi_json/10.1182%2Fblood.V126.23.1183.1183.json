@@ -2,5 +2,44 @@
     "doi": "https://doi.org/10.1182/blood.V126.23.1183.1183",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3024",
     "start_url_page_num": 3024,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Umi-4C: A Quantitative, Robust and Multiplexed Method to Study the Regulatory Three Dimensional Chromatin Organization - Application for the Mgakaryocytic-Eythroid Lineage ",
+    "article_date": "December 3, 2015",
+    "session_type": "503. Hematopoiesis: Epigenetic, Transcriptional and Translational Control: Poster I",
+    "abstract_text": "Background: The role of the spatial three dimensional (3D) chromatin organization in regulation of gene expression is at the forefront of epigenetic research. Chromatin Conformation Capture (3C) technologies are increasingly being used to map physical proximity between distal regulatory elements. The underlying principal is similar in all these assays and involves chromatin cross-linking, digestion, and ligation. The proximity ligation junctions are then analyzed as a proxy to physical proximity. These methods vary in terms of scope and resolution, from Hi-C, which allows whole-genome coverage but requires massive sequencing burden, to traditional 3C which is simpler but allows only pairwise contact mapping. Of particular recent interest are methods allowing targeted sequencing of ligation products such as 4C-seq. However, 4C is heavily dependent on PCR amplification and requires elaborate statistical models to account for biases introduced. Consequently, a major drawback of all current methodologies is the lack of precise quantitation. To control for these drawbacks we developed a new simple and directly quantitative 4C methodology applying the concept of Unique Molecular Identifiers (UMI). Methods: We have developed a modified 4C-seq protocol (see figure). After the standard fixation, digestion and ligation, the chromatin DNA is sonicated, resulting in random breakpoints that are exploited as bona-fida UMIs. To target specific loci we utilize a version of ligation mediated (LM)-PCR, ligating a universal adapter to one end of the insert and a target-specific primer, to focus on the region of interest, to the other end. In addition, we developed a novel computational framework to process the data and filter potential artifacts and non-specific priming events. We applied this highly quantitative method to study the chromatin spatial landscape of important megakaryocytic and eryhtroid genes - GATA1 , ANK1 and the HBB region. We generated high-complexity contact profiles of these regions in six cell lines - four Megaerythroid cell lines (CMK, CMY, K562 and CHRF), that express these genes at variable levels, and a T-ALL cell line (DND41) and primary human fibroblasts where these loci are silenced. Results: We are able to recover on average 5,000-20,000 ligation events per 1\u03bcg of starting 4C template. Estimating the sequencing requirement by inference and subsampling, we find that 500,000 reads are enough to recover more than 90% of the ligation events. By applying our assay to GATA1 locus we were able to detect and precisely quantify hotspots of differential contact intensity, likely to reflect differences in the contacting probabilities between erythroid and megakaryocytic cells. These regions coincided with active histone marks in either of the cell types. Next, we interrogated ANK1 promoter region and detected differential contact intensity of the promoter with enhancer elements -15kb, and -27kb upstream and +15kb downstream of the transcription start site (TSS). The differences were also correlated with the expression pattern of ANK1 in these cells. Finally we utilized our assay to multiplex different regions in the HBB locus and generated very high complexity contact profiles of the region revealing activity-associated hierarchical looping structure that was previously not described. Conclusions : We have developed a powerful sensitive methodology to study the chromatin structure of specific targets in a multiplexed, cost-effective and simple manner. We applied it to a variety of regions and cells and were able to precisely detect and quantify minute differences in contact intensities between cells belonging to related but different lineages. We suggest UMI-4C as a precise and practical tool to study 3D epigenetic regulation of gene expression. Figure 1. View large Download slide A scheme of the UMI-4C methodology and a snapshot of the GATA1 locus in CMK megakaryocytic-eryhthroid and K562 erythroid leukemia cells. Figure 1. View large Download slide A scheme of the UMI-4C methodology and a snapshot of the GATA1 locus in CMK megakaryocytic-eryhthroid and K562 erythroid leukemia cells.  Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "chromatin",
+        "ligation",
+        "leukemia",
+        "polymerase chain reaction",
+        "adult t-cell lymphoma/leukemia",
+        "artifacts",
+        "dna",
+        "histones",
+        "t-cell leukemia, acute",
+        "cross-linking"
+    ],
+    "author_names": [
+        "Omer Schwartzman",
+        "Zohar Mukamel, PhD",
+        "Shai Izraeli, MD Prof",
+        "Amos Tanay, PhD Prof"
+    ],
+    "author_affiliations": [
+        [
+            "Tel Aviv University, Sheba Medical Center, Tel Aviv, Israel "
+        ],
+        [
+            "Department of Biological Regulation and Computer Science and Applied Mathematics, Weizmann Institute of Science, Rehovot, Israel "
+        ],
+        [
+            "Human Molecular Genetics and Biochemistry, Faculty of Medicine, Tel Aviv University, Tel Aviv, Israel ",
+            "Sheba Medical Center, Edmond and Lily Safra Children Hospital, Pediatric Hematology Oncology, Tel Hashomer, Ramat Gan and Tel Aviv University, Ramat Gan, Israel"
+        ],
+        [
+            "Department of Biological Regulation and Computer Science and Applied Mathematics, Weizmann Institute of Science, Rehovot, Israel "
+        ]
+    ],
+    "first_author_latitude": "32.04671",
+    "first_author_longitude": "34.842852"
 }
