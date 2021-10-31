@@ -2,5 +2,114 @@
     "doi": "https://doi.org/10.1182/blood-2019-126967",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4422",
     "start_url_page_num": 4422,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Geno-Clinical Model for the Diagnosis of Bone Marrow Myeloid Neoplasms ",
+    "article_date": "November 13, 2019",
+    "session_type": "637.Myelodysplastic Syndromes-Clinical Studies",
+    "topics": [
+        "bone marrow",
+        "neoplasms",
+        "brachial plexus neuritis",
+        "leukemia",
+        "leukemia, myelomonocytic, chronic",
+        "cytopenia",
+        "hemoglobin",
+        "myeloproliferative disease",
+        "bone marrow biopsy",
+        "bone marrow diseases"
+    ],
+    "author_names": [
+        "Cameron Beau Hilton, BA",
+        "Manja Meggendorfer, PhD",
+        "Mikkael A. Sekeres, MD MS",
+        "Jacob Shreve, MD MS",
+        "Nathan Radakovich",
+        "Yazan Rouphail",
+        "Wencke Walter, PhD",
+        "Stephan Hutter, PhD",
+        "Eric Padron, MD",
+        "Michael R. Savona, MD",
+        "Aaron T. Gerds, MD MS",
+        "Sudipto Mukherjee, MD PhD MPH",
+        "Brianna N Smith, MD MS",
+        "Yasunobu Nagata, MD PhD",
+        "Cassandra M. Hirsch",
+        "Rami S. Komrokji, MD",
+        "Babal K. Jha, PhD",
+        "Claudia Haferlach, MD",
+        "Jaroslaw P. Maciejewski, MD PhD",
+        "Torsten Haferlach, MD",
+        "Aziz Nazha, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Leukemia Program, Department of Hematology and Medical Oncology, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH ",
+            "Cleveland Clinic Lerner College of Medicine of Case Western Reserve University, Cleveland Heights, OH "
+        ],
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany "
+        ],
+        [
+            "Leukemia Program, Department of Hematology and Medical Oncology, Taussig Cancer Institute, Cleveland Clinic Taussig Cancer Institute, Cleveland, OH "
+        ],
+        [
+            "Department of Internal Medicine, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Cleveland Clinic Lerner College of Medicine of Case Western Reserve University, Cleveland, OH "
+        ],
+        [
+            "Ohio State University, Columbus, OH "
+        ],
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany "
+        ],
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany "
+        ],
+        [
+            "Malignant Hematology Department, Moffitt Cancer Center, Tampa, FL "
+        ],
+        [
+            "Department of Medicine and Program in Cancer Biology, Vanderbilt University Medical Center, Nashville, TN "
+        ],
+        [
+            "Leukemia Program, Department of Hematology and Medical Oncology, Taussig Cancer Institute, Cleveland Clinic Taussig Cancer Institute, Cleveland, OH "
+        ],
+        [
+            "Leukemia Program, Department of Hematology and Medical Oncology, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Department of Medicine; Department of Pediatrics; Program in Cancer Biology, Vanderbilt University School of Medicine, Nashville, TN "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic Foundation, Cleveland, OH "
+        ],
+        [
+            "Department of Malignant Hematology, H. Lee Moffitt Cancer Center and Research Institute, Tampa, FL ",
+            "Department of Malignant Hematology, H. Lee Moffitt Cancer Center & Research Institute, Tampa, FL ",
+            "Division of Malignant Hematology, H. Lee Moffitt Cancer Center and Research Institute, Tampa, FL "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "MLL Munchner Leukamie Labor Gmbh, Munchen, Germany "
+        ],
+        [
+            "Leukemia Program, Department of Hematology and Medical Oncology, Taussig Cancer Institute, Cleveland Clinic, Avon Lake, OH"
+        ]
+    ],
+    "first_author_latitude": "41.50313175",
+    "first_author_longitude": "-81.61913360000001",
+    "abstract_text": "Background Myelodysplastic syndromes (MDS) and other myeloid neoplasms are mainly diagnosed based on morphological changes in the bone marrow. Diagnosis can be challenging in patients (pts) with pancytopenia with minimal dysplasia, and is subject to inter-observer variability, with up to 40% disagreement in diagnosis (Zhang, ASH 2018). Somatic mutations can be identified in all myeloid neoplasms, but no gene or set of genes are diagnostic for each disease phenotype. We developed a geno-clinical model that uses mutational data, peripheral blood values, and clinical variables to distinguish among several bone marrow disorders that include: MDS, idiopathic cytopenia of undetermined significance (ICUS), clonal cytopenia of undetermined significance (CCUS), MDS/myeloproliferative neoplasm (MPN) overlaps including chronic myelomonocytic leukemia (CMML), and MPNs such as polycythemia vera (PV), essential thrombocythemia (ET), and myelofibrosis (PMF). Methods We combined genomic and clinical data from 2471 pts treated at our institution (684) and the Munich Leukemia Laboratory (1787). Pts were diagnosed with MDS, ICUS, CCUS, CMML, MDS/MPN, PV, ET, and PMF according to 2016 WHO criteria. Diagnoses were confirmed by independent hematopathologists not associated with the study. A panel of 60 genes commonly mutated in myeloid malignancies was included. The cohort was randomly divided into learner (80%) and validation (20%) cohorts. Machine learning algorithms were applied to predict the phenotype. Feature extraction algorithms were used to extract genomic/clinical variables that impacted the algorithm decision and to visualize the impact of each variable on phenotype. Prediction performance was evaluated according to the area under the curve of the receiver operator characteristic (ROC-AUC). Results Of 2471 pts, 1306 had MDS, 223 had ICUS, 107 had CCUS, 478 had CMML, 89 had MDS/MPN, 79 had PV, 90 had ET, and 99 had PMF. The median age for the entire cohort was 71 years (range, 9-102); 38% were female. The median white blood cell count (WBC) was 3.2x10^9/L (range, 0.00-179), absolute monocyte count (AMC) 0.21x10^9/L (range, 0-96), absolute lymphocyte count (ALC) 0.88x10^9/L (range, 0-357), absolute neutrophil count (ANC) 0.60x10^9/L (range, 0-170), and hemoglobin (Hgb) 10.50 g/dL (range, 3.9-24.0). The most commonly mutated genes in all pts were: TET2 (28%), ASXL1 (23%), SF3B1 (15%). In MDS, they were: TET2 (26%), SF3B1 (24%), ASXL1 (21%). In CCUS: TET2 (46%), SRSF2 (24%), ASXL1 (23%). In CMML, TET2 (51%), ASXL1 (43 %), SRSF2 (25%). In MDS/MPN: SF3B1 (39%), JAK2 (37%), TET2 (20%). In PV, JAK2 (94%), TET2 (22%), DNMT3A (8%). In ET: JAK2 (44%), TET2 (13%), DNMT3A (8%). In PMF: JAK2 (67%), ASXL1 (43%), SRSF2 (17%). 71 genomic/clinical variables were evaluated. Feature extraction algorithms were used to identify the variables with the most significant impacts on prediction. The top variables are shown in the Figure 1. Overall, the most important variables were: age, AMC, ANC, Hgb, Plt, ALC, total number of mutations, JAK2 , ASXL1 , TET2 , U2AF1 , SRSF2 , SF3B1 , BCOR , EZH2 , and DNMT3A . The top variables for each disease were different, see Figure. When applying the model to the validation cohort, AUC performance was as follows (a perfect predictor has an AUC of 1, and AUC \u2265 0.90 are generally considered excellent): MDS: 0.95 +/- 0.04, ICUS: 0.96 +/- 0.05, CCUS: 0.95 +/- 0.05, CMML: 0.95 +/- 0.05, MDS/MPN: 0.95 +/- 0.05, PV: 0.95 +/- 0.05, ET: 0.96 +/- 0.05, PMF: 0.95 +/- 0.05. When the analysis was restricted to MDS, ICUS, and CCUS, the AUC remained high, 0.95 +/- 0.4. The model can also provide personalized explanations of the variables supporting the prediction and the impact of each variable on the outcome (Figure). Conclusions We propose a new approach using interpretable, individualized modeling to predict myeloid neoplasm phenotypes based on genomic and clinical data without bone marrow biopsy data. This approach can aid clinicians and hematopathologists when encountering pts with cytopenias and suspicion for these disorders. The model also provides feature attributions that allow for quantitative understanding of the complex interplay among genotypes, clinical variables, and phenotypes. A web application to facilitate the translation of this model into the clinic is under development and will be presented at the meeting. Figure 1 View large Download slide Figure 1 View large Download slide  Disclosures Meggendorfer: MLL Munich Leukemia Laboratory: Employment. Sekeres: Syros: Membership on an entity's Board of Directors or advisory committees; Celgene: Membership on an entity's Board of Directors or advisory committees; Millenium: Membership on an entity's Board of Directors or advisory committees. Walter: MLL Munich Leukemia Laboratory: Employment. Hutter: MLL Munich Leukemia Laboratory: Employment. Savona: Incyte Corporation: Membership on an entity's Board of Directors or advisory committees, Research Funding; Karyopharm Therapeutics: Consultancy, Equity Ownership, Membership on an entity's Board of Directors or advisory committees; Selvita: Membership on an entity's Board of Directors or advisory committees; Sunesis: Research Funding; TG Therapeutics: Membership on an entity's Board of Directors or advisory committees, Research Funding; Takeda: Membership on an entity's Board of Directors or advisory committees, Research Funding; AbbVie: Membership on an entity's Board of Directors or advisory committees; Boehringer Ingelheim: Patents & Royalties; Celgene Corporation: Membership on an entity's Board of Directors or advisory committees. Gerds: Incyte: Consultancy, Research Funding; Roche: Research Funding; Imago Biosciences: Research Funding; CTI Biopharma: Consultancy, Research Funding; Pfizer: Consultancy; Celgene Corporation: Consultancy, Research Funding; Sierra Oncology: Research Funding. Mukherjee: Novartis: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Projects in Knowledge: Honoraria; Celgene Corporation: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Partnership for Health Analytic Research, LLC (PHAR, LLC): Consultancy; McGraw Hill Hematology Oncology Board Review: Other: Editor; Pfizer: Honoraria; Bristol-Myers Squibb: Speakers Bureau; Takeda: Membership on an entity's Board of Directors or advisory committees. Komrokji: JAZZ: Speakers Bureau; Agios: Consultancy; Incyte: Consultancy; DSI: Consultancy; pfizer: Consultancy; celgene: Consultancy; JAZZ: Consultancy; Novartis: Speakers Bureau. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Maciejewski: Alexion: Consultancy; Novartis: Consultancy. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Nazha: Tolero, Karyopharma: Honoraria; MEI: Other: Data monitoring Committee; Novartis: Speakers Bureau; Jazz Pharmacutical: Research Funding; Incyte: Speakers Bureau; Daiichi Sankyo: Consultancy; Abbvie: Consultancy."
 }
