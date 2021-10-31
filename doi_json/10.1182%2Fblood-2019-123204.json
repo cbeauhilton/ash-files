@@ -2,5 +2,51 @@
     "doi": "https://doi.org/10.1182/blood-2019-123204",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4336",
     "start_url_page_num": 4336,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Comparative Single Cell Transcriptomic Analysis of the Hematopoietic System between Human and Mouse ",
+    "article_date": "November 13, 2019",
+    "session_type": "501.Hematopoietic Stem and Progenitor Biology",
+    "topics": [
+        "cd14 antigen",
+        "cd19 antigens",
+        "cyclic gmp",
+        "endothelial protein c receptor",
+        "hematopoietic system",
+        "mice",
+        "rna",
+        "bone marrow",
+        "megakaryocytes",
+        "correlation studies"
+    ],
+    "author_names": [
+        "Shouguo Gao, PhD",
+        "Zhijie Wu, MD",
+        "Xingmin Feng, PhD",
+        "Jichun Chen, PhD",
+        "Sachiko Kajigaya, PhD",
+        "Neal S. Young, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Hematology Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD "
+        ],
+        [
+            "Hematology Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD "
+        ],
+        [
+            "Hematology Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD"
+        ],
+        [
+            "Hematology Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD "
+        ],
+        [
+            "Hematology Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD "
+        ],
+        [
+            "Hematology Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD "
+        ]
+    ],
+    "first_author_latitude": "39.0013096",
+    "first_author_longitude": "-77.1028317",
+    "abstract_text": "Single cell RNA-seq has been extensively applied to the hematopoiesis of human and mouse, but the cross-species comparison still has not been thoroughly studied. Here, using the 10X single cell platform and a canonical correlation analysis (CCA, https://satijalab.org/seurat/) computational strategy, we conducted comparative transcriptomic analysis of the hematopoietic hierarchy between human and mouse. We found that the hematopoietic stem and progenitor cell (HSPC) compartments in the two species were composed of subpopulations characterized by the same set of homologous genes, and the hematopoietic lineages and transcriptional profiling in hematopoiesis were well conserved between human and mouse, indicating evolutionary similarity in the organization of hematopoietic systems. A total of 32,805 cells derived from human bone marrow CD3-CD14-CD19-CD34+ and lineage-CD117+ cell from bone marrow of C57BL/6 mice were used to construct a single-cell resolution transcriptomic atlas of HSPCs of human and mouse. We retained only orthologous genes of human and mouse collected in InParanoid (http://inparanoid.sbc.su.se). Based on known marker genes, we grouped human cells as hematopoietic stem cell (HSC), multilymphoid progenitor (MLP), granulocyte-monocyte progenitor (GMP), Pro-B cell (ProB), earliest thymic progenitor (ETP), and megakaryocytic-erythroid progenitor (MEP); and mouse cells as long-term HSCs (LTHSC), lymphoid multipotent progenitors (LMPP), multipotent progenitor (MPP), GMP, MEP, and common myeloid progenitors (CMP). tSNE plots showed that cells were preferentially clustered by species, rather than cell type, due to species specificity and batch effects (Fig A, mouse and human cells were profiled at different time). After alignment with CCA, the cells of mouse and human were well mixed and separated by same cell type categories (Fig B-C). The cells were grouped into 17 subpopulations by computational analysis (Fig C). The cluster specific genes were species conserved and share same functional themes. To obtain a detailed view on the cellular evolution from mouse to human in the HSPC system, we used mouse and human orthologous genes, and calculated an average of expression of cells in each population of human and mouse. A hierarchical cluster dendrogram indicated that cell types were highly conserved between human and mouse (Fig D). For example, MEP and GMP of mouse and human shared a very similar transcriptome pattern. Human HSC was firstly clustered with mouse LTHSC and then with mouse MPP. Further, MPP and LMPP in mouse had similar transcriptomes, which was observed in human already. We used monocle to examine the differentiation trajectory of hematopoiesis in human and mouse, and we defined the HSC and LTHSC as roots so that they located at starting points of the differentiation hierarchy. On graphic representation after application of Monocle, for both mouse and human cells three distinct branches emerged from HSC and LTHSC: Erythroid/Megakaryocytic, Myeloid, and Lymphoid (Fig E-F). We also examined levels of gene expression. As examples, for both mouse and human, Gata1 and Cd79a expression increased along the Erythroid branch and Lymphoid branch, respectively, while Procr expression decreased with differentiation. To understand the species conservation of cell populations of hematopoiesis in human and mouse, scmap was utilized to project human dataset on mouse and inferring cellular identity with the cell types defined in mouse. Most human MEP cells (85%) were mapped to mouse MEP cell types based on transcriptional similarity, suggesting likely functional similarity and species conservation. Further, 45% and 24% human HSC cells were mapped to mouse LTHSC and MPP cell types, respectively, indicating similarity of MPP and HSC (Fig G-H). Our analysis confirms evolutionary conservation between mouse and human hematopoietic systems. Figure View large Download slide Figure View large Download slide  Disclosures No relevant conflicts of interest to declare."
 }
