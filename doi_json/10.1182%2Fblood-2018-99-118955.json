@@ -2,5 +2,59 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-118955",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4035",
     "start_url_page_num": 4035,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Extracellular Vesicles (EVs) Shape the Leukemic Microenvironment ",
+    "article_date": "November 29, 2018",
+    "session_type": "631. Chronic Myeloid Leukemia: Biology and Pathophysiology, excluding Therapy",
+    "topics": [
+        "cancer",
+        "cell culture techniques",
+        "centrifugation",
+        "clinical diagnosis",
+        "coculture techniques",
+        "colorectal cancer",
+        "death",
+        "extracellular vesicles",
+        "hyperplasia",
+        "leukemia"
+    ],
+    "author_names": [
+        "Theo Borgovan, MD BS",
+        "Chibuikem Chukwudalu Nwizu",
+        "Laura R Goldberg, MD PhD",
+        "Mark S Dooner",
+        "Sicheng Wen, MD PhD",
+        "Mike Deltatto",
+        "Lorin Crawford, PhD",
+        "Peter J. Quesenberry, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Brown University / Rhode Island Hospital, Providence, RI "
+        ],
+        [
+            "Brown University, Providence, "
+        ],
+        [
+            "Rhode Island Hospital, Providence, RI "
+        ],
+        [
+            "Rhode Island Hospital, Providence, RI "
+        ],
+        [
+            "Rhode Island Hospital, Providence, RI "
+        ],
+        [
+            "Brown University / Rhode Island Hospital, Providence, "
+        ],
+        [
+            "Brown University / Rhode Island Hospital, Providence, "
+        ],
+        [
+            "Department of Medicine, Alpert Medical School of Brown University, Providence, RI"
+        ]
+    ],
+    "first_author_latitude": "41.81087975",
+    "first_author_longitude": "-71.409921",
+    "abstract_text": "Background Extracellular Vesicles (EVs) compose a naturally occurring, heterogeneous group of membrane-bound, nano-sized particles shed by all cells. Depending on cellular type, physiological state, and mode of secretion some harbor potent regenerative properties while others have the propensity to induce disease. Human bone marrow mesenchymal stem cell (MSC)-derived EVs harbor regenerative potential. Our own studies have shown MSC-EVs are able to mitigate radiation damage to bone marrow, and to reverse the malignant phenotype in prostate and colorectal cancer. On the contrary, EVs isolated from neoplastic cells induce a neoplastic phenotype in non-cancerous cells. Leukemic EVs also potentiate the phenotypic change of healthy MSCs into cancer associated fibroblasts. The role of EVs within the leukemic microenvironment may provide insight for therapeutic advances. We hypothesize that EVs derived from normal MSCs inhibit the growth of nascent acute myelogenous leukemia (AML), and that the predominant EV population changes during leukemia progression. Neural network machine learning will allow us to capture these changes in order to build predictive models. Methods Kasumi AML cells lines were seeded with various concentrations of MSC-derived EVs. Vesicles were isolated using an established differential centrifugation technique, and co-cultured with Kasumi. To study cellular proliferation we employed a fluorescence-based method for quantifying viable cells (CyQuant). We also investigated the modes of death (apoptosis vs necrosis) EVs may induce on AML via a three die fluorescent system. Fluorescence intensities were normalized to control wells containing non-EV treated cells alone. Our neural network achieved 90.16% classification accuracy with cell culture data, and was tasked to classify the similarity of patient samples to the AML-derived EVs. Results Proliferation of AML cells after one day of co-culture with 2.6E8 &1.3E10 MSC-EVs respectively was inhibited in a dose dependent manner: with 2.6E8 EVs leading to ~ 15% reduction in growth, and 1.3E10 EVs leading to ~60% reduction when normalized to non-EV treated controls. 3 days of co-culture with similar doses resulted in ~40% and ~80% reduction in proliferation when normalized to control. At day 6 of co-culture growth was inhibited by ~80% at both EV concentrations. At multiple time points hMSC-EV treated AML cells showed a significantly higher proportion of apoptosis. Cellular necrosis was negligible. There was no statistically significant change in proliferation of MSC exposed to MSC-derived EVs when compared to non-EV treated controls. There was also no statistically significant change in proliferation of AML cells exposed to AML-derived EVs. Samples of AML, Chronic Myelomonocytic Leukemia, and Multiple Myeloma entered into our machine alogrithm were calculated to be 100%, 100%, and 66%, respectively, similar to the AML-derived EVs. Summary/Conclusion MSC-derived EVs inhibits the proliferation of the AML cell line in vitro via an apoptotic mechanism. This effect is seen as early as one day of co-culture and persists out to three, and six days, implicating an miRNA-mediated mechanism that has been discussed in previous works. We have also shown that when cells are exposed to their own EV there is no change or (in the case of leukemia) a statistically insignificant increase in proliferation. We feel this is perhaps a model of how a normal marrow works to suppress early cancer. As leukemia develops the cross-talk between AML and its microenvironment, via direct EV mediated effects, alters the MSCs to promote a survival signal favoring AML growth. This restructuring is EV mediated. Future work involves the capacity of AML-derived EVs to alter the phenotype of normal marrow towards a pro-leuekmic phenotype. This also includes the use of AML mouse models to further investigate the therapeutic potential MSC-derived EVs may have as single or adjunct therapy; as well as to study potential cellular mediators that may be involved in EV-direceted AML progression. Lastly we endeavor to employ machine learning networks to characterize and predict the dynamic restructuring the EV milieu undergoes as leukemia progresses. Capturing these alteration will allow the creation of reliable predictive models that will have direct inferences on clinical diagnosis and prognosis. Disclosures No relevant conflicts of interest to declare."
 }
