@@ -2,5 +2,87 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-112624",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3995",
     "start_url_page_num": 3995,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Dissecting the Regulation of Human Hematopoiesis at Single-Cell and Single-Variant Resolution ",
+    "article_date": "November 29, 2018",
+    "session_type": "502. Hematopoiesis: Regulation of Gene Transcription, Apoptosis, and Cell Cycle Regulation: Integrated Functional Genomics and Epigenetic Approaches to Dissect Hematopoiesis",
+    "topics": [
+        "atac trial",
+        "bcl-2 protein",
+        "ccaat/enhancer binding protein alpha",
+        "chromatin",
+        "hematopoiesis",
+        "introns",
+        "red blood cell count measurement",
+        "transcription factor",
+        "blood cells",
+        "monocytes"
+    ],
+    "author_names": [
+        "Erik L. Bao, BS",
+        "Jacob C. Ulirsch, BS",
+        "Caleb A. Lareau, MA",
+        "Leif S. Ludwig, PhD",
+        "Michael H. Guo, PhD",
+        "Christian Benner, MS",
+        "Ansuman T. Satpathy, MD PhD",
+        "Vinay K. Kartha, PhD",
+        "Rany M. Salem, PhD",
+        "Joel N. Hirschhorn, PhD",
+        "Hilary K. Finucane, PhD",
+        "Martin J. Aryee, PhD",
+        "Jason D. Buenrostro, PhD",
+        "Vijay G. Sankaran, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Health Sciences and Technology Program, Harvard Medical School, Boston, MA ",
+            "Broad Institute of MIT and Harvard, Cambridge, MA ",
+            "Division of Hematology/Oncology, Boston Children's Hospital, Boston, MA "
+        ],
+        [
+            "Broad Institute of MIT and Harvard, Cambridge, MA ",
+            "Division of Hematology/Oncology, Boston Children's Hospital, Boston, MA "
+        ],
+        [
+            "Broad Institute of MIT and Harvard, Cambridge, MA "
+        ],
+        [
+            "Broad Institute of MIT and Harvard, Cambridge, MA "
+        ],
+        [
+            "Broad Institute of MIT and Harvard, Cambridge, MA "
+        ],
+        [
+            "Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland "
+        ],
+        [
+            "Department of Pathology, Stanford University School of Medicine, Stanford, CA"
+        ],
+        [
+            "Broad Institute of MIT and Harvard, Cambridge, MA "
+        ],
+        [
+            "Broad Institute of MIT and Harvard, Cambridge, MA "
+        ],
+        [
+            "Broad Institute of MIT and Harvard, Cambridge, MA "
+        ],
+        [
+            "Broad Institute of MIT and Harvard, Cambridge, MA "
+        ],
+        [
+            "Broad Institute of MIT and Harvard, Cambridge, MA "
+        ],
+        [
+            "Broad Institute of MIT and Harvard, Cambridge, MA "
+        ],
+        [
+            "Broad Institute of MIT and Harvard, Cambridge, MA ",
+            "Division of Hematology/Oncology, Boston Children's Hospital, Boston, MA "
+        ]
+    ],
+    "first_author_latitude": "42.34739345",
+    "first_author_longitude": "-71.0987416",
+    "abstract_text": "Hematopoiesis is a well-characterized paradigm of cellular differentiation that is highly regulated to ensure balanced proportions of mature blood cells. However, many aspects of this process remain poorly understood in humans. For example, there is extensive variation in commonly measured blood cell traits, which can manifest as diseases at extreme ends of the spectrum, yet the vast majority of genetic loci responsible for driving these differences are currently unknown. Here, we integrate fine-mapped population genetics with high-resolution chromatin landscapes to gain novel insights into regulatory mechanisms critical for human blood cell production and disease. First, we conducted a genome-wide association study in 115,000 individuals from the UK Biobank, measuring the effects of genetic variation on 16 blood traits spanning 7 hematopoietic lineages (erythroid, platelet, lymphocyte, monocyte, neutrophil, eosinophil, basophil). Within each region of association (n = 2,056), we performed Bayesian fine-mapping on all common variants to resolve the most likely causal hits. Going further, we were interested in whether genetic variants predominantly act in terminal cell states or less differentiated progenitors. To this end, we overlapped fine-mapped variants with chromatin accessibility profiles (ATAC-seq) of 18 primary hematopoietic populations sorted from healthy donors. Across all lineages, 21% of regulatory variants were restricted to accessible chromatin (AC) peaks in terminal progenitors. Interestingly, 59% of variants fell in AC regions of one or more upstream progenitor states, suggesting that a significant amount of variation in blood traits stems from regulatory signaling in earlier stages of hematopoiesis. Motivated by this finding, we hypothesized that different branches of hematopoiesis (e.g., monocyte and red blood cell count) could be co-regulated by pleiotropic variants acting in common progenitor populations. Therefore, we investigated variants associated with 2 or more of the 7 blood cell types for which phenotypes were available. Remarkably, across 172 such variants, there was an average of 60% more open chromatin in progenitors than terminal cell types (mean 4.01 vs. 2.44 counts per million; p = 0.025). Examining the directional effects of these variants on distinct lineages, we discovered that 91% of pleiotropic variants exhibited a tune mechanism by changing the levels of different blood cells in the same direction. One such example was rs17758695 located in intron 1 of BCL2, an anti-apoptotic protein known to regulate cell death similarly across multiple hematopoietic cell types. In contrast, the remaining 9% of pleiotropic variants favored one lineage at the expense of others ( switch mechanism), including novel variants near key myeloid-determining transcription factors CEBPA and MYC (rs78744187 and rs562240450). Together, these results suggest that pleiotropic variants 1) preferentially act in common progenitor rather than terminal cell types, and 2) predominantly tune multiple traits in the same direction, but may favor one at the expense of others when influencing lineage commitment. Finally, given the enrichment of fine-mapped variants in common progenitor states, we set out to determine whether classically defined hematopoietic populations could be divided into lineage-biased subpopulations based on differential genetic regulation of blood traits. To do so, we measured the enrichment of fine-mapped variants in the chromatin landscapes of 2,034 single cells isolated from 8 hematopoietic progenitor populations. Strikingly, we discovered significant heterogeneity within the common myeloid progenitor (CMP) population, in which one subset of cells exhibited greater open-chromatin enrichment for myeloid trait variants and relevant transcription factor (TF) binding (CEBPA, IRF8), whereas the other subset showed enrichment for erythroid trait variants and TFs (GATA1, KLF1). By integrating genetic fine-mapping with chromatin data, we identified hundreds of causal variants regulating 16 blood traits, characterized novel mechanisms of pleiotropic effects, and discovered cell states enriched for blood trait regulation. These findings provide new insights into the importance of genetic regulation in progenitor cell states and will contribute to knowledge of how these processes go awry in diseases of blood cell production. Disclosures No relevant conflicts of interest to declare."
 }
