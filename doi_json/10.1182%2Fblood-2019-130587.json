@@ -2,5 +2,51 @@
     "doi": "https://doi.org/10.1182/blood-2019-130587",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4362",
     "start_url_page_num": 4362,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Transcriptome Based Projection of Single Cells to Uncover Development and Heterogeneity of Abnormal Hematopoietic Cells ",
+    "article_date": "November 13, 2019",
+    "session_type": "602.Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation",
+    "topics": [
+        "gene expression profiling",
+        "heterogeneity",
+        "leukemia",
+        "leukemic cells",
+        "ms-like tyrosine kinase 3",
+        "rna, small cytoplasmic",
+        "leptocytes",
+        "monocytes",
+        "b-lymphocytes",
+        "cells"
+    ],
+    "author_names": [
+        "Parashar Dhapola, MSc",
+        "Mikael Sommarin",
+        "Mohamed Eldeeb, MSc",
+        "Amol Ugale, PhD",
+        "David Bryder, PhD",
+        "G\u00f6ran Karlsson, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Division of Molecular Hematology, Lund Univerity, Lund, Sweden "
+        ],
+        [
+            "Division of Molecular Hematology, Lund University, Lund, Sweden"
+        ],
+        [
+            "Division of Molecular Hematology, Lund University, Lund, Sweden"
+        ],
+        [
+            "Division of Molecular Hematology, Lund University, Lund, Sweden"
+        ],
+        [
+            "Division of Molecular Hematology, Lund University, Lund, Sweden"
+        ],
+        [
+            "Division of Molecular Hematology, Lund University, Lund, Sweden"
+        ]
+    ],
+    "first_author_latitude": "55.71194829999999",
+    "first_author_longitude": "13.203493000000002",
+    "abstract_text": "Single-cell transcriptomics (scRNA-Seq) has accelerated the investigation of hematopoietic differentiation. Based on scRNA-Seq data, more refined models of lineage determination in stem- and progenitor cells are now available. Despite such advances, characterizing leukemic cells using single-cell approaches remains challenging. The conventional strategies of scRNA-Seq analysis map all cells on the same low dimensional space using approaches like tSNE and UMAP. However, when used for comparing normal and leukemic cells, such methods are often inadequate as the transcriptome of the leukemic cells has systematically diverged, resulting in irrelevant separation of leukemic subpopulations from their healthy counterpart. Here, we have developed a new computational approach bundled into a tool called Nabo ( nabo.readthedocs.io ) that has the capacity to directly compare cells that are otherwise unalignable. First, Nabo creates a shared nearest neighbor graph of the reference population, and the heterogeneity of this population is subsequently defined by performing clustering on the graph and calculating a low dimensional representation using t-SNE or UMAP. Nabo then calculates the similarity of incoming cells from a target population to each cell in the reference graph using a modified Canberra metric. The reference cells with higher similarity to the target cells obtain higher mapping scores. The built-in classifier is used to assign each target cell a reference cluster identity. We tested Nabo's accuracy on control datasets and found that Nabo's performance in terms of accuracy and robustness of projection is comparable to state-of-art methods. Moreover, Nabo is a generalized domain adaptation algorithm and hence can perform classification of target cells that are arbitrarily dissimilar to reference cells. Nabo could identify the cell-identity of sorted CD19+ B cells, CD14+ monocytes and CD56+ by projecting these unlabeled cells onto labelled peripheral blood mononuclear cells with an average specificity higher than 0.98. The general applicability of Nabo was demonstrated by successfully integrating pancreatic cells, sequenced in three different studies using different sequencing chemistries with comparable or better accuracy than existing methods. Also, it was conclusively demonstrated that Nabo can predict the identity of human HSPC subpopulations to the same accuracy as can be achieved by established cell-surface markers. Having Nabo at hand, we aimed to uncover the heterogeneity of hematopoietic cells from different stages of AML. Nabo showed that AML cells lacked the heterogeneity of normal CD34+ cells and were devoid of cells with HSC gene signature. A large patient-to-patient variability was found where leukemic cells mapped to distinct stages of myeloid progenitors. To ask whether this variability could reflect differences in leukemia-initiating cell identity, we induced leukemia in murine granulocyte-monocyte-lymphoid progenitors (GMLPs) using an inducible model for MLL-ENL-driven AML. On projection, more than 70% of MLL-ENL-activated cells mapped to a distinct Flt3+ subpopulation present within healthy GMLPs. Statistical validity of this projection was verified using two novel null models for testing cell projections: 1) ablated node model, wherein the mapping strength of target cells are evaluated after removal of high mapping score source nodes, and 2) high entropy features model, which rules out the background noise effect. By separating Flt3+ and Flt3- cells prior to activation of the fusion gene and performing in vitro replating assays, we could demonstrate that Flt3+ GMLPs contained 3-4 fold more leukemia-initiating cells (1/1.34 cells) than Flt3- GMLPs (1/4.89 cells), indicating that leukemia-initiating cells within GMLPs express Flt3. Taken together, Nabo represents a robust cell projection strategy for relevant analysis of scRNA-Seq data that permits an interpretable inference of cross-population relationships. Nabo is designed to compare disparate cellular populations by using the heterogeneity of one population as a point of reference allowing for cell-type specification even following perturbations that have resulted in large molecular changes to the cells of interest. As such, Nabo has critical implementation for delineation of leukemia heterogeneity and identification of leukemia-initiating cell population. Disclosures No relevant conflicts of interest to declare."
 }
