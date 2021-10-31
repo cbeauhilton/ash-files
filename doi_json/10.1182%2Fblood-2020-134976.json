@@ -2,5 +2,40 @@
     "doi": "https://doi.org/10.1182/blood-2020-134976",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4638",
     "start_url_page_num": 4638,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Feasibility of a Decision Support Software to Aid in the Interpretation of Somatic Mutations Detected in Hematologic Malignancies ",
+    "article_date": "November 5, 2020",
+    "session_type": "903.Health Services Research-Malignant Conditions (Myeloid Disease)",
+    "topics": null,
+    "author_names": [
+        "Stephanie J. Yaung, PhD",
+        "Adeline Pek, MS",
+        "Lili Niu, PhD",
+        "Jian Li, PhD",
+        "John F. Palma, PhD",
+        "Maximilian Schmid, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Roche Sequencing Solutions, Inc., Pleasanton, CA "
+        ],
+        [
+            "Roche Sequencing Solutions, Inc., Pleasanton, CA "
+        ],
+        [
+            "Roche Sequencing Solutions, Inc., Belmont, CA"
+        ],
+        [
+            "Roche Sequencing Solutions, Inc., Belmont, CA"
+        ],
+        [
+            "Roche Sequencing Solutions, Inc., Pleasanton, CA "
+        ],
+        [
+            "Roche Sequencing Solutions, Inc., Pleasanton, CA "
+        ]
+    ],
+    "first_author_latitude": "37.6923106",
+    "first_author_longitude": "-121.8964434",
+    "abstract_text": "Introduction: Genomic characterization is critical for diagnosis, prognosis, and therapeutic decision-making in hematological malignancies. Due to the increasing use of next-generation sequencing (NGS) and evolving medical guidelines, routine clinical interpretation of NGS results is difficult and resource-intensive. Pathologists and oncologists must stay abreast of the latest guidelines (e.g., from WHO, NCCN, CAP/ASH), emerging evidence from clinical or preclinical studies, and new drug approvals in their region. To address these challenges, we explored the feasibility of using a cloud-based CE-IVD somatic variant interpretation tool, NAVIFY\u00ae Mutation Profiler*, to provide automated and accurate clinical content for somatic variants detected in 745 hematologic tumor samples from cBioPortal (Cerami et al. Cancer Discovery 2012, Gao et al. Sci Signal 2013). Methods: Whole exome mutation data of acute myeloid leukemia (AML), myeloproliferative neoplasm (MPN), chronic lymphocytic leukemia (CLL), diffuse large B-cell lymphoma (DLBCL), and multiple myeloma (MM) (Figure 1A) were converted to an individual Variant Call Format (VCF) file containing single nucleotide variants (SNVs) and insertion/deletions (indels) for each sample. The VCF files along with fusion data, which was only available for AML samples, were programmatically uploaded to NAVIFY Mutation Profiler through the API. As a proof-of-concept, a random 30% subset of the samples were analyzed with a beta version of the software (v2.0.0.22e0193) with access to preliminary curation content (Roche-2.18.0-VnV released April 3, 2020) that contained interpretations for hematological cancers. Using the curated knowledge base, NAVIFY Mutation Profiler automatically assigned tier classifications for variants based on consensus recommendations from AMP, ASCO, CAP, and ACMG (Li et al. JMD 2017). Results: Of the 12,254 somatic mutations assessed with NAVIFY Mutation Profiler, 791 were classified as variants of strong or potential clinical significance (Tier I or II) (Figure 1B). We found 53% of cases had a Tier I or II interpretation, with the highest rate in MPN (96%) and lowest in DLBCL (28%). Given that no copy number variants and limited fusion data were included, these numbers might be an underestimate of the percentage of cases with clinically significant variants. The most frequently mutated genes harboring Tier I or II variants were consistent with known genes with variants of diagnostic, prognostic or therapeutic value in hematological cancers (Taylor et al. Blood 2017). Since interpretations for MYD88 had not been released in the content version used, we manually re-classified MYD88 SNVs during the first review of the report in a specific cancer type (such as classifying MYD88 p.L265P as Tier IA in DLBCL and Tier IIC in CLL); the software then automatically reflected the new classifications in subsequent cases with the same variant in the same cancer type. We also compared tier classifications to a public knowledge base, OncoKB (Chakravarty et al. JCO PO 2017, Suehnholz et al. Blood 2019). In OncoKB, we only found information for AML. FLT3 , IDH1 , and IDH2 , were classified with Level of Evidence 1 which corresponds to AMP Tier IA. NAVIFY Mutation Profiler also classified FLT3 mutations as Tier IA, but classified IDH1 and IDH2 as Tier IB since we used the European Union region for analysis, and ivosidenib and enasidenib are approved by the FDA but not the EMA for IDH1 and IDH2 mutated AML, respectively. OncoKB classified SRSF2 , SF3B1 , and U2AF1 as Level of Evidence 4, which were consistent with Tier IIC. Conclusions: NAVIFY Mutation Profiler can help prioritize NGS variants and streamline the clinical laboratory workflow, thereby reducing manual errors and maintaining consistency in variant interpretation across samples. While the tool provided an automated tier classification, it was possible to apply custom classifications that were propagated to later cases to reliably manage the knowledge. This study demonstrates the feasibility of using decision support software to automatically curate, annotate, interpret, and report somatic variants in hematological cancers identified by NGS. * This product has not been evaluated by the Food and Drug Administration and is not commercially available in the United States. View large Download slide View large Download slide  Disclosures Yaung: Roche Sequencing Solutions, Inc.: Current Employment, Current equity holder in publicly-traded company, Patents & Royalties. Pek: Roche Sequencing Solutions, Inc.: Current Employment. Niu: Roche Sequencing Solutions, Inc.: Current Employment, Current equity holder in publicly-traded company. Li: Roche Sequencing Solutions, Inc.: Current Employment, Current equity holder in publicly-traded company. Palma: Clovis Oncology: Current equity holder in publicly-traded company; Editas Medicine: Current equity holder in publicly-traded company; Exact Sciences: Current equity holder in publicly-traded company; Roche Sequencing Solutions, Inc.: Current Employment, Current equity holder in publicly-traded company; Johnson & Johnson: Current equity holder in publicly-traded company. Schmid: Roche Sequencing Solutions, Inc.: Current Employment, Current equity holder in publicly-traded company."
 }

@@ -2,5 +2,73 @@
     "doi": "https://doi.org/10.1182/blood.V124.21.300.300",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2832",
     "start_url_page_num": 2832,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": " IGHV-D-J Ultra-Deep Sequencing Reveals APOBEC and AID Targeted Mutations during Clonal Evolution of CLL in a Xenograft Mouse Model ",
+    "article_date": "December 6, 2014",
+    "session_type": "641. CLL: Biology and Pathophysiology, excluding Therapy: Advances in (Immuno)genetics",
+    "topics": [
+        "mice",
+        "mutation",
+        "transplantation, heterologous",
+        "cancer",
+        "dna, complementary",
+        "immunoglobulins",
+        "leukemia",
+        "transfer technique",
+        "apolipoproteins b",
+        "chronic b-cell leukemias"
+    ],
+    "author_names": [
+        "Charles C. Chu, PhD",
+        "Piers E.M. Patten, BSc, MRCP, MRCPath, PhD",
+        "Thomas MacCarthy, PhD",
+        "Chaohui Yuan, MS",
+        "Xiao-Jie Yan, MD PhD",
+        "Jacqueline C. Barrientos, MD",
+        "Jonathan E. Kolitz, MD",
+        "Steven L. Allen, MD",
+        "Kanti R. Rai, MD",
+        "Nicholas Chiorazzi, MD"
+    ],
+    "author_affiliations": [
+        [
+            "The Feinstein Institute for Medical Research, North Shore-LIJ Health System, Manhasset, NY ",
+            "Hofstra North Shore-LIJ School of Medicine, Hempstead, NY "
+        ],
+        [
+            "King's College London NHS Foundation Trust, London, United Kingdom "
+        ],
+        [
+            "State University of New York, Stony Brook, NY "
+        ],
+        [
+            "State University of New York, Stony Brook, NY "
+        ],
+        [
+            "The Feinstein Institute for Medical Research, North Shore-LIJ Health System, Manhasset, NY "
+        ],
+        [
+            "The Feinstein Institute for Medical Research, North Shore-LIJ Health System, Manhasset, NY ",
+            "Hofstra North Shore-Long Island Jewish School of Medicine, Hempstead, NY"
+        ],
+        [
+            "The Feinstein Institute for Medical Research, North Shore-LIJ Health System, Manhasset, NY ",
+            "Hofstra North Shore-LIJ School of Medicine, Hempstead, NY "
+        ],
+        [
+            "The Feinstein Institute for Medical Research, North Shore-LIJ Health System, Manhasset, NY ",
+            "Hofstra North Shore-Long Island Jewish School of Medicine, Hempstead, NY"
+        ],
+        [
+            "The Feinstein Institute for Medical Research, North Shore-LIJ Health System, Manhasset, NY ",
+            "Hofstra North Shore-LIJ School of Medicine, Hempstead, NY "
+        ],
+        [
+            "The Feinstein Institute for Medical Research, North Shore-LIJ Health System, Manhasset, NY ",
+            "Hofstra North Shore-LIJ School of Medicine, Hempstead, NY "
+        ]
+    ],
+    "first_author_latitude": "40.775628499999996",
+    "first_author_longitude": "-73.7023206",
+    "abstract_text": "Targeted ultra-deep sequencing of chronic lymphocytic leukemia (CLL) cells has enabled the assessment of subclone development based on mutations in the IGHV-D-J signature sequence in the dominant CLL clone. We have utilized the Roche 454 FLX pyrosequencing system, which can generate long sequencing reads containing both the immunoglobulin variable region ( IGHV-D-J ) and part of the immunoglobulin \u03bc constant region ( IGHM ) in a single sequence, to analyze the mutational characteristics of newly evolved subclones to determine if they derive from AID/APOBEC activity. APOBEC (apolipoprotein B mRNA editing enzyme, catalytic polypeptide) is a family of cytidine deaminases that includes AID (activation-induced cytidine deaminase). AID is required for somatic hypermutation in germinal center B lymphocytes. CLL cells, like most non-germinal center B lymphocytes, generally do not express AID. However, AID expression in a small fraction of the CLL clone correlates with worse patient outcome. This observation has led to the hypothesis that abnormal AID expression promotes new off-target non-immunoglobulin mutations and DNA deletions and rearrangements leading to the development of more aggressive disease. CLL is not alone in this hypothesis, as AID is involved in the evolution of other leukemias/lymphomas and reportedly in other types of tumors such as breast and gastrointestinal cancers. Large scale cataloguing of somatic mutations by ultra-deep sequencing of a wide array of cancers has revealed an AID/APOBEC mutational signature in many cancers, including CLL (Alexandrov et al. 2013 Nature). Thus, AID/APOBEC family members may be involved in somatic mutations leading to the evolution of aggressive cancers. To test if AID/APOBEC proteins could be mutationally active in CLL, we analyzed the characteristics of new mutations found in IGHV-D-J-M in CLL cells that were activated in vivo after adoptive transfer into alymphoid NOD/Shi-scid,\u03b3c null (NSG) mice. This CLL xenograft model activates a large fraction of CLL cells, which become AID + and facilitates the detection of new subclones expressing mutated IGHV-D-J s by ultra-deep sequencing. Four unmutated IGHV CLL (U-CLL) and 3 mutated IGHV (>2% compared to germline) CLL (M-CLL) samples were each adoptively transferred into individual NSG mice. After expansion of CLL, the mice were sacrificed and the specific CLL clone IGHV-D-J-M was amplified from xenograft mouse spleen cDNA. Pre-transfer CLL cell cDNA was also amplified to establish a baseline comparison. Ultra-deep sequencing of these samples resulted in 2,318,800 sequence reads, which were subsequently trimmed according to the Roche 454 algorithm and further processed by custom R scripts. The sequence reads were aligned to the dominant CLL clone IGHV-D-J-M sequence to remove insertions, deletions, and poor quality (<20) nucleotides, resulting in 1,700,839 blocks of sequences of the same length. The dominant CLL clones represented 92.3% (1,569,059 blocks) of these sequences and were excluded. Mutated subclone sequences that occurred at least twice were extracted. Xenograft subclones not found in the pre-transfer sample were selected for analyses of the characteristics of newly generated CLL mutations. New xenograft CLL subclones could be identified in all samples (3.2 \u2013 12.3 new subclones / read bp *10 6 ). AID mutational characteristics in new subclones were assessed using the SHMTool (http://scb.aecom.yu.edu/shmtool) algorithms to calculate mutation frequencies in IGHV-D-J relative to IGHM and at AID mutation hotspots and coldspots. Other APOBEC family members have a different mutation hotspot site, which we analyzed by custom R scripts. All CLL samples showed evidence of AID mutational activity: higher IGHV-D-J versus IGHM mutations in all cases, increased AID hotspot mutation frequency in five cases, and decreased AID coldspot mutation frequency in five cases. Increased APOBEC hotspot mutational activity was seen in four cases. This APOBEC mutational activity is consistent with increased APOBEC3 gene expression and the genomic somatic mutation pattern observed recently in CLL (Rebhandl et al. 2014 Leukemia). Thus, both U-CLL and M-CLL are capable of producing mutations characteristic of AID or APOBEC activity. These data are consistent with the hypothesis that AID/APOBEC may promote new mutations leading to the evolution of aggressive CLL. Disclosures No relevant conflicts of interest to declare."
 }
