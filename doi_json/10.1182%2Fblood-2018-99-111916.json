@@ -2,5 +2,87 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-111916",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3969",
     "start_url_page_num": 3969,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Comparative Analysis of Independent Ex Vivo functional Drug Screens Identifies Predictive Biomarkers of BCL-2 Inhibitor Response in AML ",
+    "article_date": "November 29, 2018",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster II",
+    "topics": [
+        "bcl2 gene",
+        "biological markers",
+        "drug screening",
+        "venetoclax",
+        "cd14 antigen",
+        "bcl-xl protein",
+        "complete remission",
+        "leukemia",
+        "leukemia, myelocytic, acute",
+        "lymphoma"
+    ],
+    "author_names": [
+        "Brian S. White, PhD",
+        "Suleiman A. Khan, PhD",
+        "Muhammad Ammad-ud-din, PhD",
+        "Swapnil Potdar, MSc",
+        "Mike J Mason, PhD",
+        "Cristina E. Tognon, PhD",
+        "Brian J. Druker, MD",
+        "Caroline A Heckman, PhD",
+        "Olli Kallioniemi, MD PhD",
+        "Stephen E Kurtz, PhD",
+        "Kimmo Porkka, MD PhD",
+        "Jeffrey W. Tyner, PhD",
+        "Tero Aittokallio, PhD",
+        "Krister Wennerberg, PhD",
+        "Justin Guinney, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Computational Oncology, Sage Bionetworks, Seattle, WA "
+        ],
+        [
+            "Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland "
+        ],
+        [
+            "Institute for Molecular Medicine Finland (FIMM), HiLIFE, University of Helsinki, Helsinki, Finland "
+        ],
+        [
+            "Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland "
+        ],
+        [
+            "Computational Oncology, Sage Bionetworks, Seattle, WA "
+        ],
+        [
+            "Knight Cancer Institute, Oregon Health & Science University, Portland, OR "
+        ],
+        [
+            "Knight Cancer Institute, Oregon Health & Science University, Portland, OR "
+        ],
+        [
+            "Institute for Molecular Medicine Finland, University of Helsinki, Helsinki, Finland "
+        ],
+        [
+            "SciLifeLab, Stockholm, Sweden "
+        ],
+        [
+            "Knight Cancer Institute, Oregon Health & Science University, Portland, OR "
+        ],
+        [
+            "Department of Hematology, Helsinki University Hospital and Comprehensive Cancer Center, Helsinki, Finland "
+        ],
+        [
+            "Knight Cancer Institute, Department of Cell, Developmental and Cancer Biology, Oregon Health and Science University, Portland, OR"
+        ],
+        [
+            "Institute for Molecular Medicine Finland (FIMM), HiLIFE, University of Helsinki, Helsinki, Finland "
+        ],
+        [
+            "Institute for Molecular Medicine Finland, University of Helsinki, Helsinki, Finland "
+        ],
+        [
+            "Computational Oncology, Sage Bionetworks, Seattle, WA "
+        ]
+    ],
+    "first_author_latitude": "47.6179975",
+    "first_author_longitude": "-122.3516184",
+    "abstract_text": "Introduction: Therapeutic options for patients with AML were recently expanded with FDA approval of four drugs in 2017. As their efficacy is limited in some patient subpopulations and relapse ultimately ensues, there remains an urgent need for additional treatment options tailored to well-defined patient subpopulations to achieve durable responses. Two comprehensive profiling efforts were launched to address this need-the multi-center Beat AML initiative, led by the Oregon Health & Science University (OHSU) and the AML Individualized Systems Medicine program at the Institute for Molecular Medicine Finland (FIMM). Methods: We performed a comparative analysis of the two large-scale data sets in which patient samples were subjected to whole-exome sequencing, RNA-seq, and ex vivo functional drug sensitivity screens: OHSU (121 patients and 160 drugs) and FIMM (39 patients and 480 drugs). We predicted ex vivo drug response [quantified as area under the dose-response curve (AUC)] using gene expression signatures selected with standard regression and a novel Bayesian model designed to analyze multiple data sets simultaneously. We restricted analysis to the 95 drugs in common between the two data sets. Results: The ex vivo responses (AUCs) of most drugs were positively correlated (OHSU: median Pearson correlation r across all pairwise drug comparisons=0.27; FIMM: median r =0.33). Consistently, a samples's ex vivo response to an individual drug was often correlated with the patient's Average ex vivo Drug Sensitivity (ADS), i.e. , the average response across the 95 drugs (OHSU: median r across 95 drugs=0.41; FIMM: median r =0.58). Patients with a complete response to standard induction therapy had a higher ADS than those that were refractory ( p =0.01). Further, patients whose ADS was in the top quartile had improved overall survival relative to those having an ADS in the bottom quartile ( p <0.05). Standard regression models (LASSO and Ridge) trained on ADS and gene expression in the OHSU data set had improved ex vivo response prediction performance as assessed in the independent FIMM validation data set relative to those trained on gene expression alone (LASSO: p =2.9x10-4; Ridge: p =4.4x10-3). Overall, ex vivo drug response was relatively well predicted (LASSO: mean r across 95 drugs=0.62; Ridge: mean r =0.62). The BCL-2 inhibitor venetoclax was the only drug whose response was negatively correlated with ADS in both data sets. We hypothesized that, whereas the predictive performance of many other drugs was likely dependent on ADS, the predictive performance of venetoclax (LASSO: r =0.53, p =0.01; Ridge: r =0.63, p =1.3x10-3) reflected specific gene expression biomarkers. To identify biomarkers associated with venetoclax sensitivity, we developed an integrative Bayesian machine learning method that jointly modeled both data sets, revealing several candidate biomarkers positively ( BCL2 and FLT3 ) or negatively ( CD14 , MAFB , and LRP1 ) correlated with venetoclax response. We assessed these biomarkers in an independent data set that profiled ex vivo response to the BCL-2/BCL-XL inhibitor navitoclax in 29 AML patients (Lee et al. ). All five biomarkers were validated in the Lee data set ( Fig 1 ). Conclusions: The two independent ex vivo functional screens were highly concordant, demonstrating the reproducibility of the assays and the opportunity for their use in the clinic. Joint analysis of the two data sets robustly identified biomarkers of drug response for BCL-2 inhibitors. Two of these biomarkers, BCL2 and the previously-reported CD14 , serve as positive controls credentialing our approach. CD14 , MAFB , and LRP1 are involved in monocyte differentiation. The inverse correlation of their expression with venetoclax and navitoclax response is consistent with prior reports showing that monocytic cells are resistant to BCL-2 inhibition (Kuusanm\u00e4ki et al. ). These biomarker panels may enable better selection of patient populations likely to respond to BCL-2 inhibition than would any one biomarker in isolation. References: Kuusanm\u00e4ki et al. (2017) Single-Cell Drug Profiling Reveals Maturation Stage-Dependent Drug Responses in AML, Blood 130:3821 Lee et al. (2018) A machine learning approach to integrate big data for precision medicine in acute myeloid leukemia, Nat Commun 9:42 View large Download slide View large Download slide  Disclosures Druker: Cepheid: Consultancy, Membership on an entity's Board of Directors or advisory committees; ALLCRON: Consultancy, Membership on an entity's Board of Directors or advisory committees; Fred Hutchinson Cancer Research Center: Research Funding; Celgene: Consultancy; Vivid Biosciences: Membership on an entity's Board of Directors or advisory committees; Aileron Therapeutics: Consultancy; Third Coast Therapeutics: Membership on an entity's Board of Directors or advisory committees; Oregon Health & Science University: Patents & Royalties; Patient True Talk: Consultancy; Millipore: Patents & Royalties; Monojul: Consultancy; Gilead Sciences: Consultancy, Membership on an entity's Board of Directors or advisory committees; Amgen: Membership on an entity's Board of Directors or advisory committees; Leukemia & Lymphoma Society: Membership on an entity's Board of Directors or advisory committees, Research Funding; GRAIL: Consultancy, Membership on an entity's Board of Directors or advisory committees; Beta Cat: Membership on an entity's Board of Directors or advisory committees; MolecularMD: Consultancy, Equity Ownership, Membership on an entity's Board of Directors or advisory committees; Henry Stewart Talks: Patents & Royalties; Bristol-Meyers Squibb: Research Funding; Blueprint Medicines: Consultancy, Equity Ownership, Membership on an entity's Board of Directors or advisory committees; Aptose Therapeutics: Consultancy, Equity Ownership, Membership on an entity's Board of Directors or advisory committees; McGraw Hill: Patents & Royalties; ARIAD: Research Funding; Novartis Pharmaceuticals: Research Funding. Heckman: Orion Pharma: Research Funding; Novartis: Research Funding; Celgene: Research Funding. Porkka: Novartis: Honoraria, Research Funding; Celgene: Honoraria, Research Funding. Tyner: AstraZeneca: Research Funding; Incyte: Research Funding; Janssen: Research Funding; Leap Oncology: Equity Ownership; Seattle Genetics: Research Funding; Syros: Research Funding; Takeda: Research Funding; Gilead: Research Funding; Genentech: Research Funding; Aptose: Research Funding; Agios: Research Funding. Aittokallio: Novartis: Research Funding. Wennerberg: Novartis: Research Funding."
 }
