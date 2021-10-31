@@ -2,5 +2,56 @@
     "doi": "https://doi.org/10.1182/blood.V126.23.2608.2608",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3148",
     "start_url_page_num": 3148,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Accurate Detection of Low Mosaic Mutations Associated with Therapy Resistance in Pediatric Acute Lymphoblastic Leukemia Using Single Molecule Tagging and Deep-Sequencing ",
+    "article_date": "December 3, 2015",
+    "session_type": "618. Acute Lymphoblastic Leukemia: Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis: Poster II",
+    "topics": [
+        "leukemia, lymphocytic, acute, childhood",
+        "massively-parallel genome sequencing",
+        "molecule",
+        "mosaicism",
+        "mutation",
+        "protein tyrosine phosphatase, non-receptor type 11",
+        "transluminal attenuation gradient",
+        "5'-nucleotidase",
+        "artifacts",
+        "chemotherapy regimen"
+    ],
+    "author_names": [
+        "Jiangyan Yu, MSc",
+        "Simon V. van Reijmersdal",
+        "Alexander Hoischen, PhD",
+        "Edwin Sonneveld, PhD",
+        "Peter M. Hoogerbrugge, MD PhD",
+        "Esm\u00e9 Waanders, PhD",
+        "Roland P. Kuiper, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Human Genetics, Radboud university medical center, Nijmegen, Netherlands "
+        ],
+        [
+            "Department of Human Genetics, Radboud university medical center, Nijmegen, Netherlands "
+        ],
+        [
+            "Department of Human Genetics, Radboud university medical center, Nijmegen, Netherlands "
+        ],
+        [
+            "Dutch Childhood Oncology Group, The Hague, Netherlands "
+        ],
+        [
+            "Dutch Childhood Oncology Group, The Hague, Netherlands ",
+            "Princess M\u00e1xima Center for Pediatric Oncology, De Bilt, Netherlands"
+        ],
+        [
+            "Department of Human Genetics, Radboud university medical center, Nijmegen, Netherlands "
+        ],
+        [
+            "Department of Human Genetics, Radboud university medical center, Nijmegen, Netherlands "
+        ]
+    ],
+    "first_author_latitude": "51.8235728",
+    "first_author_longitude": "5.8611812",
+    "abstract_text": "Introduction : Recent work has demonstrated that relapses in pediatric acute lymphoblastic leukemia (ALL) can arise from minor subclones present at diagnosis. Several genes have been associated with therapy resistance in these subclones, including the Ras pathway genes KRAS , NRAS , and PTPN11 , the H3K36 methyltransferase NSD2 ( WHSC1 ) , and the 5'-nucleotidase NT5C2 . Retrospective backtracking of these relapse-associated alterations has demonstrated that these alterations are frequently present at time of diagnosis in minor subclones, sometimes in less than a few percent of the cells. The prognostic value of subclonal alterations in these genes at time of diagnosis, however, is less well understood. Prospective screening of subclonal mutations, without prior knowledge of the mutation status, requires extra specificity and sensitivity. Accurate quantification of the subclonal burden of these mutations will provide potential for following the subclonal dynamics during early stages of treatment, and could be informative for adapting therapy. The aim of this study was to develop a targeted next generation sequencing assay to perform quantitative detection of subclonal mutations in the selected genes. We used single molecule molecular inversion probes (smMIPs), an approach that applies single molecule tagging to correct for amplification biases (Hiatt et al., Genome Research. 2013, 23: 843-854), an artifact that becomes relevant in case of low mosaic mutations. Method : We designed a pool of 77 smMIP oligonucleotides targeting the coding sequences of five genes associated with therapy resistance in BCP-ALL, including KRAS , NRAS , PTPN11 , NT5C2 , and WHSC1 . The smMIPs tiled a total of 4124bp of genomic sequence, including hotspot regions of the genes. To demonstrate the potential of this method, we applied this newly designed smMIP panel on 22 BCP-ALL diagnosis samples to retrospective backtrack mutations in KRAS (n=11), NRAS (n=8) and PTPN11 (n=3) that were previously characterized at relapse. We used 100ng of genomic DNA per sample as input, which is the equivalent of 15,000 haploid copies. Sequencing was performed on the Illumina NextSeq platform with pair-end sequencing, data were analyzed by SeqNext v4.2.2. Result : The average read depth obtained varied per gene from 30,081x ( NRAS ) to 65,749x ( PTPN11 ). Sequencing reads with the same molecular tag were clustered into one tag-defined read group, in which random errors caused by library construction and sequencing were eliminated. These so-called single molecule consensus reads (smc-reads) were comprised of, on average, 139 individual sequencing reads. Using the smMIP approach, 19 out of the 22 Ras pathway mutations identified at relapse were detectable at diagnosis, of which 10 had a low mutant allele frequency (varying from 0.52-8.31%), which is in line with our previous ultra-deep backtracking result. Taking advantage of the known position of the mutations at relapse, we established the noise level in the diagnosis samples by analyzing variant calls outside the hotspot regions. The noise level was varied between samples from 0.03% to 0.24% (average 0.06%). Based on these background settings, we subsequently searched for novel mutations and identified 1 mutation in NT5C2 (p.P534S, 0.38%), 2 hotspot mutations in WHSC1 (p.E1099K, 0.17% and 0.27%), as well as many additional subclonal mutations in KRAS , NRAS and PTPN11 . The latter finding suggests the presence of multiple Ras-mutated subclones in individual cases, of which only a subset survive from chemotherapy and grow out in the relapse clone. Conclusions : Taken together, single molecule tagging based smMIP technology allows the accurate detection of low mosaic mutations. These findings illustrate the need for the current ongoing prospective mutation screens in unbiased cohorts of diagnosis samples to determine the prognostic value of subclonal mutations in these five genes on the risk of relapse. Disclosures No relevant conflicts of interest to declare."
 }
