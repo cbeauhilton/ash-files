@@ -2,5 +2,39 @@
     "doi": "https://doi.org/10.1182/blood.V116.21.3684.3684",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1656",
     "start_url_page_num": 1656,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Numerical Analysis Model Allows Quantification of Lifespan-Dependent and Random Kinetic Processes Contributing to the Thrombocytopenia of Murine WAS. ",
+    "article_date": "November 19, 2010",
+    "session_type": "Disorders of Platelet Number or Function: Poster III",
+    "topics": [
+        "kinetics",
+        "life span",
+        "mice",
+        "thrombocytopenia",
+        "hemorrhage",
+        "hemostasis procedures",
+        "platelet count measurement",
+        "blood platelets",
+        "wasps",
+        "host (organism)"
+    ],
+    "author_names": [
+        "Ted Strom, MD, PhD",
+        "Meihua Yang",
+        "Lih-Yuan Deng, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Pathology & Lab. Med., 614(113), Memphis VA Medical Center and University of Tennessee Health Science Center, Memphis, TN, USA, "
+        ],
+        [
+            "Bioinformatics, University of Memphis, Memphis, TN, TN, USA, "
+        ],
+        [
+            "Bioinformatics, University of Memphis, Memphis, TN, USA"
+        ]
+    ],
+    "first_author_latitude": "35.1419858",
+    "first_author_longitude": "-90.02849694999999",
+    "abstract_text": "Abstract 3684 In vivo platelet consumption is thought to be due to two kinetically distinct types of process: random processes, such as hemostasis and/or immune-mediated clearance, and lifespan-dependent apoptosis. The Mills Dornhorst equation, which has been used to model platelet consumption, has several theoretical and practical drawbacks: 1) It assumes apoptosis is instantaneous, an assumption at odds with the lack of linearity that in vivo platelet consumption data shows at late points in the population lifespan; 2) It does not allow an explicit solution for the random consumption rate constant; and 3) It cannot be applied to in vivo platelet consumption data generated with allogeneic platelets. While a recent alternative model (Dowling et al., Blood. 2010 Jun 7. [Epub ahead of print]) offers a solution to the first of these problems, it does not address the others \u2013 and its application to platelet consumption data requires the estimation of a large number of kinetic modeling parameters (seven). Here we use a simpler numerical analysis model to quantify random and lifespan-dependent platelet consumption processes in normal and thrombocytopenic (WASP(-)) mice. Increased platelet turnover is thought to contribute the thrombocytopenia of WAS. Numerical analysis is a well established algorithm-based alternative to the use of analytic models such as the Dornhorst equation. Our model applies three parameter values (a random consumption rate constant, a \u201cnominal lifespan\u201d, and a random apoptosis rate constant) to a matrix comprising a series of platelet cohorts (in columns) which are sequentially produced and fractionally consumed in a series of time intervals (rows). Cohorts are consumed at a random (exponential) rate until they reach their nominal lifespan, after which they are consumed at a rate equal to the sum of the first rate and a random apoptosis rate. The summed cohort values achieved after equilibration of production and consumption comprise the population platelet count. Continued platelet consumption (after production is halted) then serves to model in vivo platelet consumption data, a process which takes into account consumption rate-dependent variation in the starting population's age distribution. A least squares fitting procedure is used to find parameter values which best fit observed platelet consumption data obtained with fluorescently tagged WT platelets in WT recipients, and WASP(-) platelets in WASP(-) recipients. Comparison of the resultant absolute random platelet consumption rate to known thresholds for thrombocytpenia-induced hemorrhage allows estimation of the effects of platelet preparation and labeling on the observed consumption rate (the \u201cpreparation lesion\u201d). Inferred platelet lifespan distributions are in turn used to model the consumption of WT platelets in WASP(-) recipients, and of WASP(-) platelets in WT recipients. This type of comparison is not feasible with the MIlls-Dornhorst model. Our findings suggest that rapid random in vivo consumption due to an intrinsic (\u201ccis\u201d) platelet defect contributes significantly to the thrombocytopenia of murine WAS. Platelet production is increased in WASP(-) mice, but not as much as would be expected from the increased number of megakaryocytes in bone marrow and spleen. This result supports the idea that thrombopoiesis per megakaryocyte is inhibited by WASP deficiency. No significant \u201ctrans\u201d effect of host WASP deficiency on the consumption rate of transfused WT platelets is seen, the differing appearances of raw platelet consumption data notwithstanding. However, the method also allows quantification of a significant \u201ccis/trans\u201d contribution of host WASP deficiency to the rapid consumption of WASP(-) platelets. The mechanism for the cis/trans effect is unknown. Application of this numerical analysis method to clinical platelet consumption data for thrombocytopenias of unknown etiology should allow quantification of the separate contributions of impaired platelet production and accelerated platelet consumption in such cases. Disclosures: No relevant conflicts of interest to declare."
 }
