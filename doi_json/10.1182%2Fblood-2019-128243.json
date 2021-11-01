@@ -2,5 +2,64 @@
     "doi": "https://doi.org/10.1182/blood-2019-128243",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4180",
     "start_url_page_num": 4180,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Use of Machine Learning in 2074 Cases of Acute Myeloid Leukemia for Genetic Risk Profiling ",
+    "article_date": "November 13, 2019",
+    "session_type": "617.Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
+    "topics": [
+        "genetic risk",
+        "leukemia, myelocytic, acute",
+        "machine learning",
+        "impedance threshold device",
+        "ms-like tyrosine kinase 3",
+        "spliceosomes",
+        "ccaat/enhancer binding protein alpha",
+        "protein p53",
+        "allografting",
+        "complete remission"
+    ],
+    "author_names": [
+        "Shaun Fleming, MBBS,",
+        "Cheng-Hong Tsai, MD MSc",
+        "Hartmut D\u00f6hner, MD",
+        "Konstanze D\u00f6hner",
+        "Elli Papaemmanuil, PhD",
+        "Hwei-Fang Tien, MD, PhD",
+        "John Reynolds, PhD",
+        "Andrew H. Wei, PhD FRACP, FRCPA, MBBS",
+        "Hsin-An Hou"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Clinical Haematology, The Alfred Hospital, Melbourne, Australia "
+        ],
+        [
+            "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+        ],
+        [
+            "Department of Internal Medicine III, University Hospital of Ulm, Ulm, Germany "
+        ],
+        [
+            "Department of Internal Medicine III, University Hospital of Ulm, Ulm, Germany "
+        ],
+        [
+            "Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+        ],
+        [
+            "Biostatistics Consulting Platform, Alfred Health and Faculty of Medicine, Nursing & Health Sciences, Monash University, Melbourne, Australia "
+        ],
+        [
+            "The Alfred Hospital, Melbourne, Australia ",
+            "Australian Centre for Blood Diseases, Monash University, Melbourne, Australia"
+        ],
+        [
+            "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+        ]
+    ],
+    "first_author_latitude": "-37.8457571",
+    "first_author_longitude": "144.98207309999998",
+    "abstract_text": "Background: Prognosis of Acute Myeloid Leukaemia (AML) is guided by chromosomal and molecular profiling. Standard regression approaches may not be optimal for identifying complex gene-gene interactions. Aims: We investigated use of machine-learning (ML) by recursive partitioning (RP) and random forest (RF) analysis on two large AML datasets to develop a hierarchical prognostic risk model. Methods: This study included 2074 non-APL AML cases aged \u226470 from National Taiwan University Hospital (NTUH; n=759) and the German-Austrian AML Study Group (AMLSG; n=1315)(Table 1). Statistical analysis performed in R (version 3.5.1) with RP performed using the rpart (version 4.1-13); RF analysis used randomForestSRC (version 2.7.0) with complexity parameter 0.0007 and minimum subgroup 20. Missing data imputed, branch-points without prognostic significance trimmed. Kaplan-Meier analysis utilized for survival with patients with incomplete data excluded from survival analysis. Overall survival (OS) outcomes were classified into Good (5-year OS >55%), Intermediate (5-year OS >40 - 55%), Poor (5-year OS >20 - 40%) and Very Poor (5-year OS \u226420%). Results: Median age 48 (range 15 - 70) years. Cohorts were evenly matched except higher rate of allograft in complete remission (CR) or CR with incomplete blood count recovery (CRi) for AMLSG (31% vs 18%)(Table 1). CR or CRi achieved in 70%. Median OS for the entire cohort 2.3 years. Machine-learning to develop a prognostic decision-tree for OS based on random 2:1 selection of cases (training-set) and validated on remaining cases (validation-set). Each cohort produced similar RP-trees (Figure 1). Through ML, a decision tree was developed that hierarchically categorized cytogenetic and molecular factors into groupings that most accurately predicted survival. AML features used in the tree included complex karyotype (CK), inv(16), CEBPA dmut , inv(3)/t(3;3), FLT3 -ITD, spliceosome mutations ( U2AF1, SRSF2 or SF3B1 ), NPM1 mut (in the absence of FLT3 -ITD), t(8;21), and other AML identified by single genetic lesions including MLL translocations, NRAS mut , isolated TP53 mut or isolated ASXL1 mut (Table 2). 261 patients (12.5%) were not classified by the model due to incomplete cytogenetic or mutational data and were excluded from survival analysis. In the CK group, a negative effect on prognosis (CR and OS) was conferred by inclusion of high-risk monosomies or structural chromosomal alterations (-7, del(7q), chromosome 17 abnormalities, -5 or del(5q)) or TP53 mut , whereas CK cases lacking these lesions had a better prognosis (median OS 5.5 vs 25.1 months, p<0.001 and CR 36 vs 70%, p<0.001). In CEBPA dmut AML, ML highlighted the favorable impact of NRAS mut (present in 27%) on survival. In patients with FLT3 -ITD, very poor prognosis seen with co-occurrence of spliceosome mutations. High FLT3 -ITD allelic ratio (AR >0.5) also associated with very poor prognosis in the absence of both spliceosome lesions and NPM1 mut (median OS 11.6 months) . A poor prognostic category comprising triple mutant FLT3 -ITD, NPM1 mut and DNMT3A mut was identified (median OS 13.2 vs 41.7 months, p=0.002). Cases with spliceosome mutation ( SRSF2, U2AF1, SF3B1 ) had a very poor prognosis if accompanied by either ASXL1 mut or potential heterozygous loss of ASXL1 on 20q (either by del(20q) or -20)(median OS 11.8 vs 21.6 months, p=0.003). In NPM1 mut disease, ML identified good prognosis for patients who with NRAS mut , whereas co-mutation with IDH1 mut conferred an intermediate prognosis. In patients with t(8;21) AML, KIT mutations identified patients with intermediate prognosis (median OS 36.6 months vs NR, p=0.02). There were 49 patients (2.4%) with RUNX1 mut not categorized to other groups and RUNX1 mut per se did not emerge as a prognostic discriminator in this analysis. In comparison to ELN2017 classification, ML reclassified 45% of cases - 30% good, 26% intermediate, 26% poor and 18% very poor (compared to 39% good, 31% intermediate and 30% poor). In establishing the accuracy of predicting death at any time for individual cases the error rate was 35% for our ML model compared to 45% for the ELN2017 classification and 51% for ELN based cytogenetic analysis alone. Conclusion: By combining large datasets from two AML groups using machine-learning, an AML decision-tree was able to refine the accuracy of assessing survival prognosis compared to ELN 2017 classification by providing further prognostic granularity. View large Download slide View large Download slide  Disclosures Fleming: Celgene: Membership on an entity's Board of Directors or advisory committees; BMS: Honoraria; Amgen: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Pfizer: Honoraria; Ariad: Membership on an entity's Board of Directors or advisory committees; Astellas: Membership on an entity's Board of Directors or advisory committees. Tsai: Astellas, BMS, Celgene, Chugai, Johnson & Johnson, Kirin, Novartis, Pfizer, Roche, Takeda: Honoraria; Celgene: Research Funding. D\u00f6hner: Celgene, Novartis, Sunesis: Honoraria, Research Funding; AbbVie, Agios, Amgen, Astellas, Astex, Celator, Janssen, Jazz, Seattle Genetics: Consultancy, Honoraria; AROG, Bristol Myers Squibb, Pfizer: Research Funding. D\u00f6hner: Daiichi: Honoraria; Jazz: Honoraria; Novartis: Honoraria; Celgene: Honoraria; Janssen: Honoraria; CTI Biopharma: Consultancy, Honoraria. Papaemmanuil: Celgene: Research Funding. Tien: Abbvie: Honoraria; Celgene: Research Funding; Roche: Honoraria; Johnson &Johnson: Honoraria; Daiichi Sankyo: Honoraria; Pfizer: Honoraria; Alexion: Honoraria; Roche: Research Funding; Novartis: Honoraria; Celgene: Honoraria; BMS: Honoraria. Reynolds: Alfred Health: Employment, Other: Biostatistician for trials funded by the Australian government and Abbvie, Amgen, Celgene, GSK, Janssen-Cilag, Merck, Novartis, Takeda, but sponsored by Alfred Health.; AUSTRALASIAN LEUKAEMIA & LYMPHOMA GROUP (ALLG): Consultancy; Novartis AG: Equity Ownership; Novartis Australia: Honoraria. Wei: Amgen: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Celgene: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Servier: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Janssen: Honoraria; Astra Zeneca: Honoraria, Research Funding; Astellas: Honoraria, Membership on an entity's Board of Directors or advisory committees; Novartis: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; Pfizer: Honoraria, Membership on an entity's Board of Directors or advisory committees; Macrogenics: Honoraria, Membership on an entity's Board of Directors or advisory committees; Genentech: Honoraria, Membership on an entity's Board of Directors or advisory committees; AbbVie: Honoraria, Membership on an entity's Board of Directors or advisory committees, Patents & Royalties: AHW is a former employee of the Walter and Eliza Hall Institute and receives a fraction of its royalty stream related to venetoclax, Research Funding, Speakers Bureau. Hou: Abbvie, Astellas, BMS, Celgene, Chugai, Daiichi Sankyo, IQVIA, Johnson & Johnson, Kirin, Merck Sharp & Dohme, Novartis, Pfizer, PharmaEssential, Roche, Takeda: Honoraria; Celgene: Research Funding."
 }
