@@ -2,5 +2,39 @@
     "doi": "https://doi.org/10.1182/blood-2019-128790",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4426",
     "start_url_page_num": 4426,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Estimating Relationships between Response, Progression, and Survival in Relapsed-Refractory Multiple Myeloma in Pooled Clinical Trials Database ",
+    "article_date": "November 13, 2019",
+    "session_type": "906.Outcomes Research-Malignant Conditions (Myeloid Disease)",
+    "topics": [
+        "multiple myeloma",
+        "neutropenia",
+        "adverse event",
+        "leukemia, myelocytic, acute",
+        "leukopenia",
+        "partial response",
+        "pomalidomide",
+        "progressive neoplastic disease",
+        "thrombocytopenia",
+        "descriptive statistics"
+    ],
+    "author_names": [
+        "Aaron Galaznik, MDMBA",
+        "Emelly Rusli",
+        "Ruthanna Davi, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Medidata Solutions, Boston, MA "
+        ],
+        [
+            "Medidata Solutions, Boston, MA "
+        ],
+        [
+            "Medidata Solutions, New York,"
+        ]
+    ],
+    "first_author_latitude": "42.355064399999996",
+    "first_author_longitude": "-71.054489",
+    "abstract_text": "BACKGROUND: Despite an increasing number of treatment options available and in development, Relapsed-Refractory Multiple Myeloma (RRMM) remains an incurable disease with survival less than 12 months (Kumar SK et al., 2012). In a recent study by Moreau, et al. (2016), a relationship between response and survival was demonstrated in RRMM patients treated with pomalidomide. Understanding the relationships between initial response and long-term prognosis can potentially inform patient treatment changes or guide development of new therapeutic compounds. In a prior presentation by Berry, et al. (2017) clinical trial Study Data Tabulation Data Model (STDM) standards were used to effectively pool clinical trial data in Acute Myeloid Leukemia (AML) to show correlations between response and survival. OBJECTIVES: In this study, we expand upon the analysis of Moreau, et al. (2016) in a pooled clinical trial dataset of RRMM patients. Within this expanded, standardized patient pool, we assess the relationship between response, progression and survival both overall and within patient sub-populations based on patient profiles and prior treatment regimens. METHODS: A retrospective pooled analysis was conducted in a dataset from the Medidata Enterprise Data Store. Subjects were selected based on the inclusion/exclusion criteria from the NIMBUS trial (Moreau et al., 2016). Descriptive statistics were calculated to characterize differences between the overall pooled population and the study group. Response, Progression-free survival (PFS), and Overall Survival (OS) were extracted. Patients were stratified by several covariates including age, gender, number of prior regimens, and prior treatments received. Log-rank tests were conducted to compare PFS and OS in patient sub-populations. Both survival measures were assessed at 90, 180, and 240 days after first day of patient's most recent regimen. Cox proportional hazard models were developed to assess predictors of PFS and OS. Safety was characterized for common potentially treatment-limiting adverse events, such as leukopenia, neutropenia, and thrombocytopenia. Factors associated with development of neutropenia were assessed using logistic regression. Covariates included patient demographics, comorbidities, and treatment regimens (current and prior). RESULTS: Within the pooled analysis, PFS and OS rates were consistent with published literature rates, at ~4 months and ~12 months, respectively. Pooled analysis demonstrated a significant association between response, PFS, and OS. Results were consistent with findings of Moreau, et al. (2016), showing little difference between patients with Stable Disease and Partial Response, and lower overall survival in patients with Progressive Disease versus Stable Disease. Neutropenia was seen in approximately one-fourth of overall patients, and was associated with male patients, older age, and treatment regimen. CONCLUSIONS: The use of SDTM for pooled clinical trial analyses represents an effective way to overcome individual trial sample size limitations, expanding the range of populations, relative treatment outcomes, and safety event rates that can be studied. By working directly with individual patient-level data, there is also a potential for greater matching between trials than with meta-analysis approaches using aggregated data. Disclosures Galaznik: Medidata Solutions: Employment. Rusli: Medidata Solutions: Employment. Davi: Medidata Solutions: Employment."
 }
