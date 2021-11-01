@@ -2,5 +2,39 @@
     "doi": "https://doi.org/10.1182/blood.V118.21.4763.4763",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2143",
     "start_url_page_num": 2143,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Low-Cost, Open-Source Informatics Framework for Clinical Trials and Outcomes Research ",
+    "article_date": "November 18, 2011",
+    "session_type": "Health Services and Outcomes Research",
+    "topics": [
+        "informatics",
+        "outcomes research",
+        "tablet dosage form",
+        "data management",
+        "kaplan-meier survival curve",
+        "computers",
+        "cell phones",
+        "clients",
+        "information sciences",
+        "mobile devices"
+    ],
+    "author_names": [
+        "William T. Tse, MD, PhD",
+        "Kevin K. Duh",
+        "Morris Kletzel, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Hematology-Oncology-Transplant, Children's Memorial Hospital, Northwestern University Feinberg School of Medicine, Chicago, IL, USA, "
+        ],
+        [
+            "Duke University, Durham, NC, USA"
+        ],
+        [
+            "Hematology-Oncology-Transplant, Children's Memorial Hospital, Northwestern University Feinberg School of Medicine, Chicago, IL, USA, "
+        ]
+    ],
+    "first_author_latitude": "41.895597550000005",
+    "first_author_longitude": "-87.62002369999999",
+    "abstract_text": "Abstract 4763 Data collection and analysis in clinical studies in hematology often require the use of specialized databases, which demand extensive information technology (IT) support and are expensive to maintain. With the goal of reducing the cost of clinical trials and promoting outcomes research, we have devised a new informatics framework that is low-cost, low-maintenance, and adaptable to both small- and large-scale clinical studies. This framework is based on the idea that most clinical data are hierarchical in nature: a clinical protocol typically entails the creation of sequential patient files, each of which documents multiple encounters, during which clinical events and data are captured and tagged for later retrieval and analysis. These hierarchical trees of clinical data can be easily stored in a hypertext mark-up language (HTML) document format, which is designed to represent similar hierarchical data on web pages. In this framework, the stored clinical data will be structured according to a web standard called Document Object Model (DOM), for which powerful informatics techniques have been developed to allow efficient retrieval and collation of data from the HTML documents. The proposed framework has many potential advantages. The data will be stored in plain text files in the HTML format, which is both human and machine readable, hence facilitating data exchange between collaborative groups. The framework requires only a regular web browser to function, thereby easing its adoption in multiple institutions. There will be no need to set up or maintain a relational database for data storage, thus minimizing data fragmentation and reducing the demand for IT support. Data entry and analysis will be performed mostly on the client computer, requiring the use of a backend server only for central data storage. Utility programs for data management and manipulation will be written in Javascript and JQuery, computer languages that are free, open-source and easy to maintain. Data can be captured, retrieved, and analyzed on different devices, including desktop computers, tablets or smart phones. Encryption and password protection can be applied in document storage and data transmission to ensure data security and HIPPA compliance. In a pilot project to implement and test this informatics framework, we designed prototype programming modules to perform individual tasks commonly encountered in clinical data management. The functionalities of these modules included user-interface creation, patient data entry and retrieval, visualization and analysis of aggregate results, and exporting and reporting of extracted data. These modules were used to access simulated clinical data stored in a remote server, employing standard web browsers available on all desktop computers and mobile devices. To test the capability of these modules, benchmark tests were performed. Simulated datasets of complete patient records, each with 1000 data items, were created and stored in the remote server. Data were retrieved via the web using a gzip compressed format. Retrieval of 100, 300, 1000 such records took only 1.01, 2.45, and 6.67 seconds using a desktop computer via a broadband connection, or 3.67, 11.39, and 30.23 seconds using a tablet computer via a 3G connection. Filtering of specific data from the retrieved records was equally speedy. Automated extraction of relevant data from 300 complete records for a two-sample t-test analysis took 1.97 seconds. A similar extraction of data for a Kaplan-Meier survival analysis took 4.19 seconds. The program allowed the data to be presented separately for individual patients or in aggregation for different clinical subgroups. A user-friendly interface enabled viewing of the data in either tabular or graphical forms. Incorporation of a new web browser technique permitted caching of the entire dataset locally for off-line access and analysis. Adaptable programming allowed efficient export of data in different formats for regulatory reporting purposes. Once the system was set up, no further intervention from IT department was necessary. In summary, we have designed and implemented a prototype of a new informatics framework for clinical data management, which should be low-cost and highly adaptable to various types of clinical studies. Field-testing of this framework in real-life clinical studies will be the next step to demonstrate its effectiveness and potential benefits. Disclosures: No relevant conflicts of interest to declare."
 }
