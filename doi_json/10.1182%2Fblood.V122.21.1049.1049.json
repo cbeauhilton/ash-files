@@ -2,5 +2,47 @@
     "doi": "https://doi.org/10.1182/blood.V122.21.1049.1049",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2670",
     "start_url_page_num": 2670,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Molecular Dynamics As a Computational Tool To Analyze Lymphocyte Alloreactivity In Hematopoietic Transplant Recipients ",
+    "article_date": "November 15, 2013",
+    "session_type": "203. Lymphocytes, Lymphocyte Activation and Immunodeficiency, including HIV and Other Infections: Poster I",
+    "topics": [
+        "alloimmunity",
+        "amber",
+        "binding (molecular function)",
+        "complex",
+        "conflict of interest",
+        "disclosure",
+        "donors",
+        "financial support",
+        "hla-a2 antigen",
+        "immune response"
+    ],
+    "author_names": [
+        "Estefania Garcia Guerrero",
+        "Irene Diaz Moreno",
+        "Miguel Angel De la rosa",
+        "Jose Antonio P\u00e9rez Sim\u00f3n, MD, PhD",
+        "Antonio Diaz Quintana"
+    ],
+    "author_affiliations": [
+        [
+            "Hematology, Hospital Virgen del Rocio/Instituto Biomedicina Sevilla, Seville, Spain, "
+        ],
+        [
+            "cicCARTUJA, Seville, Spain, "
+        ],
+        [
+            "cicCARTUJA, Seville, Spain, "
+        ],
+        [
+            "Hematology and Hemotherapy Unit, Instituto de Biomedicina de Sevilla (IBIS)/Hospital Universitario Virgen del Roc\u00edo, Seville, Spain"
+        ],
+        [
+            "cicCARTUJA, Seville, Spain, "
+        ]
+    ],
+    "first_author_latitude": "37.384809049999994",
+    "first_author_longitude": "-5.982196649999999",
+    "abstract_text": "Introduction The generation of the immune response requires the recognition of peptides presented by the major histocompatibility complex (MHC) through the T cell receptor (TCR). In the hematopoietic transplantation context, T cells (LT) from the donor recognize foreign MHC or own MHC bound to foreign peptides (pMHC), generating an alloimmune response. Currently, the molecular mechanisms of LT alloimmune activation are unknown. In order to analyze the molecular interactions between peptides, MHC and TCR, we have implemented Molecular Dynamics techniques. We have compared immunologically reactive complexes (HLA-A2/TAX/TCR-A6; HLA-A2/HUD/TCR-A6) to non/weakly reactive complexes (HLA-A2/V7R/TCR-A6; HLA-A2/P6A/TCR-A6; HLA-A2/Y8A/TCR-A6). Methods Starting structures of two reactive complexes were downloaded from the PDB database and used to model mutations known to lead to different degrees of immune reactivity. Dynamics simulations were performed and analyzed using the program AMBER version 9. The simulation time was approximately 10 ns. Further analysis was carried out using the script ARO (D\u00edaz-Moreno et al. 2009) in the VMD Tk console. Results A total of 17 MD trajectories have been reckoned, to simulate the behavior of isolated components of the different MHC-TCR complexes. Analysis of the fluctuations shows that pMHC binding barely restrains TCR motions, affecting mostly to CDR3 loops. Opposite, pMHC displayed substantial changes in its dynamics upon comparing its free versus ternary form (pMHC-TCR). Furthermore, taking as reference the positions of the MHC\u00b4s helices in free binary structures (MHC-peptide) and comparing them to the positions in ternary structures (pMHC-TCR), we can observe that in reactive complexes MHC exhibits a higher variability than in non-reactive complexes, suggesting that the MHC must tighten and acquire a position further away from its position in free binary form. We also analyzed the position of the peptide in the groove of MHC and we found that at position 5 (aa aromatic) the peptide is diverted although its position in the groove of MHC seems to be unrelated to the reactivity of the interaction TCR-pMHC. Conclusions The MHC shows strong changes in its molecular dynamics upon binding TCR, decreasing its mobility. The structure of MHC is slightly perturbed in reactive complexes, but not in non-reactive ones. Financial support Spanish MINECO (BFU2009-07190/BMC, BFU2012-31670/BMC) the Andalusian Government (BIO198) and Instituto de Salud Carlos III (PFIS - FI12/00189 and FIS PI11/02366) Disclosures: No relevant conflicts of interest to declare."
 }
