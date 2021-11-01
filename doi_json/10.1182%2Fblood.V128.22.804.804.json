@@ -2,5 +2,134 @@
     "doi": "https://doi.org/10.1182/blood.V128.22.804.804",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3418",
     "start_url_page_num": 3418,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "DNA Methylation Profiling of Myeloma Trial Patients Reveals Specific Epigenetic Changes Associated with Outcome ",
+    "article_date": "December 2, 2016",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Genetic Alterations/Profiling and Clonal Evolution of Multiple Myeloma",
+    "topics": [
+        "dna methylation",
+        "epigenetics",
+        "multiple myeloma",
+        "gene expression profiling",
+        "transcription factor",
+        "biological markers",
+        "cancer",
+        "discoid lupus erythematosus",
+        "dna",
+        "inspection"
+    ],
+    "author_names": [
+        "David C Johnson, PhD",
+        "Dil B Begum",
+        "Sidra Ellis",
+        "Amy L Sherborne",
+        "Amy Price",
+        "Charlotte Smith",
+        "Fabio Mirabella, PhD",
+        "Karen Menezes",
+        "Scott Kimber",
+        "John R Jones, MD",
+        "Charlotte Pawlyn, MB BChir",
+        "Matthew W Jenner, MD",
+        "Richard S Houlston, MD PhD FRCP",
+        "Gordon Cook",
+        "Nigel H. Russell, V, MD",
+        "Alina Striha, MSc",
+        "Corinne Collett",
+        "Anna Waterhouse",
+        "Walter M Gregory, PhD",
+        "David A Cairns, MSc, PhD",
+        "Mark T Drayson, MD PhD",
+        "Roger G Owen, MD PhD",
+        "Faith E Davies, MD",
+        "Gareth J Morgan, MD PhD",
+        "Graham H Jackson, MD PhD",
+        "Martin F Kaiser, MD"
+    ],
+    "author_affiliations": [
+        [
+            "The Institute of Cancer Research, London, United Kingdom "
+        ],
+        [
+            "The Institute of Cancer Research, London, United Kingdom "
+        ],
+        [
+            "The Institute of Cancer Research, London, United Kingdom "
+        ],
+        [
+            "The Institute of Cancer Research, London, United Kingdom "
+        ],
+        [
+            "The Institute of Cancer Research, London, United Kingdom "
+        ],
+        [
+            "The Institute of Cancer Research, London, United Kingdom "
+        ],
+        [
+            "The Institute of Cancer Research, London, United Kingdom "
+        ],
+        [
+            "The Institute of Cancer Research, London, United Kingdom "
+        ],
+        [
+            "The Institute of Cancer Research, London, United Kingdom "
+        ],
+        [
+            "The Institute of Cancer Research, London, United Kingdom ",
+            "Department of Haematology, The Royal Marsden Hospital NHS Foundation Trust, London, United Kingdom "
+        ],
+        [
+            "The Institute of Cancer Research, London, United Kingdom ",
+            "Department of Haematology, The Royal Marsden Hospital NHS Foundation Trust, London, United Kingdom "
+        ],
+        [
+            "University Hospital Southampton NHS Foundation Trust, Southampton, United Kingdom "
+        ],
+        [
+            "The Institute of Cancer Research, London, United Kingdom "
+        ],
+        [
+            "Experimental Haematology, University of Leeds, Leeds, United Kingdom "
+        ],
+        [
+            "Centre for Clinical Haematology, Nottingham University Hospital, Nottingham, United Kingdom "
+        ],
+        [
+            "Clinical Trials Research Unit, Leeds Institute of Clinical Trials Research, University of Leeds, Leeds, United Kingdom "
+        ],
+        [
+            "Clinical Trials Research Unit, Leeds Institute of Clinical Trials Research, University of Leeds, Leeds, United Kingdom "
+        ],
+        [
+            "Clinical Trials Research Unit, Leeds Institute of Clinical Trials Research, University of Leeds, Leeds, United Kingdom "
+        ],
+        [
+            "Clinical Trials Research Unit, Leeds Institute of Clinical Trials Research, University of Leeds, Leeds, United Kingdom "
+        ],
+        [
+            "Clinical Trials Research Unit, Leeds Institute of Clinical Trials Research, University of Leeds, Leeds, United Kingdom "
+        ],
+        [
+            "Clinical Immunology, School of Immunity & Infection, University of Birmingham, Birmingham, United Kingdom "
+        ],
+        [
+            "United Leeds Teaching Hospitals, Leeds, United Kingdom "
+        ],
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Northern Institute for Cancer Research, Newcastle University, Newcastle upon Tyne, United Kingdom"
+        ],
+        [
+            "The Institute of Cancer Research, London, United Kingdom ",
+            "Department of Haematology, The Royal Marsden Hospital NHS Foundation Trust, London, United Kingdom "
+        ]
+    ],
+    "first_author_latitude": "51.41766245",
+    "first_author_longitude": "-0.18505535",
+    "abstract_text": "Introduction Epigenetic dysregulation is a hallmark of cancer and has significant impact on disease biology. The epigenetic structure of myeloma is heterogeneous and we previously demonstrated that gene specific DNA methylation changes are associated with outcome, using low-resolution arrays. We now performed a high-resolution genome wide DNA methylation analysis of a larger group of patients from a UK national phase III study to further define the role of epigenetic modifications in disease behaviour and outcome. Patients and Methods Highly purified (>95%) CD138+ myeloma bone marrow cells from 465 newly diagnosed patients enrolled in the UK NCRI Myeloma XI study were analysed. The extracted DNA was bisulfite-converted using the EZ DNA methylation kit (Zymo) and hybridized to Infinium HumanMethylation450 BeadChip arrays. Raw data was processed using the R Bioconductor package \"minfi\". SNP containing probes and probes on the sex chromosomes were removed. 464 samples and 441293 probes were retained following inspection of quality control metrics. Beta values were summarized across functional genomic units or differentially methylated regions (DMRs) that included: gene bodies, promoters, insulators, CpG-islands and enhancers. K-means was applied to each DMR to cluster patients into 2 groups (high or low methylation) per region. Filters were applied to define a clinically meaningful minimum group size and methylation differences between the groups. Overall survival (OS) and progression free survival (PFS) were assessed by a Cox proportional hazards regression model fitted to each DMR with a time-dependent covariate of the trial pathway. Pathway analyses were performed using GREAT (Stanford University) and GSEA (Broad Institute). Results We identified 589 differentially methylated regions that were significantly associated with PFS and OS when using a cut-off of P<0.01 (log-rank). Of these, 114 DMRs were located within 10kb of a gene transcription start site (TSS). Among these, several genes implicated in myeloma disease biology, such as immune cell-cell interaction genes (e.g. CD226) or stemness-associated transcription factors (e.g. PAX4) were identified to be differentially methylated. Using pathway analysis on all 589 DMRs, Gene Ontology biologic groups were enriched for positive regulation of proliferation, cell migration and cytoskeleton organisation (FDR P<0.05). This was further supported by enrichment of proliferative E2F1 transcription factor target structures (FDR P<0.05). Matched gene expression profiles have been generated and integrated analyses correlating epigenetic with GEP and genetic risk data and individual gene level methylation-expression associations will be presented at the meeting. This data is also being integrated with drug resistance profiles from the Cancer Cell Line Encyclopedia (CCLE; Barretina, et al, 2016). Conclusion Epigenetic mechanisms play a significant role in influencing tumour cell behaviour. We have identified here differentially methylated regions that are significantly associated with patient outcome. Pathway analyses suggest an epigenetic regulation of biologic mechanisms involved in high risk disease, such as proliferation and migration. Integration of epigenetic data with matched gene expression profiles is currently ongoing to delineate independent epigenetic biomarkers associated with high risk disease behaviour. Disclosures Jones: Celgene: Honoraria, Research Funding. Pawlyn: Takeda Oncology: Consultancy; Celgene: Consultancy, Honoraria, Other: Travel Support. Jenner: Janssen: Consultancy, Honoraria, Other: Travel support, Research Funding; Novartis: Consultancy, Honoraria; Amgen: Consultancy, Honoraria, Other: Travel support; Takeda: Consultancy, Honoraria, Other: Travel support; Celgene: Consultancy, Honoraria, Research Funding. Cook: Amgen: Consultancy, Honoraria, Research Funding, Speakers Bureau; Glycomimetics: Consultancy, Honoraria; Takeda: Consultancy, Honoraria, Research Funding, Speakers Bureau; Janssen: Consultancy, Honoraria, Research Funding, Speakers Bureau; Sanofi: Consultancy, Honoraria, Speakers Bureau; Bristol-Myers Squibb: Consultancy, Honoraria; Celgene: Consultancy, Honoraria, Research Funding, Speakers Bureau. Drayson: Abingdon Health: Equity Ownership, Membership on an entity's Board of Directors or advisory committees. Davies: Janssen: Consultancy, Honoraria; Celgene: Consultancy, Honoraria; Takeda: Consultancy, Honoraria. Morgan: Univ of AR for Medical Sciences: Employment; Janssen: Research Funding; Celgene: Consultancy, Honoraria, Research Funding; Takeda: Consultancy, Honoraria; Bristol Meyers: Consultancy, Honoraria. Jackson: MSD: Consultancy, Honoraria, Speakers Bureau; Celgene: Consultancy, Honoraria, Other: Travel support, Research Funding, Speakers Bureau; Janssen: Consultancy, Honoraria, Speakers Bureau; Amgen: Consultancy, Honoraria, Speakers Bureau; Roche: Consultancy, Honoraria, Speakers Bureau; Takeda: Consultancy, Honoraria, Other: Travel support, Research Funding, Speakers Bureau. Kaiser: Janssen: Consultancy, Honoraria; Amgen: Consultancy, Honoraria; Celgene: Consultancy, Honoraria, Research Funding; Takeda: Consultancy, Other: Travel Support; BMS: Consultancy, Other: Travel Support; Chugai: Consultancy."
 }
