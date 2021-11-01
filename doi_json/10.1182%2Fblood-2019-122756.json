@@ -2,5 +2,131 @@
     "doi": "https://doi.org/10.1182/blood-2019-122756",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4211",
     "start_url_page_num": 4211,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Clustering of Transcriptomic Signatures in Newly Diagnosed Diffuse Large B-Cell Lymphoma Identifies Two High-Risk Subgroups Which Increase in Prevalence at Relapse ",
+    "article_date": "November 13, 2019",
+    "session_type": "621.Lymphoma-Genetic/Epigenetic Biology",
+    "topics": [
+        "diffuse large b-cell lymphoma",
+        "mos pp39 serine/threonine kinase",
+        "myelofibrosis",
+        "abcs (adequacy and alignment, bones, cartilage, soft tissue changes)",
+        "chief complaint",
+        "neoplasms",
+        "biopsy",
+        "cytokine",
+        "dna",
+        "lymphoma"
+    ],
+    "author_names": [
+        "Maria Ortiz",
+        "Kerstin Wenzl, PhD",
+        "Matthew Stokes, PhD",
+        "C. Chris Huang, PhD",
+        "Matthew J. Maurer, MS",
+        "Fadi Towfic, PhD",
+        "Patrick R. Hagner, PhD",
+        "Alexander Ratushny, PhD",
+        "Mark McConnell, PhD",
+        "Samuel A Danziger, PhD",
+        "Nicholas Stong, PhD",
+        "Sneh Lata, PhD",
+        "Sitharthan Kamalakaran, PhD",
+        "Konstantimos Mavrommatis, PhD",
+        "Matthew Trotter, PhD",
+        "Rebecca L. King, MD",
+        "Brian K. Link, MD",
+        "Susan L. Slager, PhD",
+        "Yan Asmann, PhD",
+        "Myron Czuczman",
+        "Stephen M Ansell, MD PhD",
+        "James R. Cerhan, MD PhD",
+        "Grzegorz Nowakowski, MD",
+        "Thomas M. Habermann, MD",
+        "Anita K Gandhi",
+        "Anne J Novak, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Celgene Institute for Translational Research Europe (CITRE), Madrid, Spain "
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Celgene Corporation, Summit, NJ "
+        ],
+        [
+            "Celgene Corporation, Summit, NJ "
+        ],
+        [
+            "Division of Biomedical Statistics and Informatics, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Celgene Corporation, Summit, NJ "
+        ],
+        [
+            "Celgene Corporation, Summit, NJ "
+        ],
+        [
+            "Celgene Corporation, Seattle, WA "
+        ],
+        [
+            "Celgene Corporation, Seattle, WA "
+        ],
+        [
+            "Celgene Corporation, Summit, NJ "
+        ],
+        [
+            "Celgene Corporation, Summit, NJ "
+        ],
+        [
+            "Celgene Corporation, Summit, NJ "
+        ],
+        [
+            "Celgene Corporation, Summit, NJ "
+        ],
+        [
+            "Celgene Corporation, Summit, NJ "
+        ],
+        [
+            "Celgene Institute for Translational Research Europe (CITRE), Seville, Spain "
+        ],
+        [
+            "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Division of Hematology, Oncology, and Blood & Marrow Transplantation, University of Iowa, Iowa City, IA "
+        ],
+        [
+            "Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Division of Biomedical Statistics and Informatics, Mayo Clinic, Jacksonville, FL "
+        ],
+        [
+            "Celgene Corporation, Summit, NJ "
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Celgene Corporation, Bernardsville, NJ"
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN "
+        ]
+    ],
+    "first_author_latitude": "40.4379543",
+    "first_author_longitude": "-3.67953665",
+    "abstract_text": "Background: DLBCL has traditionally been classified by cell of origin (COO) subcategories based on tumor gene expression profiles which include Activated B-Cell (ABC) and Germinal Center B-Cell (GCB). Recently, using tumor samples from patients treated with RCHOP, new classification models have focused on DNA alterations. However, a comprehensive integrative approach using a large transcriptomic data set across both newly diagnosed (nd) and relapsed/refractory (r/r) DLBCL is yet to be accomplished. A robust clustering of this type will allow for identification of biologically driven DLBCL patient subgroups and may predict patient outcome and inform treatment approaches. Methods: RNAseq was performed on a total of 882 DLBCL tumor FFPE biopsies from 2 ndDLBCL cohorts (cohort 1 and 2) and 2 r/r DLBCL cohorts (cohorts 3 and 4). Cohort 1 (N=267) was commercially sourced and served as the discovery cohort. Cohort 2 (N=340) was from the Mayo/Iowa Lymphoma SPORE Molecular Epidemiology Resource (MER) and served as the replication cohort. Cohort 3 (N=189) was from the CC-122-ST-001 and CC-122-DLBCL-001 clinical trials (NCT01421524 and NCT02031419), and cohort 4 (N=86) was from r/r patients from the MER. Clustering input consisted of gene expression data, gene set variation analysis (GSVA) scores computed from the hallmark gene sets of MSigDB gene sets, as well as immune cell abundance estimates from a DLBCL-specific deconvolution method. An integrative clustering method iClusterPlus was applied to the input data to identify patient subgroups. A multinomial generalized linear model classifier was trained on the discovery dataset and applied to cohorts 2, 3, and 4 to assess patterns of gene expression and clinical features among the subgroups. Results: Integrative clustering identified 8 subgroups of ndDLBCL patients (DLBCL1-8; D1-D8) in cohort 1. Classifiers trained on cohort 1 were applied to cohort 2 and the same 8 clusters were identified. Among RCHOP treated patients in cohort 2, subgroups D4 (p<0.01) and D8 (p<0.0001) had significantly worse survival outcomes than the rest of the population. D4 comprised 21% of the MER ndDLBCL replication cohort (cohort 2) with a median event-free survival (mEFS) of 38.2 months and a median overall survival (mOS) of 80.3 months. D8 comprised 5% of the cohort with a mEFS of 7.5 months and a mOS of 12.1 months. The remaining 6 subgroups were standard risk, with mEFS ranging from 82.1 months to not reached, and none reaching mOS. The subgroups were not uniquely defined by previously known molecular classification methods such as COO or double hit signature (DHITsig), nor by clinical risk factors such as age or international prognostic index (IPI). Within D4, 92% of patients were ABC, representing a high risk subset of ABC patients. The mEFS in D4 ABCs was 38.2 months, while mEFS of non-D4 ABCs was not reached (p2, compared to 33% of non-D4 with IPI>2 (p<0.05). D8 represented a high-risk subset which was 73% GCB. The mEFS of D8 GCBs was 5.4 months, while mEFS of non-D8 GCBs was not reached (p<0.0001). Transcriptomic analysis revealed low expression of immune response and cytokine signaling pathways, consistent with the low abundance of immune cells in D8. This subgroup consisted of 63% DHITsig positive patients. Although only 20% of all DHITsig positive patients were in D8, these D8 DHITsig patients showed significantly worse survival than non-D8 DHITsig patients (mEFS 11.3 months vs. not reached, p<0.0001). In the r/r DLBCL setting, D1-D8 were all present, with an increased prevalence of D4 and D8 in Cohort 3 (30% and 17%, respectively) and Cohort 4 (30% and 14%) compared to the newly diagnosed setting. Mutational data for these cohorts has been collected and is being interpreted in the context of the discovered subgroups. Conclusion: A novel integrative clustering of transformed gene expression data revealed 8 biologically homogeneous groups, two of which had inferior outcomes when treated with RCHOP therapy. Furthermore, these two subgroups were more prevalent in r/r DLBCL. This classification allows for the transcriptomic identification of high-risk patients underserved by RCHOP therapy. *Ortiz, Wenzl and Stokes contributed equally **Gandhi and Novak contributed equally Disclosures Ortiz: Celgene Corporation: Employment, Equity Ownership. Stokes: Celgene Corporation: Employment, Equity Ownership. Huang: Celgene Corporation: Employment, Equity Ownership. Maurer: Celgene: Research Funding; Morphosys: Membership on an entity's Board of Directors or advisory committees; Nanostring: Research Funding. Towfic: Celgene Corporation: Employment, Equity Ownership. Hagner: Celgene Corporation: Employment, Equity Ownership, Patents & Royalties. Ratushny: Celgene Corporation: Employment, Equity Ownership. McConnell: Celgene Corporation: Employment, Equity Ownership. Danziger: Celgene Corporation: Employment, Equity Ownership. Stong: Celgene Corporation: Employment, Equity Ownership. Lata: Celgene Corporation: Employment, Equity Ownership. Kamalakaran: Celgene Corporation: Employment, Equity Ownership. Mavrommatis: Celgene Corporation: Employment, Equity Ownership. Trotter: Celgene Corporation: Employment, Equity Ownership. Czuczman: Celgene Corporation: Employment, Equity Ownership. Ansell: Seattle Genetics: Research Funding; Affimed: Research Funding; Regeneron: Research Funding; Trillium: Research Funding; Mayo Clinic Rochester: Employment; Seattle Genetics: Research Funding; Mayo Clinic Rochester: Employment; Regeneron: Research Funding; Trillium: Research Funding; Bristol-Myers Squibb: Research Funding; Bristol-Myers Squibb: Research Funding; LAM Therapeutics: Research Funding; LAM Therapeutics: Research Funding; Affimed: Research Funding. Cerhan: NanoString: Research Funding; Janssen: Membership on an entity's Board of Directors or advisory committees; Celgene: Research Funding. Nowakowski: Genentech, Inc.: Research Funding; F. Hoffmann-La Roche Ltd: Research Funding; Curis: Research Funding; Bayer: Consultancy, Research Funding; Celgene: Consultancy, Research Funding; Selvita: Membership on an entity's Board of Directors or advisory committees; NanoString: Research Funding; MorphoSys: Consultancy, Research Funding. Gandhi: Celgene Corporation: Employment, Equity Ownership, Patents & Royalties. Novak: Celgene Coorperation: Research Funding."
 }
