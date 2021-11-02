@@ -2,5 +2,34 @@
     "doi": "https://doi.org/10.1182/blood-2020-136553",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4500",
     "start_url_page_num": 4500,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Identifying the Genomic Profile of Functional High-Risk Multiple Myeloma Patients ",
+    "article_date": "November 5, 2020",
+    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
+    "topics": null,
+    "author_names": [
+        "Cinnie Yentia Soekojo, MD",
+        "Tae-Hoon Chung",
+        "Muhammad Shaheryar Furqan",
+        "Wee-Joo Chng, MBBS, PhD FRCPath, FRCP"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Hematology-Oncology, National University Cancer Institute, National University Health System, Singapore, Singapore ",
+            "Cancer Science Institute of Singapore, National University of Singapore, Singapore, Singapore"
+        ],
+        [
+            "Cancer Science Institute of Singapore, National University of Singapore, Singapore, Singapore"
+        ],
+        [
+            "Cancer Science Institute of Singapore, National University of Singapore, Singapore, Singapore"
+        ],
+        [
+            "Department of Hematology-Oncology, National University Cancer Institute, National University Health System, Singapore, Singapore ",
+            "Cancer Science Institute of Singapore, National University of Singapore, Singapore, Singapore"
+        ]
+    ],
+    "first_author_latitude": "1.2936504000000002",
+    "first_author_longitude": "103.7841835",
+    "abstract_text": "Background: Multiple myeloma (MM) patients with suboptimal response to induction therapy or early relapse, classified as the functional high-risk (FHR) patients, have been shown to have poor outcomes. However, the current risk stratification at diagnosis has not been able to accurately identify these patients. In clinical practice, we saw patients who were not identified as being high-risk at diagnosis having refractory disease or early relapse. The aim of our study is to evaluate the genomic profile of FHR MM patients at diagnosis. Method: We evaluated newly-diagnosed MM patients in the CoMMpass dataset and divided them into 3 groups: genomic high-risk (GHR) group for patients with t(4;14) or t(14;16) or del17p13 and TP53 mutation or 1q gain and International Staging System (ISS) stage 3; FHR group for patients who were refractory to induction therapy or had early relapse within 12 months and without the markers of GHR group; and standard-risk (SR) group for patients who did not fulfil both criteria. We evaluated the genomic profile based on the differentially expressed genes (DEG), copy number aberrations (CNA), mutational signatures (MS), and gene set enrichment analysis (GSEA). Results: Of 512 evaluable patients, there were 345 patients in the SR group, 106 patients in the GHR group, and 61 patients in the FHR group. On the survival analysis, both FHR and GHR groups had significantly poorer outcomes as compared with the SR group, with FHR group being the worst (FHR: HR=5.19, p=3.42x10 -11 ;GHR: HR=3.55, p=3.5x10 -8 ) ( Fig A ) The DEGs in FHR and GHR groups were distinct. FHR patients were enriched for genes linked to centromeres, mitosis, DNA repair, C2H2-type zinc finger proteins, and proteasome complex. On the other hand, GHR patients were enriched for genes linked to ribosomal proteins, immunoglobulin proteins, and cell-cell junctions. As FHR patients could not be identified at diagnosis by clinical and genetic parameters, we applied established gene expression signatures of high-risk disease, including proliferation (PI), chromosomal instability (CIN70, CINSARC, CINGEC), centrosome (CI), cell death (HZDCD), and others (EMC92, HMCL7, IFM15, UAMS70, and UAMS80) , to see if they could be used. Interestingly, none of these could identify all FHR patients. The best amongst these signatures was able to identify one-third of these patients. Indeed, about one-third of patients were not classified as high-risk by any of these signatures ( Fig B ). We next explored the use of machine learning methods on the 453 DEGs to identify a predictive model for the FHR group. Our predictive model based on random forest technique resulted in 19 significant genes with accuracy of 0.88, specificity of 0.94, sensitivity of 0.47, AUC - ROC of 0.70, F1 score of 0.48, and Matthews correlation coefficient of 0.42 ( Fig C ). In terms of CNA, FHR group was predominantly hyperdiploid. On the other hand, GHR group was mostly non-hyperdiploid with fewer gains of odd-numbered chromosomes, more pronounced 13q deletion, and increased 1q gain, as compared with FHR (p=1.45\u00d710 -10 ) and SR groups (p<2.2\u00d710 -16 ). Mutation analysis revealed that IL6-JAK-STAT3 pathway had more mutated genes per patient in FHR group, while estrogen response, KRAS, and WNT \u03b2 catenin signaling pathways had more mutated genes per patient in GHR group. GHR also had higher mutational load (p=0.00331), and FGFR3 (p=1.63\u00d710 -11 ), PRKD2 (p=2.82\u00d710 -7 ), and TP53 (p=8.7\u00d710 -6 ) were predominantly mutated in GHR group as compared with others. MS analysis using SigProfiler with Catalogue Of Somatic Mutations in Cancer (COSMIC) reference catalogue (version 3.1) showed that as compared with SR group, FHR group had increased activity in the defective homologous recombination-based DNA damage repair signature (SBS3), while GHR group had increased activity in the AID/APOBEC family of cytidine deaminase signatures (SBS2, SBS13). Interestingly, GSEA showed enrichment in cell cycle related gene sets (G2M, E2F) in FHR group and estrogen response gene sets in GHR group ( Fig D ). Conclusion: Identifying FHR MM patients at diagnosis represents an unmet clinical need and in this study, we report preliminary results in developing a high-specificity classifier. Our study also shows that FHR patients have specific MS and deregulate genes in unique pathways and biological processes as compared with GHR patients. This may provide insights into the biology and potential therapeutics of this group. Figure 1 View large Download slide Figure 1 View large Download slide  Disclosures Chng: Amgen: Honoraria, Research Funding; Janssen: Honoraria, Research Funding; Celgene: Honoraria, Research Funding; Novartis: Honoraria; Abbvie: Honoraria."
 }
