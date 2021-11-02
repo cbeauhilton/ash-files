@@ -2,5 +2,75 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-115729",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3924",
     "start_url_page_num": 3924,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Identification of Genetic Pathways Controlling Resistance to Standard Combination Chemotherapy in Acute Myeloid Leukemia ",
+    "article_date": "November 29, 2018",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster II",
+    "topics": [
+        "combination drug therapy",
+        "leukemia, myelocytic, acute",
+        "genetics",
+        "protein p16",
+        "chemotherapy regimen",
+        "rna, guide",
+        "anthracycline antibiotics",
+        "cancer",
+        "cd45 antigens",
+        "crispr-cas9"
+    ],
+    "author_names": [
+        "Victoria Y Ling, MBBS",
+        "William Godfrey",
+        "Sebastien Jacquelin, PhD",
+        "Jasmin Straube, PhD",
+        "Leanne T Cooper",
+        "Claudia Bruedigam, PhD",
+        "Siok-Keen Tey, MBBS PhDFRACP FRCPA",
+        "Lars Bullinger, MD",
+        "Marco J Herold",
+        "Megan Bywater, PhD",
+        "Steven W. Lane, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "QIMR Berghofer Medical Research Institute, Brisbane, Australia ",
+            "Royal Brisbane and Women's Hospital, Brisbane, Australia "
+        ],
+        [
+            "QIMR Berghofer Medical Research Institute, Brisbane, Australia "
+        ],
+        [
+            "QIMR Berghofer Medical Research Institute, Brisbane, Australia "
+        ],
+        [
+            "QIMR Berghofer Medical Research Institute, Brisbane, Australia "
+        ],
+        [
+            "QIMR Berghofer Medical Research Institute, Brisbane, Australia "
+        ],
+        [
+            "QIMR Berghofer Medical Research Institute, Brisbane, Australia "
+        ],
+        [
+            "QIMR Berghofer Medical Research Institute, Brisbane, Australia ",
+            "Royal Brisbane and Women's Hospital, Brisbane, Australia "
+        ],
+        [
+            "University of Ulm, Berlin, Germany "
+        ],
+        [
+            "Department of Medical Biology, University of Melbourne, Melbourne, Australia ",
+            "Walter and Eliza Hall Institute, Melbourne, Australia"
+        ],
+        [
+            "QIMR Berghofer Medical Research Institute, Brisbane, Australia "
+        ],
+        [
+            "QIMR Berghofer Medical Research Institute, Brisbane, Australia ",
+            "Royal Brisbane and Women's Hospital, Brisbane, Australia "
+        ]
+    ],
+    "first_author_latitude": "-27.4493302",
+    "first_author_longitude": "153.0272838",
+    "abstract_text": "Introduction: Resistance to chemotherapy, manifesting as refractory or relapsed disease, remains the largest cause of mortality in acute myeloid leukemia (AML). Clonal evolution through the acquisition of new mutations, or selection of resistant clones, appears responsible in many cases of relapsed disease. We used a genome-wide CRISPR-Cas9 loss of function screen to identify deleted genes, which mediate resistance to Cytarabine (AraC) and anthracycline, Doxorubicin (Dox) in AML. Methods: Dose response was defined using MTS viability assays, with synergism determined using the Chou-Talalay method. For the screen, Cas9-expressing OCI-AML3 cells were transduced with the Brunello gRNA library, which contains 76,441 gRNAs targeting 19,114 genes (Doench et al. 2016, Nat Biotech ). Cells were treated with continuous, intermediate-dose AraC/Dox (A/D) or with intermittent, high-dose A/D. Cell viability was monitored by trypan blue exclusion. gRNA representation was measured prior to, and at the end of treatment, using next-generation sequencing. Individual genomic targets were examined sequentially, using multiple gRNAs and correlated with effects on proliferation and cell cycle. Validation was performed in vivo , in independent cell lines (MV4;11) and in silico using bioinformatics on human clinical datasets. Differences in mean values were compared with t-tests. Results: AraC and Dox were synergistic at ratios 10:1, 20:1 and 40:1; the most synergistic ratio (40:1) was used for the screen. By 12 days, both continuous and intermittent dosing eliminated non-transduced controls and the bulk of library-transduced cells. Rapid resistance was seen in AraC monotherapy (10 days), however using combined AraC and Dox, a resistant population emerged by 20 days, mimicking dynamics of relapsed or refractory disease. Resistant populations also showed increased IC50 in vitro and resistance to in vivo A/D when transplanted into immunodeficient NRGS mice, compared to native cell lines (higher white cell counts (3.9 vs 1.9 x 10 9 /L, p = 0.013), lower platelets (597 vs 978 x 10 9 /L, p = 0.024) and higher bone marrow human CD45 chimerism (12.6 vs 1.7%, p = 0.007)). Deoxycytidine kinase (DCK) and cyclin-dependent kinase inhibitor 2a (CDKN2A) were the top hits, out of ~10 genes identified. DCK catalyses the rate-limiting step in metabolising AraC to its active form, and accordingly, AML cells with CRISPR-mediated DCK deletion were resistant to AraC, but also to combination A/D, demonstrating that resistance to a single agent may result in therapeutic failure of combination regimens. CDKN2A transcriptionally encodes p14 ARF and p16 INK4A , using common exons 2 and 3, but a distinct exon 1 and alternate reading frame. Enriched CDKN2A gRNAs identified in the screen were directed at common exon 2 and p16 INK4A unique exon 1, with a p14 ARF exon 1 gRNA not being represented in the Brunello library. p16 INK4A regulates cell cycle and proliferation by inhibiting G1-S transition and p14 ARF prevents p53 degradation, promoting apoptosis. CDKN2A is frequently deleted in multiple types of cancer. Functionally, CDKN2A exon 2 knockout, expected to disrupt both p14 ARF and p16 INK4A functions, led to chemotherapy resistance through enhanced proliferation and prevention of cell cycle arrest after low-dose and high-dose chemotherapy treatment. To delineate differential contributions of p14 ARF and p16 INK4A deletion to this resistance phenotype, we deleted p16 INK4A unique exon 1. p16 INK4A exon 1 deletion also conferred a proliferative advantage in low-dose chemotherapy, but not high-dose, suggesting that concurrent impaired function of p14 ARF is required to confer resistance to high-dose chemotherapy. Finally, gene expression data from 3 independent AML patient cohorts (Verhaak, et al. 2009, Haematologica ; Metzeler, et al. 2008, Blood ; Bullinger, unpublished) demonstrated that low CDKN2A expression conferred inferior survival, confirming the clinical relevance of CDKN2A loss-of-function in AML. Conclusion: This study demonstrates the utility of genome-wide CRISPR screens to functionally capture genetic heterogeneity and evolution through chemotherapy treatment in AML. This approach can identify clinically relevant gene mutations and therapeutic vulnerabilities. Disclosures Bullinger: Amgen: Honoraria, Speakers Bureau; Novartis: Honoraria, Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Janssen: Speakers Bureau; Bayer Oncology: Research Funding; Sanofi: Research Funding, Speakers Bureau; Bristol-Myers Squibb: Speakers Bureau; Pfizer: Speakers Bureau; Jazz Pharmaceuticals: Membership on an entity's Board of Directors or advisory committees, Speakers Bureau. Lane: Novartis: Consultancy; Celgene: Consultancy; Janssen: Consultancy, Research Funding."
 }
