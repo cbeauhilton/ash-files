@@ -2,5 +2,75 @@
     "doi": "https://doi.org/10.1182/blood-2019-121397",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4201",
     "start_url_page_num": 4201,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "High Accuracy, Low-Cost Transcriptional Diagnostic to Transform Lymphoma Care in Low- and Middle-Income Countries ",
+    "article_date": "November 13, 2019",
+    "session_type": "902.Health Services Research-Malignant Conditions (Lymphoid Disease)",
+    "topics": [
+        "lymphoma",
+        "transcription, genetic",
+        "developing countries",
+        "diffuse large b-cell lymphoma",
+        "biopsy",
+        "cancer",
+        "chronic gastritis",
+        "chronic inflammation",
+        "dermatitis",
+        "electrophoresis, capillary"
+    ],
+    "author_names": [
+        "Edward Briercheck, MD",
+        "Fabiola Valvert, MD",
+        "Elizabeth Solorzano, MSc",
+        "Oscar Silva, MD PhD",
+        "Maneka Puligandla, MS",
+        "Marcos Mauricio Sili\u00e9zar Tala, MD",
+        "Timothy Guyon, MSc",
+        "Samuel L. Dixon, BS",
+        "Robert Terbrueggen, PhD",
+        "Yasodha Natkunam, MD PhD",
+        "Kristen E. Stevenson, MS",
+        "David M Weinstock"
+    ],
+    "author_affiliations": [
+        [
+            "University of Washington - Fred Hutchinson Cancer Research Center, Seattle, WA "
+        ],
+        [
+            "Instituto De Cancerolog\u00eda y Hospital Dr. Bernardo Del Valle (INCAN), Ciudad DE Guatemala, Guatemala "
+        ],
+        [
+            "Instituto De Cancerolog\u00eda y Hospital Dr. Bernardo Del Valle (INCAN), Guatemala, Guatemala "
+        ],
+        [
+            "Department of Pathology, Stanford University Medical Center, Stanford, CA "
+        ],
+        [
+            "Department of Data Sciences, Dana-Farber Cancer Institute, Boston, MA "
+        ],
+        [
+            "Instituto De Cancerolog\u00eda y Hospital Dr. Bernardo Del Valle (INCAN), Guatemala, Guatemala "
+        ],
+        [
+            "Dxterity Diagnostic Inc., Rancho Dominguez, CA "
+        ],
+        [
+            "Dxterity Diagnostic Inc., Rancho Dominguez, CA "
+        ],
+        [
+            "Dxterity Diagnostic Inc., Rancho Dominguez, CA "
+        ],
+        [
+            "Department of Pathology, Stanford University Medical Center, Stanford, CA "
+        ],
+        [
+            "Data Sciences Institute, Dana-Farber Cancer Institute, Boston, MA "
+        ],
+        [
+            "Dana-Farber Cancer Institute, Boston, MA"
+        ]
+    ],
+    "first_author_latitude": "47.62726339999999",
+    "first_author_longitude": "-122.3314858",
+    "abstract_text": "Introduction: The majority of people worldwide lack access to high accuracy diagnostics to guide lymphoma therapy. As a consequence, many patients receive incorrect or no treatment. We hypothesized that a low-cost, parsimonious gene expression assay using FFPE biopsies from low-income settings could distinguish multiple lymphoma subtypes. Accurate diagnoses would make it possible to extend high therapeutic index agents currently available within high-income countries to underserved patients around the world. Methods: We reviewed 900 patient cases from INCAN, the public cancer hospital in Guatemala City, for which a biopsy was obtained between 2006-2018 due to the clinician's suspicion for lymphoma. Whole-slide sections were assessed by H&E and then involved areas were embedded into tissue microarrays and analyzed at Stanford University according to the 2016 WHO classification (>35,000 individual IHC and FISH assessments). Consensus diagnosis for each case was made by two expert hematopathologists (YN and OS). Diagnoses were then binned into: high grade B-cell lymphoma (BCL), diffuse large B-cell lymphoma (DLBCL), follicular lymphoma (FL), Hodgkin's lymphoma (HL), mantle cell lymphoma (MCL), marginal zone lymphoma (MZL), NK/T-cell lymphoma (NKTCL), T-cell lymphoma (TCL) or non-lymphoma (NL). The latter included lymphoid hyperplasia, granulomatous inflammation, chronic inflammation, reactive follicular hyperplasia, angiomatous hamartoma, chronic gastritis, dermatitis, normal skin and tonsil. DLBCL cell-of-origin (COO) was classified based on Hans algorithm. We selected 37 genes based on studies that defined subtype-specific expression, DLBCL COO, or therapeutic relevance. We established a chemical ligation-based probe amplification (CLPA, DxTerity Diagnostics) assay that quantifies expression of the 37 genes (plus 2 normalizer genes) by routine capillary electrophoresis at a cost of <$10/sample. Candidate models were trained on data from the diagnostic samples using 10-fold cross validation with 5 repeats using the Classification And REgression Training (caret) package in R v.3.5.1. The data were split 70/30 into training and validation sets. A 2-staged classification approach was used to determine the sample's class label. Fourteen models were used as \"base learners\" and the class probabilities from each model were then used as predictors in a random forest (\"super learner\") to assign the class label with the highest probability value. An additional two-class model was developed using analogous methodology to classify samples called DLBCL in the first stage as non-GCB or GCB. Results: The 900 patient cases included >50 different malignant and non-malignant disorders. We selected 648 cases for gene expression analysis to ensure adequate statistical representation of major lymphoma types for model building and validation. FFPE scrolls were utilized for CLPA, of which 59 (9.1%) failed quality control and 38 were from patients with relapsed disease. Assay turnaround time was 90% accuracy for DLBCL, HL, MCL, NKTCL and NL (Table). Among cases diagnosed as BCL by standard IHC/FISH but DLBCL by CLPA, 3 of 4 had Ki6790% for DLBCL, FL, HL, MCL and NKTCL. Summary: Classification of biopsies into biologically- and therapeutically-relevant bins is feasible based on parsimonious, gene expression-based, statistical-learning algorithms. Importantly, this approach has high accuracy both for lymphoma subtypes and for non-lymphoma diagnoses. The assay is highly cost-effective, rapid, uses basic clinical laboratory equipment, and is now being performed on site at INCAN. In summary, a CLPA-based transcriptional assay could have broad utility across the globe for diagnosis, subtyping, COO classification and assessment of therapeutic targets within FFPE biopsies. View large Download slide View large Download slide  Disclosures Guyon: Dexterity Diagnostics: Employment. Dixon: Dexterity Diagnostics: Employment. Terbrueggen: Dexterity Diagnostics: Employment, Equity Ownership. Stevenson: Celgene: Research Funding. Weinstock: Verastem Oncology: Research Funding; Celgene: Research Funding."
 }
