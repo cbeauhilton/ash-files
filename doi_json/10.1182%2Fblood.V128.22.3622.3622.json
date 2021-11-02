@@ -2,5 +2,55 @@
     "doi": "https://doi.org/10.1182/blood.V128.22.3622.3622",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3539",
     "start_url_page_num": 3539,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Towards the Development of a Noninvasive Prenatal Test for Beta-Thalassemia: Utilization of Probe Capture Enrichment and Next Generation Sequencing ",
+    "article_date": "December 2, 2016",
+    "session_type": "112. Thalassemia and Globin Gene Regulation: Poster III",
+    "topics": [
+        "beta thalassemia",
+        "massively-parallel genome sequencing",
+        "prenatal testing",
+        "dna",
+        "globins",
+        "cell-free dna",
+        "amniocentesis",
+        "chorionic villi sampling",
+        "dna fragments",
+        "oligonucleotide probes"
+    ],
+    "author_names": [
+        "Katie Carlberg, MD",
+        "Nikhil Bose",
+        "Jingyi Deng",
+        "Ashutosh Lal, MD",
+        "Henry Erlich, PhD",
+        "Cassandra Calloway, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Hematology/Oncology, UCSF Benioff Children's Hospital Oakland, Oakland, CA ",
+            "Children's Hospital Oakland Research Institute (CHORI), Oakland, CA "
+        ],
+        [
+            "Children's Hospital Oakland Research Institute (CHORI), Oakland, CA ",
+            "Forensic Science Graduate Program, University of California, Davis, CA"
+        ],
+        [
+            "Children's Hospital Oakland Research Institute (CHORI), Oakland, CA "
+        ],
+        [
+            "Hematology/Oncology, UCSF Benioff Children's Hospital Oakland, Oakland, CA ",
+            "Children's Hospital Oakland Research Institute (CHORI), Oakland, CA "
+        ],
+        [
+            "Children's Hospital Oakland Research Institute (CHORI), Oakland, CA "
+        ],
+        [
+            "Children's Hospital Oakland Research Institute (CHORI), Oakland, CA ",
+            "Forensic Science Graduate Program, University of California, Davis, CA"
+        ]
+    ],
+    "first_author_latitude": "37.83801205",
+    "first_author_longitude": "-122.26458740000001",
+    "abstract_text": "\u03b2-thalassemia causes significant morbidity and mortality worldwide. Currently, the diagnosis can be made prenatally for couples at risk using invasive procedures such as chorionic villus sampling and amniocentesis. Noninvasive prenatal testing (NIPT) on maternal blood samples would enable earlier fetal diagnosis and eliminate risks associated with these procedures. The discovery of cell-free fetal DNA (cfFDNA) in maternal plasma and advances in next generation sequencing (NGS) have made NIPT a clinical reality for aneuploidies. Diagnosing autosomal recessive (AR) disorders is more challenging as it requires determination of both the paternally and maternally inherited alleles and can be particularly difficult when both parents carry the same mutation. Previous studies used methods to identify the paternally inherited allele in maternal plasma through the detection of a DNA sequence variant present in the father and absent in the mother. Our method expands the target region beyond the \u03b2-globin gene into highly polymorphic regions to increase the likelihood of identifying unique paternal sequences. Unlike the detection of the paternal allele, there is no direct qualitative approach for determining the maternally inherited allele. Our solution is an indirect quantitative method that compares the ratio of allelic sequence reads to infer which maternal allele was inherited by the fetus. We have developed a novel NGS assay which utilizes probe capture enrichment, a method employing thousands of short overlapping oligonucleotide probes complementary to a target sequence region. This design makes it uniquely applicable to short, fragmented DNA, such as cell-free DNA (~150 base pairs). Our probe assay targets a contiguous 900 bp region which spans a portion of the \u03b2-globin gene (part of exon 2 as well as the entirety of IVS-1 and exon 1) and extends 579 bp into the highly polymorphic 5' UTR region to identify linked sequence variations. Additionally, the assay targets 451 single nucleotide polymorphisms (SNPs) throughout the genome. SNPs that are \"informative\" (i.e. an allele present in the fetus and absent in the mother) are used to calculate the fraction of cfDNA from the fetus. We have evaluated our assay's performance in a set of experiments designed to simulate the challenging aspects of cfFDNA: very low quantity and short fragment size. The assay's sensitivity was tested by preparing libraries containing amounts of DNA ranging from 50 to 0.05 ngs. At DNA amounts as low as 5 ng (5-fold lower than that expected in plasma), 100% coverage was achieved for the targeted \u03b2-globin region and SNPs. The probe/NGS system successfully captured and sequenced DNA fragments as short as 35 bps and as little as 0.5 ng of DNA with >95% coverage. To test the ability of the probe/NGS system to resolve mixtures, DNA samples from patients with known \u03b2-globin mutations were combined in ratios ranging from 2.5:97.5 to 20:80 in 25 ng total DNA to mimic the maternal/fetal cfDNA mixture. Our assay was able to detect minority heterozygous mutant alleles at proportions as low as 1.25% and 0.3 ng of DNA. In a mixture designed to simulate a case with a shared parental mutation (CD41/42(-TTCT)), we identified a linked SNP (rs713040) allele, which was within 250 bp of the mutation and unique to the minor fraction. We used this SNP to distinguish the CD41/42 (-TTCT) mutation contributed by the minor fraction. Based on 6 mixtures, we observed 24.3% (110/451) of SNPs to be informative, allowing for a precise estimate of the minor fraction. We estimated the minor fraction to be 11.88% and 5.98% compared to the expected 10% and 5%, respectively. To show proof of concept for inferring the minor (\"fetal\") genotype when the major (\"maternal\") genotype was heterozygous mutant (IVS1-5 (G>C)), the estimated minor fraction (10.4% based on 104 informative SNPs) was used to calculate the expected allelic ratios of the 3 different possible minor (\"fetal\") genotypes. The minor genotype was correctly inferred as wt/wt based on the observed mixture ratio (42.56/57.41 mut/wt) compared to the expected (44.93/55.07). These data show that our probe capture/NGS system can overcome the challenges implicit in the analysis of cfFDNA for NIPT: low DNA amount (<5 ng) and short fragments (<150 bp). We expect that our approach using the fetal fraction estimate will allow us to successfully infer the fetal genotype when applied to maternal plasma. Disclosures Erlich: Allen and Overy, Law Office: Consultancy."
 }

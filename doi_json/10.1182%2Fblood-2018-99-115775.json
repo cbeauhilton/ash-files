@@ -2,5 +2,79 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-115775",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3983",
     "start_url_page_num": 3983,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "AraC-Daunorubicin-Etoposide (ADE) Response Prediction in Pediatric AML Patients Using a Computational Biology Modeling (CBM) Based Precision Medicine Workflow ",
+    "article_date": "November 29, 2018",
+    "session_type": "615. Acute Myeloid Leukemia: Commercially Available Therapy, excluding Transplantation: Poster III",
+    "topics": [
+        "computational biology",
+        "daunorubicin",
+        "etoposide",
+        "myeloblastic leukemia, pediatric acute",
+        "opportunity for error",
+        "precision medicine",
+        "workflow",
+        "ccaat/enhancer binding protein alpha",
+        "biological markers",
+        "chemotherapy regimen"
+    ],
+    "author_names": [
+        "Christopher R. Cogle, MD",
+        "Taher Abbasi, MS, MBA",
+        "Neeraj Kumar Singh, B.Tech",
+        "Mohammed Sauban, B.E",
+        "Rahul K Raman, M.Sc.",
+        "Robinson Vidva, B.Tech",
+        "Anuj Tyagi, M.Sc.",
+        "Anay Ashok Talawdekar, M.Tech",
+        "Arko Das, M.Sc.",
+        "Steven M. Kornblau, MD",
+        "Fieke W Hoff, BSc",
+        "Terzah M. Horton, MD PhD",
+        "Shireen Vali, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "University of Florida, Gainesville, FL "
+        ],
+        [
+            "Cell Works Group Inc., San Jose, CA "
+        ],
+        [
+            "Cellworks Research India Private Limited, Bangalore, India "
+        ],
+        [
+            "Cellworks Research India Private Limited, Bangalore, India "
+        ],
+        [
+            "Cellworks Research India Private Limited, Bangalore, India "
+        ],
+        [
+            "Cellworks Research India Private Limited, Bangalore, India "
+        ],
+        [
+            "Cellworks Research India Private Limited, Bangalore, India "
+        ],
+        [
+            "Cellworks Research India Private Limited, Bangalore, India "
+        ],
+        [
+            "Cellworks Research India Private Limited, Bangalore, India "
+        ],
+        [
+            "Department of Leukemia, M.D. Anderson Cancer Center University of Texas, Houston, TX "
+        ],
+        [
+            "Department of Pediatric Oncology/ Hematology, University Medical Center Groningen, Groningen, Netherlands "
+        ],
+        [
+            "Texas Children's Cancer Center, Baylor College of Medicine, Houston, TX"
+        ],
+        [
+            "Cell Works Group Inc., San Jose, CA "
+        ]
+    ],
+    "first_author_latitude": "29.6436325",
+    "first_author_longitude": "-82.3549302",
+    "abstract_text": "Background: Pediatric AML (pAML) treatment outcomes can vary due to genomic heterogeneity. Thus, selecting the right drugs for a given patient is challenging. There is a need for a priori means of predicting treatment responses based on tumor \"omics\". Computational biology modeling (CBM) is a precision medicine approach by which biological pathways of tumorigenesis are mapped using mathematical principles to yield a virtual, interactive tumor model. This model can be customized based on a patient's omics and analyzed virtually for response to therapies. Aim: To define prediction values of a CBM precision medicine approach in matching clinical response to ADE therapy in a cohort of pAML patients. Methods: Thirty pAML patients that were treated ADE chemotherapy were utilized with information on the clinical, genomic (cytogenetics, mutations) and protein expression data from this cohort of pAML patients used for the CBM. From cytogenetics results, gene copy number variations were coded as either knocked-down (KD) or over-expressed (OE). From NGS results (2 gene panel - CEBPA, NPM1), gene mutations were coded as either loss or gain of function (LOF or GOF). For protein expression data, proteins that were >2sigma from the mean were coded as KD if their value was 0. Proteins with values <2sigma from the mean were not included in the CBM as perturbed. The LOF, GOF, KD, OE data was input in the CBM software system (Cellworks Group) to generate patient-specific maps of AML. Each map showed unique interplay of dysregulated networks for the patient's AML. Digital drug simulations were then conducted in each map to measure the impact of cytarabine, daunorubicin and etoposide alone and in combination to predict AML disease inhibition score (DIS) (composite of cell proliferation, viability, apoptosis and impact on patient-specific biomarkers). Response to treatment is determined based on a threshold DIS range derived through AML training datasets comprising omics and clinical outcome. Clinical outcome data for these pAML patients treated with ADE was compared with CBM predictions. Clinical response was defined as complete response at the end of consolidation therapy as per International Working Group 2006 criteria. Results: Assessment was made for 30 patients, 14 female, median age 14 years, all of which achieved CR, with predictions made for all but one which lacked sufficient genomic inputs. CBM accurately predicted the clinical outcomes of 28 of 29 responders, with an accuracy and positive predictive value of 96 %. Multivariate analysis of predictive score with age at diagnosis, DFS and OS is positively correlated with Pearson coefficient of 0.22, 0.54 and 0.49. Analysis of the individual drug responses of each patient indicated that some of the drugs were predicted to be non-responsive based on the patient-disease pathway characteristics, and could have been eliminated from the treatment, thus reducing the overall adverse impact of the very intensive therapy regimen. There were profiles in which AraC was a responder due to decreased mismatch repair pathway in the disease network resulting from presence of aberrations such as KMT2A-AFDN, RUNX1-RUNX1T1, CEBPA LOF, KDM1A OE, MSH2 KD etc., while Daunorubicin and Etoposide were predicted as non-responders due to presence of an intact homologous DNA repair pathway as a result of absence of aberrations in HR pathway genes. CBM analysis of patient \"omics\" driven disease characteristics could have eliminated additional drugs for such patients. Conclusion: The CBM prediction of ADE in pAML patients based on genomic, proteomic and clinical data showed high predictive accuracy of 96.55%. CBM analysis of patients' genomics and proteomics driven disease characteristics and individual drug response prediction indicated that the intensive therapy regimen can be tailored for each patient to minimize toxicity by removing non-responsive drugs. The study validates the approach to a priori predict response and identify optimal therapy option for the patient. Disclosures Cogle: Celgene: Other: Steering Committee Member of Connect MDS/AML Registry. Abbasi: Cell Works Group Inc.: Employment. Singh: Cellworks Research India Private Limited: Employment. Sauban: Cellworks Research India Private Limited: Employment. Raman: Cellworks Research India Private Limited: Employment. Vidva: Cellworks Research India Private Limited: Employment. Tyagi: Cellworks Research India Private Limited: Employment. Talawdekar: Cellworks Research India Private Limited: Employment. Das: Cellworks Research India Private Limited: Employment. Vali: Cell Works Group Inc.: Employment."
 }
