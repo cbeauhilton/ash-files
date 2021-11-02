@@ -2,5 +2,119 @@
     "doi": "https://doi.org/10.1182/blood-2019-122088",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4284",
     "start_url_page_num": 4284,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Flowct: A Semi-Automated Workflow for Deconvolution of Immunophenotypic Data and Objective Reporting on Large Datasets ",
+    "article_date": "November 13, 2019",
+    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
+    "topics": [
+        "antigens",
+        "antigens, cd16",
+        "antigens, cd25",
+        "bone marrow",
+        "cd56 antigens",
+        "color",
+        "datasets",
+        "equity",
+        "flow cytometry",
+        "helper-inducer t-lymphocytes"
+    ],
+    "author_names": [
+        "Cirino Botta, MD",
+        "Catarina Maia",
+        "Cristina P\u00e9rez Ruiz",
+        "Irene Manrique",
+        "Juan Jos\u00e9 Garc\u00e9s",
+        "Sara Rodr\u00edguez, PhD",
+        "Leire Burgos",
+        "Juana Merino",
+        "Aitziber Lopez Lopez",
+        "Noemi Puig, MD PhD",
+        "Mar\u00eda Teresa Cedena",
+        "Artur Paiva",
+        "Marco Rossi",
+        "Pierosandro Tagliaferri, MD",
+        "Piefrancesco Tassone, MD",
+        "Massimo Gentile, MD",
+        "Ivan M. Borrello, MD",
+        "Laura Rosinol Dachs",
+        "Maria-Victoria Mateos, MD PhD",
+        "Juan-Jos\u00e9 Lahuerta, MD PhD",
+        "Joan Blad\u00e9, MD",
+        "Jes\u00fas San-Miguel",
+        "Bruno Paiva, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "University of Catanzaro, Catanzaro, Italy "
+        ],
+        [
+            "Centro de Investigaci\u00f3n M\u00e9dica Aplicada, University of Navarra, Cl\u00ednica Universidad de Navarra, Pamplona, Spain "
+        ],
+        [
+            "Centro de Investigaci\u00f3n M\u00e9dica Aplicada, University of Navarra, Cl\u00ednica Universidad de Navarra, Pamplona, Spain "
+        ],
+        [
+            "Clinica Universidad de Navarra, Pamplona, Spain "
+        ],
+        [
+            "Centro de Investigaci\u00f3n M\u00e9dica Aplicada, University of Navarra, Cl\u00ednica Universidad de Navarra, Pamplona, Spain "
+        ],
+        [
+            "Centro de Investigaci\u00f3n M\u00e9dica Aplicada, University of Navarra, Cl\u00ednica Universidad de Navarra, Pamplona, Spain "
+        ],
+        [
+            "Centro de Investigaci\u00f3n M\u00e9dica Aplicada, University of Navarra, Cl\u00ednica Universidad de Navarra, Pamplona, Spain "
+        ],
+        [
+            "Centro de Investigaci\u00f3n M\u00e9dica Aplicada, University of Navarra, Cl\u00ednica Universidad de Navarra, Pamplona, Spain "
+        ],
+        [
+            "Clinica Universidad de Navarra, Pamplona, Spain "
+        ],
+        [
+            "Hospital Universitario de Salamanca Hematolog\u00eda. Instituto de investigaci\u00f3n biom\u00e9dica de Salamanca (IBSAL), Salamanca, Spain "
+        ],
+        [
+            "Hospital Universitario 12 de Octubre, Madrid, Spain "
+        ],
+        [
+            "Unidade de Gest\u00e3o Operacional em Citometria, Centro Hospitalar e Universit\u00e1rio de Coimbra (CHUC), Coimbra, Portugal, Coimbra, Portugal "
+        ],
+        [
+            "Magna Graecia University, Catanzaro, Italy "
+        ],
+        [
+            "Magna Graecia University, Catanzaro, Italy "
+        ],
+        [
+            "University \"Magna Gr\u00e6cia\" of Catanzaro, Catanzaro, Italy "
+        ],
+        [
+            "Hematology Unit, \"Annunziata\" Hospital of Consenza, Italy, Cosenza, Italy "
+        ],
+        [
+            "Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD "
+        ],
+        [
+            "Hospital Cl\u00ednic, Barcelona, Spain "
+        ],
+        [
+            "Departamento de Hematolog\u00eda, Hospital Universitario de Salamanca (HUSAL), IBSAL, IBMCC (USAL-CSIC), CIBERONC, Salamanca, Spain "
+        ],
+        [
+            "Hospital 12 de Octubre, CIBERONC, Madrid, Spain "
+        ],
+        [
+            "Hospital Cl\u00ednic, Barcelona, Spain "
+        ],
+        [
+            "Cl\u00ednica Universidad de Navarra, Centro de Investigaci\u00f3n M\u00e9dica Aplicada (CIMA), IDISNA, CIBERONC, Pamplona, Spain"
+        ],
+        [
+            "Cl\u00ednica Universidad de Navarra, Centro de Investigaci\u00f3n M\u00e9dica Aplicada (CIMA), IDISNA, CIBERONC, Pamplona, Spain"
+        ]
+    ],
+    "first_author_latitude": "38.8686453",
+    "first_author_longitude": "16.5788521",
+    "abstract_text": "Background: The advent of immunotherapy renewed the interest in immune monitoring to identify determinants of treatment response. Flow cytometry is widely adopted in immunotherapy-based clinical trials, but manual analysis of multiparameter files poses a challenge to capture full cellular diversity and to provide unbiased reporting in large datasets. Methods: Here, we developed a semi-automated pipeline named \" FlowCT \" which, starting from compensated data obtained with standardized protocols, allows simultaneous analyses of multiple files and automated cell clustering. FlowCT starts with quality control and data normalization followed by an analytical stage with clustering algorithms, dimensional reduction techniques and cluster identification based on antigen expression. Statistical tools are included for immediate analysis of results. Results: As proof-of-concept, we used FlowCT in three different datasets. First, we applied FlowCT to bone marrow (BM) samples from three multiple myeloma (MM) patients stained with 17-color flow cytometry, to determine the increment in the complexity of analyzing 8 and 17 markers, chosen to characterize T cells. Of note, a single combination of CD3, CD4, CD8, CD45RA, CD56, CCR7, PD1 and TIGIT, allowed the identification of 31 lymphocyte subsets using FlowCT , which increased to 39 different clusters with 17 markers and unveiled a novel population of CD3 - CD56 - CD8 + CD16 + lymphoid cells in the MM immune microenvironment. Secondly, we applied FlowCT to matched peripheral blood (PB) and BM samples from 10 patients with smoldering MM, to objectively assess if PB represents a good surrogate of T-cell distribution in the BM. Using an 8-color combination to characterize CD4 T cells, up to 26 different subsets were identified, including several CD4 T helper (Th) type subsets. Of note, their distribution within PB CD4 T cells was similar to that found in BM, except for CD4 T CXCR3 + CCR4 + effector memory and Th17 central memory subsets that decreased in the BM tumor immune microenvironment. Thirdly, we analyzed 30 BM samples from 10 MM patients studied every year during maintenance therapy, monitored with CD4, CD8, CD25, CD45RA, CD127, CCR7, PD1, and TCR\u03b3\u03b4 to characterize T cells. FlowCT identified 29 different T-cell populations, including 9 CD4 subsets, 14 CD8 subsets, 4 T\u03b3\u03b4 cell subsets and 2 distinct Treg subsets. Longitudinal, semi-automated and unbiased analysis unveiled a significant fluctuation of CD4 na\u00efve and transitional memory cells during maintenance, as well as a significant decrease of CD8 CD127 - effector memory and transitional effectors cells after 2 years of maintenance. Conclusions: Here, we presented FlowCT , a pipeline optimized for the analysis of large flow cytometry datasets that could be easily implemented by research laboratories to unveil full cellular diversity, singular patterns of antigen expression, and to provide unbiased reporting in large studies, like clinical trials. Disclosures Puig: Amgen: Consultancy, Honoraria; Janssen: Consultancy, Honoraria, Research Funding; Celgene: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; The Binding Site: Honoraria; Takeda: Consultancy, Honoraria. Borrello: WindMIL Therapeutics: Equity Ownership, Patents & Royalties, Research Funding; Aduro: Patents & Royalties: intellectual property on allogeneic MM GVAX; BMS: Consultancy; Celgene: Honoraria, Research Funding, Speakers Bureau. Rosinol Dachs: Janssen, Celgene, Amgen and Takeda: Honoraria. Mateos: Janssen, Celgene, Takeda, Amgen, GSK, Abbvie, EDO, Pharmar: Membership on an entity's Board of Directors or advisory committees; Janssen, Celgene, Takeda, Amgen, Adaptive: Honoraria; Amgen Inc, Janssen Biotech Inc: Other: Data and Monitoring Committee; Amgen Inc, Celgene Corporation, Janssen Biotech Inc, Takeda Oncology.: Speakers Bureau; AbbVie Inc, Amgen Inc, Celgene Corporation, Genentech, GlaxoSmithKline, Janssen Biotech Inc, Mundipharma EDO, PharmaMar, Roche Laboratories Inc, Takeda Oncology: Other: Advisory Committee. Lahuerta: Takeda, Amgen, Celgene and Janssen: Honoraria, Membership on an entity's Board of Directors or advisory committees. Blad\u00e9: Jansen, Celgene, Takeda, Amgen and Oncopeptides: Honoraria. San-Miguel: Amgen, Bristol-Myers Squibb, Celgene, Janssen, MSD, Novartis, Roche, Sanofi, and Takeda: Consultancy, Honoraria. Paiva: Celgene, Janssen, Sanofi and Takeda: Consultancy; Amgen, Bristol-Myers Squibb, Celgene, Janssen, Merck, Novartis, Roche and Sanofi: Honoraria, Membership on an entity's Board of Directors or advisory committees."
 }
