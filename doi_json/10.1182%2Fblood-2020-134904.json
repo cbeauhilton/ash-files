@@ -2,5 +2,45 @@
     "doi": "https://doi.org/10.1182/blood-2020-134904",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4578",
     "start_url_page_num": 4578,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "TRAIL (Tolerability of R-CHOP in Aggressive non-Hodgkin Lymphoma): A Predictive Algorithm to Support Clinical Decision-Making ",
+    "article_date": "November 5, 2020",
+    "session_type": "627.Aggressive Lymphoma (Diffuse Large B-Cell and Other Aggressive B-Cell Non-Hodgkin Lymphomas)-Results from Retrospective/Observational Studies",
+    "topics": null,
+    "author_names": [
+        "Edward Bataillard",
+        "Will Harris",
+        "Tarec Christoffer El-Galaly",
+        "Antonia Kwan",
+        "Carsten Henneges",
+        "Joseph N Paulson",
+        "Tina G Nielsen"
+    ],
+    "author_affiliations": [
+        [
+            "Imperial College Healthcare NHS Trust, London, United Kingdom ",
+            "On assignment to Roche Products Ltd, Welwyn Garden City, United Kingdom "
+        ],
+        [
+            "Genentech, Inc., South San Francisco, CA "
+        ],
+        [
+            "F. Hoffmann-La Roche Ltd, Basel, Switzerland"
+        ],
+        [
+            "Genentech, Inc., South San Francisco, CA "
+        ],
+        [
+            "Genentech, Inc., South San Francisco, CA "
+        ],
+        [
+            "Genentech, Inc., South San Francisco, CA "
+        ],
+        [
+            "F. Hoffmann-La Roche Ltd, Basel, Switzerland"
+        ]
+    ],
+    "first_author_latitude": "51.5178108",
+    "first_author_longitude": "-0.17434869999999997",
+    "abstract_text": "Introduction: R-CHOP (rituximab, cyclophosphamide, doxorubicin hydrochloride, vincristine, prednisolone) remains the standard of care for first-line (1L) treatment of diffuse large B-cell lymphoma (DLBCL), with a long-term event free survival of 60-70% in patients (pts) who complete the recommended treatment course of 6-8 cycles (Coiffier, et al. Blood 2010). However, significant numbers of pts are unable to tolerate R-CHOP due to comorbidity or frailty, which confers susceptibility to consequences of treatment-related toxicities. These pts are less likely to achieve complete remission and are at higher risk of relapse as they receive a lower chemotherapy dose intensity due to treatment discontinuation, interruptions, or reductions (D\u0142ugosz-Danecka, et al. Cancer Med 2019). Identifying these pts upfront could facilitate recruitment into studies of alternate therapies, thereby sparing them the unfavorable risk/benefit profile of R-CHOP treatment. The aim of this study was to develop a predictive tool to identify pts newly diagnosed with DLBCL who are unlikely to tolerate anti-CD20 with CHOP. Methods: We performed an exploratory analysis based on 1,407 newly diagnosed DLBCL pts from the Phase III GOYA trial [NCT01287741] who were treated with R-CHOP or obinutuzumab in combination with CHOP (G-CHOP). To identify pts who did not tolerate anti-CD20 + CHOP, we selected a hybrid binary endpoint: 1) adverse events (AEs) leading to withdrawal of cyclophosphamide and/or doxorubicin; 2) average relative dose intensity of cyclophosphamide and doxorubicin <80% across 6 cycles, not related to progressive disease; and 3) death within the first 6 cycles not related to progressive disease. We evaluated tolerability with multiple prognostic and laboratory variables, including the Charlson comorbidity index (CCI). We separated data into 5-folds with a training (n=1051) and a hold-out test set (n=355) to be evaluated in the future. Candidate predictive variables were selected on the basis of known baseline characteristics, which contribute to patient frailty, comorbidity and chemotherapy toxicity. Prediction performance was evaluated by 4-fold cross validation (CV) on the training set. We first associated variables with clinical outcomes to estimate variable importance. We combined highly informative variables to fit a logistic regression model that maximized prediction and evaluated robustness. Results: Of 1,407 evaluable pts that initiated anti-CD20 + CHOP, the hybrid tolerability binary endpoint occurred in 188 (13.4%) ( Figure A ). There were 104 (7.4%) pts with AEs leading to withdrawal of cyclophosphamide and/or doxorubicin; 162 (11.5%) instances of reduced average relative dose intensity of cyclophosphamide and doxorubicin <80% intended, not related to progressive disease; and 19 (1.4%) deaths within the first 6 cycles not related to progressive disease. We identified a model including: albumin, percentage of bone marrow lymphocytes, CCI, creatinine clearance and previous history of heart, vascular or diabetes comorbidities ( Table ). Our TRAIL model was trained on 742 pts with complete data. We achieved an area under the receiver operating characteristic curve (AUC) of 75.5% and a CV AUC of 74.9% (sensitivity = 75%, specificity = 69.6%) ( Figure B ). To create a simpler model using information available in the routine clinical setting, we removed bone marrow lymphocytes and trained a model on 1022 pts with complete data achieving a CV AUC of 70.1% (sensitivity = 68.1%, specificity = 67.2%). Other top ranking models with complete data on all pts achieved AUCs >70% and included age, hemoglobin, T-cell counts, proportion of T H cells, and lactate dehydrogenase (LDH). Implementations of CCI alone performed less well with a CV AUC of 62.9%. Conclusions: Future analyses will evaluate TRAIL on the hold-out test set to estimate a final unbiased measure of performance as well as an evaluation in an independent clinical trial. This model has the potential to be used as clinical decision support to guide physician judgement and enable patient enrollment into future clinical trials for alternate therapies, as well as alleviate anti-CD20 or R-CHOP associated toxicities for 1L DLBCL patients who are unlikely to derive the full benefit of this treatment. View large Download slide View large Download slide Disclosures Bataillard: Imperial College Healthcare NHS Trust: Ended employment in the past 24 months; Roche Products Limited (temporary clinical fellowship as a fixed-term sabbatical from Hematology specialty training fellowship at Imperial College Healthcare NHS Trust): Current Employment. Harris: F. Hoffmann-La Roche: Current equity holder in publicly-traded company; Genentech, Inc.: Current Employment. El-Galaly: F. Hoffmann-La Roche: Current Employment, Other: Support of parent study and funding of editorial support. Kwan: Genentech, Inc.: Current Employment, Current equity holder in publicly-traded company; F. Hoffmann-La Roche: Current equity holder in publicly-traded company. Henneges: Genentech, Inc. (via Syneos Health): Current Employment; University of Wurzburg: Ended employment in the past 24 months. Paulson: Genentech, Inc.: Current Employment; F. Hoffmann-La Roche: Current equity holder in private company, Current equity holder in publicly-traded company. Nielsen: F. Hoffmann-La Roche: Current Employment, Current equity holder in publicly-traded company."
 }
