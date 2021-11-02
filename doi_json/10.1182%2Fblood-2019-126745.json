@@ -2,5 +2,70 @@
     "doi": "https://doi.org/10.1182/blood-2019-126745",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4303",
     "start_url_page_num": 4303,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Prediction of High-Risk Group of Primary Refractory Diffuse Large B-Cell Lymphoma (DLBCL) Patients Using a CT-Based Radiomics Model with Machine Learning ",
+    "article_date": "November 13, 2019",
+    "session_type": "627.Aggressive Lymphoma (Diffuse Large B-Cell and Other Aggressive B-Cell Non-Hodgkin Lymphomas)-Results from Retrospective/Observational Studies",
+    "topics": [
+        "diffuse large b-cell lymphoma",
+        "machine learning",
+        "radiomics",
+        "r-chop",
+        "artifacts",
+        "biological markers",
+        "complete remission",
+        "computed tomography",
+        "cyclophosphamide",
+        "diagnostic imaging"
+    ],
+    "author_names": [
+        "Raoul Santiago, MDMSc",
+        "Johanna Ortiz Jimenez, MD",
+        "Reza Forghani, MD PhD",
+        "Nikesh Muthukrishnan, MEng",
+        "Olivier Del Corpo, BSC, MSc",
+        "Shairabi Karthigesu",
+        "Muhammad Yahya Haider",
+        "Caroline Reinhold, MD MSc",
+        "Sarit Assouline, MD"
+    ],
+    "author_affiliations": [
+        [
+            "McGill University Jewish General Hospital, Montreal, Canada ",
+            "Segal Cancer Centre and Lady Davis Institute for Medical Research, Montreal, Canada "
+        ],
+        [
+            "McGill University Jewish General Hospital, Montreal, Canada "
+        ],
+        [
+            "Segal Cancer Centre and Lady Davis Institute for Medical Research, Montreal, Canada ",
+            "Department of Radiology, Research Institute of the McGill University Health Centre, Montreal, Canada ",
+            "Gerald Bronfman Department of Oncology, Montreal, Canada ",
+            "Royal Victoria Hospital, McGill University Health Centre, Montreal, Canada "
+        ],
+        [
+            "Segal Cancer Centre and Lady Davis Institute for Medical Research, Montreal, Canada "
+        ],
+        [
+            "McGill University, Montreal, Canada "
+        ],
+        [
+            "McGill University, Montreal, Canada "
+        ],
+        [
+            "McGill University, Montreal, Canada "
+        ],
+        [
+            "Royal Victoria Hospital, McGill University Health Centre, Montreal, Canada ",
+            "McGill University, Montreal, Canada ",
+            "Department of Radiology, Research Institute of the McGill University Health Centre, Montreal, Canada"
+        ],
+        [
+            "McGill University Jewish General Hospital, Montreal, Canada ",
+            "Segal Cancer Centre and Lady Davis Institute for Medical Research, Montreal, Canada "
+        ]
+    ],
+    "first_author_latitude": "45.4968796",
+    "first_author_longitude": "-73.6296469",
+    "abstract_text": "Introduction Approximately 15% of diffuse large B-cell lymphomas (DLBCL) do not respond to R-CHOP (rituximab, cyclophosphamide, doxorubicin, vincristine and prednisone) or equivalent regimen. These primary refractory cases (prDLBCL) have a particularly poor survival. There are currently no reliable biomarkers to a priori identify prDLBCL patients and include them in clinical trials, while avoiding needless toxicity from predictably ineffective therapy. In this study, we evaluated the potential for radiomic analysis with machine learning for predicting prDLBCL. Method This study included adult patients with prDLBCL from a single institution from 2009 to 2018, who had first-line treatment with an R-CHOP like regimen, had never received systemic treatment for indolent lymphoma, and who had a CT scan at the time of diagnosis. Refractory (R) patients were defined by progression of disease (PD) after completion of at least one cycle, or failure to achieve a complete response (CR) after at least 4 cycles, as per Lugano criteria (Cheson, JCO 2014). Non-refractory (NR) patients were matched 1:1 on sex and R-IPI for the comparison group. Enlarged lymph nodes (\u22651.5 cm in greatest diameter) were eligible for evaluation. The 6 largest nodes were selected at each node site (abdomen, chest, axilla and neck) and for each node category (refractory node (RN), partial response (PR) and CR, as per Lugano criteria). 3D Slicer software was used for the delineation of the region of interest (ROI) either for subsequent 2D analysis (largest axial section) or 3D analysis (total node volume). Each node was manually contoured by two independent readers and also was reviewed by an experienced senior oncologic radiologist. A total of 788 and 1218 features were extracted from 2D and 3D regions of interest, respectively, using Pyradiomics open source software. Two independent machine learning approaches, Random Forests (RF) and Support Vector Machine (SVM), were tested for constructing the prediction models. 70% of cases were randomly assigned to the training set and 30% to the independent testing set. In the node model (NM) each independent node's response to treatment was predicted. In the patient model (PM), groups of nodes per site (abdomen, chest, axilla and neck) were used to predict the overall patient response. Results A total of 26 refractory patients were identified with a total 149 nodes (RN=55, PR=20, CR=74) and matched to 26 NR patients for comparison, with a total of 105 CR nodes. Seventeen nodes with significant artifact were excluded from the analysis (7 from NR patients and 10 from R patients). RF had consistently superior performance compared to SVM and was used for constructing the final prediction models. Furthermore, 2D radiomic analysis had superior performance compared to 3D radiomic analysis. In the independent testing (prediction) set, the mean accuracy between the 2 readers for this model for distinguishing a R from NR patient was 80% (mean sensitivity and specificity, 73% and 88%, respectively). This model was able to predict a R patient (positive predictive value (PPV)) in 100% and 71% of the case, respectively for readers 1 and 2. The area under the ROC curve (AUC) was 0.96 and 0.81 for reader 1 and 2, respectively (Figure 1A). For performance of the radiomic model for distinguishing individual refractory from responsive nodes, the independent testing set had a mean accuracy of 75% (mean sensitivity, specificity, PPV, and NPV of 80%, 69%, 78%, and 71% respectively). The AUC per reader were 0.82 and 0.85 (Figure 1B). Conclusion We demonstrate that the use of CT radiomic analysis with machine learning for identifying a priori primary refractory DLBCL patients is feasible. These models provide a relatively high prediction accuracy, which currently cannot be done in the clinical setting based on standard, largely qualitative, imaging characteristics. The main limitations of our study include small patient numbers in this pilot study and exclusion of extranodal sites. The next step for this project would be to evaluate this approach in a larger cohort that includes a second independent institution. CT-based radiomics is promising and should be further explored to achieve this unmet need for predicting prDLBCL prior to therapy initiation. View large Download slide View large Download slide  Disclosures Forghani: GE Healthcare: Consultancy, Honoraria, Research Funding; 4Intel Inc: Equity Ownership, Membership on an entity's Board of Directors or advisory committees, Other: Founder. Reinhold: FRQS: Other: FRQS Grant. Assouline: Pfizer: Consultancy, Honoraria, Speakers Bureau; Janssen: Consultancy, Honoraria, Speakers Bureau; Abbvie: Consultancy, Honoraria; F. Hoffmann-La Roche Ltd: Consultancy, Honoraria."
 }
