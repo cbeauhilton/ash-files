@@ -2,5 +2,66 @@
     "doi": "https://doi.org/10.1182/blood-2019-129863",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4388",
     "start_url_page_num": 4388,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Semi-Automated Knime-Based Workflow for High Throughput Quantification and Analysis of Centrosome Aberrations ",
+    "article_date": "November 13, 2019",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "topics": [
+        "cancer",
+        "centrosome",
+        "false-negative results",
+        "false-positive results",
+        "trimethoprim-sulfamethoxazole combination",
+        "workflow",
+        "fluorescent antibody technique",
+        "interobserver variation",
+        "amplification",
+        "cell nucleus"
+    ],
+    "author_names": [
+        "Tobias Dittrich, MD",
+        "Elena Bausch, PhD",
+        "Johannes Bausch, PhD",
+        "Hartmut Goldschmidt, MD",
+        "Ute Hegenbart, MD",
+        "Stefan O. Sch\u00f6nland, MD",
+        "Marc S Raab, MD PhD",
+        "Alwin Kr\u00e4mer, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Clinical Cooperation Unit Molecular Hematology/Oncology, German Cancer Research Center (DKFZ) and Department of Internal Medicine V, Heidelberg, Germany ",
+            "Department of Internal Medicine V, University Hospital Heidelberg, Heidelberg, Germany ",
+            "Amyloidosis Center, University Hospital Heidelberg, Heidelberg, Germany "
+        ],
+        [
+            "Clinical Cooperation Unit Molecular Hematology/Oncology, German Cancer Research Center (DKFZ) and Department of Internal Medicine V, Heidelberg, Germany ",
+            "Max-Eder-Unit \"Experimental Therapies for Hematologic Malignancies\", German Cancer Research Center, Heidelberg, Germany "
+        ],
+        [
+            "Department of Applied Mathematics and Theoretical Physics, University of Cambridge, Cambridge, United Kingdom"
+        ],
+        [
+            "Department of Internal Medicine V, University Hospital Heidelberg, Heidelberg, Germany "
+        ],
+        [
+            "Department of Internal Medicine V, University Hospital Heidelberg, Heidelberg, Germany ",
+            "Amyloidosis Center, University Hospital Heidelberg, Heidelberg, Germany "
+        ],
+        [
+            "Department of Internal Medicine V, University Hospital Heidelberg, Heidelberg, Germany ",
+            "Amyloidosis Center, University Hospital Heidelberg, Heidelberg, Germany "
+        ],
+        [
+            "Department of Internal Medicine V, University Hospital Heidelberg, Heidelberg, Germany ",
+            "Max-Eder-Unit \"Experimental Therapies for Hematologic Malignancies\", German Cancer Research Center, Heidelberg, Germany "
+        ],
+        [
+            "Clinical Cooperation Unit Molecular Hematology/Oncology, German Cancer Research Center (DKFZ) and Department of Internal Medicine V, Heidelberg, Germany ",
+            "Department of Internal Medicine V, University Hospital Heidelberg, Heidelberg, Germany "
+        ]
+    ],
+    "first_author_latitude": "49.414414",
+    "first_author_longitude": "8.672960699999999",
+    "abstract_text": "Introduction The current standard to investigate centrosome aberrations on a single cell level is labeling of known centrosomal as well as core centriolar proteins by immunofluorescence (IF) staining and subsequent manual quantification of centrosomes and centrioles. This approach is, however, very time-consuming and prone to inter-observer variations. In order to systematically evaluate centrosomal aberrations as potential predictors of malignancy, reliable high throughput analyses of IF images are required. To address this unmet need, we developed a semi-automated workflow using the highly versatile data analysis platform Konstanz Information Miner (KNIME) (Berthold et al., 2008). Input data U2OS-PLK4 cells (Konotop et al., Cancer Res. 2016) were induced for centrosomal amplification and immediately processed including IF staining against pericentrin and centrin and image acquisition using a Zeiss Cell Observer and 40\u00d7 1.3 NA Plan Apochromat objective. Per condition, 300 cells were observed and allocated manually to the phenotype classes - cells with normal centrosomes, cells with clustered amplified centrosomes and cells with declustered amplified centrosomes. The workflow settings were trained with 20% of the entire data. KNIME workflow and neural network for centrosome analysis Our KNIME workflow for centrosome analysis is composed of three main functional parts: (1) Input node groups, where image data is loaded and user-specific settings are pre-defined, (2) the Image Analysis metanode which carries out the central workflow functions and is outlined in the Figure and (3) the output node groups where all data is organized into results data tables and verification views are generated. Briefly, the Image Analysis metanode identifies nuclei, cells and centrosome areas (single or clustered centrosomes) based on thresholding and extracts various features of all objects. The centrosome detection is supposed to be highly sensitive to ensure a low number of false-negative detections. False-positive detections are filtered out or tagged as \"uncertain\" by a pre-defined set of rules, however, the thresholds used in these rules are adapted automatically based on features of \"reference spots\". These are identified centrosome candidates with a high likelihood to be true centrosomes. The workflow structure allows easy adjustment to changing parameters for a broad spectrum of user applications with a similar readout. To discriminate between cells with normal and amplified centrosomes we used a feed-forward neural network classifier that assigns the cells into these classes by evaluating relevant extracted feature parameters. The network is a multilayer perceptron (layer widths 70, 10, 10, 10, 2) with nonlinear sigmoid activation functions; the output layer carries a softmax activation and yields a probability distribution over the two classes \"normal\" and \"clustered\". The training was performed by maximizing the cross-entropy loss on a dataset of 554 manually-labelled samples, 154 of which were retained for validation. Comparison of manual and automated quantification As expected, centrosomal amplification increased upon TET-induction according to manual quantification (clustered 71% vs. 21%, declustered 7.4% vs. 0.3%). The KNIME workflow was used for feature extraction and to assign the cells into the phenotype class declustered in case of >2 spots per cell. It tagged 43/615 cells (7%) as uncertain and almost all of the remaining cells were labeled in agreement with the manual count (one false-positive and one false-negative). Subsequently, using the features exported from the KNIME workflow, a neural network was trained to discriminate between normal and clustered amplified centrosomes. The training loss converged to 95%, i.e. 381 of 400 training samples were correctly classified, and on the hitherto unseen validation samples the network correctly classified 88%, i.e. 135 of 154 were labeled in agreement with the manual method. The combined detection of centrosome amplification by the KNIME workflow and neural network was (TET-induced vs. control): clustered 79% vs. 21%, declustered 5.6% vs. 0.3%. Conclusions We present a reliable semi-automated workflow for high throughput analysis of IF images. This tool will be particularly useful for screens of centrosomal aberrations, but can also be easily adjusted for different experimental and infrastructural setups. Figure View large Download slide Figure View large Download slide  Disclosures Goldschmidt: Mundipharma: Research Funding; MSD: Research Funding; Amgen: Consultancy, Research Funding; Adaptive Biotechnology: Membership on an entity's Board of Directors or advisory committees; Novartis: Membership on an entity's Board of Directors or advisory committees, Research Funding; Dietmar-Hopp-Stiftung: Research Funding; John-Hopkins University: Research Funding; Celgene: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Sanofi: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; John-Hopkins University: Research Funding; Takeda: Membership on an entity's Board of Directors or advisory committees, Research Funding; Bristol-Myers Squibb: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Janssen: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Chugai: Honoraria, Research Funding; Molecular Partners: Research Funding; Janssen: Consultancy, Research Funding. Sch\u00f6nland: Janssen: Membership on an entity's Board of Directors or advisory committees, Research Funding; Prothena: Membership on an entity's Board of Directors or advisory committees, Research Funding; Takeda: Membership on an entity's Board of Directors or advisory committees, Research Funding; Medac: Other: Travel Grant. Kr\u00e4mer: Roche: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees; Daiichi-Sankyo: Honoraria, Membership on an entity's Board of Directors or advisory committees; Bayer: Research Funding; BMS: Research Funding."
 }

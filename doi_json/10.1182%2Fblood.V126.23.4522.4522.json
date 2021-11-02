@@ -2,5 +2,55 @@
     "doi": "https://doi.org/10.1182/blood.V126.23.4522.4522",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3100",
     "start_url_page_num": 3100,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Use of Mathematical Modelling Indicates That Patients Treated for Acute Myeloid Leukaemia (AML) Are Undertreated When Ideal Body Weight Is Used to Dose Chemotherapy ",
+    "article_date": "December 3, 2015",
+    "session_type": "902. Health Services and Outcomes Research - Malignant Diseases: Poster III",
+    "topics": [
+        "chemotherapy regimen",
+        "ideal body weight",
+        "leukemia, myelocytic, acute",
+        "mathematics",
+        "overweight",
+        "obesity",
+        "leukemia",
+        "leukemic cells",
+        "toxic effect",
+        "cytarabine"
+    ],
+    "author_names": [
+        "Mar\u00eda Fuentes-Gar\u00ed, PhD",
+        "Sophie Zemenides, MBBS, MRCP, MSc, BSc",
+        "Ruth Misener, PhD",
+        "Michael C. Georgiadis, PhD",
+        "Efstratios N. Pistikopoulos, PhD",
+        "Athanasios Mantalaris, PhD",
+        "Nicki Panoskaltsis, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Chemical Engineering, Imperial College London, London, United Kingdom "
+        ],
+        [
+            "Imperial College London, London, United Kingdom "
+        ],
+        [
+            "Computing, Imperial College London, London, United Kingdom "
+        ],
+        [
+            "Department of Chemical Engineering, Aristotle University of Thessaloniki, Thessaloniki, Greece "
+        ],
+        [
+            "Artie McFerrin Department of Chemical Engineering, Texas A&M University, Austin, TX "
+        ],
+        [
+            "Department of Chemical Engineering, Imperial College London, London, United Kingdom "
+        ],
+        [
+            "Department of Hematology, Imperial College London, London, United Kingdom"
+        ]
+    ],
+    "first_author_latitude": "51.49968990000001",
+    "first_author_longitude": "-0.17803719999999998",
+    "abstract_text": "Chemotherapy for AML is currently dosed using body surface area (BSA) formulas. For overweight patients (defined as actual body weight >20% that of ideal), calculations based on ideal body weight (IBW) are used in order to limit potential toxicity [1]. However, an analysis of the consequences of this adjustment on leukemic and normal bone marrow hematopoietic (HC) cells hasn't been performed. We have developed a mathematical model to simulate personalized chemotherapy for AML [2,3]. The model is used to predict outcomes with standard 3+10 DA treatment [3 doses of 60mg/m 2 daunorubicin (DNR) 1h on days 1-3-5 and 2 pulses a day of cytarabine (Ara-C) 100mg/m 2 days 1-10]. In this study, we focus on the impact of using ideal vs actual body weight (ABW) for the calculation of BSA using Mosteller's equation on both leukemic and normal HC based on simulating treatment response with our mathematical model. Data were obtained from patients with AML undergoing standard chemotherapy with DA. Cell cycle kinetics of 12 patients was obtained based on matching the % blasts measured on BM biopsies before chemotherapy start and after recovery, which correlates with total cell number in the cell cycle model. Treatments were then simulated based on drug dosage for IBW and ABW. The outcomes (number of leukemic cells remaining) in both cases are recorded after the resting period (Fig. 1). According to these results, patients with ABW closer to IBW will have the same outcome since the BSA is similar; patients with higher ABW will have a better outcome when the ABW is used for the BSA dose-based chemotherapy calculation compared with the outcome obtained by using the IBW; patients with lower ABW than IBW will have a better outcome compared with that obtained with the IBW drug calculation. Seven additional hypothetical patients were simulated in order to validate the results obtained with actual patients; they all fell within the 95% confidence region of the logarithmic fit observed. In order to determine toxicity, as defined by time to normal cell recovery after chemotherapy, HCs were simulated for all 12 patients on both IBW and ABW dosage schemes (Fig. 2). For most patients, the final HC outcome on the ABW was within 10% of the outcome on the IBW dose. Only for one patient was the outcome using ABW significantly lower (25%) than for that using IBW. Put together with the information from Figure 1, these results suggest that DA chemotherapy based on ABW instead of IBW calculations for patients whose weight is over 20% of IBW have a positive impact on reducing leukemic burden, while not significantly affecting HC recovery. Only for very extreme cases (e.g. P12), is the HC recovery impaired, in which case DA dosage based on IBW instead of ABW is preferable. There is an unmet need to standardise dosing of chemotherapy to achieve the best anti-leukemic effect and to quantify (and limit) potential toxicities. The use of IBW for dosing of chemotherapy in AML patients may result in under-treatment and poorer outcomes. Our model suggests that the use of ABW for dose-determination could improve treatment outcomes in AML in terms of leukaemia cell kill but not at the expense of normal HC recovery, except in extreme cases. Ultimately, the use of mathematical models predicting disease progression and targeted treatment outcomes will be critical to realise the potential of precision medicine for the treatment of AML and other cancers. References 1. Berger, N.A., A time to stop, a time to start: high-dose chemotherapy in overweight and obese patients. Bone Marrow Transplant, 2015. 50 (5): p. 617-8. 2. Panoskaltsis, N., et al., Optimized Patient- and Leukemia-Specific Chemotherapy Protocols For The Treatment Of Acute Myeloid Leukemia. Blood, 2013. 122 (21). 3. Fuentes-Gari, M., et al., A mathematical model of subpopulation kinetics for the deconvolution of leukaemia heterogeneity. Journal of the Royal Society Interface, 2015. 12 (108): p. 20150276. Figure 1. View large Download slide Ratio of predicted leukemic cell outcomes (#leukemic cells remaining) for ABW and IBW, versus ratio of BSA to ideal BSA, after the last resting period for 12 patients, with ABW within 20% or over 20% IBW. Logarithmic fit: y-0.274 \u2219 ln(x)+0.9844 (95% confidence regions) Figure 1. View large Download slide Ratio of predicted leukemic cell outcomes (#leukemic cells remaining) for ABW and IBW, versus ratio of BSA to ideal BSA, after the last resting period for 12 patients, with ABW within 20% or over 20% IBW. Logarithmic fit: y-0.274 \u2219 ln(x)+0.9844 (95% confidence regions) Figure 2. View large Download slide Ratio of predicted normal HC cell outcomes (#normal cells remaining) for ABW and IBW, versus ratio of BSA to ideal BSA, after the last resting period for 12 patients, with ABW within 20% or over 20% IBW. y=0.7488 \u2219 ln(x)+1.0035; (95% confidence regions) Figure 2. View large Download slide Ratio of predicted normal HC cell outcomes (#normal cells remaining) for ABW and IBW, versus ratio of BSA to ideal BSA, after the last resting period for 12 patients, with ABW within 20% or over 20% IBW. y=0.7488 \u2219 ln(x)+1.0035; (95% confidence regions) Disclosures No relevant conflicts of interest to declare."
 }
