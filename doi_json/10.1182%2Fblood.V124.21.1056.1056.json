@@ -2,5 +2,43 @@
     "doi": "https://doi.org/10.1182/blood.V124.21.1056.1056",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2778",
     "start_url_page_num": 2778,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Standard Proteomic Analysis (SPA) in AML: An Integrated Procedure for Discovering Hypoxia and Angiogenesis Patterns ",
+    "article_date": "December 6, 2014",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis: Poster I",
+    "topics": [
+        "angiogenesis",
+        "hypoxia",
+        "hypoxia inducible factor 1, alpha subunit",
+        "chromatography, reverse-phase",
+        "drug delivery systems",
+        "antibodies",
+        "acute myeloid leukemia, minimal differentiation",
+        "bcl-2 protein",
+        "leukemia",
+        "leukemia, myelocytic, acute"
+    ],
+    "author_names": [
+        "Chenyue W Hu",
+        "Steven M. Kornblau, MD",
+        "Alex Bisberg",
+        "Amina A Qutub, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Rice University, Houston, TX "
+        ],
+        [
+            "The University of Texas MD Anderson Cancer Center, Houston, TX"
+        ],
+        [
+            "Rice University, Houston, TX "
+        ],
+        [
+            "Rice University, Houston, TX "
+        ]
+    ],
+    "first_author_latitude": "29.7173941",
+    "first_author_longitude": "-95.40183119999999",
+    "abstract_text": "Introduction The heterogeneity of acute myeloid leukemia (AML) remains a great barrier to finding a cure for the disease. Despite our best efforts, the current classification system based on phenotypes and genetic mutations are insufficient to capture and characterize each AML subpopulation. This could result in a mismatch of drugs for a particular patient, an impediment to drug discovery, and an inadequate understanding of AML biology. A promising solution to this challenge is profiling patient samples using proteomics. However, researchers are restricted in their power to fully interpret this massive proteomic data due to a lack of standard AML-tailored computational procedures. In this study, we developed a cocktail of computational methods to analyze the AML proteomic data in conjunction with clinical data. This procedure, Standard Proteomic Analysis (SPA), is designed to help researchers identify unique patient groups, discover prognostic biomarkers, find drug targets and understand transitions between pathway activation states. We applied SPA to a set of AML proteomic data with a focus on hypoxia and angiogenesis to illustrate its utility. Methods The procedure of SPA is shown in Figure 1 . We used Prototype Clustering to estimate the optimal number of patient clusters, and used k-means to obtain the cluster assignment for each patient. Standard Kaplan-Meier curve and log-rank tests were performed to examine how patient clustering impacts patient survival, whereas chi-square test was performed to evaluate the association between clinical correlates and the clustering. Principal Component Analysis was used to map the normal samples on top of the patient samples, in order to distinguish normal states from diseased states. To expand searches for drug targets beyond the key proteins, we built a protein network by combining the computationally derived connections from the data using glasso with the experimentally validated connections from public databases (e.g. String and KEGG). All of the results were visualized using an interactive platform Easel , where each patient could be tracked simultaneously across graphs. The example AML proteomic dataset was obtained by assaying 511 new AML patient samples using reverse phase protein array (RPPA). The RPPA was probed with 231 strictly validated antibodies, including antibodies against three hypoxia regulators (HIF1A, VHL, EGLN1) and two angiogenesis regulators (KDR, VASP). The normal bone marrow derived CD34+ cells were used for comparison. Results Using SPA, we first identified four patient clusters with distinct protein expression patterns ( Figure 1 A). Most patients displayed canonical hypoxic (C3) and non-hypoxic (C2) patterns, featuring high and low HIF1A with opposite expression of the others. The two non-canonical patterns (C1 & C4) indicate a decoupling between HIF1A and its known regulators (e.g., EGLN, VHL) and targets (e.g., KDR). C1 features high HIF1A, EGLN and VHL but low KDR and VASP. C4 is the opposite. The mapping of normal samples to patient samples ( Figure 1 B) suggested that non-canonical patterns might be disease specific. From the clinical correlates table ( Figure 1 D), we observed an association between canonical patterns and cell lineage differentiation, with C3 governing undifferentiated FAB M0/M1 cases and C2 dominant in monocytic M4/M5 subtypes. Furthermore, C1 was associated with favorable cytogenetics, but hypoxic patterns (C1 & C3) were adverse factors for overall survival among patients with intermediate cytogenetics ( Figure 1 C). The expanded protein networks ( Figure 1 E) revealed an umbrella of proteins in other pathways associated with each of the five proteins, including, e.g. a negative correlation between VASP and apoptosis proteins (BAD, BCL2, AIFM1), which has not been reported before. Conclusions We developed and applied an AML-tailored procedure, SPA, to analyze hypoxia and angiogenesis clinical proteomic data. Using SPA, we were able to identify four AML subpopulations with two disease specific patterns, discover the dependency between cell lineage development and canonical patterns, and explore potential drug targets beyond hypoxia and angiogenesis that are associated with each pattern. We believe SPA could be applied broadly and greatly expedite the drug discovery process in leukemia. Figure 1 View large Download slide Figure 1 View large Download slide  Disclosures No relevant conflicts of interest to declare."
 }
