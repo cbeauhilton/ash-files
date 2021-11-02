@@ -2,5 +2,77 @@
     "doi": "https://doi.org/10.1182/blood.V128.22.1725.1725",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3277",
     "start_url_page_num": 3277,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Pan-Hematopoietic Cancer Gene Expression Analysis Identifies Immunologically Active Acute Myeloid Leukemia Subtypes ",
+    "article_date": "December 2, 2016",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster I",
+    "topics": [
+        "cancer",
+        "gene expression",
+        "leukemia, myelocytic, acute",
+        "antigens",
+        "neoplasms",
+        "hematologic neoplasms",
+        "tumor cells",
+        "immunotherapy",
+        "karyotype determination procedure",
+        "bone marrow specimen"
+    ],
+    "author_names": [
+        "Olli Dufva",
+        "Petri P\u00f6l\u00f6nen",
+        "Mikko A Ker\u00e4nen, MD PhD",
+        "Thomas Liuksiala",
+        "Jake Lin",
+        "Juha Mehtonen, MSc",
+        "Sergei H\u00e4yrynen",
+        "Kirsi Granberg, PhD",
+        "Matti Nykter, PhD",
+        "Olli Lohi",
+        "Merja Hein\u00e4niemi, PhD",
+        "Satu Mustjoki, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Hematology Research Unit Helsinki, University of Helsinki and Department of Hematology, Helsinki University Hospital Comprehensive Cancer Center, Helsinki, Finland "
+        ],
+        [
+            "Institute of Biomedicine, School of Medicine, University of Eastern Finland, Kuopio, Finland "
+        ],
+        [
+            "Hematology Research Unit Helsinki, University of Helsinki and Department of Hematology, Helsinki University Hospital Comprehensive Cancer Center, Helsinki, Finland "
+        ],
+        [
+            "Institute of Biosciences and Medical Technology, University of Tampere, Tampere, Finland "
+        ],
+        [
+            "Institute of Biosciences and Medical Technology, University of Tampere, Tampere, Finland "
+        ],
+        [
+            "Institute of Biomedicine, School of Medicine, University of Eastern Finland, Kuopio, Finland "
+        ],
+        [
+            "Institute of Biosciences and Medical Technology, University of Tampere, Tampere, Finland "
+        ],
+        [
+            "Institute of Biosciences and Medical Technology, University of Tampere, Tampere, Finland "
+        ],
+        [
+            "Institute of Biosciences and Medical Technology, University of Tampere, Tampere, Finland "
+        ],
+        [
+            "Tampere Center for Child Health Research, University of Tampere and Tampere University Hospital, Tampere, Finland ",
+            "Tampere Center for Child Health Research, University of Tampere and Tampere University Hospital, Tampere, Finland "
+        ],
+        [
+            "Institute of Biomedicine, School of Medicine, University of Eastern Finland, Kuopio, Finland "
+        ],
+        [
+            "Hematology Research Unit Helsinki, University of Helsinki and Department of Hematology, Helsinki University Hospital Comprehensive Cancer Center, Helsinki, Finland ",
+            "Department of Clinical Chemistry, University of Helsinki, Helsinki, Finland"
+        ]
+    ],
+    "first_author_latitude": "60.172634800000004",
+    "first_author_longitude": "24.9510419",
+    "abstract_text": "INTRODUCTION The recent success of checkpoint blockade immunotherapies in diverse solid tumors has prompted the evaluation of these treatments in hematologic malignancies such as acute myeloid leukemia (AML). It is critical to identify the patient and disease subsets that could respond to such therapies. Infiltration of tumors by cytotoxic T lymphocytes (CTLs) has been associated with better prognosis and responses to checkpoint inhibition. We hypothesized that the presence of a substantial fraction of activated CTLs and natural killer (NK) cells in the blood and bone marrow samples of hematologic tumors could indicate a preexisting active immune response potentially targeting the tumor cells. Moreover, the density of the immune infiltrate could shape and be shaped by the expression of cancer-germline and leukemia-associated antigens (LAAs), antigen-presenting machinery (APM) and immunosuppressive genes by the tumor cells. Here, we examined these immunological properties of hematological tumors in large-scale gene expression datasets to identify immunologically active patient subsets. METHODS Curated set of 9,544 transcriptomes collected across 36 hematological malignancies (HEMAP), including 1,858 AML cases was utilized to identify subsets of patients with existing, potentially tumor-directed immune responses. Additional multi-omics datasets of 173 AML patients from The Cancer Genome Atlas (TCGA) were integrated to gain insight into the genetic landscape of immunologically active patients. Cytolytic activity (geometric mean of GZMA (granzyme A) and PRF1 (perforin) transcript levels, Rooney et al., Cell 2015) was used as a marker of immunologic activity. Cytolytic activity was correlated to the expression levels of all transcripts, gene sets from collections such as MSigDB and manually curated gene sets representing the APM (HLA-A, -B, -C, B2M ), 145 known cancer-germline antigens as well as established LAAs such as WT1 and PRTN3 . Furthermore, we used an in silico flow cytometry approach, CIBERSORT (Newman et al., Nat Methods 2015), to infer the relative fractions of 22 immune cell subpopulations from the gene expression data to dissect the immune cell composition of the samples. RESULTS Cytolytic activity showed high correlation with other transcripts expressed in activated CTLs and NK cells (e.g. GZMB , GNLY , KLRB1 , CD8A , CD2 ; Spearman's R \u2265 0.7) as well as lymphocyte activation-related gene sets across both the HEMAP and the TCGA AML datasets, validating it as a robust and specific metric of active cellular immunity. When correlated to the CIBERSORT immune cell populations, cytolytic activity was positively associated with CD8 T cells and showed a negative correlation to the proportion of M2 macrophages. High levels of cancer-germline antigens were associated with decreased expression of components of the APM and low cytolytic activity, suggesting HLA downregulation as a mechanism of immune evasion by cancer-germline antigen-expressing tumor cells. We observed extensive heterogeneity in the cytolytic activity between different diseases and subtypes within the same disease, most prominently in AML. In AML patients, complex karyotype and unfavorable prognosis were correlated with high cytolytic activity, indicating biological similarity of the immune-infiltrated tumors. Furthermore, TP53 mutations, genome fragmentation and immune checkpoint transcripts such as CD274 (PD-L1), PDCD1LG2 (PD-L2), CTLA4 and LAG3 were enriched within the complex karyotype cluster in the TCGA AML dataset. In contrast, mutations in NPM1 and FLT3 showed a modest but significant negative correlation to cytolytic activity. CIBERSORT analysis revealed that AML cases with low cytolytic activity preferentially had enrichment of an eosinophilic phenotype in addition to increased M2 polarization of macrophages. CONCLUSIONS Using large-scale transcriptomics approaches, we were able to identify patient subsets with variable levels of immune cytolytic activity within hematologic malignancies. Furthermore, we identified connections between the cytotoxic immune response and genetic properties of AML tumors. These observations have potential clinical implications, as the choice of patients to clinical trials receiving immune checkpoint blockade immunotherapies would require careful consideration in light of the observed immunological heterogeneity. Disclosures Mustjoki: Bristol-Myers Squibb: Honoraria, Research Funding; Pfizer: Honoraria, Research Funding; Novartis: Honoraria, Research Funding; Ariad: Research Funding."
 }

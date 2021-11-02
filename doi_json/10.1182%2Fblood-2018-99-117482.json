@@ -2,5 +2,55 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-117482",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4014",
     "start_url_page_num": 4014,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Identification of Specificity Groups in Myeloma Patients T Cell Receptor (TCR) Repertoire through Single Cell TCR Sequencing ",
+    "article_date": "November 29, 2018",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster III",
+    "topics": [
+        "multiple myeloma",
+        "t-cell receptor",
+        "peptide/mhc complex",
+        "daratumumab",
+        "peptides",
+        "amino acids",
+        "epitopes",
+        "antigen assay",
+        "antigens",
+        "clonality (genetic analysis)"
+    ],
+    "author_names": [
+        "Paola Neri, MD",
+        "Ranjan Maity, PhD",
+        "Sylvia McCulloch, MD",
+        "Peter Duggan, MD",
+        "Victor Jimenez-Zepeda, MD",
+        "Jason Tay, MD",
+        "Nizar Bahlis, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Arnie Charbonneau Cancer Research Institute, University of Calgary, Calgary, Canada "
+        ],
+        [
+            "Arnie Charbonneau Cancer Research Institute, University of Calgary, Calgary, Canada "
+        ],
+        [
+            "Tom Baker Cancer Center, Department of Hematology, University of Calgary, Calgary, Canada"
+        ],
+        [
+            "Tom Baker Cancer Center, Department of Hematology, University of Calgary, Calgary, Canada"
+        ],
+        [
+            "Tom Baker Cancer Center, Department of Hematology, University of Calgary, Calgary, Canada"
+        ],
+        [
+            "Tom Baker Cancer Center, Department of Hematology, University of Calgary, Calgary, Canada"
+        ],
+        [
+            "Arnie Charbonneau Cancer Research Institute, University of Calgary, Calgary, Canada "
+        ]
+    ],
+    "first_author_latitude": "51.066468799999996",
+    "first_author_longitude": "-114.1361524",
+    "abstract_text": "Background: A renewed interest in immune and cellular based therapeutics in multiple myeloma was recently fueled by the development of CD38 targeting monoclonal antibodies as well as the introduction of engineered CAR-T cells. Daratumumab treatment in myeloma patients was demonstrated to expand clonal CD8 + T cells and T cell clonality was correlated with the depth of response consistent with a daratumumab mediated cytotoxic T cell effect. However the mechanisms behind this adaptive immune response and the identity of the T cell receptor (TCR) interacting with MHC presented tumoral peptide (pMHC) remains elusive. The large diversity of TCR combinations generated though somatic recombination of the VDJ gene sequences (~ 10 15 combinations) represents a major challenge for the accurate characterization of the antigen specific TCR. The aim of this study was to define the identity of the adaptive immune repertoire of the bone marrow infiltrating T lymphocytes (single cell TCR \u03b1/\u03b2 paired sequencing) in myeloma patients treated to daratumumab and IMiDs based therapies. Methods and Results: BM aspirates from patients (n=24) treated with daratumumab single agent or in combination with pomalidomide or lenalidomide (MM014, MM3008 and MMY3012 trials) were collected post initiation of therapy (cycle 3, day 1) followed by magnetic beads sorting of CD3 pos T cells from Ficoll generated mononuclear cell fractions. Using the 10x Genomics Single cell VDJ solution which combines single cell droplet microfluidics with 5' molecular barcoding, T cells from each patient were partitioned into droplets containing individual cells with primers specific for the constant region of the V(D)J locus allowing the PCR amplification and enrichment of \u03b1 and \u03b2 TCR individual cell barcoded cDNA. Paired-end sequencing was performed on Illumina NEXTseq platform. Cell Ranger VDJ pipeline was used for sample de-multiplexing, barcode processing and grouping of T cells into clonotypes with shared TCR \u03b1/\u03b2 sequences. Of note, generated sequences span the full length of V-J genes (including CDR3) allowing faithful reconstruction of TCR transcripts. Consistent with the known high TCR diverse repertoire, we identified 32322 individual clonotypes corresponding to an average of 1346 clonotypes with paired \u03b1/\u03b2 TCR sequences per patient. Clonotypes proportion (> 2%) and number of individual clonotypes did correlate with the depth of response (\u2265VGPR vs PR vs PD). Analysis of clonotype TCRs and CDR3 sequences identified 11 clonotypes with the exact paired CDR3 \u03b1\u03b2 sequences that were shared by at least 2 patients. Of interest the CDR3 sequence of one shared clonotype is predicted (https://vdjdb.cdr3.net) to bind an epitope derived for CD317 (also know as BST2 or HM1.24) previously demonstrated to be highly expressed on myeloma cells (Jalili A et al. Blood 2005). Both patients harboring this CD317 reactive T cell clone are in sCR for more than 2 years. Of note, TCRs that recognize the same peptide-MHC complexes do not always share the exact CDR3 sequences but rather have conserved CDR3 sequence features, rendering possible to predictively model epitope specificity. Indeed, recent studies demonstrated that similarity in CDR3 sequences (CDR3 differing by up to one amino acid) or shared CDR3 motifs of 2-4 amino acids in length, define the TCR clusters that are often contact points with the antigenic peptides. Such features in CDR3 sequences facilitates T cell target antigen discovery. Therefore, we applied the GLIPH algorithm (https://github.com/immunoengineer/gliph) to cluster the sequenced TCRs based on their high probability of sharing pMHC specificity owing to both conserved CDR3 motifs and global similarity in their CDR3 sequences. GLIPH grouped the TCRs sequences identified in our study into 171 unique clusters (with a minimum of 3 clones each) that are predicted to recognize the same pMHC ligands. Furthermore, it identified 26 CDR3 motifs that are elevated at least 10-fold over expected frequency in a na\u00efve TCR reference pool (p <0.001). Functional validation of this myeloma-targeting TCR clusters through pMHC tetramer binding is ongoing. Conclusion: Single cell TCR profiling identified unique clonotypes that are highly enriched in marrow infiltrating T cells and are predicted to be reactive with myeloma peptides. This work facilitates the future development of TCR engineered T cells targeting myeloma neoepitopes. Disclosures Neri: Celgene: Consultancy, Honoraria; Janssen: Consultancy, Honoraria. McCulloch: Takeda: Other: Travel expenses; Celgene: Honoraria. Bahlis: Janssen: Consultancy, Honoraria, Research Funding; Amgen: Consultancy, Honoraria; Celgene: Consultancy, Honoraria, Research Funding."
 }
