@@ -2,5 +2,61 @@
     "doi": "https://doi.org/10.1182/blood-2019-131250",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4210",
     "start_url_page_num": 4210,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Validation of the Genetically-Defined DLBCL Subtypes and Generation of a Parsimonious Probabilistic Classifier ",
+    "article_date": "November 13, 2019",
+    "session_type": "621.Lymphoma-Genetic/Epigenetic Biology",
+    "topics": [
+        "diffuse large b-cell lymphoma",
+        "neoplasms",
+        "bcl-2 protein",
+        "1-phosphatidylinositol 3-kinase",
+        "enzymes",
+        "gold standard",
+        "histones",
+        "lymphoma",
+        "neoadjuvant therapy",
+        "protein p16"
+    ],
+    "author_names": [
+        "Bjoern Chapuy, MD PhD",
+        "Chip Stewart, PhD",
+        "Timothy Wood",
+        "Andrew Dunford, MS",
+        "Kirsty Wienand, PhD",
+        "Gad Getz, PhD",
+        "Margaret A. Shipp, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Harvard Medical School, Boston, MA ",
+            "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA ",
+            "Department of Hematology and Oncology, University Medical Center G\u00f6ttingen, G\u00f6ttingen, Germany "
+        ],
+        [
+            "Broad Institute, Cambridge, MA "
+        ],
+        [
+            "Broad Institute, Cambridge, MA "
+        ],
+        [
+            "Broad Institute, Cambridge, MA "
+        ],
+        [
+            "Harvard Medical School, Boston, MA ",
+            "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA "
+        ],
+        [
+            "Harvard Medical School, Boston, MA ",
+            "Broad Institute, Cambridge, MA ",
+            "Cancer Center and Department of Pathology, Massachusetts General Hospital, Boston, MA"
+        ],
+        [
+            "Harvard Medical School, Boston, MA ",
+            "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA "
+        ]
+    ],
+    "first_author_latitude": "42.3356352",
+    "first_author_longitude": "-71.1041786",
+    "abstract_text": "Diffuse large B-cell lymphoma (DLBCL) is a clinically and molecularly heterogeneous disease with recognized transcriptional subtypes associated with normal cells of origin, activated B-cell (ABC) and germinal center B-cell (GCB) tumors. Emerging data suggested that additional heterogeneity existed, prompting us to comprehensively characterize genomic signatures of 304 newly diagnosed DLBCLs from patients treated with state-of-the-art therapy. We integrated recurrent mutations, somatic copy number alterations (SCNAs) and structural variants (SVs) and identified 5 genetically distinct DLBCL clusters (C1- C5 DLBCLs; Chapuy, Stewart, Dunford, et al. Nat Med 2018 ). Specifically, we identified two genetically distinct ABC subtypes, including favorable-risk C1 DLBCLs with features of extrafollicular origin and alterations also seen in transformed marginal zone lymphomas ( NOTCH2 and NF-\u03baB pathway member mutations and BCL6 SVs). Unfavorable-risk C5 ABC DLBCLs harbored frequent 18q/ BCL2 copy gain and co-occurring CD79B and MYD88 L265P mutations. We also identified two genetically distinct GCB subtypes, including unfavorable-risk C3 DLBCLs with frequent BCL2 SVs, mutations in chromatin-modifying enzymes ( CREBBP, MLL2, EZH2 ) and BCR/PI3K signaling pathway members (including inactivating PTEN mutations and copy loss). Favorable-risk C4 GCB DLBCLs had frequent mutations in core and linker histones and signaling intermediates ( SGK1, BRAF and STAT3) . Additionally, we identified an ABC/GCB-independent subtype, C2 DLBCLs, characterized by frequent bi-allelic TP53 inactivation, 9p21.23/ CDKN2A copy loss and associated genomic instability reflected in recurrent SCNAs, increased genome doublings and a distinct outcome following induction therapy. A next step in utilizing the characterized genetic substructure was to confirm it in an independent series and develop a molecular classifier that allows prospective identification of C1-C5 DLBCLs. To this end, we accessed whole exome sequencing, copy number and SV data from a recent cohort of newly diagnosed DLBCLs (39 tumor-normal pairs, 462 tumor-only samples; Schmitz et al. NEJM 2018). All samples were re-analyzed using our mutational and SCNA pipelines and our newly generated tumor-only algorithm ( Chapuy, Stewart, Dunford, et al. Nat Med 2018 ) to avoid batch effects and harmonize the datasets. SVs were used as reported. Purity and ploidy were inferred using ABSOLUTE and samples with missing data or low purity were removed. For the combined cohort (579 samples), we assessed our previously characterized 158 genetic drivers ( Chapuy, Stewart, Dunford, et al. Nat Med 2018 ) and confirmed equal distribution of their marginal frequencies (R=0.88, p=1.5e-51), excluding batch effects. Next, we applied non-negative matrix factorization (NNF) consensus clustering to the combined dataset (158 genetic drivers vs. 579 tumors) and confirmed the C1-C5 DLBCL genetic clusters. Notably, tumors from both series contributed at comparable frequencies to the respective C1-C5 DLBCLs. We also noted an enrichment of the alternative genetic labels from Schmitz et al. in 3 of our C1-C5 DLBCL subtypes (B2N in C1 DLBCLs, p<0.0001; EZB in C3 DLBCLs, p<0.0001; MCD in C5 DLBCLs, p<0.0001). These data confirmed the identity of the C1-C5 DLBCL clusters in an independent cohort. Next, we developed a molecular classifier that prospectively identified C1-C5 DLBCLs using a minimum number of easy-to-measure features. The NMF-defined classes of the combined cohort were used as gold-standard training and validation datasets. We tested different models for classification and selected an artificial neural network approach which provides accurate classification of individual samples and well-calibrated confidence metrics. To minimize potential overtraining, we developed a reduced input feature set of the 22 most discriminating features, constructed confidence metrics for each sample and trained an ensemble of Feed-Forward Neural Networks via 10-fold cross validation. With this approach, our classifier had 84% accuracy for the total set and 94% accuracy for the high-confidence samples (70% of all samples). The newly developed parsimonious classifier will allow prospective identification of the independently confirmed C1-C5 DLBCL subtypes in newly diagnosed patients, a necessity for clinical application. Disclosures Getz: Pharmacyclics: Research Funding; IBM: Research Funding; MuTect, ABSOLTUE, MutSig and POLYSOLVER: Patents & Royalties: MuTect, ABSOLTUE, MutSig and POLYSOLVER. Shipp: BMS: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Merck & Co.: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; AstraZeneca: Honoraria, Membership on an entity's Board of Directors or advisory committees; Bayer: Research Funding; Gilead Sciences: Honoraria, Membership on an entity's Board of Directors or advisory committees; Takeda Pharmaceuticals: Honoraria, Membership on an entity's Board of Directors or advisory committees."
 }
