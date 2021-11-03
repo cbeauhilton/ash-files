@@ -2,5 +2,75 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-116195",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3925",
     "start_url_page_num": 3925,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Next-Generation Sequencing-Based Karyotyping Algorithm Reveals the Genomic Structure of Acute Myeloid Leukemia ",
+    "article_date": "November 29, 2018",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster II",
+    "topics": [
+        "genome",
+        "karyotype determination procedure",
+        "leukemia, myelocytic, acute",
+        "massively-parallel genome sequencing",
+        "protein p53",
+        "ms-like tyrosine kinase 3",
+        "dna",
+        "gold standard",
+        "rna",
+        "ccaat/enhancer binding protein alpha"
+    ],
+    "author_names": [
+        "Dean Pavlick",
+        "Meagan Montesion, PhD",
+        "Nyla A. Heerema, PhD",
+        "Eric A Severson, MD PhD MMSc",
+        "Timothy Brennan",
+        "Garrett M Frampton",
+        "Jie He, PhD",
+        "John C. Byrd, MD",
+        "Ross L. Levine, MD",
+        "Amy Burd, PhD",
+        "Jo-Anne Vergilio, MD",
+        "Lee A Albacker, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Foundation Medicine Inc, Cambridge, MA "
+        ],
+        [
+            "Foundation Medicine, Inc., Cambridge, MA "
+        ],
+        [
+            "The Ohio State University Comprehensive Cancer Center, Columbus, OH "
+        ],
+        [
+            "Foundation Medicine Inc, Morrisville, NC "
+        ],
+        [
+            "Foundation Medicine Inc, Cambridge, MA "
+        ],
+        [
+            "Foundation Medicine Inc, Cambridge, MA "
+        ],
+        [
+            "Foundation Medicine, Inc, Cambridge, MA "
+        ],
+        [
+            "The Ohio State University, Columbus, OH "
+        ],
+        [
+            "Center for Hematologic Malignancies, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Leukemia and Lymphoma Society, White Plains, NY"
+        ],
+        [
+            "Foundation Medicine Inc, Cambridge, MA "
+        ],
+        [
+            "Foundation Medicine Inc, Cambridge, MA "
+        ]
+    ],
+    "first_author_latitude": "42.367053899999995",
+    "first_author_longitude": "-71.0788269",
+    "abstract_text": "Introduction: The BeatAML master trial is evaluating the use of precision medicine via genomically guided therapy in acute myeloid leukemia (AML). A variety of assays are used to test patient samples including cytogenetic karyotyping, fluorescence in situ hybridization (FISH), and next-generation sequencing (NGS)-based approaches to analyze genomic alterations. We developed an algorithm to extract karyotype information from NGS-based genomic sequencing data in the BeatAML cohort. We also utilized this algorithm to retrospectively study 1603 unique AML samples collected during routine clinical care. Methods: Comprehensive genomic profiling (CGP) was performed using a CLIA/CAP/NYS approved DNA and RNA hybrid capture-based next-generation sequencing assay that sequences 426 genes in DNA and 265 genes to capture fusions by RNA. We analyzed aneuploidy by comparing the log ratio of read counts in tumor DNA to a process matched normal control and developed signal to noise metrics to measure chromosome arm copy number. A chromosome arm was considered altered if >50% of the arm was altered. Chromosome (chr) 5q was also considered lost if only chr5q31 (containing EGR1 ) was lost. Based on the noise metrics of each sample, we also calculated a per sample limit of detection, which was defined as the lowest percentage of cells that could have a single copy gain or loss and be detected. We validated chr5q loss, chr7q loss, and chr8 gain using FISH results obtained from available BeatAML samples as the gold standard. To better understand the genomic landscape of AML, we also included 1603 samples run in standard clinical practice. False discovery rate (FDR) was assessed using the Bonferroni method. Results: We developed a method to analyze chr5q loss, chr7q loss and chr8 gain that had 95% concordance across all chromosomes compared to the FISH gold standard. The median limit of detection was 10.1% (percentage of cells required to have a single copy gain/loss to be detected). Overall concordance adjusted for limit of detection was 97% with 92% sensitivity (55/60 chromosomes) and 99% specificity (162/164 chromosomes) with similar performance across chromosomes. For chr7q loss and chr8 gain, over 50% of the chromosomal region was altered. However, the size of the loss on chr5q varied widely from the entire arm to a single gene ( EGR1 ). We next applied the algorithm to 1603 unique patient samples analyzed by CGP during routine clinical care. We detected loss of chr5q in 10.9% (174), loss of chr7q in 10.4% (166), and gain of chr8 in 9.2% (147) of AML samples. Frequently altered genes in this cohort included FLT3 (21%, 337), RUNX1 (20.5%, 328), DNMT3A (17.5% 280), and TP53 (17.5%, 280). To further explore the genomic landscape, we analyzed the cooccurrence of each chromosomal alteration with all genes assayed. All three chromosomal aberrations exhibited significant cooccurrence with each other and TP53 (FDR P < 0.05). TP53 was altered in 75% (130/174) of chr5q loss samples 49% (82/166) of chr7q loss samples and 37% (55/147) of chr8 gain samples. Loss of chr5q also exhibited significant mutual exclusivities with FLT3 , DNMT3A , NPM1 , SRSF2 , ASXL1 , CEBPA , and WT1 (FDR P < 0.05). Loss of chr7q exhibited a slightly different mutual exclusivity profile with FLT3 , NPM1 , and PTPN11 (FDR P < 0.05). The difference in the cooccurrence profile between chr5q and chr7q was not a matter of p-value cutoffs since the magnitude of effect varied widely between groups. Conclusions: We demonstrated an NGS-based algorithm to determine karyotype that has a high concordance with FISH results. Limit of detection was equivalent to karyotyping by metaphase analysis but slightly worse than FISH assays on freshly prepared samples. We identified a previously described genomic stratification of TP53 -aneuploidy since chromosomal aberrations and TP53 exhibited significant cooccurrence. However, only 50% of samples with loss of chr5q exhibited loss of chr7q and vice versa. While both were mutually exclusive with FLT3 and NPM1 , loss of chr5q was mutually exclusive with several genes of prognostic significance including chromatin factors ( DNMT3A ) and splice factors ( SRSF2 ). This study shows how NGS-based approaches can capture both chromosome arm level copy number alterations as well as all four categories of genomic alterations, thereby enabling risk stratification and identification of potential treatment options as defined in current NCCN guidelines. Disclosures Pavlick: Foundation Medicine Inc: Employment. Montesion: Foundation Medicine Inc: Employment. Severson: Foundation Medicine Inc: Employment. Brennan: Foundation Medicine Inc: Employment. Frampton: Foundation Medicine Inc: Employment, Other: Employee and stockholder. He: Foundation Medicine Inc: Employment. Levine: Roche: Consultancy, Research Funding; Epizyme: Patents & Royalties; Celgene: Consultancy, Research Funding; Isoplexis: Equity Ownership; Prelude: Research Funding; Qiagen: Equity Ownership, Membership on an entity's Board of Directors or advisory committees; Gilead: Honoraria; Janssen: Consultancy, Honoraria; Novartis: Consultancy; C4 Therapeutics: Equity Ownership; Imago: Equity Ownership; Loxo: Consultancy, Equity Ownership. Vergilio: Foundation Medicine Inc: Employment. Albacker: Foundation Medicine Inc: Employment; Foundation Medicine Inc: Employment."
 }
