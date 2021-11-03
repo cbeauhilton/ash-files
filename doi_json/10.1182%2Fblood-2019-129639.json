@@ -2,5 +2,77 @@
     "doi": "https://doi.org/10.1182/blood-2019-129639",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4437",
     "start_url_page_num": 4437,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": " JAK2 V617F Clonal Hematopoiesis Stratifies By Peripheral Blood Counts. ",
+    "article_date": "November 13, 2019",
+    "session_type": "503.Clonal Hematopoiesis: Aging and Inflammation",
+    "topics": [
+        "brachial plexus neuritis",
+        "cancer",
+        "cardiac complications",
+        "clonal hematopoiesis of indeterminate potential",
+        "cytopenia",
+        "genotype determination",
+        "hematologic neoplasms",
+        "hematopoiesis",
+        "hemoglobin",
+        "iron deficiency anemia"
+    ],
+    "author_names": [
+        "Andrew Sochacki, MD",
+        "Shilin Zhao, PhD",
+        "Cosmin Adrian Bejan, PhD",
+        "Travis Spaulding, MD",
+        "Shannon Stockton, MD",
+        "Alexander Silver",
+        "Dixon Dorand, MD PhD",
+        "Siwei Zhang, PhD",
+        "Thomas Stricker, MD PhD",
+        "Yaomin Xu, PhD",
+        "Michael R. Savona, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Medicine and Program in Cancer Biology, Vanderbilt University School of Medicine, Nashville, TN "
+        ],
+        [
+            "Department of Biostatistics, Vanderbilt University, Nashville, TN ",
+            "Center for Quantitative Sciences, Vanderbilt University, Nashville, TN "
+        ],
+        [
+            "Department of Biomedical Informatics, Vanderbilt University, Nashville, TN "
+        ],
+        [
+            "Department of Medicine, Nashville, TN "
+        ],
+        [
+            "Department of Medicine, Vanderbilt University School of Medicine, Nashville, TN "
+        ],
+        [
+            "Department of Medicine and Program in Cancer Biology, Vanderbilt University School of Medicine, Nashville, TN "
+        ],
+        [
+            "Department of Medicine, Vanderbilt University School of Medicine, Nashville, TN "
+        ],
+        [
+            "Department of Biostatistics, Vanderbilt University, Nashville, TN ",
+            "Center for Quantitative Sciences, Vanderbilt University, Nashville, TN ",
+            "Department of Biomedical Informatics, Vanderbilt University, Nashville, TN "
+        ],
+        [
+            "Department of Pathology, Microbiology and Immunology, Vanderbilt University School of Medicine, nashville, TN "
+        ],
+        [
+            "Department of Biostatistics, Vanderbilt University, Nashville, TN ",
+            "Center for Quantitative Sciences, Vanderbilt University, Nashville, TN ",
+            "Department of Biomedical Informatics, Vanderbilt University, Nashville, TN "
+        ],
+        [
+            "Department of Medicine and Program in Cancer Biology, Vanderbilt University Medical Center, Nashville, TN ",
+            "Vanderbilt-Ingram Cancer Center, Nashville, TN"
+        ]
+    ],
+    "first_author_latitude": "36.141261650000004",
+    "first_author_longitude": "-86.80269489999999",
+    "abstract_text": "Background: Patients with clonal hematopoiesis (CH) in the absence of WHO-classified myeloid disease are of special interest given their increased prevalence with age, predisposition to morbid cardiovascular complications, and amplified risk of overt hematologic malignancy. Pts are often stratified by normal peripheral blood counts into clonal hematopoiesis of indeterminate potential (CHIP), or those with unexplained cytopenias as clonal cytopenias of undetermined significance (CCUS). However, less is known about pts with elevated counts and clonal hematopoiesis who do not fulfill WHO criteria for any myeloproliferative neoplasia (MPN). We leveraged Vanderbilt University Medical Center's unique biobank, BioVU , to identify the prevalence of JAK2 V617F across 48,000 pts to evaluate the clinical changes in progression from CH to overt myeloid disease. Methods: To develop a reference JAK V617F training set, next generation sequencing via Illumina Trusight Myeloid Panel (NGS) was performed on BioVU samples (N=133) from pts with confirmed myeloproliferative malignancy. Of those pts, 78 harbored JAK2 V617F with a range of variant allele frequencies (VAF). Matched samples in this training set (N=133) were also analyzed via Infinium\u00ae Expanded Multi-Ethnic Genotyping Array (MEGA EX ). SNP array JAK2 V617F variant intensity was extracted (rs77375493; NM_004972.3(JAK2): c.1849G>T (p.Val617Phe). A regression model was built using NGS VAF as a dependent variable and MEGA EX intensity data as independent variable ( r 2 =0.9931).Based on this model, we imputed JAK2 V617F VAF for all 48,000 pts in our cohort. Pts with JAK2 V617F were subdivided into: clinically confirmed myeloid disease, or JAK2 V617F without a diagnosis of MPN. Upon review of the EMR, the latter group was further dived into: 1) probable undiagnosed MPN, 2) CHIP, 3) CCUS, or 4) CH with associated elevated peripheral blood counts (CHAPbc). Only lab values after the date of JAK2 V617F detection were included. Confirmed malignancy was defined by WHO classification of disease. Pts with evidence of possible WHO classified PV or ET with Hgb >18.5g/dl in men, >16.5g/dl in women, or PLT count >450k/mcl regardless of gender were classified as probable undiagnosed MPN. CHIP was defined as JAK2 V617F without abnormal counts across a patient's EMR lifetime, except when confounding events, e.g. trauma surgery or overt iron deficiency anemia, incorrectly skewed values. CCUS was defined as JAK2 V617F in the presence of unexplained cytopenias; hemoglobin (Hgb) 10.7 regardless of gender, Hgb 18-18.5 g/dL in men or 16.0-16.5 g/dL in women with maximum Hgb no greater than 18.5g/dl in men and 16.5g/dl in women, or PLT count between 371-450k/mcl regardless of gender (and no values >450k/mcl)] as CHAPbc. Results: We identified 410 of 48,000 pts who harbored JAK2 V617F (0.85% prevalence). Of those, 270/410 had clinically diagnosed hematologic malignancy including primary myelofibrosis (PMF) (79), ET (48), PV (43) and Ph - MPN NOS (29). MDS (29), AML (15), NHL (16), plasma cell dyscrasias (5), CML (3), other (3). There were 19/410 with insufficient clinical data to determine diagnosis. The remaining 121/410 JAK2 V617F pts did not have a related diagnosis. Figure 1a demonstrates imputed VAF differences in JAK2 V617F between known MPN vs. CH (including undiagnosed MPN) by age (mean VAF 0.44 vs. 0.17 respectively P <0.001). We identified several undiagnosed MPNs (22), which subdivided into polycythemia predominant (1), thrombocythemia predominant (16) or a combination of polycythemia and thrombocythemia (5). The remaining 99/410 cases were CH,with CHIP (55), CCUS (29), and CHAPbc (15). Ranges of blood counts appear to be a continuous variable among JAK2 V617F pts with CH or undiagnosed MPN (Fig 1b-1d). Summary: We used an unbiased approach to identify the prevalence of JAK2 V617F across all pts at a single institution. In this cohort, hematologic malignancy and CH did stratify by imputed VAF. Further, within JAK2 V617F CH, CHAPbc may be differentiated from CHIP by clinical phenotype and further investigation will be required to determine its impact on patient outcomes. View large Download slide View large Download slide  Disclosures Savona: Sunesis: Research Funding; TG Therapeutics: Membership on an entity's Board of Directors or advisory committees, Research Funding; Incyte Corporation: Membership on an entity's Board of Directors or advisory committees, Research Funding; AbbVie: Membership on an entity's Board of Directors or advisory committees; Boehringer Ingelheim: Patents & Royalties; Selvita: Membership on an entity's Board of Directors or advisory committees; Karyopharm Therapeutics: Consultancy, Equity Ownership, Membership on an entity's Board of Directors or advisory committees; Celgene Corporation: Membership on an entity's Board of Directors or advisory committees; Takeda: Membership on an entity's Board of Directors or advisory committees, Research Funding."
 }
