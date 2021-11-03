@@ -2,5 +2,76 @@
     "doi": "https://doi.org/10.1182/blood-2020-141120",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4517",
     "start_url_page_num": 4517,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Population Distribution of GvL and GvH Minor Histocompatibility Antigens ",
+    "article_date": "November 5, 2020",
+    "session_type": "701.Experimental Transplantation: Basic Biology, Pre-Clinical Models",
+    "topics": null,
+    "author_names": [
+        "Kelly Shea Olsen, MSc",
+        "Hancong Tang, MS",
+        "Junke Wang, MS",
+        "Sarah Entwistle, MSc",
+        "Dante S. Bortone, PhD",
+        "Steven Vensko, PhD",
+        "Loreall Pooler",
+        "Xin Sheng, MS",
+        "Christopher Haiman",
+        "David Van Den Berg, PhD",
+        "Stephen R. Spellman, MS",
+        "Theresa E. Hahn, PhD",
+        "Paul M. Armistead, MD PhD",
+        "Lara E. Sucheston-Campbell, PhDMS",
+        "Benjamin G. Vincent, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Microbiology and Immunology, University of North Carolina at Chapel Hill, Chapel Hill, NC "
+        ],
+        [
+            "College of Pharmacy, The Ohio State University, Columbus, OH "
+        ],
+        [
+            "College of Pharmacy, The Ohio State University, Columbus, OH "
+        ],
+        [
+            "University of North Carolina at Chapel Hill, Chapel Hill, NC "
+        ],
+        [
+            "Lineberger Comprehensive Cancer Center, University of North Carolina, Chapel Hill, NC "
+        ],
+        [
+            "University of North Carolina at Chapel Hill, Chapel Hill, NC "
+        ],
+        [
+            "University of Southern California, Los Angeles, CA "
+        ],
+        [
+            "University of Southern California, Keck School of Medicine of USC, Los Angeles, CA "
+        ],
+        [
+            "Keck School of Medicine, Los Angeles, CA "
+        ],
+        [
+            "Preventive Medicine, University of Southern California, Keck School of Medicine of USC, Los Angeles, CA "
+        ],
+        [
+            "CIBMTR (Center for International Blood and Marrow Transplant Research), Medical College of Wisconsin, Milwaukee, WI "
+        ],
+        [
+            "Department of Medicine, Roswell Park Comprehensive Cancer Center, Buffalo, NY "
+        ],
+        [
+            "Lineberger Comprehensive Cancer Center, University of North Carolina, Chapel Hill, NC "
+        ],
+        [
+            "College of Veterinary Medicine, Cancer Prevention & Control, Columbus, OH"
+        ],
+        [
+            "Lineberger Comprehensive Cancer Center, University of North Carolina, Chapel Hill, NC "
+        ]
+    ],
+    "first_author_latitude": "35.9035414",
+    "first_author_longitude": "-79.0532944",
+    "abstract_text": "Background: Donor-derived T cells that target minor histocompatibility antigens (mHAs) in allogeneic hematopoietic cell transplant (HCT) mediate graft versus leukemia (GvL) and graft versus host (GvH) effects. Prediction of mHAs that drive GvL has garnered interest for targeted immunotherapy, but there have been few large-scale studies of population prevalence of predicted mHAs. Prioritization of mHAs that are shared among patients would allow for treatment of more individuals with mHA-targeting therapies. We report here population metrics of predicted mHAs in a dataset of over 3000 patients treated with HCT and reported to CIBMTR from 2000-2011. Our goal is to identify the most common mHAs within leukemia and Myelodysplastic Syndrome (MDS) patient populations to target with T cell immunotherapies or graft engineering techniques. Methods: Data is derived from two cohorts of donor recipient HCT pairs (DRPs) treated for Acute Myeloid Leukemia (AML), Acute Lymphocytic Leukemia (ALL), and MDS from the CIBMTR and previously analyzed in DISCOVeRY-BMT. Cohort 1 included 2609 10/10 HLA-matched DRPs treated from 2000-2008, and Cohort 2 included 572 10/10 HLA-matched DRPs treated from 2009-2011 plus 351 8/8 HLA-matched DRPs treated from 2000-2011 (Hahn et al. 2015, Biol Blood Marrow Transplant ). Cohorts were combined for analyses. Approximately 20,000 missense SNPs were extracted from Illumina HumanOmni Express genotyping data. Computational mHA prediction was performed according to prior work from our lab (Lansford et al. 2018, Blood Adv.) . Minor mismatches were predicted based on coding SNPs present in the recipient but not donor. mHAs were defined as mismatches that would lead to variant peptides predicted to bind at least 1 recipient HLA molecule and be expressed in leukemia cells (GvL mHA) and/or acute GvHD target organs (GvH mHA). GvL mHAs were categorized as \"GvL,No_GvH\" or \"GvL\" based on transcripts per million (TPM) corresponding to GvH organs, with \"GvL\" indicating between 5-50 TPM and \"GvL,No_GvH\" indicating <5 TPM. GvH mHAs were categorized similarly with respect to expression in leukemia cells. \"GvL,GvH\" indicated mHAs expressed highly in both leukemia and in GvHD target organs. Results: Patient demographics and number of total predicted mHAs from each ethnic group are shown in Table 1. Number of predicted mHAs per patient varied widely both within and between HLA types (Figure 1). Despite underrepresentation of some ethnic groups in our dataset, we identified thousands of potential mHAs in each group (Figure 2A). GvL mHA and GvH mHA proportions were similar across recipient ethnicities (Figure 2A-B). GvL mHA made up approximately half of predicted mHAs for each ethnic group (Figure 2B). Total numbers of mHAs per HCT recipient were significantly different between recipient ethnic groups within each cohort (Figure 2C). Although proportions of GvL vs GvH mHAs were stable across HLA alleles, there were substantial differences in number of predicted mHA by allele (Figure 3). Despite limited representation of some HLA types in our dataset, we were able to identify GvL mHAs for potential therapeutic targeting corresponding to 56 HLA alleles. We generated ranked lists of the most common shared mHA for each HLA allele, using an implementation of the standard greedy algorithm solution to the maximum set coverage problem. With this method, we identified the fewest number of mHA peptides needed to cover desired percentages of the recipient population with at least one mHA. For example, for HLA A*02:01, HLA*B07:02, and HLA*C07:01, engineering T cells to target the top nine to twelve peptides would allow for treatment of 80% of the patient population in our cohorts (Figure 4). These represent common HLA alleles in Caucasian, African American, Hispanic, and Asian populations, indicating that this technique can identify targets that could be therapeutically beneficial for a greater diversity of patients than standard treatments. mHA pools can also be filtered on peptide expression or HLA binding to ensure that the targeted peptides are highly expressed and presented. Conclusions: Despite differences in predicted number of mHA by ethnicity and HLA alleles, shared GvL mHA exist across common HLA. To the extent that these are targetable by adoptive cellular therapy, we can expand equal access to mHA targeted immunotherapies, improving upon traditional models where only the most prevalent HLA types are covered. View large Download slide View large Download slide  Disclosures Armistead: Cell Microsystems: Patents & Royalties: Patent application U.S. 16/347,104 \"Automated collection of a specified number of cells\"; GeneCentric: Consultancy. Vincent: GeneCentric Therapeutics: Consultancy."
 }

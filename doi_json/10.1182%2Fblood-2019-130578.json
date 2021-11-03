@@ -2,5 +2,91 @@
     "doi": "https://doi.org/10.1182/blood-2019-130578",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4201",
     "start_url_page_num": 4201,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Antibiotic Exposures and Dietary Intakes Are Associated with Changes in Microbiota Compositions in Allogeneic Hematopoietic Stem Cell Transplant Patients ",
+    "article_date": "November 13, 2019",
+    "session_type": "722.Clinical Allogeneic Transplantation: Acute and Chronic GVHD, Immune Reconstitution",
+    "topics": [
+        "allogeneic hematopoietic stem cell transplant",
+        "antibiotics",
+        "diet",
+        "microbiome",
+        "allopurinol",
+        "cefepime",
+        "meropenem",
+        "tazobactam",
+        "transplantation",
+        "anti-bacterial agents"
+    ],
+    "author_names": [
+        "Chi L. Nguyen, BA",
+        "Antonio L.C. Gomes, PhD",
+        "Jonathan U. Peled, MD PhD",
+        "John B. Slingerland, BSc",
+        "Ann E. Slingerland, BSc",
+        "Marissa L. Buchan, MS",
+        "Peter A. Adintori, MS, RD, CDN",
+        "Kate A Markey, PhDMBBS,FRACP",
+        "Annelie Clurman, BA",
+        "Molly A. Maloy, MS",
+        "Sergio A. Giralt, MD",
+        "Miguel-Angel Perales, MD",
+        "Ying Taur, MD MPH",
+        "Xavier B. Joao, PhD",
+        "Eric G. Pamer, MD",
+        "Marcel R.M. van den Brink, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Gerstner Sloan Kettering Graduate School of Biomedical Sciences, New York, NY "
+        ],
+        [
+            "Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Department of Medicine, Adult Bone Marrow Transplant Service, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Department of Medicine, Adult Bone Marrow Transplant Service, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Department of Medicine, Adult Bone Marrow Transplant Service, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Department of Medicine, Adult Bone Marrow Transplant Service, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Department of Medicine, Adult Bone Marrow Transplant Service, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Department of Medicine, Adult Bone Marrow Transplant Service, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Department of Medicine, Adult Bone Marrow Transplant Service, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Infectious Disease Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY"
+        ],
+        [
+            "Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Memorial Sloan Kettering Cancer Center, New York, NY "
+        ]
+    ],
+    "first_author_latitude": "40.764451099999995",
+    "first_author_longitude": "-73.9569641",
+    "abstract_text": "The intestinal microbiota undergoes major perturbations during allogeneic hematopoietic stem cell transplantation (allo-HCT), and low microbiota diversity during this period is associated with an increased risk of graft-versus-host disease and mortality. Identifying the environmental variables that might impact intestinal microbiota could inform strategies to maintain and restore a healthy microbiota state. However, understanding microbial dynamics is challenging due to the high-dimensional nature of microbiota data. Here, we simplified complex microbiota communities into clusters and investigated the dynamics under different conditions in terms of transition probabilities in a large dataset of allo-HCT fecal specimens ( Fig. a ). The bacterial compositions of 7,930 samples from 1,076 allo-HCT patients were determined by 16S rRNA deep-sequencing. Samples were then clustered into 10 distinct states by k-means clustering of a Bray-Curtis \u03b2-diversity matrix ( Fig. b ). These clusters captured variations in diversity and microbiota compositions ( Fig. c-d ). Cluster 1 represented a high-diversity state, and Lachnospiraceae and other Clostridiales were the most commonly observed taxa in this cluster. The low-diversity clusters 9 and 10 consisted mostly of Streptococcus -dominated and Enterococcus -dominated samples, respectively. We utilized a regression-based predictive approach to model cluster transition probabilities in terms of a weight for remaining in the same cluster over time (self-weight) and a weight for attracting transitions from other clusters over time (attractor-weight). Controlling for the effect of time, the weights measured the contribution of different environmental exposures to intestinal microbial behaviors. A negative parameter coefficient indicates cluster destabilization or decreased cluster transition likelihood in the case of self-weights and attractor-weights, respectively. We evaluated the impact of the 3 most commonly used non-prophylactic antibacterial drugs using 2359 daily samples from 385 allo-HCT patients collected between day -14 to 7 relative to transplant. High-diversity cluster 1 was significantly destabilized by piperacillin-tazobactam (pip-tazo) exposure (\u03b2 = -0.87, P < 0.05). Meanwhile, exposure to cefepime and meropenem did not have a significant effect on cluster 1 stability ( Fig. e ). Exposure to pip-tazo also increased the transition probability to the Streptococcus- dominated cluster 9 (\u03b2 = 1.83, P < 0.001), while cefepime (\u03b2 = 2.69, P < 0.05) and meropenem (\u03b2 = 1.96, P < 0.01) exposure favored transitions to the Enterococcus -dominant cluster 10. These results suggest that antibiotic exposures are associated with different composition outcomes depending on patient microbiota states during transplant period. In a small subset of 242 daily samples from 46 allo-HCT patients with detailed daily dietary information, we observed that an increase in total protein intake (range = 0-137.4g; median = 36g) was associated with low self-maintenance of cluster 1 (\u03b2 = -1.29, P < 0.05), while an increase in total fat intake (range = 0-183.3g; median = 34.5g) improved cluster 1 stability (\u03b2 = 1.44, P < 0.05). Overall, dietary intakes could also modulate transition probabilities between microbial communities in allo-HCT patients. While prior studies have assessed specific bacterial taxa or diversity indices as biomarkers of clinical outcomes, here we considered the entire intestinal communities and demonstrated that various environmental exposures were associated with changes in microbiota composition during allo-HCT. Using a regression-based approach that predicts cluster transitions in response to environmental conditions, we found that pip-tazo exposure was associated with destabilization of a high-diversity state and increased transitions to a Streptococcus -dominated state, while cefepime and meropenem exposure did not disrupt high-diversity microbial community. Furthermore, increased protein intake was also associated with disruption to the high-diversity cluster, while increased fat intake strengthened the maintenance of a diverse and healthy microbial community. Ultimately, this computation framework aims to inform strategies to optimize treatment plans for allo-HCT patients to maximize a healthy gut microbiota state and clinical outcomes. View large Download slide View large Download slide  Disclosures Gomes: Seres Therapeutics: Other: Part of Salary. Peled: Seres Therapeutics: Research Funding. Slingerland: Seres Therapeutics: Other: Salary supported by Seres funding. Clurman: Seres Therapeutics: Research Funding. Giralt: Celgene: Consultancy, Research Funding; Takeda: Consultancy; Sanofi: Consultancy, Research Funding; Amgen: Consultancy, Research Funding. Perales: Bristol-Meyers Squibb: Honoraria, Membership on an entity's Board of Directors or advisory committees; Abbvie: Honoraria, Membership on an entity's Board of Directors or advisory committees; Bellicum: Honoraria, Membership on an entity's Board of Directors or advisory committees; NexImmune: Membership on an entity's Board of Directors or advisory committees; Incyte: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Nektar Therapeutics: Honoraria, Membership on an entity's Board of Directors or advisory committees; Novartis: Honoraria, Membership on an entity's Board of Directors or advisory committees; Omeros: Honoraria, Membership on an entity's Board of Directors or advisory committees; Takeda: Honoraria, Membership on an entity's Board of Directors or advisory committees; Merck: Consultancy, Honoraria; Medigene: Membership on an entity's Board of Directors or advisory committees; Servier: Membership on an entity's Board of Directors or advisory committees; Kyte/Gilead: Research Funding; Miltenyi: Research Funding; MolMed: Membership on an entity's Board of Directors or advisory committees. Pamer: MedImmune: Honoraria; Seres Therapeutics: Honoraria, Patents & Royalties; Bristol Myers Squibb: Honoraria; Novartis: Honoraria; Celgene: Honoraria; Ferring Pharmaceuticals: Honoraria. van den Brink: Acute Leukemia Forum (ALF): Consultancy, Honoraria; Seres Therapeutics: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Flagship Ventures: Consultancy, Honoraria; Novartis: Consultancy, Honoraria; Evelo: Consultancy, Honoraria; Jazz Pharmaceuticals: Consultancy, Honoraria; Therakos: Consultancy, Honoraria; Amgen: Consultancy, Honoraria; Merck & Co, Inc.: Consultancy, Honoraria; Juno Therapeutics: Other: Licensing; Magenta and DKMS Medical Council: Membership on an entity's Board of Directors or advisory committees."
 }
