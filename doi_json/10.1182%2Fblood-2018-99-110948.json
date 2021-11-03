@@ -2,5 +2,56 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-110948",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3999",
     "start_url_page_num": 3999,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Detection of Clinically Relevant Molecular Alterations in Chronic Lymphocytic Leukemia (CLL) By Nanopore Sequencing ",
+    "article_date": "November 29, 2018",
+    "session_type": "641. CLL: Biology and Pathophysiology, excluding Therapy: Poster I",
+    "topics": null,
+    "author_names": [
+        "Adam Burns, BSc, PhD",
+        "David Robert Bruce, MRCP",
+        "Pauline Robbe, MSc, PhD",
+        "Adele Timbs",
+        "Basile Stamatopoulos, PhD",
+        "Ruth Clifford, FRCPath, PhD",
+        "Maria Lopopolo",
+        "Duncan Parkes",
+        "Kate E Ridout, PhD",
+        "Anna Schuh, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Oncology, University of Oxford, Oxford, United Kingdom "
+        ],
+        [
+            "Oncology, University of Oxford, Oxford, United Kingdom "
+        ],
+        [
+            "Oxford Molecular Diagnostics Centre, University of Oxford, Radcliffe Department of Medicine, Oxford, United Kingdom "
+        ],
+        [
+            "Oxford Radcliffe NHS Trust, Oxford, GBR "
+        ],
+        [
+            "Laboratory of Clinical Cell Therapy, Institut Jules Bordet, Brussels, Belgium "
+        ],
+        [
+            "Department of Haematology, University Hospital Limerick, Limerick, Ireland "
+        ],
+        [
+            "Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford, United Kingdom "
+        ],
+        [
+            "Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford, United Kingdom "
+        ],
+        [
+            "Department of Oncology, The University of Oxford, Oxford, United Kingdom "
+        ],
+        [
+            "Oxford University Hospitals NHS Foundation Trust, Oxford, United Kingdom"
+        ]
+    ],
+    "first_author_latitude": "51.7519402",
+    "first_author_longitude": "-1.2141320000000002",
+    "abstract_text": "Introduction Chronic Lymphocytic Leukaemia (CLL) is the most prevalent leukaemia in the Western world and characterised by clinical heterogeneity. IgHV mutation status, mutations in the TP53 gene and deletions of the p-arm of chromosome 17 are currently used to predict an individual patient's response to therapy and give an indication as to their long-term prognosis. Current clinical guidelines recommend screening patients prior to initial, and any subsequent, treatment. Routine clinical laboratory practices for CLL involve three separate assays, each of which are time-consuming and require significant investment in equipment. Nanopore sequencing offers a rapid, low-cost alternative, generating a full prognostic dataset on a single platform. In addition, Nanopore sequencing also promises low failure rates on degraded material such as FFPE and excellent detection of structural variants due to long read length of sequencing. Importantly, Nanopore technology does not require expensive equipment, is low-maintenance and ideal for patient-near testing, making it an attractive DNA sequencing device for low-to-middle-income countries. Methods Eleven untreated CLL samples were selected for the analysis, harbouring both mutated (n=5) and unmutated (n=6) IgHV genes, seven TP53 mutations (five missense, one stop gain and one frameshift) and two del(17p) events. Primers were designed to amplify all exons of TP53 , along with the IgHV locus, and each primer included universal tails for individual sample barcoding. The resulting PCR amplicons were prepared for sequencing using a ligation sequencing kit (SQK-LSK108, Oxford Nanopore Technologies, Oxford, UK). All IgHV libraries were pooled and sequenced on one R9.4 flowcell, with the TP53 libraries pooled and sequenced on a second R9.4 flowcell. Whole genome libraries were prepared from 400ng genomic DNA for each sample using a rapid sequencing kit (SQK-RAD004, Oxford Nanopore Technologies, Oxford, UK), and each sample sequenced on individual flowcells on a MinION mk1b instrument (Oxford Nanopore Technologies, Oxford, UK). We developed a bespoke bioinformatics pipeline to detect copy-number changes, TP53 mutations and IgHV mutation status from the Nanopore sequencing data. Results were compared to short-read sequencing data obtained earlier by targeted deep sequencing (MiSeq, Illumina Inc, San Diego, CA, USA) and whole genome sequencing (HiSeq 2500, Illumina Inc, San Diego CA, USA). Results Following basecalling and adaptor trimming, the raw data were submitted to the IMGT database. In the absence of error correction, it was possible to identify the correct VH family for each sample; however the germline homology was not sufficient to differentiate between IgHV mut and IgHV unmut CLL cases. Following bio-informatic error correction and consensus building, the percentage to germline homology was the same as that obtained from short-read sequencing and nanopore sequencing also called the same productive rearrangements in all cases. A total of 77 TP53 variants were identified, including 68 in non-coding regions, and three synonymous SNVs. The remaining 6 were predicted to be functional variants (eight missense and two stop-gains) and had all been identified in early MiSeq targeted sequencing. However, the frameshift mutation was not called by the analysis pipeline, although it is present in the aligned reads. Using the low-coverage WGS data, we were able to identify del(17p) events, of 19Mb and 20Mb length, in both patients with high confidence. Conclusions Here we demonstrate that characterization of the IgHV locus in CLL cases is possible using the MinION platform, provided sufficient downstream analysis, including error correction, is applied. Furthermore, somatic SNVs in TP53 can be identified, although similar to second generation sequencing, variant calling of small insertions and deletions is more problematic. Identification of del(17p) is possible from low-coverage WGS on the MinION and is inexpensive. Our data demonstrates that Nanopore sequencing can be a viable, patient-near, low-cost alternative to established screening methods, with the potential of diagnostic implementation in resource-poor regions of the world. Disclosures Schuh: Giles, Roche, Janssen, AbbVie: Honoraria."
 }
