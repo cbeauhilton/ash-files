@@ -2,5 +2,80 @@
     "doi": "https://doi.org/10.1182/blood-2019-130508",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4269",
     "start_url_page_num": 4269,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "High-Throughput BCR Sequencing and Single-Cell Transcriptomics Reveal Distinct Transcriptional Profiles Associated with Subclonal Evolution of Follicular Lymphoma ",
+    "article_date": "November 13, 2019",
+    "session_type": "622.Lymphoma Biology-Non-Genetic Studies",
+    "topics": [
+        "follicular lymphoma",
+        "transcription, genetic",
+        "biopsy",
+        "gene expression profiling",
+        "massively-parallel genome sequencing",
+        "polymerase chain reaction",
+        "antigens, cd98 light chains",
+        "bcl-2 protein",
+        "bone marrow specimen",
+        "cryopreservation"
+    ],
+    "author_names": [
+        "Cornelis A.M. van Bergen",
+        "Marvyn T. Koning, BSc",
+        "Edwin Quinten",
+        "Agnieszka Mykowiecka, MSc",
+        "Julieta Sepulveda, MSc",
+        "Ramin Monajemi, PhD",
+        "Ruben A.L. De Groen",
+        "Joost Vermaat, MD PhD",
+        "Susan L. Kloet, PhD",
+        "Szymon M. Kielbasa, PhD",
+        "Marcelo A. Navarrete, PhD",
+        "Pawel G\u00f3recki, PhD",
+        "Hendrik Veelken, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Hematology, Leiden University Medical Center, Leiden, Netherlands "
+        ],
+        [
+            "Department of Hematology, Leiden University Medical Center, Leiden, Netherlands "
+        ],
+        [
+            "Department of Hematology, Leiden University Medical Center, Leiden, Netherlands "
+        ],
+        [
+            "Department of Informatics, Warsaw University, Warsaw, Poland "
+        ],
+        [
+            "Department of Hematology, Leiden University Medical Center, Leiden, Netherlands ",
+            "School of Medicine, University of Magallanes, Punta Arenas, Chile "
+        ],
+        [
+            "Department of Biomedical Data Sciences, Leiden University Medical Center, Leiden, Netherlands "
+        ],
+        [
+            "Hematology, Leiden University Medical Center, Leiden, Netherlands "
+        ],
+        [
+            "Department of Hematology, Leiden University Medical Center, Leiden, Netherlands "
+        ],
+        [
+            "Department of Human Genetics, Leiden University Medical Center, Leiden, Netherlands"
+        ],
+        [
+            "Department of Biomedical Data Sciences, Leiden University Medical Center, Leiden, Netherlands "
+        ],
+        [
+            "School of Medicine, University of Magallanes, Punta Arenas, Chile "
+        ],
+        [
+            "Department of Informatics, Warsaw University, Warsaw, Poland "
+        ],
+        [
+            "Department of Hematology, Leiden University Medical Center, Leiden, Netherlands "
+        ]
+    ],
+    "first_author_latitude": "52.166031499999995",
+    "first_author_longitude": "4.4785036",
+    "abstract_text": "Objectives: Follicular lymphoma (FL) typically originates from premalignant mature B cells that carry the founder t(14;18) BCL2 translocation. Mutations in epigenetic modifiers and acquisition of N-glycosylation sites in CDR regions of the B-cell receptor (BCR) are recurrent secondary events in FL pathogenesis. Despite these oncogenic drivers, FL can remain indolent and clinically stable for years. The molecular events driving subclonal evolution into symptomatic progression and eventual transformation to aggressive lymphoma are insufficiently understood. FL cells are frozen in their B-cell development at the germinal center stage and undergo continuous somatic hypermutation mediated by expression of activation-induced deaminase (AID). We aim to identify crucial drivers of subclonal FL evolution by high-throughput mapping at single-cell resolution. Methods: Viable FL cells were isolated and cryopreserved from 23 histologically or immunocytologically confirmed FL samples from 13 patients with informed consent. Full-length VDJ/VJ transcripts were isolated by unbiased template-switching ARTISAN PCR and massive parallel NGS sequencing on the PacBio platform. The clonal primordial FL BCR (pBCR) was reconstructed from unmutated IGV/IGJ sequences with the CDR3 of the least mutated BCR. Since the IgTree program was unable to process the obtained numbers of BCR sequences, we developed the WILLOW algorithm for analysis of BCR evolution based on the principle of maximum parsimony and on distance from the pBCR. Intraclonal BCR variability was quantified by Shannon's diversity index. 5' single cell transcriptomics and VDJ/VJ sequencing was performed on 2 pools of highly purified FL cells from 5 lymph node biopsies on the 10x Genomics platform. Data were deconvoluted based on expressed variants by the Single Cell Sample Matcher (SCSM) algorithm. Clustering based on gene expression profiles was performed by shared nearest neighbour (SNN) modularity optimization within the R Seurat package. Genes whose expression differed significantly (adjusted p<0.05) between clusters were assigned to gene ontology terms. Results: ARTISAN PCR/PacBio NGS yielded a median of 743 full-length VDJ and VJ sequences (range 62-12782) per BCR chain with expected high intraclonal diversity (median 200 subclones, range 15-3301). WILLOW revealed dominant FL subclones with a subclonal hierarchy wherein multiple routes converged to offspring nodes with identical additional mutations rather than tree-like branching (Figure). In serial samples of 4 patients, lymph node biopsies had only marginally higher subclonal diversity than blood or bone marrow samples (p=0,055; Wilcoxon's matched-pairs signed rank test). Overall BCR mutational burden increased over time in sequential biopsies. Two cases of histological FL transformation were dominated by a single subclone (65% and 80% of all VDJ/VJ sequences, respectively) that was rare in the preceding FL BCR network (0.2% and 1.8%). Pooled transcriptomics data from 6050-6500 cells were assigned to individual samples by SCSM and revealed up to seven transcriptional clusters per FL. In 9 of 10 FL, genes assigned to immune function strongly contributed to separation into one or more clusters. Single cell VDJ/VJ sequencing yielded combined heavy and light chain BCR sequences for a median of 502 FL cells per biopsy (range 22 - 1919) that permitted mapping of subclonal evolution by WILLOW based on complete BCR information. Transcriptome clusters were not distributed evenly throughout the WILLOW FL BCR networks but rather statistically associated with distinct major FL subclones. Vice versa, major FL subclones within the same biopsy were distinguished by particular gene expression profiles. Conclusions: WILLOW facilitates mapping of subclonal FL evolution based on high-throughput BCR sequencing. FL evolution proceeds in networks rather than tree-like branching, whereby acquisition of certain combinations of several BCR mutations can occur in parallel in different trajectories. Transcriptomic profiling of single FL cells identifies distinct clusters within a single biopsy. Mapping of these clusters to the FL cell position in the subclonal FL evolutionary network identifies putative mechanisms that are associated with subclonal progression. These mechanisms involve physiological B-cell signalling pathways. Figure View large Download slide Figure View large Download slide  Disclosures No relevant conflicts of interest to declare."
 }
