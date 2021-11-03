@@ -2,5 +2,51 @@
     "doi": "https://doi.org/10.1182/blood-2019-128488",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4225",
     "start_url_page_num": 4225,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Novel Machine Learning Based in silico Pathogenicity Predictor for Missense Variants in a Hematological Setting ",
+    "article_date": "November 13, 2019",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "topics": [
+        "amino acids",
+        "leukemia",
+        "machine learning",
+        "neoplasms",
+        "nucleotides",
+        "pathogenicity",
+        "protein c",
+        "equity",
+        "clinical databases",
+        "databases"
+    ],
+    "author_names": [
+        "Stephan Hutter, PhD",
+        "Constance Baer, PhD",
+        "Wencke Walter, PhD",
+        "Wolfgang Kern, MD",
+        "Claudia Haferlach, MD",
+        "Torsten Haferlach, MD"
+    ],
+    "author_affiliations": [
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany "
+        ],
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany "
+        ],
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany "
+        ],
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany "
+        ],
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany "
+        ],
+        [
+            "MLL Munchner Leukamie Labor Gmbh, Munchen, Germany"
+        ]
+    ],
+    "first_author_latitude": "48.1080895",
+    "first_author_longitude": "11.473868",
+    "abstract_text": "Background: Interpreting the pathogenic potential of an amino-acid changing single nucleotide variant (SNV) in a disease related gene can be challenging, especially for rare variants for which little or no information is available in clinical databases. In silico predictors, tools that predict the functional impact of an SNV algorithmically, can be useful in this scenario, and guidelines for variant interpretation recommend their inclusion in the interpretation process. Resources such as the dbNSFP database, which contains pre-calculated prediction scores for dozens of different algorithms, are readily available today. However, individual predictors rarely come to the same conclusion, and even for well-known disease causing SNVs results can be heterogeneous or even contradictory, which complicates their interpretation. Ensemble predictors such as REVEL, MetaLR/SVM or CADD combine the knowledge/information from multiple individual sources. These predictors use machine learning methods and training sets of pre-defined pathogenic and benign SNVs to integrate individual algorithms into a single, easy to interpret score. However, current training sets are based on pathogenic germline variants, which might cause these predictors to underperform when testing somatic variants. Aim: Development of HePPy (Hematological Predictor of Pathogenicity), an ensemble in silico predictor trained on somatic disease causing variants for use in a hematological setting. Methods: We followed the approach laid out by REVEL and used 10 in silico predictor scores and 4 phylogenetic conservation scores from the dbNSFP data base to train a random forest model. Our training set consisted of 371 unique missense SNVs from 61 hematologically relevant genes that were recurrently identified (in at least 10 patients) during routine diagnostics. All were consistently and unambiguously characterized by hematological experts as either a pathogenic somatic variant (n = 268) or a benign germline variant (n = 103) using a rigorous manual classification process within a data set of 69,879 cases studied between 2005 and 2018. Model accuracy was assessed by 10-fold cross-validation and further evaluated using a test data set consisting of 335 rare missense SNVs from routine diagnostics for which control germline material (buccal swabs, finger nail clippings) from the respective patients was available. Variants originating in the germline were expected to be mainly benign (n = 123), while somatic variants were considered pathogenic (n = 212). We compared the performance of this new tool to REVEL, MetaLR/SVM, CADD and the popular individual predictors SIFT and Polyphen2 by generating receiver operating characteristic (ROC) curves and calculating the area under the curve (AUC). Model implementation and analysis was performed using the R libraries \"randomForest\", \"caret\" and \"pROC\". Results: HePPy scores range from 0 (benign) to 1 (pathogenic) and cross-validation on the training set indicates a high accuracy of 0.968, which is also reflected by the clear separation in the distribution of obtained scores for benign and pathogenic training SNVs (see figure B). Application of the model to the test data set of rare SNVs shows that HePPy (AUC = 0.873) outperforms all other prediction tools in separating germline from somatic variants (see figure A). Surprisingly, both MetaLR (AUC = 0.717) and MetaSVM (AUC = 0.703) performed worse than the individual predictors SIFT (AUC = 0.794) and Polyphen2 (AUC = 0.821), while CADD (AUC = 0.831) and REVEL (AUC = 0.850) showed better performance. HePPy scores for somatic test variants were heavily skewed towards very high values (mean = 0.917). Germline variants had significantly lower scores (mean = 0.466), but their distribution was much more uniform than for somatic variants (see figure C). This suggests, to consider a significant proportion of the rare germline variants to have pathogenic potential. This is in line with the growing awareness of pathogenic germline variants and familial predisposition and emphasizes the importance of in silico predictions and other tools to replace the simple \"tumor vs . normal\" comparison. Summary: We developed HePPy, a new in silico ensemble predictor that is trained on 371 well-defined hematopathological somatic missense variants, which outperforms other currently available methods for in silico prediction in a hematological setting. Figure View large Download slide Figure View large Download slide  Disclosures Hutter: MLL Munich Leukemia Laboratory: Employment. Baer: MLL Munich Leukemia Laboratory: Employment. Walter: MLL Munich Leukemia Laboratory: Employment. Kern: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership."
 }
