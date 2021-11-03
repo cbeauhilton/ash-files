@@ -2,5 +2,74 @@
     "doi": "https://doi.org/10.1182/blood-2020-136719",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4581",
     "start_url_page_num": 4581,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Machine Learning-Based Flow Cytometry Diagnostics in Myelodysplastic Syndromes: Validation in the HOVON89 Clinical Trial (EudraCT 2008-002195-10) ",
+    "article_date": "November 5, 2020",
+    "session_type": "637.Myelodysplastic Syndromes-Clinical Studies",
+    "topics": null,
+    "author_names": [
+        "Carolien Duetz, MD",
+        "Sofie Van Gassen, PhD",
+        "Theresia M. Westers, PhD",
+        "Florentien in t Hout, MDPhD",
+        "Eline Cremers, MDPhD",
+        "Canan Alhan, MD PhD",
+        "Costa Bachas, PhD",
+        "Margot F. Van Spronsen, MD",
+        "Heleen Visser-Wisselaar",
+        "Dana Chitu",
+        "Aniek O. De Graaf, PhD",
+        "Joop Jansen, PhD",
+        "Yvan Saeys, PhD",
+        "Arjan van de Loosdrecht, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Hematology, Amsterdam University Medical Center, VU University Medical Center, Cancer Center Amsterdam, Amsterdam, Netherlands "
+        ],
+        [
+            "VIB Inflammation Research Center, Ghent University, Ghent, Belgium., Ghent, Belgium ",
+            "Department of Applied Mathematics, Computer Science and Statistics, Ghent University, Ghent, Belgium., Ghent, Belgium "
+        ],
+        [
+            "Department of Hematology, Amsterdam University Medical Center, VU University Medical Center, Cancer Center Amsterdam, Amsterdam, Netherlands "
+        ],
+        [
+            "Laboratory of Hematology, Radboud University Medical Centre, Nijmegen, The Netherlands., Nijmegen, Netherlands "
+        ],
+        [
+            "Department of Hematology, Amsterdam University Medical Center, VU University Medical Center, Cancer Center Amsterdam, Amsterdam, Netherlands "
+        ],
+        [
+            "Department of Hematology, Amsterdam University Medical Center, VU University Medical Center, Cancer Center Amsterdam, Amsterdam, Netherlands "
+        ],
+        [
+            "Department of Hematology, Amsterdam University Medical Center, VU University Medical Center, Cancer Center Amsterdam, Amsterdam, Netherlands "
+        ],
+        [
+            "Department of Hematology, Amsterdam University Medical Center, VU University Medical Center, Cancer Center Amsterdam, Amsterdam, Netherlands "
+        ],
+        [
+            "HOVON Data Center, Erasmus MC Cancer Institute, Department of Hematology, Rotterdam, Netherlands"
+        ],
+        [
+            "HOVON Data Center, Erasmus MC Cancer Institute, Department of Hematology, Rotterdam, Netherlands"
+        ],
+        [
+            "Laboratory of Hematology, Radboud University Medical Centre, Nijmegen, The Netherlands., Nijmegen, Netherlands "
+        ],
+        [
+            "Laboratory of Hematology, Radboud University Medical Centre, Nijmegen, The Netherlands., Nijmegen, Netherlands "
+        ],
+        [
+            "VIB Inflammation Research Center, Ghent University, Ghent, Belgium., Ghent, Belgium ",
+            "Department of Applied Mathematics, Computer Science and Statistics, Ghent University, Ghent, Belgium., Ghent, Belgium "
+        ],
+        [
+            "Department of Hematology, Amsterdam University Medical Center, VU University Medical Center, Cancer Center Amsterdam, Amsterdam, Netherlands "
+        ]
+    ],
+    "first_author_latitude": "52.336742699999995",
+    "first_author_longitude": "4.859163",
+    "abstract_text": "Introduction Flow cytometry is a recommended tool in the diagnostic work-up of cytopenic patients suspected for myelodysplastic syndromes. Currently used flow cytometry scores rely on human assessment of dysplastic features in the bone marrow. Although proven useful, these methods are labor intensive and require a high level of expertise. Therefore, we previously developed a machine learning-based workflow for flow cytometry diagnostics in MDS by combining computational cell detection and a machine learning-classifier. This workflow outperformed traditional diagnostic scores with respect to accuracy (sensitivity 85-97%, specificity 93-97%), time investment (<30 seconds) and required materials (manuscript submitted). In the present study, we validated sensitivity of the workflow in a well-characterized clinical trial cohort (HOVON89 EudraCT 2008-002195-10) of lower risk MDS patients. Method Patient inclusion and characteristics Very low to intermediate risk MDS patients enrolled in the HOVON89 clinical trial (EudraCT 2008-002195-10) were included. 53 patients met the additional inclusion criteria, concerning written consent for add-on studies and availability of required flow cytometry data. Sample preparation Bone marrow samples were processed for flow cytometry analysis according to the European Leukemia Net guidelines. This study focused on the antibody combination optimized for assessment of myeloid progenitors and erythroid dysplasia (CD45, CD34, CD117, HLA-DR, CD71, CD36, CD105, CD33, sideward light scatter (SSC) and forward light scatter (FSC)). Machine learning-based workflow The machine learning-based workflow was developed in a prior study based on a reference cohort consisting of MDS patients without excess of blasts(n=67) and non-MDS cases (n=81) (Figure 1). MDS patients were diagnosed based on (cyto)morphology, cytogenetics and clinical follow-up. Non-MDS cases were patients with confirmed non-neoplastic cytopenias (n=69) and age-matched healthy individuals (n=12). Results In the validation cohort, the machine learning-based diagnostic workflow classified 49 out of 53 patients correctly, reaching a sensitivity of 92%. The workflow outperformed two currently used diagnostic tools for MDS flow cytometry, the Ogata score and integrated flow cytometry score (iFS). The former obtained 72% sensitivity (McNemar: p = 0.001) and the latter 83% sensitivity (McNemar: p = 0.06) in the validation cohort. Per patient, time required for automated analysis was less than 30 seconds. All four MDS patients that classified false negatively had a normal karyotype and (very) low risk disease according to the IPSS-r. In three out of four patients, no mutations or MDS-associated immunophenotypic features were detected. One patients was diagnosed as MDS-MLD and three patients as MDS-RS-SLD according to the WHO 2016 classification. The ten most relevant cellular features that discriminated between MDS and non-MDS patients in the reference data were confirmed in the current validation cohort. All ten features of MDS patients in the validation cohort were significantly different from non-MDS patients of the reference cohort (all features, p < 0.00001 ) (Figure 2). Seven out of ten features were similar in MDS patients of the validation cohort compared to those of the MDS patients of the reference cohort ( p >0.05) (Figure 2). Conclusion In this validation study, we confirmed accuracy of machine learning-based flow cytometry diagnostics in lower risk MDS. The workflow obtained 92% sensitivity, which is in accordance with results from our previous study (85-97%), and outperformed currently used diagnostic flow cytometry scores for MDS (i.e. Ogata score and iFS). In our previous study specificity was 95% in both reference and test cohorts. Cellular features, most discriminative for diagnosis, were confirmed in the validation cohort, emphasizing robustness of the method. Additional benefits of this approach are the reduction in analysis time to less than thirty seconds per patient, reduction of required antibodies and increased reproducibility. View large Download slide View large Download slide  Disclosures van de Loosdrecht: celgene: Honoraria; novartis: Honoraria."
 }

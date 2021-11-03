@@ -2,5 +2,66 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-116054",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3935",
     "start_url_page_num": 3935,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Automated Early Detection of Myelodysplastic Syndrome with Beckman-Coulter DxH 800 Hematologyanalyzer By Using Ten Research Parameters ",
+    "article_date": "November 29, 2018",
+    "session_type": "637. Myelodysplastic Syndromes-Clinical Studies",
+    "topics": [
+        "early diagnosis",
+        "infectious mononucleosis",
+        "myelodysplastic syndrome",
+        "blood smear",
+        "median arcuate ligament syndrome",
+        "anemia",
+        "bone marrow aspiration",
+        "peripheral blood smear",
+        "photometry",
+        "complete blood count"
+    ],
+    "author_names": [
+        "Noemie Ravalet, PharmD",
+        "Frederic Picou, PhD",
+        "Martin Gombert, PharmD",
+        "Amelie Foucault, PharmD",
+        "Emmanuel Renoult",
+        "Emmanuel Gyan, MD PhD",
+        "Sebastien Lachot, MD",
+        "Emmanuelle Rault, PharmD",
+        "Olivier Herault, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "University Hospital of Tours - Dept Biological Hematology, Tours, France "
+        ],
+        [
+            "CNRS ERL 7001 LNOx \"Leukemic Niche & Redox Metabolism\", Tours, France "
+        ],
+        [
+            "University Hospital of Tours - Dept Biological Hematology, Tours, France "
+        ],
+        [
+            "University Hospital of Tours - Dept Biological Hematology, Tours, France ",
+            "CNRS ERL 7001 LNOx \"Leukemic Niche & Redox Metabolism\", Tours, France "
+        ],
+        [
+            "University Hospital of Tours - Dept Biological Hematology, Tours, France "
+        ],
+        [
+            "CNRS ERL 7001 LNOx \"Leukemic Niche & Redox Metabolism\", Tours, France ",
+            "University Hospital of Tours - Dept Hematology & Cell Therapy, Tours, France "
+        ],
+        [
+            "University Hospital of Tours - Dept Biological Hematology, Tours, France "
+        ],
+        [
+            "University Hospital of Tours - Dept Biological Hematology, Tours, France "
+        ],
+        [
+            "CNRS ERL 7001 LNOx \"Leukemic Niche & Redox Metabolism\", Tours, France ",
+            "Dept of Biological Hematology, University Hospital of Tours, Tours, France"
+        ]
+    ],
+    "first_author_latitude": "47.3714526",
+    "first_author_longitude": "0.687773",
+    "abstract_text": "Introduction Moderate anemia affects a substantial fraction of the elderly population and blood smear analysis can help to guide towards a diagnosis of myelodysplastic syndrome (MDS). Nevertheless, in medical laboratories, review of blood smear is realized only if there is quantitative or qualitative flag on the complete blood count (CBC). Consequently, the suspicion of MDS could be delayed because of the absence of systematic blood smear triggering, this smear being crucial to induce the diagnosis process by cytological analysis of bone marrow aspiration. The DxH 800 Hematology Analyzer measures and calculates 126 cytological parameters based on photometry, impedance or light scatter. These parameters regroup 23 standard CBC parameters and 103 unexploited \"research parameters\". The goal of our study was to create an original mathematical model using \"research parameters\" to determine a Suspicion Score of MDS which triggers blood smear examination and consequently the process of identification of subclinical patients suffering from MDS. Methods This study compared the 126 parameters measured by the Beckman-Coulter DxH 800 Hematology Analyzer from peripheral blood samples of MDS patients and healthy volunteers. MDS cohort was composed of 101 patients of the university hospital of Tours (9 MDS-SLD, 28 MDS-MLD, 8 MDS-RS-SLD, 8 MDS-RS-MLD, 20 MDS-EB-1, 19 MDS-EB-2, 9 5q-). The cohort of healthy volunteers included 88 aged-matched subjects from HEALTHOX and PLASMYC protocols (ClinicalTrials.gov # NCT02789839 and # NCT02809222, respectively). The \"research parameters\" contained Research Use Only (RUO) parameters and Cell Population Data (CPD). CPD were composed of 98 parameters measured by Volume Conductivity Scatter (VCS) module. The parameters derived from reticulocytes, which require a specific prescription, were excluded. Statistical analyses were performed using Rstudio version 1.0.153. The normal distribution of values was studied by Shapiro-Wilk tests (p-value0.05). Means comparisons were performed by Wilcoxon and Student tests. Principal component analysis (PCA) was performed using FactoMineR. The logarithmic logistic regression was done thanks to the glm() function of the stats package. The general linear model was obtained by using logistic regression with weighted parameters and was validated by split-sample strategy (10,000 repeats). Samples were divided into two groups (\"learning\" and \"test\" groups) randomly mixing MDS patients and healthy volunteers. The \"learning\" group (n=130) allowed to build the model and the \"test\" group (n=59) was used to validate it. Results After mono-parametric and multi-parametric comparisons, 10 parameters were selected to establish the model of interest according to the best contributions at the first axe of PCA, the best correlations at two first axes of PCA and the most significant p-values (parameters described in the Table: MN.LALS.NNRBC, MN.LMALS.NNRBC, MN.UMALS.NNRBC, SD.MALS.NE, SD.UMALS.NE, SD.V.NE, MN.MALS.NE, SD.AL2.NE, SD.AL2.MO, SD.V.MO ). In order to determine the Suspicion Score of MDS (SS-MDS), the 10 selected parameters were weighted during split sampling strategy by logistic regression. After repeat of 10,000 split-samples, the SS-MDS determined using weighted parameters was validated with average efficiency of 92.3%. For each parameter, the median of weighting coefficients was used in the mathematical model: \"SS-MDS = \u03a3 Ci . Pi + intercept\" with \" Ci: weighting coefficient of parameter i \" and \" Pi : parameter i value\". On the whole cohort, SS-MDS induced \"MDS\" flag for 11 MDS patients (red points in the Figures) for which conventional CBC algorithms failed to generate flag spreading peripheral blood smear. By fixing the threshold at -1.5, the sensitivity and specificity of SS-MDS were 100% and 92%, respectively. Moreover, the positive and negative predictive values were 93.5% and 100%, respectively. Conclusions The incidence of MDS increases with aging and the early diagnosis enables optimal care of these diseases. The Beckman-Coulter DxH 800 HematologyAnalyzer is widely used over the world. We propose in this study the clinical use of 10 unexploited \"research parameters\" to early detect subclinical MDS by selective triggering of blood smear examination. A prospective/multicentric study will allow the optimization of SS-MDS. Figure. View large Download slide Figure. View large Download slide  Disclosures No relevant conflicts of interest to declare."
 }
