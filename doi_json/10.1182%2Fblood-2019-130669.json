@@ -2,5 +2,96 @@
     "doi": "https://doi.org/10.1182/blood-2019-130669",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4369",
     "start_url_page_num": 4369,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "ADAR1 Drives Disease Progression in Multiple Myeloma By Acting Both As an RNA Editor of Specific Transcripts and As a DNA Mutator of Their Cognate Genes ",
+    "article_date": "November 13, 2019",
+    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
+    "topics": [
+        "disease progression",
+        "dna",
+        "genes",
+        "multiple myeloma",
+        "rna",
+        "enzymes",
+        "interferon type ii",
+        "interferon-alpha",
+        "nf-kappa b",
+        "nucleic acids"
+    ],
+    "author_names": [
+        "Rafail Nikolaos Tasakis, MSc, BSc",
+        "Alessandro Lagana, PhD",
+        "Violetta Leshchenko, PhD",
+        "David Melnekoff, BS,MS",
+        "Itai Beno, PhD",
+        "Jonathan J Keats, PhD",
+        "Daniel Auclair",
+        "Deepu Madduri, MD",
+        "Joshua Richter, MD",
+        "Ajai Chari, MD",
+        "Hearn Jay Cho, MD PhD",
+        "Sundar Jagannath, MD",
+        "Joel Dudley, PhD",
+        "F. Nina Papavasiliou, PhD",
+        "Samir Parekh, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Faculty of Biosciences, University of Heidelberg, Heidelberg, Germany ",
+            "Division of Immune Diversity, German Cancer Research Center (DKFZ), Heidelberg, Germany "
+        ],
+        [
+            "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Icahn Institute for Data Science and Genomic Technology, Icahn School of Medicine at Mount Sinai, New York, ",
+            "Institute for Next Generation Healthcare, Icahn School of Medicine at Mount Sinai, New York, NY "
+        ],
+        [
+            "Department of Hematology and Medical Oncology, Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY "
+        ],
+        [
+            "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Institute for Next Generation Healthcare, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Department of Hematology and Medical Oncology, Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY "
+        ],
+        [
+            "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Institute for Next Generation Healthcare, Icahn School of Medicine at Mount Sinai, New York, NY "
+        ],
+        [
+            "Translational Genomics Research Institute, Phoenix, AZ "
+        ],
+        [
+            "Multiple Myeloma Research Foundation (MMRF), Norwalk, CT "
+        ],
+        [
+            "Department of Hematology and Medical Oncology, Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY "
+        ],
+        [
+            "Department of Hematology and Medical Oncology, Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY "
+        ],
+        [
+            "Department of Hematology and Medical Oncology, Tisch Cancer Institute, Mt. Sinai School of Medicine, New York, NY "
+        ],
+        [
+            "Department of Hematology and Medical Oncology, Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY "
+        ],
+        [
+            "Department of Hematology and Medical Oncology, Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY "
+        ],
+        [
+            "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Institute for Next Generation Healthcare, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Icahn Institute for Data Science and Genomic Technology, Icahn School of Medicine at Mount Sinai, New York, NY "
+        ],
+        [
+            "Division of Immune Diversity, German Cancer Research Center (DKFZ), Heidelberg, Germany "
+        ],
+        [
+            "Department of Hematology and Medical Oncology, Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Department of Oncological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY"
+        ]
+    ],
+    "first_author_latitude": "49.4190991",
+    "first_author_longitude": "8.670250700000002",
+    "abstract_text": "RNA editing is an epitranscriptomic modification of emerging relevance to disease development and manifestations. Here we identify a novel role of the RNA editing enzyme ADAR1 in multiple myeloma (MM) progression as inducer of cognate DNA mutations. We have previously demonstrated (Lagana et al, ASH 2017) that ADAR1, which resides on human chromosome 1q21, is an RNA editor whose over-expression, either by IFN induction or through gene amplification, is associated with poor outcomes in MM. We now demonstrate robust and reproducible ADAR-mediated RNA editing in MM that increases with disease progression. At the same time, since disease progression is also correlated with the acquisition of new mutations, we asked whether ADAR1 could play the dual role of RNA editor and DNA mutator in MM, especially in the context of relapse. In fact, previous work has revealed that ADAR can exert its functions by acting on DNA/RNA hybrids in vitro (Zheng et al, Nucleic Acids Research 2017), and that DNA mutations at edited sites occur more often than at unedited sites in human and D melanogaster (Popitsch et al, BioRxiv 2017). We performed a careful bioinformatic dissection of matched pre-and post-relapse samples from 21 patients in the MMRF CoMMpass Study. Samples were profiled both with whole-exome sequencing (WES) to identify DNA mutations, and with RNAseq to identify editing instances. WES raw data was processed according to GATK Best Practices to generate alignment files, which were then processed with Samtools to identify mutations. RNAseq data was mapped using the tool GSNAP and processed using REDItools to identify editing events. Downstream analysis revealed a correlation between locations of RNA editing at diagnosis and of DNA mutation at relapse, with regions mutated matching known MM mutational hotspots in genes participating in several pathways that are relevant in MM, such as IFNa, IFNg response, IL2-STAT5 and TNF-NFkB. Finally, we demonstrated that editing at those locations is reproducible in a number of tumor cell lines, and that targeted editing of those locations could also result in the generation of mutations, similar to those we observed from patient data. Overall, we have shown that the RNA editor ADAR1, can also mutate the DNA cognate to the targeted transcript, generating specific mutational signatures at predetermined locations. We further hypothesize that this dual role of RNA editor and DNA mutator might be shared by other deaminases, and we suggest that in some contexts, DNA mutation might be the result of collateral damage on the genome by an editing enzyme whose primary job is to re-code the cognate transcript toward specific functional outcomes. Disclosures Madduri: undation Medicine: Consultancy; Celgene: Consultancy; Abbvie: Consultancy; Takeda: Consultancy. Richter: Adaptive Biotechnologies: Membership on an entity's Board of Directors or advisory committees; Amgen: Consultancy, Speakers Bureau; Bristol-Meyers Squibb: Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Celgene: Consultancy, Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Janssen: Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Karyopharm: Membership on an entity's Board of Directors or advisory committees; Oncopeptides: Membership on an entity's Board of Directors or advisory committees; Sanofi: Membership on an entity's Board of Directors or advisory committees; Takeda: Membership on an entity's Board of Directors or advisory committees. Chari: Seattle Genetics: Membership on an entity's Board of Directors or advisory committees, Research Funding; Sanofi: Membership on an entity's Board of Directors or advisory committees; Pharmacyclics: Research Funding; Oncoceutics: Research Funding; Novartis Pharmaceuticals: Research Funding; GlaxoSmithKline: Research Funding; Array Biopharma: Research Funding; Karyopharm: Consultancy, Membership on an entity's Board of Directors or advisory committees; Janssen: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Millennium/Takeda: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Celgene: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Bristol-Myers Squibb: Consultancy; Amgen: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding. Cho: Agenus: Research Funding; Genentech: Honoraria, Research Funding; BMS: Consultancy; GSK: Consultancy; Takeda: Research Funding; Celgene: Honoraria, Research Funding; The Multiple Myeloma Research Foundation: Employment. Jagannath: Celgene: Consultancy; Novartis: Consultancy; Merck: Consultancy; Medicom: Speakers Bureau; Multiple Myeloma Research Foundation: Speakers Bureau; BMS: Consultancy. Parekh: Foundation Medicine Inc.: Consultancy; Karyopharm Inc.: Research Funding; Celgene Corporation: Research Funding."
 }
