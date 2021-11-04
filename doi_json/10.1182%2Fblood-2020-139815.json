@@ -2,5 +2,84 @@
     "doi": "https://doi.org/10.1182/blood-2020-139815",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4484",
     "start_url_page_num": 4484,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Multicenter Validation of a Personalized Model to Predict Hypomethylating Agent Response in Myelodysplastic Syndromes (MDS) ",
+    "article_date": "November 5, 2020",
+    "session_type": "637.Myelodysplastic Syndromes-Clinical Studies",
+    "topics": null,
+    "author_names": [
+        "Nathan Radakovich, BA",
+        "David A. Sallman, MD",
+        "Rena J. Buckstein, MD FRCPC",
+        "Andrew M. Brunner, MD",
+        "Sudipto Mukherjee, MD PhD MPH",
+        "Rami Komrokji, MD",
+        "Najla Al Ali, M.Sc",
+        "Jacob Shreve, MD MS",
+        "Yazan Rouphail",
+        "Cassandra M Kerr, MS",
+        "Yihong Guan, PhD",
+        "Teodora Kuzmanovic, BA",
+        "Metis Hasipek, PhD",
+        "Babal K. Jha, PhD",
+        "Jaroslaw P. Maciejewski, MD PhD",
+        "Mikkael A. Sekeres, MD MS",
+        "Aziz Nazha, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Cleveland Clinic Lerner College of Medicine of Case Western Reserve University, Bellingham, WA "
+        ],
+        [
+            "H. Lee Moffitt Cancer Center, Tampa, FL "
+        ],
+        [
+            "Sunnybrook Odette Cancer Center, Toronto, Canada "
+        ],
+        [
+            "Dana-Farber Cancer Institute, Boston, MA "
+        ],
+        [
+            "Leukemia Program, Department of Hematology and Medical Oncology, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "H. Lee Moffitt Cancer Center, Tampa, FL "
+        ],
+        [
+            "H. Lee Moffitt Cancer Center and Research Institute, Tampa, FL "
+        ],
+        [
+            "Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Ohio State University, Rocky River, OH "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic Foundation, Cleveland, OH "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic Foundation, Cleveland, OH "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic Foundation, Cleveland, OH "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Leukemia Program, Department of Hematology and Medical Oncology, Cleveland Clinic Taussig Cancer Institute, Cleveland, OH "
+        ],
+        [
+            "Leukemia Program, Department of Hematology and Medical Oncology, Taussig Cancer Institute, Quantitative Health Sciences, Avon Lake, OH"
+        ]
+    ],
+    "first_author_latitude": "41.504467999999996",
+    "first_author_longitude": "-81.620474",
+    "abstract_text": "Background While hypomethylating agents (HMAs) can improve cytopenias and even survival for MDS patients (pts), only 30-40% of pts respond to HMAs. Predicting response or resistance to therapy can improve pt outcomes, decrease cost and toxicities, and suggest alternative therapies when response is unlikely. No clinical or molecular model can reliability predict response or resistance to HMAs. We developed and validated a model to provide personalized predictions of response or resistance to HMAs during 12 weeks of treatment by monitoring changes in blood counts during therapy. Methods MDS pts treated with HMAs (azacitidine or decitabine) at Cleveland Clinic (314 pts) and the Moffit Cancer Center (100) and had their CBCs with differential monitored every 1-2 weeks in the first 12 weeks of therapy compromised the training cohort. The final model was externally validated in 80 MDS pts treated with HMAs at Sunnybrook hospital. Responses were defined per 2006 IWG criteria and pts with complete response (CR), marrow CR, partial response (PR), or hematologic improvement (HI) were considered responders. Time series analysis (analysis of serial changes in blood count parameters) using machine learning technology was used to develop the model, analogous to voice recognition algorithms such as Apple's Siri and Alexa, in which the sequence of words allows these algorithms to understand sentences. Changes in blood counts and monitoring the patterns of these changes during HMA therapy similarly can predict response/resistance to treatment. The area under the curve (AUC) was used to evaluate the performance of the final model. A feature importance algorithm was used to define the variables that most impacted the algorithm's decision for a given pt. Results For 494 included pts from all cohorts, the median age was 72 years (range: 40-94), 145 (29%) were female. Pts' IPSS-R scores at the time of treatment were: very low 4%; low 21%; intermediate 24%; high 21%; and very high 22%. Responses included: 56 (11%) complete remission (CR), 17 (3%) marrow CR, 6 (3%) partial remission (PR), and 143 (29%) hematologic improvement (HI). When trained exclusively on serial CBC values (adding other clinical or molecular values did not improve the model's performance), the model achieved an AUC of 0.82 in a cross-validated train/test schema and a similar AUC of 0.78 when it was applied to the Sunnybrook cohort. Feature importance algorithms identified improvements in hemoglobin from baseline between days 21-30 of therapy, improvement in platelets between days 51 and 60, changes in monocyte % between days 41 and 50, and changes in MCV and RDW between days 31 and 60 as predictors of response, Figure 1a. The model also can provide a personalized heatmap that summarizes the variables that impacted the response or resistance to HMAs and are specific for a given pt, Figure 1b, 1c. Conclusions We developed and externally validated a personalized prediction model that uses changes in blood counts during the initial 3 cycles of HMA therapy and can predict response or resistance to treatment with high accuracy. The model can provide personalized explanations of the variables that inform a given outcome. It can be used to develop novel clinical trial designs in which pts who are predicted not to respond within 3 cycles of HMA therapy can receive an investigational agent in addition to continuing HMA or change treatment entirely, whereas patients who are predicted to respond continue to receive HMA monotherapy. View large Download slide View large Download slide Disclosures Sallman: Agios, Bristol Myers Squibb, Celyad Oncology, Incyte, Intellia Therapeutics, Kite Pharma, Novartis, Syndax: Consultancy; Celgene, Jazz Pharma: Research Funding. Buckstein: Celgene: Research Funding; Takeda: Research Funding; Celgene: Honoraria; Astex: Honoraria; Novartis: Honoraria. Brunner: Forty Seven, Inc: Consultancy; Biogen: Consultancy; Acceleron Pharma Inc.: Consultancy; Jazz Pharma: Consultancy; Novartis: Consultancy, Research Funding; Takeda: Consultancy, Research Funding; Xcenda: Consultancy; GSK: Research Funding; Janssen: Research Funding; Astra Zeneca: Research Funding; Celgene/BMS: Consultancy, Research Funding. Mukherjee: Celgene/Acceleron: Membership on an entity's Board of Directors or advisory committees; Aplastic Anemia and MDS International Foundation: Honoraria; Celgene: Consultancy, Honoraria, Research Funding; Bristol Myers Squib: Honoraria; Partnership for Health Analytic Research, LLC (PHAR, LLC): Honoraria; Novartis: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; EUSA Pharma: Consultancy. Komrokji: Abbvie: Honoraria; Agios: Speakers Bureau; BMS: Honoraria, Speakers Bureau; Jazz: Honoraria, Speakers Bureau; Incyte: Honoraria; Acceleron: Honoraria; Geron: Honoraria; Novartis: Honoraria. Maciejewski: Novartis, Roche: Consultancy, Honoraria; Alexion, BMS: Speakers Bureau. Sekeres: BMS: Consultancy; Pfizer: Consultancy; Takeda/Millenium: Consultancy. Nazha: Jazz: Research Funding; Incyte: Speakers Bureau; Novartis: Speakers Bureau; MEI: Other: Data monitoring Committee."
 }
