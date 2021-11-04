@@ -2,5 +2,65 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-117633",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4005",
     "start_url_page_num": 4005,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Integration of Multiple Bioassays Using Machine Learning to Identify High-Risk CP-CML Patients Treated with Frontline Imatinib ",
+    "article_date": "November 29, 2018",
+    "session_type": "632. Chronic Myeloid Leukemia: Therapy: Poster I",
+    "topics": null,
+    "author_names": [
+        "Chung Hoow Kok, PhD BSc",
+        "Sakrapee Paisitkriangkrai, PhD",
+        "David T Yeung, PhD BSc, FRACP, FRCPA MBBS",
+        "Liu Liu, PhD BSc",
+        "Verity A Saunders",
+        "Phuong Dang",
+        "Agnes S. M. Yong, MD PhD",
+        "Deborah L White, PhD",
+        "Timothy P. Hughes, MD MBBS, FRACP, FRCPA"
+    ],
+    "author_affiliations": [
+        [
+            "Cancer Theme, South Australian Health and Medical Research Institute, North Adelaide, Australia ",
+            "Adelaide Medical School, The University of Adelaide, Adelaide, Australia "
+        ],
+        [
+            "School of Computer Science, The University of Adelaide, Adelaide, Australia "
+        ],
+        [
+            "Adelaide Medical School, The University of Adelaide, Adelaide, Australia ",
+            "Cancer Theme, South Australian Health and Medical Research Institute, Adelaide, Australia ",
+            "Department of Haematology, Royal Adelaide Hospital and SA Pathology, Adelaide, Australia ",
+            "Australasian Leukaemia and Lymphoma Group, Melbourne, Australia "
+        ],
+        [
+            "Adelaide Medical School, The University of Adelaide, Adelaide, Australia ",
+            "Cancer Theme, South Australian Health and Medical Research Institute, Adelaide, Australia "
+        ],
+        [
+            "Cancer Theme, South Australian Health and Medical Research Institute, Adelaide, Australia "
+        ],
+        [
+            "Cancer Theme, South Australian Health and Medical Research Institute, Adelaide, Australia "
+        ],
+        [
+            "Adelaide Medical School, The University of Adelaide, Adelaide, Australia ",
+            "Cancer Theme, South Australian Health and Medical Research Institute, Adelaide, Australia ",
+            "Department of Haematology, Royal Adelaide Hospital and SA Pathology, Adelaide, Australia "
+        ],
+        [
+            "Adelaide Medical School, The University of Adelaide, Adelaide, Australia ",
+            "Cancer Theme, South Australian Health and Medical Research Institute, Adelaide, Australia ",
+            "Australasian Leukaemia and Lymphoma Group, Melbourne, Australia ",
+            "School of Biological Sciences. Faculty of Sciences, University of Adelaide, Adelaide, Australia"
+        ],
+        [
+            "Adelaide Medical School, The University of Adelaide, Adelaide, Australia ",
+            "Cancer Theme, South Australian Health and Medical Research Institute, Adelaide, Australia ",
+            "Department of Haematology, Royal Adelaide Hospital and SA Pathology, Adelaide, Australia ",
+            "Australasian Leukaemia and Lymphoma Group, Melbourne, Australia "
+        ]
+    ],
+    "first_author_latitude": "-34.9214668",
+    "first_author_longitude": "138.59119399999997",
+    "abstract_text": "Introduction. Imatinib has revolutionised the treatment of chronic phase-chronic myeloid leukemia (CP-CML), with up to 70% of patients (pts) achieving major molecular response (MMR, BCR-ABL1 < 0.1% IS). Achievement of MMR by 2 years (yrs) is associated with an excellent prospect of long term survival. Currently, three baseline prognostic scoring systems - the Sokal, Hasford (Euro) and EUTOS risk scores - have all been used to identify pts with a poor response and/or an adverse prognosis in CP-CML. Recently, the EUTOS long-term survival (ELTS) score is shown to have strong predictive power for overall survival in CML pts. We have previously reported bioassays that have significant value for predicting MMR. Combinations of these biomarkers, together with clinical risk score, may provide a better indicator of high risk pts at the time of diagnosis. Aim. To identify high-risk pts by combining selected predictive bioassay, determine whether the ELTS score is more discriminating, and determine whether it provides additional predictive value when combined with the biomarker score. Methods. Bioassays including CRKL IC50 imatinib (White, Blood, 2005), OCT-1 Activity (OA)(White, JCO, 2010), leves of 39 plasma cytokines (Nievergall, Leukemia, 2016), expression of 20 most prognostic gene by qPCR TLDA (Kok, ASH abstract, 2015), ABCB1 gene expression (Eadie, Leukemia, 2016), KIR2DL5B genotype (Yeung, Blood, 2015), BIM and ASXL1 polymorphisms (Marum, Blood advances, 2017) were used in this study. High-risk by biomarker score (HR) was defined as pts who did not achieve MMR by 2 yrs. 210 TIDEL-II pts (frontline imatinib with early switch to nilotinib for failure to meet optimal time-dependent molecular targets) were used in this study (Yeung, Blood, 2015). Only 201 pts had ELTS scores. The Recursive Partitioning and Regression Trees (rpart) algorithm was used to identify important bioassays in predicting high-risk pts. Fisher's-exact test was used for statistical analysis. Results. In the TIDEL-II cohort, there were 21 high ELTS and 180 low/intermediate ELTS pts. Pts with high ELTS had significantly lower rates of MMR by 2 yrs compared to those pts with low/intermediate ELTS (57% vs 81%, p=0.02). We constructed a predictive model using multiple different bioassays as variables to predict high-risk pts. The rpart based model used in this analysis yielded four variables ( IGFBP2 gene expression, KIR2DL5B genotype, OA, and MCP-1 cytokine plasma level) as most important for predicting high-risk pts. The accuracy of the model was 84%. Pts predicted as high-risk (HR, n=27) had significantly lower MMR achievement rate compared to those predicted as low-risk (LR), (26% vs 86%, n=183, p<0.0001, OR:17.3). Importantly, pts with HR had significantly higher rate of blast-crisis progression (15%, n=4/27) compared to those with LR (1.6%, n=3/183, p=0.006, OR:10.4) and pts with high ELTS (5%, n=1/21). Interestingly, there were two categories of HR patient groups based on the model: 1) Patient with high IGFBP2 gene expression and low OA, and 2) pts with low IGFBP2 , KIR2DL5B positive genotype and high MCP-1 cytokine level. When combined with ELTS, the bioassays model improved ELTS performance in predicting HR pts. For instance, within the low/intermediate ELTS pts group, our assays could futher distinguish HR pts with inferior MMR (n=20, 2 yrs MMR of 30%) versus LR pts (n=160, 2 yrs MMR 87%). Similarly, pts with high ELTS in combination with HR also had lower MMR rate (n=1/5, 20%) compared to pts with high ELTS in combination with LR (n=11/16, 69%, p=0.11, OR:8.8). Conclusion. We developed a combined bioassays model that is predictive of MMR failure and adverse clinical outcomes for pts who receive optimised frontline imatinib therapy. This model performs well even without adding clinical parameters. Our model has additional predictive value when used together with the ELTS score, and can distinuguish HR pts within the low/intermediate ELTS group, as well as LR patients within the high ELTS category. Further confirmation of the predictive performance of this model, using a large independent patient cohort is now indicated. We postulate that this bioassay-based model could be used, in combination with ELTS, for identifying HR pts who would benefit from intensified therapeutic approaches to obtain optimal clinical outcome. View large Download slide View large Download slide  Disclosures Yeung: Amgen: Honoraria; Pfizer: Honoraria; BMS: Honoraria, Research Funding; Novartis: Honoraria, Research Funding; Specialised Therapeutics Australia: Honoraria. Yong: Celgene: Research Funding; Novartis: Honoraria, Research Funding; BMS: Honoraria, Research Funding. White: BMS: Research Funding; Novartis: Honoraria, Research Funding. Hughes: Novartis: Honoraria, Membership on an entity's Board of Directors or advisory committees; Incyte: Honoraria, Membership on an entity's Board of Directors or advisory committees; BMS: Honoraria, Membership on an entity's Board of Directors or advisory committees."
 }
