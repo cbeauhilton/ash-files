@@ -2,5 +2,63 @@
     "doi": "https://doi.org/10.1182/blood.V128.22.1977.1977",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3524",
     "start_url_page_num": 3524,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Development and Validation of Automated Flow Cytometry System for the Diagnosis and Prediction of Molecular Abnormalities in Myelodysplastic Syndrome ",
+    "article_date": "December 2, 2016",
+    "session_type": "636. Myelodysplastic Syndromes-Basic and Translational Studies: Poster I",
+    "topics": [
+        "flow cytometry",
+        "myelodysplastic syndrome",
+        "antibodies",
+        "bone marrow specimen",
+        "cytopenia",
+        "leukemia",
+        "lymphoma",
+        "massively-parallel genome sequencing",
+        "molecular profiling",
+        "chromosome abnormality"
+    ],
+    "author_names": [
+        "Maher Albitar, MD",
+        "Babak Shahbaba, PhD",
+        "Sally Agersborg, MD PhD",
+        "Richard Chang, BS",
+        "Adam Albitar, BS",
+        "David Uyeji, BS",
+        "Gabriel Luchetta, BS",
+        "Hongjun Su, PhD",
+        "Hong Zhang, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "NeoGenomics Laboratories, Aliso Viejo, CA "
+        ],
+        [
+            "University of California, School of Information and Computer Science, Irvine, CA "
+        ],
+        [
+            "NeoGenomics Laboratories, Aliso Viejo, CA "
+        ],
+        [
+            "NeoGenomics Laboratories, Aliso Viejo, CA "
+        ],
+        [
+            "NeoGenomics Laboratories, Aliso Viejo, CA "
+        ],
+        [
+            "NeoGenomics Laboratories, Aliso Viejo, CA "
+        ],
+        [
+            "NeoGenomics Laboratories, Aliso Viejo, CA "
+        ],
+        [
+            "Department of Computer Science and Information Technology, Armstrong State University, Savannah, GA"
+        ],
+        [
+            "Department of Computer Science and Information Technology, Armstrong State University, Savannah, GA"
+        ]
+    ],
+    "first_author_latitude": "33.5875269",
+    "first_author_longitude": "-117.7267858",
+    "abstract_text": "Background: Diagnosis of myelodysplastic syndrome (MDS) is not clear-cut based on morphology or flow cytometry, especially when blast count is not increased. Cytogenetics and molecular profiling remains the most important means for confirming the diagnosis of MDS. Numerous studies have attempted to use flow cytometry-based scores for the diagnosis of MDS. However, most of these scores involve subjective parameters that are difficult to standardize. We developed a flow cytometry software with a capability to automatically capture additional parameters of each gated cell population and used the generated metadata for developing an algorithm for the diagnosis and prediction of molecular abnormalities in MDS then integrated this algorithm as a feature of the software for routine analysis. Methods and Results: This new smart software automatically captures and saves the following parameters from each quadrant from each gate: percentage of cells, mean intensity, dispersion in this quadrant (variance) for each antibody on the X and Y axis, and the correlation coefficient between the X and Y dispersions. Using a standard 23 antibodies panel for leukemia and lymphoma evaluation and conventional gating leads to capturing on the average a 2623 different data points. Using this smart software, we analyzed 294 bone marrow samples referred for suspected diagnosis of MDS due to cytopenia and captured the metadata. All samples had molecular evaluation by NGS using 54 gene panel and majority had cytogenetic data. Patients classified as having MDS if molecular studies or cytogenetic data showed one or more abnormality associated with MDS. Univariate analysis showed that 103 variables to be statistically significant in distinguishing MDS with adjusted P-values less than 0.05 after controlling for false discovery rate (FDR). In multivariate analysis we first used a lasso logistic regression model and selected 40 variables. Using these variables, we developed a predictive model using a support vector machine (SVM) to identify MDS. Upon testing this model using the leave-one-out procedure, the area under the ROC curve was 91.6%. For further validation of this algorithm after integration into the software, we tested blindly additional cohort of 115 patients that had bone marrow submitted for ruling out MDS. The algorithm correctly distinguished between MDS and non-MDS in 104 (90.4%) of these patients using a cut-of point at 0.55 and predicted the presence of cytogenetic abnormality or the presence of one or more genes mutated. Mutations at allele frequency \u226520% are considered adequate for the diagnosis of MDS. Upon correlating the algorithm score with the number of mutated genes as a reflection of the severity of the disease, there was statistically significant (P< 0.0001) correlation between the score and the number of mutated genes (figure). Conclusion: We developed a system in flow cytometry analysis that captures new parameters reflecting dispersion of staining in each gated subpopulation and the correlation between the dispersion of staining antibodies. These new parameters have been proven to be very useful in the diagnosis and prediction of the diagnosis of MDS allowing us to develop automated and reliable algorithm for the diagnosis of MDS and the prediction of level of molecular abnormalities. Figure View large Download slide Figure View large Download slide  Disclosures Albitar: Neogenomics Laboratories: Employment, Equity Ownership. Shahbaba: University of California, Irvine: Employment. Agersborg: Neogenomics Laboratories: Employment, Equity Ownership. Chang: Neogenomics Laboratories: Employment. Albitar: Neogenomics Laboratories: Employment. Uyeji: Neogenomics Laboratories: Employment. Luchetta: Neogenomics Laboratories: Employment. Su: Armstrong State University: Employment. Zhang: Armstrong State University: Employment."
 }
