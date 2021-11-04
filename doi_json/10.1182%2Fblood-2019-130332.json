@@ -2,5 +2,35 @@
     "doi": "https://doi.org/10.1182/blood-2019-130332",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4222",
     "start_url_page_num": 4222,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Quantitative Modeling of Azacitidine Resistance in Patients with Myelodysplastic Syndrome Identifies Distinct Phenotypes of Disease Progression: Evidence for the Presence of a Disease Versus Native Clone Effect ",
+    "article_date": "November 13, 2019",
+    "session_type": "637.Myelodysplastic Syndromes-Clinical Studies",
+    "topics": [
+        "azacitidine",
+        "clone cells",
+        "disease progression",
+        "myelodysplastic syndrome",
+        "phenotype",
+        "prostatic hypertrophy risk score",
+        "seizures",
+        "leukemia",
+        "platelet transfusion",
+        "blood cell count"
+    ],
+    "author_names": [
+        "Roman M Shapiro, MD",
+        "Adam R Stinchcombe, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA "
+        ],
+        [
+            "Department of Mathematics, University of Toronto, Toronto, Canada"
+        ]
+    ],
+    "first_author_latitude": "42.333785999999996",
+    "first_author_longitude": "-71.14355019999999",
+    "abstract_text": "Introduction Myelodysplastic syndrome (MDS) patients who are treated with azacitidine (AZA) may develop drug resistance in a number of different ways. Distinguishing the mechanisms underlying disease progression to leukemia while on AZA as opposed to clonal evolution without an increasing blast count is challenging due to the difficulty of studying MDS clones and their effect on non-diseased hematopoietic stem cells (HSCs). The application of a robust mathematical model of hematopoiesis to MDS patients allows for the calculation of kinetic parameters reflective of the function of the dominant hematopoietic clones, and infers the behaviour of both HSCs and MDS clones. We demonstrate the application of such a model applied to IPSS int-2/hi risk MDS patients treated with AZA, and show how different natural histories of disease can be explained by changes in model parameters over time. We also demonstrate how interactions between modeled HSCs and MDS clones can be inferred from the model. Methods A database of 97 IPSS int-2/hi risk MDS patients treated with AZA was previously constructed containing longitudinal peripheral blood count and laboratory data during the period 2008-2016, and was used for model fitting. Of these patients, 79 patients had sufficient data for modeling. A mathematical model of hematopoiesis was developed based on a formulation by Colijn and Mackey and modified to include a bone marrow blast compartment. Hematopoietic kinetic parameters were fit to de-identified patient laboratory data using a Kalman filter. The model data input was adjusted for red blood cell and platelet transfusion frequency and weighted so that parameter fits were made insensitive to periods of acute illness as identified from chart review and ancillary laboratory values. The resulting fit parameters represented a weighted average of disease and native HSCs contributions. Model parameters were evaluated with respect to time and sensitivity analysis was done identifying optimal correlation with the development of AZA resistance. A novel analysis was developed to determine if the contributions of the native and disease HSCs to peripheral blood counts are in proportion to their clonal burdens, or if the AZA-resistant phenotype reflected an additional effect of the MDS clones on the native HSCs. Results A schematic of the improved model of hematopoiesis adapted to MDS is shown along with the distribution of data collected over time (Fig 1A-B). The model fits for three representative patients are shown with different disease courses: AZA resistance with a rapidly rising blast count (patient 90), AZA resistance with a minimal rise in the blast count (patient 86), and AZA resistance with cytogenetic evolution without an increase in the blast count (patient 74). The model was fit to the longitudinal peripheral blood counts and bone marrow blast count data (Fig 2A-D). Development of AZA resistance in patient 74 was best correlated with a reduction in the average HSC self-renewal time (\u03c4 S in Fig 2E), and this reduction was related to disease burden in a linear manner (Fig 2F, leftmost panel). Similarly, the development of AZA resistance in patient 86 was best correlated with an increase in the intrinsic threshold rate at which a stem cell differentiates (k 0 in Fig 2E), and this increase was related to disease burden in a non-linear manner (Fig 2F, middle panel). For patient 90, the development of AZA resistance was best correlated with a decrease in the maximum rate of HSC differentiation (f 0 in Fig 2E), and this decrease was related to disease burden in a non-linear manner (Fig 2F, rightmost panel). Discussion MDS patients in our cohort developed AZA resistance in distinct ways, and this correlated with changes in either HSC self-renewal time, differentiation threshold, or maximum differentiation rate. In the former case, the linearity in modeled HSC self-renewal time with respect to disease burden suggested this parameter change is accounted for by an expanding MDS clone. In the latter two cases, the mechanism of AZA resistance is hypothesized to be associated with an increased MDS clone threshold for differentiation as well as decreased maximum rate of HSC differentiation. The non-linearity of the association between these rate changes and disease burden suggests they were driven in large part by an external influence from the MDS clone on the HSCs. Further validation of these findings in a larger cohort of MDS patients is anticipated. View large Download slide View large Download slide  Disclosures No relevant conflicts of interest to declare."
 }
