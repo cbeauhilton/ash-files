@@ -2,5 +2,63 @@
     "doi": "https://doi.org/10.1182/blood.V128.22.5651.5651",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3425",
     "start_url_page_num": 3425,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Single Cell Whole Exome Sequencing in an Index Case of Amp1q21 Multiple Myeloma to Define Intraclonal Variation ",
+    "article_date": "December 2, 2016",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy",
+    "topics": [
+        "multiple myeloma",
+        "whole exome sequencing",
+        "neoplasms",
+        "spinal cord stimulation",
+        "cancer",
+        "dideoxy chain termination dna sequencing",
+        "false-positive results",
+        "massively-parallel genome sequencing",
+        "mitogen-activated protein kinases",
+        "tumor cells"
+    ],
+    "author_names": [
+        "Dean Bryant, PhD",
+        "Will Tapper, PhD",
+        "Nicola J Weston-Bell, PhD",
+        "Arnold Bolomsky, PhD",
+        "Li Song, PhD",
+        "Shengtao Xu, B.Sc",
+        "Andrew R Collins, PhD",
+        "Niklas Zojer, MD",
+        "Surinder Singh Sahota, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "University of Southampton, Southampton, United Kingdom "
+        ],
+        [
+            "University of Southampton, Southampton, United Kingdom "
+        ],
+        [
+            "Cancer Sciences Academic Unit, Faculty of Medicine, University of Southampton, Southampton, United Kingdom "
+        ],
+        [
+            "Department of Medicine I, Wilhelminenspital, Wilhelminen Cancer Research Institute, Vienna, Austria "
+        ],
+        [
+            "BGI, Shenzhen, China "
+        ],
+        [
+            "BGI, Shenzhen, China "
+        ],
+        [
+            "Genetic Epidemiology and Bioinformatics, Faculty of Medicine, University of Southampton, Southampton, United Kingdom "
+        ],
+        [
+            "Department of Medicine I, Wilhelminenspital, Wilhelminen Cancer Research Institute, Vienna, Austria "
+        ],
+        [
+            "University of Southampton, Southampton, GBR"
+        ]
+    ],
+    "first_author_latitude": "50.91480249999999",
+    "first_author_longitude": "-1.3964495",
+    "abstract_text": "Introduction Multiple myeloma (MM) is a largely incurable plasma cell malignancy characterised by marked genomic heterogeneity, in which chromosome 1q21 amplification (amp1q21) associates with poor prognosis. Genomic analysis using next generation sequencing has identified recurrent mutations, but no universal acquired somatic mutation(s) have emerged in MM, suggesting that understanding pathways of survival will require analysis of individual tumours in distinct disease subsets. To compound complexity of the problem, intraclonal variation (ICV), known as a major driver mechanism in cancer plasticity, in which clonal competitor cells undergo selection during disease evolution and progression by Darwinian principles, will need to be fully mapped at the genome level. Identifying the true level of ICV in a tumour will thus require analysis at the level of whole exome sequencing (WES) in single cells (SCs). In this study, we sought to establish WES methodology able to identify ICV in SCs in an index case of amp1q21 MM. Methods Cell selection and sequencing CD138+ tumour cells and CD3+ T-cells were isolated from a presentation case of amp1q21 MM as bulk populations to high purity (>97%). Single MM cells and normal T cells were individually isolated and used for single cell (SC) whole exome sequencing (WES). Whole genome amplification (WGA) was performed by multiple displacement amplification (Qiagen REPLI-g Mini kit), and exome capture was performed using Agilent SureSelect. Libraries were then 90 bp paired end sequenced on an Illumina HiSeq2000 (BGI, China). Data analysis Data was produced for bulk (1000 cells) MM and bulk germline T cells, twenty MM SCs and five T cell SCs. Raw data was aligned to hg19 reference sequence using NovoAlignMPI (v3.02.03). Variant calling was performed using SAMtools (v1.2.1) and VarScan (v2.3.6) and variants were annotated using ANNOVAR. High confidence variants were called in the bulk tumour WES by pairwise comparison with bulk germline WES. Variant lists were also cross-searched against various variant databases (CG46, 1000 genomes, dbSNP, esp650 and in-house database) in order to exclude variants that occur in the general population. Multiple quality control measures were employed to reduce the number of false positive calls. Results and Discussion Data and bioinformatics pipelines are of a high quality SC WES generated raw data reads that were similar to bulk WES of 1000 cells, with comparable mapping to Agilent SureSelect target exome (69-76% SC vs. 70% bulk) and mean fold coverage (56.8-59.1x vs. 59.7x bulk). On average, 82% of the exome was covered sufficiently for somatic variant (SV) calling (often considered as \u2265 5x), which was higher than seminal published SC WES studies (70-80%) (Hou et al., Cell, 2012; Xu et al., Cell, 2012). We identified 33 potentially deleterious SVs in the bulk tumour exome with high confidence bioinformatics, 21 of which were also identified in one or more SC exomes. The variants identified include suspected deleterious mutations in genes involved in MAPK pathway, plasma cell differentiation, and those with known roles in B cell malignancies. To confirm SV calls, randomly selected variants were validated by conventional Sanger sequencing, and of 15/15 variants in the bulk WES and of 55/55 variants in SCs, to obtain 100% concordance. Intraclonal variation in MM Significantly, ICV was apparent from the SC exome variant data. Total variant counts varied considerably among SCs and most variant positions had at least several cells where no evidence of the variant existed. Bulk WES lacks crucial information We identified an additional 23 variants that were present in 2+ SC exomes, but absent in the bulk MM tumour exomes. Of these, 30% (7 variants) were examined for validation, and were amplifiable in at least one cell to deliver 100% concordance with variant calls. These variants are of significant interest as they reveal a marked occurrence of subclonal mutations in the MM tumour population that are not identified by bulk exome sequencing. They indicate that the mutational status of the MM genome may be substantially underestimated by analysis at the bulk tumour population level. Conclusion In this work we establish the feasibility of SC WES as a method for defining intraclonal genetic variation in MM. Disclosures No relevant conflicts of interest to declare."
 }
