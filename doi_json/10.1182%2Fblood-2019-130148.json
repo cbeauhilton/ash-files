@@ -2,5 +2,119 @@
     "doi": "https://doi.org/10.1182/blood-2019-130148",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4241",
     "start_url_page_num": 4241,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "The Impact of Treatment Recommendation By Leukemia Artificial Intelligence Program (LEAP) on Survival in Patients with Chronic Myeloid Leukemia in Chronic Phase (CML-CP) ",
+    "article_date": "November 13, 2019",
+    "session_type": "632.Chronic Myeloid Leukemia: Therapy",
+    "topics": [
+        "artificial intelligence",
+        "leukemia",
+        "leukemia, myelocytic, chronic",
+        "protein-tyrosine kinase inhibitor",
+        "antigens",
+        "imatinib mesylate",
+        "actinium",
+        "dasatinib",
+        "disease remission",
+        "laboratory techniques and procedures"
+    ],
+    "author_names": [
+        "Koji Sasaki, MD",
+        "Hagop M. Kantarjian, MD",
+        "Elias Jabbour, MD",
+        "Farhad Ravandi, MD",
+        "Marina Y Konopleva, MD PhD",
+        "Gautam M. Borthakur, MD",
+        "William G. Wierda, MD PhD",
+        "Naval G. Daver, MD",
+        "Koichi Takahashi, MD",
+        "Kiran Naqvi, MDMPH",
+        "Courtney D. DiNardo, MDMSc",
+        "Guillermo Montalban Bravo, MD",
+        "Rashmi Kanagal-Shamanna, MD",
+        "Naveen Pemmaraju, MD",
+        "Ghayas C. Issa, MD",
+        "Preetesh Jain, MBBS,MDDM,PhD",
+        "Jeffrey Skinner, MHA",
+        "Mary B. Rios, RN",
+        "Sherry A. Pierce, BSN, BA",
+        "Kelly Soltysiak, PhD",
+        "Junya Sato",
+        "Guillermo Garcia-Manero, MD",
+        "Jorge E. Cortes, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "University of Texas MD Anderson Cancer Center, Department of Leukemia, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "University of Texas MD Anderson Cancer Center, Department of Leukemia, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, UT MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Hematopathology, University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Faculty of Medicine, The University of Osaka, Osaka, Japan"
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ]
+    ],
+    "first_author_latitude": "29.707097200000003",
+    "first_author_longitude": "-95.39710199999999",
+    "abstract_text": "INTRODUCTION: The survival of patients with chronic myeloid leukemia in chronic phase (CML-CP) is approaching that of general population after the approval of tyrosine-kinase inhibitors (TKI), particularly in younger patients who achieve remission. The optimal frontline TKI therapy in older patients in the context of comorbidity remains unknown. The aim of this study is to develop the LEukemia Artificial intelligence Program (LEAP) for treatment recommendations for patients with CML-CP. METHODS: From July 30, 2000 to November 25, 2014, 630 consecutive patients with newly diagnosed CML-CP were enrolled in frontline TKI therapy (imatinib 400 mg/day, imatinib 800 mg/day, nilotinib, dasatinib, and ponatinib). We included 101 social, demographic, clinical, chromosomal, and molecular variables such as the distance from home address to our institution, primary language, the European Treatment and Outcome Study (EUTOS) risk, the EUTOS long-term survival (ELTS) risk, and the severity of comorbidities by Adult Comorbidity Evaluation 27 (ACE-27). We developed an extreme gradient boosting decision tree model through ensemble learning after hyperparameter tuning. Hyperparameter optimization was calculated with Stampede2, a supercomputer located at Texas Advanced Computing Center, which was ranked as the 15th fastest supercomputer in June 2018. The extreme gradient boosting decision tree model was developed for the prediction of overall survival using only the training/validation cohort. We evaluated the final performance with the independent test cohort. A difference in hazard ratios of less than 0.005 between the best treatment option and alternative TKI therapy was considered as the LEAP recommendation. The test cohort was divided into the LEAP recommendation and the LEAP non-recommendation cohort by the LEAP recommendation. To confirm the association and causation of the LEAP recommendation with survival, we performed backward multivariate Cox regression, and inverse probability of treatment weighing (IPTW) to balance baseline difference of covariates. We calculated SHapley Additive exPlanations 1 values to interpret the black box of the LEAP recommendation for the evaluation of the significance of variable for prediction. RESULTS: The whole cohort was randomly divided into a training/validation (N=504) cohort and a test cohort (N=126) at a 4:1 ratio (Figure 1). The training/validation cohort was used for 3-fold cross validation to develop the LEAP CML-CP model. The number of decision trees was 8417, 14659, and 14190 in the first, second, and third cross validation cohort, respectively (Figure 2). The accuracy of prediction at each iteration is shown in Supplemental Figure 1. The area under the curve (AUC) of the training in the first, second, and third cross validation cohort was 0.966, 0.978, and 0.977, respectively; the AUC of the validation in the first, second, and third cross validation cohort was 0.815, 0.832, and 0.742, respectively. The AUC in the test cohort was 0.819. We divided the test cohort (N=126) into the LEAP recommendation (N=94, 75%) and LEAP non-recommendation cohort (N=32, 25%) (Table 1). The LEAP did not recommend one particular TKI (P=0.128). Overall survival did not differ significantly by the type and dose of TKI (P=0.472) (Supplemental Figure 2). Patients in the LEAP recommendation cohort achieved higher rates of overall deep response (Table 2). In the test cohort, treatment consistent with the LEAP recommendation was associated with improved failure-free survival, transformation-free survival, event-free survival, and overall survival (P<0.001; P=0.002; P<0.001; P<0.001) (Figure 3). The median overall survival was 139 months (range, 3.7-216.1), and the median overall survival was 127 months and 148 months in the LEAP recommendation and LEAP non-recommendation cohorts, respectively (P=0.902). Backward multivariate Cox regression analysis and IPTW analysis confirmed the association and causation of improved OS with the LEAP recommendation, respectively (Supplemental Table 1; Supplemental Table 2). The SHAP values identified the presence and degrees of comorbidities and ELTS scores as top three importance for the prediction (Figure 4). Conclusion: The LEAP CML-CP recommendation improves overall survival in patients with CML-CP through higher tolerance, lower rates of progression, and higher rates of deep response. View large Download slide View large Download slide  Disclosures Sasaki: Pfizer: Consultancy; Otsuka: Honoraria. Kantarjian: Jazz Pharma: Research Funding; Amgen: Honoraria, Research Funding; Cyclacel: Research Funding; Actinium: Honoraria, Membership on an entity's Board of Directors or advisory committees; AbbVie: Honoraria, Research Funding; Agios: Honoraria, Research Funding; Pfizer: Honoraria, Research Funding; Ariad: Research Funding; Takeda: Honoraria; BMS: Research Funding; Daiichi-Sankyo: Research Funding; Astex: Research Funding; Novartis: Research Funding; Immunogen: Research Funding. Jabbour: Takeda: Consultancy, Research Funding; BMS: Consultancy, Research Funding; Adaptive: Consultancy, Research Funding; Amgen: Consultancy, Research Funding; AbbVie: Consultancy, Research Funding; Pfizer: Consultancy, Research Funding; Cyclacel LTD: Research Funding. Ravandi: Cyclacel LTD: Research Funding; Amgen: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Macrogenix: Consultancy, Research Funding; Menarini Ricerche: Research Funding; Xencor: Consultancy, Research Funding; Selvita: Research Funding. Konopleva: Agios: Research Funding; Kisoji: Consultancy, Honoraria; Reata Pharmaceuticals: Equity Ownership, Patents & Royalties; Astra Zeneca: Research Funding; Ablynx: Research Funding; Amgen: Consultancy, Honoraria; Cellectis: Research Funding; AbbVie: Consultancy, Honoraria, Research Funding; Eli Lilly: Research Funding; Forty-Seven: Consultancy, Honoraria; Stemline Therapeutics: Consultancy, Honoraria, Research Funding; Calithera: Research Funding; Ascentage: Research Funding; Genentech: Honoraria, Research Funding; F. Hoffman La-Roche: Consultancy, Honoraria, Research Funding. Borthakur: AstraZeneca: Research Funding; Polaris: Research Funding; AbbVie: Research Funding; Incyte: Research Funding; Argenx: Membership on an entity's Board of Directors or advisory committees; NKarta: Consultancy; PTC Therapeutics: Consultancy; Oncoceutics, Inc.: Research Funding; Cyclacel: Research Funding; GSK: Research Funding; Merck: Research Funding; Eli Lilly and Co.: Research Funding; BioLine Rx: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Strategia Therapeutics: Research Funding; Arvinas: Research Funding; Janssen: Research Funding; BioTheryX: Membership on an entity's Board of Directors or advisory committees; Eisai: Research Funding; Xbiotech USA: Research Funding; Oncoceutics: Research Funding; Novartis: Research Funding; Bayer Healthcare AG: Research Funding; Agensys: Research Funding; FTC Therapeutics: Membership on an entity's Board of Directors or advisory committees; Cantargia AB: Research Funding; BMS: Research Funding; Tetralogic Pharmaceuticals: Research Funding. Wierda: Oncternal Therapeutics Inc.: Research Funding; Xencor: Research Funding; Cyclcel: Research Funding; Sunesis: Research Funding; GSK/Novartis: Research Funding; Miragen: Research Funding; KITE pharma: Research Funding; Loxo Oncology Inc.: Research Funding; Janssen: Research Funding; Juno Therapeutics: Research Funding; AbbVie: Research Funding; Genentech: Research Funding; Pharmacyclics LLC: Research Funding; Acerta Pharma Inc: Research Funding; Gilead Sciences: Research Funding. Takahashi: Symbio Pharmaceuticals: Consultancy. DiNardo: celgene: Consultancy, Honoraria; jazz: Honoraria; abbvie: Consultancy, Honoraria; agios: Consultancy, Honoraria; syros: Honoraria; medimmune: Honoraria; daiichi sankyo: Honoraria; notable labs: Membership on an entity's Board of Directors or advisory committees. Pemmaraju: plexxikon: Research Funding; novartis: Consultancy, Research Funding; celgene: Consultancy, Honoraria; cellectis: Research Funding; Stemline Therapeutics: Consultancy, Honoraria, Research Funding; Daiichi-Sankyo: Research Funding; sagerstrong: Research Funding; incyte: Consultancy, Research Funding; affymetrix: Research Funding; mustangbio: Consultancy, Research Funding; samus: Research Funding; abbvie: Consultancy, Honoraria, Research Funding. Garcia-Manero: Amphivena: Consultancy, Research Funding; Helsinn: Research Funding; Novartis: Research Funding; AbbVie: Research Funding; Celgene: Consultancy, Research Funding; Astex: Consultancy, Research Funding; Onconova: Research Funding; H3 Biomedicine: Research Funding; Merck: Research Funding. Cortes: Bristol-Myers Squibb: Consultancy, Research Funding; Takeda: Consultancy, Research Funding; Jazz Pharmaceuticals: Consultancy, Research Funding; Astellas Pharma: Consultancy, Honoraria, Research Funding; Sun Pharma: Research Funding; Immunogen: Consultancy, Honoraria, Research Funding; Pfizer: Consultancy, Honoraria, Research Funding; Merus: Consultancy, Honoraria, Research Funding; Novartis: Consultancy, Honoraria, Research Funding; Daiichi Sankyo: Consultancy, Honoraria, Research Funding; Forma Therapeutics: Consultancy, Honoraria, Research Funding; Biopath Holdings: Consultancy, Honoraria; BiolineRx: Consultancy."
 }
