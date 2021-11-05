@@ -2,5 +2,109 @@
     "doi": "https://doi.org/10.1182/blood-2020-139013",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4463",
     "start_url_page_num": 4463,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "The Application of Machine Learning to Improve the Subclassification and Prognostication of Acute Myeloid Leukemia ",
+    "article_date": "November 5, 2020",
+    "session_type": "617.Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
+    "topics": null,
+    "author_names": [
+        "Hassan Awada, MD",
+        "Arda Durmaz",
+        "Carmel Gurnari, MD",
+        "Ashwin Kishtagari, MBBS",
+        "Manja Meggendorfer, PhD",
+        "Cassandra M. Kerr, MS",
+        "Teodora Kuzmanovic",
+        "Jibran Durrani, MD",
+        "Yasunobu Nagata, MD PhD",
+        "Tomas Radivoyevitch, PhD",
+        "Anjali S Advani, MD",
+        "Farhad Ravandi, MBBS",
+        "Hetty E. Carraway, MD MBA",
+        "Aziz Nazha, MD",
+        "Claudia Haferlach, MD",
+        "Yogenthiran Saunthararajah, MD",
+        "Jacob Scott, MD",
+        "Valeria Visconte, PhD",
+        "Hagop M. Kantarjian, MD",
+        "Tapan M. Kadia, MD",
+        "Mikkael A. Sekeres",
+        "Torsten Haferlach, MD",
+        "Jaroslaw P. Maciejewski, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic Foundation, Cleveland, OH "
+        ],
+        [
+            "Translational hematology and Oncology research, Taussic Cancer Center, Cleveland Clinic, Cleveland, "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic Foundation, Cleveland, OH "
+        ],
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic Foundation, Cleveland, OH "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH ",
+            "Department of Quantitative Health Sciences, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Cleveland Clinic, Taussig Cancer Institute, Cleveland, OH "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Hematology and Medical Oncology, Leukemia Program, Taussig Cancer Institute, Cleveland Clinic Foundation, Cleveland, OH "
+        ],
+        [
+            "Leukemia Program, Department of Hematology and Medical Oncology, Taussig Cancer Institute, Cleveland Clinic, Cleveland, "
+        ],
+        [
+            "MLL Munich Leukemia Laboratory, Inning am Ammersee, Germany "
+        ],
+        [
+            "Department of Translational Hematology and Oncology, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic Foundation, Cleveland, OH "
+        ],
+        [
+            "University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Leukemia Program, Department of Hematology and Medical Oncology, Taussig Cancer Institute, Cleveland Clinic, Cleveland, "
+        ],
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany"
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ]
+    ],
+    "first_author_latitude": "41.50313175",
+    "first_author_longitude": "-81.61913360000001",
+    "abstract_text": "Genetic mutations (somatic or germline), cytogenetic abnormalities and their combinations contribute to the heterogeneity of acute myeloid leukemia (AML) phenotypes. To date, prototypic founder lesions [e.g., t(8;21), inv(16), t(15;17)] define only a fraction of AML subgroups with specific prognoses. Indeed, in a larger proportion of AML patients, somatic mutations or cytogenetic abnormalities potentially serve as driver lesions in combination with numerous acquired secondary hits. However, their combinatorial complexity can preclude the resolution of distinct genomic classifications and overlap across classical pathomorphologic AML subtypes, including de novo /primary (pAML) and secondary AML (sAML) evolving from an antecedent myeloid neoplasm (MN). These prognostically discrete AML subtypes are themselves nonspecific due to variable understanding of their pathogenetic links, especially in cases without overt dysplasia. Without dysplasia, reliance is mainly on anamnestic clinical information that might be unavailable or cannot be correctly assigned due to a short prodromal history of antecedent MN. We explored the potential of genomic markers to sub-classify AML objectively and provide unbiased personalized prognostication, irrespective of the clinicopathological information, and thus become a standard in AML assessment. We collected and analyzed genomic data from a multicenter cohort of 6788 AML patients using standard and machine learning (ML) methods. A total of 13,879 somatic mutations were identified and used to predict traditional pathomorphologic AML classifications. Logistic regression modeling (LRM) detected mutations in CEBPA (both monoallelic \" CEBPA Mo \" and biallelic \" CEBPA Bi \") , DNMT3A , FLT3 ITD , FLT3 TKD , GATA2 , IDH1 , IDH2 R140 , NRAS , NPM1 and WT1 being enriched in pAML while mutations in ASXL1 , RUNX1 , SF3B1 , SRSF2 , U2AF1 , -5/del(5q), -7/del(7q), -17/del(17P), del(20q), +8 and complex karyotype being prevalent in sAML. Despite these significant findings, the genomic profiles of pAML vs. sAML identified by LRM resulted in only 74% cross-validation accuracy of the predictive performance when used to re-assign them. Therefore, we applied Bayesian Latent Class Analysis that identified 4 unique genomic clusters of distinct prognoses [low risk (LR), intermediate-low risk (Int-Lo), intermediate-high risk (Int-Hi) and high risk (HR) of poor survival) that were validated by survival analysis. To link each prognostic group to pathogenetic features, we generated a random forest (RF) model that extracted invariant genomic features driving each group and resulted in 97% cross-validation accuracy when used for prognostication. The model's globally most important genomic features, quantified by mean decrease in accuracy, included NPM1 MT , RUNX1 MT , ASXL1 MT , SRSF2 MT , TP53 MT , -5/del(5q), DNMT3A MT , -17/del(17p), BCOR / L1 MT and others. The LR group was characterized by the highest prevalence of normal cytogenetics (88%) and NPM1 MT (100%; 86% with VAF>20%) with co-occurring DNMT3A MT (52%), FLT3 ITD-MT (27%; 91% with VAF <50%), IDH2 R140-MT (16%, while absent IDH2 R172-MT ), and depletion or absence of ASXL1 MT , EZH2 MT , RUNX1 MT , TP53 MT and complex cytogenetics. Int-Lo had a higher percentage of abnormal cytogenetics cases than LR, the highest frequency of CEBPA Bi-MT (9%), IDH2 R172K-MT (4%), FLT3 ITD-MT (14%) and FLT3 TKD-MT (6%) occurring without NPM1 MT , while absence of NPM1 MT , ASXL1 MT , RUNX1 MT and TP53 MT . Int-Hi had the highest frequency of ASXL1 MT (39%), BCOR /L1 MT (16%), DNMT3A MT without NPM1 MT (19%), EZH2 MT (9%), RUNX1 MT (52%), SF3B1 MT (7%), SRSF2 MT (38%) and U2AF1 MT (12%). Finally, HR had the highest prevalence of abnormal cytogenetics (96%), -5/del(5q) (68%), -7del(7q) (35%), -17del(17p) (31%) and the highest odds of complex karyotype (76%) as well as TP53 MT (70%). The model was then internally and externally validated using a cohort of 203 AML cases from the MD Anderson Cancer Center. The RF prognostication model and group-specific survival estimates will be available via a web-based open-access resource. In conclusion, the heterogeneity inherent in the genomic changes across nearly 7000 AML patients is too vast for traditional prediction methods. Using newer ML methods, however, we were able to decipher a set of prognostic subgroups predictive of survival, allowing us to move AML into the era of personalized medicine. Disclosures Advani: OBI: Research Funding; Abbvie: Research Funding; Macrogenics: Research Funding; Glycomimetics: Consultancy, Other: Steering committee/ honoraria, Research Funding; Immunogen: Research Funding; Seattle Genetics: Other: Advisory board/ honoraria, Research Funding; Amgen: Consultancy, Other: steering committee/ honoraria, Research Funding; Kite: Other: Advisory board/ honoraria; Pfizer: Honoraria, Research Funding; Novartis: Consultancy, Other: advisory board; Takeda: Research Funding. Ravandi: Abbvie: Consultancy, Honoraria, Research Funding; Celgene: Consultancy, Honoraria; Amgen: Consultancy, Honoraria, Research Funding; Astellas: Consultancy, Honoraria, Research Funding; Orsenix: Consultancy, Honoraria, Research Funding; AstraZeneca: Consultancy, Honoraria; Jazz Pharmaceuticals: Consultancy, Honoraria, Research Funding; Xencor: Consultancy, Honoraria, Research Funding; Macrogenics: Research Funding; BMS: Consultancy, Honoraria, Research Funding. Carraway: Novartis: Consultancy, Speakers Bureau; Takeda: Other: Independent Advisory Committe (IRC); Stemline: Consultancy, Speakers Bureau; BMS: Consultancy, Other: Research support, Speakers Bureau; Abbvie: Other: Independent Advisory Committe (IRC); ASTEX: Other: Independent Advisory Committe (IRC); Jazz: Consultancy, Speakers Bureau. Saunthararajah: EpiDestiny: Consultancy, Current equity holder in private company, Membership on an entity's Board of Directors or advisory committees, Patents & Royalties. Kantarjian: Sanofi: Research Funding; Actinium: Honoraria, Membership on an entity's Board of Directors or advisory committees; Daiichi-Sankyo: Honoraria, Research Funding; BMS: Research Funding; Abbvie: Honoraria, Research Funding; Aptitute Health: Honoraria; Pfizer: Honoraria, Research Funding; Novartis: Honoraria, Research Funding; Jazz: Research Funding; Immunogen: Research Funding; Adaptive biotechnologies: Honoraria; Ascentage: Research Funding; Amgen: Honoraria, Research Funding; BioAscend: Honoraria; Delta Fly: Honoraria; Janssen: Honoraria; Oxford Biomedical: Honoraria. Kadia: Pfizer: Honoraria, Research Funding; Novartis: Honoraria; Cyclacel: Research Funding; Ascentage: Research Funding; Astellas: Research Funding; Cellenkos: Research Funding; JAZZ: Honoraria, Research Funding; Astra Zeneca: Research Funding; Celgene: Research Funding; Incyte: Research Funding; Pulmotec: Research Funding; Abbvie: Honoraria, Research Funding; Genentech: Honoraria, Research Funding; BMS: Honoraria, Research Funding; Amgen: Research Funding. Sekeres: Pfizer: Consultancy, Membership on an entity's Board of Directors or advisory committees; BMS: Consultancy, Membership on an entity's Board of Directors or advisory committees; Takeda/Millenium: Consultancy, Membership on an entity's Board of Directors or advisory committees. Maciejewski: Alexion, BMS: Speakers Bureau; Novartis, Roche: Consultancy, Honoraria."
 }
