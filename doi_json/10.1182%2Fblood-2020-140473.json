@@ -2,5 +2,53 @@
     "doi": "https://doi.org/10.1182/blood-2020-140473",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4568",
     "start_url_page_num": 4568,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Integrative Analysis of Single-Cell RNA-Seq and ATAC-Seq Data across Treatment Time Points in Pediatric AML ",
+    "article_date": "November 5, 2020",
+    "session_type": "617.Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
+    "topics": null,
+    "author_names": [
+        "Lisa Wei, BS",
+        "Diane Trinh",
+        "Rhonda E. Ries, MA",
+        "Dan Jin, PhD",
+        "Richard D. Corbett",
+        "Jenny L. Smith, MSc, MD",
+        "Scott N. Furlan, MD",
+        "Soheil Meshinchi, MDPhD",
+        "Marco A. Marra, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, Canada"
+        ],
+        [
+            "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, Canada"
+        ],
+        [
+            "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA"
+        ],
+        [
+            "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, Canada"
+        ],
+        [
+            "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, Canada"
+        ],
+        [
+            "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA"
+        ],
+        [
+            "Fred Hutchinson Cancer Research Center, Seattle, WA"
+        ],
+        [
+            "Clinical Research Division, Fred Hutchinson Cancer Rsrch. Ctr., Seattle, WA"
+        ],
+        [
+            "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, Canada",
+            "Department of Medical Genetics, University of British Columbia, Vancouver, Canada"
+        ]
+    ],
+    "first_author_latitude": "49.264764",
+    "first_author_longitude": "-123.1168574",
+    "abstract_text": "Pediatric AML is a heterogeneous disease in which treatment resistance remains an unsolved problem that is responsible for most deaths (Yeung and Radich 2017). Recently we have come to learn that resistance may be driven by mechanisms that extend beyond somatic mutations and DNA methylation changes (Ghasemi et al. 2020; van Galen et al. 2019; Bell et al. 2019). Transcriptional changes within specific primitive and committed cell types in AML tumours, which may be accompanied by alterations in chromatin structure and topology, can also contribute to disease progression (Ghasemi et al. 2020). To study such changes at the single-cell level, we analyzed single-cell RNA-seq (scRNA-seq) and matched scATAC-seq data from primary, remission and/or relapse samples obtained from three pediatric AML patients enrolled in the AAML1031 clinical trial (Alpenc et al. 2016) (Figure 1). Using the 10X Genomics single-cell platforms, we profiled a total of 39,738 cells using scRNA-seq (~4,826 cells per sample, 1,571 genes per cell), and 46,580 cells and 197,128 peaks using scATAC-seq (~6,718 cells per sample, 5,628 unique reads per cell). We then integrated these data types to determine the extent to which these two modalities corroborated and/or complemented each other in analyses of these longitudinally-obtained samples. Cell subpopulations detected in scRNA-seq through Leiden clustering on a k-nearest neighbor graph were generally consistent with recent observations of malignant and normal cell types detected in the bone marrow and peripheral blood compartments (van Galen et al. 2019; Hay et al. 2018). Malignant-like subpopulations at primary and relapse stages exhibited similar levels of cell type diversity along the myeloid lineage. These included hematopoietic stem-like cells, progenitors, granulocyte-monocyte progenitors, monocytes and dendritic cell-like subpopulations. Remission samples appeared to contain normal blood cell types including natural killers (NK), B and T cells, platelets and erythrocytes, consistent with the clearance of blasts. However, we also observed putative malignant-like conventional dendritic cell subpopulations at remission (50% and 16% in the respective samples), noting that these cells displayed increased expression of genes involved in antigen presentation and lysosomal protein processing. To integrate scATAC-seq with scRNA-seq data we performed clustering of transformed and reduced scATAC-seq data through iterative latent semantic indexing (Granja et al. 2020), and aligned cells in scATAC-seq to cells from scRNA-seq data using canonical correlation analysis (Stuart et al. 2019). We observed similar patterns of T cell expansion, presence of monocyte-like populations and NK cells at remission in the scATAC-seq data. However, scRNA-seq subpopulations dominated by malignant-like cells showed variability in mapping to distinctive chromatin states, with a few notable exceptions (Figures 2 and 3). One such exception is a subpopulation in scRNA-seq, found mostly at relapse, marked by high expression of genes involved in proliferation and growth factor-mediated cellular processes such as YBX3 (binds to GM-CSF promoter), CYTL1 , and EGFL7 (regulator of vasculogenesis) (Figures 3 and 4). Cells within this subpopulation mapped to two scATAC-seq clusters whose significantly more highly accessible regions were enriched for functional processes such as blood vessel remodeling and neutrophil/granulocyte activation (Figure 4). These observations are consistent with recent evidence that AML tumour cells can activate the immune system to acquire resistance (Melgar et al. 2020). The scRNA-seq subpopulation, however, did not display high expression of myeloid/granulocyte factors such as CD15 , ELANE , and MPO (Figure 4), perhaps consistent with the notion that such transcriptional programs may be primed but not yet activated within these malignant cells. We thus evaluated the potential of scATAC-seq to complement scRNA-seq in understanding transcriptional changes within cell types in AML tumours. We observed that normal cell types and specific malignant cell states could occupy distinctive chromatin states. Through integrative analyses, we conclude that scATAC-seq results can add additional information to complement scRNA-seq data, including identifying nascent transcriptional programs that may be poised for activation within malignant cells. View large Download slide View large Download slide  Disclosures No relevant conflicts of interest to declare."
 }
