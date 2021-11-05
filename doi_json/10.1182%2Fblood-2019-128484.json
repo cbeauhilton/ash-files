@@ -2,5 +2,66 @@
     "doi": "https://doi.org/10.1182/blood-2019-128484",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4210",
     "start_url_page_num": 4210,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "MYC Overexpressing Multiple Myeloma Are Dependent on GLS1 ",
+    "article_date": "November 13, 2019",
+    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
+    "topics": [
+        "multiple myeloma",
+        "opportunity for error",
+        "discoid lupus erythematosus",
+        "monoclonal gammopathy of undetermined significance",
+        "carrier proteins",
+        "drug screening",
+        "glutamine",
+        "mass spectrometry",
+        "molecule",
+        "rna"
+    ],
+    "author_names": [
+        "Katarina K Jovanovic, PhD",
+        "L\u00e9a Fl\u00e9chon, MSc",
+        "Mairead Reidy, PhD",
+        "Jihye Park, BS, DVM",
+        "Xavier Leleu, MD PhD",
+        "Irene M. Ghobrial, MD",
+        "Thierry Facon, MD",
+        "Bruno Quesnel",
+        "Salomon Manier, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "INSERM UMR-S 1172, University of Lille 2, Lille, France "
+        ],
+        [
+            "1INSERM UMR-S 1172, University of Lille 2, Lille, France "
+        ],
+        [
+            "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA ",
+            "Cancer Program, Broad Institute of MIT and Harvard, Cambridge, MA "
+        ],
+        [
+            "Cancer Program, Broad Institute of MIT and Harvard, Cambridge, MA ",
+            "Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
+        ],
+        [
+            "P\u00f4le R\u00e9gional de Canc\u00e9rologie, CHU de Poitiers, Poitiers, France "
+        ],
+        [
+            "Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
+        ],
+        [
+            "Hospital Huriez, Service des Maladies du Sang, H\u00f4pital Claude Huriez, Lille, France "
+        ],
+        [
+            "Service des Maladies du Sang, H\u00f4pital Huriez, Centre Hospitalier Universitaire de Lille, Lille, France "
+        ],
+        [
+            "University of Lille 2, INSERM UMR-S 1172, Lille, France ",
+            "Hematology Department, Lille Hospital, Lille, France"
+        ]
+    ],
+    "first_author_latitude": "50.61963515",
+    "first_author_longitude": "3.05429395",
+    "abstract_text": "Introduction. MYC alterations trigger transition from monoclonal gammopathy of undetermined significance (MGUS) and smoldering multiple myeloma (SMM) to multiple myeloma (MM). They also represent secondary genomic events inducing tumor progression. MYC localization to the nucleus and the short life of the protein are key factors that limit its direct targeting. To overcome these issues, we sought to determine the top genomic dependencies in MYC overexpressing MM by analyzing large-scale knockdown screening, followed by functional validations. Methods. We performed in silico analyses from the Dependency Map (Achilles 2.4.3) together with CCLE (Affymetrix U133+2 expression array), CLUE (Connectivity Map) and MM patient datasets (Chng et al. 2007, Guti\u00e9rrez et al. 2010, MMRF RG Dataset), to look for gene dependencies and differentially expressed pathways in MYC OE cancer cell lines and MM patient samples. We generated an isogenic model of MYC OE in U266 MM cell line by using EF1A-C-MYC lentiviral vector, and performed RNA sequencing, a quantitative proteomic analysis by Tandem Mass Tag mass spectrometry (TMT-MS) and a drug screening with ~2000 compounds. To further investigate dependency on glutamine metabolism in MYC OE cell lines, we treated them with GLS1 inhibitor CB-839 and siRNA targeting GLS1 in several cell lines with various MYC expressions and in our isogenic model. Results. By analyzing correlations between MYC expression and gene ATARiS scores corresponding to the effect of over 9000 knockdowns in 236 cell lines, we identified specific vulnerabilities of MYC overexpressing cells for the genes involved in glutamine metabolism and cell cycle pathways. Top dependencies were observed with MYC binding protein MAX (r = -0.51, p < .001), representing an internal control as it is a co-activator of MYC, followed by GLS1 (r = -0.48, p < .001) and SLC1A1 (r = -0.42, p < .001), both involved in glutamine metabolism, together with E2F6 (r = -0.41, p < .001), involved in cell cycle. To further validate dependencies obtained from Achilles data, we generated an isogenic model of MYC OE in U266 (a low c-myc expressing MM cell line). GSEA analysis of RNA seq data showed strong enrichments of translation and cell cycle pathways, with similar results observed in CCLE and MM patient data. Quantitative proteomics analysis of U266 isogenic model showed overexpression of genes involved in glutamine transport (SLC1A5; FC = 1.28, p < .05), glucose metabolism (HK2; FC = 3.68, p < .001) and cell cycle progression (CDK6; FC = 2.85, p < .001). To explore the therapeutic potential of these dependencies, we performed a primary screen of 1902 small-molecules and identified 47 compounds with potent activity on U266/MYC model. Validation screen of these hits identified three leading compounds to which U266/MYC cells showed highest sensitivity at 10 \u00b5M concentration - Torin-2 (U266/C 40.28 \u00b1 6.74% vs. U266/MYC 16.05 \u00b1 3.21%), LY2835219 (U266/C 52.70 \u00b1 9.63% vs. U266/MYC 5.52 \u00b1 0.89%) and AT7519 (U266/C 43.03 \u00b1 4.02% vs. U266/MYC 30.13 \u00b1 4.90%), targeting proteins involved in translation and cell cycle pathways. For the functional validation of GLS1 dependency in MYC overexpressing cells, MYC OE cell lines were treated with GLS1 inhibitors CB-839 and 968. MYC high MM cell lines showed higher sensitivity to CB-839 inhibitor compared to MYC low cell lines at 1 \u00b5M concentration, after 48 (KMS-12-BM 14.19 \u00b1 0.07%, KMS-18 31.56 \u00b1 2.84%, MM.1S 23.21 \u00b1 1.21% vs. NCI-H1650 46.49 \u00b1 3.48%, U266 52.72 \u00b1 4.99%, LOUCY 37.14 \u00b1 1.14%, OVCAR-3 64.14 \u00b1 5.19%) and 72 h (KMS-18 19.69 \u00b1 3.15%, MM.1S 15.09 \u00b1 1.28% vs. NCI-H1650 34.82 \u00b1 0.95%, U266 61.73 \u00b1 1.70%, LOUCY 46.27 \u00b1 6.27%, OVCAR-3 65.34 \u00b1 1.23%). This suggests that GLS1 dependency in MYC OE cells offers a therapeutic window for the use of GLS1 inhibitors in MM. Conclusion. By using a combination of different datasets and models, we characterized the main dependencies in MYC overexpressing MM. Glutamine metabolism and cell cycle emerged as strong dependencies by using therapeutic inhibitors. Altogether, our results demonstrate that MYC OE MM cells are dependent on glutamine metabolism and cell cycle, and these findings can potentially lead to development of new therapeutic approaches in MM patients. Disclosures Leleu: Oncopeptide: Honoraria; Sanofi: Honoraria; Takeda: Honoraria; Carsgen: Honoraria; Incyte: Honoraria; Novartis: Honoraria; Karyopharm: Honoraria; Amgen: Honoraria; Celgene: Honoraria; Janssen: Honoraria; BMS: Honoraria; Merck: Honoraria. Facon: Celgene: Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Janssen: Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Takeda: Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Amgen: Membership on an entity's Board of Directors or advisory committees; Sanofi: Membership on an entity's Board of Directors or advisory committees. Manier: Amgen: Research Funding; Celgene: Research Funding; Janssen: Research Funding."
 }
