@@ -2,5 +2,51 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-114818",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3922",
     "start_url_page_num": 3922,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "CD200 Is a Stem Cell-Specific Immunosuppressive Target in AML ",
+    "article_date": "November 29, 2018",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster II",
+    "topics": [
+        "culture media",
+        "immunosuppressive agents",
+        "leukemia",
+        "flow cytometry",
+        "lamp-1",
+        "antibodies",
+        "antineoplastic agents",
+        "breast cancer",
+        "coculture techniques",
+        "cytokine"
+    ],
+    "author_names": [
+        "Shelley Herbrich, MS",
+        "Keith Baggerly, PhD",
+        "Gheath Alatrash, DO, PhD",
+        "R. Eric Davis, MD",
+        "Michael Andreeff, MD PhD",
+        "Marina Y. Konopleva, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Bioinformatics & Computational Biology, University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Stem Cell Transplantation & Cellular Therapy, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Lymphoma and Myeloma, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, University of Texas M.D. Anderson Cancer Center, Houston, TX"
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ]
+    ],
+    "first_author_latitude": "29.707097200000003",
+    "first_author_longitude": "-95.39710199999999",
+    "abstract_text": "Acute myeloid leukemia (AML) stem cells (LSC) are an extremely rare fraction of the overall disease (likely <0.3%), largely quiescent, and capable of both long-term self-renewal and production of more differentiated leukemic blasts. Besides their role in disease initiation, they are also hypothesized as the likely source of deadly, relapsed leukemia. Due to the quiescent nature of the LSCs, they are capable of evading the majority of chemotherapeutic agents that rely on active cell-cycling for cytotoxicity. Therefore, novel therapeutic approaches specifically engineered to eradicate LSCs are critical for curing AML. We previously introduced a novel bioinformatics approach that harnessed publically available AML gene expression data to identify genes significantly over-expressed in LSCs when compared to their normal hematopoietic stem cell (HSC) counterparts ( Herbrich et al Blood 2017 130:3962 ). These datasets contain gene expression arrays on human AML patient samples sorted by leukemia stem, progenitor, and blast cells (with normal hematopoietic cell subsets for comparison). We have since expanded our statistical model to identify targets that are both significantly overexpressed in AML LSCs when compared to HSC as well as LSCs compared to their corresponding, more differentiated blast cells. Instead of traditional methods for multiple testing corrections, we looked at the intersection of genes that met the above criteria in 3 independently generated datasets. This resulted in a list of 30 genes, 28 of which appear to be novel markers of AML LSCs. From this list, we first chose to focus on CD200, a type-1 transmembrane glycoprotein. CD200 is broadly expressed on myeloid, lymphoid, and epithelial cells, while the CD200 receptor (CD200R) expression is strictly confined to myeloid and a subset of T cells. CD200 has been shown to have an immunosuppressive effect on macrophages and NK cells and correlates with a high prevalence FOXP3+ regulatory T cells ( Coles et al Leukemia 2012; 26:2146-2148 ). Additionally, CD200 has been implicated as a poor prognostic marker in AML ( Damiani et al Oncotarget 2015; 6:30212-30221 ). To date, we have screened 20 primary AML patient samples by flow cytometry, 90% of which are positive for CD200. Expression is significantly enriched in the CD34+/CD123+ stem cell compartment. To examine the role of CD200 in AML, we established two in vitro model systems. First, we used CRISPR/Cas9 to knockout the endogenous CD200 protein in Kasumi-1. Further, we induced CD200 in the OCI-AML3 cell line that had no expression at baseline. Both cell lines did not express the CD200 receptor before or after manipulation, negating any autocrine signaling. In both systems, CD200 manipulation did not affect the proliferation rate or viability of the cells. To examine the immune function of CD200 in AML, we performed a series of mixed lymphocyte reactions. We cultured normal human peripheral blood mononuclear cells (PBMCs) with the CD200+ or CD200- cells from each line both. Cells were incubated in the culture media for 4-48 hours before being harvested and measured by flow cytometry for apoptosis or intracellular cytokine production. The presence of CD200 on the cell surface reduced the rate of immune-specific apoptosis among these leukemia cells. The difference in cell killing was most likely attributable to a CD200-specific suppression of CD107a, a surrogate marker or cytotoxic activity. In the OCI-AML3 model, PBMCs co-cultured with CD200+ cells produced approximately 40% less CD107a when compared to the CD200- co-culture. Additionally, we characterized our new cell lines using RNA sequencing. By comparing the CD200+ to the CD200- cells within each line, we observed that CD200+ cells significantly downregulate genes involved in defining an inflammatory response as well as genes regulated by NF-\u03baB in response to TNF\u03b1. This indicates that CD200 may have an undiscovered intrinsic role in suppressing the immune microenvironment of AML LSCs. In conclusion, we have expanded our novel bioinformatics approach for robustly identifying AML LSC-specific targets. Additionally, we have shown that one of these markers, CD200, has a potential role as a stem cell-specific immunosuppressive target by reducing immune-mediated apoptosis and transcriptionally suppressing inflammatory cell processes. We are extending our study to explore CD200 in primary patient samples using a CD200-blocking antibody. Disclosures Andreeff: SentiBio: Equity Ownership; Amgen: Consultancy, Research Funding; Oncolyze: Equity Ownership; Reata: Equity Ownership; United Therapeutics: Patents & Royalties: GD2 inhibition in breast cancer ; Jazz Pharma: Consultancy; Astra Zeneca: Research Funding; Aptose: Equity Ownership, Membership on an entity's Board of Directors or advisory committees; Daiichi-Sankyo: Consultancy, Patents & Royalties: MDM2 inhibitor activity patent, Research Funding; Eutropics: Equity Ownership, Membership on an entity's Board of Directors or advisory committees; Oncoceutics: Equity Ownership, Membership on an entity's Board of Directors or advisory committees; Celgene: Consultancy. Konopleva: Stemline Therapeutics: Research Funding."
 }
