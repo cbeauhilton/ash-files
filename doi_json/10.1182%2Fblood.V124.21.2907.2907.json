@@ -2,5 +2,47 @@
     "doi": "https://doi.org/10.1182/blood.V124.21.2907.2907",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2933",
     "start_url_page_num": 2933,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Rare Hematopoietic Subclones Harboring Leukemogenic TP53 Mutations Are Detectable Via Error-Corrected Sequencing in Healthy Elderly Individuals ",
+    "article_date": "December 6, 2014",
+    "session_type": "501. Hematopoietic Stem and Progenitor Biology: Poster II",
+    "topics": [
+        "mutation",
+        "older adult",
+        "protein p53",
+        "tp53 gene",
+        "leukemia",
+        "cancer",
+        "massively-parallel genome sequencing",
+        "molecule",
+        "leukemogenesis",
+        "polymerase chain reaction"
+    ],
+    "author_names": [
+        "Andrew Young, B.A.",
+        "Terrence Neal Wong, MD PhD",
+        "Timothy J Ley, MD",
+        "Daniel C. Link, MD",
+        "Todd E Druley, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Washington University in Saint Louis, Saint Louis, "
+        ],
+        [
+            "Washington University in Saint Louis, Saint Louis, MO "
+        ],
+        [
+            "Washington University School of Medicine, St. Louis, MO "
+        ],
+        [
+            "Washington University School of Medicine, Saint Louis, MO "
+        ],
+        [
+            "Washington University in St. Louis, Saint Louis, MO"
+        ]
+    ],
+    "first_author_latitude": "38.6487895",
+    "first_author_longitude": "-90.31079620000001",
+    "abstract_text": "Acute myeloid leukemia (AML) is an oligoclonal disease marked by specific somatic genomic alterations. While the leukemia-associated mutations and rearrangements differ between individual cases, the set of recurrently mutated genes is now largely known (Cancer Genome Atlas Research Network, NEJM 2013). Current evidence supports a model of leukemogenesis, by which leukemia-associated mutations are acquired sequentially over time in hematopoietic stem cells (HSCs). Furthermore, \u201cpre-leukemic\u201d HSCs, which contain only a subset of the mutations found in the dominant clone, are detectable at diagnosis (Corces-Zimmerman MR, et al., PNAS 2014; Shlush LI, et al., Nature 2014). Despite these observations, the effect of these mutations, when they first arise in healthy HSCs, is largely unknown. It is likely that these early mutations endow a selective growth advantage to the HSC resulting in detectable clonal hematopoiesis without immediately causing overt leukemia. As expected, there is evidence from studies of X-inactivation skewing that clonal hematopoiesis exists in the blood of healthy elderly individuals (Busque L, et al. Blood 2009). In a separate study, hematopoietic X-inactivation skewing in elderly individuals was associated with TET2 mutations in 10/182 cases (Busque L, et al. Nat Genet 2012). This study was only capable of detecting insertions or deletions due to the high (~1%) substitution error rate of conventional next-generation sequencing (NGS) and likely underreported the prevalence of clonal hematopoiesis harboring putative driver mutations in TET2. To further study the role of leukemia-associated single nucleotide variants in healthy hematopoiesis, we applied our validated method for targeted error-corrected sequencing (ECS). ECS uses random, single molecule indexing to overcome the inherent error rate of NGS by establishing \u201cread families\u201d from multiple reads generated from each unique index (Schmitt MW, et al. PNAS 2012, Kinde I, et al., PNAS 2012). A dilution series of two independent mutations with technical replicates demonstrated that ECS enables the quantitative identification of variants as rare as 1:10,000 molecules. We applied ECS to identify and quantify leukemia-associated subclones harboring mutations in TP53 exons 4-7, which is where the majority of cancer-related mutations in TP53 have been described. ECS libraries were generated from blood samples drawn from 20 healthy elderly individuals (average 75 years old). Sample multiplexing for sequencing was accomplished by tagging PCR amplicons, generated from each individual, with a different oligonucleotide barcode during library preparation. The resulting individual ECS libraries were then multiplexed and sequenced on one lane of the Illumina HiSeq 2500 platform. Sequence reads originating from the same randomly indexed molecule are aligned to each other to generate read families. First, at every position, the bases called by each sequence read are compared and a consensus base is called if there is \u226590% agreement between the reads. If there is less than 90% agreement, the consensus base is called an N. Sequencing errors are thus removed since they are not shared between different reads within a read family. Second, an error corrected consensus sequence (ECCS) is discarded if <90% of bases across a paired-end read are non-N. ECCSs are locally aligned to hg19/GRCh30 using bowtie2. We identified rare subclonal hematopoiesis harboring TP53 mutations in 9 of 20 healthy individuals at variant allele frequencies (VAF) between 1:10,000 and 1:270. Of the 13 identified mutations, 12 were coding or splicing mutations and 10 had been previously identified as leukemia-associated in the Catalog of Somatic Mutations in Cancer. We validated three independent variants with droplet digital PCR and measured nearly identical VAFs at each loci. These findings suggest that potentially oncogenic mutation in hematopoietic stem cells is a stochastic process and rare subclonal hematopoiesis is a common occurrence in healthy aged individuals, which is consistent with the observation that de novo AML primarily occurs in the elderly. Ongoing studies are applying ECS to determine the prevalence of rare subclonal mutation in other recurrently mutated AML genes. These studies will help further elucidate the natural history of leukemogenesis and may enable the accurate detection of individuals at risk for developing cancer. Disclosures No relevant conflicts of interest to declare."
 }

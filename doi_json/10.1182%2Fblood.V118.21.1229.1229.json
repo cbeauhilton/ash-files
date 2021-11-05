@@ -2,5 +2,87 @@
     "doi": "https://doi.org/10.1182/blood.V118.21.1229.1229",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1994",
     "start_url_page_num": 1994,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Whole-Exome Sequencing Identifies Novel Risk Variant for Thrombotic Storm ",
+    "article_date": "November 18, 2011",
+    "session_type": "331. Pathophysiology of Thrombosis: Poster I",
+    "topics": [
+        "animal model",
+        "thrombus",
+        "whole exome sequencing",
+        "anticoagulation",
+        "dideoxy chain termination dna sequencing",
+        "human leukocyte antigens",
+        "thrombosis",
+        "venous thromboembolism",
+        "amino acids",
+        "antiphospholipid antibodies"
+    ],
+    "author_names": [
+        "Thomas L. Ortel, MD, PhD",
+        "Gary Beecham, PhD",
+        "Dale Hedges, PhD",
+        "Patrice Whitehead",
+        "Ashley Beecham, MS",
+        "Susan Hahn, MS, CGC",
+        "Janice W. Lawson, MD",
+        "Doruk Erkan, MD",
+        "Leonardo R. Brandao, MD",
+        "Andra H. James, MD, MPH",
+        "Marilyn J. Manco-Johnson, MD",
+        "Roshni Kulkarni, MD",
+        "Craig S. Kitchens, MD",
+        "Margaret Pericak-Vance, PhD",
+        "Jeffery M Vance, MD, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Hematology, Duke Univ. Med. Ctr., Durham, NC, USA, "
+        ],
+        [
+            "Hussman Institute for Human Genomics, University of Miami, Miami, FL, USA, "
+        ],
+        [
+            "Hussman Institute for Human Genomics, University of Miami, Miami, FL, USA, "
+        ],
+        [
+            "Hussman Institute for Human Genomics, University of Miami, Miami, FL, "
+        ],
+        [
+            "Hussman Institute for Human Genomics, University of Miami, Miami, FL, "
+        ],
+        [
+            "Hussman Institute for Human Genomics, University of Miami, Miami, FL, USA, "
+        ],
+        [
+            "University of Florida, Gainesville, FL, USA, "
+        ],
+        [
+            "Hospital for Special Surgery, Weill Medical Center of Cornell University, "
+        ],
+        [
+            "Paediatric Haemotology/Oncology, The Hospital for Sick Children, Toronto, ON, Canada, "
+        ],
+        [
+            "Dept. of OB/GYN, Duke University Medical Center, Durham, NC, USA, "
+        ],
+        [
+            "University of Colorado Denver and The Children's Hospital, Aurora, CO, USA, "
+        ],
+        [
+            "Pediatrics & Human Dev., Michigan State University, East Lansing, MI, USA"
+        ],
+        [
+            "University of Florida, Gainesville, FL, USA, "
+        ],
+        [
+            "Hussman Institute for Human Genomics, University of Miami, Miami, FL, USA, "
+        ],
+        [
+            "Hussman Institute for Human Genomics, University of Miami, Miami, FL, USA, "
+        ]
+    ],
+    "first_author_latitude": "36.004372700000005",
+    "first_author_longitude": "-78.9360007",
+    "abstract_text": "Abstract 1229 Background: Thrombotic storm (TS) is an extremely severe clinical phenotype that occurs in a very small subset of patients with venous thromboembolic disease. It is characterized by patients who exhibit two or more of the following in a short period of time; 1) > 2 acute arterial/venous thromboemboli, and/or thrombotic microangiopathy, 2) unusual location, 3) progressive/recent unexplained recurrence, and/or 4) refractory to and/or atypical response to therapy (Kitchens et al., Am J Med , 2011). We hypothesize these patients possess an underlying prothrombotic risk factor that results in an accelerated form of thrombosis following an initial event that provokes the attack in the relevant clinical context. Methods: To identify potential genetic risk variants we performed whole-exome sequencing on a TS participant and his unaffected parents and sibling. The proband was a 14 year old male who presented with thrombosis of the sagittal, right transverse and sigmoid sinuses following a sports-related knee injury. There was no personal or family history of venous thromboembolism, and a hypercoagulable workup, including testing for antiphospholipid antibodies, was negative. His course was complicated by the development of disseminated intravascular coagulation, delaying early initiation of anticoagulant therapy. Despite aggressive supportive care, which included anticoagulation therapy, the proband did not improve and expired after severe cerebral edema with herniation was diagnosed by clinical exam and CT imaging. At autopsy, bilateral pulmonary emboli and extensive pelvic vein thrombosis were also identified. DNA was extracted from whole blood and the relevant regions were captured using the Agilent Sure Select 50mb kit. Sequencing was performed on the Illumina HiSeq2000 under the manufacturer's recommended protocol. Alignment of reads to the reference was performed using BWA, and genotype calls were made with GATK. Variants were initially filtered based on quality (depth \u2265 8, phred-like quality \u2265 30), function (nonsense, missense, splicing), and novelty. Additional filters include inheritance mode (autosomal recessive or de novo heterozygote), conservation (phastcons score > 0.5, GERP score > 2), and damage prediction (SIFT or Polyphen). Potential variants were validated using Sanger sequencing. Results: Whole-exome sequencing identified over 127,000 variants in the nuclear family with at least one member having a high quality variant at the position. Filtering these variants based on function, novelty, and high quality in parents and affected proband reduced the list to 2,735 variants. Of these, 7 variants fit an autosomal recessive model (homozygous in the proband, heterozygous in both parents, not homozygous in the unaffected sibling); of these 7, two were at conserved sites, predicted to be damaging, and also called using SAMTOOLS. The first of the recessive variants is a nonsense variation in the EGFL8 gene (tyrosine to stop codon, at the 74th amino acid; tyr74stop), and the second is in HLA-E (gln276pro). Of the initial list of 2,735 variants there were 138 that fit a de novo heterozygous model (present in the affected proband, but not parents); of these 138, two were at a conserved site, predicted to be damaging, and were also called with SAMTOOLS. The first de novo heterozygote is in SLC26A2 (arg178stop), and the second variant is in PRMT7 (arg531trp). These four variants were resequenced using Sanger sequencing within the family. Three of the variants (EGFL8, SLC26A2, and PRMT7) were confirmed using Sanger; the fourth (HLA-E) is still being resequenced. Discussion: These variants represent excellent candidate loci for thrombotic storm risk. In particular, the EGFL8 variant is a homozygous change to a stop codon less than one quarter of the way through the open reading frame \u2013 a change that likely severely damages protein function. Additionally, EGFL8 (epidermal growth factor-like domain-containing protein 8) has two EGF domains, a common motif identified in hemostatic and fibrinolytic proteins, and is therefore potentially involved in coagulation. These variants will be further analyzed for frequency in controls and tested in animal models for functional significance. Disclosures: No relevant conflicts of interest to declare."
 }
