@@ -2,5 +2,76 @@
     "doi": "https://doi.org/10.1182/blood-2020-143256",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4586",
     "start_url_page_num": 4586,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Identification and Validation of CD138- Multiple Myeloma Immune and Tumor Subpopulations Using Cross Center Scrna-Seq Data ",
+    "article_date": "November 5, 2020",
+    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
+    "topics": null,
+    "author_names": [
+        "Reyka G Jayasinghe, PhD",
+        "Lijun Yao, MS",
+        "Beena Thomas",
+        "Swati S Bhasin, PhD",
+        "Nicolas Fernandez, PhD",
+        "David E. Avigan, MD",
+        "Taxiarchis Kourelis, MD",
+        "Madhav V. Dhodapkar, MD",
+        "Ravi Vij, MD MBA",
+        "Shaadi Mehr, PhD",
+        "Mark Hamilton, PhD",
+        "Hearn Jay Cho, MD PhD",
+        "Daniel Auclair",
+        "Sacha Gnjatic",
+        "Li Ding, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Medicine, Washington University School of Medicine, Saint Louis, MO "
+        ],
+        [
+            "Department of Medicine, Washington University School of Medicine, Saint Louis, MO "
+        ],
+        [
+            "Beth Israel Deaconess Medical Center, Boston, MA "
+        ],
+        [
+            "School of Medicine, Emory University, Department of Pediatrics, Aflac Cancer and Blood Disorders Center, Atlanta, GA "
+        ],
+        [
+            "Human Immune Monitoring Center, Icahn School of Medicine at Mt. Sinai, New York, NY "
+        ],
+        [
+            "Beth Israel Deaconess Medical Center, Boston, MA "
+        ],
+        [
+            "Mayo Clinic Rochester, Division of Hematology, Rochester, MN "
+        ],
+        [
+            "Emory University School of Medicine, Atlanta, GA "
+        ],
+        [
+            "Washington University School of Medicine, Ballwin, MO "
+        ],
+        [
+            "MMRF, New York, NY "
+        ],
+        [
+            "Multiple Myeloma Research Foundation, Norwalk, CT "
+        ],
+        [
+            "MMRF; Icahn School of Medicine at Mount Sinai, Norwalk, CT "
+        ],
+        [
+            "Multiple Myeloma Research Foundation (MMRF), Norwalk, CT "
+        ],
+        [
+            "Mount Sinai School of Medicine, New York, NY "
+        ],
+        [
+            "Siteman Cancer Center, Washington University School of Medicine, Saint Louis, MO"
+        ]
+    ],
+    "first_author_latitude": "38.63500164999999",
+    "first_author_longitude": "-90.26278495000001",
+    "abstract_text": "The application of novel single-cell technologies provides personalized profiles on patient samples to improve standard of healthcare and evolve the field of precision medicine. In the field of Immuno-oncology, application of single cell RNA-seq (scRNA-seq) to evaluate gene expression profiles has provided new insights on the cancer subpopulation dynamic, network reconstruction, and cell trajectory inferences. Here we present a standardized and validated scRNA-seq analytical workflow applied to a series of common cryopreserved Multiple Myeloma (MM) bone marrow samples obtained from subjects enrolled in the Multiple Myeloma Research Foundation (MMRF) CoMMpass study (NCT01454297). scRNA-seq data was generated from common samples at three different academic research centers. While the high variability of scRNA-seq data raises computational challenges in data analysis, we have tested different quality control, alignment, batch correction, clustering and annotation methods to prove that the results are consistent for subsets of cells, independent of the center generating the data. To evaluate differences in cell type composition and cross-center differences, an in-depth analysis was performed on four CD138- sorted samples (>18,000 total cells) that were subject to scRNA-sequencing at 3 different centers. We tested three different batch correction methods including: Harmony, Seurat Merge and Seurat Anchor. Immune cell types (CD4 T, CD8 T, NK, Monocytes, Macrophages and pDCs), exhibited similarities in clustering structure and shared complementary differentially expressed genes while Plasma and B cells exhibited distinct center variation when using Seurat Merge. The evaluation of batch effects across samples generated at 3 centers identified subtle batch effects without significant impact of cellular clusterings. For data concordance analyses, Seurat Merge was used for batch effect correction and data normalization and a beta-variational autoencoder and random forest classifier was utilized to assign cell types. In comparing the proportion of each cell type identified across centers using dead cell removal bead depletion, the overall population of plasma and B cells were found to be dissimilar for a subset of samples which could be attributed to differences in bone marrow aliquot sampling. We further explored how the application of dead cell removal altered the distribution of tumor and immune populations for the same sample of interest. Samples that underwent dead cell removal have consistently higher NK and CD8+T cell proportion, while CD4+T is higher more often in non-treated samples. In summary, dead cell removal ultimately improved the overall data quality (more viable cells) without significantly altering the gene expression signatures or proportions of each cell type. Further comparative analysis of transcriptome signatures of various cell types (e.g., B cells, T cells, Plasma cells) across 3 centers depicted significant similarity in transcriptome profile. This suggests even if three centers captured different numbers of various cell types due to variation in protocols and aliquots, the cells still have significantly similar transcriptome profiles that might be helpful in producing the same biological results across three sites. Our in-depth cross-institutional assessment of tumor and immune cell types in MM will provide a valuable resource and thorough analysis strategy to the broader scientific community. Disclosures Dhodapkar: Celgene/BMS: Membership on an entity's Board of Directors or advisory committees, Other; Janssen: Membership on an entity's Board of Directors or advisory committees, Other; Kite: Membership on an entity's Board of Directors or advisory committees, Other; Lava Therapeutics: Membership on an entity's Board of Directors or advisory committees, Other; Roche/Genentech: Membership on an entity's Board of Directors or advisory committees, Other; Amgen: Membership on an entity's Board of Directors or advisory committees, Other."
 }
