@@ -2,5 +2,63 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-117002",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4031",
     "start_url_page_num": 4031,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Machine-Learning Sepsis Prediction Model for Patients Undergoing Hematopoietic Cell Transplantation ",
+    "article_date": "November 29, 2018",
+    "session_type": "902. Health Services Research\u2014Malignant Diseases: Big Data And Outcomes Research",
+    "topics": [
+        "hematopoietic stem cell transplantation",
+        "machine learning",
+        "sepsis",
+        "vital signs",
+        "false-positive results",
+        "sepsis, severe",
+        "transplantation",
+        "allogeneic hematopoietic stem cell transplant",
+        "antibiotics",
+        "chemotherapy regimen"
+    ],
+    "author_names": [
+        "Sanjeet Dadwal, MD",
+        "Zahra Eftekhari, MS",
+        "Tushondra Thomas, MSN, MBA, PHN, RN-BC",
+        "Deron Johnson, PharmD",
+        "Dongyun Yang, PhD",
+        "Sally Mokhtari, PhD",
+        "Liana Nikolaenko, MD",
+        "Janet Munu, BSc, MBA, RN",
+        "Ryotaro Nakamura, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Infectious Disease, City of Hope National Medical Center, Duarte, CA "
+        ],
+        [
+            "Department of Clinical Informatics, City of Hope National Medical Center, Duarte, CA "
+        ],
+        [
+            "Department of Clinical Informatics, City of Hope National Medical Center, Duarte, CA "
+        ],
+        [
+            "Department of Clinical Informatics, City of Hope National Medical Center, Duarte, CA "
+        ],
+        [
+            "Department of Information Sciences-BRI, City of Hope National Medical Center, Duarte, CA "
+        ],
+        [
+            "Department of Clinical Translational Program Development, City of Hope National Medical Center, Duarte, CA "
+        ],
+        [
+            "Department of Hematology/HCT, City of Hope National Medical Center, Duarte, CA"
+        ],
+        [
+            "Department of Clinical Informatics, City of Hope National Medical Center, Duarte, CA "
+        ],
+        [
+            "Department of Hematology/HCT, City of Hope National Medical Center, Duarte, CA"
+        ]
+    ],
+    "first_author_latitude": "34.1298507",
+    "first_author_longitude": "-117.97077220000001",
+    "abstract_text": "Sepsis and severe sepsis contribute significantly to early treatment-related mortality after hematopoietic cell transplantation (HCT), with reported mortality rates of 30 and 55% due to severe sepsis, during engraftment admission, for autologous and allogeneic HCT, respectively. Since the clinical presentation and characteristics of sepsis immediately after HCT can be different from that seen in general population or those who are receiving non-HCT chemotherapy, detecting early signs of sepsis in HCT recipients becomes critical. Herein, we developed and validated a machine-learning based sepsis prediction model for patients who underwent HCT at City of Hope, using variables within the Electronic Health Record (EHR) data. We evaluated a consecutive case series of 1046 HCTs (autologous: n=491, allogeneic: n=555) at our center between 2014 and 2017. The median age at the time of HCT was 56 years (range: 18-78). For this analysis, the primary clinical event was sepsis diagnosis within 100 days post-HCT, identified based on - use of the institutional sepsis management order set and mention of \"sepsis\" in the progress notes. The time of sepsis order set was considered as time of sepsis for analyses. To train the model, 829 visits (104 septic and 725 non-septic) and their data were used, while 217 visits (31 septic and 186 non-septic) were used as a validation cohort. At each hour after HCT, when a new data point was available, 47 variables were calculated from each patient's data and a risk score was assigned to each time point. These variables consisted of patient demographics, transplant type, regimen intensity, disease status, Hematopoietic cell transplantation - specific comorbidity index, lab values, vital signs, medication orders, and comorbidities. For the 829 visits in the training dataset, the 47 variables were calculated at 220,889 different time points, resulting in a total of 10,381,783 data points. Lab values and vital signs were considered as changes from individual patient's baselines at each time point. The baseline for each lab value and vital sign were the last measured values before HCT. An ensemble of 20 random forest binary classification models were trained to identify and learn patterns of data for HCT patients at high risk for sepsis and differentiate them from patients at lower sepsis risk. To help the model learning patterns of data prior to sepsis, available data from septic patients' within 24 hours preceding diagnosis of sepsis was used. For 829 septic visits in the training data set, there were 5048 time points, each having 47 variables. Variable importance for the 20 models was assessed using Gini mean decrease accuracy method. The sum of importance values from each model was calculated for each variable as the final importance value. Figure 1a shows the importance of variables using this method. Testing the model on the validation cohort results in an AUC of 0.85 on the test dataset ( Figure 1b ). At a threshold of 0.6, our model was 0.32 sensitive and 0.96 specific. At this threshold, this model identified 10 out of 31 patients with a median lead time of 119.5 hours, of which 2 patients were flagged as high risk at the time of transplant and developed sepsis at 17 and 60 days post-HCT. The lead time is what truly sets this predictive model apart from detective models with organ failure or dysfunction or other deterioration metrics as their detection criteria. At a threshold of 0.4, our model has 0.9 sensitivity and 0.65 specificity. In summary, a machine-learning sepsis prediction model can be tailored towards HCT recipients to improve the quality of care, prevent sepsis associated-organ damage and decrease mortality post-HCT. Our model significantly outperforms widely used Modified Early Warning Score (MEWS), with AUC of 0.73 in general population. Possible application of our model include showing a \"red flag\" at a threshold of 0.6 (0.32 true positive rate and 0.04 false positive rate) for antibiotic initiation/modification, and a \"yellow flag\" at a threshold of 0.4 (0.9 true positive rate and 0.35 false positive rate) suggesting closer monitoring or less aggressive treatments for the patient. Figure 1. View large Download slide Figure 1. View large Download slide  Disclosures Dadwal: MERK: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; Gilead: Research Funding; AiCuris: Research Funding; Shire: Research Funding."
 }
