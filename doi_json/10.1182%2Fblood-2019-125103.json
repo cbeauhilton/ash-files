@@ -2,5 +2,51 @@
     "doi": "https://doi.org/10.1182/blood-2019-125103",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4325",
     "start_url_page_num": 4325,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Transcriptome Profiling of Pediatric Myeloproliferative Neoplasms Demonstrates Dysregulation of Platelet-Relevant Genes and Enrichment of Inflammatory and JAK2 Mediated Complement Pathways ",
+    "article_date": "November 13, 2019",
+    "session_type": "635.Myeloproliferative Syndromes: Basic Science",
+    "topics": [
+        "blood platelets",
+        "genes",
+        "myeloproliferative disease",
+        "pediatrics",
+        "complement pathways",
+        "complement system proteins",
+        "cytokine",
+        "rna",
+        "beta-thromboglobulin",
+        "bone marrow diseases"
+    ],
+    "author_names": [
+        "Nicole Kucine, MD",
+        "Amanda R. Leonti, MS",
+        "Aishwarya Krishnan",
+        "Rhonda E. Ries, MA",
+        "Ross L. Levine, MD",
+        "Soheil Meshinchi, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Pediatrics, Weill Cornell Medicine, New York, NY "
+        ],
+        [
+            "Clinical Research Division, Fred Hutchinson Cancer Research Center, Mountlake Terrace, WA "
+        ],
+        [
+            "Center for Hematologic Malignancies, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA "
+        ],
+        [
+            "Memorial Sloan Kettering Cancer Center, New York, NY"
+        ],
+        [
+            "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA "
+        ]
+    ],
+    "first_author_latitude": "40.7646404",
+    "first_author_longitude": "-73.9540279",
+    "abstract_text": "Introduction : Myeloproliferative neoplasms (MPNs) are rare clonal bone marrow disorders in children characterized by high blood counts, predisposition to clotting events, and the potential to transform to myelofibrosis or acute myeloid leukemia (AML). Children with MPNs have lower rates of the known driver mutations (in JAK2 , MPL , and CALR ) than adult patients, and the underlying pathways and molecular derangements in young patients remain unknown. Given the lack of knowledge about pediatric MPNs, it is critical that we gain a better understanding of the dysregulated pathways in these diseases, which is necessary for improving disease understanding and broadening treatment options in children. Therefore, the objective of this work was to identify differentially expressed genes and pathways between children with MPNs and healthy controls, as well as children with AML, to guide further study. Methods : Mononuclear cells were extracted from peripheral blood of pediatric MPN patients ( n =20) and pediatric and young adult AML patients ( n =1410), and bone marrow of normal controls (NC, n =68). AML patient samples were being evaluated as part of a Children's Oncology Group planned analysis. To identify an expression profile unique to MPNs, transcriptome data from MPN patients was contrasted against NC and AML patients. All samples were ribodepleted and underwent Illumina RNA-Seq to generate transcriptome expression data. All analyses were performed in R. Differentially expressed genes were identified using the voom function from the limma package (v. 3.38.3), and enriched pathways were identified using the pathfindR package (v. 1.3.1). Unsupervised hierarchical clustering and heatmap generation was performed using the ComplexHeatmap package (v. 1.20.0). Results : MPN patient samples showed a unique expression signature, distinct from both AML patients and normal controls. Unsupervised PCA plot (Figure 1A) and heatmaps (Figure 1B) show that MPN samples cluster together. There were 4,012 differentially expressed (DE) genes in MPNs compared to NC and 6,743 DE genes in MPNs compared to AML patients. There were 2,493 shared genes between the 2 groups (Figure 1C.) Significantly DE genes between MPNs and other groups included multiple platelet-relevant genes including PF4 (CXCL4) , PF4V1 , P2RY12, and PPBP (CXCL7) . Interestingly, PF4V1 was the most DE gene in MPNs compared to AML, and third highest versus NC. Dysregulation of some of these genes has been seen in adult MPNs, as well as thrombosis. Further comparison of transcriptome profiles between children with ( n=13 ) and without ( n=7) JAK2 mutations showed upregulation of three genes, CFB , C2 , and SERPING1 , which are all known complement genes, implicating complement activation in JAK2 -mutated MPN patients. Complement activation has previously been reported in adult MPNs. Pathway enrichment analysis shows a number of immune and inflammatory pathways as enriched in MPN patients compared to both AML and NC. There were 179 enriched pathways in MPNs compared to AML and 142 compared to NC, with 134 common pathways (Figure 1D.) The systemic lupus erythematosus pathway was the most heavily enriched pathway in MPNs compared to both AML and NC. Additional pathways with significant enrichment include hematopoietic cell lineage, cytokine-cytokine interactions, DNA replication, and various infection-relevant pathways. The JAK-STAT signaling pathway was also enriched in MPNs compared to both AML and NC, as was the platelet activation pathway. Conclusion : Transcriptome evaluation of childhood MPNs shows enrichment of numerous inflammatory and immune pathways, highlighting that, as in adult MPNs, inflammation is implicated in pediatric MPNs. Furthermore, specific complement genes were upregulated in JAK2 -mutant MPN. Upregulation of platelet-specific genes implies potential insights into disease mechanisms and warrants more study. Variations in the cell populations may account for some of the differences seen, however all samples were largely mononuclear cells, making their comparisons reasonable. Further analysis of this early data is needed to better assess inflammatory changes and platelet activation in pediatric MPNs, as are larger sample sizes. Individual cells may have differential expression of various genes, and future experiments with single-cell RNA-seq would be helpful to further elucidate differences. View large Download slide View large Download slide  Disclosures Levine: Novartis: Consultancy; Loxo: Membership on an entity's Board of Directors or advisory committees; Celgene: Consultancy, Research Funding; Gilead: Consultancy; Roche: Consultancy, Research Funding; Lilly: Honoraria; Amgen: Honoraria; Qiagen: Membership on an entity's Board of Directors or advisory committees; Imago Biosciences: Membership on an entity's Board of Directors or advisory committees; C4 Therapeutics: Membership on an entity's Board of Directors or advisory committees; Prelude Therapeutics: Research Funding; Isoplexis: Membership on an entity's Board of Directors or advisory committees."
 }
