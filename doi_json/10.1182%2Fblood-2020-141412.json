@@ -2,5 +2,64 @@
     "doi": "https://doi.org/10.1182/blood-2020-141412",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4456",
     "start_url_page_num": 4456,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "High-Density Domain-Focused CRISPR Screens Reveal Epigenetic Regulators of Hox/Meis Gene Expression in Acute Myeloid Leukemia ",
+    "article_date": "November 5, 2020",
+    "session_type": "602.Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation",
+    "topics": null,
+    "author_names": [
+        "Karina Barbosa, BSc",
+        "Anagha Deshpande, PhD",
+        "Ping Xiang, PhD",
+        "Bo-Rui Chen, PhD",
+        "Adam Brown, MSc",
+        "Neil Robertson",
+        "Younguk Sun, PhD",
+        "John Doench, PhD",
+        "Peter D Adams, PhD",
+        "R. Keith Humphries, MD PhD",
+        "Prashant Mali, PhD",
+        "Aniruddha J. Deshpande, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Tumor Initiation and Maintenance Program, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA "
+        ],
+        [
+            "Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA "
+        ],
+        [
+            "Terry Fox Laboratory BC Cancer Agency, Vancouver, Canada "
+        ],
+        [
+            "Tumor Initiation and Maintenance Program, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA "
+        ],
+        [
+            "Broad Institute, Cambridge, MA "
+        ],
+        [
+            "Institute of Cancer Sciences, University of Glasgow, Glasgow, United Kingdom "
+        ],
+        [
+            "Tumor Initiation and Maintenance Program, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA "
+        ],
+        [
+            "Broad Institute, Cambridge, MA "
+        ],
+        [
+            "Tumor Initiation and Maintenance Program, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA "
+        ],
+        [
+            "Terry Fox Laboratory BC Cancer Agency, Vancouver, Canada "
+        ],
+        [
+            "Department of Bioengineering, University of California San Diego, La Jolla, CA "
+        ],
+        [
+            "Tumor Initiation and Maintenance Program, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA "
+        ]
+    ],
+    "first_author_latitude": "32.901419499999996",
+    "first_author_longitude": "-117.24198279999999",
+    "abstract_text": "The aberrant and constitutive activation of the HOXA cluster genes and the their-co-factor MEIS1 ( HOX/MEIS ) is a recurrent feature in several types of myeloid and lymphoid leukemias. Aberrant HOX/MEIS expression has been shown to drive limitless leukemia stem cell self-renewal and is therefore an attractive target for therapy in acute myeloid leukemia (AML). However, since HOX/MEIS genes encode DNA-binding transcription factors, small molecules targeting these proteins directly are lacking. Furthermore, targeting the HOX/MEIS network is complicated by the fact that these genes are coordinately regulated and have redundant functions in sustaining leukemic self-renewal. One way of therapeutically targeting aberrant HOX/MEIS transcription is the identification and pharmacologic inhibition of upstream chromatin regulators that coordinately modulate their expression. In order to identify such chromatin regulators, we made use of an endogenous GFP reporter knocked-in to the MEIS1 locus in the high HOX/MEIS- expressing U937 human AML cell line. Using this system, we first performed a high-throughput flow-cytometry-based small-molecule inhibitor screen with a library of 261 compounds targeting epigenetic regulators. In our screen, the most potent hits that reproducibly showed >50% MEIS1-GFP inhibition were small molecules that targeted DOT1L, the histone methyltransferase. DOT1L inhibitors have already been well-characterized as HOX/MEIS regulators and most epigenetic regulators are not targeted by existing compound libraries. Therefore, we decided to use a genetic screening approach to more extensively interrogate the landscape of epigenetic regulators of HOX/MEIS expression in AML. For this, we designed a custom computational pipeline and built a CRISPR library of 10,000 sgRNAs targeting functionally conserved protein domains of all catalogued chromatin modulatory proteins (> 600 proteins - 5 sgRNAs per conserved domain). This list of epigenetic regulators included histone modifying enzymes, chromatin readers, nucleosome remodelers, adaptor proteins and proteins involved in DNA and RNA modifications, as well as other transcriptional regulators. Using this comprehensive, domain-focused CRISPR library, we conducted a phenotypic enrichment screen. Specifically, we used flow cytometry to purify the top 20% GFP-MEIS1 (high) and bottom 20% GFP-MEIS1 (low) expressing cells and identified sgRNAs that were enriched particularly in the GFP-MEIS1 -low vs -high fraction using next generation sequencing. Given the extent and complexity of the CRISPR library, our approach uncovered members of six distinct chromatin modifying complexes as MEIS1 regulators (MAGeCKFlute pipeline, 2 SD > mean) and we could validate > 10 of these hits as bonafide regulators of MEIS1 as well as HOXA genes. We also demonstrated their essentiality for the proliferation of HOX-driven AML cells using arrayed sgRNA competition assays. These validated hits included several known as well as novel chromatin readers and writers amenable to small-molecule targeting. We focused our attention on the KAT7/JADE3 complex and the casein kinase 2 (CK2) family that we validated as potent and selective regulators of HOX/MEIS expression in AML cells. Our studies demonstrated that genetic depletion of components of the KAT7 complex or of the CK2 family could reverse HOX/MEIS activation in human AML cells, leading to a progressive loss of proliferative potential. Importantly, the use of the clinical-grade CK2 inhibitor CX4945 (Silmitasertib) caused a concentration-dependent down-regulation of HOX/MEIS expression in models of HOX-driven AML, leading to significant anti-leukemia effects. Our study provides a framework for the multiplexed identification of actionable dependencies targeting therapeutically recalcitrant oncogenic networks in cancer. Specifically for AML, since Silmitasertib is in Phase 2 trials for treatment of other cancers, our studies may solve the long-standing problem of targeting leukemia stem cells in AML potentially overcoming therapy refractoriness in this devastating disease. Disclosures No relevant conflicts of interest to declare."
 }
