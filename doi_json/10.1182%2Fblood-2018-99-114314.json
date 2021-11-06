@@ -2,5 +2,99 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-114314",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3908",
     "start_url_page_num": 3908,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Identification of Gene Regulatory Networks Governing Stemness Properties of Human HSC and LSC ",
+    "article_date": "November 29, 2018",
+    "session_type": "502. Hematopoiesis: Regulation of Gene Transcription, Cytokines, Signal Transduction, Apoptosis, and Cell Cycle Regulation: Poster III",
+    "topics": [
+        "agonists",
+        "atac trial",
+        "cd47 antigen",
+        "chromatin",
+        "dilution technique",
+        "endothelial protein c receptor",
+        "genes",
+        "opportunity for error",
+        "proton pump inhibitors",
+        "screening"
+    ],
+    "author_names": [
+        "Stanley W.K. Ng",
+        "Stephanie Zhi-Juan Xie, PhD",
+        "Elvin Wagenblast, PhD",
+        "Naoya Takayama, MD PhD",
+        "Liqing Jin, MD",
+        "Nathan Mbong",
+        "Alex Murison",
+        "Schoof E Erwin",
+        "Amanda Mitchell, PhD",
+        "Peter Van Galen, PhD",
+        "Mathieu Lupien, PhD",
+        "Mark D. Minden, MD PhD",
+        "Jean C.Y. Wang, MD PhD",
+        "Peter W. Zandstra, PhD",
+        "John E. Dick"
+    ],
+    "author_affiliations": [
+        [
+            "Institute of Biomaterials and Biomedical Engineering, University of Toronto, Toronto, Canada "
+        ],
+        [
+            "University Health Network Princess Margaret Cancer Centre, Toronto, Canada "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network, East York, Canada "
+        ],
+        [
+            "Department of Regenerative Medicine, Chiba University Graduate School of Medicine, Chiba, Japan ",
+            "Department of Molecular Genetics, Princess Margaret Cancer Centre University Health Network, Toronto, Canada "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network, Toronto, CAN "
+        ],
+        [
+            "Princess Margaret Hospital, University Health Network, Toronto, Canada "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network, Toronto, Canada "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network, Toronto, Canada ",
+            "Biotech Research and Innovation Centre, Copenhagen, Denmark ",
+            "Department of Bioengineering, Technical University of Denmark, Kongens Lyngby, Denmark ",
+            "Finsen Laboratory, Rigshospitalet, Copenhagen, Denmark "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network, Toronto, Canada "
+        ],
+        [
+            "Pathology, Massachusetts General Hospital and Broad Institute or MIT and Harvard, Boston, MA "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network, toronto, Canada ",
+            "Department of Medical Biophysics, University of Toronto, Toronto, Canada ",
+            "Ontario Institute for Cancer Research, Toronto, Canada "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network, Toronto, Canada ",
+            "Princess Margaret Cancer Centre, Division of Medical Oncology and Hematology, University of Toronto, Toronto, Canada ",
+            "Department of Medical Biophysics, University of Toronto, Toronto, Canada "
+        ],
+        [
+            "University Health Network, Princess Margaret Cancer Centre, Toronto, Canada ",
+            "Division of Medical Oncology and Hematology, Department of Medicine, Toronto, Canada ",
+            "Departments of Medicine, University of Toronto, Toronto, Canada "
+        ],
+        [
+            "Institute of Biomaterials and Biomedical Engineering, University of Toronto, Toronto, Canada ",
+            "School of Biomedical Engineering, University of British Columbia, Vancouver, Canada "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network (UHN), Toronto, Canada ",
+            "Department of Molecular Genetics, University of Toronto, Toronto, Canada"
+        ]
+    ],
+    "first_author_latitude": "43.6600101",
+    "first_author_longitude": "-79.3931363",
+    "abstract_text": "The gene regulatory networks (GRN) governing maintenance and expansion of normal and leukemic human hematopoietic stem-cells (HSC and LSC) are not well understood. Typically, GRNs are inferred from gene expression (GE) data of a limited subset of pre-selected genes implicated to be relevant to the cell types being studied. Such data are commonly derived from relatively homogeneous cell populations or cell lines, which do not reflect the heterogeneity of primary human samples. Importantly, there are currently no GRNs that directly interrogate the transcriptional circuitry controlling human HSC/LSC. To gain insight into the determinants of stem cell function in human HSC/LSC, we developed a unique method for building GRNs that employs GE and chromatin accessibility (ATAC-Seq) data derived from n=17 highly purified human umbilical cord blood hematopoietic stem and progenitor cell populations (hUCB-HSPC) and n=64 functionally-validated LSC-enriched and LSC-depleted cell fractions sorted from AML patient samples. Estimates of HSC/LSC frequencies based on limiting dilution xenotransplantation assays were also incorporated with statistical learning approaches to infer GRN models. Specifically, we determined transcription factor (TF) motif occurrence in HSC/LSC-enriched open chromatin regions near genes that are more highly expressed in stem versus non-stem profiles (P<0.05) to identify TF-target gene interactions in HSCs and LSCs. The effect of specific TF binding on target GE was modelled using statistical regression. A database comprising n=8,927 and n=7,916 HSC and LSC specific TF-target gene relationships, respectively, was constructed. Importantly, only a small set of n=95 TF-target gene interactions overlapped between HSC and LSC, suggesting divergent regulatory rules governing stemness maintenance, as well as differential downstream effects upon targeting of specific genes. Self-sustaining transcriptional loops between subsets of TFs were detected in HSC (ETS1, EGR1, RUNX2, FOSL1, ZNF274, ZNF683) and LSC (MEIS1, FOXK1) data, representing core regulatory hubs that are likely to be important to the maintenance of the HSC/LSC state. To determine how each gene in the transcriptome may interact with the core HSC and LSC networks, n=284,606 protein-protein interactions (PPI) between n=16,540 proteins were analyzed to define n=103,516 shortest PPI pathways connecting to the core HSC/LSC TFs. Statistical regression guided by functional data was used to identify likely HSC/LSC-relevant PPI pathway activity scores, defined as weighted combinations of constituent pathway component GE values, that were highly correlated to HSC/LSC frequency estimates from xenotransplantation assays. This generated 2 lists of n=9,948 and n=45,063 HSC- and LSC-relevant PPI pathways, respectively. We next analyzed these putative HSC/LSC-relevant pathways for points of perturbation (i.e. through gene knockdown (KD) or overexpression (OE)) that could lead to changes in stemness pathway activity scores and therefore potential HSC expansion or LSC eradication, resulting in a catalogue comprising n=976 and n=3,819 HSC and LSC targets, respectively. Prediction of several anti-LSC targets, including CDK6, XPO1, mir-126, CD47, and CD123, was supported by serial xenotransplantation data from our group and others. Furthermore, the HSC GRN correctly predicted increased HSC frequency as a consequence of mir-126 or CDK6 KD, or addition of a PROCR agonist to HSC-enriched hUCB or bone marrow. These functional validations of several GRN predictions support the overall validity of our model and accuracy of untested predictions. Collectively, we report a comprehensive resource for exploring the gene regulatory wiring and extended protein interactions that define the functional state of human HSC and LSC. The constructed GRNs can also serve as an in-silico screening platform for the systematic identification of gene/protein targets that can be exploited for clinical applications, including HSC expansion and LSC eradication. Disclosures Takayama: Megakaryon co. Ltd.: Research Funding. Zandstra: ExCellThera: Equity Ownership."
 }
