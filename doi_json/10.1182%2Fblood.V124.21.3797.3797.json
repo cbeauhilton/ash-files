@@ -2,5 +2,52 @@
     "doi": "https://doi.org/10.1182/blood.V124.21.3797.3797",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2958",
     "start_url_page_num": 2958,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Identifying Methylation Changes Driving Evolution of Relapse in MLL-Rearranged Acute Lymphoblastic Leukemias ",
+    "article_date": "December 6, 2014",
+    "session_type": "618. Acute Lymphoblastic Leukemia: Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis: Poster III",
+    "topics": [
+        "burkitt's lymphoma",
+        "leukemia",
+        "methylation",
+        "leukemia, b-cell, acute",
+        "dna",
+        "remission induction",
+        "complex",
+        "leukemic cells",
+        "leukemogenesis",
+        "rna"
+    ],
+    "author_names": [
+        "Rumen Kostadinov, PhD",
+        "Robert Scharpf, PhD",
+        "Sarven Sabunciyan, PhD",
+        "Daniel Magoon",
+        "Rafael Irizarry, PhD",
+        "Patrick Brown, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Johns Hopkins Bloomberg School of Public Health, Baltimore, MD "
+        ],
+        [
+            "Sidney Kimmel Comprehensive Cancer Center, Baltimore, MD "
+        ],
+        [
+            "Johns Hopkins School of Medicine, Baltimore, MD "
+        ],
+        [
+            "Johns Hopkins, Baltimore, MD "
+        ],
+        [
+            "Dana Farber Cancer Center, Boston, MA ",
+            "Biostatistics, Boston, MA "
+        ],
+        [
+            "Johns Hopkins University School of Medicine, Baltimore, MD"
+        ]
+    ],
+    "first_author_latitude": "39.2982897",
+    "first_author_longitude": "-76.590198",
+    "abstract_text": "Introduction The MLL gene is rearranged (MLL-r) in 80% of infants with B-lymphoblastic leukemia (B-ALL). MLL-r infant B-ALL has a poor prognosis, with 4-year event-free survival less than 45%. The typical pattern of failure in MLL-r infant ALL is successful remission induction followed by early relapse, suggesting rapid emergence and/or selection of one or more chemoresistant subclones. The markedly lower observed remission induction rates at relapse (90%) are consistent with this hypothesis. Genomic studies of MLL-r B-ALL have revealed a striking paucity of cooperating genomic abnormalities compared to other subsets of B-ALL, which suggests heritable epigenetic changes may drive leukemogenesis, chemoresistance and evolution of relapse in MLL-r B-ALL. MLL, its fusion partners and various components of its large complexes have functional domains with known or suspected epigenetic activity. Thus, MLL rearrangement in B-ALL may trigger chromatin modifications and DNA CpG methylation changes that interplay to disrupt normal gene transcription and expression. We hypothesized that infant MLL-r B-ALL cells dynamically acquire heritable DNA CpG methylation changes, some of which may contribute to chemoresistance and evolution of relapse. To test this hypothesis we performed whole-genome bisulfite sequencing (WGBS) using paired diagnosis-relapse (DX-RL) samples to identify methylation changes that may drive relapse. Methods We evaluated paired DX-RL specimens with >95% leukemic blasts from two infants with B-ALL harboring MLL-ENL fusions: A 4 month-old female who relapsed after 1 year (case a), and an 8 month-old male who relapsed after 5 months (case b). We prepared WGBS libraries and ran paired-end sequencing (2x100bp) using Illumina HiSeq at average 25X coverage. We used Bismark for aligning reads and calling CpG methylation states. We developed an analysis pipeline to convert CpG states into CpG haplotypes, detect methylation changes at the haplotype level between DX and RL, annotate methylation changes to genes and promoters, and perform gene set enrichment analysis (GSEA) on these genes. Results First, we filtered reads falling into repeated DNA. We then obtained methylation calls at 15.6/14.3 (DX/RL) million CpGs in case (a) and 15.5/15.6 (DX/RL) million CpGs in case (b). We extracted uniquely aligned reads covering 4 contiguous CpGs, which defined a \u201c4 CpG-site\u201d, or \u201csite\u201d. We required that each site in both DX and RL is covered by at least 4 reads, which yielded 26,747 and 85,174 sites for (a) and (b). We compared the methylation level at each site in DX versus RL (e.g. a \u201c1-0-1-1\u201d 4 CpG-site has a methylation level of 0.75). For (a), 165 sites showed a 50% increase in methylation level at relapse (e.g., from 0.2 to 0.7), and 468 showed a 50% decrease in methylation level at relapse. For (b) there were 605 increased and 57 decreased. The 633 methylation changes in (a) mapped to 175 genes (2kb upstream to transcription end site) and the 662 changes in (b) mapped to 135 genes. Some of these genes are known to be involved in MLL-r ALL [e.g., IKZF1, in (a) and TLX2 in (b)]. GSEA was performed independently using the 175 and 135 genes in (a) and (b), respectively. Interestingly, there was substantial overlap: The top 3 gene sets for (b) (FDR q-value \u2264 2.9E-8) were also within the top 9 sets for (a) (FDR \u2264 1.1E-5). Strikingly, all 3 of these sets involved components of the polycomb repressive complex 2 (PRC2) (1. EED target genes, 2. H3K27me3 bound genes and 3. Genes increased after EZH2 knockdown). Also in common was the KEGG gene set for antigen processing and presentation [FDR 3.4E-6 in (a) and 1.7E-4 in (b)]. Conclusion WGBS allows an in-depth look at the epigenetic state of leukemic cell populations. While >98% of the methylome remained relatively stable between diagnosis and relapse (< 50% change), the hundreds of differentially methylated sites may be sufficient to influence expression of key genes and drive selection during the evolution of relapse. In addition, the ~15 million CpG methylation states are stably inherited yet variable, and comprise a rich source of information that can be used to identify evolving subclones, particularily in MLL-r ALL given its silent genomic landscape. Validation of the functional significance of the methylation changes using RNA-seq and identification of functionally important epigenetically-defined subclones is underway. Disclosures No relevant conflicts of interest to declare."
 }
