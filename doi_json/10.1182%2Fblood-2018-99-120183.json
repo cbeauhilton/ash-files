@@ -2,5 +2,80 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-120183",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3974",
     "start_url_page_num": 3974,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Using Machine Learning to Classify the \"Goodness\" of Hmsc-Derived and AML-Derived EV's ",
+    "article_date": "November 29, 2018",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
+    "topics": [
+        "biological markers",
+        "centrifugation",
+        "clinical diagnostic instrument",
+        "colorectal cancer",
+        "dimethyl sulfoxide",
+        "direct method",
+        "leukemia, myelocytic, acute",
+        "leukemia, myelomonocytic, chronic",
+        "machine learning",
+        "multiple myeloma"
+    ],
+    "author_names": [
+        "Chibuikem Chukwudalu Nwizu",
+        "Lorin Crawford, PhD",
+        "Theo Borgovan, MD BS",
+        "Sicheng Wen, MD PhD",
+        "Mark S Dooner",
+        "Pamela C Egan, MD",
+        "John L. Reagan, MD",
+        "Adam J Olszewski, MD",
+        "Laura R Goldberg, MD PhD",
+        "Peter J. Quesenberry, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Brown University, Providence, ",
+            "Warren Alpert Medical School, Providence, RI "
+        ],
+        [
+            "Center for Statistical Sciences Center for Computational Molecular Biology, Brown University, Providence, "
+        ],
+        [
+            "Brown University, providence, "
+        ],
+        [
+            "Rhode Island Hospital, Providence, RI ",
+            "The Warren Alpert Medical School of Brown University/Rhode Island Hospital, providence, RI "
+        ],
+        [
+            "Rhode Island Hospital, Providence, RI "
+        ],
+        [
+            "Division of Hematology-Oncology, Rhode Island Hospital, Providence, RI ",
+            "Department of Medicine, Alpert Medical School of Brown University, Providence, RI ",
+            "Division of Hematology/Oncology, Alpert Medical School of Brown University, Providence, RI "
+        ],
+        [
+            "Division of Hematology-Oncology, Rhode Island Hospital, Providence, RI ",
+            "Medicine, Divison of Hematology/Oncology, Brown University, Rhode Island Hospital/The Miriam Hospital, Providence, RI ",
+            "The Warren Alpert Medical School of Brown University, Providence, RI ",
+            "Division of Hematology/Oncology, Rhode Island Hospital, The Warren Alpert Medical School of Brown University, Providence, RI "
+        ],
+        [
+            "Division of Hematology-Oncology, Rhode Island Hospital, Providence, RI ",
+            "Department of Medicine, Alpert Medical School of Brown University, Providence, RI ",
+            "Memorial Hospital of Rhode Island, Providence, RI ",
+            "Division of Hematology-Oncology, Memorial Hospital of Rhode Island, Providence, RI "
+        ],
+        [
+            "Rhode Island Hospital, Providence, RI ",
+            "Warren Alpert Medical School of Brown University, Providence, RI"
+        ],
+        [
+            "Rhode Island Hospital, Providence, RI ",
+            "Division of Hematology-Oncology, Rhode Island Hospital, Providence, RI ",
+            "Department of Medicine, Alpert Medical School of Brown University, Providence, RI "
+        ]
+    ],
+    "first_author_latitude": "41.82677179999999",
+    "first_author_longitude": "-71.4025482",
+    "abstract_text": "Introduction Extracellular vesicles (EVs) form a unique class of messengers for intercellular communication. Depending on their cell of origin, EVs have the ability to induce a phenotypic change in the recipient cell. For example, EVs from explant prostate cancer induce a neoplastic phenotype in normal prostate cell lines. Conversely, EVs from human mesenchymal stem cells (hMSC) reverse the malignant phenotype in prostate and colorectal cancer and mitigate radiation damage to the marrow. Characterization of EVs as \"good\" or \"bad\" has the potential to be a very important diagnostic tool in regard to direct therapy and biomarker identification. Currently, there is no way of characterizing the \"goodness\" of an EV sample. We leveraged advances in the area of machine learning to develop a novel therapeutic tool that can classify the goodness of an EV particle distribution in a serum sample. Methods EVs were harvested from three sources: hMSC primary progenitor cells, Kasumi Acute Myeloid Leukemia (AML) cells lines, and patient samples. Using a standard centrifugation isolation, EVs were isolate, resuspended in 1% DMSO, and frozen. All samples were analyzed using the NanoSight N500. We collected biophysical properties of the EVs such as diameter and diffusion coefficient. The results were summarized in a distribution based on either size or diffusion coefficient. Summary statistics from each distributions were calculated. Summary statistics included mean, mode, and the diameter at which 10%, 50%, and 90% of size or diffusion coefficient is comprised of smaller particles (D10, D50, and D90, respectively). These served as inputs into a softmax Multilayer Perceptron. This neural network classifier was trained on only the hMSC-derived EVs and Kasumi AML-derived EVs, which served to represent a healthy patient and leukemic patient respectively. Results/Conclusion The mean accuracy after 10 fold cross validation was 90.16% \u00b1 9.26%. For each validation run, a Receiver Operating Characteristic (ROC) curve was drawn and the area under the curve (AUC) was calculated. The mean AUC (after 10 fold cross validation) was 95.97% \u00b1 5.38%. We programmed the algorithm, when given a patient sample, to calculate and return similarity to the Kasumi AML-derived EVs. The algorithm was given three patient sample representing three leukemic disease processes: AML, Chronic Myelomonocytic Leukemia (CMML), and Multiple myeloma (MM). The result was a calculate % similarity of 100%, 100%, and 66% for AML, CMML, and MM respectively. These results are promising and have prompted us to begin collecting and test the algorithms on normal, active leukemic, and recovered leukemic patients. We endeavor to evolve our predictive algorithms to include disease and patient specific information, allowing us to adapt our learning models towards clinically relevant endpoints. Disclosures Reagan: Alexion: Honoraria; Pfizer: Research Funding; Takeda Oncology: Research Funding. Olszewski: Spectrum Pharmaceuticals: Consultancy, Research Funding; TG Therapeutics: Research Funding; Genentech: Research Funding."
 }
