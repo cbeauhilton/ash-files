@@ -2,5 +2,63 @@
     "doi": "https://doi.org/10.1182/blood.V120.21.1548.1548",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2338",
     "start_url_page_num": 2338,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "miRNA Profiling Predicts Survival and Identifies a Novel Putative Oncomir in Diffuse Large B-Cell Lymphoma Treated with Immunochemotherapy ",
+    "article_date": "November 16, 2012",
+    "session_type": "622. Non-Hodgkin Lymphoma - Biology, excluding Therapy: Poster I",
+    "topics": [
+        "diffuse large b-cell lymphoma",
+        "micrornas",
+        "signs and symptoms",
+        "r-chop",
+        "biopsy",
+        "chemotherapy regimen",
+        "follow-up",
+        "formaldehyde",
+        "lymphoma",
+        "molecule"
+    ],
+    "author_names": [
+        "Christoffer Hother, MD",
+        "Ditte Reker",
+        "Konstantions Dimopoulos, MD",
+        "Steen Knudsen, PhD",
+        "Thomas Jensen",
+        "Michael B. M\u00f8ller, MD, DMSc",
+        "Peter De Nully Brown",
+        "Elisabeth Ralfkiaer, Prof., MD, DMSc",
+        "Kirsten Gr\u00f8nb\u00e6k, MD, DMSc"
+    ],
+    "author_affiliations": [
+        [
+            "Dept. of Hematology, Rigshospitalet, Copenhagen, Denmark, "
+        ],
+        [
+            "Dept. of Hematology, Rigshospitalet, Copenhagen, Denmark, "
+        ],
+        [
+            "Dept. of Hematology, Rigshospitalet, Copenhagen, Denmark, "
+        ],
+        [
+            "Medical Prognosis Institute, H\u00f8rsholm, Denmark, "
+        ],
+        [
+            "Medical Prognosis Institute, H\u00f8rsholm, Denmark, "
+        ],
+        [
+            "Department of Pathology, Odense University Hospital, Odense, Denmark, "
+        ],
+        [
+            "Dept. of Hematology, Rigshospitalet, Copenhagen, Denmark, "
+        ],
+        [
+            "Dept. of Pathology, Rigshospitalet, Copenhagen, Denmark, "
+        ],
+        [
+            "Department of Hematology, Rigshospitalet, Copenhagen, Denmark"
+        ]
+    ],
+    "first_author_latitude": "55.6960841",
+    "first_author_longitude": "12.5667877",
+    "abstract_text": "Abstract 1548 Introduction: The introduction of Rituximab as supplement to chemotherapy has significantly improved outcome in diffuse large B-cell lymphoma (DLBCL). Still, a fraction of patients are resistant or relapse shortly after treatment. Improved stratification of patients with DLBCL for standard immunochemotherapy or alternative treatment strategies is therefore urgently needed. Although DLBCL profiling based on mRNA expression may be helpful, this has not proven clinically efficient, and the prognostic value of immunohistochemical algorithms is controversial. In addition, novel therapeutic options are essential since the current alternative treatment modalities are often not curative. MicroRNAs (miRs) are particularly attractive molecules for clinical use since they are well conserved in formalin fixed paraffin embedded (FFPE) tissue, and novel data imply that they may be targeted directly in the patients. Materials and methods: RNA was extracted from diagnostic biopsies from DLBCL patients (n=97) treated uniformly with immunochemotherapy (R-CHOP n=80 or R-CHOEP n=17). GCB/non-GCB profiling was done by immunohistochemistry according to the Hans classification. MiR profiles were generated using Affymetrix microRNA version 1.0 arrays. Data analyses were performed using R/biocondutor and the webtool \u201cSignS\u201d that uses parallel computing for finding survival related genes and signatures from gene-expression datasets. Survival analysis was performed in R using the survival package. Univariate analysis was performed by comparing Kaplan-Meier survival estimates using Log-rank test. Cox proportional hazards regression model was used for multivariate analysis. Results and discussion: The median follow-up time for all patients was 3.4 years. The estimated 3-year over all survival probability was 82.8% (95% CI: 75.4%-90.9%). No difference in survivability was observed between the R-CHOP and the R-CHOEP treated cohort (P=0.145). High IPI (> 2) was significantly associated with inferior overall survival (OS, P = 0.038), but not progression free survival (PFS, P = 0.083). Univariate analysis showed that in this cohort the Hans classification was not prognostic (P=0.73; (52 GBC and 37 non-GCB subtypes; 8 NA)). Seven miRs were differentially regulated between GCB and non-GCB using a cutoff of P< 0.05. Five miRs were upregulated in non-GCB lymphomas: miR-625, miR-222, miR-221, miR-155 and miR-503, two were downregulated (miR-181a, miR-181b). For survival analysis, we initially applied a multivariate approach (Robust likelihood-based survival modeling, RBsurv), which identified a subset of miRs that significantly associates with poor survival. These include one upregulated miR, and four down regulated miRs. In order to obtain cross validated survival estimates, we applied three different algorithms; FCSM(SignS), TGD(SignS) and GLMboost(SignS) to the same sample set. These combined bioinformatic models identified a total of 17 deregulated miRs that significantly associate with survival. Among these, 9 are predicted by more that one algorithm, and interestingly, all 4 models identify a novel upregulated and potential oncogenic miR in patients treated by immunochemotherapy. When the cross-validated predictors were combined into a unified robust \u201cmiR-survival-predictor\u201d, the performance is as good as, or even better, than the IPI. In addition, our model is a superior predictor of survival than the GCB/non-GCB classification according to Hans. Our data are currently being validated in a test set of 60 patients, and functional studies of the novel putative oncomiR are ongoing. Disclosures: No relevant conflicts of interest to declare."
 }
