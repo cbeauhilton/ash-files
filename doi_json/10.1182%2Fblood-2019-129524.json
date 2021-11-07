@@ -2,5 +2,68 @@
     "doi": "https://doi.org/10.1182/blood-2019-129524",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4165",
     "start_url_page_num": 4165,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Novel Automated Image Analysis System Using Deep Convolutional Neural Networks to Diagnose MDS ",
+    "article_date": "November 13, 2019",
+    "session_type": "901.Health Services Research-Non-Malignant Conditions",
+    "topics": [
+        "acute lymphocytic leukemia",
+        "aplastic anemia",
+        "biopsy",
+        "bone marrow aspiration",
+        "convolutional neural networks",
+        "dysplasia",
+        "genetic screening",
+        "giemsa stain",
+        "hematologic neoplasms",
+        "hematological diseases"
+    ],
+    "author_names": [
+        "Konobu Kimura",
+        "Yoko Tabe, MD PhD",
+        "Tomohiko Ai, MD PhD",
+        "Akihiko Matsuzaki",
+        "Kumiko Nishibe",
+        "Miki Ebihara",
+        "Kimiko Kaniyu",
+        "Ikki Takehara, PhD",
+        "Kinya Uchihashi, PhD",
+        "Akimichi Ohsaka, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Next Generation Hematology Laboratory Medicine, Juntendo University Graduate School of Medicine, Bunkyo-Ku, Japan "
+        ],
+        [
+            "Department of Clinical Laboratory Medicine, Juntendo University Graduate School of Medicine, Tokyo, Japan ",
+            "Department of Next Generation Hematology Laboratory Medicine, Juntendo University Graduate School of Medicine, Tokyo, Japan "
+        ],
+        [
+            "Department of Clinical Laboratory Medicine, Juntendo University Graduate School of Medicine, Tokyo, Japan "
+        ],
+        [
+            "Department of Next Generation Hematology Laboratory Medicine, Juntendo University Graduate School of Medicine, Tokyo, Japan "
+        ],
+        [
+            "Department of Next Generation Hematology Laboratory Medicine, Juntendo University Graduate School of Medicine, Tokyo, Japan "
+        ],
+        [
+            "Department of Next Generation Hematology Laboratory Medicine, Juntendo University Graduate School of Medicine, Tokyo, Japan "
+        ],
+        [
+            "Department of Next Generation Hematology Laboratory Medicine, Juntendo University Graduate School of Medicine, Tokyo, Japan "
+        ],
+        [
+            "Sysmex Corporation, Kobe, Japan"
+        ],
+        [
+            "Sysmex Corporation, Kobe, Japan"
+        ],
+        [
+            "Department of Next Generation Hematology Laboratory Medicine, Juntendo University Graduate School of Medicine, Tokyo, Japan "
+        ]
+    ],
+    "first_author_latitude": "35.7024154",
+    "first_author_longitude": "139.7607478",
+    "abstract_text": "Detection of dysmorphic cells in peripheral blood (PB) smears is essential for diagnosis of hematological malignancies. Myelodysplastic syndromes (MDS) are heterogeneous hematopoietic stem cell disorders that can lead to acute leukemia. Although examinations of bone marrow aspiration and biopsy as well as chromosomal and genetic tests are essential to diagnose these disorders, conventional tests such as complete blood count (CBC) and peripheral blood (PB) smear examinations remain to be initial diagnostic work ups. Detection of dysplastic cells in PB smears and evaluation of CBCs are particularly useful for rapid screening. Thanks to the recent advancement of computational and laboratory technologies, routine manual microscopic examinations have been replaced by automated hematology analyzers in many hematology laboratories. However, detection of dysmorphic cells is still challenging. Therefore, more sophisticated image recognition systems need to be developed. In this study, we developed a novel MDS diagnostic system using PB smears. The system consists of a convolutional neural network (CNN)-based image recognition deep learning system (DLS) and an EGB-based decision-making algorithm (XGBoost). All PB smears were prepared at Juntendo University Hospital. The slides were stained with May Grunwald-Giemsa using a fully automated slide-maker. A total of 703,970 digitalized cell images were collected. First, we trained the CNN-based image-recognition system using 695,030 blood cell images taken from 3,261 PB smears of which 1,165 were obtained from patients with hematological disorders. The hematological disorders included MDS (n=94 cases), myeloproliferative neoplasms (n=127), acute myeloid leukemia (n= 38), acute lymphoblastic leukemia (ALL, n=27), malignant lymphoma (n=324), multiple myeloma (n=82) and AA (n=42). Of all images, these 695,030 images were used to train the CNN-based image-recognition system (Fig 1), and rest of the images (n=8,940) were used for validation. The datasets were classified into 17 cell types and 97 abnormal morphological features by two board-certified laboratory technologists and one senior hematopathologist using the morphological criteria of the Clinical and Laboratory Standards Institute (CLSI) H20-A2 guideline and the 2017 WHO classification of myeloid neoplasms and acute leukemia. After accumulating the image patterns using the training datasets, the performance of the DLS was evaluated using the validation datasets that were prepared for testing the DLS. The internal features learnt by the DLS using t-distributed Stochastic Neighbor Embedding (t-SNE)(Fig 2). In this context, our CNN-based image-recognition system exhibited a sensitivity of >93.5% and a specificity of >96.0% when classifying cells in subsets of the validation datasets. We then created an automated MDS diagnostic system by combining the CNN-based image-recognition system with a form of XGBoost. To establish diagnostic algorithm, the training datasets obtained from 75 MDS and 36 Aplastic Anemia (AA) cases were used for learning of the cell image pattern for each disease. The diagnosis of all datasets was validated by independent hematopathologists using clinical information, laboratory, flow cytometric, and genetic data, and bone marrow aspiration and biopsy findings. The accuracy of the system was tested using validation datasets (26 MDS and 11 AA cases). The system differentiated MDS from AA with the sensitivity and specificity of 96.2% and 100%, respectively (AUC 0.990). In conclusion, this is the first CNN-based automated initial diagnostic system for MDS using PB smears, which is applicable to develop new automated image diagnostic systems for various hematological disorders. Currently, we are collecting more data to improve the accuracy. View large Download slide View large Download slide  Disclosures Kimura: Sysmex Corporation: Employment. Takehara: Sysmex Corporation: Employment. Uchihashi: Sysmex Corporation: Employment."
 }
