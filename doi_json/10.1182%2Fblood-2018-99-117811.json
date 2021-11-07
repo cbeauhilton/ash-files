@@ -2,5 +2,82 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-117811",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3970",
     "start_url_page_num": 3970,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Next-Generation Sequencing Reveals a T Cell Receptor Signature Characteristic of Patients with Aplastic Anemia ",
+    "article_date": "November 29, 2018",
+    "session_type": "508. Bone Marrow Failure: Acquired Bone Marrow Failure and Somatic Genetics",
+    "topics": [
+        "aplastic anemia",
+        "massively-parallel genome sequencing",
+        "t-cell receptor",
+        "amino acids",
+        "epitopes",
+        "antigens",
+        "pancytopenia",
+        "acquired aplastic anemia",
+        "autoimmune diseases",
+        "follow-up"
+    ],
+    "author_names": [
+        "Sofie Lundgren, BMed",
+        "Jani Huuhtanen, BMed",
+        "Mikko A Ker\u00e4nen, MD PhD",
+        "Cassandra M. Hirsch",
+        "Emmi Jokinen, MSc",
+        "Markus Heinonen, PhD",
+        "Paula Savola, MD",
+        "Tiina Kelkka, PhD",
+        "Freja Ebeling, MD PhD",
+        "Jaroslaw P. Maciejewski",
+        "Eva Hellstr\u00f6m-Lindberg, MD PhD",
+        "Harri L\u00e4hdesm\u00e4ki, PhD",
+        "Satu Mustjoki, MDPhD"
+    ],
+    "author_affiliations": [
+        [
+            "Hematology Research Unit Helsinki, Department of Hematology, University of Helsinki and Helsinki University Hospital Comprehensive Cancer Center, Helsinki, Finland "
+        ],
+        [
+            "Hematology Research Unit Helsinki, Department of Hematology, University of Helsinki and Helsinki University Hospital Comprehensive Cancer Center, Helsinki, Finland ",
+            "Department of Computer Science, Aalto University School of Science, Espoo, Finland "
+        ],
+        [
+            "Hematology Research Unit Helsinki, Department of Hematology, University of Helsinki and Helsinki University Hospital Comprehensive Cancer Center, Helsinki, Finland "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Department of Computer Science, Aalto University School of Science, Espoo, Finland "
+        ],
+        [
+            "Department of Computer Science, Aalto University School of Science, Espoo, Finland ",
+            "Helsinki Institute for Information Technology, Helsinki, Finland "
+        ],
+        [
+            "Hematology Research Unit Helsinki, Department of Hematology, University of Helsinki and Helsinki University Hospital Comprehensive Cancer Center, Helsinki, Finland "
+        ],
+        [
+            "Hematology Research Unit Helsinki, Department of Hematology, University of Helsinki and Helsinki University Hospital Comprehensive Cancer Center, Helsinki, Finland "
+        ],
+        [
+            "Department of Hematology, Helsinki University Hospital Comprehensive Cancer Center, Helsinki, Finland "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Center for Hematology and Regenerative Medicine, Department of Medicine, Karolinska Institutet, Karolinska University Hospital Huddinge, Stockholm, Sweden "
+        ],
+        [
+            "Department of Computer Science, Aalto University School of Science, Espoo, Finland "
+        ],
+        [
+            "Hematology Research Unit Helsinki, Department of Hematology, University of Helsinki and Helsinki University Hospital Comprehensive Cancer Center, Helsinki, Finland ",
+            "Department of Clinical Chemistry and Hematology, University of Helsinki, Helsinki, Finland"
+        ]
+    ],
+    "first_author_latitude": "60.172634800000004",
+    "first_author_longitude": "24.9510419",
+    "abstract_text": "Background. Acquired aplastic anemia (AA) is a bone marrow failure syndrome, in which patients' hematopoietic stem cells are destroyed, resulting in pancytopenia. The exact mechanism and biological process leading to AA remain largely unknown. Bone marrow destruction is perceived as an immune-mediated process, which is supported by elevated cytotoxic T lymphocyte (CTL) counts, responsiveness to immunosuppressive therapy and skewed CTL T cell receptor (TCR) repertoire. Although there is a well-established role of T cells in the pathology of AA, the putative antigen behind the autoimmune response, and thus, the TCRs recognising the antigen are still unrevealed. Methods. Our cohort comprised of 130 samples, consisting of bone marrow and/or peripheral blood samples from AA patients (n=52) from diagnosis and/or follow-up phases and from healthy controls (n=27). We performed TCR\u03b2 sequencing (immunoSEQ, Adaptive Biotechnologies) on sorted AA and healthy CTLs (n=25 and n=27) or AA mononuclear cells (MNCs, n=27). To gain in-depth understanding of the TCR-repertoire, we built two novel analysis methods: 1) an unsupervised clustering method to characterize epitope-specific T cells based on the amino acid -level similarities of TCRs and 2) a probability based classifier to identify AA based on TCR data in the CTL (discovery) and MNC (validation) cohorts. Results. To fully appreciate the complex nature of AA pathology, we divided the cytotoxic T cell response in two distinct categories, private and public response. Private response comprises T cell clones found only in individual patients, and this compartment could explain the variation in treatment responses and disease severity across patients. In the CTL TCR repertoire, we identified patient exclusive expanded T cell clones (>1% frequency in TCR repertoire, n = 317) and treatment responding clones (n = 364). Clustering analysis revealed that there is significant amino acid -level similarity between the TCRs of the private clones. We found several epitope-specific TCR clusters that were associated with different treatment responses, disease severities and HLA-DR15 risk-allele positivity. Interestingly, we discovered that the public response (CTL clones that are statistically enriched in AA patients compared to healthy controls) could discriminate AA from healthy TCR repertoire. Based on these publicly enriched TCRs, we built a classifier which could identify AA CTL TCR repertoire from healthy controls with 97% accuracy (F-score, revieved from leave-one-out cross-validation). We tested our classifier with the validation cohort. The accuracy to diagnose AA based on the TCR repertoire data in the MNC cohort was 0.72. Furthermore, the public clones that differentiated best the AA cases from healthy controls showed statistically significant peptide similarity. These public TCRs occurred also in healthy controls, but with smaller frequencies. When combining the private and public response TCRs, we discovered that some of AA patients' most expanded and treatment responding clones clustered in the same putative epitope-specific clusters with the public TCRs, showing an interesting intersection between public and private signatures. In addition, the comparison of the interesting private and public TCRs against databases of TCR sequences of known antigen specificities hinted that some of these clones may originally target known viral species (CMV, EBV and Influenza A), suggesting a role of these common pathogens in the development of AA. Discussion. CTLTCR repertoire analysis of AA patients revealed a TCR signature that was typical of AA patients, but varied between different patients, and it was validated with an independent dataset. Thus, we could design a TCR-based framework which could identify AA patients based on their TCR repertoire, independently of sample type. A future application for our classifier could be distinguishing AA from other AA-like diseases, like hypoplastic myelodysplastic syndrome. Furthermore, we found groups of TCRs that look similar on amino acid level, and hence these clones may target the same epitope. These TCR clusters were associated with clinical features. Amino acid similarity -based TCR signatures or TCR classifiers have not previously been published for AA or any other autoimmune diseases, and thus our pioneering tools could be utilized to study pathogenesis of other T cell mediated diseases as well. Figure 1. View large Download slide Figure 1. View large Download slide  Disclosures Ebeling: Boehringer Ingelheim: Consultancy; Celgene: Speakers Bureau; Otsuka Pharma Scandinavia AB: Consultancy. Maciejewski: Alexion Pharmaceuticals, Inc.: Consultancy, Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Ra Pharmaceuticals, Inc: Consultancy; Apellis Pharmaceuticals: Consultancy; Apellis Pharmaceuticals: Consultancy; Alexion Pharmaceuticals, Inc.: Consultancy, Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Ra Pharmaceuticals, Inc: Consultancy. Mustjoki: Novartis: Honoraria, Research Funding; Bristol-Myers Squibb: Honoraria, Research Funding; Celgene: Honoraria; Ariad: Research Funding; Pfizer: Honoraria, Research Funding."
 }
