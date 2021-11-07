@@ -2,5 +2,91 @@
     "doi": "https://doi.org/10.1182/blood-2019-129461",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4200",
     "start_url_page_num": 4200,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "An Atlas of Clinically-Distinct Tumor Cellular Ecosystems in Diffuse Large B Cell Lymphoma ",
+    "article_date": "November 13, 2019",
+    "session_type": "622.Lymphoma Biology-Non-Genetic Studies",
+    "topics": [
+        "diffuse large b-cell lymphoma",
+        "ecosystems",
+        "neoplasms",
+        "lymphoma",
+        "rna, small cytoplasmic",
+        "immunotherapy",
+        "biopsy",
+        "cd47 antigen",
+        "chromium",
+        "ibrutinib"
+    ],
+    "author_names": [
+        "Chloe B. Steen, MSc",
+        "Bogdan A. Luca, PhD",
+        "Mohammad Shahrokh Esfahani",
+        "Barzin Y. Nabet, PhD",
+        "Brian Sworder, MD PhD",
+        "Farshad Farshidfar, MD PhD",
+        "Kiarash Shamardani, BA",
+        "David M. Kurtz, MD PhD",
+        "Chih Long Liu, PhD",
+        "Ranjana H Advani, MD",
+        "Yasodha Natkunam, MD PhD",
+        "June Helen Myklebust, PhD",
+        "Maximilian Diehn, MD PhD",
+        "Andrew Gentles, PhD",
+        "Aaron M Newman, PhD",
+        "Ash A. Alizadeh, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Division of Oncology, Department of Medicine, Stanford Cancer Institute, Stanford University, Oslo, Norway "
+        ],
+        [
+            "Stanford Center for Biomedical Informatics Research, Department of Medicine, Stanford University, Stanford, CA "
+        ],
+        [
+            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA "
+        ],
+        [
+            "Stanford Cancer Institute, Stanford University, Stanford, "
+        ],
+        [
+            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA "
+        ],
+        [
+            "Institute for Stem Cell Biology and Regenerative Medicine, Department of Biomedical Data Science, Stanford University, Stanford, CA "
+        ],
+        [
+            "Cancer Biology Graduate Program, School of Medicine, Stanford University, Stanford, CA "
+        ],
+        [
+            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, San Francisco, CA "
+        ],
+        [
+            "Division of Oncology, Department of Medicine, Stanford Cancer Institute, Stanford University, Stanford, CA "
+        ],
+        [
+            "Division of Oncology, Department of Medicine, Stanford University Medical Center, Stanford, CA "
+        ],
+        [
+            "Department of Pathology, Stanford University Medical Center, Stanford, CA "
+        ],
+        [
+            "Department of Cancer Immunology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway "
+        ],
+        [
+            "Department of Radiation Oncology, Stanford University Medical Center, Stanford, CA "
+        ],
+        [
+            "Department of Biomedical Informatics, Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Institute for Stem Cell Biology and Regenerative Medicine, Department of Biomedical Data Science, Stanford University Medical Center, Stanford, CA"
+        ],
+        [
+            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA "
+        ]
+    ],
+    "first_author_latitude": "37.4332634",
+    "first_author_longitude": "-122.1756485",
+    "abstract_text": "Background: Diffuse large B cell lymphoma (DLBCL) exhibits significant clinical and biological heterogeneity, in part due to cell-of-origin subtypes, somatic alterations, and diverse stromal constituents within the tumor microenvironment (TME). Several immunologically-active lymphoma therapies are known to rely on innate and adaptive anti-tumor responses occurring within this dynamic TME, including agents that are approved (e.g., rituximab, lenalidomide, CART19, ibrutinib) or emerging (e.g., anti-CD47, checkpoint inhibitors). We hypothesized that a large-scale characterization of the cellular heterogeneity in DLBCL might reveal previously unknown biological variation in the TME linked to tumor subtypes and genotypes, therapeutic responses and clinical outcomes, with implications for future personalization of immunotherapy. Methods: Using a combination of lymphoma single-cell RNA sequencing (scRNA-seq) and bulk tumor transcriptome deconvolution (CIBERSORTx; Newman et al., Nat Biotech, 2019) , we developed a new machine learning framework for identifying cellular states and ecosystems that reflect fundamental TME subtypes and distinctions in tumor biology (Fig. 1). Specifically, using CIBERSORTx, we purified the transcriptomes of B cells and 12 different TME cell types, including immune and stromal subsets, from 1,279 DLBCL tumor biopsies profiled in 3 prior studies ( Reddy et al., Cell 2017; Schmitz et al., NEJM 2018; Chapuy et al., Nat Med 2018 ). Then, we defined distinct transcriptional states for each of the 13 cell types, which we validated at single-cell resolution, using a combination of two scRNA-seq techniques (Smart-Seq2 and 10x Chromium 5' GEP, BCR and TCR) to profile primary DLBCL, FL, and human tonsils, as well as leveraging multiple scRNA-seq datasets from previous studies. We identified robust co-associations between cell states that form tumor cellular ecosystems, which we validated in independent datasets of bulk DLBCL tumor gene expression profiles. Finally, we related TME ecosystems to defined tumor subtypes, including genotype classes, and to clinical outcomes. Results: By systematically characterizing the landscape of cellular heterogeneity in nearly 1,300 DLBCL tumors, we defined an atlas of 49 distinct transcriptional states across 13 major cell types. These novel cell states spanned diverse innate and adaptive immune effector cells of the lymphoid and myeloid lineages, as well as tumor-associated fibroblasts. Remarkably, 94% of these states (46 of 49) could be validated in a compendium of ~200,000 single-cell transcriptomes derived from lymphomas, healthy control tonsils, and other tissue types. Moreover, single cells from DLBCL, FL and tonsils best mirrored these newly discovered cell states. We next characterized the biology and potential clinical utility of each cell state. We observed clear distinctions in the transcriptional programs of immune and stromal elements between germinal center and activated B cell DLBCL, as well as between known mutational subtypes. Importantly, many cell states reflected novel phenotypic groupings, and the majority were significantly associated with overall survival ( P <0.05). These findings were highly concordant both within and across 3 independent DLBCL cohorts. By identifying groups of DLBCL patients with similar communities of cellular states, we defined cohesive cellular ecosystems that collectively capture the landscape of transcriptional heterogeneity in DLBCL tumors. Patients whose tumors were assigned to these ecosystems exhibited striking variation in overall survival. Importantly, the ecosystems defined distinct subgroups that could not be fully recapitulated by known transcriptional and genetic subtypes. Moreover, several TME classes showed significant enrichments in canonical or novel tumor genotypes, suggesting an evolutionary interplay between the tumor and host microenvironment. Conclusion: We describe a novel computational framework to digitally dissect the DLBCL TME and an atlas of novel states for diverse cell types in these tumors. We show how cellular states form cohesive tumor ecosystems, which exhibit distinct clinical outcomes and novel somatic alterations. These results expand our understanding of cellular heterogeneity in DLBCL, with implications for the development of individualized immunotherapies. View large Download slide View large Download slide  Disclosures Kurtz: Roche: Consultancy. Advani: Kura: Research Funding; Merck: Research Funding; Millennium: Research Funding; Pharmacyclics: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Regeneron: Research Funding; Takeda: Consultancy, Membership on an entity's Board of Directors or advisory committees; Cell Medica, Ltd: Consultancy; Kyowa Kirin Pharmaceutical Developments, Inc.: Consultancy; Stanford University: Employment, Equity Ownership; Janssen: Research Funding; AstraZeneca: Consultancy, Membership on an entity's Board of Directors or advisory committees; Seattle Genetics: Consultancy, Research Funding; Infinity Pharma: Research Funding; Bayer: Consultancy, Membership on an entity's Board of Directors or advisory committees; Bristol-Myers Squibb: Membership on an entity's Board of Directors or advisory committees, Research Funding; Celgene: Research Funding; Celmed: Consultancy, Membership on an entity's Board of Directors or advisory committees; Forty-Seven: Research Funding; Roche/Genentech: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Gilead Sciences, Inc./Kite Pharma, Inc.: Consultancy, Membership on an entity's Board of Directors or advisory committees; Autolus: Consultancy, Membership on an entity's Board of Directors or advisory committees; Agensys: Research Funding. Diehn: Roche: Consultancy; AstraZeneca: Consultancy; Novartis: Consultancy; BioNTech: Consultancy; Quanticell: Consultancy. Alizadeh: Janssen: Consultancy; Genentech: Consultancy; Pharmacyclics: Consultancy; Chugai: Consultancy; Celgene: Consultancy; Gilead: Consultancy; Roche: Consultancy; Pfizer: Research Funding."
 }
