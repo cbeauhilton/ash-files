@@ -2,5 +2,63 @@
     "doi": "https://doi.org/10.1182/blood.V128.22.4710.4710",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3449",
     "start_url_page_num": 3449,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "New Molecular Surrogate Assay for Genotoxicity Assessment of Gene Therapy Vectors (SAGA) ",
+    "article_date": "December 2, 2016",
+    "session_type": "801. Gene Therapy and Transfer: Poster III",
+    "topics": [
+        "gene therapy",
+        "spatial vectors",
+        "adverse event",
+        "hematologic neoplasms",
+        "rna, messenger",
+        "screening",
+        "severe combined immunodeficiency",
+        "wiskott-aldrich syndrome",
+        "mutagenesis, insertional",
+        "mice"
+    ],
+    "author_names": [
+        "Adrian Schwarzer, MD PhD",
+        "Steven R Talbot, PhD",
+        "Oliver Dittrich-Breiholz, PhD",
+        "Adrian J Thrasher, MD PhD",
+        "Bobby Gaspar, MD",
+        "Ute Modlich",
+        "Christopher Baum, MD",
+        "Axel Schambach, MD PhD",
+        "Michael Rothe, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Institute of Experimental Hematology, Hannover Medical School, Hannover, Germany "
+        ],
+        [
+            "Core Facility Transcriptomics, Hannover Medical School, Hannover, Germany "
+        ],
+        [
+            "Core Facility Transcriptomics, Hannover Medical School, Hannover, Germany "
+        ],
+        [
+            "Molecular Immunology Unit, UCL Institute of Child Health, London, United Kingdom "
+        ],
+        [
+            "Molecular Immunology Unit, UCL Institute of Child Health, London, United Kingdom "
+        ],
+        [
+            "Paul Ehrlich Institute, Langen, Germany"
+        ],
+        [
+            "Institute of Experimental Hematology, Hannover Medical School, Hannover, Germany "
+        ],
+        [
+            "Institute of Experimental Hematology, Hannover Medical School, Hannover, Germany "
+        ],
+        [
+            "Institute of Experimental Hematology, Hannover Medical School, Hannover, Germany "
+        ]
+    ],
+    "first_author_latitude": "52.381589399999996",
+    "first_author_longitude": "9.8096658",
+    "abstract_text": "The variety of gene therapy vectors for a multitude of different diseases has increased tremendously over the years. However, a number of patients that underwent gene therapy in different trials developed hematological malignancy caused by integration of the provirus in the vicinity of proto-oncogenes. These severe adverse advents prompted intense research efforts towards safer gene therapy, leading to the removal of the long terminal repeat enhancer elements and the use of internal promoters in retroviral vectors. Still, a bottleneck of transition from basic research to clinical application is the test for safety of integrating retro- and lentiviral vectors. Instead of laborious in vivo models with limited predictive value, in vitro assays to screen for insertional mutagenesis are strongly desirable. A decade ago, our lab developed the in vitro immortalization (IVIM) assay to quantify the genotoxic potential of viral vectors, which has been widely used to complete preclinical safety documentation of newly developed integrating vector systems. Despite general acceptance in the field of hematopoietic gene therapy, bias for insertional mutants of the myeloid lineage, a low sensitivity and a long assay run time are clear limitations. We now developed the molecular surrogate assay for genotoxicity assessment (SAGA). The new test is more robust, sensitive and biologically informative. As input we used murine lineage-negative hematopoietic stem and progenitor cells (HSPC) that were cultured as described for the IVIM assay. The murine HSPC were transduced with a number of different gammaretro- and lentiviral vectors, including vectors that have been employed in clinical trials for X-SCID and Wiskott-Aldrich Syndrome. After 14 days, whole mRNA was isolated from transduced and non-transduced samples and analyzed by Agilent custom microarrays (n=86) and qPCR from nine independent SAGA assays. We applied several Machine Learning algorithms to derive a core set of genes which distinguishes transformed from non-transformed samples in each individual SAGA assay. This set of genes from the individual analysis was further analyzed to derive a core set of genes that is able to robustly separate transformed from non-transformed samples in all assays performed. In order to account for platform-specific effects we validated all microarray results by conventional qPCR-methodology. The SAGA gene set was then cross-validated in an independent validation cohort of SAGA-assays that were not part of the SAGA-training set from which the signature was derived from. The SAGA assay was used to quantify the mutagenic potential of several benchmark vectors. It correctly assigned a high mutagenic potential to vectors (MFG.yc and CMMP.WASP) which led to serious adverse events (SAEs) in clinical trials. Most importantly, the SAGA assay reliably scored high for mutagenic vectors, even when the vector did not transform in IVIM-assays conducted in parallel, demonstrating the higher sensitivity of the SAGA-principle. In contrast, SIN lentiviral vectors with weaker internal promoters (LV.EFS.yc and LV.EFS.ADA) showed no enrichment of the SAGA-core signature and hence scored much safer in the SAGA test. We present the results for these vectors side-by-side either using IVIM or SAGA. In summary, we generated an advanced version of the currently used in vitro insertional mutagenesis screening system by integrating a molecular read-out which enhances reproducibility, sensitivity and reduces assay duration, paving the way for a better preclinical risk assessment of gene therapy vectors. Disclosures No relevant conflicts of interest to declare."
 }
