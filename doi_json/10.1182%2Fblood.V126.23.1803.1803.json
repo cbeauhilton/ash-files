@@ -2,5 +2,77 @@
     "doi": "https://doi.org/10.1182/blood.V126.23.1803.1803",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3181",
     "start_url_page_num": 3181,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Predicting Non-Responders to Immunotherapy Treatments through Simulation of NGS Information ",
+    "article_date": "December 3, 2015",
+    "session_type": "652. Myeloma: Pathophysiology and Pre-Clinical Studies, excluding Therapy: Poster I",
+    "topics": [
+        "immunotherapy",
+        "massively-parallel genome sequencing",
+        "programmed cell death 1 ligand 1",
+        "cd47 antigen",
+        "interleukin-10",
+        "interleukin-6",
+        "pd-1 inhibitors",
+        "biological markers",
+        "cancer",
+        "coculture techniques"
+    ],
+    "author_names": [
+        "Kim A. Brogden",
+        "Carol L. Fischer",
+        "Amber M. Bates",
+        "Emily A. Lanzel",
+        "Maria Paula Gomez Hernandez",
+        "Christopher N. Treinen",
+        "Erica N. Recker",
+        "Prashant R. Nair",
+        "Karthik Sundara",
+        "Vishwas Joseph",
+        "Taher Abbasi",
+        "Shireen Vali"
+    ],
+    "author_affiliations": [
+        [
+            "Dows Institute for Dental Research, University of Iowa, Iowa City, IA "
+        ],
+        [
+            "Dows Institute for Dental Research, University of Iowa, Iowa City, IA "
+        ],
+        [
+            "Dows Institute for Dental Research, University of Iowa, Iowa City, IA "
+        ],
+        [
+            "Department of Oral Pathology, Radiology and Medicine, University of Iowa, Iowa City, IA "
+        ],
+        [
+            "Dows Institute for Dental Research, University of Iowa, Iowa City, IA "
+        ],
+        [
+            "Dows Institute for Dental Research, University of Iowa, Iowa City, IA "
+        ],
+        [
+            "Dows Institute for Dental Research, University of Iowa, Iowa City, IA "
+        ],
+        [
+            "Cellworks Research India Ltd., Bangalore, India "
+        ],
+        [
+            "Cellworks Research India Ltd., Bangalore, India "
+        ],
+        [
+            "Cellworks Research India Ltd., Bangalore, India "
+        ],
+        [
+            "Cellworks Research India Ltd., Bangalore, India ",
+            "Cellworks Group Inc., 2033 Gateway Place Suite 500, San Jose, CA"
+        ],
+        [
+            "Cellworks Research India Ltd., Bangalore, India ",
+            "Cellworks Group Inc., 2033 Gateway Place Suite 500, San Jose, CA"
+        ]
+    ],
+    "first_author_latitude": "41.662738600000004",
+    "first_author_longitude": "-91.55301165",
+    "abstract_text": "Introduction : Immunotherapy is an exciting new option to stimulate a \"host-vs.-cancer\" effect. Such treatment regimens are dominated by Programmed Death-1 (PD-1) and Programmed Death Ligand-1 (PD-L1) immune checkpoint inhibitors. However, not all patients respond to PD-1/PD-L1 inhibition as confirmed by results from an \"all-comers\" clinical strategy. These inherent clinical gaps are addressed in studies by incorporating PD-L1 expression as inclusion criteria and combining PD-1/PD-L1 inhibitors with other drug agents. Unfortunately these outcomes have not been clinically beneficial and cause unnecessary toxicity to patients and unmet needs. Here we develop personalized methodologies to predict a response to PD-L1/PD-1 inhibitors based on two factors. First, PD-L1 is not the only immune checkpoint; other signaling between cancer and immune cells needs to be incorporated to predict non-responders to a PD-L1/PD-1 inhibitor. Second, precision medicine and personalization is driven by patient tumor genomics. A recent retrospective study correlated NRAS with PD-L1/PD-1 treatment responses. Beyond a single gene mutation or aberration, the holistic consideration of all gene mutations, copy number variations, and methylation status would impact immune signal activators and inhibitors from the cancer cell. We used a predictive simulation model of multiple myeloma and dendritic cells with corresponding in-vitro models. We developed an immunotherapy response phenotype, which is a function of bio-markers representing immune evasion, immune activation, metastasis, and dendritic cell infiltration in cancer cells. We then modeled two myeloma cell lines using available genomics information as proxy for myeloma patient cancer. Finally, we predicted these two representative patient classes would vary in response to PD-L1/PD-1 inhibitors. We validated our prediction that bio-markers contribute to the immunotherapy response. Methods : Predictive computational simulation models of myeloma cell lines, human myeloid dendritic cells, and myeloma cell + dendritic cell co-cultures were developed and used to predict extracellular (IL6, IL10, TGFB1, VEGFA) and cell-associated (CD47, FASLG, IDO1, PD-L1) biomarker readouts in an automated high-throughput system. Results were validated with myeloma cell lines MM.IS and U266B1 cultivated with and without dendritic cells in Transwell 12-well polystyrene plates. At 24 hours, IL6, IL10, TGFB1, and VEGFA concentrations in tissue culture media were determined using Millipore immunoassays. CD47, FASLG, IDO1, and PD-L1 concentrations in cell lysates were determined by ELISA and IHC. One-way fixed-effects ANOVA models were fit to log-transformed concentrations. Pairwise group comparisons were conducted using Tukey's Honest Significant Differences (JMP10, Version 10.0, SAS, Cary, NC) at a 0.05 level of significance. Results : Predictive simulation and experimental results were highly correlated. Predicted IL10, TGF\u03b21, IDO1, CD47, FASLG, IL6, VEGFA, and PD-L1 responses differed among MM.IS and U266B1 patient models and were similar to those observed in cell culture supernatants and cell lysates. Simulation models also predicted myeloma cell effects on dendritic cell biomarker responses. Twenty-three myeloma cell lines had high, moderate, and low expression effects on 19 dendritic cell biomarker readout responses. Experimental results using MM.IS and U266B1 cell lines + dendritic cell co-cultures confirmed these effects also occur in cell co-culture. Predicted IL10, TGF\u03b21, IDO1, CD47, FASLG, IL6, VEGFA, and PD-L1 responses were similar to that observed in cell culture supernatants and cell lysates. Conclusion : The ability to predict which patients respond to PD-L1/PD-1 inhibitors and adjuvant combinations of existing drugs will improve response rates and meet current needs. Here we show a novel predictive simulation based approach with a myeloma example to leverage patient genomics information for predicting non-responders. This approach predicts the immunotherapy index of a patient, which is correlated experimentally. We show that U266B1 has higher PD-L1 expression because of patient genomics. While correlation at the bio-marker level is important, future work will focus on predicting and confirming the response to PD-L1 inhibitors. Disclosures Brogden: Cellworks Group Inc.: Research Funding. Fischer: Cellworks Group Inc.: Research Funding. Bates: Cellworks Group Inc.: Research Funding. Lanzel: Cellworks Group Inc.: Research Funding. Gomez Hernandez: Cellworks Group Inc.: Research Funding. Treinen: Cellworks Group Inc.: Research Funding. Recker: Cellworks Group Inc.: Research Funding. Nair: Cellworks Group Inc.: Employment. Sundara: Cellworks Group Inc.: Employment. Joseph: Cellworks Group Inc.: Employment. Abbasi: Cellworks Group, Inc.: Employment, Equity Ownership. Vali: Cellworks Group, Inc.: Employment, Equity Ownership."
 }
