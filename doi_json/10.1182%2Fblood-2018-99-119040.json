@@ -2,5 +2,76 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-119040",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4038",
     "start_url_page_num": 4038,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Mapping the Evolution of T Cell Transcriptional States during DLI Response and Resistance Using Single-Cell Data ",
+    "article_date": "November 29, 2018",
+    "session_type": "723. Clinical Allogeneic and Autologous Transplantation: Late Complications and Approaches to Disease Recurrence: Immunobiology of Post-Transplantation Relapse",
+    "topics": [
+        "allogeneic hematopoietic stem cell transplant",
+        "allopurinol",
+        "antigens",
+        "chromium",
+        "cryopreservation",
+        "donor leukocyte infusion",
+        "immunotherapy",
+        "leukemia",
+        "leukemia, myelocytic, chronic",
+        "molecule"
+    ],
+    "author_names": [
+        "Pavan Bachireddy, MD",
+        "Elham Azizi, PhD",
+        "Vinhkhang N Nguyen",
+        "Shuqiang Li, PhD",
+        "Donna S Neuberg, ScD",
+        "Robert J. Soiffer, MD",
+        "Jerome Ritz, MD PhD",
+        "Edwin P. Alyea, III, MD",
+        "Dana Pe'er, PhD",
+        "Catherine J. Wu, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Broad Institute of MIT and Harvard, Cambridge, MA ",
+            "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA ",
+            "Department of Medicine, Harvard Medical School, Boston, MA "
+        ],
+        [
+            "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA "
+        ],
+        [
+            "Broad Institute of MIT and Harvard, Cambridge, MA ",
+            "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA "
+        ],
+        [
+            "Department of Biostatistics and Computational Biology, Dana-Farber Cancer Institute, Boston, MA "
+        ],
+        [
+            "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA ",
+            "Harvard Medical School, Boston, MA "
+        ],
+        [
+            "Department of Medicine, Harvard Medical School, Boston, MA ",
+            "Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
+        ],
+        [
+            "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA ",
+            "Department of Medicine, Harvard Medical School, Boston, MA "
+        ],
+        [
+            "Computational and Systems Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY ",
+            "Parker Institute for Cancer Immunotherapy, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Department of Medicine, Harvard Medical School, Boston, MA ",
+            "Dana-Farber Cancer Institute, Boston, ",
+            "Broad Institute, Cambridge, MA"
+        ]
+    ],
+    "first_author_latitude": "42.362965100000004",
+    "first_author_longitude": "-71.0887548",
+    "abstract_text": "Donor lymphocyte infusion (DLI) is a potentially curative immune therapy for leukemic relapse after allogeneic hematopoietic stem cell transplant (allo-SCT). We previously reported that durable response to DLI for chronic myelogenous leukemia (CML) was associated with reversal of exhaustion of bone marrow-infiltrating T cells. Critical questions remain, however, regarding the exact cellular identities and transcriptional states of those T cell subtypes mediating exhaustion, anti-leukemia responses, and resistance to DLI. To map evolving phenotypic T cell states in situ at single cell resolution, we profiled viable cells isolated from cryopreserved bone marrow mononuclear cells (BMMCs) from a median of 3 timepoints (range: 2-6) before and after DLI from 12 patients with relapsed CML after T-cell depleted allo-SCT, using single cell RNA sequencing (scRNAseq, via the 10x Genomics Chromium platform). For reference, we also characterized a healthy donor marrow sample. Six of 12 patients were long-term responders to CD8-depleted DLI (\"R's\") and the remaining 6 were nonresponders (\"NR's,\"). In total, 381,462 cells derived from 43 unique patient-timepoints met our quality metrics, with a median of 2548 mRNA molecules/cell and 8735 cells/sample. By merging data across the cohort and removing batch effects (using the tool Biscuit), we curated a set of 62 distinct cell states, including subtypes of T, B, NK, monocytes, progenitors and CD34+ stem cells, whose identities were determined by both cell type and time point. We evaluated if response to DLI was associated with distinct T cell transcriptional phenotypes (\"states\"). We observed a marked increase in the number of T cell clusters in post-DLI samples (mean 41, range: 35-46) compared to matched pre-DLI samples, (mean 38, range: 34-41) after controlling for cell number (p-value <0.001). To investigate how DLI might increase the phenotypic diversity of T cell states, we calculated the phenotypic volume, defined as the change in co-variance of gene expression. Both R and NR cases exhibited increases in phenotypic volume induced by DLI (log fold change=104.6, p<1x10 -6 ), suggesting DLI induces multiple, independent gene expression modules differentially in each T cell state. At both pre- and post-DLI timepoints, phenotypic volumes in R cases were higher than that of NR cases, (mean R-pre vs mean NR-pre, log-fold change = 199.1, p<1x10 -6 ; mean R-post vs mean NR-post, log-fold change = 49.3, p=1.5x10 -6 ), but a far greater increase in phenotypic volume was observed within NRs than within R's (log-fold change [NR-post vs pre] = 203.8 vs log fold change [R-post vs pre) = 54.1; p<1 x10 -6 ]. Thus, while DLI expands phenotypic diversity in all T cell states, it differentially affects R's and NR's. We next compared global T cell dysfunction between R vs NR cases by summarizing scores for various dysfunction signatures across all T cells. We again observed increased T cell exhaustion signatures in R-pre T cells but also detected increased tolerance and anergy in NR-post T cells, suggesting multiple forms of T cell dysfunction in DLI resistance. We found that the clusters dominated by post-DLI R T cells were characterized by greater diversity of T helper subsets (Th1, Tfh, Th2, Th9, and Th22) and enrichment for exhaustion, type I and II IFN pathways, proinflammatory gene sets and CD8 T cell activation. Clusters dominated by NR T cells displayed increases in Th17 and Treg signatures, anergy and tolerance. Anergic cells were enriched for Treg signatures and did not share cluster membership with tolerant cells, which did not enrich for a specific subtype. Both types expressed only CD3D without CD8A or CD4, suggesting decreased antigen responsiveness. Single cell analysis of TCR repertoires and co-evolving leukemia cells will be updated at the meeting. Altogether, these data suggest that (1) pretreatment T cell phenotypic diversity may be important for DLI response; (2) that DLI increases such diversity differentially in responders than in nonresponders; and (3) even in the absence of clinical response, nonresponders undergo significant T cell phenotypic remodeling. Further studies will involve functional validation of dysfunctional T cell clusters and identification of therapeutic targets for reversing DLI resistance. Disclosures Soiffer: Jazz Pharmaceuticals: Membership on an entity's Board of Directors or advisory committees. Wu: Neon Therapeutics: Equity Ownership."
 }

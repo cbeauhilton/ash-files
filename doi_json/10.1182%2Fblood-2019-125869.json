@@ -2,5 +2,60 @@
     "doi": "https://doi.org/10.1182/blood-2019-125869",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4169",
     "start_url_page_num": 4169,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Gene Fusion Detection By RNA-Seq in Acute Myeloid Leukemia (AML) ",
+    "article_date": "November 13, 2019",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "topics": [
+        "gene fusion",
+        "leukemia, myelocytic, acute",
+        "rna",
+        "polymerase chain reaction",
+        "karyotype determination procedure",
+        "runx1 translocation partner 1 protein",
+        "cancer",
+        "complement system proteins",
+        "false-positive results",
+        "gold standard"
+    ],
+    "author_names": [
+        "Paul Kerbs, MSc",
+        "Aarif Mohamed Nazeer Batcha, MSc",
+        "Sebastian Vosberg",
+        "Dirk Metzler, PhD",
+        "Tobias Herold, MD",
+        "Philipp A. Greif, MD PD"
+    ],
+    "author_affiliations": [
+        [
+            "German Cancer Research Center (DKFZ), Heidelberg, Germany ",
+            "German Cancer Consortium (DKTK), Munich, Germany ",
+            "Department of Medicine III, University Hospital, LMU Munich, Munich, Germany "
+        ],
+        [
+            "Department of Medical Data Processing, Biometry and Epidemiology, University Hospital of the LMU, Munich, Germany "
+        ],
+        [
+            "German Cancer Research Center (DKFZ), Heidelberg, Germany ",
+            "German Cancer Consortium (DKTK), Munich, Germany ",
+            "Department of Medicine III, University Hospital, LMU Munich, Munich, Germany "
+        ],
+        [
+            "Department of Biology, Ludwig Maximilian University, Planegg-Martinsried, Germany "
+        ],
+        [
+            "German Cancer Research Center (DKFZ), Heidelberg, Germany ",
+            "Department of Medicine III, University Hospital, LMU Munich, Munich, Germany ",
+            "German Cancer Consortium (DKTK), Partner Site Munich, Munich, Germany ",
+            "Research Unit Apoptosis in Hematopoietic Stem Cells, Helmholtz Zentrum M\u00fcnchen, German Research Center for Environmental Health (HMGU), Munich, Germany"
+        ],
+        [
+            "German Cancer Research Center (DKFZ), Heidelberg, Germany ",
+            "German Cancer Consortium (DKTK), Munich, Germany ",
+            "Department of Medicine III, University Hospital, LMU Munich, Munich, Germany "
+        ]
+    ],
+    "first_author_latitude": "49.414414",
+    "first_author_longitude": "8.672960699999999",
+    "abstract_text": "Accurate and complete genetic classification of AML is crucial for the prediction of clinical outcome and treatment stratification. Deciphering the spectrum of genetic abnormalities by polymerase chain reaction (PCR), karyotyping and fluorescence in situ hybridization (FISH) in routine diagnostics is the current gold standard, however, fusion genes might potentially be missed by these assays. Recently, several methods have been developed to improve the detection of gene fusion transcripts based on RNA sequencing data, providing robust results. To test the detection power and assess the applicability of RNA-Seq based methods in clinical diagnostics we applied two different algorithms, namely FusionCatcher (Nicorici D et al., bioRxiv, 2014) and Arriba (Uhrig S et al., DKFZ, https://github.com/suhrig/arriba), to the transcriptomes of 895 well-characterized AML samples from three independently sequenced cohorts: AMLCG (Herold T et al., Haematologica, 2018, n=261), DKTK (Greif PA et al., Clin Cancer Res, 2018 and unpublished data, n=166), BeatAML (Tyner JW et al., Nature 2018, n=468) and publicly available healthy control samples (SRA studies: SRP018028, SRP047126, SRP050146, SRP105369, SRP115911, SRP133442, n=38). According to karyotyping, 31% (277/895) of samples harbored chromosomal aberrations putatively causing gene fusions (i.e. translocations, interstitial deletions, duplications, inversions, insertions). Analyses by FISH and/or PCR confirmed these rearrangements in 51.3% (142/277) of samples, whereas fusion detection by the means of RNA-Seq showed evidence for fusion genes corresponding to these rearrangements in 60.3% (167/277) of samples. Chromosomal aberrations, identified by karyotyping, which are known to result in clinically relevant fusions (e.g. RUNX1-RUNX1T1 , KMT2A fusions) were confirmed by FISH/PCR (AMLCG: n=27/27, DKTK: n=21/21, BeatAML: n=54/57) and RNA-Seq based methods (AMLCG: n=17/27, DKTK: n=21/21, BeatAML: n=56/57) in most of the cases. Of note, the AMLCG cohort was sequenced using the SENSE mRNA Library Prep Kit from Lexogen which seems to be not optimal for fusion detection. Furthermore, 19 samples (AMLCG: n=12, DKTK: n=4, BeatAML: n=3) were found to harbor known pathogenic fusions, described in previous studies, which were not reported by routine diagnostics: NUP98-NSD1 (n=11); CBFB-MYH11 , RUNX1-RUNX1T1 and DEK-NUP214 (n=2 each); RUNX1-CBFA2T2 and RUNX1-CBFA2T3 (n=1 each). Reanalysis of six of these samples by PCR confirmed three fusions which were initially missed by routine diagnostics. In general, the amount of reported fusion events by RNA-Seq is high (on average 69 and 39 per sample as detected by FusionCatcher and Arriba respectively), even after applying the built-in filters, indicating a high false positive rate. To robustly identify putative novel fusions, we developed a filtering pipeline and incorporated two new filtering steps. The promiscuity score (PS) of a fusion measures the amount of further distinct fusion partners which were detected in the respective cohort for the 5' and 3' gene. The fusion transcript score (FTS) measures the relative abundance of a fusion transcript to its 5' and 3' partner gene. PS and FTS of known, clinically relevant fusions confirmed by FISH/PCR were used to define cut-offs. To further maximize specificity while maintaining sensitivity, we excluded fusion events which we detected in publicly available healthy samples and subsequently filtered for overlapping calls from FusionCatcher and Arriba (Fig. 1A). Additionally, we obtained further evidence for a fusion event by an elevated transcription of the 3' fusion partner. In case of a fusion event, the transcription of the 3' partner gene likely gets under the control of the promoter of the 5' partner gene. This results in an elevated transcription of genes which are otherwise transcribed at low levels (Fig. 1B-C). Thus, we identified five putatively novel recurrent fusion genes which were detected in two cohorts independently: NRIP1-MIR99AHG , LATS2-ZMYM2 , ATP11A-ING1 , MBP-SLC66A2 , PRDM16-SKI (Fig. 1D-F). Although these events were called with high evidence, we aim at independent validation by complementary methods. In our study, we have not only demonstrated that the application of RNA-Seq to the detection of fusion genes is a valuable complement to diagnostic routine but also has the potential to discover novel putatively pathogenic fusions. View large Download slide View large Download slide  Disclosures No relevant conflicts of interest to declare."
 }
