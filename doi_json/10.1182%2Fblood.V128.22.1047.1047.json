@@ -2,5 +2,73 @@
     "doi": "https://doi.org/10.1182/blood.V128.22.1047.1047",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3366",
     "start_url_page_num": 3366,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Single Cell Bisulfite Sequencing Defines Epigenetic Diversification in Chronic Lymphocytic Leukemia ",
+    "article_date": "December 2, 2016",
+    "session_type": "602. Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation: DNA-Methylation",
+    "topics": [
+        "chronic b-cell leukemias",
+        "chronic lymphocytic leukemia",
+        "epigenetics",
+        "cancer",
+        "tumor cells, malignant",
+        "tumor progression",
+        "weight measurement scales",
+        "multivariate analysis",
+        "treatment outcome",
+        "b-lymphocytes"
+    ],
+    "author_names": [
+        "Dan A. Landau, MD PhD",
+        "Kendell Clement",
+        "Hongcang Gu",
+        "Evan Biederstedt, MA",
+        "Divy Kangeyan",
+        "Steven Hill",
+        "Lili Wang, MD PhD",
+        "Martin Aryee, PhD",
+        "Andreas Gnirke",
+        "Alex Meissner",
+        "Catherine J Wu, MD"
+    ],
+    "author_affiliations": [
+        [
+            "New York Genome Center, New York, NY ",
+            "Meyer Cancer Center, Weill Cornell Medicine, New York, NY ",
+            "Broad Institute, Cambridge, MA "
+        ],
+        [
+            "Broad Institute, Cambridge, MA "
+        ],
+        [
+            "Broad Institute, Cambridge, MA "
+        ],
+        [
+            "New York Genome Center, New York, NY "
+        ],
+        [
+            "Broad Institute, Cambridge, MA "
+        ],
+        [
+            "New York Genome Center, New York, NY "
+        ],
+        [
+            "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA"
+        ],
+        [
+            "Broad Institute, Cambridge, MA "
+        ],
+        [
+            "Broad Institute, Cambridge, MA "
+        ],
+        [
+            "Broad Institute, Cambridge, MA "
+        ],
+        [
+            "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA"
+        ]
+    ],
+    "first_author_latitude": "40.7234434",
+    "first_author_longitude": "-74.0051113",
+    "abstract_text": "Genetic and epigenetic heterogeneity of cancer cells fundamentally shapes cancer progression and relapse. In chronic lymphocytic leukemia (CLL), we previously reported that intra-leukemic epigenetic diversity in DNA methylation (DNAme) follows a stochastic pattern reminiscent of genetic 'trial and error' in cancer evolution. We measured stochastic DNAme from bulk sequencing by observing the proportion of discordantly methylated sequencing reads (PDR), and found that higher PDR was associated with greater cell-to-cell transcriptional heterogeneity and adverse clinical outcome. However, bulk DNAme sequencing does not allow to phase stochastic DNAme across distant genomic loci for a single cell, as it is limited to length of a short sequencing read. Thus, it can only provide the average PDR for a population of cells, rather than the cell-to-cell variation in this important epigenetic feature. Therefore, to define stochastic DNAme changes at the single cell level, we optimized a multiplexed single cell reduced representation bisulfite sequencing (MscRRBS) protocol to allow high-throughput single cell DNAme sequencing. This protocol significantly improves scalability by multiplexing cells with shorter inline-barcodes at an early stage and utilizing SPRI beads purification to eliminate adapter-dimers. We applied MscRRBS to 393 single CD19pos B cells from two healthy volunteers and 111 single cells from a CLL sample. 88% of cells were evaluable with greater than 100,000 covered CpGs (average of 436,230 CpGs per cell). We achieved bisulfite conversion rates of 99.7%+/-0.0001 (mean+/- SD), without a significant reduction in coverage. A downsampling analysis showed that 2.1 million reads per cell provided 85% of CpG coverage with only marginal increase in coverage with further sequencing. Biallelic coverage was observed in 4.6+/-2% of germline SNPs. With MscRRBS, we measure the PDR of each individual cell. As expected from our prior bulk RRBS analysis, we found that the average PDR across cells was higher in CLL compared with B cells from healthy adult volunteers (0.39+/-0.01 vs. 0.26+/-0.08, P <0.00001). Strikingly, CLL cells exhibited a uniformly high PDR, in contrast to normal B cells, which exhibited higher cell-to-cell variation. The absolute difference in PDR values between any two cells was ten-fold higher in normal B cells compared with CLL cells (0.08+/-0.06 vs. 0.008+/-0.006, respectively, P<0.0001). A multivariable regression model, which included potential technical confounders (bisulfite conversion rate, number of reads, number of covered CpGs), showed that higher PDR dispersion was independently associated normal B cells compared to CLL cells. The higher uniformity of PDR in CLL may reflect the relationship between epi-mutation rate (measured through PDR) and the evolutionary age of the cells. As additional stochastic DNAme changes are generated with each generation, we hypothesize that PDR estimates the number of generations in a cells' evolutionary history. Thus, CLL cells have uniformly high PDR reflecting a high but uniform number of generations in their history, consistent with a single common cell of origin. In contrast, normal B cells have diverse histories with newly formed naive cells intermixed with long-lived memory cells. Consistent with this hypothesis, healthy donor CD27neg cells showed lower PDR and less PDR cell-to-cell variation compared with CD27pos cells (mean absolute PDR difference 0.008+/-0.01 vs. 0.03+/-0.03, respectively, P<0.0001). As MscRRBS allows complete phasing of DNAme across distant genomic loci, we further calculated the odds ratio of concordance in methylation state between any two neighboring CpG as a function of their genomic distance, compared with any two randomly paired CpGs. Through this procedure we quantified the properties of DNAme concordance decay and uncovered different genomic scales of stochastically disordered methylation. Finally, the MscRRBS also allowed to reconstruct phylo(epi)genetic relationship between the cells, and provided accurate estimate of the rates of stochastic epi-mutation across the genome. Thus, single cell DNAme is a powerful novel tool to define epigenetic diversification and its impact on CLL evolution. Disclosures No relevant conflicts of interest to declare."
 }
