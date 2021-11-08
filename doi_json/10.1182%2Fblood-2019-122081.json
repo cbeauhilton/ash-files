@@ -2,5 +2,68 @@
     "doi": "https://doi.org/10.1182/blood-2019-122081",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4252",
     "start_url_page_num": 4252,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Single-Cell Deconvolution Identifies T-Cell Correlates of Response to PD-1 Blockade Treatment in AML ",
+    "article_date": "November 13, 2019",
+    "session_type": "704.Immunotherapies",
+    "topics": [
+        "azacitidine",
+        "biological markers",
+        "cancer",
+        "cryopreservation",
+        "dna, complementary",
+        "flow cytometry",
+        "gene expression profiling",
+        "leukemia, myelocytic, acute",
+        "neoplasms",
+        "nivolumab"
+    ],
+    "author_names": [
+        "Xingyue An",
+        "Jay R Adolacion",
+        "Mansour Alfayez, MD",
+        "Jairo Matthews",
+        "Wilmer Flores",
+        "Steven M. Kornblau, MD",
+        "Arash Saeedi",
+        "Sreyashi Basu, PhD",
+        "Naval G. Daver, MD",
+        "Navin Varadarajan, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Chemical & Biomolecular Engineering, University of Houston, Houston, TX "
+        ],
+        [
+            "Department of Chemical & Biomolecular Engineering, University of Houston, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX ",
+            "Department of Stem Cell Transplantation, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Chemical & Biomolecular Engineering, University of Houston, Houston, TX "
+        ],
+        [
+            "Department of Immunology, The University of Texas MD Anderson Cancer Center, Houston, TX"
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Chemical & Biomolecular Engineering, University of Houston, Houston, TX "
+        ]
+    ],
+    "first_author_latitude": "29.722659999999998",
+    "first_author_longitude": "-95.3415509",
+    "abstract_text": "Background The combination of the \u03b1PD-1 (nivolumab) and hypomethylating agent azacytidine demonstrated encouraging response rate and overall survival in relapsed/refractory acute myeloid leukemia (AML) patients, compared to azacytidine alone 1 (NCT02397720). However, the percentage of the patient who achieved an IWG 2016 response to such therapy was still limited (overall response rate = 33%), so it is desirable to have early predictive biomarkers to facilitate patient stratification and selection for future trials. A better understanding of T cells (primary targets of \u03b1PD-1 therapy) from bone marrow (BM) and peripheral blood (PB) in AML pre-therapy and on-therapy should yield valuable insights on the treatment-induced anti-tumor response. Methods We performed whole transcriptomic profiling (RNA-sequencing, RNA-seq) on T cells from a cohort of AML patients who were enrolled in the clinical trial mentioned above, and treated with azacytidine and nivolumab ( Table 1 ). Sixty-four FACS-sorted patient-derived T cell samples from cryopreserved peripheral blood (PB) or bone marrow (BM) aspirates, which were collected pre-therapy (T0) and after the first round of treatment (end of cycle one, EOC1), were evaluated. By leveraging subset definitions based on scRNA-seq results from T cells of cancer patients, we implemented deconvolution of our bulk T-cell RNA-seq data to obtain the relative abundance of different T-cell subsets (in-silico dissection without physical isolation). Results We performed ex vivo cDNA library preparation on 2,000-100,000 sorted T cells and yielded a minimal of 17 million sequencing reads per BM T-cell library and 2.6 million sequencing reads per PBMC T-cell library. We compared the gene expression profile of peripheral blood T cells from AML patients (CD4: n = 16; CD8: n = 15) and healthy donors (HD, n = 8) 2,3 to validate our methodology. The deconvolution results were consistent with previously published flow-cytometry data profiling cancer patients 4,5 ( Figure 1 ). In comparison with HDs, circulating CD4 T cells from AML patients consisted of a higher frequency of Treg (AML versus HD: 5.1% versus 0.6%, P<0.0001) 4 . Peripheral blood CD8 T cells from AML patients were with a significantly lower frequency of na\u00efve (AML versus HD: 22.1% versus 55.9%, P<0.0001), a higher frequency of effector phenotype (AML versus HD: 35.6% versus 6.7%, P =0.0011), and an increasing frequency of exhausted phenotype (AML versus HD: 19.1% versus 0.0%, P<0.0001) 5 . Independent of the clinical responses attained on the azacytidine and nivolumab, comparison of the pre-therapy CD8 T cells from BM and PB from all AML patients using both gene set enrichment analysis and deconvolution indicated that the BM CD8 T cells were more activated/differentiated compared with PBMC CD8 T cells, likely reflective of an ongoing immune response against the AML. We also found treatment-induced gene expression profile changes in the AML circulating CD8 T cells, characterized by increased cell metabolism and cell proliferation. Deconvolution identified that pre-therapy relative abundance of exhausted (CD3 + CD8 + PD-1 + CD45RO + ) and effector (CD3 + CD8 + CD45RA + Tbet + PD-1 lo ) CD8 T cells (plasticity) could serve as subpopulations relevant for patient stratification ( Figure 2 ). We further validated these results using CyTOF wherein these same subpopulations were differentially abundant between responders and non-responders at the pre-therapy time-point. Conclusions Collectively, the analyses of RNA-seq of CD8 T cells from AML patients on the azacytidine with nivolumab trial revealed that (1) the PD-1 blockade-based treatment-induced gene expression profiling changes (increased cell proliferation and metabolism) of CD8 T cells are detectable as early as EOC1 in the peripheral blood; (2) specific subpopulations of plastic CD8 T cells identified may have the potential to serve as an actionable biomarker to select AML patients most likely to benefit from such immune checkpoint therapies. These findings need to be confirmed in larger studies, planned or currently being conducted, with \u03b1PD-1 based therapies in AML and MDS. References 1. Daver, N. et al. Cancer Discov. 9 , 370-383 (2019). 2. Corces, M. R. et al. Nat. Genet. 48 , 1193-1203 (2016). 3. Linsley, P. S. et al . PLoS One 9 , (2014). 4. Szczepanski, M. J. et al. Clin. Cancer Res. 15 , 3325-3332 (2009). 5. Knaus, H. A. et al. JCI Insight 3 , (2018). View large Download slide View large Download slide  Disclosures Varadarajan: CellChorus: Employment, Equity Ownership."
 }
