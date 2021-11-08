@@ -2,5 +2,56 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-115778",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3953",
     "start_url_page_num": 3953,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Relapse and Mortality Prediction of Acute Myeloid Leukemia Patients Using Deep Bidirectional Long Short-Term Memory-Deep Neural Network Architecture ",
+    "article_date": "November 29, 2018",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster II",
+    "topics": [
+        "artificial intelligence",
+        "complete blood count",
+        "data analysis",
+        "follow-up",
+        "hematopoietic stem cell transplantation",
+        "heterogeneity",
+        "hospitals, university",
+        "leukemia",
+        "leukemia, myelocytic, acute",
+        "memory"
+    ],
+    "author_names": [
+        "Bor-Sheng Ko, MD PhD",
+        "Yu-Fen Wang, MS",
+        "Chih-Chuan Lu, B.S.",
+        "Jeng-Lin Li, BS",
+        "Chi-Chun Lee, PhD",
+        "Jih-Luh Tang, MD",
+        "Hwei-Fang Tien, MD, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+        ],
+        [
+            "Tai-Cheng Stem Cell Therapy Center, National Taiwan University, Taipei, Taiwan "
+        ],
+        [
+            "Department of Electrical Engineering, National Tsing Hua University, Hsinchu, Taiwan "
+        ],
+        [
+            "Department of Electrical Engineering, National Tsing Hua University, Hsinchu, Taiwan "
+        ],
+        [
+            "Department of Electrical Engineering, National Tsing Hua University, Hsinchu, Taiwan "
+        ],
+        [
+            "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan ",
+            "Tai-Cheng Stem Cell Therapy Center, National Taiwan University Hospital, Taipei, Taiwan"
+        ],
+        [
+            "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+        ]
+    ],
+    "first_author_latitude": "25.0407391",
+    "first_author_longitude": "121.51898630000001",
+    "abstract_text": "Introduction While continuous advancement has been made in the treatment of AML, the overall 5-year survival rate achieved in current days is still less than 40%. The ability to accurately assess AML patient's risk of mortality and relapse is crucial to act on the most appropriate comprehensive treatment strategy. However, the surge of clinical parameters and the scale of data collection are becoming too complex for us to stratify risk and deriving predictive model systematically with conventional statistical methods. In our study, we propose to utilize artificial intelligence techniques in creating risk stratification and outcome prediction model through retrospective data analysis. Method Retrospective clinical data of patients with AML, including basic demographics (age & gender), laboratory results of complete blood count (CBC), white blood composition (WBC) and cytogenetics, and treatment history such as Hematopoietic Stem Cell Transplant (HSCT) and other medication history, was collected at the National Taiwan University Hospital. A total of 479 patients with newly diagnosed de novo AML were enrolled in this study. The median age at diagnosis was 50 years, and the median follow-up duration was 26.6 months, 77.7% of them achieved CR and, 53.4% had relapsed, and 47.2% had received HSCT. In total, 479 cytogenetics tests at diagnosis, 43,518 CBC & WBC records, 28 types of anti-neoplastic medications in L01 & L03 ATC code category with a total of 69,546 medication records from these 479 AML patients were used in deriving the outcome prediction model. A vectorized representation that captures the static-dynamic clinical aspects, i.e., demographics, laboratory results, and treatments, of an AML patient can be learned directly from the collected data. The representation includes both static personal attributes (demographic, and cytogenetic) and time-varying progression of patient's clinical assessment across time (laboratory results, HSCT, and medication). The time-dependent representation was derived from training a deep network architecture of bi-directional long short-term memory network (BLSTM). By taking 10 days as a time step, the BLSTM took the input of Fisher-vector encoded time series of a patient's CBC and WBC, medication, and HSCT records separately. The last output layer, which summarized the relapse/mortality risk exhibited in the measurements of patient's clinical conditions over time, of each separately-learned BLSTM was used as the encoded dynamic clinical representation. The concatenation of the AML patient's static features and the time-dependent representations were fed into a deep neural network followed by a support vector machine to carry out the final prediction. The prediction models were conducted in 5-fold cross-validation experiments and further evaluated using metrics of accuracy (ACC). Results The median leukemia-free survival and median overall survival of these 479 patients are 7.2 months and 49.0 months respectively. By using the CBC & WBC data, the accuracy of next 3-months relapse and mortality prediction at any time point reached 77.9 and 77.0% respectively, while models built with CBC, WBC combined with medication records reached accuracies of 78.4% and 84.6% respectively. Furthermore, incorporating static features, i.e., demographics and cytogenetics, together with time series representation of CBC & WBC, and medication records in our prediction model, we achieved further improved performances of 82.2% and 85.0% accuracies in next 3-month relapse and mortality prediction respectively (Figure 2). Conclusions The BLSTM-DNN model is a novel approach that is capable of jointly taking into account multiple heterogeneous clinical measurements throughout the clinical courses of AML patients in order to derive relapse and mortality prediction. It could be applied at any given time point using past 3-month data to predict the next 3-month relapse or mortality. We also observed the model accuracy increased as we increased the number of clinical exams included in our model. Our study results demonstrated a potential model in facilitating precise and personalized risk assessment that could support physicians for better risk-averse intervention in the future. We plan to integrate other exams including genomic and pathology reports with a larger patient's cohort into our model in the next phase of model development. View large Download slide View large Download slide  Disclosures Ko: GNT Biotech & Medicals Crop.: Research Funding; Roche: Research Funding; Abbevie: Research Funding; Mumdipharma Taiwan: Consultancy."
 }
