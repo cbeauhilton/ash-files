@@ -2,5 +2,59 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-116858",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4012",
     "start_url_page_num": 4012,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Hotspot Mutations in SF3B1 Result in Increased Alternative Splicing in Multiple Myeloma and Activation of Key Cellular Pathways ",
+    "article_date": "November 29, 2018",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster III",
+    "topics": [
+        "alternative splicing",
+        "multiple myeloma",
+        "mutation",
+        "sf3b1 gene",
+        "cancer",
+        "protein isoforms",
+        "rna",
+        "breast cancer",
+        "chronic b-cell leukemias",
+        "chronic lymphocytic leukemia"
+    ],
+    "author_names": [
+        "Michael A Bauer, PhD",
+        "Cody Ashby, PhD",
+        "Christopher Wardell, PhD",
+        "Maria Ortiz",
+        "Erin Flynt",
+        "Anjan Thakurta, PhD",
+        "Gareth Morgan, MD",
+        "Brian A Walker, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "CITRE, Celgene Corporation, Sevilla, Spain "
+        ],
+        [
+            "Translational Development and Diagnostics, Celgene Corporation, Summit, NJ "
+        ],
+        [
+            "Celgene Corporation, Summit, NJ "
+        ],
+        [
+            "University of Arkansas for Medical Sciences, Little Rock, AR"
+        ],
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ]
+    ],
+    "first_author_latitude": "34.748461999999996",
+    "first_author_longitude": "-92.3192351",
+    "abstract_text": "Introduction : Mutations in the components of the spliceosome have been shown to occur at relatively high frequency in many cancers such as chronic lymphocytic leukemia, myelodysplastic syndromes and breast cancer. One component in particular, encoded by SF3B1 , has hotspot missense mutations that result in a significant increase in alternatively spliced transcripts. RNA splicing in Multiple Myeloma (MM) has not been investigated and in particular the extent of mutations in SF3B1 and its effects on the transcriptome. Methods : Using the MMRF CoMMpass dataset (N=1273) of newly diagnosed MM patients, samples with whole exome sequencing (WES) were analyzed for mutations using Strelka and Mutect, and samples with SF3B1 mutations identified. A range of approaches were used to explore the effect of the SF3B1 mutations on the transcriptome and to determine possible downstream effects. Using RNA-seq with matched WES samples (n=615), the splice junction usage of SF3B1 mutants was compared against non-mutated samples which were matched for key MM molecular sub-types. The RNA-seq data was analyzed using a pipeline that included STAR and Salmon, aligning to human reference genome hg38, gene and transcript differential expression analysis tools DESeq2 and StringTie/Ballgown, differential splicing exon usage tools JunctionSeq/QoRTs, DEXSeq, and SUPPA and for Gene Set Enrichment Analysis (GSEA) the R package FGSEA was used. Results: From the WES data 1.7% (22/1273) of samples had mutations in SF3B1 of which 5 had mutations in the hotpot codons of K666 and K700. Differential isoform analysis of the 22 SF3B1 mutant samples compared to non-mutated samples did not identify any transcripts. However, when the analysis was restricted to the 5 samples with hotspot mutations differential gene expression identified 146 genes that were significantly differentially expressed at an adjusted p -value <0.05. Additionally, many genes that did not show an overall gene expression change between the control and the SF3B1 hotspot mutants did at transcriptional level where we observed isoform switching which included the protein coding genes BCL2L1 , SNUR , ACKR3 and CRLF2 . Results of differential gene analysis between the control and SF3B1 mutants were used in GSEA and significant normalized enrichment scores (NES) identifying increased protein secretion ( p -value =0.009, NES= 1.9) and unfolded protein response (UPR) ( p -value = 0.02, NES = 1.52) pathways. Conversely GSEA identified decreased apoptosis (p -value = 0.008, NES = -1.76), KRAS signaling ( p -value = 0.008, NES = -1.92), TNFA signaling via NF-\u03baB ( p -value = 0.008, NES= 2.12) pathways in SF3B1 mutant samples. Investigation of splicing loci revealed that novel splice loci were significantly more abundant in the SF3B1 mutants versus control samples. Differential splicing analysis detected 474 genes to be significantly differentially spliced and of those 311 were not found to be differentially expressed at the gene level, indicating that alternative splicing is as important alternative mechanism to gene expression differences. 59 novel splice sites were identified, as well as 152 known splice sites and 218 exon significant differential usage with a p -value of < 0.05. The genes with most significant levels of alternative splicing and found by more than one approach were DYNLL1 , TMEM14C , CRNDE , BRD4 and BCL2L1 , several of which are also seen in other cancers with mutated SF3B1 . Conclusions: Hotspot mutations in SF3B1 result in alternative splicing of genes as well as the introduction of novel splice sites. The confirmation that SF3B1 hotspot mutations in MM increases alternative splicing as well as the identification of the genes undergoing alternative splicing may present novel therapeutic targets. Gene expression analysis of these samples identifies key deregulated pathways, perhaps in response to alternative splicing, including the UPR and protein secretion pathways. These analyses indicate that disruption of these pathways are potential avenues of therapeutic intervention in patients with SF3B1 mutations. Disclosures Ortiz: Celgene Corporation: Employment, Equity Ownership. Flynt: Celgene Corporation: Employment, Equity Ownership. Thakurta: Celgene Corporation: Employment, Equity Ownership. Morgan: Celgene: Consultancy, Honoraria, Research Funding; Takeda: Consultancy, Honoraria; Janssen: Research Funding; Bristol-Myers Squibb: Consultancy, Honoraria."
 }
