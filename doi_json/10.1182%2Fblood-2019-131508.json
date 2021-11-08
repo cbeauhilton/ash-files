@@ -2,5 +2,67 @@
     "doi": "https://doi.org/10.1182/blood-2019-131508",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4404",
     "start_url_page_num": 4404,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Discovery of Novel IL3RA (CD123) Isoforms By Long Read Transcriptomics, Heterogeneous Expression Among AML Patient Cohorts and the Implications for Anti-CD123 Therapeutics ",
+    "article_date": "November 13, 2019",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "CD123 is a cell surface protein expressed on hematopoietic progenitors and the surface of most AML blasts, making it a valuable therapeutic target for clinical intervention. As such, antibody-drug conjugates or CAR T cells against this antigen have been developed including tagraxofusp-erzs, recently approved for blastic plasmacytoid dendritic cell neoplasm (BPDCN). CD123 is the alpha subunit of the interleukin 3 receptor and is encoded by the pseudoautosomal IL3RA gene. Recent work demonstrated that different monoclonal antibodies directed against CD123 show sizable discrepancies when used to quantify this antigen on AML patient samples. (Cruz et al. 2018) Given these results and the variability in patient response to anti-CD123 therapeutics, we hypothesized that heterogeneity in IL3RA mRNA isoform expression may induce epitope variation on the cell surface, modulating antibody and therapeutic response. To better understand the heterogeneity, we analyzed long and short read transcriptomics data from normal bone marrow along with pediatric AML samples known to harbor translocations. The combination of these two types of RNA expression data afford both a look at full length isoforms produced in patients and the relative expression levels of each. To define the isoforms expressed in pediatric AML, we augmented short read RNAseq with long read transcriptomics on the PacBio platform. Following up on short RNAseq data generated from 4 clinical study cohorts of pediatric AML samples (N = 1,394) collected and normal bone marrow controls (NBM, N = 68), we chose diagnostic AML samples (N=10) and one NBM with high RNA integrity (RIN >9) for polyA transcript profiling using Pacific Biosciences (PacBio) long read RNA sequencing. This method gives full isoform sequences that can be reliably translated into open reading frames. It also adds new utility to our wealth of short read RNA-seq as the long read data can be used in a reference fashion to quantify and compare isoforms across cohorts. After profiling and classifying the novel isoforms, we honed in on transcripts from the IL3RA locus since these encode the CD123 antigen targeted by immunotherapy approaches. PacBio long read RNA sequencing detected 8 unique full-length transcript isoforms that mapped to the IL3RA gene: 4 known and 4 novel IL3RA transcripts. Three abundant known isoforms aligned to the canonical annotated IL3RA (Isoform 1, Figure 1A ), an isoform missing exons 3 and 4 (Isoform 2 ) or a third isoform (Isoform 3, not shown) which does not encode a transmembrane domain. We focused on 3 novel isoforms ( Figure 1, Isoforms A-C ) encompassing a variety of splicing changes, but all of which are predicted to harbor a transmembrane domain and dramatically alter the extracellular peptide sequence in comparison to annotated isoforms. ( Figure 1 , domains predicted and colored in the legend) The novel isoforms were found independently in multiple patients, but as additional validation we PCR amplified cDNA from patient samples using an inclusive primer set directed to constitutive exons that flank the alternative splicing events and thus designed to capture multiple isoforms. ( Figure 2A, arrows ) Products were separated by gel electrophoresis with amplicons cloned, Sanger sequenced and analyzed through alignment with human reference sequences. The non-specific isoform amplification detects multiple isoforms indicating heterogeneity in splice site choice between patients. Fragment analysis from patient 2 ( Figure 2B ) confirms the presence of isoform variation with peaks corresponding with the expected products from isoforms 1, 2, A, B, and C. In an effort to further validate and quantify novel isoforms of IL3RA , we employed kallisto which utilizes short read RNAseq data from the entire cohort to get a count estimate for each isoform in pediatric AML patient samples and normal controls. These data ( Figure 3 ) indicate that while the annotated isoform 1 is the most abundant, a wide range of novel isoform expression is detected in both normal and pAML samples. In conclusion, changes in protein length and peptide sequence may affect the efficacy of therapeutic anti-CD123 approaches since some patients express alternative isoforms with a wide range of abundance. We anticipate that the computational and experimental pipeline used to discover and characterize these isoforms will be of high value in the study of many cell surface antigens with therapeutic potential. View large Download slide View large Download slide  Disclosures Underwood: Pacific Biosciences: Employment, Equity Ownership. Tseng: Pacific Biosciences: Employment, Equity Ownership. Farrar: Novartis: Research Funding.",
+    "topics": [
+        "heterogeneity",
+        "protein isoforms",
+        "myeloblastic leukemia, pediatric acute",
+        "antigens",
+        "antibodies",
+        "blastic plasmacytoid dendritic cell neoplasm",
+        "peptides",
+        "rna",
+        "sequence analysis, rna",
+        "dna, complementary"
+    ],
+    "author_names": [
+        "Jason G Underwood, PhD BA",
+        "Jenny L. Smith, MSc, MD",
+        "Lindsey F. Call, B.A.",
+        "Elizabeth Tseng, PhD",
+        "Tiffany A. Hylkema, BS",
+        "Rhonda E. Ries, MA",
+        "Amanda R. Leonti, MS",
+        "Jason E. Farrar, MD",
+        "Timothy Junius Triche, Jr., PhD",
+        "Soheil Meshinchi, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Fred Hutch Cancer Research Center/Meshinchi lab, Pacific Biosciences (PacBio), Seattle, WA "
+        ],
+        [
+            "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA "
+        ],
+        [
+            "Fred Hutchinson Cancer Research Center, Clinical Research Division, Seattle, WA "
+        ],
+        [
+            "Pacific Biosciences, Menlo Park, CA "
+        ],
+        [
+            "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA "
+        ],
+        [
+            "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA "
+        ],
+        [
+            "Clinical Research Division, Fred Hutchinson Cancer Research Center, Mountlake Terrace, WA "
+        ],
+        [
+            "University of Arkansas For Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Van Andel Research Institute, Grand Rapids, MI"
+        ],
+        [
+            "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA "
+        ]
+    ],
+    "first_author_latitude": "47.62726339999999",
+    "first_author_longitude": "-122.3314858"
 }
