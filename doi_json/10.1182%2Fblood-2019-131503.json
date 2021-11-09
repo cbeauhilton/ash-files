@@ -2,5 +2,48 @@
     "doi": "https://doi.org/10.1182/blood-2019-131503",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4342",
     "start_url_page_num": 4342,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Enumerating Functional HSC Clones in the Zebrafish Using Gestalt ",
+    "article_date": "November 13, 2019",
+    "session_type": "503.Clonal Hematopoiesis: Aging and Inflammation",
+    "topics": [
+        "clone cells",
+        "crispr-associated protein 9",
+        "genome editing",
+        "neoplasms",
+        "zebrafish",
+        "pearson correlation coefficient",
+        "animals, transgenic",
+        "computer simulation",
+        "embryo",
+        "hematopoietic stem cells"
+    ],
+    "author_names": [
+        "Emily M Teets, B.S.",
+        "Charles Thomas Gregory, BS",
+        "Jami L Shaffer, B.S.",
+        "James S. Blachly, MD",
+        "Bradley W Blaser, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "The Ohio State University Comprehensive Cancer Center and Division of Hematology, Columbus, OH "
+        ],
+        [
+            "The Ohio State University Comprehensive Cancer Center and Division of Hematology, Columbus, OH "
+        ],
+        [
+            "The Ohio State University Comprehensive Cancer Center and Division of Hematology, Columbus, OH "
+        ],
+        [
+            "The Ohio State University Comprehensive Cancer Center and Division of Hematology, Columbus, OH ",
+            "Department of Biomedical Informatics, The Ohio State University, Columbus, OH"
+        ],
+        [
+            "The Ohio State University Comprehensive Cancer Center and Division of Hematology, Columbus, OH "
+        ]
+    ],
+    "first_author_latitude": "39.99808925",
+    "first_author_longitude": "-83.0233615",
+    "abstract_text": "Hematopoietic stem cells (HSCs) are functionally and genetically diverse. This diversity decreases as a function of age and with the development of myeloid neoplasia. Numerous systems have been developed to genetically \"barcode\" HSCs and quantify HSC clone numbers in the setting of native hematopoiesis, but no experimental and computational framework has been established to perform this analysis on a large number of biological replicates. Here we have employed the transgenic zebrafish system, Genome Editing of Synthetic Target Arrays for Lineage Tracing (GESTALT), to develop a framework scaled to permit the investigation of putative oncogenes or niche factors with moderate to small effect sizes. The GESTALT line carries a single copy of an array of 10 tandem CRISPR target sites that is highly variable after being repaired by non-homologous end joining. GESTALT embryos were injected with sgRNAs and Cas9 protein to generate genetic barcodes at the GESTALT locus. Fifty-six zebrafish were raised to adulthood and GESTALT variants were read from a sample of peripheral blood by amplicon sequencing. In a training set of 35 fish we developed a computational model to discriminate informative barcodes from uninformative GESTALT variants in each sample. This model identifies variants shared among samples and excludes them as uninformative. Experimentally-defined thresholds were used to minimize inter-sample correlation (mean Pearson Correlation Coefficient = 0.0021) while maximizing the number of retained informative barcodes in each sample. Bootstrapping and k-means clustering were used to classify samples with a high or low fraction of informative (FI) barcodes (FI cutoff = 0.65). 24 samples within the training set were classified in the High-FI group (mean FI = 0.93 \u00b1 0.02, compared to 0.40 \u00b1 0.04 in the Low-FI group). We then evaluated 3 methods of quantifying GESTALT HSC clones from all sequenced barcodes in the High-FI samples and found that counting barcodes with a VAF>0.02 produced the most normal distribution across the training set (Shapiro-Wilk test for normality, W = 0.95, p = 0.21). 4.3 \u00b1 0.38 GESTALT HSC clones were detected in the training set. In an independent validation set of 21 samples, the number of GESTALT HSC clones was 3.4 \u00b1 0.55, (p = 0.2). This study provides the largest reference dataset to date for HSC genetic barcoding experiments in the zebrafish and addresses the validity of barcode sequences, sample selection and clone enumeration in a systematic, objective way. The GESTALT barcoding system and our analysis framework compare favorably with other methods of studying HSC clonal diversity under conditions of native hematopoiesis in terms of scale, cost, labor and barcode validity. Future studies aiming to understand the mechanisms of HSC clonal evolution in the context of health, ageing and disease will benefit from this framework for enumerating functional HSC clones. Disclosures No relevant conflicts of interest to declare."
 }

@@ -2,5 +2,67 @@
     "doi": "https://doi.org/10.1182/blood.V126.23.4325.4325",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3170",
     "start_url_page_num": 3170,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Whole Genome Sequencing of Azole-Resistant Aspergillus Fumigatus Strains from Hematopoietic Stem Cell Recipients Identifies Candidate Molecular Targets Potentially Implicated in Novel Resistance Mediating Mechanisms - First Results ",
+    "article_date": "December 3, 2015",
+    "session_type": "721. Clinical Allogeneic Transplantation: Conditioning Regimens, Engraftment and Acute Transplant Toxicities: Poster III",
+    "topics": [
+        "aspergillus fumigatus",
+        "azoles",
+        "hematopoietic stem cells",
+        "molecular target",
+        "whole genome sequencing",
+        "massively-parallel genome sequencing",
+        "allopurinol",
+        "hematopoietic stem cell transplantation",
+        "leukemia, acute",
+        "screening"
+    ],
+    "author_names": [
+        "Maximilian Mossner",
+        "Birgit Spiess, PhD",
+        "Johann-Christoph Jann",
+        "Verena Nowak",
+        "Julia Obl\u00e4nder",
+        "Oliver Bader",
+        "Wolf-Karsten Hofmann, MD",
+        "Daniel Nowak, MD",
+        "Dieter Buchheidt, MD",
+        "Tobias Boch, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Hematology and Oncology, Medical Faculty Mannheim of the University of Heidelberg, Mannheim, Germany "
+        ],
+        [
+            "Department of Hematology and Oncology, University Hospital Mannheim, Mannheim, Germany "
+        ],
+        [
+            "Department of Hematology and Oncology, Medical Faculty Mannheim of the University of Heidelberg, Mannheim, Germany "
+        ],
+        [
+            "Department of Hematology and Oncology, Medical Faculty Mannheim of the University of Heidelberg, Mannheim, Germany "
+        ],
+        [
+            "Department of Hematology and Oncology, University Hospital Mannheim, Mannheim, Germany "
+        ],
+        [
+            "Institute for Medical Microbiology, University Medical Center G\u00f6ttingen, G\u00f6ttingen, Germany"
+        ],
+        [
+            "Department of Hematology and Oncology, Medical Faculty Mannheim of the University of Heidelberg, Mannheim, Germany "
+        ],
+        [
+            "Department of Hematology and Oncology, Medical Faculty Mannheim of the University of Heidelberg, Mannheim, Germany "
+        ],
+        [
+            "Department of Hematology and Oncology, University Hospital Mannheim, Mannheim, Germany "
+        ],
+        [
+            "Department of Hematology and Oncology, Medical Faculty Mannheim of the University of Heidelberg, Mannheim, Germany "
+        ]
+    ],
+    "first_author_latitude": "49.49577610000001",
+    "first_author_longitude": "8.494049000000002",
+    "abstract_text": "Introduction Invasive aspergillosis (IA) represents a critical complication that frequently emerges during induction chemotherapy for acute leukemia or after allogeneic hematopoietic stem cell transplantation (allo-HSCT) and is associated with high mortality rates. During the last years, routine administration of antimold prophylaxis based on triazole regimens provided a major advance in controlling fungal infections in patients at high risk for IA. However, several studies recently reported azole resistant fungal strains, which are detectable in patients at risk with rapidly increasing frequency. While mutations in the 14\u03b1-sterol demethylase ( cyp51A ) gene have been implicated in mediating azole resistance, in approximately 50% of resistant patient isolates the underlying genetic cause is unknown (van der Linden, Emerging Infectious Diseases , 2015). In view of a rising prevalence of azole resistance in the high risk clinical setting we performed whole genome sequencing (WGS) of azole-resistant cyp51A-wildtype Aspergillus fumigatus ( Afu ) specimen, the main effector of IA, with the aim to identify novel genetic alterations leading to azole resistance. Methods Afu clinical strains were isolated from six different patients with IA undergoing intensive chemotherapy for acute leukemia or after allo-HSCT. Phenotypic resistance screening confirmed azole resistance in all samples. Moreover, Sanger sequencing revealed characteristic resistance associated cyp51A mutations (\"TR46/Y121F/T289A\") in four of the six specimen, while two samples harbored cyp51A wildtype sequences. High molecular weight genomic DNA (gDNA) was isolated using a modified DNeasy Plant Mini Kit protocol (Qiagen). WGS sequencing libraries were prepared utilizing the transposome fragmentation based Nextera XT DNA Library Prep Kit (Illumina) and sequenced on a MiSeq next generation sequencing (NGS) system (Illumina) with V2 sequencing chemistry (2x250bp). Raw paired reads were mapped to the NCBI Af293 (ASM265v1) reference genome using BWA followed by calibration with GATK. Subsequently, genomic variants were identified by GATK Haplotypecaller module and ANNOVAR software was used for functional variant annotation. Results WGS of four cyp51A mutated and two cyp51A wildtype samples resulted in an average genomic coverage of 26x (range 21.2x - 30.1x) allowing robust detection of genomic sequence variants. Of note, the presence or absence of cyp51A \"TR46/Y121F/T289A\" mutational genotype was reliably validated by WGS data using both our variant calling pipeline and manual screening of mapped reads with the IGV browser. In an attempt to screen for novel, previously undocumented candidate genes that are mechanistically involved in azole resistance we first identified all mutations that are exclusively present in the cyp51A wildtype samples and undetectable in the cyp51A mutated cohort. Next, we excluded all variants that have previously been reported as being polymorphic in WGS data from 22 different Afu strains sequenced by the J. Craig Venter Institute. Using this strategy we identified a core candidate cluster of 112 nucleotide variants in 62 genes that were exclusively found in the cyp51A wildtype group and predicted to have an impact on the amino acid sequence of the corresponding translational products. In particular, exemplary identified mutations affected genes coding for glycosyl hydrolase family 31 proteinimplicated in carbohydrate metabolic processes and 3-oxo-5-alpha-steroid 4-dehydrogenase family protein , which is, similar to cyp51A , involved in steroid metabolism. Conclusion The rapid increase in detection of triazole resistant fungal strains in clinical contexts represents a critical problem, particularly for immunocompromised patients at high risk for IA, and highlights the need to explore the underlying molecular causes. Pending further validation in a larger cohort, our NGS-based approach for sequencing the genomes of azole resistant Afu strains identified several candidate genomic alterations that might pinpoint alternative pathways to acquisition of resistance, independent of the previously described cyp51A mutations. Ultimately, our approach for discovery of previously undescribed resistance pathways in fungal strains might aid in exploration of novel therapeutic targets and identify suitable biomarkers for effective clinical and epidemiological surveillance. Disclosures Buchheidt: Gilead: Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; Pfizer: Other: travel grant, Research Funding, Speakers Bureau; Astellas: Other: travel grant, Speakers Bureau; Merck Sharp & Dohme: Other: travel grant, Speakers Bureau."
 }
