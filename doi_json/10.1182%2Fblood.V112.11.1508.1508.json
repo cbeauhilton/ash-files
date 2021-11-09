@@ -2,5 +2,51 @@
     "doi": "https://doi.org/10.1182/blood.V112.11.1508.1508",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1168",
     "start_url_page_num": 1168,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "MRD Monitoring of Childhood ALL Using Hierarchical Clustering and Support Vector Machine Learning of Complex Multi-Parameter Flow Cytometry Data. ",
+    "article_date": "November 16, 2008",
+    "session_type": "Leukemias - Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis",
+    "topics": [
+        "disease vectors",
+        "flow cytometry",
+        "leukemia, lymphocytic, acute, childhood",
+        "machine learning",
+        "spatial vectors",
+        "follow-up",
+        "hematologic neoplasms",
+        "neoplasm, residual",
+        "pearson correlation coefficient",
+        "basic local alignment search tool"
+    ],
+    "author_names": [
+        "Karel Fiser, PhD",
+        "Tomas Sieger, MSc",
+        "Angela Schumich",
+        "Julie Irving, PhD",
+        "Michael N Dworzak, MD",
+        "Josef Vormoor, MD, FRCPCH"
+    ],
+    "author_affiliations": [
+        [
+            "Northern Institute for Cancer Research, Newcastle University, Newcastle upon Tyne, United Kingdom"
+        ],
+        [
+            "Praha, Czech Republic"
+        ],
+        [
+            "Children\u2019s Cancer Research Institute, Vienna, Austria"
+        ],
+        [
+            "Northern Institute for Cancer Research, Newcastle University, Newcastle upon Tyne, United Kingdom"
+        ],
+        [
+            "Children\u2019s Cancer Research Institute, Vienna, Austria"
+        ],
+        [
+            "Northern Institute for Cancer Research, Newcastle University, Newcastle upon Tyne, United Kingdom"
+        ]
+    ],
+    "first_author_latitude": "54.9830144",
+    "first_author_longitude": "-1.6231995000000001",
+    "abstract_text": "Flow cytometry is an important tool both for research and diagnostics of hematologic malignancies - including monitoring of minimal residual disease (MRD). Recent progress and more widespread availability of 6 and higher color flow cytometry leads to complex, information-rich datasets which are very challenging to analyze. Here, we validate a novel approach to multi-parameter flow data analysis in MRD flow data sets from 39 ALL patients (including 23 patients from the I-BFM list mode data (LMD) ring trial). The approach combines hierarchical clustering (HCA) using a newly developed algorithm and support vector machine (SVM) learning. The algorithm employs a scale-invariant Mahalanobis distance measurement for merging clusters. This reflects the extended ellipsoid shape of the populations and is better suited for flow cytometric data compared with standard HCA metrics. The resulting hierarchical tree, combined with the heatmap of the CD marker expression allows visualization of hierarchically clustered data of all analyzed parameters displayed in a single plot. The clusters from HCA (representing the ALL blast population at diagnosis) were used to train SVM classifiers which were then applied to test for presence of a matching population in the test sample (follow-up sample). All work was carried out in MATLAB (MathWorks, Inc.). Using HCA, we have been able to detect the leukemic blast population in diagnostic and follow-up datasets (n=81) from three centers. The correlation (Pearson correlation coefficient = 0.98) between HCA and the standard gating approach was highly comparable to inter-laboratory comparisons within the I-BFM LMD ring trial (Dworzak MN et al; Cytometry B Clin Cytom. 2008 Jun 11.). To further improve sensitivity and exact quantification of low MRD levels and to automate MRD detection, we combined HCA with SVM learning. We have analyzed 21 samples from 5 patients with MRD levels between 0.004 to 57.54%. HCA plus SVM correlated better with standard gating results than HCA alone in particular in samples with low MRD levels (<10 \u22123 ). In summary, HCA in combination with SVM proved to be a strong analytical tool for flow cytometry with the potential for automated MRD detection. We validated this approach for use in ALL diagnostics and MRD monitoring by comparison with expert-based gating analyses of I-BFM LMD ring trial data."
 }

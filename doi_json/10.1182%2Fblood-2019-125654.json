@@ -2,5 +2,55 @@
     "doi": "https://doi.org/10.1182/blood-2019-125654",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4183",
     "start_url_page_num": 4183,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Beyond the Routine CBC: Research CBC Parameters Associated with Myelodysplastic Syndromes and Underlying Mutations ",
+    "article_date": "November 13, 2019",
+    "session_type": "637.Myelodysplastic Syndromes-Clinical Studies",
+    "topics": [
+        "complete blood count",
+        "mutation",
+        "myelodysplastic syndrome",
+        "brachial plexus neuritis",
+        "myeloproliferative disease",
+        "cytopenia",
+        "disease remission",
+        "dysplasia",
+        "neoplasms",
+        "cisplatin/methotrexate/vinblastine protocol"
+    ],
+    "author_names": [
+        "Olga Pozdnyakova, MD PhD",
+        "Radu Stefan Niculescu, PhD",
+        "Tracey Kroll, BSc",
+        "Lisa Golemme, MLS (ASCP), MS",
+        "Nolan Raymond, MLS (ASCP)",
+        "Debra Briggs, MT(ASCP), MS",
+        "Annette S. Kim, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Pathology, Brigham and Women's Hospital, Boston, MA "
+        ],
+        [
+            "Analytics Center of Excellence, PTC, Wayne, PA "
+        ],
+        [
+            "Analytics Center of Excellence, PTC, Wayne, PA "
+        ],
+        [
+            "Department of Pathology, Brigham and Women's Hospital, Boston, MA "
+        ],
+        [
+            "Department of Pathology, Brigham and Women's Hospital, Boston, MA "
+        ],
+        [
+            "Dana Farber Cancer Institute, Boston, MA"
+        ],
+        [
+            "Department of Pathology, Brigham and Women's Hospital, Boston, MA "
+        ]
+    ],
+    "first_author_latitude": "42.3362791",
+    "first_author_longitude": "-71.10652639999999",
+    "abstract_text": "Background : Myeloid neoplasms and reactive conditions cannot be readily distinguished by conventional CBC parameters. Given the time, expense and clinical expertise associated with the diagnostic workup of myeloid neoplasms, there is a clear need for a cost-effective screening laboratory test that can rapidly and accurately select for patients with cytopenias or cytoses potentially related to myelodysplastic syndrome (MDS) or myeloproliferative neoplasms (MPN), respectively. Recent studies showed that incorporating NE-WX, a research CBC parameter related to neutrophil complexity, and IPF, an immature platelet fraction parameter, into a conventional CBC analysis helps identify patients with high likelihood of MDS (PMID 30406952) or JAK2-positive polycythemia vera (PMID 30601597), respectively. Our exploratory analysis was focused on using all research CBC parameters in combination with standard CBC parameters and mutational data to compare control patients to those with active myeloid disease, and MDS in particular. Methods : We measured standard and research CBC parameters (92 parameters overall) using the Sysmex XN series hematology analyzer in a cohort of 592 consecutive patients (pts), out of which 221 had abnormal CBC due to an underlying myeloid neoplasm (MDS 83 pts, MPN 54 pts, MDS/MPN 24 pts, acute myeloid leukemia 21 pts, clonal or non-clonal cytopenia or cytoses 33 and 6 pts, respectively) and 371 age-matched control patients with normal CBC. The former group was tested for the presence of somatic mutations in 95 genes associated with hematologic malignancies and included patients with active disease (n=127) and in remission (n=94). The MDS cohort included 59 patients with active disease and 24 patients in remission. We developed a variety of models (Linear and Logistic Regression, Decision Trees, Random Forests, Neural Networks, Support Vector Machines, Gradient Boosting) to predict the presence of an active myeloid neoplasm or active MDS using both CBC and molecular data, as well as CBC data alone. These models were compared using a leave one patient out cross-validation method and a champion model was chosen. Correlation matrix analysis was used for establishing relationships between MDS-associated mutations and CBC parameters, where a relevant association was considered at the levels of above 0.25 or below -0.25. Results : Table 1 lists the leave one out performance of the champion predictive models for the active myeloid and MDS cohorts based on different variables (all CBC parameters, mutations, age and gender), along with their corresponding sensitivity and specificity. Table 2 shows the most discriminatory research CBC parameters in the MDS cohort reflecting dysplastic changes in neutrophil morphology (NE-SFL, NE-WY, NE-WX, NE-FSC, NE-SSC) and degrees of cytopenia (increased IPF and decreased TNC). The standard parameters included Hgb, MCV, MCH, WBC and absolute neutrophil count. Several mutations showed a strong association with certain CBC parameters in the MDS cohort. ASXL1 was associated with lymphocyte complexity (LY-X; 0.38), TNC (0.28), WBC (0.28) and neutrophil (0.27) count and lower immature reticulocytes fraction (-0.67), RBC (-0.30) and reticulocyte (-0.31) counts, similar to the findings of the recently published mouse model expressing ASXL1 truncating protein (PMID 29113963), while DNMT3A and SF3B1 mutations showed higher platelet correlations (0.32). In addition, the latter was associated with lower neutrophil granularity (-0.32), cell size (-0.32) and nuclear complexity (-0.39). TP53 showed positive association with neutrophil and lymphocyte parameters reflecting population heterogeneity (0.26-0.40). Conclusions : Our exploratory study demonstrated that the Sysmex XN research parameters, which are measured with all routine CBCs, may be used in patients with abnormal CBC to build a predictive model with high specificity to rule out a clonal myeloid neoplasm, including MDS. The model's performance improves with the addition of the molecular status as a variable, while it appears to be independent of age and gender. In the entire MDS cohort, the most relevant research parameters in the predictive model are reflective of dysplastic neutrophil morphology and can be objectively measured. In addition, it appears that there may be unique CBC parameter signatures associated with an underlying mutation. View large Download slide View large Download slide  Disclosures Pozdnyakova: Sysmex corporation of America: Research Funding. Niculescu: Sysmex America, Inc: Consultancy. Kroll: Sysmex America, Inc: Consultancy. Kim: Quanterix, Inc: Consultancy; Papgene, Inc: Consultancy; LabCorp, Inc: Consultancy."
 }
