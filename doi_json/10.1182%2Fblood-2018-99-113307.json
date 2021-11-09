@@ -2,5 +2,63 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-113307",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3948",
     "start_url_page_num": 3948,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Quantitative Integrative Prediction of Survival Probability in Multiple Myeloma Using Molecular and Clinical Prognostic Factors in 657 Patients Treated with Bortezomib-Based Induction, High-Dose Therapy and Autologous Stem Cell Transplantation ",
+    "article_date": "November 29, 2018",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Molecular Mechanisms, Treatment Response, and Survival in Multiple Myeloma",
+    "topics": [
+        "autologous stem cell transplant",
+        "bortezomib",
+        "multiple myeloma",
+        "prognostic factors",
+        "calibration",
+        "albumins",
+        "creatinine",
+        "immunoglobulin a",
+        "mitotic index",
+        "percutaneous drainage of abscess"
+    ],
+    "author_names": [
+        "Manuela Hummel",
+        "Thomas Hielscher",
+        "Hans J\u00fcrgen Salwender, MD",
+        "Christof Scheid",
+        "Hans Martin, MD",
+        "Uta Bertsch, MD",
+        "Hartmut Goldschmidt, MD",
+        "Anja Seckinger",
+        "Dirk Hose, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Division of Biostatistics, German Cancer Research Center, Heidelberg, Germany "
+        ],
+        [
+            "Abteilung f\u00fcr Biostatistik, Deutsches Krebsforschungszentrum (DKFZ), Heidelberg, Germany "
+        ],
+        [
+            "Department of Hematology, Oncology and Palliative Care, Asklepios Klinik Altona and St. Georg, Hamburg, Germany "
+        ],
+        [
+            "Department of Internal Medicine I, University Hospital Cologne, Cologne, Germany "
+        ],
+        [
+            "Department of Hematology and Oncology, Goethe University, Frankfurt, Germany "
+        ],
+        [
+            "Medizinische Klinik V, University of Heidelberg, Heidelberg, Germany "
+        ],
+        [
+            "Department of Hematology, Oncology, and Rheumatology, University Hospital Heidelberg, Heidelberg, Germany "
+        ],
+        [
+            "Medizinische Klinik V, Heidelberg University, Heidelberg, Germany "
+        ],
+        [
+            "Medizinische Klinik V, Univ. Hosp. Heidelberg, Heidelberg, Germany"
+        ]
+    ],
+    "first_author_latitude": "49.414414",
+    "first_author_longitude": "8.672960699999999",
+    "abstract_text": "Background Survival in multiple myeloma ranges from months to decades and the majority of patients remain incurable with current treatment approaches. Given this high variability, it would be clinically very useful to quantitatively predict survival on a continuous scale. Current risk prediction models attribute patients to 2-3 groups, i.e. high, intermediate, and low risk. Group size and survival rates largely vary between different systems. Rarely, molecular prognostic factors beyond iFISH are used. Widely accepted standard is the revised ISS score (rISS) including serum B2M, albumin, and adverse prognostic aberrations. Aim of our study was to develop quantitative prediction of individual myeloma patient's three and five year survival probability. We integrate prognostic factors into a comprehensive model, and evaluate its risk discrimination capabilities in relation to rISS. Patients and methods Symptomatic myeloma patients treated up-front with bortezomib-based induction regimen (PAD/PAd/VCD) and intention to undergo high-dose therapy and autologous stem cell transplantation with available GEP and iFISH-data (n=657) were split into training (TG, n=536) and validation group (VG, n=121). In TG and VG, 190 and 22 deaths were observed. Median f/u time was 5.4 and 3.5 years. Distribution of risk factors and 3-year overall survival (OS) were similar in both groups (80% vs 86%). Primary endpoint was OS. The following risk factors were considered for building the prognostic model: age (in years), ISS stage, elevated LDH level (>ULN), creatinine level >2 g/dL, heavy chain type IgA yes/no, del17p13 yes/no, t(4;14) yes/no, +1q21 no/3 copies/>3 copies, GEP-based GEP70-score and proliferation index (GPI). GEP-scores were analyzed as continuous variables. Due to low frequency, t(14;16) was excluded. A multivariable Cox regression model was fitted to estimate the individual prognostic index (PI). A non-stringent backward variable selection procedure with significance level for staying in the model of p=0.5 was applied to remove only surely non-informative predictors. Model selection, calibration, and validation were performed with the rms R package [Harrell 2017]. Harrell's c-index was used to assess the discrimination performance, and to compare the proposed prognostic model to the rISS [Kang 2015]. Results Quantitative Integrative Prediction of Survival Probability. The final Cox model was used to build a nomogram for estimating survival probabilities (Fig. 1). Points are attributed to each of the remaining prognostic factors and summed up. Total points translate into estimated 3-/5-year OS probabilities on a continuous scale. Example is given for an actual patient; 170 total points correspond to a 3-/5-year OS probability of 51/26%, and the contribution of each of the risk factors represented by different colors is visualized (Fig. 1). Of course, the continuous scale can also be used to group patients in low/intermediate/high risk; e.g. a sum of 171 and 142 points correspond to 3-/5-year OS probabilities of >80/50-80/<50% respectively. Validation and comparison to rISS. The nomogram was validated (VG) regarding discrimination and calibration [Royston 2013]. Discrimination signifies the ability of the model to distinguish patients with poor and good prognosis. The model showed equally good discrimination in TG (c-index 0.76) and VG (0.75). The time-dependent AUC at 3-years was 0.74 in the VG. In comparison, the c-index for rISS was 0.65 in TG and 0.56 in VG, i.e. significantly lower (P<.001). The AUC of rISS was 0.57 in the VG. The PI was highly significant in the VG (P<.001) and its regression coefficient was 1.04, very close to the optimal value of 1, indicating no obvious bias or overfitting. Calibration, reflecting accuracy of the estimated survival times, was assessed by smoothed calibration plots of expected versus observed survival probabilities on VG and TG (bootstrap). Resampling based evaluation (TG) showed very good calibration, with tendency of too pessimistic predictions for high-risk patients in the VG as the more recent patient cohort. Conclusion We developed and validated individual quantitative nomogram-based prediction of survival which could be used in clinical routine. Here, integration of molecular prognostic factors (GEP-based risk scores and proliferation) gives significantly superior prediction of survival compared to rISS. View large Download slide View large Download slide Disclosures Salwender: Celgene: Honoraria, Other: travel suppport, Research Funding; Amgen: Honoraria, Other: travel suppport, Research Funding; Takeda: Honoraria; Novartis: Honoraria, Other: travel suppport, Research Funding; Bristol-Myers Squibb: Honoraria, Other: travel suppport, Research Funding; Janssen: Honoraria, Other: travel support, Research Funding. Scheid: Janssen: Honoraria; Celgene: Honoraria. Goldschmidt: ArtTempi: Honoraria; Chugai: Honoraria, Research Funding; Novartis: Honoraria, Research Funding; Takeda: Consultancy, Research Funding; Amgen: Consultancy, Research Funding; Mundipharma: Research Funding; Sanofi: Consultancy, Research Funding; Janssen: Consultancy, Honoraria, Research Funding; Celgene: Consultancy, Honoraria, Research Funding; Bristol Myers Squibb: Consultancy, Honoraria, Research Funding; Adaptive Biotechnology: Consultancy. Seckinger: Celgene: Research Funding; EngMab: Research Funding; Sanofi: Research Funding. Hose: EngMab: Research Funding; Celgene: Honoraria, Research Funding; Sanofi: Research Funding."
 }
