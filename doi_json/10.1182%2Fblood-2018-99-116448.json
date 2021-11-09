@@ -2,5 +2,71 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-116448",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3997",
     "start_url_page_num": 3997,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Analysis of Clonal Evolution/Heterogeneity of MDS By Simultaneous Detection of Both Mutation and Gene Expression By Single Cell Sequencing ",
+    "article_date": "November 29, 2018",
+    "session_type": "636. Myelodysplastic Syndromes-Basic and Translational Studies: Poster I",
+    "topics": null,
+    "author_names": [
+        "Masahiro Marshall Nakagawa, MDPhD",
+        "Ryosaku Inagaki",
+        "Yasuhito Nannya, MD PhD",
+        "Lanying Zhao, MD, PhD",
+        "Yutaka Kuroda, MD, PhD",
+        "June Takeda, MD",
+        "Xingxing Qi",
+        "Akinori Yoda, PhD",
+        "Ayana Kon, MD PhD",
+        "Hisashi Tsurumi, MD PhD",
+        "Hideki Makishima, MD PhD",
+        "Shuichi Matsuda, MD, PhD",
+        "Seishi Ogawa, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Pathology and Tumor Biology, Graduate School of Medicine, Kyoto University, Kyoto, Japan ",
+            "DSK Project, Medical Innovation Center, Graduate School of Medicine, Kyoto University, Kyoto, Japan "
+        ],
+        [
+            "Department of Pathology and Tumor Biology, Graduate School of Medicine, Kyoto University, Kyoto, Japan ",
+            "DSK Project, Medical Innovation Center, Graduate School of Medicine, Kyoto University, Kyoto, Japan ",
+            "Research Division, Sumitomo Dainippon Pharma Co., Ltd., Osaka, Japan "
+        ],
+        [
+            "Department of Pathology and Tumor Biology, Graduate School of Medicine, Kyoto University, Kyoto, Japan "
+        ],
+        [
+            "Department of Pathology and Tumor Biology, Graduate School of Medicine, Kyoto University, Kyoto, Japan "
+        ],
+        [
+            "Department of Orthopaedic Surgery, Graduate School of Medicine, Kyoto University, Kyoto, Japan "
+        ],
+        [
+            "Department of Pathology and Tumor Biology, Graduate School of Medicine, Kyoto University, Kyoto, Japan "
+        ],
+        [
+            "Department of Pathology and Tumor Biology, Graduate School of Medicine, Kyoto University, Kyoto, Japan "
+        ],
+        [
+            "Department of Pathology and Tumor Biology, Graduate School of Medicine, Kyoto University, Kyoto, Japan "
+        ],
+        [
+            "Department of Pathology and Tumor Biology, Graduate School of Medicine, Kyoto University, Kyoto, Japan "
+        ],
+        [
+            "Hematology, Gifu University Graduate School of Medicine, Gifu, Japan"
+        ],
+        [
+            "Department of Pathology and Tumor Biology, Graduate School of Medicine, Kyoto University, Kyoto, Japan "
+        ],
+        [
+            "Department of Orthopaedic Surgery, Graduate School of Medicine, Kyoto University, Kyoto, Japan "
+        ],
+        [
+            "Department of Pathology and Tumor Biology, Graduate School of Medicine, Kyoto University, Kyoto, Japan "
+        ]
+    ],
+    "first_author_latitude": "35.0227581",
+    "first_author_longitude": "135.7773029",
+    "abstract_text": "Recent advances in single-cell sequencing (sc-Seq) technologies have enabled high-throughput transcriptome analysis in thousands of cells to understand the heterogeneity among cancer populations in terms of genome-wide gene expression. However, its application to the analysis of clonal evolution of cancer populations is largely limited by the lack of an efficient sc-Seq platform that allows for accurate detection of gene mutations at the same time with transcriptome analysis. The major challenge here is a frequent allele dropout of just two copies per single cell, which results in an inaccurate genotype assignment for many cells, preventing identification of relevant genotype-phenotype correlations. To overcome this, we developed a novel sc-Seq platform (scMutSeq) that allows for precise determination of both genotype and genome-wide gene expression simultaneously with negligible allele dropouts, on the basis of the Fluidigm C1 Single-Cell mRNA Seq HT system and applied it to the analysis of clonal evolution and intratumor heterogeneity of myelodysplastic syndromes (MDS) characterized by frequent clonal evolution to acute amyloid leukemia (AML). We first evaluated the performance of our plat form using an AML-derived cell line with heterozygous SF3B1 K700E mutation, HNT-34, for which efficiency of the detection of both wild-type and mutant allele, together with global gene expression, was evaluated. Among 400 cells subjected to scMutSeq analysis, a total of 125 passed QC, in which cell viability was assessed in terms of expression of mitochondrial genes. Global gene expression and heterozygous SF3B1 mutation were successfully detected in all the QC-confirmed cells with none of the cells showing the wild-type allele or homozygous SF3B1 mutation, where evaluable transcript reads (unique molecular identifier >=1) were obtained for a median of 2,753 genes, designated as nGene. The performance was also tested for flow-sorted hematopoietic stem/progenitor cells (HSPCs) (Lin \u2212 CD34 + ) from an MDS patient positive for the SF3B1 K700E mutation. Gene expression was successfully analyzed all the QC-confirmed cells (n=81) with a median nGene of 1,953. No substantial allele dropouts were suspected, because none of the cells genotyped had homozygous SF3B1 mutation. We then applied scMutSeq to the analysis of TP53 -mutated AML/MDS with complex karyotype, including del(5q) and del(7q), for which longitudinal samples were obtained for the assessment of clonal evolution. scMutSeq successfully analyzed the mutation status of TP53 and global gene expression profiles at a single-cell level, where copy number abnormalities were also evaluated on the basis of gene expression. We identified two discrete clones in the HSPC fraction, carrying both del(5q) and del(7q) and del(5q) alone, respectively, even though the analysis of bulk DNA had failed to detect the latter clone, indicating that a minor clone having a distinct genotype came under detection with scMutSeq. Moreover, the HSPCs with both del(5q) and del(7q) showed aberrant expression of erythroid and megakaryocytic genes, increased expression of inflammatory signals and decreased expression of cell cycle-related genes, exhibiting a clear genotype phenotype correlation. Subsequent analysis of samples at later time points further disclosed evolution of clones having discrete del(5q) deletions and expression, revealing a complexity of clonal evolution in MDS. Next, to investigate the early process of MDS development, we analyzed clonal hematopoiesis found in a minor fraction (1.2-12%) of bone marrow samples from three elder individuals having hip replacement surgery, in which DNMT3A (n=1) (R882H) and TET2 (n=2) (D905fs and Q1540fs) mutations had been detected by ddPCR or targeted deep sequencing, respectively. scMutSeq analysis of the HSPCs from these individuals revealed that mutant HSPCs showed distinct gene expression profiles, depending on the type of CHIP mutations. To summarize, our single-cell sequencing platform enables to detect both genetic and transcriptional heterogeneities, providing a powerful clue to understand clonal evolution and intratumor heterogeneity of MDS. Disclosures Nakagawa: Sumitomo Dainippon Pharma Co., Ltd.: Research Funding. Inagaki: Sumitomo Dainippon Pharma Co., Ltd.: Employment. Yoda: Chordia Therapeutics Inc.: Research Funding."
 }
