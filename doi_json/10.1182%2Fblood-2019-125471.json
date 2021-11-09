@@ -2,5 +2,71 @@
     "doi": "https://doi.org/10.1182/blood-2019-125471",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4375",
     "start_url_page_num": 4375,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Cnspectorx - Copy Number Assessment at a Genome Level from Targeted Sequence Data Optimized for Hematological Malignancy ",
+    "article_date": "November 13, 2019",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "topics": [
+        "genome",
+        "hematologic neoplasms",
+        "massively-parallel genome sequencing",
+        "artifacts",
+        "circulating tumor dna",
+        "protein p53",
+        "baculoviral iap repeat-containing 3 protein",
+        "bone marrow aspiration",
+        "chronic b-cell leukemias",
+        "chronic lymphocytic leukemia"
+    ],
+    "author_names": [
+        "John Markham",
+        "Satwica Yerneni, MS",
+        "Georgina L Ryland",
+        "Andrew Fellowes, PhD",
+        "Ella Thompson, PhD BSc",
+        "Stephen Fox",
+        "David Alan Westerman, MBBS, FRCPA, FRACP",
+        "Michael Dickinson, MBBS,FRACP,FRCPA",
+        "Anthony Papenfuss",
+        "Piers Blombery, MBBS"
+    ],
+    "author_affiliations": [
+        [
+            "Peter MacCallum Cancer Centre, Melbourne, Australia "
+        ],
+        [
+            "Peter MacCallum Cancer Centre, Melbourne, Australia "
+        ],
+        [
+            "Molecular Haematology Laboratory, Peter MacCallum Cancer Centre, Melbourne, Australia "
+        ],
+        [
+            "Peter MacCallum Cancer Centre, Melbourne, Australia "
+        ],
+        [
+            "Peter MacCallum Cancer Centre, Melbourne, Australia ",
+            "University of Melbourne, Melbourne, Australia "
+        ],
+        [
+            "Peter MacCallum Cancer Centre, Melbourne, Australia "
+        ],
+        [
+            "Peter MacCallum Cancer Centre, Melbourne, Australia ",
+            "University of Melbourne, Melbourne, Australia "
+        ],
+        [
+            "Peter MacCallum Cancer Centre, Melbourne, Australia "
+        ],
+        [
+            "Walter and Eliza Hall Institute of Medical Research, Parkville, AUS "
+        ],
+        [
+            "Peter MacCallum Cancer Centre, Melbourne, Australia ",
+            "University of Melbourne, Melbourne, Australia ",
+            "Royal Melbourne Hospital, Melbourne, Australia"
+        ]
+    ],
+    "first_author_latitude": "-37.8000078",
+    "first_author_longitude": "144.9565082",
+    "abstract_text": "The detection of copy number abnormalities (CNAs) is of significant clinical relevance in hematological malignancy (e.g. TP53 CN loss in chronic lymphocytic leukemia). Whilst detection of CNAs is typically performed by FISH or SNP array, it is also possible from next generation sequencing (NGS) data. Given the rapid and global expansion of targeted sequencing for the diagnosis and management of hematological malignancy, we aimed to develop a copy number (CN) analysis tool specifically suited to reporting CN in hematological malignancy in the diagnostic laboratory. We describe CNspectorX, a comprehensive CNA solution from FASTQ to interactive whole genome CN visualization with significant advantages over existing bioinformatics tools. Detecting CNAs sensitively and specifically from NGS data requires a diploid baseline with minimal random variation (noise) and with non-random variation which can correct for systematic biases. An optimal baseline requires representation of recurrent technical artefacts in the reference set. Artefacts differ based on sample type and gender (amongst other variables), therefore CNspectorX creates a patient individualized reference by selecting samples from a specified cohort based on matching metadata to the analyzed sample. This corrects for systematic bias present in the diverse sample types seen in hematological malignancy, including blood, bone marrow aspirate, FFPE tissue and circulating tumor DNA (ctDNA). CNspectorX uses either a pre-built reference or can create one from samples within a single sequencing run and includes a web-based GUI (CNspector) where samples can be dynamically added to a reference to support interactive, real-time recalculation and display of CN calls. Moreover, CNspectorX computes references using a robust estimator allowing inclusion of other tumor samples in the reference set. This flexible and dynamic approach to reference generation is unique to CNspectorX when compared to callers such as CNVkit, CopywriteR and Sequenza. Despite enrichment of targeted areas, hybridization-based NGS panels contain a proportion of residual fragments which map uniquely at random locations throughout the genome. CNspectorX aligns these \"off-target\" reads to allow genome-wide CN in the absence of a genome-wide SNP backbone (Figure 1). Whilst resolution is lower in off-target regions, CNspectorX can detect clinically relevant aneuploidy, chromosomal arm deletions, and segmental deletion/amplification to approximately 1-3Mb in untargeted regions (Figure 1). CNspectorX also calculates and displays genome-wide B-allele frequency from off-target reads which can both provide further support for CN calls and also detect areas of copy number neutral loss of heterozygosity. CNspectorX has a user-friendly, interactive visualization interface that displays data at genome level, chromosomal arm level and gene/exon level, allowing the analyst to observe not only the local CN change but the surrounding genomic context which may be crucial for interpretation (Figure 1). Binning of CN calls is scaled at each level allowing accurate calling of CNA from chromosome to exon level. Morover, CNA calling by CNspectorX is model-free and not reliant on the measurement of allele frequencies. Hence CNspectorX works well with small gene panels where CNA calls are computed from read abundance alone. This also means that, unlike callers that use purity/ploidy models, CNspectorX is not confounded by heterogeneity that breaks assumptions of clonality. CNspectorX has been implemented in an accredited (ISO15189) diagnostic laboratory and has been used to analyze CNA in over 1500 samples from patients with hematological malignancy. With CNspectorX we have identified multiple clinically relevant somatic and germline CN abnormalities not detected by conventional testing including high level focal amplifications in CD274 (PD-L1), MYC , MCL1 , XPO1 / REL and CN losses involving TP53 , ATM , RPS19 , BIRC3 and CDKN2A/B . In summary, we have developed CNspectorX, a comprehensive CNA analysis tool that can calculate and display whole genome-level CN from targeted NGS panels. CNspectorX is able to take into account the diverse and specific technical artefacts from typical sample types (including ctDNA) tested by the diagnostic laboratory in the investigation of hematological malignancy resulting in accurate CN data for clinical interpretation. View large Download slide View large Download slide  Disclosures Dickinson: GlaxoSmithKline: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Merck Sharpe and Dohme: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; Takeda: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; Celgene: Consultancy, Honoraria, Research Funding, Speakers Bureau; Novartis: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; Janssen: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; F. Hoffmann-La Roche Ltd: Consultancy, Honoraria, Research Funding, Speakers Bureau. Blombery: Novartis: Consultancy; Janssen: Honoraria; Invivoscribe: Honoraria."
 }
