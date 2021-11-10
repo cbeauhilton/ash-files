@@ -2,5 +2,99 @@
     "doi": "https://doi.org/10.1182/blood-2019-124631",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4423",
     "start_url_page_num": 4423,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "The Chronic Lymphocytic Leukemia Comorbidity Index (CLL-CI): A Novel Comorbidity Score Derived from a Large Multicenter Retrospective Cohort Study of Patients Treated with Ibrutinib and/or Chemo-Immunotherapy (CIT) ",
+    "article_date": "November 13, 2019",
+    "session_type": "641.CLL: Biology and Pathophysiology, excluding Therapy",
+    "topics": [
+        "chemotherapy regimen",
+        "chronic b-cell leukemias",
+        "chronic lymphocytic leukemia",
+        "comorbidity",
+        "ibrutinib",
+        "immunotherapy",
+        "protein p53",
+        "biological products",
+        "magnetic endoscopic imaging",
+        "upper gastrointestinal tract series"
+    ],
+    "author_names": [
+        "Max J. Gordon, MD",
+        "Andy Kaempf",
+        "Andrea Sitlinger, MD",
+        "Tareq Salous",
+        "Hamood Alqahtani, MBBS",
+        "Michael C. Churnetski",
+        "Paul Wisniewski",
+        "Xavier Issac Rivera, BS",
+        "Krish Patel, MD",
+        "Daniel O. Persky, MD",
+        "Jonathon B. Cohen, MDMS",
+        "Michael Y. Choi, MD",
+        "Brian T. Hill, MD",
+        "Mazyar Shadman, MD",
+        "Deborah M. Stephens, DO",
+        "Danielle M. Brander, MD",
+        "Byung Park, PhD",
+        "Alexey Danilov, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Oregon Health and Science University, Portland, OR "
+        ],
+        [
+            "Knight Cancer Institute, Biostatistics Shared Resource, Oregon Health & Science University, Portland, OR "
+        ],
+        [
+            "Hematologic Malignancies and Cellular Therapy, Duke University Medical Center, Durham, NC "
+        ],
+        [
+            "Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Moores Cancer Center at UC San Diego, San Diego, CA "
+        ],
+        [
+            "Winship Cancer Institute, Emory University Medical Center, Atlanta, GA "
+        ],
+        [
+            "Center for Blood Disorders and Stem Cell Transplantation, Swedish Cancer Institute, Seattle, WA "
+        ],
+        [
+            "University of Arizona, Tucson, AZ "
+        ],
+        [
+            "Center for Blood Disorders and Stem Cell Transplantation, Swedish Cancer Institute, Seattle, WA "
+        ],
+        [
+            "Division of Hematology/Oncology, University of Arizona, Tucson, AZ "
+        ],
+        [
+            "Emory University, Atlanta, GA "
+        ],
+        [
+            "Moores Cancer Center, University of California San Diego, La Jolla, CA "
+        ],
+        [
+            "Department of Hematology and Medical Oncology, Taussig Cancer Institute, Cleveland Clinic Foundation, Cleveland, OH "
+        ],
+        [
+            "Uw/Fred Hutchinson Cancer Research Center, Seattle, WA "
+        ],
+        [
+            "University of Utah/Huntsman Cancer Institute, Salt Lake City, UT, Salt Lake City, UT "
+        ],
+        [
+            "Duke University Medical Center, Durham, NC "
+        ],
+        [
+            "Oregon Health and Science University, Portland, OR "
+        ],
+        [
+            "Knight Cancer Institute, Oregon Health & Science University, Portland, OR"
+        ]
+    ],
+    "first_author_latitude": "45.504054450000005",
+    "first_author_longitude": "-122.67935245",
+    "abstract_text": "Introduction: Outcomes in CLL are highly variable and influenced by both biologic and clinical factors. The Cumulative Illness Rating Scale (CIRS) is frequently used to assess comorbidities in CLL. Our group has demonstrated that CIRS correlates with survival in patients treated with either CIT or ibrutinib. Yet, CIRS has not become part of common clinical practice due to complexities in scoring since 14 systems need to be evaluated. Furthermore, the relative contribution of individual comorbidities to patient outcomes is unknown. Here we report the impact of specific comorbidities in a large cohort of CLL patients and propose a simplified CLL-comorbidity index (CLL-CI). Methods: We conducted a retrospective analysis of patients with CLL treated with either CIT or kinase inhibitors at 10 US academic medical centers between 2000-2018. CIRS score was calculated as in Salvi et al, 2008. Patients were randomly divided into a training-set (n=381) and validation-set (n=189). Random survival forests (RSF) were constructed on the training-set to select variables for Cox regression models. Discrimination of models was tested in the validation-set. CIRS score in each organ system, relapse/refractory (R/R) disease, treatment type, age, and del(17p) were included as features for RSF modeling of event-free survival (EFS), defined as time from treatment to death, disease progression or next therapy. For each RSF, features were scored and ranked according to variable importance (VI; the decrease in prediction accuracy when the specific variable is randomly permuted) and minimal depth (MD; the minimum distance between the root node of a tree and the first node that splits on the specific variable). After 200 RSF's, VI and MD ranks were averaged. Organ system variables whose average rank for both predictive measures was \u226410 were chosen for Cox regression modeling of EFS and OS. Three sets of Cox models were fit on the training data and applied to the validation-set to compute c-statistics depicting each model's ability to predict EFS. Cox models assessed the addition of either CIRS or CLL-CI to known prognostic factors. Results: The data set contained 614 patients; 570 (93%) with complete data were included in our analysis. Median age was 67 years (range 30-91). Median CIRS was 7 (range, 0-29) with CIRS\u22657 in 302 patients (53%). Median follow up was 31 months. Del(17p) and/or TP53 mutation was present in 113 patients (20%) and 299 (52%) were assessed in the R/R setting. Ibrutinib was the most common treatment (n=338, 59%), followed by fludarabine (n=163) and bendamustine (n=116). In the training-set, four organ system variables (\"musculoskeletal\", \"renal\", \"endocrine\" and \"upper GI\"), were selected based on RFS average predictive measure ranks and summed to derive the CLL-CI score. Median CLL-CI was 2 (range, 0-11) in the training cohort with a value of 3 identified as the optimal cut-point for association with EFS; 236 (41%) had a high CLL-CI score (\u22653). Cox models that included either CLL-CI or CIRS (alongside age, disease status, type of treatment, and del(17p)/ TP53 mutation) yielded c-statistics of 0.68 (95% CI: 0.65-0.69) and 0.68 (95% CI: 0.65-0.70), respectively. These discrimination estimates were modestly superior to the model without a comorbidity variable (c-statistic, 0.64). In the complete data set, R/R disease and age were associated with decreased EFS (HR=2.14, p<0.001 and HR=1.15, p<0.001, respectively) and OS (HR=2.25, p=0.001 and HR=1.29, p<0.001, respectively). Treatment with ibrutinib was associated with superior EFS (HR=0.52, p<0.001), but did not significantly impact OS (p=0.51). Del(17p)/ TP53 mutation demonstrated a trend towards shortened EFS (HR=1.27, p=0.125) and significantly shorter OS (HR=1.88, p=0.008). CLL-CI\u22653 and CIRS\u22657 showed similar independent associations with worse EFS and OS (Table). Median EFS and OS were shorter in patients with high CLL-CI score (Fig). Results were consistent in patients treated with either ibrutinib or CIT. Conclusion: In this large data set, we utilized random forests to identify \"musculoskeletal\", \"upper GI\", \"endocrine\", and \"renal\" comorbidities as the most prognostic of EFS in patients with CLL. Using only these 4 CIRS variables, we developed and validated a simplified comorbidity score (CLL-CI) which performed similar to CIRS, but has lower complexity and therefore can be easily incorporated into clinical practice. View large Download slide View large Download slide  Disclosures Patel: Sunesis: Consultancy; Pharmacyclics/Janssen: Consultancy, Speakers Bureau; AstraZeneca: Consultancy, Research Funding, Speakers Bureau; Celgene: Consultancy, Speakers Bureau; Genentech: Consultancy, Speakers Bureau. Persky: Sandoz: Consultancy; Morphosys: Other: Member, Independent Data Monitoring Committee; Debiopharm: Other: Member, Independent Data Monitoring Committee; Bayer: Consultancy. Cohen: Genentech, Inc.: Consultancy, Research Funding; Janssen Pharmaceuticals: Consultancy; Seattle Genetics, Inc.: Consultancy, Research Funding; Bristol-Meyers Squibb Company: Research Funding; Takeda Pharmaceuticals North America, Inc.: Research Funding; Gilead/Kite: Consultancy; LAM Therapeutics: Research Funding; UNUM: Research Funding; Hutchison: Research Funding; Astra Zeneca: Research Funding; Lymphoma Research Foundation: Research Funding; ASH: Research Funding. Choi: Rigel: Consultancy, Research Funding; Gilead: Consultancy, Speakers Bureau; Oncternal: Research Funding; Pharmacyclics: Consultancy, Research Funding, Speakers Bureau; Genentech: Consultancy, Speakers Bureau; Abbvie: Consultancy, Research Funding, Speakers Bureau. Hill: Pharmacyclics: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Gilead: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees; AstraZeneca: Consultancy, Honoraria; Amgen: Research Funding; Takeda: Research Funding; Celegene: Consultancy, Honoraria, Research Funding; Seattle Genetics: Consultancy, Honoraria; Abbvie: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Genentech: Consultancy, Research Funding; Kite: Consultancy, Honoraria; TG therapeutics: Research Funding. Shadman: Sunesis: Research Funding; Pharmacyclics: Consultancy, Research Funding; Celgene: Research Funding; ADC Therapeutics: Consultancy; Atara Biotherapeutics: Consultancy; Genentech: Consultancy, Research Funding; Gilead: Consultancy, Research Funding; Mustang Bio: Research Funding; Verastem: Consultancy; Astra Zeneca: Consultancy; AbbVie: Consultancy, Research Funding; BeiGene: Research Funding; TG Therapeutic: Research Funding; Sound Biologics: Consultancy; Acerta Pharma: Research Funding. Stephens: Acerta: Research Funding; Karyopharm: Research Funding; Gilead: Research Funding. Brander: Tolero: Research Funding; MEI: Research Funding; Acerta: Research Funding; Genentech: Consultancy, Honoraria, Research Funding; AstraZeneca: Consultancy, Research Funding; Novartis: Consultancy; Pharmacyclics LLC, an AbbVie Company: Consultancy; BeiGene: Research Funding; DTRM Biopharma: Research Funding; AbbVie: Consultancy, Honoraria, Research Funding; Teva: Consultancy, Honoraria; TG Therapeutics: Consultancy, Honoraria, Research Funding. Danilov: Celgene: Consultancy; Curis: Consultancy; Bayer Oncology: Consultancy, Research Funding; Seattle Genetics: Consultancy; AstraZeneca: Consultancy, Research Funding; Gilead Sciences: Consultancy, Research Funding; Verastem Oncology: Consultancy, Other: Travel Reimbursement , Research Funding; Janssen: Consultancy; Pharmacyclics: Consultancy; Aptose Biosciences: Research Funding; Bristol-Meyers Squibb: Research Funding; TG Therapeutics: Consultancy; Takeda Oncology: Research Funding; MEI: Research Funding; Abbvie: Consultancy; Genentech: Consultancy, Research Funding."
 }
