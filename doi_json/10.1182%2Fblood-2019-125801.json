@@ -2,5 +2,51 @@
     "doi": "https://doi.org/10.1182/blood-2019-125801",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4198",
     "start_url_page_num": 4198,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Statistical Learning Approaches for Predicting Lisocabtagene Maraleucel (liso-cel) Drug Product Composition from Donor-Selected Material Composition ",
+    "article_date": "November 13, 2019",
+    "session_type": "711.Cell Collection and Processing",
+    "abstract_text": "Introduction: Liso-cel is an investigational, anti-CD19, defined composition (4-1BB) chimeric antigen receptor (CAR) T cell product administered at a target dose of CD4+ and CD8+ CAR T cells. Liso-cel manufacturing process design includes controls that minimize between-lot variability, enabling robust CAR T cell generation across heterogeneous patient populations and disease indications. Characterization of liso-cel includes measurements of cell health, phenotype, and function. To demonstrate the robustness of the manufacturing process for which a contributor of variation is variability in incoming patient material, we developed a statistical method leveraging canonical correlation analysis (CCA) and lasso regression for predicting CAR T cell composition from measurements of cell health and phenotype in incoming patient T cells. These methods may also improve our understanding of donor variability effects on CAR T cell quality. Methods: CAR T cells were manufactured from autologous leukapheresis material in the TRANSCEND NHL 001 (NCT02631044) clinical trial. CCA and lasso models were constructed from 34 starting material attributes and 101 CD4 and CD8 clinical drug product attributes from 119 patients. CCA was implemented using prospective meta-analysis and telefit packages, and lasso regression was implemented using the glmnet package, both in R v3.5. Predictive accuracy was assessed for both methods using ten-fold cross validation. Results: CCA simultaneously found linear combinations of incoming patient T cell attributes and linear combinations of drug product attributes such that their correlation was maximized with an option of evoking a sparsity \"penalty\" to reduce model complexity by down-weighting (regularizing) attributes with small, independent effects. This approach enabled us to identify \"meta-features\" of primary components of incoming T cells strongly correlated with those of CAR T cells. Meta-feature 1 indicated that proportions of na\u00efve CD4 T cells in starting T cell material were highly correlated with frequencies of na\u00efve-like CD4 and CD8 CAR T cells post manufacturing (Figure 1). Meta-feature 2 revealed that na\u00efve and central memory CD4 and CD8 T cell proportions in starting materials were correlated with na\u00efve and central memory CD8 CAR T cells. Meta-feature 3 indicated that effector CD4 T cell proportions measured phenotypically in starting material were correlated with CD4 and CD8 CAR T cell effector functions, including antigen-specific cytokine production. Lastly, meta-feature 4 suggested that effector CD8 T cell proportions in starting material were correlated with CD8 CAR T cell effector functions. Because penalized CCA identified primary components of features correlated between incoming patient T cell material and manufactured CAR T cells, it can predict multiple attributes simultaneously, but with reduced capacity to most effectively predict a single attribute of interest. Hence, we implemented the lasso regression method that performs both variable selection and regularization to enhance the predictive accuracy of single attributes one at a time. Lasso regression models predict subsets of CAR T cell attributes more accurately than CCA and identify which starting T cell attributes are most important for prediction at the expense of having less power for predicting drug product attributes with limited relevant individual features in starting material. CCA achieved prediction accuracies up to an R 2 of 42% for predicting CD4+ CAR+ na\u00efve-like T cells ( P =0.008), whereas lasso regression achieved up to an R 2 of 67% for the same CAR T cell attribute ( P =6\u00d710 -275 ). Both methods perform best at predicting classically na\u00efve and T EMRA T cell compositions. Using CCA and lasso, we achieved nominally significant predictions for 53 of the 101 CAR T cell attributes using only 34 starting material attributes as input; the residual variation in the CAR T cell attributes independent of starting material composition was likely due to other patient or process variables. Conclusion: The application of statistical learning approaches to CAR T cell characterization data can enable us to predict CAR T cell characteristics that are directly related to donor-to-donor variability in incoming T cell material. These methods may allow us to develop adaptive manufacturing processes to improve treatment outcomes of autologous cellular therapies. View large Download slide View large Download slide  Disclosures Jiang: Juno Therapeutics, a Celgene Company: Employment, Equity Ownership. Mashadi-Hossein: Celgene Corporation: Employment, Equity Ownership. Yost: Juno Therapeutics, a Celgene Company: Employment, Equity Ownership. Teoh: Juno Therapeutics, a Celgene Company: Employment, Equity Ownership. Larson: Juno Therapeutics, a Celgene Company: Employment, Equity Ownership. Hause: Juno Therapeutics, a Celgene Company: Employment, Equity Ownership.",
+    "topics": [
+        "antigens",
+        "cd19 antigens",
+        "cell therapy",
+        "chimeric antigen receptors",
+        "cytokine",
+        "donors",
+        "leukapheresis",
+        "t-lymphocytes",
+        "treatment outcome",
+        "equity"
+    ],
+    "author_names": [
+        "Yue Jiang, PhD",
+        "Afshin Mashadi-Hossein, MSc",
+        "Rachel Yost",
+        "Jeffrey Teoh, PhD",
+        "Ryan P. Larson, PhD",
+        "Ronald J. Hause, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Juno Therapeutics, a Celgene Company, Seattle, WA "
+        ],
+        [
+            "Celgene Corporation, Seattle, WA"
+        ],
+        [
+            "Juno Therapeutics, a Celgene Company, Seattle, WA "
+        ],
+        [
+            "Juno Therapeutics, a Celgene Company, Seattle, WA "
+        ],
+        [
+            "Juno Therapeutics, a Celgene Company, Seattle, WA "
+        ],
+        [
+            "Juno Therapeutics, a Celgene Company, Seattle, WA "
+        ]
+    ],
+    "first_author_latitude": "47.634662399999996",
+    "first_author_longitude": "-122.3249346"
 }
