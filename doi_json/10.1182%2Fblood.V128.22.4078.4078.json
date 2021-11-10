@@ -2,5 +2,61 @@
     "doi": "https://doi.org/10.1182/blood.V128.22.4078.4078",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3564",
     "start_url_page_num": 3564,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Artificial DNA Templates for the Correction of PCR Bias in Next Generation Sequencing Based MRD Analysis for Childhood Acute Lymphoblastic Leukaemia: The Influence of Secondary DNA Structure ",
+    "article_date": "December 2, 2016",
+    "session_type": "618. Acute Lymphoblastic Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster III",
+    "topics": [
+        "dna",
+        "leukemia, lymphocytic, acute, childhood",
+        "massively-parallel genome sequencing",
+        "polymerase chain reaction",
+        "templates",
+        "dna structure",
+        "uterine fibroids",
+        "amplification"
+    ],
+    "author_names": [
+        "John Moppett, MD PhD",
+        "Jerry Hancock, PhD",
+        "Marc Duez",
+        "Jack Bartram, MD",
+        "Gary Wright",
+        "Mike Hubank, PhD",
+        "Paul Archer",
+        "Helen Williamson",
+        "Stephanie Wakeman, BSc"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Paediatric Oncology, Bristol Royal Hospital for Children, Bristol, United Kingdom "
+        ],
+        [
+            "Pathology Sciences, Southmead Hospital, Bristol, United Kingdom "
+        ],
+        [
+            "University of Bristol, Bristol, United Kingdom "
+        ],
+        [
+            "Department of Haematology, Great Ormond Street Hospital, London, United Kingdom "
+        ],
+        [
+            "Department of Haematology, Great Ormond Street Hospital, London, United Kingdom "
+        ],
+        [
+            "Institute of Cancer Research, University College London, London, United Kingdom"
+        ],
+        [
+            "Pathology Sciences, Southmead Hospital, Bristol, United Kingdom "
+        ],
+        [
+            "Pathology Sciences, Southmead Hospital, Bristol, United Kingdom "
+        ],
+        [
+            "Pathology Sciences, Southmead Hospital, Bristol, United Kingdom "
+        ]
+    ],
+    "first_author_latitude": "51.457873299999996",
+    "first_author_longitude": "-2.5971827999999997",
+    "abstract_text": "PCR bias is a potential confounder for PCR-based NGS-MRD quantitation. A method was published using artificial DNA constructs (gBlocks, IDT Technologies, Coralville, IO) to assess PCR primer bias and correct for it (1) . We sought to confirm those findings by assessing PCR bias of the Biomed-2 TRG primer set. 36 synthetic DNA templates of 495bp length gBlocks combining each TRG V (V 2,3,4,5,7,8,9,10,11) & J gene (JG1-01, JG1-02, JP1, JP2) amplified by the Biomed-2 primer set were synthesised containing external MiSeq flow cell adaptor sequence (universal primer (UP)) binding sites, VG and JG sequence and junctional regions. Barcodes inserted internal to the universal primer sites and centrally enabled accurate template identification (fig 1). Individual gBlocks supplied at a nominal concentration of 10ng/uL (30nM) were quantitated by TapeStation (Agilent, Santa Clara, CA) and KAPA (Kapa Biosystems, Wilmington, MA) methodologies and pooled (unadjusted). gBlockswithin the pool were further quantitated by both 6 and 8 cycles of PCR with universal MiSeq adaptor primers. Next the gBlock pool was amplified in triplicate in a 2-stage PCR process: 1) Using Biomed-2 TRG primers that contained partial MiSeq adaptor sequences. The resulting products were purified with Agencourt AMPure XP beads (Beckman Coulter, Jersey City, NJ). 2) These amplicons were further amplified by primers containing indices and full MiSeq adaptor sequences. After purification, amplicons were Qubit (InvitroGen, Carlsbad, CA) and TapeStation analysed for normalisation and to construct the sequencing library, which was KAPA quantitated to ensure ideal cluster density. Bi-directional sequencing was performed using an Illumina MiSeq 500 cycle cartridge and Nano Reagent Kit (Illumina, San Diego, CA). Bioinformatics analysis was performed using the Vidjil platform (Bonsai team, CRIStAL, Lille, France). TapeStation quantitation showed a mean concentration of 3.3ng/uL (10nM) (range 1.1-6.3ug/uL). KAPA quantitation by contrast showed low quantities of all gBlocks (2nM, 0.67ug/uL) with the exception of all VG9 and most VG10 constructs (16nM, 5ug/uL)(fig 2a). Comparison of 6 vs 8 cycles of amplification using universal primers showed good correlation (R 2 =0.991) confirming that PCR cycle length does not affect the UP amplification (fig 2b), but there was an 8.5-fold variation in gBlock quantitation by UP PCR. There was no correlation between NGS quantitation and with either TapeStation or KAPA quantitation. Family specific V & J gene amplification efficiency for the Biomed-2 primers is shown in fig 3. Amplification efficiencies of V gene primers were <2-fold different with the exception of VY9 and VY10 which were 5-fold more efficient. Amplification efficiency for J gene primers showed <2-fold differences. This study has shown that there are clear PCR efficiency differences between the V primers in the Biomed-2 primer set, with VG9 and 10 being 5x more efficient. This could be adjusted for by reducing the concentrations of the VG9/10 primers. However, the variable results of the 3 methods used to quantitate the artificial templates raises significant questions about the rationale. TapeStation quantitation is not PCR based and produced broadly equivalent (but lower than anticipated) gBlock concentrations for the individual constructs. PCR based KAPA showed very low concentrations in all but the VG9/VG10 templates. It is notable that this exactly parallels the results for the locus specific PCR. The most plausible explanation is that unexpected secondary structure reduces the amplifiability of the templates in PCR reactions. The near 10-fold variation in template concentration as assessed by UP NGS-PCR is concerning, suggesting significant secondary structure effects, though not dissimilar to the 5-fold difference seen in the published method (1) . It is impossible to know if the postulated secondary structure effect that we see is replicated in vivo . In that regard it is reassuring that published results of NGS-MRD appear to correlate well with RQ-PCR results. In conclusion, secondary structure issues potentially affect the in vitro method for eliminating PCR bias. Within the EuroClonality consortium, studies at other loci are underway to confirm these preliminary findings, and to design primer sets with minimal risk of PCR bias. 1. Carlson CS, Emerson RO, Sherwood AM et al . Nat Commun. 2013;4:2680. View large Download slide View large Download slide View large Download slide View large Download slide View large Download slide View large Download slide Disclosures Moppett: Jazz Pharmaceuticals: Honoraria."
 }
