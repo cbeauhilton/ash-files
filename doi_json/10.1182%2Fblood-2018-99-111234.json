@@ -2,5 +2,43 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-111234",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3925",
     "start_url_page_num": 3925,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Identifying Combination Therapies Targeting Apoptosis Pathways in Pediatric Acute Myeloid Leukemia (CAuSAL Study) ",
+    "article_date": "November 29, 2018",
+    "session_type": "616. Acute Myeloid Leukemia: Novel Therapy, excluding Transplantation: Poster II",
+    "topics": [
+        "apoptosis",
+        "leukemia, myelocytic, acute",
+        "pediatrics",
+        "myeloblastic leukemia, pediatric acute",
+        "cyclin-dependent kinase inhibitors",
+        "abt-737",
+        "acute lymphocytic leukemia",
+        "adverse effects",
+        "cancer",
+        "chemotherapy regimen"
+    ],
+    "author_names": [
+        "Katrina Lappin, PhD BSc",
+        "Kyle B Matchett, PhD",
+        "Jaine Blayney, PhD",
+        "Ken I Mills, PhD FRCPath, BSc"
+    ],
+    "author_affiliations": [
+        [
+            "School of Medicine, Dentistry and Biomedical Sciences, Queen's University, Belfast, Belfast, United Kingdom "
+        ],
+        [
+            "Centre for Cancer Research and Cell Biology, Queen's University Belfast, Belfast, United Kingdom "
+        ],
+        [
+            "School of Medicine, Dentistry and Biomedical Sciences, Queen's University, Belfast, Belfast, United Kingdom "
+        ],
+        [
+            "Centre for Cancer Research and Cell Biology, Queens University Belfast, Belfast, United Kingdom"
+        ]
+    ],
+    "first_author_latitude": "54.5844087",
+    "first_author_longitude": "-5.934049299999999",
+    "abstract_text": "Leukemia is the most frequently (30%) occurring type of pediatric cancer. Of these, approximately 80% are acute lymphoblastic leukemia (ALL) with acute myeloid leukemia (AML) cases making up the remaining 20%. Management of ALL has improved dramatically over the years with around 90% of patients surviving 5 years or more. Unfortunately, children with AML do not have such a promising prognosis with only 60% surviving 5 years or longer, plus a high risk of relapse, the side effects of the harsh chemotherapy regimen and a risk of not responding to induction therapy, provide a bleak outlook. Recently, Bolouri et al ., (2017) identified the need for age-specific therapies for AML patients. To work towards age-specific treatment regimens we used the TARGET AML transcriptomic data, (https://ocg.cancer.gov/programs/target/data-matrix) and identified several therapeutically targetable pathways, in particular anomalies in apoptotic pathways amongst cytogenetically normal relapsed AML patients. Based on these apoptotic pathways we screened 80 apoptosis-inducing drugs from a compound library obtained from Selleckchem. The effect of three doses (0.01 \u00b5M, 0.1 \u00b5M and 1 \u00b5M) over 72 hrs of each drug was assayed using CellTox\u2122 Green reagent (Promega) to investigate the cytotoxic potential of the compounds against three pediatric AML cell lines (Kasumi-1, MV4-11 and CMK) representative of a spectrum of cytogenetic and mutational anomalies. The cell lines showed varying responses in a time and dose-dependent manner with mutual and unique effects being highlighted, six compounds, including Navitoclax and TP-0903, overlapped in their effect on cell viability between the three cell lines. The cell lines also showed unique responses to many compounds, including Sunitinib and Obatoclax in the MV4-11 cell line. Based on these findings a dose of 0.1 \u00b5M was taken forward for the combination screen. To carry out the combination screen we used R to compile an algorithm, with the capability of determining all possible pairwise combinations for a given number of compounds. Several inputs were accommodated, including: the number of compounds to be used; the number of compounds in a well and the number of times the algorithm should run to get the best solution, with the best solution being the least number of wells to reduce redundant repeats of pairs. The output detailed which compounds should be in which well. With an input of 80 apoptotic-inducing compounds into the algorithm; the output was as follows: 3,160 possible pairwise combinations, 1,197 pairs used once, 827 pairs used twice, and so on with the largest number of repeats being 148 pairs used eight times. This output enabled us to cross validate our data, by analysing wells containing the successful combinations to corroborate them as 'hits' or as containing possible antagonistic pairings if they were deemed unsuccessful. Using the output of the algorithm, 160 wells were needed for all combinations to enable our Multiplex Screening for Interacting Compounds for pediatric AML (MuSICAL). CellTox\u2122 Green was used to determine cytotoxicity up to 72 hours and the same three cell lines used as for the single agent screen. The MuSICAL screen identified some wells in common amongst the three cell lines (6.25%), although many of the positive wells (12.5%) were unique to each of the cell lines. Well 158, which included Nutlin-3, Embelin and Poziotinib, was common for the MV4-11 and the CMK cell lines, with the individual compounds in this well having no substantial effect on cell viability as single agents, but a combination of 2 or more compounds induced substantial cell death. The 10 drugs in well 158 were deconvoluted and screened, resulting in 45 pairwise combinations. Several pairwise combinations, at 0.1 \u00b5M each, induced cell death in the MV4-11 and CMK cell lines. The most effective pairwise combination was the combination of ABT-737, a Bcl-2 inhibitor and Purvalanol A, a CDK inhibitor, in the MV4-11 cell line. The effect of this combination was also a 'hit' in Well 6 validating the therapeutic potential. For the CMK cell line, the most effective combination was Poziotinib, a pan-HER inhibitor and SU9516, another CDK inhibitor. In conclusion, the MuSICAL screen has identified multiple apoptosis-inducing drug combinations across the 3 cell lines highlighting the potential for personalised treatment of pediatric AML with different cytogenetic and mutational backgrounds. Disclosures No relevant conflicts of interest to declare."
 }
