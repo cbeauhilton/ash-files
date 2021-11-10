@@ -2,5 +2,76 @@
     "doi": "https://doi.org/10.1182/blood-2020-139488",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4551",
     "start_url_page_num": 4551,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Predicting Immune Pathology after Hematopoietic Stem Cell Transplant with Transcriptomics: Na\u00efve CD4 T Cell Expansion at Day 100 Predicts Patients with De Novo Chronic Gvhd ",
+    "article_date": "November 5, 2020",
+    "session_type": "722.Clinical Allogeneic Transplantation: Acute and Chronic GVHD, Immune Reconstitution",
+    "topics": null,
+    "author_names": [
+        "Ben Watkins, MD",
+        "James Kaminski",
+        "Muna Qayed, MDMSc",
+        "Kayla Betz, BS",
+        "Yvonne Suessmuth, PhD",
+        "Brandi Bratrude",
+        "Alison Yu, PhD",
+        "Victor Tkachev, PhD",
+        "Kathryn Pellegrini",
+        "Steven Bosinger, PhD",
+        "Bruce R. Blazar, MD",
+        "John T. Horan, MDMPH",
+        "Amelia Langston, MD",
+        "Leslie Kean, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Aflac Cancer and Blood Disorders Center, Atlanta, GA ",
+            "Children's Healthcare of Atlanta, ATLANTA, GA ",
+            "Emory University, Atlanta, GA "
+        ],
+        [
+            "Boston Children's Hospital, Boston, "
+        ],
+        [
+            "Pediatric Blood and Marrow Transplantation Program, Aflac Cancer and Blood Disorders Center, Emory University and Children's Healthcare of Atlanta, Atlanta, GA "
+        ],
+        [
+            "Dana-Farber Cancer Institute, Boston Children's Hospital, boston, "
+        ],
+        [
+            "Emory University, Atlanta, GA "
+        ],
+        [
+            "Dana-Farber Cancer Institute, Boston Children's Hospital, Boston, "
+        ],
+        [
+            "Boston Children's Hospital, Boston, "
+        ],
+        [
+            "Department of Pediatrics, Harvard Medical School, Boston, MA ",
+            "Boston Children's Hospital, Boston, MA "
+        ],
+        [
+            "Emory University, Atlanta, "
+        ],
+        [
+            "Emory University, Atlanta, GA "
+        ],
+        [
+            "Division of Pediatric Blood and Marrow Transplantation, University of Minnesota, Minneapolis, MN "
+        ],
+        [
+            "Dana-Farber Cancer Institute, Boston Children's Hospital, Boston, MA "
+        ],
+        [
+            "Winship Cancer Institute, Atlanta, GA ",
+            "Hematology and Medical Oncology, Emory University, Atlanta, GA"
+        ],
+        [
+            "Dana-Farber Cancer Institute, Boston Children's Hospital, Boston, MA "
+        ]
+    ],
+    "first_author_latitude": "33.829560300000004",
+    "first_author_longitude": "-84.3507255",
+    "abstract_text": "Background: Chronic graft-versus-host disease (CGVHD) is the leading cause of long-term morbidity and mortality following hematopoietic stem cell transplant (HCT) and occurs in over 50% of patients undergoing unrelated donor HCT. Despite its frequency, the mechanisms driving this disease remain incompletely understood, making its prevention and successful treatment challenging. To address this issue, we have undertaken a transcriptomic analysis of T cell reconstitution after unrelated donor HCT, to dissect mechanisms driving CGVHD. Methods: The patients studied were enrolled on a Phase 2, randomized, placebo-controlled trial of abatacept for GVHD prevention in patients receiving 8/8 unrelated-donor HCT for hematologic malignancies (NCT01743131). All immune analyses in the current study were performed on patients randomized to standard GVHD prophylaxis with calcineurin inhibition + methotrexate alone (placebo cohort, n =69), and thus provide insights into the drivers of CGVHD during standard unrelated donor HCT. On Day +100, CD4+ T cells were purified from the peripheral blood of these patients, and then analyzed by RNASeq. To determine the transcriptomic drivers of CGVHD without the confounder of significant prior acute GVHD (AGVHD) or exposure to steroids, we focused on profiling the CD4+ transcriptome of de novo CGVHD (CGVHD which develops in the absence of prior grade II-IV AGVHD, n = 7) and compared these patients to those who were 'operationally tolerant' and never developed either grade II-IV AGVHD or any CGVHD (n= 4). Gene expression from the resulting transcriptomes was quantified using kallisto. Differentially expressed (DE) genes were identified using DESeq2 (threshold for DE, adjusted (for multiple testing) p <0.05). Gene Set Enrichment Analysis (GSEA) was also performed, with genes ranked by Log2FC/std_error (Log2FC), and gene signatures with an adjusted p <0.05 considered significantly enriched. Results: DE analysis identified 101 genes that were significantly upregulated in CD4+ T cells from de novo CGVHD group and 54 genes that were significantly upregulated in the 'operationally tolerant' group (Figure 1A). GSEA identified that the mostly highly enriched signatures in patients with de novo CGVHD encompassed na\u00efve CD4+ transcriptional programing (Figure 1B-C), in agreement with flow cytometric analysis, which also demonstrated expansion of CD4+ na\u00efve T cells at Day +100 in patients developing de novo CGVHD compared to those demonstrating operational tolerance (Figure 1D). Importantly, the na\u00efve CD4+ T cell signatures that were identified were distinct from those defining CD4+ stem cell memory T cells (which did not enrich in the de novo CGVHD cohort). In contrast, the gene signature of the operationally tolerant patients were enriched for regulatory gene sets (Figure 1C), consistent with a large body of evidence demonstrating that Treg expansion can be protective against CGVHD. Discussion: This study represents, to our knowledge, the first interrogation of the transcriptomic features of patients developing de novo CGVHD versus those operationally tolerant patients who develop neither significant AGVHD nor CGVHD after HCT. These patients may represent a particularly effective cohort in which to study immunologic drivers of CGVHD, given their freedom from prior treatment with corticosteroids, which can confound downstream transcriptomic analyses. Our data provide compelling evidence for a prominent na\u00efve CD4+ T cell signature in patients who develop moderate-to-severe CGVHD despite their lack of antecedent AGVHD. These results are provocative, as they implicate a cell subset that is often considered more quiescent (na\u00efve T cells) as associated with patients who develop immune pathology associated with CGVHD. These results suggest that na\u00efve CD4+ T cells may represent a potent reservoir for alloreactivity, that, once activated, can cause significant disease. This would be in agreement with the implications of previously reported trials of na\u00efve T cell depletion, which resulted in significant control of CGVHD. These results suggest that strategies to restrain na\u00efve T cell pathogenic activation after Day +100 may improve CGVHD outcomes, and that the CD4+ T cell transcriptomic signature at this timepoint could be developed into a robust immunologic biomarker for the risk of developing CGVHD versus operational tolerance after HCT. Figure 1 View large Download slide Figure 1 View large Download slide  Disclosures Watkins: Bristol Myers Squib: Honoraria. Qayed: Novartis: Consultancy; Mesoblast: Consultancy. Blazar: Tmunity: Other: Co-founder; KidsFirst Fund: Research Funding; BlueRock Therapeutics: Research Funding; Childrens' Cancer Research Fund: Research Funding; BlueRock Therapeuetic: Consultancy; Magenta Therapeutics: Consultancy; Fate Therapeutics Inc.: Research Funding. Horan: Bristol Myers Squib: Honoraria, Research Funding. Langston: Kadmon Corporation: Research Funding; Astellas Pharmaceuticals: Research Funding; Jazz Pharmaceuticals: Research Funding; Incyte: Research Funding; Bristol Myers Squib: Research Funding; Chimerix: Research Funding; Takeda: Research Funding. Kean: fortyseven: Consultancy; regeneron: Research Funding; hifibio: Consultancy; kymab: Consultancy; Bristol Meyers Squibb: Research Funding; gilead: Research Funding; novartis: Consultancy; bluebird bio: Research Funding; magenta: Research Funding."
 }
