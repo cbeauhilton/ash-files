@@ -2,5 +2,83 @@
     "doi": "https://doi.org/10.1182/blood-2019-122187",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4325",
     "start_url_page_num": 4325,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Peripheral Blood Cell Sorting Strategies for Transcriptomic Analysis in Chronic Myelomonocytic Leukemia ",
+    "article_date": "November 13, 2019",
+    "session_type": "636.Myelodysplastic Syndromes-Basic and Translational Studies",
+    "topics": [
+        "blood cells",
+        "leukemia, myelomonocytic, chronic",
+        "sorting",
+        "cell separation",
+        "atac trial",
+        "ficoll",
+        "gene expression profiling",
+        "massively-parallel genome sequencing",
+        "monocytosis",
+        "neoplasms"
+    ],
+    "author_names": [
+        "Moritz Binder, MDMPH",
+        "Ryan Carr, MD PhD",
+        "Nathalie Droin, PhD",
+        "Abhishek A Mangaonkar, MBBS",
+        "Giacomo Coltro, MD",
+        "Luciana L Almada, PhD",
+        "David Marks, PhD",
+        "Kurt Berger",
+        "Terra Lasho, PhD",
+        "Naseema Gangat, MBBS",
+        "Christopher Pin, PhD",
+        "Martin Fernandez-Zapico, MD",
+        "Eric Solary, MD PhD",
+        "Mrinal M Patnaik, MDMBBS"
+    ],
+    "author_affiliations": [
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "INSERM U1170, Villejuif, France "
+        ],
+        [
+            "Division of Hematology, Department of Medicine, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Division of Hematology, Department of Medicine, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Division of Oncology Research, Department of Oncology, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Department of Molecular Pharmacology and Experimental Therapeutics, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "London Regional Transgenic and Gene Targeting Facility, Lawson Health Research Institute University of Western Ontario, London, Canada "
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Division of Hematology, Department of Medicine, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "London Regional Transgenic and Gene Targeting Facility, Lawson Health Research Institute University of Western Ontario, London, Canada "
+        ],
+        [
+            "Mayo Clinic, Rochester, MN"
+        ],
+        [
+            "INSERM U1170, Villejuif, France "
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN "
+        ]
+    ],
+    "first_author_latitude": "44.02149094999999",
+    "first_author_longitude": "-92.47453290000001",
+    "abstract_text": "Introduction: Chronic myelomonocytic leukemia (CMML) is a clonal hematopoietic neoplasm characterized by sustained peripheral blood (PB) monocytosis and an inherent risk for leukemic transformation. Clonal origins of the disease can be detected in hematopoietic progenitor cells (CD34+/CD38-), while the complete spectrum of mutational evolution can be seen in circulating monocytes (CD14+). Cell sorting strategies have been employed to select cells in CMML, and while there are adequate monocyte numbers in the PB, there are very few circulating progenitor cells. In addition, attrition related to the selection process significantly depletes primary cells available for biological experiments and multiomics studies such as RNA-seq, ChIP-seq, ATAC-seq, and DIP-seq. While single-cell methods may be able to overcome this challenge, bulk sequencing methods remain a robust and cost-effective approach. We hypothesized that, secondary to the stem cell origin of this disease and significant myeloproliferation, PB mononuclear cells (MNC) would provide comparable results with regards to transcriptomic analysis, in comparison to cell selection procedures. Methods: Peripheral blood obtained from 15 molecularly annotated patients with WHO-defined CMML was ACK-lysed and subjected to a Ficoll procedure for collection of MNC. MNC were left unsorted (n=5) or further selected for CD34+/CD38- (n=5) and CD14+ (n=5) using a fully automated RoboSep-S (StemCell Technologies) protocol. All samples were then subjected to bulk whole transcriptome shotgun sequencing (using Illumina TruSeq and an Illumina HiSeq 4000). After data quality control, counts of detectable transcripts were log2-normalized and Pearson's product-moment correlation coefficients were calculated to evaluate the correlation between the two cell-sorting strategies and unsorted cells in terms of detectable transcripts. To visualize sample differences log2-normalized transcripts counts were centered and scaled per gene for a select number of genes relevant to myeloid biology as well as a number of housekeeping genes. Results: Fifteen patients with WHO-defined CMML, median age 69 years (55-73 years), 66% male, were included. Next generation sequencing for somatic mutations was performed on PB MNC obtained at CMML diagnosis (Figure 1, top heatmap). Considering the small sample size, mutations were evenly distributed among groups with the exception of ASXL1 (higher frequency in CD14+ and CD34+/CD38- cells), ZRSR2 (higher frequency in unsorted cells), and TET2 (lower frequency in CD14+ cells). The three groups were also well matched with regards to other CMML-related variables such as WHO and FAB morphological subtypes, cytogenetic abnormalities, and risk stratification by the Mayo Molecular Model. Transcriptomic analysis revealed a strong positive correlation between the median number of log2-normalized detectable transcripts in unsorted cells and CD34+/CD38- cells (\u03c1 = 0.96, p < 0.001, top scatterplot). Likewise, there was a strong positive correlation between the median number of log2-normalized detectable transcripts in unsorted cells and CD14+ cells (\u03c1 = 0.91, p < 0.001, bottom scatterplot). The latter correlation was marginally lower, which was explained by increased global gene expression in 3 of the 5 CD14+ samples (bottom heatmap). Increased gene expression in these 3 samples involved key myeloid genes and housekeeping genes known to have stable expression across human tissues alike. In comparison to PB MNC, both cell sorting strategies resulted in significant depletion of primary cells required for other experiments, and for procedures such as ChIP-seq, DIP-seq and ATAC-seq (CD34+/CD38- had greater depletion than CD14+). Additional experiments to assess this strategy for the above mentioned epigenetic studies are currently being planned. Conclusions: Accounting for sample differences, different cell sorting strategies (unsorted, CD34+/CD38- selection, and CD14+ selection) yielded similar results when performing bulk transcriptomic assessments on PB MNC from patients with CMML. For the purpose of gene expression profiling there was no clear advantage with CD34+/CD38- or CD14+ selection. These results support the use of unsorted cells for bulk transcriptomic analysis in CMML. Figure 1 View large Download slide Figure 1 View large Download slide  Disclosures Patnaik: Stem Line Pharmaceuticals.: Membership on an entity's Board of Directors or advisory committees."
 }
