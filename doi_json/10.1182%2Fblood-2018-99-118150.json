@@ -2,5 +2,72 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-118150",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4066",
     "start_url_page_num": 4066,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": " RPS15 mutations Repress mRNA Translation in Chronic Lymphocytic Leukemia Cells ",
+    "article_date": "November 29, 2018",
+    "session_type": "641. CLL: Biology and Pathophysiology, excluding Therapy: Poster I",
+    "topics": null,
+    "author_names": [
+        "Stavroula Ntoufa",
+        "Stamatia Laidou",
+        "Fotis Psomopoulos",
+        "Marina Gerousi",
+        "Larry Mansouri",
+        "Georgios Tsiolas",
+        "Nikos Papakonstantinou",
+        "Achilles Anagnostopoulos",
+        "Niki Stavroyianni",
+        "Antonios M. Makris",
+        "Anastasia Hadzidimitriou, PhD",
+        "Richard Rosenquist, MD PhD",
+        "Kostas Stamatopoulos, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Centre for Research and Technology Hellas, Thessaloniki, Greece ",
+            "Uppsala University, Uppsala, Sweden "
+        ],
+        [
+            "Centre for Research and Technology Hellas, Thessaloniki, Greece "
+        ],
+        [
+            "Institute of Applied Biosciences (INAB), Centre for Research and Technology Hellas (CERTH), Thessaloniki, Greece "
+        ],
+        [
+            "Centre for Research and Technology Hellas, Thessaloniki, Greece "
+        ],
+        [
+            "Uppsala University, Uppsala, Sweden ",
+            "Karolinska Institute, Stockholm, Sweden "
+        ],
+        [
+            "Centre for Research and Technology Hellas, Thessaloniki, Greece "
+        ],
+        [
+            "Centre for Research and Technology Hellas, Thessaloniki, Greece "
+        ],
+        [
+            "G. Papanicolaou Hospital, Thessaloniki, Greece"
+        ],
+        [
+            "G. Papanicolaou Hospital, Thessaloniki, Greece"
+        ],
+        [
+            "Centre for Research and Technology Hellas, Thessaloniki, Greece "
+        ],
+        [
+            "Centre for Research and Technology Hellas, Thessaloniki, Greece "
+        ],
+        [
+            "Uppsala University, Uppsala, Sweden ",
+            "Karolinska Institute, Stockholm, Sweden "
+        ],
+        [
+            "Centre for Research and Technology Hellas, Thessaloniki, Greece ",
+            "Uppsala University, Uppsala, Sweden "
+        ]
+    ],
+    "first_author_latitude": "40.60152494999999",
+    "first_author_longitude": "22.967019099999998",
+    "abstract_text": "We and others recently reported mutations within the RPS15 gene, encoding a component of the 40S ribosomal subunit, in clinically aggressive chronic lymphocytic leukemia (CLL). RPS15 mutations resided within an evolutionary conserved region, alluding to an oncogenic rather than a tumor-suppressor role. Our pilot functional analysis revealed that, similar to other ribosomal proteins (RPs), RPS15 also binds MDM2 and may impact on the p53 response. Here, we performed ribosome profiling in order to gain global insight into changes in translation induced by RPS15 mutations in CLL cells. This technique involves measuring translational efficiency (TE), by comparing the levels of ribosome-associated mRNA footprints against the total mRNA for each gene. For 6 CLL cases bearing mutant (mut, n=3) or wildtype (wt, n=3) RPS15 , we obtained both ribosome-protected footprints (RPFs) and matching mRNA sequencing data. In parallel, we created stable MEC1 CLL cell lines expressing an additional copy of wt or mut RPS15 (131S) by lentiviral transduction; validation of the transgene expression was performed by Sanger sequencing of amplified cDNAs. Ribosome footprinting and subsequent library preparation of RPFs and total mRNA for all samples was performed with the Illumina Truseq Ribo Profile Kit and all libraries were sequenced on a NextSeq500 instrument. Reads were aligned to the human hg19 genome using Bowtie2. SystemPipeR was used to determine the percentage of reads mapping to 5' UTRs, CDS, and 3' UTRs and triplet periodicity was assessed using RibORF. The RPFs were of high quality, as assessed by expected RPF size (28-30nt), CDS enrichment, and triplet periodicity. To determine differentially expressed genes between RPS15-mut vs RPS15-wt cases we used DESeq2 while, for differentially translated genes we used Xtail. Changes in transcription and translation between PRS15-wt vs RPS15-mut cases showed limited overlap in both primary CLL cells and cell lines (12.8% and 12.9%, respectively), indicating the potential of ribosome profiling to reveal additional information compared to RNA sequencing alone. In primary CLL cells, 474 genes showed differences only at the transcription level (log2FC mRNA>I1I, pI1I, pI1I), while 1859 genes were regulated only at the translation level (log2FC RPF>I1I). Overall, 771 genes displayed differential TE (log2FC TE<I1I, adjusted p<0.1) between PRS15-wt vs RPS15-mut MEC1 cell lines; 48% of the genes showed reduced TE in mut vs wt cell lines and the remaining 52% augmented TE. The slightly different results compared to those obtained from primary CLL cells, may be attributed to the following reasons: (i) MEC1 cells are TP53 -aberrant; (ii) the PRS15-wt cell line overexpresses the RPS15 gene compared to primary CLL cells; and,( iii) the RPS15-mut cell line expresses both the wt and mut RPS15 mRNAs (22% of the mapped reads correspond to the mut RPS15 and 78% to the wt gene, respectively). Gene ontology analysis (Enrichr) of the genes showing differential TE, revealed that in both primary CLL cells and MEC1 cell lines a large fraction of the deregulated transcripts is implicated in RNA binding processes (adj-p=0.0001; adj-p=1.98X10^-13, respectively) which are known to induce translational repression. Interestingly, in primary CLL cells, amongst genes with reduced TE we identified genes implicated in tRNA biosynthesis, protein processing in the endoplasmatic reticulum and the Hippo signaling pathway (p<0.01). Additionally, enrichment analysis revealed that a proportion of genes with reduced TE were targets of the MYC transcription factor (adj-p=0.0005). RP genes, despite unchanged mRNA levels, showed changes in RPF levels and differential TE, suggesting that RPs are also deregulated at the translational level. In conclusion, we show that RPS15 mutations rewire the translation program of CLL cells by reducing the TE of critical molecules, including translation initiation factors and other regulatory elements. Disclosures Hadzidimitriou: Abbvie: Research Funding; Gilead: Research Funding; Janssen: Honoraria, Research Funding. Stamatopoulos: Janssen: Honoraria, Research Funding; Abbvie: Honoraria, Research Funding; Gilead: Honoraria, Research Funding."
 }

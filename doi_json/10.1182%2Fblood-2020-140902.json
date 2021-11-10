@@ -2,5 +2,33 @@
     "doi": "https://doi.org/10.1182/blood-2020-140902",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4552",
     "start_url_page_num": 4552,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Quantification of Allele-Specific HLA Expression with Nanopore Long-Read Sequencing ",
+    "article_date": "November 5, 2020",
+    "session_type": "722.Clinical Allogeneic Transplantation: Acute and Chronic GVHD, Immune Reconstitution",
+    "topics": null,
+    "author_names": [
+        "Andrew E. O. Hughes",
+        "Maureen C. Montgomery",
+        "Chang Liu",
+        "Eric T. Weimer"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Pathology and Immunology, Washington University School of Medicine, St. Louis, MO "
+        ],
+        [
+            "Molecular Immunology Laboratory, McLendon Clinical Laboratories, University of North Carolina Hospitals, Chapel Hill, NC "
+        ],
+        [
+            "Department of Pathology and Immunology, Washington University School of Medicine, St. Louis, MO "
+        ],
+        [
+            "Molecular Immunology Laboratory, McLendon Clinical Laboratories, University of North Carolina Hospitals, Chapel Hill, NC ",
+            "Department of Pathology & Laboratory Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, NC"
+        ]
+    ],
+    "first_author_latitude": "38.6350726",
+    "first_author_longitude": "-90.26228619999999",
+    "abstract_text": "Human leukocyte antigen (HLA) typing plays a critical role in evaluating donor-recipient compatibility prior to hematopoietic cell transplantation (HCT) to minimize the risk of rejection and graft versus host disease (GVHD). Compared to traditional sequence-based methods for HLA typing, next-generation sequencing offers significant advantages in terms of accuracy, turnaround time, and cost (Weimer et al. , JMD , 2016). Nevertheless, an intrinsic limitation of DNA-based typing is that it does not quantify HLA gene expression, which has been implicated in clinical outcomes (Petersdorf et al. , Blood , 2014; Petersdorf et al. , NEJM , 2015). Previously, we demonstrated simultaneous HLA class I genotyping and gene-level expression analysis by RNA-seq using nanopore long-read sequencing (Montgomery et al. , JMD , 2020). Given that mismatches in both class I and class II HLA genes-as well as the relative expression of individual alleles-impact donor-recipient compatibility, we sought to build on our previous work by quantifying allele-specific expression of both class I and class II HLA loci in donor lymphocytes. For this study, mRNA was isolated from peripheral blood lymphocytes from 12 donors. Barcoded cDNA libraries were prepared and sequenced on MinION flow cells (R9.4.1) using MinKNOW (v3.1.13) to a median depth of 1.6x10 6 reads. Basecalling and demultiplexing were performed with Albacore (v2.3.4) or Guppy (v2.3.1), and adapter trimming was performed with Porechop (v0.2.3). Processed reads were aligned to the international ImMunoGeneTics project (IMGT) HLA database (v3.41.0) using minimap2 (v2.17). Reads mapping to individual HLA loci were realigned to allele-specific references using subject HLA types determined by Athlon (v1.0) or Illumina sequencing. In parallel, library size factors were estimated by aligning reads to GRCh38, counting reads in genes with HTseq (v0.12.4), and using trimmed mean of M-values normalization. As shown in Fig. 1, we observed higher expression of HLA class I genes compared to class II (median 593 vs. 150, p < 0.001, Mann-Whitney U test), a pattern consistent with a mixture of primarily T cells, which express class I genes, as well as B cells, which express both class I and II. Within class I genes, we observed the highest expression of HLA-B , followed by HLA-A, and HLA-C (median 663, 578, and 459, respectively). Within class II, we observed the highest expression of HLA-DPB1 , followed by HLA-DRB1 , and HLA-DQB1 (median 281, 266, and 104, respectively). Importantly, we observed significant variation in expression both between and within alleles of individual HLA genes, suggesting that HLA type alone does not accurately predict HLA expression. We next analyzed HLA-DPB1 specifically, given reports that the risk of GVHD in HCT recipients with HLA-DPB1 mismatched donors is modulated by HLA-DPB1 expression (Petersdorf et al. , NEJM , 2015). Of note, HLA-DPB1 expression is linked to a single nucleotide polymorphism, rs9277534, which can be imputed from HLA-DPB1 type (Meurer et al., Front Immunol , 2018). Accordingly, we analyzed HLA-DPB1 expression conditioned on rs9277534 genotype. Although we observed lower HLA-DPB1 expression for the 'A' allele compared to 'G' (median 220 vs. 265), consistent with the reported association, this difference was not statistically significant (p = 0.22, Mann-Whitney U test). Furthermore, we observed significant variation in expression among 'A' alleles, with normalized counts ranging from 57 to 408 (vs. 191 to 367 for 'G' alleles). In this study, we demonstrate the feasibility of quantifying allele-specific expression of both class I and class II HLA genes with nanopore long-read sequencing. Taken together, our results reveal extensive variation in the expression of class I and class II HLA loci, even after accounting for individual allele types and known markers of expression. These results emphasize the potential value of methods, such as nanopore sequencing, for directly quantifying allele-specific HLA expression to develop improved risk prediction models that can inform the evaluation of donor-recipient immunocompatibility. View large Download slide View large Download slide  Disclosures No relevant conflicts of interest to declare."
 }
