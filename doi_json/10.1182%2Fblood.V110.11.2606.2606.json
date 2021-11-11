@@ -2,5 +2,99 @@
     "doi": "https://doi.org/10.1182/blood.V110.11.2606.2606",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=828",
     "start_url_page_num": 828,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Gene Expression Model of Survival and Transformation in Follicular Lymphoma (FL): A Study by the LLMPP. ",
+    "article_date": "November 16, 2007",
+    "session_type": "Non-Hodgkin\u2019s Lymphoma - Biology, excluding Therapy",
+    "abstract_text": "Background: FL is a common NHL that has a broad spectrum of clinical outcomes. Over time some pts will transform to an aggressive histology (Tly) associated with inferior survival. In 2004, the LLMPP constructed a model that was predictive of overall survival (OS) based on the gene expression profiles (GEP) of 191 specimens taken from pts with untreated FL. The genes associated with survival were derived from the non-neoplastic immune response (IR) cells. However the risk of developing Tly was not addressed in this study. Thus we re-analyzed the GEP with updated clinical data. Our goal was to validate our previous model with extended follow-up and to create a model that would predict the risk of developing TLy. Methods: 170 of 191 previously untreated FL pts had updated clinical information but only 142 had transformation outcome. Transformation was defined as biopsy proven DLBCL or clinically based on the presence of at least one of the following: hypercalcemia, a sudden rise in LDH >twice baseline, unusual extranodal growth or rapid discordant nodal growth. Raw CEL files from Affymetrix U133A arrays were pre-processed and normalized using Bioconductor\u2019s GCRMA package. Models were developed using SignS package ( http://signs/bioinfo.cnio.es/ ), with 10 times cross-validation. All gene lists produced in these analyses were then re-tested for association with outcome using Bioconductor\u2019s Globaltest package. Over Representation Analysis of signature components was performed using Dchip. Results: The median OS of these patients was 8 yrs. A new 7-component survival model (85 genes) was developed that was significantly associated with survival (p= 2.9\u00d710 \u221213 ). In Globaltest, these gene lists were associated with survival at a level of (p=2.6\u00d710 \u22125 ). The previous model using IR-1 and IR-2 signatures was associated with survival at a level of p=2.6\u00d710 \u22124 . Although there is little overlap between the 2 models, the new model confirms the importance of IR genes and extracellular matrix genes as being prognostically important. Interestingly, one component containing 10 genes on chromosome 6q was associated with a superior survival (p<1\u00d710 7 ). 27% developed Tly over a median follow-up time of 11.2 yrs (69% biopsy proven). Our transformation model included 53 genes divided into 3 components (p=0.001). The Globaltest analysis for association of these genes with transformation was significant (p=0.018). 54 genes overlapped between the survival genes and transformation genes that were present in >1 cross validation run. These were significantly enriched in genes important in immune response like T cell and macrophage activation. Conclusion: Our survival model is stable and confirms the importance of key genes involved in the immune response and lymph node remodeling. It also introduces new genes that are potentially important for survival. Our transformation model may shed light on the mechanisms involved in the progression of FL to DLBCL but it is less stable and less reliable than our survival model at predicting outcome.",
+    "topics": [
+        "biopsy",
+        "brachial plexus neuritis",
+        "diffuse large b-cell lymphoma",
+        "extranodal disease",
+        "follicular lymphoma",
+        "follow-up",
+        "gene expression",
+        "gene expression profiling",
+        "hypercalcemia",
+        "immune response"
+    ],
+    "author_names": [
+        "N.A. Johnson",
+        "T. Nayar",
+        "S.S. Dave",
+        "G. Wright",
+        "A. Rosenwald",
+        "W.C. Chan",
+        "M. Bast",
+        "L.M. Rimsza",
+        "H. Holte",
+        "J. Delabie",
+        "J.M. Connors",
+        "A. Al-Tourah",
+        "L. Colomo",
+        "E. Campo",
+        "T.A. Lister",
+        "D. O\u2019Shea",
+        "L.M. Staudt",
+        "Randy D. Gascoyne"
+    ],
+    "author_affiliations": [
+        [
+            "British Columbia Cancer Agency, Vancouver, Canada"
+        ],
+        [
+            "British Columbia Cancer Agency, Vancouver, Canada"
+        ],
+        [
+            "National Cancer Institute, Bethesda, MD, USA"
+        ],
+        [
+            "National Cancer Institute, Bethesda, MD, USA"
+        ],
+        [
+            "University of Wu\u0308rzburg, Wu\u0308rzburg, Germany"
+        ],
+        [
+            "University of Nebraska Medical Center, Ohmaha, NE, USA"
+        ],
+        [
+            "University of Nebraska Medical Center, Ohmaha, NE, USA"
+        ],
+        [
+            "University of Arizona Cancer Center, Tucson, AZ, USA"
+        ],
+        [
+            "Norwegian Radium Hospital, Oslo, Norway"
+        ],
+        [
+            "Norwegian Radium Hospital, Oslo, Norway"
+        ],
+        [
+            "British Columbia Cancer Agency, Vancouver, Canada"
+        ],
+        [
+            "British Columbia Cancer Agency, Vancouver, Canada"
+        ],
+        [
+            "University of Barcelona, Barcelona, Spain"
+        ],
+        [
+            "University of Barcelona, Barcelona, Spain"
+        ],
+        [
+            "Cancer Research UK, St. Bartholomew\u2019s Hospital, London, United Kingdom"
+        ],
+        [
+            "Cancer Research UK, St. Bartholomew\u2019s Hospital, London, United Kingdom"
+        ],
+        [
+            "National Cancer Institute, Bethesda, MD, USA"
+        ],
+        [
+            "British Columbia Cancer Agency, Vancouver, Canada"
+        ]
+    ],
+    "first_author_latitude": "49.247490799999994",
+    "first_author_longitude": "-123.09327439999998"
 }
