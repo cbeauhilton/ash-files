@@ -2,5 +2,31 @@
     "doi": "https://doi.org/10.1182/blood-2019-121474",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4349",
     "start_url_page_num": 4349,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Three-D Codes in the Human Genome ",
+    "article_date": "November 13, 2019",
+    "session_type": "Scientific Abstracts",
+    "topics": [
+        "chromatin",
+        "dna",
+        "genome, human",
+        "histones",
+        "ligation",
+        "molecule",
+        "chimera organism",
+        "binding (molecular function)",
+        "helix (snails)",
+        "maps"
+    ],
+    "author_names": [
+        "Erez Lieberman Aiden, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Baylor College of Medicine, Houston, TX"
+        ]
+    ],
+    "first_author_latitude": "29.710529599999994",
+    "first_author_longitude": "-95.39649899999999",
+    "abstract_text": "Stretched out from end-to-end, the human genome -a sequence of 3 billion chemical letters inscribed in a molecule called DNA -is over 2 meters long. Famously, short stretches of DNA fold into a double helix, which wind around histone proteins to form the 10nm fiber. But what about longer pieces? Does the genome's fold influence function? How does the information contained in such an ultra-dense packing even remain accessible?In this talk, I describe our work developing 'Hi-C' (Lieberman-Aiden et al., Science, 2009; Aiden, Science, 2011) and more recently 'in-situHi-C' (Rao & Huntley et al., Cell, 2014), which use proximity ligation to transform pairs of physically adjacent DNA loci into chimeric DNA sequences. Sequencing a library of such chimeras makes it possible to create genome-wide maps of physical contacts between pairs of loci, revealing features ofgenome folding in 3D. Next, I will describe recent work using in situ Hi-C to construct haploid and diploid maps of nine cell types. The densest, in human lymphoblastoid cells, contains 4.9 billion contacts, achieving 1 kb resolution. We find that genomes are partitioned into contact domains (median length, 185 kb), which are associated with distinct patterns of histone marks and segregate into six subcompartments. We identify \u223c10,000 loops. These loops frequently link promoters and enhancers, correlate with gene activation, and show conservation across cell types and species. Loop anchors typically occur at domain boundaries and bind the protein CTCF. The CTCF motifs at loop anchors occur predominantly (>90%) in a convergent orientation, with the asymmetric motifs \"facing\" one another. Next, I will discuss the biophysical mechanism that underlies chromatin looping. Specifically, our data is consistent with the formation of loops by extrusion (Sanborn & Rao et al., PNAS, 2015). In fact, in many cases, the local structure of Hi-C maps may be predicted in silicobased on patterns of CTCF binding and an extrusion-based model. Finally, I will show that by modifying CTCF motifs using CRISPR, we can reliably add, move, and delete loops and domains. Thus, it possible not only to \"read\" the genome's 3D architecture, but also to write it. Disclosures No relevant conflicts of interest to declare."
 }
