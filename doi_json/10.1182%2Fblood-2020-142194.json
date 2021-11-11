@@ -2,5 +2,74 @@
     "doi": "https://doi.org/10.1182/blood-2020-142194",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4596",
     "start_url_page_num": 4596,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Machine Leaning Algorithm on Chemotherapeutic Drug Resistance Related Gene Classifier in Acute Myeloid Leukemia ",
+    "article_date": "November 5, 2020",
+    "session_type": "604.Molecular Pharmacology and Drug Resistance in Myeloid Diseases",
+    "topics": null,
+    "author_names": [
+        "Yang Song, MD",
+        "Yannan Jia",
+        "Guangji Zhang",
+        "Shuning Wei",
+        "Yan Li, MD",
+        "Yimin Hu",
+        "Qishan Hao",
+        "Zhe Wang",
+        "Qiuyun Fang",
+        "Zheng Tian, BS",
+        "Shangzhu Li",
+        "Min Wang, MD",
+        "Jianxiang Wang, MD",
+        "Yingchang Mi"
+    ],
+    "author_affiliations": [
+        [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China "
+        ],
+        [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China "
+        ],
+        [
+            "National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin, China "
+        ],
+        [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China"
+        ],
+        [
+            "National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin, China "
+        ],
+        [
+            "National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin, China "
+        ],
+        [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China "
+        ],
+        [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China "
+        ],
+        [
+            "National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin, China "
+        ],
+        [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China "
+        ],
+        [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China"
+        ],
+        [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China "
+        ],
+        [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China ",
+            "National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin, China "
+        ],
+        [
+            "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China ",
+            "National Clinical Research Center for Blood Diseases, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin, China "
+        ]
+    ],
+    "first_author_latitude": "39.35733095",
+    "first_author_longitude": "117.11334980000001",
+    "abstract_text": "Background: Acute myeloid leukemia (AML) is a heterogeneous disease in which 20-50% patients are resistant to chemotherapy. Relapsed/refractory (R/R) AML has a poor long-term prognosis resulting from chemotherapeutic drug resistance. However, the specific gene-drug pairs have been rarely reported. The purpose of our study was to explore an accurate algorithm for screening gene profiles classifier associated with chemotherapy drug sensitivity. Method: 43 AML patients from the Institute of Hematology and Blood Diseases Hospital were enrolled, including newly diagnosis (n=23) and R/R (n=20) AML between March 2019 to January 2020. We separated bone marrow cells (BMCs) of the 43 patients. Additionally, 24 therapeutic drugs panel (Figure 1) were selected and 7-concentration gradient were used to test drug sensitivity in vitro by HDS (High-throuphput Drug Sensitivity Analysis Strategy). Paired molecular data of RNA-seq and DNA methylation 850K CHIP implemented simultaneously. K-Means, an unsupervised algorithm, was applied to cluster all samples into two groups (Resistance/Sensitive group) according to IC50 and 100% PPC inhibition rate of each drug. We used a combination of different algorithms to build a proper gene classifier. The whole process was shown as Figure 2. The major objectives of the evaluating algorithm included F1 score, precision rate, recall rate and AUC. \"pRRophetic\", a R package, was modified to specify target type as \"AML\" in aim to estimate IC50 of samples based on GDSC database. Furthermore, we cultured Ara-C resistant cell line of HL-60 in purpose of comparing relative gene expression with wide type (wt) by quantitative Real-time PCR (qPCR) to prove the selected gene signature. Result: The HDS data suggested that sensitivities of newly diagnosis AML to chemotherapeutic-drugs were highly variable. However, Newly Diagnosis Group was more sensitive to majority chemotherapeutic drugs in contrast to R/R AML (P<0.05). As heterogeneous drug response in vitro, we found K-means (k=2) was more reasonable algorithm, as compared to K-means (k=3) for grouping all samples. SVM of transcription data for each drug showed a significantly advantage over other algorithms (P<0.001) with the median F1 score was 0.805295 (0.710648-0.934641), median AUC was 0.818 (0.545-1), median precision rate was 0.75 (0.55-1), and median recall rate was 0.76(0.66-1). The screening feature genes from SVM also performed well on different models (SVM, RF, logistics regression, KNN, Decision Tree) of test set. The SVM mean F1 scores for each algotithm were as follows:0.7382, 0.6128, 0.6530, 0.6168,and 0.5956. It is worth mentioning that SVM equally applies to DMP analysis (P<0.001).We confirmed our algorithm by using Ara-C selected genes grounded by SVM and RF. The difference of estimated IC 50 between resistant group and sensitive group based on SVM (P=0.058) was better than RF (p=0.087) (Figure 3). Compared to newly diagnosis AML, R/R Group possessed 2134 upregulated genes and 1210 down-regulated genes in the aspect of RNA-seq data. Crosslinking analysis of RNA-seq and methylation data of the two group, 1 gene were described as up-regulated expression with hypo-methylation, and 39 genes was down-regulated expression with hyper-methylation. 8/39 genes are corresponded with SVM algorithm. Moreover, 4-gene-drug pairs, including FOXC1 for anthracyclines drug, IGFBP5 for Ara-C, VTRNA1-1 and TKTL1 for pan-drug, were investigated by overlapping TOP 5 genes for each drug of SVM algorithm and DEGs between R/R and newly diagnosis AML. High expression of four genes was identified as a risk factor for AML prognosis. The result of qPCR revealed that IGFBP5 is overexpression in Ara-C-resistant HL-60 than wt. Conclusion: We construct a model of K-Means and RFE-DEG/DMP-SVM, a validated and precise computational approach, for predicting drug sensitivity related genes in AML patients. Up-regulated expression with hypo-methylation genes may be signature genes for drug resistance. 4-gene-based classifier may make contributions to chemotherapeutic-drug resistance prediction and AML treatment decision-making. View large Download slide View large Download slide  Disclosures No relevant conflicts of interest to declare."
 }
