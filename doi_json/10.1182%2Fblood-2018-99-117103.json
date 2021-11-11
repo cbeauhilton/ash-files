@@ -2,5 +2,99 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-117103",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3863",
     "start_url_page_num": 3863,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Extracting Prognostic Molecular Information from PET-CT Imaging of Multiple Myeloma Using Radiomic Approaches ",
+    "article_date": "November 29, 2018",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster I",
+    "topics": [
+        "computed tomography/positron emission tomography imaging",
+        "multiple myeloma",
+        "radiomics",
+        "massively-parallel genome sequencing",
+        "positron-emission tomography",
+        "bone marrow biopsy",
+        "gene expression profiling",
+        "voxel",
+        "translocation (genetics)",
+        "treatment outcome"
+    ],
+    "author_names": [
+        "Christopher Wardell, PhD",
+        "Terri Lynn Alpe",
+        "Phil Farmer",
+        "Michael W Rutherford",
+        "Yan Wang",
+        "Niels Weinhold, PhD",
+        "Ruslana G. Tytarenko, MS",
+        "Purvi Patel",
+        "Michael A Bauer, PhD",
+        "Cody Ashby, PhD",
+        "Eileen M Boyle, MD MSc",
+        "Carolina D. Schinke, MD",
+        "Sharmilan Thanendrarajan, MD",
+        "Frits van Rhee, MD PhD",
+        "Maurizio Zangari, MD",
+        "Brian A Walker, PhD",
+        "Gareth Morgan, MD",
+        "Faith E. Davies, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "University of Arkansas for Medical Sciences, Little Rock, AR "
+        ],
+        [
+            "Myeloma Institute, University of Arkansas, Little Rock, AR"
+        ]
+    ],
+    "first_author_latitude": "34.748461999999996",
+    "first_author_longitude": "-92.3192351",
+    "abstract_text": "Introduction: Invasive bone marrow sampling is used in multiple myeloma (MM) diagnosis to obtain biological material, which can then be used to generate prognostically important genetic features. Physically sampling the bone marrow can be uncomfortable for the patient. Also, spatial heterogeneity is a common feature in MM, with multiple focal lesions (FLs) occurring throughout the skeleton, meaning a single sample from the iliac crest may be insufficient to capture intrapatient heterogeneity. An alternative strategy is to extract data directly from diagnostic positron emission tomography-computed tomography (PET-CT) scans of patients. These radiomic features can be used as a proxy from which to infer molecular and clinical phenotypes. Compared to physical sampling, there are several advantages, including rapid analysis, minimalizing patient discomfort, reduced cost and widespread availability of the required scanning equipment in hospitals. Methods: A series of 439 newly diagnosed MM patients were selected, all of which had diagnostic PET-CT scans. A radiologist examined these data and identified focal lesions in the axial skeleton of 136/439 (31%) patients. Focal lesions were manually segmented from the PET portion of the original DICOM data using a density-based thresholding method in 3DSlicer version 4.9.0. Pyradiomics version 1.3 was used to resample the voxels in the PET data to 4x4x4 mm and extract radiomic features from each FL. A combination of 10 filters and 7 feature classes were used and a total of 1679 radiomic features were generated per lesion. Radiomic features were a mixture of first order characteristics such as maximum intensity, shape characteristics and gray level matrix features. Hierarchical clustering was applied to the radiomic features, using the Pearson correlation between features as the distance metric and Ward's method for clustering. Next generation sequencing (NGS) data was available for samples from 58/136 (43%) patients with FLs in whole genome (WGS), whole exome (WES) or targeted panel (TP) modalities. The NGS data was used to detect translocations, copy number aberrations and somatic mutations. Results: There were 789 FLs identified in 136 patients, with each patient containing an average of 5.8 FLs. The median FL volume was 4350 mm 3 , with a median maximum 3D diameter of 29 mm. Hierarchical clustering across all FLs and radiomic features separated the FLs into 5 discrete clusters associated with various clinical and molecular features. However, clustering appeared to be independent of other classification systems based on gene expression profiling (GEP), including the UAMS classification system and GEP70 risk score. Clustering was also independent of the International Staging System (ISS) status suggesting that it can add additional prognostic information. Clusters also appeared to be independent of somatic mutations in genes previously reported as significantly mutated in MM. Patients commonly had FLs occurring in multiple clusters, suggesting that this method takes into account the heterogeneity between lesions in the same patient. Larger FLs were grouped primarily into two clusters consistent with them having distinct features that can be recognized by this approach. Looking across the different clusters distinct differences in clinical outcome were seen between the groups, with significant differences in both PFS (p=0.007) and overall survival (p=0.005), with worse prognosis being led by a cluster of smaller lesions. Conclusions: Radiomics provides a novel method to extract potentially important data from PET-CT scans which can define individual clusters that have different clinical, molecular and prognostic features. This can provide a novel non-invasive method to assess FLs based on both their physical and radiomic characteristics. Larger study sizes will be needed to confirm the differences in outcomes seen between groups. Disclosures Boyle: Celgene: Honoraria, Other: travel grants; Janssen: Honoraria, Other: travel grants; La Fondation de Frace: Research Funding; Abbvie: Honoraria; Amgen: Honoraria, Other: travel grants; Gilead: Honoraria, Other: travel grants; Takeda: Consultancy, Honoraria. Morgan: Bristol-Myers Squibb: Consultancy, Honoraria; Janssen: Research Funding; Takeda: Consultancy, Honoraria; Celgene: Consultancy, Honoraria, Research Funding. Davies: TRM Oncology: Honoraria; MMRF: Honoraria; Abbvie: Consultancy; Takeda: Consultancy, Membership on an entity's Board of Directors or advisory committees; Janssen: Consultancy, Honoraria; Amgen: Consultancy, Membership on an entity's Board of Directors or advisory committees; Celgene: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees; ASH: Honoraria."
 }
