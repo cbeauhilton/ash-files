@@ -2,5 +2,52 @@
     "doi": "https://doi.org/10.1182/blood-2020-142117",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4539",
     "start_url_page_num": 4539,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Relapse Prediction Model for Immune-Mediated Thrombotic Thrombocytopenic Purpura ",
+    "article_date": "November 5, 2020",
+    "session_type": "311.Disorders of Platelet Number or Function",
+    "topics": null,
+    "author_names": [
+        "Camila Masias, MDMPH",
+        "Shangbin Yang, PhD",
+        "Senthil Sukumar, MD",
+        "Alcinda Flowers, MD",
+        "Haiwa Wu",
+        "Krista Carter",
+        "Shili Lin",
+        "Chenggon Han",
+        "Spero Cataland"
+    ],
+    "author_affiliations": [
+        [
+            "Miami Cancer Institute, Baptist Health, Miami, FL "
+        ],
+        [
+            "Ohio State University, Columbus, OH "
+        ],
+        [
+            "Division of Hematology, Department of Internal Medicine, The Ohio State University, Columbus, OH "
+        ],
+        [
+            "The Ohio State University, Columbus, OH "
+        ],
+        [
+            "The Ohio State University, columbus, OH"
+        ],
+        [
+            "The Ohio State University, Columbus, OH "
+        ],
+        [
+            "The Ohio State University, Columbus, OH "
+        ],
+        [
+            "The Ohio State University, Columbus, OH "
+        ],
+        [
+            "Division of Hematology, Department of Internal Medicine, The Ohio State University, Columbus, OH "
+        ]
+    ],
+    "first_author_latitude": "25.735679200000003",
+    "first_author_longitude": "-80.2407199",
+    "abstract_text": "Background: Immune mediated thrombotic thrombocytopenic purpura (iTTP) is defined by thrombocytopenia and microangiopathic hemolytic anemia caused by severely deficient ADAMTS13 activity (<10%). After resolution of their initial episode, patients remain at risk for relapse. Relapse is most common during the first year, but can occur at any point in their lives. In asymptomatic patients, severely deficient ADAMTS13 activity in remission has been shown to be a risk factor for relapses and can guide consideration of preemptive therapy with Rituximab. However, severely deficient ADAMTS13 activity alone does not uniformly lead to relapse, and patients with non-deficient ADAMTS13 activity in remission may still relapse in the following months. The aim of this study was to develop a multivariable model to identify patients at high risk of relapse, using other biomarkers known to have a role in the pathophysiology of iTTP. Patients/Methods: This analysis utilized samples from patients enrolled in the Ohio State University TMA registry beginning in 2003 until 2014. Patients were followed every 3 months to monitor for relapse and for the development of long-term complications. Clinical data (CBC, chemistry, LDH, ADAMTS13 biomarkers) were obtained on each visit to confirm remission in addition to research samples. Clinical and demographic data in addition to biomarkers of complement activation that were performed on banked samples were used to develop a model to quantify the risk for relapse in the following 3 months. A Lasso logistic regression model (Tibshirani et al 1996) with relapse in the following 3 months as the response variable using the R package glmnet (https://cran.r-project.org/web/packages/glmnet/index.html) was used to identify those variables most predictive of relapse from the 17 studied (Table 1). The data from all subjects were split into training data (75%) and testing data (25%) to develop and subsequently test the performance of the model. The final predictors were then standardized to develop the final model and the program to predict the risk of relapse (%) in the following 3 months. Results: Data from a total of 131 patient encounters from 42 patients in a clinical remission were included in the study to develop the statistical model (Table 2). 31(75.6%) were White and 10 (24.4%) were African American. The average age was 42 (18-69), and 31 (75.6%) were women. The median number of encounters from each patient was 2 (range, 1 to 10). From these 131 encounters, 39 relapses occurred in 20 patients over the next 3 months following their clinic visit. The 39 relapse encounters were compared to the 92 encounters where no relapse occurred to develop the model. The performance of both the 11-factor and 6-factor models are shown in Table 3. Given the comparable data in terms of the AUC, sensitivity and specificity to the 11-factor model to predict relapse, the 6-factor model was judged to be more practical given the fewer number of variables. Both the 11-factor and 6-factor models performed better than the ADAMTS13 activity alone. In this model, the presence of ULVWF multimers, increased levels of LDH, complement activation as measured by C3a (log transformed), a lower ADAMTS13 activity (log transformed), ADAMTS13 antigen (log transformed), and younger age increased the risk for relapse. These variables would be entered into the model with the result being read out as a percent risk for relapse in the following 3 months as described in the hypothetical examples in Table 4. Conclusion: Utilizing a model that includes a combination of biomarkers in asymptomatic patients in remission from iTTP provides more accurate identification of patients at increased risk of relapse in the next 3 months, when compared to using the ADAMTS13 activity alone. This model would allow physicians to initiate preemptive therapy with rituximab to patients at the greatest risk for relapse, and potentially avoiding therapy in patients whose risk may be lower than what would be predicted by the ADAMTS13 activity alone. View large Download slide View large Download slide  Disclosures Cataland: Ablynx/Sanofi: Consultancy, Research Funding; Alexion: Consultancy, Research Funding."
 }
