@@ -2,5 +2,79 @@
     "doi": "https://doi.org/10.1182/blood-2019-125322",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4258",
     "start_url_page_num": 4258,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Automatic Bone Marrow Cell Identification and Classification By Deep Neural Network ",
+    "article_date": "November 13, 2019",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "topics": [
+        "aplastic anemia",
+        "bone marrow aspiration",
+        "bone marrow cells",
+        "cancer",
+        "diabetic retinopathy",
+        "hemolytic anemia",
+        "immersion",
+        "lens (device)",
+        "leukemia, acute",
+        "lymphoma"
+    ],
+    "author_names": [
+        "Ta-Chuan Yu, MD",
+        "Wen-Chien Chou, MD, PhD",
+        "Chao-Yuan Yeh, MD",
+        "Cheng-Kun Yang",
+        "Sheng-Chuan Huang, MD",
+        "Feng Ming Tien, MD",
+        "Chi-Yuan Yao, MD",
+        "Chieh-Lung Cheng, MD",
+        "Ming-Kai Chuang, MD",
+        "Hwei-Fang Tien, MD, PhD",
+        "Qun-Yi Zhang",
+        "Wei-Han Hsu",
+        "Sheng-Cheih Chou"
+    ],
+    "author_affiliations": [
+        [
+            "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+        ],
+        [
+            "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+        ],
+        [
+            "aether AI, Taipei City, Taiwan "
+        ],
+        [
+            "aether AI, Taipei City, Taiwan "
+        ],
+        [
+            "National Taiwan University Hospital, Taipei, Taiwan "
+        ],
+        [
+            "Tai-Cheng Stem Cell Therapy Center, National Taiwan University Hospital, Taipei City, Taiwan"
+        ],
+        [
+            "National Taiwan University Hospital, Taipei, Taiwan "
+        ],
+        [
+            "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+        ],
+        [
+            "National Taiwan University Hospital, Taipei, Taiwan "
+        ],
+        [
+            "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+        ],
+        [
+            "aether AI, Taipei City, Taiwan "
+        ],
+        [
+            "aether AI, Taipei City, Taiwan "
+        ],
+        [
+            "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+        ]
+    ],
+    "first_author_latitude": "25.0407391",
+    "first_author_longitude": "121.51898630000001",
+    "abstract_text": "Purpose Differential counting of blood cells is the basis of diagnostic hematology. In many circumstances, identification of cells in bone marrow smears is the golden standard for diagnosis. Presently, methods for automatic differential counting of peripheral blood are readily available commercially. However, morphological assessment and differential counting of bone marrow smears are still performed manually. This procedure is tedious, time-consuming and laden with high inter-operator variation. In recent years, deep neural networks have proven useful in many medical image recognition tasks, such as diagnosis of diabetic retinopathy, and detection of cancer metastasis in lymph nodes. However, there has been no published work on using deep neural networks for complete differential counting of entire bone marrow smear. In this work, we present the results of using deep convolutional neural network for automatic differential counting of bone marrow nucleated cells. Materials & Methods The bone marrow smears from patients with either benign or malignant disorders in National Taiwan University Hospital were recruited in this study. The bone marrow smears are stained with Liu's stain, a modified Romanowsky stain. Digital images of the bone marrow smears were taken using 1000x oil immersion lens and 20MP color CCD camera on a single microscope with standard illumination and white-balance settings. The contour of each nucleated cell was artificially defined. These cells were then divided into a training/validation set and a test set. Each cell was then classified into 1 of the 11 categories (blast, promyelocyte, neutrophilic myelocyte, neutrophilic metamyelocyte, neutrophils, eosinophils and precursors, basophil, monocyte and precursors, lymphocyte, erythroid lineage cells, and invalid cell). In training/validation set, the classification of each cell was annotated once by experienced medical technician or hematologist. The annotated dataset was used to train a Path-Aggregation Network for instance segmentation task. In test set, cell classification was annotated by three medical technicians or hematologists; only over 2/3 consensus was regarded as valid. After the neural network model was fully trained, the ability of the model to classify and detect bone marrow nucleated cells was evaluated in terms of precision, recall and accuracy. During the model training, we used group normalization and stochastic gradient descent optimizer for training. Random noise, Gaussian blur, rotation, contrast and color shift were also used as means for data augmentation. Results The digital images of 150 bone marrow aspirate smears were taken for this study. They included 61 for acute leukemia, 39 for lymphoma, 2 for myelodysplastic syndrome (MDS), 2 for myeloproliferative neoplasm (MPN), 10 for MDS/MPN, 12 for multiple myeloma, 4 for hemolytic anemia, 9 for aplastic anemia, 8 for infectious etiology and 3 for solid cancers. The final data contained 5927 images and 187730 nucleated bone marrow cells, which were divided into 2 sets: 5630 images containing 170966 cells as the training/validation set, and 297 images containing 16764 cells as the test set. Among the 16764 cells annotated in test set, 15676 cells (93.6 %) reached over 2/3 consensus. The trained neural network achieved 0.832 recall and 0.736 precision for cell detection task, 0.79 mean intersection over union (IOU) for cell segmentation task, mean average precision of 0.659 and accuracy of 0.801 for cell classification. For individual cell categories, the model performs the best with \"erythroid-lineage-cells\" (0.971 recall, 0.935 precision) and the worst with \"monocyte-and-precursors\" (0.825 recall, 0.337 precision). Conclusions We have created the largest and the most comprehensive annotated bone marrow smear image dataset for deep neural network training. Compared with previous works, our approach is more practical for clinical application because it is able to take in an entire field of smear and generate differential counts without any other preprocessing steps. Current results are highly encouraging. With continued expansion of dataset, our model would be more precise and clinically useful. Figure View large Download slide Figure View large Download slide  Disclosures Yeh: aether AI: Other: CEO and co-founder. Yang: aether AI: Employment. Tien: Novartis: Honoraria; Daiichi Sankyo: Honoraria; Celgene: Research Funding; Roche: Honoraria; Johnson &Johnson: Honoraria; Alexion: Honoraria; BMS: Honoraria; Roche: Research Funding; Celgene: Honoraria; Pfizer: Honoraria; Abbvie: Honoraria. Hsu: aether AI: Employment."
 }
