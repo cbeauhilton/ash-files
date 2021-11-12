@@ -2,5 +2,59 @@
     "doi": "https://doi.org/10.1182/blood.V122.21.74.74",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2467",
     "start_url_page_num": 2467,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Development Of A Cross Platform, 2-Way Gene Expression Classifier To Distinguish Burkitt Lymphoma From DLBCL, and Assessment Of The Potential Impact Of Its Use In Treatment Decision Making ",
+    "article_date": "November 15, 2013",
+    "session_type": "622. Non-Hodgkin Lymphoma: Biology, excluding Therapy",
+    "topics": [
+        "burkitt's lymphoma",
+        "diffuse large b-cell lymphoma",
+        "decision making",
+        "gene expression",
+        "chemotherapy regimen",
+        "biopsy",
+        "formaldehyde",
+        "formalin-fixed paraffin-embedded tissue specimen",
+        "gene expression profiling",
+        "gold standard"
+    ],
+    "author_names": [
+        "Sharon Barrans, PhD",
+        "Sha Chulin",
+        "Alex Smith",
+        "Simon Crouch, MA PhD",
+        "Lisa Worrillow, PhD",
+        "Eve Roman, PhD",
+        "David Westhead, PhD",
+        "Andrew Jack, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Haematology Malignancy Diagnostic Service, St James's University Hospital, Leeds, United Kingdom, "
+        ],
+        [
+            "Faculty of Biological Science, University of Leeds, Leeds, United Kingdom, "
+        ],
+        [
+            "Epidemiology and Cancer Statistics Group, University of York, York, United Kingdom, "
+        ],
+        [
+            "Epidemiology and Genetics Unit, University of York, York, United Kingdom, "
+        ],
+        [
+            "Haematology Malignancy Diagnostic Service, St James's University Hospital, Leeds, United Kingdom, "
+        ],
+        [
+            "Epidemiology & Cancer Statistics Group, University of York, York, United Kingdom, "
+        ],
+        [
+            "Institute of Molecular and Cellular Biology, Bioinformatics Group, University of Leeds, Leeds, United Kingdom, "
+        ],
+        [
+            "HMDS, St James's Institute of Oncology, Leeds, United Kingdom"
+        ]
+    ],
+    "first_author_latitude": "53.8059919",
+    "first_author_longitude": "-1.5215462999999998",
+    "abstract_text": "The distinction between diffuse large B-cell lymphoma (DLBCL) and Burkitt lymphoma (BL) is a critical clinical problem, with both sets of patients requiring very different treatment regimens. A significant proportion of patients have features between DLBCL and BL and it is unclear which treatment is most applicable to this group. Many of these patients have MYC rearrangement ( MYC -R), either as the sole abnormality or \u2018dual/triple hit\u2019, which results in poor response to therapy. Gene expression profiling (GEP) has been used to identify patients with BL, however published classifiers use data from fresh/frozen tissue and stratify patients into 3 or more groups, with a significant proportion with features between DLBCL and BL, and these are not applicable in clinical decision making. The aim of this study was to develop a 2-way classifier that is applicable to formalin fixed paraffin embedded (FFPE) biopsies and to assess it\u2019s clinical utility in identifying patients who would benefit from high dose therapy (classically BL vs DLBCL). We explored different classification algorithms from published studies, and generated a 28-gene classifier, trained on published datasets GSE4732 & GSE4475, that were combined by extracting the 1924 common genes. The classifier consists of a Support Vector Machine (LibSVM) algorithm, uses Z-score normalisation and generates a probability of BL vs. DLBCL prediction. The performance of the algorithm was tested against the individual datasets it was trained on, along with additional datasets (GSE26673 & GSE17189), and a high level of precision and recall accuracy was achieved. The algorithm was then applied to Illumina Whole-Genome DASL data from 558 aggressive B-cell lymphoma samples (original diagnoses: BL, n=72, DLBCL with MYC -R (single, dual, or triple hit) n=39, DLBCL NOS, n=128, DLBCL, MYC status unknown, n=319). The GEP classifier was applied to 544 (97%) samples where GEP data were of sufficient quality for analysis. The data was further interrogated for the presence of a MYC signature, using MYC -target genes identified by Dave et al (2006), and cluster analysis identified three levels of expression of this signature across all cases. The results are summarised in the table. Table  . . Classic diagnostic methods . . . BL (n=63) . DLBCL (n=481) . . . n (%) . MYC-sig . n (%) . n (%) . MYC-sig . n (%) . GEP classification    Low 5 (11)  Low 1 (17) Int 18 (41) Int 4 (66) BL (n=50)  44 (70) High 21 (48) 6 (1) High 1 (17)   Low 11 (58)  Low 236 (50) Int 5 (26) Int 232 (49) DLBCL (n=494)  19 (30) High 3 (16) 475 (99) High 7 (1) . . Classic diagnostic methods . . . BL (n=63) . DLBCL (n=481) . . . n (%) . MYC-sig . n (%) . n (%) . MYC-sig . n (%) . GEP classification    Low 5 (11)  Low 1 (17) Int 18 (41) Int 4 (66) BL (n=50)  44 (70) High 21 (48) 6 (1) High 1 (17)   Low 11 (58)  Low 236 (50) Int 5 (26) Int 232 (49) DLBCL (n=494)  19 (30) High 3 (16) 475 (99) High 7 (1) View Large The concordance between the original diagnosis of DLBCL and the classifier was 99% with only 1/35 cases of DLBCL that had MYC -R classified as BL using GEP, however, there was only a 70% concordance in the diagnosis of BL. The high level of \u2018misclassified\u2019 cases is a consequence of the 2-way classifier, and it is expected that these cases would fall within the intermediate categories described by others. Only two genes in the MYC signature were also in the GEP classifier and the level of expression of the signature was independent of the presence of MYC -R, with a high MYC signature in only 24/63 (38%) cases diagnosed as BL and in only 4% of DLBCL cases with MYC -R. This strongly suggests that functional effects of MYC deregulation can be modified by other factors such as microRNA or altered expression of other genes. However, the data also suggests that the genes included in the MYC signature may have an indirect effect on the performance of the classifier with only 16% of tumours originally diagnosed as BL but classified as DLBCL by GEP having a high MYC signature. We have demonstrated that GEP can be applied to the routine diagnostic setting where FFPE tissue is often the only option and we have developed a 2-way classifier that is applicable cross-platform. Had this 2-way classification had been used to determine treatment, only 1% of patients currently regarded as DLBCL would have received intensive chemotherapy, but 30% of patients diagnosed as BL using current diagnostic methods may have been undertreated. However, this data shows that there is significant biological heterogeneity, even within the highly specific diagnostic category of BL, perhaps reflecting genetic abnormalities not routinely detected, which may be relevant to the efficacy of treatment. With multiple diagnostic technologies now available, clinical studies are needed to identify the gold standard approach for identifying patients who require intensive chemotherapy. Disclosures: Jack: Roche /Genentech: Research Funding."
 }
