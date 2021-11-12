@@ -2,5 +2,44 @@
     "doi": "https://doi.org/10.1182/blood.V126.23.2602.2602",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3111",
     "start_url_page_num": 3111,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "An Automated System for Parsing and Risk Classifying Karyotype Nomenclature for Acute Myeloid Leukemia ",
+    "article_date": "December 3, 2015",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis: Poster II",
+    "topics": [
+        "karyotype determination procedure",
+        "leukemia, myelocytic, acute",
+        "cancer",
+        "clonality (genetic analysis)",
+        "cytogenetic analysis",
+        "neoplasms",
+        "southwest oncology group",
+        "extension",
+        "mismatch",
+        "script"
+    ],
+    "author_names": [
+        "Emily Silgard, M.S. Computational Linguistics",
+        "Vicky Sandhu, MD MPH",
+        "Elihu H. Estey, MD",
+        "Daniel Herman, MD, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Fred Hutchinson Cancer Research Center, Seattle, WA "
+        ],
+        [
+            "Division of Clinical Research, Fred Hutchinson Cancer Research Center, Seattle, WA "
+        ],
+        [
+            "Seattle Cancer Care Alliance, Seattle, WA ",
+            "University of Washington School of Medicine, Seattle, WA"
+        ],
+        [
+            "University of Washington School of Medicine, Seattle, WA"
+        ]
+    ],
+    "first_author_latitude": "47.626835199999995",
+    "first_author_longitude": "-122.3314659",
+    "abstract_text": "Introduction: Cytogenetic analyses are critical in the management of a variety of malignancies. In acute myeloid leukemia (AML), tumor karyotype is among the most valuable features for prognosis and therapy selection. The reporting of patient karyotypes is reasonably standardized through the use of the International System for Human Cytogenetic Nomenclature (ISCN). However, karyotypes can be extremely complicated, sometimes leading to confusion in their interpretation. In addition, secondary-use of karyotype data requires re-interpretation of ISCN formulas, which acts as a barrier to research. To improve the speed and accuracy of karyotype interpretation and classification, we developed an automated, modular pipeline to parse and interpret cytogenetics reports and have initially applied this to risk prediction in AML. Methods: We developed a modular set of python scripts that (1) process a batch of cytogenetics reports, (2) identifies and cleans ISCN formulas, (3) parses ISCN into an efficient representation of cells and their mutations, (4) classifies karyotypes according to Southwestern Oncology Group (SWOG) risk categories (Slovak, 2000), and (5) outputs a JSON document that details salient mutations, risk categories, algorithm confidence levels, and references to the supporting evidence for interpretation. We classified each case according to AML risk categories: unfavorable, intermediate, miscellaneous, favorable, unknown, or insufficient. This program will be embedded within the incoming document pipeline for an enterprise-wide data repository and archive being constructed to facilitate research. The modular design will facilitate extension to additional data sources and classification schemas. We collected reports (N=4,169) from two cytogenetics laboratories for patients newly diagnosed with AML at an academic hospital between 2008 and 2014. We split random subsets of these reports into training and testing sets. For training and testing, cytogenetic reports were matched to a research database of manual cytogenetic interpretations using patient identifier and report date. In addition to the standard SWOG risk category labels, the research database supplied a label of \"not done.\" Results: We trained our algorithm on 1,058 reports and tested it with 1,301 reports (See table). We demonstrated 95.5% and 94.7% strict accuracy, respectively for training and testing sets. In testing, the algorithm failed to interpret 29 documents (2.2% of all testing records) due to incorrectly specified ISCN formulas that could not be definitively parsed. All of these reports were assigned an \"unknown\" label, indicating the need for further manual review. There were 40 (3.1% of testing records) disagreements between automated and manual interpretations. On further review, 14 (35%) of these appeared to be due to mismatched underlying data, in part due to imperfect pairing of reports and manual interpretations, in the absence of unique identifiers. Other errors included differences in the applied clonality criteria and/or the limitations of interpreting a single karyotype without considering historical and concurrent testing (45%) and the inability of our algorithm to identify some implied abnormalities not explicitly specified by ISCN (15%). Conclusions: We developed an automated program that rapidly interprets karyotype reports for AML risk classification with ~95% accuracy. We plan to improve our interpretation algorithm to better identify implied abnormalities and update our risk classification to reflect the most recent SWOG risk classification guidelines. This tool should dramatically decrease the barrier to incorporating cytogenetic data in research studies and potentially improve the accuracy of clinical interpretations. Table 1. Confusion matrix of test set results  . System output labels . Manual data labels . Favorable . Insufficient . Intermediate . Miscellaneous . Not done . Unfavorable . Unknown . Total .  Favorable  20 1 1 1 0 3 2 28  Insufficient  0 74 0 0 0 2 9 85  Intermediate  1 1 818 0 0 0 2 822  Miscellaneous  0 0 1 45 0 2 1 49  Not done  0 2 2 1 0 2 4 11  Unfavorable  0 5 8 5 0 275 11 304  Unknown  0 1 0 0 0 1 0 2  Total  21 84 830 52 0 285 29 1301 . System output labels . Manual data labels . Favorable . Insufficient . Intermediate . Miscellaneous . Not done . Unfavorable . Unknown . Total .  Favorable  20 1 1 1 0 3 2 28  Insufficient  0 74 0 0 0 2 9 85  Intermediate  1 1 818 0 0 0 2 822  Miscellaneous  0 0 1 45 0 2 1 49  Not done  0 2 2 1 0 2 4 11  Unfavorable  0 5 8 5 0 275 11 304  Unknown  0 1 0 0 0 1 0 2  Total  21 84 830 52 0 285 29 1301 View Large Disclosures No relevant conflicts of interest to declare."
 }
