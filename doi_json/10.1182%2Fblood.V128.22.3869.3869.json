@@ -2,5 +2,39 @@
     "doi": "https://doi.org/10.1182/blood.V128.22.3869.3869",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3537",
     "start_url_page_num": 3537,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Single-Cell Resolution of Human Pluripotent Stem Cell Derived Hemato-Endothelial Cells Reveals Distinct Transcriptional Signatures of Hemogenic Endothelium ",
+    "article_date": "December 2, 2016",
+    "session_type": "501. Hematopoietic Stem and Progenitor Biology: Poster III",
+    "topics": [
+        "5'-nucleotidase",
+        "biological markers",
+        "cd31 antigens",
+        "cd34 antigens",
+        "cd45 antigens",
+        "culture media",
+        "endothelium",
+        "intracardiac electrogram",
+        "massively-parallel genome sequencing",
+        "stem cells, pluripotent"
+    ],
+    "author_names": [
+        "Mathew Angelos",
+        "Juan Abrahante",
+        "Dan Kaufman, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "University of Minnesota, Minneapolis, MN "
+        ],
+        [
+            "University of Minnesota, Minneapolis, MN "
+        ],
+        [
+            "University of California- San Diego, La Jolla, CA"
+        ]
+    ],
+    "first_author_latitude": "44.97399",
+    "first_author_longitude": "-93.2277285",
+    "abstract_text": "Hemogenic endothelium is a rare and highly specialized subset of vascular endothelial cell that functions as a precursor cell population to definitive blood development. One of the mechanistic hallmarks of definitive hematopoiesis is the endothelial-to-hematopoietic transition (EHT), a process where hemogenic endothelial cells phenotypically switches to produce a detached and free-moving hematopoietic cell. While EHT has been visualized both in vitro and in vivo via lineage tracing studies, the regulation of this fate change at both a cellular and molecular level remains unclear. Human pluripotent stem cells, such as human embryonic stem cells (hESCs) and induced pluripotent stem cells (hiPSCs) can serve as a useful platform to characterize human hemogenic endothelium and to understand basic mechanisms underlying human EHT. We hypothesized that human hemogenic endothelium derived from hESCs is phenotypically and transcriptionally distinct from other vascular endothelial cells and hematopoietic progenitor cells. To identify human hemogenic endothelium, we used combined expression of endothelial cell surface antigens and RUNX1c expression via a fluorescent reporter previously validated in our lab. Specifically, we employed defined culture methods to differentiate hemogenic endothelial cells (HE) and vascular endothelial cells without hematopoietic potential (non-HE) from hESC harboring a RUNX1c-tdTomato reporter (hESC-RUNX1c-tdTomato). At Day 11 of differentiation, CD31 + CD144 + endothelial cells were present, with approximately 40% of these cells tdTomato + . We next sorted HE (CD31 + CD144 + CD41 - CD43 - CD45 - CD73 - tdTomato + ) and non-HE (CD31 + CD144 + CD41 - CD43 - CD45 - CD73 - tdTomato - ) and cultured both populations in endothelial growth media (EGM) or hematopoietic growth media. HE retained characteristic cobblestone morphology and CD31 expression over the course of 5 days in EGM similar to control human umbilical vein endothelial cells. HE, but not non-HE, was able to generate non-adherent, tdTomato + hematopoietic progenitor cells in hematopoietic growth media. Using these defined cell populations, we next performed single-cell RNASeq on HE, non-HE, and early hematopoietic progenitor cells (HP; CD34 + CD43 + tdTomato + ). We captured a total of 55 HE, 47 non-HE, and 35 HP using the Fluidgm C1 single cell system and performed next generation sequencing of validated libraries. We analyzed single cell gene expression using Seurat, an R-based bioinformatics software package developed for the analysis of single cell NGS experiments. Populations were first validated based on expression of known genetic identifiers for vascular endothelium, hemogenic endothelium, and hematopoietic progenitor cells. HE and HP were both highly enriched for CDH5 , ERG , ESAM , and FLI as compared to non-HE; these genes have been previously implicated in HE functionality. All single cell transcriptional profiles were similarly enriched for KDR, PECAM1, and LMO2 , which are characteristic genes expressed in vascular endothelium. We next performed t-distributed stochastic neighbor embedding (t-SNE) using statistically significant principal components to distinguish groups of cells with similar transcriptional expression. Interestingly, we found overlap between individual HE and HP cells (Cluster 1); however, these cells were distinct from two, separate clusters of non-HE (Cluster 2 & 3; Figure 1 ). Further analysis of these clusters revealed novel biomarkers for HE/HP, such as TIMP3 (DGE: 2.06, Power: 0.91), ERG (DGE: 2.08, Power: 0.83) , NOTCH4 (DGE: 2.35, Power: 0.78) , and HEY1 (DGE: 2.47, Power: 0.74) , Non-HE were found to cluster into two, distinct groups (Clusters 2 and 3), with Cluster 3 enriched for extracellular matrix genes ( COL1A1 (DGE: 6.58, Power: 1.00), DCN (DGE: 6.09, Power: 1.00), VCAN (DGE: 3.55, Power: 1.00), FN1 (DGE: 2.19, Power: 0.96)). This profile suggests that some hESC-derived non-HE further differentiate into mesenchymal cells, in a process known as the endothelial-to mesenchymal transition (EndMT). Taken together, we demonstrate that hESC-derived HE and HP share a common developmental pathway, while non-HE is heterogeneous, but transcriptionally distinct. Our novel findings will be instrumental for testing new genetic targets to optimize the production of definitive hematopoietic cells. Figure 1 View large Download slide t-SNE analysis of individual HE, non-HE, and HP cells. Figure 1 View large Download slide t-SNE analysis of individual HE, non-HE, and HP cells.  Disclosures Kaufman: Fate Therapeutics: Consultancy."
 }
