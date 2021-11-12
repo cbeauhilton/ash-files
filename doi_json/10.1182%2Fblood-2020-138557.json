@@ -2,5 +2,41 @@
     "doi": "https://doi.org/10.1182/blood-2020-138557",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4520",
     "start_url_page_num": 4520,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Identification of a Warm Autoimmune Hemolytic Anemia (wAIHA) Population Using Predictive Analytics of a Known Clinically Profiled Cohort ",
+    "article_date": "November 5, 2020",
+    "session_type": "101.Red Cells and Erythropoiesis, Structure and Function, Metabolism, and Survival, Excluding Iron",
+    "topics": null,
+    "author_names": [
+        "Keith R McCrae, MD",
+        "Jennifer Beachell",
+        "Tricia Gooljarsingh, PhD",
+        "Mary Lee Tjoa, PhD",
+        "Graham K Jones, PhD",
+        "Julieanna K Gubitosa"
+    ],
+    "author_affiliations": [
+        [
+            "Taussig Cancer Institute, Cleveland Clinic Lerner College of Medicine, Cleveland Clinic, Cleveland, OH ",
+            "Cardiovascular & Metabolic Sciences, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Momenta Pharmaceuticals, Inc, Cambridge, MA "
+        ],
+        [
+            "Medical Affairs and Communications, Cambridge, MA "
+        ],
+        [
+            "Director of Medical Affairs, Momenta Pharmaceuticals, Boston, MA "
+        ],
+        [
+            "Director of Client Engagement, IPM.ai, Cambridge, MA "
+        ],
+        [
+            "Director of Integration and Analytics, IPM.ai, Cambridge, MA"
+        ]
+    ],
+    "first_author_latitude": "41.5017263",
+    "first_author_longitude": "-81.6160094",
+    "abstract_text": "Introduction The clinical presentation of warm autoimmune hemolytic anemia (wAIHA), a rare, Ig-G mediated disorder, has not been well studied. There is no diagnosis code specific for wAIHA, presenting challenges in identifying wAIHA patients and assessing the clinical course of the disease. For this study, we aimed to 1) identify a wAIHA cohort using a collection of specific diagnostic codes, 2) evaluate whether a collection of diagnostic codes could bisect severe versus non-severe wAIHA patients, 3) observe the frequency of comorbidities and anemia symptoms in severe and non-severe wAIHA groups, and 4) use a predictive model to validate clinical variables and prevalence estimates. Methods A de-identified, longitudinal, patient-level claims database of >300 million US patients was used for this study. wAIHA patients were identified based on a diagnosis code of \"autoimmune hemolytic anemia\" (AIHA) with multiple distinct events within 36 months. Patients were required to have at least 30 days use of steroids over 36 months, and utilization of a known drug regimen for treatment of an autoimmune disorder. Patients were classified as severe if claims related to transfusion or blood composition testing or if high frequency interactions with a hematologist were observed in the 36-month period were. Codes for comorbidities, treatments, and procedures were grouped and analyzed within the most recent 12 months for each patient. Prevalence was estimated using AI/ML Lookalike modeling, using the known wAIHA patients as the positive training class. Results A cohort of 1,548 wAIHA patients was identified. Median patient age was >65 years, and patients were evenly distributed by gender. Patients showed evidence of anemia, anemia symptomology (such as shortness of breath, cough, and fatigue), and wAIHA-specific testing and treatments. The rate of disease-relevant claims was disproportionately higher in the severe cohort versus the non-severe cohort; over the 12 month study period, variances ranged from 61% higher (for anemia-based comorbidity codes) to as high as 570% higher (for anemia-based procedural codes). Primary hypertension, hyperlipidemia, gastro-esophageal reflux, and evidence of chemotherapy use were also present in wAIHA patients; all of these conditions were observed more frequently for severe patients. Of interest, lupus was observed more frequently in the non-severe wAIHA cohort. Almost 44% of wAIHA claims for the full cohort were associated with Hospital/Emergency care - 48% for the severe group. AI/ML modeling predicted patients using claims variables for hemolytic anemia, other blood count abnormalities, and medical procedure claims commonly used for the diagnosis and management of wAIHA patients (such as Coombs and haptoglobin testing). The predicted population supports reported US prevalence estimates of 30,000-49,000 patients. Conclusions We developed and validated a method for defining wAIHA patients using de-identified claims data based on AIHA ICD-10 codes and relevant treatments. We observed that while disease manifestations are generally the same, there is an increased rate of occurrence in the severe cohort during the same 12-month period. This increase was associated with higher utilization of healthcare resources. The comorbidity of lupus was more commonly associated with less severe wAIHA patients; this may indicate that, despite comorbidities, a sharper clinical focus is placed on the wAIHA condition itself when managing more severe patients. Disclosures McCrae: Dova: Consultancy; Momenta Pharmaceuticals: Consultancy; Novartis: Honoraria; Rigel: Consultancy. Beachell: Momenta Pharmaceuticals: Current Employment. Gooljarsingh: Momenta Pharmaceuticals: Current Employment. Tjoa: Momenta Pharmaceuticals: Current Employment. Jones: IPM.ai: Current Employment. Gubitosa: IPM.ai: Current Employment."
 }
