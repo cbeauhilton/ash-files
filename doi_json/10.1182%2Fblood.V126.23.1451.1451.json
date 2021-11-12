@@ -2,5 +2,81 @@
     "doi": "https://doi.org/10.1182/blood.V126.23.1451.1451",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3252",
     "start_url_page_num": 3252,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Assessment of T-Cell Receptor Repertoire and Clonal Expansion in Peripheral T-Cell Lymphoma Using RNA-Seq Data ",
+    "article_date": "December 3, 2015",
+    "session_type": "622. Non-Hodgkin Lymphoma: Biology, excluding Therapy: Poster I",
+    "topics": [
+        "infectious mononucleosis",
+        "lymphoma, t-cell, peripheral",
+        "rna",
+        "t-cell receptor",
+        "clonal expansion",
+        "angioimmunoblastic lymphadenopathy",
+        "ki-1+ anaplastic large cell lymphoma",
+        "clonality (genetic analysis)",
+        "dna",
+        "neoplasms"
+    ],
+    "author_names": [
+        "Chao Wang, MD",
+        "Qiang Gong, PhD",
+        "Weiwei Zhang",
+        "Javeed Iqbal, PhD",
+        "Yang Hu",
+        "Timothy C. Greiner, MD",
+        "Adam Cornish",
+        "Raul Rabadan, PhD",
+        "Francesco Abate, PhD",
+        "Xin Wang, MD PhD",
+        "Giorgio Inghirami, MD",
+        "McKeithan W. Timothy, MD PhD",
+        "Wing C Chan, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Pathology, City of Hope Medical Center, Duarte, CA ",
+            "Department of Pathology and Microbiology, University of Nebraska Medical Center, Omaha, NE ",
+            "Department of Hematology, Shandong Provincial Hospital affiliated to Shandong University, Jinan, China "
+        ],
+        [
+            "Department of Pathology, City of Hope Medical Center, Duarte, CA "
+        ],
+        [
+            "Department of Pathology and Microbiology, University of Nebraska Medical Center, Omaha, NE "
+        ],
+        [
+            "Department of Pathology and Microbiology, University of Nebraska Medical Center, Omaha, NE "
+        ],
+        [
+            "Department of Pathology and Microbiology, University of Nebraska Medical Center, Omaha, NE "
+        ],
+        [
+            "Department of Pathology and Microbiology, University of Nebraska Medical Center, Omaha, NE "
+        ],
+        [
+            "Department of Pathology and Microbiology, University of Nebraska Medical Center, Omaha, NE "
+        ],
+        [
+            "Department of Biomedical Informatics, Columbia University, New York, NY "
+        ],
+        [
+            "Department of Biomedical Informatics, Columbia University, New York, NY "
+        ],
+        [
+            "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong University, Jinan, China "
+        ],
+        [
+            "Department of Pathology and Laboratory Medicine, Weill Cornell Medical College, New York, NY"
+        ],
+        [
+            "Department of Pathology, City of Hope Medical Center, Duarte, CA "
+        ],
+        [
+            "Department of Pathology, City of Hope Medical Center, Duarte, CA "
+        ]
+    ],
+    "first_author_latitude": "34.129377899999994",
+    "first_author_longitude": "-117.97189175",
+    "abstract_text": "Introduction: Diversity of the T-cell receptor (TCR) repertoire reflects the initial V(D)J recombination events as shaped by selection by self and foreign antigens. Next generation sequencing is a powerful method for profiling the TCR repertoire, including sequences encoding complementarity-determining region 3 (CDR3). Peripheral T-cell lymphoma (PTCL) is a group of malignancies that originate from mature T-cells. T-cell clonality of PTCL is routinely evaluated with a PCR-based method to detect TCR gamma and less frequently beta chain rearrangements using genomic DNA. However, there are limitations with this approach, chief among which is the lack of sequence information. To date, the TCR repertoire of different subtypes of PTCL remains poorly defined. Objective : The purpose of this study was to determine the utility of RNA-seq for assessing T-cell clonality and analyzing the TCR usage in PTCL samples. Methods: We analyzed RNA-seq data from 30 angioimmunoblastic T-cell lymphoma (AITL), 23 Anaplastic large cell lymphoma (ALCL), 10 PTCL-NOS, and 17 NKCL. Data from na\u00efve T cells, TFH cells, and T-effector cells (CD4 + CD45RA \u2212 TCR\u03b2 + PD-1 lo CXCR5 lo PSGL-1 hi ) were obtained from publicly available resources. Referenced TCR and immunoglobulin transcripts according to the International ImMunoGeneTics Information System (IMGT) database were quantified by Kallisto software. We divided the pattern of V\u03b2 (T-cell receptor beta variable region) into three categories: monoclonal (mono- or bi-allelic), oligoclonal (3-4 dominant clones), and polyclonal. CDR3 sequences were extracted by MiXCR program. PCR of the gamma chain using genomic DNA was utilized to validate the clonality of selected cases. Single nucleotide variants (SNVs) were called from aligned RNA-seq data using Samtools and VarScan 2 programs. Results: Analysis of RNA-seq data identified preferential usage of TCR-V\u03b2, D\u03b2 (diversity region), and J\u03b2 (joining region), length diversity of CDR3, and usage of nontemplated bases. Dominant clones could be identified by transcriptome sequencing in most cases of AITL (21/30), ALCL (14/23), and PTCL-NOS (7/10). Median CDR3 length is 42 nucleotides (nt) in normal T cells, 41 nt in ALCL, 48 nt in PTCL-NOS, and 44 nt in AITL. In 30 AITL samples, 20 showed monoclonal V\u03b2 with a single peak, and 9 showed polyclonal V\u03b2. One case had two dominant clones with different CDR3, only one of which was in frame, implying biallelic rearrangements. As many as 3511 clones supported by at least four reads could be detected in polyclonal cases. In monoclonal cases, the dominant clone varied between 11.8% and 92.8% of TCR with V\u03b2 rearrangements. TRBV 20-1, which is the most commonly used segment in normal T cells, is also frequently used in the dominant clones in AITL. The monoclonal AITL cases showed mutation of TET2 , RHOA , DNMT3A or IDH2 whereas most of the polyclonal cases were negative or had low VAF mutation suggesting low or absent of tumor infiltrate in the specimen sequenced. There is no obvious correlation of any of the mutations with V\u03b2 usage. Clonal B cell expansion was noted in some AITL samples. The occurrence of a preferential TRBV9 expansion in PTCL-NOS was striking. More than half of ALCL samples (14/23) showed expression of clonal V\u03b2, but 3/14 dominant clones were out-of-frame. \u03b3 chain expression was very low in cells expressing TCR\u03b1\u03b2, but both expression levels and clonality were higher in TCR\u03b3\u03b4 expressing tumors. NKCL did not express significant levels of TCR V\u03b2 or V\u03b3 genes. Discussion/Interpretation: Transcriptome sequencing is a useful tool for understanding the TCR repertoire in T cell lymphoma and for detecting clonality for diagnosis. Clonal, often out-of-frame, V\u03b2 transcripts are detectable in most ALCL cases and preferential TRBV9 usage is found in PTCL-NOS. Disclosures No relevant conflicts of interest to declare."
 }
