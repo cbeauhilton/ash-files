@@ -2,5 +2,63 @@
     "doi": "https://doi.org/10.1182/blood.V126.23.4249.4249",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3174",
     "start_url_page_num": 3174,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Scattome: A Single-Cell Analysis of Targeted Transcriptome Program to Predict Drug Sensitivity of Single Cells within Human Myeloma Tumors ",
+    "article_date": "December 3, 2015",
+    "session_type": "653. Myeloma: Therapy, excluding Transplantation: Poster III",
+    "topics": [
+        "multiple myeloma",
+        "neoplasms",
+        "gene expression profiling",
+        "polymerase chain reaction",
+        "antineoplastic agents",
+        "dna, complementary",
+        "pharmacotherapy",
+        "proteasome inhibitors",
+        "sequence analysis, dna",
+        "tumor cells"
+    ],
+    "author_names": [
+        "Amit Kumar Mitra, PhD",
+        "Ujjal Mukherjee, PhD",
+        "Taylor Harding",
+        "Holly Stessman, PhD",
+        "Ying Li",
+        "Jen Jin",
+        "Shaji K Kumar, MD",
+        "S. Vincent Rajkumar",
+        "Brian G Van Ness, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Genetics, Cell Biology and Development, University of Minnesota, Minneapolis, MN "
+        ],
+        [
+            "School of Statistics, University of Minnesota, Minneapolis, MN "
+        ],
+        [
+            "Department of Genetics, Cell Biology and Development, University of Minnesota, Minneapolis, MN "
+        ],
+        [
+            "Department of Genetics, Cell Biology and Development, University of Minnesota, Minneapolis, MN "
+        ],
+        [
+            "Bioinformatics Core, Center for Individualized Medicine, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Medical Genome Facility Gene Expression Core, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN"
+        ],
+        [
+            "Division of Hematology, Mayo Clinic, Rochester, MN"
+        ],
+        [
+            "Department of Genetics, Cell Biology and Development, University of Minnesota, Minneapolis, MN "
+        ]
+    ],
+    "first_author_latitude": "44.973174099999994",
+    "first_author_longitude": "-93.2336443",
+    "abstract_text": "Multiple myeloma (MM) is characterized by significant genetic diversity at subclonal levels that likely plays a defining role in the heterogeneity of tumor progression, clinical aggressiveness and drug sensitivity. Such heterogeneity is a driving factor in the evolution of MM, from founder clones through outgrowth of subclonal fractions. DNA Sequencing studies on MM samples have indeed demonstrated such heterogeneity in subclonal architecture at diagnosis based on recurrent mutations in pathologically relevant genes that may ultimately to lead to relapse. However, no study so far has reported a predictive gene expression signature that can identify, distinguish and quantify drug sensitive and drug-resistant subpopulations within a bulk population of myeloma cells. In recent years, our laboratory has successfully developed a gene expression profile (GEP)-based signature that could not only distinguish drug response of MM cell lines, but also was effective in stratifying patient outcomes when applied to GEP profiles from MM clinical trials using proteasome inhibitors (PI) as chemotherapeutic agents. Further, we noted myeloma cell lines that responded to the drug often contained residual sub-population of cells that did not respond, and likely were selectively propagated during drug treatment in vitro , and in patients. In this study, we performed targeted qRT-PCR analysis of single cells using a gene panel that included PI sensitivity genes and gene signatures that could discriminate between low and high-risk myeloma followed by intensive bioinformatics and statistical analysis for the classification and prediction of PI response in individual cells within bulk multiple myeloma tumors. Fluidigm's C1 Single-Cell Auto Prep System was used to perform automated single-cell capture, processing and cDNA synthesis on 576 pre-treatment cells from 12 cell lines representing a wide range of PI-sensitivity and 370 cells from 7 patient samples undergoing PI treatment followed by targeted gene expression profiling of single cells using automated, high-throughput on-chip qRT-PCR analysis using 96.96 Dynamic Array IFCs on the BioMark HD System. Probability of resistance for each individual cell was predicted using a pipeline that employed the machine learning methods Random Forest, Support Vector Machine (radial and sigmoidal), LASSO and kNN (k Nearest Neighbor) for making single-cell GEP data-driven predictions/ decisions. The weighted probabilities from each of the algorithms were used to quantify resistance of each individual cell and plotted using Ensemble forecasting algorithm. Using our drug response GEP signature at the single cell level, we could successfully identify distinct subpopulations of tumor cells that were predicted to be sensitive or resistant to PIs. Subsequently, we developed a R Statistical analysis package (http://cran.r-project.org), SCATTome (Single Cell Analysis of Targeted Transcriptome), that can restructure data obtained from Fluidigm qPCR analysis run, filter missing data, perform scaling of filtered data, build classification models and successfully predict drug response of individual cells and classify each cell's probability of response based on the targeted transcriptome. We will present the program output as graphical displays of single cell response probabilities. This package provides a novel classification method that has the potential to predict subclonal response to a variety of therapeutic agents. Disclosures Kumar: Skyline: Consultancy, Honoraria; BMS: Consultancy; Onyx: Consultancy, Research Funding; Sanofi: Consultancy, Research Funding; Janssen: Consultancy, Research Funding; Novartis: Research Funding; Takeda: Consultancy, Research Funding; Celgene: Consultancy, Research Funding."
 }
