@@ -2,5 +2,50 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-113403",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4045",
     "start_url_page_num": 4045,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Developing Applicable and Cost-Efficient Screens for Early Detection of AML ",
+    "article_date": "November 29, 2018",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis I",
+    "topics": [
+        "early diagnosis",
+        "amino acids",
+        "calculi",
+        "cancer",
+        "cancer screening",
+        "follow-up",
+        "hematologic neoplasms",
+        "leukemia, myelocytic, acute",
+        "data mining",
+        "aves"
+    ],
+    "author_names": [
+        "Sagi Abelson",
+        "Stanley W.K. Ng",
+        "Ting Ting Wang",
+        "Scott V. Bratman",
+        "John E. Dick"
+    ],
+    "author_affiliations": [
+        [
+            "Princess Margaret Cancer Centre, University Health Network (UHN), Toronto, Canada "
+        ],
+        [
+            "Institute of Biomaterials and Biomedical Engineering, University of Toronto, Toronto, Canada "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network (UHN), Toronto, Canada ",
+            "Department of Medical Biophysics, University of Toronto, Toronto, Canada, Toronto, Canada "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network (UHN), Toronto, Canada ",
+            "Department of Radiation Oncology, University of Toronto, Toronto, Canada "
+        ],
+        [
+            "Princess Margaret Cancer Centre, University Health Network (UHN), Toronto, Canada ",
+            "Department of Molecular Genetics, University of Toronto, Toronto, Canada"
+        ]
+    ],
+    "first_author_latitude": "43.662944249999995",
+    "first_author_longitude": "-79.3845347",
+    "abstract_text": "Introduction The limited improvement of acute myeloid leukemia (AML) patient survival rates over the last few decades reveals that the strategy of targeting AML after diagnosis provides limited success. In many solid cancers, early detection leads to decreased morbidity and improved survival suggesting that a similar approach may benefit AML patients. Recently, we showed that the initial genomic events that drive AML can be detected years before diagnosis and that individuals at increased risk share distinct features that differentiate them from those with benign age related clonal hematopoiesis (ARCH). However, the relative high incidence of ARCH and the low incidence of AML, along with the fact that ARCH is recurrently being driven by mutations that occur in genes associated with AML, impedes complete discrimination. High sequencing costs for the relative large number of mutated genes implicated with the disease further hinders clinical adaptation. Therefore, a better strategic approach that is focussed on the most informative mutations and the development of accurate tools for data mining would better estimate the risk for AML development and create applicable and cost-efficient screens for early detection of AML. Methods We hypothesize that the majority of the power to accurately predict the development of AML can be derived by a minimal number of pre-leukemic hotspot mutations (pLHM) and that improved accuracy of mutation calling algorithms will increase the discrimination between high and low risk cases. We developed a novel approach to differentiate technical errors from true mutations by accounting for local sequence features to derive contextual error signatures. We demonstrate that Error Correction by Signatures Integration (ECSI) detects mutations at a higher sensitivity and specificity when compared to other techniques. 320 blood samples taken years before AML diagnosis and 856 controls were interrogated for the presence of pLHM. This data was used to construct an AML prediction model that was tuned to achieve 100% positive predictive value. To estimate the frequency of individuals at the highest risk for AML development in the general population, we applied the model to a total of 42,838 individuals whose blood was sequenced in four independent ARCH studies. Results ECSI revealed that some pLHM lie within signatures with particularly high error rates. For example, DNMT3A-R882H is defined by the signature G[C>T]G that has the highest sequencing error rate of all. Our analysis suggests that this mutation and others might be over reported when error signatures are not being considered. As compared with other mutation calling techniques, our analysis unbiasedly increased the discrimination between cases and controls by accurately indicating the presence of mutations in pre-AML cases and flagging others that are not significantly above their corresponding signature's error-rate in the controls. We show that a highly specific AML prediction model can be generated by targeting a small number of genomic loci corresponding to changes in only 46 amino-acids previously reported to define AML with poor outcome. Testing our model on the four ARCH datasets pointed to 103 individuals who are at the highest risk for AML development. At least 6 could have been confirmed to developed hematological cancer after sampling. Conclusions The development of a technically simple tool for data mining that is reliable and has a rapid turnaround is a critical step for clinical adaptation of sequencing-based screens for early cancer detection. We present a novel mutation calling method that fulfills such criteria and provides an improved analytical sensitivity and specificity. We found that a minimal group of pLHM carries most of the information needed to accurately predict AML development. Focusing on such a small yet an informative number of mutations provides a 'two birds, one stone' strategic approach that enables better discrimination between pre-AML and benign ARCH at reduced costs. Implementing a highly effective and affordable genomic assay is an important step enabling a wider population screen to identify the portion of individuals at the highest risk for pre-malignant cell transformation with minimal false discovery rate. Populations targeted by our prediction model should be prioritized for frequent follow-up, clinical studies and further research to elucidate additional risk-parameters. Disclosures No relevant conflicts of interest to declare."
 }
