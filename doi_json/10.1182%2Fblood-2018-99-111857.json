@@ -2,5 +2,73 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-111857",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4132",
     "start_url_page_num": 4132,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Synthetic Lethality CRISPR Screens in Isogenic iPSCs with Splicing Factor Gene Mutations ",
+    "article_date": "November 29, 2018",
+    "session_type": "636. Myelodysplastic Syndromes\u2014Basic and Translational Studies: Poster II",
+    "abstract_text": "A major recent discovery from large-scale sequencing studies was that over half of Myelodysplastic Syndromes (MDS) patients harbor mutations in splicing factor (SF) genes. SF mutations are the most common class of mutations in MDS and occur early in the course of the disease. These strongly suggest that SF mutations are key to the pathogenesis of MDS and can provide new therapeutic opportunities. However, identifying the downstream effects of SF mutations that are critical for the development of MDS presents a big challenge due to the cellular and genetic heterogeneity of primary patient samples, the unavailability of immortalized cell lines harboring SF mutations in the native genomic context and the limited conservation of alternative splicing isoforms between mice and humans. We previously showed that SF-mutant induced pluripotent stem cells (iPSCs) generated from MDS patients recapitulate key features of the disease upon differentiation into hematopoietic lineages, including cellular phenotypes (increased cell death, decreased clonogenicity and dysplastic morphology), sensitivity to splicing modulating drugs and the altered RNA binding specificity of mutant SFs (Chang et al. Stem Cell Reports, 2018). To further investigate the effects of SF mutations, we used CRISPR to introduce each of the 3 main canonical SF mutations (SRSF2 P95L, SF3B1 K700E, U2AF1 S34F) in the same normal iPSC line N-2.12 that we previously derived and extensively characterized in terms of pluripotency, genetic integrity and hematopoietic differentiation potential. The derivative iPSC lines contain the 3 SF mutations in isogenic conditions in the context of a diploid genome, in a heterozygous state, with both the normal and mutant alleles expressed at physiological and equal levels. To uncover potential new therapeutic targets and gain insights into the downstream effects of SF mutations, we set up CRISPR knockout (KO) lethality screens in hematopoietic progenitor cells (HPCs) derived from these SF-mutant iPSCs. We began with a gRNA library containing 224 gRNAs targeting 57 kinase genes (4 gRNAs per gene). The library was assembled and packaged in a lentiviral backbone also expressing GFP. Cas9 together with mCherry was expressed from a separate lentiviral vector. iPSCs were differentiated along the hematopoietic lineage, transduced on day 11, coinciding with the onset of the emergence of CD34 + /CD45 + HPCs, and further cultured for up to day 27 to allow \"dropout\" of lethal genes, read out by next-generation sequencing (NGS). We titrated the lentiviral vectors to obtain transduction efficiency of nearly 100% for the Cas9 vector and up to 40-50% for the gRNA library (in order to obtain the highest percentage of cells harboring a single gRNA) in 500,000 HPCs, to ensure representation of the library of at least 500 cells per gRNA. To avoid population bottlenecks, we ensured that at least 500,000 cells were present in the culture at all times. All library gRNAs were present in the transduced cells and their distribution correlated tightly with that of the lentiviral supernatant. Technical repeats of independently prepared DNA samples, independent PCR reactions and independently generated NGS reads showed high reproducibility and absence of batch effects. The library was screened in 3 independent clones harboring each of the 3 canonical SF mutations, as well as in 3 clones of the parental normal line. This design allows the identification of potential convergent genes or pathways downstream of the 3 SF mutations and exclusion of non-synthetically lethal targets (which would also drop out in the isogenic normal cells). CRISPR scores were calculated as the average of the log of the final vs initial abundance of all gRNAs per gene, and showed a distribution consistent with the expectation that the majority of the gRNAs do not have a major impact on cell viability. Experiments with evidence of random genetic drifts from the CRISPR scores distribution were excluded from the analyses. Initial hits, defined as kinase genes with targeting gRNAs consistently depleted in SF-mutant lines of all 3 genotypes, but not in the normal isogenic cells are being validated with individual gene knockout and small molecule inhibition. In parallel, we are setting up CRISPR screens in expandable HPCs (eHPCs) derived from iPSCs. The latter can be expanded in culture for several weeks and could enable screening of larger or even genome-wide gRNA libraries. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "cd34 antigens",
+        "cd45 antigens",
+        "crispr",
+        "dna",
+        "dysplasia",
+        "gene knockout techniques",
+        "massively-parallel genome sequencing",
+        "mutation",
+        "myelodysplastic syndrome",
+        "phosphotransferases"
+    ],
+    "author_names": [
+        "Henrik Sperber, PhD",
+        "Shailee Vora, BS, MS",
+        "Andriana G. Kotini, PhD",
+        "Malgorzata Olszewska, MS",
+        "Aleksandra Wroblewska, PhD",
+        "Brian Brown, PhD",
+        "Eirini P. Papapetrou, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Oncological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Black Family Stem Cell Institute, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Department of Medicine, Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY "
+        ],
+        [
+            "Department of Oncological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Black Family Stem Cell Institute, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Department of Medicine, Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY "
+        ],
+        [
+            "Department of Oncological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Black Family Stem Cell Institute, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Department of Medicine, Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY "
+        ],
+        [
+            "Department of Oncological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Black Family Stem Cell Institute, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Department of Medicine, Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY "
+        ],
+        [
+            "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Precision Immunology Institute, Icahn School of Medicine at Mount Sinai, New York, NY"
+        ],
+        [
+            "Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Precision Immunology Institute, Icahn School of Medicine at Mount Sinai, New York, NY"
+        ],
+        [
+            "Department of Oncological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Black Family Stem Cell Institute, Icahn School of Medicine at Mount Sinai, New York, NY ",
+            "Department of Medicine, Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY "
+        ]
+    ],
+    "first_author_latitude": "40.7882342",
+    "first_author_longitude": "-73.9531111"
 }
