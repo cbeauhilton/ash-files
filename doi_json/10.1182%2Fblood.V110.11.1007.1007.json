@@ -2,5 +2,47 @@
     "doi": "https://doi.org/10.1182/blood.V110.11.1007.1007",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=970",
     "start_url_page_num": 970,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Transcriptomal Profile for Predicting Complete Cytogenetic Response (CCR) in Chronic Phase CML Patients Treated with Imatinib. ",
+    "article_date": "November 16, 2007",
+    "session_type": "Chronic Myeloid Leukemia - Biology and Pathophysiology excluding Therapy",
+    "topics": [
+        "cytogenetics",
+        "imatinib mesylate",
+        "leukemia, myeloid, chronic-phase",
+        "rna",
+        "complement system proteins",
+        "gene expression profiling",
+        "transcription factor",
+        "complementary rna",
+        "cryopreservation",
+        "disease progression"
+    ],
+    "author_names": [
+        "Shannon K. McWeeney, PhD",
+        "Lucy C. Pemberton, MD",
+        "Chris A. Harrington, PhD",
+        "Brian J. Druker, MD",
+        "Michael W. Deininger, MD, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "OHSU Cancer Institute, Oregon Health and Science University, Portland, OR, USA"
+        ],
+        [
+            "Department of Haematology, Royal Victoria Infirmary, Newcastle upon Tyne, United Kingdom"
+        ],
+        [
+            "OHSU Cancer Institute, Oregon Health and Science University, Portland, OR, USA"
+        ],
+        [
+            "OHSU Cancer Institute, Oregon Health and Science University, Portland, OR, USA"
+        ],
+        [
+            "OHSU Cancer Institute, Oregon Health and Science University, Portland, OR, USA"
+        ]
+    ],
+    "first_author_latitude": "45.45476179999999",
+    "first_author_longitude": "-122.6910763",
+    "abstract_text": "Background: Patients with chronic phase CML who achieve a complete cytogenetic response (CCR) have a low risk of disease progression. Since patients unlikely to achieve CCR may benefit from more aggressive therapy up-front, prediction of response prior to therapy would be useful. Our previous work has demonstrated that the gene expression profiles of unselected leukemia cells from prospective cytogenetic responders and non-responders are similar ( Crossman et al. Haematologica  90 (4): 459 \u201364, 2005 ). Based on the hypothesis that cytogenetic refractoriness may be a property of leukemic progenitor rather than differentiated cells, we explored gene expression profiling of CD34+ cells as a tool for predicting CCR. Methods: Two independent data sets were generated. The first data set (learning set) was based on patients with CML who had either achieved a CCR within 1 year of imatinib therapy (R, n = 24), or remained at least 65% Ph+ (NR, n = 12). The prospectively collected, completely independent validation data set was based on 23 additional subjects using the same criteria (17 R and 6 NR). For the learning set CD34+ cells were isolated by FACS from bone marrow or peripheral mononuclear cells cryopreserved prior to imatinib therapy. For the validation set CD34+ were isolated from fresh cells using immunomagnetic columns. RNA was extracted and samples with \u22655ng of high quality total RNA were amplified and labelled with the Affymetrix two cycle cDNA synthesis and IVT labeling protocol using <20ng input RNA; 10\u03bcg of labelled target cRNA were hybridized to Affymetrix HG-U133 Plus 2.0 GeneChip\u00ae arrays. For both data sets, low-level analysis was done using Robust MultiArray Average (RMA) and gene-by-gene ANOVA was performed to determine differential expression between NR and R. Both statistical significance and effect size used to filter the ANOVA results. Parameters for the classification algorithms were chosen by nested cross-validation procedures. The classifier generated from the first study was then applied to the blinded validation set. Functional annotation clustering and over-representation analysis was also performed. Results: On the validation set, the classifier had an estimated accuracy rate of 85.7%. Based on transcript annotation analysis, there is significant over-representation of trancripts related to cell cycle, complement and coagulation, and apoptosis, among others. A functional cluster was identified related to regulation of transcription. Transcription factors up-regulated in cells from patients with subsequent cytogenetic refractoriness included ZNF168, MEIS1, KLF2, NFIB, MAF, FOSB and EGR1. In contrast, we found down-regulation of SERPINA1, THBD and PLAUR, a sub-network in the complement and coagulation cascades pathway that is associated with cell adhesion and migration. Conclusions: The transcriptional profiles of CD34+ cell from prospective cytogenetic responders and non-responders are distinct. A classifier based on the learning set predicted cytogenetic response in a totally independent validation set with \u223c86% accuracy, making this one of the first prospectively validated classifiers. Examination of functional annotation for the transcripts in the classifier identified several functional clusters that are highly correlated with respect to direction of response (e.g. transcription factors) and may drive the biology of cytogenetic refractoriness."
 }
