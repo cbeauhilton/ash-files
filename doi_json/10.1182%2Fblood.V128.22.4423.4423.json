@@ -2,5 +2,43 @@
     "doi": "https://doi.org/10.1182/blood.V128.22.4423.4423",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3449",
     "start_url_page_num": 3449,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A 13-Glycosylation Gene Signature in Multiple Myeloma Can Predicts Survival and Identifies Candidates for Targeted Therapy (GiMM13) ",
+    "article_date": "December 2, 2016",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster III",
+    "topics": [
+        "gene expression profiling",
+        "glycosylation",
+        "molecular targeted therapy",
+        "multiple myeloma",
+        "ligands",
+        "polysaccharides",
+        "selectins",
+        "e-selectin",
+        "glycolipids",
+        "n-acetylneuraminic acid"
+    ],
+    "author_names": [
+        "Caoilfhionn Connolly, MB BCh BAO",
+        "Alokkumar Jha, MS",
+        "Alessandro Natoni, PhD",
+        "Michael E O'Dwyer, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Hematology, National University of Ireland, Biosciences, Galway, Ireland "
+        ],
+        [
+            "Insight Centre for Data Analytics, National University of Ireland, Galway, Galway, Ireland "
+        ],
+        [
+            "Department of Hematology, National University of Ireland, Biosciences, Galway, Ireland "
+        ],
+        [
+            "Department of Hemtology, National University of Ireland, Biosciences, Galway, Ireland"
+        ]
+    ],
+    "first_author_latitude": "53.279154899999995",
+    "first_author_longitude": "-9.0617372",
+    "abstract_text": "Introduction Advances in genomics have highlighted the potential for individualized prognostication and therapy in multiple myeloma (MM). Previously developed gene expression signatures have identified patients with high risk (Kuiper et al, Blood 2016) however, they provide few insights into underlying disease biology thereby limiting their use in informing treatment decisions. Glycosylation is deregulated in MM (Glavey et al), and potential consequences include altered cell adhesion, signaling, immune evasion and drug resistance. In this study we have utilized RNA sequencing data from the IA7 CoMMpass cohort to characterize the expression profile of genes involved in glycosylation. This represents a novel approach to identify a distinct molecular pathway related to outcome, which is potentially actionable. Methods A pathway based approach was adopted to evaluate genes implicated in glycosylation, including the generation of selectin ligands. A literature review and KEGG pathway analysis of pathways relating to O-glycans, N-glycans, sialic acid metabolism, glycolipid synthesis and metabolism was completed. RNA Cufflinks-gene level FPKM expression of 458 patients enrolled in the IA7 cohort of the Multiple Myeloma Research Foundation (MMRF) CoMMpass trial (NCT145429) were analysed as derivation cohort. We developed expression cut-offs using a novel approach of adjusted existing linear regression model to define the gene expression cut-off by applying 3 rd Quartile data (q1+q2/2-qmin). The analysis of overall survival (OS) was completed using adjusted 'kpas ' R-package according to our cut-off model. Association between individual transcripts and OS was analyzed with log-rank test. Genes with p-value <0.2 were used in subsequent prioritization analysis. This cut-off methodology was employed to define the nearest neighbor for a gene for Gene Set Enrichment Analysis (GSEA). As far as 4 th neighbor above and below the cut off was used to have centrally driven gene selection method for prioritization. The gene signature was validated in GSE2658 (Shaughnessy et al) dataset. Results Initial analysis yielded 184 prospective genes. 147 were significant on univariate analysis. Following further prioritization of these genes, we identified thirteen genes that had significant impact upon outcomes (GiMM13). Figure 1 reveals that GiMM13 signature has a significant correlation with inferior OS (HR 4.66 p-value 0.022). The prognostic impact of stratifying GiMM13 positive (High risk) or GiMM13 negative (Low risk) by ISS stage was evaluated. In Table 1. Kaplan Meier estimates generated for GiMM13 (High) or GiMM13 (Low) stratified by ISS are compared statistically using the log rank test. The prognostic ability of GiMM13 to synthesize distinct subgroups relative to each ISS stage is shown in Figure 2. ISS1-Low is the the lowest risk group with best prognosis. Hazard ratios relative to the ISS1-Low group were 1.8, p-value 0.029 (ISS2-Low), 2.1, p-value 0.031 (ISS3-Low), 4.3, p-value 0.04 (ISS1-HR), 5.9, p-value 0.039 (ISS2-HR) and 3.1, p-value 0.001 (ISS3-HR). The GiMM13 signature enhances the prognostic ability of ISS to identify patients with inferior or superior outcomes respectively. Conclusion While the therapeutic armamentarium for MM has expanded considerably, the significant molecular heterogeneity in the disease still poses a significant challenge. Our data suggests aberrant transcription of glycosylation genes, involved predominantly in selectin ligand synthesis, is associated with inferior survival outcomes and may help identify patients likely to benefit from treatment with agents targeting aberrant glycosylation, e.g. E-selectin inhibitor. Consistent with recent findings in chemoresistant minimal residual disease (MRD) (Paiva et al, Blood 2016), it would appear that O-glycosylation, rather than N-glycosylation is most significantly implicated in this biological processes conferring inferior outcomes. In conclusion, using a novel pathway-based approach to identify a 13-gene signature (GiMM13), we have developed a robust tool that can refine patient prognosis and inform clinical decision-making. Acknowledgment These data were generated as part of the Multiple Myeloma Research Foundation Personalized Medicine Initiatives (https://research.themmrf.org and www.themmrf.org). View large Download slide View large Download slide View large Download slide View large Download slide View large Download slide View large Download slide Disclosures O'Dwyer: Glycomimetics: Consultancy, Honoraria, Research Funding; Celgene: Consultancy, Honoraria, Research Funding; Janssen: Consultancy, Honoraria, Research Funding."
 }
