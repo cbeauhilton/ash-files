@@ -2,5 +2,71 @@
     "doi": "https://doi.org/10.1182/blood.V128.22.3193.3193",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3379",
     "start_url_page_num": 3379,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Using Machine Intelligence Algorithms to Develop a Geno-Clinical Model to Predict Responses to Hypomethylating Agents in Myelodysplastic Syndromes ",
+    "article_date": "December 2, 2016",
+    "session_type": "637. Myelodysplastic Syndromes-Clinical Studies: Poster II",
+    "topics": [
+        "artificial intelligence",
+        "azacitidine",
+        "brachial plexus neuritis",
+        "complete remission",
+        "cytopenia",
+        "decitabine",
+        "hemoglobin",
+        "myelodysplastic syndrome",
+        "partial response",
+        "prostatic hypertrophy risk score"
+    ],
+    "author_names": [
+        "Aziz Nazha, MD",
+        "Mikkael A. Sekeres, MD MS",
+        "Rafael Bejar, MD PhD",
+        "John Barnard, PhD",
+        "Karam Al-Issa, MD",
+        "Bartlomiej P Przychodzen, MSc",
+        "Matt Kalaycio, MD",
+        "Michael J. Clemente, M.S.",
+        "Cassandra M. Hirsch, BSc",
+        "Benjamin L Ebert, MD PhD",
+        "Jaroslaw P. Maciejewski"
+    ],
+    "author_affiliations": [
+        [
+            "Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Leukemia Program, Department of Hematology and Medical Oncology, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Moores Cancer Center, UCSD, La Jolla, CA "
+        ],
+        [
+            "Translational Hematology and Oncology Research Department, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Leukemia Program, Department of Hematology and Medical Oncology, Taussig Cancer Institiute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Blood and Marrow Transplant Program, Department of Hematology and Medical Oncology, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ],
+        [
+            "Division of Hematology, Brigham and Women's Hospital, Boston, MA"
+        ],
+        [
+            "Translational Hematology and Oncology Research Department, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+        ]
+    ],
+    "first_author_latitude": "41.5017263",
+    "first_author_longitude": "-81.6160094",
+    "abstract_text": "Background: While treatment with the hypomethylating agents (HMAs) azacitidine (AZA) and decitabine (DAC) improves cytopenias and prolongs survival in MDS patients (pts), only 30-40% of pts respond. Genomic and/or clinical models that can predict which pts will respond could prevent prolonged exposure to ineffective therapy, avoid toxicities and decrease unnecessary treatment costs. Machine learning (ML), a field of artificial intelligence, is an advanced computational analysis of complex data sets that can overcome some of the limitations of standard statistical methods. ML uses computational algorithms to automatically extract hidden information from a dataset by learning from relationships, patterns, and trends in the data. Thus, ML can produce powerful, reliable and reproducible predictive models based on large and complex datasets. The aim of this project is to build a geno-clinical model that uses ML algorthims to predict responses to HMAs. Methods: We screened a cohort of 433 pts with MDS who received HMAs at multiple academic institutions for the presence of common myeloid somatic mutations in 29 genes. Responses were assessed per International Working Group 2006 criteria. Five popular supervised classification ML algorithms including: random forest (RF), tree ensemble (TE), naive bayes (NB), decision tree (DT), and support vector machine (SVM) algorithms were used individually and in combination to enhance the accuracy of the proposed model (bag of model approach). For each iteration, the dataset was divided randomly into training and validation cohorts. The partition of the dataset was repeated multiple times randomly to minimize biases in pt selection. A 10-fold cross validation was also used on the entire dataset to assure data reproducibility. Important variables were selected using backward feature elimination and tree depth scores. Performance was evaluated according to the area under curve (AUC) and accuracy matrix. All analyses were done using KNIME (an open analytic platform for ML). Results: Among 433 pts, 193 (45%) received AZA, 176 (40%) DAC, and 64 (14%) received HMA +/- combination. The median age was 70 years (range, 31-100) and 28% were females. Responses included: 95 (58%) complete remission (CR), 14 (3%) marrow CR, 16 (4%) partial remission (PR), and 59 (14%) hematologic improvement (HI). For the purpose of this analysis, pts with CR/PR/HI were considered as responders. The most commonly mutated genes were: ASXL1 (31%), TET2 (22%), SRSF2 (17%), RUNX1 (15%), and DNMT3A (14%). In univariate analyses, no single mutation was more prevalent in responders compared to non-responders except NF1 (more common in non-responders, p = .04). A logistic regression multivariate analysis did not produce a reliable and reproducible model. When applying ML algorithms on learner (80% randomly selected pts) and predictor cohorts, the accuracy rate in predicting responses for RF was 64%, for TE 60%, for NB 60%, for DT 66%, and for SVM 51%. When results from each model were combined (a bag of models approach), the accuracy increased to 69%. Backward feature elimination and tree depth scores identified the following factors as predictors of response: hemoglobin  69 years, TP53 with variant allelic frequency (VAF) >15%, CBL VAF >30%, and RUNX1 VAF > 25%. Only ASXL1 mutations at any VAF were predictive of HMA resistance. Interestingly, none of the mutations were selected for response or resistance when the models did not include VAF. Neither treatment modality with azacitidine vs. decitabine vs. combination nor treatment center impacted response. When the analysis was restricted to pts with higher-risk disease by IPSS, the accuracy rate in predicting responses improved: for RF it became 71%, for TE 65%, for NB 60%, for DT 64%, and for SVM 76%. When the analysis was focused on pts who achieved CR vs. No CR, the models predicted the response differently. The RF and TE models were able to predict No CR with an accuracy rate of 75% and 76% respectively. Other models were able to predict CR and No CR with lower accuracy. Conclusion : We propose a novel geno-clinical model that uses machine intelligence to predict HMA response/resistance in pts with MDS. The model has a higher accuracy rate in higher-risk MDS pts. ML can open opportunities in translating genomic data into reliable predictive models that can aid physicians in clinical decision making. Disclosures Bejar: Celgene: Consultancy, Honoraria; Foundation Medicine: Consultancy; Genoptix: Consultancy, Honoraria, Patents & Royalties: No royalties."
 }
