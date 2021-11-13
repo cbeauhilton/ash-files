@@ -2,5 +2,48 @@
     "doi": "https://doi.org/10.1182/blood-2020-140927",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4510",
     "start_url_page_num": 4510,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Employment of Machine Learning Models Yields Highly Accurate Hematological Disease Prediction from Raw Flow Cytometry Matrix Data without the Need for Visualization or Human Intervention ",
+    "article_date": "November 5, 2020",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "topics": null,
+    "author_names": [
+        "Martha-Lena M\u00fcller, PhD",
+        "Niroshan Nadarajah",
+        "Kapil Jhalani",
+        "Inseok Heo, PhD",
+        "William Wetton",
+        "Claudia Haferlach, MD",
+        "Torsten Haferlach, MD",
+        "Wolfgang Kern, MD"
+    ],
+    "author_affiliations": [
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany "
+        ],
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany "
+        ],
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany "
+        ],
+        [
+            "Amazon Web Services, Envision Engineering, Herndon,"
+        ],
+        [
+            "Amazon Web Services, Envision Engineering, Herndon,"
+        ],
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany "
+        ],
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany "
+        ],
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany "
+        ]
+    ],
+    "first_author_latitude": "48.1080895",
+    "first_author_longitude": "11.473868",
+    "abstract_text": "Background: Machine Learning (ML) offers automated data processing substituting various analysis steps. So far it has been applied to flow cytometry (FC) data only after visualization which may compromise data by reduction of data dimensionality. Automated analysis of FC raw matrix data has not yet been pursued. Aim: To establish as proof of concept an ML-based classifier processing FC matrix data to predict the correct lymphoma type without the need for visualization or human analysis and interpretation. Methods: A set of 6,393 uniformly analyzed samples (Navios cytometers, Kaluza software, Beckman Coulter, Miami, FL) was used for training (n=5,115) and testing (n=1,278) of different ML models. Entities were chronic lymphatic leukemia (CLL) 1103 (training) and 279 (testing), monoclonal B-cell lymphocytosis (MBL, 831/203), CLL with increased prolymphocytes (CLL-PL, 649/161), lymphoplasmacytic lymphoma (LPL, 560/159), hairy cell leukemia (HCL, 328/88), mantle cell lymphoma (MCL, 259/53), marginal zone lymphoma (MZL, 90/28), follicular lymphoma (FL, 84/16), no lymphoma (1211/291). Three tubes comprising 11 parameters per tube were applied. Besides scatter signals analyzed antigens included: CD3, CD4, CD5, CD8, CD10, CD11c, CD19, CD20, CD22, CD23, CD25, CD38, CD45, CD56, CD79b, CD103, FMC7, HLA-DR, IgM, Kappa, Lambda. Measurements generated LMD files with 50,000 rows of data for each of the 11 parameters. After removing the saturated values (\u2265 1023) we produced binned histograms with 16 predefined frequency bins per parameter. Histograms were converted to cumulative distribution functions (CDF) for respective parameters and concatenated to produce a 16x11 matrix per each tube. Following the assumption of independence of parameters this simplification of concatenating CDFs represents the same information as if they were jointly distributed. The first matrix-based classifier was a decision tree model (DT), the second a deep learning model (DL) and the third was an XGBoost (XG) model, an implementation of gradient boosted decision trees ideal for structured tabular data (such as LMD files). The first set of analyses included only three classes which are readily separated by human operators: 1) CLL, 2) HCL, 3) no lymphoma. The second set included all nine entities but grouped into four classes: 1) CD5+ lymphoma (CLL, MBL, CLL-PL, MCL), 2) HCL, 3) other CD5- lymphoma (LPL, MZL, FL), 4) no lymphoma. The third set included each of the nine entities as its own class. Results: Analyzing the three classes from the first set (CLL, HCL, no lymphoma) the models achieved accuracies of 94% (DT), 95% (DL) and 96% (XG) when including all cases. By analysis of cases with prediction probabilities above 90%, DT now reached 97%, DL 97% and XG 98% accuracy, whilst losing 38%, 8% and 6% of samples, respectively. We further observed that accuracy was also dependent on the size of the pathologic clone, which is in line with the experiences from human experts with very small clones (\u2264 0.1% of leukocytes) representing a major challenge regarding their correct classification. Focusing on cases with clones > 0.1% but considering all prediction probabilities accuracies were 96% (DT), 97% (DL) and 98% (XG), with loss of 5% of samples for each model. Considering cases only with prediction probabilities > 90% and clones > 0.1% accuracies were 97% (DT), 99% (DL) and 99% (XG) whilst losing 38%, 9% and 9% of samples, respectively. Further analyses were performed applying the best model based on results above, i.e. XG. Analyzing four classes in the second set of analyses (CD5+ lymphoma, HCL, other CD5- lymphoma, no lymphoma) and considering cases only with prediction probabilities > 95% and clones > 0.1% accuracy was 96% while losing 28% of samples. In the third set of analyses with each entity assigned its own class and again considering cases only with prediction probabilities > 95% and clones > 0.1% accuracy was 93% while losing 28% of samples. Conclusions: This first ML-based classifier using the XGboost model with transforming FC matrix data to concatenated distributions, is capable of correctly assigning the vast majority of lymphoma samples analyzing FC raw data without visualization or human interpretation. Cases that need further attention by human experts will be flagged but will not account for more than 30% of all cases. This data will be extended in a prospective blinded study (clinicaltrials.gov NCT4466059). Disclosures Heo: AWS: Current Employment. Wetton: AWS: Current Employment."
 }

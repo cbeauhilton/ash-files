@@ -2,5 +2,75 @@
     "doi": "https://doi.org/10.1182/blood.V110.11.3481.3481",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=930",
     "start_url_page_num": 930,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Identification of Specific Genes Expression Signatures for CEBPa, NPM1 and FLT3 Genes Mutations in AML. A Study Based of the MILE Data Issued from 79 French Samples. ",
+    "article_date": "November 16, 2007",
+    "session_type": "Leukemias - Cytogenetics and Molecular Markers in Diagnosis and Prognosis",
+    "topics": [
+        "ccaat/enhancer binding protein alpha",
+        "flt3 gene",
+        "genes",
+        "ms-like tyrosine kinase 3",
+        "mutation",
+        "npm1 gene",
+        "leukemia",
+        "impedance threshold device",
+        "karyotype determination procedure",
+        "gene expression profiling"
+    ],
+    "author_names": [
+        "Christophe Roumier, MD",
+        "Olivier Nibourel, MD",
+        "John Devos, PHD",
+        "Pacale Cornillet-Lefebvre, MD",
+        "Sylvia Merk, PHD",
+        "Herve\u0301 Dombret, MD-PHD",
+        "Norbert Ifrah, MD-PHD",
+        "Elisabeth Macintyre, MD-PHD",
+        "Marie-Christine Bene, MD-PHD",
+        "Jean-Pierre Kerckaert, PHD",
+        "Torsten Haferlach, MD-PHD",
+        "Claude Preudhomme, PD-PHD"
+    ],
+    "author_affiliations": [
+        [
+            "U837 INSERM, IRCL, CHRU, Canceropole Nord Ouest, Lille, France"
+        ],
+        [
+            "U837 INSERM, IRCL, CHRU, Canceropole Nord Ouest, Lille, France"
+        ],
+        [
+            "U475 INSERM, CHU, Montpellier, France"
+        ],
+        [
+            "Laboratoire d\u2019Hematologie, CHU, Reims, France"
+        ],
+        [
+            "Department of Medical Informatics, University, Muenster, Germany"
+        ],
+        [
+            "He\u0301matologie, APHP, Paris, France"
+        ],
+        [
+            "Hematologie, CHU, Angers, France"
+        ],
+        [
+            "He\u0301matologie, APHP, Paris, France"
+        ],
+        [
+            "Laboratoire Immunologie, CHU, Nancy, France"
+        ],
+        [
+            "U837 INSERM, IRCL, CHRU, Canceropole Nord Ouest, Lille, France"
+        ],
+        [
+            "Munich Leukemia Laboratory, Munchen, Germany"
+        ],
+        [
+            "U837 INSERM, IRCL, CHRU, Canceropole Nord Ouest, Lille, France"
+        ]
+    ],
+    "first_author_latitude": "50.6217094",
+    "first_author_longitude": "3.0885696999999994",
+    "abstract_text": "The MILE (Microarray innovations in Leukemia) project has recently reported on the efficiency and accuracy of micro-array use in the diagnosis and sub-classification of leukemia. The MILE algorithm classifier of AML recognized 6 subgroups according to major cytogenetic findings:t(15;17), t(8;21),inv(16), MLL rearrangement, complex karyotype and a last group including normal cytogenetics and other patients. In the latter group, beside age, leucocytosis and antecedent of previous hemopathy, molecular alterations, especially of CEBPa, NPM1 and FLT3 mutations have been shown to be frequent and to have a major prognosis value. In this work, we have attempted to enhance the MILE classification of AML by examining data for a gene signature specific of each of these mutations. The study was made using the data generated from HG-U133 plus 2.0 Affymetrix arrays from the 79 AML samples included from the French study centers of MILE phase 1 trial. Among these patients with AML, according to the gold standard classification used in the MILE project were 2 t(8;21) AML, 2 inv(16) AML and the others belonging to intermediate cytogenetic group class MILE 13 (mainly patients with normal karyotype). Into the cohort, 7 samples harbored CEBPa mutations, 33 samples have NPM1 mutation and 26 samples have FLT3-ITD. Data generated from GEP profiles were combined to these molecular data to obtain predictor of mutation status. Predictors were based on differential gene expression signature using SVM methods. Differentially expressed genes sets were obtained using volcano plot with p value of 0.05 and fold change of 2. The CEBPa predictor shows a sensitivity of 100% in the detection of CEBPa mutation with a specificity of 81%, only six sample were misclassified among them 3 were non informative and 3 were called as CEBPa mutated (2 t(8;21) samples and one AML with MLL alteration), the efficiency of the predictor was 83%. The NPM1 predictor shows a sensitivity of 87.9% in the detection of NPM1 mutation and a specificity of 75%, 7 samples were misclassified, among them 3 NPM1 mutated samples (2 were called as wt and one assigned as non informative) and at the other hand 4 NPM1 wt samples were called as mutated), efficiency of this predictor was 81%. To note using the set of genes used for this predictor, non supervised hierarchical tree clearly shows the dichotomy of NPM1 mutated samples into two sub-clusters according to the FLT3 status. Results were weaker for the FLT3-ITD predictor with a sensitivity of 57% and a specificity of 70% with 29 samples misclassified (9 miscalled and 20 without answer).These results shows that the use of the data generated by the MILE in the diagnosis of leukemia can be used in the detection of CEBPa, NPM1 and FLT3 mutations in AML that have a major value in the prognosis of patients. The use of this 3 new predictors, in second line after the use of MILE algorithm to discriminate AML belonging to the intermediate cytogenetic groups clearly improve the use of microarrays in the diagnosis of AML."
 }
