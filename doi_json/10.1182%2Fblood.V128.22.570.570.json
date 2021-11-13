@@ -2,5 +2,44 @@
     "doi": "https://doi.org/10.1182/blood.V128.22.570.570",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3439",
     "start_url_page_num": 3439,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Clonality and Mixed Mutational Signature in Aged Hematopoietic Stem Cells Via Single Cell Variant Analysis ",
+    "article_date": "December 2, 2016",
+    "session_type": "501. Hematopoietic Stem and Progenitor Biology: Hematopoietic Stem Cells Under Stress",
+    "topics": [
+        "clonality (genetic analysis)",
+        "hematopoietic stem cells",
+        "rna",
+        "dna",
+        "cd34 antigens",
+        "ms-like tyrosine kinase 3",
+        "myeloproliferative disease",
+        "principal component analysis",
+        "clone cells",
+        "homogeneity"
+    ],
+    "author_names": [
+        "Maria C Florian, PhD",
+        "Kalpana J Nattamai, MSc",
+        "Hartmut Geiger, Prof. Dr.",
+        "Medhanie A. Mulaw, Jun.-Prof. Dr."
+    ],
+    "author_affiliations": [
+        [
+            "Institute of Molecular Medicine and Stem Cell Aging, University of Ulm, Ulm, Germany "
+        ],
+        [
+            "Division of Experimental Hematology and Cancer Biology, Cincinnati Children's Hospital Medical Center, cincinnati, OH "
+        ],
+        [
+            "Institute of Molecular Medicine and Stem Cell Aging, University of Ulm, Ulm, Germany ",
+            "Cancer and Blood Diseases Institute, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
+        ],
+        [
+            "Institute of Experimental Cancer Research, University Hospital of Ulm, Ulm, Germany"
+        ]
+    ],
+    "first_author_latitude": "48.4234467",
+    "first_author_longitude": "9.9552135",
+    "abstract_text": "Genomic stability and integrity in Hematopoietic Stem Cells (HSCs) is maintained via DNA damage checkpoints, DNA proofreading and DNA repair (Moehrle et al., 2015; Cell Rep). Despite these mechanisms, recurring and non-recurring mutations accumulate in HSCs upon aging, which correlate with an elevated incidence of myeloproliferative diseases (Rossi, Bryder, and Weissman, Exp. Gerontol. 2007) as well as changes in clonality (Akunuru and Geiger, 2016; Trends in Mol. Med.). The rate at which such mutations accumulate in individual HSCs and the selection advantage/disadvantage that they provide is unclear and is an active area of investigation. Evolutionary theory supports a strong influence of the aged niche on the selection of HSCs clones upon aging (Rozhok, Salstrom, and DeGregori, 2014; Aging). We hypothesized that variant profiling of single HSCs based on RNA transcripts will reveal mutational signatures adapted to the selection pressure of the aging microenvironment. We performed Single cell RNA-seq of daughter cell pairs from young and aged murine HSCs (LSK, CD34-, flk2-). The Genome Analysis Toolkit (GATK; Broad Institute) RNA-seq variant/mutation calling algorithm pipeline was applied with some modifications. Only variants that were observed in both daughter cells of a given pair were selected, which significantly decreased our false discovery rate (tested by a Monte Carlo simulation). First and most interestingly, we observed no significant difference in the overall number of variants/mutations between young and aged HSCs, further supporting our recently published observations on the frequency of DNA mutations in HSCs upon aging (Moehrle et al., 2015; Cell Rep). We then used an approach that takes into account the 3' and 5' bases flanking a variant to generate motifs whose frequencies can be mathematically analyzed to deduce characteristic mutational patterns, termed as mutational signatures (Nik-Zainal et al., 2012; Cell). We employed a non-negative matrix factorization (nmf) and principal component analysis (pca) algorithms to generate 10 mutational signatures that explained > 95% of the variance in the dataset. We then analyzed the signatures in a pairwise fashion and selected two signatures with the highest discrimination score between young and aged HSC. Based on this, cells fell into two major groups: group 1 predominantly contained aged single cells (~90% of the cells in this group) whereas, interestingly, group 2 contained a mix of young and aged HSCs. The segregation of young and aged single HSCs counts between groups 1 and 2 was tested using Fisher's exact test and was statistically significant (p-value 0.0029). These data indicate that while the overall mutational load is not elevated, majority of aged HSCs acquire a mutational signature distinct from young HSCs, while a proportion of aged HSCs present with a young-like HSC signature. Furthermore, our results show that even those cells that have acquired an aging signature aren't homogeneous and show sub-clustering tendencies, providing the first hint that they may potentially evolve further into more distinct clones. In conclusion, our results show that individual HSCs reflect a mixed mutational profile reminiscent of a non-uniform accumulation of variants. As such signatures are a reflection of underlying mechanisms by which the mutations accumulate (Nik-Zainal et al., 2012; Cell), the proportion of aged HSCs sharing similar mutational signatures but distinct from the young HSCs reveal an aging signature that indicates specific mutational factors and selection pressure of the aging microenvironment. Disclosures Mulaw: NuGEN: Honoraria."
 }
