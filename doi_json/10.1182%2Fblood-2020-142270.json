@@ -2,5 +2,123 @@
     "doi": "https://doi.org/10.1182/blood-2020-142270",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4495",
     "start_url_page_num": 4495,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Comparison of the Transcriptomic Signatures in Pediatric and Adult CML ",
+    "article_date": "November 5, 2020",
+    "session_type": "631.Chronic Myeloid Leukemia: Biology and Pathophysiology, excluding Therapy",
+    "topics": null,
+    "author_names": [
+        "Minyoung Youn, PhD",
+        "Hee-Don Chae, PhD",
+        "Stephanie M. Smith, MD",
+        "Alex Gia Lee, PhD",
+        "Lara C. Murphy, MD",
+        "Michele Donato, PhD",
+        "Alejandro Sweet-Cordero",
+        "Parveen Abidi, PhD",
+        "Henrique Bittencourt, MD PhD",
+        "Norman J. Lacayo, MD",
+        "Gary Dahl",
+        "Catherine Aftandilian, MD",
+        "Kara L Davis, DO",
+        "Jairo A. Matthews",
+        "Steven M. Kornblau, MD",
+        "Min Huang, PhD",
+        "Nathan Sumarsono, BS",
+        "Michele Redell, MD",
+        "Cecilia H. Fu, MD",
+        "I-Ming L Chen",
+        "Todd A. Alonzo, PhD",
+        "Elizabeth A. Eklund, MD",
+        "Jason Gotlib, MD MS",
+        "Purvesh Khatri, PhD",
+        "Nobuko Hijiya, MD",
+        "Kathleen M. Sakamoto, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Department of Pediatrics, University of California San Francisco, San Francisco, CA "
+        ],
+        [
+            "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA ",
+            "Institute for Immunity, Transplantation and Infection, Stanford University, Stanford, CA "
+        ],
+        [
+            "Institute for Immunity, Transplantation and Infection, Stanford University, Stanford, CA ",
+            "Stanford Center for Biomedical Informatics Research, Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Department of Pediatrics, University of California San Francisco, San Francisco, CA "
+        ],
+        [
+            "Department of Medicine, Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Hematology-Oncology Division, Charles Bruneau Cancer Center, CHU Sainte-Justine, University de Montreal, Montreal, Canada "
+        ],
+        [
+            "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Division of Hematology, Oncology and Stem Cell Transplant, Department of Pediatrics, Stanford University, Stanford, CA "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Division of Pediatric Hematology/Oncology, Baylor College of Medicine, Houston, TX "
+        ],
+        [
+            "Division of Hematology/Oncology, Children's Hospital Los Angeles, Los Angeles, CA "
+        ],
+        [
+            "Department of Pathology, University of New Mexico Cancer Research Facility, Albuquerque, NM "
+        ],
+        [
+            "Department of Preventive Medicine, University of Southern California, Monrovia, CA "
+        ],
+        [
+            "Division of Hematology/Oncology, Northwestern University Feinberg School of Medicine, Chicago, IL "
+        ],
+        [
+            "Department of Medicine, Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Institute for Immunity, Transplantation and Infection, Stanford University, Stanford, CA ",
+            "Stanford Center for Biomedical Informatics Research, Stanford University School of Medicine, Stanford, CA "
+        ],
+        [
+            "Pediatric Hematology Oncology Transplant, Columbia University Irving Medical Center, New York, NY"
+        ],
+        [
+            "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA "
+        ]
+    ],
+    "first_author_latitude": "37.434988399999995",
+    "first_author_longitude": "-122.17694655000001",
+    "abstract_text": "Introduction Pediatric chronic myeloid leukemia (CML) accounts for 10-15% of pediatric myeloid leukemias and 2-9% of all pediatric leukemias. There are several unique characteristics of CML diagnosed in children, adolescents, and young adults, compared to adults. They present with higher white blood counts and larger spleens, suggesting that the biology of pediatric CML is different from adult CML. We hypothesize that the differences in clinical presentation of pediatric CML patients are due to unique molecular characteristics that differ from adult CML patients. To test this hypothesis, we studied the transcriptomic signature of pediatric CD34 + CML cells compared to adult CML and normal age-matched bone marrow CD34 + cells. Methods CD34 + cells were isolated by FACS from pediatric CML (n=9), adult CML (n=10), pediatric normal (n=10) and adult normal (n=10) bone marrow samples. Total RNA was isolated from cells, and cDNA libraries were generated. Prepared libraries were sequenced on the Illumina HiSeq 4000 instrument. Raw sequences were trimmed and aligned to the hg38 reference genome with STAR/2.5.1b aligner. Gene level counts were determined with STAR - quantMode option using gene annotations from GENCODE (p5). Differential gene expression and pathway analysis were conducted with R/3.5.3. Counts were normalized with trimmed mean of M-values (TMM) from the EdgeR/ 3.24.3 package and further transformed with VOOM from the Limma/ 3.38.3 package. A linear model using the empirical Bayes analysis pipeline also from Limma was then used to obtain p-values, adjusted p-values and log-fold changes (LogFC). We performed three comparisons: (1) Pediatric CML vs Normal, (2) Adult CML vs Normal, and (3) Pediatric CML vs Adult CML. A False Discovery Rate (FDR) of \u00a3 .05 and absolute log2 fold-change > 1 was used to define differentially expressed genes in each comparison. Over-representation analysis was used to identify potentially unique pathways based on differentially expressed genes. Clinical and demographic features at diagnosis were extracted for pediatric and adult CML patients and compared using Fisher's exact test (categorical variables) or Wilcoxon rank sum test (continuous variables). Results Pediatric patients were diagnosed with CML at a median of 11 years (interquartile range (IQR): 10-14) compared to 54 years (IQR: 33-62) for adult patients. At diagnosis, pediatric patients had higher platelet counts (p=0.001) and larger spleen sizes (p=0.010) than adult patients, whereas the white blood cell count and phase at diagnosis did not differ. We found 606 genes (210 up- and 396 down-regulated) differentially expressed in pediatric CML CD34+ cells compared to pediatric normal controls. Interestingly, transcriptional regulators involved in blood cell differentiation including GATA1, TAL1, and KLF1 were differentially enriched in pediatric CML. In comparing adult CML patients to normal adult CD34+ cells, we found 920 genes (379 up- and 541 down-regulated) differentially expressed. Among all dysregulated genes we identified (1352 genes), 174 genes (54 up- and 120-down-regulated) overlapped when comparing pediatric and adult CML patients. Significantly enriched pathways in both adult and pediatric CML cells included PI3K/AKT signaling, MAPK signaling, and Notch/Wnt signaling, which have been previously reported. We found 437 unique genes that were dysregulated only in pediatric CML (270 up- and 167 down-regulated). Notch/Wnt signaling and Rho signaling pathways were significantly enriched. DLC1, a tumor suppressor gene that encodes a RhoGTPase-activating protein, has been known to be downregulated in solid tumors and hematologic malignancies. Interestingly, our data showed that DLC1 is significantly upregulated by 3-fold (p=0.0238) in pediatric CML, but not adult CML CD34+ cells. In addition, we observed that ABR, an inducer of C/EBPa that encodes an activator of RhoGEF and GTPase, was significantly downregulated by 2-fold (p=0.0119) in pediatric but not in adult CML CD34+ cells. Conclusion These results demonstrate unique molecular characteristics of pediatric CML that may contribute to the clinical differences at presentation between adult and pediatric disease. A better understanding of the particular biology of pediatric CML might impact the treatment of those patients in the future. Disclosures Gotlib: Deciphera: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Other: co-chair of the Study Steering Committee and Research Funding; Blueprint Medicines Corporation: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Other: Chair of the Response Adjudication Committee and Research Funding, Research Funding."
 }
