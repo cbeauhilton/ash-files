@@ -2,5 +2,63 @@
     "doi": "https://doi.org/10.1182/blood.V120.21.2920.2920",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2402",
     "start_url_page_num": 2402,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "The Comprehensive Genomic Characterization of All Commercially Available Multiple Myeloma Cell Lines. ",
+    "article_date": "November 16, 2012",
+    "session_type": "651. Myeloma - Biology and Pathophysiology, excluding Therapy: Poster II",
+    "topics": [
+        "cell lines",
+        "genome",
+        "multiple myeloma",
+        "amino acids",
+        "bcl2-related protein 11",
+        "dna",
+        "protein p53",
+        "rna",
+        "rna, messenger",
+        "walkers"
+    ],
+    "author_names": [
+        "Venkata D Yellapantula, MS",
+        "David K Edwards, BS",
+        "Kristi Allen, BS",
+        "Jessica Albanese",
+        "Kimberly Babos, BS",
+        "Ahmet Kurdoglu, BS",
+        "Winnie Liang, PhD",
+        "Waibhav Tembe, PhD",
+        "Jonathan J Keats, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Integrated Cancer Genomics, Translational Genomics Research Institute, Phoenix, AZ, USA, "
+        ],
+        [
+            "Integrated Cancer Genomics, Translational Genomics Research Institute, Phoenix, AZ, USA, "
+        ],
+        [
+            "Integrated Cancer Genomics, Translational Genomics Research Institute, Phoenix, AZ, USA, "
+        ],
+        [
+            "Integrated Cancer Genomics, Translational Genomics Research Institute, Phoenix, AZ, USA, "
+        ],
+        [
+            "Integrated Cancer Genomics Division, TGen, Phoenix, AZ, USA, "
+        ],
+        [
+            "Neurogenomics, Translational Genomics Research Institute, Phoenix, AZ, USA, "
+        ],
+        [
+            "Collaborative Sequencing Center, Translational Genomics Research Institute, Phoenix, AZ, USA"
+        ],
+        [
+            "Integrated Cancer Genomics, Translational Genomics Research Institute, Phoenix, AZ, USA, "
+        ],
+        [
+            "Integrated Cancer Genomics, Translational Genomics Research Institute, Phoenix, AZ, USA, "
+        ]
+    ],
+    "first_author_latitude": "33.452984799999996",
+    "first_author_longitude": "-112.06723729999999",
+    "abstract_text": "Abstract 2920 Human myeloma cell lines (HMCL) provide both a discovery and validation platform to improve our understanding of the molecular pathogenesis of multiple myeloma. We have completed a project to characterize the underlying genetics of all commercially available HMCL with a primary goal of identifying appropriate model systems for findings from large scale patient studies like the multiple myeloma genomics initiative (MMGI). We first purchased all 33 commercially available HMCL from DSMZ, JCRB, ECACC, and ATCC. Subsequently each HMCL was thawed and cultured under strict parameters, which yielded cells for analysis, by Agilent 400k CGH, whole exome sequencing (Agilent 70Mb Exon+UTR), and mRNA sequencing. The combination of these three assays provides a detailed map of the genetic complexity underlying this deadly disease. For variant discovery, alignment was done using BWA followed by indel realignment, quality recalibration and duplicate removal. High quality calls were identified from the intersection of variants called by both Samtools and GATK. This identified a median of 32691 high confidence variants per sample with upper and lower quartile values of 34307.75 and 32241.25, respectively. To identify likely somatic mutations, we removed variants found in the 1000 genomes project and the NHLBI Exome Sequencing project. In addition, we removed variants present in dbSNP unless these mutations were also present in the COSMIC database. After these filtering steps a median of 702 potential mutations remained. From these lists we identified a median of 209.5 non-synonymous variants per sample and in genes which are typically expressed in the cohort, a median of 91 variants were found. Overall, these steps identified 2678 variants in 1978 genes. The primary goal was to identify appropriate models for novel findings from studies like the MMGI. For instance we identified HMCL with mutations in FAM46C and DIS3 among others. Secondarily, we focused on attempting to identify potential oncogenes and tumor suppressors through the integration of our three data types and data from published studies (Chapman et al. and Walker et al.). To identify potential oncogenes we focused on mutations that occurred at the same position in the genome or altered the same amino acid at a minimum. This identified 23 genes; including expected genes like KRAS (n=11) and, NRAS (n=7) but it also identified potentially activating mutations in IKBKB, SOX2, KDM4C, CD81, OSBP, NOTCH2, WDR92 and UBR2. To identify potential tumor suppressors we focused on genes that are typically expressed, which showed bi-allelic inactivation in two or more samples by either a homozygous deletion event, a deletion plus mutation, or two independent mutations. This identified 116 genes; including expected genes like TP53, CDKN2C, RB1, BIRC2/3, TRAF3, KDM6A, CDKN1B, FAM46C, and DIS3. Outside of the expected genes we identified recurrent inactivation in ANKRD11, ATP6AP1, ATXN1, BCL2L11, CDK8, RNF7, STS, TSPAN7, and TBL1XR1. These studies have highlighted the value in studying HMCL as most novel genes reported from recent studies were independently identified in this small cohort of samples. This is in large part because HMCL provide an unlimited DNA and RNA resource that allowed for multiple independent assays to be performed on each sample. Ultimately this study will provide the myeloma community with a detailed resource from which they can acquire appropriate model systems for their research goals from the various cell line repositories around the world. Disclosures: Keats: Tgen: Employment."
 }
