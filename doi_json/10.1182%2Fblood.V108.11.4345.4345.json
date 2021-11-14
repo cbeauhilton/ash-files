@@ -2,5 +2,57 @@
     "doi": "https://doi.org/10.1182/blood.V108.11.4345.4345",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=775",
     "start_url_page_num": 775,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Computational Prediction of c- MYC Binding and Action by Integration of Multiple Data Sources. ",
+    "article_date": "November 16, 2006",
+    "session_type": "Abstracts Not Selected for Presentation",
+    "topics": [
+        "binding (molecular function)",
+        "b-lymphocytes",
+        "breast cancer",
+        "chromatin",
+        "computer simulation",
+        "datasets",
+        "dna",
+        "dna methylation",
+        "gene expression",
+        "genes"
+    ],
+    "author_names": [
+        "Yili Chen, MS",
+        "Thomas W. Blackwell, Ph.D.",
+        "Jing Gao, M.S.",
+        "Anura Hewagama, Ph.D.",
+        "Heather M. Grifka, B.S.",
+        "Angel W. Lee, M.D. Ph.D.",
+        "David J. States, M.D. Ph.D."
+    ],
+    "author_affiliations": [
+        [
+            "Bioinformatics Program, University of Michigan, Ann Arbor, MI, USA"
+        ],
+        [
+            "Bioinformatics Program, University of Michigan, Ann Arbor, MI, USA",
+            "Department of Human Genetics, University of Michigan, Ann Arbor, MI, USA"
+        ],
+        [
+            "Bioinformatics Program, University of Michigan, Ann Arbor, MI, USA"
+        ],
+        [
+            "Bioinformatics Program, University of Michigan, Ann Arbor, MI, USA"
+        ],
+        [
+            "Department of Human Genetics, University of Michigan, Ann Arbor, MI, USA"
+        ],
+        [
+            "Pharmacology Department, University of Michigan, Ann Arbor, MI, USA"
+        ],
+        [
+            "Bioinformatics Program, University of Michigan, Ann Arbor, MI, USA",
+            "Department of Human Genetics, University of Michigan, Ann Arbor, MI, USA"
+        ]
+    ],
+    "first_author_latitude": "42.27937595",
+    "first_author_longitude": "-83.73603709999999",
+    "abstract_text": "c- MYC is an important proto-oncogene. Its actions are mediated by sequence specific binding of the c- MYC protein to genomic DNA. While many c- MYC recognition sites can be identified in c- MYC responsive genes, many others are associated with genes showing no c- MYC response. It is not yet known how the cell determines which of the many c- MYC recognition sites are biologically active and directly bind c- MYC protein to regulate gene expression. We have developed a computational model that predict c- MYC binding and functional activation as distinct processes. Our model integrates four types of evidence to predict functional c- MYC targets: genomic sequence, MYC binding, gene expression and gene function annotations. First, a Bayesian network classifier is used to predict c- MYC recognition sites likely to exhibit high occupancy binding in chromatin immunoprecipitation studies using several types of sequence information, including predicted DNA methylation using a computational model to estimate the likelihood of genomic DNA methylation. In the second step, the DNA binding probability of MYC is combined with the gene expression information from 9 independent microarray datasets in multiple tissues and the gene function annotations in Gene Ontology to predict the c- MYC targets. The prediction results were compared with the c- MYC targets in public MYC target database [ www.myccancergene.org ], which collected the c- MYC targets identified in biomedical literatures. In total, we predicted 599 likely c- MYC genes on human genome, of which 73 have been reported to be both bound and regulated by MYC, 83 are bound by MYC in vivo and another 93 are MYC regulated. The approach thus successfully identified many known c- MYC targets as well as suggesting many novel sites including many sites that are remote from the transcription start site. Our findings suggest that to identify c- MYC genomic targets, any study based on single high throughput dataset is likely to be insufficient. Using multiple gene expression datasets helps to improve the sensitivity and integration of different data sources helps to improve the specificity. Summary of c- MYC Targets Prediction  Microarray Dataset . Data Source (Citation) . Tissue . Predicted Targets . Binding&Regulation Reported . Only Binding Reported . Only Regulation Reported . 1 PMID: 15778709 B Cell 421 61 60 56 2 PMID: 12086878 Prostate Cancer 428 56 65 76 3 PMID: 14722351 Prostate Cancer 50 4 7 13 4 PMID: 15254046 Prostate Cancer 66 19 8 14 5 PMID: 12747878 Breast Cancer 17 1 3 5 6 PMID: 11707567 Lung Cancer 295 51 42 59 7 PMID: 15820940 CML 8 1 1 2 8 PMID: 12704389 ALL 222 45 32 46 9 PMID: 11731795 ALL / MLL / AML 22 6 1 6 Total   599 73 83 93 Microarray Dataset . Data Source (Citation) . Tissue . Predicted Targets . Binding&Regulation Reported . Only Binding Reported . Only Regulation Reported . 1 PMID: 15778709 B Cell 421 61 60 56 2 PMID: 12086878 Prostate Cancer 428 56 65 76 3 PMID: 14722351 Prostate Cancer 50 4 7 13 4 PMID: 15254046 Prostate Cancer 66 19 8 14 5 PMID: 12747878 Breast Cancer 17 1 3 5 6 PMID: 11707567 Lung Cancer 295 51 42 59 7 PMID: 15820940 CML 8 1 1 2 8 PMID: 12704389 ALL 222 45 32 46 9 PMID: 11731795 ALL / MLL / AML 22 6 1 6 Total   599 73 83 93 View Large"
 }
