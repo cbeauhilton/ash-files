@@ -2,5 +2,71 @@
     "doi": "https://doi.org/10.1182/blood.V124.21.4495.4495",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2750",
     "start_url_page_num": 2750,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "BET Bromodomain Inhibitor OTX015 Affects the Expression of Micrornas Involved in the Pathogenesis of Diffuse Large B-Cell Lymphoma ",
+    "article_date": "December 6, 2014",
+    "session_type": "625. Lymphoma: Pre-Clinical \u2013 Chemotherapy and Biologic Agents: Poster III",
+    "topics": null,
+    "author_names": [
+        "Luciano Cascione",
+        "Eugenio Gaudio, PhD",
+        "Elena Bernasconi, B.Sc.",
+        "Chiara Tarantelli",
+        "Andrea Rinaldi",
+        "Monica Testoni, B.Sc.",
+        "Riccardo Bomben",
+        "Valter Gattei",
+        "Ivo Kwee, PhD",
+        "Anastasios Stathis, MD",
+        "Maria Eugenia Riveiro, MD PhD",
+        "Emanuele Zucca, MD",
+        "Francesco Bertoni"
+    ],
+    "author_affiliations": [
+        [
+            "IOR Institute of Oncology Research, Bellinzona, Switzerland ",
+            "IOSI Oncology Institute of Southern Switzerland, Bellinzona, Switzerland "
+        ],
+        [
+            "IOR Institute of Oncology Research, Bellinzona, Switzerland "
+        ],
+        [
+            "IOR Institute of Oncology Research, Bellinzona, Switzerland "
+        ],
+        [
+            "IOR Institute of Oncology Research, Bellinzona, Switzerland "
+        ],
+        [
+            "IOR Institute of Oncology Research, Bellinzona, Switzerland "
+        ],
+        [
+            "IOR Institute of Oncology Research, Bellinzona, Switzerland "
+        ],
+        [
+            "Centro di Riferimento Oncologico, I.R.C.C.S., Aviano (PN), Italy "
+        ],
+        [
+            "Clinical and Experimental Onco-Hematology, Centro di Riferimento Oncologico, Aviano, Italy "
+        ],
+        [
+            "IOR Institute of Oncology Research, Bellinzona, Switzerland ",
+            "Dalle Molle Institute for Artificial Intelligence, Manno, Switzerland "
+        ],
+        [
+            "IOSI Oncology Institute of Southern Switzerland, Bellinzona, Switzerland "
+        ],
+        [
+            "Oncology Therapeutic Development,, Clichy, France"
+        ],
+        [
+            "IOSI Oncology Institute of Southern Switzerland, Bellinzona, Switzerland "
+        ],
+        [
+            "IOR Institute of Oncology Research, Bellinzona, Switzerland ",
+            "IOSI Oncology Institute of Southern Switzerland, Bellinzona, Switzerland "
+        ]
+    ],
+    "first_author_latitude": "46.1945456",
+    "first_author_longitude": "9.022537900000001",
+    "abstract_text": "Background. Diffuse large B-cell lymphoma (DLBCL) is the most common lymphoma, accounting for 30%-40% of all cases. Despite a major improvement in the cure rate, a large number of DLBCL patients lack therapeutic options. Aberrant changes in histone modifications, DNA methylation and expression levels of non-coding RNA, including microRNA (miRNA), contribute to DLBCL pathogenesis and represent potential therapeutic targets. OTX015 targets bromodomain and extra-terminal (BET) proteins, which are epigenetic readers contributing to gene transcription. It has shown preclinical activity in hematologic and solid tumor models (Gaudio et al, AACR 2014; Noel et al, EORTC-NCI-AACR 2013) and promising early results in an ongoing phase I study (Herait et al, AACR 2014; NCT01713582). To better understand the mechanism of action of OTX015, we studied molecular changes induced by this compound in DLBCL cell lines. Methods. Total RNA was extracted from 2 DLBCL cell lines, the germinal center B-cell (GCB) type DOHH2 and activated B-cell-like (ABC)-type SU-DHL-2, following treatment with 500 nM OTX015 or DMSO for 4h or 8h. RNA samples were labeled with cyanine-3 dye using the Agilent microRNA Complete Labeling System & Hyb Kit and hybridized to the Agilent Human microRNA microarray v.3. Raw expression values were obtained with Agilent Feature Extraction Software, log-transformed and normalized by the quantile method. Data were filtered to exclude relatively invariant features and those below the detection threshold. Limma (Linear Models for Microarray data analysis) was employed using R/Bioconductor and the filtered dataset. Baseline miRNA profiling was obtained from 22 DLBCL cell lines with the Nanostring nCounter Human v2 miRNA Expression Assay kit. Baseline gene expression profiling (GEP) was obtained in these cell lines with the Illumina HumanHT-12 v4 Expression BeadChip. Selected miRNA changes were validated by real-time PCR. Validated miRNA targets were retrieved using the miRWalk database (Dweep et al, 2011). Gene Set Enrichment Analysis (GSEA) software was used to assess enrichment of miRNA targets in the GEP datasets. Results. miRNA profiling of the GCB and ABC DLBCL cell lines exposed to OTX015 identified four downregulated miRNAs and eight which were upregulated. Among them, the oncomirs miR-92a-1-5p (log2 FC, -2.01; P=0.004) and miR-21-3p (log2 FC, -0.37; P=0.0045) were downregulated, while the tumor suppressor miR-96-5p (log2 FC, 0.39; P=0.041) was upregulated. Interestingly, changes of these miRNAs matched GEP variations of validated target genes (e.g., miR-92a-1-5p: CDKN1A, log2 FC, 0.81, CDKN2A, log2 FC, 0.81; miR-96-5p: MYC, log2 FC, -0.57, MYD88, log2 FC, -0.35). We then evaluated if these three miRNAs play a role in OTX015-sensitivity by obtaining baseline miRNA and GEP profiling data in 22 DLBCL cell lines. Compared to 8 cell lines with lower sensitivity to OTX015 (IC50 >500 nM), the 14 sensitive cell lines (IC50 <500 nM) presented lower miR-96-5p expression levels (log ratio, 2.12; P=0.026) and their GEPs were significantly enriched for validated miR-96-5p targets (normalized enrichment score, 1.4; P=0.026), suggesting miR-96-5p levels may predict response to OTX015. Conclusions. Changes in the expression levels of biologically relevant miRNAs may contribute to response to OTX015. miR-92a-1-5p, the oncomir which was most strongly downregulated by OTX015, is a member of the MYC target MIR17HG (mir-17-92 cluster), involved in the pathogenesis and chemo-resistance of lymphomas, mainly contributing to PI3K/AKT/mTOR pathway activation. Since the cell cycle transcriptional regulator E2F1 is targeted by mir-17-92, OTX015 may contribute to cell cycle arrest and to downregulation of the E2F1 target gene reported with BRD inhibitors in DLBCL cell lines. miR-21-3p, also downregulated by OTX015, is a well-known oncomir, and forced miR-21-3p expression in transgenic mice results in the development of leukemias and lymphomas. miR-96-5p, upregulated by OTX015, targets oncogenes such as RAS or MYC, and low expression has been reported in mantle cell lymphoma. Interestingly, low miR-96-5p baseline levels were associated with higher sensitivity to OTX015, an observation meriting validation in other tumor models and evaluation in clinical studies. Disclosures Stathis: Oncoethix SA: Consultancy, Research Funding. Riveiro: Oncoethix SA: Consultancy, Research Funding; Oncology Therapeutic Development: Employment. Bertoni: Oncoethix SA: Research Funding."
 }
