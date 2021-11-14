@@ -2,5 +2,55 @@
     "doi": "https://doi.org/10.1182/blood.V124.21.928.928",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2909",
     "start_url_page_num": 2909,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Virtual B Cell Lymphoma Model to Predict Effective Combination Therapy ",
+    "article_date": "December 6, 2014",
+    "session_type": "605. Molecular Pharmacology, Drug Resistance \u2013 Lymphoid and Other Diseases: Poster I",
+    "topics": [
+        "b-cell lymphomas",
+        "combined modality therapy",
+        "drug combinations",
+        "diffuse large b-cell lymphoma",
+        "ibrutinib",
+        "phosphotransferases",
+        "screening",
+        "1-phosphatidylinositol 3-kinase",
+        "activated b-cell-like diffuse large b-cell lymphoma",
+        "biological markers"
+    ],
+    "author_names": [
+        "Wei Du, BA",
+        "Rebecca Goldstein, BA",
+        "Yanwen Jiang, PhD",
+        "Omar Aly, BA",
+        "Leandro Cerchietti, MD",
+        "Ari M. Melnick, MD",
+        "Olivier Elemento, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Weill Cornell Medical College, New York, "
+        ],
+        [
+            "Weill Cornell Medical College, New York, NY "
+        ],
+        [
+            "Weill Cornell Medical College, New York, NY "
+        ],
+        [
+            "Weill Cornell Medical College, New York, NY "
+        ],
+        [
+            "Weill Cornell Medical College, New York, NY "
+        ],
+        [
+            "Weill Cornell Medical College, New York, NY "
+        ],
+        [
+            "Weill Cornell Medical College, New York City, NY"
+        ]
+    ],
+    "first_author_latitude": "40.766488599999995",
+    "first_author_longitude": "-73.9555127",
+    "abstract_text": "Aberrant activation of the B cell receptor (BCR) signaling network drives survival and proliferation of many B cell malignancies, such as activated B cell like diffuse large B cell lymphoma (ABC-DLBCL). A number of small molecule inhibitors targeting various kinases in the BCR signaling network have been developed. However, clinical application of these targeted agents is facing several challenges such as low response rate and acquired drug resistance. The limited efficacy of single agent targeted therapy is at least partially due to pathway reactivation through crosstalks and compensatory circuits. By simultaneously repressing multiple nodes in the signaling network, combination therapy has the potential to completely extinguish signaling and induce more potent and durable response. The complexity of BCR signaling network makes it difficult to infer which combinations will be effective and synergistic. Given the large number of possible drug combinations, comprehensive experimental screening \u2013 including exploration of multiple dosages \u2013 is not practically feasible. Computational models of signaling networks that can accurately reconstruct signaling dynamics in silico may represent a useful alternative to experimental screening and trial-and-error experimental investigation. Here, we developed a computational model that integrates signal transduction, tumor growth, and drug kinetics to accurately simulate BCR signaling dynamics and the effect of drug-induced perturbation on signaling output and cell viability. We used this model to predict effective combinatorial therapy in silico and validated some of these predictions using in vitro experiments. Based on experimentally verified protein-protein interactions, we constructed the first detailed kinetic model of the BCR signaling network covering three major signaling pathways downstream of BCR, namely NFkB, PI3K/AKT and MAPK. The model captured complex crosstalk between these three pathways and multiple feedback loops. Simulated kinase activation time courses under temporal antigen stimulus successfully recapitulated normal BCR signaling dynamics as reported in literature. Using published drug response data in the BCR signaling-dependent ABC-DLBCL cell line TMD8, we trained a tumor growth model which in combination with the kinetic model enabled reliable prediction of viability response of many drug combinations at various dosages. For example, predicted viability response of BTK inhibitor ibrutinib in combination with inhibitors targeting other kinases in the network, e.g. BKM-120 against PI3K, sotrastaurin against PKC-beta closely matched previously published experimental data in TMD8 (r>0.86,p<1e-11). We then sought to identify synergistic drug combinations by simulating viability response at 10x10 virtual dosages for each drug combination and estimating synergism using Bliss independence model. Computational screening predicted dual blockage of LYN and SYK as the most synergistic combination, which we confirmed experimentally by treating TMD8 cells with LYN inhibitor Dasatinib and SYK inhibitor R406 at multiple doses. Finally we sought to use our model to predict biomarkers of sensitivity and resistance to specific treatment strategies. By integrating expression levels of BCR signaling network components assessed by published primary DLBCL RNA-seq data, we simulated patient-specific drug responses and computed the correlation between expression level of specific components with viability response under specific treatments. We found that overexpression of PTP1B, which dephosphorylates BTK substrate PLCg2, predicts relative sensitivity to BTK inhibition. Supporting this prediction, we observed increased PTP1B expression in DLBCL cell lines sensitive to ibrutinib treatment, suggesting PTP1B as potential biomarker for ibrutinib sensitivity. In summary, this study provides a novel approach to computationally optimize combinatorial targeted therapy against aberrant BCR signaling and paves the way for the discovery of effective patient-specific drug combinations. Disclosures Melnick: Bioreference: Scientific Advisory Board, Scientific Advisory Board Other; Calgene: Consultancy; Janssen: Research Funding; Genentech: Speakers Bureau."
 }
