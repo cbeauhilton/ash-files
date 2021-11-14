@@ -2,5 +2,90 @@
     "doi": "https://doi.org/10.1182/blood.V124.21.1058.1058",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2779",
     "start_url_page_num": 2779,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Copy Number Alteration (CNA) Analysis in Targeted Sequencing Data from Acute Myeloid Leukemia (AML) Patients with Chromosome 9q Deletion ",
+    "article_date": "December 6, 2014",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis: Poster I",
+    "topics": [
+        "chromosomes",
+        "leukemia, myelocytic, acute",
+        "complete remission",
+        "disease remission",
+        "leukemogenesis",
+        "neoplasms",
+        "nucleotides",
+        "tumor cells",
+        "aneuploidy",
+        "chromosome abnormality"
+    ],
+    "author_names": [
+        "Sebastian Vosberg",
+        "Tobias Herold, MD",
+        "Klaus H Metzeler, MD",
+        "Stephanie Schneider, PhD",
+        "Bianka Ksienzyk",
+        "Alexander Graf",
+        "Stefan Krebs, PhD",
+        "Helmut Blum, PhD",
+        "Karsten Spiekermann, MD",
+        "Stefan K Bohlander, MD",
+        "Ulrich Mansmann, PhD",
+        "Philipp A Greif, MD"
+    ],
+    "author_affiliations": [
+        [
+            "German Cancer Research Center (DKFZ), Heidelberg, Germany ",
+            "Clinical Cooperative Group Leukemia, Helmholtz Zentrum Munich, German Research Center for Environmental Health, Munich, Germany ",
+            "Ludwig-Maximilians-Universit\u00e4t (LMU)/ University Hospital Grosshadern, Munich, Germany ",
+            "German Cancer Consortium (DKTK), Heidelberg, Germany "
+        ],
+        [
+            "German Cancer Research Center (DKFZ), Heidelberg, Germany ",
+            "Ludwig-Maximilians-Universit\u00e4t (LMU)/ University Hospital Grosshadern, Munich, Germany ",
+            "German Cancer Consortium (DKTK), Heidelberg, Germany "
+        ],
+        [
+            "German Cancer Research Center (DKFZ), Heidelberg, Germany ",
+            "Ludwig-Maximilians-Universit\u00e4t (LMU)/ University Hospital Grosshadern, Munich, Germany ",
+            "German Cancer Consortium (DKTK), Heidelberg, Germany "
+        ],
+        [
+            "Ludwig-Maximilians-Universit\u00e4t (LMU)/ University Hospital Grosshadern, Munich, Germany "
+        ],
+        [
+            "Ludwig-Maximilians-Universit\u00e4t (LMU)/ University Hospital Grosshadern, Munich, Germany "
+        ],
+        [
+            "Ludwig-Maximilians-Universit\u00e4t (LMU), Munich, Germany "
+        ],
+        [
+            "Ludwig-Maximilians-Universit\u00e4t (LMU), Munich, Germany "
+        ],
+        [
+            "Ludwig-Maximilians-Universit\u00e4t (LMU), Munich, Germany "
+        ],
+        [
+            "German Cancer Research Center (DKFZ), Heidelberg, Germany ",
+            "Clinical Cooperative Group Leukemia, Helmholtz Zentrum Munich, German Research Center for Environmental Health, Munich, Germany ",
+            "Ludwig-Maximilians-Universit\u00e4t (LMU)/ University Hospital Grosshadern, Munich, Germany ",
+            "German Cancer Consortium (DKTK), Heidelberg, Germany "
+        ],
+        [
+            "Department of Molecular Medicine and Pathology, Faculty of Medical and Health Sciences, The University of Auckland, Auckland, New Zealand "
+        ],
+        [
+            "German Cancer Research Center (DKFZ), Heidelberg, Germany ",
+            "German Cancer Consortium (DKTK), Heidelberg, Germany ",
+            "Ludwig-Maximilians-University (LMU), Munich Germany, Munich, Germany"
+        ],
+        [
+            "German Cancer Research Center (DKFZ), Heidelberg, Germany ",
+            "Clinical Cooperative Group Leukemia, Helmholtz Zentrum Munich, German Research Center for Environmental Health, Munich, Germany ",
+            "Ludwig-Maximilians-Universit\u00e4t (LMU)/ University Hospital Grosshadern, Munich, Germany ",
+            "German Cancer Consortium (DKTK), Heidelberg, Germany "
+        ]
+    ],
+    "first_author_latitude": "49.414414",
+    "first_author_longitude": "8.672960699999999",
+    "abstract_text": "Whole exome sequencing (WES) or customized gene panel sequencing (GPS) in acute myeloid leukemia (AML) is commonly used to detect point mutations and small insertions/deletions that might contribute to leukemogenesis. Beyond sequence variant detection, targeted sequencing also allows to detect gain or loss of genomic material in tumor cells (i.e. copy number alteration; CNA) based on the comparison of sequence coverage in target regions between samples. This approach allows not only for the detection of whole chromosome aneuploidies but also submicroscopic deletions or amplifications affecting small regions of the genome. We selected cytogenetically well characterized AML patients with partial deletions of the long arm of chromosome 9 (AML del(9q), n=5) and performed WES at diagnosis and at complete remission (SureSelect, Agilent; Illumina paired-end sequencing). At least 75% of the target region was sequenced with coverage \u2265 10x. As state of the art method for CNA detection, we also performed SNP array profiling (Affymetrix) of the 5 diagnostic AML samples. In addition, we performed GPS of 140 genes (total target 492 kb; mean coverage 356x, range 112-995x; targets on chromosome 9 with mean coverage 275x, range 71-705x) in the diagnostic samples from 26 cases of AML del(9q) (including the 5 exome cases) and 21 AML patients without any detectable cytogenetic aberration on chromosome 9 (control cohort). Our custom gene panel (Haloplex, Agilent) included known mutational targets in AML and candidate genes located on 9q. We used a linear regression model to normalize the mean read count of exon regions for target enrichment efficiency and to model the test sample coverage as a linear function of the control sample coverage (Rigaill et al., 2012, Bioinformatics). This approach is able to deal with regions of zero coverage, monoallelic deletions and tolerates outliers. An exact segmentation algorithm was applied to each chromosome individually in order to separate regions of equivalent exon coverage from regions of different exon coverage between test and control samples. Thereby, regions of genomic alterations can be defined as well as ranges for the flanking breakpoints. We defined a maximum of 5 regions per chromosome and a minimum size of 2 exons per region. For WES analysis, diagnostic AML del(9q) data sets were used as test samples and matching remission data sets were used as control. The minimum mean exon coverage was set to 10x. For custom GPS analysis, the minimum coverage was set to 50x and each AML del(9q) patient was compared to each control patient. Only chromosome 9 was included in the analysis, as patients of the control cohort harbor additional alterations on other chromosomes. CNAs were defined as regions that differ from the majority of control samples. Overlapping CNAs of AML del(9q) patients were subsequently identified as common altered regions. CNA profiling based on WES data sets of AML del(9q) patients showed somatically acquired stretches of significantly reduced read counts for genes located on 9q in 2 of the 5 patients ( Figure 1 A), consistent with the corresponding SNP array results. CNA profiling based on GPS from 26 AML del(9q) patients and 21 control patients defined a common deleted region ranging from at least 79.2 Mb to 87.6 Mb ( Figure 1 B). The deletion was detected in 18 out of 26 (70%) of the AML del(9q) patients. Neither the comparison of the test samples to each other nor the comparison of the control samples to each other resulted in CNA calling. It is very likely that the varying clone size harboring the 9q deletion in the diagnostic samples is limiting for CNA detection. This is also supported by the observation that patients without detectable 9q deletion in our CNA analyses tended to have fewer metaphases with 9q deletion (median 27%, range 8-77%) compared to patient samples with detectable 9q deletion in the CNA analyses (median 95%, range 24-100%; p = 0.001), as reported by routine cytogenetics. Our study confirms that, despite the experimental variability of target enrichment, sequencing data can be efficiently used not only to identify somatic mutations with single nucleotide resolution, but also to detect recurring and/or somatic CNAs in AML. Similar to CNA detection by SNP array analysis, the clonal architecture of the tumor is limiting for sensitivity. However, this limitation might be overcome by increasing the read depth. Figure 1: View large Download slide Figure 1: View large Download slide  Disclosures No relevant conflicts of interest to declare."
 }
