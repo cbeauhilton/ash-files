@@ -2,5 +2,69 @@
     "doi": "https://doi.org/10.1182/blood-2019-129432",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4250",
     "start_url_page_num": 4250,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Machine Learning Based Predictive Model of 5-Year Survival in Multiple Myeloma Autologous Transplant Patients ",
+    "article_date": "November 13, 2019",
+    "session_type": "903.Health Services Research-Malignant Conditions (Myeloid Disease)",
+    "topics": [
+        "machine learning",
+        "multiple myeloma",
+        "transplantation",
+        "m-spike",
+        "serum albumin",
+        "albumins",
+        "aprepitant",
+        "autologous stem cell transplant",
+        "bortezomib",
+        "chemotherapy regimen"
+    ],
+    "author_names": [
+        "Robert Chen, PhD",
+        "Sankeerth Garapati",
+        "David Wu",
+        "Sean Ko",
+        "Sam Falk",
+        "Djamilia Dierov",
+        "Adam Stasiw",
+        "Adomah S. Opong, ANP",
+        "Kenneth R. Carson, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Flatiron Health Inc, New York, NY "
+        ],
+        [
+            "Flatiron Health Inc, New York, NY "
+        ],
+        [
+            "Flatiron Health Inc, New York, NY ",
+            "Stanford University, Stanford, CA "
+        ],
+        [
+            "Flatiron Health Inc, New York, NY ",
+            "Massachusetts Institute of Technology, Cambridge, MA "
+        ],
+        [
+            "Flatiron Health Inc, New York, NY ",
+            "New York University, New York, NY "
+        ],
+        [
+            "Flatiron Health Inc, New York, NY "
+        ],
+        [
+            "Flatiron Health Inc, New York, NY "
+        ],
+        [
+            "Flatiron Health Inc, New York, NY ",
+            "Weill Cornell Medicine, New York, NY "
+        ],
+        [
+            "Flatiron Health Inc, New York, NY ",
+            "Washington University School of Medicine in St. Louis, Saint Louis, MO ",
+            "St. Louis Veterans Affairs Medical Center, Saint Louis, MO"
+        ]
+    ],
+    "first_author_latitude": "40.7257485",
+    "first_author_longitude": "-74.0048949",
+    "abstract_text": "Introduction: With recent improvements in therapy, median survival after diagnosis for patients with Multiple Myeloma (MM) now exceeds 5 years. However, for a variety of reasons most patients do not receive the most intensive therapy for MM, namely autologous stem cell transplantation (auto-SCT). In order to better understand which patients will receive the greatest benefit from auto-SCT, we developed a machine learning (ML) model to identify relevant predictors of 5-year mortality for MM patients who received auto-SCT. Previous studies have identified adverse cytogenetics (e.g., chromosome 13 deletion), elevated B2-microglobulin, elevated lactate dehydrogenase, and the receipt of more than 1 year of standard chemotherapy as prognostic risk factors. Using several ML techniques, we built a predictive model for 5-year mortality post-transplant and identified features that were most predictive. Methods: We used the de-identified nationwide Flatiron Health electronic health record (EHR)-derived database. Patients with a confirmed MM diagnosis between January 1, 2011 and May 31, 2019, and who received an auto-SCT at any date after their diagnosis, were eligible for analysis. Clinically relevant data available for these patients included demographic information, lab results, date of transplant, medications administered before transplant, lines of therapy, M-spike results, time from diagnosis to auto-SCT, and mortality data. Patients were classified based on 5-year survival after auto-SCT. Patients who underwent auto-SCT within the last 5 years and are still alive were excluded from this analysis, as were those who received an allogeneic transplant after auto-SCT. Using this feature set, we trained a variety of industry-standard ML models, including logistic regression, support vector machines, gradient boosted trees, and random forest. We used 5-fold cross validation to evaluate model performance, evaluated based on the area under the receiver operating curve (AUC). We then determined the relative importance of each feature in the logistic regression model and reviewed each feature's clinical relevance. Results: 1016 patients (588 patients who died within 5 years from their transplant date, and 428 patients who died 5 years or later following transplant) were included in the cohort. The logistic regression model was the best performing model, achieving an AUC of 0.77, accuracy of 0.70, and F1 score of 0.60 (Table). Eight of the 10 most predictive features for early mortality were presence of chromosome 1 abnormalities, higher age at diagnosis, higher serum albumin levels, higher number of visits before transplant, presence of ICD codes for comorbid conditions, and presence of administrations of pomalidomide, bortezomib, or zoledronic acid. These features were determined to be clinically meaningful and all were associated with mortality before 5 years. Receipt of fosaprepitant was also predictive of mortality before 5 years, though the clinical relationship is more challenging to explain. Presence of M-spike elevation in the 100 days before or after auto-SCT was predictive of reduced mortality. The latter finding, along with higher mortality in patients with higher serum albumin levels, was counterintuitive. Discussion: Auto-SCT procedures can have high toxicity and cost; therefore, accurate prediction of outcomes could improve understanding of the utility of auto-SCT for individual MM patients. Our study demonstrates the potential of using ML models for risk prediction in MM, though the presence of counterintuitive findings (e.g. higher albumin correlated to poorer survival) will require additional investigation. We hope that this study inspires future research into using ML techniques to support personalized clinical decision-making, help organize supportive care initiatives, and inform pre-approval decisions made by payers. View large Download slide View large Download slide  Disclosures Chen: Flatiron Health, Inc: Employment; Roche: Equity Ownership. Garapati: Flatiron Health, Inc.: Employment. Wu: Flatiron Health: Employment. Ko: Flatiron Health, Inc.: Employment. Falk: Flatiron Health, Inc.: Employment; Roche: Equity Ownership. Dierov: Flatiron Health, Inc.: Employment; Roche: Equity Ownership. Stasiw: Roche: Equity Ownership; Flatiron Health, Inc.: Employment. Opong: Flatiron Health, Inc., which is an independent subsidiary of the Roche Group: Employment, Research Funding. Carson: Flatiron Health, Inc., which is an independent subsidiary of the Roche Group: Employment, Research Funding; Roche: Equity Ownership."
 }
