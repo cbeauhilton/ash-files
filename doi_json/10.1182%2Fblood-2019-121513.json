@@ -2,5 +2,77 @@
     "doi": "https://doi.org/10.1182/blood-2019-121513",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4293",
     "start_url_page_num": 4293,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Patient Specific Comorbidities Impact Overall Survival in Myelofibrosis ",
+    "article_date": "November 13, 2019",
+    "session_type": "634.Myeloproliferative Syndromes: Clinical",
+    "topics": [
+        "academic medical centers",
+        "bonferroni method",
+        "brain",
+        "cardiomyopathy",
+        "coma",
+        "comorbidity",
+        "complete blood count",
+        "congestive heart failure",
+        "cor pulmonale",
+        "encephalopathy"
+    ],
+    "author_names": [
+        "Andrew Sochacki, MD",
+        "Cosmin Adrian Bejan, PhD",
+        "Shilin Zhao, PhD",
+        "Travis Spaulding, MD",
+        "Shannon Stockton, MD",
+        "Alexander Silver",
+        "Dixon Dorand, MD PhD",
+        "Siwei Zhang, PhD",
+        "Thomas Stricker, MD PhD",
+        "Yaomin Xu, PhD",
+        "Michael R. Savona, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Medicine and Program in Cancer Biology, Vanderbilt University School of Medicine, Nashville, TN "
+        ],
+        [
+            "Department of Biomedical Informatics, Vanderbilt University, Nashville, TN "
+        ],
+        [
+            "Department of Biostatistics, Vanderbilt University, Nashville, TN ",
+            "Center for Quantitative Sciences, Vanderbilt University, Nashville, TN "
+        ],
+        [
+            "Department of Medicine, Nashville, TN "
+        ],
+        [
+            "Department of Medicine, Vanderbilt University School of Medicine, Nashville, TN "
+        ],
+        [
+            "Department of Medicine and Program in Cancer Biology, Vanderbilt University School of Medicine, Nashville, TN "
+        ],
+        [
+            "Department of Medicine, Vanderbilt University School of Medicine, Nashville, TN "
+        ],
+        [
+            "Department of Biomedical Informatics, Vanderbilt University, Nashville, TN ",
+            "Department of Biostatistics, Vanderbilt University, Nashville, TN ",
+            "Center for Quantitative Sciences, Vanderbilt University, Nashville, TN "
+        ],
+        [
+            "Department of Pathology, Microbiology and Immunology, Vanderbilt University School of Medicine, nashville, TN "
+        ],
+        [
+            "Department of Biomedical Informatics, Vanderbilt University, Nashville, TN ",
+            "Department of Biostatistics, Vanderbilt University, Nashville, TN ",
+            "Center for Quantitative Sciences, Vanderbilt University, Nashville, TN "
+        ],
+        [
+            "Department of Medicine and Program in Cancer Biology, Vanderbilt University School of Medicine, Nashville, TN ",
+            "Vanderbilt-Ingram Cancer Center, Nashville, TN"
+        ]
+    ],
+    "first_author_latitude": "36.141261650000004",
+    "first_author_longitude": "-86.80269489999999",
+    "abstract_text": "Background: Treatment decisions in primary myelofibrosis (PMF) are guided by several prognostic systems based on disease-specific risk factors, including complete blood counts and cytogenetics. Patient specific comorbidities , e.g. non-hematopoietic organ dysfunction, are not incorporated into current prognostic models. Likewise, PMF risk stratification has not yet integrated large scale electronic health record (EHR) clinical data to refine these scoring systems. We have identified a PMF cohort within the Synthetic Derivative (SD), a de-identified, research-dedicated mirror of the EHR at Vanderbilt University Medical Center that contains 2.9 million individual records with 148 million ICD codes, and 125 million clinical notes. As a proof of concept, we leveraged the SD to develop a PMF cohort. We then aimed to identify novel patient specific comorbidities that may be associated with reduced overall survival (OS) in PMF via a phenome-wide association (PheWAS) study. Methods: We interrogated the SD for PMF via an algorithm that relied on ICD codes, natural language processing of physician notes, and medication history to identify high probability cases. Confirmation of PMF was based on strict hematologist review using 2016 WHO criteria. To this end, only patients with accessible hematopathology reports and cytogenetics, and more than 1 visit to the institution were enrolled. Patients with transformation to AML at presentation (e.g. within 30 days) were excluded. To evaluate each patient's overall comorbidity burden, we interrogated patient phecodes, which are grouped ICD9 codes shown to better mimic clinical phenotypes (PMID 20335276). Specifically, we extracted all ICD9 codes within 360 days of PMF diagnosis or referral and converted them to phecodes using the map available at https://phewascatalog.org/phecodes. PMF disease-related phecodes or codes that corresponded to DIPSS dependent variables were excluded. We identified 375 phecodes at PMF diagnosis, and conducted a PheWAS study to test the association of each phecode with survival. Survival was calculated as the interval between PMF diagnosis or referral and death or last follow-up (censor); patients who underwent hematopoietic stem cell transplant (HSCT) or transformed to AML were censored at that respective date. Survival from PMF diagnosis was estimated using the Kaplan-Meier method. We utilized the Cox proportional hazards model adjusted for the DIPSS predictors and evaluated the association of each comorbidity with the overall survival and reported those that are statistically significant after multiple testing adjustment (Bonferroni corrected P< 0.00013). Results: We identified 193 cases of PMF from 1995-2016 that met strict pathology inclusion criteria. PMF median age of diagnosis was 59 (range 24-87), 42% were female, and 35 patients were referred greater than one year after diagnosis. Median OS was 39 months (range 1-265), with 23 patients developing AML and 40 patients treated with HSCT. Comorbidity analysis adjusted for DIPSS factors revealed five phecodes associated with reduced OS with Bonferroni correction (Figure 1); intracranial hemorrhage (HR 28.7; 95% CI 7-116; P =2.83E-06) invasive fungal infection (HR 41.1; 95% CI 7-235; P =2.90E-05), cerebral degeneration or hydrocephalus (HR 15.1; 95% CI 3-60;P=8.56E-05), encephalopathy or coma (HR 15; 95% CI 3-59; P =0.0001) and renal failure (HR 4; 95% CI 2-8; P =0.0001). Within the renal failure cohort, uric acid levels within 12 months of PMF diagnosis were elevated (N=18, mean 9.3 mg/dl) compared to the remaining PMF cases (N=132; mean 7.6 mg/dl) P =0.016. An additional 21 patient specific comorbidity patterns noted near Bonferroni cutoff ( P <0.01), with highlights including pulmonary congestion (HR 6; 95% CI 1.7-21), pulmonary heart disease (HR 5.9; 95% CI 0.6-58), cardiomyopathy (HR 5; 95% CI 1.3-19), congestive heart failure (HR 4.3; 95% CI 1.3-14), and pneumonia (HR 3.3; 95% CI 1.4-7). Summary: We successfully leveraged our PMF cohort to identify potential high risk patient-specific comorbidities not included in current risk models. In addition, we illustrated the capacity to use these techniques to identify potential clinical intervention (e.g. chronic hyperuricemia and its impact on renal function). This study demonstrates the potential to refine prognostication and treatment decisions via EHR data to study large populations of rare myeloid disease. View large Download slide View large Download slide  Disclosures Savona: Celgene Corporation: Membership on an entity's Board of Directors or advisory committees; Incyte Corporation: Membership on an entity's Board of Directors or advisory committees, Research Funding; Karyopharm Therapeutics: Consultancy, Equity Ownership, Membership on an entity's Board of Directors or advisory committees; Selvita: Membership on an entity's Board of Directors or advisory committees; Takeda: Membership on an entity's Board of Directors or advisory committees, Research Funding; Boehringer Ingelheim: Patents & Royalties; AbbVie: Membership on an entity's Board of Directors or advisory committees; Sunesis: Research Funding; TG Therapeutics: Membership on an entity's Board of Directors or advisory committees, Research Funding."
 }
