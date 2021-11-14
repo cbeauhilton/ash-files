@@ -2,5 +2,44 @@
     "doi": "https://doi.org/10.1182/blood-2020-143073",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4617",
     "start_url_page_num": 4617,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Expert Variant Curation Combined with in-Silico analysis for Clinical Interpretation of BCL2 variants in Resistance to BCL2 Inhibitors in Chronic Lymphocytic Leukemia/ Small Lymphocytic Lymphoma ",
+    "article_date": "November 5, 2020",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "topics": null,
+    "author_names": [
+        "Matthew McCoy, PhD",
+        "Shruti Rao, MS, MBA",
+        "Shannon Cosgrove, MS",
+        "Subha Madhavan, PhD",
+        "Shashikant Kulkarni, MS, PhD FACMG",
+        "Xinjie Xu, PhD",
+        "Rashmi Kanagal-Shamanna, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Oncology, Innovation Center for Biomedical Informatics, Georgetown University, Washington, DC "
+        ],
+        [
+            "Innovation Center for Biomedical Informatics, Georgetown University, Washington, DC "
+        ],
+        [
+            "Innovation Center for Biomedical Informatics, Georgetown University, Washington, DC "
+        ],
+        [
+            "Innovation Center for Biomedical Informatics, Georgetown University, Washington, DC "
+        ],
+        [
+            "Baylor Genetics, Houston, TX "
+        ],
+        [
+            "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN "
+        ],
+        [
+            "Department of Hematopathology, Division of Pathology/Lab Medicine, University of Texas MD Anderson Cancer Center, Houston, TX"
+        ]
+    ],
+    "first_author_latitude": "38.9187797",
+    "first_author_longitude": "-77.06906289999999",
+    "abstract_text": "Venetoclax is an oral, highly selective, BCL2 inhibitor approved by the FDA for use in chronic lymphocytic leukemia/small lymphocytic lymphoma and acute myeloid leukemia. Despite favorable responses, multiple biological mechanisms lead to treatment resistance. One such mechanism includes somatic mutations in the BCL2 gene. Multiple lines of evidence suggest that hot-spot mutations in BCL2 such as Gly101Val induce treatment resistance by disrupting the binding of BCL2 to the BCL2 inhibitors such as venetoclax. Further, widespread use of high-throughput NGS technologies has identified multiple BCL2 mutations and additional concurrent molecular alterations at various variant allele frequencies in patients with progression while undergoing venetoclax therapy. In order to understand and determine the clinical significance of each of these mutations, careful expert curation and integration into somatic variant annotation AMP/ASCO/CAP guidelines is needed. Further, curation of those somatic variants that may not have sufficient functional evidence in literature may benefit from additional tools such as in silico analysis. To address these issues, we have undertaken an effort to integrate the contributions of a multidisciplinary expert panel (clinical laboratory diagnosticians, oncologists, biomedical informaticians and lab-based researchers) for curation of BCL2 variants in hematological malignancies under the umbrella of ClinGen, an NIH/NHGRI funded consortium to establish standards and centralized resources for assessing the clinical significance of gene variants. Within the ClinGen Somatic Cancer Clinical Domain Working Group (CDWG) ((https://www.clinicalgenome.org/working-groups/somatic/), the somatic hematological malignancy taskforce has identified 56 peer-reviewed publications on BCL2 inhibitors (Jan 2014 to June 2020). The functional evidence contained within these publications was curated using CIViC (Clinical Interpretation of Variants in Cancer, civicdb.org), an open access, crowdsourced aggregation of expert curated evidence. Only a fraction of the somatic variants identified in BCL2 has established functional evidence on variant induced disruption to Venetoclax inhibition. Curation of these remaining variants of unknown significance (VUS) only have in silico functional assays to provide evidence on their potential resistance to Venetoclax. The current curation guidelines do not consider in silico prediction as a strong line of evidence for the interpretation of somatic sequence variants, however this recommendation is meant to interpret generalized in silico predictors and not robust computational models of specific protein function. The latter are more comparable to an experimental functional assay, and provide curators with more trustworthy computational assessments of disruption to protein specific functions. In order to assess their potential to integrate and supplement experimental evidence, the interaction of Ventoclax with several drug resistant BCL2 variants was simulated using AutoDock Vina (J Comput Chem. 2010;31(2):455-61). Facilitated by the SNP2SIM workflow (BMC Bioinformatics. 2019;20(1):171), the relative impact on binding energy was compared to the wildtype system. The in silico binding assay accurately predicted resistance ( Fig 1), and demonstrates the utility of applying these methods to the large number of VUS in BCL2. In conclusion, the evidence-based expert curation of BCL2 variants provides a standardized approach for reporting and interpretation across all labs. For those variants (Tier 3) with limited published evidence, computational models that can predict specific changes to functional protein interactions can provide additional tools to the expert curators. Development and incorporation of these tools into curation guidelines requires the refinement of the predictive models through focused validation studies. View large Download slide View large Download slide  Disclosures No relevant conflicts of interest to declare."
 }

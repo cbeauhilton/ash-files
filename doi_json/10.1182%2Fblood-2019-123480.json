@@ -2,5 +2,43 @@
     "doi": "https://doi.org/10.1182/blood-2019-123480",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4361",
     "start_url_page_num": 4361,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Single-Cell RNA-Seq to Assess Differential Responses to Tnf\u03b1 in Human Hematopoietic Stem and Progenitor Cells in Myeloproliferative Neoplasm ",
+    "article_date": "November 13, 2019",
+    "session_type": "602.Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation",
+    "topics": [
+        "myeloproliferative disease",
+        "rna",
+        "stem cells",
+        "tumor necrosis factors",
+        "caspases",
+        "cd34 antigens",
+        "mitogen-activated protein kinases",
+        "bone marrow aspiration",
+        "cd45 antigens",
+        "chemokines"
+    ],
+    "author_names": [
+        "Brianna Craver, MS",
+        "Quy Nguyen",
+        "Gajalakshmi Ramanathan, PhD",
+        "Angela G. Fleischman, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "University of California, Irvine, Irvine, CA "
+        ],
+        [
+            "University of California Irvine, Irvine, CA"
+        ],
+        [
+            "University of California Irvine, Irvine, CA"
+        ],
+        [
+            "University of California, Irvine, Irvine, CA "
+        ]
+    ],
+    "first_author_latitude": "33.6482669",
+    "first_author_longitude": "-117.85506299999999",
+    "abstract_text": "Somatic mutations in hematopoietic stem and progenitor cells (HSPCs) leading to constitutive activation of thrombopoietin receptor signaling result in myeloproliferative neoplasms (MPN). The most common mutation found in MPN patients occurs in the Janus kinase 2 gene (JAK2 V617F ). We have previously found that JAK2 V617F hematopoietic progenitors are resistant to tumor necrosis factor alpha (TNF\u03b1), however this mechanism is not well defined. We hypothesize that resistance to TNF\u03b1 in JAK2 V617F hematopoietic stem and progenitors is a driver of the competitive advantage over non-malignant clones. Here, we used droplet-based single-cell RNA-sequencing to investigate transcriptional profiling in primary human HSPCs. First, we harvested white blood cells from fresh bone marrow aspirates from one MPN patient (Polycythemia Vera with 71% JAK2 V617F allele burden) as well as one unaffected individual then sorted Lin-/CD34+/CD38- hematopoietic progenitors. Immediately following sorting, half of the cells were stimulated with TNF\u03b1 for 4 hours while the other half of cells were used as unstimulated controls. We then utilized the 10X Chromium platform to generate single-cell droplets for the 8,129 total cells from the unaffected individual and 33,299 total cells from the MPN patient. We ran alignment using the CellRanger pipeline then performed analysis using the Seurat package in R. Expression profiles of untreated HSPCs in both normal and MPN cells revealed high expression of genes involved in important pathways for hematopoiesis (Polycomb repressive complexes, chromatin regulation, the ubiquitin proteasome system etc.). Expression of CD34 was confirmed in both MPN and non-MPN cells, though CD34 expression was reduced following TNF\u03b1 stimulation. Expression of stem (i.e. THY1, ITGA6) and progenitor (i.e. PTPRC) genes were detected within both individuals, which highlights the heterogeneity within Lineage-/CD34+/CD38- cells. Following stimulation with TNF\u03b1, we observed expression of genes in canonical pathways downstream of TNF including NF-\u03baB, Mitogen-Activated Protein Kinase (MAPK), and Transforming Growth Factor Beta (TGF\u03b2). Indeed, we observed a baseline level of expression of TGF\u03b2-related genes in both normal and MPN cells. Upon inflammatory stimulation, normal HSPCs upregulated SMAD expression which are involved in the TGF\u03b2 pathway. Strikingly, we did not observe an increase in SMAD expression in MPN cells following TNF. This suggests a dampened response via the TGF\u03b2 pathway to TNF in MPN cells. Additionally, we found that TNF-stimulated HPSCs from the unaffected individual expressed canonical genes of the TNF pathway that encode for chemokines, cytokines, transcription factors and negative feedback regulators. In normal TNF-stimulated cells, we identified highly expressed genes involved in the caspase cascade, suggesting a robust apoptotic response in normal HPSCs. However, there was a lower expression of caspases in stimulated MPN cells, suggesting a dampened apoptotic response to TNF. One observation that was unique to TNF-stimulated cells from the MPN individual was the expression of glycoproteins involved in angiogenesis and platelet aggregation. Taken together, these data serve as a proof of principle for transcriptional profiling of primary human hematopoietic stem and progenitor cells and that this cell population rapidly and robustly alter their gene expression program upon TNF\u03b1 stimulation. In conclusion, we show that HSPCs from an MPN patient exhibit a dampened response to TNF compared to normal HSPCs. Specifically, we observed a lower expression of genes involved with apoptosis and TGF\u03b2 signaling in MPN cells compared to normal cells following TNF stimulation. The finding of a dampened apoptotic response to TNF is consistent with the hypothesis that JAK2 V617F cells gain a selective advantage over normal cells under inflammatory stress. To our knowledge, this is the first report of single-cell RNA-seq analysis on primary human HSPCs following FACS and inflammatory stimulation. Disclosures Fleischman: incyte: Speakers Bureau."
 }
