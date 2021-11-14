@@ -2,5 +2,59 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-116128",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3942",
     "start_url_page_num": 3942,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "RNA-Seq Analysis of Clonal Hematopoiesis (CHIP) Blood Leukocytes Shows Dysregulation of Neutrophil / Innate Immunity-Related Genes ",
+    "article_date": "November 29, 2018",
+    "session_type": "503. Clonal Hematopoiesis: Aging and Inflammation: Poster III",
+    "topics": [
+        "genes",
+        "immunity",
+        "leukocytes",
+        "neutrophils",
+        "rna",
+        "hematopoiesis",
+        "cardiovascular diseases",
+        "alpha-defensins",
+        "cancer",
+        "chemokines"
+    ],
+    "author_names": [
+        "Elina K Cook, MSc",
+        "Richard N Armstrong, PhD",
+        "Eshita Sharma, PhD",
+        "Brooke Snetsinger, MSc",
+        "Jacqueline Boultwood, PhD",
+        "Rena Buckstein, MD FRCPC",
+        "Andrea Pellagatti, PhD",
+        "Michael J. Rauh, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Pathology and Molecular Medicine, Queen's University, Kingston, Canada "
+        ],
+        [
+            "Nuffield Division of Clinical Laboratory Sciences, Radcliffe Department of Medicine, University of Oxford and Haematology Theme Oxford Biomedical Research Centre, Oxford, United Kingdom "
+        ],
+        [
+            "Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford, United Kingdom "
+        ],
+        [
+            "Department of Pathology and Molecular Medicine, Queen's University, Kingston, Canada "
+        ],
+        [
+            "Nuffield Division of Clinical Laboratory Sciences, Radcliffe Department of Medicine, University of Oxford and Haematology Theme Oxford Biomedical Research Centre, Oxford, United Kingdom "
+        ],
+        [
+            "Odette Cancer Centre, Sunnybrook Health Sciences Centre, Toronto, Canada"
+        ],
+        [
+            "Nuffield Division of Clinical Laboratory Sciences, Radcliffe Department of Medicine, University of Oxford and Haematology Theme Oxford Biomedical Research Centre, Oxford, United Kingdom "
+        ],
+        [
+            "Department of Pathology and Molecular Medicine, Queen's University, Kingston, Canada "
+        ]
+    ],
+    "first_author_latitude": "44.2252795",
+    "first_author_longitude": "-76.49514119999999",
+    "abstract_text": "BACKGROUND : Clonal hematopoiesis of indeterminate potential (CHIP) involves the peripheral blood (PB) expansion of progeny of a hematopoietic stem or progenitor cell that is somatically mutated in a hematological cancer-associated gene (most often TET2 or DNMT3A ). CHIP associates with comorbid diseases of aging such as cardiovascular disease. Murine knockout ( Tet2 or Dnmt3a ) and engraftment models of CHIP develop exacerbated cardiovascular disease and their mutated myeloid cells are more reactive to inflammatory stimuli. However, whether blood leukocytes in human CHIP are hyper-inflammatory remains speculative. We recently found people with CHIP have higher serum levels of certain pro-inflammatory cytokines and chemokines than controls (Cook et al, ASH 2017). Thus, we hypothesized that PB effector cells in people with CHIP will be enriched for pro-inflammatory gene expression and pathways. METHODS : The presence of CHIP (variant allele frequency, VAF>0.02) was determined in the whole PB of 30 hematologically healthy adults >65 years old at Baycrest and Sunnybrook Health Sciences Centers (Toronto, Canada) using Ion Proton DNA sequencing targeting 48 commonly mutated genes in myeloid neoplasms. RNA-Seq (HISeq 4000, Illumina, 75bp paired-end sequencing reads with a depth of >50 million/sample) was performed on corresponding ribo-depleted whole PB samples (PAXgene), reads were aligned with HISAT2, gene counts quantified with featureCount, and analyzed with DESeq2. FDR<0.1 was used as a cutoff for differential gene expression analyses. Correlations with clinical and comorbidity data were tested with logistic regressions. RESULTS : People with CHIP (\"CHIP+\", n: males=8, females=13; TET2=12, DNMT3A=8, SF3B1=1; VAF range=0.03-0.40) compared to those without CHIP (\"CHIP-\", n: males=3, females=6) had six significantly downregulated genes (e.g. GZMM ) and 10 upregulated genes (e.g. DEFA4, LTF, MPO , see Figure 1A ). Hierarchical clustering of these top genes yielded two groups, one consisting of most of the CHIP- cases (8/9 cases, in a cluster of 11, see Figure 1A ). The three CHIP+ cases that clustered with CHIP- had VAFs lower than 0.15. Of the 16 differentially regulated genes between CHIP+ and CHIP-, nine were recognized by reactome, and most overlapped (\u22656 genes) with pathways involving neutrophil degranulation and innate immunity ( Figure 1B ). DEFA4, LTF, CRISP3, BPI and MPO specifically encode components of neutrophil granules, with various anti-microbial and homeostatic functions. However, mean neutrophil counts (4.6\u00b11.6 vs. 4.4\u00b11.6 10^9/L for CHIP+ vs. CHIP-) and neutrophil to lymphocyte ratios (3.2\u00b11.4 vs. 2.8\u00b12.1 in CHIP+ vs. CHIP-) did not significantly differ between the groups. This suggests that mutations of CHIP may affect neutrophil/immune-related function or phenotype, potentially contributing to comorbid disease. For example, greater expression of alpha-defensins (i.e. DEFA4 ) in CHIP may involve dysregulated granulocyte maturation and inflammatory function as seen in myelodysplasia (Droin et al, 2010 Blood ), suggesting a potential dysregulation of inflammation and immunity. Higher VAFs (>0.15) associated with higher ECOG scores (poorer overall daily functioning: odds ratio=44, 95% CI=4-500, p=0.002), suggesting that larger proportions of mutated cells may have greater effects on gene expression profiles. Accordingly, there were linear correlations between the VAFs of the mutated cell populations and the levels of differentially expressed genes ( Figure 1C ). CONCLUSIONS : The connection between mutant clones of CHIP and disease remains poorly elucidated. For the first time, to our knowledge, we studied gene expression in CHIP leukocytes. We report that the most prominent gene expression differences between people with CHIP and those without CHIP involve neutrophil degranulation and the innate immune system. Additionally, higher VAFs may have a greater influence on gene expression levels and health than lower VAFs. We plan to validate these candidate genes in a larger cohort. These novel data warrant further investigation of the cellular pathways perturbed by somatic mutations of CHIP. View large Download slide View large Download slide  Disclosures Buckstein: Celgene: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding."
 }
