@@ -2,5 +2,75 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-118784",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3911",
     "start_url_page_num": 3911,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Systems Biology Approach to Identify Mechanisms of Therapy Resistance in Multiple Myeloma ",
+    "article_date": "November 29, 2018",
+    "session_type": "653. Myeloma: Therapy, excluding Transplantation: Poster II",
+    "topics": [
+        "multiple myeloma",
+        "systems biology",
+        "rna",
+        "proto-oncogene proteins c-akt",
+        "bcl-xl protein",
+        "bone marrow neoplasms",
+        "bortezomib",
+        "carfilzomib",
+        "cdc2 protein kinase",
+        "chemosensitivity"
+    ],
+    "author_names": [
+        "Rafael Renatino Canevarolo, PhD",
+        "Praneeth Reddy Sudalagunta, PhD",
+        "Maria D Coelho Siqueira Silva, MSc",
+        "Mark B. Meads, PhD",
+        "Priscilla Granados",
+        "Anders Berglund",
+        "Amit Kulkarni, PhD",
+        "Hongyue Dai, PhD",
+        "William S. Dalton, PhDMD",
+        "Ion Petre, PhD",
+        "Kenneth H. Shain, MD PhD",
+        "Ariosto Siqueira Silva, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Cancer Physiology, H. Lee Moffitt Cancer Center and Research Institute, TAMPA, FL "
+        ],
+        [
+            "Cancer Imaging and Metabolism, H Lee Moffitt Cancer Center, Tampa, FL "
+        ],
+        [
+            "Cancer Physiology, H. Lee Moffitt Cancer Center and Research Institute, Tampa, FL "
+        ],
+        [
+            "Department of Malignant Hematology, H. Lee Moffitt Cancer Center and Research Institute, Tampa, FL "
+        ],
+        [
+            "Hillsborough Virtual School, TAMPA, "
+        ],
+        [
+            "H. Lee Moffitt Cancer Center and Research Institute, TAMPA, "
+        ],
+        [
+            "M2GEN, TAMPA, FL "
+        ],
+        [
+            "M2Gen, Tampa, FL "
+        ],
+        [
+            "M2Gen, Tampa, FL "
+        ],
+        [
+            "ABO AKADEMI, Agora, Finland "
+        ],
+        [
+            "Malignant Hematology, H. Lee Moffitt Cancer Center and Research Institute, Tampa, FL"
+        ],
+        [
+            "Cancer Physiology, H. Lee Moffitt Cancer Center and Research Institute, Tampa, FL "
+        ]
+    ],
+    "first_author_latitude": "28.016562",
+    "first_author_longitude": "-82.46327185",
+    "abstract_text": "We describe an approach to identify patient-specific mechanisms of drug resistance in multiple myeloma (MM) patients through a combination of ex vivo chemosensitivity assay using fresh primary samples and gene set enrichment analysis from RNA-Seq and microarray gene expression profiles. Methods: We have performed RNA-Seq on 522 primary MM samples and used a combination of dimensionality reduction analysis (t-SNE) and clustering (fuzzy c-means) to group co-expressing genes in clusters, putatively under control of shared regulatory mechanisms. A data set of microarray gene expression from a second cohort of 762 primary MM samples was used to validate the topology of co-expressing clusters obtained from RNA-Seq. In addition, we have tested drug sensitivity of primary MM samples in an ex vivo reconstruction of the bone marrow tumor microenvironment, including primary human stroma, extra-cellular matrix, and patient-derived soluble factors. 312 of the aforementioned samples were screened against a panel of 95 drugs relevant to MM biology, including PIs -bortezomib (V), carfilzomib (K) and ixazomib (I)-, IMIDs -pomalidomide (P), lenalidomide (R)-, and other standard of care drugs -melphalan (M), dexamethasone (D), doxorubicin (Do), panobinostat (Pa), quisinostat (Q)- and experimental agents -e.g. kinase inhibitors (PKIs), CRM1 inhibitor KPT-330 (Kp) and BCL2 inhibitor ABT-199. Geneset enrichment analysis was performed using GSEA both agnostically, using the clusters of co-expressing genes, and in a knowledge-driven fashion, using pre-established genesets (KEGG, BIOCARTA, HALLMARKS and REACTOME) using LD50 (@96h) or area under the curve (AUC, 0h-96h) as measures of ex vivo drug resistance, and Spearman correlation as ranking metric. Results: We have identified: (a) MM-specific gene expression regulatory architecture, consisting of multiple clusters of co-expressing genes, \"gravitating\" around a cloud of more loosely correlated genes enriched for super enhancers and the mediator family of genes ( Figure 1a ); (b) clusters of genes differentially-expressed in ex vivo drug resistant primary samples, confirming that similar mechanisms of resistance were observed for drugs with similar mechanism of action (e.g. Figure 1b) ; (c) patient and drug-specific mechanisms of resistance (MOR) to therapy, and thus putative means of re-sensitization; and (d) offered candidate synergistic drug combinations based on mutually exclusive mechanisms of resistance. As proof of principle, here we discuss MOR observed in two drugs: ABT-199 and MK2206 (Akt inhibitor). The analysis conducted in MM samples tested with ABT-199 agreed with previous clinical studies in MM, pointing to over-expression of Bcl-xl and Mcl1, as well as under-expression of Bim, Bcl-2, and NOXA in resistant samples. A particular gene cluster, significantly underexpressed in ABT-199-resistant samples, was enriched for ribosomal subunits, regulated by, and contained, MYC, suggesting that MYC and ribogenesis may be linked to Bcl-2 inhibition resistance ( Figure 1c ). Ex vivo resistance to MK2206 led to ~2/3 of genome under-expression, with the most significant clusters linked to cell cycle (e.g. PLK1, CDK1, CHEK1, etc.) and histone subunits, suggesting a quiescence-mediated mechanism of resistance to Akt inhibition ( Figure 1d ), in addition to under-expression of AKT, BAD, FOXO and BIM. Importantly, our analysis has observed significant inter-patient heterogeneity, confirming that multiple MOR can be observed within a patient cohort, reinforcing the need for patient-specific molecular analysis of the disease for choice of therapy. Figure 1 legend. (a) tSNE clustering of ~22,000 genes according to co-expression within a cohort of 522 primary MM samples, as per RNA-Seq (one black dot per gene). Blue disks represent genes from the mediator complex family, red disks represent super-enhancer regulated genes, and green disks are genes coding for transcription factors. (b) Clustergram representing Spearman correlation between expression of ~22,000 and ex vivo resistance to 43 different drugs. Red stands for direct correlation (high expression in resistance), green for inverse (low expression in resistance). (c and d) tSNE clustering of genes colored according to individual Spearman correlation between gene expression and resistance to ABT-199 and MK2206, respectively. Arrows point to clusters highest related to resistance. Figure 1. View large Download slide Figure 1. View large Download slide  Disclosures No relevant conflicts of interest to declare."
 }

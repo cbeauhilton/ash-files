@@ -2,5 +2,60 @@
     "doi": "https://doi.org/10.1182/blood-2020-143381",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4596",
     "start_url_page_num": 4596,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Novel Anti-Cancer Vaccine Approach for the Treatment of High-Risk Leukemia in Children ",
+    "article_date": "November 5, 2020",
+    "session_type": "616.Acute Myeloid Leukemia: Novel Therapy, excluding Transplantation",
+    "topics": null,
+    "author_names": [
+        "Thakur Satbir, PhD",
+        "Son Tran",
+        "Mohit Jain, PhD",
+        "Austin Lewis",
+        "Luis Murguia-Favela, MD",
+        "Faisal M Khan, PhD D (ABHI)",
+        "Kevin J. Bielamowicz, MD",
+        "Olena Vaske, PhD",
+        "Victor A. Lewis, MD",
+        "Norman J. Lacayo, MD",
+        "Aru Narendran, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "University of Calgary, Calgary, Canada "
+        ],
+        [
+            "University of Calgary, Calgary, Canada "
+        ],
+        [
+            "University of Calgary, Calgary, Canada "
+        ],
+        [
+            "University of Calgary, Calgary, Canada "
+        ],
+        [
+            "University of Calgary, Calgary, Canada "
+        ],
+        [
+            "Calgary Laboratory Services, Calgary, Canada "
+        ],
+        [
+            "Arkansas Children's Hospital., Little Rock, AR "
+        ],
+        [
+            "Department of Molecular, Cell, and Developmental Biology, University of California, Santa Cruz, Santa Cruz, CA "
+        ],
+        [
+            "Alberta Children's Hospital, University of Calgary, Calgary, Canada "
+        ],
+        [
+            "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA"
+        ],
+        [
+            "University of Calgary, Calgary, Canada "
+        ]
+    ],
+    "first_author_latitude": "51.0775908",
+    "first_author_longitude": "-114.140695",
+    "abstract_text": "Introduction: There is strong experimental and clinical data to indicate the critical involvement of immune evasion in relapsed leukemia in children. A well-defined characteristic of refractory leukemia is the accumulation of genetic aberrations and mutations that may act as drivers or passengers in the process of tumor recurrence. Many of these mutations get translated into proteins that contain tumor-specific immune-stimulatory epitopes (neoantigens) that can elicit host antitumor immune responses. Although, in general, the mutation rate is lower in pediatric tumors, recent studies have shown that almost 90% of pediatric leukemias carry potentially actionable neoepitopes. In this study, we describe the results from a comprehensive experimental approach of neoantigen prediction coupled with antigen processing and HLA-binding prediction algorithms with in vitro validation assays for the generation of neoantigen vaccines against high-risk leukemias in children. Methods: DNA and RNA from leukemia cells and matched fibroblasts were obtained. Raw reads were aligned to human reference genome and somatic variants (SNVs) were called using Strelka v1.0.1441. RNA-seq data from leukemic cells were used to predict neoantigen expression levels resulting from SNVs using STAR (2.4.1)12 and Cufflinks v2.2.1. Normalized expression data were then cross-referenced with the list of SNVs to identify leukemia-specific mutant proteins. HLA typing for each sample was carried out from RNA-seq data using seq2HLA v2.2. Using the patient's HLA phenotype, we then used NetMHCons v1.1 to predict short peptides derived from leukemia-specific mutant proteins that will bind to autologous HLA Class I molecules. These 8/9-mers were filtered to predict a high likelihood of proteasomal or immune-proteasomal processing and transporter associated with antigen processing (TAP) using NetChop v3.1 and the immune epitope database (IEDB), respectively. The peptides identified were rank-ordered based on the composite immunogenicity score derived from MHC class I binding affinities, proteasomal processing and TCR binding predictions and synthesized accordingly. Peripheral blood derived dendritic cells (DCs) and CD8+ T-cells were isolated and expanded in culture with relevant cytokines. The DCs were pulsed with peptides and then co-cultured with CD8+ T-cells. After five days, the primed CD8+ T-Cells were separated, washed and exposed to the patient's leukemic cells at varying ratios and the leukemia specific CD8+ T-cell activation was quantified by IFN gamma secretion using ELISpot assays. Results: In the leukemia specimen studied, approximately 5% of all on-target germline mutations were found only in leukemic cells. Tumor mutational burden was, on average, 0.34 mut/Mb. Analysis of the highest ranking synthetic peptides (approximately 10 per leukemia sample) showed leukemia-specific activation of patient's T-cells as measured by the mean number of spots observed in ELISpot assays. For example, in patient one (15 year old male, high-risk ALL, one year off therapy), 14 individual short sequences were identified and corresponding peptides were synthesized. Among these, three peptides were not soluble and three peptides showed significant activity above controls. Maximum leukemia specific T-cell activation was noted with peptide #7 QQSALVLL (mean 135 ELISpots compared to 72 in controls, p<0.05, triplicate) indicating a strong nonantigenic potential in this region. Furthermore, this activity was significantly diminished when an extra amino acid was added to this peptide (LQQSALVLL, mean 79 spots) showing the specificity of the approach. A number of other peptides and combinations in non-overlapping regions gave intermediate activities. Discussion: Completed data, including the vaccine peptide sequences and corresponding activities showed the feasibility of identifying pediatric leukemia neoantigen sequences in personalized mutational landscapes of these patients. In addition, we have provided an in vitro experimental approach to validate the potential of such vaccines in future clinical studies and this methodology can also be used to identify agents for effective combinations such as immune checkpoint inhibitors. A clinical trial using these strategies is in development for the treatment of high-risk leukemia in children. Disclosures No relevant conflicts of interest to declare."
 }
