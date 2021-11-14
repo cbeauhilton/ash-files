@@ -2,5 +2,99 @@
     "doi": "https://doi.org/10.1182/blood.V106.11.2253.2253",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=425",
     "start_url_page_num": 425,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Automated Pre-Classification of Anemia Based on the Results of a Routine Automated Hematology System. ",
+    "article_date": "November 16, 2005",
+    "session_type": "Poster Sessions",
+    "topics": [
+        "anemia",
+        "reflex",
+        "thalassemia",
+        "red blood cell disorders",
+        "hemoglobinopathies",
+        "hereditary spherocytosis",
+        "complete blood count",
+        "accuracy",
+        "computers",
+        "software"
+    ],
+    "author_names": [
+        "Alexander Kratz",
+        "Laura Rubattu",
+        "Micheline Maier-Redelsperger",
+        "Giovanni Amendola",
+        "Paolo Danise",
+        "Giuseppe d\u2019Onofrio",
+        "Gina Zini",
+        "Hans van Duijnhoven",
+        "Virginie Siguret",
+        "Isabelle Gouin-Thibault",
+        "Maria Gioia",
+        "Enrico Cillari",
+        "Anthony Ermens",
+        "Gianni Carandina",
+        "Therese Cynober",
+        "Chantal Fossat",
+        "Jean-Francois Lesesve",
+        "Salignac Sylvain"
+    ],
+    "author_affiliations": [
+        [
+            "Pathology, Massachusetts General Hospital, Boston, MA, USA"
+        ],
+        [
+            "Azienda Ospedaliera \u201cSS Annunziata\u201d, Sassari, Italy"
+        ],
+        [
+            "Tenon Hospital, Paris, France"
+        ],
+        [
+            "Ospedale Umberto I, Salerno, Italy"
+        ],
+        [
+            "Ospedale Umberto I, Salerno, Italy"
+        ],
+        [
+            "Catholic University of Sacred Heart, Rome, Italy"
+        ],
+        [
+            "Catholic University of Sacred Heart, Rome, Italy"
+        ],
+        [
+            "Elkerliek Hospital, Helmond, Netherlands"
+        ],
+        [
+            "Charles Foix-Jean Rostand Hospital, Ivry-sur-Seine, France"
+        ],
+        [
+            "Charles Foix-Jean Rostand Hospital, Ivry-sur-Seine, France"
+        ],
+        [
+            "Azienda Ospedaliera \u201cV. Cervello\u201d, Palermo, Italy"
+        ],
+        [
+            "Azienda Ospedaliera \u201cV. Cervello\u201d, Palermo, Italy"
+        ],
+        [
+            "Amphia Hospital, Breda, Netherlands"
+        ],
+        [
+            "Azienda USL di Ferrara, Cento, Italy"
+        ],
+        [
+            "CHU de Bice\u0302tre, Le Kremlin Bice\u0302tre, France"
+        ],
+        [
+            "Hospital de la Timone, Marseille, France"
+        ],
+        [
+            "Nancy University Hospital, Vandoeuvre, France"
+        ],
+        [
+            "Nancy University Hospital, Vandoeuvre, France"
+        ]
+    ],
+    "first_author_latitude": "42.36258545",
+    "first_author_longitude": "-71.0661826",
+    "abstract_text": "Laboratory workup of the cause of anemia requires clinical staff to develop a differential diagnosis based on routine CBC parameters and to subsequently order confirmatory tests. The number of parameters to be reviewed and the complexity of calculations which are performed by individuals on a routine basis is necessarily limited. The wealth of information in the many novel parameters and the complex patterns provided by modern hematology analyzers are frequently not utilized in routine clinical care. The use of computers for pre-classification of common RBC disorders would provide immediate information to order reflex confirmatory tests on the first sample, thereby improving patient care and allowing significant cost savings. Eleven European sites collected 2,303 data files from hematologically normal patients and individuals diagnosed with at least one of 36 RBC disorders. Samples were run on the ADVIA 120 Hematology System (Bayer HealthCare LLC, Diagnostics Division, Tarrytown, NY), an automated cell counter used in routine clinical hematology laboratories worldwide. Based on their representation within this database, a subset of 5 diseases (\u03b2-thalassemia heterozygote, \u03b2-thalassemia homozygote, Hb S homozygote, Hb SC, and hereditary spherocytosis; n=779 samples) and 123 normal cases were selected and used to develop a neural-network based computer program, the Computer Assisted RBC Disorder (CARD) Classification tool. The CARD utilizes hundreds of routine and novel CBC, differential and reticulocyte parameters available from the ADVIA 120 and 2120 Hematology Systems to determine possible causes of a patient\u2019s anemia. We evaluated the CARD by using it to classify 273 new cases from 9 worldwide centers. The program correctly identified 93% of the cases. The majority of misidentifications were due to normal cases being classified as abnormal. 2 Hb S homozygote and one \u03b2-thalassemia heterozygote samples were misidentified as Hb SC. Only 2 of 137 abnormal cases, which were \u03b2-thalassemia heterozygote, were misclassified as normal. The performance of the tool for the presence of any hemoglobinopathy/thalassemia investigated was: sensitivity: 99%; specificity: 90%; PPV: 90%, NPV: 98%. This neural network-based computer program has demonstrated excellent performance with a validation set of samples and demonstrates the potential for using information from automated hematology analyzers to screen for the presence of certain hemoglobinopathies and to provide real-time information to direct an anemia workup. CARD TOOL ACCURACY  . # Correct . # Incorrect . Normal 122 14 \u03b2-Thalassemia Heterozygote 99 3 \u03b2-Thalassemia Homozygote 18 0 Hb S Homozygote 11 2 Hb SC 2 0 Hereditary Spherocytosis 2 0 TOTAL 254 (93%) 19 (7%) . # Correct . # Incorrect . Normal 122 14 \u03b2-Thalassemia Heterozygote 99 3 \u03b2-Thalassemia Homozygote 18 0 Hb S Homozygote 11 2 Hb SC 2 0 Hereditary Spherocytosis 2 0 TOTAL 254 (93%) 19 (7%) View Large"
 }
