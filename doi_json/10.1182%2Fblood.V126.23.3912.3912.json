@@ -2,5 +2,47 @@
     "doi": "https://doi.org/10.1182/blood.V126.23.3912.3912",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2989",
     "start_url_page_num": 2989,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Predicting Time to Treatment in Follicular Lymphoma Using Population-Based Data ",
+    "article_date": "December 3, 2015",
+    "session_type": "622. Non-Hodgkin Lymphoma: Biology, excluding Therapy: Poster III",
+    "topics": [
+        "follicular lymphoma",
+        "time-to-treatment",
+        "chemotherapy regimen",
+        "albumins",
+        "disease progression",
+        "cancer immunotherapy",
+        "diffuse large b-cell lymphoma",
+        "follow-up",
+        "hematologic neoplasms",
+        "hemoglobin"
+    ],
+    "author_names": [
+        "Russell Patmore, MRCP FRCPath",
+        "Alexandra Smith",
+        "Burton Cathy",
+        "Eve Roman",
+        "Simon Crouch, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Queens Centre for Oncology and Hematology, Castle Hill Hospital, Hull, United Kingdom "
+        ],
+        [
+            "Epidemiology and Cancer Statistics Group, University of York, York, United Kingdom "
+        ],
+        [
+            "Haematological Malignancy Diagnostic Service, Leeds Teaching Hospitals NHS Trust, Leeds, United Kingdom "
+        ],
+        [
+            "Epidemiology and Cancer Statistics Group, University of York, York, United Kingdom "
+        ],
+        [
+            "Epidemiology & Cancer Statistics Group, University of York, York, United Kingdom"
+        ]
+    ],
+    "first_author_latitude": "53.7797321",
+    "first_author_longitude": "-0.44675869999999995",
+    "abstract_text": "Introduction Patients diagnosed with Follicular Lymphoma (FL) either require immediate immuno-chemotherapy or, may simply be observed until the development of symptoms suggests that treatment should be initiated. Although there is no evidence to indicate that early intervention in asymptomatic, stage II - IV disease improves outcomes, both doctors and patients find \"watch and wait\" (W+W) strategies difficult to accept as it leaves considerable uncertainty as to the future. The ability to predict the likely time to treatment (TTT) being required would be helpful, both to give reassurance in cases where the likelihood of therapy in the near future is low and to identify higher risk cases where close observation or early intervention might be justified. Prognostic indices are usually derived using data from clinical trials or institutional datasets where patients who do not require treatment tend to be underrepresented; accordingly we constructed an improved prognostic index for TTT for those patients initially on a W+W strategy in an unselected, population-based cohort. Methods This study was based on an established population-based cohort, which since 2004 has tracked all patients newly diagnosed with a haematological malignancy in a representative UK population of nearly 4 million people (www.hmrn.org). All diagnoses, including disease progressions and transformations, are made by a single specialist haematopathology laboratory (www.hmds.info), and clinical teams work to UK guidelines (www.bcshguidlines.com). Clinical and treatment information is systematically collected for all patients and survival data is acquired through links with national data sources. All 296 out of 741 patients newly diagnosed with FL from 2004-2011 initially managed by a W+W approach were included in the analyses and these patients were followed up to February 2015. Prognostic indices for TTT were constructed using the components of the Follicular Lymphoma International Prognostic Index (FLIPI) and other routinely measured clinical variables. Modern machine learning techniques were used, in particular the LASSO applied to semiparametric survival regression, using bootstrapped model selection to confirm Lasso variable selection. The appropriate functional forms for individual variables were chosen on the basis of the Akaike Information Criterion. Predictive performance was measured using area under the ROC curve (AUC) and the concordance index (C). Results With a median age of 65.4 years (range 21-95), 42% of patients were male, 16% had B-symptoms and 37% had stage IV disease at presentation. Median follow-up was 6.4 years; 83 patients were subsequently treated for FL, a further 34 patients transformed to diffuse large B-cell lymphoma and 9 others died from disease progression prior to receiving chemotherapy for FL; median time to these events was 1.4 years. Whilst the FLIPI score for patients initially managed on W+W was predictive for TTT (Figure 1) - achieving an AUC=0.64 and C=0.61, as a result of the model building process a proposed new index for TTT achieved AUC=0.75 and C=0.70 retaining blood albumin, haemoglobin, presence/absence of bulky disease (1/0 respectively) and a score based on the number of nodal sites in the prognostic model (Risk_Score = Albumin (g/dL) x 0.0412 + 0.719 * bulky_disease - 0.102 x Hb (g/dL) + 0.159 x nodal_score). The relation between index value and expected time-to-event for TTT is shown in Figure 2. Conclusion Our population-based data demonstrates that the FLIPI can be used to predict TTT in patients diagnosed with FL and put onto a W+W strategy. By utilising all of the information contained in the components of the FLIPI and by adding additional routine clinical factors we show that the accuracy of prediction of TTT can be improved leading to the production of an accurate and simple TTT curve that can be used in routine clinical practice. Figure 1. View large Download slide Time-to-treatment stratified by FLIPI (p = 0.0004 log-rank test) Figure 1. View large Download slide Time-to-treatment stratified by FLIPI (p = 0.0004 log-rank test) Figure 2. View large Download slide Expected Probability of Not Having Received Chemotherapy at 5 years After Diagnosis by Time-to-Treatment Risk Score Figure 2. View large Download slide Expected Probability of Not Having Received Chemotherapy at 5 years After Diagnosis by Time-to-Treatment Risk Score Disclosures Patmore: Gilead: Honoraria; Janssen: Honoraria."
 }
