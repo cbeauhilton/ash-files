@@ -2,5 +2,63 @@
     "doi": "https://doi.org/10.1182/blood-2019-130374",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4211",
     "start_url_page_num": 4211,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "An Artificial Neural Network Providing Highly Reliable Decision Support in a Routine Setting for Classification of B-Cell Neoplasms Based on Flow Cytometric Raw Data ",
+    "article_date": "November 13, 2019",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "topics": [
+        "b-cell neoplasms",
+        "hairy-cell leukemia",
+        "leukemia",
+        "antibodies",
+        "cd19 antigens",
+        "cd45 antigens",
+        "flow cytometry",
+        "hematologic neoplasms",
+        "antigens",
+        "antigens, cd25"
+    ],
+    "author_names": [
+        "Wolfgang Kern, MD",
+        "Franz Elsner, PhD",
+        "Max Zhao",
+        "Nanditha Mallesh",
+        "Richard Schabath, PhD",
+        "Claudia Haferlach, MD",
+        "Peter Krawitz, MD",
+        "Hannes Lueling, PhD",
+        "Torsten Haferlach, MD"
+    ],
+    "author_affiliations": [
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany "
+        ],
+        [
+            "res mechanica, Munich, Germany "
+        ],
+        [
+            "Institute for Genomic Statistics and Bioinformatics, University Bonn, Bonn, Germany "
+        ],
+        [
+            "Institute for Genomic Statistics and Bioinformatics, University Bonn, Bonn, Germany "
+        ],
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany "
+        ],
+        [
+            "MLL Munich Leukemia Laboratory, Munich, Germany "
+        ],
+        [
+            "Institute for Genomic Statistics and Bioinformatics, University Bonn, Bonn, Germany "
+        ],
+        [
+            "res mechanica, Munich, Germany "
+        ],
+        [
+            "MLL Munchner Leukamie Labor Gmbh, Munchen, Germany"
+        ]
+    ],
+    "first_author_latitude": "48.1080895",
+    "first_author_longitude": "11.473868",
+    "abstract_text": "Introduction: Flow cytometry is an integral part of routine diagnostics for hematologic malignancies and is most relevant in mature B-cell neoplasms (BCN). While quality management systems are widely applied for flow cytometric procedures of sample preparation and measurement, data analysis and interpretation still are completely relying on expert knowledge individually applied to each patient sample. To reduce the dependency on expert knowledge and to potentially increase consistency of data interpretation by lowering inter-observer variability the implementation of automated processes is desirable. Aim: To prospectively assess an artificial neural network applied to unselected samples analyzed by flow cytometry for suspected BCN. Patients and methods: Between April and July 2019 a total of 3272 unselected samples (peripheral blood n=2304, bone marrow aspirate n=968) of adult patients with suspected BCN were flow cytometrically analyzed applying two 9-color tubes of antibody cocktails targeting a total of 16 antigens (tube 1: FMC7, CD10, IgM, CD79b, CD20, CD23, CD19, CD5, CD45; tube 2: Kappa, Lambda, CD38, CD25, CD11c, CD103, CD19, CD22, CD45). An artificial neural network was used to predict previously learned classes of BCN based on unprocessed raw data as obtained from the cytometer. Same data was analyzed in parallel during routine workflow applying expert knowledge that also served as ground truth. Results: Routine diagnostic procedures resulted in the following diagnoses; CLL n=481 (14.7%), CLL/PL n=19 (0.6%), follicular lymphoma (FL) n=16 (0.5%), hairy cell leukemia (HCL) n=61 (1.9%), variant hairy cell leukemia (vHCL) n=3 (0.1%), lymphoplasmacytic lymphoma (LPL) n=46 (1.4%), mantle cell lymphoma (MCL) n=29 (0.9%), marginal zone lymphoma (MZL) n=11 (0.3%), monoclonal B-cell lymphocytosis, CLL type (MBL) n=229 (7.0%), no evidence of BCN n=2377 (72.6%). 117 cases had low level infiltration by BCN (<1%) and were not subject to evaluation by the algorithm. 778 cases had infiltration of at least 1% (median 39%, maximum 98%) and, together with negative cases, were subject to evaluation by the algorithm, i.e. 3155 cases in total. The artificial neural network returns probabilities of the classes listed above where the maximum probability refers to the most likely diagnosis. Maximum probabilities were high, i.e. at least 95%, in 2445/3155 cases (77.5%). Results of these 2445 cases with a high confidence level of the classifier were compared to results obtained by expert evaluation of the identical flow cytometric data. First, we focused on correct predictions of presence or absence of BCN. Prediction was correct in 2437/2445 cases (99.7%). 8 cases misclassified (3 BM, 5 PB) included 6 BCN (1 MCL, 1% infiltration; 1 HCL, 1%; 2 CLL, 1%/4%; 2 LPL, 2%/2%) classified as no evidence of lymphoma and 2 cases without BCN classified as MZL, respectively. Next, we analyzed the correct predictions of CD5 positive BCN vs. CD5 negative BCN vs. no BCN. Prediction was correct in 2435/2445 cases (99.6%). In addition to the wrongly predicted cases mentioned above, 2 cases (both PB) were correctly classified BCN but CD5 positivity was incorrectly predicted. Thus, 1 CLL and 1 CLL/PL (both >10% infiltration) were misclassified as LPL. Finally, we analyzed correct predictions of each class. Prediction was correct in 2429/2445 cases (99.3%). Besides the above mentioned wrongly predicted cases another 6 cases (2 BM, 4 PB) were correctly classified BCN with correct prediction of CD5 positivity but incorrect class prediction: 3 MCL (2%/61%/64%) and 1 MBL (8%) were classified as CLL/PL. 1 HCL (24%) and 1 vHCL (17%) were classified as MZL. Conclusions: The prospective application of an artificial neural network to a large set of flow cytometric raw data results in correct predictions of both presence of BNC and class of BCN at high accuracy (>99%) without any overconfidence effects of the classifier. Misclassified cases were assigned to classes with phenotypes most similar to the correct classes. Further development will focus on identification of small BCN populations, increase of the portion of cases correctly predicted with high probability and generalization of the approach to different antibody cocktails and additional hematologic neoplasms in order to exploit the diagnostic potential of the algorithm. Disclosures Kern: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Elsner: res mechanica: Employment, Equity Ownership. Schabath: MLL Munich Leukemia Laboratory: Employment. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Lueling: res mechanica: Employment, Equity Ownership. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership."
 }
