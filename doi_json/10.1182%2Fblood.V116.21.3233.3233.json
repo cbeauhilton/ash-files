@@ -2,5 +2,67 @@
     "doi": "https://doi.org/10.1182/blood.V116.21.3233.3233",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1786",
     "start_url_page_num": 1786,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "High Throughput Transcriptome Sequencing of Pediatric Relapsed Acute Lymphoblastic Leukemia (ALL) Identifies Relapse Specific Mutations and Expression ",
+    "article_date": "November 19, 2010",
+    "session_type": "Acute Lymphoblastic Leukemia - Biology and Pathophysiology: Poster II",
+    "topics": [
+        "acute lymphocytic leukemia",
+        "dna",
+        "gene expression profiling",
+        "mutation",
+        "nucleotides",
+        "pediatrics",
+        "poly a",
+        "polymerase chain reaction",
+        "protein isoforms",
+        "rna"
+    ],
+    "author_names": [
+        "Julia A. Meyer, BSc",
+        "Laura E. Hogan, MD",
+        "Jinhua Wang, PhD",
+        "Jun J. Yang, PhD",
+        "Jay Patel, BSc",
+        "Ross L. Levine, MD",
+        "Stephen P. Hunger, MD",
+        "Elizabeth Raetz, MD",
+        "Christopher Mason, PhD",
+        "William L. Carroll, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Pedatrics, New York University Langone Medical Center, New York, NY, USA, "
+        ],
+        [
+            "Pedatrics, New York University Langone Medical Center, New York, NY, USA, "
+        ],
+        [
+            "Pedatrics, New York University Langone Medical Center, New York, NY, USA, "
+        ],
+        [
+            "Dept. of Pharmaceutical Sciences, St. Jude Children's Res. Hosp., Memphis, TN, USA, "
+        ],
+        [
+            "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA, "
+        ],
+        [
+            "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY, USA, "
+        ],
+        [
+            "Pediatric Hem./Onc./BMT, University of Colorado College of Medicine, Aurora, CO, USA, "
+        ],
+        [
+            "Pedatrics, New York University Langone Medical Center, New York, NY, USA, "
+        ],
+        [
+            "The Institute for Computational Biomedicine, Weill Cornell Medical College of Cornell Univeristy, New York, NY"
+        ],
+        [
+            "Pedatrics, New York University Langone Medical Center, New York, NY, USA, "
+        ]
+    ],
+    "first_author_latitude": "40.70845015",
+    "first_author_longitude": "-73.98287855",
+    "abstract_text": "Abstract 3233 Introduction: Relapsed ALL carries a very poor prognosis despite intensive therapy, indicating the need for new insights into disease mechanisms. We have previously used gene expression profiling (Hogan et al. ASH 2009) and copy number analysis (Yang et al. Blood 2008) in paired diagnosis and relapsed ALL samples to better understand the biologic mechanisms leading to recurrent disease. To create an integrated genomic profile of ALL, we have now focused on high throughput RNA sequencing to detect changes in the transcriptome from diagnosis to relapse. Patients/Methods: To date we have sequenced 6 matched diagnosis/relapse pairs (i.e. 12 marrow samples) from B-precursor ALL patients enrolled on Children's Oncology Group (COG) P9906 and AALL0232 trials. RNA libraries were prepared from poly-A selected RNA and sequenced using 54 base pair single end reads using the Illumina Genome Analyzer IIx. Each sample was sequenced in at least 7 lanes, generating an average of 100 million reads per sample. BWA (v0.5.8) was used to align the reads to the human genome, producing an average of 53 million mapped reads. Samtools (v0.1.8) was then used to predict genetic variants across the genome, filtering out variants with a low mapping quality (0), low coverage (<8X), or overlap with known single nucleotide polymorphisms (SNPs) from dbSNP (r131) or the 1000 Genomes Project. Results: We observed a total of 119,000 genetic variants across all samples, with comparable overall mutational burden at relapse and diagnosis. To identify candidate lesions that may indicate a selection for common chemoresistance pathways, we focused our analysis on relapse-enriched, non-synonymous variants. 8,486 non-synonymous variants (insertions/deletions and single nucleotide variants [SNV]) were identified that occurred more often at relapse compared to diagnosis. Our analysis was focused on relapse-enriched SNVs that coded for non-synonymous changes, of which 154 were prioritized for validation. Validation was completed using matched genomic DNA samples and PCR products were directly sequenced. Mutation calls were made by manual review of tracings using the Mutation Surveyor program from Softgenetics. Thirty-three percent of predicted SNV loci were validated, but upon further sequencing of matched germline samples, five relapse specific mutations were confirmed. Mutations in COBRA1, FAM120A, RGS12, SND2, and SMEK2 were found in individual patient relapse samples. Validation is currently ongoing to confirm additional SNVs and an expanded validation of mutations will be completed in an additional 66 matched diagnosis/relapse pairs from COG 9906 and AALL 0232 and 0331 studies. Relapse specific isoforms identifying alternative exon usage was also detected in 15 genes, all of which were shared amongst multiple patients. In addition, a significant increase (p=6.7\u00d710 \u22126 ) was observed in the number of poly-adenylation sites in the genes of the relapse samples. Conclusions: While, isoform specific expression was shared amongst patients at relapse, all relapse specific mutations were private and our data to date indicate that a diversity of mechanisms contribute to relapsed disease. Further sequencing analysis of our expanded cohort of samples will determine the mutation and isoform expression prevalence, as well as the functional significance and the potential therapeutic relevance. Disclosures: No relevant conflicts of interest to declare."
 }
