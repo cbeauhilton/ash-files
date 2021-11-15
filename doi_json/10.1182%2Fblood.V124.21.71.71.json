@@ -2,5 +2,51 @@
     "doi": "https://doi.org/10.1182/blood.V124.21.71.71",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2910",
     "start_url_page_num": 2910,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Simple, Powerful, and Widely Applicable Micro-RNA Scoring System in Prognostication of De Novo Myeloid Leukemia Patients ",
+    "article_date": "December 6, 2014",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis: Molecular Markers and Prognosis",
+    "topics": [
+        "leukemia, myeloid",
+        "micrornas",
+        "cancer",
+        "prognostic factors",
+        "rna, messenger",
+        "chemotherapy regimen",
+        "cryopreservation",
+        "karyotype determination procedure",
+        "leukemia, myelocytic, acute",
+        "polymerase chain reaction"
+    ],
+    "author_names": [
+        "Ming-Kai Chuang, MD",
+        "Yu-Chiao Chiu",
+        "Wen-Chien Chou, MD PhD",
+        "Hsin-An Hou, MD PhD",
+        "Eric Y. Chuang, PhD",
+        "Hwei-Fang Tien, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "National Taiwan University Hospital, Taipei, Taiwan "
+        ],
+        [
+            "Graduate Institute of Biomedical Electronics and Bioinformatics, National Taiwan University, Taipei, Taiwan "
+        ],
+        [
+            "National Taiwan University Hospital, Taipei, Taiwan "
+        ],
+        [
+            "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, College of Medicine, National Taiwan University, Taipei, Taiwan "
+        ],
+        [
+            "National Taiwan University, Taipei, Taiwan"
+        ],
+        [
+            "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, College of Medicine, National Taiwan University, Taipei, Taiwan "
+        ]
+    ],
+    "first_author_latitude": "25.0407391",
+    "first_author_longitude": "121.51898630000001",
+    "abstract_text": "Introduction Acute myeloid leukemia (AML) is a highly heterogeneous disease with various cytogenetic and molecular abnormalities, some of which bear prognostic significance. Expression levels of some single microRNAs are influential for prognosis, but a system integrating several together and considering the weight of each should be more powerful. We sought to define a simple microRNA signature to predict prognosis in the patients. Method A cohort of 195 de novo AML patients who had cryopreserved marrow cells for study were subjected to global microRNA analysis. Analysis for overall survival (OS) was based on the 138 patients who received standard intensive chemotherapy (NTUH cohort). The AML cohort from the Cancer Genome Atlas (TCGA), which contains publically available data of microRNA and clinical information, serves as a validation cohort. To build a risk scoring system based on the global microRNA expression, we first analyzed the association between OS and the expression levels of individual microRNAs using univariate Cox proportional hazards regression model. MicroRNAs whose expression levels harbored top significance on OS (univariate Cox P < 0.005) were then analyzed with the multivariate Cox model. These microRNAs with independent survival significance (multivariate Cox P < 0.1) were selected to generate a risk scoring system, in which the expression of component microRNAs went through another round of multivariate Cox regression test to get beta values as weights for each microRNA. We also analyzed the global mRNA expression profiles from ours and TCGA cohort to sort out the physiologic pathways associated with high/low scores. Results Eleven microRNAs were significantly associated with OS by univariate Cox analysis (P < 0.005). After introducing the expression of these microRNAs into a multivariate Cox model, we identified high expression of hsa-miR-9-5p and hsa-miR-155-5p were independently associated with poor OS, while that of hsa-miR-203 had a trend of association with favorable OS. We constructed a risk scoring system: Risk = 0.4908 [Z hsa-miR-9-5p ] + 0.2243 [Z hsa-miR-155-5p ] - 0.7187 [Z hsa-miR-203 ], where the weights of microRNAs are beta values from multivariate Cox analysis and Z microRNA means the levels of specific microRNA expression after z-transformation. AML patients with higher scores had significantly shorter OS compared with those with lower scores in ours (median 13.5 months vs. not reached, P < 0.0001, Figure 1 ) as well as in the validation TCGA AML cohort (median 12.2 vs 26.4 months, P = 0.008, Figure 2 ). When restricting the analysis in our patients with a normal karyotype, the OS of patients with higher scores still fared worse (median 17.0 months vs. not reached, P = 0.006). Moreover, high score appeared to be an unfavorable prognostic factor independent of age, white cell count, cytogenetics, and gene mutation in both ours (HR=2.079, 95% CI 1.407-3.073, p<0.001) and TCGA cohort (HR=1.544, 95% CI 1.229-1.940, p<0.001). We also noted that the 3-microRNA signature outperformed all the single microRNA expression in prognostic significance. By analyzing the mRNA expression profiles, we sorted out several cancer-related pathways highly correlated with the microRNA prognostic signature. Since the scoring system was designed by z-transformed microRNA expression levels as inputs, cohort mean and cohort standard deviation of each of the three microRNAs are required for that formula. We provide the calculating formula we used in the NTUH dataset: Risk = 0.4908 (-Delta C t hsa-miR-9-5p +15.71)/3.60 + 0.2243 (-Delta C t hsa-miR-155-5p +6.94)/1.45 - 0.7187 (-Delta C t hsa-miR-203 +17.16)/2.66 . Here the Delta C t values are C t of the microRNA subtract C t of the endogenous control MAMMU6 ; 15.71 and 3.60 are the mean and standard deviation of Delta C t hsa-miR-9-5p. The same annotation applies to hsa-miR-155-5p and hsa-miR-203. For each newly diagnosed patient, the expression levels of hsa-miR-9-5p , hsa-miR-155-5p , hsa-miR-203 , and MAMMU6 as determined by real-time PCR is sufficient to get a prognostic score, which will then be compared with our cohort median score 0.0031 to stratify the risk group. Conclusion We present a simple and user-friendly 3-microRNA signature as a powerful prognostic factor for AML through multiple rounds of statistical analyses on our cohort and further validation by another independent patient group. Figure 1 View large Download slide Figure 1 View large Download slide Figure 2 View large Download slide Figure 2 View large Download slide Disclosures No relevant conflicts of interest to declare."
 }
