@@ -2,5 +2,55 @@
     "doi": "https://doi.org/10.1182/blood-2020-138933",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4592",
     "start_url_page_num": 4592,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Mutational and Copy Number Profiling of Circulating Tumor DNA in Acute Myeloid Leukemia Using Targeted Next Generation Sequencing ",
+    "article_date": "November 5, 2020",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "topics": null,
+    "author_names": [
+        "Ing Soo Tiong, MBBS,FRACP,FRCPA",
+        "Clarissa Wilson, BSc,MSc",
+        "Satwica Yerneni, MS",
+        "John Markham",
+        "Karen Dun, BSc,FHGSA",
+        "Ashish Bajel, FRACP",
+        "Ella R Thompson, PhD BSc",
+        "David Alan Westerman, MBBS, FRCPA, FRACP",
+        "Piers Blombery, MBBS"
+    ],
+    "author_affiliations": [
+        [
+            "Peter MacCallum Cancer Centre, Melbourne, Australia "
+        ],
+        [
+            "Peter MacCallum Cancer Centre, Melbourne, Australia "
+        ],
+        [
+            "Peter MacCallum Cancer Centre, Melbourne, Australia "
+        ],
+        [
+            "Peter MacCallum Cancer Centre, Melbourne, Australia "
+        ],
+        [
+            "Victorian Cancer Cytogenetics Service, Melbourne, Australia "
+        ],
+        [
+            "Peter MacCallum Cancer Centre, Melbourne, Australia "
+        ],
+        [
+            "Peter MacCallum Cancer Centre, Melbourne, Australia "
+        ],
+        [
+            "Sir Peter MacCallum Department of Oncology, University of Melbourne, Melbourne, Australia ",
+            "Clinical Haematology, Peter MacCallum Cancer Centre and Royal Melbourne Hospital, Melbourne, Australia "
+        ],
+        [
+            "Peter MacCallum Cancer Centre, Melbourne, Australia ",
+            "University of Melbourne, Melbourne, Australia ",
+            "Royal Melbourne Hospital, Melbourne, Australia"
+        ]
+    ],
+    "first_author_latitude": "-37.860412749999995",
+    "first_author_longitude": "145.03787045",
+    "abstract_text": "The assessment of circulating tumor DNA (ctDNA), released by tumor cells undergoing apoptosis or necrosis, has established utility in solid tumors due to the advantage of a non-invasive \"liquid biopsy\" replacing multiple site-specific biopsies. However, its role in acute myeloid leukemia (AML) is uncertain, where a significant proportion of variants detected in the bone marrow (BM) may not be detected in ctDNA (Short, Blood Adv 2020). We have previously demonstrated the possibility of comprehensive genomic characterization of lymphoid malignancy from ctDNA using a single targeted next generation sequencing (NGS) hybridization-based panel (Blombery, BJH 2017). We aimed to assess the performance of this same genomic approach in ctDNA and to compare it against BM in AML. In addition, we aimed to assess the integration of a sensitive variant caller (Mutect2; Benjamin, bioRxiv 2019) to the bioinformatics suite in an attempt to improve low-level variant detection. Nineteen patients were identified from sequential patients with AML treated at our institutions where paired ctDNA and BM aspirate DNA were available. ctDNA was analyzed using a hybridization-based NGS panel targeting genes recurrently mutated in hematological malignancy followed by a suite of bioinformatics tools including HaplotypeCaller (GATK)/Mutect2 (GATK) for variant calling, CNSpector/CNSpectorX (Markham, Sci Reports 2019) for copy number variation (CNV) assessment and GRIDSS (Cameron, Genome Res 2017) for structural variant detection. The cohort clinical details are summarized in Table 1 ; none had documented extramedullary disease at time of collection. A total of 66 unique variants in 27 genes were detected, summarized in Figure 1 . Median number of variants detected was 3 per patient sample, including NPM1 (n=6), IDH1/2 (n=4) and FLT3 point mutation (n=2). Three patient samples had FLT3- ITD detected by fragment length analysis; none were detected by the NGS panel in either ctDNA or BM. Variant allele frequency (VAF) from both compartments were highly correlated (R 2 0.87). Higher VAFs in ctDNA were more commonly observed for kinase activating mutations (12/17 variants) and TP53 (5/6). Using HaplotypeCaller alone, 58 and 61 variants were detected in the BM and ctDNA, respectively. Of the 2 variants \"specific\" to the BM, both ( IDH1 and NRAS ) were called by Mutect2 in ctDNA and confirmed by visual inspection of sequence read alignments. Of the 5 variants \"specific\" to the ctDNA, 4 were detected in the BM at low VAF: CBL (n=2), KRAS and TET2 . One discrepant case was patient #15 with prior breast cancer: KRAS G13D 21% in ctDNA but absent in the BM. Analysis by Mutect2 additionally detected 3 variants not called by HaplotypeCaller: NRAS and KIT in both ctDNA and BM, and TP53 P278R (VAF 6%) specific to the ctDNA in patient #9 with normal karyotype AML without history of prior malignancy. Overall, 3/5 variants in ctDNA and 6/6 in BM with low VAF were kinase activating mutations. We then performed genome-wide alignment of off-target reads to generate a low-resolution digital karyotype and CNV from ctDNA ( Figure 2 ) which was compared with CNV and conventional karyotyping from BM. CNVs were detected in ctDNA in 10/11 patients with abnormal karyotype ( Figure 1 ). Of these, 6/7 with non-complex abnormal karyotypes had consistent ctDNA CNVs including (i) 3 patients (#1, #10 and #15) with either rearranged/amplified KMT2A by FISH were all found to have gains at 11q23.3-qter, and (ii) 1 patient (#4) had 2 marker chromosomes of unknown origin on karyotyping which were resolved as additional copies of 4p using ctDNA sequencing. Although no CNVs were detected in all 8 patients with normal karyotype, analysis of B-allele frequency from ctDNA revealed one patient (#5) with copy neutral loss of heterozygosity (CN-LOH) in 7q (with a concurrent EZH2 mutation >95% VAF). In summary, we have demonstrated the ability to detect sequence variants, perform low-resolution digital karyotyping, CNV detection and CN-LOH detection from ctDNA in AML using a single hybridization based NGS assay. When using this approach, we show a high degree of concordance for both sequence variant and CNV detection, supporting the use of ctDNA as an alternative to BM (e.g. in cases of dry tap, hypocellular AML or failed karyotyping). Finally, using a sensitive variant caller, additional mutations were able to be detected in the ctDNA, the significance of which require evaluation in future studies. View large Download slide View large Download slide  Disclosures Tiong: Amgen: Consultancy, Honoraria; Pfizer: Consultancy; Servier: Consultancy. Wilson: Illumina: Other: Illumina Diagnostic Genomics Scholarship. Bajel: Novartis: Honoraria; Astellas: Honoraria; Abbvie: Honoraria; Amgen: Honoraria, Speakers Bureau; Pfizer: Honoraria. Blombery: Invivoscribe: Honoraria; Novartis: Consultancy; Janssen: Honoraria; Amgen: Consultancy."
 }

@@ -2,5 +2,91 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-119236",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4129",
     "start_url_page_num": 4129,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "High Throughput Droplet Single-Cell Genotyping of Transcriptomes (GoT) Reveals the Cell Identity Dependency of the Transcriptional Output of Somatic Mutations ",
+    "article_date": "November 29, 2018",
+    "session_type": "602. Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation: Single Cell Profiling/Actionable Leukemia Targets",
+    "topics": [
+        "aspartate aminotransferases",
+        "cells",
+        "genotype determination",
+        "mutation, somatic",
+        "transcription, genetic",
+        "cd34 antigens",
+        "nf-kappa b",
+        "biological products",
+        "dna, complementary",
+        "molecular chaperones"
+    ],
+    "author_names": [
+        "Anna S Nam, MD",
+        "Kyu-Tae Kim, PhD",
+        "Ronan Chaligne, PhD",
+        "Franco Izzo, PhD",
+        "Chelston Ang, MS",
+        "Nathaniel Omans, MS",
+        "Alessandro Pastore",
+        "Justin Taylor, MD",
+        "Alicia Alonso",
+        "Wayne Tam, MD PhD",
+        "Ronald Hoffman, MD",
+        "Joseph Scandura, MDPhD",
+        "Raul Rabadan, PhD",
+        "Omar I Abdel-Wahab, MD",
+        "Peter Smibert, PhD",
+        "Dan A. Landau, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, NEW YORK, NY "
+        ],
+        [
+            "Weill Cornell Medical College, New York, NY "
+        ],
+        [
+            "Meyer Cancer Center, Weill Cornell Medicine, New York, NY "
+        ],
+        [
+            "Meyer Cancer Center & Institute of Computational Biomedicine, Weill Cornell Medicine, New York, NY "
+        ],
+        [
+            "Weill Cornell Medical College, New York, "
+        ],
+        [
+            "Weill Cornell Medical College, New York, "
+        ],
+        [
+            "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "Epigenomic core, Weill Cornell Medical College, New York, "
+        ],
+        [
+            "Department of Pathology and Laboratory Medicine, Well Cornell Medical College, New York, NY "
+        ],
+        [
+            "Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY "
+        ],
+        [
+            "Department of Hematology and Oncology, Weill Cornell Medicine, New York, NY "
+        ],
+        [
+            "Department of Systems Biology, Columbia University, New York, NY "
+        ],
+        [
+            "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY "
+        ],
+        [
+            "New York Genome Center, New York, NY"
+        ],
+        [
+            "Meyer Cancer Center & Institute of Computational Biomedicine, Weill Cornell Medicine, New York, NY "
+        ]
+    ],
+    "first_author_latitude": "40.7650903",
+    "first_author_longitude": "-73.95375469999999",
+    "abstract_text": "Somatic mutations in hematopoietic precursors underlie the development of myeloid disorders, such as myeloproliferative neoplasms (MPN). However, our ability to interrogate the transcriptional impact of these mutations on human hematopoiesis is limited by the frequent admixing of mutant (MUT) with wildtype (WT) cells or with other subclones. Recently, digital single-cell RNA-sequencing has provided high-resolution maps of normal hematopoiesis. Nonetheless, due to their 3' bias, these methods do not capture the cell's mutational status. Efficient linking of single-cell genotype and transcriptomes would allow direct comparison of WT and MUT progenitors within the same sample, eliminating patient-specific and technical confounders. Thus, we developed single-cell Genotyping of Transcriptomes (GoT) to link genotypes of expressed genes to transcriptional profiling of thousands of cells by adapting the 10x Genomics platform. We capture the target locus from cDNA generated at an intermediate step, thus enabling linkage of genotype to whole transcriptomes via shared barcodes (Fig. 1A). We tested this approach via a species-mixing experiment, whereby mouse cells with MUT CALR were mixed with human cells with WT CALR . GoT of 1291 admixed cells provided genotyping for 97.5% of cells, and 96.7% matched the expected species (Fig. 1B). To demonstrate the ability of this technology to probe hematopoietic differentiation in MPN, we applied GoT to 20,908 CD34 + cells across five patients with CALR -mutated essential thrombocythemia (ET) or myelofibrosis (MF), resulting in genotyping of 82% of cells. We first performed clustering agnostic to genotype, based on transcriptome data alone, and found that cells clustered according to progenitor cell identity, rather than mutational status (Fig. 1C). Furthermore, projection of GoT data demonstrated that MUT cells were present across all progenitor clusters (Fig. 1D). However, the frequency of CALR- mutated cells was higher in committed progenitors, especially megakaryocytic progenitors (MkPs) compared to CD34 + , CD38 - hematopoietic stem progenitor cells (HSCPs, Fig. 1E). Thus, CALR mutation may confer a greater fitness impact in lineage-committed cells vs. HSPCs. Indeed, we found a significant increase in the number of MkPs in cell cycle in MUT cells compared to WT cells (Fig. 1F). Moreover, this increase in cell cycle activity correlated with the platelet count (Fig. 1G). This suggests that interrogation of MUT and WT progenitors may inform our understanding of patient phenotypic variability despite shared genotypes. GoT enables de novo differential expression discovery in MUT vs. WT cells within the same progenitor subset. MUT MkPs upregulated genes in the unfolded protein response, such as PDIA6 , HSPA5 and XBP1 (Fig. 1H), consistent with the central role of CALR as a chaperone protein. On the other hand, MUT HSPCs showed upregulation of the NF-kB pathway (Fig. 1I), most significantly in the subcluster enriched with the earliest HSCs (Fig. 1J). Since the NF-kB pathway has been implicated in HSC self-renewal, our data provides a potential mechanism for clonal expansion and maintenance of CALR- mutated HSCs. Collectively, these findings demonstrate that the transcriptomic output of CALR mutations is closely dependent on cell identity. To further evaluate the potential of GoT to detect multiple genotypes in clonally complex neoplasms, we targeted three genes, clonal SF3B1 (VAF 47.5% by bulk exon sequencing), and subclonal CALR (43.5%) and NFE2 (33%), in CD34 + cells from a patient with MF (Fig. 1K). Through GoT, the subclonal transcriptional output was interrogated; for example, CALR mutation conferred proliferative advantage to megakaryocytic-erythroid progenitors even in the presence of SF3B1 mutation, while additional NFE2 mutation did not further increase cell cycle activity. In summary, GoT is a powerful tool for linking transcriptional changes to somatic genotypes at the single-cell level. Specifically, it uncovered the transcriptional impact of mutations in myeloid clonal growths in the context of distinct progenitor identities. Further application of GoT to additional MPN contexts as well as clonal hematopoiesis is thus anticipated to provide critical insights into the transcriptional programs that enable clonal expansion and evolution in human hematopoiesis. View large Download slide View large Download slide  Disclosures Hoffman: Merus: Research Funding; Janssen: Research Funding; Summer Road: Research Funding; Incyte: Research Funding; Formation Biologics: Research Funding."
 }
