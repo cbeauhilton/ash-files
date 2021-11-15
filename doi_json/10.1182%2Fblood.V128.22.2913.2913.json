@@ -2,5 +2,64 @@
     "doi": "https://doi.org/10.1182/blood.V128.22.2913.2913",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3560",
     "start_url_page_num": 3560,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Versatile DNA/RNA NGS Targeted Capture Strategy for Detection of Fusion Genes in Pediatric ALL ",
+    "article_date": "December 2, 2016",
+    "session_type": "618. Acute Lymphoblastic Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster II",
+    "topics": [
+        "dna",
+        "fusion genes",
+        "leukemia, lymphocytic, acute, childhood",
+        "massively-parallel genome sequencing",
+        "rna",
+        "cancer",
+        "false-positive results",
+        "reverse transcriptase polymerase chain reaction",
+        "acute lymphocytic leukemia",
+        "gene expression profiling"
+    ],
+    "author_names": [
+        "Grazia Fazio, PhD",
+        "Andrea Grioni",
+        "Tomas Reigl",
+        "Silvia Rigamonti",
+        "Vojtech Bystry",
+        "Simona Songia",
+        "Andrea Biondi, MD",
+        "Nikos Darzentas",
+        "Giovanni Cazzaniga, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Tettamanti Research Center, Department of Pediatrics, University of Milano-Bicocca, San Gerardo Hospital/Fondazione MBBM, Monza, Italy "
+        ],
+        [
+            "Tettamanti Research Center, Department of Pediatrics, University of Milano-Bicocca, San Gerardo Hospital/Fondazione MBBM, Monza, Italy ",
+            "CEITEC - Central European Institute of Technology, Masaryk University, Brno, Czech Republic"
+        ],
+        [
+            "CEITEC - Central European Institute of Technology, Masaryk University, Brno, Czech Republic"
+        ],
+        [
+            "Tettamanti Research Center, Department of Pediatrics, University of Milano-Bicocca, San Gerardo Hospital/Fondazione MBBM, Monza, Italy "
+        ],
+        [
+            "CEITEC - Central European Institute of Technology, Masaryk University, Brno, Czech Republic"
+        ],
+        [
+            "Tettamanti Research Center, Department of Pediatrics, University of Milano-Bicocca, San Gerardo Hospital/Fondazione MBBM, Monza, Italy "
+        ],
+        [
+            "Tettamanti Research Center, Department of Pediatrics, University of Milano-Bicocca, San Gerardo Hospital/Fondazione MBBM, Monza, Italy "
+        ],
+        [
+            "CEITEC - Central European Institute of Technology, Masaryk University, Brno, Czech Republic"
+        ],
+        [
+            "Tettamanti Research Center, Department of Pediatrics, University of Milano-Bicocca, San Gerardo Hospital/Fondazione MBBM, Monza, Italy "
+        ]
+    ],
+    "first_author_latitude": "45.56092015",
+    "first_author_longitude": "9.2362354",
+    "abstract_text": "Introduction: It is widely acknowledged that acute lymphoblastic leukemia (ALL) is caused by acquisition of mutations, with a central role for chromosomal translocations. Therefore, genomic profiling of ALL has the potential to identify important new prognostic markers and druggable fusion genes. Aim: (i) setting up a Next Generation Sequencing-Targeted Capture (NGS-TC) panel focused on ALL, identifying both novel and conventional fusion genes; (ii) providing a user-friendly but powerful, knowledge-based bioinformatics platform for its analysis. Methods: NGS-TC approaches on MiSeq platform (Illumina) were evaluated: (i) on DNA, by Nextera Rapid Capture Custom panel (Illumina), 17 genes; (ii) on RNA, by comparing alternative panels: the Ovation Fusion Panel Target Enrichment System (Nugen, pre-designed 500 or custom 77 genes) and the TruSight Pan-Cancer (Illumina, pre-designed 1385 genes). Both panels include probes for genes involved in B-cell leukemogenesis (such as ABL1, JAK2, EBF1, PAX5). DNA datasets were analyzed by our purpose-built bioinformatics platform, 'BreakingPoint'. RNA results were analyzed by both 'BreakingPoint' and other similar tools available on 'Illumina BaseSpace' Cloud, such as 'TopHat'. Results: 'BreakingPoint' detects fusion genes from datasets derived from any sequencing technology and any biological material (DNA/RNA). Its distinctive feature is that it initially aligns reads on targets to efficiently and effectively find candidate breakpoints, then merges relevant reads into longer (thus more informative) consensus sequences, which are then studied across the genome to confirm the breakpoints and identify fusion partners. 'BreakingPoint' also uses an ever-expanding user database to filter out potential false positives and highlights known or novel true fusions. Firstly, we targeted 17 genes on N=65 DNA of ALL patients and we evaluated 'BreakingPoint' on a subset of 10 samples with 7 known rearrangements: 6 of them were detected with almost no false positives. P2RY8/CRLF2 known fusion was not detected mainly due to a non-homogenous target coverage which affected all the DNA NGS-TC experiments: coverage analyses showed high variability among different genes and in a sample-specific manner. Nevertheless, we detected N=6 novel fusions: 3 involving PAX5 and 3 involving ABL1. Secondly, the two candidate RNA protocols were transversally analyzed in a subset (N=5) of patients with known fusion genes. In this setting, we compared library preparation flowcharts in term of amount of RNA (Ovation kit 200ng vs. PanCancer kit 100ng), timeline and man-effort (2 up to 3 days), cost (similar), single run output (v2 vs. v3 MiSeq reagent kit with a mean of 15M reads/8samples and 25M reads/8samples, respectively) and capturing: both methods efficiently detected known fusion genes. Subsequently, the Ovation Fusion Panel was used to analyze N=59 ALL patients, enrolled consecutively to the protocol to mimic the diagnostic practice. From routinely RT-PCR screening, 14/59 patients carried a previously known fusion gene. By Ovation Nugen NGS-TC, they were all confirmed, such as BCR/ABL1 (N=1), ETV6/RUNX1 (N=8), TCF3/PBX1 (N=4), and P2RY8/CRLF2 (N=1). More interestingly, N=1 gene fusion involving TCF3 and N=2 cases carrying NUP214/ABL1 were detected for the first time. The TruSight Pan-Cancer panel was used to process N=42 newly enrolled cases. Previously known fusion genes were confirmed (N=2 ETV6/RUNX1, N=3 BCR/ABL1, N=3 TCF3/PBX, N=2 P2RY8/CLRF2). Moreover, we detected N=7 previously unknown fusions, mostly confirmed by RT-PCR (validation in progress): N=1 MLL/MLLT10, N=1 EBF1/PDGFRB, N=1 TCF3/OAZ1, N=2 JAK2-fusions, N=1 PAX5-fusion, and N=1 involving MLL with a new partner. Importantly, and in contrast to DNA capture, both RNA-based approaches were successful in detecting the P2RY8/CRLF2 cases. Conclusion: Our results show that RNA NGS-TC assays offer the most feasible solution towards a routine diagnostic protocol and that target coverage is the most important condition for success. Consequently, we have built our bioinformatics approach, 'BreakingPoint', to sensitively and reliably detect fusion genes even in cases of low coverage, irrespective of biological material or protocol. We consider our approach complete and clinically-relevant for identifying known and novel targetable fusion genes in pediatric ALL. Disclosures Biondi: Novartis: Membership on an entity's Board of Directors or advisory committees, Other: Advisory Board; Cellgene: Other: Advisory Board; BMS: Membership on an entity's Board of Directors or advisory committees."
 }
