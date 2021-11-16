@@ -2,5 +2,53 @@
     "doi": "https://doi.org/10.1182/blood-2020-141693",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4651",
     "start_url_page_num": 4651,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Deep Learning Framework for Sickle Cell Disease Microfluidic Biomarker Assays ",
+    "article_date": "November 5, 2020",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "topics": null,
+    "author_names": [
+        "Niksa Praljak",
+        "Brandon Shipley",
+        "Ayesha Gonzales",
+        "Utku Goreke, MSc",
+        "Shamreen Iram",
+        "Gundeep Singh",
+        "Ailis Hill",
+        "Umut A. Gurkan, PhD",
+        "Michael Hinczewski, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Case Western Reserve University, Cleveland, OH",
+            "Cleveland State University, Cleveland, OH"
+        ],
+        [
+            "Case Western Reserve University, Cleveland, OH"
+        ],
+        [
+            "Case Western Reserve University, Cleveland, OH"
+        ],
+        [
+            "Case Western Reserve University, Cleveland, OH"
+        ],
+        [
+            "Case Western Reserve University, Cleveland, OH"
+        ],
+        [
+            "Case Western Reserve University, Cleveland, OH"
+        ],
+        [
+            "Case Western Reserve University, Cleveland, OH"
+        ],
+        [
+            "Case Western Reserve University, Cleveland, OH"
+        ],
+        [
+            "Case Western Reserve University, Cleveland, OH"
+        ]
+    ],
+    "first_author_latitude": "41.5043413",
+    "first_author_longitude": "-81.6083838",
+    "abstract_text": "Introduction: Vaso-occlusive crises (VOCs) are a leading cause of morbidity and early mortality in individuals with sickle cell disease (SCD). These crises are triggered by sickle red blood cell (sRBC) aggregation in blood vessels and are influenced by factors such as enhanced sRBC and white blood cell (WBC) adhesion to inflamed endothelium. Advances in microfluidic biomarker assays (i.e., SCD Biochip systems) have led to clinical studies of blood cell adhesion onto endothelial proteins, including, fibronectin, laminin, P-selectin, ICAM-1, functionalized in microchannels. These microfluidic assays allow mimicking the physiological aspects of human microvasculature and help characterize biomechanical properties of adhered sRBCs under flow. However, analysis of the microfluidic biomarker assay data has so far relied on manual cell counting and exhaustive visual morphological characterization of cells by trained personnel. Integrating deep learning algorithms with microscopic imaging of adhesion protein functionalized microfluidic channels can accelerate and standardize accurate classification of blood cells in microfluidic biomarker assays. Here we present a deep learning approach into a general-purpose analytical tool covering a wide range of conditions: channels functionalized with different proteins (laminin or P-selectin), with varying degrees of adhesion by both sRBCs and WBCs, and in both normoxic and hypoxic environments. Methods: Our neural networks were trained on a repository of manually labeled SCD Biochip microfluidic biomarker assay whole channel images. Each channel contained adhered cells pertaining to clinical whole blood under constant shear stress of 0.1 Pa, mimicking physiological levels in post-capillary venules. The machine learning (ML) framework consists of two phases: Phase I segments pixels belonging to blood cells adhered to the microfluidic channel surface, while Phase II associates pixel clusters with specific cell types (sRBCs or WBCs). Phase I is implemented through an ensemble of seven generative fully convolutional neural networks, and Phase II is an ensemble of five neural networks based on a Resnet50 backbone. Each pixel cluster is given a probability of belonging to one of three classes: adhered sRBC, adhered WBC, or non-adhered / other. Results and Discussion: We applied our trained ML framework to 107 novel whole channel images not used during training and compared the results against counts from human experts. As seen in Fig. 1A , there was excellent agreement in counts across all protein and cell types investigated: sRBCs adhered to laminin, sRBCs adhered to P-selectin, and WBCs adhered to P-selectin. Not only was the approach able to handle surfaces functionalized with different proteins, but it also performed well for high cell density images (up to 5000 cells per image) in both normoxic and hypoxic conditions ( Fig. 1B ). The average uncertainty for the ML counts, obtained from accuracy metrics on the test dataset, was 3%. This uncertainty is a significant improvement on the 20% average uncertainty of the human counts, estimated from the variance in repeated manual analyses of the images. Moreover, manual classification of each image may take up to 2 hours, versus about 6 minutes per image for the ML analysis. Thus, ML provides greater consistency in the classification at a fraction of the processing time. To assess which features the network used to distinguish adhered cells, we generated class activation maps ( Fig. 1C-E ). These heat maps indicate the regions of focus for the algorithm in making each classification decision. Intriguingly, the highlighted features were similar to those used by human experts: the dimple in partially sickled RBCs, the sharp endpoints for highly sickled RBCs, and the uniform curvature of the WBCs. Overall the robust performance of the ML approach in our study sets the stage for generalizing it to other endothelial proteins and experimental conditions, a first step toward a universal microfluidic ML framework targeting blood disorders. Such a framework would not only be able to integrate advanced biophysical characterization into fast, point-of-care diagnostic devices, but also provide a standardized and reliable way of monitoring patients undergoing targeted therapies and curative interventions, including, stem cell and gene-based therapies for SCD. View large Download slide View large Download slide  Disclosures Gurkan: Dx Now Inc.: Patents & Royalties; Xatek Inc.: Patents & Royalties; BioChip Labs: Patents & Royalties; Hemex Health, Inc.: Consultancy, Current Employment, Patents & Royalties, Research Funding."
 }
