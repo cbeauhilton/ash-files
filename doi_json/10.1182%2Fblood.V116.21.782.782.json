@@ -2,5 +2,63 @@
     "doi": "https://doi.org/10.1182/blood.V116.21.782.782",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1749",
     "start_url_page_num": 1749,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Defining Myeloma Patients at High Risk of Developing Bone Disease While on Bisphosphonate Treatment ",
+    "article_date": "November 19, 2010",
+    "session_type": "Myeloma - Biology and Pathophysiology, excluding Therapy III",
+    "topics": [
+        "bisphosphonates",
+        "bone diseases",
+        "multiple myeloma",
+        "serious reportable event",
+        "antagonists",
+        "calcium test, serum",
+        "gene expression profiling",
+        "growth factor",
+        "human leukocyte interferon",
+        "interferons"
+    ],
+    "author_names": [
+        "Ping Wu",
+        "Brian A Walker, PhD",
+        "Kevin D Boyd, MB.BS",
+        "Christopher P Wardell, PhD",
+        "David C Johnson",
+        "Walter M Gregory",
+        "Faith E Davies",
+        "Daniel Brewer",
+        "Gareth J Morgan, MD, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Section of Haemato-Oncology, The Institute of Cancer Research, London, United Kingdom, "
+        ],
+        [
+            "Section of Haemato-Oncology, The Institute of Cancer Research, London, United Kingdom, "
+        ],
+        [
+            "Section of Haemato-Oncology, The Institute of Cancer Research, London, United Kingdom, "
+        ],
+        [
+            "Section of Haemato-Oncology, The Institute of Cancer Research, London, United Kingdom, "
+        ],
+        [
+            "Section of Haemato-Oncology, The Institute of Cancer Research, London, United Kingdom, "
+        ],
+        [
+            "Clinical Trials Research Unit, University of Leeds, Leeds, United Kingdom, "
+        ],
+        [
+            "Section of Haemato-Oncology, The Institute of Cancer Research, London, United Kingdom, "
+        ],
+        [
+            "Section of Molecular Carcinogenesis, The Institute of Cancer Research, London, United Kingdom"
+        ],
+        [
+            "Section of Haemato-Oncology, The Institute of Cancer Research, London, United Kingdom, "
+        ]
+    ],
+    "first_author_latitude": "51.3444431",
+    "first_author_longitude": "-0.1888103",
+    "abstract_text": "Abstract 782 Introduction Myeloma bone disease (BD) impairs quality of life and is also associated with impaired survival. Bisphosphonates can effectively reduce the risk of developing skeletal-related events (SREs); however, 30% of patients still go on to develop the events. Thus, there is an unmet medical need for these patients, and it is important that new drugs are to be developed efficiently in studies based on patients at high risk of developing SREs. We have analyzed 261 presenting myeloma samples for global gene expression profiling to investigate the molecular basis of BD at presentation, as well as to develop a predictive signature for patients at high risk of developing SREs on bisphosphonates. Materials and methods 261 newly-diagnosed myeloma samples were analyzed using Affymetrix GeneChip Human Genome U133 plus 2.0 arrays and were split into a training set (n=205) and a test set (n=56). Differentially expressed genes between patient groups were identified using significance analysis of microarray (SAM), with a 1000-permutation adjustment and 5% false discovery rate (FDR). Correlation analyses between clinical/cytogenetic groups and the risk of having BD at presentation or developing SREs on treatment were also carried out using Fisher's exact test/Mann\u2013Whitney U test. In order to predict patients at high risk of developing SREs within 2 years, the statistically associated parameters were incorporated into a multivariate binary logistic model together with the genes identified by SAM. Each gene's expression values were dichotomised, using the 75 th percentile as a threshold between high expression and low expression. After optimizing the model, ROC curves and corresponding area under curves (AUCs) were generated for the SRE predictor. All the analyses were carried out in R 2.10.0 and Bioconductor. The optimal predictor derived from the training set was validated in a further smaller test set. Results We demonstrated that patients presenting with BD are significantly younger than those without BD, and there is statistically higher proportion of hyperdiploidy and lower percentage of t(4;14) in BD group. SAM identified 50 genes differentially expressed between patients with presenting BD and those without, among which the WNT-signalling antagonist, DKK1, was most significantly differentially expressed. Pathway analysis shows that other associated genes are mainly involved in cell apoptosis and growth factor signalling, which suggests that the biology of the myeloma plasma cells derived from patients with BD is significantly different from those lacking BD. This may explain their differences in outcome. By comparing the patients who had SREs within two years of presentation to those not developing an SRE before progression, we show that higher serum calcium (Ca) level (2.5mmol/L as cut-off), the presence of BD and hyperdiploidy at presentation were significantly associated with the development of an SRE. In an analysis of the genes associated with SRE development, SAM identified 14 genes overexpressed in SRE group, which are either interferon-induced genes, or are involved in cell adhesion, signalling and mitosis. Cumulative incidence analyses confirmed that these genes could significantly discriminate the risk of developing an on-study SRE. Multivariate binary logistic model selection yielded an optimal SRE predictor comprising 7 genes and Ca level. ROC curve showed that the optimal model had an AUC of 0.821, with an optimal sensitivity and specificity of 72% and 82% respectively. This predictor was also validated on a test set, confirming the general utility of this approach. Conclusions In this work we confirm that the Wnt-signaling inhibitor, DKK1, is a major mediator of myeloma BD. We go on to develop an expression based predictor, which can identify the patients who develop SREs within two years of presentation despite effective bisphosphonate treatment. Disclosures: Boyd: Celgene: Honoraria."
 }
