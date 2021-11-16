@@ -2,5 +2,71 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-117328",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4023",
     "start_url_page_num": 4023,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "CAR T Cell Cytotoxicity Is Dependent on Death Receptor-Driven Apoptosis ",
+    "article_date": "November 29, 2018",
+    "session_type": "703. Adoptive Immunotherapy: In Vitro, Correlative, and Early Phase Studies to Improve Safety and Efficacy of CAR-T Cells",
+    "topics": [
+        "apoptosis",
+        "cytotoxicity",
+        "t-lymphocytes",
+        "death domain receptors",
+        "fadd protein",
+        "rna, guide",
+        "antigens",
+        "cd19 antigens",
+        "cancer",
+        "acute lymphocytic leukemia"
+    ],
+    "author_names": [
+        "Nathan Singh, MD",
+        "Olga Shestova, PhD",
+        "Katharina Hayer",
+        "Albert Hong",
+        "Pranali Ravikumar, MS",
+        "Atushi Hoshino, MD PhD",
+        "Ophir Shalem, PhD",
+        "Matthew D. Weitzman, PhD",
+        "Carl H June, MD",
+        "Saar I. Gill, MDPhD",
+        "Marco Ruella, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Division of Hematology and Oncology, Center for Cellular Immunotherapies, University of Pennsylvania, Philadelphia, PA "
+        ],
+        [
+            "Center for Cellular Immunotherapies, University of Pennsylvania, Philadelphia, PA "
+        ],
+        [
+            "The Children's Hospital of Philadelphia, Philadelphia, PA "
+        ],
+        [
+            "Center for Cellular Immunotherapies, University of Pennsylvania, Philadelphia, PA "
+        ],
+        [
+            "Center for Cellular Immunotherapies, University of Pennsylvania, Philadelphia, PA "
+        ],
+        [
+            "University of Pennsylvania, Philadelphia, PA "
+        ],
+        [
+            "The Children's Hospital of Philadelphia, Philadelphia, PA "
+        ],
+        [
+            "Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA "
+        ],
+        [
+            "Center for Cellular Immunotherapies, University of Pennsylvania, Philadelphia, PA "
+        ],
+        [
+            "Division of Hematology and Oncology, University of Pennsylvania, Philadelphia, PA"
+        ],
+        [
+            "Center for Cellular Immunotherapies, University of Pennsylvania, Philadelphia, PA "
+        ]
+    ],
+    "first_author_latitude": "39.9522188",
+    "first_author_longitude": "-75.1932137",
+    "abstract_text": "Background: T cells engineered to express chimeric antigen receptors targeting the B-cell antigen CD19 (CART19) have demonstrated impressive results in the treatment of lymphoid cancers. Despite these promising outcomes, a significant subset of patients relapse after initial response. To investigate the molecular pathways that drive relapse, we performed an unbiased, CRISPR/Cas9-mediated genome-wide knockout screen in the acute lymphoblastic leukemia (ALL) cell line Nalm6, and found that loss of CD19 was the primary driver of relapse after initial response. This finding is consistent with clinical observations that antigen loss is a primary driver of late disease recurrence, however it fails to address the molecular etiology of intrinsic resistance, which affects ~50% of patients with non-Hodgkin lymphoma and ~20% of patients with ALL, or of late antigen-independent relapse, which accounts for ~40% of relapses in ALL. Identification of the mechanisms regulating CART19 susceptibility is an essential first step in overcoming resistance to this powerful therapy. We hypothesized that genetic alteration in ALL cells were responsible for mediating intrinsic, CD19-independent resistance. To investigate this, we conducted a genome-wide loss of function screen in a model designed to evaluate intrinsic resistance to CART19. Methods: Using a lentiviral guide RNA (gRNA) library containing four distinct gRNAs targeting each human gene (~80,000 gRNAs total), we enabled genome-wide knockout in Nalm6, whereby each target cell lost function of only one gene. This gene-modified cell pool was then exposed to either CART19 or control T cells at a low effector:target ratio (0.25:1) to model the expected in vivo E:T ratio. At 24h, surviving Nalm6 cells were collected and gRNA from these cells underwent next-generation sequencing. Sequenced samples were processed using three distinct genome-scale knockout screen algorithms (MAGeCK, permutation-based non-parametric analysis and ScreenBeam). This pipeline allowed identification of (i) significantly enriched gRNA, postulated to mediate loss of gene function that confers resistance to CART19, and (ii) significantly depleted guides, postulated to mediate loss of gene function that confers sensitivity to CART19. The role of identified genes was then validated in in vitro and in vivo studies. Results: Analysis of gRNA sequencing data from our screen (Figure 1) revealed that the three genes whose loss of function most significantly promoted resistance to CART19 were BID, FADD and CASP8 , all of which are key regulators of death receptor-driven apoptosis. TNFRSF10B , encoding the death receptor TRAIL-R2, was also significantly enriched. Interestingly, amongst the 10 genes whose loss most significantly sensitized to CART19 were TRAF2, BIRC2 and CFLAR , all negative regulators of death receptor activity. Pathway analysis of the top 50 genes (25 enriched, 25 depleted) demonstrated significant enrichment in the death receptor pathway, with a false discovery rate of 3.79x10 -7 . We proceeded to functionally validate the role of BID and FADD in mediating resistance to CART19 by deleting these genes in Nalm6 using de novo designed gRNAs. Strikingly, BID KO and FADD KO cells were highly resistant to CART19 cytotoxicity in vitro as compared to wild-type Nalm6. Resistance was evident as early as 6 hours after co-culture and was maintained for at least 7 days. Observed resistance to CART19 directly correlated to fraction of KO cells present, suggesting that gene loss was mechanistically responsible for failed CART19 cytotoxicity. We further evaluated the impact of BID or FADD loss on anti-leukemic activity of CART19 in our Nalm6 xenograft model. We observed that BID KO or FADD KO significantly impaired the anti-leukemic activity of CART19 in vivo . Conclusions: CART19 can cure select patients with B-cell cancers, while others experience transient or no clinical benefit. Using a genome-wide loss of function screen, we identified that death receptor-associated proteins are centrally involved in regulating CART19 cytotoxicity, and that loss of these molecules leads to intrinsic resistance to CART19. These findings are, to our knowledge, the first to characterize the role of death receptors as critical regulators of CART19 cytotoxicity, and suggest that tumor cell modulation of death receptor signaling may drive both inherent resistance and antigen-independent relapse. View large Download slide View large Download slide  Disclosures June: Celldex: Consultancy, Membership on an entity's Board of Directors or advisory committees; Novartis Pharmaceutical Corporation: Patents & Royalties, Research Funding; Immune Design: Membership on an entity's Board of Directors or advisory committees; Tmunity Therapeutics: Equity Ownership, Membership on an entity's Board of Directors or advisory committees, Patents & Royalties, Research Funding; Novartis Pharmaceutical Corporation: Patents & Royalties, Research Funding; Immune Design: Membership on an entity's Board of Directors or advisory committees; Tmunity Therapeutics: Equity Ownership, Membership on an entity's Board of Directors or advisory committees, Patents & Royalties, Research Funding. Gill: Novartis: Research Funding; Carisma Therapeutics: Equity Ownership; Extellia: Consultancy, Membership on an entity's Board of Directors or advisory committees. Ruella: University of Pennsylvania: Patents & Royalties."
 }
