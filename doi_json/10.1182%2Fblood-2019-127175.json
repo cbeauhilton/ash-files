@@ -2,5 +2,51 @@
     "doi": "https://doi.org/10.1182/blood-2019-127175",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4231",
     "start_url_page_num": 4231,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Hematopoietic Cell Cluster Identifier (HCCI): A Knowledgebase Computational Tool to Facilitate the Characterization of Hematopoietic Cell Populations in Single Cell RNA-Sequencing ",
+    "article_date": "November 13, 2019",
+    "session_type": "201.Granulocytes, Monocytes, and Macrophages",
+    "topics": [
+        "knowledge bases",
+        "sequence analysis, rna",
+        "rna, small cytoplasmic",
+        "cells",
+        "macrophages",
+        "peripheral blood mononuclear cell",
+        "t-lymphocytes",
+        "blood cells",
+        "b-lymphocytes",
+        "data mining"
+    ],
+    "author_names": [
+        "Gaurav Kumar, PhD",
+        "Adam Ertel, PhD",
+        "Nicole Naranjo, MS",
+        "Shuvanon Shahid, BS",
+        "Lucia Languino, PhD",
+        "Paolo Fortina, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Sidney Kimmel Cancer Center at Thomas Jefferson University, Philadelphia, PA "
+        ],
+        [
+            "Sidney Kimmel Cancer Center at Thomas Jefferson University, Philadelphia, PA "
+        ],
+        [
+            "Sidney Kimmel Cancer Center at Thomas Jefferson University, Philadelphia, PA "
+        ],
+        [
+            "Sidney Kimmel Cancer Center at Thomas Jefferson University, Philadelphia, PA "
+        ],
+        [
+            "Sidney Kimmel Cancer Center at Thomas Jefferson University, Philadelphia, PA "
+        ],
+        [
+            "Thomas Jefferson University Kimmel Cancer Center, Philadelphia, PA"
+        ]
+    ],
+    "first_author_latitude": "39.9477264",
+    "first_author_longitude": "-75.1568724",
+    "abstract_text": "Single cell transcriptional profiling is critical to interrogate cell types, states and functionality in a complex tissue or disease. Despite rapid advancements in single cell RNA sequencing (scRNA-seq) analysis, major challenge remains in identification of distinct cell types based on specific molecular signatures. Few databases are available to facilitate cell-type characterization, however, their broad all-cells encompassing structure is deemed often inept. At present, manual curation is the only option. To address this, we developed a knowledgebase computational tool, HCCI, that identifies and characterizes up to 28 different hematopoietic cell types in a scRNA-seq dataset. Utilizing the knowledgebase comprised of ~1500 marker genes obtained from data mining, HCCI first uses a voting algorithm to search and match genes from a given cluster to a single or more possible cell type. Next, it normalizes score of each cluster-cell type pair to provide a percentage denoting a cluster to a specific cell-type. To demonstrate this, we utilized a dataset of Peripheral Blood Mononuclear Cells (PBMC) available from 10X Genomics. As the cell populations are already known, this was an ideal dataset to evaluate the performance of HCCI. As expected, unsupervised clustering and UMAP algorithms identified 9 different clusters of cells conforming to the existing knowledge of this dataset. Differentially expressed genes from each cluster were input into HCCI, and the following unique clusters were identified: na\u00efve CD4 (cluster 1), M0 macrophage (cluster 2), CD8 T-cells (cluster 3), na\u00efve B-cell (cluster 4), cytotoxic T-cell (cluster 5), M1 macrophage (cluster 6), activated NK cell (cluster 7), monocyte (cluster 8) and plasmacytoid dendritic cell (cluster 9). Here using HCCI, an improvement in classification was observed for clusters 2,3,6,8 and 9 which were originally classified only in major blood cell types. Classification of clusters 1,4,5 and 7 remained unchanged. The classification by HCCI was observed to be much precise when compared to the manual curation performed originally. To our knowledge, HCCI is the only available tool for characterization of hematopoietic cells from scRNA-seq data. Disclosures No relevant conflicts of interest to declare."
 }
