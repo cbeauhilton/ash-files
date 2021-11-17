@@ -2,5 +2,99 @@
     "doi": "https://doi.org/10.1182/blood-2019-129519",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4182",
     "start_url_page_num": 4182,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Prospective Identification of Acute Myeloid Leukemia Patients Who Benefit from Gene-Expression Based Risk Stratification ",
+    "article_date": "November 13, 2019",
+    "session_type": "617.Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
+    "topics": [
+        "gene expression",
+        "leukemia, myelocytic, acute",
+        "anthracycline antibiotics",
+        "cancer",
+        "chemotherapy regimen",
+        "cytarabine",
+        "hirschsprung's disease",
+        "genetic risk",
+        "principal component analysis",
+        "treatment outcome"
+    ],
+    "author_names": [
+        "Diego Chacon, PhD",
+        "Ali Braytee, PhD",
+        "Yizhou Huang, PhD",
+        "Julie Thoms, PhD",
+        "Shruthi Subramanian, BSc",
+        "Maria Cristina Sauerland",
+        "Stefan K. Bohlander, MD",
+        "Jan Braess, MD",
+        "Bernhard J. W\u00f6rmann, MD",
+        "Wolfgang E. Berdel, MD",
+        "Wolfgang Hiddemann, MD PhD",
+        "Bogdan Gabrys, PhD",
+        "Klaus H. Metzeler, MD",
+        "Tobias Herold, MD",
+        "John Pimanda, MBBS, PhD",
+        "Dominik Beck, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Lowy Cancer Research Centre and the Prince of Wales Clinical School, University of New South Wales, Kensington, Australia ",
+            "Centre for Health Technologies and the School of Biomedical Engineering, University of Technology Sydney, Broadway, Australia "
+        ],
+        [
+            "Centre for Health Technologies and the School of Biomedical Engineering, University of Technology Sydney, Broadway, Australia "
+        ],
+        [
+            "Lowy Cancer Research Centre and the Prince of Wales Clinical School, University of New South Wales, Kensington, Australia ",
+            "Centre for Health Technologies and the School of Biomedical Engineering, University of Technology Sydney, Broadway, Australia "
+        ],
+        [
+            "Lowy Cancer Research Centre, University of New South Wales, Kensington, Australia "
+        ],
+        [
+            "Lowy Cancer Research Centre, University of New South Wales, Kensington, Australia ",
+            "Centre for Health Technologies, University of Technology Sydney, Broadway, Australia "
+        ],
+        [
+            "Institute of Biostatistics and Clinical Research, Muenster, DEU "
+        ],
+        [
+            "Department of Molecular Medicine and Pathology, Department of Molecular Medicine and Pathology, Auckland, New Zealand "
+        ],
+        [
+            "Krankenhaus Barmherzige Brueder, Regensburg, Germany "
+        ],
+        [
+            "Department of Hematology, Oncology and Tumor Immunology, Charit\u00e9 University Medicine, Berlin, Germany "
+        ],
+        [
+            "Department of Medicine A, University Hospital Muenster, Muenster, Germany "
+        ],
+        [
+            "Department of Internal Medicine III, University Hospital Grosshadern, LMU Munich, Munich, Germany "
+        ],
+        [
+            "Advanced Analytics Institute, University of Technology Sydney, Broadway, Australia "
+        ],
+        [
+            "Department of Internal Medicine III, University Hospital Grosshadern, LMU Munich, Munich, Germany ",
+            "Department of Medicine III, University Hospital, LMU Munich, Munich, Germany "
+        ],
+        [
+            "Laboratory for Leukemia Diagnostics, Department of Internal Medicine III, University Hospital Grosshadern, LMU Munich, Munich, Germany "
+        ],
+        [
+            "Lowy Cancer Research Centre, University of New South Wales, Sydney, Australia ",
+            "Department of Pathology, School of Medical Sciences, University of New South Wales, Sydney, Australia ",
+            "Haematology Department, Prince of Wales Hospital, Sydney, Australia"
+        ],
+        [
+            "Lowy Cancer Research Centre and the Prince of Wales Clinical School, University of New South Wales, Kensington, Australia ",
+            "Centre for Health Technologies and the School of Biomedical Engineering, University of Technology Sydney, Broadway, Australia ",
+            "Advanced Analytics Institute, University of Technology Sydney, Broadway, Australia "
+        ]
+    ],
+    "first_author_latitude": "-33.916532399999994",
+    "first_author_longitude": "151.2350526",
+    "abstract_text": "Background: Acute myeloid leukemia (AML) is a highly heterogeneous malignancy and risk stratification based on genetic and clinical variables is standard practice. However, current models incorporating these factors accurately predict clinical outcomes for only 64-80% of patients and fail to provide clear treatment guidelines for patients with intermediate genetic risk. A plethora of prognostic gene expression signatures (PGES) have been proposed to improve outcome predictions but none of these have entered routine clinical practice and their role remains uncertain. Methods: To clarify clinical utility, we performed a systematic evaluation of eight highly-cited PGES i.e. Marcucci-7, Ng-17, Li-24, Herold-29, Eppert-LSCR-48, Metzeler-86, Eppert-HSCR-105, and Bullinger-133. We investigated their constituent genes, methodological frameworks and prognostic performance in four cohorts of non-FAB M3 AML patients (n= 1175). All patients received intensive anthracycline and cytarabine based chemotherapy and were part of studies conducted in the United States of America (TCGA), the Netherlands (HOVON) and Germany (AMLCG). Results: There was a minimal overlap of individual genes and component pathways between different PGES and their performance was inconsistent when applied across different patient cohorts. Concerningly, different PGES often assigned the same patient into opposing adverse- or favorable- risk groups (Figure 1A: Rand index analysis; RI=1 if all patients were assigned to equal risk groups and RI =0 if all patients were assigned to different risk groups). Differences in the underlying methodological framework of different PGES and the molecular heterogeneity between AMLs contributed to these low-fidelity risk assignments. However, all PGES consistently assigned a significant subset of patients into the same adverse- or favorable-risk groups (40%-70%; Figure 1B: Principal component analysis of the gene components from the eight tested PGES). These patients shared intrinsic and measurable transcriptome characteristics (Figure 1C: Hierarchical cluster analysis of the differentially expressed genes) and could be prospectively identified using a high-fidelity prediction algorithm (FPA). In the training set (i.e. from the HOVON), the FPA achieved an accuracy of ~80% (10-fold cross-validation) and an AUC of 0.79 (receiver-operating characteristics). High-fidelity patients were dichotomized into adverse- or favorable- risk groups with significant differences in overall survival (OS) by all eight PGES (Figure 1D) and low-fidelity patients by two of the eight PGES (Figure 1E). In the three independent test sets (i.e. form the TCGA and AMLCG), patients with predicted high-fidelity were consistently dichotomized into the same adverse- or favorable- risk groups with significant differences in OS by all eight PGES. However, in-line with our previous analysis, patients with predicted low-fidelity were dichotomized into opposing adverse- or favorable- risk groups by the eight tested PGES. Conclusion: With appropriate patient selection, existing PGES improve outcome predictions and could guide treatment recommendations for patients without accurate genetic risk predictions (~18-25%) and for those with intermediate genetic risk (~32-35%). Figure 1 View large Download slide Figure 1 View large Download slide  Disclosures Hiddemann: Celgene: Consultancy, Honoraria; Roche: Consultancy, Honoraria, Research Funding; Bayer: Research Funding; Vector Therapeutics: Consultancy, Honoraria; Gilead: Consultancy, Honoraria; Janssen: Consultancy, Honoraria, Research Funding. Metzeler: Celgene: Honoraria, Research Funding; Otsuka: Honoraria; Daiichi Sankyo: Honoraria. Pimanda: Celgene: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding. Beck: Gilead: Research Funding."
 }
