@@ -2,5 +2,49 @@
     "doi": "https://doi.org/10.1182/blood-2020-137171",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4479",
     "start_url_page_num": 4479,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Single-Cell Analysis of the Classical Hodgkin Lymphoma Immune Environment Reveals a Clonally-Expanded CD8 + T Cell Population with a Cytotoxic Phenotype ",
+    "article_date": "November 5, 2020",
+    "session_type": "622.Lymphoma Biology-Non-Genetic Studies",
+    "topics": null,
+    "author_names": [
+        "Jovian Yu, MD",
+        "Xiufen Chen, PhD",
+        "James Godfrey, MD",
+        "Girish Venkataraman, MD MBBS",
+        "Sonali M. Smith, MD",
+        "Mengjie Chen, PhD",
+        "Justin Kline, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Medicine, Section of Hematology/Oncology, University of Chicago, Chicago, IL ",
+            "Committee on Genetics, Genomics and Systems Biology, University of Chicago, Chicago, IL "
+        ],
+        [
+            "Department of Medicine, Section of Hematology/Oncology, University of Chicago, Chicago, IL "
+        ],
+        [
+            "Department of Medicine, Section of Hematology/Oncology, University of Chicago, Chicago, IL "
+        ],
+        [
+            "Department of Pathology, University of Chicago, Chicago, IL "
+        ],
+        [
+            "Department of Oncology, University of Chicago, Chicago, IL "
+        ],
+        [
+            "Committee on Genetics, Genomics and Systems Biology, University of Chicago, Chicago, IL ",
+            "Committee on Cancer Biology, University of Chicago, Chicago, IL ",
+            "Department of Medicine, Section of Genetic Medicine, University of Chicago, Chicago, IL ",
+            "Department of Human Genetics, University of Chicago, Chicago, IL"
+        ],
+        [
+            "Department of Medicine, Section of Hematology/Oncology, University of Chicago, Chicago, IL ",
+            "Committee on Cancer Biology, University of Chicago, Chicago, IL "
+        ]
+    ],
+    "first_author_latitude": "41.78826019999999",
+    "first_author_longitude": "-87.6045592",
+    "abstract_text": "Introduction: Classical Hodgkin lymphoma (cHL) is characterized by a robust and complex immune cell infiltrate and the rare presence of malignant Hodgkin-Reed-Sternberg (HRS) cells. At the genetic level, HRS cells recurrently acquire alterations that lead to defective antigen presentation (\u03b22 microglobulin mutations) and mediate T cell dysfunction ( PD-L1 copy gains/amplifications) in order to subvert host immune surveillance. The clinical relevance of PD-L1 protein over-expression in cHL is clear, as response rates to PD-1 blockade therapy are extremely high among patients with relapsed/refractory (r/r) disease. Despite its remarkable efficacy, the cells that mediate response to anti-PD-1 therapy in cHL remain undefined. Recent analyses have highlighted a possible role for CD4 + T cells in mediating the clinical activity of anti-PD-1 therapy in cHL. CD4 + T cells significantly outnumber CD8 + T cells in cHL lesions and are more frequently juxtaposed to HRS cells in situ . Furthermore, HLA class II expression on HRS cells predicted higher complete response rates to PD-1 blockade therapy in r/r cHL patients. However, a candidate T cell population capable of specific reactivity to antigens expressed by HRS cells has yet to be identified. This information is critical as such T cells might be functionally reinvigorated to mediate HRS cell elimination following PD-1 blockade therapy. In order to address this key knowledge gap, we analyzed data at single cell (sc) resolution using paired RNA and T cell receptor (TCR) sequencing in 9 diagnostic cHL and 5 reactive lymph node (RLN) specimens. Methods: Sequencing was performed using the 10x Genomics Chromium Single Cell 5' Gene Expression and V(D)J workflows. B-cell depletion of each sample was achieved using CD19 microbeads and negative selection to enrich T cell populations. Reads were analyzed and aligned with CellRanger (v3.1.0) and Seurat (v3.2.0) was used to conduct clustering by a shared nearest neighbor (SNN) graph on scRNA data. TCR sequencing data was integrated using scRepertoire (v1.0.0). Results: A detailed map of the immune cell states in cHL was created using scRNA-seq (10X) data on 79,085 cells from 9 cHL (52,602 cells) and 5 RLN samples (26,484 cells) expressing a total of 21,421 genes (mean 5649 cells/sample; mean 2849 mRNA reads/cell). Dimensionality reduction and unsupervised graph-based clustering revealed 21 distinct cell type and activation state clusters, including T cells, NK cells, macrophages, and dendritic cells ( Fig 1A-B ). A cluster identifying HRS cells was not observed, consistent with a recently published report. Ten T cell clusters were identified (47,573 cells), including naive- and memory-like T cells, effector/cytotoxic CD8 + T cells, regulatory T cells, and T follicular helper cells. Unexpectedly, a putative exhausted T cell cluster was not clearly observed. The relative contributions of cHL and RLNs cases to these clusters are shown in Fig 1C. Paired TCR sequencing was available for 23,943 cells. Overall TCR diversity was lower among cHL samples compared to RLN specimens ( Fig 1D ). In cHL samples, modest clonal expansion within regulatory T cell and memory CD4 + T cell clusters was observed, but the most striking clonal expansion occurred among cells assigned to effector/cytotoxic CD8 + T cell clusters - a finding not observed in most RLN specimens ( Fig 1E ). Clonally-expanded effector/cytotoxic CD8 + T cells displayed high expression of granzymes ( GZMA , GZMH , GZMK ), cytokines ( TNF, IFNG ) and chemokines ( CCL4 / CCL5 ), and modest expression of exhaustion markers ( PDCD1 , ENTPD1 , HAVCR2 , ITGAE ), contrasting with data from single-cell analyses of solid tumors. Clonal expansion of effector/cytotoxic CD8 + T cells was particularly robust in EBV-positive cHLs, likely due to recognition of viral-derived epitopes displayed on HRS cells ( Fig 1F ). Phenotypic and functional validation of key immune cell clusters in cHL specimens using spectral cytometry is underway and will be reported at the meeting. Conclusions: For the first time, our data have unveiled the nature of the T cell repertoire in cHL at single cell resolution. Our results reveal a recurrent pattern of clonal expansion within effector CD8 + cells, which may be the HRS antigen-specific T cells that mediate response to PD-1 blockade. This hypothesis requires confirmation through similar analyses of pre- and on-treatment biopsies of cHL patients receiving anti-PD-1 therapy. View large Download slide View large Download slide  Disclosures Godfrey: Gilead: Research Funding; Merck: Research Funding; Verastem: Research Funding. Venkataraman: EUSA Pharma: Speakers Bureau. Smith: Janssen: Consultancy; BMS: Consultancy; TG Therapeutics: Consultancy, Research Funding; Genentech/Roche: Consultancy, Other: Support of parent study and funding of editorial support, Research Funding; Karyopharm: Consultancy, Research Funding; FortySeven: Research Funding; Pharmacyclics: Research Funding; Acerta: Research Funding; Celgene: Consultancy, Research Funding. Kline: Kite/Gilead: Speakers Bureau; Seattle Genetics: Membership on an entity's Board of Directors or advisory committees; Merck: Research Funding; Karyopharm: Membership on an entity's Board of Directors or advisory committees; Verastem: Membership on an entity's Board of Directors or advisory committees, Research Funding."
 }
