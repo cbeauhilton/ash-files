@@ -2,5 +2,51 @@
     "doi": "https://doi.org/10.1182/blood-2018-99-110678",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4086",
     "start_url_page_num": 4086,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Novel Metabolic Transcriptome Identified in Myelodysplastic Syndromes (MDS) Correlates with OMS Classification and Poor Prognosis ",
+    "article_date": "November 29, 2018",
+    "session_type": "636. Myelodysplastic Syndromes-Basic and Translational Studies",
+    "topics": [
+        "myelodysplastic syndrome",
+        "brachial plexus neuritis",
+        "acyl coenzyme a",
+        "cancer",
+        "glutamate-trna ligase",
+        "immune dysregulation",
+        "phospholipase d",
+        "phosphoserine",
+        "refractory anemia with excess blasts",
+        "refractory anemia with sideroblasts"
+    ],
+    "author_names": [
+        "Christophe Desterke",
+        "Estelle Balducci",
+        "Xavier Fund",
+        "Claire Borie",
+        "Annelise Bennaceur-Griscelli, MD PhD",
+        "Ali G Turhan, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Inserm U935, IFR 89, Paris 11 University, Villejuif, FRA "
+        ],
+        [
+            "Service H\u00e9matologie, Inserm U935 University Paris Sud, Villejuif, France "
+        ],
+        [
+            "Inserm U935, APHP Department of Hematology, Villejuif, France "
+        ],
+        [
+            "Inserm U935, department of Hematology, Villejuif, France "
+        ],
+        [
+            "Department of Hematology, Inserm U935 University Paris Sud, Villejuif, France "
+        ],
+        [
+            "Hopital Bicetre-Paris Sud 11 University, Le Kremlin Bicetre, France"
+        ]
+    ],
+    "first_author_latitude": "48.860073099999994",
+    "first_author_longitude": "2.3815596",
+    "abstract_text": "Myelodysplastic syndromes (MDS) are clonal malignancies of the hematopoietic stem cell leading to an ineffective hematopoiesis with a complex and poorly understood pathophysiology combining increased apoptosis and propensity to transformation associated with immune dysregulation. Despite a major improvement of the classification of MDS in terms of diagnosis and prognosis according to OMS recommendations, a significant fraction of MDS remains unclassified. In this study, we wished to determine if the integrative analysis of global MDS transcriptome associated with single cell experiments performed on CD34+ hematopoietic progenitors using novel bioinformatics tools could identify novel signaling pathways associated with different subtypes of MDS. This transcriptomic analysis included a large cohort of of MDS patients (n=323) as compared to healthy controls (n=86). We concentrated our analysis in the pathways involved in metabolomics as there was an increase of expression of genes involved in metabolic pathways in MDS transcriptome as compared to hematopoietic progenitors from healthy donors. Metabolic meta-analysis on HP transcriptome (datasets GSE15061 and GSE58831) were subsequently analyzed by creating a software \"gene2bcp.sh\" (https://github.com/cdesterke/gene2bcp) based on metabolic database \"BioCycPathway\". Forty two genes involved in metabolism were found to be upregulated in MDS samples (LIMMA algorithm, FDR adjust p-value < 0.05 and fold change > 2 in both dataset). A multivariate model was built by selecting the best 17 genes and in order to validate these findings an independent cohort including 11 healthy donors and 55 MDS patients (pts) were studied. This latter group included 18 patients with refractory anemia (RA), 19 pts with RA with ring sideroblasts (RARS) and 18 pts with RA with excess of blasts (RAEB) (GSE4619). This analysis (fig1A) allowed to predict MDS diagnosis as compared to healthy donors in a robust way (p=0.0013). Similarly with this unique metabolic transcriptome, we could stratified MDS patients correctly according to their OMS classification (p=0.00065). Metabolic transcriptome also clearly identified patients with MDS with cytogenetic abnormalities, in particular MDS with 5q- syndromes as compared to MDS without cytogenetic abnormalities (p=0.0023). We then applied these results to the RNAseq single-cell sequencing with cytometric analysis of a MDS patient with RAEB2 and monosomy 7 (GSE99095). Single cell trajectories were built based on 39 metabolic genes identified from previous meta-analysis. Monocle2 algorithm with metabolic gene profile allowed to discriminate CD34+CD38- from CD34+CD38+ cells after \"tSNE\" clustering (fig1B). These results were submitted to a pseudotime analysis which allows the analysis of transitional states in cell signaling pathways. Nine transition stages were found with stage 5 enriched in CD34+CD38- and stages 1 and 7 were found enriched in CD34+CD38+ (fig1C), differential test on this metabolic trajectory stratified genes in 6 clusters (gig 1D), with an enriched high expression of ACOT4 (Acyl-CoA Thioesterase 4), EARS2 (Glutamyl-TRNA Synthetase 2), PLD6 (Phospholipase D Family Member 6), PSAT1 (Phosphoserine Aminotransferase 1) in sub-compartment CD34+CD38- of this RAEB2 MDS patient. Overall, we show here for the first time a novel metabolic transcriptome correlating with classical MDS subtypes and prognosis. We describe a primitive metabolic trajectory in single bone marrow cells able to reconstitute the clonal architecture. The genes that we identified could be of use as additional markers of diagnosis and prognosis in future studies. View large Download slide View large Download slide  Disclosures No relevant conflicts of interest to declare."
 }
