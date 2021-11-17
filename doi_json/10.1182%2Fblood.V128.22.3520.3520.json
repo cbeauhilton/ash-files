@@ -2,5 +2,35 @@
     "doi": "https://doi.org/10.1182/blood.V128.22.3520.3520",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3372",
     "start_url_page_num": 3372,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Machine-Learning Analysis Suggests That FLX925, a FLT3/CDK4/6 Kinase Inhibitor, Is Potent Against FLT3-Wild Type Tumors Via Its CDK4/6 Activity ",
+    "article_date": "December 2, 2016",
+    "session_type": "802. Chemical Biology and Experimental Therapeutics: Poster II",
+    "topics": [
+        "cyclin-dependent kinase 4",
+        "kinase inhibitors",
+        "machine learning",
+        "ms-like tyrosine kinase 3",
+        "neoplasms",
+        "leukemia, myelocytic, acute",
+        "protein p16",
+        "cancer",
+        "rna",
+        "cyclin-dependent kinases"
+    ],
+    "author_names": [
+        "Gene Cutler, PhD",
+        "Jordan S Fridman, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Computational Biology, FLX Bio, South San Francisco, CA "
+        ],
+        [
+            "FLX Bio, South San Francisco, CA"
+        ]
+    ],
+    "first_author_latitude": "37.661762800000005",
+    "first_author_longitude": "-122.3907114",
+    "abstract_text": "Fms-like tyrosine kinase 3 (FLT3) is universally expressed in Acute Myeloid Leukemia (AML) blast cells (Zheng R, et al. FLT3 ligand causes autocrine signaling in acute myeloid leukemia cells. Blood . 2004) and activating mutations of FLT3 are amongst the most common genetic lesions in AML (Levis M. FLT3 mutations in acute myeloid leukemia: what is the best approach in 2013? ASH Education Program Book . 2013). FLX925, a small molecule inhibitor of FLT3 would be expected to have antitumor efficacy against FLT3-driven AML tumors. However, FLX925 also inhibits two closely related cyclin-dependent kinases (CDKs), CDK4 and CDK6 (described together as CDK4/6). Since CDK4/6 are important cell cycle genes and CDK4/6 inhibitors have demonstrated anti-tumor activity, the anti-CDK4/6 activity of FLX925 may drive anti-tumor efficacy in additional and potentially overlapping patient populations. To generate hypotheses about which tumors would be sensitive to FLX925 treatment and to understand the relative contributions of FLX925's FLT3- and CDK4/6-inhibitory activities, a panel of XXX tumor-derived cell lines were screened for sensitivity to FLX925. We performed a Gradient Boosting Machine (GBM) analysis, a machine-learning approach, to generate a model that predicts sensitivity to FLX925 based on RNA-Seq expression data. This sensitivity model can predict which cell lines and tumors are likely to be sensitive to FLX925 and also which gene expression patterns contribute to that sensitivity. The GBM analysis was performed on 133 (75%) of the assayed cell lines with a random 45 (25%) of the cell line datasets reserved for model validation. Pearson's correlations of r=0.96 on the test cell lines and r=0.68 on the validation cell lines were observed, indicating good predictive performance with modest overfitting. The two most important predictive genes in the model were Retinoblastoma 1 (RB1) and by Cyclin-Dependent Kinase Inhibitor 2A (CDKN2A). RB1 and CDKN2A are important cell cycle genes immediately downstream and upstream, respectively, of CDK4/6, suggesting that sensitivity to FLX925 in these cell lines is driven by FLX925's CDK4/6 inhibitory activity. To strengthen this conclusion, the modeling was repeated but gene sets covering cell cycle genes or genes in the FLT3/STAT5 signaling pathway were separately excluded from the analysis. While excluding the FLT3/STAT5 pathway genes had no impact on the predictive power of the model, excluding the cell cycle gene set completely abrogated the ability of the GBM to predict sensitivity to FLX925. Thus, we conclude that in this panel of largely FLT3-wild type (FLT3-WT) cell lines, FLX925-sensitivity is driven solely by the compound's CDK4/6 activity. These results suggest that independent, but potentially overlapping, sets of tumors will be responsive to FLX925 due to both its FLT3- and its CDK4/6-inhibitory activities. To predict which tumor types would be most sensitive to FLX925 treatment, we applied our GBM model to the RNA-Seq expression data for 10,537 tumors from The Cancer Genome Atlas (TCGA) consortium. Even though this model is indifferent to FLT3/STAT5-pathway gene expression, it nevertheless identifies AML tumors as having the highest median predicted sensitivity to FLX925. This is true even when all haem/lymph malignancy-derived cell lines are excluded from the training set. Thus, both FLT3-WT and FLT3-activated tumors are expected to have sensitivity to FLX925 treatment, the former due to FLX925's CDK4/6 activity alone and the latter due to the independent FLT3 and CDK4/6 activities of the drug. The anti-tumor activity of FLX925 is currently being investigated in a Ph1/b dose-escalation study in subject with relapsed or refractory AML (NCT02335814). Disclosures Cutler: Amgen, Inc: Equity Ownership; FLX Bio: Employment, Equity Ownership. Fridman: FLX Bio: Employment, Equity Ownership."
 }
