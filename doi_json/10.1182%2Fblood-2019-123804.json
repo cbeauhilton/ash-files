@@ -2,5 +2,51 @@
     "doi": "https://doi.org/10.1182/blood-2019-123804",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4167",
     "start_url_page_num": 4167,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "A Discrete Event Simulation Model to Evaluate the Impact of Treatment Sequences on Long-Term Patient Outcomes in Multiple Myeloma (MM) ",
+    "article_date": "November 13, 2019",
+    "session_type": "902.Health Services Research-Malignant Conditions (Lymphoid Disease)",
+    "topics": [
+        "multiple myeloma",
+        "patient-focused outcomes",
+        "lenalidomide",
+        "bortezomib",
+        "daratumumab",
+        "dexamethasone",
+        "hematopoietic stem cell transplantation",
+        "inspection",
+        "monoclonal antibodies",
+        "thalidomide"
+    ],
+    "author_names": [
+        "Jinan Liu, PhD",
+        "Daniel Moldaver, PhD",
+        "Xinmei Zhu, PhD",
+        "Allen Zhou, BASc",
+        "Eric M Maiese, PhD",
+        "Sarah Hollmann, M.Biotech"
+    ],
+    "author_affiliations": [
+        [
+            "Janssen Scientific Affairs, LLC, Horsham, PA "
+        ],
+        [
+            "Cornerstone Research Group, Toronto, Canada "
+        ],
+        [
+            "US Tech Solutions Inc, Edison, NJ"
+        ],
+        [
+            "Cornerstone Research Group, Toronto, Canada "
+        ],
+        [
+            "Janssen Scientific Affairs, LLC, Horsham, PA "
+        ],
+        [
+            "Cornerstone Research Group, Toronto, Canada "
+        ]
+    ],
+    "first_author_latitude": "40.1988865",
+    "first_author_longitude": "-75.1565486",
+    "abstract_text": "Purpose: Many new therapies have been approved for the treatment of multiple myeloma (MM) in recent years. In June 2019, daratumumab (Darzalex\u00ae), a CD38-directed monoclonal antibody, in combination with lenalidomide and dexamethasone (DRd), received FDA approval for the treatment of newly diagnosed MM (NDMM) patients ineligible for stem cell transplantation. This approval provides NDMM patients with a new option as first-line therapy, however, with many options for MM treatment available, identification of the optimal sequence of treatments becomes of critical importance to healthcare providers and payers. Objective: To develop a treatment sequencing discrete event simulation (DES) model that compares unique treatment sequences and estimates the impact of first-line DRd on longer-term outcomes (i.e. survival through multiple lines of therapy) in a general population of MM patients. Methods: A DES model of MM treatment sequences was developed. FDA approved and NCCN recommended non-transplant therapies were included. Treatment efficacy was estimated by digitizing and extrapolating progression-free and overall survival (OS) Kaplan-Meier (KM) data, using established methods (Guyot et al., 2012). Five common parametric functions were fit, and the curve-of-best-fit was determined by standard statistics (i.e., Akaike & Bayesian information criterion) and visual inspection. The model was developed to allow patients to go through up to 6 lines of treatment. The time of progression and death events were randomly assigned based on the estimated parametric functions. All-cause mortality data (US Census 2016) were considered in the simulation of survival. Where data were not available, previous therapies were assumed not to impact the efficacy of subsequent therapies. Model survival predictions were validated against published real-world estimates of survival from: 1) a retrospective analysis of a large American electronic medical record database, Humedica (Hari et al., 2018) and 2) a retrospective analysis of the Dutch PHAROS registry (Verelst et al., 2017). The Humedica and PHAROS datasets reported on the effects of three and four lines of treatment, respectively, starting with newly diagnosed patients. From the Humedica dataset, first-line therapy consisted of proteasome inhibitor- (PI), immunomodulatory- (IMiD), and PI + IMiD-based regimens in 42%, 34% and 18% of patients, respectively, with other regimens used in 7% of cases. Treatment was primarily doublets (63%) rather than triplets (37%). From the PHAROS registry, first-line therapy was primarily thalidomide-based (66%), bortezomib-based (15%), or lenalidomide-based (7%). Statistically, validation was quantified through the calculation of the mean absolute percent error (MAPE), a commonly used statistic to assess the accuracy of forecasts. To estimate the impact of first-line DRd, a hypothetical analysis was simulated wherein all first-line treatments described within both the Humedica and PHAROS datasets were replaced with DRd. Following DRd, patients received subsequent treatment as described within those datasets. Results: Restriction of the modeled treatment algorithm to treatment patterns described within the Humedica database and PHAROS registry led to valid simulated OS estimates that were in line with the published data (MAPE values of 9% and 19% for Humedica and PHAROS, respectively). Utilization of DRd as first-line treatment was estimated to increase OS in scenario analyses ( Table 1 ). The DES model estimated 5-year survival rates for frontline DRd with subsequent therapy based upon the Humedica and PHAROS datasets were 62% and 57%, respectively. In contrast, the estimated 5-year survival for the Humedica and PHAROS datasets without DRd frontline was 40% and 26% respectively, highlighting a 22-31% incremental survival benefit due to DRd at 5-years. Conclusions: The MM DES model validated well to the published estimates of real-world OS. Preliminary results indicate that first-line treatment with DRd may improve OS in MM compared with historical treatment sequences, that include PI+IMiD based triplets as first-line treatment. The model is being further developed to describe the impact of sequencing other MM treatment regimens to estimate the optimal treatment pathways. View large Download slide View large Download slide  Disclosures Liu: Janssen Scientific Affairs, LLC: Employment, Equity Ownership. Moldaver: Janssen Scientific Affairs, LLC: Consultancy. Zhu: Janssen Scientific Affairs, LLC: Other: contractor for Janssen. Zhou: Janssen Scientific Affairs, LLC: Consultancy. Maiese: Janssen: Employment, Equity Ownership. Hollmann: Janssen Scientific Affairs, LLC: Consultancy."
 }
