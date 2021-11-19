@@ -2,5 +2,42 @@
     "doi": "https://doi.org/10.1182/blood-2020-136477",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4593",
     "start_url_page_num": 4593,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Clonal Architecture and Variant Allele Frequency Predict Clinical Outcomes and Drug Response in Acute Myeloid Leukemia ",
+    "article_date": "November 5, 2020",
+    "session_type": "617.Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
+    "topics": null,
+    "author_names": [
+        "Brooks Benard, BS",
+        "Logan Leak, BS",
+        "Armon Azizi, BS",
+        "Daniel Thomas, MD PhD",
+        "Andrew Gentles, PhD",
+        "Ravi Majeti, MD PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Cancer Biology Program, Stanford University, Stanford, CA ",
+            "Department of Medicine, Division of Hematology, Cancer Institute, and Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Stanford, CA "
+        ],
+        [
+            "Cancer Biology Program, Stanford University, Stanford, CA ",
+            "Department of Biology, Stanford Univerisity, Stanford, CA "
+        ],
+        [
+            "Department of Medicine, Division of Hematology, Cancer Institute, and Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Stanford, CA "
+        ],
+        [
+            "Adelaide Medical School, Faculty of Health and Medical Sciences, University of Adelaide, Adelaide, Australia "
+        ],
+        [
+            "Department of Biomedical Informatics, Stanford University School of Medicine, Stanford, CA"
+        ],
+        [
+            "Department of Medicine, Division of Hematology, Cancer Institute, and Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Stanford, CA "
+        ]
+    ],
+    "first_author_latitude": "37.427474499999995",
+    "first_author_longitude": "-122.16971899999999",
+    "abstract_text": "Introduction: AML is an aggressive cancer that develops from the sequential accumulation and clonal expansion of somatic mutations in hematopoietic stem and progenitor cells. Recent next-generation sequencing (NGS) studies of AML have correlated mutations with clinical outcomes and response to targeted therapies. Additionally, emerging reports have suggested that increased clonal heterogeneity and mutation burden tend to correlate with worse survival outcomes. However, due to previous cohort sizes, the architecture of clonal evolution and variant allele frequency (VAF) of recurrent mutations have yet to be robustly correlated with response to therapy or with more granular risk stratification. To address previous limitations, we combined available datasets of sequenced AML to model features of clonality and determine their correlations with clinical outcomes and drug sensitivity. Methods: A systematic literature review was performed to identify cohorts of clinically annotated and genetically profiled adult AML. Studies were included if: (i) their sequencing panel targeted at least 30 of the most commonly mutated genes, (ii) censored overall survival data was reported, and (iii) data were publicly available. An additional cohort of patients profiled at Stanford was also included. Leveraging statistical learning methods and robust clonal modeling algorithms (PyClone and ClonEvol), we performed a meta-analysis of the clonal architecture of mutations, their temporal relationships, sensitivity to drugs, and correlation with outcomes in AML. Results: A total of 12 studies were aggregated into a uniformly annotated database comprising 2,987 AML patient samples profiled with an array of DNA sequencing modalities (2,884 with VAFs) and ex vivo drug screening results (n samples = 562; n drugs = 122); survival outcomes were available for 2,606 patients. To investigate broad features of leukemia evolution, we used clonal modeling algorithms to infer clonal architecture. Interestingly, patients exhibiting linear evolution (sequential mutations in the same clone) displayed worse outcomes compared to those with branched architecture (distinct subclonal populations). Additionally, mutational burden and clonal heterogeneity only stratified patients with branched structure. These results motivated us to understand how the temporal acquisition of mutations might further stratify outcomes. Using dynamic VAF thresholds, we identified novel high-risk patient populations for 15 recurrently mutated genes. Greater VAF was associated with statistically significant improved survival in genotypes such as GATA2 mut and WT1 mut and with worse outcomes for patients with NRAS and NF1 mutations. Next, we leveraged VAFs to infer the temporal ordering of individual mutations and functional mutation categories. Patients where NRAS mutations occurred before GATA2 mutations showed a significant correlation with worse outcomes. We also observed that patients in which (i) DNA methylation mutations occurred before those in tumor suppressors and (ii) splicing factor mutations occurred before RTK/RAS signaling components showed significantly shortened overall survival. These results indicate that patients with the same genotype can be stratified by the timing of mutations in the clonal evolution of their leukemia. Finally, we used linear regression between drug sensitivity and VAF to identify several mutations which predict drug sensitivity exclusively in a VAF-dependent manner. Increased WT1 VAF correlated with sensitivity to ABT-737 and elevated FLT3-TKD VAF predicted sensitivity to cabozantinib, among other clinically notable drug-gene relationships. These results suggest potential biomarkers for clinical response to emerging targeted agents. Conclusions: We show that VAF can identify novel high-risk patient populations at the individual mutation level (e.g. BCOR and NF1 ) and can also be leveraged to stratify outcomes based on inferring the temporal ordering of mutations (e.g. NRAS and GATA2 ). Our observation that patients with leukemias exhibiting branched evolution showed improved survival compared to linear evolution was also striking and warrants further experimental and clinical validation. Incorporating these results with our findings of drug sensitivity validate the clinical utility of integrating clonal analysis into the molecular evaluation and treatment of AML. Disclosures Majeti: Zenshine Pharmaceuticals: Membership on an entity's Board of Directors or advisory committees; Kodikaz Therapeutic Solutions Inc.: Membership on an entity's Board of Directors or advisory committees; Stanford University: Patents & Royalties: pending patent application on CD93 CAR ; Coherus BioSciences: Membership on an entity's Board of Directors or advisory committees; BeyondSpring Pharmaceuticals: Membership on an entity's Board of Directors or advisory committees; Forty-Seven Inc.: Divested equity in a private or publicly-traded company in the past 24 months; Gilead Sciences, Inc.: Patents & Royalties: inventor on patents related to CD47 cancer immunotherapy; CircBio Inc.: Research Funding."
 }
