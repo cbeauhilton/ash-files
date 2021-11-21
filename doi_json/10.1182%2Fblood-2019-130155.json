@@ -2,5 +2,99 @@
     "doi": "https://doi.org/10.1182/blood-2019-130155",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4219",
     "start_url_page_num": 4219,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Machine Learning Prediction for Complete Response to Hypomethylating Agents with or without Additional Agents in Patients with Newly Diagnosed Myelodysplastic Syndrome ",
+    "article_date": "November 13, 2019",
+    "session_type": "637.Myelodysplastic Syndromes-Clinical Studies",
+    "topics": [
+        "complete remission",
+        "machine learning",
+        "myelodysplastic syndrome",
+        "vorinostat",
+        "massively-parallel genome sequencing",
+        "nivolumab",
+        "antigens",
+        "ipilimumab",
+        "actinium",
+        "allogeneic stem cell transplant"
+    ],
+    "author_names": [
+        "Koji Sasaki, MD",
+        "Guillermo Montalban Bravo, MD",
+        "Rashmi Kanagal-Shamanna, MD",
+        "Elias Jabbour, MD",
+        "Farhad Ravandi, MD",
+        "Tapan M. Kadia, MD",
+        "Kiran Naqvi, MDMPH",
+        "Naval G. Daver, MD",
+        "Sherry A. Pierce, BSN, BA",
+        "Koichi Takahashi, MD",
+        "Courtney D. DiNardo, MDMSc",
+        "Graciela M. Nogueras Gonz\u00e1lez, MPH",
+        "Keyur Patel, MD PhD",
+        "Kelly Soltysiak, PhD",
+        "Junya Sato",
+        "Jorge E. Cortes, MD",
+        "Hagop M. Kantarjian, MD",
+        "Guillermo Garcia-Manero, MD"
+    ],
+    "author_affiliations": [
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Hematopathology, University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "M.D. Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "University of Texas MD Anderson Cancer Center, Department of Leukemia, Houston, TX "
+        ],
+        [
+            "Department of Biostatistics, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Hematopathology, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Faculty of Medicine, The University of Osaka, Osaka, Japan"
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ],
+        [
+            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+        ]
+    ],
+    "first_author_latitude": "29.707097200000003",
+    "first_author_longitude": "-95.39710199999999",
+    "abstract_text": "Background: Myelodysplastic syndrome (MDS) is a heterogeneous malignant myeloid neoplasm of hematopoietic stem cells due to cytogenetic alterations and somatic mutations in genes (DNA methylation, DNA repair, chromatin regulation, RNA splicing, transcription regulation, and signal transduction). Hypomethylating agents (HMA) are the standard of care for MDS, and 40-60% of patients achieved response to HMA. However, the prediction for response is difficult due to the nature of heterogeneity and the context of clinical conditions such as the degree of cytopenias and the dependency on transfusion. Machine learning outperforms conventional statistical models for prediction in statistical competitions. Prediction with machine learning models may predict response in patients with MDS. The aim of this study is to develop a machine learning model for the prediction of complete response (CR) to HMA with or without additional therapeutic agents in patients with newly diagnosed MDS. Methods: From November 2012 to August 2017, we analyzed 435 patients with newly diagnosed MDS who received frontline therapy as follows; azacitidine (AZA) (3-day, 5-day, or 7-day) \u00b1 vorinostat \u00b1 ipilimumab \u00b1 nivolumab; decitabine (DAC) (3-day or 5-day) \u00b1 vorinostat; 5-day guadecitabine. Clinical variables, cytogenetic abnormalities, and the presence of genetic mutations by next generation sequencing (NGS) were included for variable selection. The whole cohort was randomly divided into training/validation and test cohorts at an 8:2 ratio. The training/validation cohort was used for 4-fold cross validation. Hyperparameter optimization was performed with Stampede2, which was ranked as the 15th fastest supercomputer at Texas Advanced Computing Center in June 2018. A gradient boosting decision tree-based framework with the LightGBM Python module was used after hyperparameter tuning for the development of the machine learning model with training/validation cohorts. The performance of prediction was assessed with an independent test dataset with the area under the curve. Results: We identified 435 patients with newly diagnosed MDS who enrolled on clinical trials as follows: 33 patients, 5-day AZA; 23, 5-day AZA + vorinostat; 43, 3-day AZA; 20, 5-day AZA + ipilimumab; 19 patients, AZA + nivolumab; 7, AZA + ipilumumab + nivolumab; 114, 5-day DAC; 74, 3-day DAC; 4, DAC + vorinostat; 97, 5-day guadecitabine. In the whole cohort, the median age at diagnosis was 68 years (range, 13.0-90.3); 117 (27%) patients had a history of prior radiation or cytotoxic chemotherapy; the median white blood cell count was 2.9 (\u00d710 9 /L) (range, 0.5-102); median absolute neutrophil count, 1.1 (\u00d710 9 /L) (range, 0.0-55.1); median hemoglobin count, 9.5 (g/dL) (range, 4.7-15.4); median platelet count, 63 (\u00d710 9 /L) (range, 2-881); and median blasts in bone marrow, 8% (range, 0-20). Among 411 evaluable patients for the revised international prognostic scoring system, 15 (4%) had very low risk disease; 42 (10%), low risk; 68 (17%), intermediate risk; 124 (30%), high risk; and 162 (39%), very high risk. Overall, 153 patients (53%) achieved CR. Hyperparameter tuning identified the optimal hyperparameters with colsample by tree of 0.175, learning rate of 0.262, the maximal depth of 2, minimal data in leaf of 29, number of leaves of 11, alpha regularization of 0.010, lambda regularization of 2.085, and subsample of 0.639. On the test cohort with 87 patients, the machine learning model accurately predicted response in 65 patients (75%); 53 non-CR among 56 non-CR (95% accuracy); and 12 CR among 31 CR (39% accuracy). The trend of accuracy improvement by iteration (i.e., the number of decision trees) is shown in Figure 1. The area under the curve was 0.761521 in the test cohort. Conclusion: Our machine learning model with clinical, cytogenetic, and NGS data can predict CR to HMA in patients with newly diagnosed MDS. This approach can identify patients who may benefit from HMA therapy with and without additional agents for response, and can optimize the timing of allogeneic stem cell transplant. View large Download slide View large Download slide  Disclosures Sasaki: Otsuka: Honoraria; Pfizer: Consultancy. Jabbour: Takeda: Consultancy, Research Funding; BMS: Consultancy, Research Funding; Adaptive: Consultancy, Research Funding; Amgen: Consultancy, Research Funding; AbbVie: Consultancy, Research Funding; Pfizer: Consultancy, Research Funding; Cyclacel LTD: Research Funding. Ravandi: Cyclacel LTD: Research Funding; Selvita: Research Funding; Menarini Ricerche: Research Funding; Macrogenix: Consultancy, Research Funding; Amgen: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Xencor: Consultancy, Research Funding. Kadia: Pfizer: Membership on an entity's Board of Directors or advisory committees, Research Funding; Celgene: Research Funding; Bioline RX: Research Funding; Jazz: Membership on an entity's Board of Directors or advisory committees, Research Funding; AbbVie: Consultancy, Research Funding; BMS: Research Funding; Amgen: Membership on an entity's Board of Directors or advisory committees, Research Funding; Genentech: Membership on an entity's Board of Directors or advisory committees; Pharmacyclics: Membership on an entity's Board of Directors or advisory committees; Takeda: Membership on an entity's Board of Directors or advisory committees. Takahashi: Symbio Pharmaceuticals: Consultancy. DiNardo: syros: Honoraria; jazz: Honoraria; agios: Consultancy, Honoraria; celgene: Consultancy, Honoraria; notable labs: Membership on an entity's Board of Directors or advisory committees; medimmune: Honoraria; abbvie: Consultancy, Honoraria; daiichi sankyo: Honoraria. Cortes: Novartis: Consultancy, Honoraria, Research Funding; Bristol-Myers Squibb: Consultancy, Research Funding; Immunogen: Consultancy, Honoraria, Research Funding; Sun Pharma: Research Funding; Pfizer: Consultancy, Honoraria, Research Funding; Astellas Pharma: Consultancy, Honoraria, Research Funding; Jazz Pharmaceuticals: Consultancy, Research Funding; Merus: Consultancy, Honoraria, Research Funding; Forma Therapeutics: Consultancy, Honoraria, Research Funding; Daiichi Sankyo: Consultancy, Honoraria, Research Funding; BiolineRx: Consultancy; Biopath Holdings: Consultancy, Honoraria; Takeda: Consultancy, Research Funding. Kantarjian: AbbVie: Honoraria, Research Funding; Cyclacel: Research Funding; Pfizer: Honoraria, Research Funding; Astex: Research Funding; Agios: Honoraria, Research Funding; Jazz Pharma: Research Funding; Daiichi-Sankyo: Research Funding; Novartis: Research Funding; Actinium: Honoraria, Membership on an entity's Board of Directors or advisory committees; Immunogen: Research Funding; Takeda: Honoraria; BMS: Research Funding; Ariad: Research Funding; Amgen: Honoraria, Research Funding. Garcia-Manero: Amphivena: Consultancy, Research Funding; Helsinn: Research Funding; Novartis: Research Funding; AbbVie: Research Funding; Celgene: Consultancy, Research Funding; Astex: Consultancy, Research Funding; Onconova: Research Funding; H3 Biomedicine: Research Funding; Merck: Research Funding."
 }
