@@ -2,5 +2,51 @@
     "doi": "https://doi.org/10.1182/blood.V104.11.1128.1128",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=199",
     "start_url_page_num": 199,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Reprogramming the Transcriptional Response of Chronic Lymphocytic Leukemia (CLL) Cells: Influencing the Temporal Gene Regulatory Network. ",
+    "article_date": "November 16, 2004",
+    "session_type": "Poster Sessions",
+    "topics": [
+        "chronic b-cell leukemias",
+        "chronic lymphocytic leukemia",
+        "dna microarrays",
+        "gene expression profiling",
+        "genes",
+        "indolent",
+        "leukemic cells",
+        "nf-kappa b",
+        "receptors, antigen, b-cell",
+        "rna"
+    ],
+    "author_names": [
+        "Laurent D. Vallat, MD",
+        "Corey A. Kemper, BA",
+        "Yuhyun Park, PhD",
+        "Laura Z. Rassenti, PhD",
+        "John W. Fisher, III, PhD",
+        "John G. Gribben, MD DSc"
+    ],
+    "author_affiliations": [
+        [
+            "Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA, USA"
+        ],
+        [
+            "Computer Science and Artificial Intelligence, Massachusetts Institute of Technology, Cambridge, MA, USA"
+        ],
+        [
+            "Biostatistics, Harvard School of Public Health, Boston, MA, USA"
+        ],
+        [
+            "CLL Research Consortium, University of California San Diego, La Jolla, CA, USA"
+        ],
+        [
+            "Computer Science and Artificial Intelligence, Massachusetts Institute of Technology, Cambridge, MA, USA"
+        ],
+        [
+            "Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA, USA"
+        ]
+    ],
+    "first_author_latitude": "42.342598",
+    "first_author_longitude": "-71.1273444",
+    "abstract_text": "Inferring a temporal gene network from a crucial signaling pathway in leukemic cells is a leading problem in oncology. We built a temporal transcriptional network of B-cell receptor (BCR) crosslinking in CLL and healthy B-cells, a critical step to understand the dynamics of BCR gene expression and to understand gene regulation at a system level. CLL cells have defects in apoptosis and the BCR pathway appears crucial in this process, leading to differential signaling and cell response according to the Ig gene mutational status and zap70 expression. We built this network by analysis of the gene expression profile after BCR crosslinking in six mutated (M) and six unmutated (UM) CLL cells and six healthy B-cells. After a pilot study examining multiple time points, total RNA was purified at four time points (60 to 390 min) from stimulated (S) and unstimulated (US) cells, for a total of 170 HU133plus2.0 DNA-chips analyzed. The logarithmic ratio data log(S/US) for each time point and each patient and the linear combination for four time points were analyzed to score expression over time. This temporal clustering discriminates healthy B-cells from CLL-cells, but now also distinguishes two groups of patients, one mainly UM with higher zap70 protein levels. BCR engagement induces different gene expression for this group of aggressive CLL. We built a temporal model of gene expression for these three groups using two iterative steps. The first step is a modified K-means clustering approach using log(S/US) of temporal gene expression. This results in groups of genes with common temporal structure whose expression exhibits significant differences after BCR stimulation. The number of considered genes were then reduced, keeping a small number with the largest increase in expression within each group. Most of these genes are important in BCR transcription including JUN, DUSP1 and NFkB and most first wave genes are transcription factors. The second step is to construct predictive models of gene expression, considering only causal linear predictive models. Specifically the expression of an output gene at each time is predicted using a weighted linear combination of the expression of another gene at past time points. The method groups pairs of genes by common predictive model. While paired genes may reside in different initial clusters, upon convergence they are clustered by which predictive models they use. The procedure first assigns random pairings of genes and then we iterate between two steps, computing the best predictive model using a regularized least squares algorithm emphasizing sparse models and optimal gene pairings using a modified Hungarian bipartite graph matching approach. In practice the method converges in a small number of iterations. To refine and test this model we use RNAi to silence genes in the first wave of transcription after BCR stimulation and study the impact on the model. From the global gene regulatory network, we aim to predict the minimal number of gene to silence to influence the global structure of the BCR regulatory network. Influencing the transcriptional structure of aggressive CLL toward that of indolent CLL and healthy B-cells is a first step to reprogram the transcriptional response of leukemic cells."
 }
