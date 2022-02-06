@@ -2,5 +2,41 @@
     "doi": "https://doi.org/10.1182/blood.V104.11.5202.5202",
     "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=47",
     "start_url_page_num": 47,
-    "is_scraped": 0
+    "is_scraped": "1",
+    "article_title": "Extreme Regression: A Statistical Technique for Finding Good or Poor Prognostic Groups, Illustrated Using Myeloma Patient Data from Intergroup Trial S9321. ",
+    "article_date": "November 16, 2004",
+    "session_type": "Abstracts Not Selected for Presentation",
+    "topics": [
+        "multiple myeloma",
+        "albumins",
+        "creatinine",
+        "beta 2-microglobulin",
+        "international staging system for myeloma",
+        "melphalan",
+        "cox proportional hazards models",
+        "trees (plant)"
+    ],
+    "author_names": [
+        "John J. Crowley, PhD",
+        "Jason McCoy, MS",
+        "Michael LeBlanc, PhD",
+        "Bart Barlogie, MD, PhD"
+    ],
+    "author_affiliations": [
+        [
+            "Biostatistics, Cancer Research And Biostatistics, Seattle, WA, USA"
+        ],
+        [
+            "Biostatistics, Cancer Research And Biostatistics, Seattle, WA, USA"
+        ],
+        [
+            "Public Health Sciences, Fred Hutchinson Cancer Research Center, Seattle, WA, USA"
+        ],
+        [
+            "Myeloma Institute for Research and Therapy, University of Arkansas for Medical Sciences, Little Rock, AR, USA"
+        ]
+    ],
+    "first_author_latitude": "47.63260509999999",
+    "first_author_longitude": "-122.34170739999999",
+    "abstract_text": "Extreme Regression (LeBlanc, Moon and Kooperberg, manuscript submitted) is a statistical technique for finding patient subsets with either very good or very poor prognosis. In contrast to Cox regression, which generates predictions based on linear combinations of variables, Extreme Regression results in groups based on intersections or unions of simple statements involving single covariates (eg sb2m > 3.5 and albumin < 3.5; sb2m > 3.5 or LDH > ULN). Thus, Extreme Regression is similar in spirit to tree-based regression methods, except that the goal is not to develop a complete staging system (like the new International Staging System, ISS, for myeloma, which was derived using tress-based methods) but rather to define subsets of a given size (eg 10%) with extreme prognosis. Here prognosis may be defined in terms of any type of outcome such as response, one-year mortality, overall survival, etc. To illustrate we use survival data from the Intergroup Trial S9321, which tested high dose therapy with melphalan and TBI versus a standard dose regimen of VBMCP (both after VAD induction) for newly diagnosed patients with multiple myeloma. We used as potential predictors serum beta-2 microglobulin (sb2m), LDH, albumin and creatinine as measured at baseline. There were 682 eligible patients with complete data on these four covariates. We asked the algorithm to identify roughly 10% of the patients representing a poor prognosis group, and then another 25% representing a good prognosis group. The results are shown in Figure 1, along with the intermediate group of all other patients. The poor risk group comprised 77 patients (11% of the total) and was defined by those patients with sb2m > 9 and LDH > ULN; or patients with creatinine > 5; or patients with albumin < 2. These patients had a median survival of 19 months, a one year survival of 66%, and a five year survival of 19%. The good risk group included 181 patients (27%) defined by LDH = 3.5. This group had a median survival of 67 months, a one year survival of 96%, and a five year survival of 57%. Extreme regression appears to be a promising exploratory tool when the goal is the identification of simple, interpretable subsets of patients with extreme prognosis. View large Download slide Figure View large Download slide Figure "
 }
