@@ -1,52 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1226",
+    "start_url_page_num": "1226",
     "doi": "https://doi.org/10.1182/blood.V112.11.3240.3240",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1226",
-    "start_url_page_num": 1226,
-    "is_scraped": "1",
-    "article_title": "Modelling BCR-ABL1 Dynamics in Patients with Chronic Myeloid Leukemia in Chronic Phase (CML-CP) during Frontline Therapy with High-Dose Imatinib, Nilotinib, or Dasatinib. ",
-    "article_date": "November 16, 2008",
-    "session_type": "Chronic Myeloid Leukemia - Therapy",
-    "topics": [
-        "dasatinib",
-        "imatinib mesylate",
-        "leukemia, myelocytic, chronic",
-        "nilotinib",
-        "protein-tyrosine kinase inhibitor",
-        "cardiac mri",
-        "phosphotransferases",
-        "follow-up",
-        "seizures",
-        "weight measurement scales"
-    ],
-    "author_names": [
-        "Adam Olshen",
-        "Alfonso Quint\u03b1s-Cardama",
-        "Hagop M. Kantarjian",
-        "Mithat Gonen",
-        "Franziska Michor",
-        "Jorge Cortes, MD"
-    ],
-    "author_affiliations": [
-        [
-            "Epidemiology and Biostatistics, Memorial Sloan-Kettering Cancer Center, New City, NY, USA"
-        ],
-        [
-            "Leukemia, M.D. Anderson Cancer Center, Houston, TX, USA"
-        ],
-        [
-            "M.D. Anderson Cancer Center, Houston, TX, USA"
-        ],
-        [
-            "Epidemiology and Biostatistics, Memorial Sloan-Kettering Cancer Center, New City, NY, USA"
-        ],
-        [
-            "Computational Biology Program, Memorial Sloan-Kettering Cancer Center, New York, NY, USA"
-        ],
-        [
-            "Leukemia, M.D. Anderson Cancer Center, Houston, TX, USA"
-        ]
-    ],
-    "first_author_latitude": "40.7640831",
-    "first_author_longitude": "-73.9560269",
-    "abstract_text": "The tyrosine kinase inhibitor (TKI) imatinib at the standard dose of 400mg/d renders high complete cytogenetic response (CCyR) rates but complete molecular response (CMR, i.e. undetectable BCR-ABL1 ) occurs only in a small proportion of patients. Therapy with high-dose imatinib (i.e. 800mg/d) has been reported to render significantly higher rates of CMR. The second generation TKIs nilotinib and dasatinib exhibit 1- to 2-log higher potency against BCR-ABL1 kinase in vitro , are active against multiple imatinib-resistant ABL1 kinase domain mutations, and result in high response rates in patients after failure of imatinib therapy. Here, we investigate the dynamics of peripheral blood BCR-ABL1 transcript levels in patients with CML-CP while receiving frontline therapy with highdose imatinib, nilotinib, or dasatinib. A total of 123 patients were investigated. Only timepoints 0, 3, 6, 9, 12, 18, and 24 months were analyzed. To be included in the analysis, patients had to have BCR-ABL1 levels available at least at 0, 3, 6, 9, and 12 months. Our goal was to develop a statistical model for these data depending on at most two subject-specific parameters, since there were typically only 5 to 7 time points per patient (median follow-up for the high-dose imatinib, nilotinib, and dasatinib groups was 48, 13, and 24 months, respectively). As a first step we used the cube root to transform our data, since the measurements are on vastly different scales and some of the observed values are zero. Our initial model on the transformed data was biexponential, which is the sum of two exponentials. We found that one of the exponentials could be replaced with a constant, which saved a parameter with little reduction in the fit. Our resulting model for the i th subject at time t is y i (t)= \u03b1 0 i + \u03b1 1 i exp[\u2013\u03b2 t ], where \u03b1 0 i is the subject-specific intercept, \u03b1 1 i is the subject-specific slope, and \u03b2 is the population-based shape parameter. A different version of the model is fit to each treatment group. We estimate beta (the shape parameter), after merging all data from a treatment group, using non-linear least squares. With beta fixed, we estimate the subject-specific parameters using traditional least squares. This model fits the data well, with a median R 2 greater than 0.9 for all treatment groups. In a three-way comparison among nilotinib (n=23), dasatinib (n=24), and highdose imatinib (n=76), the most different population curves were between nilotinib and dasatinib (p=0.005). The nilotinib curve was also significantly different than the high-dose imatinib curve (p=0.04), while the curves for dasatinib and highdose imatinib were not significantly different (p=0.11). Nilotinib had a sharper earlier decline than dasatinib (beta=0.71 for nilotinib and beta=0.33 dasatinib), and high-dose imatinib was intermediate between the two (beta=0.44 for imatinib). We are currently examining whether there is a relationship between the subject-specific slopes and intercepts and other covariates, such as survival. We are also analyzing the implications of different shaped population curves for the different treatments."
+    "url": "https://ashpublications.org/blood/article/112/11/3240/60282/Modelling-BCR-ABL1-Dynamics-in-Patients-with?searchresult=1",
+    "datetime_link_obtained": "2022-04-23T18:24:27",
+    "is_scraped": "0"
 }
