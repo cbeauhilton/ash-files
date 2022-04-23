@@ -1,71 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=933",
+    "start_url_page_num": "933",
     "doi": "https://doi.org/10.1182/blood.V110.11.3318.3318",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=933",
-    "start_url_page_num": 933,
-    "is_scraped": "1",
-    "article_title": "Development of Computer Based System To Aid Pathologists in Histological Grading of Follicular Lymphomas. ",
-    "article_date": "November 16, 2007",
-    "session_type": "Health Services and Outcomes Research",
-    "topics": [
-        "computers",
-        "follicular lymphoma",
-        "medical pathologists",
-        "dystocia",
-        "eosine yellowish-(ys)",
-        "hematoxylin",
-        "hpfs trial",
-        "hyperplasia",
-        "pixel",
-        "centroblasts"
-    ],
-    "author_names": [
-        "Jun Kong",
-        "Olcay Sertel",
-        "Amy Gewirtz",
-        "Arwa Shana\u2019ah",
-        "Frederick Racke",
-        "John Zhao",
-        "Kim Boyer",
-        "Umit Catalyurek",
-        "Metin Gurcan",
-        "Gerard Lozanski"
-    ],
-    "author_affiliations": [
-        [
-            "Biomedical Informatics, The Ohio State University Medical Center, Columbus, OH, USA",
-            "Electrical and Computer Engineering, The Ohio State University Medical Center, Columbus, OH, USA"
-        ],
-        [
-            "Biomedical Informatics, The Ohio State University Medical Center, Columbus, OH, USA",
-            "Electrical and Computer Engineering, The Ohio State University Medical Center, Columbus, OH, USA"
-        ],
-        [
-            "Pathology, The Ohio State University Medical Center, Columbus, OH, USA"
-        ],
-        [
-            "Pathology, The Ohio State University Medical Center, Columbus, OH, USA"
-        ],
-        [
-            "Pathology, The Ohio State University Medical Center, Columbus, OH, USA"
-        ],
-        [
-            "Pathology, The Ohio State University Medical Center, Columbus, OH, USA"
-        ],
-        [
-            "Electrical and Computer Engineering, The Ohio State University Medical Center, Columbus, OH, USA"
-        ],
-        [
-            "Biomedical Informatics, The Ohio State University Medical Center, Columbus, OH, USA",
-            "Electrical and Computer Engineering, The Ohio State University Medical Center, Columbus, OH, USA"
-        ],
-        [
-            "Biomedical Informatics, The Ohio State University Medical Center, Columbus, OH, USA"
-        ],
-        [
-            "Pathology, The Ohio State University Medical Center, Columbus, OH, USA"
-        ]
-    ],
-    "first_author_latitude": "39.9938966",
-    "first_author_longitude": "-83.0162045",
-    "abstract_text": "Currently risk stratification and subsequent choice of therapy for follicular lymphoma (FL) relies on histological grading that is based on the number of centroblasts per average high power microscopic field (HPF). Centroblasts are counted manually in ten random HPFs and are expressed as an average number of centroblasts per HPF. Manual centroblast counting is difficult, labor intensive and prone to an individual pathologist\u2019s bias. The resulting poor reproducibility of FL grading has been well documented in the literature. In this abstract, we report development of a computer based image analysis program that will assist pathologists with reliable and reproducible morphological grading of FL. The inputs to the computerized system are immunohistochemical (IHC) and hematoxylin and eosin (H&E) stained tissue sections digitized at 40x magnification with a whole-slide scanner. The system consists of successive stages, including detection of follicles, registration of IHC and H&E-stained images, segmentation of cells and classification of cells as centroblasts and non-centroblasts. We extracted both color and texture features to detect the follicles from HIS-stained images followed by a clustering step, which groups the pixels as background, inter-follicular region and follicles, using the K-means clustering algorithm. This is followed by a morphologic post-processing step to remove the noisy regions and smooth the boundaries of the follicles. A manual registration step is performed to superimpose the detected follicle boundaries on H&E image. Within the identified follicle regions, we have trained the computer to differentiate the centroblasts from non-centroblast cells out of a pool of cells marked by an experienced pathologist. A vector of features combining clinical characteristics and statistical descriptors are then constructed from the given cells. A linear unsupervised statistical method of principle components analysis (PCA) is used to reduce the dimensionality of the feature data distribution. Then, the lower-dimensional data are grouped into centroblast and non-centroblast classes. The performance of the follicle detection system and centroblast differentiation systems are evaluated independently in terms of sensitivity and specificity. Follicle detection step was evaluated by comparing the computer generated results with results of manual microscopy. Based on 53 test images, representing FL cases and follicular hyperplasia, sensitivity and specificity values for the follicles detection were 86.1\u00b110.4% and 92.9\u00b15.1%, respectively. Evaluation of computer recognition of centroblasts was based on 100 cells marked by pathologist as centroblasts (41) and non-centroblast (59) in 11 designated follicular regions of H&E stained sections of four FL cases. The resulting sensitivity and specificity of centroblast identification by the computer was 92.6% and 91.38%, respectively. The high sensitivity and specificity of the developed modules of the system are promising for the further development of a computer-aided follicular lymphoma grading system."
+    "url": "https://ashpublications.org/blood/article/110/11/3318/75372/Development-of-Computer-Based-System-To-Aid?searchresult=1",
+    "datetime_link_obtained": "2022-04-23T06:25:04",
+    "is_scraped": "0"
 }
