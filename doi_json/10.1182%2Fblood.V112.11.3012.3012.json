@@ -1,64 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1348",
+    "start_url_page_num": "1348",
     "doi": "https://doi.org/10.1182/blood.V112.11.3012.3012",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1348",
-    "start_url_page_num": 1348,
-    "is_scraped": "1",
-    "article_title": "Identifying Amino Acid Substitution Positions Associated with Day 100 Survival in Unrelated Donor Stem Cell Transplant Using Random Forest Analysis ",
-    "article_date": "November 16, 2008",
-    "session_type": "Clinical Results - Alternative Donor Transplantation",
-    "topics": [
-        "amino acid substitution",
-        "donors",
-        "hematopoietic stem cell transplantation",
-        "hla-a antigens",
-        "hla-a2 antigen",
-        "acute aortic syndrome",
-        "anabolic steroids",
-        "hla-c antigens",
-        "human leukocyte antigens",
-        "screening"
-    ],
-    "author_names": [
-        "Susana Marino, MD, PhD",
-        "Shang Lin, PhD",
-        "Martin Maiers, MS",
-        "Michael D Haagenson, MS",
-        "Stephen R Spellman, MS",
-        "Stephanie J. Lee, MD, MPH",
-        "Tao Wang, PhD",
-        "John Klein, PhD",
-        "Koen Van Besien, MD"
-    ],
-    "author_affiliations": [
-        [
-            "University of Chicago Medical Center, Chicago, IL, USA"
-        ],
-        [
-            "University of Chicago Medical Center, Chicago, IL, USA"
-        ],
-        [
-            "National Marrow Donor Program, Minneapolis, MN, USA"
-        ],
-        [
-            "Center for International Blood and Marrow Transplant Research, Minneapolis, MN, USA"
-        ],
-        [
-            "National Marrow Donor Program, Minneapolis, MN, USA"
-        ],
-        [
-            "Fred Hutchinson Cancer Research Center, Seattle, WA, USA"
-        ],
-        [
-            "Medical College of Wisconsin, Milwaukee, WI"
-        ],
-        [
-            "Medical College of Wisconsin, Milwaukee, WI"
-        ],
-        [
-            "University of Chicago Medical Center, Chicago, IL, USA"
-        ]
-    ],
-    "first_author_latitude": "41.789294399999996",
-    "first_author_longitude": "-87.60399629999999",
-    "abstract_text": "Unrelated donor stem cell transplant (SCT) is a well established treatment option for patients with hematological malignancies. A major barrier to the success of this treatment is donor-recipient HLA mismatch (MM). HLA-A, B, C, and DRB1 MMs have been associated with early and severe acute GvHD and low survival rate. However, the extent and type of HLA MMs that modulate undesirable immune responses remains unclear. The present study examines the effect of HLA MM at amino acid sequence level on day 100 survival (D100S). From 3,855 SCTs facilitated by the NMDP from 1988 to 2004, we selected 2,107 recipients with early- or intermediate-stage ALL, AML, CML, or MDS who were either matched with their donors at HLA-DRB1 but had a single HLA-class I MM at HLA-A (n=179), B (n=88), or C (n=333), or who were matched at HLA-A, B, C, and DRB1 (n=1,507). In this study population, of over 270 amino acid positions in each HLA class I loci, 59 amino acid positions had at least one amino acid substitution (AAS) in HLA-A, 46 positions in HLA-B, and 46 positions in HLA-C, for a total of 151 positions in HLA-A, B, and C. A common approach to study the effect of AAS on SCT outcome is to perform separate analyses for individual substitutions (e.g., Kawase et al., Blood , 110 : 2235 \u201341, 2007 ). This approach may be inadequate as SCT outcome is potentially influenced by all AAS positions as well as between-position interactions. However, traditional regression techniques to model between-position interactions are problematic owing to the proliferation of indicator variables required for encoding a large number of highly multilevel unordered categorical covariates (i.e., AAS positions) and attendant interactions. We applied Random Forests (RF) as a screening procedure to identify a small subset of important AAS positions associated with D100S for more thorough statistical analyses. RF is a tree-based method for classification based on an ensemble of classification trees built by a doubly random process ( Breiman, Machine Learning , 45 : 5 \u201332, 2001 ). These trees are then combined through a voting process that assigns the class with the most votes to be the individual\u2019s predicted class. Unlike the traditional regression models RF is a non-parametric procedure that makes no assumptions about the form of underlying relationships between the predictor variables and the target variable. RF provides a robust ranking of variable importance that can be used to weed out predictors unlikely to be associated with the outcome and is useful in areas of biology where hundreds to thousands of eligible predictors need to be examined. For example, Lunetta et al. ( BMC Genetics , 5 : 32 , 2004 ) applied RF to identify a small set of relevant SNPs in a large-scale genome-wide association study and showed that as the number of interacting SNPs increases, the improvement in performance of RF relative to univariate Fisher exact test for screening also increases. We carried out a RF analysis on 2,107 patient-donor pairs by specifying 151 AAS position variables and 4 patient characteristic variables (age, disease, disease status, and patient-donor gender match) as predictors of D100S. Using a RF of 500 trees and Gini criterion for measuring variable importance the following 16 variables, listed in order of importance, were identified by RF to be predictive of D100S: age, disease stage, HLA-C 116, HLA-C 156, HLA-A 152, HLA-C 99, HLA-C 219, HLA-A 9, HLA-C 9, disease type, gender match, HLA-B 116, HLA-A 156, HLA-A 62, HLA-A 114, and HLA-C 97. This list confirms some of the AAS positions previously identified in the literature. In summary, RF is a useful screening tool that enables us to identify a small number of AAS position variables as important predictors of D100S. The positions and types of these AAS will be further investigated using more traditional multivariate regression techniques to elucidate the complex effect of specific HLA mismatches and their interactions."
+    "url": "https://ashpublications.org/blood/article/112/11/3012/59605/Identifying-Amino-Acid-Substitution-Positions?searchresult=1",
+    "datetime_link_obtained": "2022-04-23T23:21:11",
+    "is_scraped": "0"
 }
