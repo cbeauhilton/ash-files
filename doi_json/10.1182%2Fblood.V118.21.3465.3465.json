@@ -1,36 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1935",
+    "start_url_page_num": "1935",
     "doi": "https://doi.org/10.1182/blood.V118.21.3465.3465",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1935",
-    "start_url_page_num": 1935,
-    "is_scraped": "1",
-    "article_title": "Genomic Heterogeneity in B-Cell Malignancies, ",
-    "article_date": "November 18, 2011",
-    "session_type": "602. Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation: Poster III",
-    "topics": [
-        "b-lymphocytes",
-        "cancer",
-        "genome",
-        "heterogeneity",
-        "chemotherapy regimen",
-        "chronic b-cell leukemias",
-        "chronic lymphocytic leukemia",
-        "dna",
-        "immunotherapy",
-        "lymphoma, non-hodgkin"
-    ],
-    "author_names": [
-        "Daphne R. Friedman, M.D.",
-        "Joseph R. Nevins, Ph.D."
-    ],
-    "author_affiliations": [
-        [
-            "Medicine, Duke University Medical Center, Durham, NC, USA, "
-        ],
-        [
-            "Institute for Genome Sciences and Policy, Duke University, Durham, NC, USA"
-        ]
-    ],
-    "first_author_latitude": "36.00401814999999",
-    "first_author_longitude": "-78.9424287",
-    "abstract_text": "Abstract 3465 Background: Chronic lymphocytic leukemia (CLL), aggressive B-cell non-Hodgkin lymphomas (NHL), and multiple myeloma (MM) are B-cell malignancies that display biological and clinical heterogeneity. Current investigations into the genetics and biology of these related disorders are using next generation whole genome or exome sequencing. The relatively high cost of these techniques has driven an experimental design in which a small group of samples are initially studied, specific genetic lesions are identified, and then larger cohorts are evaluated for those specific aberrations. Given the biological heterogeneity that is found in each of these disorders, such an approach could skew the direction of research towards results found in a small subset of patients. To determine the extent of genomic heterogeneity within and similarities between CLL, NHL, and MM, and their biologic and clinical relevance, we evaluated publicly available gene expression and single nucleotide polymorphism (SNP) array data from the NCBI Gene Expression Omnibus. Methods: We analyzed 893, 881, and 1744 unique gene expression data files that represent CLL, NHL, and MM, respectively. The gene expression data files represented 15, 11, and 10 distinct data sets, respectively. Prognostic, clinical outcome, and copy number variation data were available for a subset of the samples from each malignancy. Gene expression data were initially normalized using RMA and MAS5 algorithms and batch effect was eliminated using Bayesian Factor Regression Modeling. SNP array data were normalized using Chromosome Copy Number Analysis Tool and amplifications and deletions were identified with circular binary segmentation. Analyses were carried out using Bioconductor packages and the statistical environment R. Results: After elimination of batch effect, we evaluated the data using random subsampling and unsupervised hierarchical clustering to determine the lowest number of samples required to capture genomic heterogeneity. For CLL and NHL, there was no plateau reached for the number of groups defined by hierarchical clustering up through the total number of samples, indicating that a larger number of samples than available in this study are needed to fully document biological and genomic variability. For MM, there was a plateau reached at approximately 1200 samples. We then used unsupervised hierarchical clustering of the entire dataset for each malignancy to define groups of CLL, NHL, and MM based on their raw gene expression data. To evaluate the biological meaning of the groups defined by this process, we used tools such as Gene Set Enrichment Analysis (GSEA) and oncogenic pathway predictions (ScoreSignatures). Groups within each malignancy that were defined using raw gene expression data had differences in biological pathways involving receptor signaling, cell cycle, and stem cell properties. Notably, similarities in biological annotation were seen between groups that represented the different malignancies. Although prognostic data was not available for all the datasets, there appeared to be no differences in clinical prognostic markers between the genomic-defined groups. However, there were statistically significant differences in molecular prognostic data between these groups. In addition, specific regions of DNA copy number variation were enriched within the different genomic-defined groups. Together, these data highlight the biologic distinctions between groups that are defined by raw gene expression data. For datasets in which clinical outcome data were available, we found that genomic-defined groups had different outcomes such as time to first therapy or overall survival. However, the groups did not appear to predict response to chemotherapy or chemo-immunotherapy. Conclusions: CLL, NHL, and MM are heterogeneous malignancies, and very large numbers of patients must be studied to fully capture the genomic and biologic diversity that is present. Despite this limitation, evaluation of existing data reveals subgroups of these disorders are defined by their underlying biology, demonstrate overlap in biological processes, and are clinically relevant. These results have implications on future \u201comics\u201d related research. Disclosures: No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/118/21/3465/69332/Genomic-Heterogeneity-in-B-Cell-Malignancies?searchresult=1",
+    "datetime_link_obtained": "2022-04-24T23:41:26",
+    "is_scraped": "0"
 }

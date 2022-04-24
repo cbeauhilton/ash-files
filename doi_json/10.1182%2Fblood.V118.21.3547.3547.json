@@ -1,60 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1932",
+    "start_url_page_num": "1932",
     "doi": "https://doi.org/10.1182/blood.V118.21.3547.3547",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1932",
-    "start_url_page_num": 1932,
-    "is_scraped": "1",
-    "article_title": "Detection of FLT3 Internal Tandem Duplications in Acute Myeloid Leukemia by Targeted Multi-Gene Next Generation Sequencing, ",
-    "article_date": "November 18, 2011",
-    "session_type": "611. Leukemias - Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis: Poster III",
-    "topics": [
-        "flt3 gene",
-        "genes",
-        "leukemia, myelocytic, acute",
-        "massively-parallel genome sequencing",
-        "ms-like tyrosine kinase 3",
-        "impedance threshold device",
-        "electrophoresis, capillary",
-        "polymerase chain reaction",
-        "cancer",
-        "complementary rna"
-    ],
-    "author_names": [
-        "David H Spencer, MD/PhD",
-        "Haley Abel, Ph.D.",
-        "Philippe Szankasi, PhD",
-        "Todd W. Kelley, MD",
-        "Shashikant Kulkarni, PhD",
-        "Mark A. Watson, MD, PhD",
-        "John D Pfeifer, MD, PhD",
-        "Eric J. Duncavage, MD"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Pathology & Immunology, Washington University School of Medicine/Barnes-Jewish Hospital, St. Louis, MO, USA, "
-        ],
-        [
-            "Department of Genetics, Washington University, St. Louis, MO, USA, "
-        ],
-        [
-            "Research and Development, ARUP Laboratories, Salt Lake City, UT, USA, "
-        ],
-        [
-            "Department of Pathology, University of Utah, Salt Lake City, UT, USA, "
-        ],
-        [
-            "Department of Pathology and Immunology, Washington University, Saint Louis, MO, USA, "
-        ],
-        [
-            "Department of Pathology and Immunology, Siteman Cancer Center, Washington University, St. Louis, MO, USA, "
-        ],
-        [
-            "Department of Molecular and Anatomic Pathology, Washington University, saint Louis, MO, USA, "
-        ],
-        [
-            "Department of Pathology & Immunology, Washington University School of Medicine, St. Louis, MO, USA"
-        ]
-    ],
-    "first_author_latitude": "38.6350726",
-    "first_author_longitude": "-90.26228619999999",
-    "abstract_text": "Abstract 3547 Introduction: Recurrent somatic mutations are valuable prognostic markers in cytogenetically normal Acute Myeloid Leukemia (AML). The most common of these mutations is a 9 to \u223c150 bp internal tandem duplication (ITD) in the fms-related tyrosine kinase 3 ( FLT3 ) gene, which is typically identified via PCR amplification and capillary electrophoresis. Since testing for individual mutations in this manner will become laborious and expensive as the number of clinically relevant mutations increases, we and others have proposed using targeted next-generation sequencing (NGS) for comprehensive detection of somatic mutations in multiple genes simultaneously. Successful application of this approach will require automated analysis methods capable of sensitive detection of a variety of mutation types, including single-base substitutions and insertions/deletions, with a low false-positive rate. However, the accuracy of current methods for identifying medium-sized insertions such as the FLT3 ITDs has not been established. Therefore, we sought to determine the ability of several common analysis tools to identify FLT3 ITDs from Illumina NGS sequence data. Methods: We performed targeted sequencing of 10 samples with known FLT3 ITDs ranging between 17 and 93 base-pairs (bp) as part of a larger test panel of 28 genes commonly mutated in AML and other malignancies. Nine of the FLT3 ITD-positive samples were from patients with newly diagnosed AML and were confirmed by PCR and capillary electrophoresis. A cancer cell line known to be heterozygous for a 30 bp FLT3 ITD, MV4-11, was also included. Indexed Illumina sequencing libraries were generated using automated library preparation and enriched for target regions using solution-phase hybridization-capture with biotinylated cRNA probes targeting exons +/\u2212 200 bp plus 1 kb flanking the FLT3 gene and the 27 other genes in the panel. Enriched libraries were sequenced in multiplex on an Illumina HiSeq instrument using 2 \u00d7 101 bp reads. Demultiplexed reads were mapped to the hg19 reference sequence with novoalign , and indels were called in a 1 kilobase-pair region surrounding the FLT3 ITD with samtools, GATK, maq, CLC Genomics Workbench, PINDEL, and DINDEL using default parameters, in addition to de novo assembly of reads with partial similarity to the region using phrap . Insertion calls were then compared to results from PCR and capillary electrophoresis. Results: Multiplex sequencing resulted in 585 to 1,000-fold raw coverage of the FLT3 gene for the 10 study samples (Table 1). No FLT3 ITD insertions were detected in any sample using the common NGS analysis tools samtools, GATK, maq, DINDEL, and CLC Genomics Workbench. However, PINDEL identified insertions between 17 and 72 bp in 9 of 10 FLT3 ITD-positive samples. PINDEL failed to detect a 93 bp ITD insertion (the largest insertion in this set) in one patient sample, as well as an 84 bp insertion in a patient with two insertions (81 and 54 bp) detected by standard methods. De novo assembly of the FLT3 ITD region also resulted in detection of insertions in 9 of the 10 cases. No insertions were called in an additional set of 15 samples without known FLT3 ITDs. Conclusions: We evaluated the ability of several NGS analysis tools to detect previously known FLT3 ITDs in multi-gene targeted NGS data. Most of the general-purpose analysis tools we tested were unable to detect FLT3 ITD insertions. However, two approaches detected known FLT3 ITD insertions in 90% of the samples tested in this study, including the program PINDEL and de-novo assembly of the FLT3 ITD region using phrap . These results demonstrate that medium-sized FLT3 ITD insertions can be detected in clinical samples by high coverage NGS sequencing with the appropriate analysis pipeline. However, further methods for reliable detection of larger (>70bp) insertions must be developed before clinical NGS-based methods can be applied to the detection of the full spectrum of somatic mutations present in leukemias and other malignancies.  Case . FLT3 coverage . FLT3 ITD size PCR/Capillary electrophoresis (bp) . FLT3 ITD size PINDEL . FLT3 ITD size de novo assembly . 1 897 18 21 21 2 917 42 45 45 3 777 93 N.D. 96 4 922 81/51 b  54 84/54 5 874 36 39 39 6 933 69/21 b  72/21 72/27 7 1,097 87/66 b  69/21 N.D. 8 831 57 54 54 9 585 17 18 18 MV4-11 624 30 31 30 Case . FLT3 coverage . FLT3 ITD size PCR/Capillary electrophoresis (bp) . FLT3 ITD size PINDEL . FLT3 ITD size de novo assembly . 1 897 18 21 21 2 917 42 45 45 3 777 93 N.D. 96 4 922 81/51 b  54 84/54 5 874 36 39 39 6 933 69/21 b  72/21 72/27 7 1,097 87/66 b  69/21 N.D. 8 831 57 54 54 9 585 17 18 18 MV4-11 624 30 31 30 a FLT3 ITD locus defined as chr13:28,607,800\u201328,608,800 b Capillary electrophoresis revealed two ITD mutant alleles in these specimens N.D. = Not detected View Large Disclosures: No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/118/21/3547/69288/Detection-of-FLT3-Internal-Tandem-Duplications-in?searchresult=1",
+    "datetime_link_obtained": "2022-04-24T23:41:14",
+    "is_scraped": "0"
 }
