@@ -1,76 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1856",
+    "start_url_page_num": "1856",
     "doi": "https://doi.org/10.1182/blood.V116.21.306.306",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1851",
-    "start_url_page_num": 1851,
-    "is_scraped": "1",
-    "article_title": "Gene Expression Profile Alone Is Inadequate In Predicting Complete Responses In Multiple Myeloma ",
-    "article_date": "November 19, 2010",
-    "session_type": "Myeloma - Biology and Pathophysiology, excluding Therapy: Genomic and Proteomic Profiling",
-    "topics": [
-        "gene expression profiling",
-        "multiple myeloma",
-        "autologous stem cell transplant",
-        "chemotherapy regimen",
-        "complete remission",
-        "false-negative results",
-        "melphalan",
-        "micrornas",
-        "molecular profiling",
-        "partial response"
-    ],
-    "author_names": [
-        "Samir B. Amin, MBBS",
-        "Stephane Minvielle, PhD",
-        "Bret Hanlon, PhD",
-        "Parantu K Shah, PhD",
-        "Cheng Li, PhD",
-        "Yi Li, PhD",
-        "David Swanson, PhD",
-        "Philippe Moreau, MD",
-        "Florence Magrangeas, PhD",
-        "Kenneth C. Anderson, MD",
-        "Herve\u0301 Avet-Loiseau, MD, PhD",
-        "Nikhil C. Munshi, MD"
-    ],
-    "author_affiliations": [
-        [
-            "Medical Oncology, Dana-Farber Cancer Institute; VA Boston Healthcare System and Harvard Medical School, Boston, MA, USA, "
-        ],
-        [
-            "Hematology, CHU de Nantes, Nantes, France, "
-        ],
-        [
-            "Statistics, University of Wisconsin, Madison, WI, USA, "
-        ],
-        [
-            "Biostatistics and Computational Biology, Dana-Farber Cancer Institute, Boston, MA, USA, "
-        ],
-        [
-            "Biostatistics and Computational Biology, Dana-Farber Cancer Institute, Boston, MA, USA, "
-        ],
-        [
-            "Biostatistics and Computational Biology, Dana-Farber Cancer Institute, Boston, MA, USA, "
-        ],
-        [
-            "Biostatistics, Harvard School of Public Health, Boston, MA, USA, "
-        ],
-        [
-            "Hematology, CHU de Nantes, Nantes, France, "
-        ],
-        [
-            "Hematology, CHU de Nantes, Nantes, France, "
-        ],
-        [
-            "Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA"
-        ],
-        [
-            "Hematology, CHU de Nantes, Nantes, France, "
-        ],
-        [
-            "Medical Oncology, Dana-Farber Cancer Institute; VA Boston Healthcare System and Harvard Medical School, Boston, MA, USA, "
-        ]
-    ],
-    "first_author_latitude": "42.3375158",
-    "first_author_longitude": "-71.1081418",
-    "abstract_text": "Abstract 306 Current therapy for multiple myeloma (MM) remains empiric. With advancement in the understanding of its molecular basis, newer therapies are emerging faster than ever with increasing the difficulty in the selection of treatment regime to maximize response and minimize the rising cost of therapy. In recent years, treatment response prediction using gene expression profiling is being evaluated to identify expression signature that can classify patients likely to benefit from chemotherapy, e.g., there are several multi-gene expression assays available to predict treatment responses. However, expression signatures and predictive power vary significantly among these assays. Here, we have assessed the ability of gene expression profile to predict complete response (CR) in patients with MM. We evaluated 128 newly-diagnosed patients with MM enrolled on IFM protocol and treated uniformly with high-dose melphalan followed by autologous stem cell transplant. Seventy one of 128 patients (56%) had achieved CR while the rest 57 (44%) had partial response (PR) or less to this therapeutic intervention. CD138+ MM cells collected at the time of diagnosis were profiled for gene expression and processed using the dChip and aroma.affymetrix module in R software. We have used all common machine learning packages in R/Bioconductor and BRB-array Tools software to build response signature models; the packages used but not limited to were: Decision tree, Support Vector Machines (SVM), Prediction Analysis of Microarray (PAM), K-Nearest Neighbors, Bayesian Additive Regression Trees (BART), Lasso, Ridge regression, amongst others. For accurate assessment of model prediction ability, the dataset was split into training and test sets. Classifier gene models were built, trained and evaluated using K-fold cross-validation followed by model selection based on minimum prediction error. We built several models using different classification methods and experimented with gene inclusion criteria in our datasets according to those features most differentially expressed between CR and non-CR patients. Final model from each of these methods was applied to test dataset to predict CR vs non-CR, and prediction results were evaluated using area under the ROC curve (AUC) as a predictive measure. The maximum AUC among all the training-testing splits was 0.63. The true positive rate (Sensitivity) to correctly predict CR case reached maximum 70% or more at the cost of higher false negative, which is to misclassify a patient as non-CR who might have responded to the treatment. Among the number of methods employed, our best predictive capability provided 66% sensitivity, 60% specificity, 67% positive predictive value and 59% negative predictive value. Importantly, comparing real CR proportion (71/128 = 56%) with that of predicted by the best model (66%), no statistically significant difference was observed (Chi-square; p-value: 0.09). We observe similar results using two independent datasets available in public data repository. Based on our analysis, we recognize and in fact foresee that the expression profile alone has limited ability to predict treatment response especially when response rate is high. This lack of predictability using current approach of response prediction with gene expression alone may be related to several limitations, like alternate splicing, miRNA-based gene regulation, post-translational modifications, binary distribution of response status, inherent variability of new samples, and developing unified signature without consideration of myeloma subtypes. A comprehensive model needs to be developed using global genomic changes to have meaningful output for clinical application. Disclosures: Munshi: Millennium Pharmaceuticals: Membership on an entity's Board of Directors or advisory committees; Celgene: Membership on an entity's Board of Directors or advisory committees; Novartis: Membership on an entity's Board of Directors or advisory committees; Onyx: Membership on an entity's Board of Directors or advisory committees."
+    "url": "https://ashpublications.org/blood/article/116/21/306/112036/Gene-Expression-Profile-Alone-Is-Inadequate-In?searchresult=1",
+    "datetime_link_obtained": "2022-04-24T20:42:18",
+    "is_scraped": "0"
 }
