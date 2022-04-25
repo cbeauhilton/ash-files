@@ -1,56 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2444",
+    "start_url_page_num": "2444",
     "doi": "https://doi.org/10.1182/blood.V122.21.1683.1683",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2444",
-    "start_url_page_num": 2444,
-    "is_scraped": "1",
-    "article_title": "Spatial Epidemiology Of Chronic Lymphocytic Leukemia and Small Lymphocytic Lymphoma In The State Of Georgia ",
-    "article_date": "November 15, 2013",
-    "session_type": "901. Health Services and Outcomes Research: Poster I",
-    "topics": [
-        "chronic b-cell leukemias",
-        "georgia (republic)",
-        "georgia (state)",
-        "small cell lymphoma",
-        "epidemiology",
-        "cancer",
-        "systemic inflammatory response syndrome",
-        "common cold",
-        "metronidazole",
-        "chronic lymphocytic leukemia"
-    ],
-    "author_names": [
-        "Catherine Bulka, MPH",
-        "Loretta J. Nastoupil, MD",
-        "Jeffrey Switchenko, PhD",
-        "Kevin Ward, PhD, MPH, CTR",
-        "Rana Bayakly, MPH",
-        "Lance Waller, PhD",
-        "Christopher R. Flowers, MD"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Epidemiology, Emory University, Rollins School of Public Health, Atlanta, GA, USA, "
-        ],
-        [
-            "Winship Cancer Institute of Emory University, Atlanta, GA, USA, "
-        ],
-        [
-            "Winship Cancer Intitute, Atlanta, GA, USA, "
-        ],
-        [
-            "Epidemiology, Emory Unviersity School of Pubic Health, Atlanta, GA, USA, "
-        ],
-        [
-            "Georgia Department Of Public Health, Atlanta, GA, USA, "
-        ],
-        [
-            "Department Of Biostatistics and Bioinformatics, Emory University, Rollins School Of Public Health, Atlanta, USA, "
-        ],
-        [
-            "Winship Cancer Institute, Emory University, Atlanta, GA, USA"
-        ]
-    ],
-    "first_author_latitude": "33.797601",
-    "first_author_longitude": "-84.32315550000001",
-    "abstract_text": "Background Exploring spatial patterns of disease incidence allows for the identification of areas of elevated or decreased risk. For chronic lymphocytic leukemia and small lymphocytic leukemia (CLL/SLL), which have poorly understood etiologies, identifying spatial patterns through cluster analysis may provide insight about potential environmental and socio-demographic risk factors. Methods In order to investigate the spatial patterns of CLL/SLL incidence among adults (\u2265 20 years), we linked cancer incidence data for the period 1999-2008 from the Georgia Comprehensive Cancer Registry (a CDC-supported a statewide population-based cancer registry collecting all cancer cases diagnosed among Georgia residents since 1995) with population data from the 2000 U.S. Census. CLL/SLL cases were aggregated to the census tract level. CLL/SLL incidence in Georgia was standardized indirectly by age, sex, and race to national rates obtained from SEER*Stat software. Choropleth maps were created to depict the ratio of observed to expected incidence (standardized incidence ratios [SIR]) by census tract using ArcGIS. Spatial Empirical Bayes smoothing was performed on the SIR values using GeoDa 1.01. To assess spatial correlation of SIRs, we conducted global and local cluster analyses by calculating global Moran\u2019s I and local Moran\u2019s I (also known as Local Indicators of Spatial Autocorrelation [LISA]) values. Cluster analyses were repeated, stratifying by age (20-59 years, 60+ years), sex, and race (Caucasian and African American). P-values less than 0.01 were considered statistically significant. Results 765 incident CLL/SLL cases occurred among adults residing in Georgia between 1999 and 2008 ( Table 1 ). There was a positive spatial autocorrelation for cases of CLL/SLL age 60 and older indicating these cases were geographically clustered (p = 0.0010) ( Table 2 ). The LISA cluster map of the smoothed standardized incidence ratios shows the locations of \u201chot-spots\u201d (high-high clusters) and \u201ccold-spots\u201d (low-low clusters) with clustering of high smoothed SIRs was found in the metro-Atlanta area, Albany, Macon, and outside of Augusta while cold-spots were mostly in the southern region of the state. Table 1 Study population demographics . CLL/SLL Cases (N=765) . GA population (N=5,582,707) * . Characteristic . N . % . N . % . Age Group     20-59 years 246 32.2 4,521,891 81.0 60 years 519 67.8 1,060,816 19.0 Female 311 40.7 2,907,559 52.1 Male 454 59.3 2,675,148 47.9 White 583 76.3 3,922,068 70.3 Black 179 23.4 1,521,316 27.3 American Indian/Alaskan Native 1 0.1 15,326 0.3 Asian or Pacific Islander 2 0.3 123,997 2.2 . CLL/SLL Cases (N=765) . GA population (N=5,582,707) * . Characteristic . N . % . N . % . Age Group     20-59 years 246 32.2 4,521,891 81.0 60 years 519 67.8 1,060,816 19.0 Female 311 40.7 2,907,559 52.1 Male 454 59.3 2,675,148 47.9 White 583 76.3 3,922,068 70.3 Black 179 23.4 1,521,316 27.3 American Indian/Alaskan Native 1 0.1 15,326 0.3 Asian or Pacific Islander 2 0.3 123,997 2.2 * Based on 1,616 census tracts in GA from the 2000 U.S. Census View Large Table 2 Global measures of spatial autocorrelation Group . Moran\u2019s I . p-value . All cases 0.0273 0.0320 20-59 years old 0.0156 0.1270 60 + years old 0.0510 * 0.0010 Females 0.0280 0.0410 Males -0.0039 0.4310 Caucasians -0.0046 0.1110 African Americans -0.0007 0.3990 Group . Moran\u2019s I . p-value . All cases 0.0273 0.0320 20-59 years old 0.0156 0.1270 60 + years old 0.0510 * 0.0010 Females 0.0280 0.0410 Males -0.0039 0.4310 Caucasians -0.0046 0.1110 African Americans -0.0007 0.3990 * Significant at \u03b1 = 0.01 View Large Conclusions Despite the low number of cases of CLL/SLL in Georgia during the 10-year period studied, we found evidence of spatial clustering among adults 60 years and above. Hot-spots of smoothed SIRs were located in the metro-Atlanta area, Albany, Macon, and near Augusta, but these varied when stratified by age, sex, and race, suggesting confounding or effect modification that warrants further investigation. View large Download slide View large Download slide View large Download slide View large Download slide View large Download slide View large Download slide Disclosures: Flowers: Spectrum: Research Funding; Celgene: Consultancy, Research Funding; Millennium/Takeda: Consultancy, Research Funding; Genentech BioOncology: Consultancy; Sanofi: Research Funding; Janssen: Research Funding; Abbott: Research Funding."
+    "url": "https://ashpublications.org/blood/article/122/21/1683/12568/Spatial-Epidemiology-Of-Chronic-Lymphocytic?searchresult=1",
+    "datetime_link_obtained": "2022-04-25T23:22:23",
+    "is_scraped": "0"
 }

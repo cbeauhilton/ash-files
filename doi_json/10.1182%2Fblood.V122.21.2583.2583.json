@@ -1,64 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2432",
+    "start_url_page_num": "2432",
     "doi": "https://doi.org/10.1182/blood.V122.21.2583.2583",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2432",
-    "start_url_page_num": 2432,
-    "is_scraped": "1",
-    "article_title": "Evaluation of IGHV Ultra-Deep Sequences for Activation-Induced Deaminase Characteristics in CLL Cells after T Cell Stimulation ",
-    "article_date": "November 15, 2013",
-    "session_type": "611. Leukemias: Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis: Poster II",
-    "topics": [
-        "chronic b-cell leukemias",
-        "chronic lymphocytic leukemia",
-        "dna, complementary",
-        "dna-directed dna polymerase",
-        "enzymes",
-        "immunoglobulin constant regions",
-        "immunoglobulin isotypes",
-        "immunoglobulins",
-        "leukemic cells",
-        "neoplasms"
-    ],
-    "author_names": [
-        "Charles C. Chu, PhD",
-        "Piers E.M. Patten, MD, PhD",
-        "Thomas MacCarthy, PhD",
-        "Xiao-Jie Yan, MD PhD",
-        "Jacqueline C. Barrientos, MD",
-        "Jonathan E. Kolitz, MD",
-        "Steven L. Allen, MD",
-        "Kanti R. Rai, MD",
-        "Nicholas Chiorazzi, MD"
-    ],
-    "author_affiliations": [
-        [
-            "The Feinstein Institute for Medical Research, North Shore-Long Island Jewish Health System, Manhasset, NY, USA, "
-        ],
-        [
-            "Department of Haemato-Oncology, King's College London, London, United Kingdom, "
-        ],
-        [
-            "Department of Applied Mathematics and Statistics, State University of New York, Stony Brook, NY, USA, "
-        ],
-        [
-            "North Shore - LIJ Health System, The Feinstein Institute for Medical Research, Manhasset, NY, USA, "
-        ],
-        [
-            "Hofstra North Shore-LIJ School of Medicine, Hempstead, NY, USA, "
-        ],
-        [
-            "Division of Hematology, Hofstra North Shore-LIJ School of Medicine, Lake Success, NY, USA, "
-        ],
-        [
-            "Department of Medicine, Hofstra North Shore-LIJ School of Medicine, Hempstead, NY, USA, "
-        ],
-        [
-            "The Feinstein Institute for Medical Research, North Shore-Long Island Jewish Health System, Manhasset, NY, USA, "
-        ],
-        [
-            "Experimental Immunology, The Feinstein Institute for Medical Research, North Shore-Long Island Jewish Health System, Manhasset, NY, USA"
-        ]
-    ],
-    "first_author_latitude": "40.775628499999996",
-    "first_author_longitude": "-73.7023206",
-    "abstract_text": "Ultra-deep sequencing has revolutionized our ability to acquire large amounts of genetic data. We have applied this technology towards understanding the mutational process in B-cell chronic lymphocytic leukemia (CLL), which may be a key to understanding CLL pathogenesis. Acquisition of new cytogenetic aberrations and gene mutations in the CLL clone is associated with worse patient outcome. CLL is not unique in this aspect, as new somatic mutations and DNA rearrangements are also found during the evolution of other solid and liquid tumors. In many of these, activation-induced deaminase (AID), an enzyme normally expressed in germinal center B lymphocytes to induce IGHV-D-J mutations and isotype class switch recombination, is abnormally expressed. Its mutational activity, acting outside of the Ig loci, is implicated in the evolution to more aggressive disease. In CLL, the detection of leukemic cells expressing AID ex vivo correlates with significantly shorter patient survival. To test if AID mutational activity is functional in CLL cells and therefore could contribute to CLL evolution, we analyzed mutations in IGHV-D-J , the preferred substrate for AID. Because the rate of AID-induced mutation is low and only a small percentage of CLL cells express AID ex vivo , we used ultra-deep sequencing to analyze CLL cells that were activated under conditions that simulate the CLL microenvironment. Specifically, CLL cells were activated (1) in vitro by simulating the provision of T-cell help or (2) in vivo after adoptive transfer into alymphoid recipient mice, which requires the presence of T-cells for CLL cell growth. Each of these conditions induce AID in a large fraction of CLL cells. To analyze IGHV-D-J mutations, the specific CLL clone IGHV was amplified from cDNA obtained on day 0 or from the activated CLL samples using IGHV family-specific and IGHM primers to enable subsequent comparison of IGHV-D-J with IGHM mutation frequencies. Three unmutated IGHV CLL (U-CLL) and 3 mutated IGHV (>2% compared to germline) CLL (M-CLL) samples were sequenced with the Roche 454 FLX system, resulting in a total of 1,367,522 sequence reads. After using the Roche 454 algorithm to trim sequence reads, they were prepared using custom R scripts that separated 5\u2019 IGHV and 5\u2019 IGHM primer sequences, aligned sequences to the CLL clone IGHV-D-J rearrangement, and removed poor quality (<20) sequences, insertions, and deletions. Beginning at the 5\u2019 end, the script also extracted blocks of sequences of the same length for day 0 and activated samples, which are required for subsequent analyses. After these preparations, the resulting 724,855 sequence blocks were subjected to clonal analyses with custom R scripts. The dominant CLL clone accounted for 94.5% (684,691) of the sequences. Subclone sequences occurring more than once were extracted. After comparison to day 0, new subclones could be identified in all samples after activation (3.22 \u2013 28.70 new subclones / read bp *10 6 ). To evaluate AID mutational characteristics in new subclones, SHMTool (http://scb.aecom.yu.edu/shmtool) was employed to calculate mutation frequencies in IGHV-D-J relative to the IGHM constant region, at AID mutation hotspot sites (GYW or WRC), at AID mutation coldspot sites (SYC or GRS), at C/G base pairs, and at error-prone DNA polymerase eta repair hotspot sites (WA or TW). To calculate statistical significance, we utilized a custom R script that used a bootstrap method to account for the large sample sizes provided by ultra-deep sequencing as well as to correct for differences in sequencing sample size. All samples showed an increase in IGHV-D-J versus IGHM mutations after T cell activation. Five of 6 cases showed an increase in AID hostpot mutation frequency. AID coldspot mutation frequency decreased in 3/6 CLL cases. Percent transition mutation at C/G sites was higher than random in 2/6 CLL cases, which correlated with low frequencies of DNA polymerase eta hotspot mutation. In the other 4/6 CLL cases, the lower percent transitions at C/G sites may reflect the contribution of error-prone DNA repair. In summary, we developed a method to analyze ultra-deep IGHV-D-J sequences that revealed AID mutational characteristics in both U-CLL and M-CLL cells after activation with T-cell help in vitro or in vivo . These data are consistent with the hypothesis that AID, perhaps along with error-prone DNA repair, creates new mutations leading to the evolution of aggressive CLL. Disclosures: Rai: Sanofi: Membership on an entity\u2019s Board of Directors or advisory committees; GSK: Membership on an entity\u2019s Board of Directors or advisory committees; Teva: Membership on an entity\u2019s Board of Directors or advisory committees; Genentech: Membership on an entity\u2019s Board of Directors or advisory committees; Celgene: Membership on an entity\u2019s Board of Directors or advisory committees."
+    "url": "https://ashpublications.org/blood/article/122/21/2583/11601/Evaluation-of-IGHV-Ultra-Deep-Sequences-for?searchresult=1",
+    "datetime_link_obtained": "2022-04-25T23:21:38",
+    "is_scraped": "0"
 }
