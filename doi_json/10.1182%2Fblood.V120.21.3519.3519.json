@@ -1,76 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2162",
+    "start_url_page_num": "2162",
     "doi": "https://doi.org/10.1182/blood.V120.21.3519.3519",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2162",
-    "start_url_page_num": 2162,
-    "is_scraped": "1",
-    "article_title": "Integrative Network Analysis of Pediatric AML Whole Genomes, cDNA Expression and Clinical Data Elements Reveals Shared As Well As t(8;21), Inv16 and MLL Specific Pathways; A Report From COG/NCI Target AML Initiative ",
-    "article_date": "November 16, 2012",
-    "session_type": "602. Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation: Poster III",
-    "topics": [
-        "cdna expression analysis",
-        "genome",
-        "myeloblastic leukemia, pediatric acute",
-        "national cancer institute",
-        "cancer",
-        "disease remission",
-        "growth factor",
-        "biological markers",
-        "bone marrow specimen",
-        "ccaat/enhancer binding protein alpha"
-    ],
-    "author_names": [
-        "Hamid Bolouri, PhD",
-        "Rhonda E. Ries, MA",
-        "Ranjani Ramamurthy, MS",
-        "Todd A. Alonzo, PhD",
-        "Jaime M. Guidry Auvil, Ph.D.",
-        "Tanja M. Davidsen, PhD",
-        "Patee Gesuwan, Ph.D.",
-        "Alan S. Gamis, MD, MPH",
-        "Malcolm A. Smith, MD, PhD",
-        "Daniela S. Gerhard, Ph.D.",
-        "Robert J. Arceci, MD, PhD",
-        "Soheil Meshinchi, MD, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Human Biology Division, Fred Hutchinson Cancer Research Center, Seattle, WA, USA, "
-        ],
-        [
-            "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA, USA, "
-        ],
-        [
-            "University of Washington School of Medicine, Seattle, WA, USA, "
-        ],
-        [
-            "University of Southern California, Los Angeles, CA, USA, "
-        ],
-        [
-            "Office of Cancer Genomics, National Cancer Institute, Bethesda, MD, USA, "
-        ],
-        [
-            "Office of Cancer Genomics, National Cancer Institute, Bethesda, MD, "
-        ],
-        [
-            "Office of Cancer Genomics, National Cancer Institute, Bethesda, MD, USA, "
-        ],
-        [
-            "Children's Mercy Hospitals and Clinics, Kansas City, MO, USA, "
-        ],
-        [
-            "Cancer Therapy Evaluation Program, National Cancer Institute, Bethesda, MD, USA, "
-        ],
-        [
-            "Office of Cancer Genomics, National Cancer Institute, Bethesda, MD, USA, "
-        ],
-        [
-            "Johns Hopkins Medical Institute, Baltimore, MD, USA"
-        ],
-        [
-            "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA, USA, "
-        ]
-    ],
-    "first_author_latitude": "47.62726339999999",
-    "first_author_longitude": "-122.3314858",
-    "abstract_text": "Abstract 3519 Pediatric Acute Myeloid Leukemia (AML) offers a unique window into the genesis and progression of hematologic cancers because of its rapid progression and limited confounding factors. As part of the NCI TARGET AML initiative (target.cancer.gov), we report the initial integrative analysis of 58 pediatric AML whole-genome sequences [WGS, performed by Complete Genomics Inc. (CGI)] along with 225 Affymetrix microarrays, clinical cytogenetic and biomarker tests. WGS was performed on matched samples collected at diagnosis and remission from each patient. Candidate variants were identified by CGI and defined as being present only in tumor samples. To focus on the highest confidence variant calls, we developed stringent filters based on a set of 281 true-positive and 44 false-positive verified variants. We identified a total of 629 high-confidence variants in 58 cases (\u223c 11 per patient). 99 of these variants occurred in 39 genes (2 to 8 per gene, up to 4 per sample). Analysis of the potential functional consequence of these variants identified 28 as deleterious impacting 17 genes in 21 of the 58 relapsed AMLs, including multiple mutations in AML-associated genes such as KIT, NRAS, PTPN11 , and WT1 , and several key hematopoietic genes (e.g. IKZF1, GATA2 ). Using microarray expression data, we identified 1,992 (1,051) genes that were differentially expressed in pediatric AML cases compared to 4 normal bone marrow samples [FDR-adjusted p-value = 0.05 (0.01)]. 249 differentially expressed genes were more than 6 standard deviations away from the control average in more than half of the samples (e.g. WT1, MYCN , miR155 ), suggesting the existence of a shared set of dysregulated processes across most pediatric AMLs. Network-oriented enrichment analysis using the Bioconductor ( http://bioconductor.org ) package DEGraph revealed differentially regulated interactions among 3,496 genes, including 1,437 cancer genes and highly enriched interactions involving growth factor/RTK signaling, down-regulated immune processes, and up-regulated transcription and translation. To pinpoint processes specific to AML subtypes, we used the Bioconductor package WGCNA to cluster the 225 microarray expression datasets and align them with clinically-identified cytogenetic and mutation data. We identified five distinct expression clusters. Three of these clusters corresponded to known cytogenetic abnormalities: MLL fusions, t(8;21), and Inv16. The other two clusters were cytogenetically normal, but all members of one cluster carry CEBPA mutations. The expression patterns of cases with t(8;21) and Inv16, while distinct, shared a number of features that distinguished them from samples with MLL abnormalities. For example, in both t(8;21) and Inv16 cases (but not in MLL cases) the fibroblast growth factor (FGF) receptor FGFR1 and the FGF ligand FGF11 were over-expressed compared to control samples. These differences may explain the higher rates of remission associated with Core Binding Factor (CBF) abnormalities. To identify potential relationships between sequence variants and differentially expressed genes, we used the Graphite Bioconductor package to search four publicly available databases (Reactome, NCI PID, KEGG, Biocarta) for known interactions of our candidate deleterious genes. Surprisingly, all but two of our candidate deleterious genes shared many interactors, suggesting they impacted shared processes. The core connected components of the mutation interaction network were all members of the set of dysregulated interactions that we identified by gene expression analysis and included multiple members of well-known pathways implicated in AML and other cancers (e.g. RTK/growth factor signaling, JAK/STAT signaling). Candidate mutations impacted both shared and distinct pathways. Furthermore, within shared pathways, the candidate mutations impacted shared and distinct targets. These findings have important implications for pathway-specific drug targeting. Comparing the interactions of candidate WGS mutations with those of clinically-identified chromosomal abnormalities, a further pattern emerges: CBF and MLL associated gene fusions appeared to impact a different set of genes and processes compared to WGS (presumably second-hit) variants, suggesting complementary roles. This finding has important implications for ongoing research and testing of targeted treatments. Disclosures: No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/120/21/3519/84744/Integrative-Network-Analysis-of-Pediatric-AML?searchresult=1",
+    "datetime_link_obtained": "2022-04-25T11:18:37",
+    "is_scraped": "0"
 }
