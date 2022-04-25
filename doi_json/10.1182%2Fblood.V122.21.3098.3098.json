@@ -1,80 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2408",
+    "start_url_page_num": "2408",
     "doi": "https://doi.org/10.1182/blood.V122.21.3098.3098",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2408",
-    "start_url_page_num": 2408,
-    "is_scraped": "1",
-    "article_title": "Exome Sequencing To Define A Genetic Signature Of Plasma Cells In Systemic AL Amyloidosis ",
-    "article_date": "November 15, 2013",
-    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster II",
-    "topics": [
-        "genetics",
-        "plasma cells",
-        "plasmacytosis",
-        "primary amyloidosis",
-        "whole exome sequencing",
-        "monoclonal gammopathy of undetermined significance",
-        "multiple myeloma",
-        "dna",
-        "plasma cell disorder",
-        "antigens, cd98 light chains"
-    ],
-    "author_names": [
-        "Brian A Walker, PhD",
-        "Dorota Rowczienio, MSc",
-        "Eileen M Boyle, MD",
-        "Christopher P Wardell, PhD",
-        "Sajitha Sachchithanantham, MRCP, FRCPath",
-        "Anna Baginska",
-        "Julian D Gillmore, MD",
-        "Shameem Mahmood, MRCP. FRCPath",
-        "Helen J Lachmann, MD, FRCP",
-        "Philip N Hawkins",
-        "Faith E Davies, MD",
-        "Gareth J Morgan, MD PhD",
-        "Ashutosh Wechalekar, MD, FRCPath"
-    ],
-    "author_affiliations": [
-        [
-            "Centre for Myeloma Research, Division of Molecular Pathology, The Institute of Cancer Research, London, United Kingdom, "
-        ],
-        [
-            "Center for Amyloidosis and Acute Phase Proteins, University College London Medical School, London, United Kingdom, "
-        ],
-        [
-            "Centre for Myeloma Research, Division of Molecular Pathology, The Institute of Cancer Research, London, United Kingdom, "
-        ],
-        [
-            "Centre for Myeloma Research, Division of Molecular Pathology, The Institute of Cancer Research, London, United Kingdom, "
-        ],
-        [
-            "National Amyloidosis Centre, University College London, London, United Kingdom"
-        ],
-        [
-            "National Amyloidosis Centre, University College London, London, United Kingdom"
-        ],
-        [
-            "Center for Amyloidosis and Acute Phase Proteins, University College London Medical School, London, United Kingdom, "
-        ],
-        [
-            "National Amyloidosis Centre, University College London, London, United Kingdom"
-        ],
-        [
-            "Center for Amyloidosis and Acute Phase Proteins, University College London Medical School, London, United Kingdom, "
-        ],
-        [
-            "Center for Amyloidosis and Acute Phase Proteins, University College London Medical School, London, United Kingdom, "
-        ],
-        [
-            "Centre for Myeloma Research, Division of Molecular Pathology, The Institute of Cancer Research, London, United Kingdom, "
-        ],
-        [
-            "Centre for Myeloma Research, Division of Molecular Pathology, The Institute of Cancer Research, London, United Kingdom, "
-        ],
-        [
-            "Center for Amyloidosis and Acute Phase Proteins, University College London Medical School, London, United Kingdom, "
-        ]
-    ],
-    "first_author_latitude": "51.3444431",
-    "first_author_longitude": "-0.1888103",
-    "abstract_text": "Systemic amyloid light chain amyloidosis (AL) is characterized by the deposition of immunoglobulin light chains as amyloid fibrils in different organs, where they form toxic protein aggregates. Most AL patients have relatively low levels of circulating free light chains and bone marrow plasmacytosis. The underlying disease is a plasma cell disorder, likely a monoclonal gammopathy, but limited data are available on the biology of the plasma cell clone underlying AL and existing studies have concentrated on chromosomal abnormalities. Many of the chromosomal abnormalities identified in AL are also seen in other plasma cell disorders, such as monoclonal gammopathy of undetermined significance (MGUS) and myeloma. These abnormalities include translocations involving the IGH locus, gains of 1q and deletions of 13q and 17p. Fluorescence in situ hybridization studies have identified the translocation t(11;14) to be more frequent in AL and hyperdiploidy to be rare. The causal link between genetic changes in plasma cells and light chain instability remains unknown and progression to symptomatic myeloma is rare. We report the initial findings of the first exome sequencing to define the plasma cell signature in AL and compared this to MGUS and myeloma. CD138+ cells were selected using either EasySep (Stem Cell Technologies) or MACSort (Miltenyi) from the bone marrow of 18 AL patients and 5 MGUS patients. DNA was extracted from the CD138+ cells using the AllPrep kit (Qiagen). Non-involved DNA was isolated from peripheral white blood cells using the Flexigene kit (Qiagen). 200 ng DNA was subjected to exome sequencing using NEBNext kit (NEB) and SureSelect Human All Exon kit v5 and sequenced using 76-bp paired end reads. Fastq files were aligned to the reference genome using BWA and Stampy aligners. BAM files were recalibrated using the GATK and deduplicated using Picard. Paired tumour/normal BAMs were realigned together using the GATK indel realigner and SNVs were called using Mutect. Copy number data were estimated using the R package ExomeCNV. The median depth across all samples was 42x with 97% of the exome covered at 1x and 72% covered at 20x. Exome data to determine the cytogenetic groups of AL samples identified 42% hyperdiploid and 21% with t(11;14). The AL samples with t(11;14) did not contain any other copy number abnormalities. Exome sequencing on samples from patients with MGUS and myeloma was also performed to compare the genetic makeup and mutation spectrum of these well characterised plasma cell neoplasias with AL samples. MGUS samples had a median of 30 acquired nonsynonymous variants (range 24-189) and AL amyloidosis samples had a median of 17 acquired nonsynonymous variants (range 4-44). The AL samples had four recurrent mutations in PCMTD1 (n=3; L267F, P266S and M187I), C21orf33 (n=2; E72K), NLRP12 (n=2; L1018P, W959* ) and NRAS (n=2; Q61R, Q61H). In this small dataset, only 5 genes were mutated in both the MGUS and AL samples ( DNMBP , FRG1 , HIST1H1B , KRTAP4-11 and MCCC1 ). In order to assess the similarity (or differences) of plasma cells in AL to malignant plasma cells in general, we compared them to a random sampling of 20 multiple myeloma samples which had also been exome sequenced (median number of acquired nonsynonymous variants = 39 vs. 17 in AL samples). This revealed that the AL contained 21 mutated genes in common with the myeloma cohort, including DIS3 and NRAS . There were two DIS3 mutations in one AL sample at c.379D>E (p.D479E) and c.1999A>T (p.M667L), both of which were in the Ribonuclease II/R catalytic domain. Data on correlation of gene mutations and organ involvement in AL amyloidosis will be presented. We conclude that exome sequencing identifies a genetic signature of AL amyloidosis which is similar to other plasma cell disorders. This not only includes copy number abnormalities and translocations but also a similar number of nonsynonymous mutations to MGUS and fewer than the advanced myeloma samples. Study of further samples is in progress. Disclosures: No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/122/21/3098/11669/Exome-Sequencing-To-Define-A-Genetic-Signature-Of?searchresult=1",
+    "datetime_link_obtained": "2022-04-25T22:20:41",
+    "is_scraped": "0"
 }
