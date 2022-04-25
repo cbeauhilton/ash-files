@@ -1,44 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2369",
+    "start_url_page_num": "2369",
     "doi": "https://doi.org/10.1182/blood.V120.21.2390.2390",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2367",
-    "start_url_page_num": 2367,
-    "is_scraped": "1",
-    "article_title": "Systematic Deconvolution of Hematolymphoid Tumor Transcriptomes Reveals Infiltrating Immune Cell Signatures Related to Survival. ",
-    "article_date": "November 16, 2012",
-    "session_type": "602. Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation: Poster II",
-    "topics": [
-        "neoplasms",
-        "hematologic neoplasms",
-        "behavioral tic",
-        "cancer",
-        "diffuse large b-cell lymphoma",
-        "follicular lymphoma",
-        "gene expression profiling",
-        "infiltrates",
-        "rituximab",
-        "rna, messenger"
-    ],
-    "author_names": [
-        "Aaron M. Newman, PhD",
-        "Andrew J. Gentles, PhD",
-        "Sylvia K. Plevritis, PhD",
-        "Ash A. Alizadeh, MD, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Stanford Cancer Institute, Stanford University, Stanford, CA, USA, "
-        ],
-        [
-            "Center for Cancer Systems Biology, Stanford University, Stanford, CA, USA, "
-        ],
-        [
-            "Center for Cancer Systems Biology, Stanford University, Stanford, CA"
-        ],
-        [
-            "Stanford Cancer Institute, Stanford University, Stanford, CA, USA, "
-        ]
-    ],
-    "first_author_latitude": "37.43168125",
-    "first_author_longitude": "-122.17357109999998",
-    "abstract_text": "Abstract 2390 Background Hematological malignancies are among leading causes of cancer-related deaths in the United States. We sought to identify novel immunological signatures of survival in blood cancers, with a particular focus on tumor-infiltrating cells (TICs), known to have prognostic significance in several tumor types [1\u20133]. We employed a computational genomics approach to retrospectively analyze thousands of gene expression profiles (GEPs) from individual tumors. By incorporating prior knowledge of genes specifically enriched in purified immune cell phenotypes, we estimated the relative contributions of distinct TICs in blood cancer GEP admixtures, and derived cancer-specific TIC abundance signatures with strong prognostic significance. Method We assembled a GEP atlas from publicly available human microarray samples spanning diverse immune cell phenotypes and activation states, termed Immunome+. We separately generated GEPs of nearly 200 follicular lymphoma (FL) tumors obtained from a recently completed phase III clinical trial, and collected publicly available transcriptome profiles from >2000 patients with diverse hematological malignancies. To deconvolve GEP admixtures, we modeled each mRNA mixture by a system of linear equations, and given Immunome+, we optimally solved the system using a previously described method. We also estimated p-values using a novel approach, which yielded \u201cgoodness-of-fit\u201d estimates for GEP deconvolution. Inferred TIC fractions were related to clinical outcomes using Cox proportional hazards regression. Results To benchmark our deconvolution strategy, we applied it to a variety of positive control expression profiles, and obtained estimates of cell-type frequencies that robustly correlated with known cell type proportions ( GSE19380 , GSE20300 ). We also assessed the cell type specificity of genes within Immunome+, and found that our method could robustly classify purified immune cell GEPs in external data sets with a mean accuracy of 94%. Next, we analyzed a variety of blood cancer data sets, including our own, to infer TIC relative proportions and associations with overall survival. Strikingly, we found that TIC abundance patterns and prognostic associations are highly correlated within the same tumor types profiled by different laboratories, whereas different tumor types have distinct immune cell infiltration and prognostic signatures. Among multiple TIC prognostic associations, we found that a higher proportion of estimated macrophage infiltrates is significantly associated with increased overall survival in independent cohorts of DLBCL, irrespective of rituximab treatment ( P = 1.8\u00d710 \u22125 ). This is consistent with the enrichment of macrophage genes in the Stromal-1 prognostic signature identified by Lenz et al. [2]. We also found a significant association between CD4+ T-cells and favorable overall survival in FL ( P = 0.01), including our cohort (n = 196) and one previously described [1]. Accordingly, we suggest that deconvolution is a promising strategy to disentangle known cell populations from heterogeneous blood cancer samples. Conclusions Our approach represents a novel way to explore the landscape of immunological signatures relating to cancer clinical outcomes, and offers a new resource for making experimentally testable predictions, and for discovery of new immunotherapeutic targets. Disclosures: No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/120/21/2390/112606/Systematic-Deconvolution-of-Hematolymphoid-Tumor?searchresult=1",
+    "datetime_link_obtained": "2022-04-25T20:42:43",
+    "is_scraped": "0"
 }
