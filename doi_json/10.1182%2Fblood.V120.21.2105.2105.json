@@ -1,56 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2210",
+    "start_url_page_num": "2210",
     "doi": "https://doi.org/10.1182/blood.V120.21.2105.2105",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2210",
-    "start_url_page_num": 2210,
-    "is_scraped": "1",
-    "article_title": "Imaging Flow Cytometry for Fully Automated Quantification of Percentage of Sickled Cells in Sickle Cell Anemia. ",
-    "article_date": "November 16, 2012",
-    "session_type": "111. Hemoglobinopathies, excluding Thalassemia: Poster II",
-    "topics": [
-        "diagnostic imaging",
-        "flow cytometry",
-        "sickle cell anemia",
-        "fetal hemoglobin",
-        "sickling test",
-        "hypoxia",
-        "oxygen",
-        "artifacts",
-        "buffers",
-        "furaldehyde"
-    ],
-    "author_names": [
-        "Eduard J. van Beers, MD, PhD",
-        "Leigh Samsel, MS",
-        "Laurel G. Mendelsohn, M.S.",
-        "Rehan Saiyed, BS",
-        "James S Nichols, RN",
-        "J. Philip McCoy, Jr., PhD",
-        "Gregory J. Kato, M.D."
-    ],
-    "author_affiliations": [
-        [
-            "Sickle Cell Vascular Disease Section, Hematology Branch, National Heart, Lung, and Blood Institute, Bethesda, MD, USA, "
-        ],
-        [
-            "Flow Cytometry Core Facility, National Heart, Lung and Blood Institute, National Institutes of Health, "
-        ],
-        [
-            "Sickle Cell Vascular Disease Section, Hematology Branch, National Heart, Lung, and Blood Institute, Bethesda, MD, USA, "
-        ],
-        [
-            "Sickle Cell Vascular Disease Section, Hematology Branch, National Heart, Lung, and Blood Institute, Bethesda, MD, USA, "
-        ],
-        [
-            "Sickle Cell Vascular Disease Section, Hematology Branch, National Heart, Lung, and Blood Institute, Bethesda, MD, USA, "
-        ],
-        [
-            "Flow Cytometry Core, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD, USA"
-        ],
-        [
-            "Sickle Cell Vascular Disease Section, Hematology Branch, National Heart, Lung, and Blood Institute, Bethesda, MD, USA, "
-        ]
-    ],
-    "first_author_latitude": "39.00234429999999",
-    "first_author_longitude": "-77.10091109999999",
-    "abstract_text": "Abstract 2105 Introduction In preclinical and early phase pharmacologic trials in sickle cell anemia (SCA) the percentage of sickled cells after deoxygenation, in a so called sickling assay, has been used as an outcome variable. Although this sickling assay is a highly useful test, this method has the disadvantage of being subjective, operator-dependent and with low sensitivity and high variability due to the lack of automated method to quantitate the percentage of sickled cells from a large sample. Imaging flow cytometry is an emerging technology with potential to improve this assay. Therefore, we have explored the capability of this new technique to discriminate sickled cells from unsickledcells in this assay. Methods This study had regional ethics committee approval, and all patients gave written informed consent. To perform the sickling assay peripheral blood was drawn, diluted 1:100 with HemOx buffer (TCS Scientific Corp., Southampton, PA, USA) and aliquoted onto a 96 well plate and placed in a glovebox in hypoxic conditions (2% oxygen) for 2 hours (or as otherwise specified). After incubation, samples were fixed with glutaraldehyde, washed and placed on ice before analyzing the samples with imaging flow cytometry. Cells were analyzed on the ImageStream x imaging flow cytometer (Amnis Corporation, Seattle, Washington, USA). Data were acquired using the INSPIRE acquisition software and using the 60X objective. Data from a minimum of 5000 cells were collected for each sample and analyzed using IDEAS 5.0 software. Single in-focus cells were identified using data from the brightfield images using various masks. As a learning population for the IDEAS software we hand tagged populations of sickled and unsickledcells. Results Using various combinations of pre-defined and self-defined masks we found that shape-ratio (the ratio between the shortest width of the mask divided by the longest part of the mask) identified our hand-tagged populations the best. We customized the algorithm with tight masks and a spot count feature to eliminate doublets and other artifacts. We were able to identify sickled or unsickled cells and a continuum between the two morphological extremes ( figure 1 a, 1 b). We selected three different shape ratio cut-off values for further analysis ( table 1 ). To test the classifying algorithm, we spiked normal control blood with different amounts of SCA blood before incubation under variable hypoxia. At 3% oxygen the relation between percentage of sickled cells and percentage of SCA blood in the sample was strong (a Spearman rho for all cut-off values higher than 0.925) and significant (P\u22640.001). At 4% oxygen the relation was less strong (Spearman rho higher than 0.725 for all cut-off values) but still significant (P\u22640.05). As an additional validation, we found (as expected) lower percentages of hypoxia-induced sickling in blood from patients with SCA according to the level of fetal hemoglobin (HbF) expression ( figure 1 c). At all shape ratio cut-off values HbF percentage seems to suppress the amount of cells identified as sickled. While additional experiments are underway in an attempt to validate this finding, we preliminarily observe that fetal hemoglobin has a large effect on this flow cytometry sickling assay. Experiments assessing how sensitive this new technique is in detecting the effect of the anti-sickling agent 5-hydroxymethyl-2-furfural (Aes-103) are ongoing. Conclusion This study shows that imaging flow cytometryhas potential as a fully automated, operator independent method to quantify sickled cells in a sickling assay. While additional experiments are ongoing, our early data suggest that the presented technique seems discriminative enough to identify patient dependent and independent differences in sickling capacity of SCA red cells. Figure 1. View large Download slide A, B: Random brightfield images of cells with shape ratios higher than 0.9 (A) and smaller than 0.2 (B) C: Effect of fetal hemoglobin percentage in sample on percentage of sickled cells. Results shown for shape ratio cut-off value of 0.5. Figure 1. View large Download slide A, B: Random brightfield images of cells with shape ratios higher than 0.9 (A) and smaller than 0.2 (B) C: Effect of fetal hemoglobin percentage in sample on percentage of sickled cells. Results shown for shape ratio cut-off value of 0.5.  Table 1. Statistical parameters of different shape ratio cut-offs  Shape ratio cut-off . Sensitivity . Specificity . CV . 0.3 60.7 100 11.6 0.4 82.0 100 8.2 0.5 100 99.1 6.4 Shape ratio cut-off . Sensitivity . Specificity . CV . 0.3 60.7 100 11.6 0.4 82.0 100 8.2 0.5 100 99.1 6.4 View Large Disclosures: No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/120/21/2105/85734/Imaging-Flow-Cytometry-for-Fully-Automated?searchresult=1",
+    "datetime_link_obtained": "2022-04-25T14:19:40",
+    "is_scraped": "0"
 }
