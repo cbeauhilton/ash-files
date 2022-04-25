@@ -1,72 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2262",
+    "start_url_page_num": "2262",
     "doi": "https://doi.org/10.1182/blood.V120.21.4166.4166",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2262",
-    "start_url_page_num": 2262,
-    "is_scraped": "1",
-    "article_title": "High Resolution HLA Typing by Next Generation Exome Sequencing ",
-    "article_date": "November 16, 2012",
-    "session_type": "722. Clinical Allogeneic Transplantation - Acute and Chronic GVHD, Immune Reconstitution: Poster III",
-    "topics": [
-        "hla serotyping",
-        "whole exome sequencing",
-        "human leukocyte antigens",
-        "middle east respiratory syndrome",
-        "hla-a antigens",
-        "hla-a2 antigen",
-        "transplantation",
-        "dna",
-        "dna, complementary",
-        "hla-c antigens"
-    ],
-    "author_names": [
-        "Chang Liu, MD, PhD",
-        "Yang Xiao, PhD",
-        "Brian Duffy, MA",
-        "Michael Zody, PhD",
-        "Eric Tycksen, BA",
-        "Savita Shrivastava, MS",
-        "Rakesh Nagarajan, MD, PhD",
-        "Brenda J. Grossman, MD, MPH",
-        "Thalachallour Mohanakumar, PhD",
-        "Mitra D Robi, PhD",
-        "John D Pfeifer, MD, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Institute of Medicinal Plant Development, Chinese Academy of Medical, Beijing, China, "
-        ],
-        [
-            "Genome Sequencing and Analysis Program, The Broad Institute of MIT & Harvard, Cambridge, MA, "
-        ],
-        [
-            "HLA Laboratory, Barnes-Jewish Hospital, Saint Louis, MO, "
-        ],
-        [
-            "Genome Sequencing and Analysis Program, The Broad Institute of MIT & Harvard, Cambridge, MA, "
-        ],
-        [
-            "Department of Genetics, Washington University School of Medicine, Saint Louis, MO, "
-        ],
-        [
-            "Center for Biomedical Informatics, Washington University School of Medicine, Saint Louis, MO, "
-        ],
-        [
-            "Department of Pathology and Immunology, Washington University School of Medicine, Saint Louis, MO, USA, "
-        ],
-        [
-            "Department of Pathology and Immunology, Washington University School of Medicine, Saint Louis, MO, "
-        ],
-        [
-            "Department of Surgery, Washington University School of Medicine, Saint Louis, MO, "
-        ],
-        [
-            "Center for Genome Sciences and Systems Biology, Department of Genetics, Washington University School of Medicine, Saint Louis, MO"
-        ],
-        [
-            "Department of Pathology and Immunology, Washington University School of Medicine, Saint Louis, MO, USA, "
-        ]
-    ],
-    "first_author_latitude": "39.91143099999999",
-    "first_author_longitude": "116.41481",
-    "abstract_text": "Abstract 4166 Background High resolution typing of HLA-A, B, C, DQB1 and DRB1 at the allelic level allows transplantation of hematopoietic progenitor cells (HPC) from matched allogeneic donors. The extent of matching has been recognized as one of the most important predictors of survival. High resolution typing relies on Sanger sequence-based typing (SBT) and PCR with sequence-specific primers (SSP), both of which detect nucleotide changes in exons that alter the HLA antigens. Next generation exome sequencing (NGES) offers the potential for rapid and less expensive HLA typing for transplantation of matched allogeneic HPC, but the role of NGES for high resolution HLA typing has not been examined. In this study, we designed a bioinformatic pipeline to account for the hundreds to thousands of alleles at each HLA locus in the population, and used it to explore the possibility of high resolution HLA typing using NGES data. Methods Indexed sequencing libraries were constructed from 3 HapMap samples (NA19129, NA18507, and NA19240), target enriched with SureSelect Human All Exon V3 kit (Agilent Technologies), and sequenced in multiplex as paired-end 2\u00d7101 bp reads on an Illumina HiSeq2000. The above process was repeated for NA19240 to assure reproducibility. The NGES-based HLA typing consisted of 3 major steps: 1) Filtering reads: cDNA and genomic sequences of all alleles of each HLA locus [ImMunoGeneTics project (IMGT)/HLA database] were concatenated to form five references, to which input reads were aligned using NovoalignMPI V.2.07.07 with standard options and no more than 1 mismatch per read. 2) Eliminating unsupported alleles: Curated alignment of all alleles of each HLA locus was obtained from IMGT/HLA database. Each polymorphic position was termed a D position. K-mers (a DNA sequence with length k), each containing a D position, was searched against the reads from step 1. Alleles were credited or penalized based on presence or absence of their k-mers in the reads. Alleles with negative overall scores were eliminated and this step was repeated until no elimination occurred. 3) Ranking allele pairs: all possible pairs of candidate alleles from step 2 were evaluated; a pair was credited at each D position if k-mers of both alleles were supported by the reads or penalized if otherwise. The allele pair (or pairs if a tie) ranked at the top was the presumed type of the locus examined. The NGES-based high resolution typing was run on a computing node (IBM x3650-m2). The results were compared with the results of conventional typing (SBT and SSP), followed by examination of the disagreement between the methods and adjustment of k. Results The conventional high resolution typing results comprised 15 pairs of alleles that were uniquely different (one pair of alleles at each locus of HLA-A, B, C, DQB1 and DRB1 for 3 samples). The method was established using the information on HLA-A alleles of NA19129, leaving 14 pairs of alleles for validation. Initial NGES-based typing indicated that the specificity of the method was dependent on k-mer length, with increased length required to eliminate interference from mimicking reads (e.g. mimics of an HLA-C allele). Thus, with a k-mer length of 50 bp, NGES-based typing correctly determined 12 of 14 pairs of alleles, while with k-mer lengths of 60 or 65 bp, it correctly determined 14 of 14 pairs of alleles. All 5 pairs of alleles of NA19240 were also correctly determined with the longer k-mers using reads from the replicate sequencing. After read filtering, the typing took approximately 5 minutes per sample. Conclusion In this first proof-of-concept study, high resolution HLA typing was successfully performed using NGES data. With k-mer lengths of 60 or 65 bp, NGES-based typing correctly identified 100% of tested allele pairs, and demonstrated a similar level of resolution and accuracy as conventional high resolution typing. Note: C.L. and X.Y. contributed equally to this work. Disclosures: No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/120/21/4166/86676/High-Resolution-HLA-Typing-by-Next-Generation?searchresult=1",
+    "datetime_link_obtained": "2022-04-25T16:29:37",
+    "is_scraped": "0"
 }
