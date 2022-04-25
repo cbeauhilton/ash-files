@@ -1,48 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2226",
+    "start_url_page_num": "2226",
     "doi": "https://doi.org/10.1182/blood.V120.21.3730.3730",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2226",
-    "start_url_page_num": 2226,
-    "is_scraped": "1",
-    "article_title": "Global DNA Methylation Analysis Identifies Key Pathway Differences Between Poor (Low OCT-1 Activity) and Standard Risk CP-CML Patients At Diagnosis ",
-    "article_date": "November 16, 2012",
-    "session_type": "631. Chronic Myeloid Leukemia - Biology and Pathophysiology, excluding Therapy: Poster III",
-    "topics": [
-        "cancer",
-        "cations",
-        "dna",
-        "dna methylation",
-        "imatinib mesylate",
-        "leukemia",
-        "leukemia, myelocytic, chronic",
-        "protein-tyrosine kinase inhibitor",
-        "erinaceidae",
-        "heterogeneity"
-    ],
-    "author_names": [
-        "Dale B. Watkins, B.Sc. (Hons)",
-        "Chung Hoow Kok, PhD",
-        "Richard J. D'Andrea, PhD",
-        "Timothy P. Hughes, MD, MBBS",
-        "Deborah L. White, PhD, FFSc(RCPA)"
-    ],
-    "author_affiliations": [
-        [
-            "Leukaemia Foundation of Australia (PhD Scholar), Windsor, QLD, Australia, "
-        ],
-        [
-            "Centre for Personalised Cancer Medicine, Department of Medicine, University of Adelaide, Adelaide, Australia, "
-        ],
-        [
-            "Haematology, Centre for Cancer Biology/SA Pathology (RAH site), Adelaide, Australia, "
-        ],
-        [
-            "Department of Haematology, Centre for Cancer Biology/SA Pathology (RAH site), Adelaide, Australia, "
-        ],
-        [
-            "Department of Haematology, Centre for Cancer Biology/SA Pathology, Adelaide, Australia"
-        ]
-    ],
-    "first_author_latitude": "-27.4581651",
-    "first_author_longitude": "153.029958",
-    "abstract_text": "Abstract 3730 Background: DNA methylation, specifically CpG methylation, is an essential mediator of epigenetic gene expression which is of vital importance to many biological processes and human malignancies. DNA hypermethylation has been previously described in a small number of genes in chronic myeloid leukemia (CML); however, current published studies have only examined the methylation status of selected genes, often based on the results of studies in other malignancies. Therefore, the global DNA methylation profile of chronic phase-CML (CP-CML) remains poorly understood, as does the impact of the epigenome on patient response to tyrosine kinase inhibitors (TKIs) including imatinib. The organic cation transport-1 (OCT-1) protein is the major active protein involved in imatinib transport, and we have previously demonstrated that measuring its function in leukemic mononuclear cells, expressed as OCT-1 activity (OA), in patient cells prior to imatinib therapy, provides a strong prognostic indicator. Notably, very low OA (poor risk cohort) is associated with patients at significant risk for poor molecular response, mutation development and leukemic transformation on imatinib therapy. Therefore, it is of particular interest to ascertain whether epigenetic changes are distinct and potentially biologically relevant in these poor risk patients. Aim: To investigate the global DNA methylation profile in CP-CML patients with a particular focus on poor risk patients (very low OCT-1 activity), and to ascertain whether aberrant epigenetic programming may underlie their poor response. Method: Cells were isolated from the blood of 55 CP-CML patients at diagnosis and 5 normal individuals. CP-CML patients were classified according to their OA values, with 29 classified as poor (very low OA) and 26 standard risk (high OA). Whole genome DNA methylation analysis was performed using the Illumina Infinium\u00ae HumanMethylation450 BeadChip. Analysis of array data was performed with R v2.15.0, using the minfi Bioconductor package. Results: The methylation profile of CP-CML was significantly different to that of normal individuals, as shown in Table 1 . GeneGo enrichment analysis revealed a significant enrichment in CML for genes known to be involved in other leukemias (p=4.92e \u221226 ) particularly AML and CLL, suggesting similar pathways may be under epigenetic control in CML. A significant number of polycomb group (BMI1 and EZH2) target genes were also identified, suggesting the likely involvement of this pathway in CML.  . Analysis Criteria . Benjamini-Hochburg Adjusted P <0.05 . Adjusted P 4 . Samples Significant CpGs Corresponding Genes Significant CpGs Corresponding Genes CP-CML vs. Normal 25,829 8,459 3,467 (2,870 hyper & 597 hypo) 1,827 Poor vs. Standard Risk 9,861 6,296 10 (5 hyper & 5 hypo) 10 . Analysis Criteria . Benjamini-Hochburg Adjusted P <0.05 . Adjusted P 4 . Samples Significant CpGs Corresponding Genes Significant CpGs Corresponding Genes CP-CML vs. Normal 25,829 8,459 3,467 (2,870 hyper & 597 hypo) 1,827 Poor vs. Standard Risk 9,861 6,296 10 (5 hyper & 5 hypo) 10 View Large Table 1 : Summary of significant CpGs and corresponding genes when comparisons of CP-CML to normal individuals, and poor to standard risk patients, are made using methylation profiles. A significant difference was also observed when the methylation profiles of poor and standard risk CP-CML patients were analysed ( Table 1 ). GeneGo analysis again identified polycomb group (SUZ12 and EZH2) target enrichment and significant enrichment of NOTCH, Hedgehog and WNT signalling (p=7.93e \u22129 , p=2.42e \u22125 and p=3.66e \u22125 respectively) in poor risk patients, indicating these pathways may play a significant role in the unfavourable responses observed in many of these patients. Of particular interest were the ten CpGs where a fold change >4 was observed between the methylation profiles of poor and standard risk patients. Using the Prediction Analysis of Microarrays supervised learning algorithm, a classifier for patient OA prediction based on this 10 CpG signature was evaluated. This classifier had an overall accuracy of 94% (sensitivity: 95%, specificity: 93%). Conclusion: We present a comprehensive global DNA methylation analysis of CP-CML that indicates significant and widespread changes to the CML epigenome, compared with that of normal individuals. Importantly, we have generated a classifier, which identifies the poor risk patient subgroup (very low OA) with 94% accuracy. Validation of this classifier is currently in progress. The epigenetic changes identified here may contribute to CML pathogenesis, and also to the response heterogeneity observed between CP-CML patients treated with TKI therapy. Disclosures: Hughes: Novartis Oncology: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; BMS: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Ariad: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding. White: Novartis Oncology: Honoraria, Research Funding; BMS: Research Funding; CSL: Research Funding."
+    "url": "https://ashpublications.org/blood/article/120/21/3730/86146/Global-DNA-Methylation-Analysis-Identifies-Key?searchresult=1",
+    "datetime_link_obtained": "2022-04-25T14:40:45",
+    "is_scraped": "0"
 }
