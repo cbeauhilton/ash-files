@@ -1,68 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2615",
+    "start_url_page_num": "2615",
     "doi": "https://doi.org/10.1182/blood.V122.21.5322.5322",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2615",
-    "start_url_page_num": 2615,
-    "is_scraped": "1",
-    "article_title": "High Throughput Sequencing-Based Pathogen Discovery In Multiple Myeloma ",
-    "article_date": "November 15, 2013",
-    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy",
-    "abstract_text": "Background Multiple myeloma is a malignancy of antibody-secreting, terminally differentiated B cells with a predilection for the bone marrow. Considering that microbial infections are common triggers for antibody production, we hypothesize that known and/or previously undiscovered viruses may be present in myeloma tissues and may influence myeloma prognosis, even if the viruses themselves do not cause myeloma. Virus-harboring tissues should presumably contain both human and pathogenic DNA/RNA, but viruses may not be detected if they are present at frequencies that are too low for detection by standard assays. Therefore, high-throughput sequencing, followed by computational subtraction of human sequence reads should result in the identification of non-human (and candidate pathogenic) sequences. The Multiple Myeloma Research Consortium has generated such a dataset, thus providing a unique opportunity to address this question. Methods We have developed a computational subtraction pipeline, PathSeq, for pathogen discovery. It consists of 3 main modules. Quality filtering is carried out in the \u201cpre-subtraction module\u201d. In the \u201csubtraction module\u201d, the quality filtered reads are analyzed by alignment to a series of human genome and transcriptomes databases using the BWA aligner and BLAST. In the \u201cpost-subtraction module\u201d, residual nucleotide and conceptually translated sequences are aligned to microbial databases. We also generate large contigs composed of unmapped reads that do not possess significant alignment similarity to any sequence in the reference databases. Such contigs may be suggestive of novel microorganisms. Whole genome sequencing data obtained from an initial set of 26 tumor-normal sample pairs (reported in Chapman et al, Nature 2010) were analyzed by PathSeq. In addition, analysis of mRNA sequencing data from 84 tumors is ongoing. Comparative marker selection analysis was also performed on array-based gene expression profiling data from 20 of the initial 26 tumors. Results PathSeq analyses revealed the presence of Epstein-Barr virus (EBV) sequence reads in 7 cases and human herpesvirus 6B (HHV-6B) reads in 2 cases. In most instances, the viral sequences were found in both tumor and normal samples from the same patient. The lowest viral-human read ratio was 1 in 1 billion, demonstrating the sensitivity of the PathSeq algorithm for pathogen identification. Comparative marker selection analysis comparing gene expression profiles between the 7 tumors with EBV reads with 13 tumors without viral sequences revealed a tentative virus associated signature, with SHISA2 (which encodes a protein that modulates FGF and Wnt signaling) as the gene whose expression is most significantly associated with virus positivity. Conclusions We have described the identification of EBV and HHV6B sequences in DNA samples obtained from myeloma tissues. Our data are preliminary and it is possible that the viral sequences are simply vestiges of non-active herpesviral infection present in the tumor microenvironment. Therefore, these findings need to be confirmed by our ongoing PathSeq analysis of RNA sequencing data. In addition, efforts are ongoing to identify novel pathogens, as described above. The translational utility of knowledge about the influence of host-viral relationships on the prognosis of myeloma, if they exist, transcends the need to prove causation. Therefore if viral sequences are found in RNA sequencing data, future plans will include comparison of our data to published prognosis-related gene expression signatures in myeloma. Disclosures: No relevant conflicts of interest to declare.",
-    "topics": [
-        "multiple myeloma",
-        "pathogenic organism",
-        "neoplasms",
-        "dna",
-        "gene expression profiling",
-        "infections",
-        "sequence analysis, rna",
-        "antibodies",
-        "cancer",
-        "nucleotides"
-    ],
-    "author_names": [
-        "Akinyemi I. Ojesina, MBBS, PhD",
-        "Chandra Sekhar Pedamallu, PhD",
-        "Aleksandar Kostic, PhD",
-        "Joonil Jung, PhD",
-        "Daniel Auclair, PhD",
-        "Jens Lohr, MD, PhD",
-        "John Carpten, PhD",
-        "Gad Getz, Ph.D.",
-        "Jonathan J Keats, PhD",
-        "Matthew Meyerson, MD, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Broad Institute, Cambridge, MA, USA, "
-        ],
-        [
-            "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA, "
-        ],
-        [
-            "Broad Institute, Cambridge, MA, USA, "
-        ],
-        [
-            "Broad Institute, Cambridge, MA, USA, "
-        ],
-        [
-            "Multiple Myeloma Research Foundation, Norwalk, CT, USA, "
-        ],
-        [
-            "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, USA, "
-        ],
-        [
-            "Integrative Cancer Genomics, Translational Genomics Research Institute, Phoenix, AZ, USA, "
-        ],
-        [
-            "Department of Pathology, Massachusetts General Hospital, Boston, MA, USA, "
-        ],
-        [
-            "Integrated Cancer Genomics, Translational Genomics Research Institute, Phoenix, AZ, USA"
-        ],
-        [
-            "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA, "
-        ]
-    ],
-    "first_author_latitude": "42.362965100000004",
-    "first_author_longitude": "-71.0887548"
+    "url": "https://ashpublications.org/blood/article/122/21/5322/13113/High-Throughput-Sequencing-Based-Pathogen?searchresult=1",
+    "datetime_link_obtained": "2022-04-26T08:47:12",
+    "is_scraped": "0"
 }
