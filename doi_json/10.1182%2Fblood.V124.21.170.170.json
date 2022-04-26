@@ -1,74 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2688",
+    "start_url_page_num": "2688",
     "doi": "https://doi.org/10.1182/blood.V124.21.170.170",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2688",
-    "start_url_page_num": 2688,
-    "is_scraped": "1",
-    "article_title": "Transcriptome Profiling of Lenalidomide Treated Myeloma Patients Identifies an Interferon Signature Gene Response and a Novel IRF4/MYC Independent Mechanism of Resistance ",
-    "article_date": "December 6, 2014",
-    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Mechanisms of Drug Resistance and Genomic Instability in Myeloma",
-    "topics": [
-        "genes",
-        "human leukocyte interferon",
-        "interferons",
-        "lenalidomide",
-        "multiple myeloma",
-        "phosphotransferases",
-        "atypical",
-        "cytotoxicity",
-        "i-kappa b proteins",
-        "nlr family, pyrin domain-containing 3 protein"
-    ],
-    "author_names": [
-        "Paola E. Neri, MD PhD",
-        "Ines Tagoug, PhD",
-        "Li Ren, PhD",
-        "Ranjan Maity, PhD",
-        "Justin Simms",
-        "Peter Duggan, MD",
-        "Victor H Jimenez-Zepeda, MD",
-        "Jiri Slaby, MD",
-        "Howie Wu",
-        "Jackie Babich",
-        "Nizar J Bahlis, MD"
-    ],
-    "author_affiliations": [
-        [
-            "Southern Alberta Cancer Research Institute, Calgary, Canada ",
-            "Division of Hematology, Calgary, Canada"
-        ],
-        [
-            "Southern Alberta Cancer Research Institute, Calgary, Canada "
-        ],
-        [
-            "Southern Alberta Cancer Research Institute, Calgary, Canada "
-        ],
-        [
-            "Southern Alberta Cancer Research Institute, Calgary, Canada "
-        ],
-        [
-            "Southern Alberta Cancer Research Institute, Calgary, Canada "
-        ],
-        [
-            "Division of Hematology, Calgary, Canada"
-        ],
-        [
-            "Division of Hematology, Calgary, Canada"
-        ],
-        [
-            "Division of Hematology, Calgary, Canada"
-        ],
-        [
-            "Southern Alberta Cancer Research Institute, Calgary, Canada "
-        ],
-        [
-            "Southern Alberta Cancer Research Institute, Calgary, Canada "
-        ],
-        [
-            "Southern Alberta Cancer Research Institute, Calgary, Canada ",
-            "Division of Hematology, Calgary, Canada"
-        ]
-    ],
-    "first_author_latitude": "51.066468799999996",
-    "first_author_longitude": "-114.1361524",
-    "abstract_text": "Background: Immunomodulatory (IMiDs) drugs are now recognized as modifiers of the degrons targeted by the CLR4-CRBN E3 ligase. Lenalidomide binding to CRBN promotes the proteasomal degradation to the B cell specific zinc finger transcription factors Ikaros (IKZF1) and Aiolos (IKZF3) and the transcriptional repression of IRF4 and MYC. Loss of CRBN thalidomide binding domain as well as the expression of mutants IKZF1 Q146H or IKZF3 Q147H confer resistance to IMiDs in vitro; however these events are rare in primary MM cells. In addition over-expression of IRF4 only partially protects MM cells from the anti-proliferative effects of IMiDs suggesting that a yet unidentified Aiolos dependent mechanism(s) regulate IMiDs sensitivity. Methods and Results: In order to identify novel mechanisms of resistance to IMiDs we profiled the transcriptome of IMiDs treated patients (sensitive and resistant), MM cell line (MM1S) exposed to lenalidomide and Aiolos silenced MM cells (OPM2). In primary samples, RNA-seq analysis was performed on paired CD138 selected cells sequentially collected from patients\u2019 BM prior to lenalidomide treatment initiation (n=15) and at the time of acquired resistance (n=12) or ongoing response to therapy (n=3). Transcriptome sequence data was generated on the Ion Torrent Proton platform with a minimum of 70x10 6 reads per sample. Filtered Fastq files were mapped with the TopHat2 splice aligner against hg19. DESeq2 was used to detect differentially expressed (DE) genes. Amongst lenalidomide sensitive patients a total of 870 genes were identified as differentially expressed (FDR <0.1) between the pre- and post-lenalidomide paired samples. Functional annotation of these DE genes using DAVID revealed enrichment of genes involved in immune mediated responses (Gene-Ontology). Of interest interferon \u03b3 (IFN\u03b3) was upregulated 3.3 fold in the post-lenalidomide sensitive cohort and 20.4% of the DE genes are type I and II interferon regulated genes (Interferome v2.01). A similar Interferon type of response was also observed in MM1S (Len-sensitive MM cell line) and post Aiolos knockdown of OPM2 cells but not in the lenalidomide resistant cohort. Notably, while several genes that are required for the induction of an interferon response (IL1\u03b1, IL1\u03b2, TBK1, NLRP3) were upregulated post-lenalidomide in the sensitive cohort, they were downregulated in resistant patients. Of particular interest, two genes that play a key role in modulating IFN response were differentially expressed in the Len resistant cohort: 1) NLRP4 a member of the nucleotide-binding oligomerization domain (NOD)-like receptors (NLRs) was significantly upregulated in lenalidomide resistant patients. NLRP4 negatively regulates type I IFN signaling by targeting the kinase TBK1 for proteasomal degradation and is also recognized to suppress autophagy through Beclin1; 2) NFKBIZ (IkB\u03b6), an atypical IkB kinase required for the induction of IFN response was significantly reduced in lenalidomide-resistant patients. Validation of this lenalidomide induced IFN response was carried out in vitro in MM cells exposed to lenalidomide 10 \u03bcM for 24 and 72 hours. A significant increase in IFN stimulated genes (ISGs) such as XAF1, DDX58, IFIT3 was observed following lenalidomide treatment. Similar changes were observed in Aiolos knockdown MM cells. Functionally, silencing of NFKBIZ (through lentiviral shRNA or transient siRNA expression) in MM1S cells resulted in 30% reduction in lenalidomide induced cell death and supressed p21 upregulation but had no effect on the downregulation Aiolos, IRF4 and MYC. Similarly stable overexpression of NLRP4 in MM cells, conferred resistance to lenalidomide. Conclusions: Through comparative transcriptome profiling of lenalidomide resistance and sensitive patients we have identified an Aiolos-dependent induction of interferon stimulated genes as a novel mechanisms of IMiDs mediated cytotoxicity and identified NLRP4 and NFKBIZ as potential mediators of IMiDs resistance. Disclosures Bahlis: Celgene: Honoraria, Research Funding."
+    "url": "https://ashpublications.org/blood/article/124/21/170/88641/Transcriptome-Profiling-of-Lenalidomide-Treated?searchresult=1",
+    "datetime_link_obtained": "2022-04-26T11:39:11",
+    "is_scraped": "0"
 }
