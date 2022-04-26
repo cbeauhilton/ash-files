@@ -1,61 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2712",
+    "start_url_page_num": "2712",
     "doi": "https://doi.org/10.1182/blood.V124.21.4143.4143",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2712",
-    "start_url_page_num": 2712,
-    "is_scraped": "1",
-    "article_title": "Massive Parallel Sequencing of Full-Length B-Cell Receptor Sequences Reveals HLA-Dependent Shaping of the B-Cell Immune Repertoire ",
-    "article_date": "December 6, 2014",
-    "session_type": "203. Lymphocytes, Lymphocyte Activation and Immunodeficiency, including HIV and Other Infections: Poster III",
-    "topics": [
-        "b-lymphocytes",
-        "human leukocyte antigens",
-        "receptors, antigen, b-cell",
-        "peptides",
-        "dna, complementary",
-        "molecule",
-        "polymerase chain reaction",
-        "follicular lymphoma",
-        "amino acids",
-        "autoimmune diseases"
-    ],
-    "author_names": [
-        "Marvyn T. Koning",
-        "Sander A.J. van der Zeeuw",
-        "Marcelo Navarrete, MD",
-        "Cornelis A.M. van Bergen",
-        "Valeri Nteleah, MSc",
-        "Marieke Griffioen, PhD",
-        "Szymon M. Kie\u0142basa, PhD",
-        "Hendrik Veelken, MDPhD"
-    ],
-    "author_affiliations": [
-        [
-            "Leiden University Medical Center, Leiden, Netherlands "
-        ],
-        [
-            "Leiden University Medical Center, Leiden, Netherlands "
-        ],
-        [
-            "Leiden University Medical Center, Leiden, Netherlands ",
-            "University of Magallanes, Punta Arenas, Chile "
-        ],
-        [
-            "Leiden University Medical Center, Leiden, Netherlands "
-        ],
-        [
-            "Leiden University Medical Center, Leiden, Netherlands "
-        ],
-        [
-            "Leiden University Medical Center, Leiden, Netherlands "
-        ],
-        [
-            "Leiden University Medical Center, Leiden, Netherlands"
-        ],
-        [
-            "Leiden University Medical Center, Leiden, Netherlands "
-        ]
-    ],
-    "first_author_latitude": "52.166031499999995",
-    "first_author_longitude": "4.4785036",
-    "abstract_text": "Peptides of the B-cell receptor (BCR) may be presented in HLA molecules and therefore be recognized as epitopes by T cells. Bioinformatic evidence indicates that follicular lymphoma cells are selected against expression of a clonal BCR with a high cumulative predicted binding of BCR-derived peptides to the respective patient's HLA complex (Strothmeyer, Blood 2010). This observation suggests T-cell-mediated immunosurveillance against outgrowth of follicular lymphoma cells according to BCR HLA binding strength. Here, we investigate whether this phenomenon pertains to peripheral B cells in 6 healthy donors: 2 donors homozygous for HLA A01*01 / B08*01, 2 homozygous for HLA A02*01 / B7*02, and 2 donors heterozygous for these alleles. Unbiased representation of full-length V(D)J sequences was considered essential for correct data interpretation. PCR primers annealing to conserved motifs of BCR variable regions (e.g. BIOMED-2 protocol) fail to amplify a fraction of BCR, particularly those modified by somatic hypermutation. Therefore, we developed an improved anchored PCR strategy: cDNA was synthesized from poly(A)-RNA from peripheral blood with primers that anneal to specific Ig constant regions. In the same reaction, the 3' cDNA end is extended by switching to an oligonucleotide template containing an anchor sequence (SMART technology; Clontech). Anchor-tagged cDNA was amplified with a primer annealing to the anchor in combination with a nested constant region-specific reverse primer. Dumbbell adapters were added to the termini of 250 ng of purified PCR products. Circular consensus sequencing of single molecules was performed on the PacBio platform (Pacific Biosciences). Using one SMRT PacBio cell per amplicon, separate sequence libraries were created for \u03bc, \u03b3, \u03ba, and \u03bb BCR transcripts. Sequences covered by at least five reads were selected with SMRT Portal software to obtain >95% of sequences without sequence errors as demonstrated on multiple B-cell lines. Selected sequences were analysed by HighV-QUEST software (Alamyar, Immunome Research 2012). After exclusion of non-BCR sequences and duplicate BCR transcripts, a median of 5318 (range: 670-8752) individual BCR sequences was obtained per library. Binding affinity of nonamers in in-silico-translated BCR were calculated for the 4 HLA alleles by the NetMHC 3.4 algorithm. The fractions of BCR lacking any weak HLA binding peptide (NetMHC IC50 <500nM) within a library were compared between donors positive or negative for any HLA molecule. \u03bc VDJ transcripts without HLA binding peptides were significantly more frequent for all HLA alleles in donors that actually express that particular allele (Table). With the exception of HLA A01*01, similar results were observed for \u03b3 transcripts. While the fraction of \u03ba VJ transcripts without an HLA binder was overall higher in HLA A01*01 and B08*01, HLA-positive individuals had higher proportions of non-HLA binding sequences. \u03bb transcripts were less likely to contain HLA binders with respect to HLA B07*02 and B08*01 but not to the HLA A alleles. Analogous analyses were performed for CDR3 regions as annotated by HighV-QUEST plus six amino acids on either flank. In 10 of 16 analyses, CDR3 sequences were less likely to contain an HLA binder in HLA-positive individuals; in three analyses an opposite effect was seen (Table). These results indicate that the peripheral BCR repertoire is shaped by HLA alleles in healthy individuals, most likely by T-cell mediated recognition of BCR peptides. Ongoing studies expand this fundamental finding with respect to the IC50 threshold, the number of nonamers, and additional HLA alleles. Our results warrant investigation of the potential role of HLA-dependent shaping of the BCR repertoire for the immune defense and the development of autoimmune disease and B-cell lymphoma. Table 1  . V(D)J without HLA binding peptide . CDR3 without HLA binding peptide . HLA Donor \u03bc \u03b3 \u03ba \u03bb \u03bc \u03b3 \u039a \u03bb A01*01 Positive 21% 41% 61% 37% 87% 90% 98% 70% Negative 16% 42% 59% 38% 92% 92% 96% 65% P <0.001 n.s. <0.01 n.s. <0.001 n.s. <0.01 <0.001 A02*01 Positive 6% 4% 3% 32% 77% 77% 77% 70% Negative 4% 1% 2% 32% 75% 69% 78% 78% P <0.001 <0.001 <0.01 n.s. <0.01 <0.001 n.s. <0.001 B07*02 Positive 31% 13% 3% 13% 79% 73% 91% 96% Negative 27% 8% 2% 6% 79% 69% 90% 98% P <0.001 <0.01 <0.01 <0.001 n.s. <0.05 <0.05 <0.001 B08*01 Positive 30% 35% 64% 64% 89% 87% 92% 96% Negative 14% 28% 62% 61% 88% 82% 90% 93% P <0.001 <0.001 <0.01 <0.001 <0.01 <0.001 <0.01 <0.001 . V(D)J without HLA binding peptide . CDR3 without HLA binding peptide . HLA Donor \u03bc \u03b3 \u03ba \u03bb \u03bc \u03b3 \u039a \u03bb A01*01 Positive 21% 41% 61% 37% 87% 90% 98% 70% Negative 16% 42% 59% 38% 92% 92% 96% 65% P <0.001 n.s. <0.01 n.s. <0.001 n.s. <0.01 <0.001 A02*01 Positive 6% 4% 3% 32% 77% 77% 77% 70% Negative 4% 1% 2% 32% 75% 69% 78% 78% P <0.001 <0.001 <0.01 n.s. <0.01 <0.001 n.s. <0.001 B07*02 Positive 31% 13% 3% 13% 79% 73% 91% 96% Negative 27% 8% 2% 6% 79% 69% 90% 98% P <0.001 <0.01 <0.01 <0.001 n.s. <0.05 <0.05 <0.001 B08*01 Positive 30% 35% 64% 64% 89% 87% 92% 96% Negative 14% 28% 62% 61% 88% 82% 90% 93% P <0.001 <0.001 <0.01 <0.001 <0.01 <0.001 <0.01 <0.001 View Large Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/124/21/4143/91950/Massive-Parallel-Sequencing-of-Full-Length-B-Cell?searchresult=1",
+    "datetime_link_obtained": "2022-04-26T13:39:10",
+    "is_scraped": "0"
 }
