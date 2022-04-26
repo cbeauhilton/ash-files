@@ -1,46 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2530",
+    "start_url_page_num": "2530",
     "doi": "https://doi.org/10.1182/blood.V122.21.1914.1914",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2530",
-    "start_url_page_num": 2530,
-    "is_scraped": "1",
-    "article_title": "The Comprehensive Genomic Characterization Of All Commercially and Non-Commercially Available Multiple Myeloma Cell Lines ",
-    "article_date": "November 15, 2013",
-    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster I",
-    "topics": [
-        "cell lines",
-        "genome",
-        "multiple myeloma",
-        "amino acids",
-        "comparative genomic hybridization",
-        "protein p53",
-        "rna, messenger",
-        "myeloma cells"
-    ],
-    "author_names": [
-        "Venkata D Yellapantula",
-        "Kristi Allen, BS",
-        "Diane F. Jelinek, PhD",
-        "Leif Bergsagel, M.D.",
-        "Jonathan J. Keats, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Integrated Cancer Genomics, Translational Genomics Research Institute, Phoenix, AZ, USA, "
-        ],
-        [
-            "Integrated Cancer Genomics, Translational Genomics Research Institute, Phoenix, AZ, USA, "
-        ],
-        [
-            "Department of Immunology, Mayo Clinic, Rochester, MN, USA, "
-        ],
-        [
-            "Hematological Malignancies, Mayo Clinic Scottsdale, Scottsdale, AZ, USA"
-        ],
-        [
-            "Integrated Cancer Genomics, Translational Genomics Research Institute, Phoenix, AZ, USA, "
-        ]
-    ],
-    "first_author_latitude": "33.452984799999996",
-    "first_author_longitude": "-112.06723729999999",
-    "abstract_text": "Human myeloma cell lines (HMCL) provide both a discovery and validation platform to improve our understanding of the molecular pathogenesis of multiple myeloma. We have completed a project to characterize the underlying genetics of all commonly used HMCL with a primary goal of identifying appropriate model systems for findings from large scale patient studies like the multiple myeloma genomics initiative (MMGI). We first purchased all 37 commercially available HMCL from DSMZ, JCRB, ECACC, and ATCC. An additional, 32 non-commercial cell lines were obtained from Diane Jelinek and Leif Bergsagel. Subsequently each HMCL was thawed and cultured under strict parameters, which yielded cells for analysis, by comparative genomic hybridization, whole exome sequencing (Agilent SureSelect V4+UTR) and mRNA sequencing. The combination of these two assays provides a detailed map of the genetic complexity underlying this deadly disease. For variant discovery, alignment was done using BWA followed by realignment, quality recalibration and duplicate removal. High quality calls were identified using Mutect by requiring a minor allele frequency of 0.25 and a minimum depth of coverage of 10x. This identified a median of 81999 mutations per sample with 25 th and 75 th percentile values of 76621 and 87440 respectively. To identify likely somatic mutations, we filtered out variants found in dbSNP, 1000 genomes project and the NHLBI Exome Sequencing Project when any of the SNPs within each database had a global minor allele frequency of greater than 0.1%. In addition, we included only those variants in gene space defined by RefSeq or GENCODE and targeted by Agilent exome capture V4+UTR. After these filtering steps a median of 1389 putative somatic mutations remained. To identify key events responsible for mutagenesis, we extracted non-synonymous variants in genes, which show substantially expression in RNASeq(FPKM>5). This identified a median of 371 and 135 variants per sample respectively. Overall, across all the 66 samples, there were at total of 9074 non-synonymous mutations in 4453 genes, which are significantly expressed. To identify potential oncogenes we focused on mutations that occurred at the same position in the genome or altered the same amino acid in expressed genes. This identified 63 genes including KRAS(n=16) and NRAS(n=11) as expected but also BRD9, CCNE1 and MAP2K3. To identify putative tumor suppressors, we looked for genes with homozygous mutations or genes with more than one mutation in the same sample. This identified 112 genes including TP53, TRAF3, FAM46C and DIS3 as expected along with LTB and KDM6B. Independently, to attempt to identify genes involved in MM pathogenesis, genes with mutations having a SIFT score of less than 0.05 which occurred in at least 5%(n>3) of the cell-lines were identified. This identified 185 genes of which 25 are in our putative oncogene list and 37 are in the tumor suppressor list. These study results provide the myeloma community with the unique resource of a fully characterized series of models that can be used for laboratory-based tests. To increase the utility of the dataset to the community all these data are freely available at www.keatslab.org or by request. Disclosures: No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/122/21/1914/14622/The-Comprehensive-Genomic-Characterization-Of-All?searchresult=1",
+    "datetime_link_obtained": "2022-04-26T05:41:04",
+    "is_scraped": "0"
 }
