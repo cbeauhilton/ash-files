@@ -1,52 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2795",
+    "start_url_page_num": "2795",
     "doi": "https://doi.org/10.1182/blood.V124.21.1267.1267",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2795",
-    "start_url_page_num": 2795,
-    "is_scraped": "1",
-    "article_title": "Using Natural Language Processing to Determine Chemotherapeutic Regimens Administered within 30 Days Prior to Death in Acute Myelogenous Leukemia Patients ",
-    "article_date": "December 6, 2014",
-    "session_type": "902. Health Services and Outcomes Research \u2013 Malignant Diseases: Poster I",
-    "topics": [
-        "antineoplastic agents",
-        "chemotherapy regimen",
-        "gold standard",
-        "leukemia",
-        "leukemia, myelocytic, acute",
-        "natural language processing",
-        "palliative care",
-        "squamous cell carcinoma-related antigen",
-        "clinical research",
-        "computers"
-    ],
-    "author_names": [
-        "Hanahlyn M Park, BSN, MN(c)",
-        "Vicky Sandhu, MD MPH",
-        "Paul Fearn, MBA, PhDc)",
-        "Kathleen Shannon Dorcy, RN, MN, PhD",
-        "Elihu H. Estey, MD",
-        "Emily Silgard, MS"
-    ],
-    "author_affiliations": [
-        [
-            "Fred Hutchinson Cancer Research Center, Seattle, WA "
-        ],
-        [
-            "Fred Hutchinson Cancer Research Center, Seattle, WA "
-        ],
-        [
-            "Fred Hutchinson Cancer Research Center, Seattle, WA "
-        ],
-        [
-            "Fred Hutchinson Cancer Research Center, Seattle, WA "
-        ],
-        [
-            "University of Washington, Seattle, WA"
-        ],
-        [
-            "Fred Hutchinson Cancer Research Center, Seattle, WA "
-        ]
-    ],
-    "first_author_latitude": "47.626835199999995",
-    "first_author_longitude": "-122.3314659",
-    "abstract_text": "Background Clinical research in AML relies heavily on databases. Typically patients\u2019 medical records are examined manually with relevant data entered into the database. This process is slow and subject to human error. Natural Language Processing (NLP) is a technique used to build and train computer algorithms to automatically extract structured data elements from unstructured text. Although, we have not used NLP extensively, the potential exists to use NLP as a tool to ease the time and resource-intensive burden of manual data abstraction. Since many of the data elements needed for clinical and translational research, quality metrics, and operations and analytics, are the same throughout FHCRC/UW/SCCA, the biomedical informatics group at FHCRC has decided to invest in the creation of an enterprise wide NLP pipeline to improve the efficiency and quality of data extraction for researchers, clinicians, and administrators throughout FHCRC/UW/SCCA. Purpose For this pilot project, an NLP system was trained and tested against a manually curated dataset to determine whether chemotherapeutic regimens were administered within 30 days prior to death in AML patients. The first part of this project was to train the NLP system with a small sample of patients in order to build in rules and logic about how to find both a patient\u2019s date of death and the evidence of a completed chemotherapeutic agent. The second phase was to test the algorithm with unseen data from another set of patients and determine the system\u2019s overall performance in finding the patient\u2019s date of death and determining if they received chemotherapy within the preceding 30 days. Methods Inclusion criteria were the following: AML patients who came to FHCRC/SCCA/UWMC between 1/1/2010 to 12/31/2012, whose age \u2265 18 years, and who received chemotherapeutic agents within 30 days of death. Total sample size was 54 patients. Training sample was 24 patients and testing sample was 30 patients. In order to see the accuracy of the trained NLP system, manual and automatic extraction of data sets were compared. The performance of the system was evaluated in two ways: predicted value of a retrieved NLM identification (the number of correctly retrieved results out of all retrieved results) and sensitivity (the number of correctly retrieved results out of all possible correct results in the gold standard training and testing data). These two metrics will help determine if NLP can be a useful data extraction aid in order to expedite real time access to data analysis for improvement in outcomes for AML patients. Results For the training sample, the predictive value of a retrieved result by NLM of finding both the date of death and chemotherapeutic agents was 100%. The sensitivity of both date of death and chemotherapeutic agents was 92% in training sample. For the testing sample, the predicted value of a NLM identification was for finding date of death and chemotherapeutic agents was 96% while sensitivity of both date of death and chemotherapeutic agents was 73%. Limitations Sensitivity, in both training and testing populations, is primarily affected because of the ubiquitous problem of not having a concrete record of many patients\u2019 death. Often patients go back to local facilities for continuing care and are lost to follow-up. The precision of finding date of death in the testing sample was affected by one date of death that was pulled incorrectly from a clinic note due to an error in the NLP algorithm. The recall of finding chemotherapeutic agents in the testing sample was affected by the lack of recognition of a chemotherapeutic trial name that had not appeared in the training sample. Conclusion The results of this pilot give us a preliminary idea of the feasibility of the NLP algorithm to perform in the future. Although the trained NLP tool only recalled 70-80% of the two data elements (date of death, chemotherapeutic agents), this was primarily due to the absence of certain data elements in the electronic health record and the precision of the defined date elements was nearly perfect. With the given results, we conclude that NLP can be a useful tool for data extraction purposes which will potentially maximize the ability of the leukemia service to have earlier access to data relative to symptom management and disease response which will influence the development of new clinical pathways for the optimizing of care and possible improvement in outcomes for AML patients. Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/124/21/1267/88254/Using-Natural-Language-Processing-to-Determine?searchresult=1",
+    "datetime_link_obtained": "2022-04-26T16:31:08",
+    "is_scraped": "0"
 }

@@ -1,79 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2782",
+    "start_url_page_num": "2782",
     "doi": "https://doi.org/10.1182/blood.V124.21.1950.1950",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2782",
-    "start_url_page_num": 2782,
-    "is_scraped": "1",
-    "article_title": "High-Throughput T-Cell Receptor Gene Repertoire Profiling in Chronic Lymphocytic Leukemia Reveals a Molecular Signature of Antigen Selection ",
-    "article_date": "December 6, 2014",
-    "session_type": "641. CLL: Biology and Pathophysiology, excluding Therapy: Poster I",
-    "topics": [
-        "antigens",
-        "chronic b-cell leukemias",
-        "chronic lymphocytic leukemia",
-        "genes, t-cell receptor",
-        "massively-parallel genome sequencing",
-        "dna, complementary",
-        "polymerase chain reaction",
-        "amino acids",
-        "dideoxy chain termination dna sequencing",
-        "indolent"
-    ],
-    "author_names": [
-        "Anna Vardi",
-        "Evangelia Stalika",
-        "Athanasios Gkoufas",
-        "Maria Karypidou",
-        "Vasilis Bikos",
-        "Sarka Pospisilova",
-        "Achilles Anagnostopoulos",
-        "Nikolaos Maglaveras",
-        "Anastasia Hadzidimitriou",
-        "Ioanna Chouvarda",
-        "Kostas Stamatopoulos"
-    ],
-    "author_affiliations": [
-        [
-            "CERTH, Thessaloniki, Greece "
-        ],
-        [
-            "CERTH, Thessaloniki, Greece ",
-            "Aristotle University of Thessaloniki, Thessaloniki, Greece "
-        ],
-        [
-            "CERTH, Thessaloniki, Greece ",
-            "Aristotle University of Thessaloniki, Thessaloniki, Greece "
-        ],
-        [
-            "G. Papanicolaou Hospital, Thessaloniki, Greece "
-        ],
-        [
-            "Central European Institute of Technology, Masaryk University and University Hospital Brno, Brno, Czech Republic "
-        ],
-        [
-            "Central European Institute of Technology, Masaryk University and University Hospital Brno, Brno, Czech Republic "
-        ],
-        [
-            "G. Papanicolaou Hospital, Thessaloniki, Greece "
-        ],
-        [
-            "CERTH, Thessaloniki, Greece ",
-            "Aristotle University of Thessaloniki, Thessaloniki, Greece "
-        ],
-        [
-            "CERTH, Thessaloniki, Greece ",
-            "Uppsala University, Uppsala, Sweden "
-        ],
-        [
-            "CERTH, Thessaloniki, Greece ",
-            "Aristotle University of Thessaloniki, Thessaloniki, Greece "
-        ],
-        [
-            "CERTH, Thessaloniki, Greece ",
-            "G. Papanicolaou Hospital, Thessaloniki, Greece ",
-            "Uppsala University, Uppsala, Sweden"
-        ]
-    ],
-    "first_author_latitude": "40.56285475",
-    "first_author_longitude": "23.0095335",
-    "abstract_text": "The role of antigen(s) in shaping the T-cell repertoire in chronic lymphocytic leukemia (CLL) is largely unexplored, though highly relevant in light of the interactions of the CLL B cells with T cells, effectively inducing tolerance to the latter. Our recent classic subcloning/Sanger sequencing studies of the T-cell receptor beta chain (TRB) gene repertoire in CLL indicated repertoire restriction, pointing to antigenic selection. However, due to the inherent limitations of low-throughput analysis, definitive conclusions were not possible. Here, we sought to advance the analytical depth of our approach by employing high-throughput, next generation sequencing (NGS) for exploring the TRB gene repertoire in CLL. Our study included 9 untreated CLL cases assigned to two paradigmatic stereotyped subsets, namely clinically indolent subset #4 (n=7) and clinically aggressive subset #1 (n=2). RNA was isolated from peripheral blood mononuclear cells (n=7 cases) or purified CD4 + and CD8 + T cells (n=2, both subset #4). TRBV-TRBD-TRBJ gene rearrangements were amplified on cDNA according to the BIOMED2 protocol and were subjected to NGS (MiSeq Illumina Platform). The paired-end Illumina protocol allowed sequencing of the complementarity determining region 3 (CDR3) twice/read, thus increasing the accuracy of results. Still, considering the inherent limitations of PCR-based NGS, the experimental setup included many internal controls: (i) replicate samples of the same patient at the same timepoint; (ii) samples of the same patient at sequential time points (two-timepoint longitutinal analysis for 1 case); (iii) replicate cDNA samples for PCR amplification; and, (iv) analysis of a healthy individual. A bioinformatics pipeline was developed for raw NGS data processing, performing: (i) quality filtering of reads; (ii) merging of paired-end reads via local alignment; (iii) preparation of filtered-in fasta sequences for submission to the IMGT/HighV-QUEST tool; and, (iv) IMGT/HighV-QUEST metadata clustering, analysis and interpretation. Overall, 19 samples were analyzed, producing 7,920,136 TRBV-TRBD-TRBJ reads (median 359,957 reads/sample, median Q-score 38.3). Poor quality, incomplete, out-of-frame and unproductive rearrangements were filtered out (median 2.1% of reads/sample). For repertoire analyses, clonotypes (i.e. TRB rearrangements with identical TRBV gene usage and amino acid CDR3 sequence) rather than single rearrangement reads were considered, so as to avoid possible biases due to clonal expansion following antigenic stimulation (median 56194 distinct clonotypes/sample, 33619 singletons versus 13725 expanded). Among the 53 functional TRBV genes identified, the following 5 predominated: TRBV12-3/12-4 (7.5%), TRBV19 (6.1%), TRBV5-1 (5.2%), TRBV29-1 (4.9%) and TRBV27 (4.8%), collectively accounting for 28.5% of the TRBV repertoire. Comparison of the TRBV gene repertoire of CD8 + vs CD4 + cells in subset #4 CLL cases showed that TRBV19 was overrepresented in the CD4+ compartment (9.4% versus 6.9%, p<0.001). Comparison between subset #4 versus subset #1 cases revealed significant overrepresentation of TRBV12-3/12-4 in subset #4 (8.6% versus 4.1%, p<0.001). The TRB repertoire was significantly more oligoclonal in CLL compared to the healthy control (median frequency of the predominant clonotype: 7.3% versus 0.47%, respectively, p<0.001), and this skewing stemmed mainly from the CD8 + rather than the CD4 + compartment (median frequency of the predominant clonotype 10.7% versus 1.0%, respectively, p<0.001). Cluster analysis of all CLL cases identified 11281 different clonotypes (excluding singletons) shared by different patients and not present in the healthy control. Of these, 10670 and 12 were exclusively found in subset #4 and subset #1 cases, respectively. The longitudinal analysis of one case identified 14.6% of all expanded clonotypes persisting over time. Moreover, comparison of TRBV gene usage and clonotype repertoire among replicate samples revealed high reproducibility of results. Overall, our study provides large-scale, reproducible evidence of TR repertoire skewing and oligoclonality in CLL, mainly derived from the CD8 + T cell compartment, strongly supporting antigenic selection. The functional role of clonally expanded T cells remains to be elucidated. Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/124/21/1950/89899/High-Throughput-T-Cell-Receptor-Gene-Repertoire?searchresult=1",
+    "datetime_link_obtained": "2022-04-26T16:30:16",
+    "is_scraped": "0"
 }
