@@ -1,76 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2598",
+    "start_url_page_num": "2598",
     "doi": "https://doi.org/10.1182/blood.V122.21.1784.1784",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2598",
-    "start_url_page_num": 2598,
-    "is_scraped": "1",
-    "article_title": "Comparison Of Single Nucleotide Mutations (SNVs) and Copy Number Variants (CNVs) Detection In Formalin Fixed Paraffin Embedded (FFPE) and Paired Frozen Tumor Tissues Using Target Capture and Sequencing Approach ",
-    "article_date": "November 15, 2013",
-    "session_type": "622. Non-Hodgkin Lymphoma: Biology, excluding Therapy: Poster I",
-    "topics": [
-        "copy number polymorphism",
-        "formaldehyde",
-        "mutation",
-        "neoplasms",
-        "nucleotides",
-        "paraffin",
-        "massively-parallel genome sequencing",
-        "diffuse large b-cell lymphoma",
-        "formalin-fixed paraffin-embedded tissue specimen",
-        "lymphoma"
-    ],
-    "author_names": [
-        "Yan W Asmann, PhD",
-        "Vivekananda Sarangi, MS",
-        "Bruce W. Eckloff",
-        "Julie M Cunningham",
-        "Samantha J McDonough",
-        "Yeon K Lee",
-        "Eric D Wieben, PhD",
-        "Ahmet Dogan, MD, PhD",
-        "Andrew L. Feldman",
-        "Susan L Slager, PhD",
-        "James R Cerhan, MD, PhD",
-        "Anne J. Novak, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Health Sciences Research, Mayo Clinic, Jacksonville, FL, USA, "
-        ],
-        [
-            "Division of Biomedical Statistics and Informatics, Department of Health Sciences Research, Mayo Clinic, Rochester, MN, USA, "
-        ],
-        [
-            "Advanced Genomics Technology Center, Mayo Clinic, Rochester, MN, USA, "
-        ],
-        [
-            "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN, USA, "
-        ],
-        [
-            "Medical Genome Facility, Mayo Clinic, Rochester, MN, USA, "
-        ],
-        [
-            "Medical Genome Facility, Mayo Clinic, Rochester, MN, USA, "
-        ],
-        [
-            "Advanced Genomics Technology Center, Mayo Clinic, Rochester, MN, USA, "
-        ],
-        [
-            "Memorial Sloan Kettering Cancer Center, New York, NY, USA, "
-        ],
-        [
-            "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN, USA, "
-        ],
-        [
-            "Department of Health Sciences Research, Mayo Clinic, Rochester, MN, USA, "
-        ],
-        [
-            "Department of Health Sciences Research, Mayo Clinic, Rochester, MN, USA, "
-        ],
-        [
-            "Hematology, Mayo Clinic, Rochester, MN, USA"
-        ]
-    ],
-    "first_author_latitude": "44.02237889999999",
-    "first_author_longitude": "-92.4668056",
-    "abstract_text": "Background Next Generation sequencing (NGS) is a powerful tool to identify somatic mutations associated with tumor onset and drug response. While it is well suited for high quality fresh/frozen samples, NGS is not proven for FFPE tissue which is the most common type of clinical specimen. Since the nucleic acids can be readily extracted from FFPE samples for a variety of genomic analyses, a comparative mutational analysis of paired frozen and FFPE tissues is urgently needed. Our long term goal is to establish a lab protocol to detect mutations in FFPE tumors using a targeted capture and sequencing approach for genes of interest. This pilot study focuses on the comparison of FFPE and frozen samples to test the validity of using FFPE tissues in such application. Methods Gene Selection: 128 genes associated with known pathogenic mutations in lymphoma Sample Selection: 9 diffuse large B-cell lymphoma (DLBCL) cases with FFPE, frozen and germline samples, as well as 10 frozen normal lymphatic tissues as references for CNV detections Capture Probe Design: We targeted coding exons and UTR, as well as the evolutionarily conserved intronic regions. The capture probes were designed using the Agilent eArray tool. The titling density of the probes was set to 3 probes overlapping with every base in the target region to improve the capture efficiency in FFPE samples. The least stringent masking of the repeat regions was allowed to include regions with small repeats that are shorter than the length of the sequencing reads (100-bp). In addition, boosting parameters were picked to set various levels of probe replication in different regions in order to minimize the local coverage differences (e.g. between regions of different GC contents) Sequencing and Bioinformatics: The target capture and sequencing were performed by the Mayo Clinic Medical Genome Facility. The reads were mapped to Human Reference Genome Build 37 using Novalign, and SNVs were called using GATK. The CNVs were identified using an in-house developed algorithm, patternCNV. Results The designed probes covered 99.65937% of the target regions. We generated 2.2-6.7 Gbp of reads per sample, 57.4-71.5% of which were on target. This equalled an average coverage of 2100-6700 folds which is 10-30 times higher than the minimal coverage recommended by Agilent. Due to this high coverage, we observed duplicate reads that accounted for 7.7-73.5% of the total reads. When we analysed the data with and without the duplicated reads, the concordance of the called SNVs was between 84-93% out of 207-249 mutated positions per trio-sample. There were 7.8-8.9% and 1.1-2.2% unique SNVs per sample by excluding or including duplicate reads, respectively. The dis-concordances were mostly missed calls, where a SNV was observed in only 1 or 2 of the trio samples. The missed calls from frozen samples ranged from 0-10.4% compared to 1.4-10.4% from the FFPE tissues, with 0.88-2.4% more SNVs missed in FFPE. Further analyses showed that all of the missing calls came from the lack of or low coverage of the corresponding positions. There were also differences of the called SNVs between the trio samples. However, this was extremely rare. Only 2 out of the 9 trio samples at a total of 3 positions had disagreements in called SNVs between FFPE and frozen tissues, all due to the allelic imbalance where the percentage of reads supporting the alternative alleles were below 20%. Therefore, this dis-concordance can be removed by back-filling of the read-level information for each position. Unfortunately only 11.9-47.4% of the CNVs called in frozen tissues were identified in FFPE samples, due to the widely various coverage in FFPE samples. The consequent large noises of the log ratio values between the FFPEs and normal references significantly reduced the sensitivity for CNV calling. Conclusions This pilot study compared the performance of SNV and CNV detection in FFPE and paired frozen tissues using a target capture and sequencing approach. With a capture probe design strategized to benefit FFPE samples, we observed SNV detection rates in FFPE that were only slightly lower (0.88-2.4%) than those of frozen tissues due to poor coverage of some positions in FFPE samples. With a proper back-filling step, there was no dis-concordance of the called SNVs between FFPE and frozen samples. However, CNV detections in FFPE were more problematic due to the un-predictable regional coverage in FFPE samples. Disclosures: No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/122/21/1784/13378/Comparison-Of-Single-Nucleotide-Mutations-SNVs-and?searchresult=1",
+    "datetime_link_obtained": "2022-04-26T07:41:05",
+    "is_scraped": "0"
 }
