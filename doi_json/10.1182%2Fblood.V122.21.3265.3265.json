@@ -1,56 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2611",
+    "start_url_page_num": "2611",
     "doi": "https://doi.org/10.1182/blood.V122.21.3265.3265",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2611",
-    "start_url_page_num": 2611,
-    "is_scraped": "1",
-    "article_title": "Tumor Neoantigens Are Abundant Across Cancers ",
-    "article_date": "November 15, 2013",
-    "session_type": "703. Adoptive Immunotherapy: Poster II",
-    "topics": [
-        "cancer",
-        "neoplasms",
-        "human leukocyte antigens",
-        "hla serotyping",
-        "peptides",
-        "antigens",
-        "cancer vaccines",
-        "melanoma",
-        "chronic b-cell leukemias",
-        "chronic lymphocytic leukemia"
-    ],
-    "author_names": [
-        "Mohini Rajasagi, PhD",
-        "Sachet A. Shukla",
-        "Edward F. Fritsch",
-        "David DeLuca, PhD",
-        "Gad Getz, Ph.D.",
-        "Nir Hacohen, PhD",
-        "Catherine J. Wu, MD"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA, "
-        ],
-        [
-            "Cancer Vaccine Center, Dana-Farber Cancer Institute, Boston, MA, USA, "
-        ],
-        [
-            "Broad Institute of MIT and Harvard, Cambridge, MA, USA, "
-        ],
-        [
-            "Cancer Vaccine Center, Dana-Farber Cancer Institute, Boston, MA, USA, "
-        ],
-        [
-            "Department of Pathology, Massachusetts General Hospital, Boston, MA, USA, "
-        ],
-        [
-            "Department of Allergy, Immunology and Rheumatology, Massachusetts General Hospital, Boston, MA, USA"
-        ],
-        [
-            "Cancer Vaccine Center, Dana-Farber Cancer Institute, Boston, MA, USA, "
-        ]
-    ],
-    "first_author_latitude": "42.34322194999999",
-    "first_author_longitude": "-71.1275997",
-    "abstract_text": "Tumor neoantigens are a promising class of vaccine immunogens as they arise from gene alterations in tumor cells and are hence exquisitely tumor-specific. We recently reported the development of a pipeline that leverages massively parallel sequencing data with HLA-peptide binding predictions to identify candidate neoantigens. By applying this pipeline to cases of chronic lymphocytic leukemia (CLL) with known HLA typing, we described the prediction of personal tumor neoantigens against which long-lived memory T cell responses developed following remission-inducing therapy. Our pipeline thus provides a method for selecting neoantigens for developing future personalized tumor vaccines. In order to extend this approach beyond CLL, we sought to gain estimates of tumor neoantigen loads across cancers. We hypothesized that the numbers of neoantigens within cancers would be proportional to their mutation frequency. To examine this hypothesis, we turned to the extensive collections of whole-exome sequencing (WES) data that have been generated through recent large-scale cancer sequencing projects. In order to generate accurate estimates of personal tumor neoantigen loads, HLA typing information is required. While in theory this information should be directly extractable from WES, direct inference of HLA type from standard WES reads has not been previously possible due to suboptimal alignments against a standard reference genome arising from the highly polymorphic nature of the HLA region. We therefore developed a strategy to optimize alignment. Based on the IMGT database, we constructed a reference library of all known HLA alleles (6597 unique entries) and aligned WES reads containing one or more short sequence segments corresponding to any HLA allele against this reference using the Novoalign software. HLA alleles were then inferred through a model that enabled calculation of allele probabilities by taking into account the number and quality of reads aligned to each allele. Alleles with the highest probabilities were then identified as winners. We trained the algorithm on 8 CLL cases for which WES data and HLA typing (based on conventional molecular typing) were available, and established a performance accuracy of \u223c94% (45 of 48 alleles). This was further validated using a set of 133 Hap Map samples with known HLA typing, in which 94.61% (755 of 798) alleles were identified correctly at protein level resolution. We applied the HLA typing algorithm together with the neoantigen discovery pipeline across WES from 2488 cases collected from publicly available datasets of 13 diverse cancers. Mutation rates in solid tumor malignancies were consistently higher, in some cases by more than an order of magnitude, than the blood malignancies. For example, the high mutation rate tumor melanoma displayed a median of 300 (range, 34-4276) missense mutations per case, while renal cell carcinoma (RCC) had 41 (range, 10-101) and CLL had 16 (range, 0-75). The number of frame-shifting events (indels and termination read-throughs) was generally 10-fold or more lower in each tumor type than missense mutations and did not correlate with the number of missense mutations. As expected, the rate of predicted HLA binding peptides mirrored the somatic mutation rate per tumor type. The median number of predicted class I HLA-binding neopeptides (with IC50 < 500 nM) per sample generated from missense and frameshift events for melanoma was 488 (range: 18-5811), for RCC, 80 (range: 6-407), and for CLL 24 (range 2-124). Overall, we found an average of 1.5 HLA-binding peptides (i.e. with IC50<500nM) was generated per missense mutation and 4 binding peptides per frameshift mutation. By predicting tumor neoantigens in a variety of low and high mutation rate cancers, we established that dozens to hundreds of potential neoantigens are present in most tumors. In the process, we developed a highly accurate analytic approach that provides a solution for extracting HLA typing information from WES data but which could, in principle, be applied to other highly polymorphic regions of the genome. Ongoing studies focus on integrating estimates of tumor neoantigen load with understanding of HLA expression in order to optimize selection of antigen targets to build future personalized tumor vaccines. Disclosures: No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/122/21/3265/13029/Tumor-Neoantigens-Are-Abundant-Across-Cancers?searchresult=1",
+    "datetime_link_obtained": "2022-04-26T08:26:42",
+    "is_scraped": "0"
 }
