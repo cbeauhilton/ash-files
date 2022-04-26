@@ -1,80 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2914",
+    "start_url_page_num": "2914",
     "doi": "https://doi.org/10.1182/blood.V124.21.612.612",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2897",
-    "start_url_page_num": 2897,
-    "is_scraped": "1",
-    "article_title": "Deciphering the Epigenetic Landscape of Relapsed Pediatric Acute Lymphoblastic Leukemia ",
-    "article_date": "December 6, 2014",
-    "session_type": "602. Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation: Epigenetics of Hematopoiesis and Leukemia",
-    "topics": [
-        "epigenetics",
-        "recurrent childhood acute lymphoblastic leukemia",
-        "histones",
-        "bone marrow specimen",
-        "burrow",
-        "cd34 antigens",
-        "chemosensitivity",
-        "cryopreservation",
-        "forkhead box protein m1",
-        "immunoprecipitation"
-    ],
-    "author_names": [
-        "Teena Bhatla, MD",
-        "Roy Blum, PhD",
-        "Jinhua Wang, PhD",
-        "Courtney L Jones, PhD",
-        "Debra J. Morrison, PhD",
-        "Elizabeth A Raetz, MD",
-        "Michael J. Burke, MD",
-        "Patrick Brown, MD",
-        "Richard C. Harvey, PhD",
-        "Cheryl L. Willman, MD",
-        "Mignon Loh, MD",
-        "Stephen P. Hunger, MD",
-        "William L. Carroll, MD"
-    ],
-    "author_affiliations": [
-        [
-            "New York University Medical Center, New York, NY "
-        ],
-        [
-            "New York University Medical Center, New York, NY "
-        ],
-        [
-            "New York University, New York, NY "
-        ],
-        [
-            "New York University Medical Center, New York, NY "
-        ],
-        [
-            "New York University, New York, NY "
-        ],
-        [
-            "Primary Children's Hospital, Salt Lake City, UT "
-        ],
-        [
-            "Medical College of Wisconsin, Milwaukee, WI "
-        ],
-        [
-            "Johns Hopkins University School of Medicine, Baltimore, MD "
-        ],
-        [
-            "University of New Mexico Cancer Center, Albuquerque, NM "
-        ],
-        [
-            "University of New Mexico, Albuquerque, NM "
-        ],
-        [
-            "Dept of Pediatric Hematology/Oncology, San Francisco, CA "
-        ],
-        [
-            "Univ. of Colorado School of Medicine, Aurora, CO "
-        ],
-        [
-            "New York University Langone Medical Center, New York, NY"
-        ]
-    ],
-    "first_author_latitude": "40.74418415",
-    "first_author_longitude": "-73.98217315",
-    "abstract_text": "Introduction: Given the dismal outcome of relapsed pediatric ALL, there is an urgent need to identify underlying drug resistance mechanisms. We have previously discovered that chemosensitivity can be restored by epigenetic reprogramming (Bhatla et al, Blood 2012). Based on our prior work, we hypothesize that epigenetic changes play a major role in mediating chemoresistance and relapse in pediatric ALL. To develop a comprehensive map of relapse specific epigenetic alterations and to understand the impact of epigenetic alterations on the relapse specific gene expression signature, we have embarked on an unbiased genome-wide approach to map the location of key histone marks by chromatin immunoprecipitation sequencing (ChIP-seq) in diagnosis-relapse patient pairs with B-lymphoblastic leukemia . Methods: To date, we have performed ChIP-seq on 13 matched diagnosis/relapse cryopreserved bone marrow samples from patients enrolled on Children\u2019s Oncology Group protocols. We assessed histone marks associated with promoters (H3K4me3, H3K9ac), enhancers (H3K27Ac) and those which are rather widely distributed in euchromatin and heterochromatin (H3K9me3, H3K27me3). 51-cycle single-end sequencing was performed using the Illumina HiSeq2000 Analyzer. Reads were aligned to the Human reference genome (assembly hg19) using the Burrows-Wheeler Alignment tool (BWA, v0.7.7) and post-preocessed using Samtools (v0.1.18). Enriched binding sites (\u201cpeaks\u201d) were determined by the peak-calling algorithm, MACS2 (v2.0.10.20131216) using a q-value of 0.01 to define significance. Histone peak deposition on the promoters and enhancer regions were correlated with gene expression data from microarrays obtained from NCI\u2019s TARGET initiative (Therapeutically Applicable Research to Generate Effective Treatment) on the same patients. Promoter regions were defined as 3 kb upstream and downstream of Transcription Start Site (TSS). Super-enhancers were identified by executing the ROSE algorithm (Hnisz et al, Cell 2013). Results: Promoter and enhancer region analysis was carried out only on activating histone marks (H3K4me3, H3K9ac and H3K27Ac) due to their expected uniform and enriched deposition in these regions. We observed that approximately 50% of the genes exhibited transcriptional activation or repression with respective concordant gain or loss of activating histone marks in the majority of patients, while the regulation of rest of the genes seemed independent of histone modification. Next, we sought to determine the impact of histone modification from diagnosis to relapse on the gene expression signature previously established in a cohort of 49 diagnosis-relapse patient pairs (Hogan et al, Blood 2011). Of 60 genes, 46 genes had one or more activating histone marks differentially deposited in the 6 kb promoter region in one or more of the patient samples analyzed and showed concordant expression. Furthermore, differentially up-regulated relapse specific genes such as FOXM1 , FANCD2 , PRMT7 , CENPM and PTBP1 showed concordant deposition of activating histone marks in approximately 50% of relapse samples. Likewise, 5 down-regulated genes including SMEK2 and FOXP1 had concordant loss of these marks in approximately 50% of relapse samples. In order to identify the compendium of distal regulatory enhancers that may govern transcription, we generated chromatin state maps based on the histone modification H3K27ac, which depicts active enhancers. This analysis suggested that the super-enhancers deposited adjacent to genes having higher expression at diagnosis relative to relapse (eg. JARID2 , TLE4 , ETS1 , EBF1 and CIITA ), are implicated in transcriptional regulation. Likewise, genes involved in DNA replication and repair such as PHB and TOP3B and those involved in immune regulation such as CD34 , IGLL1 and LMO2 were up-regulated with concordant gain of super-enhancers at the time of relapse. Conclusions : In a pilot ChIP-seq analysis of 13 ALL diagnosis/relapse pairs, we have identified several candidate genes, whose transcription appear to be epigenetically regulated and are markers of aggressive disease. Our study further implicates a potential use for epigenetic therapy for the treatment of relapsed ALL. Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/124/21/612/101187/Deciphering-the-Epigenetic-Landscape-of-Relapsed?searchresult=1",
+    "datetime_link_obtained": "2022-04-26T21:41:45",
+    "is_scraped": "0"
 }

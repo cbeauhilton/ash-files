@@ -1,68 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2912",
+    "start_url_page_num": "2912",
     "doi": "https://doi.org/10.1182/blood.V124.21.608.608",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2895",
-    "start_url_page_num": 2895,
-    "is_scraped": "1",
-    "article_title": "Whole-Genome Bisulfite Sequencing of Primary AML Cells with the DNMT3A R882H Mutation Identifies Regions of Focal Hypomethylation That Are Associated with Open Chromatin ",
-    "article_date": "December 6, 2014",
-    "session_type": "602. Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation: Epigenetics of Hematopoiesis and Leukemia",
-    "topics": [
-        "chromatin",
-        "dnmt3a gene",
-        "genome",
-        "hypomethylation",
-        "mutation",
-        "atac trial",
-        "rna",
-        "dna modification methylases",
-        "karyotype determination procedure",
-        "leukemia, myelocytic, acute"
-    ],
-    "author_names": [
-        "David H. Spencer, MDPhD",
-        "Bilal Al-Khalil",
-        "David Russler-Germain",
-        "Tamara Lamprecht",
-        "Nicole Havey",
-        "Robert S. Fulton",
-        "Michelle O'Laughlin, BS",
-        "Catrina Fronick",
-        "Richard K. Wilson, PhD",
-        "Timothy J. Ley, MD"
-    ],
-    "author_affiliations": [
-        [
-            "Washington University School of Medicine, Saint. Louis, MO "
-        ],
-        [
-            "Washington University School of Medicine, St. Louis, MO "
-        ],
-        [
-            "Washington University School of Medicine, Saint Louis, MO "
-        ],
-        [
-            "St Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "Washington University School of Medicine, St. Louis, MO "
-        ],
-        [
-            "Washington University School of Medicine, St. Louis, MO "
-        ],
-        [
-            "Washington University School of Medicine, St. Louis, MO "
-        ],
-        [
-            "Washington University School of Medicine, St. Louis, MO "
-        ],
-        [
-            "Washington University School of Medicine, Saint Louis, MO"
-        ],
-        [
-            "Washington University School of Medicine, St. Louis, MO "
-        ]
-    ],
-    "first_author_latitude": "38.63514409999999",
-    "first_author_longitude": "-90.26292889999999",
-    "abstract_text": "Mutations in the de novo DNA methyltransferase DNMT3A are found in ~25% of patients with acute myeloid leukemia (AML) and most commonly affect codon 882 within the catalytic domain of the protein. We have previously shown that this mutation has dominant negative activity in vitro and is associated with hypomethylation at specific CpG dinucleotides in primary AML samples using array-based methylation data. However, the genome-wide extent and patterns of DNA methylation associated with this hypomethylation are currently unknown. In addition, it is unclear if the methylation differences caused by this mutation result in RNA expression changes at specific targets across the genome, or whether they are associated with altered chromatin structure. To explore the genome-wide consequences of the DNMT3A R882H mutation on DNA methylation and chromatin structure, we carried out whole-genome bisulfite sequencing (WGBS) and transposase-mediated chromatin accessibility profiling (ATAC-seq) on 3 primary normal karyotype AML samples with the DNMT3A R882H mutation and 4 matched AML samples without a DNMT3A mutation. All 7 had the NPMc mutation but lacked mutations in other genes involved in DNA methylation, including IDH1 , IDH2 , and TET2 . WGBS produced methylation data on >93% of the CpGs in the human reference sequence with a median coverage of 7-13x. The overall mean methylation was not statistically different in the samples with R882H mutations, although there was a small but statistically significant difference in the methylation at CpGs in CpG islands ( DNMT3A R882H mean: 18.1%, DNMT3A wild-type mean: 21.4%; P=0.02). Differential methylation analysis was performed on ~5 million CpG clusters (median of 5 CpGs per cluster; median cluster size of 202 bp) and identified 95,845 differentially methylated clusters with a mean difference >25% and a q-value < 0.01, the majority of which (88,512; 93%) were hypomethylated in the DNMT3A R882H samples. Using more strict criteria (>50% mean difference) and merging differentially methylated clusters within 50 bp, we identified 2,782 differentially methylated regions (DMRs) with a mean size of 255 bp (median of 11 CpGs), of which 97% were hypomethylated. These DMRs were distributed across the genome and were statistically associated with CpG dense regions, including annotated CpG islands and shores (islands: 1,104 of 2,782; 29.9%; shores: 1,118 of 2,782; 30.3%; P<10 -10 ), and gene promoters (816 of 2,782; 23.7%; P< 10 -12 ). Analysis of chromatin accessibility data from 6 samples (3 DNMT3A R882H and 3 DNMT3A wild-type) showed that a subset of the DNMT3A R882H-associated hypomethylated DMRs (366 of 2,704; 13.5%) were located within 100 bp of an ATAC-seq peak unique to DNMT3A R882H AML samples. Further analysis of all DMRs showed ATAC-seq signal enrichment in the R882H samples specifically at hypomethylated loci ( Figure 1 ). Similar enrichment was not observed in the DNMT3A wild-type AMLs at hypomethylated DMRs (N=78), suggesting that hypomethylation caused by the DNMT3A R882H mutation is specifically associated with changes in chromatin structure. Initial analysis of existing PolyA+ RNA-seq data for these AMLs did not reveal canonical expression changes in annotated genes located near the DMRs, implying that methylation and other epigenetic changes might affect distant genes or previously unannotated RNA species that were not present in our dataset. Efforts to sequence all RNA species present in these samples are therefore underway. In summary, we have conducted an initial analysis of genome-wide, CpG-resolution DNA methylation data from primary AML samples with the DNMT3A R882H mutation. This mutation is associated with a genome-wide, focal hypomethylation phenotype that occurs at small, CpG-dense loci across the genome. We also found that many hypomethylated loci are associated with changes in chromatin structure. These findings represent the first evidence that the methylation changes caused by this mutation can have functional consequences on the epigenetic state of specific loci in AML cells, and set the stage for defining the specific events that are responsible for AML pathogenesis in patients who have this mutation. Figure 1 View large Download slide WGBS (bottom tracks) and chromatin accessibility (ATAC-seq, top tracks) from 3 primary AML samples with the DNMT3A R882H mutation (in red) and 3 with no DNMT3A mutation (in blue) at a hypomethylated locus within the HS3ST3B1 gene. Figure 1 View large Download slide WGBS (bottom tracks) and chromatin accessibility (ATAC-seq, top tracks) from 3 primary AML samples with the DNMT3A R882H mutation (in red) and 3 with no DNMT3A mutation (in blue) at a hypomethylated locus within the HS3ST3B1 gene.  Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/124/21/608/101148/Whole-Genome-Bisulfite-Sequencing-of-Primary-AML?searchresult=1",
+    "datetime_link_obtained": "2022-04-26T21:41:39",
+    "is_scraped": "0"
 }
