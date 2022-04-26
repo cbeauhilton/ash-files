@@ -1,52 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2636",
+    "start_url_page_num": "2636",
     "doi": "https://doi.org/10.1182/blood.V122.21.1382.1382",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2636",
-    "start_url_page_num": 2636,
-    "is_scraped": "1",
-    "article_title": "FLT3 Variant Detection In Cell Lines ",
-    "article_date": "November 15, 2013",
-    "session_type": "611. Leukemias: Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis: Poster I",
-    "topics": [
-        "cell lines",
-        "flt3 gene",
-        "ms-like tyrosine kinase 3",
-        "massively-parallel genome sequencing",
-        "impedance threshold device",
-        "calibration",
-        "cancer",
-        "electrophoresis",
-        "karyotype determination procedure",
-        "leukemia, myelocytic, acute"
-    ],
-    "author_names": [
-        "Andrew R Carson, PhD",
-        "Bradley A Patay, MD",
-        "Suzanne Graham, PhD",
-        "Ross Cubbon, M.S.",
-        "April A Osgood, M.S.",
-        "Jeffrey E Miller, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Genection, San Diego, CA, USA, "
-        ],
-        [
-            "Genection, San Diego, CA, USA, "
-        ],
-        [
-            "Genection, San Diego, CA, USA, "
-        ],
-        [
-            "LabPMM, San Diego, CA, USA, "
-        ],
-        [
-            "Invivoscribe, San Diego, CA, USA"
-        ],
-        [
-            "Genection, San Diego, CA, USA, "
-        ]
-    ],
-    "first_author_latitude": "32.864128",
-    "first_author_longitude": "-117.15270779999999",
-    "abstract_text": "Background Massive parallel sequencing (MPS) reveals many common drivers of cancer and spurs the broad development of targeted diagnostics and therapeutics. Precise characterization of immortalized fms-related tyrosine kinase 3 ( FLT3) mutant cell lines that arise spontaneously and cell lines engineered to incorporate recurrent driver mutations will be needed to assist in clinical diagnostic and therapeutic translation. Two major classes of variants in the FLT3 gene drive cytogenetically normal acute myeloid leukemia (AML): nonsynonymous somatic mutations, predominantly in the tyrosine kinase domain (TKD), and somatic internal tandem duplications (ITD) in and immediately adjacent to the juxtamembrane domain (JMD). While clinical laboratories utilizes PCR and electrophoresis-based product sizing to detect these mutations, this approach does not fully characterize their sequence content or the context of FLT3 mutations. Specifically, ITD mutations are intractable due to their high degree of variability in length (3 to over 300 basepairs), sequence, copy number, and the insertion position. Next-generation sequencing (NGS) offers the potential for deriving a fuller understanding of these mutations and their context; however, the performance of most NGS analysis tools for identifying, quantifying the mutant to wildtype allelic ratios, and assigning specific intragenic locations to these heterogeneous FLT3 ITD mutations is largely unknown. Methods We coupled targeted baiting assays from Nimblegen and Agilent with the Illumina MiSeq sequencing platform to deep sequence FLT3 in five mutation containing cell lines (MV4-11, MOLM-13, PL-21, IVS-0059, IVS-0062) and a FLT3 wild-type cell line (NALM-6). We used this strategy to examine the performance of commonly used NGS analysis tools in identifying FLT3 mutations, including ITDs of varying sizes. An optimized bioinformatic pipeline was developed that used BWA to align raw reads, followed by Picard and GATK to process the resulting aligned reads. These aligned reads were then analyzed by Pindel and GATK to detect FLT3 mutations in each cell line. Moreover, we developed a novel strategy that used an additional eight targeted short tandem repeats (STRs) across seven chromosomes to calibrate allele frequencies. To validate the copy numbers for this calibration, we also performed cytogenetics and fluorescence in situ hybridization (FISH) on each cell line. Results Using our custom target enrichment design, we were able to generate sequence reads covering all coding bases of FLT3 to a minimum read depth of 80x (average=2793x; median=1120x). This coverage and read depth was sufficient to detect all known FLT3 mutations in the five mutation containing cell lines while confirming the absence of these FLT3 mutations in the NALM-6 wild-type cell line. Also, we were able to confidently determine that no novel FLT3 mutations were present in any of these cell lines. In addition to identifying the known mutations, the employed sequencing strategy was also able to accurately characterize the size and sequence content of each mutation. These mutations include large ITD mutations of 126bp (PL-21) and 279bp (IVS-0062), as well as shorter insertions of 30bp (MV4-11) and 21bp (MOLM-13). As expected, all ITDs were identified as in-frame insertions within the JMD. Along with the more difficult ITD mutations, we were able to detect a somatic single nucleotide missense TKD mutation (c.2503G>A, p.D835N, COSMIC Mutation Id:789.) in the IVS-0059 cell line. For each mutation, the allelic frequency was calculated using read depths calibrated against known STRs across the genome. These STRs were confirmed to be biallelic in each cell line using cytogenetic and FISH analyses. Although these cytogenetic tests revealed complex karyotypes, such as additional copies of chromosome 13 in PL-21, FLT3 mutations could still be detected and their allele frequencies effectively calculated. Conclusions These data demonstrate FLT3 variants, including ITDs, can be reliably detected, characterized and quantified with next-generation sequencing assays using targeted, deep sequencing with an appropriate bioinformatic strategy. Disclosures: Carson: Genection: Consultancy. Patay: Genection: Consultancy, Equity Ownership. Graham: Genection: Employment. Osgood: Invivoscribe: Employment. Miller: Invivoscribe: Employment, Equity Ownership."
+    "url": "https://ashpublications.org/blood/article/122/21/1382/13799/FLT3-Variant-Detection-In-Cell-Lines?searchresult=1",
+    "datetime_link_obtained": "2022-04-26T09:21:41",
+    "is_scraped": "0"
 }
