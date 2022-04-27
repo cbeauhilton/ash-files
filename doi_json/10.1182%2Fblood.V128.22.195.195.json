@@ -1,67 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3298",
+    "start_url_page_num": "3298",
     "doi": "https://doi.org/10.1182/blood.V128.22.195.195",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3514",
-    "start_url_page_num": 3514,
-    "is_scraped": "1",
-    "article_title": "RNA-Seq De Novo Assembly of Clonal Immunoglobulin Rearrangements Identifies Interesting Biology and Uncovers Prognostic Features in Multiple Myeloma ",
-    "article_date": "December 2, 2016",
-    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Prognostic Factors",
-    "topics": [
-        "immunoglobulins",
-        "multiple myeloma",
-        "rna",
-        "antigens, cd98 light chains",
-        "cancer",
-        "follow-up",
-        "indolent",
-        "monoclonal immunoglobulin",
-        "basic local alignment search tool",
-        "b-lymphocytes"
-    ],
-    "author_names": [
-        "David Mosen-Ansorena, PhD",
-        "Rachael Bashford-Rogers, PhD",
-        "Niccolo Bolli, MD",
-        "Stephane Minvielle, PhD",
-        "Florence Magrangeas",
-        "Kenneth C Anderson, MD",
-        "Herve Avet-Loiseau, MD PhD",
-        "Giovanni Parmigiani, PhD",
-        "Nikhil C Munshi, MD"
-    ],
-    "author_affiliations": [
-        [
-            "Harvard School of Public Health, Boston, MA ",
-            "Biostatistics and Computational Biology, Dana-Farber Cancer Institute, Boston, MA "
-        ],
-        [
-            "Cambridge Institute for Medical Research, University of Cambridge, Cambridge, United Kingdom "
-        ],
-        [
-            "Department of Hematology, Fondazione IRCCS Istituto Nazionale dei Tumori, Milan, Italy ",
-            "Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
-        ],
-        [
-            "Unit\u00e9 Mixte de Genomique du Cancer, Centre Hospitalier Universitaire de Nantes, Nantes, France "
-        ],
-        [
-            "Unit\u00e9 Mixte de Genomique du Cancer, Centre Hospitalier Universitaire de Nantes, Nantes, France "
-        ],
-        [
-            "Dana-Farber Cancer Institute, Medical Oncology, Harvard Medical School, Boston, MA "
-        ],
-        [
-            "IUC-Oncopole, Unite de Genomique du Myelome, Toulouse, France "
-        ],
-        [
-            "Biostatistics and Computational Biology, Dana-Farber Cancer Institute, Boston, MA "
-        ],
-        [
-            "VA Boston Healthcare System, Boston, MA ",
-            "The Jerome Lipper Multiple Myeloma Center, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA"
-        ]
-    ],
-    "first_author_latitude": "42.335447200000004",
-    "first_author_longitude": "-71.10245259999999",
-    "abstract_text": "Introduction Although monoclonal immunoglobulin (Ig) production by myeloma cells is one of the central features of the disease, genotypic identification of the clonal Ig sequence remains understudied in multiple myeloma (MM). Here, using extensive RNA-seq data, we study molecular features of clonal Ig rearrangements, as well as their association with other MM markers and patient outcome. Methods We performed deep RNA-seq on purified CD138+ MM cells from 429 newly-diagnosed uniformly-treated patients with long clinical follow-up. For each sample, we performed de novo assembly using sequences that appeared in the library with a frequency of at least one in a million. Germline V and J genes were then BLASTed against the assembled contigs to determine the clonal germline genes and pinpoint mutations. Using the sequences reconstructed from the Ig contigs and the BLAST output, we ran IgBLAST to fully characterize the predominant Ig V(D)J sequence. Results We tested the accuracy of our approach by looking at 24 technical duplicates and one triplicate. In all cases, the predicted gene and gene allele were consistent across replicates. Next, we evaluated our large patient cohort, identifying IGHV3 as the most common clonal VH gene subgroup (53.3%), followed by IGHV4 (17.8%) and IGHV1 (15.6%). Importantly, we observed a significant association between poorer prognosis and IGHV3, both for progression-free survival (PFS) (p=0.0019) and overall survival (OS) (p=0.012). IGHV3-30 (11%, the most commonly rearranged VH gene) and IGHV3-9 (4.8%) were the drivers behind this poor prognosis (IGHV3-30: PFS p=0.021; OS p=0.013) (IGHV3-9: PFS p=0.002). IGHV3-30 was even more preferentially rearranged than in normal B-cell VH repertoires from previous studies (8.5%, 6.3%) and ours (2%). Remarkably, these results sharply contrast with what has been observed in CLL. In this malignancy, IGHV3-30 use has been seen to be underrepresented and usually characterizes an indolent clinical course, while IGHV3-21 and possibly IGHV3-23 carry poor prognosis. We predicted light chain usage through the presence of clonal VL sequences. The most frequent VL genes were from the \u03ba locus (69.4% total): IGKV1-33 (12.4%), IGKV1-5 (11.3%), IGKV3-20 (9.9%) and IGKV1-39 (8.0%). Del(22q) was observed more frequently in patients with IG\u03bb (OR=10.0, p=6e-15) and, within this group, del(22q) was more frequent if V\u03bb belonged to the more centromeric V-clusters C or B, in contrast to cluster A (OR=8.4, p=5e-4). Remarkably, patients with V\u03bb gene from cluster A presented worse OS (vs. Vk: p=0.0079; vs. V\u03bb B,C: p=0.067). The proportion of mutated bases was higher in the heavy chain than in the light chain (mean 7.0% vs. 4.8%, max 14.6% vs. 14.3%), and it was associated with OS (heavy p=0.0020, light p=0.036, both=0.0056), but not PFS. Interestingly, mutated Ig in CLL results in a more benign clinical course. We further found that 24.9% and 22.7% of the mutations lay within WRCY or RGYW AID motifs in the light and heavy chains respectively (enrichment p<1e-16), while AID mutations in a TW or WA context accounted for 22.9% and 25.7% (p=0.14, p=0.64). Higher ratios of mutations in WRCY vs. RGYW motifs within the light chain were highly predictive of poor prognosis (PFS p=0.0019, OS p=6.3e-4). Strikingly, IG\u03bb usage was linked to higher ratios (p=3e-6), an association not explained by germline sequence variability (p=0.24). The usage of IGHV3 genes and the AID WRCY/RGYW motif ratio were independent markers of each other (p=1) and of other markers of poor prognosis in MM, such as presence of either t(4;14) or del(17p) (IGHV3 p=0.10; motif ratio p=0.49). In conclusion, de novo Ig heavy and light chain assembly using RNA-seq identifies interesting biology, may provide MM markers and highlights a novel application of high-throughput genomics. Disclosures Anderson: OncoPep Inc.: Equity Ownership, Membership on an entity's Board of Directors or advisory committees. Avet-Loiseau: sanofi: Consultancy; celgene: Consultancy; amgen: Consultancy; janssen: Consultancy."
+    "url": "https://ashpublications.org/blood/article/128/22/195/100650/RNA-Seq-De-Novo-Assembly-of-Clonal-Immunoglobulin?searchresult=1",
+    "datetime_link_obtained": "2022-04-27T16:32:22",
+    "is_scraped": "0"
 }

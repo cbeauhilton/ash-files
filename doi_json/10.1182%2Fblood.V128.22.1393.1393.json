@@ -1,46 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3294",
+    "start_url_page_num": "3294",
     "doi": "https://doi.org/10.1182/blood.V128.22.1393.1393",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3294",
-    "start_url_page_num": 3294,
-    "is_scraped": "1",
-    "article_title": "The Genetic Analysis of Hemophilia a: The Application of Next-Generation Sequencing in the Analysis of Causative Variants Deep inside the Intron of the F8 Gene ",
-    "article_date": "December 2, 2016",
-    "session_type": "321. Blood Coagulation and Fibrinolytic Factors: Poster I",
-    "topics": [
-        "genes",
-        "genetic analysis",
-        "hemophilia a",
-        "introns",
-        "massively-parallel genome sequencing",
-        "gel",
-        "polymerase chain reaction",
-        "dna",
-        "nucleotides",
-        "blood products"
-    ],
-    "author_names": [
-        "Hiroshi Inaba, PhD",
-        "Keiko Shinozawa, PhD",
-        "Kagehiro Amano, MD PhD",
-        "Katsuyuki Fukutake, MD PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Laboratory Medicine, Tokyo Medical University, Tokyo, Japan "
-        ],
-        [
-            "Department of Molecular Genetics of Coagulation Disorders, Tokyo Medical University, Tokyo, Japan"
-        ],
-        [
-            "Department of Laboratory Medicine, Tokyo Medical University, Tokyo, Japan ",
-            "Department of Molecular Genetics of Coagulation Disorders, Tokyo Medical University, Tokyo, Japan"
-        ],
-        [
-            "Department of Laboratory Medicine, Tokyo Medical University, Tokyo, Japan ",
-            "Department of Molecular Genetics of Coagulation Disorders, Tokyo Medical University, Tokyo, Japan"
-        ]
-    ],
-    "first_author_latitude": "35.697520149999995",
-    "first_author_longitude": "139.73823065",
-    "abstract_text": "Introduction The identification of genetic defects in hemophilia A is essential to understanding the features of a patient's hemophilia. At present, 3 methods are generally applied in the standard analysis of the F8 gene in order to identify genetic defects: 1) direct sequencing is performed after the PCR amplification of the exons and the flanking intronic sequence to detect small defects; 2) long-range PCR amplification is performed to detect inversions; and 3) a multiplex ligation-probe amplification analysis (MLPA) is performed to detect gross rearrangements. However, a causative mutation cannot be found in approximately 2% of patients. Recently, several studies have reported the existence of a causative variant located deep inside an intron. We aimed to develop a whole F8 genetic analysis method using Next-Generation Sequencing (NGS) to investigate deep inside introns. Material & Methods Genomic DNA was extracted from patient peripheral blood cells, and the complete F8 locus was amplified in 14 overlapping regions (5-23 kb) by long-range PCR. In total, approximately 201kb (including the upstream and downstream regions of the F8) was amplified. The PCR fragments were purified using an illustra TM GFX TM PCR DNA and a Gel Band Purification Kit (GE Healthcare UK Ltd.), and were equimolarly mixed. The DNA library was prepared by fragmentation using a Nextera XT DNA sample preparation kit (Illumina Inc.). The paired-end adapter-ligated fragments of the pooled libraries were attached to the flow cell and sequenced using the amplicon sequencing application of the MiSeq software program (Illumina). The nucleotide sequences that were obtained were aligned to the GRCh37/hg19 coordinates of an F8 reference sequence using the Burrows-Wheeler Aligner (BWA). The variants were detected using the Genome Analysis Toolkit (GATK) and were annotated by the VariantStudio software program (Illumina). The Combined Annotation Dependent Depletion (CADD) score, which predicts the deleteriousness of single nucleotide variants as well as insertion/deletions variants in the human genome, was obtained from the CADD (ver. 1.3) website (http://cadd.gs.washington.edu/home). The study was approved by the Ethics Committee of Tokyo Medical University. Written informed consent was obtained from all patients, and studies were carried out in accordance with the principles of the Declaration of Helsinki. Results Forty-seven male hemophilia A patients were investigated, including 32 who had been analyzed previously. Of these, no causative mutation had previously been identified in two patients by standard analysis. Sequencing coverage was sufficiently high (>20 reads) to confirm the sequence, though it varied widely by region and analysis. However, a small part of intron 22, which differed in size (~1-2 kb) according to sample and analysis, showed very low coverage (0-20 reads). Our NGS analysis therefore allowed the identification of genetic variants in about 99% of F8. On average, 140 variants were detected in each patient. In the analysis of samples which had a previously identified causative mutation, single nucleotide variants (such as point mutations) were detected with high levels of accuracy. In contrast, structural variants (such as inversions and large duplications) could not be detected under present conditions. To identify rare and disease causative variants located deep within introns, we ruled out those variants registered in dbSNP, 1000 Genomes, COSMIC, and ClinVar databases. This left a total of 30 variants from 47 patients. The C-score of these variants obtained by CADD analysis ranged from 0.005 to 14.97. One of the two patients with unknown causative mutations carried a variant, c.144-10810T>C, in intron 1 with a C-score of 13.56. This score was sufficiently high and was suggested as the possible etiology of the patient's hemophilia A. Conclusion We established a comprehensive F8 analysis method using NGS. This technique was shown to be very effective for the detection of single nucleotide variants, though improvement was necessary for the detection of structural variants. Our study suggested that the existence of rare variants, which are likely to cause a hemophilia, deep inside the intron of F8, is not uncommon. Disclosures Inaba: Biogen: Honoraria; Bayer: Honoraria. Shinozawa: Pfizer: Honoraria; Bayer: Honoraria; Baxalta: Honoraria, Other: Endowed chair. Amano: Kaketsuken: Honoraria; Bayer: Honoraria, Membership on an entity's Board of Directors or advisory committees; Baxalta: Honoraria, Membership on an entity's Board of Directors or advisory committees; ViiV: Honoraria; Biogen: Honoraria; Novo: Honoraria, Membership on an entity's Board of Directors or advisory committees; Janssen: Honoraria. Fukutake: EPS: Research Funding; Siemens: Speakers Bureau; simic: Research Funding; Sekisui Medical: Consultancy, Honoraria, Speakers Bureau; Roche Diagnostics: Honoraria, Speakers Bureau; Biogen: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Abbott: Honoraria, Speakers Bureau; Kaketsuken: Honoraria; Japan Blood Products Organization: Honoraria, Research Funding; Torii: Speakers Bureau; Bayer: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; LSI Medience: Consultancy; SRL Inc: Consultancy; Pfizer: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Baxalta: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; Novo Nordisk: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; CSL Behring: Honoraria."
+    "url": "https://ashpublications.org/blood/article/128/22/1393/96106/The-Genetic-Analysis-of-Hemophilia-a-The?searchresult=1",
+    "datetime_link_obtained": "2022-04-27T16:32:08",
+    "is_scraped": "0"
 }
