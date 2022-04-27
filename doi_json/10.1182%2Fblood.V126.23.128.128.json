@@ -1,80 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3054",
+    "start_url_page_num": "3054",
     "doi": "https://doi.org/10.1182/blood.V126.23.128.128",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3029",
-    "start_url_page_num": 3029,
-    "is_scraped": "1",
-    "article_title": "Next Generation Sequencing Identifies a Distinct Transcriptional Profile, Including Isoform Dysregulation That Segue with Genomic Alterations in Waldenstrom's Macoglobulinemia ",
-    "article_date": "December 3, 2015",
-    "session_type": "622. Non-Hodgkin Lymphoma: Biology, excluding Therapy: Clinical Implications of Genomic Studies of B-cell Lymphomas",
-    "topics": [
-        "genome",
-        "massively-parallel genome sequencing",
-        "protein isoforms",
-        "transcription, genetic",
-        "cxcr4 receptors",
-        "cd19 antigens",
-        "antigens, cd27",
-        "bone marrow diseases",
-        "immunoglobulin m",
-        "protein p53"
-    ],
-    "author_names": [
-        "Zachary Hunter, PhD",
-        "Lian Xu",
-        "Guang Yang, PhD",
-        "Nicholas Tsakmaklis",
-        "Xia Liu, MD",
-        "Jie Chen, PhD",
-        "Robert R Manning",
-        "Jiaji Chen",
-        "Christopher J Patterson, MFA",
-        "Jorge J Castillo, MD",
-        "Kenneth C Anderson, MD",
-        "Nikhil C. Munshi, MD",
-        "Steven P Treon, MD PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Bing Center for WM, Dana Farber Cancer Institute, Boston, MA "
-        ],
-        [
-            "Bing Center for WM, Dana Farber Cancer Institute, Boston, MA "
-        ],
-        [
-            "Bing Center for WM, Dana Farber Cancer Institute, Boston, MA "
-        ],
-        [
-            "Bing Center for WM, Dana Farber Cancer Institute, Boston, MA "
-        ],
-        [
-            "Bing Center for WM, Dana Farber Cancer Institute, Boston, MA "
-        ],
-        [
-            "Bing Center for WM, Dana Farber Cancer Institute, Boston, MA "
-        ],
-        [
-            "Bing Center for WM, Dana Farber Cancer Institute, Boston, MA "
-        ],
-        [
-            "Bing Center for WM, Dana Farber Cancer Institute, Boston, MA "
-        ],
-        [
-            "Bing Center for WM, Dana Farber Cancer Institute, Boston, MA "
-        ],
-        [
-            "Division of Hematologic Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
-        ],
-        [
-            "Jerome Lipper Multiple Myeloma Center, Dana Farber Cancer Institute, Boston, MA"
-        ],
-        [
-            "Jerome Lipper Multiple Myeloma Center, Dana Farber Cancer Institute, Boston, MA"
-        ],
-        [
-            "Bing Center for WM, Dana Farber Cancer Institute, Boston, MA "
-        ]
-    ],
-    "first_author_latitude": "42.337502900000004",
-    "first_author_longitude": "-71.1081414",
-    "abstract_text": "Background: Whole genome sequencing has identified highly prevalent somatic mutations including MYD88, CXCR4 and ARID1A, as well as gene losses in Waldenstr\u00f6m's Macroglobulinemia (WM) (NEJM 367(9):826-33; Blood 123(11):1637-46). At least three genomic defined subpopulations of WM have been identified based on MYD88 and CXCR4 mutation status (Blood 123(18):2791-6).The regulatory impact for these genomic alterations remain to be clarified. Methods : Next generation transcriptome profiling was performed using Illumina HiSeq. RNA was isolated from CD19-selected bone marrow cells from 57 WM patients, as well as memory (CD19 + CD27 + ) and non-memory (CD19 + CD27 - ) B-cells from 9 healthy donors. Differential gene expression analysis was performed based on MYD88, CXCR4 and ARID1A mutation status, as well as common cytogenetic abnormalities encountered in WM including amplifications in chromosomes 3q, 4, 6p, and deletions in 6q. Reads were aligned to KnownGene HG19/GRCh37 reference using STAR. Read counts per gene were obtained using featureCounts from Rsubread, and analyzed using voom from the edgeR/limma Bioconductor packages in R. Differential isoform expression was assessed using the Cufflinks software suite. Functional enrichment analysis was conducted using Ingenuity Pathway Analysis. Results: Transcriptional profilingof WM cells showed a stronger correlation with healthy donor memory B-cells, their putative cell of origin. Differential gene expression analysis between WM patients and healthy donors generated a distinct transcriptional profile for WM that included dysregulation of PIM1, RGS7, IL11RA and EPHB4, as well as differential isoform usage in TP53, PRDM1 and XBP1. MYD88 mutated CXCR4 wild-type(WT) WM patients consistently over-expressed genes unique to this cohort including, IL17RB, GPER, WNT5A, WNK2, CABELS1, and PRDM5. MYD88 mutated patients who harbored nonsense (NS) or frame-shift (FS) mutations in CXCR4 showed functional enrichment of genes that indicated inhibition of Toll-like receptor inflammatory pathways. CXCR4 mutated patients showed strong up-regulation of CXCR7 and TSPAN33, and exhibited isoform level dysregulation of MEF2B, FOXO3, KDM2A and PRKAG2. Unsupervised clustering differentiated MYD88 mutated CXCR4 WT from MYD88 mutated CXCR4 NS/FS patients, while samples from MYD88 WT CXCR4 WT clustered with CXCR4 NS/FS group. Clusters based on clonality and disease burden were also observed ( Figure 1 ). CXCR4 NS/FS transcripts were preferentially expressed over CXCR4 WT transcripts despite the subclonal presence of CXCR4mutations. These findings were further validated by comparative DNA versus cDNA Sanger sequencing indicating allelic dysregulation within CXCR4 NS/FS subclones. Controlling for MYD88 and CXCR4 mutation status, the presence of ARID1A mutations and cytogenetic abnormalities generated distinct transcriptional profiles. Random forest regression analysis identified subsets of genes strongly associated with bone marrow disease involvement, serum IgM and hemoglobin levels. Notably, increased bone marrow disease burden was associated with increased CXCL13, and decreased TP53 and RBL1 expression. Likewise, higher levels of serum IgM corresponded with increased IL27RA expression. Conclusion: Using next generation sequencing, we have identified a distinct transcriptional profile, including isoform dysregulation that segue with highly prevalent genomic mutations in WM. The findings provide valuable insights into the molecular pathogenesis and clinical presentation of WM. Figure 1. View large Download slide Figure 1. View large Download slide  Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/126/23/128/104729/Next-Generation-Sequencing-Identifies-a-Distinct?searchresult=1",
+    "datetime_link_obtained": "2022-04-27T06:26:46",
+    "is_scraped": "0"
 }

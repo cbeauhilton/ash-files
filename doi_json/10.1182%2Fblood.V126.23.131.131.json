@@ -1,76 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3049",
+    "start_url_page_num": "3049",
     "doi": "https://doi.org/10.1182/blood.V126.23.131.131",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3024",
-    "start_url_page_num": 3024,
-    "is_scraped": "1",
-    "article_title": "Study of the Subclonal Mutations in Primary Diffuse Large B-Cell Lymphoma ",
-    "article_date": "December 3, 2015",
-    "session_type": "622. Non-Hodgkin Lymphoma: Biology, excluding Therapy: Clinical Implications of Genomic Studies of B-cell Lymphomas",
-    "topics": [
-        "diffuse large b-cell lymphoma",
-        "mutation",
-        "neoplasms",
-        "biological markers",
-        "burrow",
-        "cytidine deaminase",
-        "growth factor receptors",
-        "neoplasm dna",
-        "pharmacotherapy",
-        "tumor progression"
-    ],
-    "author_names": [
-        "Yan Asmann, PhD",
-        "Vivekananda Sarangi, MS",
-        "Chen Wang, PhD",
-        "Matthew J Maurer, MS",
-        "Stephen Ansell, MD PhD",
-        "Andrew L Feldman, MD",
-        "Grzegorz S. Nowakowski, MD",
-        "Thomas M. Habermann, MD",
-        "Anne J. Novak, PhD",
-        "Susan L. Slager, PhD",
-        "Brian K Link, MD",
-        "James Cerhan, MD PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Health Sciences Research, Mayo Clinic, Jacksonville, FL "
-        ],
-        [
-            "Department of Health Sciences Research, Mayo Clinic, Rochester, MN "
-        ],
-        [
-            "Department of Health Sciences Research, Mayo Clinic, Rochester, MN "
-        ],
-        [
-            "Department of Health Sciences Research, Mayo Clinic, Rochester, MN "
-        ],
-        [
-            "Mayo Clinic, Rochester, MN "
-        ],
-        [
-            "Mayo Clinic, Rochester, MN "
-        ],
-        [
-            "Division of Hematology, Mayo Clinic, Rochester, MN "
-        ],
-        [
-            "Division of Hematology, Mayo Clinic, Rochester, MN "
-        ],
-        [
-            "Division of Hematology, Mayo Clinic, Rochester, MN "
-        ],
-        [
-            "Department of Health Sciences Research, Mayo Clinic, Rochester, MN "
-        ],
-        [
-            "Division of Hematology, Oncology and Blood & Marrow Transplantation, University of Iowa Hospitals and Clinics, Iowa City, IA"
-        ],
-        [
-            "Department of Health Sciences Research, Mayo Clinic, Rochester, MN "
-        ]
-    ],
-    "first_author_latitude": "30.262279399999997",
-    "first_author_longitude": "-81.4432369",
-    "abstract_text": "Tumors arise and evolve by iterative steps of mutation, subclonal selection, and clonal expansion due to growth advantage of the fittest subclones and external mutation induction and selection pressure from radiation and drug therapies. Various studies have shown that greater clonal complexities in primary tumors are correlated with poor clinical outcome of tumor progression and/or drug resistance. Recently, we have reported that very few of the driver mutations, all of which were clonal, detected in primary diffuse large B-cell lymphoma (DLBCL) were associated with DLBCL outcome as measured by 24-month event-free survival (EFS24). In the current project, we identified and studied subclonal mutations in primary DLBCL tumors and assessed their associations with EFS24, as well as the role of activation-induced cytidine deaminase (AID) in genomic mutations occurred in DLBCL tumors. The detection of subclonal mutations is still a significant bioinformatics challenge. In addition, identification of clonal mutations in samples with lower tumor purities faces similar challenges due to the low concentration of reads supporting the mutant alleles. The current methods of somatic mutation calling are not sufficiently sensitive to identify the low concentration mutations in tumor DNA sequencing data. We implemented a bioinformatics workflow for low-concentration and subclonal mutation detection which is based on the positional read pile-up data and a back-fill approach (PUB). The pile-up files were first generated using the re-aligned and re-calibrated BAM files after read alignment using Burrows-Wheeler Aligner (BWA). The variant positions with alternative bases were annotated by attributes defined in the Variant Quality Score Recalibration (VQSR). PUB then used a boosting method and a generalized linear model (GLM) to train a model of 'good quality' variants using common variants from HapMap, and prioritized and called clonal and subclonal variants based on the trained model. The VQSR attributes related to alternative allele depth were less-weighed in order to call subclonal mutations. The somatic mutations were then identified by Fisher's Exact Test using sequencing depths of the reference and alternative alleles from paired tumor and germline sequencing data. The exome sequencing data of paired tumor and peripheral blood from 48 newly diagnosed DLBCL patients were analyzed using PUB. Thirty-six of the 48 patients achieved EFS24 with the other 12 patients experienced primary treatment failure. Most of the tumors studied had tumor purities between 40-70%. PUB identified substantially higher number of somatic mutations, both clonal and subclonal, compared to those detected using existing somatic callers. We observed that the prevalence of mutations in previously reported driver genes were higher using thresholds of mutation concentration \u2265 5% and Fisher's Exact Test p \u2264 0.05, including EZH2 (mutated in 26% of DLBCL tumors analyzed by PUB, compared to 12.7% as previously reported), MLL2 (72% vs. 31%), CD79B (22% vs. 14%), TNFRSF14 (36% vs. 20%), MEF2B (22% vs. 16.4%), CARD11 (46% vs. 21.8%), and MYD88 (18% vs. 11%). In addition, other genes involved tumorigenesis that have not been previously linked to DLBCL also harbored both clonal and subclonal mutations with substantial prevalence, including FGFR3 (12%), KIT (24%), and ATM (28%). Furthermore, association of genes displaying clonal and subclonal mutations with EFS24 identified potential biomarkers for DLBCL outcome. Among these, two genes EPGN and ASTE are involved in epithelial growth factor receptor signaling and had association p values of 0.0001 and 0.0016, respectively. The oncogene MAFB was also associated with EFS24 ( p = 0.0016). We searched for AID induced mutations among all identified variant positions and concluded that there was no evidence of AID site enrichments compared to a simulated data set. In summary, we developed and applied a sensitive bioinformatics pipeline for the identification of both clonal and low concentration somatic mutations in primary DLBCL exome sequencing data which further revealed the clonal complexity of the primary DLBCL tumors. Several of the genes were identified as potential biomarkers for DLBCL outcome. Disclosures Maurer: Kite Pharma: Research Funding. Ansell: Bristol-Myers Squibb: Research Funding; Celldex: Research Funding. Link: Genentech: Consultancy, Research Funding; Kite Pharma: Research Funding. Cerhan: Kite Pharma: Research Funding."
+    "url": "https://ashpublications.org/blood/article/126/23/131/104631/Study-of-the-Subclonal-Mutations-in-Primary?searchresult=1",
+    "datetime_link_obtained": "2022-04-27T06:26:28",
+    "is_scraped": "0"
 }
