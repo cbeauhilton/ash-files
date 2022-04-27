@@ -1,64 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3142",
+    "start_url_page_num": "3142",
     "doi": "https://doi.org/10.1182/blood.V126.23.2376.2376",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3117",
-    "start_url_page_num": 3117,
-    "is_scraped": "1",
-    "article_title": "A Mathematical Model of Hematopoietic Stem Cell Transplantation and Analysis of the Effect of Drug Treatments on Transplantation in Patients with Lymphoma ",
-    "article_date": "December 3, 2015",
-    "session_type": "501. Hematopoietic Stem and Progenitor Biology: Poster II",
-    "abstract_text": "Hematopoietic stem cells (HSCs) present in the bone marrow (BM) are primarily responsible for maintaining peripheral blood (PB) cell counts at a steady state. These hematopoietic progenitors are mobilized and used to support high dose therapy in patients with hematological malignancies. There is considerable variability in the HSC yield in patients and normal donors with standard mobilizing regimens. Understanding the quantitative principles at work in hematopoiesis will allow optimization of mobilizing regimens and eventual prediction of secondary hematopoietic malignancies. We created a mathematical model to account for the dynamics of HSCs in the bone marrow ( C ) and periphery ( P ) in addition to progenitor, committed, and peripheral blood platelets ( T ), neutrophils ( N ), lymphocytes ( L ), and erythrocytes ( R ). We explicitly model the egress of progenitor and committed cells from the BM compartment to the PB. In addition to these dynamics, we model the movement of CD34+ cells ( P ) from the bone marrow into the blood and the collection of CD34+ cells while on filgrastim. We also model transplantation of these collected cells in patients following myeloablative chemotherapy. We create the model with parameters that govern the rate at which the interactions between these cells occur, in addition to the variables defined previously, see Fig. 1 for equations. HSCs ( C ) and committed cells ( R c , N c , T c , and L c ) proliferate at rates s c , s rc , s nc , s tc , and s lc , respectively. All source rates are inhibited by the concentration of their cell type in the blood, using a 1/(1+X b /b xinf ). Each cell type decays at a rate determined by the \u03bc x . HSCs differentiate into each subsequent committed cell type at the rates k cx and these committed cells differentiate into the progenitors of blood cells ( R m , N m , T m , and L m ) in the BM at the rates k xm . Progenitor cells move into PB ( R b , N b , T b , and L b ) at the rates k xb . Each parameter for movement from the BM to PB is scaled by the local volume to properly account for changes in concentrations. We begin by determining biologically relevant parameter values that correspond to homeostasis values for known cell concentrations in a normal person. The values for the blood are fit to normal blood cell count values, for example 3-4 million cells/\u03bcL for R b . The range for P is broad (1-15 cells/\u03bcL) because there is variability in these levels in healthy individuals. Specific cell counts for the BM cells is not as well known, so we fit this compartment such that the dynamics and relative cell concentrations were reasonable and gave rise to correct concentrations in the PB, e.g. the ratio of R c : W c is about 1:5. Additionally, we treat this normal individual as a donor and simulate G-CSF treatment (which increases the rates of proliferation for C and N C and movement of CD34+ cells into the PB) and collection on this individual (black curve in Fig. 2). These results fit within the standard deviation bars for collection on each day from healthy donors. We then sample over a range parameter values to create a population of patients that have blood cell levels relevant to the disease and model collection for each of these individuals. Fig. 3 shows collection results from the simulated diseased population. A point is plotted for each patient at a s c versus k crc values and colored by their total collection count. Poor collectors (<5,000,000 CD34+ cells/kg) are indicated as dark dots. Most poor collectors are seen when both parameter values are normal or elevated. Determining what drives poor collection for each simulated patients gives insight into which types of patient may benefit from additional drug treatments such as Plerixafor. For patients that self donate or use donor cells, we also simulate transplantation of the stem cells. Mathematical modeling such as this is useful in making predictions about physiological processes and can potentially aid in making decisions. Building validated models can lead to predictions about how patient will respond to a treatment and adapting alternative treatment. View large Download slide View large Download slide View large Download slide View large Download slide View large Download slide View large Download slide Disclosures No relevant conflicts of interest to declare.",
-    "topics": [
-        "hematopoietic stem cell transplantation",
-        "lymphoma",
-        "mathematical model",
-        "transplantation",
-        "cancer",
-        "chemotherapy regimen",
-        "filgrastim",
-        "granulocyte colony-stimulating factor",
-        "hematologic neoplasms",
-        "plerixafor"
-    ],
-    "author_names": [
-        "Racheal L Cooper, MS",
-        "Allison F. Scalora, MS",
-        "Elaine Wang, MD",
-        "John M. McCarty, MD",
-        "Jennifer Anderson, RN",
-        "Catherine H. Roberts, PhD",
-        "Troy Lund, MD PhD",
-        "Amir A. Toor, MD",
-        "Angela Reynolds, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Mathematics and Applied Mathematics, Virginia Commonwealth University, Richmond, VA "
-        ],
-        [
-            "Massey Cancer Center Bone Marrow Transplant Program, Virginia Commonwealth University, Richmond, VA "
-        ],
-        [
-            "Massey Cancer Center Bone Marrow Transplant Program, Virginia Commonwealth University, Richmond, VA "
-        ],
-        [
-            "Massey Cancer Center Bone Marrow Transplant Program, Virginia Commonwealth University, Richmond, VA "
-        ],
-        [
-            "Massey Cancer Center Bone Marrow Transplant Program, Virginia Commonwealth University, Richmond, VA "
-        ],
-        [
-            "Massey Cancer Center Bone Marrow Transplant Program, Virginia Commonwealth University, Richmond, VA "
-        ],
-        [
-            "Division of Hematology, Oncology and Transplantation, University of Minnesota, Minneapolis, MN"
-        ],
-        [
-            "Massey Cancer Center Bone Marrow Transplant Program, Virginia Commonwealth University, Richmond, VA "
-        ],
-        [
-            "Department of Mathematics and Applied Mathematics, Virginia Commonwealth University, Richmond, VA "
-        ]
-    ],
-    "first_author_latitude": "37.5464147",
-    "first_author_longitude": "-77.4548149"
+    "url": "https://ashpublications.org/blood/article/126/23/2376/113053/A-Mathematical-Model-of-Hematopoietic-Stem-Cell?searchresult=1",
+    "datetime_link_obtained": "2022-04-27T09:21:47",
+    "is_scraped": "0"
 }

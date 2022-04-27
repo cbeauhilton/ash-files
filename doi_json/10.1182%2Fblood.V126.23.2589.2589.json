@@ -1,44 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3142",
+    "start_url_page_num": "3142",
     "doi": "https://doi.org/10.1182/blood.V126.23.2589.2589",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3117",
-    "start_url_page_num": 3117,
-    "is_scraped": "1",
-    "article_title": "Strengthening the Evidence of Relevant Somatic Mutations of Individual Patients By Pairing Sequencing Deduced Allelic Burden, Leukemic Blast Percent and Cluster Analysis ",
-    "article_date": "December 3, 2015",
-    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis: Poster II",
-    "topics": [
-        "basic local alignment search tool",
-        "cancer",
-        "clonality (genetic analysis)",
-        "disease remission",
-        "false-positive results",
-        "immunophenotyping",
-        "leukemia",
-        "massively-parallel genome sequencing",
-        "ms-like tyrosine kinase 3",
-        "mutation analysis"
-    ],
-    "author_names": [
-        "Marcus Celik Hansen, MSc in Biomedical Engineering",
-        "Sadudee Chotirat, MD",
-        "Chirayu Udomsakdi Auewarakul, MD PhD Professor",
-        "Peter Hokland, MDD.MDSci, Professor"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Hematology, Aarhus University Hospital, Aarhus, Denmark "
-        ],
-        [
-            "Leukemia Research Laboratory, Faculty of Medicine Siriraj Hospital, Mahidol University, Bangkok, Thailand "
-        ],
-        [
-            "Chulabhorn Cancer Centre and Faculty of Medicine, Siriraj Hospital, Mahidol University, Bangkok, Thailand"
-        ],
-        [
-            "Department of Hematology, Aarhus University Hospital, Aarhus, Denmark "
-        ]
-    ],
-    "first_author_latitude": "56.1920892",
-    "first_author_longitude": "10.1678923",
-    "abstract_text": "Introduction Exome sequencing can detect somatic mutations at an unprecedented scale. However, high false-positive rates due to multiple technical contributors affecting signal-to-noise ratio is an unsolved inherent problem. Furthermore, the current literature does not consistently assess or report the allelic burden of detected and scrutinized mutations, potentially leading to focus on irrelevant mutations. We hypothesized that this issue can be addressed by a structured usage of allele frequencies in combination with detected mutations. Employing improved techniques to assess the molecular signature shortly after diagnosis could also result in improved risk stratification. Here, we present proof-of-principle that identification of relevant mutations, and extent of clonality, can be accomplished by pairing hypothetical allelic burden deduced from sequencing reads to leukemic burden in individual samples. Methods 7 samples were used for whole exome sequencing derived from bone marrow aspirated from two different patients. Of these, 4 were leukemia samples (diagnostic and two relapse samples of one T-cell/myeloid mixed-phenotype leukemia and a diagnostic from AML, M0), reflecting different clinical situations, and 3 samples served as controls (keratinocytes, and fibroblasts in the first, remission in the second) to include different clinical situations. Raw data processing, mutations analysis and downstream analysis of sequencing data was performed as described earlier (Hansen & al., MethodsX 2015, Hansen & al., Br J Haematol. 2015 ), following GATK Best Practice workflow and MuTect default parameters. Cluster analysis was utilized to mathematically divide somatic SNVs into read frequency clusters on the basis of squared Euclidean distance, thus enabling the retrieval of mean allelic burden and expected allele frequencies juxtaposed with flow cytometry-derived leukemic blast percent. The initial condition of the classification model was default set to accommodate separation of background (cluster 1: noise or low read), heterozygous mutations (cluster 2), and an outlier bin for possible homozygous mutations (cluster 3). Results and discussion In order to reference the leukemic burden of a given sample we employed data from immunophenotyping as a surrogate marker for malignancy. Without filtering of detected mutations by exome sequencing the partly stochastic nature of the signal is evident (fig. 1A). An exponential-like continuum of non-rejected mutations is found when these are sorted according to frequencies (black points), making it difficult to deduce any clonal nature of the malignancy, and to evaluate the validity of possibly relevant mutations found. Using a minimum depth of coverage threshold of 30 the signal-to-noise ratio is increased ( fig. 1B ), and, subsequently, two clones were resolved at diagnosis ( fig. 1C ) by cluster analysis. This resolution decreases at lower tumor burden showing expected sensitivity towards lower allelic reads ( fig. 1D ), although driver mutations of the persistent clone could be detected. At second relapse only one distinct sAML phenotyoe clone and, now homozygous, CDKN2 A R80* could be detected ( fig. 1E ) with the mutations of secondary clone present at diagnosis (cluster 2) lost due to selective pressure from treatment, i.e. FLT3 D835Y . The observations are backed by another diagnostic sample from a patient with AML with NRAS and BCOR mutations ( fig. 1F ), also with a distinct clone. Here, too much emphasis could easily be given to NRAS G12D if the frequency had not been assessed. Conclusion We have addressed the pertinent question regarding false positive observations arising from deep sequencing or emphasizing mutations found in the low allele frequency fractions. From this dataset we have, despite the low number of samples, accomplished to suggest a formalized approach for single sample mutational analysis. As a consequence, we can now show that malignant clones with high tumor burden can be resolved semi-spatially by sequencing, generally applicable to a wide range of clinical settings. We conclude that this approach is amenable in single patient situations. While further studies are needed to ultimately test the applicability of this approach in the clinical settings, the perspectives to this observation become evident as sequencing depth and cost continue to develop in an inversely correlated manner. View large Download slide View large Download slide  Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/126/23/2589/113061/Strengthening-the-Evidence-of-Relevant-Somatic?searchresult=1",
+    "datetime_link_obtained": "2022-04-27T09:21:47",
+    "is_scraped": "0"
 }
