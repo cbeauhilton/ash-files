@@ -1,53 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3131",
+    "start_url_page_num": "3131",
     "doi": "https://doi.org/10.1182/blood.V126.23.2427.2427",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3106",
-    "start_url_page_num": 3106,
-    "is_scraped": "1",
-    "article_title": "Transcriptome Sequencing Reveals Thousands of Novel Long Non-Coding RNAs in B-Cell Lymphoma ",
-    "article_date": "December 3, 2015",
-    "session_type": "602. Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation: Poster II",
-    "topics": [
-        "b-lymphocytes",
-        "lymphoma",
-        "diffuse large b-cell lymphoma",
-        "neoplasms",
-        "activated b-cell-like diffuse large b-cell lymphoma",
-        "cd40 antigens",
-        "gene expression profiling",
-        "histones",
-        "interleukin-10",
-        "molecular profiling"
-    ],
-    "author_names": [
-        "Akanksha Verma",
-        "Yanwen Jiang, PhD",
-        "Lauren Fairchild",
-        "Wei Du, BS",
-        "Ari M. Melnick, MD",
-        "Olivier Elemento"
-    ],
-    "author_affiliations": [
-        [
-            "Institute for Computational Biomedicine, Weill Cornell Medical College, New York, NY "
-        ],
-        [
-            "Institute for Computational Biomedicine, Weill Cornell Medical College, New York, NY ",
-            "Department of Medicine, Weill Cornell Medical College, New York, NY "
-        ],
-        [
-            "Institute for Computational Biomedicine, Weill Cornell Medical College, New York, NY "
-        ],
-        [
-            "Institute for Computational Biomedicine, Weill Cornell Medical College, New York, NY "
-        ],
-        [
-            "Department of Medicine, Division of Hematology and Medical Oncology, Weill Cornell Medical College, New York, NY "
-        ],
-        [
-            "Department of Physiology and Biophysics, Weill Cornell Medical College, New York, NY"
-        ]
-    ],
-    "first_author_latitude": "40.766488599999995",
-    "first_author_longitude": "-73.9555127",
-    "abstract_text": "Diffuse large B-cell lymphoma (DLBCL) is an aggressive type of lymphoma. Roughly 40% of patients do not respond or relapse after current therapy. Gene expression profiling of DLBCL has revealed broad gene expression deregulation compared to normal B Cells and categorized DLBCLs into two main subtypes: germinal center B-cell like and activated B-cell like (GCB-DLBCL and ABC-DLBCL), both associated with distinct clinical outcomes. Recent RNAseq studies have demonstrated that large portion of the genome consists of long non-coding transcripts (lncRNAs) that exhibit cell type specific expression patterns and are shown to play critical roles in disease specific epigenetic gene regulation. We sought to discover and characterize novel lncRNAs expressed in DLBCL that are responsible for the disease phenotypes. We performed a systematic de novo lncRNA discovery analysis on RNAseq data obtained from 116 primary DLBCL tumors (dbGaP, phs000235.v6.p1), and 8 normal B-cell counterparts (4 Na\u00efve B-cell and 4 Germinal Center B-cell samples). We identified 2,632 novel expressed lncRNAs in DLBCL. These novel lncRNAs exhibit characteristics similar to known lncRNAs, such as low coding potential, > 200 nt in length, and exon counts (>=2 exons). Further comparison between tumors and normal B-cells revealed that 942 lncRNAs were expressed in DLBCL only. We noticed that many of these lncRNAs were located nearby coding-genes that are important in B-cell biology, such as BCL6 , IKZF1 , IL10 , IRF4 , PRDM1 , TNFAIP3 , etc. Indeed, using a computational tool GREAT, we found that the coding-genes located nearby DLBCL-specific lncRNAs were significantly enriched in immune cell activation and differentiation pathways (FDR < 0.05), suggesting that novel DLBCL lncRNAs are preferentially located near key B-cell and lymphoma genes perhaps contributing to the expression regulation of these genes. Furthermore, through a systematic approach, we found that 88% of these lncRNAs correlated significantly with at least one coding gene expression (Spearman correlation, FDR < 0.2), and collectively these co-expressed coding genes were enriched in B-cell specific functional pathways, including CD40-regulated pathways. Interestingly, we observed that 81 lncRNA were located within 17 DLBCL locus control regions (LCRs or super enhancers), representing a significant enrichment of lncRNAs at LCRs (p < 0.001). This suggests that super-enhancers may coordinate the co-expression of lncRNAs and their neighborhood coding-genes. Moreover, through supervised analysis, we derived a lncRNA expression signature that can differentiate ABC and GCB subtypes of DLBCL. There were 465 lncRNAs significantly differentially expressed between ABC and GCB DLBCLs (FDR < 0.05). When we performed pathway analysis on the protein coding genes significantly co-expressed with these 465 subtype-specific lncRNAs, we found they were enriched in signatures that can define the two subtypes, including Germinal_center_B-cell_DLBCL and ABC_gt_GCB_Affy signatures. To understand the regulation of lncRNA expression in DLBCL, we examined the histone mark profiles at lncRNA loci. First, we found in any given DLBCL cell line, there was a significant overlap of lncRNA promoters and H3K4me3 peaks (p < 2.2e-16), suggesting like coding genes, lncRNA promoters are marked with H3K4me3. Second, we identified that expression of 323 lncRNAs were negatively correlated with BCL6 expression (FDR < 0.2) in this cohort of DLBCL patients, among which 104 exhibited increased expression upon BCL6 knocking down. BCL6 is a transcription repressor and a master regulator of germinal center transcription programming. Taken together, our data suggest that expression of novel DLBCL lncRNAs is potentially under the control of B-cell specific transcription factors. Finally, we performed single nucleotide variant analysis on these novel lncRNAs by using VarScan. We identified 9,713 SNVs within the exonic regions of these lncRNAs. We calculated the Minimum Free Energy Scores (MFEs) by using RNAfold to examine whether these SNVs would have an impact on the stability of the lncRNA secondary structure. We observed a significantly higher than background shift towards the stabilization of the secondary structure with the SNVs (p < 2.2e-16, Wilcoxon test), indicating a potential genetic mechanism of aberrant expression of lncRNA in DLBCL. Disclosures Melnick: ROCHE: Other: Research; Genentech: Speakers Bureau; Janssen: Other: Research; Celgene: Consultancy; Eli Lilly: Consultancy; Epizyme: Consultancy."
+    "url": "https://ashpublications.org/blood/article/126/23/2427/113140/Transcriptome-Sequencing-Reveals-Thousands-of?searchresult=1",
+    "datetime_link_obtained": "2022-04-27T08:46:52",
+    "is_scraped": "0"
 }

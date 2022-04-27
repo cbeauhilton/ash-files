@@ -1,57 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3119",
+    "start_url_page_num": "3119",
     "doi": "https://doi.org/10.1182/blood.V126.23.4804.4804",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3094",
-    "start_url_page_num": 3094,
-    "is_scraped": "1",
-    "article_title": "Gene-Expression for Prediction of Disease Progression Following Initial Management of Follicular Lymphoma ",
-    "article_date": "December 3, 2015",
-    "session_type": "602. Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation",
-    "topics": [
-        "disease progression",
-        "follicular lymphoma",
-        "gene expression",
-        "follow-up",
-        "neoplasms",
-        "neoplasm grading",
-        "mitogen-activated protein kinases",
-        "rna",
-        "time to progression",
-        "cox proportional hazards models"
-    ],
-    "author_names": [
-        "Etienne Mahe, BSc, MD FRCPC",
-        "Ariz Akhter, PhD",
-        "Danielle H. Oh, MB ChB",
-        "Fahad Farooq, BSc",
-        "Meer-Taher Shabani-Rad, MD FRCPC",
-        "Adnan Mansoor, MD FRCPC",
-        "Douglas A. Stewart, MD FRCPC"
-    ],
-    "author_affiliations": [
-        [
-            "Calgary Lab Services, Division of Hematology & Transfusion Medicine, Foothills Medical Centre, Calgary, Canada "
-        ],
-        [
-            "Pathology & Laboratory Medicine, University of Calgary, Calgary, Canada "
-        ],
-        [
-            "Department of Oncology and Medicine, University of Calgary. Tom Baker Cancer Centre, Calgary, Canada "
-        ],
-        [
-            "Pathology & Laboratory Medicine, University of Calgary, Calgary, Canada "
-        ],
-        [
-            "Calgary Lab Services, Division of Hematology & Transfusion Medicine, University of Calgary, Calgary, Canada "
-        ],
-        [
-            "Hematology and Transfusion Medicine, Calgary Laboratory services, University of Calgary, Calgary, Canada "
-        ],
-        [
-            "Departments of Medicine and Oncology, Foothills Hospital and Tom Baker Cancer Centre, Calgary, Canada ",
-            "Division of Hematology and Hematologic Malignancies, University of Calgary, Calgary, Canada"
-        ]
-    ],
-    "first_author_latitude": "51.0654136",
-    "first_author_longitude": "-114.1333466",
-    "abstract_text": "Introduction Patients with advanced staged Follicular Lymphoma (FL) are initially managed with either immediate chemoimmunotherapy (CI) or \"watchful waiting\" (WW) depending on clinical symptoms, tumor burden, and organ compromise. Clinicians currently predict time to progression (TTP) using the Follicular Lymphoma International Prognostic Index (FLIPI) score. Well-defined & validated molecular techniques capable of additional predictive power are lacking, however. We hypothesized that gene-expression (GE) data, employing an evidence-based feature set, might assist in the upfront stratification of FL patients. Objectives 1 Identify genes whose GE has previously been identified as relevant to FL 2 Perform GE testing on an series of FL cases, classified by upfront intervention, using this custom gene feature set 3 Identify the gene(s) most strongly predictive of disease progression in each of the clinical classes (i.e. CI vs. WW) 4 Compare the performance of GE data to other prognostic parameters Methods We performed a search of MEDLINE-indexed studies reporting FL GE results. We input all available appertaining data into NVIVO (v10), in which a computer-assisted search for GE features was performed. This list, after refinement, formed the basis of a custom NanoString codeset. We used the MD Anderson Microarray Sample Size Calculator for sample size estimation and retrieved FL cases from our regional archives; those cases with sufficient tissue were organized by upfront treatment approach and available clinical data recorded (age at diagnosis, sex, stage, grade, FLIPI scores & TTP). TTP was defined as time in months either to diagnosed disease progression or, in the WW group, first CI-based treatment. After pathology review, RNA was isolated using standard protocols. GE data was analyzed using gene-specific receiver-operating characteristic analysis, ranking performed according to the area-under-the-curve (MATLAB v 8.3.0.532). Validation against TTP using Cox-regression was then performed (SPSS v22); p < 0.05 was considered significant. Results Our MEDLINE search yielded 713 publications; after refinement, our NVIVO analysis suggested 282 valid gene features. Review of local FL cases accessioned between 2004 & 2012 was performed; this period ensured uniform follow-up and CI treatment strategies for all FL patients. Patients were classified as WW (68 patients) & CI (98 patients), and then sub-classified as WW1 (WW without need for CI over the follow-up interval; 23 patients) and WW2 (WW requiring CI in the follow-up interval; 45 patients) and CI1 (CI without disease progression over the follow-up interval; 61 patients) and CI2 (CI with disease progression; 37 patients). Median follow-up time was 60 months in the WW group and 56 months in the CI group (Mann-Whitney p = 0.177). With the exception of FLIPI score in the WW class (higher on average in the WW2 sub-class), no other clinical factor differed significantly between the sub-classes. GE analyses suggested that ACTB in the WW group and MEK1 in the CI group might be most predictive of TTP. Table 1. TTP results by Cox-regression analysis for the WW group WW Variable . Cox-Regression Model Co-efficient p-value . Cox-Regression Model Linear Co-efficient 95% CI . Age at diagnosis 0.56 0.98-1.04 Sex 0.34 0.67-3.19 Tumor Grade 0.41 0.40-9.48 Tumor Stage 0.54 0.69-2.04 FLIPI Score 0.06 0.97-3.6 ACTB Expression 0.006 1.4-7.74 WW Variable . Cox-Regression Model Co-efficient p-value . Cox-Regression Model Linear Co-efficient 95% CI . Age at diagnosis 0.56 0.98-1.04 Sex 0.34 0.67-3.19 Tumor Grade 0.41 0.40-9.48 Tumor Stage 0.54 0.69-2.04 FLIPI Score 0.06 0.97-3.6 ACTB Expression 0.006 1.4-7.74 View Large Table 2. TTP results by cox-regression analysis for the CI group CI Variable . Cox-Regression Model Co-efficient p-value . Cox-Regression Model Linear Co-efficient 95% CI . Age at diagnosis 0.34 0.99-1.04 Sex 0.96 0.48-2.16 Tumor Grade 0.92 0.43-2.13 Tumor Stage 0.17 0.874-2.11 FLIPI Score 0.4 0.47-1.35 MEK1 Expression 0.011 0.19-0.81 CI Variable . Cox-Regression Model Co-efficient p-value . Cox-Regression Model Linear Co-efficient 95% CI . Age at diagnosis 0.34 0.99-1.04 Sex 0.96 0.48-2.16 Tumor Grade 0.92 0.43-2.13 Tumor Stage 0.17 0.874-2.11 FLIPI Score 0.4 0.47-1.35 MEK1 Expression 0.011 0.19-0.81 View Large Conclusions To our knowledge, we have performed the first GE analysis of FL cases classified by intervention, and have identified GE features predictive of disease progression or requirement of intervention (as in the WW group). In the CI group, identification of MEK1 as a major prognostic player echoes previous work studying the MAP-kinase pathway in FL. In the WW group, however, identification of ACTB as a potential prognostic player is a novel observation requiring validation, especially since this gene is ubiquitously expressed across multiple cell types. Figure 1. View large Download slide WW TTP, stratified by ACTB expression Figure 1. View large Download slide WW TTP, stratified by ACTB expression Figure 2. View large Download slide CI TTP, stratified by MEK1 expression Figure 2. View large Download slide CI TTP, stratified by MEK1 expression Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/126/23/4804/93604/Gene-Expression-for-Prediction-of-Disease?searchresult=1",
+    "datetime_link_obtained": "2022-04-27T08:46:07",
+    "is_scraped": "0"
 }
