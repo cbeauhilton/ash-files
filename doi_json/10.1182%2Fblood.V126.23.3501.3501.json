@@ -1,42 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3004",
+    "start_url_page_num": "3004",
     "doi": "https://doi.org/10.1182/blood.V126.23.3501.3501",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3004",
-    "start_url_page_num": 3004,
-    "is_scraped": "1",
-    "article_title": "A Method for Deriving Pharmacokinetic Constants for Factor VIII and IX from Limited Blood Sampling ",
-    "article_date": "December 3, 2015",
-    "session_type": "321. Blood Coagulation and Fibrinolytic Factors: Poster III",
-    "topics": [
-        "factor viii",
-        "phlebotomy",
-        "hemophilia a",
-        "infusion procedures",
-        "surgical procedures, operative",
-        "half-life",
-        "mathematical model",
-        "mathematics"
-    ],
-    "author_names": [
-        "Miguel Antonio Escobar, MD",
-        "Daniel Preston Bond, BS",
-        "Madeline Cantini, RN",
-        "Krishna Cannon, RN"
-    ],
-    "author_affiliations": [
-        [
-            "Internal Medicine & Pediatrics. Hematology, University of Texas Health Science Center, Houston, TX "
-        ],
-        [
-            "Dan Bond and Associates, Galveston, TX "
-        ],
-        [
-            "Gulf States Hemophilia and Thrombophilia Center, University of Texas Health Science Center, Houston, TX"
-        ],
-        [
-            "Gulf States Hemophilia and Thrombophilia Center, University of Texas Health Science Center, Houston, TX"
-        ]
-    ],
-    "first_author_latitude": "29.703166299999996",
-    "first_author_longitude": "-95.4032312",
-    "abstract_text": "Introduction The treatment of hemophilia A and B is based on the replacement of the deficient factor dosed by weight. However, dosing for hemophilia treatment has been arrived at by empiric assessment, essentially \"trial and error\" based on the pharmacokinetics (PK) of the factors and the characteristics of the replacement product. In the last decade clinical pharmacokinetics has gained popularity in hemophilia so that factor dosage can be adjusted according to the requirement of the individual patient. Factor-specific population pharmacokinetic models have been developed for individualized treatment of patients with hemophilia A and B. The math modeling technique presented in this project relies on minimal blood sampling to derive the constants necessary to predict the peak and trough levels within the commonly excepted error bounds. Methods Data that included FVIII, FIX levels and weight were obtained retrospectively from severe hemophilia A and B adult patients and approved by the ethics committee of the University of Texas Health Science Center. A single compartment decay model equation was used in both a custom iOS application and an Excel spreadsheet to calculate the decay constant between any 2 points on a decay curve. Using this local constant as the half-life in the standard decay equation allowed the calculation of the peak at time = 0. This peak combined with dosing information and the subject's weight allowed the calculation of the Recovery. These 2 constants in the equation: Level=(dose*Recovery/weight)*0.5^(time/half-life) allowed the calculation of the level at any point on the curve. Using this method on several example datasets showed that the model is reasonably able to predict peak and trough levels for both factor VIII and IX. Because of the time dependent nature of the local decay constant, better results are obtained using data points after the first half of the expected half-life. This method can also be used to predict steady state levels, peaks and troughs for any prophylaxis schedule. Conclusion Appropriate dosing of factor VIII or IX is at best an approximate calculation. The method described in this publication generates a math model that is generally as accurate as a multiple sample PK study with far fewer blood samples taken. Clinical applications of this model can be utilized to predict factor levels after a single infusion of factor VIII/IX in adults that are treated on-demand or prophylaxis. It can also be utilized in individuals that are infusing extended half-life products or in the surgical setting. Disclosures Escobar: Pfizer: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding. Bond: Pfizer: Consultancy, Research Funding. Cantini: Pfizer: Research Funding. Cannon: Pfizer: Research Funding."
+    "url": "https://ashpublications.org/blood/article/126/23/3501/91020/A-Method-for-Deriving-Pharmacokinetic-Constants?searchresult=1",
+    "datetime_link_obtained": "2022-04-27T03:47:24",
+    "is_scraped": "0"
 }
