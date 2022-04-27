@@ -1,73 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3251",
+    "start_url_page_num": "3251",
     "doi": "https://doi.org/10.1182/blood.V126.23.1789.1789",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3251",
-    "start_url_page_num": 3251,
-    "is_scraped": "1",
-    "article_title": "Resistance to Lenalidomide in Multiple Myeloma Is Associated with a Switch in Gene Expression Profile ",
-    "article_date": "December 3, 2015",
-    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster I",
-    "topics": [
-        "gene expression profiling",
-        "lenalidomide",
-        "multiple myeloma",
-        "nf-kappa b",
-        "rna",
-        "human leukocyte interferon",
-        "interferons",
-        "kruppel-like factor 6",
-        "molecular target",
-        "protons"
-    ],
-    "author_names": [
-        "Michael D. Amatangelo, PhD",
-        "Paola Neri, MD PhD",
-        "Maria Ortiz, PhD",
-        "Chad C. Bjorklund",
-        "Anita K. Gandhi, PhD",
-        "Anke Klippel",
-        "Nizar J Bahlis, MD",
-        "Tom Daniel",
-        "Rajesh Chopra, MBBS, PhD",
-        "Matthew Trotter",
-        "Anjan Thakurta"
-    ],
-    "author_affiliations": [
-        [
-            "Celgene Corporation, Summit, NJ "
-        ],
-        [
-            "University of Calgary, Southern Alberta Cancer Research Institute, Calgary, Canada ",
-            "University of Calgary, Division of Hematology, Calgary, Canada "
-        ],
-        [
-            "Celgene Institute for Translational Research Europe, Celgene Corporation, Seville, Spain "
-        ],
-        [
-            "Celgene Corporation, Summit, NJ "
-        ],
-        [
-            "Celgene Corporation, Summit, NJ "
-        ],
-        [
-            "Celgene Corporation, Summit, NJ "
-        ],
-        [
-            "University of Calgary, Southern Alberta Cancer Research Institute, Calgary, Canada "
-        ],
-        [
-            "Celgene Corporation, San Diego, CA "
-        ],
-        [
-            "Celgene Corporation, Summit, NJ "
-        ],
-        [
-            "Celgene Corporation, Sevilla, Spain"
-        ],
-        [
-            "Celgene Corporation, Summit, NJ "
-        ]
-    ],
-    "first_author_latitude": "40.70797340000001",
-    "first_author_longitude": "-74.34519949999999",
-    "abstract_text": "Background: Cereblon (CRBN) is a substrate receptor of the Cullin 4 E3 ubiquitin ligase complex CRL4 CRBN and is the molecular target of the IMiD\u00ae immunomodulatory drug lenalidomide. It has been shown that cereblon is required for the anti-proliferative activity of lenalidomide in multiple myeloma (MM) and that reduction of CRBN expression is associated with resistance to IMiD\u00ae compounds. Methods: RNA-seq analysis was performed on 12 paired MM patients samples of sorted CD138+ cells obtained prior to lenalidomide treatment initiation and after development of resistance. Transcriptome sequence data was generated on an Ion Torrent Proton sequencer with at least 70 million reads per sample. The STAR aligner was used to align raw reads to the Ensembl74 reference annotation. The HTseq and eXpress algorithms were used to quantify gene and transcript counts, respectively, and the Sailfish algorithm was used to validate eXpress transcript counts. The Deseq2 algorithm was used to determine differential expression at gene and transcript levels between paired samples. Results: Of 272 genes observed to change significantly in expression at relapse (FDR < 0.05), a majority (169) were up-regulated. Inter-pathway similarity analysis based on gene set enrichment analysis (GSEA; canonical pathways) suggested 4 distinct processes were down-regulated at relapse, including Notch Signaling, Interferon Signaling and G-coupled protein receptor signaling. Conversely, patients exhibited a single dominant up-regulated process associated with proliferation. Additional GSEA analysis on more specific gene categories revealed up-regulation of the Proliferation gene cluster described in the University of Arkansas for Medical Science (UAMS) classification for newly diagnosed MM (6 of 2599 gene sets tested; FDR<0.01), which is associated with poor prognosis. This suggests that specific gene expression profiles (GEPs) identified in newly diagnosed MM patients may be enriched in relapsed samples. Further analysis of differential gene expression was performed to assess correspondence against the 10 MM GEP subgroups identified by Broyl, et al. (Blood, 2010) from newly diagnosed multiple myeloma. The output revealed significant enrichment of the Proliferation and MMSET/FGFR3 subgroup classifications (FDR<0.01) and a corresponding decrease in the NFkB subgroup classification at relapse (FDR<0.01), indicating a switch in GEP enrichment in relapse samples. Significantly changed genes common between Proliferation-MMSET/FGFR3 and NFkB classifications and contributing to the switch in GEP included BUB1B (FDR<0.001), HMMR (FDR<0.001), TAGAP (FDR<0.001), SMC4 (FDR=0.002), RRM2 (FDR=0.005) and KLF6 (FDR=0.029). Examination of genes commonly associated with lenalidomide mechanism of action revealed that in this cohort CRBN RNA was down-regulated by more than 2-fold in one patient and an enrichment of CRBN transcript lacking exon 10 was observed in another patient. Interestingly, high levels of CRBN transcripts that retain introns 6, 7 and 8 and do not encode for protein were detected in both diagnostic and relapse samples, which might explain previously observed discordant expression between CRBN mRNA and protein. Furthermore, no significant changes in gene expression at relapse was observed for Aiolos, Ikaros, c-myc or IRF4, although there was a trend for c-myc up-regulation. Ikaros and Aiolos are known to undergo extensive splicing, however, we were unable to detect changes in Aiolos or Ikaros splicing in patients at relapse. Conclusions: Taken together, this data suggests that lenalidomide resistance in patients is associated with a switch in gene expression profile from NFkB to Proliferation and MMSET/FGFR3 subgroups identified by Broyl, et al (Blood 2012). Given these GEPs were obtained from newly diagnosed patients, this yields the hypothesis that lenalidomide treatment induces a reduction in MM cells with an NFkB gene expression profile and expansion of cells exhibiting a Proliferation and/or MMSET/FGFR3 associated GEP, which appear to be resistant to therapy. Future studies to understand how individual genes in the GEP subgroups identified contribute to lenalidomide sensitivity/resistance are on-going. Disclosures Amatangelo: Celgene Corporation: Employment, Equity Ownership. Neri: Celgene: Research Funding. Ortiz: Celgene Corporation: Employment. Bjorklund: Celgene Corporation: Employment, Equity Ownership. Gandhi: Celgene: Employment, Equity Ownership. Klippel: Celgene Corporation: Employment, Equity Ownership. Bahlis: Amgen: Consultancy; Johnson & Johnson: Consultancy; Johnson & Johnson: Speakers Bureau; Johnson & Johnson: Research Funding; Celgene: Consultancy, Honoraria, Research Funding, Speakers Bureau. Daniel: Celgene Corporation: Employment, Equity Ownership. Chopra: Celgene Corporation: Employment, Equity Ownership. Trotter: Celgene Corporation: Employment. Thakurta: Celgene Corporation: Employment, Equity Ownership."
+    "url": "https://ashpublications.org/blood/article/126/23/1789/134867/Resistance-to-Lenalidomide-in-Multiple-Myeloma-Is?searchresult=1",
+    "datetime_link_obtained": "2022-04-27T14:19:05",
+    "is_scraped": "0"
 }
