@@ -1,68 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3285",
+    "start_url_page_num": "3285",
     "doi": "https://doi.org/10.1182/blood.V128.22.1741.1741",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3285",
-    "start_url_page_num": 3285,
-    "is_scraped": "1",
-    "article_title": "Genetic Subtypes of Human Pediatric ALLs Show Gene Expression Differences That Parallel Those Observed in Mouse B1 and B2 Progenitors, Suggesting Divergent Developmental Origins ",
-    "article_date": "December 2, 2016",
-    "session_type": "618. Acute Lymphoblastic Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster I",
-    "topics": [
-        "gene expression",
-        "genetics",
-        "leukemia",
-        "leukemia, lymphocytic, acute, childhood",
-        "mice",
-        "neoplasms",
-        "pediatrics",
-        "rna",
-        "b-lymphocytes",
-        "embryo"
-    ],
-    "author_names": [
-        "Scott C. Kogan",
-        "Huimin Geng, PhD",
-        "Ritu Roy",
-        "Encarnacion Montecino-Rodriguez",
-        "Coline M Gaillard",
-        "Kamir Hiam",
-        "Henrik Bengtsson",
-        "David Casero",
-        "Adam B Olshen",
-        "Kenneth Dorshkind"
-    ],
-    "author_affiliations": [
-        [
-            "Helen Diller Family Comprehensive Cancer Center & Department of Laboratory Medicine, University of California San Francisco, San Francisco, CA "
-        ],
-        [
-            "Department of Laboratory Medicine, University of California San Francisco, San Francisco, CA "
-        ],
-        [
-            "Helen Diller Family Comprehensive Cancer Center, University of California San Francisco, San Francisco, CA "
-        ],
-        [
-            "Department of Pathology and Laboratory Medicine, University of California Los Angeles, Los Angeles, CA "
-        ],
-        [
-            "Laboratory Medicine, University of California, San Francisco, CA "
-        ],
-        [
-            "Biomedical Sciences Graduate Program, University of California, San Francissco, CA "
-        ],
-        [
-            "Helen Diller Family Comprehensive Cancer Center, University of California San Francisco, San Francisco, CA "
-        ],
-        [
-            "Department of Pathology and Laboratory Medicine, University of California Los Angeles, Los Angeles, CA "
-        ],
-        [
-            "Helen Diller Family Comprehensive Cancer Center & Department of Epidemiology and Biostatistics, University of California San Francisco, San Francisco, CA "
-        ],
-        [
-            "Jonsson Comprehensive Cancer Center & Department of Pathology and Laboratory Medicine, University of California Los Angeles, Los Angeles, CA"
-        ]
-    ],
-    "first_author_latitude": "37.7737422",
-    "first_author_longitude": "-122.42454465",
-    "abstract_text": "The presence in mice of progenitors that can give rise selectively to B-1 or B-2 B-cells raised the possibility that B-lymphoid neoplasms may have varied developmental origins. Prior work demonstrated that murine B-1 and B-2 progenitors of mice can both be transformed by the BCR-ABL1 oncogene and that leukemias derived from B-1 progenitors initiated more quickly than leukemias derived from B-2 progenitors (J Immunol. 2014;192:5171-8). We have recently profiled the gene expression patterns of murine B-1 and B-2 progenitors using RNA-seq and have applied the observed divergences in gene expression pattern to investigate whether varied human pediatric B-cell acute lymphoblastic leukemias (B-ALLs) might arise from human B-cell progenitors with characteristics paralleling either mouse B-1 or B-2 progenitors. Underlying these analyses is the concept that pediatric ALLs might arise from progenitors present during development that may not persist into adulthood. In order to assess our hypothesis that human pediatric B-ALLs have common features with either mouse B-1 progenitors or mouse B-2 progenitors, we examined whether gene expression differences observed in the mouse cells could be used to segregate human pediatric ALLs into B-1 progenitor-like or B-2 progenitor-like subsets. We used two different computational approaches to compare gene expression of mouse B-1 and B-2 progenitors to 126 human pediatric B-ALLs (St Jude ALLs: GSE26281, JCI 2013 123:3099-3111). In the first approach, we identified 327 genes that varied between mouse B-1 and B-2 progenitors derived from mice of varied ages (embryonic day 15, post-natal day 1, post-natal day 2, week 9 and week 11 animals). We were able to map 207 of these genes onto probes for human orthologs in the St Jude ALL gene expression microarray dataset. When multiple probes for a gene were present in the human array, the most variable probe was selected for analysis. The human ALLs were analyzed by unsupervised hierarchical clustering using these 207 genes. Of interest, when examining the first bifurcation of the unsupervised clustering diagram, ETV6-RUNX1 leukemias clustered in the same fork as the TCF3-PBX1 leukemias, whereas Hyperdiploid B-ALLs clustered in the same fork as most of the MLL leukemias. Further analysis identified 58 genes that could be used to score the human leukemias as B-1 progenitor-like and B-2 progenitor-like with a Z-score. Examination of the resulting scores showed that TCF3-PBX1 and ETV6-RUNX1 leukemias scored as the most similar to mouse B-1 progenitors, whereas hyperdiploid and MLL ALLs appeared predominantly B-2 like. In our second analytical approach, we identified 574 genes that showed at least a 2 fold difference and a p-value <0.001 in gene expression between the B-1 and B-2 progenitor subsets derived from embryonic day 15 and post-natal day 2 animals and could also be mapped onto the St. Jude ALL microarray data. From these 574 genes, we removed genes that were expressed at very low levels (at least one RNA-seq read count of 0), and selected genes previously identified as being expressed in B-cells by ImmGen (J Immunol. 2011 186:3047-57). This allowed us to identify 76 genes with increased expression in mouse B-1 progenitors and 77 genes with increased expression in mouse B-2 progenitors. Then we applied those 153 mouse B1- or B2-progenitor gene signatures in examining the expression in human ALLs using a Baysian predictor. Interestingly, this algorithm also classified human TCF3-PBX1 and ETV6-RUNX1 leukemias as B-1 progenitor-like and Hyperdiploid and MLL leukemias as B-2 progenitor-like. Using the same approach, we examined two additional human pediatric ALL datasets (COG P9906 ALLS: GSE28460, Blood 2010 116: 4874-4884 & COALL/DCOG ALLS: GSE13351, Lancet Oncol. 2009 10(2): 125-134). These added analyses supported our conclusion that different genetic sub-types of human pediatric ALL have gene expression patterns that parallel features of mouse B-1 or B-2 progenitors. Additional studies are underway to further assess whether human ALLs may be derived from B-1 like or B-2 like progenitors and to examine whether there may be a biological basis to use differences in cell of origin to inform future therapy. This work was supported by R21-CA173028 from the National Cancer Institute. Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/128/22/1741/91614/Genetic-Subtypes-of-Human-Pediatric-ALLs-Show-Gene?searchresult=1",
+    "datetime_link_obtained": "2022-04-27T15:24:05",
+    "is_scraped": "0"
 }
