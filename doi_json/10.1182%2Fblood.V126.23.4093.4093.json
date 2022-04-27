@@ -1,70 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3205",
+    "start_url_page_num": "3205",
     "doi": "https://doi.org/10.1182/blood.V126.23.4093.4093",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3205",
-    "start_url_page_num": 3205,
-    "is_scraped": "1",
-    "article_title": "Fusion Gene Detection Using Whole Transcriptome Analysis in Patients with Chronic Myeloproliferative Neoplasms and Secondary Acute Myeloid Leukemia ",
-    "article_date": "December 3, 2015",
-    "session_type": "635. Myeloproliferative Syndromes: Basic Science: Poster III",
-    "topics": [
-        "fusion genes",
-        "gene expression profiling",
-        "leukemia, secondary acute",
-        "myeloproliferative disease",
-        "apnea of prematurity",
-        "cancer",
-        "disease progression",
-        "karyotype determination procedure",
-        "rna",
-        "false-positive results"
-    ],
-    "author_names": [
-        "Fiorella Schischlik, MSc",
-        "Jelena D. Milosevic Feenstra, PhD",
-        "Elisa Rumi, MD",
-        "Daniela Pietra, PhD",
-        "Bettina Gisslinger",
-        "Martin Schalling, MSc",
-        "Edith Bogner",
-        "Heinz Gisslinger, MD",
-        "Mario Cazzola, MD",
-        "Robert Kralovics, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences, Vienna, Austria "
-        ],
-        [
-            "CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences, Vienna, Austria "
-        ],
-        [
-            "Department of Hematology Oncology, Fondazione IRCCS Policlinico San Matteo, Pavia, Italy "
-        ],
-        [
-            "Department of Hematology Oncology, Fondazione IRCCS Policlinico San Matteo, Pavia, Italy "
-        ],
-        [
-            "Department of Internal Medicine I, Division of Hematology and Blood Coagulation, Medical University of Vienna, Vienna, Austria "
-        ],
-        [
-            "Department of Internal Medicine I, Division of Hematology and Blood Coagulation, Medical University of Vienna, Vienna, Austria "
-        ],
-        [
-            "CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences, Vienna, Austria "
-        ],
-        [
-            "Department of Internal Medicine I, Division of Hematology and Blood Coagulation, Medical University of Vienna, Vienna, Austria "
-        ],
-        [
-            "Department of Hematology Oncology, Fondazione IRCCS Policlinico San Matteo, Pavia, Italy ",
-            "Department of Molecular Medicine, University of Pavia, Pavia, Italy"
-        ],
-        [
-            "CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences, Vienna, Austria ",
-            "Department of Internal Medicine I, Division of Hematology and Blood Coagulation, Medical University of Vienna, Vienna, Austria "
-        ]
-    ],
-    "first_author_latitude": "48.219447599999995",
-    "first_author_longitude": "16.3497225",
-    "abstract_text": "Fusion oncogenes resulting from chromosomal aberrations are common disease drivers in myeloid malignancies. The most prominent example is BCR-ABL1 fusion present in chronic myeloid leukemia, which together with essential thromobocythemia (ET), primary myelofibrosis (PMF) and polycythemia vera (PV) belongs to the classic myeloproliferative neoplasms (MPN). The BCR-ABL1 negative MPNs are driven by somatic mutations in JAK2, MPL and CALR. MPN patients can progress to acute myeloid leukemia (AML) but the transformation process is not well understood. Studies using standard karyotyping and SNP microarrays have shown that disease progression is characterized by an increase in karyotype complexity. We aimed to identify novel fusion oncogenes in patients with BCR-ABL1 negative MPN during chronic phase and disease progression in high-throughput and cost-efficient manner using RNA-seq technology. In addition this approach enabled us to perform RNA-seq variant calling for identification of gene mutations on the same cohort of patients. Whole transcriptome sequencing was performed on 121 patients (112 chronic phase MPN and 9 secondary AML samples) and 23 healthy controls in a 100 base pair paired-end manner. The cohort consisted of 44% PMF, 22% ET, 12% PV and 6% secondary AML patients. The output of three fusion detection tools (Defuse, Tophat-fusion and SOAPfuse) was combined in order to increase sensitivity. Extensive filtering steps were applied in order to enrich for cancer specific fusion events, including filtering for fusions appearing in healthy individuals, filtering for read-throughs and false positives with external databases and manual inspection of sequencing reads. The outcome of analysis for Defuse, Tophat-fusion and SOAPfuse resulted in the total of 52, 54 and 38 candidate fusions, respectively. Candidate fusions were Sanger-sequenced and for Tophat-fusion and Defuse the validation rate was 60%, while for SOAPfuse only 20% could be validated. Approximately 70% of the fusion candidates were not shared among the 3 tools which underlines the importance of selecting the union of all calls from each tool rather than the intersect. We did not observe clustering of breakpoints along the genome. Most fusion candidates could be detected in PMF which corresponds to the disease entity that was most represented in the cohort (44% of patients). No enrichment for fusions was found in 7 triple negative (no JAK2 , CALR , MPL mutations) cases. 42% of chromosomal aberrations were translocations, followed by duplication (31%), inversion (14%) and deletion events (11%). Among the intragenic fusions, approximately half had genomic breakpoints less than 1 Mb apart. 70% of validated fusions were out of frame, while 28% were in frame. In the leukemic samples a higher abundance of fusions was found (4/9). Typical fusions for de novo AML were not detected within secondary AML (sAML) samples. We did not detect a recurrent fusion oncogene in our patient cohort. In a PMF patient with JAK2 -V617F mutation we identified a BCR-ABL1 fusion, indicating a clonal exchange which was consistent with patient's phenotype. Another PMF patient exhibited an inversion event involving the first exon of CUX1 , causing a CUX1 loss of function. Other fusions in chronic MPN patients affected genes involved in histone modifications ( SMYD3-AHCTF1 , KDM4B-CYHR1). In post-MPN AML patients we identified a somatic in frame-fusion involving INO80D and GPR1 and a fusion truncating the first 3 exons of RUNX2 ( XPO5-RUNX2 ). The high quality of RNA sequencing data, allowed us to set up a variant detection workflow that will be compared with matched samples that have been exome sequenced. Preliminary results could demonstrate that mutations in the JAK2 gene in a cohort of 96 patients were all correctly recalled, emphasizing its sensitivity. Fusion events among patients in chronic phase MPN are rare and the majority of these events imply loss of function of both fusion gene partners. This approach adds valuable information on the true frequency of inactivation of genes such as CUX1 in patients, as small inversions like the one described above would not be detectable by other methods. Detection of a subclone with BCR-ABL1 fusion underlines the strength of the fusion detection workflow for diagnostic purposes. Typical de novo AML fusions were not found in sAML and further suggests that de novo AML and sAML are distinct disease entities on a genetic level. Disclosures Gisslinger: Janssen Cilag: Honoraria, Speakers Bureau; Sanofi Aventis: Consultancy; AOP ORPHAN: Consultancy, Honoraria, Research Funding, Speakers Bureau; Celgene: Consultancy, Honoraria, Research Funding, Speakers Bureau; Novartis: Honoraria, Research Funding, Speakers Bureau; Geron: Consultancy. Kralovics: AOP Orphan: Research Funding; Qiagen: Membership on an entity's Board of Directors or advisory committees."
+    "url": "https://ashpublications.org/blood/article/126/23/4093/135806/Fusion-Gene-Detection-Using-Whole-Transcriptome?searchresult=1",
+    "datetime_link_obtained": "2022-04-27T11:38:58",
+    "is_scraped": "0"
 }
