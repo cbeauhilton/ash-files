@@ -1,60 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3753",
+    "start_url_page_num": "3753",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.770.770",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3753",
-    "start_url_page_num": 3753,
-    "is_scraped": "1",
-    "article_title": "Integrative Epigenetic and Single-Cell RNA-Seq Profiling of Human Hematopoietic Stem Cells Reveals Epigenetic Reprogramming of Enhancer and Regulatory Elements during Normal Aging ",
-    "article_date": "December 7, 2017",
-    "session_type": "502. Hematopoiesis: Regulation of Gene Transcription, Cytokines, Signal Transduction, Apoptosis, and Cell Cycle Regulation: Genetics, metabolism, and cell cycle regulation",
-    "topics": [
-        "aging",
-        "enhancer of transcription",
-        "epigenetics",
-        "hematopoietic stem cells",
-        "rna-seq",
-        "transcription factor",
-        "cadherins",
-        "hypoxia inducible factor 1, alpha subunit",
-        "lmna gene",
-        "cancer"
-    ],
-    "author_names": [
-        "Emmalee Adelman, BA",
-        "Andr\u00e9 Olsson, MSc, PhD",
-        "Tingting Qin, PhD",
-        "R. Coleman Lindsley, MD PhD",
-        "Rafael Bejar, MD PhD",
-        "Nathan Salomonis, PhD",
-        "Lee Grimes",
-        "Maria E. Figueroa, MD"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Pathology, University of Michigan, Ann Arbor, MI "
-        ],
-        [
-            "CCHMC, Cincinnati, OH "
-        ],
-        [
-            "University of Michigan, Ann Arbor, MI "
-        ],
-        [
-            "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA "
-        ],
-        [
-            "Moores Cancer Center, Univeresity of California, San Diego, La Jolla, CA "
-        ],
-        [
-            "Bioinformatics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
-        ],
-        [
-            "Division of Immunobiology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
-        ],
-        [
-            "Sylvester Comprehensive Cancer Center, University of Miami Miller School of Medicine, Miami, FL"
-        ]
-    ],
-    "first_author_latitude": "42.298962499999995",
-    "first_author_longitude": "-83.7071455",
-    "abstract_text": "Aging is associated with impaired hematopoietic stem cell (HSC) function, increased risk of myeloid malignancies and the acquisition of clonal hematopoiesis of indeterminate potential (CHIP). Little is known about how epigenetic regulation contributes to these age-related changes in human HSC biology. Here we report a comprehensive epigenetic and transcriptomic profiling study of human HSC aging. The HSC enriched (HSCe; Lin- CD34+ CD38-) population was purified from young (18-30 yo) and aged (65-75 yo) healthy donors and used for ChIP-Seq of H3K4me1, H3K27ac, H3K4me3, H3K27me3, DNA methylation, and bulk and single-cell (sc) RNA-seq. 5-hydroxymethylcytosine (hmC) was also profiled in the Lin- CD34+ CD38+ fraction (n=4-7 per modification, per age group). Targeted exon sequencing of 128 genes revealed only 1 out of 24 donors with any mutation (DNMT3A mutation with variant allele frequency of 0.12); thus, we concluded that any observed epigenetic or transcriptional changes with age could not be due to CHIP. Analysis of histone modifications revealed significant changes in aged HSCe compared to young, affecting 21,022 H3K4me1, 15,686 H3K4me3 and 27,071 H3K27ac peaks, with the vast majority of peaks (>98%) losing signal intensity with age (log likelihood ratio >3). In contrast, only 1,748 H3K27me3 peaks changed with age. Genes with age-related loss of H3K4me1, H3K4me3, or H3K27ac tended to lower expression in aged HSCe compared to young, while genes with reduced H3K27me3 tended to higher expression (t-test, p < 0.05). Functional annotation of regions with decreased H3K4me1 and H3K27ac showed they are associated with genes involved in hematopoiesis and chromatin organization, and RNA splicing, respectively; while sites with age-associated decrease in H3K4me3 and H3K27me3 are associated with developmental pathways (ChIP-enrich, FDR H3K4me3, > 3 kb from TSS) lost H3K27ac with age, including enhancers regulating numerous hematopoietic transcription factors such as RUNX3, FLI1, GATA2, GFI1, HIF1A, and KLF6, as well as epigenetic modifiers BCOR, DNMT3A, DOT1 L and KMT2A, and the gene mutated in progeria syndromes, LMNA .KEGG pathway analysis of all active enhancers lost with age exhibited enrichment for B- and T-cell signaling, and leukemic and apoptosis pathways (ChIP-enrich, FDR<0.05). In addition, analysis of bivalent promoters revealed that 1,017 out of 3,967 bivalent promoters identified in young HSCe shifted from bivalency towards repression in aged HSCe, due to loss of H3K4me3. These lost bivalent promoters are enriched for WNT, Hedgehog and Cadherin signaling pathways and include several HOXC cluster genes and WNT factors (ChIP-enrich, FDR<0.05). Notably, analysis of DNA methylation showed only focal changes, with 529 differentially methylated regions with aging (q-value < 0.05 and methylation difference \u226520%), which were associated with cell adhesion, cadherins, and WNT-signaling (ChIP-enrich, FDR <0.05). In contrast, global profiling of hmC revealed 14,554 peaks gained (FDR<0.05) at regions enriched for GATA and KLF family transcription factor binding motifs (Homer, q<1.0e-4). At the expression level, 502 genes were differentially expressed with age (FDR < 0.05 and Fold change \u2265 1.5), with downregulation of LMNA, the splicing factors U2AF1 and SREK1 , hematopoietic transcription factors HIF1A , BCL6 and KLF factors 3, 6, 7 and 10, and the epigenetic modifiers KDM3A , SETD6 , SETD8 and SETD1A . Strikingly, analysis of sc-RNA-seq of young and aged HSCe showed that while 4 out of 208 young HSCe possessed elements of the aged HSCe gene signature, no young HSCe displayed the complete aged HSCe expression profile. In summary, integrative profiling of aged human HSCe reveals widespread epigenetic changes, targeting active enhancers of hematopoietic transcription factors and genes involved in immune function, thus implicating enhancer deregulation in aged HSC loss of function. Importantly, both mutational analysis and single cell RNA-seq suggest that these changes cannot be attributed to clonal hematopoiesis alone, but rather, are due in part to reprogramming of aged HSCs. Disclosures Lindsley: Takeda Pharmaceuticals: Consultancy; Jazz Pharmaceuticals: Consultancy; MedImmune: Research Funding. Bejar: Genoptix: Consultancy, Honoraria, Patents & Royalties; AbbVie/Genetech: Honoraria, Other: Ad-hoc advisory board; Modus Outcomes: Consultancy, Honoraria; Foundation Medicine: Honoraria, Other: Ad-hoc advisory board; Otsuka/Astex: Honoraria, Other: Ad-hoc advisory board; Celgene: Consultancy, Honoraria, Other: DSMB, Steering Committee, Research Funding."
+    "url": "https://ashpublications.org/blood/article/130/Suppl_1/770/83460/Integrative-Epigenetic-and-Single-Cell-RNA-Seq?searchresult=1",
+    "datetime_link_obtained": "2022-04-28T16:32:19",
+    "is_scraped": "0"
 }
