@@ -1,80 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3920",
+    "start_url_page_num": "3920",
     "doi": "https://doi.org/10.1182/blood-2018-99-114275",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3920",
-    "start_url_page_num": 3920,
-    "is_scraped": "1",
-    "article_title": "A Novel Predictor of Response to Gemtuzumab Ozogamicin Therapy in AML Provides Strategies for Sensitization of Leukemia Stem Cells in Individual Patients ",
-    "article_date": "November 29, 2018",
-    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster II",
-    "topics": [
-        "gemtuzumab",
-        "leukemia",
-        "stem cells",
-        "sensitization",
-        "cd33 antigen",
-        "membrane transport proteins",
-        "agonists",
-        "antigens",
-        "atac trial",
-        "cytotoxicity"
-    ],
-    "author_names": [
-        "Stanley W.K. Ng",
-        "Schoof E Erwin",
-        "Amanda Mitchell, PhD",
-        "Mark D. Minden, MD PhD",
-        "Lars Bullinger, MD",
-        "Hartmut D\u00f6hner, MD",
-        "Herv\u00e9 Dombret",
-        "Claude Preudhomme",
-        "Meyling Cheok, BSPharm, PhD",
-        "John E. Dick, PhD",
-        "Jean C.Y. Wang, MD PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Institute of Biomaterials and Biomedical Engineering, University of Toronto, Toronto, Canada "
-        ],
-        [
-            "Biotech Research and Innovation Centre, Copenhagen, Denmark ",
-            "Princess Margaret Cancer Centre, University Health Network, Toronto, Canada ",
-            "Finsen Laboratory, Rigshospitalet, Copenhagen, Denmark ",
-            "Department of Bioengineering, Technical University of Denmark, Kongens Lyngby, Denmark "
-        ],
-        [
-            "Princess Margaret Cancer Centre, University Health Network, Toronto, Canada "
-        ],
-        [
-            "Princess Margaret Cancer Centre, University Health Network, Toronto, Canada ",
-            "Princess Margaret Cancer Centre, Division of Medical Oncology and Hematology, University of Toronto, Toronto, Canada ",
-            "Department of Medical Biophysics, University of Toronto, Toronto, Canada "
-        ],
-        [
-            "Department of Hematology, Oncology and Tumorimmunology, Charit\u00e9 University Medicine, Berlin, Germany "
-        ],
-        [
-            "Department of Internal Medicine III, University Hospital Ulm, Ulm, Germany "
-        ],
-        [
-            "Hematology, University of Paris Diderot, Hopital Saint-Louis, Paris, France "
-        ],
-        [
-            "Centre de Biologie-Pathologie, Centre Hospitalier Universitaire de Lille, Lille, France "
-        ],
-        [
-            "Institut de Recherche contre le Cancer de Lille, UMR-S1172, Lille, France "
-        ],
-        [
-            "Princess Margaret Cancer Centre, University Health Network, Toronto, Canada ",
-            "Molecular Genetics, University of Toronto, Toronto, Canada "
-        ],
-        [
-            "University Health Network, Princess Margaret Cancer Centre, Toronto, Canada ",
-            "Division of Medical Oncology and Hematology, Department of Medicine, Toronto, Canada ",
-            "Departments of Medicine, University of Toronto, Toronto, Canada"
-        ]
-    ],
-    "first_author_latitude": "43.6600101",
-    "first_author_longitude": "-79.3931363",
-    "abstract_text": "Acute myeloid leukemia (AML) patients with normal cytogenetics, NPM1 mutation, and no FLT3-ITD are considered to be at low molecular risk (LMR). We previously reported that most LMR patients have a low LSC17 score; these patients derive benefit from the addition of low fractionated doses of gemtuzumab ozogamicin (GO) to standard treatment and have favorable survival outcomes compared to patients with high LSC17 scores (Ng, Nature 2016). We recently developed a 13-gene sub-score (LMR13) that can be calculated from the LSC17 assay; a high LMR13 score identifies not only patients with molecularly-defined LMR disease, but also patients with LMR-like gene expression (GE), treatment response, and survival outcome. Similar to LMR cases, LMR-like patients gain a significant overall, event-free, and relapse-free survival (OS, EFS, RFS) benefit from the addition of GO treatment as observed in the ALFA-0701 trial cohort (OS: P=0.05; EFS: P=0.009; RFS: P=0.02). To gain mechanistic insight into the molecular determinants of GO response in LMR and LMR-like patients, we modelled the pathway through which GO traverses upon targeting a cell using a curated list of n=245 genes that includes the GO binding receptor CD33, lysosomal markers, ATP-binding cassette (ABC) transporters, DNA damage response/repair machinery, and pro/anti apoptotic factors. Sparse statistical regression was applied to a training dataset of n=495 AML patients (GSE6891) to identify the minimal subset of pathway components that were most associated with high LMR13 scores as a surrogate for GO responsiveness. This process selected n=16 genes which were then used to construct a random forest classifier to predict GO response. The final decision-tree based model, termed GO12, retained n=12 of the 16 pathway genes, and was able to accurately identify LMR and LMR-like patients across n=5 independent AML cohorts totaling n=1188 patients (AUC\u224880.8%). As expected, ALFA-0701 patients who were predicted to be LMR-like with >50% certainty achieved significantly better survival when GO was added to their induction regimen (OS: P=0.03; EFS: P<0.001; RFS: P=0.001), while those with <50% certainty did not (Figure 1). The GO12 model also estimates the contribution of each GO pathway component to treatment sensitivity or resistance. For example, higher expression of ABCB1/ABCG1 transporter or the DNA damage repair gene APEX1 is associated with significantly lower GO response; these genes are key contributors to GO resistance. Conversely, higher lysosomal membrane marker LAMP1 , pro-apoptotic BID , or GO-binding receptor CD33 GE was associated with significantly higher GO response. These results suggest that AML patients may be further sensitized to GO if treated in combination with inhibitors or agonists of specific pathway components that confer resistance or sensitivity to response, respectively. To determine if there is a therapeutic window of GO effects on normal versus leukemic hematopoietic stem cells, we applied the GO12 model to GE data derived from hematopoietic stem and progenitor cell (HSPC)-enriched human umbilical cord blood (hUCB) samples (GSE29105, GSE42414, GSE58299). The baseline predicted probability of GO sensitivity of these populations was at most 17%. Simulated GE knockdown (KD) of all possible combinations of the key resistance factors up to 3 standard deviations revealed a maximal model-predicted probability of GO response of 52%, consistent with robust inherent resistance of hUCB-HSPC to GO-mediated cytotoxicity. In contrast, applying the same analysis to GE data derived from AML patient samples predicted that LSC-containing populations can be sensitized to GO with up to 75% probability through double or triple KD of key GO resistance factors. Furthermore, analysis of chromatin accessibility (ATAC-Seq) data revealed that GO toxin (calicheamicin) DNA-binding motifs are situated within genomic loci where chromatin is significantly more open in LSC-enriched than in LSC-depleted or hUCB-derived HSPC/mature cell fractions (P<0.001, Figure 2), suggesting that LSC can be preferentially targeted by GO. Taken together, the GO12 response predictor represents a novel tool for rational selection of combination therapies to maximize GO response in individual patients with AML. View large Download slide View large Download slide  Disclosures Bullinger: Amgen: Honoraria, Speakers Bureau; Bayer Oncology: Research Funding; Novartis: Honoraria, Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Janssen: Speakers Bureau; Sanofi: Research Funding, Speakers Bureau; Pfizer: Speakers Bureau; Bristol-Myers Squibb: Speakers Bureau; Jazz Pharmaceuticals: Membership on an entity's Board of Directors or advisory committees, Speakers Bureau. D\u00f6hner: Astellas: Consultancy, Honoraria; AbbVie: Consultancy, Honoraria; Pfizer: Research Funding; AbbVie: Consultancy, Honoraria; Seattle Genetics: Consultancy, Honoraria; Agios: Consultancy, Honoraria; Astex Pharmaceuticals: Consultancy, Honoraria; Celator: Consultancy, Honoraria; Jazz: Consultancy, Honoraria; Amgen: Consultancy, Honoraria; Sunesis: Consultancy, Honoraria, Research Funding; AROG Pharmaceuticals: Research Funding; Amgen: Consultancy, Honoraria; Bristol Myers Squibb: Research Funding; Celgene: Consultancy, Honoraria, Research Funding; Astex Pharmaceuticals: Consultancy, Honoraria; Agios: Consultancy, Honoraria; Janssen: Consultancy, Honoraria; Bristol Myers Squibb: Research Funding; Celator: Consultancy, Honoraria; AROG Pharmaceuticals: Research Funding; Astellas: Consultancy, Honoraria; Novartis: Consultancy, Honoraria, Research Funding; Pfizer: Research Funding; Novartis: Consultancy, Honoraria, Research Funding; Jazz: Consultancy, Honoraria; Celgene: Consultancy, Honoraria, Research Funding; Sunesis: Consultancy, Honoraria, Research Funding; Janssen: Consultancy, Honoraria; Seattle Genetics: Consultancy, Honoraria. Dombret: Seattle Genetics: Consultancy, Honoraria; Servier: Consultancy, Honoraria; Janssen: Consultancy, Honoraria; Astellas: Consultancy, Honoraria; Menarini: Consultancy, Honoraria; Karyopharm: Consultancy, Honoraria; Ambit (Daiichi Sankyo): Consultancy, Honoraria; Sunesis: Consultancy, Honoraria; Agios: Consultancy, Honoraria; Novartis: Consultancy, Honoraria, Research Funding; Kite Pharma: Consultancy, Honoraria, Research Funding; Jazz Pharma: Consultancy, Honoraria, Research Funding; Ariad (Incyte): Consultancy, Honoraria, Other: Travel expenses, Research Funding, Speakers Bureau; Roche/Genentech: Consultancy, Honoraria; Pfizer: Consultancy, Honoraria, Research Funding, Speakers Bureau; Amgen: Consultancy, Honoraria, Other: Travel expenses, Research Funding, Speakers Bureau; Cellectis: Consultancy, Honoraria, Other: Travel expenses; Celgene: Consultancy, Honoraria, Other: Travel expenses, Speakers Bureau; Immunogen: Consultancy, Honoraria; Shire-Baxalta: Consultancy, Honoraria; Abbvie: Consultancy, Honoraria; Otsuka: Consultancy, Honoraria."
+    "url": "https://ashpublications.org/blood/article/132/Supplement 1/2765/264257/A-Novel-Predictor-of-Response-to-Gemtuzumab?searchresult=1",
+    "datetime_link_obtained": "2022-04-28T23:21:10",
+    "is_scraped": "0"
 }
