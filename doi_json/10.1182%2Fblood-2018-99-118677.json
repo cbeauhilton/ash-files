@@ -1,69 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3871",
+    "start_url_page_num": "3871",
     "doi": "https://doi.org/10.1182/blood-2018-99-118677",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3871",
-    "start_url_page_num": 3871,
-    "is_scraped": "1",
-    "article_title": "A Personalized Prediction Model for Outcomes after Allogeneic Hematopoietic Stem Cell Transplant in Patients with Myelodysplastic Syndromes: On Behalf of the CIBMTR Chronic Leukemia Committee ",
-    "article_date": "November 29, 2018",
-    "session_type": "732. Clinical Allogeneic Transplantation: Results: To Transplant or Not to Transplant? That Is the Question",
-    "topics": [
-        "allogeneic hematopoietic stem cell transplant",
-        "chronic leukemia",
-        "myelodysplastic syndrome",
-        "brachial plexus neuritis",
-        "transplantation",
-        "human leukocyte antigens",
-        "prostatic hypertrophy risk score",
-        "follow-up",
-        "protein p53",
-        "chemotherapy regimen"
-    ],
-    "author_names": [
-        "Aziz Nazha",
-        "Zhen-Huan Hu, MPH",
-        "Tao Wang, PhD",
-        "Betty K. Hamilton, MD",
-        "Navneet S. Majhail, MD MS",
-        "R. Coleman Lindsley, MD, PhD",
-        "Ronald Sobecks, MD",
-        "Uday Popat, MD",
-        "Bart L Scott, MD",
-        "Wael Saber, MD MS"
-    ],
-    "author_affiliations": [
-        [
-            "Cleveland Clinic, Cleveland, OH "
-        ],
-        [
-            "CIBMTR (Center for International Blood and Marrow Transplant Research), Department of Medicine, Medical College of Wisconsin, Milwaukee, WI "
-        ],
-        [
-            "CIBMTR (Center for International Blood and Marrow Transplant Research), Department of Medicine, Medical College of Wisconsin, Milwaukee, WI ",
-            "Division of Biostatistics, Institute for Health and Society, Medical College of Wisconsin, Milwaukee, WV "
-        ],
-        [
-            "Taussig Cancer Institute, Blood and Marrow Transplant Program, Cleveland Clinic Foundation, Cleveland, OH "
-        ],
-        [
-            "Taussig Cancer Institute, Department of Hematology & Medical Oncology, Cleveland Clinic Foundation, Cleveland, OH "
-        ],
-        [
-            "Dana-Farber Cancer Institute, Boston, MA "
-        ],
-        [
-            "Taussig Cancer Institute, Department of Hematology & Medical Oncology, Cleveland Clinic Foundation, Cleveland, OH "
-        ],
-        [
-            "Department of Stem Cell Transplantation and Cellular Therapy, The University of Texas MD Anderson Cancer Center, Houston, TX "
-        ],
-        [
-            "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA"
-        ],
-        [
-            "CIBMTR (Center for International Blood and Marrow Transplant Research), Department of Medicine, Medical College of Wisconsin, Milwaukee, WI "
-        ]
-    ],
-    "first_author_latitude": "41.486636600000004",
-    "first_author_longitude": "-81.7188455",
-    "abstract_text": "Background Allogeneic hematopoietic cell transplantation (HCT) remains the only potentially curative option for myelodysplastic syndromes (MDS). Genetic alterations have an impact on outcomes after HCT in MDS (Lindsley C, et al, NEJM 2017). Given the significant risks of transplant-related mortality and relapse, identifying patients (pts) who may or may not benefit from HCT is clinically important. We explored how the incorporation of genomic / clinical data using machine learning algorithms can create a personalized prediction model that can predict outcomes after HCT in MDS pts. Method MDS patients enrolled in the Center for International Blood and Marrow Transplant Research (CIBMTR) Registry were considered for inclusion. Pts were excluded only if blasts were >/= 20% or if they had diagnosis of CMML or MDS/MPN overlap. A panel of 127 gene mutations was performed on samples from peripheral blood prior to HCT. OS was measured from the time of transplant to death or last follow up. Relapse was measured from the time of transplant to time of relapse or last follow up. A random survival forest (RSF) algorithm was used to build the model, in which clinical and molecular variables are randomly selected for inclusion in determining survival and relapse probability, thereby avoiding some of the limitations of traditional Cox step-wise regression in accounting for variable interactions. The accuracy of the proposed model was assessed by concordance (c-) index. Results A total of 1514 MDS pts included and randomly divided into training (1059 pts) and validation (455 pts) cohorts. The median age of the entire cohort was 59 years (range 0.4 - 77). Donors were 8/8 HLA-matched unrelated donors (n = 862, 57%), HLA-identical siblings (n = 181, 12%), < 8/8 HLA-matched unrelated donors (n = 296, 20%), or umbilical cord blood (n = 174, 11%). Conditioning regimens included: myeloablative (n=789, 52%), reduced-intensity (n=582, 38%), nonmyeloablative (n=130, 9%), and missing data (n=13, 1%). Cytogenetic analysis by IPSS-R criteria: 579 (38%) very good/good, 269 (18%) intermediate, 287 (19%) poor, 125 (8%) very poor, missing 254 (17%). Median number of mutations/sample was 2 (range, 0-15). The most commonly mutated genes were: ASXL 1 (20%), TP 53 (19%), DNMT 3 A (15%), TET 2 (12%), RUNX 1 (11%), SF 3 B 1 (9%), U2AF1 (8%), and SRSF2 (6%). Variable importance analysis (the most important variables that contributed to the outcome) and multiple backward elimination analysis (identifying the least number of variables that can provide the least error rate) identified the following variables prior to HCT that impacted OS: age, TP53 mutation, absolute neutrophils counts (ANC), cytogenetics per IPSS-R, Karnofsky performance status (KPS), conditioning regimen, donor age, WBC, hemoglobin, diagnosis of therapy-related MDS (t-MDS), peripheral blast percentage, mutations in RAS pathway, JAK2 mutation, number of mutations, ZRSR2 , and CUX1 mutations. Variables prior to HCT that affected the cause-specific hazard of relapse included: TP53 mutation, conditioning regimen, cytogenetics per IPSS-R, hemoglobin, disease status prior to HCT, receiving hypomethylating agent vs chemotherapy prior to HCT, number of mutations, age, year of transplant, IPSSR, WBC, KPS, mutations in RAS pathway, in-vivo T cell depletion, ANC, peripheral blast percentage, t-MDS, monosomal karyotype status, number or prior treatments, ASXL1 mutation, bone marrow blast percentage, and PPM1D mutation. To ease the translation of this tool into the clinic, a web application was built where clinical and mutational variables can be entered and the survival probability at 6,12, and 24 months will be computed, Figure 1. The model was valid for OS when it was applied to the validation cohort (c-index of the model in the training cohort was .6, and validation cohort .61. Conclusions: We built a personalized prediction model that uses clinical, molecular, and transplant-related data and can predict the probability of survival in MDS pts that are specific for a given pt. The new model identified several clinical and molecular variables that impacted OS and the cause-specific hazard of relapse. The OS probability at different time points may aid physicians and pts in their decision prior to HCT. View large Download slide View large Download slide Disclosures Nazha: MEI: Consultancy. Majhail: Incyte: Honoraria; Atara: Honoraria; Anthem, Inc.: Consultancy."
+    "url": "https://ashpublications.org/blood/article/132/Supplement 1/206/261823/A-Personalized-Prediction-Model-for-Outcomes-after?searchresult=1",
+    "datetime_link_obtained": "2022-04-28T21:18:36",
+    "is_scraped": "0"
 }
