@@ -1,52 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3566",
+    "start_url_page_num": "3566",
     "doi": "https://doi.org/10.1182/blood.V128.22.2203.2203",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3551",
-    "start_url_page_num": 3551,
-    "is_scraped": "1",
-    "article_title": "Precision Dosing of Alemtuzumab: Population Pharmacokinetic Modeling in Pediatric Patients Undergoing Allogeneic Hematopoietic Cell Transplantation for Non-Malignant Diseases ",
-    "article_date": "December 2, 2016",
-    "session_type": "721. Clinical Allogeneic Transplantation: Conditioning Regimens, Engraftment, and Acute Transplant Toxicities: Poster I",
-    "topics": [
-        "alemtuzumab",
-        "hematopoietic stem cell transplantation",
-        "pediatrics",
-        "transplantation",
-        "fludarabine",
-        "graft-versus-host disease",
-        "graft-versus-host disease, acute",
-        "melphalan",
-        "allogeneic hematopoietic stem cell transplant",
-        "subcutaneous injections"
-    ],
-    "author_names": [
-        "Tsuyoshi Fukuda, PhD",
-        "Chie Emoto, PhD",
-        "Rebecca A Marsh, MD",
-        "Lisa Neumeier, BS",
-        "Alexander A. Vinks, PharmD, PhD",
-        "Parinda A Mehta, MD"
-    ],
-    "author_affiliations": [
-        [
-            "Division of Clinical Pharmacology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
-        ],
-        [
-            "Division of Clinical Pharmacology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
-        ],
-        [
-            "Division of Bone Marrow Transplantation and Immune Deficiency, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
-        ],
-        [
-            "Division of Bone Marrow Transplantation and Immune Deficiency, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
-        ],
-        [
-            "Division of Clinical Pharmacology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH"
-        ],
-        [
-            "Division of Bone Marrow Transplantation and Immune Deficiency, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
-        ]
-    ],
-    "first_author_latitude": "39.140475099999996",
-    "first_author_longitude": "-84.5015397",
-    "abstract_text": "INTRODUCTION: A commonly utilized reduced intensity conditioning (RIC) for allogeneic hematopoietic cell transplantation (HCT) of patients with non-malignant disorders consists of alemtuzumab (Campath), fludarabine, and melphalan. Our group recently showed that the risks of acute graft vs host disease (GVHD) and the development of mixed chimerism following this regimen are determined by the peri-transplant levels of alemtuzumab, and recommended a potential optimal Day 0 (D0) alemtuzumab level in the range of 0.2-0.4 \u00b5g/mL (Marsh et al, Blood 2016). Additionally, patients with Day 0 alemtuzumab levels >0.6ug/mL also had delayed immune reconstitution post-transplant. We have since conducted a prospective 'intensive sampling' pharmacokinetics (PK) study of subcutaneous alemtuzumab in pediatric patients undergoing HCT (Marsh et al. EBMT Oral Presentation 2016). PK data showed a large inter-individual variability in alemtuzumab exposure and D0 levels. Importantly, levels correlated with pre-transplant absolute lymphocyte count (ALC) and underlying diagnoses. Due to the direct effects of alemtuzumab levels on important HCT outcomes, it is desirable to optimize its dosing. Ideal dosing will be where there is adequate alemtuzumab on D0 to prevent acute GVHD but not too much so as to increase the risk of mixed chimerism and/or delay early post-HCT immune recovery. In order to support targeted precision dosing of alemtuzumab in a prospective clinical trial, we have developed a population PK (PPK) model for Bayesian adaptive control. METHODS: Pediatric patients (n=17) with non-malignant disorders receiving subcutaneous alemtuzumab as a part of their preparative regimen were prospectively enrolled in our 'intensive sampling' PK study. The median age of patients was 7.0 years (3.0-11.0) and median weight was 32.2 kg (16.2-58.9). Alemtuzumab was subcutaneously administered starting on Day -14 at a dose of 0.2 mg/kg/day for 5 days (total dose of 1 mg/kg). Alemtuzumab plasma concentrations were quantified by validated flow cytometric assay. The plasma concentrations at pre-dose, 30 minutes, and 8 hours after each dose, followed by daily levels until Day 0 were used for PPK analysis. PPK analysis was performed using nonlinear mixed effects modeling (NONMEM, version 7.2). Bayesian estimation was conducted using MW/Pharm software (version 3.6). RESULTS: A one-compartment model with first order absorption best described the PK of alemtuzumab (Figure 1). Model fit was significantly improved by including body weight with allometric scaling for clearance and the volume of distribution ( p <0.01). Goodness-of-fit plots did not show systematic bias. Model parameter estimates were within the 95% CIs of median values obtained by bootstrap analysis. Bayesian estimation with the developed PPK resulted in well predicted alemtuzumab concentration-time profiles in each patient (Figure 2). CONCLUSION: This is a first study to develop a PPK model of alemtuzumab after subcutaneous administration in pediatric transplant patients. Our model can be used for Bayesian estimation of individual PK to support alemtuzumab precision dosing in pediatric patients undergoing allogeneic HCT using the alemtuzumab, fludarabine, and melphalan containing RIC. Precision dosing of alemtuzumab will in turn optimize transplant outcomes for these high risk patients, by minimizing acute GVHD and mixed chimerism, along with improving post-HCT immune reconstitution. Figure 1 View large Download slide Visual predictive check of alemtuzumab PK model developed using pediatric data Circles: observed plasma concentrations; solid gray lines: lower (5 th ), middle (50 th , median) and upper (95 th ) percentiles of the observed data; dot-dashed black lines, 5 th , 50 th , 95 th percentiles of the predicted data; shaded areas, confidence intervals around the prediction intervals in each bin. Figure 1 View large Download slide Visual predictive check of alemtuzumab PK model developed using pediatric data Circles: observed plasma concentrations; solid gray lines: lower (5 th ), middle (50 th , median) and upper (95 th ) percentiles of the observed data; dot-dashed black lines, 5 th , 50 th , 95 th percentiles of the predicted data; shaded areas, confidence intervals around the prediction intervals in each bin. Figure 2 View large Download slide Population PK model predicted vs. Individual prediction of alemtuzumab concentration-time profile in a representative patient Dotted line: population prediction; solid line: individual prediction; circles: observed plasma concentrations. Figure 2 View large Download slide Population PK model predicted vs. Individual prediction of alemtuzumab concentration-time profile in a representative patient Dotted line: population prediction; solid line: individual prediction; circles: observed plasma concentrations. Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/128/22/2203/100695/Precision-Dosing-of-Alemtuzumab-Population?searchresult=1",
+    "datetime_link_obtained": "2022-04-28T07:39:41",
+    "is_scraped": "0"
 }
