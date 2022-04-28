@@ -1,56 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3875",
+    "start_url_page_num": "3875",
     "doi": "https://doi.org/10.1182/blood-2018-99-119681",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3875",
-    "start_url_page_num": 3875,
-    "is_scraped": "1",
-    "article_title": "Accurate Prediction of RH Genotypes Using Whole Genome Sequencing Data ",
-    "article_date": "November 29, 2018",
-    "session_type": "101. Red Cells and Erythropoiesis, Structure and Function, Metabolism, and Survival, Excluding Iron: Poster II",
-    "abstract_text": "Introduction RBC alloimmunization is common in patients with sickle cell disease (SCD). Despite serological matching RBCs for major Rh antigens, Rh alloimmunization remains problematic. The Rh blood group is encoded by two genes RHD and RHCE , which exhibit extensive nucleotide polymorphism and chromosome structural changes, resulting in the formation of Rh variant antigens. Rh variants can result in loss of protein epitopes or expression of neo-epitopes, and are common in SCD patients. Hence SCD patients harboring Rh variants can be predisposed to Rh alloimmunization. Given the limitation of traditional serologic antigen typing for detection of Rh variants, molecular genotyping has become required. A DNA microarray-based platform, BioArray RHCE and RHD BeadChip (Immuncor) is available for RH genotyping. However, it detects the most common, but not all, variants. Whole exome sequence data have been used for prediction of Rh variants (Chou, et. al, Blood Adv., 2017), offer some advantages, including detection of rare variants, structural rearrangements and copy number variation. However, whole genome sequence (WGS) analysis of RHD/RHCE is challenging due to difficulties in mapping next generation sequencing (NGS) reads to this duplicated gene family. We developed a computational algorithm to identify RH variants using WGS data. Methods The pipeline included three major components, RH allele database construction, RH variant calling, and classification of Rh blood group according the identified variants. The RH allele database was built based on NCBI Blood Group Antigen Gene Mutation (BGMUT) and International Society of Blood Transfusion (ISBT) database. Since the alleles in the BGMUT and ISBT databases were specified according to conventional RH genes ( RHD, L08429; RHCE, DQ322275) that are different from those on reference human genome, we first called the variations based on the reference human genome. The positions of the identified variations were subsequently corrected to match with the BGMUT and ISBT annotation system. Next, the NGS reads with low base quality and/or mapping quality were discarded during the variation calling step. Synonymous and non-synonymous amino acid changes were characterized for each polymorphism. Haplotypes were constructed for the segments with NGS read support. Gene sequencing coverage was calculated to determine gene deletions or amplifications. Lastly, we implemented an algorithm to predict RH genotypes based on a selection of candidate alleles by read-mapping profile which considers both sequence variations and sequence consistency followed by a likelihood-based ranking of all pairwise combinations of the selected alleles. The allele combination with the highest likelihood is considered the most likely pair of alleles at a given locus. Patient specimens used in this study were from participants of the Sickle Cell Clinical Research and Intervention Program (SCCRIP, Hankins et al. Pediatr Blood Cancer. 2018). Results We validated our method in a cohort of 58 SCD patients whose RH genotypes had been determined by BioArray RhCE and RhD BeadChip and supplementary molecular tests that identify the most common variants among individuals of African descent. In this validation cohort including a total of 11 RHD and 13 RHCE alleles, our approach achieved a concordance rate of 85.85% (91 of 106 alleles) for RHD and 83.02% (88 of 106 alleles) for RHCE genotyping. WGS was highly sensitive in distinguishing homozygosity from heterozygosity of genes. By comparing the numbers of NGS reads on RH regions and whole genome average coverage, heterozygous deletion can be determined. Since WGS provides comprehensive genotyping, our analysis identified single nucleotide polymorphisms that were not identified by the BeadChip and supplemental molecular testing. The final source of discordance was likely due to the short read length of NGS such that haplotype phases cannot be correctly predicted if the variations are separated by thousands of base pairs, for which long read DNA sequencing or RNA/cDNA sequencing are required. Evaluation of the identified discrepancies is ongoing. Conclusions We developed and validated a diagnostic method for RH genotyping that leveraged the accuracy and flexibility of RH genotyping based on WGS data. With further optimization of our method, this may be useful for RBC genotype matching sickle cell patients to blood donors in the future. Disclosures Hankins: Novartis: Research Funding; Global Blood Therapeutics: Research Funding; NCQA: Consultancy; bluebird bio: Consultancy.",
-    "topics": [
-        "alloimmunization",
-        "amino acids",
-        "antigens",
-        "blood group antigens",
-        "blood transfusion",
-        "dna",
-        "dna, complementary",
-        "epitopes",
-        "genotype",
-        "genotype determination"
-    ],
-    "author_names": [
-        "Yan Zheng, MD PhD",
-        "Ti-Cheng Chang, PhD",
-        "Gang Wu, PhD",
-        "Jane S. Hankins, MD MS",
-        "Mitchell J. Weiss, MD PhD",
-        "Connie M. Westhoff, PhD",
-        "Stella T. Chou, MD"
-    ],
-    "author_affiliations": [
-        [
-            "St. Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "Department of Computational Biology, St Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "Department of Hematology, St. Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "Department of Hematology, St. Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "New York Blood Center, New York, NY "
-        ],
-        [
-            "Division of Hematology, The Children's Hospital of Philadelphia, Philadelphia, PA"
-        ]
-    ],
-    "first_author_latitude": "35.1535661",
-    "first_author_longitude": "-90.04350579999999"
+    "url": "https://ashpublications.org/blood/article/132/Supplement 1/2332/261888/Accurate-Prediction-of-RH-Genotypes-Using-Whole?searchresult=1",
+    "datetime_link_obtained": "2022-04-28T21:40:52",
+    "is_scraped": "0"
 }
