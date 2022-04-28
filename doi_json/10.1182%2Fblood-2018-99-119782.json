@@ -1,36 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3936",
+    "start_url_page_num": "3936",
     "doi": "https://doi.org/10.1182/blood-2018-99-119782",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3936",
-    "start_url_page_num": 3936,
-    "is_scraped": "1",
-    "article_title": "Parametric Modeling of \"Chemotherapy-Free\" Regimens in CLL ",
-    "article_date": "November 29, 2018",
-    "session_type": "642. CLL: Therapy, excluding Transplantation",
-    "topics": [
-        "animal model",
-        "chemotherapy regimen",
-        "ibrutinib",
-        "combined modality therapy",
-        "rituximab",
-        "venetoclax",
-        "lymphoma",
-        "bendamustine",
-        "cytotoxin",
-        "follicular lymphoma"
-    ],
-    "author_names": [
-        "Mitchell R. Smith, MD PhD",
-        "Robert Weiss, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "GW Cancer Center, George Washington University School of Medicine and Health Sciences, Washington, DC "
-        ],
-        [
-            "Back Bay Biosciences, Boston, MA"
-        ]
-    ],
-    "first_author_latitude": "38.901256599999996",
-    "first_author_longitude": "-77.0484384",
-    "abstract_text": "Given rapid development of new agents to treat lymphoid malignances, including CLL, and that the number of potential combinations increases exponentially, the field is faced with deciding which combinations to test clinically. Pre-clinical data may be helpful, but has limitations. There is growing interest in in silico simulation of clinical trials to guide such decisions. Such simulations, if they demonstrate fidelity to pre-clinical and clinical data, offer potential for accelerated pre-clinical testing and enormous cost savings. They also permit tailoring of combinations, dosing and scheduling to individual patients; i.e., \"personalized medicine\". Our previous simulations of lymphoma addressed combination therapy (Weiss RF et al PLoS One, 2012), effects of immune response, and transformation (Weiss RF et al PLoS One, 2015). Recently (Smith & Weiss Leuk Res 2018) we modeled pre-existing therapy-resistant clones in CLL to optimize incorporation of ibrutinib into bendamustine-rituximab chemoimmunotherapy backbone, aimed at maximizing efficacy while minimizing drug exposure with its attendant toxicity and cost. Here we model \"chemotherapy-free\" approaches to therapy of CLL. Methods: The model requires derivation of these values: K*, ratio of malignant cell death to birth rates, related to aggressiveness of the disease; K', a measure of the efficacy of each single agent that affects either birth (ibrutinib) or death (venetoclax) rates, K\", a measure of the efficacy of directly cytotoxic agents. For example, to combine ibrutinib + venetoclax, K' C / K* = [K' v / K*] [K' i / K*] Results: Utilizing data from follicular lymphoma cells grown in mice (Bodo J et al Oncotarget 2016), we derived single agent parameters for venetoclax (K' V ) and rituximab (K' R ) that best matched the data. We then predicted the efficacy of the combination (K' C ) using those parameters and found a good fit to the experimental data. For derivation of ibrutinib (K' I ) we applied the data of Woyach, Bojnik et al (Blood 2014) on ibrutinib treatment of TCL1 transgenic mouse CLL model. We can now predict efficacy of 2- and 3-drug combinations of these agents, currently tested as \"chemotherapy-free\" regimens. The model predicts synergy in CLL control. We can also model intermittent therapy, stopping treatment after ~ 15 months and noting approximately a 15 month treatment-free interval before the CLL would require therapy again. These periodic applications can be repeated to maintain control of CLL. The model, using the single agent parameters derived above, predicts that addition of rituximab to ibrutinib-venetoclax will prolong survival of treated TCL1 mice; this is a testable prediction. As patients have multiple clones of varying sensitivity to treatments, the model predicts that clones sensitive to both drugs are most easily eliminated, while clones resistant to one of the drugs need to be more sensitive to the single active drug in order to be controlled long term. Thus, clones that progress on novel-novel combination therapy will be resistant to one agent, but still may retain moderate sensitivity to the other agent. The model predicts that addition of rituximab to the other 2 drugs from the beginning of therapy can, somewhat counterintuitively, actually control a pre-existing resistant clone for a prolonged period. Discussion: The parametric model needs to be more fully validated with data for other agents in other CLL (or lymphoma) model systems, and then demonstrate that it can reliably predict combination therapy outcomes. Once that has been shown, benefits of modeling combination therapy based on single agent derived data are the ability to quickly and inexpensively investigate in silico various combination, sequential and/or intermittent therapies. This can then aid selection of treatment strategies to be tested in animal models, and those most likely to be successful when tested in clinical trials. This will enhance the success rate of such trials, permitting more rapid advances with fewer patients exposed to less active strategies, saving patient resources and cost. Another potential application is to apply this method to clonal evolution data in sequential blood samples of individual patients with CLL, or to PDX models of lymphoma, to permit truly personalized alterations in treatment based on which clones become dominant. We plan to further develop the requisite mouse models to validate our approach. Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/132/Supplement 1/5555/263288/Parametric-Modeling-of-Chemotherapy-Free-Regimens?searchresult=1",
+    "datetime_link_obtained": "2022-04-28T23:42:23",
+    "is_scraped": "0"
 }
