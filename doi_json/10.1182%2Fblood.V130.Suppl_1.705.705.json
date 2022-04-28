@@ -1,72 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3741",
+    "start_url_page_num": "3741",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.705.705",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3741",
-    "start_url_page_num": 3741,
-    "is_scraped": "1",
-    "article_title": "Prediction of Extended Red Blood Cell Phenotype from Exome Next Generation Sequencing Data ",
-    "article_date": "December 7, 2017",
-    "session_type": "401. Basic Science and Clinical Practice in Blood Transfusion: Clinical and translational studies in transfusion medicine",
-    "abstract_text": "Introduction: Accurate typing of patient and donor red blood cell (RBC) antigens is critical for safe transfusion practice. Although blood typing is traditionally accomplished by serology, genotyping methods to predict RBC antigens have proven valuable in a growing number of situations such as recently-transfused patients, scarcity of typing reagents, and indeterminate serologic results. However current RBC genotyping assays address a limited number of blood group genes and associated variants, and may not detect novel genetic changes and certain rare but clinically-significant variants. Next generation sequencing (NGS) technology provides an appealing alternative technology, allowing the user to examine a patient's entire genome or exome in a high-throughput manner. Whereas efforts are underway in multiple fields to apply exome sequencing (ES) for diagnostic, prognostic, and treatment purposes, Transfusion Medicine, with its extensive clinical genomic database, should find ready application from this approach. We describe here the creation of an algorithm to interpret NGS into a predicted extended RBC phenotype, and its application to analyze ES data from 245 participants of the ClinSeq\u00ae sequencing cohort. Methods: RyLAN (Red Cell and Lymphocyte Antigen prediction from NGS) was created as an open-source Python application that takes an NGS sorted binary alignment matrix (.bam) file and index as input. The software interacts with a non-relational database that encodes genomic blood group coordinates and phenotype interpretation rules, and yields a predicted extended RBC phenotype and quality parameters. Hard filters for mapping quality, depth, vcf QUAL, and fraction of alternate allele can be modified per individual genomic coordinate. The output is provided as a MongoDB document to facilitate advanced bulk queries and statistical analysis. We employed RyLAN to analyze 245 ES NGS files from the ClinSeq\u00ae cohort, using a database of 176 known antigenic, null, and weak blood group single nucleotide variants in 27 blood group genes as input. Results: The cohort consisted of 115 females and 130 males; 89% of participants self-described as white race, non- Hispanic ethnicity. Three percent of participants self-described as Hispanic or Latino, 4% as Asian, 2% with African ancestry, and the remaining as mixed or unknown race. From the total 176 genomic positions analyzed, 160 were not addressed by current commercially-available RBC genotyping platforms. The average read depth for the positions of interest was 78.2, and the average vcf QUAL value was 968. The highest variant nucleotide frequency was observed at the Fya/Fyb and Jka/Jkb loci (275 and 223 total haplotype variant calls, respectively). Among other phenotypes, RyLAN predicted 4 instances of heterozygosity for the KEL*02N.17 allele, 5 heterozygous individuals for the weak FY* X allele, 32 total heterozygous samples for various weak Kidd alleles, 2 homozygous individuals for weak Kidd expression, 1 heterozygosity for Lu6/Lu9, 1 SC:1,2 case, 1 Co(a-b+) predicted phenotype, and a total of 19 RHAG*01.04 and 47 KLF1*BGM12 alleles. Limited areas of the BCAM, KLF1 , KEL, FUT7, ERMAP and CR1 genes failed quality filters repeatedly, and careful review indicated that these regions were not captured in the ES libraries. The ACKR1 promoter GATA-binding site variant was present in every sample and predicted all cases of self-reported African ancestry. Conclusions: We describe a new, open-source informatics tool to translate NGS data into a predicted extended RBC phenotype, and demonstrate its application through the analysis of 245 ClinSeq\u00ae ES files. Most predicted antigen frequencies were as expected for the ethnic composition of our cohort. We detected a higher frequency of the RHAG p.V270I and KLF1 p.S102P variants than expected, findings that are in agreement with the 1000 Genomes Project and warrant further study. Our analysis also corroborates the relative frequency of the JK*01W.01 allele, and the presence of the JK*01W.03 and JK*01W.04 alleles in the Caucasian population, which can lead to serologic discrepancies in other genotyping platforms. Serologic confirmation of these findings is being conducted. Further study of genomic data across multiple ethnic groups can help refine knowledge of blood group gene polymorphisms and their clinical association. Disclosures No relevant conflicts of interest to declare.",
-    "topics": [
-        "erythrocytes",
-        "exome",
-        "massively-parallel genome sequencing",
-        "phenotype",
-        "blood groups",
-        "genotype determination",
-        "antigens",
-        "nucleotides",
-        "spinal compression fractures",
-        "transfusion"
-    ],
-    "author_names": [
-        "Celina Montemayor Garcia, MD PhD",
-        "Spencer E Grissom",
-        "Oscar A Montemayor, MSEE",
-        "Katie L Lewis",
-        "Panagiota Karagianni, PhD",
-        "Maxim Tynuv, SBB",
-        "Marina U Bueno, SBB",
-        "Sharon Adams, MT, CHS (ABHI)",
-        "Harold E Smith, PhD",
-        "Leslie G Biesecker, MD",
-        "Harvey Klein, MD"
-    ],
-    "author_affiliations": [
-        [
-            "Clinical Center/ Department of Transfusion Medicine, National Institutes of Health, Bethesda, MD "
-        ],
-        [
-            "Clinical Center/ Department of Transfusion Medicine, National Institutes of Health, Bethesda, MD "
-        ],
-        [
-            "Clinical Center/ Department of Transfusion Medicine, National Institutes of Health, Bethesda, MD "
-        ],
-        [
-            "National Human Genome Research Institute, National Institutes of Health, Bethesda, MD "
-        ],
-        [
-            "B.S.R.C Alexander Flemming, Vary, Greece "
-        ],
-        [
-            "Clinical Center/ Department of Transfusion Medicine, National Institutes of Health, Bethesda, MD "
-        ],
-        [
-            "Clinical Center/ Department of Transfusion Medicine, National Institutes of Health, Bethesda, MD "
-        ],
-        [
-            "Clinical Center/ Department of Transfusion Medicine, National Institutes of Health, Bethesda, MD "
-        ],
-        [
-            "National Institute for Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD"
-        ],
-        [
-            "National Human Genome Research Institute, National Institutes of Health, Bethesda, MD "
-        ],
-        [
-            "Clinical Center/ Department of Transfusion Medicine, National Institutes of Health, Bethesda, MD "
-        ]
-    ],
-    "first_author_latitude": "39.001438",
-    "first_author_longitude": "-77.1060598"
+    "url": "https://ashpublications.org/blood/article/130/Suppl_1/705/83677/Prediction-of-Extended-Red-Blood-Cell-Phenotype?searchresult=1",
+    "datetime_link_obtained": "2022-04-28T15:23:48",
+    "is_scraped": "0"
 }
