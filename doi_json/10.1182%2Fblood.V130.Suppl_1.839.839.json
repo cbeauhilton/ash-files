@@ -1,68 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3730",
+    "start_url_page_num": "3730",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.839.839",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3730",
-    "start_url_page_num": 3730,
-    "is_scraped": "1",
-    "article_title": "Genomic Predictors of Progression-Free Survival Among Patients with Relapsed or Refractory Multiple Myeloma Treated with Carfilzomib and Dexamethasone or Bortezomib and Dexamethasone in the Phase 3 Endeavor Trial ",
-    "article_date": "December 7, 2017",
-    "session_type": "653. Myeloma: Therapy, excluding Transplantation: Studies in Relapsed and Refractory Multiple Myeloma",
-    "topics": [
-        "bortezomib",
-        "carfilzomib",
-        "dexamethasone",
-        "genome",
-        "multiple myeloma",
-        "progression-free survival",
-        "biological markers",
-        "rna",
-        "rna-seq",
-        "bone marrow aspiration"
-    ],
-    "author_names": [
-        "Robert J Pelham, PhD",
-        "Xuguang Hu, PhD",
-        "Philippe Moreau, MDPhD",
-        "Albert Oriol, MD",
-        "Hang Quach, MBBS (Hons), FRACP, FRCPA, MD",
-        "Tibor Kovacsovics",
-        "Jonathan J Keats, PhD",
-        "Shibao Feng, PhD",
-        "Amy S. Kimball",
-        "Meletios A. Dimopoulos"
-    ],
-    "author_affiliations": [
-        [
-            "Amgen Inc., Thousand Oaks, CA "
-        ],
-        [
-            "Amgen Inc., Thousand Oaks, CA "
-        ],
-        [
-            "University Hospital of Nantes, Nantes, France "
-        ],
-        [
-            "Institut Catal\u00e0 d'Oncologia, Institut Josep Carreras, Hospital Germans Trias i Pujol, Barcelona, Spain "
-        ],
-        [
-            "University of Melbourne and St. Vincent's Hospital, Victoria, Australia "
-        ],
-        [
-            "University of Utah School of Medicine, Salt Lake City, UT "
-        ],
-        [
-            "Translational Genomics Research Institute, Phoenix, AZ "
-        ],
-        [
-            "Amgen Inc., Thousand Oaks, CA "
-        ],
-        [
-            "Amgen, Inc., Thousand Oaks, CA "
-        ],
-        [
-            "School of Medicine, National and Kapodistrian University of Athens, Athens, Greece"
-        ]
-    ],
-    "first_author_latitude": "34.19113389999999",
-    "first_author_longitude": "-118.92021044999998",
-    "abstract_text": "Background: In the phase 3 ENDEAVOR trial, treatment with carfilzomib administered at 56 mg/m 2 twice weekly in combination with dexamethasone (Kd56) significantly improved progression-free survival (PFS) compared to treatment with bortezomib and dexamethasone (Vd) in patients with relapsed or refractory multiple myeloma (RRMM) (Dimopoulos MA, et al. Lancet Oncol . 2016;17:27-38). In this substudy of ENDEAVOR, we used whole transcriptome RNA sequencing (RNA-seq) to identify genes whose baseline expression levels in CD138+ cells were predictive of PFS in patients treated with Kd56 or Vd. The objective of this study was to develop a genomic classifier that could be used to stratify patients for benefit with Kd56 or Vd therapy. Methods: Patients were randomized to receive Kd56 or Vd at a 1:1 ratio. Patients who consented for this biomarker study and provided samples (Kd56, n = 155; Vd, n = 148) were included. CD138+ cells were isolated from bone marrow aspirate collected at baseline. Sequencing libraries for isolated RNA samples were prepared using an Illumina TruSeq RNA library construction kit and sequenced on an Illumina HiSeq 2500 platform. Sequencing reads were aligned against the human reference genome GRCh38 using STAR RNA-seq aligner and annotated with GENCODE v24 at the gene level. Expression counts were estimated using RSEM software and converted to counts per million for subsequent analyses using the edgeR package. Cox proportional hazard regression analysis with LASSO was used to model the relationship between patients' baseline gene expression and PFS. A classifier was established and its predictive performance was assessed using the cross-validation scheme outlined by Simon et al ( Brief Bioinform . 2011;12:203-214). The statistical significance of the cross-validated Kaplan-Meier curves and corresponding log-rank statistic was estimated by generating an approximate null distribution of the cross-validated log-rank statistic through 500 random permutations. For each permutation, the patients' baseline gene expression profiles and treatment assignments were randomly re-shuffled against patients' survival times and event indicators, and the same cross-validation procedures used in the model performance assessment were repeated to compute the cross-validated log-rank statistic for the permuted data. Results: Among the 303 Kd56 or Vd patients included in this biomarker study, patients in the Kd56 arm had a 58% reduced risk of progression or death compared with patients in the Vd arm (hazard ratio [HR]: 0.42; 95% confidence interval [CI]: 0.30-0.59; P = 4.5 x 10 -7 ). We developed a linearized classifier using patients' baseline gene expression (n = 303) to stratify patients for PFS benefit from Kd56 or Vd therapy. The cross-validated Kaplan-Meier curves and log-rank statistic for the classifier were statistically significant at P < 0.001. A 13-gene classifier derived from the whole data set could separate patients from the Kd56 arm (n = 155) into two distinct subgroups, in which one with 113 (73%) patients had a PFS benefit over the other with 42 (27%) patients (HR: 0.13; 95% CI: 0.06-0.26; P = 3.3 x 10 -13 ). When these 42 patients were excluded from the Kd56 arm, the PFS benefit for the Kd56 arm (n = 113) over the Vd arm (n = 148) was improved by 52% (HR: 0.20; 95% CI: 0.12-0.31; P = 2.0 x 10 -14 ). The classifier was unable to stratify patients in the Vd arm for high or low PFS benefit. The 13 genes included in the classifier were ACOXL, CLEC2B, CLIP4, COCH, FRK, IGHD, ITPRIPL2, NAP1L5, RNASE6, SH3RF3, SHROOM3, TCF7, and UGT3A2 . Several genes in this classifier, including CLIP4 , IGHD , and SH3RF3, have been previously implicated in myeloma biology and in vitroresistance to proteasome inhibitors. Individually, each gene showed similar ability to stratify patients from the Kd56 arm, but the cross-validated Kaplan-Meier curves for the individual genes were not significant at P < 0.05. Conclusions: We identified a classifier with a set of genes whose baseline expression could potentially be used to stratify RRMM patients for greater treatment benefit with Kd56. As only one patient cohort was used for this study, the classifier identified here should be validated in prospective studies and with independent sets of patient cohorts. Further study of this group of genes may provide additional insights into the biology of multiple myeloma and how mechanism of action differs between carfilzomib and bortezomib. Disclosures Pelham: Amgen: Employment, Equity Ownership. Hu: Amgen: Employment, Equity Ownership. Moreau: Novartis: Consultancy, Honoraria; Celgene: Consultancy, Honoraria; Millennium: Consultancy, Honoraria; Bristol-Myers Squibb: Honoraria; Amgen: Honoraria; Takeda: Honoraria; Janssen: Consultancy, Honoraria; Celgene, Janssen, Takeda, Novartis, Amgen, Roche: Membership on an entity's Board of Directors or advisory committees; Onyx Pharmaceutical: Consultancy, Honoraria. Oriol: Amgen: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Other: sponsored symposia, Speakers Bureau; Celgene: Speakers Bureau; Takeda: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Other: sponsored symposia; Janssen: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Other: sponsored symposia, Speakers Bureau. Quach: Novartis: Honoraria, Membership on an entity's Board of Directors or advisory committees; Celgene: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Janssen: Honoraria, Membership on an entity's Board of Directors or advisory committees; Amgen: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; BMS: Honoraria; Takeda: Honoraria. Kovacsovics: Seattle Genetics: Research Funding; Celgene: Consultancy; Flexus: Research Funding. Keats: Amgen: Research Funding. Feng: Amgen: Employment, Equity Ownership. Kimball: Amgen: Employment, Equity Ownership. Dimopoulos: Novartis: Consultancy, Honoraria; Amgen Inc, Celgene Corporation, Janssen Biotech Inc, Onyx Pharmaceuticals, an Amgen subsidiary, Takeda Oncology: Consultancy, Honoraria, Other: Advisory Committee: Amgen Inc, Celgene Corporation, Janssen Biotech Inc, Onyx Pharmaceuticals, an Amgen subsidiary, Takeda Oncology; Genesis Pharma: Research Funding."
+    "url": "https://ashpublications.org/blood/article/130/Suppl_1/839/83285/Genomic-Predictors-of-Progression-Free-Survival?searchresult=1",
+    "datetime_link_obtained": "2022-04-28T14:40:18",
+    "is_scraped": "0"
 }
