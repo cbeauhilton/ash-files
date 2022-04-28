@@ -1,48 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3894",
+    "start_url_page_num": "3894",
     "doi": "https://doi.org/10.1182/blood-2018-99-117887",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3894",
-    "start_url_page_num": 3894,
-    "is_scraped": "1",
-    "article_title": "Plasmacytoid Dendritic Cells Trigger Contact-Dependent Tumor Promoting Genetic Alterations in Multiple Myeloma Cells ",
-    "article_date": "November 29, 2018",
-    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Immunological Aspects and the Microenvironment in Myeloma Pathogenesis",
-    "topics": [
-        "dendritic cells",
-        "genetics",
-        "multiple myeloma",
-        "neoplasms",
-        "precipitating factors",
-        "5'-nucleotidase",
-        "coculture techniques",
-        "massively-parallel genome sequencing",
-        "leukemia",
-        "agonists"
-    ],
-    "author_names": [
-        "Arghya Ray, PhD",
-        "Leutz Buon",
-        "Yan Song, PhD",
-        "Dharminder Chauhan, PhD",
-        "Kenneth C. Anderson, MD"
-    ],
-    "author_affiliations": [
-        [
-            "Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
-        ],
-        [
-            "Dana-Farber Cancer Institute, Boston, MA "
-        ],
-        [
-            "Dana-Farber Cancer Institute/ Harvard Medical School, Boston, MA "
-        ],
-        [
-            "The LeBow Institute for Myeloma Therapeutics and Jerome Lipper Myeloma Center, Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
-        ],
-        [
-            "The LeBow Institute for Myeloma Therapeutics, Dana-Farber Cancer Institute, Boston, MA"
-        ]
-    ],
-    "first_author_latitude": "42.32868324999999",
-    "first_author_longitude": "-71.12796515",
-    "abstract_text": "Introduction We identified an integral role of bone marrow (BM) plasmacytoid dendritic cells (pDCs) in multiple myeloma (MM) pathogenesis. Specifically, we found increased numbers pDCs in MM BM vs normal BM. pDCs protect tumor cells from therapy-induced cytotoxicity; promote tumor growth and survival, as well as suppress immune responses (Chauhan et al, Cancer Cell 2009, 16:309-323) . Aberrant pDC function is evidenced in their interactions not only with MM cells, but also with immune effector T cells and NK cells in the MM BM milieu (Ray et al, Leukemia 2015, 29:1441-1444) . Directly targeting pDC interactions with MM and immune effector cells in the MM BM milieu will be required to enhance both anti-tumor immunity and cytotoxicity. To further characterize the role of pDCs in MM pathogenesis, we utilized our pDC/MM co-culture model and analyzed genetic changes in MM cells after coculture with pDCs using next generation sequencing (NGS). NGS data was confirmed using flow cytometry analysis, and functionally validated in cocultures of pDC-MM-T cells, as well as cytotoxic T lymphocyte assays. Based on our NGS study, we have identified the metabolic ectoenzyme NT5E/CD73 as a promising novel therapeutic target in MM; primarily for its role in cancer metabolism and immunosuppression via nucleotide degradation pathway. Methods . Patient BM/PB pDC and MM cells were evaluated by flow cytometry following immunomagnetic separation (purity> 95%). pDCs were cocultured with autologous MM cells or allogeneic MM cell lines (pDC/MM; 1:5) for 48h, followed by separation of MM cells from pDCs using FACS. Total RNA from MM cells was subjected to RNAseq analysis using Illumina Next Generation Sequencing (NGS). Raw sequence data were subjected to VIPER workflow generating differential expression (DEseq2) and KEGG pathway analyses. For RNAseq analysis, log2FC (fold change) values in coculture vs single control, with an FDR (False Discovery Rate) value of  95). Linear model for RNAseq analysis (Limma) and its GUI (Glimma) were used for the visualization of data. Results A total of 19,569 and 25,436 transcripts were analyzed through negative binomial (DEseq2) and linear (Limma) models, respectively. We found that 9200 (47.01%) and 9250 (36.36%) genes were differentially expressed (p < 0.05). The sample-sample correlation analysis showed that MM cells cultured with or without pDCs fall into 2 different groups with distinct clustering properties (n=3), suggesting that pDCs trigger genetic alterations in MM cells. Furthermore, pathway analysis showed that pDCs interaction with MM cells modulates various physiological processes in MM cells including Cell cycle, DNA replication/repair (Fanconi anemia) and Purine/Pyrimidine metabolism. Hierarchical cluster analysis demonstrated upregulation or downregulation of several genes in MM after coculture with pDCs (log2FC range: \u00b1 6.0). For example, pDCs trigger upregulation of CD274 (0.6; p=0.02), IL3R\u03b1/CD123 (0.1; p<0.05), TLR7/9 (0.5; p=0.02), and HDAC6 (0.65; p=0.00002) in MM cells. Conversely, pDCs decreased the expression of BAK1 (-0.5; p=0.000043), BAD (-0.14; p = 0.0048), ADAM33 (-1.36; p=0.004), and CASP3 (-1.049; p= 1.1e-7) in MM cells. The functional significance of these findings is exemplified in our studies for NT5E/CD73 (log2FC: 0.43; p=0.0002). Specifically, we found that MM patient cells or cell lines express CD73, which further increases upon coculture with MM-patient derived pDCs (MFI: 1.2 fold vs MM; p = 0.008; CD73+ cells: 1.15 fold vs MM; n=5; p = 0.005). Treatment of autologous pDC-T cell cocultures (pDC:/T; 1:10 ratio) with anti-CD73 Ab (1.0 \u00b5g/ml) triggers a robust MM-specific CD8 + CTL activity against both autologous and allogeneic MM cells. A more robust MM-specific CD8 + CTL activity was noted when anti-CD73 Ab was combined with TLR7 agonists (%MM lysis: anti-CD73 Ab + TLR7 agonist: 60-70%; anti-CD73 Ab: 30%; TLR7 agonist: 40%; p = 0.009; n= 5). Conclusions Collectively, our RNAseq NGS analysis of pDCs-induced gene changes in MM cells validates our previously published findings ( Ray et al Leukemia 2014; 28(8): 1716-1724; Leukemia 2015; Leukemia 2017; 31:2652-2660; Leukemia 2018,32:843-846) that these accessory cells induce growth, survival and drug resistance in tumor cells. Importantly, these studies delineate novel genes and pathways mediating these sequelae which represent targets for future therapies. Disclosures Anderson: Gilead: Membership on an entity's Board of Directors or advisory committees; C4 Therapeutics: Equity Ownership; Bristol Myers Squibb: Consultancy; Takeda Millennium: Consultancy; Celgene: Consultancy; Oncopep: Equity Ownership."
+    "url": "https://ashpublications.org/blood/article/132/Supplement 1/244/264070/Plasmacytoid-Dendritic-Cells-Trigger-Contact?searchresult=1",
+    "datetime_link_obtained": "2022-04-28T22:20:47",
+    "is_scraped": "0"
 }
