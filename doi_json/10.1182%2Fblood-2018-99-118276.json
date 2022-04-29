@@ -1,53 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4032",
+    "start_url_page_num": "4032",
     "doi": "https://doi.org/10.1182/blood-2018-99-118276",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4032",
-    "start_url_page_num": 4032,
-    "is_scraped": "1",
-    "article_title": "Long Intergenic Non-Coding RNAs Unambiguously Classify AML Subgroups ",
-    "article_date": "November 29, 2018",
-    "session_type": "602. Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation",
-    "topics": [
-        "acute promyelocytic leukemia",
-        "arm of chromosome",
-        "binding sites",
-        "biological markers",
-        "brachial plexus neuritis",
-        "cancer",
-        "chromatin",
-        "chromosome abnormality",
-        "datasets",
-        "disclosure"
-    ],
-    "author_names": [
-        "Wencke Walter, PhD",
-        "Jes\u00fas Mar\u00eda Hern\u00e1ndez",
-        "Claudia Haferlach, MD",
-        "Wolfgang Kern, MD",
-        "Torsten Haferlach, MD",
-        "Manja Meggendorfer, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "MLL Munich Leukemia Laboratory, Munich, Germany "
-        ],
-        [
-            "MLL Munich Leukemia Laboratory, Munich, Germany ",
-            "Centro de Investigaci\u00f3n del C\u00e1ncer, Universidad de Salamanca-CSIC, Salamanca, Spain"
-        ],
-        [
-            "MLL Munich Leukemia Laboratory, Munich, Germany "
-        ],
-        [
-            "MLL Munich Leukemia Laboratory, Munich, Germany "
-        ],
-        [
-            "MLL Munich Leukemia Laboratory, Munich, Germany "
-        ],
-        [
-            "MLL Munich Leukemia Laboratory, Munich, Germany "
-        ]
-    ],
-    "first_author_latitude": "48.1080895",
-    "first_author_longitude": "11.473868",
-    "abstract_text": "Long intergenic non-coding RNAs (lincRNAs) are endogenous RNAs with a transcript length of more than 200nt that lack a long open reading frame. The functional impact of lincRNAs is not well known yet but lincRNAs have been associated with chromatin remodelling, histone modification and DNA methylation, and have been found to impact tumorigenesis. The expression levels of lincRNAs are often significantly altered in various malignancies and can be used as diagnostic markers and potential drug targets. Recent studies have shown that lincRNAs also contribute to the initiation and development of acute myeloid leukemia (AML)(Mer et al. 2018). Today, AML is defined by morphological, genetic, and clinical features but the underlying molecular mechanisms are still not completely understood. Hence, we analysed the transcriptome of 190 AML patients with different cytogenetic aberrations (normal karyotype, n = 50; PML - RARA , n= 49; RUNX1-RUNX1T1 , n = 45; CBFB-MYH11 , n = 46) to identify and quantify lincRNAs to further expand the knowledge of the contribution of different regulatory levels to the pathogenesis in AML. Total RNA was used for 150bp paired-end RNA sequencing (RNA-Seq) with a median read depth of 50 million. UClncR pipeline (Sun et al. 2017) with a gamma model for stranded RNA-Seq was used for the identification and quantification of novel and known lincRNA. The pipeline automatically performs the novel transcript assembly, predicts lncRNA candidates by filtering based on length, expression, repetitive regions, and coding potential, and quantifies both, known and novel lincRNAs. The resulting count matrix was filtered and only lincRNAs with a minimal count of 5 in at least 66% of the samples were kept. Subsequently, we performed a combined normalization and differential expression (DE) analysis of the lincRNA counts by integration of trimmed mean of M-values normalization factors into the statistical model used to test for DE. lincRNAs with an FDR < 0.05 and an absolute logFC > 1.5 were considered DE. 354 unique lincRNAs were identified to be DE between the different AML subtypes. Among those lincRNAs we found MEG3 to be specifically up-regulated in AML with PML - RARA fusion (p < 0.001), whereas the lincRNA was comparably lower expressed in all the other subtypes (Figure 1). MEG3 is a known tumor suppressor that is usually found to be down-regulated in AML. Recent studies indicated that MEG3 expression is regulated by miRNA-22. miRNA-22 is located on the short arm of chromosome 17 and carries a predicted PML - RARA binding site in its promoter region. Binding of the PML - RARA fusion protein to the miRNA-22 promoter might result in its up-regulation which subsequently modulates MEG3 expression levels. Hence, MEG3 might contribute to the pathogenesis in AML with PML - RARA fusion and can be used as a molecular marker. The lincRNA CRNDE showed an expression profile similar to MEG3 in our cohort. CRNDE has already been linked with the PML - RARA fusion in acute promyelocytic leukemia. In addition we found a significantly higher expression of CASC15 in AML RUNX1-RUNX1T1 compared to the other subtypes (p < 0.01). It has been recently reported that CASC15 regulates SOX4 expression in RUNX1 -rearranged acute leukemia. As expected we found a high expression of SOX4 in AML RUNX1-RUNX1T1 . Using the identified 354 DE lincRNAs a neural network was built to classify the various AML subtypes. The dataset was randomly split into training (90%) and test (10%) data which was used to train the neural network. The procedure was repeated 1000 times to ensure that every sample was seen by the classifier multiple times. The neural network was composed of 424 units, 2 hidden layers with 50 and 20 units, respectively, and the Rectified Linear Unit activation function. The trained neural network with 10-fold cross-validation was able to unambiguously classify the four AML subtypes with an accuracy of 98%. Conclusions: 1) We demonstrated that lincRNAs can be used to reliably classify AML subgroups and the identified subgroup-specific lincRNAs might play a role in therapeutic strategies for these pts. 2) MEG3 can be used as a new molecular marker for AML with PML - RARA fusion. 3) LincRNAs are an additional regulatory level that can further improve diagnosis but might also be taken into account for treatment decisions. View large Download slide View large Download slide  Disclosures Walter: MLL Munich Leukemia Laboratory: Employment. Hern\u00e1ndez: MLL Munich Leukemia Laboratory: Employment. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Kern: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Meggendorfer: MLL Munich Leukemia Laboratory: Employment."
+    "url": "https://ashpublications.org/blood/article/132/Supplement 1/5112/265867/Long-Intergenic-Non-Coding-RNAs-Unambiguously?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T06:50:21",
+    "is_scraped": "0"
 }
