@@ -1,68 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4202",
+    "start_url_page_num": "4202",
     "doi": "https://doi.org/10.1182/blood-2019-127593",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4202",
-    "start_url_page_num": 4202,
-    "is_scraped": "1",
-    "article_title": "Mutations and Copy Number Gains of the BCL2 Family Members Mediate Resistance to Venetoclax in Multiple Myeloma (MM) Patients ",
-    "article_date": "November 13, 2019",
-    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
-    "topics": [
-        "bcl2 gene",
-        "bcl-2 protein",
-        "multiple myeloma",
-        "mutation",
-        "venetoclax",
-        "disease progression",
-        "choroidal neovascularization",
-        "mechlorethamine",
-        "rna, messenger",
-        "atac trial"
-    ],
-    "author_names": [
-        "Paola Neri, MD PhD",
-        "Ranjan Maity, PhD",
-        "Jean-Baptiste Alberge",
-        "Sarthak Sinha, BSc",
-        "Justin Donovan",
-        "Madison Kong",
-        "Fajer Hasan",
-        "Arzina Jaffer",
-        "Lawrence H. Boise, PhD",
-        "Nizar Bahlis, MD"
-    ],
-    "author_affiliations": [
-        [
-            "Arnie Charbonneau Cancer Research Institute, University of Calgary, Calgary, Canada "
-        ],
-        [
-            "Arnie Charbonneau Cancer Research Institute, University of Calgary, Calgary, Canada "
-        ],
-        [
-            "CRCINA, INSERM, CNRS, Universite de Nantes, Nantes, France "
-        ],
-        [
-            "Arnie Charbonneau Cancer Research Institute, University of Calgary, Calgary, Canada "
-        ],
-        [
-            "Arnie Charbonneau Cancer Research Institute, University of Calgary, Calgary, Canada "
-        ],
-        [
-            "Arnie Charbonneau Cancer Research Institute, University of Calgary, Calgary, Canada "
-        ],
-        [
-            "Arnie Charbonneau Cancer Research Institute, University of Calgary, Calgary, Canada "
-        ],
-        [
-            "Arnie Charbonneau Cancer Research Institute, University of Calgary, Calgary, Canada "
-        ],
-        [
-            "Winship Cancer Institute, Department of Hematology and Medical Oncology, Emory University, Atlanta, GA"
-        ],
-        [
-            "Arnie Charbonneau Cancer Research Institute, University of Calgary, Calgary, Canada "
-        ]
-    ],
-    "first_author_latitude": "51.066468799999996",
-    "first_author_longitude": "-114.1361524",
-    "abstract_text": "Background: Selective BCL2 inhibition with venetoclax, induces deep responses in relapsed MM. However, acquired resistance to venetoclax frequently occurs. Importantly, in the Bellini trial, while the combination of venetoclax and bortezomib doubled the median progression free survival compared to control, it resulted in shorter overall survival. These results highlight the challenges secondary resistance poses and the need to investigate the mechanisms mediating the emerged resistance to venetoclax. Methods & Results: Bone marrow (BM) aspirates were collected from patients (n=8) treated with venetoclax prior to initiation of therapy and at disease progression. Mononuclear cell fractions were isolated through ficoll coupled with magnetic sorting of CD138 + cells. Ex-vivo functional profiling of venetoclax sensitivity was performed on CD138 + cells. Unbiased mRNA and DNA profiling was conducted by single-cell RNA-sequencing (scRNA-seq), single cell ATAC-seq and single cell copy number analysis (scCNV) using the GemCode system (10x Genomics). Cell Ranger, Seurat, Signac and Monocle were used for data analysis. Ex-vivo apoptosis studies revealed a dynamic shift of the IC50s of venetoclax from a median of 100 nM in pretreatment sample to >1000 nM at disease progression. Single cell CNV profiling identified a significant expansion of a pre-treatment subclonal (70%) at the time of relapse. The scale of the 1q CNV gain varied from 3 Mb to a very focal gain of 100 kb encompassing the MCL1 gene locus. Of note copy number gain was also identified in the BCL2L1 gene, but no copy number losses were detected in the BAX or BAK gene loci. Single cell RNA profiling of the same samples confirmed the gain in the MCL1 mRNA transcript with downregulation of BCL2 at the time of relapse. Consistent with a branching evolutionary model, scATAC-seq revealed increased chromatin accessability studies at the MCL1 locus in subclones of relapsed samples. Cell trajectory analysis and pseudotime ordering of cells (Monocle) revealed the emergence of a highly proliferative clone and of an MCL1 dependent clone as the disease evolved from its original BCL2 dependent cluster at pseudotime (t 0 ) (Figure). Furthermore, ex-vivo apoptosis profiling revealed a shift in the sensitivity of the CD138 + cells with an acquired sensitivity to MCL1 inhibitor (S63845). These findings suggest that the 1q21 copy number gain with MCL1 upregulation is likely mediating the acquired venetoclax resistance. In order to functionally confirm whether the gain in MCL1 is sufficient to shift BCL2 to MCL1 dependency and induce resistant to venetoclax, we stably overexpressed MCL1 in the KMS12PE BCL2-dependent MM cell line (KMS12PE_MCL1) and examined its sensitivity to venetoclax and/or S63845 relative to control vector (KMS12PE_EV). Of interest, co-immunoprecipitation (co-IP) of BIM in KMS12PE_MCL1 demonstrated a shift in BIM loading and co-IP with MCL1 and BCL2 while it was restricted to BCL2 in KMS12PE_EV cells. Importantly, venetoclax IC50 of KMS12PE_EV increased by 200 folds in KMS12PE_MCL1 cells with acquired sensitivity to S63845. scCNV analysis of one patient did not identify any gain in the 1q locus at the time of disease progression to venetoclax. Mutation analysis however identified a de novo BCL2 mutation [NM_000633.2:c.332A>C, p.(Asp111Ala)]. To determine whether the Asp111Ala mutation alone is sufficient to confer resistance to venetoclax, the mutant was overexpressed in KMS12PE cells. While BIM binding to BCL2 was unaffected, Aps111Ala largely abrogated venetoclax-induced BIM displacement from BCL2 and reduced KMS12PE cells sensitivity to venetoclax by ~7.5 folds. Structure modeling also demonstrated the inability of venotoclax to tightly bind mutant BCL2_Asp111Ala hydrophobic groove. Conclusion: We have discovered and functionally characterized a novel BCL2 mutation that confers in vitro and in vivo resistance to venetoclax-treated MM patients. In addition we have identified through single cell profiling an enrichment of MM clones with MCL1 locus copy number gain at the time of acquired venetoclax resistance. Early detection and dynamic monitoring of these abnormalities (BCL2 mutant or 1q gain) with early therapeutic interventions targeting these clones may enhance venetoclax efficacy and improve patients' survival. Figure View large Download slide Figure View large Download slide  Disclosures Neri: Celgene, Janssen: Consultancy, Honoraria, Research Funding. Boise: Genentech Inc.: Membership on an entity's Board of Directors or advisory committees; AstraZeneca: Honoraria, Research Funding. Bahlis: Takeda: Consultancy, Honoraria; Amgen: Consultancy, Honoraria; Celgene: Consultancy, Honoraria; Janssen: Consultancy, Honoraria; AbbVie: Consultancy, Honoraria."
+    "url": "https://ashpublications.org/blood/article/134/Supplement_1/572/426397/Mutations-and-Copy-Number-Gains-of-the-BCL2-Family?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T14:40:28",
+    "is_scraped": "0"
 }

@@ -1,73 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4207",
+    "start_url_page_num": "4207",
     "doi": "https://doi.org/10.1182/blood-2019-129537",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4207",
-    "start_url_page_num": 4207,
-    "is_scraped": "1",
-    "article_title": "Identification of Recurrent Alternative RNA Splicing in Adverse-Risk Acute Myeloid Leukemia ",
-    "article_date": "November 13, 2019",
-    "session_type": "617.Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
-    "topics": [
-        "alternative splicing",
-        "leukemia, myelocytic, acute",
-        "rna",
-        "cancer",
-        "chemotherapy regimen",
-        "inflammation",
-        "leukemia",
-        "myelodysplastic syndrome",
-        "preleukemia",
-        "rna splicing factors"
-    ],
-    "author_names": [
-        "Govardhan Anande",
-        "Ashwin Unnikrishnan, PhD",
-        "Nandan Deshpande, PhD",
-        "Sylvain Mareschal",
-        "Aarif M. N. Batcha",
-        "Tobias Herold, MD",
-        "S\u00f6ren Lehmann, MD PhD",
-        "Marc Wilkins, PhD",
-        "Jason Wong, PhD",
-        "John Pimanda, MBBS, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Lowy Cancer Research Centre, University of New South Wales, Sydney, Australia "
-        ],
-        [
-            "Lowy Cancer Research Centre, University of New South Wales, Sydney, Australia ",
-            "Prince of Wales Clinical School, University of New South Wales, Sydney, Australia "
-        ],
-        [
-            "Systems Biology Initiative, School of Biotechnology and Biomolecular Sciences, University of New South Wales, Sydney, Australia "
-        ],
-        [
-            "Department of Medicine Huddinge, Unit for Hematology, Karolinska Institutet, Stockholm, Sweden "
-        ],
-        [
-            "Institute of Medical Data Processing, Biometrics and Epidemiology (IBE), Faculty of Medicine, LMU Munich, Munich, Germany "
-        ],
-        [
-            "Research Unit Apoptosis in Hematopoietic Stem Cells, Helmholtz Zentrum M\u00fcnchen, German Research Center for Environmental Health (HMGU), Munich, Germany ",
-            "Laboratory for Leukemia Diagnostics, Department of Internal Medicine III, University Hospital Grosshadern, LMU Munich, Munich, Germany "
-        ],
-        [
-            "Department of Medicine Huddinge, Unit for Hematology, Karolinska Institutet, Stockholm, Sweden "
-        ],
-        [
-            "Systems Biology Initiative, School of Biotechnology and Biomolecular Sciences, University of New South Wales, Sydney, Australia "
-        ],
-        [
-            "Prince of Wales Clinical School, University of New South Wales, Sydney, Australia ",
-            "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, University of Hong Kong, Hong Kong, Hong Kong "
-        ],
-        [
-            "Lowy Cancer Research Centre, University of New South Wales, Sydney, Australia ",
-            "Department of Pathology, School of Medical Sciences, University of New South Wales, Sydney, Australia ",
-            "Haematology Department, Prince of Wales Hospital, Sydney, Australia"
-        ]
-    ],
-    "first_author_latitude": "-33.916532399999994",
-    "first_author_longitude": "151.2350526",
-    "abstract_text": "RNA splicing is a fundamental biological process that generates protein diversity from a finite set of genes. Recurrent somatic mutations of genes involved in RNA splicing are present at high frequency in Myelodysplasia (up to 70%) but less so in Acute Myeloid Leukemia (AML; less than 20%). To investigate whether there were aberrant and recurrent RNA splicing events in the AML transcriptome that were associated with poor prognosis in the absence of splicing factor mutations, we developed a bioinformatics pipeline to systematically annotate and quantify alternative splicing events from RNA-sequencing data (Fig A). We first analysed publicly available RNA-seq data from The Cancer Genome Atlas (TCGA, n=170). We focussed on non-M3 AML patients with no splicing factor mutations (based on reported genomic sequencing and verified by re-analysis of RNA-seq data from all patients) who had received intensive chemotherapy. We segregated these patients based on their European Leukaemia Net (ELN) risk classification and identified 1290 alternatively spliced events impacting 910 genes that were significantly different (FDR<0.05) between all ELN Adv (n=41) versus all ELN Fav patients (n=21, Fig B). The majority were exon skipping events (716 events, 62%, Fig B-C), followed by intron retention (201 events, 15.6%, Fig B). We next used RNA-seq data from a second non-M3 AML patient cohort (ClinSeq- Sweden; ELN Adv , n=75 and ELN Fav , n=47), detecting 2507 events mapping to 1566 genes. Comparing across the two cohorts, 222 shared genes were detected to be affected by alternative splicing (Fig D). Ingenuity pathway analysis associated these genes with pathways related to protein translation. In order to prioritise those alternatively spliced events most likely to have a deleterious function, we developed an analytical framework to predict their impact on protein structure (Fig E). 87 alternatively spliced events, 25.81% of the commonly shared splicing events, relating to 78 genes (35.13% of all genes) were predicted to directly alter highly conserved protein domains within the affected genes, leading to either a complete (~25%, Fig E) or a partial loss of a domain (20%, Fig E). These in silico predictions are likely to be an underestimate of the true impact, as splicing alterations mapping to poorly annotated domains or affecting the tertiary structure of proteins would be missed. A number of splicing factors themselves were differentially spliced, with the alternative splicing predicted to have functional consequences. This was exemplified by hnRNPA1, a factor with well-established roles in splicing, is itself alternatively spliced in patients and predicted to be deleterious. Consistent with this, motif scanning analyses indicated that a number of mis-spliced transcripts had hnRNPA1 binding motifs (Fig F). To assess the impact of these alternatively spliced events (that were predicted to also disrupt highly conserved protein domains) on the transcriptome, we simultaneously quantified differential gene expression. IPA analysis of the 602 genes that were differentially expressed between ELN Adv and ELN Fav patients and shared between both TCGA and ClinSeq cohorts indicated that they were associated with pathways (Fig G) that were distinct from those associated with aberrantly spliced genes (Fig D). A number of pathways related to inflammation were enriched amongst the genes observed to be upregulated in ELN Adv patients (Fig G). Network analyses integrating the alternatively spliced genes with differentially expressed genes revealed strong interactions (Fig H), indicating functional associations between these biological events. Given these strong network interactions, we investigated the potential prognostic significance of these alternatively spliced events. To this end, we utilised machine-learning methods to derive a \"splicing signature\" of four mis-spliced genes with a predictive capacity equivalent to the ELN (Fig I). The splicing signature further refined existing risk prediction algorithms to improve the classification of patients (Fig J). Taken together, we report the presence of extensive deregulation of RNA splicing in AML patients even in the absence of splicing factor mutations. Many of these events were shared in patients with adverse outcomes and their impact on the AML transcriptome points towards vulnerabilities that could be targeted. Figure View large Download slide Figure View large Download slide  Disclosures Unnikrishnan: Celgene: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding. Lehmann: TEVA: Consultancy, Membership on an entity's Board of Directors or advisory committees; Pfizer: Membership on an entity's Board of Directors or advisory committees; Abbive: Membership on an entity's Board of Directors or advisory committees. Pimanda: Celgene: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding."
+    "url": "https://ashpublications.org/blood/article/134/Supplement_1/457/426508/Identification-of-Recurrent-Alternative-RNA?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T14:40:47",
+    "is_scraped": "0"
 }
