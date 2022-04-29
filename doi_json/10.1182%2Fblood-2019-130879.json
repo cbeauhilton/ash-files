@@ -1,77 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4188",
+    "start_url_page_num": "4188",
     "doi": "https://doi.org/10.1182/blood-2019-130879",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4188",
-    "start_url_page_num": 4188,
-    "is_scraped": "1",
-    "article_title": "Quantitative Investigation of Pharmacologically Modulated Signaling and Efficacy in ABC DLBCL Using a Systems Pharmacology Model ",
-    "article_date": "November 13, 2019",
-    "session_type": "625.Lymphoma: Pre-Clinical-Chemotherapy and Biologic Agents",
-    "topics": [
-        "diffuse large b-cell lymphoma",
-        "pharmacology",
-        "signal transduction",
-        "acalabrutinib",
-        "proto-oncogene proteins c-akt",
-        "ibrutinib",
-        "tumor size",
-        "mtor serine-threonine kinases",
-        "btk inhibitors",
-        "mtor inhibitors"
-    ],
-    "author_names": [
-        "Kosinsky Yuri, PhD",
-        "Lulu Chu, PhD",
-        "Millie Shah, PhD",
-        "Karthick Vishwanathan, PhD",
-        "Connie Larsson, PhD",
-        "Andrew Bloecher, PhD",
-        "Brandon Willis, PhD",
-        "Hannah Dry, BSc",
-        "Kirill Peskov, PhD",
-        "Joseph Ware, PhD",
-        "Andrew Mortlock, PhD",
-        "Gabriel Helmlinger, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "M&S Decisions LLC, Moscow, Russian Federation "
-        ],
-        [
-            "R&D BioPharmaceuticals, AstraZeneca, Waltham, MA "
-        ],
-        [
-            "R&D BioPharmaceuticals, AstraZeneca, Gaithersburg, "
-        ],
-        [
-            "R&D BioPharmaceuticals, AstraZeneca, Waltham, MA "
-        ],
-        [
-            "Oncology R&D, AstraZeneca, Waltham, "
-        ],
-        [
-            "Oncology R&D, Astrazeneca, Waltham, MA "
-        ],
-        [
-            "Oncology R&D, Astrazeneca, Waltham, MA "
-        ],
-        [
-            "Oncology R&D, Astrazeneca, Waltham, MA "
-        ],
-        [
-            "M&S Decisions LLC, Moscow, Russian Federation ",
-            "I.M. Sechenov First Moscow State Medical University, Moscow, Russian Federation "
-        ],
-        [
-            "Acerta Pharma, South San Francisco, CA "
-        ],
-        [
-            "AstraZeneca, MILTON ROAD, CAMBRIDGE, GBR "
-        ],
-        [
-            "R&D BioPharmaceuticals, AstraZeneca, Waltham,"
-        ]
-    ],
-    "first_author_latitude": "55.58202595",
-    "first_author_longitude": "37.3855235",
-    "abstract_text": "Introduction The activated B cell like (ABC) subtype of DLBCL has a 40% cure rate with currently available therapies [1] - worse than the rate for germinal center B-cell like (GCB) DLBCL, which highlights the need for ABC subtype-specific treatment strategies. Bruton's tyrosine kinase (BTK) links the activity of the B cell receptor (BCR) to NF-\u03baB and is essential for the survival of ABC cell lines with chronic active BCR signaling. BTK selective covalent inhibitors such as ibrutinib and acalabrutinib are effective in blocking BTK activation and reducing downstream NF-\u03baB pathway activity. However, in ABC DLBCL patients, the observed response rate to ibrutinib is 37% (14/38) and the median PFS is only about 2 months [1]. Many patients show primary resistance to the drug or develop secondary resistance. To improve patient outcomes, a number of combination treatments along with BTK inhibition may be considered. The goal of this work is to integrate data on ABC DLBCL signaling and tumor effect, as well as its pharmacological modulation into one common quantitative systems pharmacology (QSP) modeling framework, to better understand potential efficacy benefits when adding combination partners to a BTK inhibitor. Methods A fit-for-purpose mechanistic model of ABC DLBCL signaling linked to cell cycle and cell death was developed, based on literature curation and in vitro and in vivo data in TMD8 cell lines. TMD8 cells carry activating mutations in the BCR adaptor protein CD79B and in the TLR adaptor protein MYD88. Chronic BCR signaling in ABC DLBCL activates downstream NF-\u03baB through signaling of the BTK as well as the PI3K/AKT/mTOR pathways (Fig. 1). The L265P mutated isoform of MYD88 spontaneously activates NF-\u03baB in a BCR-independent manner. In the cell cycle / cell death part of the model, transition rates were regulated by relevant model variables of signaling pathways (NF-\u03baB, AKT, mTOR activation). Efficacy (tumor size modulation) was implemented through quantitative PK/PD data obtained from TMD8 xenograft studies in CB.17 SCID mice treated with acalabrutinib, as well as mTOR and AKT inhibitors. Results Individual animal tumor size dynamics were studied in control and treatment groups: BTKi (acalabrutinib), AKTi (AZD5363), mTORi (everolimus and AZD2014), as monotherapies and in combinations with acalabrutinib. Interestingly, there was no statistically significant difference in tumor size dynamics, between the control arm and the AKTi monotherapy group. Acalabrutinib monotherapy showed only a moderate decrease in tumor size, with no observation of full tumor rejection. However, acalabrutinib combined with mTORi or AKTi achieved 100% tumor rejection. The model adequately described tumor size dynamics with acalabrutinib and mTORi/AKTi combinations. In order to improve model fitting, we are now taking enhanced activation of the PI3K/AKT/mTOR pathway into consideration, to further evaluate the underlying mechanism for synergy between acalabrutinib and AKTi. Discussion Enhanced AKT activation induction has been observed in BTKi treatment refractory cell lines [2] and may explain primary resistance to, or limited efficacy of BTK inhibitors in some ABC DLBCL patients (while other mechanisms of primary resistance are known). This mechanism may help lymphoma cells to strive, chronically, under BTK inhibitor treatment, while at the same time increase the probability of gaining mutations such as BTK C481S [3], which may further lead to secondary resistance. Combination of an AKT inhibitor with acalabrutinib may help circumvent both primary and secondary (acquired) resistance in ABC-DLBCL. References 1. Wilson W.H., et al. (2017) Targeting B cell receptor signaling with ibrutinib in diffuse large B cell lymphoma. Nature Med 21, 922-27. 2. Kim J.H., et al. (2015) CD79B limits response of diffuse large B cell lymphoma to ibrutinib. Leukemia & Lymphoma http://dx.doi.org/10.3109/10428194.2015.1113276. 3. BTK C481S resistance mechanism Chen J.G., et al. (2018) BTKcys481Ser drives ibrutinib resistance via ERK1/2 and protects BTK wild type MYD88 mutated cells by a paracrine mechanism. Blood 131(18):2047-2059. Figure 1 View large Download slide Figure 1 View large Download slide  Disclosures Yuri: AstraZeneca: Consultancy. Chu: AstraZeneca: Employment. Shah: AstraZeneca: Employment. Vishwanathan: AstraZeneca: Employment. Larsson: AstraZeneca: Employment. Bloecher: Astrazeneca: Employment. Willis: AstraZeneca: Employment. Dry: Astrazeneca: Employment. Peskov: AstraZeneca: Consultancy. Ware: Acerta Pharma: Employment; Astrazeneca: Employment, Equity Ownership. Mortlock: AstraZeneca: Employment, Other: stock holder; Gotham Therapeutics Corp: Consultancy, Other: stock holder. Helmlinger: AstraZeneca: Employment."
+    "url": "https://ashpublications.org/blood/article/134/Supplement_1/5304/425293/Quantitative-Investigation-of-Pharmacologically?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T13:40:45",
+    "is_scraped": "0"
 }
