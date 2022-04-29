@@ -1,70 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4077",
+    "start_url_page_num": "4077",
     "doi": "https://doi.org/10.1182/blood-2018-99-119075",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4077",
-    "start_url_page_num": 4077,
-    "is_scraped": "1",
-    "article_title": "Direct Detection of Expressed Mutations in AML Cells Using Single Cell RNA-Sequencing, and Its Impact on Defining Sources of Expression Heterogeneity ",
-    "article_date": "November 29, 2018",
-    "session_type": "602. Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation: Poster I",
-    "topics": [
-        "heterogeneity",
-        "mutation",
-        "sequence analysis, rna",
-        "rna, small cytoplasmic",
-        "bone marrow specimen",
-        "ccaat/enhancer binding protein alpha",
-        "chromium",
-        "cryopreservation",
-        "dna, complementary",
-        "gene expression profiling"
-    ],
-    "author_names": [
-        "Allegra A Petti, PhD",
-        "Stephen R Williams, PhD",
-        "Christopher A Miller, PhD",
-        "Ian T Fiddes, PhD",
-        "David Chen, MD PhD",
-        "Sridhar Nonavinkere Srivatsan, MS",
-        "Catrina Fronick, BS",
-        "Robert Fulton, MS",
-        "Deanna M Church, PhD",
-        "Timothy J Ley, MD"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Medicine, Division of Oncology, Washington University School of Medicine, St. Louis, MO ",
-            "McDonnell Genome Institute, Washington University School of Medicine, St. Louis, MO "
-        ],
-        [
-            "10x Genomics, Inc., Pleasanton, CA "
-        ],
-        [
-            "Department of Medicine, Division of Oncology, Washington University School of Medicine, St. Louis, MO ",
-            "McDonnell Genome Institute, Washington University School of Medicine, St. Louis, MO "
-        ],
-        [
-            "10x Genomics, Inc., Pleasanton, CA "
-        ],
-        [
-            "Department of Medicine, Division of Dermatology, Washington University School of Medicine, St. Louis, MO"
-        ],
-        [
-            "Department of Medicine, Division of Oncology, Washington University School of Medicine, St. Louis, MO "
-        ],
-        [
-            "McDonnell Genome Institute, Washington University School of Medicine, St. Louis, MO "
-        ],
-        [
-            "McDonnell Genome Institute, Washington University School of Medicine, St. Louis, MO "
-        ],
-        [
-            "10x Genomics, Inc., Pleasanton, CA "
-        ],
-        [
-            "Department of Medicine, Division of Oncology, Washington University School of Medicine, St. Louis, MO "
-        ]
-    ],
-    "first_author_latitude": "38.636834",
-    "first_author_longitude": "-90.2625793",
-    "abstract_text": "Background. Acute Myeloid Leukemia (AML) is genetically and epigenetically heterogeneous. Most AML samples display clonal heterogeneity at presentation, which evolves with therapeutic interventions. To better understand the epigenetic consequences of clonal heterogeneity, we are using single-cell RNA-sequencing (scRNA-seq) to characterize expression heterogeneity in AML. To date, scRNA-seq has had limited utility in applications where it is essential to link transcriptional heterogeneity to genetic variation, because it has been difficult to identify specific mutations in individual cells using scRNA-seq data alone. To address this limitation, we developed an approach to use scRNA-seq data to identify expressed mutations in individual AML cells, and link these variants to the expression heterogeneity in the same samples. Methods. We generated duplicate cDNA libraries for each of 5 cryopreserved bone marrow samples from adult patients with de novo AML, using the 10x Genomics Chromium Single Cell 5' Gene Expression workflow for Single Cell RNA Sequencing. Single cell libraries were sequenced to yield a median of 20,474 cells per sample, and 192,427 reads per cell. Transcript alignment, counting, and inter-library normalization were performed using the Cell Ranger pipeline (10x Genomics). The Seurat R package was used for further normalization, filtering, principal component analysis, clustering, and t-SNE visualization. A nearest-neighbor algorithm was developed to assign each cell in the data set to the most transcriptionally similar hematopoietic lineage. For each case, we performed whole genome sequencing (WGS) to identify germline and somatic variants, and define clonal architecture. We then developed bioinformatic methods to determine which cells harbor these mutations, assign those cells to mutationally-defined subclones, and link mutations to defined expression clusters. Results. WGS identified 25-56 coding mutations per sample; we were able to identify 22%-46% of these mutations in at least one cell in the scRNA-seq data, including point mutations (e.g. DNMT3A , U2AF1 , TP53 , IDH1 , IDH2 , SRSF2, CEBPA, and others) and indels (e.g. FLT3-ITD , NPMc ). Although the libraries were 5' biased, expressed mutations could be identified at long distances from the 5' end of transcripts; for example, an expressed DNMT3A R882H mutation (2.646 Kb from the initiating codon) was easily detected (Fig 1c). The frequency of detected mutations in the single-cell data varied widely (range: 1-1564 cells; median: 11 cells), and as expected, depended heavily on the expression level of the gene, and the size of the clone containing the mutation. Regardless, a median of 1378 cells (6.7%) had at least one identifiable mutation in the 5 samples. Using these data, we were able to 1) distinguish AML cells from normal cells in bone marrow samples (Fig 1a/b), 2) identify major subclones within the AML samples (Fig 1c/d), and 3) identify mutation-specific and subclone-specific expression profiles. In 2 samples with mutationally-defined subclones (one with a CEBPA R142fs mutation, and the other with a GATA2 R361C mutation), subclone-specific gene expression profiles were clearly detected in the scRNA-seq data, and could be directly associated with cells containing the mutant transcription factors. In the case with the subclonal GATA2 R361C mutation, cells with that mutation were restricted to a subset of expression clusters (Fig 1d). In this subset, we identified an expression signature that is supported by pre-existing knowledge of the GATA2/SPI1 transcriptional regulatory circuit. In addition, we observed that expression heterogeneity frequently occurs independent of mutations defined by specific subclones. For instance, the GATA2 R361C subclone contained additional heterogeneity (5 independent expression clusters) that could not be accounted for by mutations (Fig 1a/d). Moreover, the other 3 cases exhibited extensive expression heterogeneity within the AML cells that was not explained by genetically defined subclones. In sum, scRNA-seq data, when adapted to detect mutations, has dramatically improved our understanding of the expression heterogeneity of AML, which arises from two main sources: 1) cell-type composition of the sample, and 2) expression variation among the AML cells themselves (caused by both mutation-associated and mutation-independent factors). View large Download slide View large Download slide  Disclosures Williams: 10x Genomics: Employment, Equity Ownership. Fiddes: 10x Genomics: Employment, Equity Ownership. Church: 10x Genomics: Employment, Equity Ownership."
+    "url": "https://ashpublications.org/blood/article/132/Supplement 1/1314/262556/Direct-Detection-of-Expressed-Mutations-in-AML?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T08:27:54",
+    "is_scraped": "0"
 }
