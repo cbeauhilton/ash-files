@@ -1,84 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4045",
+    "start_url_page_num": "4045",
     "doi": "https://doi.org/10.1182/blood-2018-99-114794",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4045",
-    "start_url_page_num": 4045,
-    "is_scraped": "1",
-    "article_title": "Prediction of Acute Graft-Versus-Host Disease Following Allogeneic Hematopoietic Stem Cell Transplantation Using a Machine Learning Algorithm ",
-    "article_date": "November 29, 2018",
-    "session_type": "722. Clinical Allogeneic Transplantation: Acute and Chronic GVHD, Immune Reconstitution: GVHD Grading and Outcomes and Management",
-    "abstract_text": "Background Acute graft-versus-host disease (aGVHD) is one of the critical complications following allogeneic hematopoietic stem cell transplantation (HSCT). Thus far, various types of prediction scores have been invented using statistical maneuvers, such as multivariate analyses. Recent progress in the field of machine learning algorithms, which are part of a data mining approach, suggested the application of this technique for the establishment of a novel GVHD risk prediction index using pre-HSCT parameters. The primary objective of this study was to establish and validate such index for aGVHD (grades 2-4 and 3-4). Methods This study was a database dependent retrospective cohort study analyzing the data of adult recipients of HSCT obtained from the registry of Japanese Society for Hematopoietic Cell Transplantation. Pre-HSCT parameters, such as those for patients, donors, conditioning regimens, and other procedures were retrieved from the database and introduced into the data mining approach. The alternating decision tree (ADTree) machine learning algorithm was applied to develop a model. This cohort was randomly divided into the training cohort (70% of the entire dataset) and the validation cohort (the remaining 30%). The algorithm was trained and tested using a 10-fold cross validation on the training cohort. The ADTree was validated in the validation cohort using the competitive risk hazard model. Results In total, 26,695 patients transplanted from allogeneic donors since 1992 to 2016 were included in this study. More than half of the patients were treated for acute myeloid leukemia or myelodysplastic syndrome (50.9%), followed by acute lymphoblastic leukemia (19.2%) and non-Hodgkin lymphoma (8.3%). The cumulative incidence of grades 2-4 and 3-4 aGVHD was 42.8% (95% confident interval [CI], 42.2 - 43.4%) and 17.1% (95%CI, 16.6 - 17.5%), respectively. Predictive ADTree models were established using the training cohort ( N = 17,244). Out of >30 variables considered, 15 variables, such as underlying disease, donor source, HLA and sex mismatch, conditioning regimen, GVHD prophylaxis, and donor age, were adapted into each model for aGVHD prediction (Figure 1). Cross validation demonstrated that the models' discrimination for the incidence of aGVHD was appropriate (area under curve: 0.616 and 0.623 for grades 2-4 and 3-4, respectively). These models were tested in the validation cohort ( N = 8,050), and the incidence of aGVHD was clearly stratified according to the categorized ADTree scores (Figure 2). The cumulative incidence of grade 2-4 aGVHD was 29.0% for low risk, 35.3% for low-intermediate risk (hazard ratio [HR] compared with the low risk, 1.26; 95%CI, 1.11 - 1.42), 41.8% for intermediate risk (HR, 1.56; 95%CI, 1.39 - 1.76), 48.7% for high-intermediate risk (HR, 2.00; 95%CI, 1.78 - 2.24), and 58.7% for high risk (HR, 2.57; 95%CI, 2.30 - 2.88). Whereas, the cumulative incidence of grade 3-4 aGVHD was 8.6% for low risk, 12.5% for low-intermediate risk (HR, 1.53; 95%CI, 1.20 - 1.93), 14.9% for intermediate risk (HR, 1.85; 95%CI, 1.48 - 2.31), 21.1% for high-intermediate risk (HR, 2.72; 95%CI, 2.19 - 3.38), and 28.6% for high risk (HR, 3.87; 95%CI, 3.13 - 4.78). These two scores for aGVHD also demonstrated the relationship with the inferior overall survival after HSCT. Discussion Variables automatically extracted through machine learning algorithms (i.e., ADTree), in the absence of any bias from researchers, were clinically reasonable, and the obtained systems provided robust risk stratification scores for the incidence of aGVHD following allogeneic HSCT. The high reproducibility and freedom from the interactions among the variables indicate that ADTree, along with the other data mining approaches, may be widely used in the establishment of risk score. The present results should be validated in the other patient cohorts through future studies worldwide. View large Download slide View large Download slide  Disclosures Ichinohe: Nippon Shinyaku Co.: Research Funding; Ono Pharmaceutical Co.: Research Funding; Otsuka Pharmaceutical Co.: Research Funding; Repertoire Genesis Inc.: Research Funding; MSD: Research Funding; Pfizer: Research Funding; JCR Pharmaceuticals: Honoraria; Celgene: Honoraria; Takeda Pharmaceutical Co.: Research Funding; Zenyaku Kogyo Co.: Research Funding; Sumitomo Dainippon Pharma Co.: Research Funding; Taiho Pharmaceutical Co.: Research Funding; Alexion Pharmaceuticals: Honoraria; Bristol-Myers Squibb: Honoraria; Janssen Pharmaceutical K.K.: Honoraria; Mundipharma: Honoraria; Novartis.: Honoraria; Kyowa Hakko Kirin Co.: Research Funding; Eisai Co.: Research Funding; CSL Behring: Research Funding; Chugai Pharmaceutical Co.: Research Funding; Astellas Pharma: Research Funding. Kanda: Eisai: Consultancy, Honoraria, Research Funding; Otsuka: Research Funding; Asahi-Kasei: Research Funding; Pfizer: Research Funding; Taisho-Toyama: Research Funding; Shionogi: Consultancy, Honoraria, Research Funding; Nippon-Shinyaku: Research Funding; Tanabe-Mitsubishi: Research Funding; Sanofi: Research Funding; Takeda: Consultancy, Honoraria, Research Funding; Bristol-Myers Squibb: Consultancy, Honoraria; MSD: Research Funding; Ono: Consultancy, Honoraria, Research Funding; CSL Behring: Research Funding; Dainippon-Sumitomo: Consultancy, Honoraria, Research Funding; Taiho: Research Funding; Kyowa-Hakko Kirin: Consultancy, Honoraria, Research Funding; Chugai: Consultancy, Honoraria, Research Funding; Astellas: Consultancy, Honoraria, Research Funding; Novartis: Research Funding; Celgene: Consultancy, Honoraria; Mochida: Consultancy, Honoraria; Alexion: Consultancy, Honoraria; Takara-bio: Consultancy, Honoraria.",
-    "topics": [
-        "allogeneic hematopoietic stem cell transplant",
-        "graft-versus-host disease, acute",
-        "machine learning",
-        "hematopoietic stem cell transplantation",
-        "graft-versus-host disease",
-        "acute lymphocytic leukemia",
-        "human leukocyte antigens",
-        "leukemia, myelocytic, acute",
-        "lymphoma, non-hodgkin",
-        "myelodysplastic syndrome"
-    ],
-    "author_names": [
-        "Yasuyuki Arai, MDPhD",
-        "Tadakazu Kondo, MD PhD",
-        "Kyoko Fuse, MD",
-        "Yasuhiko Shibasaki, MD",
-        "Masayoshi Masuko, MD PhD",
-        "Junichi Sugita",
-        "Takanori Teshima",
-        "Naoyuki Uchida, MD PhD",
-        "Takahiro Fukuda",
-        "Kazuteru Ohashi, MD PhD",
-        "Yukiyasu Ozawa, MD PhD",
-        "Tatsuo Ichinohe, MD PhD",
-        "Yoshinobu Kanda, MD PhD",
-        "Yoshiko Atsuta, MD PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Hematology and Oncology, Kyoto University, Kyoto, Japan "
-        ],
-        [
-            "Department of Hematology and Oncology, Graduate School of Medicine, Kyoto University, Kyoto, Japan "
-        ],
-        [
-            "Niigata University, Niigata, Japan "
-        ],
-        [
-            "Niigata University, niigata, Japan "
-        ],
-        [
-            "Niigata University, Niigata, Japan "
-        ],
-        [
-            "Department of Hematology, Faculty of Medicine, Hokkaido University, Sapporo, Japan "
-        ],
-        [
-            "Department of Hematology, Faculty of Medicine, Hokkaido University, Sapporo, Japan "
-        ],
-        [
-            "Department of Hematology, Toranomon Hospital, Tokyo, Japan "
-        ],
-        [
-            "Department of Hematopoietic Stem Cell Transplantation, National Cancer Center Hospital, Tokyo, Japan "
-        ],
-        [
-            "Hematology Division, Tokyo Metropolitan Cancer and Infectious Diseases Center, Komagome Hospital, Tokyo, Japan "
-        ],
-        [
-            "Department of Hematology and Hematopoietic Cell Transplantation Center, Japanese Red Cross Nagoya First Hospital, Nagoya, Japan "
-        ],
-        [
-            "Department of Hematology and Oncology, Research Institute for Radiation Biology and Medicine, Hiroshima University, Hiroshima, Japan "
-        ],
-        [
-            "Jichi Medical University, Shimotsuke, Japan "
-        ],
-        [
-            "The Japanese Data Center for Hematopoietic Cell Transplantation, Nagoya, Japan"
-        ]
-    ],
-    "first_author_latitude": "35.0250186",
-    "first_author_longitude": "135.77606029999998"
+    "url": "https://ashpublications.org/blood/article/132/Supplement 1/68/266368/Prediction-of-Acute-Graft-Versus-Host-Disease?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T07:19:58",
+    "is_scraped": "0"
 }

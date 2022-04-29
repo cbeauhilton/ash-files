@@ -1,65 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4056",
+    "start_url_page_num": "4056",
     "doi": "https://doi.org/10.1182/blood-2018-99-113371",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4056",
-    "start_url_page_num": 4056,
-    "is_scraped": "1",
-    "article_title": "WGS and RNA-Seq Is Superior to Conventional Diagnostic Tests in Multiple Myeloma: Ready for Prime Time? ",
-    "article_date": "November 29, 2018",
-    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster III",
-    "topics": [
-        "multiple myeloma",
-        "rna",
-        "whole genome sequencing",
-        "brachial plexus neuritis",
-        "leukemia",
-        "karyotype determination procedure",
-        "dna",
-        "gene expression profiling",
-        "genetic analysis",
-        "gold standard"
-    ],
-    "author_names": [
-        "Alexander H\u00f6llein, MD",
-        "Sven O. Twardziok, PhD",
-        "Wencke Walter, PhD",
-        "Stephan Hutter, PhD",
-        "Jes\u00fas Mar\u00eda Hern\u00e1ndez",
-        "Manja Meggendorfer, PhD",
-        "Torsten Haferlach, MD",
-        "Wolfgang Kern, MD",
-        "Claudia Haferlach, MD"
-    ],
-    "author_affiliations": [
-        [
-            "MLL Munich Leukemia Laboratory, Munich, Germany "
-        ],
-        [
-            "MLL Munich Leukemia Laboratory, Munich, Germany "
-        ],
-        [
-            "MLL Munich Leukemia Laboratory, Munich, Germany "
-        ],
-        [
-            "MLL Munich Leukemia Laboratory, Munich, Germany "
-        ],
-        [
-            "MLL Munich Leukemia Laboratory, Munich, Germany ",
-            "Centro de Investigaci\u00f3n del C\u00e1ncer, Universidad de Salamanca-CSIC, Salamanca, Spain "
-        ],
-        [
-            "MLL Munich Leukemia Laboratory, Munich, Germany "
-        ],
-        [
-            "MLL Munchner Leukamie Labor Gmbh, Munchen, Germany"
-        ],
-        [
-            "MLL Munich Leukemia Laboratory, Munich, Germany "
-        ],
-        [
-            "MLL Munich Leukemia Laboratory, Munich, Germany "
-        ]
-    ],
-    "first_author_latitude": "48.1080895",
-    "first_author_longitude": "11.473868",
-    "abstract_text": "Background : The diagnosis and risk stratification of multiple myeloma (MM) is based on clinical and cytogenetic tests. Magnetic CD138 enrichment followed by interphase FISH is the gold standard to identify prognostic translocations and copy number alterations. Gene expression (GEP) studies show that MM might consist of various subgroups with distinct clinical outcomes (Zhan et al., Blood 2006). Whole genome sequencing (WGS) and targeted sequencing studies have further shed light onto recurrent mutations in MM and clinical implications are being derived (Lohr et al., Cancer Cell 2014). We set up a single workflow to analyze MM by WGS and RNA-Seq to evaluate whether this diagnostic workup is superior to conventional diagnostic testing. Methods : The cohort comprised 211 patients (pts) diagnosed with MM at our institution from 2011 to 2017. For all pts FISH and WGS was performed on CD138 enriched cells. For WGS 150bp paired-end sequences where generated on Illumina HiseqX and NovaSeq 6000 (Illumina, San Diego, CA). A mixture genomic DNA from multiple anonymous donors was used as normal controls. To remove potential germline variants, each variant was queried against the gnomAD database, variants with global population frequencies >1% where excluded. 47 genes recurrently mutated in MM were selected for evaluation (Kort\u00fcm et. al., Blood 2016). Copy number alterations (CNAs) were called using GATK4 and structural variations (SVs) were called using MANTA accounting for missing matched-normal samples. For transcriptome analysis total RNA was sequenced and the resulting estimated gene counts were pre-processed and normalized, applying trimmed mean of M-values normalization method. Results: WGS allowed us to detect 98/102 (96%) translocations that had previously been identified by FISH. Specifically we confirmed 24/24 of t(4;14), 6/7 of t(6;14), 11/12 of t(8;14), 51/53 of t(11;14) and 6/6 of t(14;16) cases by WGS. Moreover, by conventional FISH 12 pts had an IGH (n=4) or MYC (n=8) translocation with an unknown partner chromosome. We identified all 12 translocations by WGS. By WGS we also identified 679/740 (92 %) copy number alterations (CNA) detected by FISH. In detail these were 100/103 del(13q), 17/21 del(17p), 10/10 del(1p) and 79/87 +1q. Concordance rates for trisomies 3, 5, 9, 11, 15 and 19 were 80/91, 75/87, 92/97, 87/97, 53/55 and 86/92, respectively. Zhan et al. defined 7 MM subgroups (CD-1, CD-2, HY, MF, MS, LB, PR) based on GEP. 4 groups (CD-1/CD-2, MF, MS) were genetically defined by recurrent translocations and 1 by hyperploidy (HY). They used 700 probes to separate the groups of which 400 transcripts were recovered in our RNA-Seq analysis (GEP Seq ). Supervised clustering grouped all 211 pts at the following frequencies: CD-1 (5%), CD-2 (25%), HY (30%), MF (5%), MS (11%), LB (14%), (PR 10%). 56/62 (90%) of pts that were allocated to CD-1/CD-2 had the characteristic translocation (t(11;14) or t(6;14)), while 23/24 (92%) of pts and 5/10 (50%) pts in GEP Seq group MS and MF had the respective t(4;14) or t(14;16). GEP allocates pts with hyperdiploidy to group HY and 51/63 (81%) pts in HY had a hyperdiploid karyotype by FISH. We specifically queried the WGS data for patients with discrepant FISH and GEP Seq results: WGS identified hyperdiploidy in 10/12 patients that were allocated to HY and could not be assigned by FISH due to insufficient material for complete testing, resulting in a 97% final concordance of GEP Seq and karyotype. One patient in group MS without FISH data for t(4;14) could be confirmed by WGS as harbouring the translocation (concordance 100%). Interestingly in 5/5 patients that were allocated to the MF group by GEP Seq 2 had an IGH-MYC or IGH-MYCN rearrangement respectively and 2 had another IGH rearrangement involving chromosome 8q. By WGS the most frequently mutated (mut) genes were KRAS (26%), NRAS (23 %), TP53 (8%), BRAF (4%) and ATM (2%), which is in line with published data (Lohr 2014). NRAS mut was significantly associated with GEP Seq groups CD-2 and HY (p=0.001) and ATM mut with MF, MS and PR (p=0.047). Conclusion: RNA-Seq and WGS prove highly valuable in differentiating genetically distinct MM subgroups. The simultaneous analysis of gene mutations might have future implications for study design and selecting treatment options. A single workflow based on WGS and RNA-Seq provides a comprehensive genetic analysis in MM, is feasible and might substitute conventional diagnostic testing in the near future. Disclosures H\u00f6llein: MLL Munich Leukemia Laboratory: Employment. Twardziok: MLL Munich Leukemia Laboratory: Employment. Walter: MLL Munich Leukemia Laboratory: Employment. Hutter: MLL Munich Leukemia Laboratory: Employment. Hern\u00e1ndez: MLL Munich Leukemia Laboratory: Employment. Meggendorfer: MLL Munich Leukemia Laboratory: Employment. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Kern: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership."
+    "url": "https://ashpublications.org/blood/article/132/Supplement 1/4442/275863/WGS-and-RNA-Seq-Is-Superior-to-Conventional?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T07:20:39",
+    "is_scraped": "0"
 }
