@@ -1,72 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4145",
+    "start_url_page_num": "4145",
     "doi": "https://doi.org/10.1182/blood-2018-99-120173",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4145",
-    "start_url_page_num": 4145,
-    "is_scraped": "1",
-    "article_title": "Enhancing Human NK Cell Function and Specificity for Cancer Immunotherapy ",
-    "article_date": "November 29, 2018",
-    "session_type": "703. Adoptive Immunotherapy: Poster I",
-    "topics": [
-        "cancer immunotherapy",
-        "natural killer cells",
-        "antigens, cd16",
-        "cancer",
-        "antibodies",
-        "cytokine inducible sh2-containing protein",
-        "gene editing",
-        "interleukin-15",
-        "molecule",
-        "programmed cell death 1 ligand 1"
-    ],
-    "author_names": [
-        "Pomeroy Emily",
-        "Hunzeker John",
-        "Kluesner Mitchell",
-        "Crosby Margaret",
-        "Laura Bendzick",
-        "Jeffrey S. Miller, MD",
-        "Beau Webber, PhD",
-        "Melissa A. Geller",
-        "Martin Felices, PhD",
-        "Tim Starr",
-        "Branden S Moriarity, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Pediatrics, Masonic Cancer Center, Center for Genome Engineering, University of Minnesota, Minneapolis, "
-        ],
-        [
-            "Department of Pediatrics, Masonic Cancer Center, Center for Genome Engineering, University of Minnesota, Minneapolis, "
-        ],
-        [
-            "Department of Pediatrics, Masonic Cancer Center, Center for Genome Engineering, University of Minnesota, Minneapolis, "
-        ],
-        [
-            "Department of Pediatrics, Masonic Cancer Center, Center for Genome Engineering, University of Minnesota, Minneapolis, "
-        ],
-        [
-            "Department of Obstetrics, Gynecology, and Women's Health, University of Minnesota, Minneapolis, "
-        ],
-        [
-            "Hematology, Oncology and Transplantation, Department of Medicine, University of Minnesota, Minneapolis, MN "
-        ],
-        [
-            "Department of Pediatrics, Masonic Cancer Center, Center for Genome Engineering, University of Minnesota, Minneapolis, "
-        ],
-        [
-            "Department of Obstetrics, Gynecology, and Women's Health, University of Minnesota, Minneapolis, "
-        ],
-        [
-            "University of Minnesota, Minneapolis, "
-        ],
-        [
-            "Department of Obstetrics, Gynecology, and Women's Health, University of Minnesota, Minneapolis, "
-        ],
-        [
-            "Department of Pediatrics, Masonic Cancer Center, Center for Genome Engineering, University of Minnesota, Minneapolis, MN"
-        ]
-    ],
-    "first_author_latitude": "44.973266249999995",
-    "first_author_longitude": "-93.23060245",
-    "abstract_text": "Natural Killer (NK) cells are cytotoxic lymphocytes capable of immune surveillance and represent an excellent source of cells for cancer immunotherapy for numerous reasons: 1) they mediate direct killing of transformed cells with reduced or absent MHC expression, 2) they can carryout antibody-dependent cell-mediated cytotoxicity (ADCC) on cells bound by appropriate antibodies via CD16, 3) they are readily available and easy to isolate from peripheral blood, 4) they can be expanded to clinically relevant numbers in vitro . Moreover, as NK cells do not cause graft versus host disease, they are inherently an off-the-shelf cellular product, precluding the need to use a patient's own NK cells to treat their cancer. In light of these attributes, NK cells have been used in many clinical trials to treat a number of cancer types; however, the results have not been as successful as other cellular based immunotherapies, such as CAR-T. In light of this, many groups have taken approaches to augment NK cell function, such as high dose IL15, CARs and Bi- or Tri-specific killer engagers. A synergistic or even alternative approach to these technologies is the use of CRISPR/Cas9-based genome editing to disrupt or manipulate the function of NK genes to improve their utility as an immunotherapeutic agent. In order to enhance the immunotherapeutic efficacy of NK cells we have implemented the CRISPR/Cas9 system to edit genes and deliver CARs. To this end, we have developed methods for high efficiency nucleic acid delivery to NK cells using electroporation. First, primary human NK cells are immunomagnetically isolated from peripheral blood mononuclear cells (PBMCs) of healthy donors. Purified NK cells are then activated and expanded using artificial antigen presenting cells (aAPCs) expressing membrane bound IL21 and 41BB for 7 days and subsequently electroporated ( Figure 1A ). Using this approach with EGFP encoding mRNA, we achieve high rates of transfection (>90%) and high viability (>90%) ( Figure 1B ). We next developed gRNAs targeting PD1, CISH, and ADAM17. PD1 is a negative regulator of NK cell function and its cognate receptor, PD-L1, is upregulated in a number of cancers. ADAM17 mediates CD16 cleavage on NK cells to negatively regulate their ability to perform ADCC. CISH is a recently described negative regulator of NK cell activation and integrates cytokine signals, including IL-15. We consistently achieved high rates (up to 90%) of gene inactivation in primary human NK cells across multiple donors ( Figure 1C ). Importantly, these gene edits do not affect expansion potential and are stable over several rounds of expansion ( Figure 1D, E ). Moreover, ADAM17 KO NK cells are highly resistant to CD16 cleavage upon activation ( Figure 2A-E ) and PD1 KO NK cells demonstrate significantly enhanced function against PD-L1 expressing cancer cell lines in vitro and in vivo ( Figure 2F-J ). These data demonstrate that high efficiency gene editing of NK cells can significantly enhance their function while maintaining in vitro expansion. In an effort to engineer NK cell specificity for cancer immunotherapy, we recently developed CAR molecules designed for use in NK cells (Li et al., 2018, Cell Stem Cell 23, 1-12). To this end, we engineered and tested 10 mesothelin CAR molecules with NK specific transmembrane domains (CD16, NKp44, NKp46, or NKG2D) and intracellular signaling domains (2B4, DAP10, DAP12, CD3\u03b6, and/or CD137). Utilizing several cancer models, we identified an architecture that significantly enhanced NK activation compared to T-CAR architectures (CAR4: scFv-NKG2D-2B4-CD3\u03b6). Moreover, NK-CAR4 cells demonstrated increased in vivo expansion, improved activity, and reduced toxicity compared to CAR-T cell therapy. In our studies to develop novel NK CARs, CARs were delivered to iPSC derived test NK cells (iNKs) using the PiggyBac transposon system. In order to deliver NK-CAR4 to peripheral blood NK cells we developed methods for high frequency, site specific integration. To this end, we utilized CRISPR/Cas9 combined with non-integrating recombinant Adeno-Associated Virus (rAAV) DNA donor for homologous recombination. Using an EGFP reporter we were able to optimize this process and deliver EGFP reporter to the AAVS1 safe harbor site with efficiencies >80% in NK cells. We are now utilizing our optimized gene editing approaches to generate multiplex edited CAR-NK cells and results from these studies will be presented. View large Download slide View large Download slide Disclosures Webber: BEAM Therapeutics: Consultancy; B-MoGen Biotechnologies: Employment, Equity Ownership. Felices: GT Biopharma: Research Funding. Moriarity: BEAM Therapeutics: Consultancy; B-MoGen Biotechnologies: Employment, Equity Ownership."
+    "url": "https://ashpublications.org/blood/article/132/Supplement 1/2044/261657/Enhancing-Human-NK-Cell-Function-and-Specificity?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T11:18:00",
+    "is_scraped": "0"
 }
