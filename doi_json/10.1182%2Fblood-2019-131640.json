@@ -1,65 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4360",
+    "start_url_page_num": "4360",
     "doi": "https://doi.org/10.1182/blood-2019-131640",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4360",
-    "start_url_page_num": 4360,
-    "is_scraped": "1",
-    "article_title": "Platelet Phenotype Prediction from Whole Genome Sequencing in 621 Sickle Cell Disease Patients ",
-    "article_date": "November 13, 2019",
-    "session_type": "114.Hemoglobinopathies, Excluding Thalassemia-Clinical",
-    "topics": [
-        "blood platelets",
-        "phenotype",
-        "sickle cell anemia",
-        "whole genome sequencing",
-        "massively-parallel genome sequencing",
-        "dideoxy chain termination dna sequencing",
-        "human platelet antigens",
-        "alloimmunization",
-        "blood preservation",
-        "blood transfusion"
-    ],
-    "author_names": [
-        "Celina Montemayor Garcia, MD PhD",
-        "Julie K. Weisman, MD",
-        "Xunde Wang, PhD",
-        "Divya Gandla",
-        "James Owen Long, MD",
-        "Clifton L. Dalgard, PhD",
-        "Mehdi Pirooznia, MD PhD",
-        "Harvey Klein, MD",
-        "Swee Lay Thein, DSc, MBBS"
-    ],
-    "author_affiliations": [
-        [
-            "Clinical Center/ Department of Transfusion Medicine, National Institutes of Health, North Bethesda, MD "
-        ],
-        [
-            "Children's National Health System, Washington, DC "
-        ],
-        [
-            "Sickle Cell Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD "
-        ],
-        [
-            "Clinical Center Department of Transfusion Medicine, National Institutes of Health, Bethesda, MD "
-        ],
-        [
-            "Walter Reed National Military Medical Center, Department of Pathology, National Capital Consortium, Bethesda, MD "
-        ],
-        [
-            "Collaborative Health Initiatives Research Program, Uniformed Services University of the Health Sciences, Bethesda, MD ",
-            "Department of Anatomy, Physiology, and Genetics, Uniformed Services University of the Health Sciences, Bethesda, MD "
-        ],
-        [
-            "Bioinformatics and Computational Biology Core, Division of Intramural Research, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD "
-        ],
-        [
-            "Clinical Center/ Department of Transfusion Medicine, National Institutes of Health, Bethesda, MD"
-        ],
-        [
-            "Sickle Cell Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD "
-        ]
-    ],
-    "first_author_latitude": "39.0016838",
-    "first_author_longitude": "-77.10525795",
-    "abstract_text": "Introduction: Patients with sickle cell disease (SCD) are at increased risk of alloimmunization. Platelet refractoriness is a serious known complication and often seen in SCD patients who are heavily transfused and/or in the bone marrow transplantation (BMT) setting. Next generation sequencing (NGS) is an emerging and promising genotyping strategy in the context of blood typing, due its high throughput and its ability to detect both known and novel variants in the patient and donor population. Here we describe an algorithm to predict common and rare human platelet antigens (HPA) from NGS data, and its validation through Sanger sequencing. Design/Methods: Whole genome sequencing (WGS) was performed on stored blood samples from 621 SCD patients enrolled in 2 IRB-approved clinical studies. Our open source software RyLAN (Red Cell and Lymphocyte Antigen prediction from NGS) was utilized to translate WGS data into predicted RBC and platelet phenotypes. The 29 genomic variants interpreted by RyLAN in 6 HPA genes were correlated with Sanger sequencing. Results: Our study cohort consisted of 621 SCD patients (485 HbSS, 21 HbS\u03b2 0 , 29 HbS\u03b2+, 84 HbSC, 1HbS O Arab, and 1 HbSD). The mean age was 34.3 years, and 46% were male. Previous red cell transfusions were recorded in 62% of patients, and 3% were documented as never transfused. RyLAN software was executed as a singularity container in multithreaded mode, completing analysis of all 621 .bam WGS files in 18 hours. RyLAN predicted 237 unique extended platelet phenotype combinations in this cohort, with an average read depth of 33 in genomic areas of interest. Predictions for 10 platelet antigens in 26 participants, including rare phenotypes like HPA-25bw+ and HPA-13bw+, were confirmed by bidirectional Sanger. Conclusions: We describe an efficient, open-source algorithm used to interpret 6 HPA genes from WGS in a large SCD cohort. WGS, in conjunction with the RyLAN algorithm, demonstrated 100% accuracy in predicting common and rare HPA genomic variants. Future studies are needed to refine WGS algorithms in SCD, and to examine the possible value of this technology in HPA alloantibody identification workups, optimal platelet product allocation, and donor recruitment. Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/134/Supplement_1/2295/423071/Platelet-Phenotype-Prediction-from-Whole-Genome?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T21:19:01",
+    "is_scraped": "0"
 }
