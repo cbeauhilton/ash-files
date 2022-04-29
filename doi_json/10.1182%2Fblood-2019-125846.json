@@ -1,60 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4215",
+    "start_url_page_num": "4215",
     "doi": "https://doi.org/10.1182/blood-2019-125846",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4215",
-    "start_url_page_num": 4215,
-    "is_scraped": "1",
-    "article_title": "A Machine Learning Algorithm to Improve Risk Assessment for Patients with Sickle Cell Disease ",
-    "article_date": "November 13, 2019",
-    "session_type": "114.Hemoglobinopathies, Excluding Thalassemia-Clinical",
-    "topics": [
-        "machine learning",
-        "sickle cell anemia",
-        "thalassemia",
-        "brain natriuretic peptide",
-        "hemoglobin, sickle",
-        "alkaline phosphatase",
-        "bicarbonates",
-        "blood urea nitrogen",
-        "creatinine",
-        "diagnostic imaging"
-    ],
-    "author_names": [
-        "Vandana Sachdev, MD",
-        "Yuan Gu, PhD",
-        "James Nichols, RN",
-        "Wen Li, RCS",
-        "Stanislav Sidenko, RCS",
-        "Darlene Allen, MT(ASCP)",
-        "Colin Wu, PhD",
-        "Swee Lay Thein, DSc, MBBS"
-    ],
-    "author_affiliations": [
-        [
-            "National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD "
-        ],
-        [
-            "The George Washington University, Washington DC, DC "
-        ],
-        [
-            "National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD "
-        ],
-        [
-            "National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD "
-        ],
-        [
-            "National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD "
-        ],
-        [
-            "National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD "
-        ],
-        [
-            "Office of Biostatistics Research, National Heart, Lung and Blood Institute, National Institutes of Health, Bethesda, MD "
-        ],
-        [
-            "Sickle Cell Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD"
-        ]
-    ],
-    "first_author_latitude": "39.0035707",
-    "first_author_longitude": "-77.1013313",
-    "abstract_text": "Sickle cell disease (SCD) is a clinical syndrome that encompasses several different genotypes, the 3 most common being homozygosity for the b S allele (HbSS), compound heterozygosity of HbS and HbC (HbSC), and compound heterozygosity of HbS and HbSb thalassemia (HbSb + or HbSb 0 thalassemia). Generally, patients with HbSS and HbSb 0 thalassemia genotypes have the most severe clinical manifestations, while patients with HbSC and HbS\u03b2 + -thalassemia are thought to be less severe. Within each of these genotypic groups, however, there are also substantial phenotypic differences. This heterogeneity makes it difficult to quantify the severity of the disease process and to guide therapeutics. As more intensive, high risk and costly treatments such as hematopoietic stem cell transplant and gene therapy are developing, the ability to assess patients at highest risk of early mortality becomes increasingly important. Integrating varied clinical, laboratory, and imaging markers for personalized risk prediction has been difficult, however, newer machine learning methods for outcome prediction take a more agnostic approach than traditional statistical methods and can detect complex, non-linear relationships in the data. In this study, we sought to apply machine learning methods to a well-characterized cohort of SCD patients followed at the National Institutes of Health in order to identify clinically meaningful subgroups of patients at highest risk of mortality. Between 2006 and 2017, 601 patients (age 35\u00b113 years, 51% female) underwent echocardiogram, standard laboratory markers and hemoglobin electrophoresis resulting in 61 candidate variables. Among these patients, 488 had HbSS, 12 HbSb 0 thalassemia, 80 HbSC, 20 HbSb + thalassemia. All-cause mortality was ascertained by proxy interview, through medical records, and through the CDC National Death Index. Average follow-up time was 5 years and 130 patients were deceased. A random survival forest (RSF) algorithm followed by nested model selection and AIC Cox regression analysis identified 13 predictors of mortality (estimated right ventricular systolic pressure, peak tricuspid regurgitant (TR) velocity, mitral E velocity, septal and posterior wall thickness, IVC diameter, right atrial area, BUN, alkaline phosphatase, N-terminal-pro brain natriuretic peptide (BNP), creatinine, potassium and bicarbonate). This model performed better than individual clinical and laboratory variables with a C-statistic of 0.822 (genotype 0.524, eGFR 0.624, NT-proBNP 0.686, TR velocity 0.703). K-means clustering grouped all patients into 3 main clusters with significant survival differences. Survival at 8 years for the entire group was 70%; for individual clusters, survival was 43% for cluster 1, 72% for cluster 2, and 88% for cluster 3 (Figure 1A). Since TR velocity is recognized as one of the most specific independent predictors of mortality, we compared our results with this parameter. There was a better stratification of mortality risk using the 7 strongest parameters from RSF compared with TR velocity alone (Figure 1B), particularly for longer term outcomes. In this cohort of 601 patients with SCD, machine learning methods were used to show the heterogeneity of this disorder and the ability to detect phenotypic clusters with different mortality profiles. Although there are many individual predictors of mortality, few methods other than assessment by an expert clinician can integrate all known variables in deeply phenotyped patients. RSF and cluster analysis was used in this cohort to analyze a large amount of data in order to identify seven variables that could stratify patients into groups with significantly different outcomes. The specificity of this approach was high (c-statistic 0.822) and better than that of individual markers of end-organ involvement. View large Download slide View large Download slide  Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/134/Supplement_1/893/427136/A-Machine-Learning-Algorithm-to-Improve-Risk?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T15:22:31",
+    "is_scraped": "0"
 }

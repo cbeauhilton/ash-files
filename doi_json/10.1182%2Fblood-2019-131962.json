@@ -1,71 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4220",
+    "start_url_page_num": "4220",
     "doi": "https://doi.org/10.1182/blood-2019-131962",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4220",
-    "start_url_page_num": 4220,
-    "is_scraped": "1",
-    "article_title": "A Highly Robust Model for Predicting Outcome of Multiple Myeloma Patients By Inferring Patient-Specific Transcription Factor Activity ",
-    "article_date": "November 13, 2019",
-    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
-    "topics": [
-        "multiple myeloma",
-        "transcription factor",
-        "bortezomib",
-        "hematologic neoplasms",
-        "neoplasm metastasis",
-        "transplantation, heterologous",
-        "treatment outcome",
-        "cox proportional hazards models",
-        "computer simulation",
-        "encode consortium"
-    ],
-    "author_names": [
-        "Chuanpeng Dong, MS",
-        "Christina Y Yu, BSc",
-        "Travis S Johnson, MS",
-        "Jill L Reiter, PhD",
-        "Mohammad Issam Abu Zaid, MBBS",
-        "Rafat Abonour, MD",
-        "G. David Roodman, MD PhD",
-        "Kun Huang, PhD",
-        "Yunlong Liu, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Center for Computational Biology and Bioinformatics, Indiana University School of Medicine, Indianapolis, IN ",
-            "Department of Medical and Molecular Genetics, Indiana University School of Medicine, Indianapolis, IN ",
-            "Department of BioHealth Informatics, Indiana University-Purdue University Indianapolis, Indianapolis, IN "
-        ],
-        [
-            "Department of Medicine, Indiana University School of Medicine, Indianapolis, IN ",
-            "Department of Biomedical Informatics, The Ohio State University, Indianapolis, IN "
-        ],
-        [
-            "Department of Medicine, Indiana University School of Medicine, Indianapolis, IN ",
-            "Department of Biomedical Informatics, The Ohio State University, Columbus, OH "
-        ],
-        [
-            "Department of Medical and Molecular Genetics, Indiana University School of Medicine, Indianapolis, IN "
-        ],
-        [
-            "Indiana University Simon Cancer Center, Indiana University School of Medicine, Indianapolis, IN "
-        ],
-        [
-            "Hematology/Oncology, Indiana University School of Medicine, Indianapolis, IN "
-        ],
-        [
-            "Hematology/Oncology, Indiana University School of Medicine, Indianapolis, IN ",
-            "Richard L. Roudebush VA Medical Center, Indianapolis, IN "
-        ],
-        [
-            "Department of Medicine, Indiana University School of Medicine, Indianapolis, IN ",
-            "Regenstrief Institute, Indianapolis, IN"
-        ],
-        [
-            "Center for Computational Biology and Bioinformatics, Indiana University School of Medicine, Indianapolis, IN ",
-            "Department of Medical and Molecular Genetics, Indiana University School of Medicine, Indianapolis, IN "
-        ]
-    ],
-    "first_author_latitude": "39.78156130000001",
-    "first_author_longitude": "-86.16517139999999",
-    "abstract_text": "Objective : Multiple myeloma (MM) is the second most common blood cancer in the United States. Clinical and pathological indicators are inadequate for accurate assessing prognosis of MM patients 1 . The objective of this study was to develop a robust computational model for predicting prognosis of MM patients by inferring transcription factor (TF) activities based on global gene expression measurements. Methods: The workflow is illustrated in Figure 1. Gene expression data from MM patients were retrieved from the Multiple Myeloma Research Foundation CoMMpass study 2 (MMRF) and Gene Expression Omnibus (GEO). MM-specific TF-target gene relationships were derived from the ENCODE database 3 and co-expression analysis was based on MMRF data. The activity for each TF was inferred using a rank-based enrichment approach based on the target gene expression measurements in individual patients 4 . A prognostic model was developed using Cox regression analysis based on the inferred TF activities that demonstrated the highest association with patient survival. The TF model performance was further evaluated using data from four independent MM cohorts, in which gene expression levels were measured using different platforms. Results : Based on MMRF data (767 patients), the inferred activity of four TFs, BATF, E2F1, MYBL2, and RAD21, showed the strongest association with patient survival. The derived prognostic model was validated in four independent MM data sets with a total of 1501 patients. Importantly, gene expression levels in the validation data sets were measured using microarray, which is different from the RNAseq used in training data sets, and supports the robustness of the TF activity model across different platforms (Figure 2). In addition, the TF activity model was able to predict clinical outcomes of patients that received bortezomib treatment, and it also revealed an association with metastasis in myeloma cell line xenograft experiments 5 (Figure 3) . Conclusion : We developed a highly robust prognostic model for predicting MM clinical outcomes. The inferred TF activity further improves our understanding of the underlying regulatory basis of MM progression. Reference 1. Rajkumar SV. Multiple myeloma: 2012 update on diagnosis, risk-stratification, and management. Am J Hematol . 2012;87(1):78-88. 2. l, a longitudinal study in multiple myeloma relating clinical outcomes to genomic and immunophenotypic profiles: Am Soc Hematology; 2013. 3. Consortium EP. The ENCODE (ENCyclopedia of DNA elements) project. Science 2004;306(5696):636-640. 4. Moerman T, Aibar Santos S, Bravo Gonz\u00e1lez-Blas C, et al. GRNBoost2 and Arboreto: efficient and scalable inference of gene regulatory networks. Bioinformatics . 2018;35(12):2159-2161. 5. Shen Y, Mishima Y, Shi J, et al. Deciphering Clonal Evolution and Dissemination of Multiple Myeloma Cells In Vivo: Am Soc Hematology; 2018. View large Download slide View large Download slide  Disclosures Abonour: Celgene: Consultancy, Research Funding; BMS: Consultancy; Takeda: Consultancy, Research Funding; Janssen: Consultancy, Research Funding. Roodman: Amgen: Membership on an entity's Board of Directors or advisory committees."
+    "url": "https://ashpublications.org/blood/article/134/Supplement_1/1785/427745/A-Highly-Robust-Model-for-Predicting-Outcome-of?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T15:22:51",
+    "is_scraped": "0"
 }
