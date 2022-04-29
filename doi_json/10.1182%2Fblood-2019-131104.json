@@ -1,70 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4291",
+    "start_url_page_num": "4291",
     "doi": "https://doi.org/10.1182/blood-2019-131104",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4291",
-    "start_url_page_num": 4291,
-    "is_scraped": "1",
-    "article_title": "Acute Leukemia with Lineage Infidelity: Mixed Phenotype AML Exhibits a Distinct Immunophenotype with Clinical Features Overlapping Mixed Phenotype Acute Leukemia ",
-    "article_date": "November 13, 2019",
-    "session_type": "617.Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
-    "topics": [
-        "acute leukemia, mixed phenotype",
-        "immunophenotyping",
-        "leukemia, acute",
-        "phenotype",
-        "signs and symptoms",
-        "magnetic resonance cholangiography",
-        "protein p53",
-        "cancer",
-        "flow cytometry",
-        "leukemia"
-    ],
-    "author_names": [
-        "Mindy P Kresch, BS",
-        "Wenbin Xiao, MD PhD",
-        "Kamal Menghrajani, MD",
-        "Christopher Famulare, MS",
-        "Minal A Patel, MPH",
-        "Jeeyeon Baik",
-        "Mikhail Roshal, MD PhD",
-        "Ross L. Levine, MD",
-        "Martin S. Tallman, MD",
-        "Jacob L Glass, MD PhD"
-    ],
-    "author_affiliations": [
-        [
-            "40 Sunshine Cottage Road, New York Medical College, Valhalla, NY "
-        ],
-        [
-            "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY "
-        ],
-        [
-            "Leukemia Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY "
-        ],
-        [
-            "Center for Hematologic Malignancies, Memorial Sloan Kettering Cancer Center, New York, NY "
-        ],
-        [
-            "Center for Hematologic Malignancies, Memorial Sloan Kettering Cancer Center, New York, NY "
-        ],
-        [
-            "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY "
-        ],
-        [
-            "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY "
-        ],
-        [
-            "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY ",
-            "Department of Medicine, Leukemia Service, Memorial Sloan Kettering Cancer Center, New York, NY "
-        ],
-        [
-            "Memorial Sloan-Kettering Cancer Center, New York, NY "
-        ],
-        [
-            "Leukemia Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY ",
-            "Center for Epigenetics Research, Memorial Sloan Kettering Cancer Center, New York, NY"
-        ]
-    ],
-    "first_author_latitude": "41.0845992",
-    "first_author_longitude": "-73.8090003",
-    "abstract_text": "Background : Myeloid and lymphoid leukemias each have distinct diagnostic algorithms, treatment paradigms, and therapeutic options. In mixed phenotype acute leukemia (MPAL), myeloid and lymphoid immunophenotypes are expressed simultaneously. MPAL is rare, accounting for fewer than 5% of all leukemias, and carries a poor prognosis. Currently, there is no standard of care for treatment of this disease and therapeutic options tailored to this group of patients are lacking. Additionally, the biological mechanisms underlying lineage infidelity are poorly understood. Here we seek to establish more precise biological characterization of this disease and have identified a new subgroup of patients with Mixed Phenotype Acute Myeloid Leukemia (AML-MP). Methods : We developed a novel natural language processing pipeline and used it to review 830 patient records, representing all acute leukemia patients treated at Memorial Sloan Kettering Cancer Center since 2015. We identified those with ambiguous lineages based on multiparameter flow cytometry data and integrated next-generation sequencing, cytogenetics, and clinical information. Statistical methods are outlined with the associated results below. Results: Among the 830 patient records reviewed, 54 (6.5%) patients with mixed lineage characteristics were identified. Of these, 26 (48%) carried a formal diagnosis of MPAL while 28 (52%) carried a diagnosis of AML with myelodysplasia related changes (AML-MRC) or therapy related AML (t-AML). Among the cases expressing multiple lineages, 34 (25%) had B/Myeloid features (11 MPAL, 23 AML-MRC), 17 (13%) had T/Myeloid features (13 MPAL, 4 AML-MRC), 3 (0.7%) had B/T/Myeloid lineage (2 MPAL, 1 AML-MRC). Only 8 patients received prior chemotherapy at our institution > 1 year prior to diagnosis and were classified as t-AML. As a control group, we also identified 79 patients with AML-MRC exhibiting myeloid lineage alone. We pooled the mixed-lineage and myeloid-only AML-MRC cases and performed k-means clustering into 2 groups using all available molecular features (Figure 1a). Although TP53 was enriched within AML cases (p<0.01), it was insufficient either individually or in combination with other mutations to significantly distinguish AML from MPAL cases (p=1). Among patients with mixed lineage characteristics, we performed a cox proportional hazards analysis and found that RUNX1 and SRSF2 mutations were predictors of better overall survival (OS) after adjusting for age, cytogenetics, and diagnosis type (age > 60: p < 0.01, high risk cytogenetics: p<0.08, intermediate risk cytogenetics: p=0.02, RUNX1: p<0.01, SRSF2: p=0.03; overall: p < 0.01; Figure 1b, left). An MPAL diagnosis by WHO criteria failed to achieve independent statistical significance on its own (p=0.57). Among AML-MRC myeloid only cases, ASXL1 mutation was associated with improved OS and TET2 mutation showed a trend toward poorer OS after adjusting for age and cytogenetic risk (age>60: p=0.01, ASXL1: p=0.02, TET2: p=0.06; overall: p < 0.01, Figure 1b, right). Cytogenetic risk did not independently contribute to the model (high risk: p=0.3, intermediate risk: p=0.55). We also manually reviewed flow cytometry results from 64 patients diagnosed with MPAL or diagnosed with t-AML or AML-MRC despite expressing markers of multiple lineages (Mixed Phenotype AML). Using a k-nearest neighbor approach, we found that immunophenotype identified two distinct patient populations - one largely Mixed Phenotype AML, and the other with a mixture of MPAL and Mixed Phenotype AML cases (p<0.01) (Figure 1c). Conclusions: Genomic characteristics improve prognostication for patients with MPAL, with RUNX1 and SRSF2 predicting a more favorable OS and TP53 not predictive of worse OS; this is in contrast to current stratifications of patients with de novo AML. While TP53 is enriched among AML cases, it does not distinguish AML-MRC from MPAL. Additionally, AML-MRC patients with ASXL1 mutations had improved overall survival after adjusting for cytogenetic risk. Some cases that are categorized as AML-MRC and t-AML by WHO criteria should be considered Mixed Phenotype AML and may be better classified into one of two distinct immunophenotypic subsets. Our study and model provide a more refined biological classification and prognostic schema for patients with MPAL and AML-MP; further validation of these observations is required in other data sets. Figure 1 View large Download slide Figure 1 View large Download slide  Disclosures Roshal: Auron Therapeutics: Equity Ownership, Other: Provision of services; Celgene: Other: Provision of Services; Physicians' Education Resource: Other: Provision of services. Levine: Prelude Therapeutics: Research Funding; Roche: Consultancy, Research Funding; Celgene: Consultancy, Research Funding; Gilead: Consultancy; Qiagen: Membership on an entity's Board of Directors or advisory committees; C4 Therapeutics: Membership on an entity's Board of Directors or advisory committees; Novartis: Consultancy; Loxo: Membership on an entity's Board of Directors or advisory committees; Isoplexis: Membership on an entity's Board of Directors or advisory committees; Imago Biosciences: Membership on an entity's Board of Directors or advisory committees; Lilly: Honoraria; Amgen: Honoraria. Tallman: Indy Hematology Review: Honoraria; Hematology Oncology of Indiana: Honoraria; Salzberg Weill Cornall MSKCC Seminar in Hematologic Malignancies: Honoraria; AbbVie: Membership on an entity's Board of Directors or advisory committees, Research Funding; International Conference in Leukemia: Honoraria; 14th Annual Miami Cancer Meeting: Honoraria; Amgen: Consultancy; Orsenix: Membership on an entity's Board of Directors or advisory committees, Research Funding; UpToDate: Patents & Royalties; Mayo Clinic: Honoraria; New Orleans Summer Cancer Conference: Honoraria; ADC Therapeutics: Research Funding; Danbury Hospital Tumor Board: Honoraria; Arog Pharmaceuticals: Research Funding; Nohla: Membership on an entity's Board of Directors or advisory committees, Research Funding; KAHR: Membership on an entity's Board of Directors or advisory committees; Daiichi-Sankyo: Membership on an entity's Board of Directors or advisory committees; BioSight: Membership on an entity's Board of Directors or advisory committees, Research Funding; Bioline: Membership on an entity's Board of Directors or advisory committees, Research Funding; University of Oklahoma Medical Center: Honoraria; Cellerant Therapeutics: Research Funding; Rigel: Membership on an entity's Board of Directors or advisory committees."
+    "url": "https://ashpublications.org/blood/article/134/Supplement_1/2718/423378/Acute-Leukemia-with-Lineage-Infidelity-Mixed?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T18:27:38",
+    "is_scraped": "0"
 }
