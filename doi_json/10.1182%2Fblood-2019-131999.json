@@ -1,68 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4388",
+    "start_url_page_num": "4388",
     "doi": "https://doi.org/10.1182/blood-2019-131999",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4361",
-    "start_url_page_num": 4361,
-    "is_scraped": "1",
-    "article_title": "Single Cell Sequencing Reveals Heterogeneity of Gene Expression in KMT2A Rearranged Infant ALL at Relapse Compared to Diagnosis ",
-    "article_date": "November 13, 2019",
-    "session_type": "618.Acute Lymphoblastic Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
-    "topics": [
-        "acute lymphocytic leukemia",
-        "adhesions",
-        "adult t-cell lymphoma/leukemia",
-        "bone marrow specimen",
-        "burkitt's lymphoma",
-        "cd19 antigens",
-        "chromium",
-        "cryopreservation",
-        "disease remission",
-        "dna, complementary"
-    ],
-    "author_names": [
-        "Erin Guest, MD",
-        "Byunggil Yoo, MS",
-        "Rumen Kostadinov, PhD",
-        "Midhat S. Farooqi, MD PhD",
-        "Emily Farrow, PhD CGC",
-        "Margaret Gibson",
-        "Neil Miller",
-        "Karina Shah",
-        "Tomi Pastinen, MD PhD",
-        "Patrick A. Brown, MD"
-    ],
-    "author_affiliations": [
-        [
-            "Division of Hematology/Oncology/Bone Marrow Transplantation, Children's Mercy Kansas City, Kansas City, MO "
-        ],
-        [
-            "Center for Pediatric Genomic Medicine, Children's Mercy Kansas City, Kansas City, MO "
-        ],
-        [
-            "Division of Pediatric Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD "
-        ],
-        [
-            "Center for Pediatric Genomic Medicine, Children's Mercy Kansas City, Kansas City, MO "
-        ],
-        [
-            "Center for Pediatric Genomic Medicine, Children's Mercy Kansas City, Kansas City, MO "
-        ],
-        [
-            "Center for Pediatric Genomic Medicine, Children's Mercy Kansas City, Kansas City, MO "
-        ],
-        [
-            "Center for Pediatric Genomic Medicine, Children's Mercy Kansas City, Kansas City, MO "
-        ],
-        [
-            "School of Medicine, University of Missouri-Kansas City, Kansas City, MO"
-        ],
-        [
-            "Center for Pediatric Genomic Medicine, Children's Mercy Kansas City, Kansas City, MO "
-        ],
-        [
-            "Division of Pediatric Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD "
-        ]
-    ],
-    "first_author_latitude": "39.0841316",
-    "first_author_longitude": "-94.57719089999999",
-    "abstract_text": "Introduction Infant acute lymphoblastic leukemia (ALL) with KMT2A rearrangement ( KMT2A -r) is associated with a very poor prognosis. Disease free survival from the date of diagnosis is approximately 20% to 40%, depending on age, white blood cell count, and response to induction therapy. Refractory and relapsed infant ALL is often resistant to attempts at re-induction, and second remission is difficult to both achieve and maintain. Genomic sequencing studies of infant KMT2A -r ALL clinical samples have demonstrated an average of fewer than 3 additional non-silent somatic mutations per case at diagnosis, most commonly sub-clonal variants in RAS pathway genes. We previously reported relapse-associated gains in somatic variants associated with signaling, adhesion, and B-cell development pathways (Blood 2016 128:1735). We hypothesized that relapsed infant ALL is characterized by recurrent, altered patterns of gene expression. In this analysis, we utilized single cell RNA sequencing (scRNAseq) to identify candidate genes with differential expression in diagnostic vs. relapse leukemia specimens from 3 infants with KMT2A -r ALL. Methods Cryopreserved blood or bone marrow specimens from 3 infants enrolled in the Children's Oncology Group AALL0631 trial were selected for analysis. Samples from both diagnosis (DX) and relapse (RL) time points were thawed and checked for viability (>90% of cells viable) using trypan blue staining. Samples were multiplexed and processed for single cell RNA sequencing using the Chromium Single Cell 3' Library Kit (v2) and 10x Genomics Chromium controller per manufacturer's instructions (10x Genomics, Pleasanton, CA). Single cell libraries were converted to cDNA, amplified, and sequenced on an Illumina NovaSeq instrument. Two technical replicates were performed. Samples were de-multiplexed using genotype information acquired from previous whole exome sequencing (WES) and demuxlet software. Transcript alignment and counting were performed using the Cell Ranger pipeline (10x Genomics, default settings, Version 2.2.0, GRCh37 reference). Quality control, normalization, gene expression analysis, and unsupervised clustering were performed using the Seurat R package (Version 3.0). Dimensionality reduction and visualization were performed with the UMAP algorithm. Analyses were restricted to leukemia blasts with CD19 expression by scRNAseq. Results The clinical features for each case are shown in Table 1. Cells from the 3 infant ALL samples clustered together, distinct from cells of non-infant B-ALL, T-ALL, and mixed lineage acute leukemia biospecimens in the Children's Mercy scRNAseq database, but largely did not overlap with one another. For each of the 3 infant cases, cells from DX and RL time points could be distinguished by differential patterns of gene expression (Figure 1). Individual genes with statistically significant (p<0.05) log-fold change values were examined. Figure 2 summarizes the number of genes with up-regulation of expression by scRNAseq at RL compared to DX. Only 6 genes, DYNLL1 , HMGB2 , HMGN2 , JUN , STMN1 , and TUBA1B , were significantly increased at RL across all 3 cases. We repeated this analysis, restricting to leukemia blasts with CD79A expression, and identified these same 6 genes, and 4 additional genes: H2AFZ , NUCKS1 , PRDX1 , and TUBB , as consistently up-regulated in RL clusters. We examined the expression of candidate genes of interest, including clinically targetable genes, to compare the distribution of expression at DX and RL (Table 2). Conclusion Genomic factors underlying the aggressive, refractory clinical phenotype of relapsed infant ALL have yet to be defined. Each of these 3 cases demonstrates unique expression patterns at relapse, readily distinguishable from both the paired diagnostic sample and the other 2 relapse samples. Thus, scRNAseq is a powerful tool to identify heterogeneity in gene expression, with the potential to discover recurrent genomic drivers within resistant disease sub-clones. Ongoing analyses include scRNAseq in additional infant ALL samples, relative quantification of transcript expression in single cells, and comparison with bulk RNAseq data. View large Download slide View large Download slide  Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/134/Supplement_1/2756/423142/Single-Cell-Sequencing-Reveals-Heterogeneity-of?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T22:21:16",
+    "is_scraped": "0"
 }
