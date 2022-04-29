@@ -1,77 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4067",
+    "start_url_page_num": "4067",
     "doi": "https://doi.org/10.1182/blood-2018-99-119610",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4067",
-    "start_url_page_num": 4067,
-    "is_scraped": "1",
-    "article_title": "Development and Validation of a High Risk Multiple Myeloma Gene Expression Index from RNA Sequencing: An Mmrf Commpass Analysis ",
-    "article_date": "November 29, 2018",
-    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster I",
-    "abstract_text": "Multiple Myeloma (MM) is a genetically heterogeneous disease of plasma cells that generally exhibits chromosomal abnormalities and distinct gene expression signatures. Previous studies have sought to identify gene expression indices using microarray technology to discern genes associated with survival outcomes to predict whether a newly diagnosed patient has an aggressive form of the disease. One such MM-specific index is the UAMS 70 gene index, which is composed of 51 over- and 19 under-expressed genes. This index was developed using Affymetrix U133Plus2.0 microarray data from 532 MM patients at diagnosis by computing log-rank test statistics on gene expression quartiles. Despite consistently achieving a high performance across a variety of MM datasets, issues arise when applying this index to RNAseq data. Here we address those issues, deriving an independent index based on the RNAseq data from the Multiple Myeloma Research Foundation (MMRF) CoMMpass Study (NCT01454297), and benchmark its performance to an implementation of the UAMS 70 gene index. UAMS index scores are computed by taking the difference between the average log2-scale expression of the 51 over- and 19 under-expressed genes. We applied this calculation to RNAseq data analyzed using Sailfish, Salmon v7.2, and HTseq counts collected from 41 Multiple Myeloma Genomics Initiative samples and compared the results to scores from matching GCRMA, MAS5, RMA, and PLIER16 Affymetrix U133Plus2.0 microarray data. Differences in the distribution of index values across data types led to nonconforming classification of high-risk individuals. Additionally, when applied to RNAseq data, several Affymetrix probesets did not uniquely match to gene annotations from Ensembl-v74. This reduced the number of genes upon which our UAMS score was calculated to 61 genes. Of the original 51 over-expressed probes, only 44 uniquely mapped genes remained after 7 multi-mapped probes are removed and similarly, out of the 19 under-expressed genes only 17 were uniquely mapped. Given the complication of probe-gene mismatch and inconsistencies identifying high-risk individuals when applied to RNAseq data, we developed an independent index using the baseline RNAseq data from the MMRF CoMMpass Study IA13 dataset. From a training set (n=375) of RNAseq data measuring 56430 genes, we performed univariate log-rank tests on expression quartiles associated with disease-related survival while controlling for an FDR of 2.5%, resulting in 23 under- and 332 over-expressed genes. Subsequent multivariate Cox regression analysis and backward stepwise selection culminated in the identification of the CoMMpass RNAseq index, which is based on the ratio of mean expression values of 87 genes (19 under- and 68 over-expressed) predictive of high risk (hazard ratio [HR] = 8.7341, 95% CI = 5.615-13.58, p < 0.001). Validation on the test set (n=251) yielded a HR of 5.612 (95% CI = 3.066-10.27, p < 0.001) as compared to a HR of 4.753 (95% CI = 2.688-8.403, p < 0.001) achieved with the adapted UAMS index. Adjusting for a patient's International Staging System (ISS) stage revises these hazard ratios to 6.236 (95% CI = 3.345-11.627, p < 0.001) and 3.6420 (95% CI = 1.9726-6.724, p < 0.001) for the CoMMpass RNAseq and the adapted UAMS indices, respectively. Furthermore, the distribution of CoMMpass RNAseq index values across the training and test set show no observable bias with respect to three main therapy arms, suggesting it is predictive of high risk independent of treatment. Our newly derived CoMMpass RNAseq index shares one gene in common with the UAMS 61 gene index (CENPW) and recovers two over-expressed genes (FABP5, TAGLN2), which were removed from the UAMS 70 gene index due to probe multimapping. When the recovered genes are added back to the UAMS index, the unadjusted and adjusted hazard ratios measured for the test set are 5.173 (CI = 2.926-9.146, p < 0.001) and 4.022 (CI = 2.1840-7.408, p < 0.001), respectively. Of the original 70 genes in the UAMS index, 21 (30%) map to chromosome 1, which frequently exhibits copy number gains in MM. Only 11 of the 87 (13%) genes in our proposed index map to chr1, which indicates that, given its performance, the newly derived list of genes may represent a more diverse index to predict, and provide novel insights into, high risk MM. Altogether, the CoMMpass RNAseq index identifies a high risk signature in 13% of MM patients and outperforms the UAMS index. Disclosures Lonial: Amgen: Research Funding.",
-    "topics": null,
-    "author_names": [
-        "Daniel Penaherrera, BSc",
-        "Sheri Skerget, PhD",
-        "Austin Christofferson, BSc",
-        "Jessica Aldrich",
-        "Sara Nasser, PhD",
-        "Christophe Legendre",
-        "Martin Boateng, BS",
-        "Lori Cuyugan",
-        "Jonathan Adkins",
-        "Erica Tassone",
-        "Jennifer Yesil, MS",
-        "Daniel Auclair, PhD",
-        "Winnie Liang, PhD",
-        "Sagar Lonial, MD",
-        "Jonathan J Keats, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Translational Genomics Research Institute (TGen), Phoenix, AZ "
-        ],
-        [
-            "Translational Genomics Research Institute (TGen), Phoenix, AZ "
-        ],
-        [
-            "Translational Genomics Research Institute (TGen), Phoenix, AZ "
-        ],
-        [
-            "Translational Genomics Research Institute (TGen), Phoenix, AZ "
-        ],
-        [
-            "TGen, Phoenix, AZ "
-        ],
-        [
-            "Translational Genomics Research Institute (TGen), Phoenix, AZ "
-        ],
-        [
-            "Translational Genomics Research Institute (TGen), Phoenix, AZ "
-        ],
-        [
-            "Translational Genomics Research Institute (TGen), Phoenix, AZ "
-        ],
-        [
-            "Translational Genomics Research Institute (TGen), Phoenix, AZ "
-        ],
-        [
-            "Translational Genomics Research Institute (TGen), Phoenix, AZ "
-        ],
-        [
-            "Multiple Myeloma Research Foundation, Norwalk, CT "
-        ],
-        [
-            "Multiple Myeloma Research Foundation (MMRF), Middletown, CT "
-        ],
-        [
-            "Translational Genomics Research Institute (TGen), Phoenix, AZ "
-        ],
-        [
-            "Winship Cancer Institute / Department of Hematology and Medical Oncology, Emory University School of Medicine, Atlanta, GA "
-        ],
-        [
-            "Translational Genomics Research Institute, Phoenix, AZ"
-        ]
-    ],
-    "first_author_latitude": "33.452984799999996",
-    "first_author_longitude": "-112.06723729999999"
+    "url": "https://ashpublications.org/blood/article/132/Supplement 1/1895/273291/Development-and-Validation-of-a-High-Risk-Multiple?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T07:41:10",
+    "is_scraped": "0"
 }
