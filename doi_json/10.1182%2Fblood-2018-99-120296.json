@@ -1,45 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4121",
+    "start_url_page_num": "4121",
     "doi": "https://doi.org/10.1182/blood-2018-99-120296",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4121",
-    "start_url_page_num": 4121,
-    "is_scraped": "1",
-    "article_title": "RGL4 over Expression Correlates with Variation in Midostaurin Response in FLT3-ITD Mutant AML Samples ",
-    "article_date": "November 29, 2018",
-    "session_type": "604. Molecular Pharmacology and Drug Resistance in Myeloid Diseases: Poster I",
-    "topics": [
-        "flt3 gene",
-        "impedance threshold device",
-        "midostaurin",
-        "ms-like tyrosine kinase 3",
-        "borates",
-        "drug screening",
-        "ral guanine nucleotide exchange factor",
-        "sequence analysis, rna",
-        "biological factors",
-        "bone marrow specimen"
-    ],
-    "author_names": [
-        "Mara Rosenberg, BS",
-        "Cristina E. Tognon, PhD",
-        "Kevin M Watanabe-Smith, PhD",
-        "Uma Borate, MD"
-    ],
-    "author_affiliations": [
-        [
-            "OHSU, Portland, OR "
-        ],
-        [
-            "Knight Cancer Institute, Oregon Health & Science University, Portland, OR ",
-            "Knight Cancer Institute, OHSU, Portland, OR "
-        ],
-        [
-            "Oregon Health and Science University, Portland, OR"
-        ],
-        [
-            "Knight Cancer Institute, Oregon Health & Science University, Portland, OR "
-        ]
-    ],
-    "first_author_latitude": "45.5038254",
-    "first_author_longitude": "-122.67219939999998",
-    "abstract_text": "Introduction: Acute Myeloid Leukemia (AML) is a heterogenous malignancy with the most common genomic alterations including mutations in NPM1, DNMT3A, and FLT3. Multiple FLT3-inhibitors have been developed and Midostaurin is the first to be FDA approved. However, while Midostaurin is now part of standard of care for FLT3 mutant AML patients undergoing induction chemotherapy, there is still a spectrum of clinical response. We hypothesized that additional biological factors could play a role in this variation of response. We previously observed that FLT3-ITD wildtype samples with KRAS mutations correlated with increased resistance to Midostaurin (1). Here, we utilized the Beat AML dataset containing over 900 AML patient samples processed through an ex vivo drug sensitivity screen to understand further whether genomic alterations could influence the range of Midostaurin response. Methods:We identified 180 (46 FLT3-ITD positive, 134 FLT3-ITD negative) de-novo primary AML peripheral blood or bone marrow samples from distinct patients within the Beat AML dataset. All samples included RNA-Sequencing profiling, mutational analyses, and ex-vivo Midostaurin drug screening data. Drug sensitivity was measured as area under a seven-point drug concentration curve (AUC). AUC was calculated as the area under the fitted probit curve (via direct integration) using all seven dose ranges as x-values and cell viability with limits from 0 to 100% as the y-value. RNA-Sequencing was normalized to counts per million (cpm) and the overall gene expression was chosen as the transcript of that gene with greatest average expression across the cohort. Differential gene expression was performed with the EdgeR package in R version 3.4.0. Results: As expected FLT3-ITD mutant samples, on average, are more sensitive to Midostaurin than FLT3-ITD wildtype sample. However, within the FLT3-ITD mutant cohort we observed a distribution of sensitivity responses (AUC mean of 55.4, IQR 35.5 - 75.3). Analysis of differential gene expression performed on the top 20% and bottom 20% of AUC values identified RGL4 over-expression across the entire resistant cohort (n = 9; Figure A). This was validated in an orthogonal data-set of 79 samples (21 mutant FLT3-ITD, 58 wildtype FLT3-ITD). To gain even more power within the validation set, we looked at all FLT3-ITD positive AUC values and observed a positive correlation between Midostaurin AUC and RGL4 expression (Spearman's rank correlation coefficient of 0.72, p < 0.05). Conclusions: In summary, we found that RGL4 over-expression correlated with resistance to Midostaurin in FLT3-ITD mutant samples in our ex vivo drug screen. RGL4 (ral guanine nucleotide dissociation stimulator like 4) encodes a protein similar to the guanine nucleotide exchange factor for Ral known as Ral GDS (guanine dissociation stimulator). It is highly expressed in the bone marrow and has the potential to activate the Ras-Raf-MEK-ERK pathway. As we had previously observed KRAS mutations correlating with resistance in FLT3-WT samples, this additional finding of RGL4 over expression supports the involvement of RAS pathway activation as a potential mechanism of resistance to Midostaurin. Additional in vitro studies are necessary to establish and further understand this mechanism as well as to test the efficacy of a Midostaurin / MEK inhibitor combination to treat resistant samples. 1. Watanabe-Smith, K., Rosenberg, M., Bucy, T., Tyner, J. W., & Borate, U.(2017). Factors Predicting Response and Resistance to Midostaurin in FLT3 Positive and FLT3 Negative AML in 483 Primary AML Patient Samples. Blood,130(Suppl 1), 296. Figure. View large Download slide Figure. View large Download slide  Disclosures Borate: Novartis: Consultancy; Agios: Consultancy."
+    "url": "https://ashpublications.org/blood/article/132/Supplement 1/1365/262620/RGL4-over-Expression-Correlates-with-Variation-in?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T10:22:23",
+    "is_scraped": "0"
 }
