@@ -1,54 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3978",
+    "start_url_page_num": "3978",
     "doi": "https://doi.org/10.1182/blood-2018-99-115834",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3978",
-    "start_url_page_num": 3978,
-    "is_scraped": "1",
-    "article_title": "Development of a Neural Network to Predict Thrombosis in the Antiphospholipid Syndrome with an Accuracy of 87% ",
-    "article_date": "November 29, 2018",
-    "session_type": "331. Pathophysiology of Thrombosis: Poster III",
-    "abstract_text": "Background: The antiphospholipid syndrome (APS) is characterized by the presence of antiphospholipid antibodies directed against \u03b2 2 -glycoprotein I (\u03b2 2 GPI) and/or cardiolipin. APS is associated with an increased risk of thrombosis and APS patients are known to have an altered thrombin generation (TG) profile. However, a single TG parameter cannot to differentiate between patients with or without a history of thrombosis. Therefore, we used a novel machine learning approach called 'neural networking' to search for hidden patterns in the clinical and experimental data of APS patients that identify patients with a high risk of thrombosis. In this method a neural network (NN) is trained using an existing dataset of APS patients. Training of the neural network ensures that it learns to classify samples (in this case patient with or without prior thrombosis) using the selected clinical and experimental database. Once the network has been trained and tested it can be used to differentiate between (new) APS patients with and without a history of thrombosis. Aim: To develop a neural network to predict thrombosis in APS patients based on their antibody profile and TG results. Materials and methods: Thirty-one non-anticoagulated APS patients (obstetric and thrombotic) were enrolled in the study after approval of the local ethics committee and after informed consent was obtained. Thrombosis had occurred in 21 APS patients either as arterial, venous or small vessel thrombosis. Thrombin generation was measured at 1 pM tissue factor (TF) and thrombin dynamics analysis was performed to study prothrombin conversion and thrombin inactivation. The sensitivity of the activated protein C system was tested by measuring TG in the presence and absence of 20 nM thrombomodulin (TM). The presence of aPL was defined as positivity for Lupus Anticoagulant and/or anticardiolipin (aCL) and/or \u03b2 2 GPI determined by enzyme linked immunosorbent assays (ELISA). LA was assessed according to the three-steps guidelines of the Subcommitee on LA of the International Society on Thrombosis and Haemostasis (ISTH) using Partial Thromboplastin Time - Lupus Anticoagulant (PTT-LA) and dilute Russel's Viper VenomTime (dRVVT) reagents. Multiple neural networks were trained and tested to predict whether a patient had a history of thrombosis using the Machine Learning Toolbox of Matlab. The input of the neural network consisted of the antibody profile and/or TG data (Figure 2). Results: The percentage of patients with antibodies against \u03b2 2 -glycoprotein I and cardiolipin did not differ between patients with and without prior thrombosis (Figure 1). Thrombin generation ETP (but not peak height) was significantly elevated in the thrombosis group. Due to overlap between the groups, it was not possible to distinguish between patients with and without a history of thrombosis (Figure 1). Two neural networks were trained (Figure 2): one based solely on the antibody profile of the patients and the other based on both the antibody profile and the TG results. The prediction accuracy of both neural networks was assessed in the testing phase of the NN development. The NN solely based on the antibody profile identified patients with a history of thrombosis with an accuracy of 82.2%. However, it was not capable of ruling out thrombosis in the non-thrombosis group (48.6% correctly classified vs. 51.4% incorrectly classified). The addition of the thrombin generation profile to the NN increased the prediction accuracy in the thrombosis group to 86.6%, but more interestingly, it also improved the capability of the NN to rule out thrombosis in the non-thrombosis group to 63.0%. Discussion: The development of thrombosis in APS is a complex process influenced by many factors, represented by alterations of various diagnostic variables, such as the antibody profile and the thrombin generation outcome. The presence of a certain antibody or the elevation of a single TG parameter was unable to predict thrombosis in APS. The integration of all data via neural networking circumvents this problem and can predict which patient had a prior thrombosis with an accuracy of 86.6% based on a combination of the antibody profile and thrombin generation parameters. The next step will be to test this approach in a prospective cohort of APS patients to develop a neural network to predict future thrombotic events in APS patients. View large Download slide View large Download slide  Disclosures No relevant conflicts of interest to declare.",
-    "topics": [
-        "antiphospholipid syndrome",
-        "thrombosis",
-        "antibodies",
-        "thrombin",
-        "antiphospholipid antibodies",
-        "cardiolipins",
-        "glycoprotein",
-        "thrombus",
-        "activated partial thromboplastin time measurement",
-        "activated protein c"
-    ],
-    "author_names": [
-        "Romy Kremers, PhD",
-        "St\u00e9phane Zuily, MD PhD",
-        "Philip De Groot, PhD",
-        "Coenraad Hemker, MD PhD",
-        "Denis Wahl, MD PhD",
-        "Bas De Laat, MD, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Synapse Research Institute, CARIM, Maastricht University, Maastricht, Netherlands ",
-            "Department of Biochemistry, CARIM, Maastricht University, Maastricht, Netherlands "
-        ],
-        [
-            "Vascular Medicine Division, Centre Hospitalier Universitaire de Nancy, Nancy, France "
-        ],
-        [
-            "Synapse Research Institute, Maastricht, Netherlands"
-        ],
-        [
-            "Synapse Research Institute, CARIM, Maastricht University, Maastricht, Netherlands "
-        ],
-        [
-            "Vascular Medicine Division, Centre Hospitalier Universitaire de Nancy, Nancy, France "
-        ],
-        [
-            "Department of Biochemistry, CARIM, Maastricht University, Maastricht, Netherlands ",
-            "Synapse Research Institute, Maastricht, Netherlands"
-        ]
-    ],
-    "first_author_latitude": "50.849680899999996",
-    "first_author_longitude": "5.677127699999999"
+    "url": "https://ashpublications.org/blood/article/132/Supplement 1/3796/265185/Development-of-a-Neural-Network-to-Predict?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T04:08:20",
+    "is_scraped": "0"
 }
