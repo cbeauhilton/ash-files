@@ -1,76 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4266",
+    "start_url_page_num": "4266",
     "doi": "https://doi.org/10.1182/blood-2019-128787",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4239",
-    "start_url_page_num": 4239,
-    "is_scraped": "1",
-    "article_title": "A 5-Gene Ara-C, Daunorubicin and Etoposide (ADE) Drug Response Score As a Prognostic Tool to Predict AML Treatment Outcome ",
-    "article_date": "November 13, 2019",
-    "session_type": "617.Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
-    "abstract_text": "Introduction: Cytarabine, daunorubicin and etoposide (ADE) are commonly used for remission and intensification of pediatric acute myeloid leukemia (AML). However, development of drug resistance is a major cause of treatment failure. In this study, we performed a comprehensive evaluation of expression levels of genes of pharmacological significance (pharmacokinetic /pharmacodynamic) to ADE and derived a drug response score predictive of treatment outcomes in pediatric AML patients. Methods: This study included 163 cases (median age=8.79 year, range= (0.013-21.1)) with AML enrolled in the multicenter AML02 clinical trial (ClinicalTrials.gov Identifier: NCT00136084) with Affymetrix U133A microarray gene expression and clinical data available. We used a penalized LASSO regression algorithm (glmnet R-package) to fit a cox regression model on diagnostic leukemic cell gene expression levels of 66 genes of pharmacological significance to ADE. We performed 1000 bootstraps of LASSO regression with event free survival (EFS) as the outcome variable and the five genes represented in at least 95% of the models were included to build an ADE-Response Score (ADE-RS) equation. Patients were classified into low or high score groups using recursive portioning implemented in Rpart-R package and evaluated for association with minimal residual disease after induction I (MRD1), EFS and overall survival (OS). ADE response score equation was further validated using RNA-Seq gene-expression data obtained from diagnostic samples of 432 pediatric AML patients enrolled in Children's Oncology Group (COG) AAML0531 and AAML03P1 treatment protocols. Results: After applying LASSO regression, we defined the equation: ADE-RS = (0.128 x DCTD) - (0.0993 x TOP2A) + (0.212 x ABCC1) - (0.113 x MPO) - (0.126 x CBR1) to develop ADE-response score (ADE-RS), followed by classifying patients into low (60%; 98 patients) or high (40%; 65 patients) score groups. Patients in the high ADE-RS group had significantly worse EFS (HR=4.07(2.43-6.84), P < 0.0001; Figure 1A) and OS (HR= 4.54(2.42-8.49), P<0.0001) and higher proportion of MRD1 positive patients (P=0.014; Figure 1B) compared to patients in the low ADE-RS group. These results were validated in an independent COG cohort, where patients in the high score group demonstrated higher MRD1 positivity (P=0.0005; Figure 1D) and inferior EFS (HR=1.32(1.01-1.73), P=0.044; Figure 1C). We recently developed a six-gene leukemic stem cell score (pLSC6 score) that was associated with risk-groups (P<0.00001) and outcome (oral presentation ASH2018, Under-review, Leukemia). We further integrated pLSC6 and ADE-RS and observed significantly better prediction of treatment outcomes in AML02, COG and TCGA cohorts. Based on pLSC6 and ADE-response scores, patients were classified into three groups; 1) Low/Low:pLSC6/ADE-RS ; for patients with low pLSC6 and low ADE-RS. 2) Low/High : pLSC6/ADE-RS: for patients in low pLSC6 and high ADE-RS or vice versa.3) High/High:pLSC6/ADE-RS : for patients in high pLSC6 and high ADE-RS. In all study cohorts, patients in low/low pLSC6-ADE-RS group demonstrated better outcomes compared to the low-high and the high/high score groups (EFS in AML02 cohort; Figure 1E and OS; Figure 1F). In a multivariable cox-regression models that included pLSC6-ADE response score groups, MRD1 status, risk groups, WBC at diagnosis and age in AML02 cohort, high pLSC6-ADE score group was found significantly associated with poor EFS (HR=6.02(2.71-13.2), P<0.00001; Figure 1G) and was the only significant predictor of poor OS (HR=8.3(2.9-23.99), P<0.00001; Figure 1H) Discussion: In this study, we defined a pharmacological response score focused on key genes of PK/PD significance to ADE. We further integrated LSC score with the ADE response score to improve our ability to predict treatment outcome in AML patients across different clinical trials. ADE-RS was composed of five genes: DCTD, which is a deaminase, involved in ara-C inactivation; CBR1, a carbonyl reductase involved in inactivation of daunorubicin (DNR); MPO, myeloperoxidase, an etoposide activator; ABCC1, an efflux transporter of DNR and etoposide; and TOP2A, DNA topoisomerase II alpha, which is a target for DNR and etoposide. Integrated pLSC6 and ADE-RS has a potential to predict treatment outcomes using diagnostic gene expression levels and accordingly develop treatment strategies to improve treatment outcome. Figure 1 View large Download slide Figure 1 View large Download slide  Disclosures Gruber: Bristol-Myers Squibb: Consultancy. Rubnitz: AbbVie: Research Funding.",
-    "topics": [
-        "cytarabine",
-        "daunorubicin",
-        "drug response",
-        "etoposide",
-        "genes",
-        "treatment outcome",
-        "myeloblastic leukemia, pediatric acute",
-        "alcohol oxidoreductases",
-        "disease remission",
-        "leukemia"
-    ],
-    "author_names": [
-        "Abdelrahman H. Elsayed, MSc",
-        "Huiyun Wu, PhD",
-        "Xueyuan Cao, PhD",
-        "Susana C. Raimondi, PhD",
-        "James R. Downing, MD",
-        "Raul Ribeiro, MD",
-        "Tanja A. Gruber, MD PhD",
-        "Rhonda E. Ries, MA",
-        "Soheil Meshinchi, MD PhD",
-        "Jeffrey Rubnitz, MD PhD",
-        "Stanley Pounds, PhD",
-        "Jatinder K Lamba, M.Sc., PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Pharmacotherapy and Translational Research, University of Florida College of Pharmacy, Gainesville, FL "
-        ],
-        [
-            "Department of Biostatistics, St. Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "Department of Biostatistics, St. Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "Department of Pathology, St. Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "Department of Pathology, St. Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "Department of Oncology and Global Medicine, International Outreach Program, St. Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "Department of Oncology, St. Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA "
-        ],
-        [
-            "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA "
-        ],
-        [
-            "Department of Oncology, St. Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "St. Jude Children's Research Hospital, Memphis, TN"
-        ],
-        [
-            "Department of Pharmacotherapy and Translational Research, University of Florida College of Pharmacy, Gainesville, FL "
-        ]
-    ],
-    "first_author_latitude": "29.641755",
-    "first_author_longitude": "-82.34518159999999"
+    "url": "https://ashpublications.org/blood/article/134/Supplement_1/1429/427497/A-5-Gene-Ara-C-Daunorubicin-and-Etoposide-ADE-Drug?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T17:44:26",
+    "is_scraped": "0"
 }

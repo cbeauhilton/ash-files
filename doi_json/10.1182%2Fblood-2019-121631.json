@@ -1,73 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4273",
+    "start_url_page_num": "4273",
     "doi": "https://doi.org/10.1182/blood-2019-121631",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4273",
-    "start_url_page_num": 4273,
-    "is_scraped": "1",
-    "article_title": "Mouse Erythroid Cells Originate from a Megakaryocyte Precursor in Common Myeloid Progenitors ",
-    "article_date": "November 13, 2019",
-    "session_type": "101.Red Cells and Erythropoiesis, Structure and Function, Metabolism, and Survival, Excluding Iron",
-    "topics": [
-        "agar",
-        "antigens, cd16",
-        "cd34 antigens",
-        "cd36 antigens",
-        "cd48 antigen",
-        "cyclic gmp",
-        "erythroid cells",
-        "heme",
-        "megakaryocytes",
-        "mice"
-    ],
-    "author_names": [
-        "Elisabeth F Heuston, PhD",
-        "Bethan Psaila, MD PhD",
-        "Cheryl A Keller, PhD",
-        "NISC Comparative SequencingProgram",
-        "Stacie M Anderson",
-        "Martha Kirby",
-        "Lauren C Murphy",
-        "Alexander Q Wixom, PhD",
-        "Belinda Giardine",
-        "Ross C. Hardison, PhD",
-        "David M. Bodine, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "NHGRI, Bethesda, MD "
-        ],
-        [
-            "MRC-Weatherall Institute of Molecular Medicine, MRC Molecular Haematology Unit, Oxford, United Kingdom "
-        ],
-        [
-            "Department of Biochemistry and Molecular Biology, Center for Computational Biology & Bioinformatics, The Pennsylvania State University, University Park, PA "
-        ],
-        [
-            "NHGRI, Bethesda, MD ",
-            "NHGRI, Rockville, MD "
-        ],
-        [
-            "Flow Cytometry Core, NHGRI, Bethesda, MD "
-        ],
-        [
-            "Flow Cytometry Core, NHGRI, Bethesda, MD "
-        ],
-        [
-            "MRC-Weatherall Institute of Molecular Medicine, MRC Molecular Haematology Unit, Oxford, United Kingdom "
-        ],
-        [
-            "Department of Biochemistry and Molecular Biology, Pennsylvania State University, University Park, PA"
-        ],
-        [
-            "Department of Biochemistry and Molecular Biology, Pennsylvania State University, University Park, PA"
-        ],
-        [
-            "Department of Biochemistry and Molecular Biology, Pennsylvania State University, University Park, PA"
-        ],
-        [
-            "NHGRI, Bethesda, MD "
-        ]
-    ],
-    "first_author_latitude": "39.003571",
-    "first_author_longitude": "-77.10133100000002",
-    "abstract_text": "The hierarchical model of hematopoiesis posits that hematopoietic stem and progenitor cells produce common myeloid progenitors (CMP). CMP can become granulocyte/monocyte progenitors (GMP) or bipotential megakaryocyte/erythroid progenitors (MEP). MEP can produce megakaryocytic (Mk) or erythroid (Ery) cells. However, we and others have shown that early mouse and human progenitor populations express many Mk genes (Heuston, Epig. Chrom., 2016), while single cell studies have identified lineage-specific colony forming cells in progenitor populations thought to be multipotent (Psaila, Genome Biol., 2016). To identify the earliest mouse Ery and Mk cells, we performed single cell RNASeq on 10000 stem and progenitor cells (Lin-Sca1+Kit+), 12000 CMP (Lin-Sca1-Kit+CD16/32-CD34+), 6000 MEP (Lin-Sca1-Kit+CD16/32-CD34-) and 8000 GMP (Lin-Sca1-Kit+CD16/32+CD34+). TSNE analysis of expression in the 4 populations identified 33 clusters, which were correlated to biological functions using gene set enrichment analysis. In LSK, no cells with an Ery RNA profile were found, while 56% of cells co-expressed Mk-associated (e.g., Meis1 , Fli1 ) and lymphoid genes. In CMP, 12% of the cells co-expressed Ery (e.g., Gata1 , Fog1 ) and Mk (e.g., Pf4 , Cd41 ) genes, while 23% had an Mk-specific profile (e.g., Fli1 , Cd41 ) enriched for platelet biology processes ( p < 3E-18). Unlike traditional models, over 94% of MEP had Ery RNA profiles enriched for ribosome synthesis and heme-biology processes ( p < 4E-10). To establish developmental relationships, we performed pseudotime analysis using the Monocle and Scanpy software packages. These programs model differentiation by mapping similar transcriptomes together. Map nodes indicate lineage commitment points and cells further from a node are more differentiated. Combined analysis of LSK, CMP, and MEP generated a model with a single node and 2 trajectories. LSK with Mk and lymphoid RNA profiles diverged at the node, as did 14% of CMP. 31% of CMP with an Mk RNA profile were downstream of the node. Further downstream were cells with mixed Ery/Mk profiles, and furthest from the node were MEP with Ery profiles. A separate pseudotime analysis of CMP only 2 trajectories: one with decreasing Mk- and increasing Ery RNA profiles, and a second with an early Mk endomitotic RNA profile. Pseudotime analysis of MEP only identified a linear trajectory: cells at one end expressed early Ery RNA profiles, and cells at the other end had RNA profiles similar to those of burst-forming unit-erythroid (BFU-E). We generated a predictive set of RNAs for each TSNE cluster. We used index-sorting with 11 markers (Kit, Sca1, CD34, CD16/32, CD36, CD41, CD48, CD123, CD150, CD9, Flk2) to isolate single cells for custom high-throughput multiplex qPCR. This allowed confirmation of cell frequency within TSNE clusters while identifying surface markers for prospective isolation of cell subsets. We focused on 2 populations: CMP-E, which had an Ery RNA profile (10% of clustered CMP and 12% of CMP in the qPCR assay), and CMP-MkE, which had Mk and Ery RNA profiles (12% of clustered CMP and 13% of CMP in the qPCR assay). We prospectively isolated CMP-E and CMP-MkE to compare RNASeq profiles, ATACSeq profiles, and colony forming ability against those of bulk CMP, Ery, and Mk. In CMP-E, 54% of RNAs were expressed in both CMP and ERY, while 41% were expressed only in CMP (p < 6E-72). In contrast, 41% of CMP-E ATACSeq peaks were present in CMP and ERY, while 57% of CMP-E peaks were present only in CMP (p < 1E-3). We conclude that in CMP-E, the RNASeq profile is more erythroid than the ATACSeq profile. In CMP-MkE, 89% of RNAs were expressed in both CMP and Mk, while 7% were expressed only in CMP (p < 8E-190). Likewise, 88% of CMP-MkE ATACSeq peaks were present in both CMP and Mk, while 3% were present only in CMP (p < 1E-3). We conclude that in CMP-MkE, the RNASeq and ATACSeq profiles are equivalent. In soft agar assays, 21% of CMP-E and 3% of CMP-MkE colonies contained BFU-E, compared to 9% of control colonies. We conclude that the CMP-E and CMP-MkE populations are skewed towards the ERY and MK lineages, but are not erythro-megakaryocyte restricted. Our data support a model in which there are two megakaryocyte precursor populations and no erythroid populations in LSK. A third megakaryocyte population in CMP gives rise to erythroid cells. Finally, our data show that transcriptional changes precede chromatin accessibility changes in the earliest erythroid cells. Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/134/Supplement_1/337/426247/Mouse-Erythroid-Cells-Originate-from-a?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T17:44:54",
+    "is_scraped": "0"
 }
