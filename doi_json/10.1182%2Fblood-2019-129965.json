@@ -1,68 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4324",
+    "start_url_page_num": "4324",
     "doi": "https://doi.org/10.1182/blood-2019-129965",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4324",
-    "start_url_page_num": 4324,
-    "is_scraped": "1",
-    "article_title": "High-Throughput RNA Sequencing Analysis Reveals Distinct Molecular Signature in NRAS and PTPN11 JMML Patients ",
-    "article_date": "November 13, 2019",
-    "session_type": "636.Myelodysplastic Syndromes-Basic and Translational Studies",
-    "topics": [
-        "juvenile myelomonocytic leukemia",
-        "protein tyrosine phosphatase, non-receptor type 11",
-        "ptpn11 gene",
-        "sequence analysis, rna",
-        "micrornas",
-        "fetal hemoglobin",
-        "hemoglobin",
-        "adenine",
-        "allogeneic hematopoietic stem cell transplant",
-        "cd36 antigens"
-    ],
-    "author_names": [
-        "Pier Paolo Leoncini, PhD",
-        "Alessandro Domenico Silvestris, PhD",
-        "Patrizia Vitullo, PhD",
-        "Marco Zecca, MD",
-        "Christian Flotho, MD PhD",
-        "Charlotte M. Niemeyer, MD",
-        "Angela Gallo, PhD",
-        "Alice Bertaina, MD PhD",
-        "Franco Locatelli, MD PhD",
-        "Pietro Merli, MD"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Pediatric Hematology and Oncology, IRCCS \"Bambino Ges\u00f9\" Children's Hospital, Roma, Italy "
-        ],
-        [
-            "RNA Editing Lab, Dept. of Pediatric Oncohematology, IRCCS \"Bambino Ges\u00f9\" Children's Hospital, Rome, Italy "
-        ],
-        [
-            "Department of Pediatric Hematology and Oncology, IRCCS \"Bambino Ges\u00f9\" Children's Hospital, Rome, Italy "
-        ],
-        [
-            "Pediatric Hematology/Oncology, Fondazione IRCCS Policlinico San Matteo, Pavia, Italy "
-        ],
-        [
-            "Division of Pediatric Hematology and Oncology, Department of Pediatrics and Adolescent Medicine, Medical Center, Faculty of Medicine, University of Freiburg, Freiburg, Germany "
-        ],
-        [
-            "Division of Pediatric Hematology and Oncology, Department of Pediatrics and Adolescent Medicine, Medical Center, Faculty of Medicine, University of Freiburg,, Freiburg, Germany "
-        ],
-        [
-            "RNA Editing Lab, Dept. of Pediatric Oncohematology, IRCCS \"Bambino Ges\u00f9\" Children's Hospital, Rome, Italy "
-        ],
-        [
-            "Department of Pediatric Hematology and Oncology, Stanford University, Palo Alto, CA "
-        ],
-        [
-            "Department of Pediatric Hematology/Oncology, Cell and Gene Therapy, IRCCS Bambino Ges\u00f9 Children's Hospital, Rome, Italy"
-        ],
-        [
-            "Department of Pediatric Hematology/Oncology, Cell and Gene Therapy, IRCCS Bambino Ges\u00f9 Children's Hospital, Rome, Italy"
-        ]
-    ],
-    "first_author_latitude": "41.896716399999995",
-    "first_author_longitude": "12.4609553",
-    "abstract_text": "Introduction Juvenile myelomonocytic leukemia (JMML) is a rare pediatric hematological disease, characterized by aberrant proliferation of myeloid precursors and hypersensitivity to GM-CSF stimulation. Mutations in PTPN11, N/K-RAS, CBL, or NF1 genes are found in ~90% of the cases. Allogeneic hematopoietic stem cell transplantation (HSCT) is the only curative therapy for those patients harboring somatic PTPN11 mutations, while in patients with somatic NRAS mutations, transplantation need a careful evaluation, as these patients may have spontaneous resolution of the disease. Here, we show data from a deep-sequencing analysis enlightening typical molecular features of CD33+/34+ and CD14+ primary cells from NRAS and PTPN11 mutated patients compared with healthy donors (HDs). Patients and Methods Four Cord Blood samples from healthy donors (HDs) and 16 Bone Marrow (BM) samples from PTPN11 (N=8) and NRAS (n=8) mutated JMML patients were collected after approvals from International Review Boards of each Institution. CD33+/34+ and CD14+ cells were magnetically sorted following MACS protocols (Miltenyi). TruSeq and NextSeq kits (Illumina) were used for libraries preparation in order to perform the global transcriptomic and smallRNAs sequencing analyses on Illumina platform, according to the company protocols. StringTie and DESeq2 were used for differential expression analysis and REDItools python scripts for RNA editing analysis. Results In our first analysis, we screened ~60000 gene transcripts, finding different expression signatures between HDs, PTPN11 and NRAS samples. We built Expression Heat-Maps reporting the top 100 most statistically significant (Fig. 1, 2; adjusted p < 0.001) deregulated sequences in all the possible pairwise comparisons. Among the top 100 transcripts, we identified differential expression of 5 different genes: ZNF185, MRLPL30 resulted upregulated in PTPN11 vs NRAS CD14+ cells while CD36, RAG2 and CAMK2A resulted downregulated. Interestingly, comparison of PTPN11 and NRAS cohorts in CD33+/34+ subset, these 5 transcripts showed the opposite expression trend. Moreover, among the upregulated genes, we identified a subset of PRAME paralog transcripts in both NRAS and PTPN11 patients when compared to HDs. Seven transcripts (PRAMEF4, 5, 6, 9, 11, 15, 26) were shared between CD33+/34+ and CD14+ populations, while PRAMEF7, 8, 20, 21 resulted upregulated in CD33+/34+ cells and PRAME, PRAMEF22, 23, 25 were upregulated in CD14+ cells, as compared to HDs. In addition, we found aberrant upregulation of Hemoglobin \u03b3 chains 1 and 2 (HBG1, 2, i.e. those needed for fetal hemoglobin) in all JMML vs HDs in CD14+ cells, while in CD33+/34+ a downregulation of Hemoglobin \u03b1 and \u03b2 chains (HBA1,2 and HBB) in PTPN11 samples vs NRAS was detected. We also report an enhanced LIN28B expression in JMML samples vs HDs but only in CD33+/34+ cells. A global ADAR-dependent RNA editing analysis revealed differences in CD33+/34+ cells showing an enhanced Adenine to Inosine conversion in NRAS patients vs PTPN11 and HDs. Finally, microRNAs sequencing reveals a significant upregulation of miR-144-3p in all JMML samples and cell lineages compared to HDs, while the miR-146a-5p was upregulated only in CD14+ cells. Also the miR-22 showed decreased expression in PTPN11 vs HDs in CD33+/34+ subset, while the miR-29a-3p was downregulated in NRAS vs HDs in CD14+ cells. Discussion We report different expression and editing signatures among samples cohorts and cellular lineages, showing novel insights in JMML molecular biology. Upregulation of several PRAME paralog genes depicts an interesting array of possible targets for immunotherapies (e.g., using genetically modified T cells with a PRAME-specific T-cell receptor), although their expression have to be further validated. Differences in the expression of microRNAs subsets, LIN28B and subunits of the HbA and HbF already described in JMML, but here related to specific mutations and cell lineages, could help to better understand the pathogenic processes and peculiar clinical behaviors. Finally, the novel evidence of differential RNA editing in JMML opens new perspectives for further studies regarding differential protein isoforms expression and regulation as well as microRNA targeting. View large Download slide View large Download slide  Disclosures Niemeyer: Celgene: Consultancy. Locatelli: Bellicum: Consultancy, Membership on an entity's Board of Directors or advisory committees; Amgen: Honoraria, Membership on an entity's Board of Directors or advisory committees; Miltenyi: Honoraria; Novartis: Consultancy, Membership on an entity's Board of Directors or advisory committees; bluebird bio: Consultancy. Merli: Novartis: Honoraria; Sobi: Consultancy; Amgen: Honoraria; Bellicum: Consultancy."
+    "url": "https://ashpublications.org/blood/article/134/Supplement_1/4229/425614/High-Throughput-RNA-Sequencing-Analysis-Reveals?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T19:38:40",
+    "is_scraped": "0"
 }
