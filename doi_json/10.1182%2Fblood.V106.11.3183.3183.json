@@ -1,8 +1,125 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=493",
-    "start_url_page_num": "493",
     "doi": "https://doi.org/10.1182/blood.V106.11.3183.3183",
-    "url": "https://ashpublications.org/blood/article/106/11/3183/121040/Gene-Gene-Interactions-and-the-Pathophysiology-of?searchresult=1",
-    "datetime_link_obtained": "2022-04-22T12:27:58",
-    "is_scraped": "0"
+    "article_title": "Gene-Gene Interactions and the Pathophysiology of Sickle Cell Disease: Modeling the Effects of SNPs on Sickle Cell-Associated Vasoocclusive Events Using Classification and Regression Trees and Stochastic Gradient Boosting. ",
+    "article_date": "November 16, 2005",
+    "session_type": "Poster Sessions",
+    "abstract_text": "The variable pattern of complications seen among sickle cell disease patients is unlikely to be the result of solely the HBB glu6val mutation. Conventional case-control analyses using single nucleotide polymorphisms (SNPs) are useful in looking for single gene associations, however studying gene interactions becomes increasingly inefficient as the number of SNPs increase. Application of more complex statistical methods such as classification and regression trees (CART), stochastic gradient boosting (SGB) and Bayesian networks ( Sebastiani et al, Nature Genet  37 : 435 , 2005 ) allows for the analysis of many SNPs and covariates simultaneously. CART is a recursive partitioning method that develops a single tree-based model which is grown by creating \u201cif-then\u201d splitting rules which stratify patients into risk groups. The resulting over-fitted tree is then pruned to optimize size and classification and its predictive ability assessed using a test set or cross validation. SGB is a similar method, however, instead of one large tree many small trees are grown sequentially. Each new tree improves the quality of the model based upon the prior stage and is weighted based on its predictive ability. The final predicted value is computed by adding the weighted contribution of each small sub-tree and based on that value, a classification assigned. From the over 4,000 patients in the CSSCD, a subset of 1,353 were genotyped for 353 SNPs in over 160 genes that might impact the disease pathophysiology. Clinical data for these patients were merged with genotype data and 490 patients were identified who had at least one of the following vasoocclusive events: stroke, osteonecrosis of the humeral or femoral head and/or priapism. With the remaining patients serving as controls, CART and SGB was run on a random sample of 80% of the patients to identify genes and covariates whose interactions characterize patients with these vasoocclusive events and the accuracy assessed using the remaining patients as a test set. Along with age, sex and HbF, CART identified TGFBR3, SMAD9, CISH, KL and MAP3K71P1 as being associated with the vasoocclusive event phenotype and classified patients with a sensitivity of 34% and a specificity of 82%. SGB however, while identifying the same pattern of genes and covariates as being associated with vasoocclusive events, was able to classify patients with a sensitivity of 80% and a specificity of 68%. While CART provides a simple initial screening of genes and covariates that may be simultaneously associated with the phenotype, SGB provides a more accurate method of classification with higher sensitivity and similar specificity. Neither method requires the extensive model building of Bayesian networks. A more thorough understanding of the molecular mechanisms will lead to the ability to predict subphenotypes and improve their management.",
+    "topics": [
+        "gene interaction",
+        "sickle cell anemia",
+        "single nucleotide polymorphism",
+        "trees (plant)",
+        "cerebrovascular accident",
+        "cytokine inducible sh2-containing protein",
+        "fetal hemoglobin",
+        "ischemic stroke",
+        "priapism",
+        "screening"
+    ],
+    "author_names": [
+        "Vikki G. Nolan, MPH",
+        "Marsha A. Wilcox, EdD, ScD",
+        "Paola Sebastiani, PhD",
+        "Clinton T. Baldwin, PhD",
+        "Diego F. Wyszynski, MD, PhD",
+        "Qianli Ma, BS",
+        "Alice Bisbee, MPH",
+        "John J. Farrell, BA",
+        "Lindsay A. Farrer, PhD",
+        "Martin H. Steinberg, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Vikki G. Nolan, MPH",
+            "author_affiliations": [
+                "Department of Medicine, Boston University School of Medicine, Boston, MA, USA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marsha A. Wilcox, EdD, ScD",
+            "author_affiliations": [
+                "Department of Medicine, Boston University School of Medicine, Boston, MA, USA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Paola Sebastiani, PhD",
+            "author_affiliations": [
+                "School of Public Health, Boston University, Boston, MA, USA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Clinton T. Baldwin, PhD",
+            "author_affiliations": [
+                "Center for Human Genetics, Boston University School of Medicine, Boston, MA, USA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Diego F. Wyszynski, MD, PhD",
+            "author_affiliations": [
+                "Department of Medicine, Boston University School of Medicine, Boston, MA, USA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Qianli Ma, BS",
+            "author_affiliations": [
+                "Department of Medicine, Boston University School of Medicine, Boston, MA, USA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alice Bisbee, MPH",
+            "author_affiliations": [
+                "School of Public Health, Boston University, Boston, MA, USA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John J. Farrell, BA",
+            "author_affiliations": [
+                "Department of Medicine, Boston University School of Medicine, Boston, MA, USA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lindsay A. Farrer, PhD",
+            "author_affiliations": [
+                "Department of Medicine, Boston University School of Medicine, Boston, MA, USA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martin H. Steinberg, MD",
+            "author_affiliations": [
+                "Department of Medicine, Boston University School of Medicine, Boston, MA, USA"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-04-29T06:36:58",
+    "is_scraped": "1"
 }
