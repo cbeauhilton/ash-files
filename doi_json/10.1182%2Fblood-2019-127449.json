@@ -1,76 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4173",
+    "start_url_page_num": "4173",
     "doi": "https://doi.org/10.1182/blood-2019-127449",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4173",
-    "start_url_page_num": 4173,
-    "is_scraped": "1",
-    "article_title": "Expression Profiling of mRNA By Next Generation Sequencing and the Development of Algorithm for Predicting Response in Acute Myeloid Leukemia ",
-    "article_date": "November 13, 2019",
-    "session_type": "613.Acute Myeloid Leukemia: Clinical Studies",
-    "topics": [
-        "gene expression profiling",
-        "leukemia, myelocytic, acute",
-        "massively-parallel genome sequencing",
-        "molecular profiling",
-        "rna, messenger",
-        "rna",
-        "cancer",
-        "combined modality therapy",
-        "actinium",
-        "antigens"
-    ],
-    "author_names": [
-        "Maher Albitar, MD",
-        "Marina Y Konopleva, MD PhD",
-        "Hong Zhang, PhD",
-        "Ivan De Dios, BS",
-        "Wanlong Ma",
-        "Spiraggelos Antzoulatos",
-        "Steven M. Kornblau, MD",
-        "Antonio Cavazos",
-        "Sanam Loghavi, MD",
-        "Koichi Takahashi, MD",
-        "Hagop M. Kantarjian, MD",
-        "Courtney D. DiNardo, MDMSc"
-    ],
-    "author_affiliations": [
-        [
-            "Genomic Testing Cooperative, Valley Center, CA "
-        ],
-        [
-            "Department of Leukemia, MD Anderson Cancer Center, Houston, TX "
-        ],
-        [
-            "Department of Computer Science, Georgia Southern University, Savannah, Georgia "
-        ],
-        [
-            "Genomic Testing Cooperative, Irvine, CA "
-        ],
-        [
-            "Genomic Testing Cooperative, Irvine, CA "
-        ],
-        [
-            "Genomic Testing Cooperative, Irvine, CA "
-        ],
-        [
-            "Department of Stem Cell Transplantation, The University of Texas MD Anderson Cancer Center, Houston, TX "
-        ],
-        [
-            "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
-        ],
-        [
-            "Department of Hematopathology, The University of Texas MD Anderson Cancer Center, Houston, TX "
-        ],
-        [
-            "Department of Leukemia, The University of Texas M.D. Anderson Cancer Center, Houston, TX "
-        ],
-        [
-            "M.D. Anderson Cancer Center, Houston, TX "
-        ],
-        [
-            "Department of Leukemia, UT MD Anderson Cancer Center, Houston, TX"
-        ]
-    ],
-    "first_author_latitude": "33.6646888",
-    "first_author_longitude": "-117.7476912",
-    "abstract_text": "Introduction: The principle of precision cancer medicine is to customize therapy based on the genomic profiles of the cancer and the host constitution/response to the cancer. Since RNA expression is influence by many genetic mechanisms, RNA profiling may provide broader coverage of genomic changes and might be a better predictor of response to therapy. However, incorporating the many biological changes of the host and the cancer in the decision of selecting therapeutic approach is not practical without using computer-aided algorithms. This is particularly relevant when combination therapy is used. We explored the potential of developing algorithms for the prediction of complete response (CR) to novel combination therapy in patients with acute myeloid leukemia (AML) using targeted RNA expression profiling. Methods: RNA was extracted from the peripheral blood (PB) and bone marrow (BM) samples from patients with AML being treated on two different protocols: FLAG-IDA+venetoclax (F-I-V)( Abou Dalle I et al, ASH 2019; the NCT # is NCT03214562) and ivosidenib+venetoclax (I-V). In the initial study, 22 samples (9 PB and 13 BM) were used as training set. Subsequently 16 PB samples from the F-I-V arm and 4 from the I-V arm were collected and tested blindly as testing set after the development and locking of the algorithm. RNA was sequenced using NGS panel composed on compared of 1408 genes. The RNA sequencing is based on hybrid capture and the number of reads ranged from 5 to 10 million. RNA quantification was performed using Cufflinks. The RNA levels were normalized to ABL1 mRNA levels. Each gene is normalized by the mean and standard deviation of the gene. To develop a model for predicting CR, we used the training set in each arm and first evaluated the performance of each of the 1408 genes using receiver operating characteristic (ROC) curve. Then used the following mathematical methods for developing algorithms for predicting CR: Support Vector machine (SVM), Bayesian modeling with Gaussian Processes (GP), and Na\u00efve Bayesian (NB). Results: In univariate analysis, multiple genes showed very high AUC. In the F-I-V arm, top genes in predicting CR were GLI3, SETBP1, SH3D19, ARHGAP20, ETS1, IKZF2, GNG4 and MAGEE1 with AUC ranged from 0.74 to 0.85. In the I-V arm, the top genes in predicting CR were STL, TNFRSF10D, PTGS2, RET, TFRC, NAV3, WSB1, and GAS1 with AUC varied from 0.91 to 0.96. Using the training samples we developed algorithms for predicting CR by SVM, NB and Bayesian GP. Upon testing these models using leave-one-out (LOO), the three algorithms performed similarly with AUC around 0.97 for the I-V arm and around 0.96 for the F-I-V arm. There was no difference between BM and PB in predicting CR. Therefore, we collected and sequenced only peripheral blood for blind testing. The three algorithms were tested using 16 PB samples from the F-I-V arm and 4 samples from the I-V arm. The SVM and NB algorithms predicted CR correctly in 15 of the 16 samples (94%) while Bayesian GP missed 4 of the 16 samples. As for the I-V arm, the NB predicted CR correctly in the 4 samples, while both SVM and Bayesian GP missed 3 of 4. Conclusions: While the data is limited and further validation is need, algorithms using RNA expression profiling of peripheral blood using targeted RNA NGS may provide an excellent tool for customizing therapeutic approach, especially in the age of combination therapy when number of cases for training can be limited. Furthermore, this study suggests that modeling using Nave Bayesian is reliable approach in developing prediction algorithms. Disclosures Albitar: Genomic Testing Ccoperative: Employment, Equity Ownership. Konopleva: Reata Pharmaceuticals: Equity Ownership, Patents & Royalties; Ascentage: Research Funding; Kisoji: Consultancy, Honoraria; Ablynx: Research Funding; Agios: Research Funding; Amgen: Consultancy, Honoraria; F. Hoffman La-Roche: Consultancy, Honoraria, Research Funding; Genentech: Honoraria, Research Funding; Astra Zeneca: Research Funding; Calithera: Research Funding; Stemline Therapeutics: Consultancy, Honoraria, Research Funding; Forty-Seven: Consultancy, Honoraria; Eli Lilly: Research Funding; AbbVie: Consultancy, Honoraria, Research Funding; Cellectis: Research Funding. Loghavi: MDACC: Employment; AlphaSights: Consultancy; GLG Consultants: Consultancy. Takahashi: Symbio Pharmaceuticals: Consultancy. Kantarjian: Daiichi-Sankyo: Research Funding; Ariad: Research Funding; Cyclacel: Research Funding; AbbVie: Honoraria, Research Funding; Agios: Honoraria, Research Funding; Amgen: Honoraria, Research Funding; BMS: Research Funding; Jazz Pharma: Research Funding; Novartis: Research Funding; Takeda: Honoraria; Pfizer: Honoraria, Research Funding; Immunogen: Research Funding; Actinium: Honoraria, Membership on an entity's Board of Directors or advisory committees; Astex: Research Funding. DiNardo: syros: Honoraria; daiichi sankyo: Honoraria; celgene: Consultancy, Honoraria; jazz: Honoraria; abbvie: Consultancy, Honoraria; agios: Consultancy, Honoraria; medimmune: Honoraria; notable labs: Membership on an entity's Board of Directors or advisory committees."
+    "url": "https://ashpublications.org/blood/article/134/Supplement_1/1314/427242/Expression-Profiling-of-mRNA-By-Next-Generation?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T12:41:00",
+    "is_scraped": "0"
 }
