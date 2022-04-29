@@ -1,69 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4247",
+    "start_url_page_num": "4247",
     "doi": "https://doi.org/10.1182/blood-2019-126410",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4219",
-    "start_url_page_num": 4219,
-    "is_scraped": "1",
-    "article_title": "US Optum Database Study in Polycythemia Vera Patients: Thromboembolic Events (TEs) with Hydroxyurea (HU) Vs Ruxolitinib Switch Therapy and Machine-Learning Model to Predict Incidence of Tes and HU Failure ",
-    "article_date": "November 13, 2019",
-    "session_type": "634.Myeloproliferative Syndromes: Clinical",
-    "topics": [
-        "hydroxyurea",
-        "machine learning",
-        "polycythemia vera",
-        "ruxolitinib",
-        "thromboembolic event",
-        "transanal endoscopic surgery",
-        "brachial plexus neuritis",
-        "phlebotomy",
-        "anticoagulants",
-        "apnea of prematurity"
-    ],
-    "author_names": [
-        "Srdan Verstovsek, MD PhD",
-        "Valerio De Stefano, MD",
-        "Florian H. Heidel, MD",
-        "Mike Zuurman, PhD",
-        "Michael Zaiac, MD",
-        "Erwan Bigan, PhD",
-        "Michael Ruhl, PhD",
-        "Christoph Meier, PhD",
-        "Magali Beffy, PhD",
-        "Jean-Jacques Kiladjian, MD PhD"
-    ],
-    "author_affiliations": [
-        [
-            "University of Texas MD Anderson Cancer Center, Department of Leukemia, Houston, TX "
-        ],
-        [
-            "Istituto di Ematologia, Universit\u00e0 Cattolica, Fondazione Policlinico A. Gemelli IRCCS, Roma, Italy "
-        ],
-        [
-            "Internal Medicine 2, Hematology and Oncology, University Hospital Jena, Jena, Germany "
-        ],
-        [
-            "Novartis Pharma B.V., Arnhem, Netherlands ",
-            "Novartis Farma S.p.A, Origgio, VA, Italy "
-        ],
-        [
-            "Novartis Pharma AG, Basel, Switzerland "
-        ],
-        [
-            "The Boston Consulting Group, Boston, MA "
-        ],
-        [
-            "The Boston Consulting Group, Boston, MA "
-        ],
-        [
-            "The Boston Consulting Group, Boston, MA "
-        ],
-        [
-            "The Boston Consulting Group, Boston, MA "
-        ],
-        [
-            "Centre d'Investigations Cliniques, H\u00f4pital Saint-Louis, Universit\u00e9 Paris Diderot, Paris, France"
-        ]
-    ],
-    "first_author_latitude": "29.7068146",
-    "first_author_longitude": "-95.3971547",
-    "abstract_text": "Introduction: Thromboembolic events (TEs) are one of the most prevalent complications in patients (pts) with polycythemia vera (PV). This real-world evidence study of the US OPTUM database evaluated the incidence of TEs in hydroxyurea (HU)-treated PV pts who either switched to ruxolitinib (RUX) after initial treatment (Tx) with HU (HU-RUX group) or continued HU Tx without switching (HU-alone group). Machine learning was then used to build a precise and scientifically robust model to predict the occurrence of TEs in PV pts with/without a history of TEs and HU failure (defined by either European LeukemiaNet [ELN] hematologic criteria or TEs). Methods: The OPTUM database comprises claims data and electronic medical records from 90 million pts (2007-2017, median stay in the database=7 years), including 69,464 PV pts. To avoid any selection bias during comparison, only pts treated prior to the RUX market launch were included in the HU-alone group (HU-RUX, n=81; HU-alone, n=195). Due to unavailability of Tx duration, time difference between the first and the last prescription was used as a proxy, and overall Tx duration was matched in both groups. TEs were assessed before Tx initiation in both groups. For HU-RUX pts, it was also assessed while on HU (median duration 27 months) and on RUX (median duration 14 months). For HU-alone pts, it was assessed during the first 27 months of Tx (any pt included in the analysis was treated for longer than this due to duration matching) and during remaining period of Tx (median duration 14 months). TEs were identified by either a restrictive definition (a list of ICD codes containing keywords from the RESPONSE study was automatically generated and manually curated) or a less restrictive one (list of ICD codes was manually expanded to include any TEs matching those from the GEMFIN study). PV pts who were exclusively treated with HU for \u22656 months were selected (n=2057) for modeling. Outcomes to be predicted were TEs in the 12 months following the end of the 6-month HU Tx period, and HU failure within 3 months of Tx. A logistic regression model was used for prediction. The baseline features extracted from the database included median lab parameters (3-6 months after HU initiation), history of thrombosis prior to primary diagnosis of PV, sociological features (age, gender), comorbidities, and concomitant medications (from inpatient/outpatient tables). Performance assessment methods included Receiver Operating Characteristic-Area Under the Curve (ROC-AUC) in early stages and confusion matrix in later stages; the findings were converted to clinically interpretable decision-tree classification algorithms. Results: Based on the extensive definition, the annual incidence of TEs in the HU-RUX and HU-alone groups, respectively, was 9% and 7% before HU initiation, which increased to 17% and 13% on HU Tx. The small difference in baseline incidence may reflect residual differences between the two groups. After a median duration of 14 months, the incidence of TEs decreased to 15% in pts who switched to RUX vs an increase to 20% in pts who continued HU Tx. A similar trend was observed using less restrictive definition (Figure 1). This definition resulted in a substantially increased incidence of TEs and a decreased predictive power of the machine-learning model. Using modeling, decision trees were developed to predict the occurrence of TEs in PV pts with/without a history of TEs. Lymphocyte percentage (13%) and platelet count (>393x10 3 /\u00b5L) were predictors in pts with a history of TEs (Figure 2). Based on the decision tree developed to predict HU failure, phlebotomy-dependent pts with >15% RDW had a higher risk of HU failure within 3 months of Tx (Figure 3). Conclusions: A reduction in the incidence of TEs was observed in pts switching to RUX vs those who continued HU Tx. Based on the findings from this machine-learning model in PV pts, phlebotomy dependency and RDW were indicated as predictors of HU Tx failure within 3 months, whereas lymphocyte percentage+platelet count and lymphocyte percentage+RDW were predictors of incidence of TEs in pts with and without a history of TEs, respectively. Non-adjustment of the results for antiplatelet/anticoagulant Tx was a study limitation. Further validation of this machine-learning model is planned in other European databases. View large Download slide View large Download slide  Disclosures Verstovsek: Celgene: Consultancy, Research Funding; Gilead: Research Funding; Promedior: Research Funding; CTI BioPharma Corp: Research Funding; Genetech: Research Funding; Protaganist Therapeutics: Research Funding; Constellation: Consultancy; Pragmatist: Consultancy; Incyte: Research Funding; Roche: Research Funding; NS Pharma: Research Funding; Blueprint Medicines Corp: Research Funding; Novartis: Consultancy, Research Funding; Sierra Oncology: Research Funding; Pharma Essentia: Research Funding; Astrazeneca: Research Funding; Ital Pharma: Research Funding. De Stefano: Celgene: Consultancy, Honoraria, Speakers Bureau; Janssen: Consultancy, Honoraria, Speakers Bureau; Amgen: Consultancy, Honoraria, Speakers Bureau; Novartis: Consultancy, Honoraria, Research Funding, Speakers Bureau; Alexion: Consultancy, Honoraria, Speakers Bureau. Heidel: Novartis: Consultancy, Honoraria, Research Funding; Celgene: Consultancy; CTI: Consultancy. Zuurman: Novartis Pharma B.V.: Employment. Zaiac: Novartis: Employment, Equity Ownership. Bigan: Novartis: Consultancy. Ruhl: Novartis: Consultancy. Meier: Novartis: Consultancy. Kiladjian: Celgene: Consultancy; Novartis: Honoraria, Research Funding; AOP Orphan: Honoraria, Research Funding."
+    "url": "https://ashpublications.org/blood/article/134/Supplement_1/1659/427732/US-Optum-Database-Study-in-Polycythemia-Vera?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T16:31:14",
+    "is_scraped": "0"
 }
