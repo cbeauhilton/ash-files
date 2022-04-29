@@ -1,52 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3969",
+    "start_url_page_num": "3969",
     "doi": "https://doi.org/10.1182/blood-2018-99-113294",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4128",
-    "start_url_page_num": 4128,
-    "is_scraped": "1",
-    "article_title": "Whole Genome Sequencing in Routine Hematologic Samples: How to Proceed Analyses Best When Germline Controls Are Missing? ",
-    "article_date": "November 29, 2018",
-    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
-    "topics": [
-        "ambiguity",
-        "artifacts",
-        "complete remission",
-        "dna",
-        "false-positive results",
-        "hematologic neoplasms",
-        "inspection",
-        "leukemia",
-        "neoplasms",
-        "skin biopsies"
-    ],
-    "author_names": [
-        "Stephan Hutter, PhD",
-        "Niroshan Nadarajah",
-        "Manja Meggendorfer, PhD",
-        "Wolfgang Kern, MD",
-        "Torsten Haferlach, MD",
-        "Claudia Haferlach, MD"
-    ],
-    "author_affiliations": [
-        [
-            "MLL Munich Leukemia Laboratory, Munich, Germany "
-        ],
-        [
-            "MLL Munich Leukemia Laboratory, Munich, Germany "
-        ],
-        [
-            "MLL Munich Leukemia Laboratory, Munich, Germany "
-        ],
-        [
-            "MLL Munich Leukemia Laboratory, Munich, Germany "
-        ],
-        [
-            "MLL Munchner Leukamie Labor Gmbh, Munchen, Germany"
-        ],
-        [
-            "MLL Munich Leukemia Laboratory, Munich, Germany "
-        ]
-    ],
-    "first_author_latitude": "48.1080895",
-    "first_author_longitude": "11.473868",
-    "abstract_text": "Background: The human genome is very heterogeneous on the individual level which challenges interpretation of whole genome sequencing (WGS) data. In order to reduce complexity in tumor genetics WGS of a tumor is performed together with WGS of \"normal\" tissue from the respective patient (i.e. fingernails, skin biopsy, hair, buccal swaps) which is used as the germline sequence (tumor/matched normal approach, TMNA). This approach allows the extraction of somatic mutations acquired in the tumor through sophisticated algorithms. In routine diagnostics, especially in hematological neoplasms, \"normal\" tissue representing the germline sequence is usually not available, which prohibits the standard use of somatic tumor/normal variant calling tools. Aims: On the road to implement WGS into routine diagnostics we tested a TMNA in comparison to a tumor/unmatched normal approach (TUNA), where pooled genomic DNA (Promega, Fitchburg, WI) was used instead of a matched normal. Cohorts and Methods: 9 samples from patients with hematological neoplasms (7 AML, 2 ALL) were sequenced at diagnosis on Illumina HiSeqX machines (Illumina, San Diego, CA), along with complete remission samples to serve as matched normals for the TMNA. For comparison, a mixture of genomic DNA from multiple anonymous donors was used as \"normal\" for the TUNA. Read mapping and somatic variant calling was performed using the tools Isaac3 and Strelka2, respectively. Statistical differences between groups were assessed by two-sided Mann-Whitney tests. Results: The TMNA produced a median of 17,700 somatic variant calls, while the TUNA produced 419,000. This 24-fold disparity is mainly due to residual germline variants missed by the TUNA. A large fraction of TMNA variants (57%) was located in regions of known low confidence variant calling (as defined by the Genome in a Bottle Consortium) and likely contain mostly artifacts. After removing these regions from analysis a median of 7,700 and 331,000 variants remained in the TMNA and TUNA datasets, respectively. In order to eliminate germline variants, the gnomAD population database was queried and any present variants were discarded. As expected, this removed over 95% of all variants from the TUNA dataset, but also 41% from the TMNA dataset. The latter might be attributed to common germline variants falsely being called as somatic by the TMNA and/or somatic mutations occurring at polymorphic sites. After this filtering step a median of 3,770 and 15,500 variants remained in the TMNA and TUNA datasets, respectively. This 4-fold disparity in variant number is most likely caused by rare germline variation remaining in the TUNA dataset. Of the remaining TMNA variants only 65% could be found within the larger TUNA dataset. A major factor governing this observation was variant allele frequency (VAF). Variants that overlapped between both datasets had on average higher VAFs than those unique to the TMNA (p < 2.2x10 -16 ). Further inspection of the VAF distribution among samples revealed a bimodal or nearly bimodal distribution for all samples. All distributions shared a sharp peak centered on a VAF of 10%, which was unexpected given the estimated tumor fractions of the samples predict VAFs of 25% and higher. Variants in this lower part of the distribution (arbitrarily defined as VAFs < 20%) constitute on average 50% of all variants in a TMNA sample, with extremes reaching 95% in 2 samples. These low frequency variants show distinctly lower mapping qualities than variants with VAFs \u2265 20% (p < 2.2x10 -16 ), i.e. they reside in regions of elevated mapping ambiguity which potentially leads to the creation of artefacts. Analyzing the overlap of only the higher VAF variants we find that 97.4% of all TMNA variants can also be found in the TUNA dataset. Conclusions: Comparing tumor samples to matched normal material from the respective patient is the preferred approach for somatic variant calling in WGS data, however even with modern algorithms false positives due to technical artifacts seem to be highly abundant. A deeper understanding of the nature of these artifacts is crucial for developing appropriate filtering schemes and improving variant calling algorithms. In the absence of a matched normal using a TUNA can uncover the vast majority (97.4%) of high-quality variants found in a TMNA, however distinguishing true somatic variants from residual rare germline variation in a TUNA remains a major challenge. Disclosures Hutter: MLL Munich Leukemia Laboratory: Employment. Nadarajah: MLL Munich Leukemia Laboratory: Employment. Meggendorfer: MLL Munich Leukemia Laboratory: Employment. Kern: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership."
+    "url": "https://ashpublications.org/blood/article/132/Supplement 1/5275/265705/Whole-Genome-Sequencing-in-Routine-Hematologic?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T03:31:00",
+    "is_scraped": "0"
 }
