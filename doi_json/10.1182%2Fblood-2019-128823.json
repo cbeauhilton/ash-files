@@ -1,52 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4228",
+    "start_url_page_num": "4228",
     "doi": "https://doi.org/10.1182/blood-2019-128823",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4228",
-    "start_url_page_num": 4228,
-    "is_scraped": "1",
-    "article_title": "Supervised Machine Learning Algorithms Using Patient Related Factors to Predict in-Hospital Mortality Following Acute Myeloid Leukemia Therapy ",
-    "article_date": "November 13, 2019",
-    "session_type": "903.Health Services Research-Malignant Conditions (Myeloid Disease)",
-    "topics": [
-        "leukemia, myelocytic, acute",
-        "supervised machine learning",
-        "chemotherapy regimen",
-        "neoadjuvant therapy",
-        "supportive care",
-        "hospital mortality",
-        "categorical variables",
-        "logistic regression",
-        "true-positive result",
-        "international classification of diseases"
-    ],
-    "author_names": [
-        "Nauman Saleem Siddiqui, MD",
-        "Andreas Klein, MD",
-        "Amandeep Godara, MD",
-        "Cindy Varga, MD BSc",
-        "Rachel J. Buchsbaum, MD",
-        "Michael C. Hughes, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Hematology/Oncology, Tufts Medical Center, Boston, MA "
-        ],
-        [
-            "Hematology/Oncology, Tufts Medical Center, Boston, MA "
-        ],
-        [
-            "Tufts Medical Center, Boston, MA "
-        ],
-        [
-            "Hematology/Oncology, Tufts Medical Center, Boston, MA "
-        ],
-        [
-            "Hematology/Oncology, Tufts Medical Center, Boston, MA "
-        ],
-        [
-            "Dept. of Computer Science, Tufts University, Medford, MA"
-        ]
-    ],
-    "first_author_latitude": "42.3481069",
-    "first_author_longitude": "-71.06843605",
-    "abstract_text": "Background: Despite careful patient selection and improved supportive care over recent years, chemotherapy for acute myeloid leukemia (AML) is still associated with a significant risk for treatment-related mortality (5-20%), resulting from an interplay of multiple patient and disease-related factors. Tools to better identify candidates suitable for intensive chemotherapy are much needed. In this analysis, using a large administrative database, we evaluate the potential of machine learning (ML) algorithms trained using factors available at the time of admission for AML therapy to predict death during the hospitalization. Methods: We utilized the State Inpatient Database (SID) for years 2008-2014, which holds one of the largest collections of inpatient discharges incorporating all payers from community hospitals in the United States and is part of Healthcare Cost and Utilization Project (HCUP). Data from following states was obtained for analysis: Arizona, Florida, New York, Maryland, Washington, and New Jersey. Our cohort included adult (age >17) patients diagnosed with AML (ICD-9 codes 205.XX, 206.XX, and 207.XX) and receipt of any type of chemotherapy on same admission confirmed by ICD-9 diagnosis code (V581, V5811, and V5812) or ICD-9 procedure code of 9925. The primary objective was to predict inpatient mortality in AML patients undergoing chemotherapy using covariates that were present prior to chemotherapy initiation. Features included age, race, emergency room use, year of admission, number of days from admission to chemotherapy, comorbid conditions present at the time of admission, and procedures performed on or before the day of administration of chemotherapy. The main cohort was split into training (80%) and test (20%) sets. We compared several supervised machine learning classification algorithms including logistic regression (LR), decision trees (DT) and random forests (RF). Algorithms were trained using 5-fold cross validation with hyperparameters selected via grid search to prevent overfitting. Model performance on the test set was accessed using area under the receiver operating characteristic curve (AUC, ROC). True positive rate (TPR), true negative rate (TNR) and positive predictive value (PPV) were assessed at multiple thresholds. SAS 9.4 and Python libraries were utilized for all analysis. Results: A total of 29613 subjects with AML were included in final analysis each associated with 4177 features after including indicators to capture missing categorical variables. Median age was 58.9(18-101) years. 13689 (53.7%) were males and 20203 (69%) were Caucasian. Each subject underwent some form of chemotherapy. Mean time from admission to starting chemotherapy was 3 days (95%CI, 2.9-3.1). Among all subjects, 2682 (9.1%) died during the hospitalization following chemotherapy administration. Figure 1 shows the ROC curve comparing all algorithms. Both LR and RF achieved an AUC score of 0.78 while DT achieved 0.70 AUC. In comparison, a baseline LR model with age as the sole predictor yielded 0.62 AUC. Table 1 provides TPR, TNR and PPV for each algorithm at varying decision boundary thresholds. Discussion: The strength of this machine learning approach is the applicability of using readily-accessible personalized variables to predict inpatient mortality of any patient on track for chemotherapy to treat AML, without incorporating performance status or any laboratory information. Using a threshold of 0.7, our trained RF model achieves TNR of 99.2%, TPR of 8.6 % and PPV of 57.3%. If this threshold is used to select patients suitable for chemotherapy, 51 out of 587 total deaths that occurred in our test set of 5923 could have avoided treatment related mortality while 38 would not have received chemotherapy as they will be falsely flagged. Our study supports the use of supervised machine learning algorithms on large administrative databases to create healthcare solutions. One limitation is that this dataset is not able to differentiate discharges following induction therapy in newly diagnosed patients from those following consolidation. Next steps would be to validate on larger cohorts with more detailed therapy information. Ultimately, estimating inpatient mortality at the time of hospitalization may prove useful in helping clinicians identify high-risk patients for whom alternative treatment options would have better outcomes than chemotherapy. View large Download slide View large Download slide  Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/134/Supplement_1/3435/428173/Supervised-Machine-Learning-Algorithms-Using?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T15:45:53",
+    "is_scraped": "0"
 }

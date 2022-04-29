@@ -1,84 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4228",
+    "start_url_page_num": "4228",
     "doi": "https://doi.org/10.1182/blood-2019-131136",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4228",
-    "start_url_page_num": 4228,
-    "is_scraped": "1",
-    "article_title": "Machine Learning Unveils Proteotypic Mimicry in Genetically Defined SCN Variants ",
-    "article_date": "November 13, 2019",
-    "session_type": "201.Granulocytes, Monocytes, and Macrophages",
-    "topics": [
-        "congenital neutropenia",
-        "granules",
-        "heart failure",
-        "machine learning",
-        "proteome",
-        "signal recognition particle",
-        "multicatalytic endopeptidase complex",
-        "principal component analysis",
-        "neutrophils",
-        "granulocytes"
-    ],
-    "author_names": [
-        "Sebastian Hesse, MD",
-        "Christoph Klein, MD PhD",
-        "Rappsilber Juri, Prof.",
-        "Yoko Mizoguchi",
-        "Monika Linder, PhD",
-        "Piotr Grabowski, PhD",
-        "Zahra Alizadeh, PhD",
-        "Zahra Pourpak, MD PhD",
-        "Nima Rezaei, MD PhD",
-        "Sorin Iurian, MD PhD",
-        "Ekrem Unal, MD",
-        "Fabian Hauck, MD PhD",
-        "Ralf Zimmer, Prof.",
-        "Gergely Csaba, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Pediatrics, Dr. von Hauner Children's Hospital, Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen, Munich, Germany "
-        ],
-        [
-            "Dr. von Hauner Children's Hospital, Ludwig-Maximilians-Universit\u00e4t, Munich, Germany "
-        ],
-        [
-            "Technische Universit\u00e4t Berlin, Technische Universit\u00e4t Berlin, Berlin, Germany "
-        ],
-        [
-            "Department of Pediatrics, Pediatrics, Hiroshima, Japan "
-        ],
-        [
-            "Department of Pediatrics, Dr. von Hauner Children's Hospital, Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen, Munich, Germany "
-        ],
-        [
-            "Bioanalytics, Institute of Biotechnology, Technische Universit\u00e4t Berlin, Berlin, Germany "
-        ],
-        [
-            "Immunology, Asthma and Allergy Research Institute, Tehran University of Medical Sciences, Teheran, Iran (Islamic Republic of) "
-        ],
-        [
-            "Immunology, Asthma and Allergy Research Institute, Tehran University of Medical Sciences, Teheran, Iran (Islamic Republic of) "
-        ],
-        [
-            "Research Center for Immunodeficiencies, Children's Medical Center, Tehran University of Medical Sciences, Tehran, Iran (Islamic Republic of) "
-        ],
-        [
-            "Department of Pediatrics, Lucian Blaga University of Sibiu, Sibiu, Romania "
-        ],
-        [
-            "Department of Pediatrics, Division of Pediatric Hematology & Oncology, Erciyes University, Kayseri, Turkey "
-        ],
-        [
-            "Dr. von Hauner Children's Hospital, Ludwig-Maximilians-Universit\u00e4t, Munich, Germany "
-        ],
-        [
-            "Institute of Bioinformatics, Department of Informatics, Ludwig Maximilians Universit\u00e4t M\u00fcnchen, Munich, Germany"
-        ],
-        [
-            "Institute of Bioinformatics, Department of Informatics, Ludwig Maximilians Universit\u00e4t M\u00fcnchen, Munich, Germany"
-        ]
-    ],
-    "first_author_latitude": "48.1301318",
-    "first_author_longitude": "11.559098299999997",
-    "abstract_text": "Background Novel computational algorithms for multi-omics analysis bear great potential to highlight pathomechanisms of monogenic diseases. We recently defined the in-depth proteome of primary human neutrophil granulocytes (PMID 30630937). Here, we ask the question whether proteotypic patterns differ between defined genetic subtypes associated with severe congenital neutropenia (SCN). We focus on two novel genetic variants in constituents of the signal recognition particle (SRPRA and SRP19) and previously reported SCN genotypes SRP54, HAX1, and ELANE. Methods We analyzed proteomes of highly purified neutrophil granulocytes from a total of 26 SCN patients, including 5 with homozygous splice site mutations in SRP19, one patient with a de-novo heterozygous missense mutation in SRPRA (using 5 biological replicates collected months apart) as well as 6 patients with SRP54, 8 with HAX1 and 6 with ELANE mutations. Samples of 70 healthy donors (HD) served as controls. Whole cell proteome analysis was based on data-independent acquisition using a Thermo Fisher QExactive HF mass spectrometer. Data analysis was performed in R and Cytoscape, machine learning approaches included lasso regression and random forest. Results Differential expression analysis in comparison to HD showed in all genotypes overexpression of ribosomes, the translational apparatus, mitochondria, cell-substrate junctions and response to unfolded proteins. Underexpressed proteins showed genotype specific enrichment for granule subsets. Whereas ELANE showed deficiency of primary and secretory granules, HAX1 showed deficiency of specific, tertiary and secretory granules. All SRP genotypes showed markedly reduced abundance of proteins in all granule subsets. Principal component analysis showed clear separation of healthy and diseased proteotypes on the first component, whereas the separation of patient genotypes became clear only using five dimensions. We derived genotype specific proteome signatures by lasso regression, consisting of 26 (minimal specific set) to 128 (comprehensive signature) proteins, and a signature of 48 proteins when joining the SRP genotypes as one group. This signatures allow for perfect separation of the genotypes, demonstrating a clear genotype specific effect on protein abundance levels. We asked the question if the genotypes SRP19 and SRPRA show more similar proteomic profile to SRP54 than the other genotypes (ELANE, HAX1) by training a random forest model on proteome data from SRP54, HAX1, ELANE and HD and subsequently testing if the other SRP samples get classified as SRP54. We observe only few misclassifications using either all proteins (7/10) or using the lasso derived genotype defining proteins (8/10). This strongly supports our hypothesis that mutations in different subunits of the same complex lead to similar proteotype changes, a phenomenon we propose to call \"proteotypic mimicry\". For a systems biology perspective we selected proteins that were exclusively regulated in the SRP genotypes and restricted a network of interactions to these proteins together with their direct interactors (based on APID level 1). The resulting network contained 464 proteins and 3587 interactions. MCODE analysis identified 16 clusters that were consequently annotated using BINGO enrichment analysis. The SRP specific network shows features of the translational apparatus, the proteasome, the septin complex, splicing and cell-metabolic processes. Further studies to dissect specific pathomechanisms are under way. Conclusion Here we provide for the first time evidence for the correlation between SCN causing genotypes and their corresponding neutrophil proteotypes. In particular, we demonstrate significant overlap of all SRP related proteotypes, indicating a phenomenon we propose to be called \"proteotypic mimicry\". Studies on similarities and disparities of neutrophil proteotypes will help to raise new hypothesis on distinct cellular dysfunction in defined genetic defects of neutrophil granulocytes. Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/134/Supplement_1/3580/428172/Machine-Learning-Unveils-Proteotypic-Mimicry-in?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T15:45:53",
+    "is_scraped": "0"
 }
