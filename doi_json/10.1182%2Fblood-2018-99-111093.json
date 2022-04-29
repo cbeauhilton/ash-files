@@ -1,56 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4097",
+    "start_url_page_num": "4097",
     "doi": "https://doi.org/10.1182/blood-2018-99-111093",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4097",
-    "start_url_page_num": 4097,
-    "is_scraped": "1",
-    "article_title": "Honeur (Heamatology Outcomes Network in Europe): A Federated Model to Support Real World Data Research in Hematology ",
-    "article_date": "November 29, 2018",
-    "session_type": "904. Outcomes Research-Malignant Conditions: Poster III",
-    "abstract_text": "Introduction: The Haematology Outcomes Network in EURope (HONEUR) is an interdisciplinary initiative aimed at improving patient outcomes by analyzing real world data across hematological centers in Europe. Its overarching goal is to create a secure network which facilitates the development of a collaborative research community and allows access to big data tools for analysis of the data. The central paradigm in the HONEUR network is a federated model whereby the data stays at the respective sites and the analysis is executed at the local data sources. To allow for a uniform data analysis, the common data model 'OMOP' (Observational Medical Outcomes Partnership) was selected and extended to accommodate specific hematology data elements. Objective: To demonstrate feasibility of the OMOP common data model for the HONEUR network. Methods: In order to validate the architecture of the HONEUR network and the applicability of the OMOP common data model, data from the EMMOS registry (NCT01241396) have been used. This registry is a prospective, non-interventional study that was designed to capture real world data regarding treatments and outcomes for multiple myeloma at different stages of the disease. Data was collected between Oct 2010 and Nov 2014 on more than 2,400 patients across 266 sites in 22 countries. Data was mapped to the OMOP common data model version 5.3. Additional new concepts to the standard OMOP were provided to preserve the semantic mapping quality and reduce the potential loss of granularity. Following the mapping process, a quality analysis was performed to assess the completeness and accuracy of the mapping to the common data model. Specific critical concepts in multiple myeloma needed to be represented in OMOP. This applies in particular for concepts like treatment lines, cytogenetic observations, disease progression, risk scales (in particular ISS and R-ISS). To accommodate these concepts, existing OMOP structures were used with the definition of new concepts and concept-relationships. Results: Several elements of mapping data from the EMMOS registry to the OMOP common data model (CDM) were evaluated via integrity checks. Core entities from the OMOP CDM were reconciled against the source data. This was applied for the following entities: person (profile of year of birth and gender), drug exposure (profile of number of drug exposures per drug, at ATC code level), conditions (profile of number of occurrences of conditions per condition code, converted to SNOMED), measurement (profile of number of measurements and value distribution per (lab) measurement, converted to LOINC) and observation (profile of number of observations per observation concept). Figure 1 shows the histogram of year of birth distribution between the EMMOS registry and the OMOP CDM. No discernible differences exist, except for subjects which have not been included in the mapping to the OMOP CDM due to lacking confirmation of a diagnosis of multiple myeloma. As additional part of the architecture validation, the occurrence of the top 20 medications in the EMMOS registry and the OMOP CDM were compared, with a 100% concordance for the drug codes, which is shown in Figure 2. In addition to the reconciliation against the different OMOP entities, a comparison was also made against 'derived' data, in particular 'time to event' analysis. Overall survival was plotted from calculated variables in the analysis level data from the EMMOS registry and derived variables in the OMOP CDM. Probability of overall survival over time was virtually identical with only one day difference in median survival and 95% confidence intervals identically overlapping over the period of measurement (Figure 3). Conclusions: The concordance of year of birth, drug code mapping and overall survival between the EMMOS registry and the OMOP common data model indicates the reliability of mapping potential in HONEUR, especially where auxiliary methods have been developed to handle outcomes and treatment data in a way that can be harmonized across platform datasets. View large Download slide View large Download slide  Disclosures No relevant conflicts of interest to declare.",
-    "topics": [
-        "big data",
-        "conflict of interest",
-        "cytogenetics",
-        "data analysis",
-        "datasets",
-        "disclosure",
-        "disease progression",
-        "europe",
-        "gender",
-        "multiple myeloma"
-    ],
-    "author_names": [
-        "Kristina Bardenheuer, MSc Epi",
-        "Alun Passey, PhDTranslational Oncology",
-        "Maria d'Errico, PhDPhysics",
-        "Barbara Millier, MBA",
-        "Carine Guinard-Azadian, MD",
-        "Johan Aschan, MD PhD",
-        "Michel van Speybroeck, MSc"
-    ],
-    "author_affiliations": [
-        [
-            "HE&OR, Janssen-Cilag GmbH, Neuss, Germany "
-        ],
-        [
-            "RWE HEMAR EMEA, Janssen Ltd, High Wycombe, United Kingdom "
-        ],
-        [
-            "Data Science, Janssen Pharmaceutica N.V., Beerse, Belgium "
-        ],
-        [
-            "EMEA IT, Janssen Ltd, High Wycombe, United Kingdom "
-        ],
-        [
-            "EMEA Medical Advisor Hematology, Janssen Cilag, Issy-les-Moulineaux, France "
-        ],
-        [
-            "Janssen, Sollentuna, Sweden "
-        ],
-        [
-            "Data Sciences, Janssen Pharmaceutica N.V., Beerse, Belgium"
-        ]
-    ],
-    "first_author_latitude": "51.1304363",
-    "first_author_longitude": "6.7352997"
+    "url": "https://ashpublications.org/blood/article/132/Supplement 1/4839/262338/Honeur-Heamatology-Outcomes-Network-in-Europe-A?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T08:49:54",
+    "is_scraped": "0"
 }
