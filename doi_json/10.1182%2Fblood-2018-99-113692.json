@@ -1,61 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3957",
+    "start_url_page_num": "3957",
     "doi": "https://doi.org/10.1182/blood-2018-99-113692",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3957",
-    "start_url_page_num": 3957,
-    "is_scraped": "1",
-    "article_title": "Next Generation Myelofibrosis Risk Analysis in the Electronic Health Record ",
-    "article_date": "November 29, 2018",
-    "session_type": "634. Myeloproliferative Syndromes: Clinical: Poster II",
-    "topics": [
-        "electronic medical records",
-        "myelofibrosis",
-        "weight reduction",
-        "genotype determination",
-        "hemoglobin",
-        "karyotype determination procedure",
-        "massively-parallel genome sequencing",
-        "transfusion",
-        "dna",
-        "follow-up"
-    ],
-    "author_names": [
-        "Andrew Sochacki, MD",
-        "Cosmin Adrian Bejan, PhD",
-        "Shilin Zhao, PhD",
-        "Travis Spaulding, MD",
-        "Thomas Stricker, MD PhD",
-        "Yaomin Xu, PhD",
-        "Michael R. Savona, MD"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Medicine, Vanderbilt University Medical Center, Nashville, TN "
-        ],
-        [
-            "Department of Biomedical Informatics, Vanderbilt University, Nashville, TN ",
-            "Center for Precision Medicine, Vanderbilt University, Nashville, TN "
-        ],
-        [
-            "Department of Biostatistics, Vanderbilt University, Nashville, TN ",
-            "Center for Quantitative Sciences, Vanderbilt University, Nashville, TN "
-        ],
-        [
-            "Department of Medicine, Vanderbilt University Medical Center, Nashville, TN "
-        ],
-        [
-            "Department of Pathology, Microbiology and Immunology, Vanderbilt University Medical Center, nashville, TN "
-        ],
-        [
-            "Department of Biomedical Informatics, Vanderbilt University, Nashville, TN ",
-            "Department of Biostatistics, Vanderbilt University, Nashville, TN ",
-            "Center for Quantitative Sciences, Vanderbilt University, Nashville, TN "
-        ],
-        [
-            "Division of Hematology/Oncology, Department of Medicine, Vanderbilt University Medical Center, Nashville, TN ",
-            "Vanderbilt University Medical Center, Vanderbilt-Ingram Cancer Center, Nashville, TN"
-        ]
-    ],
-    "first_author_latitude": "36.1422248",
-    "first_author_longitude": "-86.8025487",
-    "abstract_text": "Background: Myelofibrosis (MF) is a devastating myeloproliferative neoplasm that is hallmarked by marrow fibrosis, symptomatic extramedullary hematopoiesis, and risk of leukemic transformation, most commonly driven by janus kinase 2 ( JAK2 ) pathway mutations. MF risk classification systems guide prognosis, decisions regarding allogeneic stem cell transplantation, and disease modifying agents. Key systems include the Dynamic International Prognostic Scoring System (DIPSS) 2009, DIPSS plus 2010, Genetics-Based Prognostic Scoring System (GPSS) 2014, and Mutation-Enhanced International Prognostic Scoring System (MIPSS) 2014. System contributions include dynamic scoring (DIPSS), cytogenetics (DIPSS Plus), and high risk molecular mutations (GPSS and MIPSS). To power the next generation of MF risk prognostication, and ascertain new prognostic factors, large scale electronic health record (EHR) and genomic data will need integration. As a proof of concept, we leveraged our de-identified research EHR (2.9 million records) and linked genomic biobank (288,000 patients) to develop an all-inclusive phenotype-genotype-prognostic system for MF and recapitulate DIPSS, DIPSS Plus, GPSS and MIPSS. Methods: Our previously described methods (Bejan et al. AACR 2018) utilized natural language processing to algorithmically identify 306 MF patients. A subset (N=125) had available DNA for genotyping. We automatically extracted: age greater than 65, leukocyte count (WBC) greater than 25x10 9 /L, hemoglobin (Hgb) less than 10g/dL, platelets (PLT) less than 100 x 10 9 /L, circulating myeloid blasts \u2265 1%, and 10% weight loss compared to baseline as a proxy for constitutional symptoms. Transfusion data was not included. Karyotype data was manually reviewed. Next generation sequencing (NGS) was performed on biobanked peripheral blood DNA with the Trusight Myeloid Panel (Illumina\u00ae). Genotyped samples were restricted to dates after MF diagnosis. Multivariate Cox proportional hazard analysis was performed on all clinical and genomic variables. DIPSS plus was calculated without adjustment but lacked transfusion data. DIPSS, GPSS and MIPSS scores were calculated by published methods. Results: Multivariate Cox proportional hazard regression identified Hgb (HR=6.4; P =0.006), myeloid blasts (HR=3.8; P =0.03), and ASXL1 (HR=5.2; P =0.02) as significant in our cohort with regard to overall survival (OS). We noted a strong trend for high risk karyotype (HR=5.6; P =0.07). Our DIPSS model median survival (N=120) for each subgroup; low risk (median survival not met), intermediate-1 (108 months), intermediate-2 (47 months) and high risk (6 months) P =0.0002 (Figure 1a). DIPSS Plus (N=122) integrated karyotype data and PLT count with similar survival with the exception of high risk (4 months) P =0.00003 (Figure 1b). The percentage of patients with driver mutations in JAK2 V617F (57%), CALR (3%) and MPL W515 (7.2%); JAK2 WT , CALR WT and MPL WT triple negative (34%); high molecular risk ASXL1 (15%), EZH2 (6%), IDH1/2 (7%), SRFS2 (17%); other variants of interest TET2 (9.6%), TP53 (29%) and DNMT3A (16.8%). MIPSS (N=125; 48 months follow up) noted low risk, intermediate-1, and intermediate-2 (median survival not met) and high risk (32 months) P =0.0001 (Figure 1c). GPSS (N=125; 48 months follow up) did not demonstrate statistical separation among groups (Figure 1d). Discussion: This proof of concept transformed raw EHR records into clinical risk scores for MF. The addition of retrospective DNA analysis via NGS opens the possibility of multi-institutional EHR-biobank studies to most accurately create a system to define MF risk. Our sample size limited the significance of age, PLTs, poor risk mutations and other variables previously shown to impact OS. Likewise, we lacked the capacity to track transfusion dependence, previously shown to have prognostic relevance. Still, prognostication via the EHR mimics common scoring systems in MF and supports correct MF case selection, accurate laboratory extraction and reproducible genotyping of biobanked samples. Similar to the original GPSS report, our low risk cohort was small (N=2) and will benefit from expansion of genotyping underway. Finally, this phenotype-genotype-prognostic paradigm represents a technical advance and a unique opportunity to deploy patient specific comorbidities from lifetime EHR records to further refine risk across all myeloid disease. View large Download slide View large Download slide  Disclosures Savona: Boehringer Ingelheim: Consultancy; Celgene: Consultancy, Membership on an entity's Board of Directors or advisory committees; Incyte: Membership on an entity's Board of Directors or advisory committees, Research Funding."
+    "url": "https://ashpublications.org/blood/article/132/Supplement 1/3038/263765/Next-Generation-Myelofibrosis-Risk-Analysis-in-the?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T01:54:40",
+    "is_scraped": "0"
 }

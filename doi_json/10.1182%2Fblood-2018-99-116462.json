@@ -1,68 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3953",
+    "start_url_page_num": "3953",
     "doi": "https://doi.org/10.1182/blood-2018-99-116462",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3953",
-    "start_url_page_num": 3953,
-    "is_scraped": "1",
-    "article_title": "Pediatric LSC3 (pLSC3) Score Derived from DNMT3B-CD34-GPR56 As a Prognostic Tool to Predict AML Patient Outcome: Results from Two Independent Pediatric AML Cohorts ",
-    "article_date": "November 29, 2018",
-    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis II",
-    "topics": [
-        "cd34 antigens",
-        "myeloblastic leukemia, pediatric acute",
-        "pediatrics",
-        "patient-focused outcomes",
-        "surrogate endpoints",
-        "dna microarrays",
-        "dna modification methylases",
-        "g-protein-coupled receptors",
-        "leukemia",
-        "leukemia, myelocytic, acute"
-    ],
-    "author_names": [
-        "Abdelrahman H Elsayed, MSc",
-        "Huiyun Wu, PhD",
-        "Xueyuan Cao, PhD",
-        "Susana C. Raimondi, PhD",
-        "James R. Downing, MD",
-        "Raul Ribeiro, MD",
-        "Tanja A. Gruber, MD PhD",
-        "Jeffrey Rubnitz, MD PhD",
-        "Stanley Pounds, PhD",
-        "Jatinder K Lamba, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Pharmacotherapy and Translational Research, University of Florida, College of pharmacy, Gainesville, FL "
-        ],
-        [
-            "Department of Biostatistics, St. Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "Department of Biostatistics, St. Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "Department of Pathology, St. Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "Department of Pathology, St. Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "Department of Oncology and Global Medicine, International Outreach Program, St. Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "Department of Oncology, St. Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "Department of Oncology, St Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "Department of Biostatistics, St. Jude Children's Research Hospital, Memphis, TN "
-        ],
-        [
-            "Department of Pharmacotherapy and Translational Research, University of Florida, College of Pharmacy, Pharmacotherapy and Translational Re, Gainesville, FL"
-        ]
-    ],
-    "first_author_latitude": "29.641755",
-    "first_author_longitude": "-82.34518159999999",
-    "abstract_text": "Introduction: Resistance and relapse remain major obstacles in the treatment of acute myeloid leukemia (AML). Pre-existence and persistence of drug resistant leukemia stem cells (LSCs) is considered one of the major causes of relapse. A previous study (Ng et al., 2016) reported a prognostic signature of 17 genes (LSC17 score) differentially expressed in LSC+ compared to LSC- cell fractions that predicted outcome in patients with AML thereby classifying patients into high and low risk groups. The goal of this study is to determine the validity of LSC17 score in pediatric AML patients and to enhance its clinical utility by exploring a new score with limited number of stem cell genes. Methods: 150 pediatric patients with AML enrolled in the multicenter AML02 clinical trial (ClinicalTrials.gov Identifier: NCT00136084) with Affymetrix U133A microarray gene expression data and clinical data were included in the study. Since only 14 of the 17 genes were represented on the Affymetrix U133A gene chip we tested the validity of the LSC14 score using the previously defined equation (Ng et al, 2016) with multiple clinical endpoints such as minimum residual disease (MRD), event free survival (EFS) and overall survival (OS). To reduce the model complexity, we applied a penalized regression algorithm called the least absolute shrinkage and selection operator (LASSO) implemented in the glmnet R-package using event free survival (EFS) as an outcome variable. Score of the new equation, which included three genes, was designated as pediatric-LSC3 (pLSC3). pLSC3 was tested in the AML02 cohort for association of high or low pLSC3 (based on the median value) with clinical endpoints mentioned above. pLSC3 score equation was validated using publically available gene-expression data from 117 pediatric relapse enriched AML patient cohort enrolled in Children's Oncology Group (COG) protocol (TARGET database). COX-proportional hazard models and Log rank test were used for survival data analysis. Results: AML02 cohort: Patients with high LSC14 scores (greater than median), had significantly worse MRD (p<0.0001), EFS (HR = 3.72, P <0.00001) and OS (HR = 4.85, P <0.00001) compared to patients with low LSC14 scores. After applying LASSO regression to simplify the score equation, only three genes (DNMT3B, CD34 and GPR56) remained significant to the model fit of the EFS data thus we created a pLSC3 with coefficients as described in the equation: pLSC3_SCORE = ( DNMT3B *0.0431) + ( CD34 *0.00076) + ( GPR56 *0.0326). Patients were classified as high or low pLSC3 and patients with high pLSC3 scores had significantly worse EFS (HR=3.595, P < 0.0001; Figure 1A) and OS (HR= 4.53, P<0.0001) and higher MRD after induction 1 and induction II, respectively (P<0.00001 and p=0.0001 respectively; Figure 1C). These results were further validated in an independent cohort of patients from TARGET database, where higher pLSC3 score was associated with worse EFS, OS and MRD (EFS: HR=1.64, P=0.0248; Figure 1B, OS: HR = 1.77, P = 0.0349 and MRD p=0.0002, Figure 1D). Consistent results were also observed with high pLSC3 predictive of significantly worse outcome within standard risk group patients within both AML02 and COG cohorts (AML02-EFS: HR = 2.97, P = 0.0153, COG-EFS: HR = 2.22, P = 0.0096; Figure 1E and F respectively). In a multivariate COX regression model, pLSC3 score groups was the only significant covariate (table 1). It explained 13.1% of variability in EFS and 11.6% of variability in OS, while other prognostic factors such as risk groups, FLT3 status, treatment arm and age collectively explained 15.1 and 12.1 % of variability. Discussion: In summary, our results show validity of a previously defined LSC14 score in a pediatric AML population from the multicenter AML02 clinical trial. To enhance the clinical utility, score equation was further simplified and the final score (pLSC3) was derived from three genes: DNMT3B, which encodes for DNA methyltransferase; CD34, an important cell surface marker for early-undifferentiated LSCs; and GPR56, a G protein coupled receptor of significance in AML. Given that there is need to refine classification of a highly heterogeneous group of patients with standard risk AML, we show that differentiating standard risk patients based on pLSC3 score should be considered in the future. We show the relevance of pLSC3 in two independent cohorts, opening up opportunities to improve treatment outcomes of pediatric patients with AML. View large Download slide View large Download slide  Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/132/Supplement 1/290/263687/Pediatric-LSC3-pLSC3-Score-Derived-from-DNMT3B?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T01:54:26",
+    "is_scraped": "0"
 }
