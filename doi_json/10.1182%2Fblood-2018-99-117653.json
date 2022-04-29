@@ -1,48 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4021",
+    "start_url_page_num": "4021",
     "doi": "https://doi.org/10.1182/blood-2018-99-117653",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4021",
-    "start_url_page_num": 4021,
-    "is_scraped": "1",
-    "article_title": "Secdrug: A Computational Method for Discovering Novel Secondary Drug Combinations Using Large-Scale Pharmacogenomics Databases ",
-    "article_date": "November 29, 2018",
-    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster III",
-    "topics": [
-        "drug combinations",
-        "pharmacogenomics",
-        "cancer",
-        "chemotherapy regimen",
-        "bortezomib",
-        "proteasome inhibitors",
-        "tumor cells, malignant",
-        "adverse effects",
-        "antineoplastic agents",
-        "childhood cancer"
-    ],
-    "author_names": [
-        "Li Chen, PhD",
-        "Ujjal Kumar Mukherjee, PhD",
-        "Emily Rankine",
-        "Brian G. Van Ness, PhD",
-        "Amit Kumar Mitra, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Harrison School of Pharmacy, Auburn University, Auburn, AL "
-        ],
-        [
-            "University of Illinois Urbana Champaign, Champaign, IL "
-        ],
-        [
-            "University of Minnesota, Minneapolis, MN"
-        ],
-        [
-            "University of Minnesota, Minneapolis, MN"
-        ],
-        [
-            "Harrison School of Pharmacy, Auburn University, Auburn, AL "
-        ]
-    ],
-    "first_author_latitude": "32.6044542",
-    "first_author_longitude": "-85.4879879",
-    "abstract_text": "Drug resistance is a major obstacle in achieving complete and sustained therapeutic effect in cancer chemotherapy. Chemo-resistance may also lead to over-dosing and unwanted exposure to ineffective anti-tumor agents thereby increasing the risk of negative side-effects and the cost of drug development. Therefore, our goal is to utilize a large-scale pharmacogenomics database (Genomics of Drug Sensitivity in Cancer or GDSC, the largest public resource of drug-sensitivity data on over 250 drugs in more than 1000 human cancer cell lines of common and rare types of adult and childhood cancers of diverse origin) and develop a prediction method to identify novel secondary drug combination regimens that may effectively reverse drug resistance. We utilized a greedy algorithm-based set-covering computational optimization method followed by a regularization technique to seek all secondary drugs that could kill maximum number of cell lines of the test disease (B-Cell cancers) resistant to the test drug (the Proteasome inhibitor/PI drug Bortezomib/Bz/Velcade) in a sequential manner ordered by the number of cell lines killed. The predicted top secondary drug combinations in PI-resistant B-cell cancers are shown in Figure 1 . To validate our prediction results, we treated human multiple myeloma cell lines (HMCLs) highly resistant to the proteasome inhibitors Bortezomib, Carfilzomob, Oprozomib and Ixazomib with the predicted best secondary drugs. Figure 2 depicts In vitro chemo-sensitivity profiles of PI-resistant HMCLs and other B-cell cancer cell lines showing percent survival compared to untreated control at increasing concentrations of secondary drugs, as single agents or in combination. Furthermore, for each drug in the predicted drug combination, we identified differentially expressed (DE) genes by comparing the expression profiles between extraordinary- sensitive and resistant cell lines. These significantly regulated DE genes were used to identify pathways associated with the successful drug combinations. Finally, we developed an R software package secDrug based on this computational pipeline for predicting novel secondary therapies in chemotherapy-resistant cancers. secDrug takes a query of any cancer type and any test drug, and outputs a list of the top secondary drug combinations with confidence score and biological pathway visualization. Thus, secDrug has potential application in clinical decision-making for discovering resistance-reversing cancer chemotherapy regimens. View large Download slide View large Download slide  Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/132/Supplement 1/4473/275681/Secdrug-A-Computational-Method-for-Discovering?searchresult=1",
+    "datetime_link_obtained": "2022-04-29T06:26:35",
+    "is_scraped": "0"
 }
