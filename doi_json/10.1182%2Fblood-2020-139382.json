@@ -1,41 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4486",
+    "start_url_page_num": "4486",
     "doi": "https://doi.org/10.1182/blood-2020-139382",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4654",
-    "start_url_page_num": 4654,
-    "is_scraped": "1",
-    "article_title": "RNA Seq Profiles and Bioinformatics Validation in a Large Sample of Sickle Cell Disease Patients ",
-    "article_date": "November 5, 2020",
-    "session_type": "113.Hemoglobinopathies, Excluding Thalassemia-New Genetic Approaches to Sickle Cell Disease",
-    "topics": null,
-    "author_names": [
-        "Jen Judy, PhDMS",
-        "Xunde Wang, PhD",
-        "Fayaz Seifuddin, PhD",
-        "Laxminath Tumburu, PhD",
-        "Mehdi Pirooznia, MD PhD",
-        "Swee Lay Thein, DSc, FRCP, MBBS, MRCP"
-    ],
-    "author_affiliations": [
-        [
-            "National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD"
-        ],
-        [
-            "Sickle Cell Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD"
-        ],
-        [
-            "Bioinformatics and Computational Biology Laboratory, National Heart Lung and Blood Institute, National Institutes of Health, Bethesda, MD"
-        ],
-        [
-            "Sickle Cell Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD"
-        ],
-        [
-            "Bioinformatics and Computational Biology Laboratory, National Heart Lung and Blood Institute, National Institutes of Health, Bethesda, MD"
-        ],
-        [
-            "Sickle Cell Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD"
-        ]
-    ],
-    "first_author_latitude": "39.0035707",
-    "first_author_longitude": "-77.1013313",
-    "abstract_text": "Background Sickle Cell Disease (SCD) is a genetic disorder caused by a single amino acid substitution in the \u00df-hemoglobin chain. Clinical manifestations of SCD are multisystemic and heterogeneous, with a wide range of organ damage between patients despite identical genetic mutations. The sub-phenotypes of SCD reflect damage to different organs arising from the pathophysiology of the disease. Biomarkers, such as N-terminal-pro-Brain natriuretic peptide (NT-proBNP), tricuspid regurgitant velocity (TRV), and hemolytic parameters provide readouts of the degree of different organ damage and are known risk markers. Dissecting its pathophysiology along known biological pathways has led to development of therapeutic targets, but we still do not fully understand the pathogenesis for much of the organ damage. Given the complexity of the pathophysiology of SCD that is likely to involve multiple overlapping and interacting biological pathways, an agnostic, network-based approach using gene expression data with annotated risk markers provides an attractive alternative. We assessed the plausibility of using such an approach with bilirubin levels as a phenotype. Bilirubin is a breakdown product of red blood cells (RBCs) that is measured in routine labs and a validated hemolytic and disease severity marker of SCD. Methods Using RNA-Seq data from 224 patients with SCD (80% HbSS and HbSBeta0 thalassemia combined, 15% HbSC, 5% HbSBeta+ thalassemia, and 0.4% HbSD), we performed a differential gene expression (DGE) analysis and weighted gene co-expression network analysis (WGCNA) of 12,450 genes. For the DGE analysis we used total bilirubin levels as a continuous variable for the main phenotype of interest, adjusting for age, sex, and hemoglobin genotype. We then conducted WGCNA to identify modules of genes with similar coexpression patterns, which we functionally annotated (via the ClusterProfiler R package) for interesting biological themes. Results Of the 12,450 genes, 10,604 were protein coding, and 1,560 were lncRNAs, and 286 were other non-coding transcripts. 3,509 (2,975 coding, 447 lncRNA, and 87 other non-coding) were considered differentially expressed (unadjusted p-value < 0.05) according to bilirubin level. Through the WCGNA, the genes clustered into 11 co-expression modules, representing a range of biological pathways. Four of these modules had representative eigengenes that were significantly correlated with bilirubin (p < 0.05), and we focused on 2 of these that had biologically interesting functions. The first module of interest (turquoise) consisted of 3,636 genes (3,371 protein-coding and 210 lncRNA) (25% differentially expressed, and 62% upregulated). Genes in this module have been associated with cellular functioning of younger RBCs, validating the presence of the significant Gene Ontology (GO) biological pathways listed in the bar graph (mitochondria gene expression, ribonucleotide processes, etc.), and aligning with expected processes as the young RBCs replace the degraded RBCs that had caused the high bilirubin. Notably, this module contained the biliverdin reductase A (BLVRA) gene (differentially expressed at p < 0.008), which reduces biliverdin to bilirubin. The other highlighted module (red) consisted of 914 genes (846 protein-coding and 57 lncRNA) (42% differentially expressed, and 97% upregulated). Multiple pathways in the red module were related to catabolic processes. As previously stated, bilirubin is the byproduct of hemoprotein catabolism, suggesting an interesting correlation. Additionally, this module contained 2 other pathways associated with porphyrin, which is a component of RBCs that contains the heme group and is involved in heme biosynthesis. Conclusion Taken together, these results provide interesting insights into the biological pathways driving one facet of sickle cell disease's many clinical manifestations. Figure 1 View large Download slide Figure 1 View large Download slide  Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/136/Supplement 1/13/472290/RNA-Seq-Profiles-and-Bioinformatics-Validation-in?searchresult=1",
+    "datetime_link_obtained": "2022-04-30T04:34:01",
+    "is_scraped": "0"
 }
