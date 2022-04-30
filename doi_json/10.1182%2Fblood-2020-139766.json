@@ -1,51 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4547",
+    "start_url_page_num": "4547",
     "doi": "https://doi.org/10.1182/blood-2020-139766",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4492",
-    "start_url_page_num": 4492,
-    "is_scraped": "1",
-    "article_title": "Prognostic Prediction with Static-Dynamic Clinical and Pathological Parameters By Machine Learning Algorithm in Acute Lymphoblastic Leukemia ",
-    "article_date": "November 5, 2020",
-    "session_type": "618.Acute Lymphoblastic Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
-    "topics": null,
-    "author_names": [
-        "Bor-Sheng Ko, MD PhD",
-        "Yu-Fen Wang, MS",
-        "Jeng-Lin Li, BS",
-        "Hsin-An Hou",
-        "Wen-Chien Chou, MD PhD",
-        "Hwei-Fang Tien, MD, PhD",
-        "Ting-Yu Chang, M.S.",
-        "Chi-Chun Lee, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan ",
-            "Department of Hematological Oncology, National Taiwan University Cancer Center, Taipei, Taiwan "
-        ],
-        [
-            "Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan ",
-            "AHEAD Medicine, Berkeley, CA "
-        ],
-        [
-            "Department of Electrical Engineering, National Tsing Hua University, Hsinchu, Taiwan "
-        ],
-        [
-            "National Taiwan University Hospital, Taipei, TWN "
-        ],
-        [
-            "Department of Laboratory Medicine, National Taiwan University Hospital, Taipei, Taiwan"
-        ],
-        [
-            "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
-        ],
-        [
-            "AHEAD Medicine, Berkeley, CA "
-        ],
-        [
-            "Department of Electrical Engineering, National Tsing Hua University, Hsinchu, Taiwan "
-        ]
-    ],
-    "first_author_latitude": "25.0407391",
-    "first_author_longitude": "121.51898630000001",
-    "abstract_text": "Introduction Current risk stratification of Acute Lymphoblastic Leukemia (ALL) approach has significantly improve the outcome for pediatric and adolescent ALL. However, the outcome for adult ALL remains poor. With the emerging technologies that could drastically increase the parameters and scales of clinical data for treatment strategy formulation and more new therapeutic agents approved for ALL treatment, a better integrated and more systematic risk stratification method is needed for ALL. In our study, we propose to use artificial intelligence to develop an integral outcome prediction models that include all clinical exam and treatment history, aiming to further improve current risk stratification strategies. Method Retrospective clinical data of patients with ALL, including demographic (age & gender), laboratory results including complete blood count (CBC), white blood count (WBC), molecular genetics, cytogenetics, flow cytometry (FC) and treatment history at National Taiwan University Hospital were collected. A total of 513 newly diagnosed ALL from 2005 to 2017 were enrolled this study. The median age at diagnosis was 20 years and the median follow up duration was 49.1 months, 78.9% of them achieved complete remission (CR), 27.5% had relapsed, 31.6% had received HSCT (Table 1). In total, 243,464 CBC & WBC records, 32 types of anti-neoplastic medications in L01, L03 and L04 ATC code category with a total of 20,043 medication records from these 513 patients were utilized in developing the ALL outcome prediction model. A vectorized representation that captures the static-dynamic clinical aspects of an ALL patient can be learned directly from the collected data. The representation includes both static personal attributes (demographic, and genetic) and time-varying progression of patient's clinical assessment across time (laboratory results, HSCT, and medication). The time-dependent representation was derived from training a deep network architecture of bi-directional long short-term memory network (BLSTM). By taking 7 days as a time step, the BLSTM took the input of Fisher-vector encoded time series of a patient's CBC and WBC, medication, and HSCT records separately. The last output layer, which summarized the relapse/mortality risk exhibited in the measurements of patient's clinical conditions over time, of each separately-learned BLSTM was used as the encoded dynamic clinical representation. The concatenation of the ALL patient's static features and the time-dependent representations were fed into a deep neural network followed by a support vector machine to carry out the final prediction. The prediction models were conducted in 5-fold cross-validation experiments and further evaluated using metrics of accuracy (ACC). Results The median leukemia free survival and median overall survival of these 513 ALL patients are 29.3 months and 61.9 months respectively. The outcome prediction models developed achieved accuracy of next 3-month relapse, relapse or mortality, and mortality prediction reached 86.2%, 74.9% and 64.3% respectively (Table 2). Conclusions Our team has demonstrated the BLSTM-DNN model's potential that is capable in taking multiple and longitudinal clinical measurements into integrated relapse or mortality prediction in AML in 2018 (ASH 2018 #2811) and we have observed the same potential in ALL relapse and mortality prediction. More external and multi-national center studies are needed to further improve the performance of such integrated outcome prediction models. View large Download slide View large Download slide  Disclosures Ko: Roche: Honoraria."
+    "url": "https://ashpublications.org/blood/article/136/Supplement 1/1/470901/Prognostic-Prediction-with-Static-Dynamic-Clinical?searchresult=1",
+    "datetime_link_obtained": "2022-04-30T07:19:58",
+    "is_scraped": "0"
 }
