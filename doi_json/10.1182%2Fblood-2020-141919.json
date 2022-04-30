@@ -1,57 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4606",
+    "start_url_page_num": "4606",
     "doi": "https://doi.org/10.1182/blood-2020-141919",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4618",
-    "start_url_page_num": 4618,
-    "is_scraped": "1",
-    "article_title": "Bioinformatics Analysis of Differently Expressed Mirnas in CD5 Positive Relapsed and Refractory Diffuse Large B-Cell Lymphoma and Their Potential Theoretical and Clinical Investigations ",
-    "article_date": "November 5, 2020",
-    "session_type": "803.Emerging Diagnostic Tools and Techniques",
-    "topics": null,
-    "author_names": [
-        "Qian Zhang",
-        "Chao Xue",
-        "Xin Wang, MDPhD",
-        "Kang Lu, PhD",
-        "Xueling Ge, PhD",
-        "Xiao Lv, PhD",
-        "Lingyan Zhang, MD",
-        "Hongzhi Xu, MD",
-        "Yujie Jiang, MD"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Ji Nan, China ",
-            "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China "
-        ],
-        [
-            "Hematology, Shandong Provincial Hospital Affiliated to Shandong University, Jinan, China "
-        ],
-        [
-            "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China ",
-            "Hematology, School of Medicine, Shandong University, Jinan, China ",
-            "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong University, Jinan, China"
-        ],
-        [
-            "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong University, Jinan, China"
-        ],
-        [
-            "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong University, Jinan, China"
-        ],
-        [
-            "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong University, Jinan, China"
-        ],
-        [
-            "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China "
-        ],
-        [
-            "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong University, Jinan, China"
-        ],
-        [
-            "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China ",
-            "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong University, Jinan, China"
-        ]
-    ],
-    "first_author_latitude": "36.127652000000005",
-    "first_author_longitude": "117.089918",
-    "abstract_text": "Introduction: CD5-positive diffuse large B-cell lymphoma (CD5+ DLBCL) is characterized by a poor prognosis, poorly respond to the regulatory treatment strategy, and a relatively high incidence of central nervous system (CNS) infiltration. In this study, we aim to identify key differentially expressed miRNAs (DE-miRNAs) and their target genes in the peripheral blood of CD5+ refractory and relapsed (CD5+ R/R DLBCL) patients. The relationship of the DE-miRNAs and the pathogenesis of CD5+ R/R DLBCL will also be analyzed by bioinformatics tools. Methods: Three female patients with confirmed CD5+ R/R DLBCL were enrolled in this study, their age were 38, 62 and 65 years old, respectively. Three healthy female adults aged 42, 55 and 61, respectively were selected as the control group. The peripheral venous blood of them was collected for RNA extraction and standard small RNA sequencing. Differentially expressed miRNAs analysis was performed with R package edgeR. The target genes of DE-miRNAs were predicted by miRNet. A protein protein interaction (PPI) network was established for these target genes through string database. Functional annotation and pathway enrichment analyses for the target genes were performed through DAVID database to identify their potential functions, target genes, and pathways they might be involved in. Results: 1. Scatter plots, Volcano plots and Heat-maps were used to visualize miRNAs of Differentially expressed genes. As shown in Fig. 1, Fig. 2 and Fig. 3 . 2. Fifty-five sequences were significantly upregulated and 23 were significantly downregulated in patients with CD5+ R/R DLBCL.Among the candidate miRNAs, 11 up-regulated genes and 4 down-regulated genes were selected according to the log2FC value. The target genes of 11 potential up-regulated and 4 down-regulated DE-miRNAs were successively predicted by As shown in Table 1 , a total of 439 and 632 predicted targets of the up-regulated and down-regulated DE-miRNAs were identified, respectively. 3. PPI networks of predicted target genes of 11 upregulated DE-miRNAs ( Fig. 4a ) and 4 downregulated DE-miRNAs ( Fig. 4b ) were separately constructed using the STRING database and Cytoscape software. According to a degree, the top 10 hub genes in the networks were screened out and were listed in Table 2 . Six important hub genes were identified, including two target genes predicted by up-regulating DE-miRNAs, namely NRAS and PIK3R1, and four target genes predicted by down-regulating DE-miRNAs, namely EGFR, VEGFA, IGF1 and Grb2. 4. DAVID now provides a comprehensive set of functional annotation tools for investigators to understand biological meaning. GO analysis was divided into three functional groups, including molecular function (MF), biological processes (BP), and cell composition (CC). The top 10 GO terms of targets of up-regulated DE-miRNAs were presented in Fig. 5a-c . The top 10 GO terms of targets of down-regulated DE-miRNAs were shown in Fig. 5d-f . 5. Based on the KEGG database, we analyzed the pathways in which the differentially expressed target genes were involved in. As shown in Fig. 6a- b . The targets of up-regulated DE-miRNAs were enriched in pathways in cancer, oxytocin signaling pathway, ErbB signaling pathway, Rap1 signaling pathway, and proteoglycans in cancer. Whereas the targets of down-regulated DE-miRNAs were enriched in pathways in cancer, Ras signaling pathway, and PI3K-Akt signaling pathway. Conclusions: In this study, we analyzed the differentially expressed miRNAs in CD5+ R/R DLBCL patients, identified their potential functions, target genes, and pathways they might be involved in. This study found that ErbB signaling pathway, Rap1 signaling pathway, Ras signaling pathway and PI3K Akt signaling pathway were the most frequently involved pathways of miRNAs related genes. Target genes including NRAS, PIK3R1, EGFR, VEGFA, IGF1, and Grb2 might have a close relationship in the pathogenesis of CD5+ R/R DLBCL. New targeted drugs related to these pathways and genes may be beneficial to the treatment of CD5+ DLBCL. Our preliminary informatic results might be helpful to deeply understand the pathogenesis and chemotherapy resistance mechanism of CD5+ R/R DLBCL. In the future, we will verify our preliminary informatic results in pathological tissues from patients with CD5+ DLBCL in larger samples. View large Download slide View large Download slide  Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/136/Supplement 1/2/473875/Bioinformatics-Analysis-of-Differently-Expressed?searchresult=1",
+    "datetime_link_obtained": "2022-04-30T09:41:37",
+    "is_scraped": "0"
 }
