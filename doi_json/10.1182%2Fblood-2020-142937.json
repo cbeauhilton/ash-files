@@ -1,59 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4520",
+    "start_url_page_num": "4520",
     "doi": "https://doi.org/10.1182/blood-2020-142937",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4517",
-    "start_url_page_num": 4517,
-    "is_scraped": "1",
-    "article_title": "Single-Cell RNA Sequencing Identifies Expression Patterns Associated with Clinical Responses to Dual-Targeted CAR-T Cell Therapy ",
-    "article_date": "November 5, 2020",
-    "session_type": "704.Immunotherapies",
-    "topics": null,
-    "author_names": [
-        "Tyce Kearl, MD PhD",
-        "Ao Mei",
-        "Ryan Brown",
-        "Bryon Johnson, PhD",
-        "Dina Schneider, PhD",
-        "Boro Dropulic, PhDMBA",
-        "Parameswaran Hari, MD MRCP",
-        "Nirav N. Shah, MD",
-        "Subramaniam Malarkannan, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Division of Hematology, Oncology and Bone Marrow Transplantation, Department of Pediatrics, Medical College of Wisconsin, Milwaukee, WI ",
-            "Blood Research Institute, Versiti, Milwaukee, WI "
-        ],
-        [
-            "Department of Microbiology and Immunology, Medical College of Wisconsin, Milwaukee, WI "
-        ],
-        [
-            "Medical Scientist Training Program, Medical College of Wisconsin, Milwaukee, WI "
-        ],
-        [
-            "Division of Hematology, Oncology and Bone Marrow Transplantation, Department of Pediatrics, Medical College of Wisconsin, Milwaukee, WI ",
-            "Department of Microbiology and Immunology, Medical College of Wisconsin, Milwaukee, WI ",
-            "Division of Hematology and Oncology, Department of Medicine, Medical College of Wisconsin, Milwaukee, WI "
-        ],
-        [
-            "Lentigen Technology, Inc., a Miltenyi Biotec Company, Gaithersburg, MD"
-        ],
-        [
-            "Lentigen Technology, Inc., a Miltenyi Biotec Company, Gaithersburg, MD"
-        ],
-        [
-            "Division of Hematology and Oncology, Department of Medicine, Medical College of Wisconsin, Milwaukee, WI "
-        ],
-        [
-            "Division of Hematology and Oncology, Department of Medicine, Medical College of Wisconsin, Milwaukee, WI "
-        ],
-        [
-            "Division of Hematology, Oncology and Bone Marrow Transplantation, Department of Pediatrics, Medical College of Wisconsin, Milwaukee, WI ",
-            "Blood Research Institute, Versiti, Milwaukee, WI ",
-            "Department of Microbiology and Immunology, Medical College of Wisconsin, Milwaukee, WI ",
-            "Division of Hematology and Oncology, Department of Medicine, Medical College of Wisconsin, Milwaukee, WI "
-        ]
-    ],
-    "first_author_latitude": "43.0435728",
-    "first_author_longitude": "-88.02116509999999",
-    "abstract_text": "INTRODUCTION: Chimeric Antigen Receptor (CAR)-T cell therapy is emerging as a powerful treatment for relapsed or refractory B cell lymphomas. However, a variety of escape mechanisms prevent CAR-T cell therapy from being more uniformly effective. To better understand mechanisms of CAR-T failure among patients treated with dual-targeted CAR-T cells, we performed single-cell RNA sequencing of samples from a Phase 1 trial (NCT03019055). The clinical trial used anti-CD20, anti-CD19 CAR-T cells for the treatment of relapsed/refractory B-cell non-Hodgkin Lymphoma. Clinical responses from this study are reported independently (Shah et al. in press in Nat Med ). While robust clinical responses occurred, not all patients had similar outcomes. In single-antigen specific CAR-T cells, mechanisms of resistance include antigen down-regulation, phenotype switch, or PD-1 inhibition (Song et al. Int J Mol Sci 2019). However, very little is understood about the mechanisms of failure that are specific to dual-targeted CAR-T cells. Interestingly, loss of CD19 antigen was not observed in treatment failures in the study. METHODS: De-identified patient samples were obtained as peripheral blood mononuclear cells on the day of harvest (\"pre\" samples), at the peak of in vivo CAR-T cell expansion which varied from day 10 to day 21 after infusion (\"peak\" samples), and on day 28 post-infusion (\"d28\" samples). The CAR-T cell infusion product was obtained on day 14 of on-site manufacturing (\"product\" samples). All samples were cryopreserved and single cell preparation was performed with batched samples using 10X Genomics kits. Subsequent analysis was performed in R studio using the Seurat package (Butler et al. Nat Biotech 2018) with SingleR being used to identify cell types in an unbiased manner (Aran et al. Nat Immunol 2019). RESULTS: We found that distinct T cell clusters were similarly represented in the responder and non-responder samples. The patients' clinical responses did not depend on the level of CAR expression or the percentage of CAR + cells in the infusion product. At day 28, however, there was a considerable decrease in the percentage of CAR + cells in the responder samples possibly due to contracture of the CAR + T cell compartment after successful clearance of antigen-positive cells. In all samples, the CAR-T cell population shifted from a CD4+ to a CD8+ T cell predominant population after infusion. We performed differentially-expressed gene analyses (DEG) of the total and CAR-T cells. In the pre samples, genes associated with T-cell stimulation and cell-mediated cytotoxicity were highly expressed in the responder samples. Since the responders had an effective anti-tumor response, we expected these pathways to also be enriched for in the peak samples; however, this was not the case. We hypothesize that differential expression of the above genes was masked due to homeostatic expansion of the T cells following conditioning chemotherapy. Based on the DEG results, we next interrogated specific genes associated with cytotoxicity, T cell co-stimulation, and checkpoint protein inhibition. Cytotoxicity-associated genes were highly expressed among responder CD8+ T cells in the pre samples, but not in the other samples (Figure 1). Few differences were seen in specific co-stimulatory and checkpoint inhibitor genes at any timepoint in the T cell clusters. We performed gene set enrichment analyses (GSEA). Gene sets representing TCR, IFN-gamma, and PD-1 signaling were significantly increased in the pre samples of the responders but not at later time points or in the infusion products. DISCUSSION: We found a correlation between expression of genes associated with T cell stimulation and cytotoxicity in pre-treatment patient samples and subsequent response to CAR-T cell therapy. This demonstrates that the existing transcriptome of T cells prior to CAR transduction critically shapes anti-tumor responses. Further work will discover biomarkers that can be used to select patients expected to have better clinical outcomes. Figure 1 View large Download slide Figure 1 View large Download slide  Disclosures Johnson: Miltenyi Biotec: Research Funding; Cell Vault: Research Funding. Schneider: Lentigen, a Miltenyi Biotec Company: Current Employment, Patents & Royalties. Dropulic: Lentigen, a Miltenyi Biotec Company: Current Employment, Patents & Royalties: CAR-T immunotherapy. Hari: BMS: Consultancy; Amgen: Consultancy; GSK: Consultancy; Janssen: Consultancy; Incyte Corporation: Consultancy; Takeda: Consultancy. Shah: Incyte: Consultancy; Cell Vault: Research Funding; Lily: Consultancy, Honoraria; Kite Pharma: Consultancy, Honoraria; Verastim: Consultancy; TG Therapeutics: Consultancy; Celgene: Consultancy, Honoraria; Miltenyi Biotec: Honoraria, Research Funding."
+    "url": "https://ashpublications.org/blood/article/136/Supplement 1/33/470493/Single-Cell-RNA-Sequencing-Identifies-Expression?searchresult=1",
+    "datetime_link_obtained": "2022-04-30T06:25:16",
+    "is_scraped": "0"
 }
