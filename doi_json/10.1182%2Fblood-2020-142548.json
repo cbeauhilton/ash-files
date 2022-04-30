@@ -1,74 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4466",
+    "start_url_page_num": "4466",
     "doi": "https://doi.org/10.1182/blood-2020-142548",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4470",
-    "start_url_page_num": 4470,
-    "is_scraped": "1",
-    "article_title": "Computer Vision and Deep Learning Assisted Microchip Electrophoresis for Integrated Anemia and Sickle Cell Disease Screening ",
-    "article_date": "November 5, 2020",
-    "session_type": "803.Emerging Diagnostic Tools and Techniques",
-    "topics": null,
-    "author_names": [
-        "Ran An, PhD",
-        "Yuncheng Man",
-        "Shamreen Iram",
-        "Erdem Kucukal, PhD",
-        "Muhammad Noman Hasan, PhD",
-        "Ambar Solis-Fuentes",
-        "Allison Bode",
-        "Ailis Hill",
-        "Kevin Cheng",
-        "Yuning Huang",
-        "Sanjay Ahuja, MD",
-        "Jane A. Little, MD",
-        "Michael Hinczewski, PhD",
-        "Umut A. Gurkan, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Case Western Reserve University, Cleveland, OH "
-        ],
-        [
-            "Case Western Reserve University, Cleveland, OH "
-        ],
-        [
-            "Case Western Reserve University, Cleveland, OH "
-        ],
-        [
-            "Case Western Reserve University, Cleveland, OH "
-        ],
-        [
-            "Case Western Reserve University, Cleveland, OH "
-        ],
-        [
-            "Case Western Reserve University, Cleveland, OH "
-        ],
-        [
-            "Case Western Reserve University, Cleveland, OH "
-        ],
-        [
-            "Case Western Reserve University, Cleveland, OH "
-        ],
-        [
-            "Case Western Reserve University, Cleveland, OH "
-        ],
-        [
-            "Case Western Reserve University, Cleveland, OH "
-        ],
-        [
-            "Case Western Reserve University, Cleveland, OH ",
-            "University Hospitals Rainbow Babies & Children's Hospital, Cleveland, OH "
-        ],
-        [
-            "University of North Carolina at Chapel Hill, Chapel Hill, NC "
-        ],
-        [
-            "Case Western Reserve University, Cleveland, OH "
-        ],
-        [
-            "Case Western Reserve University, Cleveland, OH "
-        ]
-    ],
-    "first_author_latitude": "41.5043413",
-    "first_author_longitude": "-81.6083838",
-    "abstract_text": "Introduction: Anemia affects a third of the world's population with the heaviest burden borne by women and children. Anemia leads to preventable impaired development in children, as well as high morbidity and early mortality among sufferers. Inherited hemoglobin (Hb) disorders, such as sickle cell disease (SCD), are associated with chronic hemolytic anemia causing high morbidity and mortality. Anemia and SCD are inherently associated and are both prevalent in the same regions of the world including sub-Saharan Africa, India, and south-east Asia. Anemia and SCD-related complications can be mitigated by screening, early diagnosis followed by timely intervention. Anemia treatment depends on the accurate characterization of the cause, such as inherited Hb disorders. Meanwhile, Hb disorders or SCD treatments, such as hydroxyurea therapy, requires close monitoring of blood Hb level and the patient's anemia status over time. As a result, it is crucially important to perform integrated detection and monitoring of blood Hb level, anemia status, and Hb variants, especially in areas where anemia and inherited Hb disorders are the most prevalent. Blood Hb level (in g/dL) is used as the main indicator of anemia, while the presence of Hb variants (e.g., sickle Hb or HbS) in blood is the primary indicator of an inherited disorder. The current clinical standards for anemia testing and Hb variant identification are complete blood count (CBC) and High-Performance Liquid Chromatography (HPLC), respectively. State-of-the-art laboratory infrastructure and trained personnel are required for these laboratory tests. However, these resources are typically scarce in low- and middle-income countries, where anemia and Hb disorders are the most prevalent. As a result, there is a dire need for high accuracy portable point-of-care (POC) devices to perform integrated anemia and Hb variant tests with affordable cost and high throughput. Methods: In 2019, the World Health Organization (WHO) listed Hb electrophoresis as an essential in vitro diagnostic (IVD) technology for diagnosing SCD and sickle cell trait. We have leveraged the common Hb electrophoresis method and developed a POC microchip electrophoresis test, Hemoglobin Variant/Anemia (HbVA). This technology is being commercialized under the product name \"Gazelle\" by Hemex Health Inc. for Hb variant identification with integrated anemia detection ( Fig. 1A&B ). We hypothesized that computer vision and deep learning will enhance the accuracy and reproducibility of blood Hb level prediction and anemia detection in cellulose acetate based Hb electrophoresis, which is a clinical standard test for Hb variant screening and diagnosis worldwide ( Fig. 1C ). To test this hypothesis, we integrated, for the first time, a new, computer vision and artificial neural network (ANN) based deep learning imaging and data analysis algorithm, to Hb electrophoresis. Here, we show the feasibility of this new, computer vision and deep learning enabled diagnostic approach via testing of 46 subjects, including individuals with anemia and homozygous (HbSS) or heterozygous (HbSC or S\u03b2-thalassemia) SCD. Results and Discussion: HbVA computer vision tracked the electrophoresis process real-time and the deep learning neural network algorithm determined Hb levels which demonstrated significant correlation with a Pearson Correlation Coefficient of 0.95 compared to the results of reference standard CBC ( Fig.1D ). Furthermore, HbVA demonstrated high reproducibly with a mean absolute error of 0.55 g/dL and a bias of -0.10 g/dL (95% limits of agreement: 1.5 g/dL) according to Bland-Altman analysis ( Fig. 1E ). Anemia determination was achieved with 100% sensitivity and 92.3% specificity with a receiver operating characteristic area under the curve (AUC) of 0.99 ( Fig. 1F ). Within the same test, subjects with SCD were identified with 100% sensitivity and specificity ( Fig. 1G ). Overall, the results suggested that computer vision and deep learning methods can be used to extract new information from Hb electrophoresis, enabling, for the first time, reproducible, accurate, and integrated blood Hb level prediction, anemia detection, and Hb variant identification in a single affordable test at the POC. View large Download slide View large Download slide  Disclosures An: Hemex Health, Inc.: Patents & Royalties. Hasan: Hemex Health, Inc.: Patents & Royalties. Ahuja: Genentech: Consultancy; Sanofi-Genzyme: Consultancy; XaTec Inc.: Consultancy; XaTec Inc.: Research Funding; XaTec Inc.: Divested equity in a private or publicly-traded company in the past 24 months; Genentech: Honoraria; Sanofi-Genzyme: Honoraria. Little: GBT: Research Funding; Bluebird Bio: Research Funding; BioChip Labs: Patents & Royalties: SCD Biochip (patent, no royalties); Hemex Health, Inc.: Patents & Royalties: Microfluidic electropheresis (patent, no royalties); NHLBI: Research Funding; GBT: Membership on an entity's Board of Directors or advisory committees. Gurkan: Hemex Health, Inc.: Consultancy, Current Employment, Patents & Royalties, Research Funding; BioChip Labs: Patents & Royalties; Xatek Inc.: Patents & Royalties; Dx Now Inc.: Patents & Royalties."
+    "url": "https://ashpublications.org/blood/article/136/Supplement 1/46/470148/Computer-Vision-and-Deep-Learning-Assisted?searchresult=1",
+    "datetime_link_obtained": "2022-04-30T03:58:53",
+    "is_scraped": "0"
 }

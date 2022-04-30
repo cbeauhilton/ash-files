@@ -1,53 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4467",
+    "start_url_page_num": "4467",
     "doi": "https://doi.org/10.1182/blood-2020-138645",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4595",
-    "start_url_page_num": 4595,
-    "is_scraped": "1",
-    "article_title": "Gene Expression and Epigenetic Analysis in Relapsed/Refractory Diffuse Large B Cell Lymphoma Provides Insights into Evolution of Treatment Resistance to R-CHOP ",
-    "article_date": "November 5, 2020",
-    "session_type": "621.Lymphoma-Genetic/Epigenetic Biology",
-    "topics": null,
-    "author_names": [
-        "Manishkumar S. Patel, PhDMS,BPharm",
-        "Ellen K. Kendall, BA",
-        "Sarah Ondrejka, DO",
-        "Agrima Mian, MBBS, MD",
-        "Yazeed Sawalha, MD",
-        "Bo Hu, PhD",
-        "Eric D. Hsi, MD",
-        "Brian T. Hill, MD",
-        "Neetu Gupta, PhD MSc, BSc"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Inflammation and Immunity, Cleveland Clinic, Cleveland, OH "
-        ],
-        [
-            "Department of Inflammation and Immunity, Cleveland Clinic, Cleveland, OH "
-        ],
-        [
-            "Department of Laboratory Medicine, Cleveland Clinic, Cleveland, OH "
-        ],
-        [
-            "Department of Hematology and Medical Oncology, Cleveland Clinic, Cleveland, OH "
-        ],
-        [
-            "Department of Internal Medicine, Division of Hematology, The Ohio State University, Columbus, OH "
-        ],
-        [
-            "Department of Quantitative Health Sciences, Cleveland Clinic, Cleveland, OH "
-        ],
-        [
-            "Department of Laboratory Medicine, Cleveland Clinic Foundation, Cleveland, OH"
-        ],
-        [
-            "Department of Hematology and Medical Oncology, Cleveland Clinic, Cleveland, OH "
-        ],
-        [
-            "Department of Inflammation and Immunity, Cleveland Clinic, Cleveland, OH "
-        ]
-    ],
-    "first_author_latitude": "41.4599625",
-    "first_author_longitude": "-81.69482104999999",
-    "abstract_text": "Background Diffuse large B cell lymphoma (DLBCL) is curable in ~60-70% of patients using standard chemoimmunotherapy, but the prognosis is poor for relapsed/refractory (R/R) DLBCL. Therefore, understanding the underlying molecular mechanisms will facilitate early prediction and effective management of resistance to therapy. Recent studies of paired diagnostic-relapse biopsies from patients have relied on a single \"omics\" approach, examining either gene expression or epigenetic evolution. Here we present a combined analysis of gene expression and DNA methylation profiles of paired diagnostic-relapse DLBCL biopsies to identify changes responsible for relapse after R-CHOP. Methods Biopsies from 23 DLBCL patients were obtained at the time of diagnosis and relapse following frontline R-CHOP chemoimmunotherapy. The cohort had 18 (78.3%) male patients with median age of 62 (range, 35-86) years and median IPI of 2.5 (range, 1-5). The median time from diagnosis to relapse was 7 (range, 0-57) months. DNA and RNA were extracted simultaneously from formalin-fixed paraffin embedded (FFPE) biopsy samples. DNA methylation levels were measured through Illumina 850k Methylation Array for 22 pairs of diagnostic-relapse biopsies. RNA from diagnostic-relapse paired biopsies from 6 patients was sequenced using Illumina HiSeq4000. Differentially methylated probes were identified using the DMRcate package, and differentially expressed genes were identified using the DESeq2 package. Gene set enrichment analysis was performed using canonical pathway gene sets from MSigDB. Pearson's correlation with a Bonferroni correction to the p-value was used to calculate the correlation between regularized log transformed gene expression counts and methylation beta values. Results In a pairwise comparison of gene expression between diagnostic and R/R biopsy pairs, we found 14 differentially expressed genes (FDR|1|) consistent across all pairs. Compared to gene expression at diagnosis, five genes ( CYP1B1 , LGR4 , ATXN1 , CTSC , ZMAT3 ) were downregulated, and eight genes ( ERBB3 , CD19 , CARD11 , MT-RNR2 , IGHG3 , CCDC88C , ATP2A3 , CENPE , and PCNT ) were up-regulated in the R/R samples. Many of these genes have been previously implicated in oncogenesis, such as ERBB3 , a member of the epidermal growth receptor family. Importantly, some of these genes have known roles in DLBCL biology, such as CD19 , a member of the B-cell receptor complex, and CARD11 , a gene in which several oncogenic mutations have been identified in DLBCL as a mediator of NF-KB activation. Gene set enrichment analysis revealed overexpression of immune signatures such as cytokine-cytokine receptor interaction, chemokine receptor-chemokine binding, and the IL-12-STAT4 pathway at diagnosis. At relapse, cell cycle, B-cell receptor, and NOTCH signaling pathways were overexpressed. Interestingly, in a pairwise comparison of methylation between diagnostic and R/R biopsy pairs, there were no differentially methylated probes (FDR<0.05), suggesting no coordinated epigenetic evolution between diagnostic and R/R pairs. For biopsy pairs that had both gene expression and methylation data (5 pairs), we correlated gene expression and methylation values. We found that none of the differentially expressed genes between the diagnostic and R/R biopsies were significantly correlated with methylation status (adjusted p-value<0.05). Conclusions By analyzing paired diagnostic and relapse DLBCL biopsies, we found that at the time of relapse, there are significant transcriptomic changes but no significant epigenetic changes when compared to diagnostic biopsies. Activation of B-cell receptor and NOTCH signaling, as well as the loss of immune signaling at relapse, cannot be attributed to coordinated epigenetic changes in methylation. As the epigenetic profile of the biopsies did not consistently evolve, these data emphasize the need for better understanding of the baseline methylation profiles at the time of diagnosis, as well as acquired somatic mutations that may contribute to the emergence of therapeutic resistance. Future studies are needed to focus on how activation of signaling pathways triggered by genomic alterations can be targeted in relapsed/refractory DLBCL. Disclosures Hsi: Seattle Genetics: Consultancy, Honoraria; Miltenyi: Consultancy, Honoraria; Abbvie: Research Funding; Eli Lilly: Research Funding; CytomX: Consultancy, Honoraria. Hill: Takeda: Research Funding; Genentech: Consultancy, Honoraria, Research Funding; Karyopharm: Consultancy, Honoraria, Research Funding; Celgene: Consultancy, Honoraria, Research Funding; Abbvie: Consultancy, Honoraria, Research Funding; Pharmacyclics: Consultancy, Honoraria, Research Funding; Beigene: Consultancy, Honoraria, Research Funding; AstraZenica: Consultancy, Honoraria, Research Funding; Kite, a Gilead Company: Consultancy, Honoraria, Research Funding; Novartis: Consultancy, Honoraria; BMS: Consultancy, Honoraria, Research Funding."
+    "url": "https://ashpublications.org/blood/article/136/Supplement 1/26/471668/Gene-Expression-and-Epigenetic-Analysis-in?searchresult=1",
+    "datetime_link_obtained": "2022-04-30T03:58:55",
+    "is_scraped": "0"
 }

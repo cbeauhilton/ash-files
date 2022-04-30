@@ -1,67 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4472",
+    "start_url_page_num": "4472",
     "doi": "https://doi.org/10.1182/blood-2020-137281",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4501",
-    "start_url_page_num": 4501,
-    "is_scraped": "1",
-    "article_title": "Copy Number Signatures Predict Chromothripsis and Poor Clinical Outcome in Newly Diagnosed Multiple Myeloma Patients ",
-    "article_date": "November 5, 2020",
-    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
-    "topics": null,
-    "author_names": [
-        "Kylee H Maclachlan, MBChB, PhD",
-        "Binbin Zheng-Lin, MDMSc",
-        "Venkata Yellapantula, PhD",
-        "Andriy Derkach, PhD",
-        "Even H Rustad, MD PhD",
-        "Benjamin Diamond, MD",
-        "Malin Hultcrantz, MD PhD",
-        "Ahmet Dogan, MD PhD",
-        "Yanming Zhang, MD",
-        "Gareth Morgan, MD PhD",
-        "Ola Landgren, MD PhD",
-        "Francesco Maura, MD"
-    ],
-    "author_affiliations": [
-        [
-            "Myeloma Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY "
-        ],
-        [
-            "Memorial Sloan Kettering Cancer Center, New York, NY "
-        ],
-        [
-            "Myeloma Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY "
-        ],
-        [
-            "Department of Biostatistics and Epidemiology, Memorial Sloan Kettering Cancer Center, New York, NY "
-        ],
-        [
-            "Myeloma Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY "
-        ],
-        [
-            "Myeloma Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY "
-        ],
-        [
-            "Myeloma Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY "
-        ],
-        [
-            "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY "
-        ],
-        [
-            "Cytogenetics Laboratory, Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY "
-        ],
-        [
-            "Perlmutter Cancer Center, New York University Langone Health, New York, NY "
-        ],
-        [
-            "Myeloma Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY ",
-            "Weill Cornell Medical College, New York, NY"
-        ],
-        [
-            "Myeloma Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY ",
-            "Weill Cornell Medical College, New York, NY"
-        ]
-    ],
-    "first_author_latitude": "40.7640831",
-    "first_author_longitude": "-73.9560269",
-    "abstract_text": "Chromothripsis is emerging as a strong and independent prognostic factor in multiple myeloma (MM), predicting shorter progression-free (PFS) and overall survival (Rustad BioRxiv 2019). Reliable detection requires whole genome sequencing (WGS), with 24% prevalence in 752 newly diagnosed multiple myeloma (NDMM) from CoMMpass (NCT01454297, Rustad BioRxiv 2019) compared with 1.3% by array-based techniques (Magrangeas Blood 2011). In MM, chromothripsis presents differently to solid cancers. Although the biological impact is similar across malignancies, in MM the structural complexity of chromothriptic events is typically lower. In addition, chromothripsis can occur early in MM development and remain stable over time (Maura Nat Comm 2019). Computational algorithms for chromothripsis detection (e.g. ShatterSeek ; Cortes-Ciriano Nat Gen 2018) were developed in solid cancers and are accurate in that setting. Running ShatterSeek on 752 NDMM patients with low coverage WGS from CoMMpass, we observed a high specificity for chromothripsis (98.3%) but poor sensitivity (30.2%). ShatterSeek detected chromothripsis in 64/752 samples (8.5%), with 85% confirmed on manual curation; however, missed 114 cases located by manual curation. This indicates that MM-specific computational methods are required. We hypothesized that a signature analysis approach using copy number variation (CNV) may provide an accurate estimation of chromothripsis. We adapted CNV signature analysis, developed in ovarian cancer (Macintyre Nat Gen 2018), to now detect MM-specific CNV and structural features. The analysis utilizes 6 fundamental CN features: i) absolute CN of segments, ii) difference in CN in adjacent segments, iii) breakpoints per 10 Mb, iv) breakpoints per chromosome arm, v) lengths of oscillating CN segment chains, and vi) the size of segments. The optimal number of categories in each CNV feature was established using a mixed effect model ( mclust R package). Using CoMMpass low-coverage WGS, de novo extraction using the hierarchical dirichlet process defined 5 signatures, 2 of which (CNV-SIG 4 and CNV-SIG 5) contain features associated with chromothripsis: longer lengths of oscillating CN states, higher numbers of breakpoints / chromosome arm, and higher total numbers of small segments of CN change. Next, we demonstrate that CNV signatures are highly predictive of chromothripsis (average area-under-the-curve /AUC = 0.9, based on 10-fold cross validation). Chromothripsis-associated CNV signatures are correlated with biallelic TP53 inactivation (p= 0.01) and gain1q21 (p<0.001) and show negative association with t(11;14) (p<0.001). Chromothriptic signatures were associated with shorter PFS, with multivariate analysis after correction for ISS, age, biallelic TP53 inactivation, t(4;14) and gain1q21 producing a hazard ratio of 2.9 (95% CI 1.07-7.7, p = 0.036). A validation set of 29 NDMM WGS confirmed the ability of CNV signatures to predict chromothripsis (AUC 0.87). As WGS is currently too expensive and computationally intensive to employ in routine practice, we investigated if CNV signatures can predict chromothripsis without using WGS. First, we performed de novo signature extraction using whole exome data from 865 CoMMpass samples. CNV signatures extracted without reference to WGS produced an AUC = 0.81 for predicting chromothripsis (in those with WGS to confirm; n =752), and the chromothriptic-signatures confirmed the association with a shorter PFS (HR=7.2, 95%CI 1.32-39.4, p = 0.022). Second, we applied CNV signature analysis to NDMM having either the myTYPE targeted sequencing panel (n= 113; Yellapantula, Blood Can J 2019) or a single nucleotide polymorphism (SNP) array (n= 217). CNV signature assessment by each technology was predictive of clinical outcome, likely due to the detection of chromothripsis. As with WGS, multivariate analysis confirmed CNV signatures to be independently prognostic (myTYPE; p = 0.003, SNP; p = 0.004). Overall, we demonstrate that CNV signature analysis in NDMM provides a highly accurate prediction of chromothripsis. CNV signature assessment remains reliable by multiple surrogate measures, without requiring WGS. Chromothripsis-associated CNV signatures are an independent and adverse prognostic factor, potentially allowing refinement of standard prognostic scores for NDMM patients and providing a more accurate risk stratification for clinical trials. Disclosures Hultcrantz: Amgen: Research Funding; Daiichi Sankyo: Research Funding; GSK: Research Funding; Intellisphere LLC: Consultancy. Dogan: Takeda: Consultancy; National Cancer Institute: Research Funding; Roche: Consultancy, Research Funding; Seattle Genetics: Consultancy; AbbVie: Consultancy; EUSA Pharma: Consultancy; Physicians Education Resource: Consultancy; Corvus Pharmaceuticals: Consultancy. Morgan: Bristol-Myers Squibb: Consultancy, Honoraria; Janssen: Research Funding; Karyopharm: Consultancy, Honoraria; Amgen: Consultancy, Honoraria; Takeda: Consultancy, Honoraria; Celgene: Consultancy, Honoraria, Research Funding; Roche: Consultancy, Honoraria; GSK: Consultancy, Honoraria. Landgren: Cellectis: Consultancy, Honoraria; Takeda: Other: Independent Data Monitoring Committees for clinical trials, Research Funding; BMS: Consultancy, Honoraria; Adaptive: Consultancy, Honoraria; Takeda: Other: Independent Data Monitoring Committees for clinical trials, Research Funding; Glenmark: Consultancy, Honoraria, Research Funding; Seattle Genetics: Research Funding; Binding Site: Consultancy, Honoraria; Karyopharma: Research Funding; Merck: Other; BMS: Consultancy, Honoraria; Karyopharma: Research Funding; Merck: Other; Pfizer: Consultancy, Honoraria; Celgene: Consultancy, Honoraria, Research Funding; Seattle Genetics: Research Funding; Juno: Consultancy, Honoraria; Juno: Consultancy, Honoraria; Janssen: Consultancy, Honoraria, Other: Independent Data Monitoring Committees for clinical trials, Research Funding; Celgene: Consultancy, Honoraria, Research Funding; Janssen: Consultancy, Honoraria, Other: Independent Data Monitoring Committees for clinical trials, Research Funding; Pfizer: Consultancy, Honoraria; Amgen: Consultancy, Honoraria, Research Funding; Cellectis: Consultancy, Honoraria; Glenmark: Consultancy, Honoraria, Research Funding; Binding Site: Consultancy, Honoraria."
+    "url": "https://ashpublications.org/blood/article/136/Supplement 1/52/471067/Copy-Number-Signatures-Predict-Chromothripsis-and?searchresult=1",
+    "datetime_link_obtained": "2022-04-30T03:59:15",
+    "is_scraped": "0"
 }

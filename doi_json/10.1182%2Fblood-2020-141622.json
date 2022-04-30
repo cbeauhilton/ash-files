@@ -1,45 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4462",
+    "start_url_page_num": "4462",
     "doi": "https://doi.org/10.1182/blood-2020-141622",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4541",
-    "start_url_page_num": 4541,
-    "is_scraped": "1",
-    "article_title": "Analysis of Multiplexed Single Cell RNA Sequencing Clinical Correlative Data in AML Reveals Biomarkers of Resistance ",
-    "article_date": "November 5, 2020",
-    "session_type": "617.Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
-    "topics": null,
-    "author_names": [
-        "Charalambos Andreadis, MD",
-        "Tommy Jiang",
-        "Victoria Wang",
-        "Ravi Patel, PhD",
-        "Arjun Rao, PhD",
-        "Chun Jimmie Ye, PhD",
-        "Bradley W Blaser, MD PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Helen Diller Family Comprehensive Cancer Center, University of California San Francisco, San Francisco, CA "
-        ],
-        [
-            "Helen Diller Family Comprehensive Cancer Center, University of California San Francisco, San Francisco, CA "
-        ],
-        [
-            "University of California (San Francisco), San Francisco, CA "
-        ],
-        [
-            "Data Science CoLab, University of California San Francisco, San Francisco, CA "
-        ],
-        [
-            "Data Science CoLab, University of California San Francisco, San Francisco, CA "
-        ],
-        [
-            "Department of Medicine, Division of Rheumatology, University of California San Francisco, San Francisco, CA "
-        ],
-        [
-            "The Ohio State University Comprehensive Cancer Center and Division of Hematology, Columbus, OH"
-        ]
-    ],
-    "first_author_latitude": "37.77555265",
-    "first_author_longitude": "-122.41483255",
-    "abstract_text": "Single cell RNA sequencing (scRNA-seq) is a powerful method to understand gene expression changes in specific subsets of heterogeneous cell populations and to provide novel insight into mechanisms of drug resistance. However, substantial cost and interpatient variability have limited its application as a correlate for prospective clinical trials. To overcome these challenges, we employed a genetic polymorphism-based multiplexing approach to assay peripheral blood samples prospectively collected from patients with relapsed/refractory AML treated on a Phase 1b study using the anti-hepatocyte growth factor monoclonal antibody, Ficlatuzumab (NCT02109627). Ficlatuzumab was administered on study days 1, 15, 29 and 42-44 in combination with high-dose cytarabine. Peripheral blood was collected from 11 subjects on study days 0, 1, 2, 3 and 42-44. N = 7 subjects achieved a complete response to therapy and N = 4 did not respond to therapy. A peripheral blood sample from a healthy volunteer was collected and processed in parallel. 57 samples were multiplexed into 5 pools of 11 to 12 samples using a Latin square design to maximize genetic diversity within each pool and minimize batch effects. Each pool was assayed in duplicate on a 10X Chromium single cell isolation system using 3'-capture technology, targeting 40,000 cells per replicate pool. After initial bioinformatic processing, 175,667 unique cell barcodes were recovered. Genotype-free demultiplexing was performed using Freemuxlet (https://github.com/yelabucsf/popscle). Single nucleotide variants were annotated within the aligned reads from each pool using the 1000 Genomes variant database. A Bayesian clustering algorithm was applied to assign each cell to a group of cells with like genotype. Reference sample genotypes were determined using the Infinium OmniExpressExome-8 BeadChip (Illumina) and these were used to map each cluster to known subject identity. This approach unambiguously assigned 105,363 cells (60.0%) to single subjects and 60,787 (34.6%) to inter-sample doublets. 103,415 cells were retained after removal of intra-sample doublets and low-quality cells. Dimensionality reduction and clustering identified 3 groups of cells that expressed AML blast markers including CD33, CD34, KIT and HLA-DR. We hypothesized that induction of HGF expression by AML blasts might be a mechanism of resistance to anti-HGF therapy. AML blasts were stratified by treatment day and multivariable regression was performed using cluster assignment as a potential confounder. This showed that non-response to study therapy was independently correlated with higher HGF levels on study D0 (q = 0.008), D1 (q = 0.02), and D42-44 (q = 5x10 -7 ). To identify additional biomarkers of resistance to anti-HGF therapy, we performed unsupervised gene module analysis and found 20 groups of genes that were co-regulated within the dataset. One module was strongly induced in non-responders compared to responders at D0 (q = 0), D1 (q = 1x10 -278 ), and D42-44 (q = 0). This module was highly enriched for genes related to type-1 interferon signaling and antiviral response including IL6, IRF7, IRF2, STAT1, STAT2 and APOBEC3A. Unsupervised hierarchical clustering based on gene module scores segregated non-responders from complete responders and showed that the normal control cells were most similar to complete responders at D42-44. These data suggest that multiplexing using genetic polymorphisms increases the number of scRNA-seq samples it is feasible to analyze in the context of a prospective clinical trial. Gene module analysis is able to identify pathways as potential biomarkers of drug resistance in an unsupervised way. These approaches will aid studies in which interpatient variability is a challenge to interpretation of scRNA-seq data. Disclosures Andreadis: Merck: Research Funding; Gilead/Kite: Consultancy; Karyopharm: Honoraria; Jazz Pharmaceuticals: Honoraria; Novartis: Research Funding; Genentech: Consultancy, Current equity holder in publicly-traded company; BMS/Celgene/Juno: Honoraria, Research Funding; Incyte: Consultancy."
+    "url": "https://ashpublications.org/blood/article/136/Supplement 1/40/471576/Analysis-of-Multiplexed-Single-Cell-RNA-Sequencing?searchresult=1",
+    "datetime_link_obtained": "2022-04-30T03:58:39",
+    "is_scraped": "0"
 }
