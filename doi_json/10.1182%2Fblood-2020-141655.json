@@ -1,81 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4535",
+    "start_url_page_num": "4535",
     "doi": "https://doi.org/10.1182/blood-2020-141655",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4470",
-    "start_url_page_num": 4470,
-    "is_scraped": "1",
-    "article_title": "Profiling T-Cell Receptor Diversity and Dynamics during Lymphoma Immunotherapy Using Cell-Free DNA (cfDNA) ",
-    "article_date": "November 5, 2020",
-    "session_type": "803.Emerging Diagnostic Tools and Techniques",
-    "topics": null,
-    "author_names": [
-        "Navika D Shukla",
-        "Alexander F. M. Craig, MPhil",
-        "Brian Sworder, MD PhD",
-        "David M. Kurtz, MDPhD",
-        "Charles Macaulay, MSc, BA",
-        "Andrea Garofalo, BS, BA",
-        "Matthew J. Frank, MD PhD",
-        "Stefan Alig, MD",
-        "George Duran, BA",
-        "Youn H. Kim, MD",
-        "James Zehnder, MD",
-        "Crystal L. Mackall, MD",
-        "David B. Miklos, MD PhD",
-        "Maximilian Diehn, MD PhD",
-        "Michael S. Khodadoust, MD PhD",
-        "Ash A. Alizadeh, MD PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA "
-        ],
-        [
-            "Department of Medicine, Division of Oncology, Stanford University Medical Center, Stanford, CA "
-        ],
-        [
-            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA "
-        ],
-        [
-            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA "
-        ],
-        [
-            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University Medical Center, Palo Alto, CA "
-        ],
-        [
-            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA "
-        ],
-        [
-            "Division of Blood and Marrow Transplantation, Stanford University, Stanford, CA "
-        ],
-        [
-            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA "
-        ],
-        [
-            "Department of Medicine, Stanford University, Stanford, "
-        ],
-        [
-            "Department of Dermatology, Stanford University School of Medicine, Stanford, CA "
-        ],
-        [
-            "Pathology and Medicine/Hematology, Stanford Univ. Med. Ctr., Stanford, CA "
-        ],
-        [
-            "Department of Pediatrics, Division of Hematology and Oncology, Stanford University, Stanford, CA "
-        ],
-        [
-            "Division of Blood and Marrow Transplantation, Stanford University, Stanford, CA "
-        ],
-        [
-            "Department of Radiation Oncology, Stanford University Medical Center, Stanford, CA "
-        ],
-        [
-            "Department of Medicine, Division of Oncology & Department of Dermatology, Stanford University School of Medicine, Stanford, CA "
-        ],
-        [
-            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University Medical Center, Stanford, CA "
-        ]
-    ],
-    "first_author_latitude": "37.43168125",
-    "first_author_longitude": "-122.17296815000002",
-    "abstract_text": "Background: Characterization of T-cell receptor (TCR) diversity and dynamics is increasingly critical to understanding therapeutic immune responses targeting tumors. Current TCR profiling methods generally require invasive tissue biopsies that capture a single snapshot of immune activity or are limited by the sheer diversity of the circulating TCR repertoire. In theory, T-cells with the greatest turnover could best reflect pivotal immune dynamics from both circulating and tissue-derived compartments, including non-circulating tissue-resident memory T-cells (Trm). To noninvasively capture such responses in the blood, we developed and benchmarked a high-throughput TCR profiling approach using plasma, optimized for the fragmented nature of cfDNA and the non-templated nature of rearranged TCRs. We then applied this method for residual disease monitoring in mature T-cell lymphomas (TCL) without circulating disease and for characterizing immune dynamics after anti-CD19 chimeric antigen receptor (CAR19) T-cell therapy of B-cell lymphomas with axicabtagene ciloleucel. Methods: We developed SABER (Sequence Affinity capture & analysis By Enumeration of cell-free Receptors) as a technique for TCR enrichment and analysis of fragmented rearrangements shed in cfDNA and applied this method using Cancer Personalized Profiling by Deep Sequencing (CAPP-Seq). We used SABER to profile a total of 381 samples (300 cfDNA and 81 PBMC samples) from 75 lymphoma patients and 18 healthy controls. After mapping sequencing reads (hg38) to identify candidate rearrangements within TCR loci, unique cfDNA fragments were resolved by a novel strategy to define consensus of unique molecular identifiers clustered by Levenshtein distances, followed by CDR3-anchoring for enumeration of final receptor clonotypes. SABER thus leverages information from fragmented TCRs, a critical requirement for cfDNA, to make V gene, CDR3, and J gene assignments after deduplication-mediated error-correction. We benchmarked SABER against established amplicon-based TCR-\u03b2 targeted sequencing (LymphoTrack, Invivoscribe) and repertoire analysis methods (MiXCR; Bolotin et al, 2015 Nature Methods) when considering both cfDNA and PBMC samples from healthy adults and TCL patients. We assessed SABER performance for tracking clonal molecular disease in patients with mature TCLs from both cellular and cell-free circulating compartments (n=9). Malignant TCL clonotypes were identified in tumor specimens using clonoSEQ (Adaptive Biotechnologies). Finally, we evaluated TCR repertoire dynamics over time in 66 DLBCL patients after CAR19 T-cell therapy. Results: SABER demonstrated superior recovery of TCR clonotypes from cfDNA compared to both amplicon sequencing (LymphoTrack, Invivoscribe) and hybrid-capture methods when enumerating receptors using MiXCR (Fig. 1A). When applied to blood samples from TCL patients, SABER identified the malignant clonal TCR-\u03b2 rearrangement in 8/9 (88.9%) cases, with significantly improved detection in cfDNA (p=0.015, Fig. 1B). Specifically, tumoral TCR clonotype was detectable only in cfDNA in 6 cases (75%), cfDNA-enriched in 1 case (12.5%), and detectable only in PBMCs in 1 case (12.5%). We applied SABER to monitor TCR repertoire dynamics in cfDNA after CAR T-cell therapy of patients with relapsed/refractory DLBCL and observed increased T-cell turnover and repertoire expansion (greater total TCR-\u03b2 clonotypes) (Fig. 1C). As early as 1-week after CAR19 infusion, TCR repertoire size was significantly correlated both with cellular CAR19 T-cell levels by flow cytometry (p=0.008) as well as with retroviral CAR19 levels in cfDNA (p=2.20e-07) suggesting faithful monitoring of CAR T-cell activity (Fig. 1D). TCR repertoire size one month after infusion was significantly associated with longer progression-free survival (HR 0.246, 95% CI 0.080-0.754, p=0.014). Conclusions: SABER has a favorable profile for cfDNA TCR repertoire capture when compared to existing methods and could thus have potential broad applicability to diverse disease contexts. Given the higher abundance of lymphoma-derived TCRs in cfDNA than intact circulating leukocytes, SABER holds promise for monitoring minimal residual disease in T-cell lymphomas. This approach also holds promise for monitoring T-cell repertoire changes including after CAR T-cell therapy and for predicting therapeutic responses. View large Download slide View large Download slide  Disclosures Kurtz: Genentech: Consultancy; Foresight Diagnostics: Other: Ownership; Roche: Consultancy. Kim: Corvus: Research Funding; Eisai: Membership on an entity's Board of Directors or advisory committees, Research Funding; Elorac: Research Funding; Forty Seven Inc: Research Funding; Galderma: Membership on an entity's Board of Directors or advisory committees, Research Funding; Horizon Pharma: Consultancy, Research Funding; Innate Pharma: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Kyowa-Kirin Pharma: Research Funding; Medivir: Membership on an entity's Board of Directors or advisory committees; Merck: Research Funding; miRagen: Research Funding; Neumedicine: Consultancy, Research Funding; Portola: Research Funding; Seattle Genetics: Membership on an entity's Board of Directors or advisory committees; Solingenix: Research Funding; Takeda: Membership on an entity's Board of Directors or advisory committees, Research Funding; Trillium: Research Funding. Mackall: Lyell Immunopharma: Consultancy, Current equity holder in private company; BMS: Consultancy; Allogene: Current equity holder in publicly-traded company; Apricity Health: Consultancy, Current equity holder in private company; Nektar Therapeutics: Consultancy; NeoImmune Tech: Consultancy. Miklos: Kite-Gilead: Consultancy, Membership on an entity's Board of Directors or advisory committees, Other: Travel support, Research Funding; Adaptive Biotech: Consultancy, Other: Travel support, Research Funding; Juno-Celgene-Bristol-Myers Squibb: Consultancy, Other: Travel support, Research Funding; Novartis: Consultancy, Other: Travel support, Research Funding; Allogene Therapeutics Inc.: Research Funding; Pharmacyclics: Consultancy, Other: Travel support, Patents & Royalties, Research Funding; Janssen: Consultancy, Other: Travel support; Miltenyi Biotec: Research Funding. Diehn: Varian Medical Systems: Research Funding; Illumina: Research Funding; Roche: Consultancy; AstraZeneca: Consultancy; RefleXion: Consultancy; BioNTech: Consultancy. Khodadoust: Seattle Genetics: Consultancy; Kyowa Kirin: Consultancy. Alizadeh: Janssen: Consultancy; Genentech: Consultancy; Pharmacyclics: Consultancy; Chugai: Consultancy; Celgene: Consultancy; Gilead: Consultancy; Roche: Consultancy; Pfizer: Research Funding."
+    "url": "https://ashpublications.org/blood/article/136/Supplement 1/49/470162/Profiling-T-Cell-Receptor-Diversity-and-Dynamics?searchresult=1",
+    "datetime_link_obtained": "2022-04-30T06:49:02",
+    "is_scraped": "0"
 }
