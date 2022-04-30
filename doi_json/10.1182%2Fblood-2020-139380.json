@@ -1,49 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4663",
+    "start_url_page_num": "4663",
     "doi": "https://doi.org/10.1182/blood-2020-139380",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4617",
-    "start_url_page_num": 4617,
-    "is_scraped": "1",
-    "article_title": "A Machine Learning Approach for the Differential Diagnosis between Sars-COV19 Infection and Influenza Viruses with Hematological Morphologic DATA (CELL MORPHOLOGIC DATA) ",
-    "article_date": "November 5, 2020",
-    "session_type": "803.Emerging Diagnostic Tools and Techniques",
-    "topics": null,
-    "author_names": [
-        "Fernando Calvo Boyero, Jr.",
-        "Sandra Gomez Gomez Rojas",
-        "Gloria Perez Segura, Sr.",
-        "Ana Lopez Jimenez, Sr.",
-        "Miguel Pedrera Jimenez",
-        "Gonzalo Carre\u00f1o Gomez-Tarragona, MD",
-        "Buenaventura Buend\u00eda Ure\u00f1a",
-        "Joaquin Martinez Lopez"
-    ],
-    "author_affiliations": [
-        [
-            "HU 12 de octubre, Madrid, Spain "
-        ],
-        [
-            "HU 12 de octubre, Madrid, Spain "
-        ],
-        [
-            "HU 12 de octubre, Madrid, Spain "
-        ],
-        [
-            "HU 12 de octubre, Madrid, Spain "
-        ],
-        [
-            "HU 12 de octubre, Madrid, Spain "
-        ],
-        [
-            "Hematology Department, Hospital Universitario 12 de Octubre,, Madrid, Spain "
-        ],
-        [
-            "HU 12 de octubre, Madrid, Spain "
-        ],
-        [
-            "Hematology Department Hospital 12 de Octubre, Complutense University, H12O-CNIO Clinical research unit, CIBERONC, Madrid, Spain"
-        ]
-    ],
-    "first_author_latitude": "40.37623095",
-    "first_author_longitude": "-3.6976746999999994",
-    "abstract_text": "Introduction Hyperinflammatory response induced by the SARS-CoV19 (CV) coronavirus is the main cause of morbidity and mortality. Numerous studies have pointed-out the main role of monocyte activation. In addition neutrophils alterations appear to differ pathophysiologically from the changes that occur in Influenza Virus (IV) infection. Due to the overlap of symptoms between these two entities, the search of analytical markers that help in early diagnostic orientation is considered of crucial importance. Changes in cell function, phenotype, and morphology in circulating leukocytes can be translated into numerical data obtained from an automated analyzer. The objective of our study is to generate an Artificial Intelligence Model from conventional hematological blood count parameters which be able to discriminate between CV and IV infection, in a fast and efficient maner. Methods This is a retrospective single-center study, performed between January-April 2020. The patients (n = 816) were divided into two groups: Patients who came for suspected COVID and had a positive RT-PCR (n = 408) and patients with a diagnosis of influenza confirmed by RT-PCR (n = 408). The database was divided into two random subgroups (n = 654) to train the model and another (n = 162) to validate it. The first hemogram on admission to the Emergency Department of these patients was performed on a Beckman-Coulter\u00ae DXH-900 equipment. Total white blood cells, absolute neutrophils, absolute lymphocytes, absolute monocytes, monocyte distribution wide (MDW) and Cell Morphological Data (CMDs) based on the impedance, conductivity and light scattering of these leukocyte subpopulations have been used to construct the model. Five algorithms have been evaluated using the R studio Software and the Caret (Classification and Regression Training) package: Linear Discriminant Analysis (LDA), K-Nearest Neighbor (kNN), Neural Networks (NN), Support Vector Machines (SVM) and Recursive partitioning (Rpart). Results The evaluation of the different models was based on the comparison of the efficacy obtained through a cross validation (10x). It was decided to choose the SVM model by presenting a median of the area under the ROC curve of 0,841. No data preprocessing was performed, and the parameters chosen for the model were: sigma = 0,014, C = 1 and Number of Support Vectors = 458. Parameters with greater importance (>80%) in the model, were CMDs based on Neutrophil Light Scattering (SDLNE, SDLAN, SDMNE and MNLNE). The analysis of results was performed using a confusion matrix, where the model predicts the diagnosis of each patient in the validation subgroup (Table 2). A ROC curve with an area of 0,892 was obtained, with a sensitivity and specificity of 80% and 85%, respectively (Fig 1). Conclusions The creation of prediction algorithms from hemogram parameters allow to discriminate between COVID 19 infection and influenza A and B with a high specificity and sensitivity in a fast way. This could be a great advance for the early diagnostic orientation and guide clinical decisions as soon as possible with the consequent clinical benefit. View large Download slide View large Download slide  Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/136/Supplement 1/43/473856/A-Machine-Learning-Approach-for-the-Differential?searchresult=1",
+    "datetime_link_obtained": "2022-04-30T11:38:30",
+    "is_scraped": "0"
 }

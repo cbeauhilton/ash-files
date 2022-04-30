@@ -1,49 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4659",
+    "start_url_page_num": "4659",
     "doi": "https://doi.org/10.1182/blood-2020-142004",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4545",
-    "start_url_page_num": 4545,
-    "is_scraped": "1",
-    "article_title": "A Six-Protein Activity Signature Defines Favorable Response to Selinexor Treatment for Patients with Diffuse Large B-Cell Lymphoma (DLBCL) ",
-    "article_date": "November 5, 2020",
-    "session_type": "627.Aggressive Lymphoma (Diffuse Large B-Cell and Other Aggressive B-Cell Non-Hodgkin Lymphomas)-Results from Retrospective/Observational Studies",
-    "topics": null,
-    "author_names": [
-        "Christopher J. Walker, PhD",
-        "Yao Shen, PhD",
-        "Mariano Alvarez, PhD",
-        "Hua Chang, PhD",
-        "Jatin Shah, MD",
-        "Sharon Shacham, PhD MBA",
-        "Andrea Califano, Dr",
-        "Yosef Landesman, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Karyopharm Therapeutics, Newton, MA "
-        ],
-        [
-            "Darwinhealth Inc., New York, NY"
-        ],
-        [
-            "Darwinhealth Inc., New York, NY"
-        ],
-        [
-            "Karyopharm Therapeutics, Newton, MA "
-        ],
-        [
-            "Karyopharm Therapeutics, Newton, MA "
-        ],
-        [
-            "Karyopharm Therapeutics, Newton, MA "
-        ],
-        [
-            "Darwinhealth Inc., New York, NY"
-        ],
-        [
-            "Karyopharm Therapeutics, Newton, MA "
-        ]
-    ],
-    "first_author_latitude": "42.2921334",
-    "first_author_longitude": "-71.19989799999999",
-    "abstract_text": "Introduction: Selinexor is an oral selective inhibitor of XPO1 that was recently approved by the US FDA for treatment of adult patients with relapsed or refractory DLBCL, after at least two lines of systemic therapy. Approval was based on results of the Phase 2b SADAL study, which had an overall response rate of 29% in the primary analysis population (clinicaltrials.gov: NCT02227251). We herein investigated molecular markers of response to selinexor from patients treated on the SADAL study. Methods: Exome sequencing was performed on pre-selinexor treatment biopsies from 55 patients and used to compare mutation frequencies between 21 responder patients (best overall response of complete response [CR], 6; and partial response [PR], 15) and 34 non-responder patients (stable disease [SD], 8; and progressive disease [PD], 26). Additionally, RNA sequencing was performed on a subset of 33 patients and gene expressions were used to infer activities of regulatory proteins with the VIPER algorithm. Differences in inferred protein activities between responder and non-responder patients were assessed using four machine learning algorithms: linear regression (LR), linear discriminant analysis (LDA), ridge regression (RR) and random forest (RF). Model performance was estimated using leave-one-out cross-validation (LOOCV). A separate comparison was performed in the subset of 12 patients with germinal B-cell like (GCB) DLBCL. Results: Our analysis of genes commonly mutated in DLBCL revealed that non-responder patients more frequently harbored mutations in KMT2D (35% non-responders, 14% responders). Examination of the specific types of KMT2D mutations showed that the vast majority were loss-of-function frameshift or nonsense mutations (13 of 15 mutations), indicating they could have functional relevance to disease biology. The activities of 5,742 regulatory proteins were successful inferred from RNA sequencing performed on 33 patients. Unsupervised clustering identified two outlier samples that were removed from further analysis. The remaining 31 patients consisted of 16 responders (CR, 5; and PR, 11) that were compared to 15 non-responders (PD, 15). Dimension reduction of the 5,742 protein activities (filtering proteins with low variation, poor VIPER imputation, and strong linkage) resulted in 680 independent informative regulatory protein activities used for predicting selinexor response. Different numbers of regulatory proteins were iteratively input into the machine learning models to compare responders and non-responders. The best performance model was achieved using only six proteins (ASH1L, ZNF471, RRN3, CD248, ZNF750, INHBA) (Figure 1A), and had an area under the receiver operating characteristic curve (AUC) of 0.917, 0.925, 0.883, and 0.875, for the LDA, LR, RF and RR, models, respectively (p < 0.05, permutation test) (Figure 1B). A final integrated model combining the four methods achieved an AUC = 0.929 (p < 0.05, permutation test, AUC 95% CI: [0.831-1] DeLong non-parametric method) (Figure 1C). Similar results were obtained using 5-fold cross validation with the six-protein activity signature (integrated model AUC = 0.858, AUC 95% CI: [0.72-0.997]). Finally, we focused separately on 12 patients with germinal B-cell like (GCB) DLBCL, (6 responder patients, and 6 non-responder patients). Using LOOCV with the top three protein activities associated with selinexor response in GCB-DLBCL (COL1A1, INHBA, and CNOT2) resulted in remarkably high accuracy, with an integrated model AUC = .972 (p < 0.05, permutation test, AUC 95% CI: [0.895-1]). Discussion and Conclusions: The six proteins used for defining the DLBCL selinexor response signature are not typically associated with a role in DLBCL but have been implicated in cancer biology in other contexts. Notably, INHBA was found as predictor of response in the full set and also the GCB subtype patients, suggesting that activin/inhibin signaling could be important for response to selinexor in patients with DLBCL, especially the GCB subtype. Our results produced a protein activity signature that could be useful for identifying patients with DLBCL likely to respond well to selinexor treatment, which will be validated in a larger independent sample set. Figure 1 View large Download slide Figure 1 View large Download slide  Disclosures Walker: Vigeo Therapeutics: Consultancy; Karyopharm: Current Employment, Current equity holder in publicly-traded company. Alvarez: DarwinHealth, Inc: Current Employment, Current equity holder in private company. Chang: Karyopharm Therapeutics Inc: Current Employment. Shah: Karyopharm Therapeutics Inc: Current Employment, Current equity holder in publicly-traded company. Shacham: Karyopharm: Current Employment, Current equity holder in publicly-traded company, Patents & Royalties: (8999996, 9079865, 9714226, PCT/US12/048319, and I574957) on hydrazide containing nuclear transport modulators and uses, and pending patents PCT/US12/048319, 499/2012, PI20102724, and 2012000928) . Califano: DarwinHealth, Inc: Consultancy, Current Employment, Current equity holder in private company, Other: Founder. Landesman: Karyopharm Therapeutics Inc: Current Employment, Current equity holder in publicly-traded company."
+    "url": "https://ashpublications.org/blood/article/136/Supplement 1/31/471948/A-Six-Protein-Activity-Signature-Defines-Favorable?searchresult=1",
+    "datetime_link_obtained": "2022-04-30T11:38:15",
+    "is_scraped": "0"
 }

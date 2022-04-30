@@ -1,78 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4659",
+    "start_url_page_num": "4659",
     "doi": "https://doi.org/10.1182/blood-2020-142882",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4545",
-    "start_url_page_num": 4545,
-    "is_scraped": "1",
-    "article_title": "Architecture of Sample Preparation and Data Governance of Immuno-Genomic Data Collected from Bone Marrow and Peripheral Blood Samples Obtained from Multiple Myeloma Patients ",
-    "article_date": "November 5, 2020",
-    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
-    "topics": null,
-    "author_names": [
-        "Shaadi Mehr, PhD",
-        "Daniel Auclair",
-        "Mark Hamilton, PhD",
-        "Leon Rozenblit",
-        "Hearn Jay Cho, MD PhD",
-        "Lijun Yao, MS",
-        "Reyka G Jayasinghe, PhD",
-        "Manoj Bhasin, PhD",
-        "Steven E. Labkoff, MD",
-        "Taxiarchis Kourelis, MD",
-        "Madhav V. Dhodapkar, MD",
-        "Deon Doxie",
-        "Sacha Gnjatic",
-        "Cassandra Dewitt",
-        "Sergey Miron"
-    ],
-    "author_affiliations": [
-        [
-            "Multiple Myeloma Research Foundation, Norwalk, CT "
-        ],
-        [
-            "Multiple Myeloma Research Foundation, Norwalk, CT "
-        ],
-        [
-            "Multiple Myeloma Research Foundation, Norwalk, CT "
-        ],
-        [
-            "Prometheus, New Haven, CT "
-        ],
-        [
-            "The Multiple Myeloma Research Foundation, Mount Sinai School of Medicine, New York, NY ",
-            "MMRF; Icahn School of Medicine at Mount Sinai, Norwalk, CT "
-        ],
-        [
-            "Department of Medicine, Washington University School of Medicine, Saint Louis, MO "
-        ],
-        [
-            "Department of Medicine, Washington University School of Medicine, Saint Louis, MO "
-        ],
-        [
-            "Emory School of Medicine, Aflac Cancer and Blood Disorders Center, Atlanta, GA "
-        ],
-        [
-            "Multiple Myeloma Research Foundation, Norwalk, CT "
-        ],
-        [
-            "Mayo Clinic Rochester, Division of Hematology, Rochester, MN "
-        ],
-        [
-            "Emory University School of Medicine, Atlanta, GA "
-        ],
-        [
-            "Emory University, Atlanta, GA "
-        ],
-        [
-            "Mount Sinai School of Medicine, New York, NY"
-        ],
-        [
-            "Prometheus, New Haven, CT "
-        ],
-        [
-            "Prometheus, New Haven, CT "
-        ]
-    ],
-    "first_author_latitude": "41.14110819999999",
-    "first_author_longitude": "-73.42654329999999",
-    "abstract_text": "Abstract: Title: Architecture of sample preparation and data governance of Immuno-genomic data collected from bone marrow and peripheral blood samples obtained from multiple myeloma patients In multiple myeloma (MM), the interactions between malignant plasma cells and the bone marrow microenvironment is crucial to fully understand tumor development, disease progression, and response to therapy. The core challenge in understanding those interactions has been the establishment of a standard process and a standard model for handling the data quality workflow and the underlying data models. Here we present the Platform (Figure 1), an integrated data flow architecture designed to create data inventory and process tracking protocols for multi-dimensional and multi-technology immune data files. This system has been designed to inventory and track peripheral blood and bone marrow samples from multiple myeloma subjects submitted for immune analysis under the MMRF Immune Atlas initiative (figure 2), and the processing and storage of Single Cell RNA-seq (scRNA-seq) and Mass Cytometry time-of-flight (CyTOF) data files derived from these immune analyses. While these methods have been previously applied on both tumor and immune populations in MM [2,3], this level of multi-institutional and multi-technology is unique. The Cloud Immune-Precision platform contains standardized protocols and bioinformatics workflows for the identification and categorization of immune cell populations and functional states based upon scRNA-seq gene signatures (ref: Bioinformatics manuscript in submission) and CyTOF protein signatures. Upon further expansion, it will contain high dimensional scRNAseq and CyTOF immune data from both bone marrow and peripheral blood samples from myeloma patients enrolled in the Multiple Myeloma Research Foundation (MMRF) CoMMpass study (NCT01454297) [1] (Figure 3). The architecture covers the automation of data governance protocols, data transformation and ETL model developments that will create an immune proteomic and profiling database and its integration into clinical and genomics databases: e.g. the MMRF CoMMpass clinical trial. This large-scale data integration will establish a cutting-edge Immune-Precision central platform supporting large scale, immune-focused advanced analytics in multiple myeloma patients. This platform will allow researchers to interrogate the relationships between immune transcriptomic and proteomic signatures and tumor genomic features, and their impact on clinical outcomes, to aid in the optimization of therapy and therapeutic sequencing. Furthermore, this platform also promotes the potential to (further) elucidate the mechanisms-of-action of approved and experimental myeloma therapies, drive biomarker discovery, and identify new targets for drug discovery. Figure 1: Cloud Immune-Precision Platform (Integrated data flow architecture designed to create data inventory and process tracking protocols for multi-dimensional and multi-technology immune data files) Figure 2: Sample tracking process architecture Figure 3: Data file creation and repository process tracking References: 1- Settino, Marzia et al. \"MMRF-CoMMpass Data Integration and Analysis for Identifying Prognostic Markers.\" Computational Science - ICCS 2020: 20th International Conference, Amsterdam, The Netherlands, June 3-5, 2020, Proceedings, Part III vol. 12139 564-571. 22 May. 2020, doi:10.1007/978-3-030-50420-5_42 2- Ledergor, Guy et al. \"Single cell dissection of plasma cell heterogeneity in symptomatic and asymptomatic myeloma.\" Nature medicine vol. 24,12 (2018): 1867-1876. doi:10.1038/s41591-018-0269-2 3- Hansmann, Leo et al. \"Mass cytometry analysis shows that a novel memory phenotype B cell is expanded in multiple myeloma.\" Cancer immunology research vol. 3,6 (2015): 650-60. doi:10.1158/2326-6066.CIR-14-0236-T Figure 1 View large Download slide Figure 1 View large Download slide  Disclosures Bhasin: Canomiiks Inc: Current equity holder in private company, Other: Co-Founder. Dhodapkar: Amgen: Membership on an entity's Board of Directors or advisory committees, Other; Celgene/BMS: Membership on an entity's Board of Directors or advisory committees, Other; Janssen: Membership on an entity's Board of Directors or advisory committees, Other; Roche/Genentech: Membership on an entity's Board of Directors or advisory committees, Other; Lava Therapeutics: Membership on an entity's Board of Directors or advisory committees, Other; Kite: Membership on an entity's Board of Directors or advisory committees, Other."
+    "url": "https://ashpublications.org/blood/article/136/Supplement 1/17/471949/Architecture-of-Sample-Preparation-and-Data?searchresult=1",
+    "datetime_link_obtained": "2022-04-30T11:38:15",
+    "is_scraped": "0"
 }
