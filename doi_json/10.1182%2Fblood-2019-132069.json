@@ -1,80 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4440",
+    "start_url_page_num": "4440",
     "doi": "https://doi.org/10.1182/blood-2019-132069",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4435",
-    "start_url_page_num": 4435,
-    "is_scraped": "1",
-    "article_title": "Towards Non-Invasive Classification of DLBCL Genetic Subtypes By Ctdna Profiling ",
-    "article_date": "November 13, 2019",
-    "session_type": "621.Lymphoma-Genetic/Epigenetic Biology",
-    "topics": [
-        "circulating tumor dna",
-        "diffuse large b-cell lymphoma",
-        "genetics",
-        "genotype determination",
-        "abcs (adequacy and alignment, bones, cartilage, soft tissue changes)",
-        "bcl-2 protein",
-        "cancer",
-        "massively-parallel genome sequencing",
-        "neoplasms",
-        "translocation (genetics)"
-    ],
-    "author_names": [
-        "Mohammad Shahrokh Esfahani",
-        "Stefan Alig, MD",
-        "David M. Kurtz, MD PhD",
-        "Joanne Soo, MD",
-        "Michael C. Jin, BS",
-        "Charles Macaulay, MSc, BA",
-        "Alexander F. M. Craig, MPhil",
-        "Andrea Garofalo, BS, BA",
-        "Chloe B. Steen, MSc",
-        "Florian Scherer, MD",
-        "Brian Sworder, MD PhD",
-        "Maximilian Diehn, MD PhD",
-        "Ash A. Alizadeh, MD PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Washington, DC "
-        ],
-        [
-            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA "
-        ],
-        [
-            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA "
-        ],
-        [
-            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA "
-        ],
-        [
-            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA "
-        ],
-        [
-            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA "
-        ],
-        [
-            "Department of Medicine, Division of Oncology, Stanford University Medical Center, Stanford, CA "
-        ],
-        [
-            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA "
-        ],
-        [
-            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA "
-        ],
-        [
-            "Department of Hematology, Oncology and Stem Cell Transplantation, University of Freiburg Medical Center, Freiburg, Germany "
-        ],
-        [
-            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA "
-        ],
-        [
-            "Department of Radiation Oncology, Stanford University Medical Center, Stanford, CA"
-        ],
-        [
-            "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA "
-        ]
-    ],
-    "first_author_latitude": "38.9121118",
-    "first_author_longitude": "-77.07523669999999",
-    "abstract_text": "Background Diffuse large B-cell lymphoma (DLBCL) is a genetically and clinically heterogeneous disease. The cell-of-origin (COO) classification subdivides DLBCL into the transcriptionally defined activated B-cell (ABC) and germinal center B-cell (GCB) subtypes. Recently, 2 novel classifiers based on genetic features were independently proposed further unraveling the diversity of DLBCL [Schmitz et al, NEJM 2018; Chapuy et al, Nat Med 2018]. The concordance between the 2 novel classification systems has not yet been systematically studied. However, both classifiers are largely complementary to COO subtypes, and describe overlapping genotypes. We previously demonstrated the feasibility of COO classification by noninvasive plasma genotyping in a limited gene panel using Cancer Personalized Profiling by Deep Sequencing (CAPP-Seq) [Scherer et al, STM 2016], and this approach has now been replicated by others. In this study, we take first steps toward a comprehensive non-invasive classification of novel DLBCL genetic subtypes using a limited gene panel. Methods We analyzed genetic profiling of 476 DLBCL patients reported by Schmitz et al ( NEJM 2018 ) as a training set to build 2 classifiers in a limited gene panel applicable to plasma genotyping from CAPP-Seq: (1) A COO classifier (i.e. ABC, GCB and Unclassified); (2) A comprehensive genetic classifier (i.e. EZB, BN2, MCD, N1 and Other as defined in Schmitz et al, NEJM 2018). Features were limited to genetic alterations captured by our plasma genotyping panel, and those with population frequency of at least 10% in at least one genetic subtype. Our final model comprised 100 features: 64 recurrently mutated genes, 26 amplifications, 7 deletions and 3 translocations (BCL2, BCL6 and MYC). After cross-validation in the training set, we applied the 2 classifiers to the dataset from Chapuy et al ( Nat Med 2018 ) as well as pretreatment plasma genotyping data from patients previously reported by our group [Kurtz et al, JCO 2018 ]. Results We first evaluated our 2 classifiers in a 10-fold cross-validation (CV) framework in the NEJM 2018 dataset of Schmitz et al. Despite modest performance of our GCB/ABC classification, COO labels had the expected significant prognostic associations ( Fig. 1A ). Overall accuracy of our second classifier to determine novel genetic subtypes was 82% ( Fig. 1B ). Consistent with the original study, inferred MCD and N1 subtypes had adverse prognosis compared to EZB and BN2 ( Fig. 1C ). We next applied our classifiers to the Chapuy et al ( Nat Med 2018 ) dataset. Again, consistent with findings by Schmitz et al ( NEJM 2018 ), the EZB subset of GCB cases had inferior outcome compared to non-EZB cases ( Fig. 1D ). We next examined the cross-correlation between the two classifiers and observed the expected enrichment patterns of ABCs in the MCD subset and enrichment of GCBs in the EZB subset ( Fig. 1E ). Finally, we applied our classifiers to plasma genotyping data previously reported by our group [Kurtz et al., JCO 2018 ]. We restricted the analysis to cases with a mean variant allele fraction \u22650.5% ( n =68). Similar to the original study, 59% of cases (40/68) were labeled unclassifiable (i.e. Other). We compared the distribution of COO subtypes within the Schmitz genetic clusters. Representation of ABC and GCB within the clusters inferred from Plasma genotyping ( Fig. 1F ) was similar to the distribution from Tumor genotyping ( Fig. 1E ). Conclusions We describe 2 new classifiers applicable to noninvasive plasma genotyping data that recapitulate transcriptionally and genetically defined DLBCL subtypes. Using independent datasets, we show the feasibility of classification with a limited feature set with good prediction accuracy and prognostic stratification of defined subtypes. Genotyping of pretreatment plasma samples suggest that comprehensive non-invasive classification of genetic subtypes of DLBCL is achievable. View large Download slide View large Download slide  Disclosures Kurtz: Roche: Consultancy. Diehn: BioNTech: Consultancy; Quanticell: Consultancy; Roche: Consultancy; AstraZeneca: Consultancy; Novartis: Consultancy. Alizadeh: Roche: Consultancy; Genentech: Consultancy; Janssen: Consultancy; Pharmacyclics: Consultancy; Gilead: Consultancy; Celgene: Consultancy; Chugai: Consultancy; Pfizer: Research Funding."
+    "url": "https://ashpublications.org/blood/article/134/Supplement_1/551/426581/Towards-Non-Invasive-Classification-of-DLBCL?searchresult=1",
+    "datetime_link_obtained": "2022-04-30T01:54:56",
+    "is_scraped": "0"
 }
