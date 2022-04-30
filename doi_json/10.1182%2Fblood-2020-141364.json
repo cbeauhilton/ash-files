@@ -1,72 +1,8 @@
 {
+    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4513",
+    "start_url_page_num": "4513",
     "doi": "https://doi.org/10.1182/blood-2020-141364",
-    "start_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4564",
-    "start_url_page_num": 4564,
-    "is_scraped": "1",
-    "article_title": "Transcriptional, Protein-Level and Functional Profiling of Human Fetal Liver (FL)-Derived Hematopoietic Stem Cells (HSCs) at Single Cell Resolution ",
-    "article_date": "November 5, 2020",
-    "session_type": "501.Hematopoietic Stem and Progenitor Biology",
-    "topics": null,
-    "author_names": [
-        "Kim Vanuytsel, PhD",
-        "Carlos Villacorta-Martin, MSc",
-        "Jonathan Lindstrom-Vautrin",
-        "Zhe Wang",
-        "Wilfredo Garcia Beltran, MD",
-        "Taylor Matte",
-        "Todd W Dowrey, BS",
-        "Vannesa Mengze Li",
-        "Ruben Dries, PhD",
-        "Joshua D Campbell, PhD",
-        "Anna C Belkina, PhD",
-        "Alejandro Balazs, PhD",
-        "George J Murphy, PhD"
-    ],
-    "author_affiliations": [
-        [
-            "Section of Hematology and Medical Oncology, Boston University School of Medicine, Boston, MA",
-            "Center for Regenerative Medicine (CReM), Boston University School of Medicine, Boston, MA"
-        ],
-        [
-            "Center for Regenerative Medicine (CReM), Boston University School of Medicine, Boston, MA"
-        ],
-        [
-            "Center for Regenerative Medicine (CReM), Boston University School of Medicine, Boston, MA"
-        ],
-        [
-            "Division of Computational Biomedicine, Boston University School of Medicine, Boston, MA"
-        ],
-        [
-            "Ragon Institute of MGH, MIT and Harvard, Cambridge, MA"
-        ],
-        [
-            "Center for Regenerative Medicine (CReM), Boston University School of Medicine, Boston, MA"
-        ],
-        [
-            "Center for Regenerative Medicine (CReM), Boston University School of Medicine, Boston, MA"
-        ],
-        [
-            "Division of Computational Biomedicine, Boston University School of Medicine, Boston, MA"
-        ],
-        [
-            "Section of Hematology and Medical Oncology, Boston University School of Medicine, Boston, MA",
-            "Division of Computational Biomedicine, Boston University School of Medicine, Boston, MA"
-        ],
-        [
-            "Division of Computational Biomedicine, Boston University School of Medicine, Boston, MA"
-        ],
-        [
-            "Department of Pathology, Boston University School of Medicine, Boston, MA"
-        ],
-        [
-            "Ragon Institute of MGH, MIT and Harvard, Cambridge, MA"
-        ],
-        [
-            "Section of Hematology and Medical Oncology, Boston University School of Medicine, Boston, MA",
-            "Center for Regenerative Medicine (CReM), Boston University School of Medicine, Boston, MA"
-        ]
-    ],
-    "first_author_latitude": "42.3481069",
-    "first_author_longitude": "-71.08839184999998",
-    "abstract_text": "Intro: The complex and tightly regulated process of human hematopoietic development culminates in the production of hematopoietic stem cells (HSCs), which subsequently acquire functional competence and undergo expansion in the fetal liver (FL). The establishment of a high-resolution molecular signature of FL HSCs provides insights into HSC biology with potential utility in the purification and expansion of engraftable HSCs ex vivo and the generation of HSCs from pluripotent cell sources. To profile HSCs at this developmental stage, we performed CITE-Seq, a technique that combines single cell RNA sequencing (scRNAseq) and cell surface marker interrogation using oligo-tagged antibodies to simultaneously map transcriptional and protein-level expression in individual cells. To connect expression profiles with functional engraftment, we have coupled this with transplantation assays in immunocompromised mice. Methods: In these studies, three populations of human FL cells were used: CD34 - cells, CD34 + cells and CD34 + cells furtherenrichedby expression of GPI-80, a marker tightly linked to engraftment potential, to explicitly identify HSCs capable of long-term engraftment. These populations were stained with a panel of oligo-tagged antibodies, processed via the 10X Genomics platform, and sequenced (26,407 total cells). Results: Transplantation experiments using the same sorted fractions that were assayed by CITE-seq revealed superior engraftment potential of the GPI-80 + fraction, and thus enrichment for bona fide HSCs at the functional level. This functional signature coincided with enrichment for known HSC markers such as ITGA6 (CD49f), PROCR (EPCR), CD164, MLLT3, HLF, CLEC9A and HMGA2 at the transcriptional level. As such, by profiling >7000 GPI-80 + cells, we have achieved unprecedented resolution of the engraftable HSC compartment within the FL. Combined analysis of all captured FL fractions accurately recapitulated the hematopoietic landscape of the FL at this developmental stage, representing the expected hematopoietic lineages and cell types. To gain further insight into FL HSCs, we next focused on the CD34 + HSC/progenitor compartment where we tracked cluster dynamics upon functional HSC enrichment between the CD34 + bulk and GPI-80 + sample. We noted a prominent (4-fold) increase in a cluster marked by enrichment for genes including RGCC, LMNA, VIM, ID1 and ID3 as well as components of the AHR pathway, suggesting that this expression profile strongly correlates with engraftment potential. Notably, LMNA is expressed in postnatal HSCs and its expression has been shown to decrease upon aging (Grigoryan et al., 2018). In line with this, we also found that LMNA is more highly expressed in our prenatal FL HSPCs compared to postnatal HSPCs. This data suggests a potential role for LMNA in endowing FL HSCs with their superior engraftment potential compared to postnatal HSCs. To complement our transcriptomic characterization of engraftment potential, we also collected cell surface marker expression data based on sequencing of a series of antibody-derived tags (ADTs). This additional layer of information uncovered expression patterns that weren't readily apparent based on mRNA expression data and inspired us to use this ADT information to gate out populations of interest via in silico sorting. This enabled us to compare the transcriptional profiles associated with well-described HSC enrichment signatures to assess whether they represent equivalent cell populations. We compared CD34 + CD90 + CD49f + (~Notta et al., 2011) vs CD34 + CD133 + GPI-80 + (~Sumide et al., 2018) vs CD34 + EPCR + (~Subramaniam et al., 2019) in silico sorted cells and found a strong overlap in enriched genes, suggesting that the transcriptomic signature corresponding to engraftment potential identified in this work is not exclusive to GPI-80+ sorted cells but represents engraftable HSCs beyond this enrichment strategy. Conclusion: We have achieved unprecedented resolution of the engraftable HSC compartment in the human FL. Combining transcriptional profiling of the engraftment potential of FL HSCs with cell surface level expression data provides an in-depth characterization of this unique and developmentally relevant HSC source. This data will be valuable in optimizing the purification and expansion of engraftable HSCs ex vivo as well as in guiding the in vitro generation of HSCs from pluripotent cell sources. Disclosures No relevant conflicts of interest to declare."
+    "url": "https://ashpublications.org/blood/article/136/Supplement 1/33/472452/Transcriptional-Protein-Level-and-Functional?searchresult=1",
+    "datetime_link_obtained": "2022-04-30T05:40:20",
+    "is_scraped": "0"
 }
