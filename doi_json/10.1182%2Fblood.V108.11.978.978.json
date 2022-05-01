@@ -1,8 +1,95 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=653",
-    "start_url_page_num": "653",
     "doi": "https://doi.org/10.1182/blood.V108.11.978.978",
-    "url": "https://ashpublications.org/blood/article/108/11/978/130104/Individual-Gene-Expression-Profiling-of-Bone?searchresult=1",
-    "datetime_link_obtained": "2022-04-22T19:12:33",
-    "is_scraped": "0"
+    "article_title": "Individual Gene Expression Profiling of Bone Marrow CD34 Cells in Acquired Severe Aplastic Anemia (aSAA) in Children. ",
+    "article_date": "November 16, 2006",
+    "session_type": "Poster Sessions",
+    "abstract_text": "Acquired SAA in children is a rare, life-threatening disease characterized by pancytopenia and bone marrow hypocellularity. There is good clinical and laboratory evidence that a T-cell mediated immune attack against stem and progenitor cells plays an important role in the pathogenesis of SAA. However, due to the paucity of residual CD34 positive cells at diagnosis still only little is known about the stem cells and their response to the autoimmune attack in SAA in children. To further investigate the characteristics of CD34 cells in SAA we compared the individual transcriptomes of CD34 cells of 9 newly diagnosed, untreated pediatric SAA patients with 8 pediatric healthy controls. Hematopoietic stem cells were isolated with high efficiency from bone marrow by Ficoll density centrifugation and subsequent affinity purification using Dynabeads (Dynal, Invitrogen). Expression profiling experiments were performed using the two cycle amplification system and the HG-U133 plus 2.0 array (Affymetrix). Gene expression data were analyzed using R 2.3.0 and Bioconductor 1.8. packages (Affymetrix, multtest). Raw data were normalized using robust multiarray average (RMA) algorithm. Probe sets with \u201cabsent\u201d calls in more than 50% of samples in the smaller group were identified and omitted from further analysis. To determine differentially expressed genes, t-test was applied. P value adjustments for multiple comparisons were done using the step-up false discovery rate (FDR) controlling method proposed by Benjamini and Hochberg. Overall 402 genes were differentially expressed in children with SAA compared to controls (p < 0.05), 288 genes were downregulated and 114 were upregulated. Gene ontology analyses (FatiGO) indicated that biological processes in CD34 cells are significantly affected in pediatric SAA by mainly downregulation of genes for cell metabolism (78 down, 30 up), cell communication/adhesion (48 down, 25 up), growth and differentiation (15 down, 4 up) and stress response (16 down, 3 up). Unexpectedly only very few genes involved in cell death/apoptosis (5 down, 4 up) were differentially expressed. Genes encoding for DNA/RNA binding proteins (28 down, 14 up) and ion binding proteins (47 down, 18 up) were also mainly downregulated. Despite the extremely low numbers of residual CD34 cells present in the bone marrow of children with untreated SAA we were able to analyze the individual transcriptome pattern of single patients. These patterns showed homogeneously and significantly different gene expressions in the group of affected children when compared to controls. Genes involved in apoptosis seem to be less altered in there expression than expected from adult data. These observation might be consistent with the major clinical finding in these children of almost empty bone marrows where most of the apoptotic cell death has already taken place. In the tiny population of \u201csurvivors\u201d most of the differentially expressed genes are involved in cell metabolism and cell communication or adhesion. These unexpected results provide new hints for further investigations regarding the involvement of CD34 cells in the pathogenesis of childhood aSAA.",
+    "topics": [
+        "aplastic anemia",
+        "bone marrow",
+        "cd34 antigens",
+        "child",
+        "gene expression profiling",
+        "adhesions",
+        "carrier proteins",
+        "centrifugation",
+        "chromatography, affinity",
+        "dna"
+    ],
+    "author_names": [
+        "Bernd Hubner",
+        "Sylvia Merk",
+        "Sonja Rauhut",
+        "Martin Dugas",
+        "Torsten Haferlach",
+        "Monika Fuehrer",
+        "Arndt Borkhardt"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Bernd Hubner",
+            "author_affiliations": [
+                "Hematology, Oncology and BMT, Childrens Hospital of the University Munich, Munich, Germany"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sylvia Merk",
+            "author_affiliations": [
+                "Medical Informatics and Biomathematics, University of Muenster, Muenster, Germany"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sonja Rauhut",
+            "author_affiliations": [
+                "MLL, Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martin Dugas",
+            "author_affiliations": [
+                "Medical Informatics and Biomathematics, University of Muenster, Muenster, Germany"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Torsten Haferlach",
+            "author_affiliations": [
+                "MLL, Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Monika Fuehrer",
+            "author_affiliations": [
+                "Hematology, Oncology and BMT, Childrens Hospital of the University Munich, Munich, Germany"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Arndt Borkhardt",
+            "author_affiliations": [
+                "Hematology, Oncology and BMT, Childrens Hospital of the University Munich, Munich, Germany"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-01T09:29:33",
+    "is_scraped": "1"
 }
