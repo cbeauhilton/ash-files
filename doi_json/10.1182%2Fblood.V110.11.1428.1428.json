@@ -1,8 +1,55 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=879",
-    "start_url_page_num": "879",
     "doi": "https://doi.org/10.1182/blood.V110.11.1428.1428",
-    "url": "https://ashpublications.org/blood/article/110/11/1428/56620/Identifying-Candidate-Normal-and-Leukemic-B-Cell?searchresult=1",
-    "datetime_link_obtained": "2022-04-23T04:49:48",
-    "is_scraped": "0"
+    "article_title": "Identifying Candidate Normal and Leukemic B Cell Progenitor Populations with Hierarchical Clustering of 6-Color Flow Cytometry Data - A Better View. ",
+    "article_date": "November 16, 2007",
+    "session_type": "Leukemias - Cytogenetics and Molecular Markers in Diagnosis and Prognosis",
+    "abstract_text": "6-color flow cytometry allows multiparameter analysis of high numbers of single cells. It is an excellent tool for the characterization of a wide range of hematopoietic populations and for monitoring minimal residual disease. However, analysis of complex flow data is challenging. Gating populations on 28 two-parameter plots is extremely tedious and does not reflect the multidimensionality of the data. Here, we describe a novel approach, employing hierarchical clustering (HCA) and support vector machine (SVM) learning in analyzing flow data. This approach provides a new perspective for looking at flow data and promises better identification of rare and novel subpopulations that escape classic analysis. Our aim was to identify normal and leukemic B cell progenitor/stem cell populations in normal (n=6) and ALL (n=10) bone marrow. Samples were labelled with fluorochrome-conjugated antibodies to 6 CD markers (CD 10, 19, 22, 34, 38, 117) and 10 4 to 10 6 events were acquired (FACSCanto, BD Biosciences). To analyze flow data with HCA we developed a new algorithm, better suited for the ellipsoid nature of cell populations than other current HCA metrics. Data exported from DiVa software were externally compensated and Hyperlog transformed to achieve a logarithmic-like scale that displayed zero and negative values. Normalized data were then subjected to HCA employing a scale-invariant Mahalanobis distance measurement for merging clusters. This reflects the extended ellipsoid shape of the populations (here: 8 dimensional ellipsoids). We developed a new adaptive linkage algorithm that smoothly shifts from the Euclidean distance (when clusters are too small to compute Mahalanobis distance) to Mahalanobis distance measurement. This allowed us to build the hierarchy from single events, yet to retain the advantage of Mahalanobis measurement for larger clusters. To build classifiers we used SVM employing polynomial kernel. All work was carried out in MATLAB (MathWorks, Inc.). The resulting hierarchical tree combined with the heatmap of the CD marker expression allows visualization of hierarchically clustered data with all 8 parameters displayed in a single plot (!) as compared to 28 traditional two-parameter plots. HCA has big advantage of providing populations homogenous in their expression pattern of all parameters (without the need for complex sub or back gating). We were able to identify populations corresponding to the different stages of B-cell development. In a normal control bone marrow we could detect the following candidate B-lineage progenitor populations: CD34 + 117 + 38 + 10 \u2212 22 \u2212 19 \u2212 (0.94% of total) progenitor/stem cells, CD34 + 117 \u2212 38 + 10 + 22 + 19 med (0.26% of total) pro-B cells, CD34 \u2212 117 \u2212 38 + 10 + 22 + 19 + (2.77% of total) small pre-B cells (lower FCS values), CD34 \u2212 117 \u2212 38 + 10 + 22 + 19 + (1.09% of total) large pre-B cells (higher FCS values) and CD34 \u2212 117 \u2212 38 lo 10 \u2212 22 + 19 + (5.94% of total) (immature) B cells. In 10 diagnostic or relapse samples HCA clearly identified the main leukemic population. HCA is able to visualize otherwise \u201chidden\u201d populations. This was exemplified by a distinct CD38 + B-lin \u2212 population that overlapped with other populations in all 28 two-parameter plots (most likely T cells). We have built a classifier able to find established populations across samples and in large datasets (10 6 events) for which HCA would be computationally too demanding. In summary, we show the advantages of using hierarchical clustering analysis for large complex multiparameter flow cytometry datasets.",
+    "topics": [
+        "b-lymphocytes",
+        "color",
+        "flow cytometry",
+        "cd34 antigens",
+        "antibodies",
+        "neoplasm, residual",
+        "bone marrow",
+        "stem cells",
+        "software",
+        "spatial vectors"
+    ],
+    "author_names": [
+        "Karel Fis\u030cer, PhD",
+        "Toma\u0301s\u030c Sieger, MSc",
+        "Josef H. Vormoor, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Karel Fis\u030cer, PhD",
+            "author_affiliations": [
+                "Northern Institute for Cancer Research, Newcastle University, Newcastle upon Tyne, United Kingdom"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Toma\u0301s\u030c Sieger, MSc",
+            "author_affiliations": [
+                "Praha, Czech Republic"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Josef H. Vormoor, MD",
+            "author_affiliations": [
+                "Northern Institute for Cancer Research, Newcastle University, Newcastle upon Tyne, United Kingdom"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-04T09:38:01",
+    "is_scraped": "1"
 }
