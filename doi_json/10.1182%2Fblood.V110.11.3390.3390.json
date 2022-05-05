@@ -1,8 +1,75 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=927",
-    "start_url_page_num": "927",
     "doi": "https://doi.org/10.1182/blood.V110.11.3390.3390",
-    "url": "https://ashpublications.org/blood/article/110/11/3390/75242/Predicting-Acute-Chest-Syndrome-in-Sickle-Cell?searchresult=1",
-    "datetime_link_obtained": "2022-04-23T06:24:40",
-    "is_scraped": "0"
+    "article_title": "Predicting Acute Chest Syndrome in Sickle Cell Disease Patients Hospitalized for Acute Vasoocclusive Events. ",
+    "article_date": "November 16, 2007",
+    "session_type": "Hemoglobinopathies, excluding Thalassemia",
+    "abstract_text": "Acute painful vasoocclusive events (VOE) and acute chest syndrome (ACS) are the leading causes of hospitalization among patients with sickle cell disease (SCD). Although most patients with ACS are hospitalized explicitly for that reason, up to 36% of patients who were admitted for VOEs subsequently developed ACS, usually within several days of admission. Since ACS can be associated with hypoxemia and respiratory failure, leading to a need for blood transfusion and ventilatory support, the ability to predict which patients are at high risk for this serious complication might lead to better clinical outcomes. Using the results of standard-of-care blood testing obtained upon hospital admission, we present a novel model to predict the risk of developing ACS following hospitalization for a VOE. To generate this model, we retrospectively evaluated the records of 1,263 participants in the Cooperative Study of Sickle Cell Disease (CSSCD), with either sickle cell anemia (with or without co-incident alpha thalassemia) or HbSC disease, who were hospitalized for an acute VOE. During their hospitalization, 148 of these patients developed ACS, defined in the CSSCD as a new pulmonary infiltrate on a chest x-ray or evidence of pleuritic chest pain, with or without dyspnea; the remaining patients, who did not develop ACS, served as controls. Case patients were aged 7 to 55 years, with a mean age of 23 years; control patients were aged 5 to 72 years with a mean age of 24.5 years. Males were slightly more likely to develop ACS; 56% of case patients were male, compared with 46% of control patients (OR 1.5, 1.05\u20132.10). There was a significant difference in the distribution of SCD genotype, with fewer patients with HbSC disease and sickle cell anemia-alpha thalassemia in the control group (p=0.002). For each patient, we included in the model the hematocrit, hemoglobin concentration, mean corpuscular volume, reticulocyte count, white blood cell count with differential, and platelet count at hospital admission, along with their age, gender, and SCD genotype. Random Forest (RF) software, implemented in the R language, was used to create a set of 500 classification and regression trees using 80% of the subjects, and was then tested on the remaining 20%. For each test patient, each randomly generated decision tree classified the patient as high or low risk, and the consensus of the 500 tree forest was used to predict if the patient would develop ACS. This data driven approach produced a robust predictive model, while reducing analyst input and eliminating the need to identify important confounders a priori , as would be the case if attempting these analyses using stepwise logistic regression. The RF model correctly classified 95% of the patients for the development of ACS, with 67% sensitivity and 99% specificity. Neutrophil bands and platelet counts were identified by RF as the two most important predictors for the development of ACS, concordant with the potential roles of infection and infarction in its pathogenesis. With future validation, perhaps including prospective studies, this simple model, along with other predictors such as serum phospholipase A2 and studies of genetic modulators of this phenotype, could aid in identifying individuals who are at high risk for developing ACS. Ultimately, for patients hospitalized with VOEs, better identification of the risk of developing ACS might lead to more appropriate treatment with better clinical outcomes.",
+    "topics": [
+        "acute chest syndrome",
+        "sickle cell anemia",
+        "hospital admission",
+        "alpha-thalassemia",
+        "anemia",
+        "blood transfusion",
+        "chest x-ray",
+        "dyspnea",
+        "hemoglobin",
+        "hypoxemia"
+    ],
+    "author_names": [
+        "Daniel A. Dworkis, BA",
+        "Vikki G. Nolan, MPH",
+        "Lillian C. McMahon, MD",
+        "Elizabeth S. Klings, MD",
+        "Martin H. Steinberg, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Daniel A. Dworkis, BA",
+            "author_affiliations": [
+                "Medicine, Boston University School of Medicine, Boston, MA, USA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vikki G. Nolan, MPH",
+            "author_affiliations": [
+                "Medicine, Boston University School of Medicine, Boston, MA, USA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lillian C. McMahon, MD",
+            "author_affiliations": [
+                "Medicine, Boston University School of Medicine, Boston, MA, USA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elizabeth S. Klings, MD",
+            "author_affiliations": [
+                "Medicine, Boston University School of Medicine, Boston, MA, USA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martin H. Steinberg, MD",
+            "author_affiliations": [
+                "Medicine, Boston University School of Medicine, Boston, MA, USA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-05T02:13:20",
+    "is_scraped": "1"
 }
