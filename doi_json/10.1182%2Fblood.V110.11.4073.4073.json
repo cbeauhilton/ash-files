@@ -1,8 +1,146 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1009",
-    "start_url_page_num": "1009",
     "doi": "https://doi.org/10.1182/blood.V110.11.4073.4073",
-    "url": "https://ashpublications.org/blood/article/110/11/4073/84059/Data-Mining-of-Hematopoietic-Stem-Cell-Microarray?searchresult=1",
-    "datetime_link_obtained": "2022-04-23T09:19:17",
-    "is_scraped": "0"
+    "article_title": "Data Mining of Hematopoietic Stem Cell Microarray Studies Reveals a Novel Stem Cell Gene Expression Signature and Demonstrates Feasibility of Integrating Data from Different Labs and Different Microarray Platforms. ",
+    "article_date": "November 16, 2007",
+    "session_type": "Publication Only",
+    "abstract_text": "Microarray based studies of global Gene Expression (GE) have led to dramatic advances in our understanding of various biological processes and have resulted in a large amount of data in public repositories, like the Gene Expression Omnibus (GEO). Metaanalysis of this data has the potential to yield important biological information, but is hampered by technical issues due to different platforms and gene annotations used in various studies. In an attempt to conduct a metaanalysis, a total of 69 individual normal hematopoietic stem cell (HSC) GE datasets (9 whole bone marrow, 57 CD34+ cell studies) were identified in GEO. These had been done on 3 microarray platforms (Affymetrix U95, U133 A/B and U133 Plus 2.0). Since the probe identifiers and complementary cDNAs were different on these platforms, we integrated the data using both Unigene and RefSeq protein IDs and obtained a total of 8598 common Unigene and 8345 RefSeq probes after removing missing values. Unsupervised clustering of normalized GE values demonstrated that experimental conditions, lab where the experiments were performed and different microarray platforms can result in variability in GE patterns from similar sources of cells. To determine the degree of dissimilarity of these datasets from those obtained from biologically distinct tissues, GE profiles from various human tissues (brain, heart, kidney, etc.) were obtained from GEO and compared with hematopoietic stem cells. Unsupervised clustering showed that samples from the same tissue of origin clustered together despite different platforms/labs, demonstrating that our approach can group biologically distinct tissues together in spite of experimental and platform variability. To further test the discriminatory ability of the metaanalysis, we took datasets from hematologic malignancies and normal hematopoietic and non-hematopoietic tissues analyzed with the same platform (U133). We observed greater similarity between leukemias, myelodysplasia (MDS) and normal HSCs when compared to non-hematopoietic tissues, again validating the discriminatory power of this metaanalysis. In fact, some datasets from bone marrow samples from MDS were very similar to normal CD34+ cells and clustered within their groups. We believe this was a strong validation of our analysis as MDS is a preleukemic disorder with varying levels of pathology and can have cases that are genetically very similar to normal hematopoietic stems. We next attempted to search for a gene expression signature characteristic of HSCs by finding genes that were uniformly enriched in HSC datasets and at the same time differentially expressed when compared to normal non-hematopoietic tissues. We found 46 such \u201cstemness\u201d genes in our dataset. Functional pathway analysis by Ingenuity revealed that these genes were part of cell cycle and hematopoiesis pathways, thus decreasing the likelihood of our findings to be due to chance. In addition to known genes such as Gata2, Myb, Lyn kinase and Stat5A; several novel functional genes like SWI/SNF family member SMARCE1, Bone marrow stromal antigen 2, Septin 6, Topoisomerase II and H2A histone proteins were found to be enriched in HSCs by our analysis. Thus, we demonstrate a feasible and valid approach for metaanalysis of publicly available gene expression data that can yield further insights into human physiology and disease.",
+    "topics": [
+        "data mining",
+        "gene expression",
+        "hematopoietic stem cells",
+        "laboratory techniques and procedures",
+        "laboratory test finding",
+        "stem cells",
+        "bone marrow specimen",
+        "bone marrow stromal antigen 2",
+        "gene annotation",
+        "hematologic neoplasms"
+    ],
+    "author_names": [
+        "D. Sohal",
+        "A. Yeatts",
+        "K. Ye",
+        "A. Pellagatti",
+        "L. Zhou",
+        "P. Pahanish",
+        "J. Mariadason",
+        "A. Melnick",
+        "J. Greally",
+        "J. Boultwood",
+        "A. Verma"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "D. Sohal",
+            "author_affiliations": [
+                "Albert Einstein College of Medicine",
+                " "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "A. Yeatts",
+            "author_affiliations": [
+                "Albert Einstein College of Medicine",
+                " "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "K. Ye",
+            "author_affiliations": [
+                "Albert Einstein College of Medicine",
+                " "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "A. Pellagatti",
+            "author_affiliations": [
+                "John Radcliffe Hospital",
+                " "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "L. Zhou",
+            "author_affiliations": [
+                "Albert Einstein College of Medicine",
+                " "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "P. Pahanish",
+            "author_affiliations": [
+                "Albert Einstein College of Medicine",
+                " "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "J. Mariadason",
+            "author_affiliations": [
+                "Albert Einstein College of Medicine",
+                " "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "A. Melnick",
+            "author_affiliations": [
+                "Albert Einstein College of Medicine",
+                " "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "J. Greally",
+            "author_affiliations": [
+                "Albert Einstein College of Medicine",
+                " "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "J. Boultwood",
+            "author_affiliations": [
+                "John Radcliffe Hospital",
+                " "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "A. Verma",
+            "author_affiliations": [
+                "Albert Einstein College of Medicine",
+                " "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-06T03:52:21",
+    "is_scraped": "1"
 }
