@@ -1,8 +1,105 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1139",
-    "start_url_page_num": "1139",
     "doi": "https://doi.org/10.1182/blood.V112.11.2746.2746",
-    "url": "https://ashpublications.org/blood/article/112/11/2746/59413/Expression-Profile-Signature-to-Predict-Response?searchresult=1",
-    "datetime_link_obtained": "2022-04-23T14:40:32",
-    "is_scraped": "0"
+    "article_title": "Expression Profile Signature to Predict Response to Bortezomib and Dexamethasone Combination Therapy in Newly-Diagnosed Myeloma: Moving towards Prospective Prediction ",
+    "article_date": "November 16, 2008",
+    "session_type": "Myeloma - Biology and Pathophysiology, excluding Therapy",
+    "abstract_text": "Current therapy for multiple myeloma (MM) remains empiric. Only 30\u201340% of patients respond to any one agent. Moreover, with each new therapy attempted, patients often experience numerous complications and toxicities requiring specialized intervention. In last 4 years four new agents have been approved for use in MM making selection of effective agents more difficult as well as economically taxing. With the improved understanding of oncogenomics in MM and with an ultimate goal of selecting therapies based on their best chance of success, we have used expression profile of myeloma cells to identify expression signature associated with response or resistance to therapeutic agents. We evaluated 34 newly-diagnosed patients with MM enrolled on IFM protocol 2005-01 and treated with bortezomib and dexamethasone as an induction regimen. 18 patients had achieved CR/nCR while 16 patients had no response or progressive disease on therapy. MM cells were purified from bone marrow samples collected prior to initiation of therapy and expression profile was obtained using Affymetrix Human Exon 1.0 ST arrays and analyzed using the dChip software. We next used the \u201cSample Classification\u201d module in the dChip software to explore predicting patient response using expression data. When we Use two-sample comparison or ANOVA methods to compare the response and to obtain a gene list, and then use a Linear Discriminant Analysis (LDA) to use these genes as features to train a classifier and predict samples, a prediction accuracy of 97% (33/34) was obtained. For unbiased prediction, we modified dChip to perform a leave-one-out cross-validation. Specifically, for each round, one of the 34 samples is left out and the remaining 33 samples are used to select genes and train the classifier. Then the classifier is used to predict the response of the left-out sample and compare it to the real response of this sample. With this analysis we observed 80% positive predictive value which compares favorably with the present CR ratio in the cohort from which these 34 samples come from. In addition, we also used the same cross-validation method to classify the 8 nCR (immunofixation (IFE) positive CR) versus the 10 CR (IFE negative CR) samples. Although the best achievable overall accuracy is 83%, the accuracy is much more variable than the CR versus NR classification when we vary the gene selection stringency. We also realize and in fact foresee that the expression profile will not be able to predict all patients and due to various factors some samples will not provide clear signature of resistance or sensitivity. A two-group comparison of the response Yes and No samples identified response-related genes. The genes down-regulated in the response group are significantly enriched by genes in Gene Ontology categories \u201cbiopolymer glycosylation\u201d, \u201cintegral to Golgi membrane\u201d, \u201ctransferase activity and gene on chromosome 11q.13. The genes up-regulated in the response group are significantly enriched by genes in Gene Ontology categories \u201ccytoskeleton\u201d and genes on chromosome 12p11 and 4p14. These genes provide a basis for investigating how gene expression and pathways change could affect response to the combination treatment with the two drugs. In conclusion, our preliminary pharmacogenomic studies have confirmed our ability to perform large-scale micro-array profiling from patient bone marrow samples and we have identified gene expression signature associated with responsiveness (CR) versus resistance (NR) to combination of Velcade and dexamethasone. The task ahead is to now prospectively validate our ability to predict whether the combination of bortezomib and dexamethasone will be effective in a given patient.",
+    "topics": [
+        "bortezomib",
+        "combined modality therapy",
+        "dexamethasone",
+        "multiple myeloma",
+        "immunofixation",
+        "bone marrow specimen",
+        "microbiology procedures",
+        "molecular profiling",
+        "progressive neoplastic disease",
+        "toxic effect"
+    ],
+    "author_names": [
+        "Nikhil C. Munshi, MD",
+        "Cheng Li",
+        "Stephane Minvielle",
+        "Samir B Amin",
+        "Philippe Moreau",
+        "Florence Magrangeas",
+        "Kenneth C Anderson, MD",
+        "Herve Avet-Loiseau"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Nikhil C. Munshi, MD",
+            "author_affiliations": [
+                "Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston VA Cancer Healthcare System, Boston, MA, USA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cheng Li",
+            "author_affiliations": [
+                "Department of Biostatistics and Department of Biostatistics and Computational Biology, Harvard School of Public Health and Dana-Farber Cancer Institute, Boston"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephane Minvielle",
+            "author_affiliations": [
+                "Hematology Department, Hopital de Nantes, Nantes, France"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Samir B Amin",
+            "author_affiliations": [
+                "Jerome Lipper Multiple Myeloma Center, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA, USA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Philippe Moreau",
+            "author_affiliations": [
+                "Hematology Department, Hopital de Nantes, Nantes, France"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Florence Magrangeas",
+            "author_affiliations": [
+                "Hematology Department, Hopital de Nantes, Nantes, France"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kenneth C Anderson, MD",
+            "author_affiliations": [
+                "Jerome Lipper Multiple Myeloma Disease Center, Dana- Farber Cancer Institute, Harvard Medical School, Boston, MA, USA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Herve Avet-Loiseau",
+            "author_affiliations": [
+                "Hematology Department, Hopital de Nantes, Nantes, France"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-07T21:33:47",
+    "is_scraped": "1"
 }
