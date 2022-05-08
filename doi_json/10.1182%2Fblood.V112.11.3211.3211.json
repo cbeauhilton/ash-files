@@ -1,8 +1,85 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1182",
-    "start_url_page_num": "1182",
     "doi": "https://doi.org/10.1182/blood.V112.11.3211.3211",
-    "url": "https://ashpublications.org/blood/article/112/11/3211/59956/Derivation-of-Diagnostic-Gene-Predictors-for-the?searchresult=1",
-    "datetime_link_obtained": "2022-04-23T16:57:52",
-    "is_scraped": "0"
+    "article_title": "Derivation of Diagnostic Gene Predictors for the Progression of Chronic Myeloid Leukemia from Microarray Data and Independent PCR Validation ",
+    "article_date": "November 16, 2008",
+    "session_type": "Chronic Myeloid Leukemia - Biology and Pathophysiology excluding Therapy",
+    "abstract_text": "Chronic myeloid leukemia (CML) usually presents in chronic phase, and progresses through accelerated phase to an acute leukemia, blast crisis. Blast crisis is highly resistant to treatment, and all treatments are more successful when administered during the chronic phase of the disease. The biological basis of the progression of CML remains poorly understood, and there are no clinical or molecular tests that can predict the \u201cclock\u201d of CML progression for individual patients at the time of diagnosis, making it impossible to adapt therapy to the risk level of each patient. Microarrays have been used extensively in the discovery phase of biomarkers in cancer research. Microarrays have identified signature genes that predict disease type and phase, and signatures associated with prognosis. According to the National Cancer Institute\u2019s Early Detection Research Network, the objective of the discovery phase is to determine a short list of 1\u201310 high-priority candidates using exploratory studies. The number of candidate genes is limited by the capacity of downstream target validation, which is time, cost and labor intensive. Therefore, a small set of genes from microarray studies is highly desirable for the development of inexpensive diagnostic tests. Moreover, the merits of using a combination of signature genes are documented in the literature: when certain biomarkers are used in combination, the sensitivity and specificity are substantially improved. However, most of the existing combinations of biomarkers in the literature are not systematically determined. As of now, gene signatures from microarray studies are typically determined using univariate methods in which each gene is considered individually. In this study, we profiled 91 cases of CML in chronic, accelerated and blast phases using cDNA microarrays, applied a probabilistic method called Bayesian Model Averaging (BMA) to the microarray data and identified 6 signature genes (ART4, DDX47, IGSF2, LTB4R, SCARB1, SLC25A3) that discriminate chronic from blast phase CML. The BMA method takes into account the uncertainty in the selection of signature genes by averaging over multiple models (i.e. sets of potentially overlapping relevant genes). Furthermore, BMA is a multivariate method that considers multiple genes simultaneously, thus addressing the challenge of identifying combinations of signature genes. BMA has other desirable features: it is computationally efficient; yields posterior probabilities of the predictions, selected genes and selected models; and each selected model typically consist of only a few genes. Therefore, BMA has the potential to be a powerful tool for developing diagnostic tests from microarray data. We validated our signature genes in two independent sets of patient samples using quantitative PCR and the Taqman Low Density Array (TLDA) platform, which allowed us to profile 44 genes and 2 control genes in 8 patients simultaneously using only 200 ng of RNA per patient. Quantitative PCR was performed in duplicate for each patient. In the first set of PCR data, we profiled the 6 signature genes by quantitative PCR in 84 patients (45 chronic phase and 39 accelerated phase patients). We showed that the 6 genes are highly predictive of the phases of CML on the PCR data using leave-one-out cross validation in which one patient sample is designated as the test case while using the remaining samples to build the models using BMA. Additionally, since our 6 signature genes have the same posterior probabilities from the microarray analysis (i.e. all 6 genes are selected with the same certainty), we investigated the predictability of a 2-gene subset from our 6-gene signature. Specifically, we profiled SLC25A3 and SCARB1 in a second set of independent PCR data consisting of 21 patient samples (10 chronic phase and 11 blast crisis patients). Figure 1 shows that our 2-gene signature produces distinct probabilities for patient samples in chronic and blast phases. To summarize, we present a novel application of a multivariate statistical method (BMA) to CML microarray data, identified 6 signature genes that predict the CML disease phase, and validated the 6-gene and 2-gene signatures by quantitative PCR in two independent sets of patient samples. Figure 1: View large Download slide Predicted probabilities from our 2-gene signature (SLC25A3 and SCARB1) for patient samples in chronic phase (class 0) and blast phase (class 1). Figure 1: View large Download slide Predicted probabilities from our 2-gene signature (SLC25A3 and SCARB1) for patient samples in chronic phase (class 0) and blast phase (class 1).  Close modal",
+    "topics": [
+        "genes",
+        "leukemia, myelocytic, chronic",
+        "polymerase chain reaction",
+        "blast phase",
+        "biological markers",
+        "accelerated phase",
+        "cancer",
+        "dna, complementary",
+        "early diagnosis",
+        "leukemia, acute"
+    ],
+    "author_names": [
+        "Ka Yee Yeung, Ph.D.",
+        "Vivian Oehler, MD",
+        "Edward Choi",
+        "Roger E. Bumgarner, Ph.D.",
+        "Adrian E. Raftery, Ph.D.",
+        "Jerald Radich, M.D."
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Ka Yee Yeung, Ph.D.",
+            "author_affiliations": [
+                "Department of Microbiology, University of Washington, Seattle, WA, USA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vivian Oehler, MD",
+            "author_affiliations": [
+                "Fred Hutchinson Cancer Research Ctr., Seattle, WA, USA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Edward Choi",
+            "author_affiliations": [
+                "Fred Hutchinson Cancer Research Ctr., Seattle, WA, USA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Roger E. Bumgarner, Ph.D.",
+            "author_affiliations": [
+                "Department of Microbiology, University of Washington, Seattle, WA, USA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Adrian E. Raftery, Ph.D.",
+            "author_affiliations": [
+                "Department of Statistics, University of Washington, Seattle, WA, USA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jerald Radich, M.D.",
+            "author_affiliations": [
+                "Fred Hutchinson Cancer Research Ctr., Seattle, WA, USA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-08T12:57:50",
+    "is_scraped": "1"
 }
