@@ -1,8 +1,125 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1461",
-    "start_url_page_num": "1461",
     "doi": "https://doi.org/10.1182/blood.V114.22.3945.3945",
-    "url": "https://ashpublications.org/blood/article/114/22/3945/76213/Optimizing-Follow-up-Schedule-for-Non-Hodgkin?searchresult=1",
-    "datetime_link_obtained": "2022-04-24T05:39:45",
-    "is_scraped": "0"
+    "article_title": "Optimizing Follow up Schedule for Non Hodgkin Lymphoma' Patients by Multi-Objective Analysis. ",
+    "article_date": "November 20, 2009",
+    "session_type": "Non-Hodgkin\u2019s Lymphoma - Biology, Excluding Therapy Poster III",
+    "abstract_text": "Abstract 3945 Poster Board III-881 Introduction Non Hodgkin Lymphoma could be clinically divided as low grade/indolent NHL (LG NHL) and high grade/aggressive NHL (HG NHL). These diseases are chemo and radio-sensitive and improvements have been achieved by immunotherapeutic approaches. However some patients will relapse and a follow up strategy has to be planned in order to detect and treat them. Several aspects should be considered in planning a follow up including safety, specificity, sensitivity, costs and impact on the patient's psychology: an optimal follow up should mediate between these ones. The more diffuse follow up have been planned years before the introduction of innovative methods and imaging techniques, suggesting the opportunity to revise these programs. Methods We collected data about 418 NHL patients -both low and high grade- treated at our institution from 1990 to 2005 who achieved a complete remission according to Cheson criteria and who entered a follow up program which schedule is planned for 5 years divided in two periods: first two years evaluation every 3 months and in the following three years every sixth month. At each visit physical examinations, blood testing (blood count, chemistry) are performed; for imaging techniques we alternate a whole body CT scans to ultrasounds and chest X-ray coupled. Analyzing time to relapse (TTR), we tried to optimize our follow up schedule trough a computation application known as multi-objective analysis. The first step of this method has been to choose and try to quantify the costs of a follow up which reflect its effectiveness. We considered as costs the expected time between relapse and its detection (Ca) and the expected number of performed examinations before failure or censoring occurs (Cb). The total follow up costs could be summarized in a vector Cref: (Ca,Cb) . After doing that we described survival analysis, relapse rate and their onset time in order to be suitable for the informatic analysis. We used a log logistic parametric model to do that. Next we shaped our ideal follow up as a structure based one, which is currently the most used in medical practice: a first period where examinations are more tightly spaced, followed by a second period where they are performed further apart. We describe such follow-up schedule \u201cS\u201d as (d 1 , k , d 2 ) : d 1 is the time between the first k examinations; d 2 is the time between the remaining examinations. Applying the log-logistic model we calculated the Cref and schedule for our follow up: Cref was (Ca,Cb) =(8.5,6.2); this means that, on average, every patient entering the follow-up will perform 6.2 examinations, and among those who incur in a relapse, the relapse will be detected 8.5 units of time (eg. weeks) after its onset. The follow up structure was (13,8,26). We then calculated all the possible combination of (d 1 , k , d 2 ) values from 1 to d 1 = 25, k = 24 and d 2 = 60. Results 360000 follow up schedules had been detected after searching all the possible combinations for d 1 , k and d 2 . For each one Ca e Cb costs have been calculated and than compared by multi-objective analysis to those of the current schedule, We look for both follow up structured and \u201cfree\u201d follow up, where \u201cfree\u201d means that intervals between examination is continuously variable. When comparing follow-up schedules, we apply the rule of Pareto-dominance: the schedule S 1 is superior to the S 2 schedule if and only if the cost values for S 1 are both lower than the cost values for S 2 . The method then takes into account only those schedules which improve the current one, with respect to both the Ca and the Cb costs. After multi-objective analysis six follow up were detected. These were as following: (16,10,22), (15,8,20), (15,6,19), (16,8,19), (16,5,18), (16,4,18) and are shown in Fig. 1 . Fig. 1 View large Download slide Black dot: New follow up Star: Actual Follow up Black line: All \u201cfree\u201d follow up Fig. 1 View large Download slide Black dot: New follow up Star: Actual Follow up Black line: All \u201cfree\u201d follow up  Close modal Conclusions no differences in follow up schedules emerged when we considered separately LG and HG lymphoma patients. Maximum improving of our follow was just 4% and all the new schedules had wide time frequency visit in the first period and a narrow one in the second period: this was a consequence of the higher relapse distribution in the first period and this follow up organization lead to a lower total number of visit without risk of lose any relapse. This is the first application of this analysis to hematological patients confirming the validity of a follow up schedule should be shaped in two different period. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "follow-up",
+        "lymphoma, non-hodgkin",
+        "diagnostic imaging",
+        "chemotherapy regimen",
+        "chest x-ray",
+        "complete remission",
+        "indolent",
+        "lymphoma",
+        "whole-body ct",
+        "blood cell count"
+    ],
+    "author_names": [
+        "Matteo Pelosini, M.D.",
+        "Flavio Baronti",
+        "Francesco Caracciolo",
+        "Sara Galimberti",
+        "Edoardo Benedetti",
+        "Federico Papineschi",
+        "Enrico Orciuolo",
+        "Gabriele Buda",
+        "Antonina Starita",
+        "Mario Petrini, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Matteo Pelosini, M.D.",
+            "author_affiliations": [
+                "Division of Haematology - Department of Oncology, Transplants and Advances in Medicine, University of Pisa, Pisa, TX, Italy, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Flavio Baronti",
+            "author_affiliations": [
+                "Department of Computer Science, University of Pisa, Pisa, Italy, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Francesco Caracciolo",
+            "author_affiliations": [
+                "Division of Haematology - Department of Oncology, Transplants and Advances in Medicine, University of Pisa, Pisa, Italy, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sara Galimberti",
+            "author_affiliations": [
+                "Dept. of Oncology, Transplants and Advanced Technologies, University of Pisa, Pisa, Italy, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Edoardo Benedetti",
+            "author_affiliations": [
+                "Division of Haematology - Department of Oncology, Transplants and Advances in Medicine, University of Pisa, Pisa, Italy, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Federico Papineschi",
+            "author_affiliations": [
+                "Division of Haematology - Department of Oncology, Transplants and Advances in Medicine, University of Pisa, Pisa, Italy, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Enrico Orciuolo",
+            "author_affiliations": [
+                "Dept. of Oncology, Transplants and Advanced Technologies, Hematology, University of Pisa, Pisa, Italy, "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gabriele Buda",
+            "author_affiliations": [
+                "Dept. of Oncology, Transplants and Advanced Technologies, University of Pisa, Pisa, Italy, "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Antonina Starita",
+            "author_affiliations": [
+                "Department of Computer Science, University of Pisa, Pisa, Italy, "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mario Petrini, MD",
+            "author_affiliations": [
+                "Oncology, University of Pisa, Pisa, Italy"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-12T15:40:25",
+    "is_scraped": "1"
 }
