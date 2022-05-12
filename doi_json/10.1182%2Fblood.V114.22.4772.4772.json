@@ -1,8 +1,125 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1432",
-    "start_url_page_num": "1432",
     "doi": "https://doi.org/10.1182/blood.V114.22.4772.4772",
-    "url": "https://ashpublications.org/blood/article/114/22/4772/64372/Aggressive-Non-Hodgkin-lymphoma-patients-Treated?searchresult=1",
-    "datetime_link_obtained": "2022-04-24T04:50:36",
-    "is_scraped": "0"
+    "article_title": "Aggressive Non Hodgkin lymphoma'patients Treated by High Dose Chemotherapy and Immunotherapy Has a Lower Relapse Rate: Results of a Computer Science Analysis. ",
+    "article_date": "November 20, 2009",
+    "session_type": "LYMPHOMA: CHEMOTHERAPY, EXCLUDING PRE-CLINICAL MODELS",
+    "abstract_text": "Abstract 4772 Introduction Non Hodgkin Lymphomas (NHL) are commonly divided in two large groups known as high grade (HG) and low grade (LG) lymphomas. Specific therapeutic strategies are potentially curative, but a tailored treatment should be planned from the diagnosis on the basis of the prognostic features. Some clinical features at the diagnosis or relapse may be grouped to build prognostic indexes. These indexes are \u201cbuild\u201d starting from features present at diagnosis and related to patients and disease onset, but lacks to give any information about disease history and chemosensitivity. For these purposes others methods have been evaluated and probably the two that gave major help to detect slow responders or resistant patients are minimal residual disease (MRD) and PET scans. Here we develop and apply a partitioning recursive algorithm, known as HCS, by which possibly detect new possible prognostic factors. Methods Our dataset comprised 651 NHL patients followed at our Institution from 1990 to 2005, divided in High grade (HG NHL, n=343; 52,7%) and Low grade Lymphoma (LG NHL, n= 308; 47,3%). Only patients who enter in a follow up program were considered: therefore patients with at least a partial response. We considered as variables for algorithm analysis: age, sex, histological subtype, IPI status and bone marrow involvement, treatment approaches (poli-chemotherapy, mono-chemoterapy, radiotherapy, surgery, purine based chemotherapy, monoclonal antibodies, transplant approach, oral chemotherapy), response to therapy, previous successful treatments, previous relapses, previous failed therapies. Data were analyzed by a recursive partitioning algorithms. A partitioning recursive algorithm. This tool is thought to splits data in different subgroups that behave in a different way. It works starting from data and utilized them to create all the possible combinations of splits available. Among them it chooses the best one by statistics and finally applies it to patients' datasets. For these reason it is defined as \u201c partitioning\u201d. Afterwards the algorithm starts again the analysis on the subset previously detected and that's because it is called \u201crecursive\u201d. Results The most important split emerged to be the quality of response: patiets were splitted between patients in partial remission (PR) and complete remission (CR). Among PR patients, one subset (subset 1) with worse prognosis were found: both comprised patients with HG NHL not treated with monoclonal antibodies and/or transplant. Therefore the remaining PRs patients, treated by transplant approach and immunotherapy, had a better outcome. In CR group subset 2 has been detected, comprising HD NHL patients not treated by oral chemo alone were detected. Those patients, who had a better outcome, had been treated aggressively with polichemotherapy and/or autologous transplant. Differences between detected groups are statistically significant with p. value 0,03 maximum. Splits are shown in Figure 1 and 2 . Conclusion Application of computer science analysis to NHL patients has been successfull. Quality of response emerged as the most important prognostic factor but among both PRs and CRs patients those with better outcome had HG NHL diagnosis and were treated by autologous transplantation or/and immunotherapy. This analysis confirms data available about transplant as a good approach for NHL patients. Fig.1 : View large Download slide Split 1: CR vs PR Fig.1 : View large Download slide Split 1: CR vs PR Close modal Fig. 2: View large Download slide CR and PR splits Fig. 2: View large Download slide CR and PR splits Close modal Blue = Subset 1 Green = Remaining PR patients Beige = subset 3 Violet = Ramaining CR patients Blue = Subset 1 Green = Remaining PR patients Beige = subset 3 Violet = Ramaining CR patients View Large Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "chemotherapy regimen",
+        "computers",
+        "hodgkin's disease",
+        "immunotherapy",
+        "infectious mononucleosis",
+        "transplantation",
+        "monoclonal antibodies",
+        "partial response",
+        "prognostic factors",
+        "bone marrow involvement"
+    ],
+    "author_names": [
+        "Matteo Pelosini, M.D.",
+        "Flavio Baronti",
+        "Francesco Caracciolo",
+        "Sara Galimberti",
+        "Edoardo Benedetti",
+        "Federico Papineschi",
+        "Enrico Orciuolo",
+        "Gabriele Buda",
+        "Antonina Starita",
+        "Mario Petrini, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Matteo Pelosini, M.D.",
+            "author_affiliations": [
+                "Division of Haematology - Department of Oncology, Transplants and Advances in Medicine, University of Pisa, Pisa, Italy, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Flavio Baronti",
+            "author_affiliations": [
+                "Department of Computer Science, University of Pisa, Pisa, Italy, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Francesco Caracciolo",
+            "author_affiliations": [
+                "Division of Haematology - Department of Oncology, Transplants and Advances in Medicine, University of Pisa, Pisa, Italy, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sara Galimberti",
+            "author_affiliations": [
+                "Dept. of Oncology, Transplants and Advanced Technologies, University of Pisa, Pisa, Italy, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Edoardo Benedetti",
+            "author_affiliations": [
+                "Division of Haematology - Department of Oncology, Transplants and Advances in Medicine, University of Pisa, Pisa, Italy, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Federico Papineschi",
+            "author_affiliations": [
+                "Division of Haematology - Department of Oncology, Transplants and Advances in Medicine, University of Pisa, Pisa, Italy, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Enrico Orciuolo",
+            "author_affiliations": [
+                "Dept. of Oncology, Transplants and Advanced Technologies, Hematology, University of Pisa, Pisa, Italy, "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gabriele Buda",
+            "author_affiliations": [
+                "Dept. of Oncology, Transplants and Advanced Technologies, University of Pisa, Pisa, Italy, "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Antonina Starita",
+            "author_affiliations": [
+                "Department of Computer Science, University of Pisa, Pisa, Italy, "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mario Petrini, MD",
+            "author_affiliations": [
+                "Oncology, University of Pisa, Pisa, Italy"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-12T06:47:41",
+    "is_scraped": "1"
 }
