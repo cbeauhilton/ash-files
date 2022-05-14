@@ -1,8 +1,75 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1643",
-    "start_url_page_num": "1643",
     "doi": "https://doi.org/10.1182/blood.V116.21.581.581",
-    "url": "https://ashpublications.org/blood/article/116/21/581/66821/Next-Generation-Sequencing-Based-Identification-of?searchresult=1",
-    "datetime_link_obtained": "2022-04-24T12:33:21",
-    "is_scraped": "0"
+    "article_title": "Next Generation Sequencing Based Identification of Translocations In Clinical Acute Myeloid Leukemia Specimens ",
+    "article_date": "November 19, 2010",
+    "session_type": "Leukemias - Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis: Cytogenetics and Next Generation Sequencing in AML and CLL",
+    "abstract_text": "Abstract 581 Introduction: Acute Myeloid Leukemia (AML) is currently subclassified based on the presence of recurrent cytogenetic abnormalities. The 2008 WHO guidelines recognize seven such translocation events: t(8;21)(q22;q22), inv(16)(p13.1;q22), t(15;17)(q22;q12), t(9;11)(p22;q23), t(6;9)(p23;q34), inv(3)(q21q26.2), t(1;22)(p13;q13). Current clinical methods for the detection of translocations rely on low-resolution techniques such as conventional cytogenetics or fluorescence in-situ hybridization (FISH). Although FISH offers higher resolution compared with conventional cytogenetics, FISH is unable to detect novel translocation partners since break-apart probes detect only gene rearrangements of the target loci; this limitation is particularly problematic for genes known to undergo rearrangement with numerous partners, including the mixed myeloid leukemia gene ( MLL ) on 11q23 that is disrupted in up to 12% of AMLs and has over 80 known translocation partners. Here we describe a novel method based on hybrid capture enrichment, next generation sequencing, and bioinformatic analysis for identifying prognostically-significant translocations and gene mutations in AML. Methods: Biotinylated RNA capture probes were designed to 2X tile across introns and exons of all currently known genes implicated in AML risk assessment ( table 1 ) for a total target region of 1.0Mb. Approximately 5\u03bc g of patient genomic DNA, extracted from bone marrow samples of patients with AML and known recurrent cytogenetic abnormalities, was ligated with Illumina sequencing adapters, hybridized to the capture probes and enriched by the application of streptavidin-coated magnetic beads. Captured DNA was then eluted, amplified, and sequenced on an Illumina GAII genome analyzer using 60bp paired-end reads. The resulting paired-end reads were then aligned using MAQ to gene regions targeted by the capture probes. Aligned data were then used to identify chimeric single-end reads representing actual translocation boundaries via the SLOPE software package. These putative translocation sites were then validated by examining sequence pairs in which each of the two reads mapped near the chimeric sequence to construct contigs spanning the translocation boundaries. The contigs were aligned to build37 of the human genome to determine the identity and location of translocation partners. Results: As a proof of principle, we extracted DNA from the bone marrow of a patient with AML and a t(9:11) translocation detected by conventional cytogenetics. Approximately 18% of the sequence reads (9,302,232 reads) mapped to the regions targeted by the capture probes, with an average coverage of 1,100 fold. Without a priori knowledge of the actual translocation breakpoint, we identified a single MLLT3-MLL translocation (ch9:20345470-20345657; ch11:118,354,278-118,354,440 involving intron 9 of MLL and intron 7 of MLLT3 ). There was no evidence of mutations in other relevant genes targeted by the capture probes, including FLT3 , NPM1 , or CEBPA . Conclusion: We present a novel method for detection of prognostically-significant translocations in clinical AML specimens with single-base resolution, regardless of the translocation partner. While molecular methods such as inverse PCR, ligation-mediated PCR, and panhandle PCR are also capable of identifying translocations with single-base resolution, they are technically complex, time consuming, and generally not well-suited to clinical laboratory applications. By combining numerous capture probes spanning all currently known genes implicated in AML risk assessment in a single assay, the method has the capability of replacing multiple test methodologies including FISH, PCR, and Sanger sequencing. Compared with clinical full-genome sequencing, our targeted approach offers decreased cost, quicker turn-around time, and much simplified bioinformatic analysis. Furthermore, given the high sequence coverage, it will be possible to multiplex samples from different patients in a single assay, further reducing the cost of testing. Table 1. Targeted Capture Regions  Genes involved in translocations . Location . Mutated Genes . Location . RUNX1  12q22.12 CEBPA  19q13.1 CBFB  16p13.1 NPMN  5q35 RARA  17q12 c-kit  4q11 MLL  11q23 FLT3  13q12 NUP214  9q34 GATA1  Xp11.23 EVI1  3q26.2 NOTCH1  9q32 MKL1  22q13 KRAS  12p12.1 ABL  9q11.2 IDH1  2q33 IL3  5q31 LMO2  11p13 E2A  19p13.3   TAL1  1p32   Genes involved in translocations . Location . Mutated Genes . Location . RUNX1  12q22.12 CEBPA  19q13.1 CBFB  16p13.1 NPMN  5q35 RARA  17q12 c-kit  4q11 MLL  11q23 FLT3  13q12 NUP214  9q34 GATA1  Xp11.23 EVI1  3q26.2 NOTCH1  9q32 MKL1  22q13 KRAS  12p12.1 ABL  9q11.2 IDH1  2q33 IL3  5q31 LMO2  11p13 E2A  19p13.3   TAL1  1p32   View Large Disclosures: Armstrong: Cofactor Genomics: Employment.",
+    "topics": [
+        "leukemia, myelocytic, acute",
+        "massively-parallel genome sequencing",
+        "translocation (genetics)",
+        "polymerase chain reaction",
+        "dna",
+        "ccaat/enhancer binding protein alpha",
+        "ms-like tyrosine kinase 3",
+        "bone marrow specimen",
+        "dideoxy chain termination dna sequencing",
+        "interleukin-3"
+    ],
+    "author_names": [
+        "Eric J. Duncavage, MD",
+        "Haley Abel, Ph.D.",
+        "Jon Armstrong, MS",
+        "Sarah South",
+        "John D Pfeifer, MD, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Eric J. Duncavage, MD",
+            "author_affiliations": [
+                "Pathology, University of Utah, Salt Lake City, UT, USA, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Haley Abel, Ph.D.",
+            "author_affiliations": [
+                "Genetic Epidemiology, University of Utah, Salt Lake City, UT, UT, USA, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jon Armstrong, MS",
+            "author_affiliations": [
+                "Cofactor Genomics, Saint Louis, MO, USA, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sarah South",
+            "author_affiliations": [
+                "Department of Pathology, University of Utah, Salt Lake City, UT, USA, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John D Pfeifer, MD, PhD",
+            "author_affiliations": [
+                "Department of Molecular and Anatomic Pathology, Washington University, saint Louis, MO, USA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-14T21:36:34",
+    "is_scraped": "1"
 }

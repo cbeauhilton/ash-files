@@ -1,8 +1,45 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1644",
-    "start_url_page_num": "1644",
     "doi": "https://doi.org/10.1182/blood.V116.21.4733.4733",
-    "url": "https://ashpublications.org/blood/article/116/21/4733/66844/Multilevel-Modeling-to-Predict-Factors-Influencing?searchresult=1",
-    "datetime_link_obtained": "2022-04-24T12:33:23",
-    "is_scraped": "0"
+    "article_title": "Multilevel Modeling to Predict Factors Influencing the Length of Stay for An Inpatient Malignant Hematology Service ",
+    "article_date": "November 19, 2010",
+    "session_type": "Health Services and Outcomes Research",
+    "abstract_text": "Abstract 4733 Purpose: Inpatient care represents a significant cost and resource allocation issue for hospitals. The purpose of this study was to examine factors in an administrative dataset that might predict the length of stay (LOS) for inpatients with a variety of hematological malignancies and to create a simple predictive model. There is a lack of published models for this in malignant hematology patients. Methods: Data was obtained from the Discharge Abstract Database (DAD) maintained by Canadian Institute for Health Information (CIHI) for the years 2002\u20132005. The data abstracted included patient demographics, type and route of admission, length of stay, resource intensity weights (RIW) and a complexity code. The disease category/diagnosis is based on the case mix group (CMG) which is a simplified grouping of diseases based on the International Classification of Diseases (ICD) system. The Juravinski Hospital and Cancer Centre is a tertiary referral center dealing with all varieties of adult hematological malignancies including stem cell transplantation. The data for this study did not include patients who were treated with an allogeneic stem cell transplant. Potential factors collected on admission were modeled to be nested among individual patients using longitudinal multi-level modeling. Factors entered in the model included: age and age 2 , route of entry to the hospital (direct vs. emergency room vs. other), area of residence, gender, day of the admission (weekday vs. weekend) and diagnosis (CMG). We also added the number of previous admissions as a baseline variable. Institutional research ethics board approval was granted for this study. Results: Data was collected on 713 patients representing 1,739 admissions and 17,661 days of in-patient services. The number of admissions ranged from 1 to 15 with a mean of 2.5 and median 2.0 admissions per patient. The range for LOS was 1 to 155 days with mean of 10.6 days (SD 13.8) and median of 64 days. The median age of patients was 62.6 years with a range of 17\u201395 years, and 45% of patients were female. Thirty-nine percent of patients had a diagnosis related to a lymphoproliferative disorder or a chronic leukemia and 19 percent related to the administration of chemotherapy. Factors with non-significant B (slope) value were omitted from the model. Age is centered around the mean. Errors and residuals (\u03bc , r) have a mean of zero and a normal distribution. Age and previous number of admissions were the most important factors in predicting LOS. The final model for estimated LOS is as follows: LOS = 3.9658+\u03bc 0 +(0.2068+\u03bc 1 )(age-65)+(4.508+\u03bc 2 )(number of previous admissions) +r The variances for the different residuals have been estimated from the model as: \u03bc 0 =73.82, \u03bc 1 =0.2436 , \u03bc 2 =0.2436 and r=69.47. For each increment by 5 years above the average age, the LOS increases by 1 day and for each previous admission the LOS increases by 4.5 days. The Pseudo-R squared is approximately 0.50. Conclusion: Of the factors considered in this administrative database, age and the number of previous admissions were the only relevant factors at the time of admission which could predict LOS. This model represents a relatively simple method to estimate the LOS for patients with hematological malignancies admitted to a dedicated hematological unit. Such a model highlights patients at risk of prolonged LOS and may allow health care practitioners to focus on interventions geared towards shortening length of stay. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "length of stay",
+        "hematologic neoplasms",
+        "drug administration routes",
+        "allogeneic stem cell transplant",
+        "chemotherapy regimen",
+        "chronic leukemia",
+        "hematopoietic stem cell transplantation",
+        "lymphoproliferative disorders",
+        "cancer care facilities",
+        "international classification of diseases"
+    ],
+    "author_names": [
+        "Khalid Al-Saleh, MBBS, FRCPC",
+        "C. Tom Kouroukis, MD, MSc, FRCPC"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Khalid Al-Saleh, MBBS, FRCPC",
+            "author_affiliations": [
+                "Department of Oncology, McMaster University, Juravinski Hospital and Cancer Centre, Hamilton, ON, Canada"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "C. Tom Kouroukis, MD, MSc, FRCPC",
+            "author_affiliations": [
+                "Department of Oncology, McMaster University, Juravinski Hospital and Cancer Centre, Hamilton, ON, Canada"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-14T21:37:54",
+    "is_scraped": "1"
 }
