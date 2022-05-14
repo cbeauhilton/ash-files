@@ -1,8 +1,75 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1610",
-    "start_url_page_num": "1610",
     "doi": "https://doi.org/10.1182/blood.V114.22.3461.3461",
-    "url": "https://ashpublications.org/blood/article/114/22/3461/132749/CRLF2-JAK-Signaling-in-Adult-and-Pediatric-Acute?searchresult=1",
-    "datetime_link_obtained": "2022-04-24T11:17:07",
-    "is_scraped": "0"
+    "article_title": "CRLF2/JAK Signaling in Adult and Pediatric Acute Lymphoblastic Leukemia Is Highly Similar to BCR/ABL. ",
+    "article_date": "November 20, 2009",
+    "session_type": "DISORDERED GENE EXPRESSION IN HEMATOLOGIC MALIGNANCY INCLUDING DISORDERED EPIGENETIC REGULATION POSTER III",
+    "abstract_text": "Abstract 3461 Poster Board III-349 Introduction We and others recently identified the type I-like cytokine receptor CRLF2 as an oncoprotein in precursor B-cell acute lymphoblastic leukemia (B-ALL). Overexpression of CRLF2, which can occur through translocation to the IGH locus or interstitial deletion, is confined to B-ALL that lack rearrangements involving MLL, E2A, TEL, and BCR/ABL. Importantly, adults with B-ALL that overexpress CRLF2 have reduced disease-free survival compared to patients with similar karyotypes that do not overexpress CRLF2. In this study, we used high-throughput gene expression microarrays and publicly available data in the Gene Expression Omnibus (GEO) to characterize the epidemiology, transcriptional signatures and dysregulated pathways associated with CRLF2 overexpression. Methods We searched the GEO for pediatric B-ALL cases profiled on the Affymetrix U133 platforms (which contain the CRLF2 probe set 208303_s_at) and identified 9 applicable datasets (3 exclusively high-risk), totaling 1,253 samples. These datasets were individually normalized using robust multi-array average. Based on the assumption that CRLF2 over-expression would manifest as a bimodal distribution (one peak for the background levels and a smaller peak for the overexpressed levels), points falling 5 standard deviations outside a computed background mean were selected as CRLF2 positive. An equal number of underexpressed cases were selected and a student t-test was applied to identify differentially expressed genes associated with CRLF2. The resultant ranked list was compared with several other expression signatures using Gene Set Enrichment Analysis (GSEA). Sequencing data from patients was integrated where available to obtain genetic-genomic associations. Results Among the 3 pediatric datasets that included only high-risk patients, 52 (14.8%) of 351 B-ALL that lacked characteristic rearrangements had CRLF2 overexpression, compared with 23 (4.1%) of 559 cases in the six datasets that included both standard-risk and high-risk patients (p<0.0001). Two pediatric datasets ( GSE11877 and GSE12995 ) were selected for supervised analysis based on the presence of a clear subset of CRLF2 overexpressing cases (n=29 and n=8 respectively). Genes associated with CRLF2 overexpression in these datasets showed significant enrichment of a signature associated with CRLF2 overexpression in adult B-ALL (p<0.001 in both up-regulated and down-regulated sets). Furthermore, both pediatric signatures showed similarly striking enrichment of genes associated with BCR/ABL-expressing B-ALL, obtained from the Oncomine\u00ae database (p<0.001 in both up- and down-regulated sets). Lastly, when previously published data on Janus kinase (JAK) mutations in the GSE11877 cohort were integrated, 18 (90%) out of 20 patients harboring JAK mutations had CRLF2 over-expression; 16 (100%) of 16 harboring JAK2 mutations (p=0, below machine precision). This result was further supported by strong enrichment of the JAK-STAT signaling pathway (KEGG) in both expression signatures (p<0.001 in up-regulated sets). Conclusions The expression signature associated with CRLF2 overexpression is highly similar between children and adults, and consistent with the high-risk nature of disease in both age groups. The same signature is strongly associated with BCR/ABL-expressing B-ALL, suggesting that overlapping pathways are activated by tyrosine kinase signaling from BCR/ABL and mutated CRLF2/JAK. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "bcr-abl tyrosine kinase",
+        "burkitt's lymphoma",
+        "leukemia, lymphocytic, acute, childhood",
+        "signal transduction",
+        "leukemia, b-cell, acute",
+        "janus kinase",
+        "karyotype determination procedure",
+        "molecular profiling",
+        "oncogene proteins",
+        "protein tyrosine kinase"
+    ],
+    "author_names": [
+        "Kartik Mani, Ph.D.",
+        "Akinori Yoda, Ph.D.",
+        "Sabina Chiaretti",
+        "Robin Foa, MD",
+        "David M Weinstock, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Kartik Mani, Ph.D.",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Boston, MA, USA, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Akinori Yoda, Ph.D.",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Boston, MA, USA, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sabina Chiaretti",
+            "author_affiliations": [
+                "Cellular Biotechnologies and Hematology, Sapienza University, Rome, Italy, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Robin Foa, MD",
+            "author_affiliations": [
+                "Division of Hematology, University \u201cLa Sapienza\u201d, Rome, Italy, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David M Weinstock, MD",
+            "author_affiliations": [
+                "Memorial Sloan-Kettering Cancer Center, New York, NY, USA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-14T13:00:28",
+    "is_scraped": "1"
 }
