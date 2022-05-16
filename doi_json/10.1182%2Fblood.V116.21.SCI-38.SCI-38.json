@@ -1,8 +1,35 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1806",
-    "start_url_page_num": "1806",
     "doi": "https://doi.org/10.1182/blood.V116.21.SCI-38.SCI-38",
-    "url": "https://ashpublications.org/blood/article/116/21/SCI-38/70012/Systems-Biology-to-Predict-Platelet-Function?searchresult=1",
-    "datetime_link_obtained": "2022-04-24T19:16:43",
-    "is_scraped": "0"
+    "article_title": "Systems Biology to Predict Platelet Function ",
+    "article_date": "November 19, 2010",
+    "session_type": "Scientific Committee on Platelets: Systems Biology of Platelets",
+    "abstract_text": "Abstract SCI-38 Systems Biology seeks to provide patient-specific prediction of dynamic cellular response to multiple stimuli, critical information toward predicting risk, disease progression, or response to therapy. We deployed two distinct approaches, bottom-up and top-down analyses, to gain insight into platelet signaling. The bottom-up approach required a definition of reaction network and kinetic equations (topology), kinetic parameters, and initial concentrations in order to simulate platelet signaling. We developed a computational platelet model \u2013 assembled from 24 peer-reviewed platelet studies to yield 132 measured kinetic rate constants \u2013 that accurately predicts resting levels of cytosolic calcium, IP 3 , diacylglycerol, phosphatidic acid, phosphoinositol, PIP, and PIP 2 . The model accurately predicts the full transient calcium dynamics in response to increasing levels of ADP. In the first full stochastic simulation of single platelet response to ADP, the model provides an extremely accurate prediction of the statistics of the asynchronous [Ca] i spikes observed in single platelets. Specifically, this is the first work to provide a quantitative molecular explanation of the asynchronous calcium spiking observed in ADP-activated human platelets. We show the asynchronous spiking is a result of the fundamentally stochastic nature of signal transduction in cells as small as human platelets. Specific testable predictions have emerged about the requirement of high SERCA/IP 3 R ratios in functional platelets, limits on the concentration of calcium in the DTS, and relative potencies of PAR peptides and ADP. For functional phenotyping platelets, a top-down approach linking multiple inputs to functional outputs was used to understand how human platelets integrate diverse signals encountered during thrombosis. We developed a high-throughput platform that measures the human platelet calcium mobilization in response to all pairwise combinations of six major agonists. Agonists tested in this study were: convulxin (CVX; GPVI activator), ADP, the thromboxane analog U46619 , PAR1 agonist peptide (SFLLRN), PAR4 agonist peptide (AYPGKF), and PGE 2 (activator of IP and EP receptor). The calcium responses to single agonists at 0.1, 1, 10\u2032 EC50 and 135 pairwise combinations trained a neural network (NN) model to predict the entire 6-dimensional platelet response space. The NN model successfully predicted responses to sequential additions and 27 ternary combinations of [ADP], [convulxin], and [SFLLRN] (R=0.881). With 4077 NN simulations spanning the 6-dimensional agonist space, 45 combinations of 4\u20136 agonists (ranging from synergism to antagonism) were selected and confirmed experimentally (R=0.883), revealing a highly synergistic condition of high U46619 /PGE2 ratio, consistent with the risk of COX-2 therapy. Furthermore, pairwise agonist scanning (PAS) provided a direct measurement of 135 synergy values, thus allowing a unique phenotypic scoring of 10 human donors. Patient-specific training of NNs represent a compact and robust approach for prediction of cellular integration of multiple signals in a complex disease milieu. Either bottom-up models or top-down NN models are ideal for incorporation into systems biology simulations of thrombotic pathways under flow conditions. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "agonists",
+        "calcium",
+        "cyclooxygenase-2",
+        "diglycerides",
+        "dinoprostone",
+        "disease progression",
+        "peptides",
+        "phenotype determination",
+        "platelet function",
+        "receptor, par-1"
+    ],
+    "author_names": [
+        "Scott L. Diamond, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Scott L. Diamond, PhD",
+            "author_affiliations": [
+                "Institute for Medicine and Biology, University of Pennsylvania, Philadelphia, PA, USA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-16T21:39:55",
+    "is_scraped": "1"
 }
