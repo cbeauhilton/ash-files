@@ -1,8 +1,135 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1868",
-    "start_url_page_num": "1868",
     "doi": "https://doi.org/10.1182/blood.V116.21.2695.2695",
-    "url": "https://ashpublications.org/blood/article/116/21/2695/131789/Single-Cell-Network-Profiliing-SCNP-Signatures?searchresult=1",
-    "datetime_link_obtained": "2022-04-24T21:18:01",
-    "is_scraped": "0"
+    "article_title": "Single-Cell Network Profiliing (SCNP) Signatures Independently Predict Response to Induction Therapy In Older Patients with Acute Myeloid Leukemia (AML) ",
+    "article_date": "November 19, 2010",
+    "session_type": "Leukemias - Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis: Poster II",
+    "abstract_text": "Abstract 2695 Background: Age and cytogenetics are major determinants of outcome in older patients with AML. Complete response (CR) to induction chemotherapy is observed in less than half of de novo AML patients (excluding APL) older than 60 years. Because unfavorable treatment results are often obtained despite intensive chemotherapy, which carries the potential for significant treatment-induced morbidity and mortality, it would be valuable to be able to predict with high accuracy at the individual patient level who will achieve a CR. Prospective identification of patients unlikely to benefit from anthracycline/cytarabine-based chemotherapy could spare patients from unnecessary treatment-related toxicities and allow consideration for alternative therapeutic strategies. Single Cell Network Profiling (SCNP) is used to measure simultaneously the effects of multiple modulators (including drugs) on signaling cascades at the single cell level. Using SCNP technology we have developed a set of classifiers that predict for likelihood of response to anthracycline/cytarabine-based induction therapy in older patients with AML. Methods: SCNP assays were performed on paired, bone marrow (BM) and peripheral blood (PB), samples from 44 AML patients (de novo, evolved from an antecedent MDS or MPN or treatment related), >60 years old, enrolled on ECOG trial E3999. Based on two previous training studies, 38 combinations of modulators and intra-cellular proteins (signaling nodes along the phosphoinositide 3-kinase (P13K ), the Janus Kinases (Jak) signal transducers and activators of transcription (Stat) and the DNA damage response and apoptosis pathways) were investigated. Basal and modulated protein levels and the effect of modulation on proteins levels in the leukemic blast cells were expressed using a variety of metrics. A total of 64 node/metric combinations (dimensions) were used to build multi-parametric classifiers (ranging from 2 to 10 nodes/metrics) using different modeling methodologies (including random forest, boosting, lasso and a bootstrapped best subsets logistic modeling approach that shrinks regression coefficients (BBLRS)) able to predict the likelihood of response to induction therapy. The performance characteristics of the classifiers built on the BM samples were then evaluated independently on the paired PB samples. Results: Several promising models with high area under the operator/receiver curve (AUROC) values (indicating strong agreement between actual clinical responses and responses as predicted by the model) were developed based on SCNP proteomic read outs for BM samples. The observed and predicted values from the current best BBLRS model are shown in Figure 1 . The unadjusted AUROC of this model is 0.98 and the expected AUROC for the model when applied to an independent (validation) sample is 0.84. Five signaling nodes are represented in this model; they include nodes belonging to growth factor- induced survival pathways (PI3K, RAS/MAPK) as well as DNA damage response and apoptosis pathways. When the predictive accuracy of the lead SCNP classifier was compared to that of a model based on traditional clinical/molecular predictors (i.e. the combination of age, therapy-related AML, and karyotype) the adjusted AUROC of the SCNP classifier far surpassed that of the clinical predictors (adjusted AUROC=0.61 for clinical/molecular predictors vs. adjusted AUROC= 0.84 for the SCNP classifier). Finally, when the nodes in the best BBLRS model developed on data from BM samples were used to model read outs from the paired PB samples, the adjusted AUROC of the resulting BBLRS model was comparable to that of the model fit to BM samples. Conclusion: This training set data show the value of performing quantitative SCNP under modulated conditions as the basis for developing highly predictive tests for response to induction chemotherapy. Most importantly, the predictions made by the SCNP classifier are independent of established prognostic factors, such as age and cytogenetics The ability of one set of nodes to accurately predict response in paired BM or PB samples from individual patients suggests that the predictive power of the SCNP assay is independent of sample source, further improving the practicality of the test. Independent validation studies are ongoing. Figure 1. View large Download slide Model score us. the predicted probability for the BBLRS model on the training data (unadjusted). Both the true outcome and the predicted probability (along with 95% confidence limits) of Complete Response (CR) are shown on the y-axis. Figure 1. View large Download slide Model score us. the predicted probability for the BBLRS model on the training data (unadjusted). Both the true outcome and the predicted probability (along with 95% confidence limits) of Complete Response (CR) are shown on the y-axis.  Close modal Disclosures: Cesano: Nodality Inc.: Employment, Equity Ownership. Putta: Nodality Inc.: Employment, Equity Ownership. Gayko: Nodality Inc.: Employment, Equity Ownership. Hackett: Nodality Inc.: Consultancy. Rosen: Nodality Inc.: Employment, Equity Ownership.",
+    "topics": [
+        "leukemia, myelocytic, acute",
+        "neoadjuvant therapy",
+        "older adult",
+        "complete remission",
+        "anthracycline antibiotics",
+        "chemotherapy regimen",
+        "chemotherapy, neoadjuvant",
+        "cytarabine",
+        "janus kinase",
+        "karyotype determination procedure"
+    ],
+    "author_names": [
+        "Alessandra Cesano, MD",
+        "Santosh Putta, Ph.D.",
+        "Urte Gayko, Ph.D.",
+        "James Hackett, Ph.D.",
+        "David B. Rosen, PhD",
+        "Larry Cripe, MD",
+        "Zhuoxin Sun, PhD",
+        "Hajime Uno, PhD",
+        "Mark R. Litzow, MD",
+        "Martin S. Tallman, MD",
+        "Elisabeth Paietta, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Alessandra Cesano, MD",
+            "author_affiliations": [
+                "Nodality Inc., South San Francisco, CA, USA, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Santosh Putta, Ph.D.",
+            "author_affiliations": [
+                "Nodality Inc., South San Francisco, CA, USA, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Urte Gayko, Ph.D.",
+            "author_affiliations": [
+                "Nodality Inc., South San Francisco, CA, USA, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "James Hackett, Ph.D.",
+            "author_affiliations": [
+                "Nodality Inc., South San Francisco, CA, USA, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David B. Rosen, PhD",
+            "author_affiliations": [
+                "Nodality Inc., South San Francisco, CA, USA, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Larry Cripe, MD",
+            "author_affiliations": [
+                "Indiana University Cancer Center, Indianapolis, IN, USA, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Zhuoxin Sun, PhD",
+            "author_affiliations": [
+                "School of Public Health, Harvard, Boston, MA, USA, "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hajime Uno, PhD",
+            "author_affiliations": [
+                "School of Public Health, Harvard, Boston, MA, USA, "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mark R. Litzow, MD",
+            "author_affiliations": [
+                "Mayo Clinic, Rochester, MN, USA, "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martin S. Tallman, MD",
+            "author_affiliations": [
+                "Leukemia Service, Memorial Sloane-Kettering Cancer Center, New York, NY, USA, "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elisabeth Paietta, PhD",
+            "author_affiliations": [
+                "North Division, Montefiore Medical Center, Bronx, NY, USA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-17T18:36:29",
+    "is_scraped": "1"
 }
