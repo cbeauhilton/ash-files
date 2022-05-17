@@ -1,8 +1,95 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1884",
-    "start_url_page_num": "1884",
     "doi": "https://doi.org/10.1182/blood.V118.21.2462.2462",
-    "url": "https://ashpublications.org/blood/article/118/21/2462/70322/Identification-of-Novel-Point-Mutations-in?searchresult=1",
-    "datetime_link_obtained": "2022-04-24T21:40:38",
-    "is_scraped": "0"
+    "article_title": "Identification of Novel Point Mutations in Splicing Sites by the Integration of Exome and RNA Sequencing Data in Myeloproliferative Diseases ",
+    "article_date": "November 18, 2011",
+    "session_type": "603. Oncogenes and Tumor Suppressors: Poster II",
+    "abstract_text": "Abstract 2462 Point mutations in intronic regions near mRNA splice junctions can affect mRNA splicing, altering the resulting RNA sequence. The molecular characterization of in-frame or out-of-frame splicing variants in cancer samples can potentially assist in the molecular characterization of tumors. The aim of this study was to identify mutations located in the 5' or 3' exon-intron borders that affect RNA splicing using whole-exome sequencing analysis, a technique that targets coding sequences but also include the nearby intronic regions. In order to identify novel (in-frame and out-of-frame) splicing variants in myeloproliferative disorders we developed a bioinformatics procedure \u2018Splice-Site Prediction Procedure to analyze Next Generation Sequencing data\u2019 (SSPP-NGS). The SSPP-NGS bioinformatics method is an integration of two functional annotation tools for high-throughput sequencing data, ANNOVAR and MutationTaster and two canonical splice-site analysis tools, NetGene2 and Neural Network Promoter Prediction Tool (NNPPT). In addition, to assess the phenotypic effects of intronic mutations on mRNA splicing we combined DNA mutational screening analysis with RNA-Seq mediated gene expression profiling. Whole genome expression analysis was performed by using TopHat and Cufflinks: the first one is a splice junction mapper for RNA-Seq experiments able to mapp the reads against the junction to confirm them; the second one estimates gene expression, isoform-level expression, transcript abundance, differential gene expression and splicing. We used ANNOVAR and MutationTaster based on statistical Naive Bayes classifier to predict the non-coding mutations that affected physiological splicing. We then confirmed the results by queering NetGene2 and NNPPT using default parameters. Only the predictions found in all three programs were accepted as putative splicing variants and sequenced by Sanger method. We applied the entire procedure to whole exome sequencing data from 1 Ph+ leukemic patient sample (>80% myeloid cells) matched to autologous normal lymphocytes: on average, 70 million of paired-end reads and 5.2 gigabases (Gb) of sequences were generated per sample. A total of 177 candidate somatic point mutations (with minimum read depth of 20, minimum percent of substitution equal to 25% and minimum average Phred quality score of 30, corresponding to an accuracy of 99.9%, confirmed by at least 6 individual sequences) were found: 82/177 annotated in coding regions and 95/177 in non-coding regions. In particular 5/95 were located within 10-bp from a splicing junction. SSPS-NGS prediction analysis suggested the presence of 1/5 potential splicing site (predicting a loss of physiologic donor splicing site), while 4/5 were annotated as polymorphisms. The hypothetical splicing variant was located near the 5' donor splice site at position +1 in the intron between exons 5 and 6 of the GNAQ gene (IVS5+1C->T); it was present with a frequency of mutation of 35%, corresponding to its heterozygous presence in 88% of cells. The presence of this heterozygous mutation was confirmed by Sanger method. SSPS-NGS allowed us to focus on transcriptional analysis of this gene. RNA-seq analysis showed that 73% of GNAQ mRNA effectively skipped the upstream exon 5, resulting in a 4 to 6 frameshift fusion, which likely destroys the GTPase activity of GNAQ. No evidence of GNAQ exon 5 deleted RNA was found in additional 7 patients analyzed who lacked the intronic mutation. We extended the SSPN-NGS analysis to 7 myeloproliferative patients analyzed by exome sequencing. Three novel heterozygous splicing variants were identified, affecting the HOOK1, SMAD9 and DNAH9 genes. All mutations were confirmed by Sanger method. SSPS-NSG analysis predicted 1 loss of donor site in-frame (DNAH9) and 2 loss of acceptor splice site out of frame (HOOK1 and SMAD9), in one case with an activation of a new cryptic splicing site (HOOK1). RNA-seq analysis is in progress. In conclusion, the work presented here showed the applicability of SSPPs-NGS to whole-exome sequencing data as a tool to complement exome analysis, in order to identify novel splicing variants. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "exome",
+        "myeloproliferative disease",
+        "point mutation",
+        "rna splicing",
+        "sequence analysis, rna",
+        "massively-parallel genome sequencing",
+        "rna",
+        "rna, messenger",
+        "cancer",
+        "complement system proteins"
+    ],
+    "author_names": [
+        "Roberta Spinelli, M.Sc.",
+        "Rocco Piazza, MD, PhD",
+        "Hima Raman, M.Sc.",
+        "Alessandra Pirola, M.Sc.",
+        "Simona Valletta, M.Sc.",
+        "Alessandra Stasia, MD",
+        "Carlo Gambacorti-Passerini, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Roberta Spinelli, M.Sc.",
+            "author_affiliations": [
+                "Dept. of Clinical Medicine, University of Milano-Bicocca, Monza, Italy, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rocco Piazza, MD, PhD",
+            "author_affiliations": [
+                "Division of Hematology, San Gerardo Hospital, Monza, Italy, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hima Raman, M.Sc.",
+            "author_affiliations": [
+                "Dept. of Clinical Medicine, University of Milano-Bicocca, Monza, Italy, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alessandra Pirola, M.Sc.",
+            "author_affiliations": [
+                "Dept. of Clinical Medicine, University of Milano Bicocca, Monza, Italy"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Simona Valletta, M.Sc.",
+            "author_affiliations": [
+                "Dept. of Clinical Medicine, University of Milano Bicocca, Monza, Italy"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alessandra Stasia, MD",
+            "author_affiliations": [
+                "Dept. of Clinical Medicine, University of Milano-Bicocca, Monza, Italy, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Carlo Gambacorti-Passerini, MD",
+            "author_affiliations": [
+                "Division of Hematology, San Gerardo Hospital, Monza, Italy, "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-17T21:34:47",
+    "is_scraped": "1"
 }
