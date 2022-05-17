@@ -1,8 +1,85 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1841",
-    "start_url_page_num": "1841",
     "doi": "https://doi.org/10.1182/blood.V116.21.1864.1864",
-    "url": "https://ashpublications.org/blood/article/116/21/1864/111553/Transcriptome-Analysis-of-Differentiating?searchresult=1",
-    "datetime_link_obtained": "2022-04-24T20:21:54",
-    "is_scraped": "0"
+    "article_title": "Transcriptome Analysis of Differentiating Erythroid Progenitors in Refractory Anemia with Ringed Sideroblasts ",
+    "article_date": "November 19, 2010",
+    "session_type": "Myelodysplastic Syndromes: Poster I",
+    "abstract_text": "Abstract 1864 Refractory anaemia with ring sideroblasts (RARS) represents one subtype of the myelodysplastic syndrome characterized by apoptosis of erythroid precursors and accumulation of aberrant mitochondrial ferritin. Gene expression profiling (GEP) has revealed significant dysregulation of genes involved in iron transport and mitochondrial and erythroid function (Nikpour et al, 2010) but no specific mutations have been identified. Generally, dysregulation increases with forced differentiation indicating alterations of underlying transcription factors. To further explore the molecular mechanisms in RARS, we examined the transcriptional profile associated with early erythroid maturation in NBM and RARS using RNA-Seq. RNA sequencing (RNA-Seq) is a novel method to analyze the full transcriptional activity of a cell or tissue. Expression levels of specific genes, differential splicing, allele-specific expression of transcripts can be accurately determined by RNA-Seq experiments to address many biological-related issues. Bone marrow aspirates were collected from a patient and a control and subjected to CD34+ separation. Cells were cultured for 4 days to allow for erythroid maturation. cDNA libraries were prepared from RNA extracted from these two time points (0 and 4 days), and thereafter sequenced on Life Technology's next generation sequencing platform SOLiD. Approximately 80 million reads were obtained for each library (see Table 1 ). Two sets of analyses were made; one blinded for position (PU) to allow for an unbiased analysis of data and one (MN) comparing position profiles with raised previous GEP findings. Table 1: Read mapping summary  Sample . Reads . (%) . unmapped . (%) . mapped . (%) . unique . (%) . multi . (%) . Control (CD34+) 80955215 100.0 60716780 75.0 20238435 25.0 16798556 20.8 3439879 4.2 Control (D4) 80054221 100.0 57483097 71.8 22571124 28.2 18021215 22.5 4549909 5.7 RARS (CD34+) 79567250 100.0 60107211 75.5 19460039 24.5 15650080 19.7 3809959 4.8 RARS (D4) 73764107 100.0 56064287 76.0 17699820 24.0 14040544 19.0 3659276 5.0 Sample . Reads . (%) . unmapped . (%) . mapped . (%) . unique . (%) . multi . (%) . Control (CD34+) 80955215 100.0 60716780 75.0 20238435 25.0 16798556 20.8 3439879 4.2 Control (D4) 80054221 100.0 57483097 71.8 22571124 28.2 18021215 22.5 4549909 5.7 RARS (CD34+) 79567250 100.0 60107211 75.5 19460039 24.5 15650080 19.7 3809959 4.8 RARS (D4) 73764107 100.0 56064287 76.0 17699820 24.0 14040544 19.0 3659276 5.0 View Large Reads were mapped to the human genome reference sequence (NCBI build version GRCh37) using the bowtie alignment program. To minimize expression level bias through the misclassification of transcripts, only uniquely mapping reads were retained for downstream analysis. Between 14 and 16 million uniquely mapping reads were obtained for each library. Gene models were defined on the genome based on annotations in the ensemble genome database release 58. Reads were associated with a gene if it overlapped any part of a gene, including introns. Furthermore, overlapping genes were removed, ensuring unique read-gene association. 38926 gene models were used in the analysis. Raw gene expression counts for each gene model were obtained as the number of reads that overlapped that gene model. Between 7 and 10 million reads were retained for further analysis. Differential gene expression analysis was done using the bioconductor package DESeq. We compared samples pairwise using a negative binomial statistical model to assess significant differential expression. We corrected for multiple testing using a false discovery rate of 0.1. The number of differentially expressed genes ranged from 10 (comparison Control D4-RARS D4) to 294 (comparison Control CD34+-RARS CD34+). Due to the lack of replicates, variance estimates are uncertain, leading to a lower number of inferred differentially expressed genes. Based on correlation of gene expression and the number of differentially expressed genes, samples could be clustered into two pairs, Control CD34+-RARS CD34+ and Control D4-RARS D4. In order to infer potential functional differences between the samples, we analyzed the function of the differentially expressed genes and performed gene category overrepresentation analysis, using the gene ontology classification system. Interestingly, several non-coding RNAs involved in eg miRNA processing were significantly down-regulated in both RARS positions, compared to NBM. We also identified dramatic dysregulation of two putative zinc finger transcription factors during erythroid differentiation. We conclude that high-quality transcriptome analysis at different time points during erythroid maturation is able to add significant new information to conventional gene expression profiling, which will lead to a more comprehensive understanding of the molecular pathogenesis of RARS. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "erythroid progenitor cells",
+        "gene expression profiling",
+        "refractory anemia with sideroblasts",
+        "rna",
+        "transcription factor",
+        "bone marrow aspiration",
+        "dna, complementary",
+        "massively-parallel genome sequencing",
+        "micrornas",
+        "myelodysplastic syndrome"
+    ],
+    "author_names": [
+        "Per Unneberg",
+        "Maryam Nikpour",
+        "Liselotte Vesterlund",
+        "Monika Jansson",
+        "Juha Kere",
+        "Eva Hellstro\u0308m-Lindberg"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Per Unneberg",
+            "author_affiliations": [
+                "Karolinska Institute, Department of Biosciences and Nutrition, Stockholm, Sweden, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maryam Nikpour",
+            "author_affiliations": [
+                "Karolinska Institute, Department of Medicine, Centre of Experimental Hematology, Stockholm, Sweden"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Liselotte Vesterlund",
+            "author_affiliations": [
+                "Karolinska Institute, Department of Biosciences and Nutrition, Stockholm, Sweden, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Monika Jansson",
+            "author_affiliations": [
+                "Karolinska Institute, Department of Medicine, Centre of Experimental Hematology, Stockholm, Sweden"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Juha Kere",
+            "author_affiliations": [
+                "Karolinska Institute, Department of Biosciences and Nutrition, Stockholm, Sweden, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eva Hellstro\u0308m-Lindberg",
+            "author_affiliations": [
+                "Karolinska Institute, Department of Medicine, Centre of Experimental Hematology, Stockholm, Sweden"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-17T09:35:32",
+    "is_scraped": "1"
 }
