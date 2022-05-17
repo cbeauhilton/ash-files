@@ -1,8 +1,63 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1867",
-    "start_url_page_num": "1867",
     "doi": "https://doi.org/10.1182/blood.V116.21.2480.2480",
-    "url": "https://ashpublications.org/blood/article/116/21/2480/131769/Large-Scale-Integration-of-Gene-Profiling?searchresult=1",
-    "datetime_link_obtained": "2022-04-24T21:17:58",
-    "is_scraped": "0"
+    "article_title": "Large-Scale Integration of Gene Profiling Identifies TCF7L2/TCF4 as the Most Frequently Dysregulated Wnt Signaling Component In AML ",
+    "article_date": "November 19, 2010",
+    "session_type": "Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation: Poster I",
+    "abstract_text": "Abstract 2480 Acute myeloid leukemia (AML) represents one of the most genetically heterogeneous malignancies; however, some processes are commonly dysregulated. One of the most frequently dysregulated processes in AML is Wnt signaling. In solid cancers, aberrant Wnt signaling has been shown to promote cancer by increasing nuclear accumulation of \u03b2-catenin and with consequent activation of target genes. In AML, overexpression of \u03b2-catenin is also common; in addition however, patient studies and genetic models indicate that other components of the Wnt pathway are also commonly dysregulated and may mediate transcriptional changes independently of \u03b2-catenin. The aim of this study was to identify aberrantly regulated Wnt components and target genes in AML by interactome analysis of the AML Affymetrix GeneChip\u00ae 3` expression microarray datasets; a network building algorithm used to understand relationships between genes. Analysis and interpretation of microarray data is still both biologically and computationally challenging. To address this, we performed batch adjustment to the large scale AML dataset by merging gene expression profile (GEP) data derived from different database sources (including different array platforms). GEPs data were generated from our AML patients enrolled in two different AML NCRI-MRC UK clinical trials using two different Affymetrix platforms, HG-U133A (n=216) and HG-U133Plus2.0 (n=139). GEPs from normal CD34 + bone marrow samples were downloaded from ArrayExpress (n=26). In order to compare AML vs. normal haematopoietic GEP, all data were merged into a single dataset. Individual. CEL files were imported into Partek\u00ae Genomics Suite\u2122 and GC-RMA normalization was applied. Linear contrasts, mixed model analysis of variance with false discovery rate correction (P1.5 or <1.5 fold-change) were applied to the adjusted data followed by gene enrichment analysis using MetaCore\u2122 (GeneGo Inc). Batch adjustment was performed using Distance Weight Discrimination (DWD) method to the merged GEPs. Prior to further inferential and gene ontology testing, the DWD merged datasets showed significant reduction in the source of data bias with GEP clustered according to their biological variation rather than technical variation. As a result, we present a final list of 58 significant changes in the expression of Wnt related genes in AML. Enrichment by protein function analysis highlighted 8 Wnt transcription factors to be dysregulated ( TCF7L2/TCF4, MYC, NANOG, WT1, RUNX2, p300, TCF7, SMAD2 ), along with 5 receptors ( CD44, FZD3, FZD4, FZD5, LDLR ), 3 types of phosphatases (B56G, PR61-\u03b2, PPP2R5A) and other categories of Wnt related objects (n=33). Consistent findings were seen with previously established Wnt-associated genes specific to AML ( CD44, WT1, MYC ) showing that data sources from DWD adjustment was effective. We sought to evaluate the significant biological and functional relationships within the genes in the final dataset by transcription factor target modeling using MetaCore\u2122 Interactome tools. Direct network interaction uncovered TCF7L2/TCF4 as the most significantly upregulated Wnt transcription factor with concurrent high expression of its downstream Wnt responsive genes CD44, AXIN1, ID2 that were also present in the final list. Importantly, \u03b2-catenin is unlikely to contribute to this transcriptional activation due to the fact that our data showed increased transcription of \u03b2-catenin degradation complexes (or negative regulation of Wnt signalling). Specifically, RUVBL1, that directly increases \u03b2-catenin activity was significantly downregulated, whereas the other significantly overexpressed upstream genes ( APC, CSNK1E, AXIN1, WT1 ) are known to have inhibitory effect on \u03b2-catenin-mediated transcription. In summary, by using multiple GEP data from a large AML cohort in conjunction with robust statistical adjustments, we have identified TCF7L2/TCF4 mediated transcription as the most significant Wnt-regulated process to be altered in AML compared with normal blasts. We also predict that transcription of TCF7L2/TCF4 regulated genes is likely to be independent of \u03b2-catenin, supporting observations in genetic models which indicate that \u03b2-catenin (and \u03b3-catenin) are redundant for normal haematopoiesis and are not required for TCF-mediated transcription. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "gene expression profiling",
+        "signal transduction",
+        "tcf7l2 gene",
+        "cancer",
+        "cd44 antigens",
+        "homing-associated cell adhesion molecule",
+        "transcription factor",
+        "bone marrow specimen",
+        "cd34 antigens",
+        "complex"
+    ],
+    "author_names": [
+        "Siti Sarah Daud",
+        "Alan K Burnett, MD",
+        "Richard L Darley, PhD",
+        "Alex Tonks, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Siti Sarah Daud",
+            "author_affiliations": [],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alan K Burnett, MD",
+            "author_affiliations": [
+                "Department of Haematology, Cardiff University, Cardiff, United Kingdom"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Richard L Darley, PhD",
+            "author_affiliations": [
+                "Department of Haematology, Cardiff University, Cardiff, United Kingdom"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alex Tonks, PhD",
+            "author_affiliations": [
+                "Department of Haematology, Cardiff University, Cardiff, United Kingdom"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-17T15:50:30",
+    "is_scraped": "1"
 }
