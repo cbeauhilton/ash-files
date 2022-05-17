@@ -1,8 +1,225 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=1813",
-    "start_url_page_num": "1813",
     "doi": "https://doi.org/10.1182/blood.V116.21.299.299",
-    "url": "https://ashpublications.org/blood/article/116/21/299/112199/Detection-of-Novel-Mutations-In-MDS-AML-by-Whole?searchresult=1",
-    "datetime_link_obtained": "2022-04-24T19:17:07",
-    "is_scraped": "0"
+    "article_title": "Detection of Novel Mutations In MDS/AML by Whole Genome Sequencing ",
+    "article_date": "November 19, 2010",
+    "session_type": "Myelodysplastic Syndromes: Molecular Profiling as a Diagnostic and Prognostic Tool",
+    "abstract_text": "Abstract 299 Given the poor prognosis of secondary AML evolving from prior MDS and the limited knowledge of mutations that occur during transformation, we set out to comprehensively discover gene mutations that occur during MDS to AML transformation. To achieve this goal, we performed whole genome sequencing (WGS) of paired DNA samples from normal (skin) and tumor (bone marrow) specimens from a patient with MDS-derived AML. The patient was a 65 year old man who presented with pancytopenia and MDS (FAB RA, 4% myeloblasts, del(5q), -17, del(20q)). Three years later he became RBC transfusion dependent and had skin and bone marrow samples banked at Washington University after providing informed consent. His bone marrow biopsy was consistent with RAEB MDS (6% myeloblasts, del(5q), -17, del(20q)), and he subsequently received 4 cycles of decitibine and 2 cycles of lenalidomide before developing AML 2 years later (69% myeloblasts, del(5q), -17, del(20q)). He underwent an allogeneic BMT and died 1 year later. DNA libraries were prepared from the normal (skin) and flow sorted (CD45 dim, low side scatter) AML samples. Using 75\u2013100 bp paired-end reads on the Illumina platform, we generated 126.2 Gb and 101.7 Gb of sequence from the normal and tumor libraries, respectively. Aligned, deduplicated sequence provided 28.7\u00d7 (normal) and 26.5\u00d7 (tumor) haploid coverage of the genome, and >96% diploid coverage, using informative SNPs as a metric. Analysis of paired tumor and normal genome sequences allowed us to discriminate between inherited and acquired sequence variants. Indels and structural variants, including copy number alterations, inversions, and translocations were identified using a combination of SAMTools, Pindel, GATK, and Breakdancer algorithms. The cytogenetically visible monosomy 17 and del(20q) lesions were confirmed, and the del(5q) was resolved into 11 distinct interstitial deletions using WGS data. Single nucleotide resolution assembly was possible for 6 of the deleted segments on chromosome 5 and the chromosome 20 deletion which revealed microhomology at the breakpoints, implicating the error prone nonhomologous end joining repair pathway. Interestingly, the tumor suppressor genes APC and DCC were in separate micro-retained regions within larger deletions on chromosome 5, suggesting a selective pressure to retain two copies of these genes during AML progression. Of the 4.8M single nucleotide variants (SNVs) detected in the tumor genome, 33,006 were not found in databases or this patient's normal genome and are, therefore, potential somatic mutations. We identified 46 tier 1 high confidence (HC) SNVs (coding and splice site variants), 388 tier 2 HC SNVs (conserved non-coding variants), 2,185 tier 3 HC SNVs (variants in non-repetitive regions), and 5,862 tier 4 HC SNVs (all other variants). Tier 1 SNVs were prioritized for validation given their potential to be functionally significant. 22/46 Tier 1 HC SNVs were validated as acquired mutations in the AML sample using the 454 platform (5 synonymous, 1 nonsense, and 16 missense mutations). Only 1/22 SNVs has previously been found in myeloid cancers ( WT1 ). The mutant allele frequency of the 22 mutations ranged from 9\u2013100% in the tumor sample based on the 454 deep read counts, suggesting that the underlying heterogeneity that is common in de novo MDS persists during transformation to AML. By sequencing the 22 somatic SNVs in the MDS sample, we identified 10 mutations that were present in both the MDS and AML samples and 12 AML-specific mutations. The latter are likely to be important for MDS to AML evolution. By analyzing the mutant allele frequencies of all 22 SNVs, we predict that 1 dominant clone and 2 sub-clones coexist in the AML sample. All 22 genes with mutations are expressed in the AML sample but none of the 22 SNVs have recurrent mutations at the same nucleotide position in an additional 150 de novo MDS samples. Finally, the residual non-deleted allele of ACTR5 , located in the 2.5Mb minimally deleted region (MDR) on chromosome 20, is mutated during AML transformation, implicating it as a potential 20q tumor suppressor gene. Collectively, analysis of WGS data identified mutations in 21 genes not previously implicated in MDS or AML, identified 12 genes as potential drivers of evolution from MDS to AML, allowed for fine mapping of deletion breakpoints on chromosomes 5 and 20, and identified a potential tumor suppressor on the del(20q) MDR. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "bone marrow biopsy",
+        "bone marrow specimen",
+        "bone marrow transplantation, allogeneic",
+        "cancer",
+        "cd45 antigens",
+        "dna",
+        "erythrocyte transfusion",
+        "lenalidomide",
+        "leukemia, secondary acute",
+        "microbiology procedures"
+    ],
+    "author_names": [
+        "Matthew J. Walter",
+        "Dong Shen",
+        "Li Ding",
+        "Jin Shao",
+        "Sarah Witowski",
+        "Ken Chen",
+        "Daniel C. Koboldt",
+        "David J. Dooling",
+        "Rachel Maupin",
+        "Robert S. Fulton",
+        "Heather Schmidt",
+        "Michelle O'Laughlin",
+        "Michael D. McLellan",
+        "John Frater",
+        "Peter Westervelt",
+        "John F DiPersio",
+        "Elaine R Mardis",
+        "Richard Wilson",
+        "Timothy J Ley",
+        "Timothy Graubert"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Matthew J. Walter",
+            "author_affiliations": [
+                "Department of Medicine, Siteman Cancer Center, Washington University, Saint Louis, MO, USA, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dong Shen",
+            "author_affiliations": [
+                "The Genome Center, Washington University, St. Louis, MO, USA, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Li Ding",
+            "author_affiliations": [
+                "The Genome Center, Washington University, St. Louis, MO, USA, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jin Shao",
+            "author_affiliations": [
+                "Department of Medicine, Siteman Cancer Center, Washington University, Saint Louis, MO, USA, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sarah Witowski",
+            "author_affiliations": [
+                "Department of Medicine, Siteman Cancer Center, Washington University, Saint Louis, MO, USA, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ken Chen",
+            "author_affiliations": [
+                "The Genome Center, Washington University, St. Louis, MO, USA, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel C. Koboldt",
+            "author_affiliations": [
+                "The Genome Center, Washington University, St. Louis, MO, USA, "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David J. Dooling",
+            "author_affiliations": [
+                "The Genome Center, Washington University, St. Louis, MO, USA, "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rachel Maupin",
+            "author_affiliations": [
+                "The Genome Center, Washington University, St. Louis, MO, USA, "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Robert S. Fulton",
+            "author_affiliations": [
+                "The Genome Center, Washington University, St. Louis, MO, USA, "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Heather Schmidt",
+            "author_affiliations": [
+                "The Genome Center, Washington University, St. Louis, MO, USA, "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michelle O'Laughlin",
+            "author_affiliations": [
+                "The Genome Center, Washington University, St. Louis, MO, USA, "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael D. McLellan",
+            "author_affiliations": [
+                "The Genome Center, Washington University, St. Louis, MO, USA, "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John Frater",
+            "author_affiliations": [
+                "Department of Pathology, Siteman Cancer Center, Washington University School of Medicine, St. Louis, MO, USA, "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter Westervelt",
+            "author_affiliations": [
+                "Department of Medicine, Siteman Cancer Center, Washington University, Saint Louis, MO, USA, "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John F DiPersio",
+            "author_affiliations": [
+                "Department of Medicine, Siteman Cancer Center, Washington University, Saint Louis, MO, USA, "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elaine R Mardis",
+            "author_affiliations": [
+                "The Genome Center, Washington University, St. Louis, MO, USA, "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Richard Wilson",
+            "author_affiliations": [
+                "The Genome Center, Washington University, St. Louis, MO, USA, "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Timothy J Ley",
+            "author_affiliations": [
+                "Department of Medicine, Siteman Cancer Center, The Genome Center, Washington University, St. Louis, MO, USA"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Timothy Graubert",
+            "author_affiliations": [
+                "Department of Medicine, Siteman Cancer Center, Washington University, Saint Louis, MO, USA, "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-17T02:30:01",
+    "is_scraped": "1"
 }
