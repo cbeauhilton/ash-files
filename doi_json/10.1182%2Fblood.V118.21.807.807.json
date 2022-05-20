@@ -1,8 +1,75 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2067",
-    "start_url_page_num": "2067",
     "doi": "https://doi.org/10.1182/blood.V118.21.807.807",
-    "url": "https://ashpublications.org/blood/article/118/21/807/82955/Are-Gene-Expression-Signatures-Treatment-Specific?searchresult=1",
-    "datetime_link_obtained": "2022-04-25T07:40:21",
-    "is_scraped": "0"
+    "article_title": "Are Gene Expression Signatures Treatment Specific? ",
+    "article_date": "November 18, 2011",
+    "session_type": "651. Myeloma - Biology and Pathophysiology, excluding Therapy: Novel Insights into Clinical Behavior",
+    "abstract_text": "Abstract 807 FN2 Gene expression profiling (GEP) of newly-diagnosed cancer patients is now a routine task in the oncogenomic research using functional genomics platforms like microarray and next generation sequencing. These profiles are then utilized to derive gene expression signatures (GES) that can stratify patients according to survival groups using various statistical methodologies. This is an active area of research with important implications on clinical decision making and patient care. It is important to note that the treatment itself probably plays a major role in influencing outcome in cancer. Therefore, the GES may be specific to a particular treatment and may not be universally applicable in predicting survival of patients treated with different therapeutic regimen. We evaluated the impact of therapy on GES utilizing two large publicly available gene expression datasets from newly-diagnosed multiple myeloma (MM) patients generated using Affymetrix U133+2 microarrays. The dataset from University of Arkansas Medical Sciences (UAMS; Shaughnessy et al Blood 2007) has gene expression profile (GEP) from 569 patients treated on total therapy (TT)2 and TT3 protocols while the dataset from HOVON-65 trial contains GEO data from 320 patients treated with either the VAD or PAD regimen in equal numbers. The UAMS dataset was partitioned into training and validation sets. Using a combination of a network inspired univariate ranking procedure and ultra refined methods for variable selection we derived a sparse multivariate survival signature consisting of 40 genes that worked extremely well on the training set (p-value < e-16) as well as the validation set (p-value < e-5). Interestingly we saw the difference of performance between TT2 and TT3 induction arms. The p values were 0.002 for the TT2 induction arm while for the TT3 the p value was 0.02. On applying the signature to the whole HOVON-65 test set our signature worked only moderately well (p-value = 0.003). When the HOVON-65 dataset was split according to the induction treatment arms, the GES worked extremely well (p-value < e-5) in predicting the outcome in patients receiving VAD regimen but had no power to distinguish survival in patients receiving PAD regimen. We have evaluated the results on additional data sets that confirmed our observation from the HOVON study. To our knowledge this is the first clear demonstration of treatment specificity of GES. This data suggest that we may need to derive multiple therapy-specific GES to be applied to the patients to treat the new patient with therapy for which he/she is predicted to have best outcome. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "cancer",
+        "gene expression",
+        "gene expression profiling",
+        "massively-parallel genome sequencing",
+        "multiple myeloma",
+        "arm",
+        "conflict of interest",
+        "disclosure",
+        "functional genomics",
+        "genes"
+    ],
+    "author_names": [
+        "Parantu K Shah, PhD",
+        "Stephane Minvielle, PhD",
+        "Herve\u0301 Avet-Loiseau, MD, PhD",
+        "Cheng Li, PhD",
+        "Nikhil C. Munshi, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Parantu K Shah, PhD",
+            "author_affiliations": [
+                "Biostatistics and Computational Biology, Dana-Farber Cancer Institute, Boston, MA, USA, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephane Minvielle, PhD",
+            "author_affiliations": [
+                "Hematology, CHU de Nantes, Nantes, France, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Herve\u0301 Avet-Loiseau, MD, PhD",
+            "author_affiliations": [
+                "Hematology, CHU-Nantes, Nantes, France, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cheng Li, PhD",
+            "author_affiliations": [
+                "Biostatistics and Computational Biology, Dana-Farber Cancer Institute, Boston, MA, USA, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nikhil C. Munshi, MD",
+            "author_affiliations": [
+                "Hematology, VA Boston Healthcare System, Boston, MA, USA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-20T04:05:36",
+    "is_scraped": "1"
 }
