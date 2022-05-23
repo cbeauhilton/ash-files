@@ -1,8 +1,105 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2266",
-    "start_url_page_num": "2266",
     "doi": "https://doi.org/10.1182/blood.V120.21.4125.4125",
-    "url": "https://ashpublications.org/blood/article/120/21/4125/86752/The-Ex-Vivo-Expansion-of-Cytokine-Induced-Killer?searchresult=1",
-    "datetime_link_obtained": "2022-04-25T17:01:37",
-    "is_scraped": "0"
+    "article_title": "The Ex-Vivo Expansion of Cytokine Induced Killer (CIK) Cells Can Be Optimized Predicting Cell Expansion Dynamics by Means of Multivariate Statistical Data Analysis ",
+    "article_date": "November 16, 2012",
+    "session_type": "711. Cell Collection and Processing: Poster III",
+    "abstract_text": "Abstract 4125 Introduction and Aims. CIK cells are CD3+/CD56+ T lymphocytes known for their antitumour effect against several haematological malignancies and solid tumours. CIK cells are obtained ex-vivo by stimulating peripheral blood mononucleated cells (MNC) with IFN-gamma (day 0), IL-2, anti-CD3 monoclonal-antibody (day 1) and IL2 every 3 days from day 1 to the 21st when maximum expansion of CD3+/CD56+ is expected as firstly described by Negrin. The percentage of CIK cells at the end of expansion represents a criteria for batch release: if CIK cells are less than 40% of the bulk population at the end of the culture, the batch should be considered suboptimal for transplantation. We have analyzed cell expansion dynamics of 30 samples evaluating the composition of cells constituting the bulk. In 11 samples (37%) CIK percentage reached plateau on day 17 instead of day 21, and then started to decrease rapidly. We believe that it is fundamental for the operator to predict in advance the harvest day in which CIK cells reach the maximal concentration in the bulk. Thus, the aim of this study was to introduce a new approach to control and optimize the expansion process based on multivariate statistical data analysis in order to improve its quality. Methods. Multivariate Batch Statistical Process Control (BSPC) and regression models based on Bidirectional-Orthogonal Projections to Latent Structures (O2PLS) were applied for monitoring the expansion process. Phenotypical analysis of cell populations was performed by flow cytometry by measuring the following different cellular subsets (11 variables): total T lymphocytes (CD3+), T-Helper lymphocytes (CD3+4+), T-cytotoxic lymphocytes (CD3+8+), CIK cells (CD3+56+), NK cells (CD3\u201356+), T lymphocytes (CD3+56-), monocytes (CD14+), B lymphocytes (CD19+), granulocytes (CD33+) and the undifferentiated subset CD3\u201356-. BSPC allowed us to produce suitable control charts while to estimate the level of CIK cells on days 17 and 21 we built different O2PLS regression models using as predictors the descriptions of the cellular population of the previous days. The chained use of the obtained regression models enabled us to predict in advance unsatisfactory expansions. Results. The expansions having a percentage of CIK cells \u226540% were used to build different types of control charts. In particular, the charts based on DModX and on T2 resulted predictive in the detection of unsatisfactory expansions. Indeed the expansions having CIK <40% on day 17 or on day 21 showed at least one time point out of the control limits for the two charts ( Figure 1 ). Three O2PLS regression models were calculated. By considering the first three time points of expansion (day 0, day 4 and day 7), we obtained a regression model to estimate the CIK percentage on day 21 highly predictive (in Figure 2 we report the behavior of the model during cross validation). The interpretation of the model in terms of single measured variable pointed out that to estimate CIK percentage on day 21, only four out of eleven variables could be considered significant markers able to predict growth kinetic of CIK population during expansion. These variables are: the % of CIK cells on day 7, % of cytotoxic T lymphocytes on day 4 and % of NK at the beginning of the culture. Other two independent regression models were built to estimate CIK percentage on day 17 and on day 21 respectively These models used data collected until day 14 and resulted more accurate than the screening model. To validate the procedure based on the chained use of these three regression models, we tested it on three new batches. All new batches were correctly estimated as optimal or suboptimal at the end of the culture. Discussion. Multivariate statistical data analysis has been shown to be useful in generating suitable control charts and predictive models for biological experiments usually full of variables. In our study we showed that it is possible to predict the composition of the harvested population by considering the description of the cellular bulk population at the very early stages of the expansion realizing in advance if a batch will achieve acceptance criteria for release or not. The proposed approach is promising both for improving the quality of the process and for saving time and resources. Furthermore, the developed models are dynamics since they can be constantly refined by adding new data. View large Download slide View large Download slide Close modal View large Download slide View large Download slide Close modal Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "aldesleukin",
+        "cell growth",
+        "cytokine",
+        "data interpretation, statistical",
+        "flow cytometry",
+        "hematologic neoplasms",
+        "interferon type ii",
+        "monoclonal antibodies",
+        "screening",
+        "solid tumors"
+    ],
+    "author_names": [
+        "Francesco Rodeghiero",
+        "Cristina Zanon",
+        "Matteo Stocchero",
+        "Elena Albiero",
+        "Silvia Castegnaro",
+        "Katia Chieregato",
+        "Domenico Madeo",
+        "Giuseppe Astori"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Francesco Rodeghiero",
+            "author_affiliations": [
+                "Department of Cellular Therapy and Hematology, S. Bortolo Hospital, Advanced Cellular Therapy Laboratory, Vicenza 36100, Italy, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cristina Zanon",
+            "author_affiliations": [
+                "Fondazione Progetto Ematologia, (Hematology Project Foundation), Vicenza 36100, Italy, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matteo Stocchero",
+            "author_affiliations": [
+                "S-IN Soluzioni Informatiche, Vicenza 36100, Italy"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elena Albiero",
+            "author_affiliations": [
+                "Department of Cellular Therapy and Hematology, S. Bortolo Hospital, Advanced Cellular Therapy Laboratory, Vicenza 36100, Italy, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Silvia Castegnaro",
+            "author_affiliations": [
+                "Department of Cellular Therapy and Hematology, S. Bortolo Hospital, Advanced Cellular Therapy Laboratory, Vicenza 36100, Italy, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Katia Chieregato",
+            "author_affiliations": [
+                "Department of Cellular Therapy and Hematology, S. Bortolo Hospital, Advanced Cellular Therapy Laboratory, Vicenza 36100, Italy, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Domenico Madeo",
+            "author_affiliations": [
+                "Fondazione Progetto Ematologia, (Hematology Project Foundation), Vicenza 36100, Italy, "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Giuseppe Astori",
+            "author_affiliations": [
+                "Department of Cellular Therapy and Hematology, S. Bortolo Hospital, Advanced Cellular Therapy Laboratory, Vicenza 36100, Italy, "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-23T04:03:24",
+    "is_scraped": "1"
 }
