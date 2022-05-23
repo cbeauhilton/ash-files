@@ -1,8 +1,105 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2296",
-    "start_url_page_num": "2296",
     "doi": "https://doi.org/10.1182/blood.V120.21.1044.1044",
-    "url": "https://ashpublications.org/blood/article/120/21/1044/89202/Single-Cell-Trajectory-Detection-Orders-Hallmarks?searchresult=1",
-    "datetime_link_obtained": "2022-04-25T18:27:37",
-    "is_scraped": "0"
+    "article_title": "Single Cell Trajectory Detection Orders Hallmarks of Early Human B Cell Development ",
+    "article_date": "November 16, 2012",
+    "session_type": "203. Lymphocytes, Lymphocyte Activation and Immunodeficiency, including HIV and Other Infections: Poster I",
+    "abstract_text": "Abstract 1044 Background: Normal B cell development in the bone marrow (BM) is a seemingly well-understood, progressive process and thus represents a suitable test system in which to apply an algorithmic approach to modeling cellular differentiation. In humans, hematopoietic stem cells form lymphoid progenitor cells that develop into pro- then pre- B cells and finally those cells that escape negative selection become immature B cells that leave the BM for the peripheral immune organs. Flow cytometry can track these stages using the expression of immunophenotypic cell surface markers, including those for progenitors (CD34, CD38), early B cell populations (CD10), as well as those of more mature B cells (CD20, IgM). Expression of the B cell transcription factor PAX5, and immune diversity conferring enzymes terminal deoxynucleotidyl transferase (TdT) and recombination-activating gene (RAG) can also be tracked at the single cell level. Regulatory signaling by factors in the BM orchestrates critical checkpoints in the B cell developmental program, such as Interleukin (IL)-7-mediated STAT5 phosphorylation and signaling downstream the preB cell receptor/B cell receptor (BCR) (p-BLNK, p-Syk, p-PLC\u03b32, p-Erk). Successful coordination of these signals with immunoglobulin gene rearrangement results in a burst of proliferative expansion prior to maturation/exit to the periphery. Failure of any one of these processes results in B cell deletion while certain dysregulations driven by oncogenic processes can result in malignancy. While much of this core understanding has been founded in murine models, the rarity of early B cell progenitors and lack of genetic tools has complicated definition of B cell development in humans. Using 42 parameter mass cytometry in combination with a novel single-cell trajectory finding algorithm, we have now laid a human B cell developmental process in primary human BM to an unprecedented level of detail, mapping out the expression pattern of virtually all relevant B cell immunophenotypic markers as well as intracellular enzyme, transcription factor and regulatory modification simultaneously, at the single cell level. Methods: The mononuclear cell fraction of multiple healthy human marrows was characterized by simultaneously analyzing 42 antibody parameters with mass cytometry targeting a multitude of phenotypic markers, intracellular signaling molecules, hallmarks of cell cycle and apoptosis all in the context of in vitro perturbations relevant to B cell development (including IL-7 and BCR crosslinking). The resulting multidimensional data was modeled using a novel, scalable, robust graph-based trajectory algorithm that iteratively refines a solution trajectory using random landmarks to reduce variability. Populations of interest were prospectively isolated and a novel qPCR assay was created to quantitate immunoglobulin heavy chain (IgH) rearrangement in genomic DNA. Results/Conclusion: Modeling of the resulting data was undertaken using this algorithm (termed Wanderlust) that devised and ordered cellular relationships based on the average phenotypic progression from our defined starting point, in this case, CD34+CD38- hematopoietic stem cells, in order to calculate a developmental trajectory. The predicted trajectory was then used to inform a traditional 'gating' analysis of the data and provide a higher resolution view of human B cell development than previously published. It both confirmed established steps in human B cell progression, and importantly, revealed new populations of early B cell progenitors based on expression of CD34, CD38, CD24 and TdT. These populations were corroborated to be of B-lineage and ordered as predicted based on the progressive rearrangement of the IgH locus by qPCR of extracted genomic DNA. We aligned previously unregistered key developmental checkpoints such as STAT5 activation in response to IL-7 and proliferation in response preBCR expression with traditional immunophenotypic cell populations. While predicted in silico , and then molecularly verified and staged in vitro , these regulatory events all lay within discrete cell subsets that can now be demarcated using conventional cytometric methods. Together, this provides a backbone on which to further examine both healthy regulatory events as well as the corruption of this developmental process such as in malignant or immunodeficient states. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "antibodies",
+        "b cell development",
+        "cancer",
+        "cd20 antigens",
+        "cd34 antigens",
+        "dna",
+        "dna nucleotidylexotransferase",
+        "enzymes",
+        "flow cytometry",
+        "immunoglobulin heavy chains"
+    ],
+    "author_names": [
+        "Kara L. Davis, DO",
+        "Sean C Bendall, PhD",
+        "El-ad D. Amir",
+        "Erin F. Simonds, PhD",
+        "Astraea Jager",
+        "Angelica Trejo",
+        "Dana Pe'er, Ph.D.",
+        "Garry P. Nolan, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Kara L. Davis, DO",
+            "author_affiliations": [
+                "Pediatric Hematology/Oncology, Stanford University, Palo Alto, CA, USA, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sean C Bendall, PhD",
+            "author_affiliations": [
+                "Baxter Laboratory for Stem Cell Biology Department of Microbiology & Immunology, Stanford University, Stanford, CA, USA, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "El-ad D. Amir",
+            "author_affiliations": [
+                "Department of Biomedical Informatics, Columbia University, New York, NY, USA, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Erin F. Simonds, PhD",
+            "author_affiliations": [
+                "Department of Microbiology & Immunology, Stanford University School of Medicine, Stanford, CA, USA, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Astraea Jager",
+            "author_affiliations": [
+                "Baxter Laboratory for Stem Cell Biology, Stanford University, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Angelica Trejo",
+            "author_affiliations": [
+                "Stanford University, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dana Pe'er, Ph.D.",
+            "author_affiliations": [
+                "Biological Sciences, Columbia University, New York, NY, USA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Garry P. Nolan, PhD",
+            "author_affiliations": [
+                "Baxter Laboratory for Stem Cell Biology Department of Microbiology & Immunology, Stanford University, Stanford, CA, USA, "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-23T12:57:05",
+    "is_scraped": "1"
 }
