@@ -1,8 +1,55 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2257",
-    "start_url_page_num": "2257",
     "doi": "https://doi.org/10.1182/blood.V120.21.735.735",
-    "url": "https://ashpublications.org/blood/article/120/21/735/87582/SNP-Based-Bayesian-Networks-Define-Oral-Mucositis?searchresult=1",
-    "datetime_link_obtained": "2022-04-25T16:29:19",
-    "is_scraped": "0"
+    "article_title": "SNP-Based Bayesian Networks Define Oral Mucositis Risk in Patients Receiving Stomatotoxic Conditioning Regimens for Autologous Hematopoietic Stem Cell Transplantation ",
+    "article_date": "November 16, 2012",
+    "session_type": "721. Clinical Allogeneic Transplantation - Conditioning Regimens, Engraftment and Acute Transplant Toxicities: Toxicities",
+    "abstract_text": "Abstract 735 Oral mucositis (OM) is a clinically significant toxicity that occurs in approximately 40% of patients who receive standard conditioning regimens prior to autologous hematopoietic stem cell transplantation (aHSCT) as treatment for hematological malignancies. Not only does OM have broad symptomatic consequences, but its presence is associated with higher rates of local and systemic infection, longer hospital stays, and higher costs of care. Accurate prediction of patients at risk for OM would provide opportunities for directed prophylactic intervention. Given the biological complexities underlying OM pathogenesis, standard phenotypically directed risk assessment has largely defaulted to gene-based approaches. Typically candidate gene or genome-wide association studies (GWAS) have been used with mixed results. The former are hypothesis driven and thereby limited by current knowledge, while the latter are directed by expression thresholds and arbitrary linkages and, as such, are subject to high false-positive rates. In this study we applied a novel analytical approach in which we constructed a learned Bayesian network (BN) derived from single nucleotide polymorphism (SNP)-array outputs. Medical records of patients who underwent aHSCT for treatment of lymphoma or multiple myeloma (MM) at the DFCI from January 1, 2009, to July 1, 2010, were reviewed by trained study staff to identify individuals who did or did not develop OM (defined as > 2 consecutive days of a WHO score >2). Following informed consent, self-collected DNA (saliva) samples were obtained using a Genotek collection system. DNA was isolated and checked for quality. SNP arrays were processed using an Infinium DNA Analysis BeadChip (Illumina; \u223c1.1 million SNPs). One hundred fifty-three adult patients (mean age 57 yrs; 42% female; 98% Caucasian) were included in the training set. Eighty-two MM patients received high-dose melphalan and the remainder were treated with BCNU, cyclophosphamide and etoposide (lymphomas). One hundred two patients were OM-negative. An 82 SNP BN was developed and was found to have a predictive accuracy for OM of 99.3% and an area under (AU) the Receiver Operator Characteristic (ROC) curve of 99.7%. These results support the concept that BN present a novel and effective way to identify specific aggregates of SNPs which are strongly associated with the risk of developing side effects from chemotherapy regimens. The fact that BNs are learned, rather than directed, inclusive of all SNPs, and provide cross-validation as the network is being built, results in a robust predictive SNP cluster that is likely to be more accurate in subsequent validation studies than has been the case with more conventional approaches. Clinical application of this methodology should result in prospective identification of patients at high risk for OM and thereby direct appropriate prophylactic interventions. Disclosures: Sonis: Inform Genomics, Inc.: Consultancy, Equity Ownership, Founding Partner Other. Alterovitz: Inform Genomics, Inc.: Consultancy, Equity Ownership.",
+    "topics": [
+        "conditioning (psychology)",
+        "hematopoietic stem cell transplantation",
+        "oropharyngeal mucositis",
+        "single nucleotide polymorphism",
+        "dna",
+        "lymphoma",
+        "adverse effects",
+        "carmustine",
+        "chemotherapy regimen",
+        "cyclophosphamide"
+    ],
+    "author_names": [
+        "Stephen T. Sonis, DMD, DMSc",
+        "Joseph H. Antin, MD",
+        "Gil Alterovitz, Ph.D"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Stephen T. Sonis, DMD, DMSc",
+            "author_affiliations": [
+                "Brigham and Women's Hospital, Boston, MA, USA, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joseph H. Antin, MD",
+            "author_affiliations": [
+                "Division of Hematologic Malignancies, Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gil Alterovitz, Ph.D",
+            "author_affiliations": [
+                "Center for Biomedical Informatics, Harvard Medical School, Boston, MA, USA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-23T02:23:59",
+    "is_scraped": "1"
 }
