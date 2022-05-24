@@ -1,8 +1,115 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2350",
-    "start_url_page_num": "2350",
     "doi": "https://doi.org/10.1182/blood.V120.21.1451.1451",
-    "url": "https://ashpublications.org/blood/article/120/21/1451/102937/Dimensionality-Reduction-Reveals-Distinct-Shapes?searchresult=1",
-    "datetime_link_obtained": "2022-04-25T20:21:39",
-    "is_scraped": "0"
+    "article_title": "Dimensionality Reduction Reveals Distinct Shapes of Normal and Malignant Hematopoietic Cell Populations ",
+    "article_date": "November 16, 2012",
+    "session_type": "611. Leukemias - Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis: Poster I",
+    "abstract_text": "Abstract 1451 Simultaneously examining multiple epitopes in single cells has become increasingly useful as improvements are made to multi-parametric flow techniques. Increased parameterization has enabled subdivision of functionally distinct cell populations based on an increasing variety of physiological attributes. It has not only helped better define the landscape of \u201cnormal\u201d hematopoiesis, but also has been clinically applied in detection of minimal residual disease (MRD) in hematopoietic malignancies. Detection of rare \u201cabnormal\u201d cells is the crux of MRD-based risk stratification where sporadic residual cancer cells are identified through multi-parameter flow cytometry. Current methods for the detection and characterization of cellular populations are generally reliant on manual examination and targeted gating techniques. This approach relies almost entirely on prior knowledge and leaves little room for discovery of novel populations. As the number of parameter per cell increases there is a rising need for dimensionality reduction (DR) methods to resolve high dimensional data \u201cdown\u201d into a human-interpretable space. Classical DR, such as principle component analysis (PCA), fail to address the non-linear relationships in cellular phenotypes while newer approaches, such as spanning-tree progression of density normalized events (SPADE), have an inherent level of stochasticity that might adversely affect the robust separation of cellular phenotypes (i.e. discriminating healthy vs. diseased cells). Here, we present a novel algorithm that identifies and characterizes distinct cell populations, preserving the high dimensional information, but providing an interpretable visualization of their phenotypic relationships. This approach was applied to a cohort of normal human bone marrow (BM) specimens to discern a landscape of normal hematopoietic phenotypes. We then contrasted this to overlays of human leukemic bone marrow aspirates (AML and ALL) to understand the extent to which cancer corrupts the shape and form of the landscape. We illustrate the application for automated MRD detection in human leukemia ( Figure 1 ). Method: Our approach, CellSNE, is an adaptation of t-Distributed Stochastic Neighbor Embedding (t-SNE), a non-linear dimensionality reduction algorithm. CellSNE finds a low dimensional mapping of cells that preserves their pairwise distances in a high dimensional space. A distance between each cell to every other cell in the dataset is calculated, based on a vector defined by the combined values of cellular parameters measure. An optimization algorithm then searches for a projection of the points into 2D, in such a way that maximizes the similarity in pairwise distances between the high-dimensional and two dimensional spaces. The resulting 2D projection organizes the sample into subpopulations that conserve the shape and relative distances between each cell. View large Download slide View large Download slide Close modal Results/Conclusion: Application of CellSNE to healthy BM clearly separated cells based on their known immune subtype and was confirmed by manual analysis ( Figure 1 A). The results are robust across data collected from different individuals on different days as well as in analyses conducted using low numbers of single cell parameters, suggesting that healthy BM generally maintains the same cellular population characteristics (or \u201cshape\u201d) across samples. When applied to leukemic BM from patients with AML and ALL CellSNE demonstrates a unique cancer landscape (\u201cshape\u201d) for each patient that is dramatically different from normal ( Figure 1 B). It is critical to note that despite the overwhelming infiltration by cancer cells, rare \u201cnormal\u201d cell populations can still be discerned in the ALL BM. CellSNE succeeded in automatically identifying rare (<1%) abnormal ALL cells (tracked using a CellSNE independent parameter) in an otherwise normal BM ( Figure 1 C). As such, CellSNE achieves in identifying and characterizing rare cellular populations that can be applied in both normal and malignant hematopoiesis. Thus, it provides opportunities for the automated analysis of both large cytometry datasets and clinical MRD detection. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "bone marrow",
+        "bone marrow aspiration",
+        "cancer",
+        "conflict of interest",
+        "datasets",
+        "detection of minimal residual disease",
+        "disclosure",
+        "disease vectors",
+        "epitopes",
+        "flow cytometry"
+    ],
+    "author_names": [
+        "Sean C Bendall, PhD",
+        "El-ad D. Amir",
+        "Michelle Tadmor",
+        "Kara L. Davis, DO",
+        "Erin F. Simonds, PhD",
+        "Daniel Shenfeld",
+        "Jacob Levine",
+        "Garry P. Nolan, PhD",
+        "Dana Pe'er, Ph.D."
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Sean C Bendall, PhD",
+            "author_affiliations": [
+                "Baxter Laboratory for Stem Cell Biology Department of Microbiology & Immunology, Stanford University, Stanford, CA, USA, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "El-ad D. Amir",
+            "author_affiliations": [
+                "Department of Biomedical Informatics, Columbia University, New York, NY, USA, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michelle Tadmor",
+            "author_affiliations": [
+                "Department of Biological Sciences; Columbia Initiative in Systems Biology, Columbia University, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kara L. Davis, DO",
+            "author_affiliations": [
+                "Pediatric Hematology/Oncology, Stanford University, Palo Alto, CA, USA, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Erin F. Simonds, PhD",
+            "author_affiliations": [
+                "Department of Microbiology & Immunology, Stanford University School of Medicine, Stanford, CA, USA, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel Shenfeld",
+            "author_affiliations": [
+                "Department of Biological Sciences; Columbia Initiative in Systems Biology, Columbia University, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jacob Levine",
+            "author_affiliations": [
+                "Department of Biological Sciences; Columbia Initiative in Systems Biology, Columbia University, "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Garry P. Nolan, PhD",
+            "author_affiliations": [
+                "Baxter Laboratory for Stem Cell Biology Department of Microbiology & Immunology, Stanford University, Stanford, CA, USA, "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dana Pe'er, Ph.D.",
+            "author_affiliations": [
+                "Biological Sciences, Columbia University, New York, NY, USA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-24T04:06:23",
+    "is_scraped": "1"
 }

@@ -1,8 +1,105 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2352",
-    "start_url_page_num": "2352",
     "doi": "https://doi.org/10.1182/blood.V120.21.1755.1755",
-    "url": "https://ashpublications.org/blood/article/120/21/1755/102986/Whole-Genome-Sequencing-of-Four-CD34-Derived-iPSC?searchresult=1",
-    "datetime_link_obtained": "2022-04-25T20:21:47",
-    "is_scraped": "0"
+    "article_title": "Whole Genome Sequencing of Four CD34+-Derived iPSC Polycythemia Vera Clones From a Single Female ",
+    "article_date": "November 16, 2012",
+    "session_type": "635. Myeloproliferative Syndromes - Basic Science: Poster I",
+    "abstract_text": "Abstract 1755 Polycythemia vera (PV) is an acquired clonal hematopoietic disorder characterized by the JAK2 V617F somatic mutation, which, however, constitutes only a variable part of the PV clone. Even within the JAK2 V617F subclone, heterozygous and homozygous JAK2 V617F progenitors coexist. Further, family clustering of PV suggests the existence of predisposing germline mutations. The nature of these pre- JAK2 V617F somatic and germline mutations has not yet been identified, and the search for these predisposing genetic lesions using marrow and blood cells is hampered by their genetic heterogeneity. In order to overcome this obstacle, we generated 5 inducible pluripotent stem cell lines (iPSC) from the same PV female with different JAK2 genomic configuration (4 from CD34+ blood cells, one from marrow mesenchymal cells having germ-line DNA configuration). Genomic DNA was isolated from the cell lines, followed by whole genome sequencing (WGS) at >20X depth, and whole exome sequencing (WES) at >130X depth. We have developed a comprehensive WGS/WES pipeline for sequence alignment and variant calling. The major components are: a) Pre-processing and quality control of raw reads outputted from sequencing instruments; b) Align the read against the Human Genome Project reference using BWA (Burrows-Wheeler Aligner); c) Local realignment at indels using GATK (Genome Analysis Toolkit); d) Identify germline/somatic single nucleotide variants (SNVs), copy number variants (CNV) and structural variants (SV) using GATK, Varscan2, Breakdancer, CNVnator, and Pindel. The variant calls are intersected and merged. Calls detected by two or more algorithms are regarded as high confidence. Two somatic mutations, rs1047840, and rs3795677 were identified by WGS and WES in the CD34+ cell derived iPSCs. rs1047840 (E589K) is a SNP in EXO1 gene that encodes a protein with 5' to 3' exonuclease activity as well as an RNase H activity. EXO1 is involved in DNA mismatch repair and homologous recombination. rs1047840 conferred increased risk of breast, lung, and gastric cancer. rs3795677 (R64H) is a SNP in FMN2 gene, which is required for microtubule-independent chromatin positioning during metaphase. Interestingly, these two mutations are all common SNVs, and they are located in a duplicated region on 1q43. Whole genome analysis is ongoing to characterize and validate the complex mixture of SVs in this region, identify potential translocations and determine the exact genomic breakpoints. The variants will be validated in non-iPSC cells from the same individual to rule out iPSC artifacts. This work identifies somatic mutations in EXO1 and FMN2 , and CNVs in 1q43 as the potential genetic defects involved in the early pathogenesis of PV. It also demonstrates the value of combining WGS and WES for the identification of somatic mutations. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "clone cells",
+        "polycythemia vera",
+        "whole genome sequencing",
+        "dna",
+        "artifacts",
+        "burrow",
+        "exonuclease",
+        "gastric cancer",
+        "nucleotides",
+        "ribonuclease h"
+    ],
+    "author_names": [
+        "Lifeng Tian, PhD.",
+        "Lucie Piterkova, PhD",
+        "Linghua Wang, PhD",
+        "Zhaohui Ye, PhD",
+        "Linzhao Cheng, PhD",
+        "David A. Wheeler, PhD",
+        "Hakon Hakonarson, MD, PhD",
+        "Josef T Prchal, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Lifeng Tian, PhD.",
+            "author_affiliations": [
+                "The Center for Applied Genomics, Abramson Research Center, Children's Hospital of Philadelphia, Philadelphia, PA, USA, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lucie Piterkova, PhD",
+            "author_affiliations": [
+                "Hematology Division, University of Utah, Salt Lake City, UT, USA, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Linghua Wang, PhD",
+            "author_affiliations": [
+                "Human Genome Sequencing Center, Baylor College of Medicine, Houston, TX, USA, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Zhaohui Ye, PhD",
+            "author_affiliations": [
+                "Division of Hematology and Stem Cell Program in the Institute for Cell Egineering, Johns Hopkins University School of Medicine, Baltimore, MD, USA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Linzhao Cheng, PhD",
+            "author_affiliations": [
+                "Division of Hematology and Stem Cell Program in the Institute for Cell Egineering, Johns Hopkins University School of Medicine, Baltimore, MD, USA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David A. Wheeler, PhD",
+            "author_affiliations": [
+                "Human Genome Sequencing Center, Baylor College of Medicine, Houston, TX, USA, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hakon Hakonarson, MD, PhD",
+            "author_affiliations": [
+                "The Center for Applied Genomics, Abramson Research Center, Children's Hospital of Philadelphia, Philadelphia, PA, USA, "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Josef T Prchal, MD",
+            "author_affiliations": [
+                "Hematology Division, University of Utah, Salt Lake City, UT, USA, "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-24T04:09:29",
+    "is_scraped": "1"
 }
