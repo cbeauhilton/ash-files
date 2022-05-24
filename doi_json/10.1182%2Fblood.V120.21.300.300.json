@@ -1,8 +1,235 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2396",
-    "start_url_page_num": "2396",
     "doi": "https://doi.org/10.1182/blood.V120.21.300.300",
-    "url": "https://ashpublications.org/blood/article/120/21/300/102451/Mutations-in-PLCG1-Is-a-Frequent-Event-in?searchresult=1",
-    "datetime_link_obtained": "2022-04-25T21:40:26",
-    "is_scraped": "0"
+    "article_title": "Mutations in PLCG1 Is a Frequent Event in Cutaneous T-Cell Lymphomas ",
+    "article_date": "November 16, 2012",
+    "session_type": "622. Non-Hodgkin Lymphoma - Biology, excluding Therapy: Genomics",
+    "abstract_text": "Abstract 300 Background: Cutaneous T-cell lymphoma (CTCL) is a heterogeneous group of diseases characterized by clonal expansion of malignant T-cells in the skin. The two predominant clinical forms of CTCL are mycosis fungoides (MF) and Sezary syndrome (SS). Tumor-stage MF has an unfavorable prognosis with a 10-year survival of approximately 40%. The molecular pathogenesis of CTCL is still basically unknown, although some data suggest that signalling from T-cell receptor (TCR) is a driving force. However, the molecular mechanisms responsible for this activation have not been fully clarified. Methods: Based on the hypothesis that TCR activation may depend, at least in part, on somatic mutations, we have investigated this in a selection of genes belonging to TCR, or related pathways, such as NFkB, JAK/STAT, by means of deep sequencing. A Target Enrichment method using SureSelect system (Agilent) has been used to enrich in exons and regulatory regions of 524 genes belonging to these pathways. DNA from 2 tumoral-MF, 5 erythrodermic-MF and 4 SS patients, both normal and tumoral, were processed and sequenced with Genome Analyzer GA2 (Illumina) (PE-42bp). Sequencing data were first checked by FastQC and aligned to the human reference genome (GRCh37) using BWA and BFAST alignments. Somatic variants were identified using GATK. Thus, SNPs available at dbSNP 135 (hg19) and 1000 Genomes Project were filtered out from VCF output files. The GATK-QUAL field was employed for ranking selected somatic variants. Biological impact predictions for detected variants were obtained from Ensembl Variant Effect Predictor. Putative variants were manually reviewed and validated by capillary sequencing. Immunohistochemical analysis for NFAT, p50, p52 and STAT\u00b7p was also performed. qPCR-genotyping for specific variants was performed in a new cohort of 60 CTCL patients including SS and tumoral MFs. Results: Several mutations were found in essential genes belonging to pathways implicated in the Treg and Th17 regulatory pathways, NFkB and JAK/STAT, among others. PLCG1 was found mutated in three samples, two of them sharing the same mutation affecting one of the PLCG1 protein catalytic domains. This mutation was further analyzed by qPCR-genotyping in the new series of patients, being detected in 20% of samples. PLCG mutated cases showed a strong paraffin immunostaining for nuclear NFAT, p50 and p52. Additionally, immunological studies performed by flow cytometry in CTCL cell lines show aberrant coexpression of TH17 and Treg phenotypes. Conclusions: Activation of the TCR in CTCL might be partially dependent on the acquisition of somatic mutations in the coding region of genes known to play an essential role in T-cell differentiation processes and acquisition of TH17 and Treg phenotypes. Especially relevant is the finding that the catalytic domain of PLCG1 is frequently mutated in tumoral MF samples. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "lymphoma, t-cell, cutaneous",
+        "mutation",
+        "genotype determination",
+        "nf-kappa b",
+        "dna",
+        "flow cytometry",
+        "marfan syndrome",
+        "massively-parallel genome sequencing",
+        "mycosis fungoides",
+        "myxofibrosarcoma of skin"
+    ],
+    "author_names": [
+        "Pablo L Ortiz-Romero",
+        "Gonzalo Gomez-Lopez",
+        "Sagrario Go\u0301mez de Benito",
+        "Veronica Monsalvez",
+        "Jose P Vaque",
+        "Nerea Martinez",
+        "Ignacio Varela",
+        "Osvaldo Grana",
+        "Socorro M Rodri\u0301guez-Pinilla",
+        "Jose L. Rodriguez-Peralto",
+        "Miriam Rubio-Camarillo",
+        "Esperanza Martin",
+        "Miriam Mendez",
+        "Jose A Garcia-Marco",
+        "Mariano Provencio",
+        "Gaston Roustan",
+        "Mercedes Hospital",
+        "Lola Suarez",
+        "Orlando Dominguez",
+        "Miguel A. Piris",
+        "Margarita Sanchez-Beato"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Pablo L Ortiz-Romero",
+            "author_affiliations": [
+                "Hospital U. Doce de Octubre, Madrid, Spain, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gonzalo Gomez-Lopez",
+            "author_affiliations": [
+                "Spanish National Cancer Research Center (CNIO), Madrid, Spain, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sagrario Go\u0301mez de Benito",
+            "author_affiliations": [
+                "FIB. HU Puerta de Hierro-Majadahonda, Madrid, Spain, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Veronica Monsalvez",
+            "author_affiliations": [
+                "Hospital U. Doce de Octubre, Madrid, Spain, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jose P Vaque",
+            "author_affiliations": [
+                "Hospital U. Marque\u0301s de Valdecilla, IFIMAV, Santander, Spain, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nerea Martinez",
+            "author_affiliations": [
+                "Hospital U. Marque\u0301s de Valdecilla, IFIMAV, Santander, Spain, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ignacio Varela",
+            "author_affiliations": [
+                "Instituto Biomedicina y Biotecnologi\u0301a de Cantabria (IBBTEC), Santander, Spain, "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Osvaldo Grana",
+            "author_affiliations": [
+                "Spanish National Cancer Research Center (CNIO), Madrid, Spain, "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Socorro M Rodri\u0301guez-Pinilla",
+            "author_affiliations": [
+                "Fundacion Jimez Diaz, Madrid, Spain, "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jose L. Rodriguez-Peralto",
+            "author_affiliations": [
+                "Hospital U. Doce de Octubre, Madrid, Spain, "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Miriam Rubio-Camarillo",
+            "author_affiliations": [
+                "Spanish National Cancer Research Center (CNIO), Madrid, Spain, "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Esperanza Martin",
+            "author_affiliations": [
+                "Spanish National Cancer Research Center (CNIO), Madrid, Spain, "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Miriam Mendez",
+            "author_affiliations": [
+                "Hospital U. Puerta de Hierro-Majadahonda, Madrid, Spain"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jose A Garcia-Marco",
+            "author_affiliations": [
+                "Hospital U. Puerta de Hierro-Majadahonda, Madrid, Spain"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mariano Provencio",
+            "author_affiliations": [
+                "Hospital U. Puerta de Hierro-Majadahonda, Madrid, Spain"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gaston Roustan",
+            "author_affiliations": [
+                "Hospital U. Puerta de Hierro-Majadahonda, Madrid, Spain"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mercedes Hospital",
+            "author_affiliations": [
+                "Hospital U. Puerta de Hierro-Majadahonda, Madrid, Spain"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lola Suarez",
+            "author_affiliations": [
+                "Hospital U. Puerta de Hierro-Majadahonda, Madrid, Spain"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Orlando Dominguez",
+            "author_affiliations": [
+                "Spanish National Cancer Research Center (CNIO), Madrid, Spain, "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Miguel A. Piris",
+            "author_affiliations": [
+                "Hospital U. Marque\u0301s de Valdecilla, IFIMAV, Santander, Spain, "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Margarita Sanchez-Beato",
+            "author_affiliations": [
+                "FIB. HU Puerta de Hierro-Majadahonda, Madrid, Spain, "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-24T18:39:39",
+    "is_scraped": "1"
 }
