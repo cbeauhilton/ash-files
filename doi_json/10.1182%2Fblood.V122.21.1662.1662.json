@@ -1,8 +1,75 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2441",
-    "start_url_page_num": "2441",
     "doi": "https://doi.org/10.1182/blood.V122.21.1662.1662",
-    "url": "https://ashpublications.org/blood/article/122/21/1662/12392/Clonal-Diversity-Analysis-Of-Integrating-Vector?searchresult=1",
-    "datetime_link_obtained": "2022-04-25T23:22:13",
-    "is_scraped": "0"
+    "article_title": "Clonal Diversity Analysis Of Integrating Vector Transduced Hematopoietic Cells Using LAM-PCR Followed By Illumina-Based Next-Generation Sequencing Is Affected By False Positivity That Arises From Both Reaction Biochemistry and Bioinformatic Analysis ",
+    "article_date": "November 15, 2013",
+    "session_type": "801. Gene Therapy and Transfer: Poster I",
+    "abstract_text": "We have previously reported that LAM-PCR libraries derived from non-vector transduced NSG repopulating cells, even those proven negative by high-resolution gel analysis, subsequently prepared following standard Illumina library preparation and sequencing protocol, yielded thousands of reads that contained full length LTR (30nt) fragments, met all quality control filters, were mappable to loci within the human genome, and were thus indistinguishable from true reads. We observed 430,385 of these reads in two mocks, with one having 106 identified vector insertion sites (VIS) and the other 27. To determine the source of this mock positivity, we modified our LAM biochemistry to include a 6nt barcode sequence in the linker fragment that could provide a second identity verification in addition to the Illumina adaptor index (double-indexing). Now when we performed LAM-NGS we were able to filter out any read where the linker barcode did not match with the identified Illumina index, which resulted in the elimination of all but 2 reads, neither of which could be mapped. As the sequencing libraries generated from the vector treated NSG repopulating cell LAM-PCR products were also double-indexed, we could identify any read that had been assigned to the incorrect source (mis-indexing). This occurred at a rate of approximately 0.1-1% in polyclonally reconstituted animals, but could be as high as 100% in mice with one or two identified VIS. This risk of mis-indexing appears constant, such that reads derived from vector insertion sites with the highest read counts are most likely to result in mock positivity, therefore the simple subtraction of the VIS found in mock will result in the loss of true signal and cannot be recommended. For any assay to be successfully translated to the clinic, one must have an understanding of its performance characteristics, so we sought to determine the sensitivity and specificity of the LAM-NGS assay. To this end, we developed a set of controls consisting of genomic DNA purified from mixtures of Jurkat cell clones that contained known VIS to derive LAM-NGS libraries of predictable complexity (a 15 VIS and a 32 VIS library). Using these controls with standard LAM-PCR/ Illumina biochemistry followed by standard bioinformatic analysis, even with the incorporation of the double indexing strategy to remove all mis-indexed reads, numerous predicted VIS still remain as false positive calls. Our 15 VIS control had a sensitivity of 100% but a specificity 21% (55 false positive of 70 total VIS identified), and our 32 VIS control performed even worse with a sensitivity/specificity of 53%/13% (119 false positive of 136 total VIS identified). Several factors were common to the non mis-indexed false positive reads: 1. False positive VIS usually arise from shorter reads (<90nt) which, due to the highly repetitive nature of the human genome, can be mapped to multiple locations or map better to different locations depending on how long the read is and 2. False positive VIS are more prevalent in reads with lower read counts (<100, with many of them =1) where a read is likely a synthesis artifact where regions of low complexity such as a run of poly-T will result in indels or other PCR induced artifacts such as chimera formation that alter the best mapping location. Neither of these criteria was sufficient as filters and many true VIS became undetectable when arbitrary limits were placed on read length or total read count. Using different mapping algorithms (we tested BLAT, BWA, BFast, and GSNAP), while altering the absolute number and where many of these false positive reads mapped, none could eliminate this problem and all showed some degree of both success and failure. By using a set of defined controls and double indexing biochemistry, we have been able to assess the sensitivity and specificity of the LAM-NGS assay and to elucidate the mechanism underlying much of the assay\u2019s false positivity. By using this double indexing strategy, we have eliminated mis-indexed reads, but false positivity from real reads mapped to incorrect locations as well as low numbers of reads arising from still unclear sources are present in the LAM-NGS assay. As much of these false positive reads are due to PCR artifact we are currently testing low PCR cycle approaches and as read length is also an issue, controlling LAM fragment size using sonication instead of restriction endonucleases is also being evaluated. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "biochemistry",
+        "bioinformatics",
+        "disease vectors",
+        "massively-parallel genome sequencing",
+        "polymerase chain reaction",
+        "spatial vectors",
+        "gel",
+        "false-positive results",
+        "artifacts",
+        "dna"
+    ],
+    "author_names": [
+        "Michael R. Greene, MD",
+        "Michael Rusch, BA",
+        "Chunlao Tang, PhD",
+        "Jinghui Zhang, PhD",
+        "Brian P. Sorrentino, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Michael R. Greene, MD",
+            "author_affiliations": [
+                "Hematology, St. Jude Children's Research Hospital, Memphis, TN, USA, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Rusch, BA",
+            "author_affiliations": [
+                "Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, USA, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chunlao Tang, PhD",
+            "author_affiliations": [
+                "Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, USA, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jinghui Zhang, PhD",
+            "author_affiliations": [
+                "Computational Biology, St. Jude Children's Research Hospital, Memphis, TN, USA, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brian P. Sorrentino, MD",
+            "author_affiliations": [
+                "Division of Experimental Hematology, St. Jude Children's Research Hospital, Memphis, TN, USA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-25T06:45:07",
+    "is_scraped": "1"
 }

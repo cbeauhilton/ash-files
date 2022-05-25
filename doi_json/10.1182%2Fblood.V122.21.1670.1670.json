@@ -1,8 +1,105 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2444",
-    "start_url_page_num": "2444",
     "doi": "https://doi.org/10.1182/blood.V122.21.1670.1670",
-    "url": "https://ashpublications.org/blood/article/122/21/1670/12459/Deep-Proteomic-Profiling-Predicts-Differential?searchresult=1",
-    "datetime_link_obtained": "2022-04-25T23:22:23",
-    "is_scraped": "0"
+    "article_title": "Deep Proteomic Profiling Predicts Differential Chemosensitivity In Anaplastic Large Cell Lymphoma Cell Lines ",
+    "article_date": "November 15, 2013",
+    "session_type": "802. Chemical Biology and Experimental Therapeutics: Poster I",
+    "abstract_text": "Background The lymphoma proteome is the phenotypic representation of the underlying genetic and epigenetic makeup of each individual patient's tumor. The proteome is rich in druggable targets and offers a unique opportunity for the hematologist to personalize therapy. We developed a deep proteomic profiling method using ion exchange fractionation and tandem mass spectrometry. In this pilot study, we applied this method to detect differentially expressed proteins in anaplastic large cell lymphoma (ALCL) cell lines with previously known (ALK-positive) and unknown (ALK-negative) therapeutic targets. We then asked whether integrative informatic analysis of these data could be used to predict drug sensitivity in each of the cell lines. Methods To examine reproducibility of our method, proteins were extracted independently from 4 pellets each of FE-PD (ALK-negative) and Karpas 299 (ALK-positive) ALCL cells, reduced with dithiothreitol, alkylated with iodoacetamide, and digested with trypsin. Resulting peptides were separated into 6 fractions using strong anion exchange (SAX) chromatography. Peptides in each fraction were analyzed via shotgun proteomics on a QExactive mass spectrometer. Peptide mass spectra (MS/MS) were matched against a RefSeq human protein sequence database using MyriMatch software. Reversed sequences were added to the database to measure identification false discovery rates (FDRs). IDPicker filtered the peptide identifications at 2% FDR. Proteins with at least two unique peptide identifications and five MS/MS matches were considered to be present in the sample. Filtered protein identifications and corresponding spectral counts were used as input to QuasiTel software, which was configured to use proteins with at least one spectrum per biological replicate. Proteins that were significantly differentially expressed (quasi p-value < 0.05) with an absolute log2 fold-change of at least 0.5 fold were loaded into the Ingenuity Pathway Analysis (IPA) software, and a master list of drugs and corresponding gene targets was assembled using PharmGKB database and the Drug-Gene Interaction Database (DGID). The resulting drug-gene target list was merged with the differentially expressed protein identifications. Candidate targets were validated by Western blot and candidate drugs were assessed in viability assays. Results The SAX-LC-MS/MS method identified 10,111 proteins from all replicate analyses of FE-PD and Karpas 299 samples, and 93% of the identified proteome was detected in all 4 replicate analyses. The detected proteome was well represented by key transcription factors, phophatases, kinases, translation regulators and transmembrane regulators. There were 1369 proteins differentially expressed between the 2 cell lines, 709 up regulated in Karpas 299 cell line and 673 up regulated in FE-PD. Differentially expressed proteins also showed consistent expression across the biological replicates ( Figure 1 ). Our integrated approach to identify candidate targets and drugs \u201crediscovered\u201d ALK in Karpas299 and unexpectedly identified relative overexpression of the IL2-IL2RA-STAT5A-STAT5B network in ALK-negative FE-PD cells. Western blot confirmed these findings. As expected, 50-100 nM crizotinib (ALK inhibitor) decreased Karpas 299 viability (p =0.016) but had no effect on FE-PD ( Figure 2 ). In contrast, 50-100 nM of the experimental STAT5 inhibitor 573108 (EMD Millipore) decreased FE-PD viability (p=0.002) but had no effect on Karpas 299 ( Figure 2 ). View large Download slide View large Download slide Close modal Figure 2 View large Download slide Cell survival assays of FE-PD and Karpas 299 with crizotinib and an experimental Stat5 inhibitor demonstrated differential sensitivity of the cell lines to drugs. Figure 2 View large Download slide Cell survival assays of FE-PD and Karpas 299 with crizotinib and an experimental Stat5 inhibitor demonstrated differential sensitivity of the cell lines to drugs. Close modal Conclusion The lymphoma proteome is complex with 10,000 proteins and contains druggable targets that can be reproducibly identified using SAX-LC-MS/MS. These targets vary across samples and integrated informatic analysis can predict target-drug combinations that have efficacy in an experimental model. These data suggest that SAX-LC-MS/MS could be used to personalize treatment regimens in lymphoma patients. Figure 1 : Spectral counts of 1369 differentially expressed proteins between Karpas299 and FE-PD cell lines were normalized and plotted in a heat map. Red color indicates down regulation and yellow color indicates up regulation. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "cell lines",
+        "chemosensitivity",
+        "ki-1+ anaplastic large cell lymphoma",
+        "peptides",
+        "proteome",
+        "crizotinib",
+        "lymphoma",
+        "mechlorethamine",
+        "western blotting",
+        "anions"
+    ],
+    "author_names": [
+        "Surendra Dasari, Ph.D",
+        "Kenneth L Johnson, BS",
+        "Carrie J. H. Hepplemann, BS",
+        "Ariel J Caride, PhD",
+        "Jason D Theis, BS",
+        "H. Robert Bergen, III, PhD",
+        "Ahmet Dogan, MD, PhD",
+        "Andrew L. Feldman"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Surendra Dasari, Ph.D",
+            "author_affiliations": [
+                "Department of Health Sciences Research, Mayo Clinic, Rochester, MN, USA, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kenneth L Johnson, BS",
+            "author_affiliations": [
+                "Mayo Proteomics Core, Mayo Clinic, Rochester, MN, USA, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Carrie J. H. Hepplemann, BS",
+            "author_affiliations": [
+                "Mayo Proteomics Core, Mayo Clinic, Rochester, MN, USA, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ariel J Caride, PhD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN, USA, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jason D Theis, BS",
+            "author_affiliations": [
+                "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN, USA, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "H. Robert Bergen, III, PhD",
+            "author_affiliations": [
+                "Proteomics Core, Mayo Clinic, Rochester, MN, USA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ahmet Dogan, MD, PhD",
+            "author_affiliations": [
+                "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN, USA, "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew L. Feldman",
+            "author_affiliations": [
+                "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN, USA, "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-25T06:48:49",
+    "is_scraped": "1"
 }

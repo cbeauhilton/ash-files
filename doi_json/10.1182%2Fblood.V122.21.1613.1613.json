@@ -1,8 +1,135 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2437",
-    "start_url_page_num": "2437",
     "doi": "https://doi.org/10.1182/blood.V122.21.1613.1613",
-    "url": "https://ashpublications.org/blood/article/122/21/1613/12015/Targeted-High-Throughput-Sequencing-For-The?searchresult=1",
-    "datetime_link_obtained": "2022-04-25T23:21:57",
-    "is_scraped": "0"
+    "article_title": "Targeted High-Throughput Sequencing For The Detection Of Mutations Associated With Myeloproliferative Neoplasms ",
+    "article_date": "November 15, 2013",
+    "session_type": "635. Myeloproliferative Syndromes: Basic Science: Poster I",
+    "abstract_text": "Background Myeloproliferative neoplasms (MPNs) are clonal hematopoietic stem cell disorders characterized by the proliferation of one or more myeloid cell lineages. Polycythemia vera (PV), essential thrombocythemia (ET) and primary myelofibrosis (PMF) are the classical types of Philadelphia negative MPN. The JAK2 V617F missense mutation is found in 95% of patients with PV and in 50-60% of patients with PMF or ET. Molecular screening for JAK2 V617F mutation in suspected MPN patients by pyrosequencing has become routine method in diagnostic services. With the introduction of new methods of screening, a growing number of mutations have been described in a range of genes that code for receptor structure proteins (MPL, JAK2 exon 12), intracellular signalling proteins ( CBL, SH2B3, NF1, SOCS1/3 ), proteins involved in leukemic progression ( TP53, NRAS/KRAS, NF1, IDH1/2 ), or epigenetic modifications ( EZH2, ASXL1, TET2 ). Molecular genetic screening for these targets in JAK2 V617F negative cases can be laborious, time-consuming and expensive, but the advent of benchtop-class high-throughput sequencers and custom target enrichment platforms gives the opportunity to test all relevant mutations in multiple genes in a single assay. Aims : To evaluate the Ion Torrent PGM high-throughput sequencer and custom AmpliSeq capture platform for the screening of most relevant MPN associated mutations in JAK2 V617F negative cases and validate candidate mutations using pyrosequencing. Methods 32 DNA samples (30 JAK2 V617F negative by pyrosequencing, 1 positive, 1 not tested) from patients with MPN disorders (thrombocytosis, neutrophilia or polycythemia) were screened (with appropriate ethical consent) for mutations using the Ion Torrent PGM sequencing platform. AmpliSeq multiplex primers were used for the target capture and the panel was designed via the online portal (v1.2), targeting 23 regions of 13 genes associated with MPN. The workflow involved library preparation and multiplex sample pooling following qPCR quantification (16 samples per run), emulsion PCR template preparation, Ion 318 chip loading and sequencing. Alignment and variant calling was via the Torrent Server 3.6.2 plugins, using custom coverage and hot-spot files to define the regions of interest. Variant calls were visualised using IGV and UCSC, and functionally annotated using CONDEL, Mutation Assessor and PROVEAN. Results 31 of the 32 samples were successfully sequenced, with a mean depth of 1049 reads and the FASTQC plugin indicated good quality sequencing metrics. All JAK2 V617F negative samples were called V617F negative by the PGM. The V671F positive control sample was called at a frequency of 18.1% (19% by pyrosequencing). The untested sample was called positive (10%) for JAK2 V617F and this was validated using pyrosequencing (11%). No MPL or JAK2 exon 12 mutations were detected. Novel SNPs were seen in CBL (Chr11:119149062; G>A; intron 8-9), JAK2 (Chr9:5072649; T>C; intron 13-14), SOCS3 (Chr17:76354148; C>G; 3\u2019UTR) and SH2B3 [(Chr12: 111856076; C>T; p.R43C) and (Chr12: 111856105; T>G; p.H52Q); both in exon 2]. Of these, the SH2B3 variants were flagged as deleterious (H52Q) and highly deleterious (R43C: SIFT=0; PPH2=0.998). Five samples (4 het, 1 hom) had a SNP in IDH1 associated with poor outcome in AML (rs11554137; MAF=0.05) and a further 6 samples had variants flagged as deleterious by at least one of the annotation platforms: one in SH2B3 [p.186I (rs183913232 )] and five in TET2 [2 samples with p.G355D (rs61744960); 2 with p.L34F (rs111948941) and one p.Y867H (COSM327337)]. Additionally, one sample with a TET2 L34F also had a COSMIC annotated JAK2 splice site variant (c.1864+14C>T; COSM88203). Summary This study shows the ability of the Ion Torrent PGM and AmpliSeq platforms to analyse qualitatively and quantitatively multiple samples for multiple genes with good accuracy and specificity (no false positives for V617F), making this qualitative and quantitative method more time and cost-effective than traditional sequencing techniques. Additionally, several potentially disease-associated variants were detected, which would have been missed by conventional MPN screening strategies and we are proposing to roll this approach out as a diagnostic screening in our MPN clinic in the very near future. Disclosures: Milojkovic: BMS: Honoraria; Pfizer: Honoraria; Ariad: Honoraria; Novartis: Honoraria. Apperley: Novartis: Honoraria, Research Funding; Bristol Myers Squibb: Honoraria; Pfizer, Ariad: Honoraria (not direct from company), Honoraria (not direct from company) Other.",
+    "topics": [
+        "mutation",
+        "myeloproliferative disease",
+        "emulsions",
+        "screening",
+        "pyrosequencing",
+        "dna",
+        "false-positive results",
+        "myelofibrosis, idiopathic, chronic",
+        "neutrophilia",
+        "polycythemia"
+    ],
+    "author_names": [
+        "Ferrari Robin, BSc",
+        "Sakuntala Ale",
+        "Aysha Patel, BSc",
+        "Mikel Valga\u00f1\u00f3n, PhD",
+        "Hui En Foong, MSc",
+        "Mary Alikian",
+        "Kikkeri Naresh",
+        "Dragana Milojkovic, PhD",
+        "Jane F Apperley, MD",
+        "Letizia Foroni, MD",
+        "Gareth Gerrard, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Ferrari Robin, BSc",
+            "author_affiliations": [
+                "Imperial Molecular Pathology, Imperial College London, London, United Kingdom, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sakuntala Ale",
+            "author_affiliations": [
+                "Imperial Molecular Pathology, Imperial College London, London, United Kingdom, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aysha Patel, BSc",
+            "author_affiliations": [
+                "Imperial Molecular Pathology, Imperial College London, London, United Kingdom, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mikel Valga\u00f1\u00f3n, PhD",
+            "author_affiliations": [
+                "Haematology, Imperial Molecular Pathology, London, United Kingdom, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hui En Foong, MSc",
+            "author_affiliations": [
+                "Imperial Molecular Pathology, London, United Kingdom, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mary Alikian",
+            "author_affiliations": [
+                "Department of Haematology, Hammersmith Hospital, Imperial College Healthcare NHS Trust, London, United Kingdom, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kikkeri Naresh",
+            "author_affiliations": [
+                "Department of Histopathology, Hammersmith Hospital, Imperial Healthcare NHS Trust, London, United Kingdom, "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dragana Milojkovic, PhD",
+            "author_affiliations": [
+                "Department of Haematology, Hammersmith Hospital, Imperial College London, London, United Kingdom, "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jane F Apperley, MD",
+            "author_affiliations": [
+                "Centre for Haematology, Imperial College London, London, United Kingdom, "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Letizia Foroni, MD",
+            "author_affiliations": [
+                "Imperial Molecular Pathology, Imperial College, London, United Kingdom, "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gareth Gerrard, PhD",
+            "author_affiliations": [
+                "Department of Haematology, Imperial College, London, United Kingdom"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-25T06:40:32",
+    "is_scraped": "1"
 }
