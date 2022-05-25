@@ -1,8 +1,145 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2450",
-    "start_url_page_num": "2450",
     "doi": "https://doi.org/10.1182/blood.V122.21.3987.3987",
-    "url": "https://ashpublications.org/blood/article/122/21/3987/14853/Algorithms-and-Processing-Pipeline-For-Error?searchresult=1",
-    "datetime_link_obtained": "2022-04-25T23:42:45",
-    "is_scraped": "0"
+    "article_title": "Algorithms and Processing Pipeline For Error Correction and Detection Of Significant Mutations In The Kinase Domain Of BCR-ABL Analyzed By Next-Generation Sequencing: Implications For Clinical Practice Of Chronic Myeloid Leukemia ",
+    "article_date": "November 15, 2013",
+    "session_type": "631. Chronic Myeloid Leukemia: Biology and Pathophysiology, excluding Therapy: Poster III",
+    "abstract_text": "High sequencing depths of NGS may cause false-positive variant calls of minor subclones (up to 10%). Errors inserted into the NGS pipeline during sample preparation and sequencing manifest by erroneous detections of mutations including point mutations. Thus, there is a need for algorithms for filtering data which occur by error from relevant biological information. We developed algorithms and a processing pipeline for error correction and detection of significant mutations after NGS of BCR-ABL kinase domain (KD). We validated our algorithms on the retrospective NGS analysis of 135 samples from 15 CML patients in chronic phase (median 8 samples per patient; range 5-19), who developed resistant mutations (confirmed by Sanger Sequencing, SS) during 2-4 lines of therapy. Amplicon libraries were prepared using reverse transcription and 2-step PCR. The second PCR was performed partly using fusion-primers designed within the IRON-II study research consortium (Roche Applied Science) which tested 4 overlapping amplicons and partly using alternative in-house set of fusion-primers that we have developed upfront and which utilized 3 overlapping amplicons covering the KD coding region. Key concept of our error control algorithm was to apply statistics used for bacterial mutation rate prediction, Lea-Coulson probability distribution (Lea and Coulson, J of Genet 1949), to distinguish sequencing pipeline errors from biologically relevant mutations. We postulated that spontaneous mutations in bacteria are similar phenomena as enzyme errors in vitro . In both processes there are new generations of bacteria or transcripts in which mutations or errors replicate exponentially. The error rate distributions based on analysis of c-ABL kinase domain of healthy donors (n=24) were fitted to Lea-Coulson distribution. From this analysis we derived, for each type of single nucleotide substitution, estimated thresholds based on which a particular mutation may be called significant by a self-developed statistical test. We cross-checked our results with results of standard Roche pipeline including GS Amplicon Variant Analyzer. Table 1 summarizes the estimated thresholds to be applied for transitions and transversions. Higher frequency of errors was found in case of using a 3-amplicon assay in comparison to a 4-amplicon assay. The PCR products in the 3-amplicon assay are 71 bp longer on average than in the 4-amplicon assay, thus the error frequency distribution may be dependent on the length of the sequence amplified. Using our algorithm we processed NGS data and reported significant mutations. Overall, no significant mutation that caused resistance during the treatment was detected at the time of diagnosis. During 1 st line imatinib treatment 10 resistant mutations in 9 patients were detected as significant 2-5 months earlier than by SS. At the time of therapy switchover, in 3 patients the algorithm already detected minor populations of one of significant mutations F317L, T315I and M351T, while SS did not. These mutations manifested after the therapy switchover and caused treatment failure. After the therapy switch, baseline mutations were still significantly detectable by our algorithm in NGS data, but not by SS in 7 patients who achieved at the time of the analysis PCgR and MMR. In 5 patients, who subsequently failed therapy after switchover, resistant mutations were significantly detected by our algorithm in NGS data 2-9 months earlier than by SS. New minor mutations were revealed by NGS after the therapy switch in 8 patients. Table 1  . . TRANSITIONS (%) . TRANSVERSIONS (%) . . P value . A/G . G/A . T/C . C/T . A/C+C/A+T/A+A/T+T/G+G/T+C/G+G/C . 3-amplicon assay 0.01  12.2  4.53  11.8  4.77  0.57  0.05 3.03 1.03 2.93 1.10 0.13 4-amplicon assay 0.01  5.17  1.93  4.50  1.93  0.13  0.05 1.20 0.43 1.03 0.43 0.03 . . TRANSITIONS (%) . TRANSVERSIONS (%) . . P value . A/G . G/A . T/C . C/T . A/C+C/A+T/A+A/T+T/G+G/T+C/G+G/C . 3-amplicon assay 0.01  12.2  4.53  11.8  4.77  0.57  0.05 3.03 1.03 2.93 1.10 0.13 4-amplicon assay 0.01  5.17  1.93  4.50  1.93  0.13  0.05 1.20 0.43 1.03 0.43 0.03 View Large Since enzymes create errors during reverse transcription, 2-step PCR and sequencing process, the error correction is an essential part of the bioinformatics pipeline for relevant interpretation of BCR-ABL KD mutations detected with the highly sensitive NGS assay. Our validated algorithm and processing pipeline for significant mutation evaluations from NGS data is helpful for future clinical practice as it filters errors and allows reporting only significant mutations. This avoids false-positive results and misleading interpretations which may negatively influence treatment management of CML patients. Supported by IGANT11555 and NT13899 Disclosures: Machova Polakova: Bristol-Myers Squibb: Honoraria, Research Funding; Novartis: Honoraria, Research Funding. Soverini: Novartis: Consultancy; Bristol-Myers Squibb: Consultancy; ARIAD: Consultancy. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Martinelli: NOVARTIS, BMS(Consultancy and speaker bureau), PFIZER, ARIAD ( Consultancy): Consultancy, Speakers Bureau. Kohlmann: MLL Munich Leukemia Laboratory: Employment; Roche Diagnostics: Honoraria. Klamova: Novartis: Honoraria, Research Funding; Bristol-Myers Squibb: Honoraria, Research Funding.",
+    "topics": [
+        "bcr-abl tyrosine kinase",
+        "leukemia, myelocytic, chronic",
+        "massively-parallel genome sequencing",
+        "mutation",
+        "phosphotransferases",
+        "polymerase chain reaction",
+        "enzymes",
+        "false-positive results",
+        "leukemia",
+        "dideoxy chain termination dna sequencing"
+    ],
+    "author_names": [
+        "Katerina Machova Polakova",
+        "Vojtech Kulvait",
+        "Jana Linhartova",
+        "Adela Brouckova",
+        "Simona Soverini",
+        "Monika Jaruskova",
+        "Caterina de Benedittis",
+        "Torsten Haferlach, MD",
+        "Michele Baccarani, MD",
+        "Giovanni Martinelli, MD",
+        "Alexander Kohlmann, PhD",
+        "Hana Klamova"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Katerina Machova Polakova",
+            "author_affiliations": [
+                "Institute of Hematology and Blood Transfusion, Prague, Czech Republic, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vojtech Kulvait",
+            "author_affiliations": [
+                "PersMed, Dolni Brezany, Czech Republic, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jana Linhartova",
+            "author_affiliations": [
+                "Institute of Hematology and Blood Transfusion, Prague, Czech Republic, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Adela Brouckova",
+            "author_affiliations": [
+                "Institute of Hematology and Blood Transfusion, Prague, Czech Republic, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Simona Soverini",
+            "author_affiliations": [
+                "Institute of Hematology \u201cL. e A. Ser\u00e0gnoli\u201d, University of Bologna, Bologna, Italy, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Monika Jaruskova",
+            "author_affiliations": [
+                "Institute of Hematology and Blood Transfusion, Prague, Czech Republic, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Caterina de Benedittis",
+            "author_affiliations": [
+                "Institute of Hematology \u201cL. e A. Seragnoli\u201d, University of Bologna, Bologna, Italy, "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Torsten Haferlach, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany, "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michele Baccarani, MD",
+            "author_affiliations": [
+                "Institute of Hematology, University of Bologna, Bologna, Italy"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Giovanni Martinelli, MD",
+            "author_affiliations": [
+                "Institute of Hematology \u201cL. e A. Seragnoli\u201d, University of Bologna, Bologna, Italy, "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexander Kohlmann, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany, "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hana Klamova",
+            "author_affiliations": [
+                "Institute of Hematology and Blood Transfusion, Prague, Czech Republic, "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-25T09:36:53",
+    "is_scraped": "1"
 }
