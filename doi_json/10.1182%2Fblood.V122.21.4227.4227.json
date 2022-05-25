@@ -1,8 +1,75 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2429",
-    "start_url_page_num": "2429",
     "doi": "https://doi.org/10.1182/blood.V122.21.4227.4227",
-    "url": "https://ashpublications.org/blood/article/122/21/4227/12524/Optimized-Patient-and-Leukemia-Specific?searchresult=1",
-    "datetime_link_obtained": "2022-04-25T22:42:50",
-    "is_scraped": "0"
+    "article_title": "Optimized Patient- and Leukemia-Specific Chemotherapy Protocols For The Treatment Of Acute Myeloid Leukemia ",
+    "article_date": "November 15, 2013",
+    "session_type": "802. Chemical Biology and Experimental Therapeutics: Poster III",
+    "abstract_text": "Treatment for Acute Myeloid Leukaemia (AML) with chemotherapy may result in acute and long-term life-threatening complications due to drug toxicity. Only relatively few patient-and leukemia-specific factors are taken into consideration in current protocols and choice of treatment often depends on the treating physician\u2019s experience. With the advent of novel treatments and large amounts of patient- and leukemia-specific genomic data, there is a clear need for a systematic approach to the design and execution of chemotherapy regimens. Mathematical modeling is a tool that can be used for the automation of chemotherapy treatment due to its advantages in systematically exploring extensive datasets in order to capture a system\u2019s dynamics and subsequently provide better insight for process enhancement. An AML-specific model that combines the leukemia-specific actions of the cell cycle (i.e. drug target) with patient-specific pharmacology of the drugs (pharmacokinetics) was developed. Specifically, it simulates the response of patients with AML undergoing treatment with two standard chemotherapy protocols, one intensive and the other non-intensive: (a) Daunarubicin (DNR) and Cytosine Arabinoside (Ara-C) used in standard intravenous (iv) doses (DA \u2013 3+7 or 3+10) and (b) low dose Ara-C (LDAC) administered subcutaneously (sc). Sensitivity analysis of the model identifies cell cycle times as the critical parameters that control treatment outcome. For model analysis, clinical data from 6 patients who underwent chemotherapy are used for the estimation of cell cycle time distribution. The patient data are comprised of disease characteristics (tumor burden, cell cycle times, normal cell population) as well as patient-specific characteristics (gender, age, weight and height). The estimated mean S-phase duration (Ts) is 15 hrs (range: 9-21 hrs) and mean whole cell cycle duration (Tc) is 47.5 hrs (range: 33-68 hrs). The estimated data reveal a clear relationship of cell cycle times to treatment outcomes. Specifically, low Ts duration combined with high Tc duration indicates worse treatment outcomes, whereas, the reverse combination is indicative of a good response to treatment. In order to improve effectiveness of AML therapy and reduction of toxicity, chemotherapy treatment is presented as an optimal control problem with the main aim of obtaining a treatment schedule which could maximize leukemic cell kill yet minimize death of the normal cell population in the bone marrow. By the end of treatment, the leukemic population should be reduced to a level of approximately 10 9 cells at which point BM hypoplasia is achieved. Out of the 6 patients studied, 2 patients had a successful treatment with leukemic hypoplasia achieved, 2 had a reduction of leukemic cells without achieving the hypoplasia target and 2 had disease progression on chemotherapy. The optimization algorithm is formulated and solved for all patients for both intensive and non-intensive treatment protocols with maximal and minimal thresholds set for efficacy and toxicity, respectively. For iv Ara-C, total drug administration is set between 50mg \u2013 4000mg with infusion duration between 1 min to 24 hours. The window for DNR dose optimization is stricter due to potential toxic effects and the only independent variable is dose with 30mg \u2013 90mg per infusion. For sc Ara-C, the maximum dose per day is 40mg and doses are permitted up to four times daily for a maximum period of 20 days. Optimization results obtained for the 6 patients indicate that continuous infusions are more effective for leukaemia cell kill than rapid infusions. For non-intensive chemotherapy, 40mg of Ara-C in continuous infusion over 10 days is better than daily divided doses with leukemic hypoplasia achieved for all patient case studies. For the intensive protocol, dose increase of DNR to 90 mg/m 2 combined with Ara-C daily infusion is the optimal chemotherapy regimen. Ara-C doses differ between patients and the optimal dose range is between 200 to 250 mg/m 2 . In summary, this work presents the potential for improved treatment design in AML therapy, dependent on disease and patient characteristics, defined on a case-by-case basis. This design would provide the opportunity to personalize treatment protocols for gold standard intensive and non-intensive therapies as well as for novel drugs through the use of optimization methods. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "chemotherapy regimen",
+        "leukemia",
+        "leukemia, myelocytic, acute",
+        "cytarabine",
+        "infusion procedures",
+        "toxic effect",
+        "intravenous infusion, continuous",
+        "leukemic cells",
+        "disease progression",
+        "divided doses"
+    ],
+    "author_names": [
+        "Nicki Panoskaltsis, MD, PhD, FRCP",
+        "Eleni Pefani",
+        "Athanasios Mantalaris, PhD",
+        "Michael Georgiadis, PhD",
+        "Efstratios Pistikopoulos, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Nicki Panoskaltsis, MD, PhD, FRCP",
+            "author_affiliations": [
+                "Department of Haematology, Imperial College London, London, United Kingdom, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eleni Pefani",
+            "author_affiliations": [
+                "Centre for Process Systems Engineering, Department of Chemical Engineering, Imperial College London, London, United Kingdom, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Athanasios Mantalaris, PhD",
+            "author_affiliations": [
+                "Biological Systems Engineering Laboratory, Department of Chemical Engineering, Imperial College London, London, United Kingdom"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Georgiadis, PhD",
+            "author_affiliations": [
+                "Centre for Process Systems Engineering, Department of Chemical Engineering, Imperial College London, London, United Kingdom, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Efstratios Pistikopoulos, PhD",
+            "author_affiliations": [
+                "Centre for Process Systems Engineering, Department of Chemical Engineering, Imperial College London, London, United Kingdom, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-25T04:01:21",
+    "is_scraped": "1"
 }

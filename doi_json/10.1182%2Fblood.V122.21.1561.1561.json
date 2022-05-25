@@ -1,8 +1,135 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2433",
-    "start_url_page_num": "2433",
     "doi": "https://doi.org/10.1182/blood.V122.21.1561.1561",
-    "url": "https://ashpublications.org/blood/article/122/21/1561/11614/Array-Based-Integrative-Analysis-Of-Epigenomic-and?searchresult=1",
-    "datetime_link_obtained": "2022-04-25T23:21:42",
-    "is_scraped": "0"
+    "article_title": "Array-Based Integrative Analysis Of Epigenomic and Transcriptomic Alterations In CD71+ Bone Marrow Erythroprogenitor Cells From Patients With Myelodysplastic Syndromes ",
+    "article_date": "November 15, 2013",
+    "session_type": "633. Myelodysplastic Syndromes: Poster I",
+    "abstract_text": "Background Myelodysplastic Syndromes (MDS) are heterogeneous groups of hematopoietic malignancies that are highly susceptible to transformation into acute myeloid leukemia and clinically manifest with signs of severe anemia. Numerous studies have revealed recurring molecular alterations in hematopoietic stem/progenitor cells from MDS patients as presumable cause for the persistent dysfunction of their hematopoiesis. However, how these events translate into disturbed regulation of erythropoiesis is poorly understood so far. Characterization of the transcriptional network and associated epigenetic changes in dysplastic erythroprogenitor cells might therefore aid in the elucidation of functional molecular consequences finally leading to impaired erythropoiesis. Methods CD71+ erythroprogenitor cells were isolated from purified bone marrow cells via magnetic cell separation for 15 MDS patients (IPSS low/int-1 risk n=11, int-2/high risk n=4) and 7 age-adjusted healthy donors. Extracted DNA and RNA were processed and hybridized to Affymetrix Exon 1.0 ST Array and Illumina Infinium HumanMethylation450 Beadchips according to manufacturers\u2019 instructions. Data analysis was carried out using Qlucore Omics Explorer 2.3 and in-house scripts for correlation of the two datasets were developed using Python 2.7.5. Results Using a false discovery rate/q-value of \u2264 4% as a cutoff for differential gene expression and CpG DNA methylation, both datasets allowed highly distinct clustering into MDS IPSS low/int-1 risk, int-2/high risk and healthy donor groups. In our MDS low/int-1 risk cohort 63 genes have been identified as significantly up- and 13 as downregulated (fold change \u22651.5, p\u22640.001) while 64 genes showed up- and 28 downregulation in the MDS int-2/high risk group (fold change \u22651.5 p\u22640.01). Surprisingly, global DNA methylation profiling revealed that 741 CpGs were detected as hypo- but only 19 as hypermethylated in low/int-1 risk, whereas 231 CpGs demonstrated hypo- and 479 hypermethylation in int-2/high risk MDS CD71+ cells relative to healthy controls (mean CpG methylation difference \u226510%, p\u22640.0001). In order to discover genes susceptible to DNA methylation associated regulation of transcription, individual CpG methylation values were correlated with corresponding exon probeset expression intensities for every single gene. Using this approach, starting with >23x10 6 possible CpG/probeset combinations, 4418 displayed significant positive correlation, whereas only 2726 were negatively correlated (R\u22650.6 or R\u2264-0.6, mean methylation difference MDS vs. healthy \u22655%, p\u22640.01). Consequently, in MDS low/int-1 risk we identified strong hypomethylation as putative cause for a 5.8-fold upregulation of GDF15, an important regulatory factor involved in iron homeostasis. Moreover, DNA hypermethylation associated 6.6-fold knockdown of the transcription factor GTSF1, which has been associated with increased apoptosis in gametogenesis, was demonstrated for MDS int-2/high-risk. In this cohort, we also observed a 3-fold upregulation of LY6E, which has been shown to result in a strong block of differentiation and maintenance of self-renewal in avian erythroprogenitor cells. Consistently, gene set enrichment analysis identified a stem cell like gene signature as highly enriched in MDS CD71+ BM cells but also gene sets involved in oxidative phosphorylation as well as regulation of cell cycle and apoptosis. Conclusion Our integrative approach reveals novel candidate genes implicated in disturbed erythropoiesis in MDS and allows distinctive separation between healthy donors and MDS risk groups by assessment of epigenomic and transcriptomic landscapes derived from CD71+ bone marrow cells. DNA hypomethylation induced gene upregulation surprisingly appears to be a common event in MDS erythropoiesis which co-occurs with DNA hypermethylation induced gene silencing. In addition, frequent detection of significant positive correlation between DNA methylation and gene expression might add an additional layer of complexity to the current dogma of epigenetic gene regulation. Finally, the distinctively hypermethylated geneset in MDS high-risk as compared to the unexpected global hypomethylation phenotype in MDS low-risk might suggest a mechanistic explanation for the selective efficacy of demethylating substances specifically in the higher risk patient groups. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "bone marrow",
+        "epigenomics",
+        "myelodysplastic syndrome",
+        "dna",
+        "prostatic hypertrophy risk score",
+        "anemia",
+        "cancer",
+        "cell separation",
+        "dysplasia",
+        "gene expression profiling"
+    ],
+    "author_names": [
+        "Maximilian Mossner",
+        "Axel Wilbertz",
+        "Stephanie Fey",
+        "Julia Obl\u00e4nder",
+        "Verena Nowak",
+        "Jovita Vogler",
+        "Florian Nolte, MD",
+        "Ralf Bieber",
+        "Wolf-Karsten Hofmann, MD",
+        "Mark Reinwald, MD",
+        "Daniel Nowak, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Maximilian Mossner",
+            "author_affiliations": [
+                "Department of Hematology and Oncology, University Hospital Mannheim, Mannheim, Germany"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Axel Wilbertz",
+            "author_affiliations": [
+                "Department of Hematology and Oncology, University Hospital Mannheim, Mannheim, Germany"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephanie Fey",
+            "author_affiliations": [
+                "Department of Hematology and Oncology, University Hospital Mannheim, Mannheim, Germany"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Julia Obl\u00e4nder",
+            "author_affiliations": [
+                "Department of Hematology and Oncology, University Hospital Mannheim, Mannheim, Germany"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Verena Nowak",
+            "author_affiliations": [
+                "Department of Hematology and Oncology, University Hospital Mannheim, Mannheim, Germany"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jovita Vogler",
+            "author_affiliations": [
+                "Department of Hematology and Oncology, University Hospital Mannheim, Mannheim, Germany"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Florian Nolte, MD",
+            "author_affiliations": [
+                "Department of Hematology and Oncology, University Hospital Mannheim, Mannheim, Germany"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ralf Bieber",
+            "author_affiliations": [
+                "Department of Hematology and Oncology, University Hospital Mannheim, Mannheim, Germany"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wolf-Karsten Hofmann, MD",
+            "author_affiliations": [
+                "Department of Hematology and Oncology, University Hospital Mannheim, Mannheim, Germany"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mark Reinwald, MD",
+            "author_affiliations": [
+                "Department of Hematology and Oncology, University Hospital Mannheim, Mannheim, Germany"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel Nowak, MD",
+            "author_affiliations": [
+                "Department of Hematology and Oncology, University Hospital Mannheim, Mannheim, Germany"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-25T04:06:33",
+    "is_scraped": "1"
 }
