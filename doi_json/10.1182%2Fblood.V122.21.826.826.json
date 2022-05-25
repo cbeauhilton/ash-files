@@ -1,8 +1,325 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2469",
-    "start_url_page_num": "2469",
     "doi": "https://doi.org/10.1182/blood.V122.21.826.826",
-    "url": "https://ashpublications.org/blood/article/122/21/826/70978/Development-and-Validation-Of-a-Highly-Sensitive?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T01:52:36",
-    "is_scraped": "0"
+    "article_title": "Development and Validation Of a Highly Sensitive and Specific Gene Expression Classifier To Prospectively Screen and Identify B-Precursor Acute Lymphoblastic Leukemia (ALL) Patients With a Philadelphia Chromosome-Like (\u201c Ph-like \u201d or \u201c BCR-ABL1-Like \u201d) Signature For Therapeutic Targeting and Clinical Intervention ",
+    "article_date": "November 15, 2013",
+    "session_type": "611. Leukemias: Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis",
+    "abstract_text": "Using gene expression profiling, we and others identified a novel subgroup of B-precursor acute lymphoblastic leukemia (B-ALL) with a gene expression signature similar to Philadelphia (Ph) chromosome ( BCR-ABL1) -positive ALL. Termed \u201cPh-like\u201d or \u201c BCR-ABL1 -like\u201d ALL, this subgroup constitutes 10-15% of pediatric and 25% of adolescent/young adult ALL cases and is associated with a very poor clinical outcome. Using next generation sequencing, we have shown that Ph-like ALL is characterized by a highly heterogeneous spectrum of activating mutations or gene fusions targeting genes regulating cytokine receptor and tyrosine kinase signaling ( JAK1/2, ABL1/2, PDGFRB, EPOR, CSF1R, AKT2, STAT5B, CRLF2, IL7R, SH2B3 ). As Ph-like ALLs may be sensitive to tyrosine kinase inhibitors (TKIs) in vivo , incorporating TKIs into therapy may significantly improve clinical outcomes. Here we report the development and validation of a robust gene expression classifier that can prospectively identify Ph-like ALL patients for therapeutic intervention. Methods Supervised learning methods were applied to gene expression profiles (Affymetrix U133_Plus_2.0; RMA normalized) generated from pre-treatment leukemic samples from 811 B-ALL patients accrued to COG High-Risk ALL Trials P9906 and AALL0232. Patients were partitioned into a training (P9906: n=207; AALL0232: n=278) and an independent test set (AALL0232: n=325). Next generation sequencing was used to identify Ph-like ALL-associated genomic lesions in these cohorts. The 54,675 Affymetrix probe sets were evaluated using Prediction Analysis of Microarrays (PAM), applying the method of nearest shrunken centroids to identify those probe sets best distinguishing Ph-like ALL. These probe sets were then distilled by 100 iterations of 10-fold cross-validation using three optimization criteria (overall error, average error, and ROC accuracy), leading to the identification of the 64 most predictive probe sets (derived from 38 unique genes). Quantitative RT-PCR assays were developed for each of the 38 genes by selecting optimized primer/probe sets and assays were run on 384-well Low Density Microarray (LDA) cards; 780/811 cases had residual material for LDA testing. LDA data were remodeled in the training set using double loop cross validation, resulting in a best and final predictive model and statistical algorithm containing 15 of the 38 genes ( IGJ, SPATS2L, MUC4, CRLF2, CA6, NRXN3, BMPR1B, GPR110, CHN2, SEMA6A, PON2, SLC2A5, S100Z, TP53INP1, IFITM1 ). The sensitivity and specificity of the predictor was then evaluated in the independent test set. Results The 15 gene LDA classifier was able to predict Ph or Ph-like ALL in the test set with a high degree of sensitivity (93.0%) and specificity (89.7%) and identified the heterogeneous genomic lesions associated with Ph-like ALL with very high frequency ( Table 1 ). When compared to non-Ph-like ALL, Ph-like cases had a significantly poorer event-free survival (HR 3.58; p<.0001) ( Fig. 1 , left). A second predictive classifier modeled on the same training/test sets but with true BCR-ABL1 cases excluded yielded a virtually identical performance (97.2% sensitivity, 87.1% sensitivity; HR: 2.9; p<.0001). Strikingly, Ph-like ALL cases with IKZF1 deletions had a significantly worse outcome when compared to ALL cases with IKZF1 deletions alone, emphasizing the clinical importance of the Ph-like signature ( Fig. 1 , right). Concordance between the LDA predictor and our previously reported PAM method ( NEJM 360:470, 2009) was 87.2%, with the largest difference being additional CRLF2 lesions identified by LDA. View large View Large Figure 1 View large Download slide Survival Curves of 15-Gene Model: Performance in Test Set and Correlation with IKZF1 Deletions Figure 1 View large Download slide Survival Curves of 15-Gene Model: Performance in Test Set and Correlation with IKZF1 Deletions Close modal Conclusions We have developed and validated a highly robust gene expression classifier for the prospective identification of Ph-like ALL. Rapidly screened patients will then undergo targeted sequencing to confirm the presence of specific genomic lesions. This approach will facilitate the therapeutic targeting of Ph-like ALL patients to novel clinical trials, hopefully leading to improved outcomes. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "acute lymphocytic leukemia",
+        "burkitt's lymphoma",
+        "chromosomes",
+        "gene expression",
+        "protein-tyrosine kinase inhibitor",
+        "gene expression profiling",
+        "leukemia, b-cell, acute",
+        "massively-parallel genome sequencing",
+        "erythropoietin receptors",
+        "interleukin 7 receptor"
+    ],
+    "author_names": [
+        "Richard C. Harvey, PhD",
+        "Huining Kang, PhD",
+        "Kathryn G. Roberts, PhD",
+        "I-Ming L. Chen, DVM, MS",
+        "Susan R. Atlas, PhD",
+        "Edward J. Bedrick, PhD",
+        "Julie M. Gastier-Foster, PhD",
+        "Jinghui Zhang, PhD",
+        "Daniela S. Gerhard, Ph.D.",
+        "Malcolm A. Smith, MD, PhD",
+        "Eric C. Larsen, MD",
+        "Elizabeth A. Raetz, MD",
+        "Naomi J. Winick, MD",
+        "William L. Carroll, MD",
+        "Eileen Stonerock",
+        "Nyla A. Heerema, PhD",
+        "Andrew J. Carroll, PhD",
+        "Shann-Ching Chen, PhD",
+        "Guangchun Song",
+        "Jared Becksfort",
+        "Michael Rusch, BA",
+        "Yongjin Li",
+        "Jing Ma, PhD",
+        "Denise Ell",
+        "Shalini C. Reshmi, PhD",
+        "Mignon L. Loh, MD",
+        "Meenakshi Davidas, PhD",
+        "Stephen P. Hunger, MD",
+        "Charles G. Mullighan, MBBS, MSc, MD, FRACP, FRCPA",
+        "Cheryl L. Willman, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Richard C. Harvey, PhD",
+            "author_affiliations": [
+                "Pathology, University of New Mexico, Albuquerque, NM, USA, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Huining Kang, PhD",
+            "author_affiliations": [
+                "Cancer Center, University of New Mexico, Albuquerque, NM, USA, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kathryn G. Roberts, PhD",
+            "author_affiliations": [
+                "Pathology, St. Jude Children's Research Hospital, Memphis, TN, USA, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "I-Ming L. Chen, DVM, MS",
+            "author_affiliations": [
+                "Cancer Center/Pathology, University of New Mexico, Albuquerque, NM, USA, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Susan R. Atlas, PhD",
+            "author_affiliations": [
+                "Physics and Astronomy, University of New Mexico, Albuquerque, NM, USA, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Edward J. Bedrick, PhD",
+            "author_affiliations": [
+                "Internal Medicine, University of New Mexico Cancer Center, Albuquerque, NM, USA, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Julie M. Gastier-Foster, PhD",
+            "author_affiliations": [
+                "Ohio State University Laboratory Medicine/Pathology, Nationwide Childrens Hospital, Columbus, OH, USA, "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jinghui Zhang, PhD",
+            "author_affiliations": [
+                "Computational Biology, St Jude Children's Research Hospital, Memphis, TN, USA, "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniela S. Gerhard, Ph.D.",
+            "author_affiliations": [
+                "Office of Cancer Genomics, National Cancer Institute, Bethesda, MD, USA, "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Malcolm A. Smith, MD, PhD",
+            "author_affiliations": [
+                "Office of Cancer Genomics, National Cancer Institute, Bethesda, MD, USA, "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eric C. Larsen, MD",
+            "author_affiliations": [
+                "Maine Children's Cancer Program, Scarborough, ME, USA, "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elizabeth A. Raetz, MD",
+            "author_affiliations": [
+                "Pedatrics, New York University Langone Medical Center, New York, NY, USA, "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Naomi J. Winick, MD",
+            "author_affiliations": [
+                "Department of Pediatrics, University of Texas Southwestern Medical Center, Dallas, TX, USA, "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "William L. Carroll, MD",
+            "author_affiliations": [
+                "Cancer Institute, New York University, New York, NY, USA, "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eileen Stonerock",
+            "author_affiliations": [
+                "Nationwide Childrens Hospital, Columbus, OH, USA, "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nyla A. Heerema, PhD",
+            "author_affiliations": [
+                "Department of Pathology, Wexner Medical Center at Ohio State University, Columbus, OH, USA, "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew J. Carroll, PhD",
+            "author_affiliations": [
+                "Department of Genetics, University of Alabama at Birmingham, Birmingham, AL, USA, "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shann-Ching Chen, PhD",
+            "author_affiliations": [
+                "Department of Pathology, St Jude Children's Research Hospital, Memphis, TN, USA, "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Guangchun Song",
+            "author_affiliations": [
+                "Pathology, St. Jude Children's Research Hospital, Memphis, TN, USA, "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jared Becksfort",
+            "author_affiliations": [
+                "Information Sciences, Research Informatics, Bioinformatics, St. Jude Children's Research Hospital, Memphis, TN, USA, "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Rusch, BA",
+            "author_affiliations": [
+                "Computational Biology, St Jude Children's Research Hospital, Memphis, TN, USA, "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yongjin Li",
+            "author_affiliations": [
+                "St Jude Children's Research Hospital, Memphis, TN, USA, "
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jing Ma, PhD",
+            "author_affiliations": [
+                "Department of Pathology, St Jude Children's Research Hospital, Memphis, TN, USA, "
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Denise Ell",
+            "author_affiliations": [
+                "Nationwide Childrens Hospital, Columbus, OH, USA, "
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shalini C. Reshmi, PhD",
+            "author_affiliations": [
+                "Nationwide Children's Hospital, Columbus, OH, USA, "
+            ],
+            "author_rank": 25,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mignon L. Loh, MD",
+            "author_affiliations": [
+                "Benioff Children\u2019s Hospital, University of California, San Francisco, San Francisco, CA, USA, "
+            ],
+            "author_rank": 26,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Meenakshi Davidas, PhD",
+            "author_affiliations": [
+                "University of Florida College of Medicine and Children's Oncology Group, Gainesville, FL, USA, "
+            ],
+            "author_rank": 27,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephen P. Hunger, MD",
+            "author_affiliations": [
+                "Pediatric Hematology/Oncology/BMT, University of Colorado School of Medicine and Children's Hospital Colorado, Aurora, CO, USA"
+            ],
+            "author_rank": 28,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Charles G. Mullighan, MBBS, MSc, MD, FRACP, FRCPA",
+            "author_affiliations": [
+                "Department of Pathology, St Jude Children's Research Hospital, Memphis, TN, USA, "
+            ],
+            "author_rank": 29,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cheryl L. Willman, MD",
+            "author_affiliations": [
+                "Cancer Center/Pathology, University of New Mexico, Albuquerque, NM, USA, "
+            ],
+            "author_rank": 30,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-25T15:39:59",
+    "is_scraped": "1"
 }
