@@ -1,8 +1,135 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2496",
-    "start_url_page_num": "2496",
     "doi": "https://doi.org/10.1182/blood.V122.21.228.228",
-    "url": "https://ashpublications.org/blood/article/122/21/228/83219/Whole-Exome-Sequencing-In-Relapsed-Pediatric-T-ALL?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T04:05:14",
-    "is_scraped": "0"
+    "article_title": "Whole Exome Sequencing In Relapsed Pediatric T-ALL: Progression Into Relapse Is Characterized By An Increased Number Of Somatic Mutations and a Conservation Of Mutations In Leukemogenic Driver Genes ",
+    "article_date": "November 15, 2013",
+    "session_type": "603. Oncogenes and Tumor Suppressors",
+    "abstract_text": "Acute precursor T-lymphoblastic leukemia (T-ALL) remains a serious challenge in pediatric oncology, because relapses carry a particularly poor prognosis with high rates of induction failure and death despite generally excellent treatment responses of the initial disease. It is critical, therefore, to understand the molecular evolution of pediatric T-ALL and to elucidate the mechanisms leading to T-ALL relapse and to understand the differences in treatment response between the two phases of the disease. We have thus subjected DNA from bone marrow samples obtained at the time of initial diagnosis, remission and relapse of 14 patients to whole exome sequencing (WES). Eleven patients suffered from early relapse (duration of remission 6-19 months) and 3 patients from late relapse (duration of remission 29-46 months).The Agilent SureSelect Target Enrichment Kit was used to capture human exons for deep sequencing. The captured fragments were sequenced as 100 bp paired reads using an Illumina HiSeq2000 sequencing instrument. All sequenced DNA reads were preprocessed using Trimmomatic (Lohse et al., Nucl. Acids Res., 2012) to clip adapter contaminations and to trim reads for low quality bases. The remaining reads greater than 36bp were mapped to build hg19 of the human reference genome with Stampy (Lunter & Goodson, Genome Res. 2011), using default parameters. Following such preprocessing, the number of mapped reads was >95% for all samples. Single-nucleotide variants (SNVs) were called using SAMtools mpileup (Li et al., Bioinformatics, 2009). The number of exonic SNVs varied between 23,741 and 31,418 per sample. To facilitate a fast classification and identification of candidate driver mutations, all identified coding SNVs were comprehensively annotated using the ANNOVAR framework (Wang et al., Nat. Rev. Genet., 2010). To identify possible somatic driver mutations, candidate SNVs were filtered for non-synonymous, stopgain or stoploss SNVs, requiring an SNV quality greater or equal to 50, and requiring absence of segmental duplications. Leukemia-specific mutations were identified by filtering against the corresponding remission sample and validated by Sanger sequencing of the genomic DNA following PCR amplification. We identified on average 9.3 somatic single nucleotide variants (SNV) and 0.6 insertions and deletions (indels) per patient sample at the time of initial diagnosis and 21.7 SNVs and 0.3 indels in relapse. On average, 6.3 SNVs were detected both at the time of initial diagnosis and in relapse. These SNVs were thus defined as leukemia specific. Further to SNVs, we have also estimated the frequency of copy number variations (CNV) at low resolution. Apart from the deletions resulting from T-cell receptor rearrangement, we identified on average for each patient 0.7 copy number gains and 2.2 copy number losses at the time of initial diagnosis and 0.5 copy number gains and 2.4 copy number losses in relapse. We detected 24/27 copy number alterations both in initial diagnosis and in relapse. The most common CNV detected was the CDKN2A/B deletion on chromosome 9p. Nine genes were recurrently mutated in 2 or more patients thus indicating the functional leukemogenic potential of these SNVs in T-ALL. These recurrent mutations included known oncogenes (Notch1), tumor suppressor genes (FBXW7, PHF6, WT1) and genes conferring drug resistance (NT5C2). In several patients one gene (such as Notch 1, PHF6, WT1) carried different mutations either at the time of initial diagnosis and or in relapse, indicating that the major leukemic clone had been eradicated by primary treatment, but that a minor clone had persisted and expanded during relapse. The types of mutations did not differ significantly between mutations that were either already present at diagnosis or those that were newly acquired in relapse, indicating that the treatment did not cause specific genomic damage. We will further characterize the clonal evolution of T-ALL into relapse by targeted re-sequencing at high depth of genes with either relapse specific or initial-disease specific mutations. In conclusion, T-ALL relapse differs from primary disease by a higher number of leukemogenic SNVs without gross genomic instability resulting in large CNVs. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "genes",
+        "mutation",
+        "pediatrics",
+        "t-cell leukemia, acute",
+        "whole exome sequencing",
+        "mutation, somatic",
+        "disease remission",
+        "dna",
+        "leukemia",
+        "nucleotides"
+    ],
+    "author_names": [
+        "Joachim Kunz, MD",
+        "Tobias Rausch, PhD",
+        "Obul R Bandapalli, PhD",
+        "Martina U. Muckenthaler, PhD",
+        "Adrian M Stuetz, PhD",
+        "Martin Stanulla, MD, MSc",
+        "Martin Schrappe, MD",
+        "Rupert Handgretinger",
+        "Smadar Avigad, PhD",
+        "Jan Korbel, PhD",
+        "Andreas E. Kulozik, MD, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Joachim Kunz, MD",
+            "author_affiliations": [
+                "Department of Pediatric Oncology, Hematology, and Immunology, University of Heidelberg, Heidelberg, Germany, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tobias Rausch, PhD",
+            "author_affiliations": [
+                "European Molecular Biology Laboratory, Heidelberg, Germany, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Obul R Bandapalli, PhD",
+            "author_affiliations": [
+                "Department of Pediatric Oncology, Hematology and Immunology, University of Heidelberg, Heidelberg, Germany, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martina U. Muckenthaler, PhD",
+            "author_affiliations": [
+                "Molecular Medicine Partnership Unit, University of Heidelberg and European Molecular Biology Laboratory, Heidelberg, Germany, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Adrian M Stuetz, PhD",
+            "author_affiliations": [
+                "European Molecular Biology Laboratory, Heidelberg, Heidelberg, Germany, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martin Stanulla, MD, MSc",
+            "author_affiliations": [
+                "Department of Pediatrics, University Medical Center Schleswig-Holstein, Campus Kiel, Kiel, Germany, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martin Schrappe, MD",
+            "author_affiliations": [
+                "Department of Pediatrics, University Medical Center Schleswig-Holstein, Campus Kiel, Kiel, Germany, "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rupert Handgretinger",
+            "author_affiliations": [
+                "Department of Pediatric Oncology, University of T\u00fcbingen, T\u00fcbingen, Germany, "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Smadar Avigad, PhD",
+            "author_affiliations": [
+                "Molecular Oncology, Pediatric Hematology Oncology, Schneider Children's Medical Center of Israel, Sackler Faculty of Medicine, Tel Aviv University, Felsenstein Medical Research Center, Petah-Tikva, Israel, "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jan Korbel, PhD",
+            "author_affiliations": [
+                "Genome Biology Programme, EMBL, Heidelberg, Germany"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andreas E. Kulozik, MD, PhD",
+            "author_affiliations": [
+                "Department of Pediatric Oncology, Hematology and Immunology, University of Heidelberg, Heidelberg, Germany, "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-26T04:01:38",
+    "is_scraped": "1"
 }
