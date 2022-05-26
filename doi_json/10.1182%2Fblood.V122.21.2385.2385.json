@@ -1,8 +1,55 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2526",
-    "start_url_page_num": "2526",
     "doi": "https://doi.org/10.1182/blood.V122.21.2385.2385",
-    "url": "https://ashpublications.org/blood/article/122/21/2385/14333/Predicting-INR-Time-In-The-Therapeutic-Range-A?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T05:26:01",
-    "is_scraped": "0"
+    "article_title": "Predicting INR Time In The Therapeutic Range: A Bayesian Approach ",
+    "article_date": "November 15, 2013",
+    "session_type": "332. Antithrombotic Therapy: Poster II",
+    "abstract_text": "Background International normalized ratio (INR) time in the therapeutic range (TTR) is a major determinant of anticoagulation safety and efficacy for patients on a vitamin K antagonist. In one study a TTR below 58% was associated with lack of clinical benefit for oral anticoagulation versus antiplatelet agent in patients with atrial fibrillation. We set out to optimize prediction of TTR by devising a rational approach to predict future suboptimal TTR in patients on warfarin, using past TTR values by means of an empirical Bayesian algorithm. Materials and Methods Using the CoagClinic\u2122 database (Alere\u2122 corporation), we selected individuals with non-valvular atrial fibrillation on warfarin with a goal INR of 2.0-3.0. The cohort was divided into 4 equal sets. The first 2 sub-groups were used as training sets to devise a Bayesian algorithm. Using the Rosendaal interpolation method, TTR over an 18-month period was computed for each individual. The third set was used to validate our final Bayesian algorithm, comparing it with the common heuristic method of averaging past monthly TTR values to estimate the risk of having a TTR below 58% in the following year. The fourth set was not employed in the analyses and is reserved for future work. The R 3.0.1 statistical platform was used along with the \u201cVGAM\u201d, \u201cpROC\u201d and \u201cboot\u201d packages. Results A total of 301670 individuals were included into the 4 data sets, with 75417 to 75418 individuals per set. Different Bayesian approaches were tested on 30299 patients from the second set. Sequential updating for the estimated TTR in monthly iterations and using a maximum of 6 months of data emerged as the most efficient approach to predict a TTR below 58% for the following year. The distribution of the TTR estimate was updated until a maximum of 6 months of TTR data was entered. 32012 of 75417 individuals in the third sub-group had enough recorded TTR data to be included in the final analysis. The Bayesian approach was substantially more efficient at higher sensitivity levels, at which it reached predictions with comparable specificity in significantly less time than the heuristic method of simply averaging past TTR values ( Table and Figure ). For example, using a sensitivity of 60% to detect individuals with a TTR<58% in the following year of observation, the specificity for the Bayesian algorithm was 57% with a mean time to decision of 2.14 months (95% confidence interval=2.13-2.16 months, estimated using local polynomial regression fitting and bootstrapping) compared with a specificity of 58% for the heuristic method at 4 months. The AUC of the receiver operating characteristic (ROC) curve for the Bayesian algorithm was 62.0, compared with 62.1 for the heuristic method at 4 months ( p =0.48 with a paired test). Figure View large Download slide Performance of Bayesian Algorithm in Comparison with Heuristic Method Figure View large Download slide Performance of Bayesian Algorithm in Comparison with Heuristic Method  Close modal Table Performance of Bayesian Algorithm in Comparison to Heuristic Method  Selected Sensitivity (%) . Bayesian Approach . Heuristic Method . Specificity (%) . Mean Time to Selection in Months (95% CI) * . Specificity (%) . Mean Time to Selection in Months . 20 90 3.79 (3.76-3.81) 89 4 40 75 2.82 (2.80-2.88) 75 4 60 57 2.14 (2.13-2.16) 58 4 80 34 1.57 (1.56-1.58) 35 4 Selected Sensitivity (%) . Bayesian Approach . Heuristic Method . Specificity (%) . Mean Time to Selection in Months (95% CI) * . Specificity (%) . Mean Time to Selection in Months . 20 90 3.79 (3.76-3.81) 89 4 40 75 2.82 (2.80-2.88) 75 4 60 57 2.14 (2.13-2.16) 58 4 80 34 1.57 (1.56-1.58) 35 4 Using Mean TTR at 4 Months CI=confidence interval * estimated using local polynomial regression fitting and bootstrapping View Large Conclusions At most sensitivity and specificity levels, the novel Bayesian algorithm required less time to identify at-risk individuals. It was, therefore, overall more efficient in comparison with the established standard heuristic method of identifying patients at risk of future poor TTR. Incorporation of this Bayesian prediction method into anticoagulation care might lead to improvements in the safety and efficacy of treatment with warfarin. Prospective testing with patient randomization would be required to test for superiority of this approach to the current standard of care for identifying patients at risk of future suboptimal TTR. ROC= receiver operating characteristic Disclosures: Moll: Boehringer-Ingelheim: Consultancy.",
+    "topics": [
+        "bayesian analysis",
+        "international normalized ratio",
+        "therapeutic index",
+        "anticoagulation",
+        "warfarin",
+        "antiplatelet agents",
+        "atrial fibrillation",
+        "nonvalvular atrial fibrillation",
+        "protein c",
+        "vitamin k antagonists"
+    ],
+    "author_names": [
+        "Simon Mantha, MD, MPH",
+        "Adam Rose, MD",
+        "Stephan Moll, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Simon Mantha, MD, MPH",
+            "author_affiliations": [
+                "Medicine, Memorial Sloan-Kettering Cancer Center, New York, NY, USA, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Adam Rose, MD",
+            "author_affiliations": [
+                "Medicine, Boston University School of Medicine, Boston, MA, USA, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephan Moll, MD",
+            "author_affiliations": [
+                "Medicine, University of North Carolina School of Medicine, Chapel Hill, NC, USA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-26T13:07:36",
+    "is_scraped": "1"
 }
