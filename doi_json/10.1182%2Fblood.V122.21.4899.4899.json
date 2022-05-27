@@ -1,8 +1,95 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2628",
-    "start_url_page_num": "2628",
     "doi": "https://doi.org/10.1182/blood.V122.21.4899.4899",
-    "url": "https://ashpublications.org/blood/article/122/21/4899/14003/T315I-Mutated-BCR-ABL-Induces-a-Distinct-and?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T09:21:12",
-    "is_scraped": "0"
+    "article_title": "T315I-Mutated BCR-ABL Induces a Distinct and Specific Molecular Signature With High Expression Of Zinc Finger (ZNF) Transcription Factors ",
+    "article_date": "November 15, 2013",
+    "session_type": "603. Oncogenes and Tumor Suppressors",
+    "abstract_text": "Chronic myeloid leukemia (CML) is the paradigm of malignancy treated by targeted therapies by the use of tyrosine kinase inhibitors (TKI), essentially Imatinib, Dasatinib and Nilotinib. Despite their major efficiency, especially as first line therapies, resistance to these drugs develop partly due to genetic instability inherent to CML. BCR-ABL-kinase mutations remain the first cause of resistance, which appears to be due to clonal selection of cells bearing a given mutation under TKI therapies. Amongst these mutations, the \u201cgatekeeper\u201d T315I mutant is a major concern as it confers resistance to all three TKI clinically used and patients with this mutation have a poor prognosis. The inaccessibility of the TKI to the ABL kinase pocket might not be the only \u201cmechanistic\u201d cause of resistance and it has been suggested that T315I-mutated BCR-ABL (Skaggs BJ et al, 2006) could induce a specific phosphoproteome signature. To evaluate this possibility, we decided to determine if a specific gene expression profiling can be associated with T315I-mutated BCR-ABL, as compared to native BCR-ABL. The human hematopoietic cell line UT7 was transfected with retroviral vectors encoding for native BCR-ABL (UT7.11) or BCR-ABL with the T315I mutation (UT7.T315I). The cell lines were characterized by their cell growth, Western blotting and sequencing. UT7.11 cells were sensitive to Imatinib, Dasatinib and Nilotinib as well as to Ponatinib whereas UT7-T315I cells were resistant to all three TKI except for Ponatinib. Affymetrix microarrays were performed in triplicate on each of three groups (UT7, UT7.11, UT7.T315I). The datas were normalized using the dchip software. Bioinformatics analyzes were performed with R software (packages FactoMineR, limma, PAMR) Mev in TM4 software, enrichment analysis with the GSEA software (Broad institute). The principal component analysis (PCA) showed that the overall RNA expression of UT7.T315I was different from that of UT7.11 (native BCR-ABL) and parental UT7. On factorial map, UT7.11 was found more distant from parental UT7 than UT7.T315I. The contrast analysis of the linear model by the algorithm limma between the 3 groups, showed a strong differential signature of UT7.11 as compared to parental UT7 and UT7.T315I (respectively 4792 and 4813 genes). Only 800 genes were found to be differentially expressed between UT7.T315I and parental UT7. In hierarchical clustering, the total signature obtained in limma confirmed a closed profile between parental UT7 and UT7.T315I. Among the results of the limma model, we identified a 286 specific genes signature for UT7.T315I (both different from parental UT7 and UT7.11 and also not regulated between UT7.11 and UT7). This specific list of UT7.T315I was validated with the T315I group sample segregation by different multivariate methods: PCA, hierarchical clustering and non-negative matrix factorization. Among this T315I-specific gene list limma, 34 ZNF family genes were found (11.88%). Predicting class algorithm based on shunkren centroid (PAMR) separated the three group samples with low classification error and a global list of 368 genes: only 75 genes predicted UT7.T315I group and from this list 13 were in the ZNF gene family (13.33%). By the method of gene set enrichment analysis (GSEA), we explored the top 100 ranked genes as upregulated in UT7.T315I by comparing the two other sample groups. This gene set showed a high representation of ZNF family genes (25%). The design of a gene set with ZNF family genes selected showed a positive enrichment of ZNF (NES = +1.35, p-value <0.001) in the UT7.T315I by comparing the two other groups. The majority of these genes is localized in 19q13.41 (ZNF cluster 282). They exhibit C2H2 and Kruppel-associated box (KRAB) domains in their sequence. Interestingly the overexpression of KRAB-ZNF transcription factors has been recently reported in patients with gastrointestinal stromal tumors (GIST) as conferring resistance to Imatinib Mesylate (Rink L., PLOS One 2013). In conclusion, our work revealed for the first time a specific signature of the T315I mutation which includes a strong representation of the ZNF family. The identification of this signature could be interest for future drug screening strategies in advanced phase CML patients progressing under Ponatinib. Current experiments are underway to validate these results by analyzing the expression of ZNF family of genes in primary CML cells with T315I mutation. Disclosures: Turhan: Bristol Myers Squibb, Novartis: Consultancy, Honoraria.",
+    "topics": [
+        "bcr-abl tyrosine kinase",
+        "mutation",
+        "transcription factor",
+        "zinc fingers",
+        "protein-tyrosine kinase inhibitor",
+        "imatinib mesylate",
+        "ponatinib",
+        "dasatinib",
+        "gastrointestinal stromal tumor",
+        "nilotinib"
+    ],
+    "author_names": [
+        "Christophe Desterke, PhD",
+        "Djamel Aggoune",
+        "Marie Laure Bonnet",
+        "Nais Prade",
+        "Jean-Claude Chomel, PharmD, PhD",
+        "Eric Delabesse, MD, PhD",
+        "Ali G Turhan, MD, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Christophe Desterke, PhD",
+            "author_affiliations": [
+                "Paris 11 University, Inserm UMR972, Villejuif, France, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Djamel Aggoune",
+            "author_affiliations": [
+                "Inserm U935 University and CHU of Poitiers, Poitiers, France, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marie Laure Bonnet",
+            "author_affiliations": [
+                "Inserm U935 University and CHU of Poitiers, Poitiers, France, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nais Prade",
+            "author_affiliations": [
+                "Hematology Laboratory, University Hospitals of Toulouse, Toulouse, France, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jean-Claude Chomel, PharmD, PhD",
+            "author_affiliations": [
+                "Division of Laboratory Oncology, Inserm U935 University and CHU of Poitiers, Poitiers, France, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eric Delabesse, MD, PhD",
+            "author_affiliations": [
+                "Laboratory for Hematology and molecular biology, H\u00f4pital Purpan, Toulouse, France, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ali G Turhan, MD, PhD",
+            "author_affiliations": [
+                "Department of Hematology, University Paris Sud 11, Inserm U935 , Paris Sud University Hospitals, Le Kremlin Bicetre, France"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-27T21:30:10",
+    "is_scraped": "1"
 }
