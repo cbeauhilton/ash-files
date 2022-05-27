@@ -1,8 +1,105 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2585",
-    "start_url_page_num": "2585",
     "doi": "https://doi.org/10.1182/blood.V122.21.2539.2539",
-    "url": "https://ashpublications.org/blood/article/122/21/2539/11218/Differential-DNA-Methylation-Predicts-Response-To?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T07:40:20",
-    "is_scraped": "0"
+    "article_title": "Differential DNA Methylation Predicts Response To Combined Treatment Regimens With a DNA Methyltransferase Inhibitor In Acute Myeloid Leukemia (AML) ",
+    "article_date": "November 15, 2013",
+    "session_type": "611. Leukemias: Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis: Poster II",
+    "abstract_text": "Deregulated epigenetic mechanisms have been identified as major components of acute myeloid leukemia (AML) pathogenesis. This improved mechanistic understanding has started to translate into clinics and leads to the development of novel therapeutic options as exemplified by the DNA methyltransferase (DNMT) inhibitors 5-azacytidine (5-azaC) and decitabine (DAC). However, biomarkers for response prediction to epigenetic therapy are urgently needed. Recently, we and others demonstrated that in-depth characterization of leukemia-associated DNA-methylation patterns contributes to refinement of the molecular classification and of prognostication in AML. Thus, disease associated methylation patterns might also harbor predictive relevance for identification of patients who will profit from DNMT inhibitor therapy and for support of therapeutic decision making. In order to identify a DNA methylation based response predictor, we applied a two-step strategy and generated genome-wide profiles underlying response and resistance to a combination chemotherapy applied within the AMLSG 12-09 Study (ClinicalTrials.gov Identifier: NCT01180322) comprising the drugs idarubicin and etoposide plus the demethylating agent 5-azaC as induction therapy. By methylated-CpG immune-precipitation and next generation sequencing (MCIp-seq), we generated DNA methylation profiles of responders (n=12) and non-responders (n=23). A supervised empirical Bayes approach for the analysis of sequencing read count data (\u201cedgeR\u201d) was applied to identify differentially methylated regions (DMRs) associated with 5-azaC response. We identified 550 genomic regions (based on 500 bp binning) that exposed highly significant read count differences indicating differential DNA methylation between both patient groups. The GC content distribution within the identified differentially methylated regions (DMRs) was comparable to the entire genome. 14% of the DMRs were located in gene promoter regions, 60% in intragenic and 26% in intergenic regions. Overall, the detected DMRs were considerably enriched in the vicinity of transcriptional start sites and preferentially targeted genes acting as transcriptional regulators (including transcription factors involved in hematopoiesis). Within the set of 550 DMRs, we selected the 40 most significantly discriminating regions and validated them with quantitative DNA methylation data from the Illumina Infinium\u00ae HumanMethylation450 Bead Chip. 25% of the selected DMRs were covered by only one probe whereas the majority was covered by up to six probes totaling in 107 probes (CpGs). We detected a good correlation between MCIp-seq und 450k-derived methylation data for each patient (median Spearman\u2019s rho = 0.69, 95%-CI [0.32, 0.87]) and could validate 90% of DMRs via quantitative 450k array data. Comprising 95 probes, these validated DMRs were used to create a multivariable signature for therapy response prediction. Through a penalized logistic regression model (\u201celastic-net\u201d-penalty) applied to the 450k M-values in our discovery sample set, we identified a signature containing 17 probes (CpGs) associated with 12 genes which predicted response perfectly. Four of the identified CpGs were located in promoters, 11 in intragenic and two in intergenic regions. Among the genes targeted by differential methylation in our signature, we found WNT10A , a component of the WNT-beta-catenin-TCF signaling pathway, and PKMYT1 . The latter one is a membrane-associated serine/threonine protein kinase which is regulated by polo-like kinase 1. Its inhibition has been reported recently to sensitize for cytarabine-mediated toxicity in vitro . Furthermore, two DMRs associated with the promoters of miRNAs ( miR-3154 , miR-3186 ) were contained in the signature. In summary, by genome-wide screening approaches, we identified differentially methylated genes and genomic regions that are associated with response to treatment regimens containing the DNMT inhibitor 5-azaC. At the same time, the predictive DMRs also harbor high potential to be functionally linked to molecular mechanisms and pathways involved in therapy response. By variable selection, we created a minimal signature that accurately predicts response in our discovery sample set. Further validation of this response-signature in independent cohorts of AML cases also comprising patients treated with decitabine are underway. Disclosures: Schlenk: Celgene: Honoraria, Research Funding; Pfizer: Honoraria, Research Funding; Chugai: Research Funding; Amgen: Research Funding; Novartis: Research Funding; Ambit: Honoraria.",
+    "topics": [
+        "combined modality therapy",
+        "dna methylation",
+        "dna modification methylases",
+        "leukemia, myelocytic, acute",
+        "decitabine",
+        "dna methyltransferase inhibitors",
+        "protein-serine-threonine kinases",
+        "azacitidine",
+        "biological markers",
+        "combination drug therapy"
+    ],
+    "author_names": [
+        "Maximilian Schmutz",
+        "Manuela Zucknick, PhD",
+        "Richard F. Schlenk, MD",
+        "Konstanze D\u00f6hner, MD",
+        "Hartmut D\u00f6hner, MD",
+        "Christoph Plass, PhD",
+        "Lars Bullinger, MD, PhD",
+        "Rainer Claus, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Maximilian Schmutz",
+            "author_affiliations": [
+                "Division Epigenomics and Cancer Risk Factors, German Cancer Research Center, Heidelberg, Germany, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manuela Zucknick, PhD",
+            "author_affiliations": [
+                "Division of Biostatistics, German Cancer Research Center, Heidelberg, Germany, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Richard F. Schlenk, MD",
+            "author_affiliations": [
+                "Department of Internal Medicine III, University Hospital of Ulm, Ulm, Germany, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Konstanze D\u00f6hner, MD",
+            "author_affiliations": [
+                "Department of Internal Medicine III, University Hospital of Ulm, Ulm, Germany, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hartmut D\u00f6hner, MD",
+            "author_affiliations": [
+                "Department of Internal Medicine III, University of Ulm, Ulm, Germany, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christoph Plass, PhD",
+            "author_affiliations": [
+                "Division of Epigenomics and Cancer Risk Factors, German Cancer Research Center, Heidelberg, Germany"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lars Bullinger, MD, PhD",
+            "author_affiliations": [
+                "Department of Internal Medicine III, University Hospital of Ulm, Ulm, Germany, "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rainer Claus, MD",
+            "author_affiliations": [
+                "Division Epigenomics and Cancer Risk Factors, German Cancer Research Center, Heidelberg, Germany, "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-27T06:49:04",
+    "is_scraped": "1"
 }
