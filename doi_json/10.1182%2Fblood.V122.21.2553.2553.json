@@ -1,8 +1,125 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2592",
-    "start_url_page_num": "2592",
     "doi": "https://doi.org/10.1182/blood.V122.21.2553.2553",
-    "url": "https://ashpublications.org/blood/article/122/21/2553/11360/Novel-Flow-Cytometry-Based-Method-Of-Affinity?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T07:40:46",
-    "is_scraped": "0"
+    "article_title": "Novel Flow Cytometry-Based Method Of Affinity Proteomics Revealing Expression, Post-Translational Modification and Proteolysis In Primary Childhood Acute Leukemias ",
+    "article_date": "November 15, 2013",
+    "session_type": "611. Leukemias: Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis: Poster II",
+    "abstract_text": "Leukemia is a complex disease pathologically manifested at the DNA, mRNA and protein level. Understanding leukemia pathogenesis is prevalently focused on mutations at the DNA (or mRNA) level, however the functional consequences of these changes on cellular machineries are not fully clarified. Since proteome analysis provides link between gene sequence and cellular physiology, proteomics can contribute to elucidate mechanism of disease and response to treatment. Moreover some alterations are manifested only at the protein level including subcellular localisation, post-translational modification (e.g. phosphorylation), protein cleavage or protein-protein interactions. Performing large-scale protein analysis of primary leukemia samples requires the development of more effective proteomic approaches as well as new analytical strategies. Here, we present novel microsphere-based antibody array format with automatical analysis tool that can follow changes in expression and post-translational modification of leukemia associated proteins with regards to intracellular localisation and protein cleavage in primary childhood acute leukemia (AL). Size Exclusion Chromatography-Microsphere-based Affinity Proteomics (SEC-MAP) is a set of 1728 populations of fluorescently-labeled microbeads, each carrying an antibody against respective human protein. Native cellular proteins (and their complexes) are isolated using detergents, labeled with biotin and subjected to size exclusion chromatography to obtain 24 molecular weight fractions. The fractions are incubated with SEC-MAP microbeads and the antibody-protein binding is detected using fluorescently-labeled streptavidin by flow cytometry. Flow cytometer resolves color-code of each microbead population and reads the amount of bound protein. The signals from 24 size fractions are combined and protein binding is detected as protein reactivity peaks similar to bands on western blot. The analysis is performed using automatic software created in R. It allows for automatic processing of fcs files as well as advanced follow-up analysis including quality control, normalisation, protein peaks recognition and clustering of results We have examined the expression of cytoplasmic (n=980) and membrane (n=769) proteins in 69 primary samples of AL obtained at diagnosis according to the Institutional Ethics Committee Giudelines. For the normalisation of protein expression we have used Loess normalisation commonly used in mRNA profiling studies. Due to ability of SEC-MAP to separate proteins according their molecular weight we have identified not only the expression of proteins but also the size that corresponds to its monomeric or multimeric presence and furthermore could serve as a control of proteolysis. We have revealed the sensitivity to proteolysis of 4 standard house-keeping proteins (Akt, Abl, \u03b2-actin and \u03b22-microglobulin). Abl and Akt proved to be better controls of proteolysis. Detected with SEC-MAP or western blot, \u03b2-actin and \u03b22-microglobulin, unlike Abl and Akt, have not been found in their cleaved forms in the proteolytically digested samples. Thus we have identified proteolysis in 12 samples which have been subsequently excluded from the analysis. So far we have identified 44 proteins (including CD markers distinguishing lineage specificity e.g. CD22, CD3, CD33) which have been differentially expressed in different subtypes of AL (B-cell precursor acute lymphoblastic leukemia, BCP-ALL, n=35), T-cell acute lymphoblastic leukemia (T-ALL, n=9) and acute myeloid leukemia (AML, n=13) (Multiple Testing Procedures - Bioconductor Package multtest, p<0.05). We have verified the expression using flow cytometry or western blot. From non-CD markers, we have found e.g. BLNK, DBN1, PAX5, PTK2 overexpressed in BCP-ALL, EIF5A, LAT, SH2D1A, SSEA4 overexpressed in T-ALL and CEBPA, CTBP2, GLUD1, LCP(pY145) and PTPN6 overexpressed in AML. In summary, SEC-MAP proved to be strong proteomic tool capable of identifying leukemia phenotype as well as providing novel insights into the protein expression and post-translational modification of primary childhood AL. Moreover it can bring complementary information about proteolysis not captured by planar arrays (western blot) which can significantly affect proteomic results. Supported by GAUK 596912, IGA NT13462, IGA NT12397, P302/12/G101, UNCE 204012, 00064203. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "affinity",
+        "child",
+        "leukemia, acute",
+        "protein processing, post-translational",
+        "proteolysis",
+        "proteomics",
+        "microspheres",
+        "leukemia",
+        "western blotting",
+        "adult t-cell lymphoma/leukemia"
+    ],
+    "author_names": [
+        "Veronika Kanderova, PhD",
+        "Daniela Kuzilkova, MSc",
+        "Jan Stuchly, MSc",
+        "Weiwei Wu, MD",
+        "Anders Holm, PhD",
+        "Heidi Sl\u00e5stad, MD",
+        "Karel Fiser",
+        "Ondrej Hrusak",
+        "Fridtjof Lund-Johansen, MD, PhD",
+        "Tomas Kalina, MD, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Veronika Kanderova, PhD",
+            "author_affiliations": [
+                "Dpt. Pediatric Hematology and Oncology, 2nd Faculty of Medicine, Charles University and University Hospital Motol, Prague, Czech Republic, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniela Kuzilkova, MSc",
+            "author_affiliations": [
+                "Dpt. Pediatric Hematology and Oncology, 2nd Faculty of Medicine, Charles University and University Hospital Motol, Prague, Czech Republic, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jan Stuchly, MSc",
+            "author_affiliations": [
+                "Dpt. Pediatric Hematology and Oncology, 2nd Faculty of Medicine, Charles University and University Hospital Motol, Prague, Czech Republic, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Weiwei Wu, MD",
+            "author_affiliations": [
+                "Dpt. Immunology, Oslo University Hospital, Oslo, Norway, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anders Holm, PhD",
+            "author_affiliations": [
+                "Dpt. Immunology, Oslo University Hospital, Oslo, Norway, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Heidi Sl\u00e5stad, MD",
+            "author_affiliations": [
+                "Dpt. Immunology, Oslo University Hospital, Oslo, Norway, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karel Fiser",
+            "author_affiliations": [
+                "CLIP, Dept.of Hematology and Oncology FNM, Childhood Leukaemia Investigation Prague, Charles University, Prague, Czech Republic, "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ondrej Hrusak",
+            "author_affiliations": [
+                "Department of Pediatric Hematology and Oncology, 2nd Faculty of Medicine, Charles University Prague, University Hospital Motol, Prague, Czech Republic"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Fridtjof Lund-Johansen, MD, PhD",
+            "author_affiliations": [
+                "Dpt. Immunology, Oslo University Hospital, Oslo, Norway, "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tomas Kalina, MD, PhD",
+            "author_affiliations": [
+                "Dpt. Pediatric Hematology and Oncology, 2nd Faculty of Medicine, Charles University and University Hospital Motol, Prague, Czech Republic, "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-27T09:38:06",
+    "is_scraped": "1"
 }
