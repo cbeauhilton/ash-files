@@ -1,8 +1,115 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2667",
-    "start_url_page_num": "2667",
     "doi": "https://doi.org/10.1182/blood.V122.21.1371.1371",
-    "url": "https://ashpublications.org/blood/article/122/21/1371/103523/Targeted-Next-Generation-Sequencing-Of-2-761-Genes?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T10:45:55",
-    "is_scraped": "0"
+    "article_title": "Targeted Next-Generation Sequencing Of 2,761 Genes Detects Copy Number States and Molecular Mutations In a Single Approach ",
+    "article_date": "November 15, 2013",
+    "session_type": "611. Leukemias: Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis: Poster I",
+    "abstract_text": "Introduction In acute myeloid leukemia (AML), the karyotype and molecular mutation profile are the strongest determinants for prognosis and biological subclassification. Yet, diagnostic analyses rely on chromosome banding technique and sequencing of a constantly growing number of genes. Aims In an era of novel high-throughput sequencing assays becoming viable options for diagnostic implementation we aimed to evaluate whether the application of targeted exome sequencing can reliably identify copy number states and molecular mutations in a single-step procedure. Patients and Methods The pilot cohort included four AML cases with a complex karyotype with known chromosomal alterations as detected by chromosome banding analysis, 24-color FISH and array CGH (12x270K microarrays, NimbleGen, Madison, WI). The size of the aberrant clone was determined by suitable probes using interphase-FISH on bone marrow smears. For sequencing analysis genomic DNA was extracted from mononuclear cells and 50 ng were processed using the TruSight Rapid Capture kit (Illumina, San Diego, CA). Sequencing was performed on a MiSeq instrument using the 2x150 bp paired-end read chemistry targeting a subset of the human exome (2,761 genes; 37,366 exons). This exome enrichment library contained >50,000 probes (7.75 Mb) focusing on disease-causing variants in specific inherited conditions (Illumina). Data analysis was performed applying default settings of the on-board MiSeq Reporter Software version 2.2.29 using the Burrows-Wheeler Aligner to align the reads against the hg19 reference genome. Further processing to delineate copy number states was performed using the ExomeCNV package. Results Each patient was analyzed in a single MiSeq run and in median 22,022,240 (range 19,233,134 - 23,507,016) reads were generated. The median coverage per target region was in the range of 74-186 reads. Coverage uniformity was assessed according to the manufacturer's recommendations. Over 98% of bases were covered at 0.12X mean coverage for each sample. Next, two data analysis pipelines were triggered, i.e. copy number states and mutation analysis. With respect to copy number alterations (CNA), in total 65 CNA were detected by chromosome banding analysis/array CGH. Of these, 21 were gains, 44 were losses. The size of the deletions ranged between 378,377 and 141,048,720 bp (median 10,731,680 bp), the size of the gains ranged between 281,608 and 46,404,876 bp (median 4,947,125 bp), respectively. In total, 63/65 (96.9%) copy number alterations were correctly identified by targeted exome sequencing. The NGS assay was able to detect copy number alterations that were present in only 23% of cells as determined by interphase-FISH. In detail, one of the deletions was homozygous with a larger deletion on the long arm of chromosome 17 (size: 1,070,162 bp) and a small intragenic deletion within the NF1 gene. This homozygous deletion was detected by array-CGH and by exome sequencing. Interestingly, the higher resolution of the exome sequencing assay in this area enabled the exact localization (exons 37 to 58) and size determination (78,415 bp) of the deletion. Overall, only 2 gains escaped detection. These were two small gained regions on a highly rearranged chr. 19. Secondly, with respect to mutation analysis, the same assay detected 19, 20, 21 and 28 mutations in the four analyzed patients. This pipeline took only putative variants into account that were not present in the control sample, were having a coverage \u226530 reads with a mutation load \u226510%, and had a confirmed COSMIC mutation entry (v66). 12/2,761 (0.4%) genes harbored mutations in at least 2/4 patients. This included genes known to be involved in leukemogenesis. TP53 mutations were detected in all four cases and all were confirmed by Sanger sequencing. Conclusions A targeted exome sequencing assay allowed to robustly assess copy number states in AML at diagnosis at a resolution greater than current conventional array CGH analyses. Moreover, exome sequencing read data also can be used to delineate mutation profiles. Thus, this workflow enabled to call gene mutations and copy number states in a single assay and is a promising option for a routine diagnostics assay in the future. The gene panel has to be further optimized by adding genes known to be mutated in hematological malignancies. More data is necessary to precisely determine the detection limit and to optimize software tools for a routine use. Disclosures: Kohlmann: MLL Munich Leukemia Laboratory: Employment. Roller: MLL Munich Leukemia Laboratory: Employment. Weissmann: MLL Munich Leukemia Laboratory: Employment. Kuznia: MLL Munich Leukemia Laboratory: Employment. Zenger: MLL Munich Leukemia Laboratory: Employment. Kern: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Schnittger: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership.",
+    "topics": [
+        "genes",
+        "massively-parallel genome sequencing",
+        "mutation",
+        "leukemia",
+        "chromosome banding",
+        "karyotype determination procedure",
+        "mutation analysis",
+        "burrow",
+        "dideoxy chain termination dna sequencing",
+        "dna"
+    ],
+    "author_names": [
+        "Alexander Kohlmann, PhD",
+        "Andreas Roller, PhD",
+        "Sandra Weissmann, PhD",
+        "Sabrina Kuznia, MSc",
+        "Melanie Zenger",
+        "Wolfgang Kern, MD",
+        "Susanne Schnittger, PhD",
+        "Torsten Haferlach, MD",
+        "Claudia Haferlach, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Alexander Kohlmann, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andreas Roller, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sandra Weissmann, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sabrina Kuznia, MSc",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Melanie Zenger",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wolfgang Kern, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Susanne Schnittger, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Torsten Haferlach, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Claudia Haferlach, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-28T06:48:53",
+    "is_scraped": "1"
 }
