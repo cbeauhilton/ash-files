@@ -1,8 +1,106 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2685",
-    "start_url_page_num": "2685",
     "doi": "https://doi.org/10.1182/blood.V122.21.1198.1198",
-    "url": "https://ashpublications.org/blood/article/122/21/1198/103472/Differences-In-The-Genome-Wide-Epigenetic?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T11:38:58",
-    "is_scraped": "0"
+    "article_title": "Differences In The Genome-Wide Epigenetic Signatures Of mRNA and Long Non-Coding RNA Genes In Mouse Erythroblasts and Megakaryocytes ",
+    "article_date": "November 15, 2013",
+    "session_type": "503. Hematopoiesis: Regulation of Gene Transcription: Poster I",
+    "abstract_text": "The ENCODE project has demonstrated that epigenetic signatures, including DNA methylation and transcription factor (TF) occupancy, define gene expression. However, ENCODE was constructed using static cells that were not capable of further differentiation. We hypothesize that specific epigenetic profiles are associated with erythroid and megakaryocytic differentiation. To test this hypothesis, we isolated primary erythroblasts (EBs) and megakaryocytes (Megs) from mouse bone marrow by flow cytometry and prepared: 1) DNA for genome-wide methylation analysis using MBD2 Methyl-Seq; 2) RNA for both RNA-Seq analysis and microarray analysis of novel and annotated lncRNA expression levels; and 3) chromatin for genome-wide chromatin immunoprecipitation (ChIP-Seq) analysis of occupancy by the TFs GATA1 and NFE2. We developed the web-based high-throughput sequencing tool suite SigSeeker ( http://sigseeker.org ) to predict regions of methylation and TF occupancy across the genome. High-confidence methylation, GATA1, and NFE2 profiles, represented by the intersection of two independent EB and Meg biological replicates, are shown in Table 1 . Of the approximate 100,000 methylated regions in EBs and Megs, 45% were shared between the two cell types. Unlike methylation, GATA1 and NFE2 occupancy showed strong cell type-specific profiles, with most GATA1 occupied sites (79%) being EB-specific, and most NFE2 occupied sites (72%) being Meg-specific. While 26% of EB-specific GATA1 peaks were co-occupied by NFE2, co-occupancy by GATA1 and NFE2 in Megs was rare (0.6%). Table 1 Methylation, GATA1 and NFE2 Peaks in EBs and Megs  . EB-specific . Common . Meg-specific . Methylation 61,106 45,180 52,822 GATA1 Only 4,669 1,236 99 NFE2 Only 1,350 1,248 3,147 GATA1 and NFE2 3,382 1,034 20 . EB-specific . Common . Meg-specific . Methylation 61,106 45,180 52,822 GATA1 Only 4,669 1,236 99 NFE2 Only 1,350 1,248 3,147 GATA1 and NFE2 3,382 1,034 20 View Large We developed a second web-based tool called SBR ( http://sbrblood.msseeker.org ) to correlate ChIP-Seq and Methyl-Seq profiles with RNA-Seq and lncRNA transcriptional data sets. Almost 95% of RefSeq (coding) genes with methylation in the promoter regions were not expressed. Fewer than 5% of methylated RefSeq promoters also had TF occupancy. Unlike promoters, the bodies of RefSeq genes had a high degree of overlap between methylation and TF binding. In EBs, 38% of RefSeq genes with GATA1 occupancy in the body were methylated. Of genes with this profile, 81% were transcriptionally silent. In Megs, 42% of RefSeq genes with NFE2 occupancy in the body were methylated. However, 80% of these Meg-specific genes were transcriptionally active. In contrast to RefSeq genes, lncRNA genes have a different signature. More than 85% of EB-expressed lncRNA promoters are methylated and \u223c25% of these promoters are occupied by GATA1 and/or NFE2. Over 90% of EB-expressed lncRNA gene bodies occupied by GATA1 and/or NFE2 are methylated. In contrast less than 10% of Meg-expressed lncRNA promoters are methylated and \u223conly 2% of these promoters are occupied by NFE2. However, 90% of Meg-expressed lncRNA gene bodies occupied by GATA1 and/or NFE2 are methylated. Ingenuity IPA analysis of the transcriptional profiles associated with different epigenetic signatures revealed differentially regulated cellular pathways. In EBs, GATA1 occupancy in the promoters of silent genes was associated with cardiovascular ( p \u2264 10 -7 ) and nervous system development ( p \u2264 10 -7 ). In Megs, NFE2 promoter occupancy was associated with active genes involved in nucleic acid metabolism ( p \u2264 10 -3 ) and nervous system development ( p \u2264 10 -5 ). Genes expressed in both EBs and Megs were involved in transcription ( p \u2264 10 -6 ), cell cycle progression ( p \u2264 10 -5 ), and decreased hypoplasia ( p \u2264 10 -20 ). GATA1 and NFE2 co-occupied genes expressed in both EBs and Megs were associated with suppression of bone-related ( p \u2264 10 -6 ) and neuron-related transcripts ( p \u2264 10 -8 ). In summary, we show that TF occupancy and methylation significantly overlap in RefSeq gene bodies, but not in promoters. These profiles have revealed that GATA1 occupancy, independent of NFE2 co-occupancy, correlates with EB-specific transcriptional silencing, whereas Meg-specific transcriptional activation is associated with NFE2 occupancy. In contrast, over 90% active and TF-occupied lncRNA (both novel and previously annotated) gene bodies are methylated. These epigenetic correlations will be important for future studies assessing the regulation of mRNAs and lncRNAs. Disclosures: No relevant conflicts of interest to declare.",
+    "topics": [
+        "epigenetics",
+        "erythroblasts",
+        "genes",
+        "genome",
+        "megakaryocytes",
+        "mice",
+        "rna",
+        "rna, messenger",
+        "dna",
+        "flow cytometry"
+    ],
+    "author_names": [
+        "Elisabeth F Heuston, PhD",
+        "Jens Lichtenberg, PhD",
+        "Stacie M Anderson",
+        "Vikram R Paralkar, MD",
+        "Cheryl Keller Capone, PhD",
+        "Ross C Hardison, PhD",
+        "Mitchell J. Weiss, MD, PhD",
+        "David M. Bodine, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Elisabeth F Heuston, PhD",
+            "author_affiliations": [
+                "National Human Genome Research Institute, Genetics and Molecular Biology Branch, Bethesda, MD, USA, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jens Lichtenberg, PhD",
+            "author_affiliations": [
+                "National Human Genome Research Institute, Genetics and Molecular Biology Branch, Bethesda, MD, USA, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stacie M Anderson",
+            "author_affiliations": [
+                "National Human Genome Research Institute, Flow Cytometry Core, Bethesda, MD, USA, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vikram R Paralkar, MD",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, University of Pennsylvania, Perelman School of Medicine, Philadelphia, PA, USA, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cheryl Keller Capone, PhD",
+            "author_affiliations": [
+                "Department of Biochemistry and Molecular Biology, Pennsylvania State University, University Park, PA, USA, ",
+                "National Human Genome Research Institute, National Institutes of Health Intramural Sequencing Center, Bethesda, MD, USA, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ross C Hardison, PhD",
+            "author_affiliations": [
+                "Department of Biochemistry and Molecular Biology, Pennsylvania State University, University Park, PA, USA, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mitchell J. Weiss, MD, PhD",
+            "author_affiliations": [
+                "Division of Hematology, Children's Hospital of Philadelphia, University of Pennsylvania School of Medicine, Philadelphia, PA, USA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David M. Bodine, PhD",
+            "author_affiliations": [
+                "National Human Genome Research Institute, Genetics and Molecular Biology Branch, Bethesda, MD, USA, "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-28T12:59:49",
+    "is_scraped": "1"
 }
