@@ -1,8 +1,114 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2647",
-    "start_url_page_num": "2647",
     "doi": "https://doi.org/10.1182/blood.V122.21.1865.1865",
-    "url": "https://ashpublications.org/blood/article/122/21/1865/14122/Gene-Expression-Profiling-Based-Risk?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T10:24:40",
-    "is_scraped": "0"
+    "article_title": "Gene Expression Profiling-Based Risk Stratification Scores In Multiple Myeloma Can Be Highly Sensitive Towards Sample Preparation ",
+    "article_date": "November 15, 2013",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster I",
+    "abstract_text": "Background Gene expression profiling (GEP) via microarray analysis enables the measurement of expression levels for tens of thousands of genes in a single experiment, and it has been widely used in clinical practice for cancer classification, risk stratification, and treatment selection. However, results of GEP-based clinical diagnostic/prognostic tests can be highly affected by batch effects when clinical samples are processed differently (e.g. on different days, by different technicians, or using different sample protocols). Yet, this problem is rarely discussed in the literature. Understanding the role of batch effects on GEP-based conclusions is vital because GEP-based-risk treatment assignment has been used for personalized treatment to improve patients' survival: patients with low risk and favorable clinical and biological features can be treated with a less intensive, lower toxicity treatment, while patients with high risk and unfavorable features can be treated with a more aggressive, potentially more toxic therapeutic approach. Here, we investigate how sample processing discrepancies influence various GEP-based prognostic models in multiple myeloma (MM) and how to adjust for such effects during data analysis. Methods/Results In 2009, Affymetrix discontinued their One-Cycle and Two-Cycle Target Labeling and Control Reagents (hereon referred to as the 'old' kit) and replaced it with a 3' IVT Express Kit (hereon referred to as the 'new' kit). To examine the impact of the replacement kit on GEP results, we set out to process eleven CD138-enriched patient plasma cell samples using both the new and old kits side-by-side before hybridizing them separately to the Affymetrix HG-U133 Plus 2.0 arrays. Various GEP-based MM prognostic scores, including UAMS-70, UAMS-80, UAMS-17, EMC-92, IFM-15, MRC-IX-6, and MILLENNIUM-100, were calculated and compared between the matched GEP pairs with either MAS5 or RMA normalization, with and without batch effect adjustment by ComBat (Combating Batch Effects When Combining Batches of Gene Expression Microarray Data). Both the UAMS-70 and UAMS-80 scores are based on log2 ratios between unfavorable and favorable genes regarding survival, which are self-normalized. However, with MAS5 alone, the UAMS-70 score was similar between the two kits ( p -value=0.37 from paired t-test) but not for UAMS-80 score, which was significantly higher under the new kit ( p -value<0.001 from paired t-test, Figure 1 ). Furthermore, besides UAMS-17, the score values from the EMC-92, IFM-15, MRC-IX-6, and MILLENNIUM-100 models without batch effect adjustment were all affected by the kit issue. After ComBat adjustment, variation caused by batch effects markedly reduced, and as a result, correlation increased between the prognostic scores of the two different kits. For most GEP-based MM prognostic scores, kit effect was minimized by RMA plus ComBat correction, which resulted in similar risk scores between the two kits. View large Download slide View large Download slide  Close modal Conclusion For GEP-based prognostic models, it is important to check for possible batch effects which may be the end result of various causes, such as differences in sample preparation and processing protocols, like the new kit/old kit issue discussed here. We found that even for self-normalized prognostic signatures, risk scores can still sometimes be significantly different because of batch effects. So, it is essential to preprocess GEP raw data carefully, minimizing variance caused by batch effects, and adjusting any GEP-based diagnostic result accordingly, e.g. cutoff values in risk-assessment models. Disclosures: Usmani: Celgene: Consultancy, Research Funding, Speakers Bureau; Onyx: Research Funding, Speakers Bureau. Barlogie: Celgene: Consultancy, Honoraria, Research Funding; Myeloma Health, LLC: Patents & Royalties.",
+    "topics": [
+        "gene expression",
+        "multiple myeloma",
+        "magnetic resonance cholangiography",
+        "cancer",
+        "gene expression profiling",
+        "toxic effect",
+        "paired t-test",
+        "data analysis",
+        "plasma cells"
+    ],
+    "author_names": [
+        "Qing Zhang, Phd",
+        "Christoph Heuck, MD",
+        "Pingping Qu, PhD",
+        "Saad Z Usmani, MD, FACP",
+        "Ryan Williams",
+        "Yiming Zhou, PhD",
+        "Clyde Bailey",
+        "Joshua Epstein, DSc",
+        "Bart Barlogie, MD, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Qing Zhang, Phd",
+            "author_affiliations": [
+                "Myeloma Institute for Research and Therapy, University of Arkansas for Medical Sciences, Little Rock, AR, USA, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christoph Heuck, MD",
+            "author_affiliations": [
+                "Myeloma Institute for Research and Therapy, University of Arkansas for Medical Sciences, Little Rock, AR, USA, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pingping Qu, PhD",
+            "author_affiliations": [
+                "Research and Biostatistics, Cancer Research and Biostatistics, Seattle, WA, USA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Saad Z Usmani, MD, FACP",
+            "author_affiliations": [
+                "Myeloma Institute for Research and Therapy, University of Arkansas for Medical Sciences, Little Rock, AR, USA, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ryan Williams",
+            "author_affiliations": [
+                "Myeloma Institute for Research and Therapy, University of Arkansas for Medical Sciences, Little Rock, AR, USA, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yiming Zhou, PhD",
+            "author_affiliations": [
+                "Myeloma Institute for Research and Therapy, University of Arkansas for Medical Sciences, Little Rock, AR, USA, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Clyde Bailey",
+            "author_affiliations": [
+                "Myeloma Institute for Research and Therapy, University of Arkansas for Medical Sciences, Little Rock, AR, USA, "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joshua Epstein, DSc",
+            "author_affiliations": [
+                "Myeloma Institute for Research and Therapy, University of Arkansas for Medical Sciences, Little Rock, AR, USA, "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bart Barlogie, MD, PhD",
+            "author_affiliations": [
+                "Myeloma Institute for Research and Therapy, University of Arkansas for Medical Sciences, Little Rock, AR, USA, "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-28T03:50:38",
+    "is_scraped": "1"
 }
