@@ -1,8 +1,135 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2783",
-    "start_url_page_num": "2783",
     "doi": "https://doi.org/10.1182/blood.V124.21.2026.2026",
-    "url": "https://ashpublications.org/blood/article/124/21/2026/89722/Single-Sample-Application-of-the-EMC92-SKY92?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T16:30:20",
-    "is_scraped": "0"
+    "article_title": "Single Sample Application of the EMC92/SKY92 Signature Using the Mmprofiler ",
+    "article_date": "December 6, 2014",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster I",
+    "abstract_text": "Introduction Multiple Myeloma (MM) is a heterogeneous disease with diverse gene expression patterns (GEP) across patients. This has led to the development of various signatures allowing virtual karyotyping, defining different clusters of patients, and prognostication by high risk signatures (e.g. EMC92/SKY92). Several GEP datasets exist, but may have scaling/offset differences (batch effects) in the data, e.g. due to differences in reagents used, location, etc. Batch wise normalization approaches can reduce batch effects, and have allowed successful validation of those signatures across independent datasets. Batch wise normalization requires groups of patients that have a similar distribution of clinical characteristics, and hence cannot be applied on single patients. Here we demonstrate the validity of applying GEP algorithms on single patients using the MMprofiler, enabling the application of GEP in a routine clinical setting. Materials and Methods The MMprofiler GEP assay is a standardized assay from bone marrow to data analysis and result reporting. It was used for 77 MM patients that were enrolled in the HOVON87/NMSG18 trial (73 patients) or HOVON95/EMN02 trial (4 patients). A representative reference set of 30 HOVON patients was selected from which normalization parameters were derived, to be used for normalization of a single sample against this HOVON reference dataset. The remaining 47 samples served as an independent set of samples. In addition, we have also used the publicly available GEP data from 247 patients (MRC-IX trial) as independent samples. This MRC-IX dataset has been produced using different reagents and sample work-up procedures. Therefore, it is likely that a batch effect will exist relative to the HOVON reference dataset, which may influence correctness of single sample analyses. The GEP data from the 47 and 247 independent samples were normalized using two approaches. Firstly, by batch wise mean variance normalization (i.e. across the 47 and 247 patient batches separately). And secondly, by single sample normalization using the normalization parameters from the initial 30 HOVON samples. Subsequently, several classifiers (EMC92/SKY92 etc.) were applied to the data, and their results were compared between the two normalization approaches. Results Figure 1 shows the EMC92/SKY92 scores that were obtained after batch normalization (x-axis) and single sample normalization (y-axis). For the 47 HOVON samples there is a high degree of concordance with data points close to the identity line (y=x). Only 2 out of the 47 samples would switch assignment, which is not unexpected since those 2 samples are really close to the threshold (e.g. might also switch due to technical variation). For the MRC-IX dataset, based on single sample normalization more patients would be predicted as high risk (87 (35.2%) instead of 52 (21.0%), see Figure 1 ), which is caused by a positive offset (i.e. intersect with the y-axis) due to the batch effect. For the Virtual t(4;14) classifier, both datasets have a very high concordance with 0 out 47 HOVON samples, and 5 out of 247 MRC-IX samples (but really close to the threshold) switching assignment (see Figure 1 ). Hence, even in the presence of a potential batch effect in the MRC-IX dataset, the single sample predictions are accurate. These data suggest that single sample normalization of microarray GEP is possible but requires the strict standardization of the MMprofiler assay and algorithms. Conclusions Scores for the EMC92/SKY92 signature were nearly equivalent when derived from the data following single sample normalization and batch normalization in the Skyline generated data. In the external dataset, a much higher discrepancy was found, highlighting the need to use highly standardized methods to generate Affymetrix GeneChip results. Further validation of this method is planned, and will include replicate runs systematically controlled for various conditions. Acknowledgments This research was performed within the framework of CTMM, the Center for Translational Molecular Medicine, project BioCHIP grant 03O-102. Figure 1. View large Download slide Scatterplots and confusion matrices of the batch (x-axis, columns) and single sample scores (y-axis, rows) of the EMC92/SKY92 signature (left), and Virtual t(4;14) classifier (right). Scores above/below the threshold correspond to high risk/standard risk (EMC92/SKY92) and positive/negative (Virtual t(4;14)). Figure 1. View large Download slide Scatterplots and confusion matrices of the batch (x-axis, columns) and single sample scores (y-axis, rows) of the EMC92/SKY92 signature (left), and Virtual t(4;14) classifier (right). Scores above/below the threshold correspond to high risk/standard risk (EMC92/SKY92) and positive/negative (Virtual t(4;14)).  Close modal Disclosures Van Vliet: SkylineDX: Employment. Dumee: SkylineDx: Employment. de Best: SkylineDx: Employment. Sonneveld: SkylineDx: Membership on an entity's Board of Directors or advisory committees. van Beers: SkylineDX: Employment.",
+    "topics": [
+        "advisory committees",
+        "bone marrow",
+        "data analysis",
+        "datasets",
+        "disclosure",
+        "employment",
+        "gene expression",
+        "heterogeneity",
+        "karyotype determination procedure",
+        "magnetic resonance cholangiography"
+    ],
+    "author_names": [
+        "Martin H. Van Vliet, PhD",
+        "Rowan Kuiper, BSc",
+        "Belinda Dumee, BSc",
+        "Leonie de Best, MSc",
+        "Peter J. van der Spek, PhD",
+        "Emmanuel M.E.H. Lesaffre, PhD",
+        "Mark van Duin, PhD",
+        "Anders Waage, MD PhD",
+        "Sonja Zweegman, MDPhD",
+        "Pieter Sonneveld, MDPhD",
+        "Erik H. van Beers, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Martin H. Van Vliet, PhD",
+            "author_affiliations": [
+                "SkylineDx, Rotterdam, Netherlands "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rowan Kuiper, BSc",
+            "author_affiliations": [
+                "Erasmus MC Cancer Institute, Rotterdam, Netherlands "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Belinda Dumee, BSc",
+            "author_affiliations": [
+                "SkylineDx BV, Rotterdam, Netherlands "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Leonie de Best, MSc",
+            "author_affiliations": [
+                "SkylineDx, Rotterdam, Netherlands "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter J. van der Spek, PhD",
+            "author_affiliations": [
+                "Erasmus MC Cancer Institute, Rotterdam, Netherlands "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Emmanuel M.E.H. Lesaffre, PhD",
+            "author_affiliations": [
+                "Erasmus MC Cancer Institute, Rotterdam, Netherlands "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mark van Duin, PhD",
+            "author_affiliations": [
+                "Erasmus MC Cancer Institute, Rotterdam, Netherlands "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anders Waage, MD PhD",
+            "author_affiliations": [
+                "Norwegian University of Science and Technology, Trondheim, Norway "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sonja Zweegman, MDPhD",
+            "author_affiliations": [
+                "VU University medical center, Amsterdam, Netherlands"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pieter Sonneveld, MDPhD",
+            "author_affiliations": [
+                "Erasmus MC Cancer Institute, Rotterdam, Netherlands "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Erik H. van Beers, PhD",
+            "author_affiliations": [
+                "SkylineDx, Rotterdam, Netherlands "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-29T18:42:44",
+    "is_scraped": "1"
 }
