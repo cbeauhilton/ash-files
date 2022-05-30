@@ -1,8 +1,105 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2851",
-    "start_url_page_num": "2851",
     "doi": "https://doi.org/10.1182/blood.V124.21.3228.3228",
-    "url": "https://ashpublications.org/blood/article/124/21/3228/96919/Mathematical-Modeling-of-Patient-Level-Hemoglobin?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T19:38:11",
-    "is_scraped": "0"
+    "article_title": "Mathematical Modeling of Patient-Level Hemoglobin Delineates Ruxolitinib\u2019s Complex Mechanism of Action and Quantifies Anemia Risk ",
+    "article_date": "December 6, 2014",
+    "session_type": "635. Myeloproliferative Syndromes: Basic Science: Poster II",
+    "abstract_text": "Introduction: Ruxolitinib is a JAK 1/2 inhibitor approved in patients with myelofibrosis (MF). The safety profile is well characterized with anemia being a common adverse event. The aim of this mathematical modeling analysis is to characterize individual hemoglobin (Hb) dynamics during ruxolitinib treatment, and to establish a dose-response relationship between treatment and occurrence of an anemic event as defined by an on-treatment reduction in Hb to < 8g/dL. Methods: Hb values from MF patients collected during first 24 weeks of treatment in 2 trials (INCB 18424-251 & COMFORT-I) were used to build a mathematical dose-Hb model while data from a third trial (COMFORT-II) was used to independently validate this model. These trials have previously characterized that mean Hg reached a nadir 8 to 16 weeks from start of treatment, then stabilized or improved (Verstovsek et al., 2010 and 2012; NEJM. Harrison et al, 2012; NEJM). Observed data were fitted via a non-linear-mixed-effect model (NONMEM VII) to characterize individual trends and inter-patient variability in the dynamics of Hb versus time and daily dose. A mechanistic model was used assuming stable Hb and 5 hypothetical compartments representing the life span of reticulocytes and red blood cells, the main carriers of Hb. Blood transfusions were modeled as bolus of Hb with a different elimination rate than Hb synthetized by patients with myelofibrosis. In order to quantify the probabilities of observing at least one anemia event (Hb < 8g/dL) for different starting doses, Hb levels were predicted from the final model based on dose levels from 10 to 25 mg bid for 24 weeks assuming no dose changes and no transfusions. Results: Data from 421 patients including 4849 Hb values during the first 24 weeks of treatment were used to build the model and 1254 Hb values from 146 patients to validate it. The final model characterized Hb dynamics and established a dose-response relationship between ruxolitinib and on-treatment Hb concentrations. The model predicts a 19% higher probability of observing at least one anemia event for 25 mg bid compared to 10 mg bid during the first 24 weeks of ruxolitinib assuming no dose changes and no transfusions. Model building was guided by an observed transient improvement in the Hb values during the first 4 weeks of ruxolitinib treatment (A), followed by a drop in Hb (nadir) during the next 3-4 weeks (B) and then a gradual trend upwards (C) in the observed Hb concentrations towards baseline values over the next few months of continued treatment ( Figure 1 ). An initial model included the JAK 1/2 inhibitor effect on Hb precursor synthesis rate (k-in). It captured the data well overall, but low Hb values at nadir (B) were overestimated. A natural negative feedback loop between circulating Hb and kin helped overcome the bias. Additional effects of ruxolitinib on \u2018k-in\u2019 and the Hb elimination rate, \u2018k-out\u2019, that accounted for the early (A) and late (C) increases in Hb also improved fitting of the nadir (B). Finally only the final model with a complex mechanism of action involving both positive and negative effects on Hb dynamics was adequate to fit the data. 1000 simulated replicas of the independent validation data from the COMFORT-II trial were used to derive individual Hb profiles versus time and compute the proportion of patients with at least one anemia event (< 8 g/dL). Consistency of the simulated 95% CI with the observed proportion from COMFORT-II confirmed predictability of the final model. Conclusions: The model provided a mechanistic capture of Hg changes and a return toward baseline Hg from the earlier nadir. Through this experimental model, we were able to establish a dose-response relationship which facilitates prediction of on-treatment Hb concentrations over time. Further investigations using prospective models alongside correlations with other treatment effects may be warranted to enable adapting this work into treatment management decisions while recognizing the transient nature of anemia events. Fittings are shown in solid lines: Blue line- fitting with Hg decrease component only (B), Green line- Fitting with Hg decrease (B) + return to baseline (C), Red line- Final model fitting capturing all 3 characteristics (A+B+C). Figure 1: View large Download slide Plot of observed dosing history (mg, gray bars), transfusions (g/L, red spikes), and Hb (g/L, dots) over time (day) illustrating the three characteristics of data (A, B and C) in 4 patients. Figure 1: View large Download slide Plot of observed dosing history (mg, gray bars), transfusions (g/L, red spikes), and Hb (g/L, dots) over time (day) illustrating the three characteristics of data (A, B and C) in 4 patients.  Close modal Disclosures Sarr: Novartis: Employment. Urva: Novartis: Employment. Nedelman: Novartis: Employment, Equity Ownership. Sallas: Novartis: Employment, Equity Ownership. Stalbovskaya: Novartis: Employment, Equity Ownership. Gopalakrishna: Novartis: Employment. Habr: Novartis: Employment. Capdeville: Novartis: Employment.",
+    "topics": [
+        "anemia",
+        "hemoglobin",
+        "mathematics",
+        "pharmacokinetics",
+        "ruxolitinib",
+        "blood transfusion",
+        "comfort-i trial",
+        "myelofibrosis",
+        "adverse event",
+        "equity"
+    ],
+    "author_names": [
+        "Celine Sarr, PhD",
+        "Shweta Urva, PhD",
+        "Jerry Nedelman, PhD",
+        "William Sallas, PhD",
+        "Viktoriya Stalbovskaya, PhD",
+        "Prashanth Gopalakrishna, MBBS, MRCS",
+        "Dany Habr, MD",
+        "Renaud Capdeville, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Celine Sarr, PhD",
+            "author_affiliations": [
+                "Novartis Pharmaceuticals Corporation, East Hanover, NJ "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shweta Urva, PhD",
+            "author_affiliations": [
+                "Novartis Pharmaceuticals Corporation, East Hanover, NJ "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jerry Nedelman, PhD",
+            "author_affiliations": [
+                "Novartis Pharmaceuticals Corporation, East Hanover, NJ "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "William Sallas, PhD",
+            "author_affiliations": [
+                "Novartis Pharmaceuticals Corporation, East Hanover, NJ "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Viktoriya Stalbovskaya, PhD",
+            "author_affiliations": [
+                "Novartis Pharma AG, Basel, Switzerland"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Prashanth Gopalakrishna, MBBS, MRCS",
+            "author_affiliations": [
+                "Novartis Pharma AG, Basel, Switzerland"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dany Habr, MD",
+            "author_affiliations": [
+                "Novartis Pharmaceuticals Corporation, East Hanover, NJ "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Renaud Capdeville, MD",
+            "author_affiliations": [
+                "Novartis Pharma AG, Basel, Switzerland"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-30T15:39:50",
+    "is_scraped": "1"
 }
