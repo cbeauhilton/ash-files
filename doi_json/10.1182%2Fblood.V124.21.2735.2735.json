@@ -1,8 +1,85 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2846",
-    "start_url_page_num": "2846",
     "doi": "https://doi.org/10.1182/blood.V124.21.2735.2735",
-    "url": "https://ashpublications.org/blood/article/124/21/2735/95763/Molecular-Dynamics-As-a-Computational-Tool-to?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T19:17:16",
-    "is_scraped": "0"
+    "article_title": "Molecular Dynamics As a Computational Tool to Study the Immune Reactivity: Identification of Conformational Changes in the Major Histocompatibility Complex ",
+    "article_date": "December 6, 2014",
+    "session_type": "203. Lymphocytes, Lymphocyte Activation and Immunodeficiency, including HIV and Other Infections: Poster II",
+    "abstract_text": "Introduction: The generation of the immune response requires the recognition of peptides presented by the major histocompatibility complex (MHC) through the T cell receptor (TCR). In the hematopoietic transplantation context, T cells (LT) from the donor recognize foreign MHC or own MHC bound to foreign peptides (pMHC), generating an alloimmune response. Currently, the molecular mechanisms of LT alloimmune activation are unknown. In order to analyze the molecular interactions between peptides, MHC and TCR, we have implemented Molecular Dynamics techniques. We have compared immunologically reactive complexes (HLA-A2/TAX/TCR-A6) to non/weakly reactive complexes (HLA-A2/V7R/TCR-A6; HLA-A2/P6A/TCR-A6; HLA-A2/Y8A/TCR-A6). Methods: Starting structure of a reactive complex was downloaded from the PDB database and used to model mutations known to lead to different degrees of immune reactivity. Dynamics simulations were performed and analyzed using the program AMBER version 9. The simulation time was approximately 10 ns. Further analysis was carried out using the script ARO (D\u00edaz-Moreno et al. 2009) in the VMD Tk console. Results: A total of 10 MD trajectories have been reckoned, to simulate the behavior of isolated components of the different pMHC-TCR complexes. Analysis of the fluctuations show that pMHC binding barely restrains TCR motions, affecting mostly to CDR3 loops. Opposite, pMHC displayed substantial changes in its dynamics upon comparing its free versus ternary form (pMHC-TCR). Moreover, we studied the salt-bridges formed between peptide and MHC and we observed a significant loss of salt-bridges in non reactive complexes as compared to reactive ones. Furthermore, the loss of salt-bridges in non reactive complexes affects the electrostatic potential of pMHC complex. According to these results, we next studied the salt-bridges formed between pMHC and TCR. As observed within the binary complex p-MHC, we confirmed a significant loss of salt-bridges in non reactive as compared to reactive complex. Finally, we also analyzed the electrostatic potential of pMHC-TCR complexes and we observed differences between reactive complex and weakly/non reactive complexes. Conclusions: The MHC shows strong changes in its molecular dynamics upon binding to TCR, decreasing its mobility. The \u201cpattern\u201d of salt-bridges between the peptides and the MHC varies depending on the reactivity of the complex, with a loss of salt-bridges in the non-reactive as compared to the reactive ones, which results in change in the electrostatic pattern. In addition, also the number of salt-bridges between pMHC and TCR increases in reactive complexes as compared to non-reactive ones. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "amber",
+        "binding (molecular function)",
+        "complex",
+        "dietary sodium chloride",
+        "donors",
+        "electrostatics",
+        "hla-a2 antigen",
+        "immune response",
+        "major histocompatibility complex",
+        "mobility"
+    ],
+    "author_names": [
+        "Estefania Garcia Guerrero",
+        "Jose Antonio P\u00e9rez Simon",
+        "Luis Ignacio S\u00e1nchez Abarca",
+        "Irene Diaz Moreno",
+        "Miguel Angel De la rosa",
+        "Antonio Diaz Quintana"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Estefania Garcia Guerrero",
+            "author_affiliations": [
+                "Hospital Virgen del Rocio/Instituto Biomedicina Sevilla, Seville, Spain "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jose Antonio P\u00e9rez Simon",
+            "author_affiliations": [
+                "Hospital Universitario Virgen del Roc\u00edo, Instituto de Biomedicina de Sevilla(IBIS)/CSIC/Universidad de Sevilla, Seville, Spain "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Luis Ignacio S\u00e1nchez Abarca",
+            "author_affiliations": [
+                "Hospital Universitario de Salamanca, Salamanca, Spain "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Irene Diaz Moreno",
+            "author_affiliations": [
+                "cicCARTUJA, Seville, Spain"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Miguel Angel De la rosa",
+            "author_affiliations": [
+                "cicCARTUJA, Seville, Spain"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Antonio Diaz Quintana",
+            "author_affiliations": [
+                "cicCARTUJA, Seville, Spain"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-30T13:09:46",
+    "is_scraped": "1"
 }
