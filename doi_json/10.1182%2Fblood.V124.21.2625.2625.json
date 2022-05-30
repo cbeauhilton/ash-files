@@ -1,8 +1,95 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2865",
-    "start_url_page_num": "2865",
     "doi": "https://doi.org/10.1182/blood.V124.21.2625.2625",
-    "url": "https://ashpublications.org/blood/article/124/21/2625/95525/Neighborhood-Death-Rate-A-Big-Data-Based-Health?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T20:22:17",
-    "is_scraped": "0"
+    "article_title": "Neighborhood Death Rate: A Big-Data Based Health Informatics Pipeline Helps Identify Factors Impacting Clinical Outcomes and Cost Effectiveness in Acute Myeloid Leukemia Patients ",
+    "article_date": "December 6, 2014",
+    "session_type": "902. Health Services and Outcomes Research \u2013 Malignant Diseases: Poster II",
+    "abstract_text": "Background Acute Myeloid Leukemia (AML) affects 18,860 adults in the US and is expected to account for 10,460 deaths of all mortalities due to leukemia. Several models have been constructed comparing different treatment strategies with their economic burden. We sought to investigate the early deaths in AML using a unique model utilizing the predictability of sum total of patient\u2019s neighborhood characteristics at the level of 5% and its applicability to assess the correlation between the overall outcomes and length of stay. Methods The patient data was queried from METEOR ( Methodist Environment for Translational Enhancement and Outcomes Research ), a clinical data warehouse and analytics environment that integrates existing business data warehouse with internal and external research databases and national registries to support clinical research and outcomes studies for improving patient care cost-effectively. METEOR data warehouse contains records dating back to January 1, 2006, with over 1 million unique patients and over 4 million unique patient encounters. I n order to evaluate the correlation between integral/continuous variables (e.g. length of stay a.k.a. LoS ) and binary clinical outcomes (e.g. survival/expired), we developed a statistical pipeline based on the concept of \u201c Neighborhood Death Rate ( NDR )\u201d. For a specific patient X, the mean length of stay across all his/her encounters serves as the model input; and a series of neighborhood patient population are defined as all patients with mean length of stay within \u00b15%, \u00b115% or \u00b125% range of the number for X; the death rates within the neighborhood population then serve as a output. Thus for each individual patient, a series of NDRs are defined, and the correlation coefficients between mean LoS and 5%, 15% and 25% NDR are available. These correlations are then individually corrected for baseline demographic factors sex and race; number of encounters; and the first order statistics (mean, median, sum, minimum and maximum) for total cost and cost without bone marrow transplant corresponding to each encounter. Such statistics corrections help identify the driving force underlying the \u201cLoS-NDR\u201d correlations. Results Our database has records for 12943 encounters from 1141 patients, 838 of which are currently alive survival 73%) . The groups of survived and expired patients show significant difference on the mean LoS (p-value 2.04-E22 from Wilcoxon rank sum test). Figure 1 A plots the distributions of survived (green) and expired (red) patient population separately. X-axis shows the log2 value of mean LoS; for each patient X, we calculate the number of patient with both 1) the same outcome as X and 2) a mean length of stay within \u00b115% range of X; and this number is then normalized using the total size of patients with the same outcome as X. Figure 1 View large Download slide Figure 1 View large Download slide Close modal Figure 2 View large Download slide Figure 2 View large Download slide Close modal The two outcome groups were then merged together to calculate the \u00b115% NDR for mean LoS ( Figure 1 B, X-axis show the log2 value of mean LoS, red nodes indicates expired patients). The Spearman\u2019s Rho correlation between mean LoS and its \u00b115% NDR is 0.8390; meanwhile between mean LoS of 2 and 3 days, the NDR makes a significant jump from below 0.1 to above 0.3, which may represent a critical predictor for patient outcomes. During the statistical corrections, the Spearman correlations changed less than 0.01 when corrected by Sex, Race and #of encounters, indicating limited impact from these baseline factors. However, the correlation reduced to 0.6906 when corrected by mean total cost, and to 0.7301 when corrected by mean total cost without bone marrow transplant. Table 1 show the results for individual statistics corrections for Spearman correlations of \u201cmean LoS-\u00b115% NDR\u201d and \u201cmedian LoS-\u00b115% NDR\u201d. Table 1 View large Download slide Table 1 View large Download slide Close modal Conclusions Published models for longevity and cost effectiveness often do not apply to the induction treatment as this a time-lapse hospital data for the duration is not usually available. Our unique analysis of Neighborhood death rates revealed that total cost is the main read-out that underlies the high correlation between length of stay and neighborhood death rates in patients with AML. We further hypothesis that medication cost (infection, critical care) and intensive care infrastructure are the main driving forces underlying the high correlation between LoS and NDR; and this model may help us obtain novel strategies to improve the cost effectiveness for AML patient care. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "big data",
+        "cost effectiveness",
+        "informatics",
+        "leukemia, myelocytic, acute",
+        "neighborhood",
+        "treatment outcome",
+        "length of stay",
+        "bone marrow transplantation",
+        "care of intensive care unit patient",
+        "infections"
+    ],
+    "author_names": [
+        "Zheng Yin",
+        "Anish S Konde, MB BS",
+        "Mamta Puppala, MS",
+        "Pallavi Srivastava",
+        "Wong Stephen",
+        "Lawrence Rice, MD",
+        "Swaminathan Padmanabhan Iyer, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Zheng Yin",
+            "author_affiliations": [
+                "Houston Methodist Research Institute, Houston, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anish S Konde, MB BS",
+            "author_affiliations": [
+                "Houston Methodist Hospital, Houston, TX "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mamta Puppala, MS",
+            "author_affiliations": [
+                "Houston Methodist Research Institute, Houston, TX "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pallavi Srivastava",
+            "author_affiliations": [
+                "Houston Methodist Research Institute, Houston, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wong Stephen",
+            "author_affiliations": [
+                "Houston Methodist Research Institute, Houston, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lawrence Rice, MD",
+            "author_affiliations": [
+                "Houston Methodist Hospital, Weill Cornell Medical College, Houston, TX "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Swaminathan Padmanabhan Iyer, MD",
+            "author_affiliations": [
+                "Houston Methodist Cancer Center/Weill Cornell Medical College, Houston, TX"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-30T18:45:35",
+    "is_scraped": "1"
 }

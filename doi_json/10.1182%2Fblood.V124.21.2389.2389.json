@@ -1,8 +1,105 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2858",
-    "start_url_page_num": "2858",
     "doi": "https://doi.org/10.1182/blood.V124.21.2389.2389",
-    "url": "https://ashpublications.org/blood/article/124/21/2389/95281/High-Throughput-Sequencing-to-Identify-Cytogenetic?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T19:38:35",
-    "is_scraped": "0"
+    "article_title": "High-Throughput Sequencing to Identify Cytogenetic and Molecular Genetic Aberrations in 24 AML Exomes ",
+    "article_date": "December 6, 2014",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis: Poster II",
+    "abstract_text": "Introduction : In acute myeloid leukemia (AML), the karyotype and the molecular mutation profile are the strongest parameters for classification and prognostication. Yet, diagnostic analyses rely on chromosome analysis and sequencing of a constantly growing number of genes. Aim : To evaluate whether whole exome sequencing (WES) can reliably identify copy number states and molecular mutations in a single-step procedure. Patients and Methods: The cohort included 24 AML with an aberrant karyotype at initial diagnosis (ID) who achieved cytogenetic remission (CR) after chemotherapy. Patients showed complex karyotype (n=6), 11q23/ MLL -rearrangement (n=4), t(15;17)(q24;q21) (n=4), inv(16)(p13q22) (n=4), t(8;21)(q22;q22) (n=3), and 3q26/ EVI1 -rearrangement (n=3). For WES DNA was extracted from bone marrow and treated with the TruSeq Exome enrichment kit targeting 201,071 exons. 2x100 bp paired-end sequencing was performed on an Illumina HiSeq machine (Illumina, San Diego, CA) at Fasteris (Geneva, Switzerland). After mapping the sequenced reads with Burrows-Wheeler Aligner [Li&Durbin, Bioinformatics, 2009], variants where called with GATK [McKenna et al., Genome Res., 2010] and copy number variations (CNV) were detected by Excavator [Magi et al., 2013, Genome Biol.]. For validation of the detected variants, 21 leukemia related genes were screened by amplicon sequencing (Illumina MiSeq, or Roche 454, Branford, CT). Array-based comparative genomic hybridization (aCGH) using 12x270K microarrays (Roche NimbleGen, Madison, WI) or 4 x 180K microarray slides (Agilent Technologies, Santa Clara, CA) was performed on all samples. We called CNV using default settings as well as fixed thresholds on the probe medians (0.3 for gains and -0.5 for losses on probe medians and at least 10 probes per segment). Results: The targeted regions were covered by 86 reads on average, while 90% of the bases were covered by at least 15 reads. By comparing ID and CR we detected an average of 15 somatic single nucleotide variants and short indels per patient (range 4-25), affecting 303 genes in total, including genes involved in leukemogenesis. After excluding polymorphisms we screened the mutated genes for recurrence among all cases. Four genes were mutated in at least 3 samples: WT1 (n=5), TP53 (n=4), NRAS (n=3) and TNS1 (n=3). Fourteen genes were mutated in 2 samples: ASXL2, DSCAM, GATA2, IDH2, KIT, OR4C5, POU4F1, LOC93432, RPTOR, SMC1A, SYNE2, TET2, TTN and USP9X . Mutations in O R4C5, LOC93432, SYNE2, TTN and USP9X have not been associated with AML yet. They were rated as damaging according to the SIFT algorithm [Ng and Henikoff, Genome Res., 2003]. In a prior diagnostic work-up 21 different genes had been screened and revealed 16 mutations affecting 7 genes. WES identified 14 mutations correctly (the 2 remaining mutations were covered by reads only insufficiently) and did not call any mutation in genes classified as negative in the routine diagnostic work-up. We further compared CNV derived from WES and aCGH in all 24 patients. Gains and losses detected by aCGH involved 2.65 and 1.40 billion bp, respectively. 96% of bp involved in these CNV were also detected by WES. Of the regions in which WES could not reproduce CNV calls, 15% did not contain exons. WES called gains and losses covering in total 2.56 and 1.47 billion bp, respectively. With aCGH we detected 98% of the gains and 86% of the losses. Regions missed by aCGH did show concordant signal that did not pass the fixed thresholds. However, while relaxing the thresholds to default settings, aCGH reproduces 99% of the WES results. Thus, an excellent concordance was observed (R = 0.99, p < 2.2e-16). We further analysed 19 cytogenetically balanced rearrangements that caused 42 breakpoints in affected chromosomes in 17 patients. As most breakpoints occur in non-coding regions, WES in general is limited in detecting these balanced rearrangements. However, short CNV were detected by WES in 10 cases and confirmed by aCGH. Conclusion: WES was capable of delineating molecular mutation profiles and of robustly detecting copy number states in AML at diagnosis. We suggest that WES in combination with multiplex RT-PCR-based techniques for the detection of recurrent fusion transcripts is a promising approach for a future diagnostic work-up for AML classification and prognostication. This project has been funded by the Seventh Framework Programme (FP7/2007-2013) under grant agreement n. 306242. Disclosures Althammer: MLL Munich Leukemia Laboratory: Employment; Seventh Framework Programme (FP7/2007-2013): Research Funding. de Albuquerque: MLL Munich Leukemia Laboratory: Employment; Seventh Framework Programme (FP7/2007-2013): Research Funding. Nadarajah: MLL Munich Leukemia Laboratory: Employment; Seventh Framework Programme (FP7/2007-2013): Research Funding. Meggendorfer: MLL Munich Leukemia Laboratory: Employment; Seventh Framework Programme (FP7/2007-2013): Research Funding. Schnittger: MLL Munich Leukemia Laboratory: Employment, Equity Ownership; Seventh Framework Programme (FP7/2007-2013): Research Funding. Kern: MLL Munich Leukemia Laboratory: Employment, Equity Ownership; Seventh Framework Programme (FP7/2007-2013): Research Funding. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership; Seventh Framework Programme (FP7/2007-2013): Research Funding. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership; Seventh Framework Programme (FP7/2007-2013): Research Funding.",
+    "topics": [
+        "array-based comparative genomic hybridization",
+        "burrow",
+        "chemotherapy regimen",
+        "cytogenetics",
+        "disease remission",
+        "dna",
+        "exome",
+        "genetics, molecular",
+        "karyotype determination procedure",
+        "leukemia"
+    ],
+    "author_names": [
+        "Sonja Althammer, PhD",
+        "Andreia de Albuquerque, PhD",
+        "Niroshan Nadarajah, M.Sc.",
+        "Manja Meggendorfer, PhD",
+        "Susanne Schnittger, PhD",
+        "Wolfgang Kern, MD",
+        "Torsten Haferlach",
+        "Claudia Haferlach, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Sonja Althammer, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andreia de Albuquerque, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Niroshan Nadarajah, M.Sc.",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manja Meggendorfer, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Susanne Schnittger, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wolfgang Kern, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Torsten Haferlach",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Claudia Haferlach, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-30T18:36:52",
+    "is_scraped": "1"
 }

@@ -1,8 +1,95 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2860",
-    "start_url_page_num": "2860",
     "doi": "https://doi.org/10.1182/blood.V124.21.2617.2617",
-    "url": "https://ashpublications.org/blood/article/124/21/2617/95387/Estimating-Therapy-Related-Myeloid-Neoplasm-Risks?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T19:38:42",
-    "is_scraped": "0"
+    "article_title": "Estimating Therapy-Related Myeloid Neoplasm Risks in the US ",
+    "article_date": "December 6, 2014",
+    "session_type": "902. Health Services and Outcomes Research \u2013 Malignant Diseases: Poster II",
+    "abstract_text": "Background: Therapy-related myeloid neoplasms (t-MN) have traditionally been a dreaded but rare complication arising from the treatment of other cancers. With rising numbers of long-term cancer survivors, there is growing concern for increasing rates of t-MN. We provide estimates of the relative risks of developing these secondary cancers after various 1 st cancers. Methods: We used the Surveillance Epidemiology and End Results (SEER) data 1973-2011 and the R package SEERaBomb to examine 33 primary cancer risks of subsequent MN defined as acute myeloid leukemia (AML), chronic myeloid leukemia (CML), chronic myelomonocytic leukemia (CMML), or myelodysplastic syndromes (MDS). First time cancer survivor person-years at risk (PY) for developing a second cancer were computed based on age-at-diagnosis of the first cancer, survival time, and age at diagnosis of any second cancer. Individual PY age intervals were stacked using R objects of class GRanges and the function coverage() of the Bioconductor package GenomicRanges. This yielded PY that we multiplied into age specific incidence rates computed using all t-MN regardless of being 1 st , 2 nd or later cancers. This yielded cases expected under a null hypothesis of t-MN being independent of prior cancers. Relative risks (RR) were then computed as observed/expected (O/E) cases and ordered by lower limit ([O - 2sqrt(O)]/E) distances from 1. PY and t-MN were restricted to those arriving after 1/1/2006 to avoid MDS incidence transients that arose immediately after its introduction into SEER in 2001. Results: 2,361 white females (Table 1), 3,415 white males (Table 2), 239 African American (AA) females (Table 3), and 309 AA males (Table 4), had t-MN diagnosed after 1/1/2006 that were known to have occurred at least 1 year after the 1 st cancer. In these tables/results: RR after non-Hodgkin lymphoma (NHL), Hodgkin's disease (HD), and multiple myeloma (MM) was high, save MM in AA males; high risks after acute lymphocytic leukemia (ALL) and brain cancer were not significant for 1st cancers diagnosed >15 years of age, so these are due to childhood 1 st cancers; and high risks of 2 nd MN after a 1 st are largely due to progressions being classified as 2 nd cancers. Conclusion: t-MN with histories of NHL, HD, and MM may be enriched for truly treatment-induced cases. Mechanistic studies of t-MN should focus on such patients. Table 1. t-MN in White Females  1 st Cancer . O . E . RR . ALL 16 0.6 27.4 (13.7, 41.1) *  MN 99 13.3 7.5 (6, 9) NHL 235 60 3.9 (3.4, 4.4) Hodgkin's 23 4.3 5.3 (3.1, 7.6) MM 39 9.4 4.2 (2.8, 5.5) Ovarian 91 32.1 2.8 (2.2, 3.4) Brain 11 3.2 3.5 (1.4, 5.6) Lung 113 65 1.7 (1.4, 2.1) Breast 791 579.5 1.4 (1.3, 1.5) CLL 34 17.4 2 (1.3, 2.6) Other 56 31.8 1.8 (1.3, 2.2) 1 st Cancer . O . E . RR . ALL 16 0.6 27.4 (13.7, 41.1) *  MN 99 13.3 7.5 (6, 9) NHL 235 60 3.9 (3.4, 4.4) Hodgkin's 23 4.3 5.3 (3.1, 7.6) MM 39 9.4 4.2 (2.8, 5.5) Ovarian 91 32.1 2.8 (2.2, 3.4) Brain 11 3.2 3.5 (1.4, 5.6) Lung 113 65 1.7 (1.4, 2.1) Breast 791 579.5 1.4 (1.3, 1.5) CLL 34 17.4 2 (1.3, 2.6) Other 56 31.8 1.8 (1.3, 2.2) View Large *RR ~95% confidence intervals are given in parentheses Table 2. t-MN in White Males  1 st Cancer . O . E . RR . MN 180 17.8 10.1 (8.6, 11.6) ALL 14 0.9 15.1 (7, 23.2) Hodgkin's 42 6.4 6.6 (4.5, 8.6) NHL 344 69.6 4.9 (4.4, 5.5) MM 57 13.8 4.1 (3, 5.2) CLL 77 25.2 3.1 (2.4, 3.8) CIS 243 111.2 2.2 (1.9, 2.5) Head & Neck 31 11.3 2.7 (1.8, 3.7) Lung 130 71.5 1.8 (1.5, 2.1) Other 60 29.5 2 (1.5, 2.6) Testes 29 11.9 2.4 (1.5, 3.3) Brain 14 4.6 3.1 (1.4, 4.7) Oral 75 41.6 1.8 (1.4, 2.2) Bladder 215 158.9 1.4 (1.2, 1.5) Prostate 1331 1054.8 1.3 (1.2, 1.3) Rectal 93 64.2 1.4 (1.1, 1.7) Stomach 24 13.2 1.8 (1.1, 2.6) 1 st Cancer . O . E . RR . MN 180 17.8 10.1 (8.6, 11.6) ALL 14 0.9 15.1 (7, 23.2) Hodgkin's 42 6.4 6.6 (4.5, 8.6) NHL 344 69.6 4.9 (4.4, 5.5) MM 57 13.8 4.1 (3, 5.2) CLL 77 25.2 3.1 (2.4, 3.8) CIS 243 111.2 2.2 (1.9, 2.5) Head & Neck 31 11.3 2.7 (1.8, 3.7) Lung 130 71.5 1.8 (1.5, 2.1) Other 60 29.5 2 (1.5, 2.6) Testes 29 11.9 2.4 (1.5, 3.3) Brain 14 4.6 3.1 (1.4, 4.7) Oral 75 41.6 1.8 (1.4, 2.2) Bladder 215 158.9 1.4 (1.2, 1.5) Prostate 1331 1054.8 1.3 (1.2, 1.3) Rectal 93 64.2 1.4 (1.1, 1.7) Stomach 24 13.2 1.8 (1.1, 2.6) View Large Table 3. t-MN in AA Females  1 st Cancer . O . E . RR . MN 20 1.2 16.2 (8.9, 23.4) Hodgkin's 7 0.4 17.9 (4.4, 31.5) MM 10 2.2 4.6 (1.7, 7.5) Ovarian 9 1.8 5 (1.7, 8.3) NHL 11 3.2 3.5 (1.4, 5.6) Breast 73 41.6 1.8 (1.3, 2.2) CIS 34 21.2 1.6 (1.1, 2.2) 1 st Cancer . O . E . RR . MN 20 1.2 16.2 (8.9, 23.4) Hodgkin's 7 0.4 17.9 (4.4, 31.5) MM 10 2.2 4.6 (1.7, 7.5) Ovarian 9 1.8 5 (1.7, 8.3) NHL 11 3.2 3.5 (1.4, 5.6) Breast 73 41.6 1.8 (1.3, 2.2) CIS 34 21.2 1.6 (1.1, 2.2) View Large Table 4. t-MN in AA Males  1 st Cancer . O . E . RR . MN 14 0.8 17.9 (8.3, 27.4) NHL 20 2.4 8.4 (4.6, 12.1) Prostate 166 92.1 1.8 (1.5, 2.1) Other 8 1.7 4.7 (1.4, 8) CIS 9 2.3 4 (1.3, 6.6) Hodgkin's 5 0.4 11.8 (1.2, 22.4) Lung 13 4.7 2.8 (1.2, 4.3) Renal 10 3.2 3.1 (1.2, 5.1) Head & Neck 5 0.5 10.8 (1.1, 20.4) 1 st Cancer . O . E . RR . MN 14 0.8 17.9 (8.3, 27.4) NHL 20 2.4 8.4 (4.6, 12.1) Prostate 166 92.1 1.8 (1.5, 2.1) Other 8 1.7 4.7 (1.4, 8) CIS 9 2.3 4 (1.3, 6.6) Hodgkin's 5 0.4 11.8 (1.2, 22.4) Lung 13 4.7 2.8 (1.2, 4.3) Renal 10 3.2 3.1 (1.2, 5.1) Head & Neck 5 0.5 10.8 (1.1, 20.4) View Large Disclosures Sekeres: Celgene: Membership on an entity's Board of Directors or advisory committees; Amgen Corp: Membership on an entity's Board of Directors or advisory committees; Boehringer-Ingelheim Corp: Membership on an entity's Board of Directors or advisory committees.",
+    "topics": [
+        "acute lymphocytic leukemia",
+        "brain",
+        "brain tumors",
+        "breast",
+        "cancer",
+        "cancer risk",
+        "cancer survivors",
+        "child",
+        "hodgkin's disease",
+        "kidney"
+    ],
+    "author_names": [
+        "Tomas Radivoyevitch, PhD",
+        "Rainer K. Sachs, PhD",
+        "Robert Peter Gale, MD PhD DSc, FACP",
+        "Mikkael A. Sekeres, MD MS",
+        "Jaroslaw P. Maciejewski, MD PhD",
+        "Matt Kalaycio, MD",
+        "Sudipto Mukherjee, MD MPH"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Tomas Radivoyevitch, PhD",
+            "author_affiliations": [
+                "Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rainer K. Sachs, PhD",
+            "author_affiliations": [
+                "University of California at Berkeley, Berkeley, CA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Robert Peter Gale, MD PhD DSc, FACP",
+            "author_affiliations": [
+                "Imperial College, London, United Kingdom "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mikkael A. Sekeres, MD MS",
+            "author_affiliations": [
+                "Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jaroslaw P. Maciejewski, MD PhD",
+            "author_affiliations": [
+                "Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matt Kalaycio, MD",
+            "author_affiliations": [
+                "Cleveland Clinic, Cleveland, OH"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sudipto Mukherjee, MD MPH",
+            "author_affiliations": [
+                "Cleveland Clinic, Cleveland, OH"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-30T18:39:45",
+    "is_scraped": "1"
 }
