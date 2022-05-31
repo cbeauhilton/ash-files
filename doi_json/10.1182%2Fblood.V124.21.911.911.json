@@ -1,8 +1,95 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2908",
-    "start_url_page_num": "2908",
     "doi": "https://doi.org/10.1182/blood.V124.21.911.911",
-    "url": "https://ashpublications.org/blood/article/124/21/911/102058/Mathematical-Optimization-of-JAK-Inhibitor-Dose?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T21:41:22",
-    "is_scraped": "0"
+    "article_title": "Mathematical Optimization of JAK Inhibitor Dose and Scheduling for MPN Patients ",
+    "article_date": "December 6, 2014",
+    "session_type": "604. Molecular Pharmacology and Drug Resistance in Myeloid Diseases: Poster I",
+    "abstract_text": "The identification of JAK-STAT pathway mutations in the majority of patients with the myeloproliferative neoplasms (MPN) polycythemia vera (PV), essential thrombocytosis (ET), and primary myelofibrosis (PMF) led the to clinical development of JAK inhibitors, and the resultant approval of ruxolitinib for the treatment of PMF. However, despite this important therapeutic advance, there are significant limitations to JAK inhibitor therapy both with respect to efficacy and toxicity. First, although JAK inhibitors reduce splenomegaly, ameliorate symptoms, and improve long-term outcome, they do not achieve molecular or pathologic remission at currently utilized dosing strategies. Second, JAK2 has a role in hematopoiesis and other biological processes, and JAK inhibition leads to significant hematologic toxicities including anemia and thrombocytopenia. We recently used genetic and pharmacologic studies to demonstrate that JAK inhibitor persistent cells which survive JAK inhibitor therapy in vitro and in vivo remain JAK2 dependent, consistent with incomplete target inhibition. As such, we hypothesized that alternate dosing regimens which allow for intermittent, maximal target inhibition might increase efficacy and reduce toxicity. We therefore used experimental and modeling approaches to investigate the potential efficacy of alternate dosing regimens. We first explored the effects of chronic vs intermittent dosing in vitro by altering the treatment regimen in cell lines. To this end, we treated the JAK2 V617F mutant cell line, SET-2, and JAK2-wild-type (control) cell lines with ruxolitinib (1\u00b5M vs 0.5 \u00b5M) on a chronic or intermittent (alternating 1 week on and 1 week off the drug) basis. We then performed cell viability assays using flow cytometry to estimate the effect of the drug on the cell division and death rates of each cell population. Using this data, we developed a mathematical model to predict responses to varying dose therapy. Cell proliferation was described using an exponential growth model (p t2 = p t1 e (birth rate-death rate) Dt , p=population size). Birth and death rates as a function of the drug concentration was fitted using a simple iterative least squares estimation from the in vitro collected data, where death(c) = 0.0046log(1.5014 + 30.4910 c ) and birth(c) = 0.0098 + 0.0051 e -1.2946 c . Treatment cycles were modeled by t on + t off for pulsitile versus chronic ( t off = 0) regimens for time on and off drug. We also added a toxicity constraint based on preclinical testing and the mathematical model T ( c ) = (\u03b1/ c ) \u2013\u03b2, where \u03b1 = 539 and \u03b2=5.2, which will inform our in vivo studies. Inputting these rates into a mathematical model to predict optimal treatment schedule, our in silico analysis suggest that high dose pulse treatment of INCB18424 has the same efficacy as chronic dosing and is associated with reduced toxicity. We are currently testing our dosing and administration schedules using in vivo models of MPN, and we will present these data at the meeting. Preliminary studies suggest intermittent JAK inhibition shows similar efficacy as chronic JAK inhibition, with reduced toxicity, suggesting our in silico models inform the development of more optimal dosing regimens. We are now testing higher doses of JAK inhibitors in an intermittent administration regimen in order to maximize efficacy and mitigate hematologic and non-hematologic toxicity. In conclusion, our proof-of-principle studies show that intermittent treatment with JAK kinase inhibitors demonstrates equivalent efficacy in vitro and our in silico data suggests that we will see reduced toxicity with intermittent dosing in the mouse models. Our in vivo data will inform further clinical optimization of treatment regiments for patients with myeloproliferative neoplasms Disclosures Koppikar: Amgen: Employment. Levine: Novartis: Consultancy, Grant support Other.",
+    "topics": [
+        "janus kinase inhibitors",
+        "mathematics",
+        "appointments and schedules",
+        "toxic effect",
+        "ruxolitinib",
+        "myeloproliferative disease",
+        "anemia",
+        "disease remission",
+        "flow cytometry",
+        "hematotoxicity"
+    ],
+    "author_names": [
+        "Kaitlyn R Shank, B.S.",
+        "Priya Koppikar, PhD",
+        "Neha Bhagwat, PhD",
+        "Matthew D Keller, B.S.",
+        "Franziska Michor, PhD",
+        "Ross L Levine, MD",
+        "Laura De Vargas Roditi, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Kaitlyn R Shank, B.S.",
+            "author_affiliations": [
+                "Memorial Sloan-Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Priya Koppikar, PhD",
+            "author_affiliations": [
+                "Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Neha Bhagwat, PhD",
+            "author_affiliations": [
+                "Memorial Sloan-Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matthew D Keller, B.S.",
+            "author_affiliations": [
+                "Memorial Sloan-Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Franziska Michor, PhD",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ross L Levine, MD",
+            "author_affiliations": [
+                "Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laura De Vargas Roditi, PhD",
+            "author_affiliations": [
+                "Eldgen\u00f6ssische Technische Hochschule Z\u00fcrich, Z\u00fcrich, Switzerland"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-31T06:49:37",
+    "is_scraped": "1"
 }
