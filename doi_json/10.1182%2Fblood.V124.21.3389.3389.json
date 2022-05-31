@@ -1,8 +1,85 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2917",
-    "start_url_page_num": "2917",
     "doi": "https://doi.org/10.1182/blood.V124.21.3389.3389",
-    "url": "https://ashpublications.org/blood/article/124/21/3389/97720/Global-Methylation-Analysis-of-Cyclin-D1vs-D2?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T21:41:57",
-    "is_scraped": "0"
+    "article_title": "Global Methylation Analysis of Cyclin D1vs D2 Dysregulated Primary Myeloma Samples ",
+    "article_date": "December 6, 2014",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster II",
+    "abstract_text": "Multiple myeloma (MM) may be classified according to D-type cyclin dysregulation. Amongst nonhyperdiploid cases, those with IgH translocations t(4;14) or t(14;16) express high levels of cyclin D2, and those with t(11;14) express elevated cyclin D1. Although translocation-based subgroups may behave differently, cyclin D2 dysregulated disease tends to progress with more proliferative disease and poorer outcomes compared to cyclin D1. The importance of methylation status has been described in MM, with the transition from MGUS to symptomatic MM characterised by global hypomethylation, and gene-specific hypermethylation differences between cytogenetic subtypes. To investigate the utility of methylation profiling between D1 and D2-dysregulated MM, we carried out a pilot study of global methylation changes between these groups. Primary bone marrow samples were collected from eight cyclin D1 patients with t(11;14), and eight D2 patients (four t(4;14) and four t(14;16)), and CD138+ cells purified by magnet-assisted selection. Following bisulfite conversion, samples were processed on llumina Infinium human methylation27 arrays. Methylation was classified with a beta score between 0 (unmethylated) and 1 (methylated). Initial analysis was performed using Illumina GenomeStudio, and subsequently with the Limma package in R. Differentially methylated probes were corrected for false discovery rate (FDR), with a threshold of 0.01 considered significant. Survival analyses were calculated from the date of sampling. Unsupervised clustering split the samples into two groups (group 1 and group2), which did not match with D-cyclin status, but did show clear differences in clinical course. Survival analysis between groups 1 and 2 showed trends toward differences in median overall survival (61.7 vs 11.9 months, p=0.06) and progression free survival (24.4 vs 7.2 months, p=0.34). Although not significant at the p<0.05 threshold, the survival curves suggest a difference that may become clearer in a larger cohort. Analysis of the probes between these groups revealed 1379 methylation variable positions (MVPs) which were significantly different. Interestingly, almost all of these (1376/1379) were hypermethylated in the poorer outcome Group 2. This suggests a difference in methylation status between two prognostic groups which warrants further investigation. We then went on to perform supervised clustering between the samples, splitting them into two groups (D1 and D2) based on their cyclin D status. This analysis did not reveal any MVPs even at a less stringent FDR-adjusted threshold of 0.05. However, we did observe that of the top 20 differentially methylated probes three were for the CCND1 gene, which in all cases showed relative hypomethylation in the cyclin D1 dysregulated samples. Other genes of potential interest with relative hypomethylation in the cyclin D1 group were DAB2 which has previously been reported to be hypermethylated in the t(4;14) OPM2 cell line, and AK3L1 \u2013 a kinase which interestingly, has been reported as showing vulnerability to targeted RNAi inhibition in two cyclin D2 dysregulated cell lines (KMS11 and JJN3). In this small cohort, although cyclin D1 vs cyclin D2 classification does not appear to be sufficient to define distinct methylation profiles, a group of genes with hypermethylation appears to be associated with poorer prognosis. The hypomethylation of CCND1 in cyclin D1 dyregulated samples, although below the significance threshold in this dataset, is consistent with previously described findings of CCND1 hypomethylation in t(11;14) cell lines, but our results in the D2 MM samples differ from previous reports of hypomethylation in all nonhyperdiploid primary samples. We intend to investigate this further and extend this analysis by prospective sampling and methylation analysis on a larger cohort of patients treated on a standard protocol. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "cyclins",
+        "methylation",
+        "multiple myeloma",
+        "cyclin d1",
+        "idiopathic guttate hypomelanosis",
+        "immunoglobulin heavy chains",
+        "monoclonal gammopathy of undetermined significance",
+        "phosphotransferases",
+        "translocation (genetics)",
+        "magnets"
+    ],
+    "author_names": [
+        "Jonathan I Sive, MBChB",
+        "Andrew Feber, PhD",
+        "Dean Smith, MBBS",
+        "John Quinn, MB, PhD",
+        "Stephan Beck, PhD",
+        "Kwee L Yong, MBChB, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Jonathan I Sive, MBChB",
+            "author_affiliations": [
+                "UCL Cancer Institute, London, United Kingdom "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew Feber, PhD",
+            "author_affiliations": [
+                "UCL Cancer Institute, London, United Kingdom"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dean Smith, MBBS",
+            "author_affiliations": [
+                "UCL Cancer Institute, London, United Kingdom "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John Quinn, MB, PhD",
+            "author_affiliations": [
+                "UCL Cancer Institute, London, United Kingdom "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephan Beck, PhD",
+            "author_affiliations": [
+                "UCL Cancer Institute, London, United Kingdom"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kwee L Yong, MBChB, PhD",
+            "author_affiliations": [
+                "UCL Cancer Institute, London, United Kingdom "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-31T19:25:41",
+    "is_scraped": "1"
 }
