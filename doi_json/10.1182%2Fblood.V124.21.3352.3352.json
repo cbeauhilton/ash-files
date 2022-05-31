@@ -1,8 +1,140 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2923",
-    "start_url_page_num": "2923",
     "doi": "https://doi.org/10.1182/blood.V124.21.3352.3352",
-    "url": "https://ashpublications.org/blood/article/124/21/3352/97841/A-Multiple-Myeloma-Classification-System-That?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T22:20:21",
-    "is_scraped": "0"
+    "article_title": "A Multiple Myeloma Classification System That Associates Normal Bone Marrow B-Cell Subset Phenotypes with Disease Stage and Prognosis ",
+    "article_date": "December 6, 2014",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster II",
+    "abstract_text": "Introduction Today\u2019s diagnostic tests for multiple myeloma reflect the criteria of the updated WHO classification based on biological, morphological and clinical heterogeneity. It has been the concept behind the present study to extend our current biological classification and provide a new tool to generate insight into the stage of clonal differentiation and oncogenesis. The goal of the present study was to generate B-cell subset associated gene signatures (BAGS) from the BM hierarchy used to assign individual phenotypic cell of origin ( pCOO ) subtypes in patients and validate its pathogenetic impact by prognostic evaluation. Methods Bone marrows (BM, n=7) were harvested from sternum during cardiac surgery. B-cell subsets were phenotyped by Euroflow standard for multiparametric flow cytometry and FACS-sorted for microarray analysis on the Human Exon 1.0 ST Arrays platform. This combination allowed us to generate five BAGS for PreBI , PreBII , immature ( Im ), na\u00efve ( N ), memory ( M ) B-cells, and plasma cells ( PC ) of normal BM. The BAGS classifier was based on all median-centred probe sets from the data set by regularized multinomial regression with 6 discrete outcomes corresponding to each B-cell subset and the elastic net penalty using the algorithm implemented in the R-package glmnet24. Each clinical data set was probe-set-wise adjusted to have a zero median and the same variance as in the BM data set. The associated cell of origin subset for each patient in each data set was predicted by the BAGS classifier by assigning the class with the highest predicted probability score above 0.45 and otherwise UC. All statistical analyses were done with R version 3.0.2. Survival analysis was performed by the Kaplan-Meier method and log-rank tests. Clinical data sets were from University of Arkansas for Medical Sciences UAMS (n=559), the Dana Farber Cancer Institute DFCI (n=170) both available on the GEO website. Results First, we verified the quality of the sampled B-cell subsets based on the expression patterns of differentiation marker genes. Next, we constructed the BAGS-classifier provided by 38-68 gene probe sets (n), capable of assigning samples to each of the six subtypes of PreBI (n=38), PreBII (n=82), Im (n=71), N (n=68), M (n=52) and PC (n=43). Second, we assigned individual myeloma cases in the 2 patient cohorts including a total of 729 myeloma patients. The resultant assignments generated patient BAGS subtypes with diagnostic frequencies of 0,5-0,6 % preBI, 7-8 % preBII, 27-30 % Im, 8-9 % N, 36-37 % M, 1-5 % PC and 15-16 % UC subtypes. The frequencies were not different between the cohorts. Third, the BAGS subtypes was associated significantly with overall survival (P = 8.6 x 10 -5 ) for high dose melphalan and autologous stem cell transplanted UAMS patients 1 , as illustrated in Figure 1  . The most significant impact was observed within the PreB-II (light blue) and M (acid green) subtypes conferred with significant inferior prognosis compared to the Im (amethyst), N (apple green) and PC (blue) subtypes. The PreB-II and M subtypes in the UAMS cohort were correlated to the ISS stage I-III with 33%, 49% and 69% of the cases, respectively. Fourth, we compared the BAGS subtypes and the TC classification 2 with no observed correlations (results not shown). Conclusions Our data support a new COO defined BAGS classification based on the normal BM B-cell subset phenotypes with impact on staging and prognosis in multiple myeloma and a new diagnostic platform, which may result in more effective disease management. References 1) Zhan F, Huang Y, Colla S et al. The molecular classification of multiple myeloma. Blood. 2006 Sep 15;108(6):2020-8. 2) Bergsagel PL, Kuehl WM, Zhan F, Sawyer J, Barlogie B, Shaughnessy J Jr. Cyclin D dysregulation: an early and unifying pathogenic event in multiple myeloma. Blood. 2005 Jul 1;106(1):296-303. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "b-lymphocyte subsets",
+        "bone marrow",
+        "multiple myeloma",
+        "phenotype",
+        "antigens, differentiation",
+        "cancer",
+        "carcinogenesis",
+        "cardiac surgery procedures",
+        "cyclin d1",
+        "flow cytometry"
+    ],
+    "author_names": [
+        "Hans Erik Johnsen",
+        "Julie St\u00f8ve B\u00f8dker, MSc, PhD",
+        "Alexander Schmitz",
+        "Malene Krag Kjeldsen",
+        "Kim Steve Bergkvist",
+        "Steffen Falgreen, MSc, PhD",
+        "Anders Ellern Bilgrau",
+        "Tarec Christoffer El-Galaly",
+        "Karen Dybk\u00e6r",
+        "Martin B\u00f8gsted"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Hans Erik Johnsen",
+            "author_affiliations": [
+                "Aalborg University Hospital, Aalborg, Denmark ",
+                "Aalborg University Hospital, Aalborg, Denmark ",
+                "Aalborg University, Aalborg, Denmark "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Julie St\u00f8ve B\u00f8dker, MSc, PhD",
+            "author_affiliations": [
+                "Aalborg University Hospital, Aalborg, Denmark ",
+                "Aalborg University Hospital, Aalborg, Denmark "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexander Schmitz",
+            "author_affiliations": [
+                "Aalborg University Hospital, Aalborg, Denmark ",
+                "Aalborg University Hospital, Aalborg, Denmark "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Malene Krag Kjeldsen",
+            "author_affiliations": [
+                "Aalborg University Hospital, Aalborg, Denmark ",
+                "Aalborg University Hospital, Aalborg, Denmark ",
+                "Stanford School of Medicine, Palo Alto, CA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kim Steve Bergkvist",
+            "author_affiliations": [
+                "Aalborg University Hospital, Aalborg, Denmark ",
+                "Aalborg University Hospital, Aalborg, Denmark "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Steffen Falgreen, MSc, PhD",
+            "author_affiliations": [
+                "Aalborg University Hospital, Aalborg, Denmark ",
+                "Aalborg University Hospital, Aalborg, Denmark "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anders Ellern Bilgrau",
+            "author_affiliations": [
+                "Aalborg University Hospital, Aalborg, Denmark ",
+                "Aalborg University Hospital, Aalborg, Denmark "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tarec Christoffer El-Galaly",
+            "author_affiliations": [
+                "Aalborg University Hospital, Aalborg, Denmark ",
+                "Aalborg University Hospital, Aalborg, Denmark ",
+                "Aalborg University, Aalborg, Denmark "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karen Dybk\u00e6r",
+            "author_affiliations": [
+                "Aalborg University Hospital, Aalborg, Denmark ",
+                "Aalborg University Hospital, Aalborg, Denmark ",
+                "Aalborg University, Aalborg, Denmark "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martin B\u00f8gsted",
+            "author_affiliations": [
+                "Aalborg University Hospital, Aalborg, Denmark ",
+                "Aalborg University Hospital, Aalborg, Denmark ",
+                "Aalborg University, Aalborg, Denmark "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-05-31T17:49:20",
+    "is_scraped": "1"
 }
