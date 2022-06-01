@@ -1,8 +1,135 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2940",
-    "start_url_page_num": "2940",
     "doi": "https://doi.org/10.1182/blood.V124.21.3019.3019",
-    "url": "https://ashpublications.org/blood/article/124/21/3019/96582/A-Comparative-Oncology-Study-of-Canine-and-Human?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T22:42:12",
-    "is_scraped": "0"
+    "article_title": "A Comparative Oncology Study of Canine and Human Genomics and Proteomics in Peripheral T-Cell Lymphoma (PTCL): Examination of Shared Oncogenic Signaling for Biomarker and Therapeutic Target Discovery ",
+    "article_date": "December 6, 2014",
+    "session_type": "622. Non-Hodgkin Lymphoma: Biology, excluding Therapy: Poster II",
+    "abstract_text": "Background: PTCLs are a rare, heterogeneous group of neoplasms that account for 12% of non-Hodgkin lymphomas (NHL) in Europe and USA and >20-25% in Asia. There is no consensus on optimal treatment and 5-year survival rates remain <20-30%. NCCN guidelines recommend that newly diagnosed patients enroll in a clinical trial as first-line therapy. The canine represents an excellent model to study human cancers in part as they share our environment, have an intact immune system, have cancers that occur spontaneously, and are phylogenetically closer to humans than rodents. Additionally, canines have a high frequency of NHL. There is also a need in the canine for improved therapies as the majority of dogs respond to cytotoxic chemotherapy (i.e., CHOP-based), but more than 95% will relapse with chemotherapy-refractory disease. Utilizing a comparative genomic analysis approach, the focus of this investigation was to determine whether PTCL tumors in the companion canine is an appropriate representation of human NHL and if the canine PTCL model could be utilized in accelerating clinical drug trials in humans. Methods: For comparative genomic analyses, differential gene expression with RNA seq data from canine PTCLs were compared with normal canine lymph node. Samples associated with canine TCL (SRR606334 and SRR606341) were compared with normal canine lymph node samples (SRR606343, SRR606344, and SRR606901) using Fastq files from (http://www.ncbi.nlm.nih.gov/sra/) and (http://sra.dnanexus.com/). For gene annotations, RNA sequencing files were mapped to ENSEMBL canine genome reference CanFam3.1, with Bowtie v2.1.0, Tophat v2.0.10, and Samtools v0.1.19 using standard settings. Mapped read files were then analyzed for differential gene expression using the Cuffdiff command from Cufflinks v2.1.1 also with standard settings. Differentially expressed significant genes were selected based on p value < 0.0001 and analyzed using Ingenuity Pathway Analysis (IPA) software to determine potential biomarkers and genes/biological pathway overlap in human PTCL. In addition, protein lysates were prepared from primary canine PTCL tumor biopsies, canine diffuse large B cell lymphoma (DLBCL) tumor biopsies, and human PTCL cell lines and analyzed by Western Blot for comparison and assessment of potential pathway/biomarker overlap. Results: For RNA seq analyses comparing canine PTCL with normal canine lymph node, we identified 118 differentially expressed genes. These differentially expressed genes were interrogated using IPA and Biomarker filter. ANAX1, ANAX2, CACNAD2, GATA3, IGF2, LIFR, LYVE1, POSTN, PPARG, SAT1 and SPARCL1 were identified as candidate biomarker genes that are commonly associated with human T-cell malignancies. Furthermore, canonical pathway and network analyses identified a subset of an interactive network of genes, which included PI3K, GATA3, GRB2 and PPARG. Based on previous studies, GATA3 and TBX21 were reported as major classifiers of human PTCL (Iqbal J et al, Blood 2014; 123:2915-23). Therefore, we chose to examine GATA3 and TBX21 and their dependent genes in canine PTCL. Results from Western Blot showed that both GATA3 and TBX21 were strongly expressed in 4/8 canine TCL primary samples as well as in Jurkat and HH human TCL cell lines, but they were absent in canine DLBCL. Furthermore, GATA3-dependent P-Akt (PI3K/Akt) protein was detected in all GATA3 expressing canine PTCL samples, and sporadic C-Myc expression was also observed within this group. In addition, TBX21-related NF\u03baB (p65) expression was detected in 7/8 canine PTCL with comparable constitutive activation in Jurkat and HH human TCL cell lines, while it was absent in canine DLBCL samples. Conclusion: These analyses based on comparative genomic and protein studies demonstrated that PTCL in canine NHL is a valid representative of human PTCL. Further genomic and proteomic studies are warranted to develop clinically relevant translational protocols. Collectively, the canine model appears to be particularly attractive model for studying TCL that may be leveraged for the study of lymphomagenesis and to answer a highly unmet need towards the identification of rational and novel targets for the treatment of T-cell malignancies. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "biological markers",
+        "lymphoma, t-cell, peripheral",
+        "genomics",
+        "medical oncology",
+        "proteomics",
+        "signal transduction",
+        "gata3 gene",
+        "cancer",
+        "diffuse large b-cell lymphoma",
+        "neoplasms"
+    ],
+    "author_names": [
+        "Athena Kritharis, MD",
+        "Trent Fowler, PhD",
+        "Ravi Dashnamoorthy, PhD",
+        "Kristine E Burgess, DVM, MS",
+        "Afshin Beheshti, PhD",
+        "Nassera Abermil, MS, PharmD",
+        "Ananda Roy, PhD",
+        "Lynn Hlatky, PhD",
+        "Monika Pilichowska, MD",
+        "Elizabeth McNiel, DVM, PhD",
+        "Andrew M. Evens, DO, MSc"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Athena Kritharis, MD",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, Tufts Medical Center, Boston, MA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Trent Fowler, PhD",
+            "author_affiliations": [
+                "Tufts University, Boston, MA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ravi Dashnamoorthy, PhD",
+            "author_affiliations": [
+                "Tufts University School of Medicine, Boston, MA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kristine E Burgess, DVM, MS",
+            "author_affiliations": [
+                "Cummings School of Veterinary Medicine, Tufts University, Boston, MA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Afshin Beheshti, PhD",
+            "author_affiliations": [
+                "Tufts University School of Medicine, Boston, MA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nassera Abermil, MS, PharmD",
+            "author_affiliations": [
+                "Tufts Medical Center, Boston, MA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ananda Roy, PhD",
+            "author_affiliations": [
+                "Tufts University, Boston, MA "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lynn Hlatky, PhD",
+            "author_affiliations": [
+                "Tufts University School of Medicine, Boston, MA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Monika Pilichowska, MD",
+            "author_affiliations": [
+                "Tufts Medical Center, Boston, MA "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elizabeth McNiel, DVM, PhD",
+            "author_affiliations": [
+                "Cummings School of Veterinary Medicine, Tufts University, Boston, MA "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew M. Evens, DO, MSc",
+            "author_affiliations": [
+                "Tufts Medical Center, Boston, MA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-01T02:54:53",
+    "is_scraped": "1"
 }
