@@ -1,8 +1,151 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2955",
-    "start_url_page_num": "2955",
     "doi": "https://doi.org/10.1182/blood.V124.21.3285.3285",
-    "url": "https://ashpublications.org/blood/article/124/21/3285/97546/Tracing-the-Ontogeny-of-IgG-Switched-CLL-High?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T23:21:20",
-    "is_scraped": "0"
+    "article_title": "Tracing the Ontogeny of IgG-Switched CLL: High-Throughput Immunogenetic Evidence ",
+    "article_date": "December 6, 2014",
+    "session_type": "641. CLL: Biology and Pathophysiology, excluding Therapy: Poster II",
+    "abstract_text": "Immunoglobulin (IG) G-switched chronic lymphocytic leukemia (G-CLL) is highly enriched for 3 stereotyped CLL subsets, utilizing either the IGHV4-34 gene, namely mutated subsets #4 and #16, or the IGHV4-39 gene, namely unmutated subset #8. These subsets, collectively accounting for ~30% of all G-CLL, are not represented within the common IgM/D variant, thus prompting speculations about distinct ontogenetic origin and/or immune triggering, as well as raising questions regarding the timing of class-switch recombination (CSR) in relation to malignant transformation. Considering the above, we sought to investigate the potential existence of B cells expressing clonotypic mu transcripts within the bulk of IgG-switched CLL cells in cases assigned to the aforementioned subsets. Using high-throughput next-generation sequencing (NGS, MiSeq Illumina), we interrogated the IgM + B-cell repertoire of CLL subset #4 (n=8), subset #16 (n=1) and subset #8 (n=2) for the presence of clonotypic mu transcripts. PCR amplicons were generated from cDNA using a set of IGHV4/IGHM primers. The paired-end Illumina protocol allowed sequencing of the complementarity determining region 3 (CDR3) twice/read, thus increasing the accuracy of results. For 3/8 subset #4 cases multiple blood samples of the same time point were analyzed as reproducibility controls. A purpose-built bioinformatics algorithm was developed for raw NGS data processing, which included: (i) quality filtering of reads; (ii) merging of paired-end reads via local alignment; (iii) preparation of filtered-in fasta sequences for submission to the IMGT/HighV-QUEST tool; and, (iv) IMGT/HighV-QUEST metadata mining for subset-specific B-cell receptor (BcR) IG rearrangements. Subset-specific CDR3 motifs were defined according to established criteria. Overall, 7,125,958 IGHV-IGHD-IGHJ-IGHC rearrangements (189,988-673,835/sample) were included in the search for stereotyped motifs, corresponding to 1,056,967 distinct clonotypes (i.e. BcR IG rearrangements with a particular IGHV gene and amino acid CDR3 sequence) (7,163-123,276/sample, median=76,109). Regarding subset #4, 7/8 cases exhibited mu transcripts of subset #4-specific IG rearrangements (\"subset #4 M-clonotypes\"); by definition, these rearrangements utilized the IGHV4-34/IGHJ6 genes and had identical CDR3 length (20 amino acids), however their CDR3 amino acid composition varied (2-75 distinct subset #4 M-clonotypes/sample, median=8). In 5/7 cases these subset #4 M-clonotypes were characterized by CDR3s that were identical and/or highly similar (\u22642 amino acid differences, \u2265 90% identity) to the CDR3 of the IgG-switched CLL clone. The M-clonotypes expressing CDR3s identical to those of the IgG-switched CLL clone represented the most expanded subset #4 M-clonotype within the sample, while the less expanded, \"satellite\" clonotypes may represent subclones that were selected against due to lower affinity with the driving antigen. The possibility that these \u201csatellite\u201d clonotypes derive from PCR and/or sequencing error cannot be a priori excluded, however replicate sample analysis produced identical subset #4 M-clonotypes in all cases tested, thus raising confidence in the accuracy of the data. Analysis of the subset #16 case yielded similar results, i.e. 2 subset #16 M-clonotypes, one of which was identical to the IgG-switched clonotypic BcR IG. Both subset #8 cases also carried subset #8 M-clonotypes, yet only one case exhibited an M-clonotype with a CDR3 identical to that of the respective G-CLL clone. Interestingly, this M-clonotype was accompanied by many highly similar, less expanded \u201csatellite\u201d clonotypes (n=109), raising the possibility that SHM may be occurring in (pre-)CLL clones carrying truly unmutated IGHV genes, but pass unnoticed due to negative selection. Although their actual frequency cannot be conclusively determined due to the inherent limitations of PCR-based NGS analysis, subset-specific rearrangements represented a very minor fraction of the sequenced IGHV4/IGHM clonotypes in all cases tested (median frequency 0.04%). Overall, our findings suggest that while CLL clones are primed prior to CSR for malignant transformation on the basis of their BcR IG features, G-CLL quickly transits through CSR either because full-blown malignant transformation occurs at a later time point, or because CSR offers a selective advantage to the malignant clone. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "immunoglobulin g",
+        "growth",
+        "immunogenetics",
+        "immunoglobulins",
+        "receptors, antigen, b-cell",
+        "amino acids",
+        "massively-parallel genome sequencing",
+        "malignant transformation",
+        "polymerase chain reaction",
+        "immunoglobulin m"
+    ],
+    "author_names": [
+        "Anna Vardi",
+        "Evangelia Stalika",
+        "Maria Karypidou",
+        "Lesley-Ann Sutton",
+        "Vasilis Bikos",
+        "Achilles Anagnostopoulos",
+        "Sarka Pospisilova",
+        "Nikolaos Maglaveras",
+        "Richard Rosenquist",
+        "Kostas Stamatopoulos",
+        "Ioanna Chouvarda",
+        "Anastasia Hadzidimitriou"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Anna Vardi",
+            "author_affiliations": [
+                "CERTH, Thessaloniki, Greece "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Evangelia Stalika",
+            "author_affiliations": [
+                "CERTH, Thessaloniki, Greece ",
+                "Aristotle University of Thessaloniki, Thessaloniki, Greece "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maria Karypidou",
+            "author_affiliations": [
+                "G. Papanicolaou Hospital, Thessaloniki, Greece "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lesley-Ann Sutton",
+            "author_affiliations": [
+                "Uppsala University, Uppsala, Sweden "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vasilis Bikos",
+            "author_affiliations": [
+                "Central European Institute of Technology, Masaryk University and University Hospital Brno, Brno, Czech Republic "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Achilles Anagnostopoulos",
+            "author_affiliations": [
+                "G. Papanicolaou Hospital, Thessaloniki, Greece "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sarka Pospisilova",
+            "author_affiliations": [
+                "Central European Institute of Technology, Masaryk University and University Hospital Brno, Brno, Czech Republic "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nikolaos Maglaveras",
+            "author_affiliations": [
+                "CERTH, Thessaloniki, Greece ",
+                "Aristotle University of Thessaloniki, Thessaloniki, Greece "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Richard Rosenquist",
+            "author_affiliations": [
+                "Uppsala University, Uppsala, Sweden"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kostas Stamatopoulos",
+            "author_affiliations": [
+                "CERTH, Thessaloniki, Greece ",
+                "G. Papanicolaou Hospital, Thessaloniki, Greece ",
+                "Uppsala University, Uppsala, Sweden "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ioanna Chouvarda",
+            "author_affiliations": [
+                "CERTH, Thessaloniki, Greece ",
+                "Aristotle University of Thessaloniki, Thessaloniki, Greece "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anastasia Hadzidimitriou",
+            "author_affiliations": [
+                "CERTH, Thessaloniki, Greece ",
+                "Uppsala University, Uppsala, Sweden"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-01T06:46:40",
+    "is_scraped": "1"
 }
