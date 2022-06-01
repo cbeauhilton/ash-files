@@ -1,8 +1,105 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=2971",
-    "start_url_page_num": "2971",
     "doi": "https://doi.org/10.1182/blood.V124.21.4018.4018",
-    "url": "https://ashpublications.org/blood/article/124/21/4018/115334/Differentially-Expressed-Genes-and-Pathways-in?searchresult=1",
-    "datetime_link_obtained": "2022-04-26T23:42:25",
-    "is_scraped": "0"
+    "article_title": "Differentially Expressed Genes and Pathways in Endothelial Cells Exposed to Hemin or Plasma from Patients with Sickle Cell Disease: A Meta-Analysis of Gene Expression Studies ",
+    "article_date": "December 6, 2014",
+    "session_type": "101. Red Cells and Erythropoiesis, Structure and Function, Metabolism, and Survival, Excluding Iron: Poster III",
+    "abstract_text": "Introduction : Vaso-occlusion and chronic hemolysis are recognized as the most important pathogenic mechanisms of sickle cell disease (SCD), feeding a vicious circle that leads to acute and chronic complications. Although phenotypic aspects of this pro-inflammatory state have been described in detail, much less is known about the upstream pathways that activate and perpetuate inflammation in SCD. It has been known for more than 50 years that patients with SCD present higher plasma concentrations of heme. More recently, the role of heme as a mediator of inflammation in SCD has been confirmed in relevant models, suggesting that free heme can be a trigger for both microvascular occlusion and acute chest syndrome (ACS). In the past, microarray-based gene expression experiments have been used to study the effects of heme on endothelial cells (EC), as well as gene expression signatures of SCD. These studies can be analyzed in combination, since original raw data are now collected in public archives. In fact, it has been shown that by analyzing data from multiple experiments by meta-analysis, biases and artifacts between datasets can be cancelled out, potentially allowing true relationships to stand out. In order to gain insights into the cellular and molecular pathways activated by heme in endothelial cells (EC), as well as about their potential relevance in SCD, we performed a meta-analysis of microarray-based gene expression studies involving heme, EC and SCD. Material and methods : Microarray data were identified by searching two public databases (GEO and Array-Express) using the following search criteria: (\u201csickle cell disease\u201d and \u201chomo sapiens\u201d). Eleven studies were identified, of which two were selected for our meta-analysis (GSE1849; GSE25014). One study evaluated the effect of heme 5\u00b5M in human primary pulmonary artery (PAECs) and microvascular EC (PMVECs) (12 samples), while the other study evaluated the effect of plasma from SCD patients (9 patients in steady state and 12 patients during ACS) in PAECs. To perform the meta-analysis we used INMEX, an integrative web-based tool for meta-analysis of expression data. For the meta-analysis, we applied a combining rank orders method based in the RankProd package. Genes with expression fold-changes (FC) in the same direction (either up or down) of 1.4 in at least one study were selected as candidates for differentially expressed (cDE) genes. Selected genes were ranked based on p value, and a p value \u22640.05 was considered statistically significant. To further understand functions of the subset of genes that were cDE in both studies, we performed gene ontology enrichment analysis. The functional analysis was undertaken using INMEX, and confirmed in other three gene set analysis tools (Pathway Commons, WikiPathways and KEGG). Only pathways that were identified in more than one tool were considered in the analysis. Results: Two different meta-analysis were performed. Gene expression data from heme-stimulated EC was compared to: (i) data from EC stimulated by plasma from SCD patients at steady-state; or (ii) data from EC stimulated by plasma obtained during ACS. In the first (heme x steady-state) and second (heme x ACS) analysis, 799 and 786 genes were consistently up- or down-regulated in both studies. The up- and down-regulated genes with the lowest p values were C2CD4A (C2 calcium-dependent domain containing 4A), and KLHL23 (kelch-like family member 23), respectively. In addition, genes associated with depletion of reactive oxygen species and coagulation activation were also identified. The most significant pathways identified in the gene set analysis were \u201cIL5-mediated signaling events\u201d (heme x steady-state; p= 0.0012) and \u201cMAPK signaling pathway\u201d (heme x ACS; p= 0.0073512) respectively. Results and conclusion : Genes and pathways that are DE both in EC stimulated by heme or by plasma from SCD patients could be relevant elements in the pathogenesis of inflammation in SCD. Heme has been shown to increase the generation of ROS and to induce the expression of inflammatory and pro-coagulant proteins by EC. The results of our meta-analysis are consistent with these effects. Therefore, the comprehensive list of genes and pathways identified in our study could help the generation new hypothesis about the mechanisms involved in heme-induced activation and perpetuation of inflammation in SCD. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "endothelial cells",
+        "gene expression",
+        "genes",
+        "hemin",
+        "plasma",
+        "sickle cell anemia",
+        "heme",
+        "inflammation",
+        "certified diabetes care",
+        "cyclophosphamide/doxorubicin/etoposide"
+    ],
+    "author_names": [
+        "Maiara M L Fiusa",
+        "Marina Pereira Colella, MD PhD",
+        "Joyce M Annichino-Bizzacchi, MD PhD",
+        "Loredana Nilkenes",
+        "Bidossessi W Hounpke",
+        "Sara T O Saad, MD PhD",
+        "Fernando Ferreira Costa, MD PhD",
+        "Erich Vinicius De Paula, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Maiara M L Fiusa",
+            "author_affiliations": [
+                "University of Campinas, Campinas, SP, Brazil "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marina Pereira Colella, MD PhD",
+            "author_affiliations": [
+                "University of Campinas, Campinas, SP, Brazil "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joyce M Annichino-Bizzacchi, MD PhD",
+            "author_affiliations": [
+                "Hematology and Hemotherapy Center, University of Campinas, Unicamp, Campinas, SP, Brazil, Campinas, Brazil"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Loredana Nilkenes",
+            "author_affiliations": [
+                "University of Campinas, Campinas, SP, Brazil "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bidossessi W Hounpke",
+            "author_affiliations": [
+                "University of Campinas, Campinas, SP, Brazil "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sara T O Saad, MD PhD",
+            "author_affiliations": [
+                "University of Campinas, Campinas, SP, Brazil "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Fernando Ferreira Costa, MD PhD",
+            "author_affiliations": [
+                "University of Campinas, Campinas, SP, Brazil "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Erich Vinicius De Paula, MD PhD",
+            "author_affiliations": [
+                "University of Campinas, Campinas, SP, Brazil "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-01T13:14:24",
+    "is_scraped": "1"
 }
