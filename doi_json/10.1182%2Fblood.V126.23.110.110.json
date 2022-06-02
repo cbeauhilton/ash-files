@@ -1,8 +1,145 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3050",
-    "start_url_page_num": "3050",
     "doi": "https://doi.org/10.1182/blood.V126.23.110.110",
-    "url": "https://ashpublications.org/blood/article/126/23/110/104642/Discovery-of-Recurrent-Mutations-Associated-with?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T06:26:32",
-    "is_scraped": "0"
+    "article_title": "Discovery of Recurrent Mutations Associated with Chemo-Immunotherapy Relapse in Diffuse Large B-Cell Lymphoma ",
+    "article_date": "December 3, 2015",
+    "session_type": "622. Non-Hodgkin Lymphoma: Biology, excluding Therapy: Refining The Molecular Roadmap In NHL",
+    "abstract_text": "Background: Diffuse large B-cell lymphoma (DLBCL) is the most common form of adult lymphoma. Although comprehensively investigated, it remains a prominently heterogeneous disease. The standard of care for DLBCL is a combination chemo-immunotherapy RCHOP regimen. The 3-year progression free survival (PFS) rate is 70%. Relapses normally occur within 2-3 years and treatment options for relapsed and refractory DLBCL are limited with only 10% of patients achieving a 3-year PFS. Global mRNA expression analysis has been used to further classify DLBCL into molecularly distinct subtypes (GCB and ABC) which display remarkably different outcomes to current therapeutics, with GCB having a better prognostic outcome. Multiple attempts at further restratification of DLBCL cases based on next generation sequencing have only confirmed the striking heterogeneity of the disease; providing little direction for clinical practices. Therefore, further analysis of DLBCL with the intent to stratify patients for clinical response is needed. We utilized whole exome sequencing to reveal alterations in the genome that are associated with relapse and chemotherapeutic resistance in DLBCL. Current literature has focused on DLBCL as an entity without stratification into relapsed/refractory and de novo DLBCL. In addition, published studies have had a clear focus on diagnostic sampling. By discovering and prioritizing somatic mutations associated with relapse and chemotherapeutic resistance, we aim to provide a novel analysis of the mutational heterogeneity of DLBCL to identify new biomarkers for improved stratification of patients for clinical treatment. Method: DLBCL samples from 37 cases (45 biopsies) were collected with normal matched blood (germline). Of these, 17 cases never relapsed (median observation time 3.9 yrs). Whereas, 20 cases relapsed from RCHOP or related therapy (median observation time 4.8 yrs). Of these, 15 biopsies were taken at diagnosis and 13 were taken at relapse including 8 cases with serial biopsies. We performed whole exome capture and paired-end sequencing using the Illumina HiSeq2000 platform. Reads of each sample were mapped with BWA-mem to the human reference genome (build b37 with an added decoy contig). Marking of duplicates was performed with Picard tools; GATK tools were used for two\u2010step local realignment and base\u2010quality recalibration. Somatic single nucleotide variant (SNV) detection was performed with MuTect and Strelka. Strelka alone was used for insertion/deletion (InDel) detection. Results: We achieved 288X mean coverage of targeted exonic regions in tumor samples and 125X in normal blood. After application of our bioinformatics pipeline, we identified 44,297 variants in the cohort. The mean mutational SNV burden was 944 and the mean InDel burden was 40 variants per case. In serial biopsies there was a higher mean mutational burden at relapse than diagnosis (1001 to 772, respectively). After filtering synonymous, UTR, non-coding, and low confidence variant calls, we identified 11,743 coding variants corresponding to 6,399 genes (Figure 1). In order to define potential recurrent driver mutations in DLBCL associated with relapse and survival, we applied the Oncodrive algorithm (IntOgen) to the total cohort and subgroups classified by relapse status, survival and subtype. We also applied the Oncocluster algorithm (IntOgen) to the total cohort to identify genes with significant hotspots and clustering which may suggest potential cancer driver mutations. Using a corrected q-value of <.1 we identified 102 potential driver mutations. Within our driver mutations we identified many of the previously discovered genes associated with DLBCL including; MLL2, B2M, CD58, MEF2B, FOXO1, TP53, PIM1, SOCS1, MYC, GNA13, SGK1, TNFAIP3, MYD88, PRDM1, CDKN2A, EZH2 and CIITA. However, as previously reported, our gene list does not extensively overlap with earlier DLBCL exome sequencing reports (Figure 2). This may, in part, be due to differing library preparations, sequencing methods, bioinformatic pipelines and criteria for gene selection, yet it also represents the heterogeneity of DLBCL as a neoplastic entity. Given the underlying heterogeneity of DLBCL, by focusing on relapse and survival status of our cohort the gene variants generated and analyzed in our analysis will provide a novel view of the DLBCL mutational landscape from the perspective of relapse and chemoresistance. View large Download slide View large Download slide Close modal View large Download slide View large Download slide Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "chemotherapy regimen",
+        "diffuse large b-cell lymphoma",
+        "immunotherapy",
+        "mutation",
+        "biopsy",
+        "biological markers",
+        "cancer",
+        "cd58 antigens",
+        "forkhead box protein o1",
+        "lymphoma"
+    ],
+    "author_names": [
+        "Jillian Frances Wise, PhD",
+        "Sigve Nakken, PhD",
+        "Daniel Vodak, BS",
+        "Gunhild Tr\u00f8en, PhD",
+        "Ole Christian Lingj\u00e6rde, PhD",
+        "Leonardo A. Meza-Zepeda, PhD",
+        "Ola Myklebost, PhD",
+        "Klaus Beiske, MD PhD",
+        "June Helen Myklebust, PhD",
+        "Eivind Hovig, PhD",
+        "Erlend Smeland, MD PhD",
+        "Harald Holte, Jr., MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Jillian Frances Wise, PhD",
+            "author_affiliations": [
+                "Cancer Immunology, Oslo University Hospital, Oslo, Norway "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sigve Nakken, PhD",
+            "author_affiliations": [
+                "Tumor Biology, Oslo University Hospital, Oslo, Norway "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel Vodak, BS",
+            "author_affiliations": [
+                "Tumor Biology, Oslo University Hospital, Oslo, Norway "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gunhild Tr\u00f8en, PhD",
+            "author_affiliations": [
+                "Pathology, Oslo University Hospital, Oslo, Norway "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ole Christian Lingj\u00e6rde, PhD",
+            "author_affiliations": [
+                "Oslo University, Oslo, Norway "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Leonardo A. Meza-Zepeda, PhD",
+            "author_affiliations": [
+                "Tumor Biology, Oslo University Hospital, Oslo, Norway "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ola Myklebost, PhD",
+            "author_affiliations": [
+                "Tumor Biology, Oslo University Hospital, Oslo, Norway "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Klaus Beiske, MD PhD",
+            "author_affiliations": [
+                "Pathology, Oslo University Hospital, Oslo, Norway "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "June Helen Myklebust, PhD",
+            "author_affiliations": [
+                "Cancer Immunology, Oslo University Hospital, Oslo, Norway "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eivind Hovig, PhD",
+            "author_affiliations": [
+                "Tumor Biology, Oslo University Hospital, Oslo, Norway "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Erlend Smeland, MD PhD",
+            "author_affiliations": [
+                "Cancer Immunology, Oslo University Hospital, Oslo, Norway "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Harald Holte, Jr., MD PhD",
+            "author_affiliations": [
+                "Dept of Oncology, Oslo University Hospital, Radiumhospitalet, Oslo, Norway"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-02T13:11:20",
+    "is_scraped": "1"
 }
