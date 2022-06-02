@@ -1,8 +1,95 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3054",
-    "start_url_page_num": "3054",
     "doi": "https://doi.org/10.1182/blood.V126.23.1404.1404",
-    "url": "https://ashpublications.org/blood/article/126/23/1404/104734/Boolean-Implication-Mining-for-Synthetic-Lethal?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T06:26:46",
-    "is_scraped": "0"
+    "article_title": "Boolean Implication Mining for Synthetic Lethal Interactions in AML Identifies Acetyl-CoA Carboxylase As a Synthetic Lethal Partner of the IDH1 mutation ",
+    "article_date": "December 3, 2015",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics and Molecular Markers in Diagnosis and Prognosis: Poster I",
+    "abstract_text": "Introduction: Somatic mutations in cancer can directly or indirectly perturb signalling and metabolic pathways that can render a cancer cell susceptible to synthetic lethality. We have developed a novel computational method to accelerate identification of synthetic lethal partners for recurrent mutations in acute myeloid leukemia. Our method is based on the hypothesis that, across multiple cancers, synthetic lethal partners of a mutation will be amplified more frequently or deleted less frequently, with concordant changes in expression, in primary tumor samples harboring the mutation of interest.It uses Boolean implication (if-then rules) mining (Sinha et al, Blood 2015) to efficiently identify candidate synthetic lethal partners of a given mutation. The method is distinct from existing work in that it is not reliant on data collected from cell-lines, which are not biologically equivalent to primary tissue and do not always share the composition of mutations found in vivo, but instead utilizes large pan-cancer primary patient datasets. Pan-cancer analysis discovers robust relationships that are more likely to be independent of cancer subtypes, as well as increases statistical power. Methods: We utilized TCGA data of 12 non-AML cancer data-sets (TCGA Research Network et al, Nat. Gen. 2013) for which recurrent AML mutations were present with a frequency of at least 2.5%. These mutations include Cohesin, IDH1 , WT1 , KRAS , and RUNX1 . Boolean implications (FDR < 0.05) were used to identify genes that have more copies in the presence of a mutation as determined by (i) preferred amplification in the presence of the mutation - if gene B is amplified, then mutation A is present, (ii) deletion only in the absence of the mutation - if mutation A is present, then gene B is not deleted. Next, we remove genes that are passengers in large chromosomal alterations using gene expression filtering. Finally, the resulting gene set is filtered by differential gene expression in AML to yield the set of candidate synthetic lethal (SL) partners for a given mutation in AML. Results: To validate our novel method, we compared our putative SL partners to an independent shRNA library screen (DECIPHER) performed in our laboratory for the IDH1 R132 mutation (mut) expressed in THP-1 cells using a doxycycline-inducible promoter (Chan et al, Nat. Med. 2015). We found 6 out of 29 predicted genes showed synthetic lethality when knocked down in the presence of the mutation (Fisher's exact test, p=0.002) indicating our method could find experimentally confirmed interactions. Interestingly, our method predicted Bcl-w to be a SL partner of IDH1 mut, consistent with the SL interaction we previously described between Bcl-2 family members and IDH1 mut in primary AML. Importantly, we found that acetyl-CoA carboxylase alpha ( ACACA ), the rate-limiting enzyme that controls lipid biosynthesis, was predicted to be a strong SL partner for IDH1 mut. Selective inhibition of ACACA with independently validated shRNA or the small molecule inhibitors, 5-(tetradecyloxy)-2-furoic acid (TOFA) and Soraphen A, prevented cell proliferation in the presence of IDH1 mut but not with IDH1 wildtype. (R)-2-hydroxyglutarate inhibited oxidative phosphorylation and sensitised cells to ACACA inhibitors suggesting the interaction was mediated through the oncometabolite. Gene expression profiling of IDH1 mut cells indicated upregulation of lipid biogenesis pathways (PHOSPHOLIPID METABOLISM, p=0.001). Furthermore, gene expression of ACACA is higher in primary IDH1 mut samples compared to IDH1 wildtype (p=0.008, fold change = 1.2), and cultured primary IDH1mut blasts show selective sensitisation to ACACA inhibition in vitro (n=5/6 IDH1mut/IDH1 wt, p=0.04). Conclusion: We have developed a computational tool that can predict SL interactions for recurrent mutations in AML, with applicability to other cancers. Our method identified de novo lipogenesis as a critical metabolic pathway linked to a specific mutation and suggests therapeutic inhibition of ACACA with small molecules may be beneficial in IDH1 mut AML. This is consistent with recent understanding of the Warburg effect, which postulates that certain oncogenic mutations may indirectly stimulate macromolecule biosynthesis pathways to promote unrestrained cell growth. Our results indicate that a function of the IDH1 mutation is to inhibit oxidative phosphorylation and stimulate de-novo lipid synthesis. Disclosures Majeti: Forty Seven, Inc.: Consultancy, Equity Ownership, Membership on an entity's Board of Directors or advisory committees.",
+    "topics": [
+        "acetyl-coa carboxylase",
+        "idh1 gene",
+        "mining",
+        "mutation",
+        "cancer",
+        "doxycycline",
+        "enzymes",
+        "gene expression profiling",
+        "leukemia, myelocytic, acute",
+        "lipids"
+    ],
+    "author_names": [
+        "Subarna Sinha, PhD",
+        "Daniel Thomas, MD PhD",
+        "Steven M. Chan, MD PhD",
+        "Yang Gao",
+        "Rolf Jansen, PhD",
+        "Ravi Majeti, MD PhD",
+        "David L Dill, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Subarna Sinha, PhD",
+            "author_affiliations": [
+                "Computer Science, Stanford University, Palo Alto, CA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel Thomas, MD PhD",
+            "author_affiliations": [
+                "Department of Medicine, Division of Hematology, Cancer Institute, and Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Palo Alto, CA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Steven M. Chan, MD PhD",
+            "author_affiliations": [
+                "Stanford Cancer Institute, Stanford University, Stanford, CA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yang Gao",
+            "author_affiliations": [
+                "Electrical Engineering and Computer Sciences, University of California at Berkeley, Berkeley, CA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rolf Jansen, PhD",
+            "author_affiliations": [
+                "Helmholtz Center for Infection Research, Braunschweig, Germany "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ravi Majeti, MD PhD",
+            "author_affiliations": [
+                "Department of Medicine, Division of Hematology, Cancer Institute, and Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David L Dill, PhD",
+            "author_affiliations": [
+                "Computer Science, Stanford University, Palo Alto, CA "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-02T15:35:50",
+    "is_scraped": "1"
 }
