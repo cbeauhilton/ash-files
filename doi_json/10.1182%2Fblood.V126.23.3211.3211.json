@@ -1,8 +1,229 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3009",
-    "start_url_page_num": "3009",
     "doi": "https://doi.org/10.1182/blood.V126.23.3211.3211",
-    "url": "https://ashpublications.org/blood/article/126/23/3211/91132/A-Machine-Learning-Based-Model-to-Predict-Two-Year?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T04:48:15",
-    "is_scraped": "0"
+    "article_title": "A Machine Learning Based Model to Predict Two-Year Leukemia Free Survival in Cord Blood Transplantation for Acute Leukemia - a Data Mining Study, on Behalf of Eurocord, Cord Blood Committee and the Acute Leukemia Working Party of the EBMT ",
+    "article_date": "December 3, 2015",
+    "session_type": "732. Clinical Allogeneic Transplantation: Results: Poster II",
+    "abstract_text": "Background: Umbilical cord blood transplantation (UCBT) is a potentially curative therapy acute leukemia (AL) patients. Transplantation benefit must be balanced against risks, such as transplant related mortality and relapse. The complex nature of hematopoietic stem cell transplantation data (HCT), rich in interactions and possibly nonlinear associations, has motivated us to apply machine learning (ML) for predictive modeling. ML is a field of artificial intelligence and is part of the data mining approach for data analysis. Our group has recently reported on a ML based prediction model for short term HCT outcomes (Shouval R et al; JCO 2015). Using a ML algorithm, the perspective of the current study was prediction of leukemia free survival (LFS) at 2 years after an UCBT, while exploring variables' importance and interactions. Patients & Methods: A cohort of 3,149 UCBT were analyzed. Inclusion criteria encompassed patients at all ages, undergoing an UCBT (single/double unit) in EBMT centers from the year 2004 to 2014, for AL, in all disease status. All conditioning and graft versus host disease prophylaxis regiments were included. A total of 24 variables were considered, including the number of total nucleated cell dose (TNC), donor and recipients HLA typing, as well as recipient, disease and transplant characteristics. The Random Survival Forest (RSF) ML algorithm was applied for model construction and data exploration. RSF is known to be adaptive to data, is able to automatically recover nonlinear effects and complex interactions among variables, and yields nonparametric prediction over test data. The analysis pipeline consisted of prediction model development, assessment of variable importance by their minimal depth from the tree trunk, and exploration of the top ranking variable with dependence plots. The latter promotes understanding of non-trivial associations between variables and outcomes. Results : The 2 years LFS was 49%, with a median follow up of 30 months. A RSF model of 1000 trees was developed, with each tree constructed on a bootstrap sample from the original cohort. A prediction error of 36.0% was calculated. The 10 most predictive variables (in ascending order) were disease status, age, TNC harvested and infused, recipient CMV serostatus, interval from diagnosis to UCBT, transplant year, previous autologous transplant, and use of anti-thymocyte globulin (ATG). Selected findings from exploration of variables-outcome relationship with dependence plots included a varying effect of TNCs in specific subpopulations. Increasing the number of infused TNCs had a positive effect on predicted LFS in patients receiving HLA mismatched (2 or more HLA mismatch) (figure) or single unit CB grafts, and patients in earlier disease status or older age. ATG administration was associated with worse LFS, whether unadjusted or adjusted to all other variables. However, there was an additional negative effect in advanced disease status patients, recipients of HLA mismatched or single CB units grafts, and older patients. Patients in 1 st complete remission (CR) had higher predicted LFS as compared to those in 2 nd CR. However, in patients receiving a HLA mismatched or a double CB graft, the difference in LFS between CR1 and CR2 was attenuated. Younger age had a favorable impact in early disease status, but lost its positive effect in advanced disease. Conclusions : A prediction model for LFS 2 years post UBCT was developed using the RSF ML algorithm. Variables were ranked according to their predictive contribution. Disease status, age, and TNC count were found to be the most important factors. Dependence plots revealed interactions and nonlinear associations between variables and the outcome, such as the effect of cell dose on HLA disparity. Apart from the study's clinical findings, it carries a methodological significance. A novel ML approach for prediction, variable selection and data exploration, accounting for long term time to event outcomes, has proved useful in the field of HCT. Figure 1. View large Download slide Variable marginal dependence coplot of predicted LFS at 2 years against TNC, conditional on HLA matching. Individual cases are marked with blue circles (alive or censored) and red `x's (event). Linear smooth (a linear extrapolation of the prediction function), with shaded 95% confidence band, indicates trends of variable dependence. Figure 1. View large Download slide Variable marginal dependence coplot of predicted LFS at 2 years against TNC, conditional on HLA matching. Individual cases are marked with blue circles (alive or censored) and red `x's (event). Linear smooth (a linear extrapolation of the prediction function), with shaded 95% confidence band, indicates trends of variable dependence.  Close modal Disclosures Mohty: Janssen: Honoraria; Celgene: Honoraria. Sanz: JANSSEN CILAG: Honoraria, Research Funding, Speakers Bureau. Bader: Neovii: Other: Institutional grants; Medac: Other: Institutional grants; Riemser: Other: Institutional grants; Amgen: Consultancy; Novartis: Consultancy; Jazz Pharmaceuticals: Consultancy.",
+    "topics": [
+        "data mining",
+        "leukemia",
+        "leukemia, acute",
+        "machine learning",
+        "umbilical cord blood",
+        "umbilical cord blood transplantation",
+        "human leukocyte antigens",
+        "transplantation",
+        "tissue transplants",
+        "antithymoglobulin"
+    ],
+    "author_names": [
+        "Roni Shouval, MD",
+        "Annalisa Ruggeri, MD PhD",
+        "Myriam Labopin, MD",
+        "Mohamad Mohty, MD PhD",
+        "Guillermo Sanz, MD PhD",
+        "Gerard Michel, MD",
+        "Eefke Petersen, MD PhD",
+        "Patrice Chevallier, MD PhD",
+        "Amal Al-Seraihy, MD",
+        "Noel-Jean Milpied, MD PhD",
+        "Cristina Diaz de Heredia, MD",
+        "William Arcese, MD",
+        "Didier Blaise, MD PhD",
+        "Vanderson Rocha, MD PhD",
+        "Amit Gal, MSc",
+        "Ron Unger, PhD",
+        "Frederic Baron, MD PhD",
+        "Peter Bader, MD",
+        "Eliane Gluckman, MD",
+        "Arnon Nagler, MD MSc"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Roni Shouval, MD",
+            "author_affiliations": [
+                "Division of Hematology and Bone Marrow Transplantation, Sheba Medical Center, Ramat Gan, Israel "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Annalisa Ruggeri, MD PhD",
+            "author_affiliations": [
+                "Eurocord, H\u00f4pital Saint Louis APHP, University Paris-Diderot, Paris, France ",
+                "Service d'H\u00e9matologie et Th\u00e9rapie Cellulaire, H\u00f4pital Saint-Antoine, Paris, France "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Myriam Labopin, MD",
+            "author_affiliations": [
+                "EBMT, Acute Leukemia Working Party, Paris, France "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mohamad Mohty, MD PhD",
+            "author_affiliations": [
+                "Hematology Department, Saint-Antoine Hospital, AP-HP, Universite Pierre et Marie Curie, Paris, France "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Guillermo Sanz, MD PhD",
+            "author_affiliations": [
+                "Servicio de Hematologia, Hospital Universitario La Fe, Valencia, Spain "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gerard Michel, MD",
+            "author_affiliations": [
+                "Timone Enfants Hospital and Aix-Marseille University, Department of Pediatric Hematology and Oncology, Marseille, France "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eefke Petersen, MD PhD",
+            "author_affiliations": [
+                "University Medical Centre Utrecht, Utrecht, Netherlands "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Patrice Chevallier, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology, Nantes University Hospital, Nantes, France "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amal Al-Seraihy, MD",
+            "author_affiliations": [
+                "Department of Pediatric Hematology/Oncology, King Faisal Specialist Hospital & Research Center, Riyadh, Saudi Arabia "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Noel-Jean Milpied, MD PhD",
+            "author_affiliations": [
+                "Service des maladies du sang, Hopital du Haut Leveque, bordeaux, France "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cristina Diaz de Heredia, MD",
+            "author_affiliations": [
+                "Servicio de Hematologia y Oncologia Pedi\u00e1trica, Hospital Vall d'Hebron, Barcelona, Spain "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "William Arcese, MD",
+            "author_affiliations": [
+                "Dept. of Hematology and Transplant, University of Rome 'Tor Vergata', Rome, Italy "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Didier Blaise, MD PhD",
+            "author_affiliations": [
+                "Programme de Transplantation et Therapie Cellulaire, Institut Paoli Calmettes, Marseille, France "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vanderson Rocha, MD PhD",
+            "author_affiliations": [
+                "Churchill Hospital, Oxford University, Oxford, United Kingdom ",
+                "Eurocord-Monacord, H\u00f4pital Saint Louis, Paris, France "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amit Gal, MSc",
+            "author_affiliations": [
+                "Tel Aviv University, Ra'anana, Israel "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ron Unger, PhD",
+            "author_affiliations": [
+                "The Mina & Everard Goodman Faculty of Life Sciences, Ramat Gan, Israel "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Frederic Baron, MD PhD",
+            "author_affiliations": [
+                "University of Liege, Liege, Belgium "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter Bader, MD",
+            "author_affiliations": [
+                "EBMT, Paediatric Diseases Working Party, barcelona, Spain ",
+                "Division for Stem Cell Transplantation and Immunology, Hospital for Children and Adolescents, University Hospital Frankfurt, Goethe University, Frankfurt am Main, Germany "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eliane Gluckman, MD",
+            "author_affiliations": [
+                "Eurocord-Hopital Saint-Louis, Paris, France "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Arnon Nagler, MD MSc",
+            "author_affiliations": [
+                "EBMT, Acute Leukemia Working Party, Paris, France ",
+                "Hematology Division, Chaim Sheba Medical Center and Tel Aviv University, Tel-Hashomer, Ramat-Gan, Israel"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-02T02:36:36",
+    "is_scraped": "1"
 }

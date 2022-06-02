@@ -1,8 +1,65 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3010",
-    "start_url_page_num": "3010",
     "doi": "https://doi.org/10.1182/blood.V126.23.3345.3345",
-    "url": "https://ashpublications.org/blood/article/126/23/3345/91168/Mathematical-Modelling-of-Erythropoiesis-in?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T04:48:19",
-    "is_scraped": "0"
+    "article_title": "Mathematical Modelling of Erythropoiesis in Patients with End Stage Renal Disease: New Insights into Marrow Functioning ",
+    "article_date": "December 3, 2015",
+    "session_type": "101. Red Cells and Erythropoiesis, Structure and Function, Metabolism, and Survival, Excluding Iron: Poster III",
+    "abstract_text": "BACKGROUND Anemia is a well-recognized complication of chronic kidney disease (CKD). Shortened red blood cell (RBC) survival, uremic inhibitors of erythropoiesis and a relative deficiency of erythropoietin have been proposed as mechanisms of anemia of CKD. In normal individuals a low level of circulating erythropoietin (EPO) produced by the nephrons (10-30 mUnits/mL) is sufficient to maintain erythropoiesis. CKD patients do not have elevations of serum EPO levels that are seen in healthy individuals with comparable degree of anemia. The US FDA approved recombinant EPO in 1989. Since then, treatment with supra-physiologic doses of EPO has become the mainstay of anemia management in CKD. It has been estimated that at any given time 90% of prevalent dialysis patients require erythropoiesis-stimulating agents. Undifferentiated pluripotent stem cells, in the bone marrow are capable of producing committed erythroid colony forming units (CFU-E) under the influence of EPO. These cells ultimately differentiate into RBCs that are released into the circulation. Because of finite non-zero cell maturation and cell replication times there is a delay between EPO administration and RBC production. In healthy individuals the time needed for cell maturation in the marrow ranges from 6-10 days. The maturation of red cells in marrow of CKD patients has not been studied. We hypothesize that this maturation time is prolonged in patients with CKD. By identifying the existence of a delay in cell maturation we can begin to investigate the factors determining the delay. We may also be able to identify new targets for treatments of anemia in kidney disease by targeting cell maturation pathways. METHODS Mathematically, erythropoiesis can be formulated as a time model taking the form of a simple differential equation. Delay differential equations can be used to incorporate the delay in cell proliferation depicted by \u03c4 . The circulating erythrocytes are removed from the circulation at a rate \u03b3 . Therefore, 1/\u03b3 represents the life span of the erythrocyte. \u03b7 and \u03b8 are shape parameters in the model and \u03b2 (rate of RBC production) is a constant. This model was first proposed by Mackey and Glass and is popularly known as the Mackey-Glass Model. Monthly hemoglobin values were collected for 50 end stage renal disease patients on peritoneal dialysis over a period of 24-36 months. Individual models for each patient were developed in Mathematica v. 9.0. To obtain the best fit \u03c4 was progressively varied from 1-8 weeks till a good fit was achieved. \u03b3 was maintained in the range that represents expected RBC survival in these patients (range 7-14 weeks). RESULTS A representative model is shown in figure 1 below. We found \u03c4 to be significantly prolonged up to 6 weeks (mean 4 weeks, range: 1-6 weeks) in patients receiving peritoneal dialysis. This has important implications. A prolonged delay of up to 6 weeks in the effect of EPO can give rise to pseudo EPO-resistance. This phenomenon is clearly observed in clinical practice. Reactionary increase or reduction in EPO doses to apparent lack of response to EPO, leads to fluctuations in hemoglobin, a phenomenon that has been called hemoglobin cycling by clinical epidemiologists and has been related to mortality and cardiovascular outcomes. Recognition of the delay in cell maturation within the marrow which may show wide variation amongst patients (range 1-6 weeks); calls for individualizing drug treatment protocols rather than using population based algorithms. We also found evidence that patients with chronic renal failure are still capable of increasing their rate of red cell production in response to an increase in the rate of cell loss [Fig 2(a)]. Interestingly we found that the delay in cell maturation ( \u03c4 ) is prolonged when the basal erythropoietic rate ( \u03b2 ) are increased [Fig 2(b)]. This effect is paradoxical since normal physiologic response to anemia should shorten cell transit times in face of increased demand. This leads us to hypothesize that cells may get arrested during their maturation. Increased levels of several inflammatory mediators may explain the maturation arrest. A lack of clear understanding of the factors affecting the maturation delay makes management of ESA-resistance challenging. New therapeutic approaches that target cellular pathways resulting in arrest of cellular maturation in the marrow may provide an avenue for new drug development. Figure 1. View large Download slide Figure 1. View large Download slide Close modal Figure 2. View large Download slide Figure 2. View large Download slide Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "erythropoiesis",
+        "kidney failure, chronic",
+        "mathematics",
+        "anemia",
+        "erythropoietin",
+        "hemoglobin",
+        "peritoneal dialysis",
+        "dialysis procedure",
+        "erythropoiesis-stimulating agents",
+        "hemodialysis"
+    ],
+    "author_names": [
+        "Ashwani K Gupta, MD",
+        "Ravneet Bajwa",
+        "Olivia Prosper, PhD",
+        "Maia Marchetva, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Ashwani K Gupta, MD",
+            "author_affiliations": [
+                "University of Florida, Jacksonville, FL "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ravneet Bajwa",
+            "author_affiliations": [
+                "University of Florida, Jacksonville, FL "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Olivia Prosper, PhD",
+            "author_affiliations": [
+                "Applied and Computational Mathematics (IACM), Dartmouth College, Hanover, NH "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maia Marchetva, PhD",
+            "author_affiliations": [
+                "University of Flordia, Gainesville, FL"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-02T02:38:47",
+    "is_scraped": "1"
 }
