@@ -1,8 +1,136 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3083",
-    "start_url_page_num": "3083",
     "doi": "https://doi.org/10.1182/blood.V126.23.398.398",
-    "url": "https://ashpublications.org/blood/article/126/23/398/93022/A-Predictive-Model-Using-Telomere-Length-to-Select?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T07:20:44",
-    "is_scraped": "0"
+    "article_title": "A Predictive Model Using Telomere Length to Select Optimal Donors for Hematopoietic Stem Cell Transplant (HCT) for Acute Leukemia ",
+    "article_date": "December 3, 2015",
+    "session_type": "732. Clinical Allogeneic Transplantation: Results: New Insights Into the Biology of Allogeneic Transplantation",
+    "abstract_text": "Donor telomere length was recently shown to be associated with survival in severe aplastic anemia patients [1] who undergo unrelated donor HCT. We hypothesize that telomere length may also be clinically useful in selecting donors for acute leukemia patients who undergo HCT. To that end, we are developing predictive models, based on leukocyte telomere length together with clinical variables as inputs, and overall survival as the clinical outcome. The models classify donors as either \"preferred\" or \"not preferred,\" to provide a decision making tool that can be used to select donors when multiple donors are available. We describe development of the classifier models using survival as the primary outcome and explore the predictive ability of the models for relapse and treatment-related mortality. Whole blood samples and clinical information were obtained from the Center for International Blood and Marrow Transplant Research (CIBMTR) for 300 acute leukemia patients who underwent unrelated donor bone marrow or peripheral blood stem cell transplantation, 2004-2008. Inclusion criteria for adult and pediatric patients included: acute myeloid leukemia (AML) and acute lymphocytic leukemia (ALL) of any stage; 8/8 HLA-matched; and myeloablative conditioning. The samples were processed in Telomere Diagnostic's Clinical Laboratory Improvement Amendments (CLIA) certified laboratory, using a qPCR method to obtain relative leukocyte telomere length from the donor blood samples. We used a multivariate analysis looking at donor telomere length and 30 other variables to identify a subset of donors that resulted in improved outcomes in the respective patients. With this approach, we derived an algorithm that identified 268 patients with substantially improved overall survival (\"preferred group\") compared to the entire study group (\"standard of care group\"). Preferred cases identified by the algorithm exhibited an improvement in median survival of 55.7 months vs standard of care (97 mos. median survival for preferred, vs. 41.3 mos. for standard of care, as shown in Fig. 1. Five-year overall survival was 59% for the preferred group, and 44.9% for the standard of care group. We performed additional analysis to create multivariate predictive models, which we call \"classifiers,\" for donor selection. Rather than creating just a single classifier, we created six classifiers that provide a range of stringency levels (13%-80%). Classifiers with high stringency yield a smaller fraction of preferred donors to non-preferred donors; classifiers with low stringency yield a higher fraction of preferred donors to non-preferred donors. Using this graded approach makes differences in donor quality apparent, even where the recipient has few potential donors from which to choose. However, this type of analysis does not yield a continuous donor score or allow direct quantification of the significance of a variable in the model. To quantify the utility of the six classifiers, we estimated performance using repeated 10-fold cross-validation [2]. The key outcome was overall survival (OS) of recipients in the preferred donor group. Specifically, we estimated the proportion of recipients alive at 60 months in the preferred donor group compared with the proportion alive for all recipients in the training set (reflecting standard of care). The results are shown in Fig. 2, with the average survival of the 10 cross-validation samples plotted. Classifier A, the most stringent, identified about 13% in the preferred donor group. 66.7% of patients in the preferred donor group per Classifier A were alive at 60 months, compared with the standard of care average of 44.9%. Classifier F, the least stringent, identified about 80% of patients in the preferred donor group. 46.3% of patients who received preferred donor stem cells were alive at 60 months. In our analysis, preferred donors were associated with lower relapse rates at 12 and 24 months, higher rates of remission at the time of death, and lower transplant-related mortality. Next steps include validation of classifier performance using an independent set of 320 donor samples from the CIBMTR. References: 1. Gadalla, S.M., et al., JAMA, 2015. 313(6): p. 594-602. 2. Krstajic, D., et al., Journal of Cheminformatics, 2014. 6(10). View large Download slide View large Download slide Close modal Figure 2. View large Download slide Figure 2. View large Download slide Close modal Disclosures Lee: Bristol-Myers Squibb: Consultancy; Kadmon: Consultancy.",
+    "topics": [
+        "donors",
+        "hematopoietic stem cell transplantation",
+        "leukemia, acute",
+        "telomere",
+        "transplantation",
+        "acute lymphocytic leukemia",
+        "aplastic anemia",
+        "disease remission",
+        "human leukocyte antigens",
+        "leukemia, myelocytic, acute"
+    ],
+    "author_names": [
+        "David Loftus, MD",
+        "Buturovic Ljubomir, PhD",
+        "Wang Tao, PhD",
+        "Spellman Stephen, M.B.S.",
+        "Haagenson Michael, M.S.",
+        "Krstajic Damjan",
+        "Shelton Jason, M.B.A.",
+        "Marsha Blauwkamp, PhD",
+        "Hesterberg Lyndal, PhD",
+        "Friedman Lyssa, R.N., M.P.A.",
+        "Stephanie J. Lee, MD MPH"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "David Loftus, MD",
+            "author_affiliations": [
+                "Telomere Diagnostics, Menlo Park, CA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Buturovic Ljubomir, PhD",
+            "author_affiliations": [
+                "Clinical Persona, Inc., East Palo Alto, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wang Tao, PhD",
+            "author_affiliations": [
+                "Center for International Blood and Marrow Transplantation, Minneapolis, MN "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Spellman Stephen, M.B.S.",
+            "author_affiliations": [
+                "Center for International Blood and Marrow Transplantation, Minneapolis, MN "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Haagenson Michael, M.S.",
+            "author_affiliations": [
+                "Center for International Blood and Marrow Transplantation, Minneapolis, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Krstajic Damjan",
+            "author_affiliations": [
+                "Clinical Persona, Inc., East Palo Alto, CA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shelton Jason, M.B.A.",
+            "author_affiliations": [
+                "Telomere Diagnostics, Menlo Park, CA "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marsha Blauwkamp, PhD",
+            "author_affiliations": [
+                "Telomere Diagnostics, Menlo Park, CA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hesterberg Lyndal, PhD",
+            "author_affiliations": [
+                "Telomere Diagnostics, Menlo Park, CA "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Friedman Lyssa, R.N., M.P.A.",
+            "author_affiliations": [
+                "Telomere Diagnostics, Menlo Park, CA "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephanie J. Lee, MD MPH",
+            "author_affiliations": [
+                "CIBMTR\u00ae (Center for International Blood and Marrow Transplant Research), Department of Medicine, Medical College of Wisconsin, Milwaukee, WI ",
+                "Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-02T21:37:15",
+    "is_scraped": "1"
 }
