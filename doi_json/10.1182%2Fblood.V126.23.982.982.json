@@ -1,8 +1,65 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3032",
-    "start_url_page_num": "3032",
     "doi": "https://doi.org/10.1182/blood.V126.23.982.982",
-    "url": "https://ashpublications.org/blood/article/126/23/982/136320/Pharmacokinetics-Based-Individualized-Dosing?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T05:30:31",
-    "is_scraped": "0"
+    "article_title": "Pharmacokinetics-Based Individualized Dosing Strategy to Predict Maximum Tolerated Dose of Hydroxyurea in Children with Sickle Cell Anemia ",
+    "article_date": "December 3, 2015",
+    "session_type": "114. Hemoglobinopathies, Excluding Thalassemia - Clinical: Poster I",
+    "abstract_text": "Background: Hydroxyurea is the primary disease-modifying therapy for adults and children with sickle cell anemia (SCA). Recent NHLBI guidelines include a recommendation for expanded hydroxyurea use, particularly for young children. The laboratory and clinical benefits of hydroxyurea therapy are optimized when escalated to maximum tolerated dose (MTD), but the process of dose escalation requires expertise and frequent laboratory tests. The time to reach MTD using traditional empirical escalation usually takes >6 months, which can delay the laboratory and clinical benefits. In addition, all children with good adherence at MTD will respond to hydroxyurea, but with substantial interpatient variability in both the MTD itself and the %HbF levels achieved, suggesting important individual differences in pharmacokinetics (PK) that contribute to this phenotypic variability. Objective: The primary objective of this study was to develop an individualized Bayesian adaptive dosing strategy to reduce the time required to reach hydroxyurea MTD for children with SCA. Achieving this objective required the development of a population PK model and identification of the most informative sampling times for Bayesian estimation order to reduce the number of observations required for robust estimation of hydroxyurea PK parameters for individual patients. Methods: PK data at baseline from 96 children with SCA enrolled in the prospective Hydroxyurea Study of Long-term Effects (HUSTLE, NCT00305175) were used to develop a population PK model using nonlinear mixed effects modeling (NONMEM 7.2). Patient demographics and clinical chemistry measurements were included for covariate analyses. The final model was validated by bootstrap analysis and visual predictive check. To identify the optimal sampling times and number of samples required to robustly estimate individual PK parameters and total hydroxyurea exposure (AUC), a D-optimal design analysis was performed using the final PK model with constraints of clinical feasibility. Results: Hydroxyurea PK profiles were best described by a one compartment model with Michaelis Menten elimination and a transit absorption model. Hydroxyurea serum concentrations showed substantial interpatient variability with AUC on Day 1 ranging from 40.0 to 149.2 mg*h/L. The average AUC at MTD (mean \u00b1 SD) was 115.7 \u00b1 34.0 mg*h/L, so this value was chosen as the target hydroxyurea AUC for the final PK model-based approach. Of the tested covariates, body weight and cystatin C were identified as significant predictors of hydroxyurea clearance, but neither serum creatinine nor estimated creatinine clearance was identified as predictors of hydroxyurea clearance. D-optimal design indicated that three serum concentrations collected at 15-20 minutes, 50-60 minutes, and 3 hours after oral administration would accurately estimate systemic hydroxyurea exposure. Figure 1 demonstrates an example from a patient, demonstrating the PK profile obtained using the sparse sampling technique (Panel A) and the modeling to predict a dose that would target a AUC of 115 mg*h/L (Panel B). Conclusions: We have established a PK model-based individualized dosing strategy to predict hydroxyurea MTD in children with SCA. Our selective sampling strategy requires only three serum samples to be collected over 3 hours and is therefore more feasible and practical, particularly for very young children, than traditional hydroxyurea PK analysis that requires frequent blood collections over 6-8 hours. This novel Bayesian approach is being prospectively evaluated in the Therapeutic Response Evaluation and Adherence Trial (TREAT, ClinicalTrials.gov NCT02286154). In TREAT, hydroxyurea concentrations are measured using HPLC after a single oral dose of 20 mg/kg, requiring only 3 fingerstick blood samples over 3 hours for accurate assessment of each patient's unique hydroxyurea PK profile. The predicted MTD is then calculated based on the amount of drug required to meet the target AUC. This strategy has the potential to individualize therapy and optimize the dose titration of hydroxyurea therapy for children with SCA, such that the laboratory and clinical benefits at MTD are achieved more quickly. View large Download slide View large Download slide Close modal Disclosures Off Label Use: Hydroxyurea is not FDA-approved for children with sickle cell anemia. Ware: Bristol Myers Squibb: Research Funding; Biomedomics: Research Funding; Eli Lilly: Other: DSMB membership; Bayer Pharmaceuticals: Consultancy.",
+    "topics": [
+        "child",
+        "hydroxyurea",
+        "maximum tolerated dose",
+        "pharmacokinetics",
+        "sickle cell anemia",
+        "administration, oral",
+        "creatinine clearance",
+        "creatinine tests, serum",
+        "cystatin c measurement",
+        "fingerstick blood glucose measurement"
+    ],
+    "author_names": [
+        "Patrick T. McGann, MD MS",
+        "Min Dong, PhD",
+        "Russell E. Ware, MD PhD",
+        "Alexander A Vinks, PharmD, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Patrick T. McGann, MD MS",
+            "author_affiliations": [
+                "Division of Hematology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Min Dong, PhD",
+            "author_affiliations": [
+                "Division of Clinical Pharmacology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Russell E. Ware, MD PhD",
+            "author_affiliations": [
+                "Cincinnati Children's Hospital Medical Center, Cincinnati, OH"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexander A Vinks, PharmD, PhD",
+            "author_affiliations": [
+                "Division of Clinical Pharmacology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-02T06:50:46",
+    "is_scraped": "1"
 }
