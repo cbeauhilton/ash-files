@@ -1,8 +1,104 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3123",
-    "start_url_page_num": "3123",
     "doi": "https://doi.org/10.1182/blood.V126.23.4521.4521",
-    "url": "https://ashpublications.org/blood/article/126/23/4521/93319/Development-of-an-Algorithm-to-Identify-Patients?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T08:46:22",
-    "is_scraped": "0"
+    "article_title": "Development of an Algorithm to Identify Patients with Multiple Myeloma Using Administrative Claims Data ",
+    "article_date": "December 3, 2015",
+    "session_type": "902. Health Services and Outcomes Research - Malignant Diseases: Poster III",
+    "abstract_text": "Introduction: Cancer research using secondary data sources requires accurate patient identification but a recent review suggests only 7% of administrative claims-based studies used a validated algorithm (Schulman et al 2013). Claim-based studies in multiple myeloma (MM) requires disease specific treatments for patient selection that excludes those at an early disease stage or who elect to forgo treatment (Teitelbaum et al 2013). Recent work concluded that at least 2 diagnoses before and after a diagnostic test within 90 days were needed to achieve a positive predictive value (PPV) of 81% and a sensitivity (Sens) of 73% (Brandenburg et al 2014). The objective of this analysis was to expand on prior work by developing and validating a new algorithm to identify MM in claims. Methods: Two files were constructed to select cases (true MM patients) from the MarketScan Oncology EMR database linked to the MarketScan Commercial and Medicare claims databases and controls (patients without MM) from the MarketScan Primary Care EMR database linked to the MarketScan claims databases during 1/1/2000-3/31/2014 (study period). The files were merged for algorithm development. Eligible cases (incident and prevalent) were required to be age \u226518, have both a diagnosis and visit date for MM in the Oncology EMR, and be continuously enrolled in claims for \u226590 days preceding and \u226530 days after the diagnosis. Eligible controls were age \u226518, had \u226512 months of overlap in enrollment (observation period) in both the Primary Care EMR and claims with \u22651 claim with an ICD-9-CM diagnosis code of MM (203.0x) during that time. To ensure controls did not have MM the following additional requirements were imposed: no chemotherapy; no stem cell transplant; and no evidence of MM in the Primary Care EMR during the observation period. A split sample approach was used to develop then validate the algorithms. A panel file was constructed to test algorithms on all MM diagnoses for cases and controls captured during the study period. A maximum of 180 days prior to and following each diagnosis was used to identify tests, treatments, and symptoms used in the diagnostic process. Out of 20 algorithms explored, 4 were run in the validation sample, the baseline algorithm of 2 MM diagnoses and the 3 best performing algorithms. Values for Sens, specificity (Spec), and PPV were calculated. Results : Of the 336 cases and 683 controls, there were 22,419 (3,442 untreated; 18,977 treated) diagnoses from cases and 3,185 diagnoses from controls evaluated. Table 1 presents results for 4 algorithms. Conclusions: Results provide 3 validated claims based-algorithms for identification of MM with approximately 10% improvement in PPV over prior work and the baseline algorithm. Although treatment was not a requirement including it as an 'OR' statement improved performance. Each algorithm has strengths (i.e. higher Spec vs. higher Sens) that can be considered for use in future research. Further, it was determined that identification of an untreated population in claims is challenging, possibly due to smoldering, asymptomatic disease where treatment is unnecessary and testing is infrequent. View large Download slide View large Download slide  Close modal Disclosures Princic: Truven: Employment, Other: I am an employee of Truven Health Analytics. Truven Health was paid by Onyx Inc to conduct this study. Gregory: Truven Health: Employment. Willson: Truven Health: Other: am an employee of Truven Health Analytics. Truven Health was paid by Onyx Inc. to conduct this study.. Mahue: Amgen - Onyx Pharmaceuticals: Employment. Felici: Onyx/Amgen: Employment, Other: Own stocks. Werther: Onyx Pharmaceutical, Inc., an Amgen subsidiary: Employment. Lenhart: Truven: Other: I am an employee of Truven Health Analytics. Truven Health was paid by Onyx Inc. to conduct this study. Foley: Truven Health Analytics: Other: I was an employee of Truven Health Analytics at the time this work was conducted, and Truven Health was paid by Onyx to conduct this research..",
+    "topics": [
+        "multiple myeloma",
+        "administrative claims, healthcare",
+        "asymptomatic diseases",
+        "chemotherapy regimen",
+        "foley catheters",
+        "hematopoietic stem cell transplantation",
+        "employee",
+        "cancer research",
+        "international classification of diseases"
+    ],
+    "author_names": [
+        "Nicole Princic",
+        "Chris Gregory",
+        "Tina Willson",
+        "Maya Mahue",
+        "Diana Felici",
+        "Winifred Werther",
+        "Gregory Lenhart",
+        "Kathy Foley"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Nicole Princic",
+            "author_affiliations": [
+                "Truven Health, Reading, PA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chris Gregory",
+            "author_affiliations": [
+                "Truven Health, Woodbridge, MA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tina Willson",
+            "author_affiliations": [
+                "Truven Health, Salt Lake City, UT "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maya Mahue",
+            "author_affiliations": [
+                "Onyx Pharmaceuticals, Inc., an Amgen subsidiary, South San Francisco, CA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Diana Felici",
+            "author_affiliations": [
+                "Onyx Pharmaceuticals, Inc., an Amgen subsidiary, South San Francisco, CA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Winifred Werther",
+            "author_affiliations": [
+                "Onyx Pharmaceuticals, Inc., an Amgen subsidiary, South San Francisco, CA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gregory Lenhart",
+            "author_affiliations": [
+                "Truven Health, Lexington, MA "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kathy Foley",
+            "author_affiliations": [
+                "Pfizer, Inc., Collegeville, PA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-03T09:41:10",
+    "is_scraped": "1"
 }
