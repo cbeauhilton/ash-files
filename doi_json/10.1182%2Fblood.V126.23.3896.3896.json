@@ -1,8 +1,100 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3084",
-    "start_url_page_num": "3084",
     "doi": "https://doi.org/10.1182/blood.V126.23.3896.3896",
-    "url": "https://ashpublications.org/blood/article/126/23/3896/93051/Comparative-Analysis-of-Endemic-and-Sporadic?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T07:20:48",
-    "is_scraped": "0"
+    "article_title": "Comparative Analysis of Endemic and Sporadic Burkitt Lymphoma By RNA Sequencing ",
+    "article_date": "December 3, 2015",
+    "session_type": "622. Non-Hodgkin Lymphoma: Biology, excluding Therapy: Poster III",
+    "abstract_text": "Introduction: Burkitt lymphoma (BL) is an aggressive B-lineage non-Hodgkin lymphoma that has traditionally been classified into 3 subtypes: \"endemic\", \"sporadic\", and HIV-associated. The highest incidence of BL - prompting the \"endemic\" classification - is observed in children in sub-Saharan Africa, where the distribution of the disease is closely associated with that of P. falciparum malaria. The tumor cells in most cases of BL from sub-Saharan Africa are infected with Epstein Barr virus (EBV). In contrast, a minority of BL tumors from Europe and North America - which are commonly described as \"sporadic\" - are EBV positive. Although excellent outcomes have been observed for patients with BL treated with multi-agent chemotherapy in Europe and North America, the outcomes of BL patients in sub-Saharan Africa are suboptimal. We hypothesized that improved understanding of the molecular heterogeneity that exists within BL, particularly the molecular features that distinguish cases from sub-Saharan Africa from those from Europe/North America, will enable more effective treatment strategies that can readily be implemented in low-resources settings. Methods: Tumor biopsies were collected from 19 pediatric patients who presented to the Uganda Cancer Institute with maxillofacial tumors histologically confirmed to be BL. Total RNA was extracted and polyA-selected sequencing libraries were prepared. Paired-end, 50-base pair sequencing was performed on the Illumina HiSeq 2500 platform at a depth of 100 million reads per sample. A publicly available RNA sequencing dataset from 28 BL cases from Europe and North America that were previously analyzed by both microarray ( NEJM 2006; 354[23]: 2431-2442) and RNA sequencing ( Nature 2012; 490[7418]: 116-120) was analyzed in parallel for comparison. RNA sequencing on the 28 sporadic BL tumors was performed on polyA-selected sequencing libraries with paired-end, 108-base pair sequence reads generated on the Illumina HiSeq 2000 platform. The reads from all 47 BL tumors were aligned to the human and EBV (GenBank ID KC207813.1) genomes using the STAR aligner. Tumors were deemed EBV positive if the ratio of mapped viral reads to human reads exceeded 0.001%, since the EBV genome is 0.005% the size of the human genome. Normalization and differential expression analysis were performed on aligned reads using the DESeq2 R package. Somatic variants were identified by the Genome Analysis Tool Kit. Analysis of alterative splicing was performed with the SGSeq R package. Results: All of the Uganda BL cases but only 70% of the previously published European/North American cases were obtained from children less than 18 years; 61% and 87% were from male patients, respectively. One half of patients in both groups presented with Ann Arbor stage I or II disease, while the remainder presented with higher stage disease. The median survival in the 19 Ugandan patients was less than one year. Sequence reads from 15 (79%) of the Ugandan tumors and 4 (15%) of the European/North American tumors aligned to the EBV genome. Although BL is reported to express only latency type I EBV genes, expression of latency type I, II, and III genes was detected. Among the 4 tumors from Uganda that did not contain EBV-derived reads, 1 was from a child who was HIV-seropositive, while the others were from HIV-seronegative patients. Unsupervised hierarchical clustering and principal component analysis of all annotated genes failed to separate EBV positive and EBV negative tumors. Cluster analysis of the Ugandan tumors revealed no association with clinical variables. Ongoing analyses are being performed to identify associations between differentially expressed genes and somatic mutations and alternative splicing that may distinguish the tumor subtypes. Conclusions: While the terms \"endemic\" and \"sporadic\" have traditionally been used to classify BL, this nomenclature is archaic and does not accurately capture the underlying biology of the tumor subtypes. We performed a comparative whole transcriptome analysis of BL tumors from patients in Uganda to a dataset of BL tumors from patients in Europe/North America to identify features that distinguish the two cohorts. While cluster analysis failed to clearly separate tumors by their EBV or clinical status, ongoing analyses are being performed to identify alterations that may contribute to their distinct gene expression profiles. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "burkitt's lymphoma",
+        "sequence analysis, rna",
+        "neoplasms",
+        "gene expression profiling",
+        "biopsy",
+        "cancer",
+        "chemotherapy regimen",
+        "hiv seropositivity",
+        "lymphoma, non-hodgkin",
+        "malaria, falciparum"
+    ],
+    "author_names": [
+        "David G. Coffey, MD",
+        "Katharine A. Lombardo, BS",
+        "Andrea M. H. Towlerton, BS",
+        "Sarah E. Gerdts, MPH",
+        "Corey Casper, MD",
+        "Jackson Orem, MD",
+        "Edus H. Warren, III, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "David G. Coffey, MD",
+            "author_affiliations": [
+                "Department of Medicine, University of Washington, Seattle, WA ",
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Katharine A. Lombardo, BS",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA ",
+                "Molecular and Cellular Biology Graduate Program, University of Washington, Seattle, WA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrea M. H. Towlerton, BS",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sarah E. Gerdts, MPH",
+            "author_affiliations": [
+                "Vaccine and Infectious Disease Division, Fred Hutchinson Cancer Research Center, Seattle, WA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Corey Casper, MD",
+            "author_affiliations": [
+                "Vaccine and Infectious Disease Division, Fred Hutchinson Cancer Research Center, Seattle, WA ",
+                "UCI/Hutchinson Center Cancer Alliance, Kampala, Uganda "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jackson Orem, MD",
+            "author_affiliations": [
+                "UCI/Hutchinson Center Cancer Alliance, Kampala, Uganda ",
+                "Uganda Cancer Institute, Kampala, Uganda"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Edus H. Warren, III, MD PhD",
+            "author_affiliations": [
+                "Department of Medicine, University of Washington, Seattle, WA ",
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-03T02:06:16",
+    "is_scraped": "1"
 }
