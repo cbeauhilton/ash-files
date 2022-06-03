@@ -1,8 +1,129 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3163",
-    "start_url_page_num": "3163",
     "doi": "https://doi.org/10.1182/blood.V126.23.837.837",
-    "url": "https://ashpublications.org/blood/article/126/23/837/136571/Redefining-Mutational-Profiling-Using-RNA-Seq?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T10:23:46",
-    "is_scraped": "0"
+    "article_title": "Redefining Mutational Profiling Using RNA-Seq: Insight into the Functional Mutational Landscape of Multiple Myeloma ",
+    "article_date": "December 3, 2015",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Exploring the Biology of Multiple Myeloma",
+    "abstract_text": "Whole genome and exome sequencing (WGS, WES) have enabled the identification of mutational signatures in Multiple Myeloma (MM) and other cancer types. In studies that assess the impact of coding mutations on protein structure and function, only reads mapping to the exome are pertinent. Thus, WES is typically preferred over WGS, as it provides deeper coverage given the same amount of total reads. However, exome enrichment - a necessary step in WES, limits the ability to call mutations, as coverage is restricted to the capture regions and affected by their GC content. Furthermore, without transcriptional information, it is not possible to determine which coding mutations found by WGS or WES are expressed and, therefore, more likely to be relevant. As an alternative, RNA-seq data directly targets the transcriptome, providing deep coverage, not requiring an enrichment step and intrinsically omitting non-expressed mutations. Moreover, when RNA-seq data is already available for evaluation of gene expression profiles, one can further leverage the data to explore expressed mutational profiles. However, limitations in pipelines to analyze RNA-seq data have restricted their applicability so far. Using paired WES and RNA-seq data from MM patient samples, we have observed that the majority of recurrent mutations in MM occur within genes with very low or no detectable expression (only 27% of mutated genes express). Here, we have further analyzed a large RNA-seq sample set to describe a comprehensive transcriptional mutational landscape in MM and identify potential mutational driver genes. Specifically, we performed RNA-seq on CD138+ MM cells from 292 newly-diagnosed patients and 16 normal bone marrow plasma cell (NBM) samples. The unstranded 50bp paired-end reads were mapped to the human genome using MapSplice followed by a workflow for variant analysis based on GATK. Output was filtered for germline variants and technical artifacts, then evaluated computationally for functional impact, and finally further filtered at the gene level. Using this workflow we were able to identify most reported recurrently mutated genes in MM, including but not limited to TP53 (14%), NRAS (14%), KRAS (11%), ACTG1 (4%), CCND1 (4%), TRAF3 (3%), FAM46C (3%), CYLD (3%) and DIS3 (2%). Importantly, we were also able to identify novel putative mutational driver genes of lower frequency, including several genes involved in the NF-\u03baB pathway (BCR, TAOK2, NFKBIA, PIM1) and genes coding for proteins forming the mTORC2 complex (SIN1, RICTOR, MTOR). We observe that the average mutational frequency, which is a convolution of clonality and relative allelic expression, is slightly below 0.5. Yet, we find diverse mutational frequencies across samples for each given gene. For instance, FAM46C shows a pattern representative of highly subclonal mutations, whereas CCND1 presents mostly bi-allelic and clonal mutations, and others such as TRAF3 show a wide spectrum of mutational frequencies. Further developments will be needed to deconvolve these frequencies. We also applied the workflow to 10 of the samples for which we reported mutations at the DNA level, and observe CCND1, TP53 and KRAS to be recurrently mutated using either WES or RNA-seq. Nevertheless, some mutations are not shared, including 3 WES-exclusive BRAF mutations and one seen in CCND1 through RNA-seq only. In conclusion, we report the first computational analysis to identify mutational driver genes using RNA-seq data, providing additional insight into the mutational landscape of MM. Our findings demonstrate that RNA-seq of unpaired tumor samples can suffice to characterize the most salient characteristics of cancer mutational landscapes. Disclosures Campbell: 14M genomics: Other: Co-founder and consultant. Munshi: celgene: Membership on an entity's Board of Directors or advisory committees; onyx: Membership on an entity's Board of Directors or advisory committees; millenium: Membership on an entity's Board of Directors or advisory committees; novartis: Membership on an entity's Board of Directors or advisory committees.",
+    "topics": [
+        "multiple myeloma",
+        "rna",
+        "cyclin d1",
+        "cancer",
+        "protein p53",
+        "artifacts",
+        "clonality (genetic analysis)",
+        "dna",
+        "gene expression profiling",
+        "neoplasms"
+    ],
+    "author_names": [
+        "David Mosen-Ansorena, PhD",
+        "Niccolo Bolli, MD",
+        "Mehmet K Samur, PhD",
+        "Florence Magrangeas",
+        "Stephane Minvielle",
+        "Kenneth C Anderson, MD",
+        "Peter J Campbell, MD PhD",
+        "Herv\u00e9 Avet-Loiseau, MD",
+        "Giovanni Parmigiani, PhD",
+        "Nikhil C. Munshi, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "David Mosen-Ansorena, PhD",
+            "author_affiliations": [
+                "Biostatistics and Computational Biology, Dana-Farber Cancer Institute, Boston, MA ",
+                "Harvard School of Public Health, Boston, MA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Niccolo Bolli, MD",
+            "author_affiliations": [
+                "Pediatric Oncology, Dana-Farber Cancer Institute, Boston, MA ",
+                "Cancer genome Project, Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mehmet K Samur, PhD",
+            "author_affiliations": [
+                "Biostatistics and Computational Biology, Dana-Farber Cancer Institute, Boston, MA ",
+                "LeBow Institute for Myeloma Therapeutics and Jerome Lipper Multiple Myeloma Center, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Florence Magrangeas",
+            "author_affiliations": [
+                "Centre Hospitalier Universitaire de Nantes, Unit\u00e9 Mixte de Genomique du Cancer, Nantes, France "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephane Minvielle",
+            "author_affiliations": [
+                "Centre Hospitalier Universitaire de Nantes, Unit\u00e9 Mixte de Genomique du Cancer, Nantes, France "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kenneth C Anderson, MD",
+            "author_affiliations": [
+                "LeBow Institute for Myeloma Therapeutics and Jerome Lipper Multiple Myeloma Center, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter J Campbell, MD PhD",
+            "author_affiliations": [
+                "Cancer genome Project, Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Herv\u00e9 Avet-Loiseau, MD",
+            "author_affiliations": [
+                "Centre de Recherche en Canc\u00e9rologie de Toulouse Institut National de la Sant\u00e9, Toulouse, France "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Giovanni Parmigiani, PhD",
+            "author_affiliations": [
+                "Biostatistics and Computational Biology, Dana-Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nikhil C. Munshi, MD",
+            "author_affiliations": [
+                "LeBow Institute for Myeloma Therapeutics and Jerome Lipper Multiple Myeloma Center, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA ",
+                "VA Medical Hospital, Boston, MA"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-03T21:35:03",
+    "is_scraped": "1"
 }
