@@ -1,8 +1,75 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3130",
-    "start_url_page_num": "3130",
     "doi": "https://doi.org/10.1182/blood.V126.23.2383.2383",
-    "url": "https://ashpublications.org/blood/article/126/23/2383/113124/Comparison-of-Expression-and-Epigenetic-Profiles?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T08:46:48",
-    "is_scraped": "0"
+    "article_title": "Comparison of Expression and Epigenetic Profiles in Human and Mouse Erythropoiesis and Megakaryopoiesis Using a Systems Biology Model ",
+    "article_date": "December 3, 2015",
+    "session_type": "503. Hematopoiesis: Epigenetic, Transcriptional and Translational Control: Poster II",
+    "abstract_text": "To date numerous datasets of gene expression and epigenetic profiles for mouse and human hematopoietic cells have been generated. While individual data sets for a particular cell type have been correlated, no approach exists to harness all expression and epigenetic profiles for the different types of hematopoietic cells. Our goal is to develop a systems biology platform to compare epigenetic profiles of hematopoietic cells towards a better understanding of epigenetic mechanisms governing hematopoiesis. To provide the necessary foundation to support systematic studies of hematopoiesis, we have developed the Systems Biology Repository (SBR, http://sbrblood.nhgri.nih.gov), a data \"ranch\" for organizing and analyzing transcriptome and epigenome data cells throughout differentiation. To populate SBR, we extracted, curated, annotated, and integrated all human and mouse hematopoietic datasets available through the Encyclopedia of DNA Elements (ENCODE), the Gene Expression Omnibus (GEO) and the Short Read Repository (SRR). These include genome-wide profiles of DNA methylation, histone methylation and acetylation, transcription factor occupancy (ChIPSeq), chromatin accessibility (DNaseISeq, ATACSeq, FAIRESeq), and coding as well as non-coding transcriptional profiles (RNASeq). To demonstrate the utility of SBR, we conducted three different analyses. The first was a vertical study of HistoneSeq (H3K4me1, H3K4me2, H3K4me3, and H3K27ac), DNA methylation and RNASeq profiles during mouse erythroid differentiation. We found a global decrease in DNA methylation from hematopoietic stem and progenitor cells (HSC) through common myeloid progenitors (CMP), erythroid progenitor cells (MEP) and erythroblasts (ERY; 92936 peaks in HSC to 14422 in ERY). The number of expressed genes (using a tags per million cutoff of 10) increased in erythroid progenitors (8901 in HSC to 10778 in CMP and 10670 in MEP) before decreasing in ERY (8654). 62% of histone marks delineating active enhancers (H3K27ac, H3K4me1) are present in both HSC and ERY, while 48% arise de novo during differentiation. In contrast, only 16% of active promoter specific histone marks (H3K4me2, H3K4me3) are present in both HSC and ERY. For a horizontal analysis we compared the DNA methylation, RNASeq, histone modification (H3K4me1, H3K4me2, H3K4me3, and H3K27ac) and transcription factor binding (GATA1 and NFE2) profiles of erythroblasts (ERY) and megakaryocytes (MEG). We found a similar relationship between gene expression and the histone and DNA methylation profiles in each cell type but differences between expression and in transcription factor occupancy. DNA methylation and H3K4me3 was enriched in the gene body of expressed genes (>36%) for both ERY (p \u2264 0.001) and MEG (p \u2264 0.01). In contrast DNA methylation was enriched in the upstream and downstream regions of non-coding RNA genes (p \u2264 0.001). Transcription factor occupancy was cell type specific: 79% of GATA1 sites are in ERY and 72% of NFE2 sites are in MEG. In erythroblasts, DNA methylation and GATA1 binding in the gene body are associated with gene silencing (4 fold difference, p \u2264 0.001), while in megakaryocytes, DNA methylation and NFE2 binding in the gene body are associated with gene activation (8 fold difference, p \u2264 0.001). We used the Mouse Genome Informatics homology map data to perform a cross-species comparison of the expression profiles of mouse and human multipotent progenitors (MPP), proerythroblasts and orthochromatic erythroblasts. We found a total of 5247 genes expressed at significantly different levels (p \u2264 0.001) between human and mouse MPP, while only 2010 genes were expressed at significantly similar levels (p \u2264 0.001). At the proerythroblast and orthochromatic erythroblast stages 7696 genes and 6571 genes were expressed at significantly different levels (p \u2264 0.001) between human and mouse respectively, while 2024 and 2560 genes were expressed at significantly similar levels (p \u2264 0.001). These data are consistent with previous studies showing differences in the transcriptional profiles of mouse and human hematopoietic cells. In summary, SBR provides a foundation to model the genetic and epigenetic landscape in both the mouse and human hematopoietic system, and enables functional correlations to be made between the species. As SBR is expanded to include data from patient cells, it will be possible to model epigenetic changes associated with disease. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "epigenetics",
+        "erythropoiesis",
+        "histones",
+        "megakaryocytopoiesis",
+        "mice",
+        "rna",
+        "systems biology",
+        "transcription factor",
+        "chromatin",
+        "erythroblasts"
+    ],
+    "author_names": [
+        "Jens Lichtenberg, PhD",
+        "Elisabeth F. Heuston, PhD",
+        "Cheryl A. Keller, PhD",
+        "Ross C. Hardison, PhD",
+        "David M. Bodine, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Jens Lichtenberg, PhD",
+            "author_affiliations": [
+                "NHGRI, Bethesda, MD "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elisabeth F. Heuston, PhD",
+            "author_affiliations": [
+                "NHGRI, Bethesda, MD "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cheryl A. Keller, PhD",
+            "author_affiliations": [
+                "Penn State University, State College, PA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ross C. Hardison, PhD",
+            "author_affiliations": [
+                "Penn State University, State College, PA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David M. Bodine, PhD",
+            "author_affiliations": [
+                "NHGRI, Bethesda, MD "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-03T13:00:04",
+    "is_scraped": "1"
 }
