@@ -1,8 +1,101 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3209",
-    "start_url_page_num": "3209",
     "doi": "https://doi.org/10.1182/blood.V126.23.4017.4017",
-    "url": "https://ashpublications.org/blood/article/126/23/4017/135885/A-Bio-Integrative-Approach-Identifies-an?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T11:39:11",
-    "is_scraped": "0"
+    "article_title": "A Bio-Integrative Approach Identifies an Inflammatory Signature in Chronic Myeloid Leukemia (CML) Stem Cells That Is Highly Perturbed in CML Blast Crisis and Involves REL transcription Factor ",
+    "article_date": "December 3, 2015",
+    "session_type": "631. Chronic Myeloid Leukemia: Biology and Pathophysiology, excluding Therapy: Poster III",
+    "abstract_text": "Chronic myeloid leukemia is a clonal myeloproliferative neoplasm defined by the presence of BCR-ABL fusion gene. This oncogenic event occurs in a hematopoietic stem cell (HSC) involved in CML initiation, maintenance, relapse and progression. Several evidences suggest that inflammatory pathways may participate to the pathophysiology of CML as well as disease progression to blast crisis. It has been shown that NFKB/REL pathway is constitutively activated both in BCR-ABL positive leukemic cell lines as well as in primary blast cells from CML-BC patients. More recent works identified IL6 as key cytokine acting on CML multipotent progenitors and their normal bystander counterpart to favor their differentiation toward the myeloid lineage. In addition, high levels of autocrine TNF\u03b1 secretion by quiescent CML stem/progenitor cells activate NFKB pathway and promote their survival. Although all of these observations are linked to inflammatory processes, a focused analysis of inflammatory pathways in primary CML stem cells has not been performed so far. In the present study we undertook a text-mining strategy using pubmed e-querying to generate an exhaustive set of genes linked to inflammation. Then we integrated transcriptome analysis of highly purified CML stem cells to evaluate the contribution of these genes in CML development and progression. Methods : We queried 6 key words (Inflammation, macrophages, inflammatory response, chemokines, leukocytes and interleukins) that returned a total of 332000 hits in Pubmed. A raw gene set of 918 genes was found significantly associated (p<0.05) with these hits. Using R-package, we applied a false discovery rate correction that decreased the set to 588 relevant genes. The expression level of this gene set was then analyzed in previously reported microarray data (GEO accession: GSE47927) of highly purified normal cord blood CD34+CD38-CD90+ HSCs (CB; n=3), chronic phase (CP; n= 6), accelerated phase (AP; n =4) and Blast crisis (BC; n=2) CML cells. Results: Among the 588 genes related to inflammation we found 70 genes differentially expressed between the four groups (normal, CP, AP and BC, p<0.01; ANOVA test). Enrichment analysis confirmed 29 up regulated genes (NES = 2.12; p<0.0001) among which IL-6, PARP1, IL1R2, IRF5, IRF8, IL20 . 39 genes such as STAT3, STAT4, CD47, CXCR4 IL-11, IL15, TLR-1 , were down-regulated in CML CD34+CD38-CD90+ (all phases) as compared with normal HSCs (NES = -2,58; p<0.0001). Using principal component analysis on the 70 inflammatory deregulated genes we identified 10 genes such as IRAK1, IL1R2, VEGF and ESAM that discriminate \"all phase\" CML samples from normal HSCs (Dim 2 = 22.7%). Another inflammatory gene subset (n=26 genes) comprising IL6, REL, CXCR4, CXCL2, IL11, TLR1, IL1R2, PPARA highly separated CML stem cells according to the disease phase. The later gene set highly separates CP and AP-CML stem cells from BC-CML stem cell (Dim 1 = 50.3%). We next performed a random forest analysis with machine learning (1000 trees) and found that the inflammatory transcript level that best predicted CML phase was REL transcription factor. The expression of 413 genes were found positively correlated with REL expression in CP, AP and BC-CML CD34+CD38-CD90+ cells (r>0.75 and p-value <0.001). A search using JASPAR and TRANSFAC database identified a significant enrichment of NFKB1 and RELA binding motif in the promoter regions of these 413 genes (p<0.00001) among which several regulatory factors of hematopoietic stem cell biology. Conclusion : Using a bio-integrative approach we identified a specific inflammatory signature in CD34+CD38-CD90+ CML stem cells. This inflammatory network is highly altered in blast crisis suggesting its contribution to disease evolution. We identified REL overexpression as a good predictor for disease progression to blast crisis and found NFKB1and RELA (p=3.2x10 -13 ) as the best REL target candidates. RELA/NFKB1 was previously shown to be constitutively activated in CML and Ph+ ALL and this analysis suggests that this may also take place in the most primitive subset of CML cells although REL may be the main partner of NFKB in CML stem cells. These results which are currently validated using functional assays, could lead to identification of novel therapeutic strategies. Disclosures Turhan: Bristol Myers Squibb: Consultancy; Novartis: Research Funding.",
+    "topics": [
+        "blast phase",
+        "leukemia, myelocytic, chronic",
+        "stem cells",
+        "transcription factor",
+        "inflammation",
+        "interleukin-6",
+        "nf-kappa b",
+        "bcr-abl tyrosine kinase",
+        "cxcr4 receptors",
+        "disease progression"
+    ],
+    "author_names": [
+        "Christophe Desterke, PhD",
+        "Ludovic Marie-Sainte",
+        "Amine Sbitti, PhD",
+        "Ali Naama",
+        "Annelise Bennaceur-Griscelli, MD PhD",
+        "Ali G Turhan, MD PhD",
+        "Ivan Sloma, PharmD,PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Christophe Desterke, PhD",
+            "author_affiliations": [
+                "SFR89, Paris-Sud University, Villejuif, France "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ludovic Marie-Sainte",
+            "author_affiliations": [
+                "GEVITEAM, Maisons-Alforts, France "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amine Sbitti, PhD",
+            "author_affiliations": [
+                "GEVITEAM, Maisons-Alforts, France "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ali Naama",
+            "author_affiliations": [
+                "GEVITEAM, Maisons-Alforts, France "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Annelise Bennaceur-Griscelli, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology, Inserm U935; Paris Sud University Hospitals Bicetre & Paul Brousse, Le Kremlin Bicetre, France ",
+                "University paris Sud, Villejuif, France ",
+                "Service H\u00e9matologie, H\u00f4pital Paul Brousse, Villejuif, France "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ali G Turhan, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology, Inserm U935; Paris Sud University Hospitals Bicetre & Paul Brousse, Le Kremlin Bicetre, France ",
+                "Service H\u00e9matologie, H\u00f4pital Paul Brousse, Villejuif, France ",
+                "Faculty of Medicine University Paris Sud, Villejuif, France "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ivan Sloma, PharmD,PhD",
+            "author_affiliations": [
+                "Facult\u00e9 de M\u00e9decine, Universit\u00e9 Paris-Sud, Le Kremelin Bic\u00eatre, France ",
+                "Department of Hematology, Inserm U935 University Paris Sud, Villejuif, France ",
+                "H\u00f4pital Paul Brousse, Service d'H\u00e9matologie, Assistance Publique des H\u00f4pitaux de Paris, Villejuif, France"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-04T12:50:57",
+    "is_scraped": "1"
 }
