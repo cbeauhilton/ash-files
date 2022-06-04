@@ -1,8 +1,165 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3183",
-    "start_url_page_num": "3183",
     "doi": "https://doi.org/10.1182/blood.V126.23.1851.1851",
-    "url": "https://ashpublications.org/blood/article/126/23/1851/135058/Patient-Specific-Mutation-Derived-Tumor-Antigens?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T10:45:00",
-    "is_scraped": "0"
+    "article_title": "Patient-Specific Mutation-Derived Tumor Antigens As Targets for Cancer Immunotherapy in Multiple Myeloma ",
+    "article_date": "December 3, 2015",
+    "session_type": "653. Myeloma: Therapy, excluding Transplantation: Poster I",
+    "abstract_text": "Multiple myeloma (MM) is an incurable plasma cell malignancy accounting for more than 10,000 deaths in the US each year. Novel therapeutic approaches for relapsed MM are urgently needed. Tumor-specific mutations are ideal targets for cancer immunotherapy as they can be potentially recognized as neo-antigens by mature T-cells. Targeting tumor-specific antigens harboring somatic mutations presented on major histocompatibility complex class I molecules (MHC-I) with peptides could personalize the therapeutic approach for relapsed patients. To test this possibility, we examined 6 relapsed MM tumor samples from Mount Sinai, NY to predict in silico patient-specific tumor mutations that may activate the patient's immune systems. This is the first study to utilize Whole-Exome Sequence data (WES) from relapsed MM patients to show the feasibility of using exome sequencing to identify mutation derived neo-antigens that are patient-specific. DNA and RNA from six MM patients were extracted from sorted CD138+ cells from bone marrow aspirates. At the time of sample collection all patients had relapsed following at least five lines of therapy including Autologous Stem Cell Transplantation. The exome capture for DNA sequencing was carried out using the Agilent human whole-exome SureSelect assay. RNA-seq libraries were prepared using Illumina mRNA-seq protocol. All libraries were sequenced on an Illumina HiSeq2500 to generate 100 nucleotide reads. RNA reads were aligned to human reference genome (hg19) and assembled into transcripts using Bowtie-TopHat-Cufflinks. WES data was mapped to reference genome by BWA and then processed by MuTect to detect somatic mutations. Patient-specific alleles were determined using Seq2HLA. The identified mutations lead to candidate antigenic peptides that were filtered by tumor expression level (FPKM >2) using RNA sequence data. Candidate peptides of 8-11 character long were then ranked based on peptide-MHC binding affinity prediction (IC 50 nM) performed in silico using NetMHCpan. We identified a total of 340 tumor-specific nonsynonymous somatic mutations expressed in the context of patient specific HLA type. 263 (77%) genes were strong binders (IC 50 <150nM) and 77 (23%) genes were moderate/weak binders (IC 50 150-500nM). The number of mutated genes that were immunogenic per patient ranged from a minimum of 6 genes to 147 genes. Further, Database for Annotation, Visualization and Integrated Discovery (DAVID) tool was used to identify potentially enriched biological processes among the 340 genes using Gene Ontology (GO) terms. Enrichment analysis of 263 genes showed that they are mainly involved in myeloid cell activation during immune response (eg. LAT2, MYO1F ), cell cycle process ( CDK1, CHEK2, DNM2, EP300, SETD8 ), cellular response to stress ( RAD21, HDAC2, MAT2B ), chromatin silencing ( SIRT2, SMARCA4 ), cell apoptosis and signal transduction ( KRAS, NLRP1, ING4, IGF2R ). Similarly enrichment analysis of 77 genes revealed their involvement mainly in B cell activation and leukocyte differentiation ( LRRC8A, CD3E, PRKDC ). Examples of some of these significantly mutated genes with binding affinity and predicted peptides are shown in Table 1. In this study, we show for the first time a correlation between tumor mutations and the epitope landscape by in silico data, suggesting that somatic mutations in MM are immunogenic and could potentially confer antitumor vaccine activity. Our results support an approach in creating cancer vaccines that use tumor-specific immunogenic mutations for the development of personalized vaccines for MM patients. Table 1. Immunogenic mutations in Multiple Myeloma  # . Patient Specific alleles . Peptides . IC 50 . Mutated Genes . Effect .  Patient#1     1 HLA-C*14:02 CYGHTMVAF 57.75 LZTR1 p.R284C 2 HLA-C*14:02 LYFFGMHVQEY 29.75 EP300 p.C1372Y 3 HLA-C*14:02 TFNEPSSEYF 114.21 SMARCA4 p.G1146S  Patient#2     4 HLA-B*15:01 MSLHNLGTVF 26.2 BCR p.A1160G 5 HLA-A*31:01 SIISDSPR 149.38 FcRL5 p.V269I 6 HLA-A*31:01 HYFMHLLK 37.16 SIRT2 p.R116H  Patient#3     7 HLA-C*05:01 ITDFGHSEIL 25.18 CHEK2 p.K344E  Patient#4     8 HLA-A*11:01 VVGARGVGK 121.47 KRAS p.G12R 9 HLA-B*41:01 LEIDQLFRI 132.84 CDK1 p.S208L  Patient#5     10 HLA-A*31:01 AVGCGFRRARR 106.68 MAT2B p.P65R  Patient#6     11 HLA-A*30:01 HQRVLYIEI 93.61 HDAC2 p.D145E 12 HLA-A*30:01 FTRCLTPLL 63.19 RAD21 p.V397L # . Patient Specific alleles . Peptides . IC 50 . Mutated Genes . Effect .  Patient#1     1 HLA-C*14:02 CYGHTMVAF 57.75 LZTR1 p.R284C 2 HLA-C*14:02 LYFFGMHVQEY 29.75 EP300 p.C1372Y 3 HLA-C*14:02 TFNEPSSEYF 114.21 SMARCA4 p.G1146S  Patient#2     4 HLA-B*15:01 MSLHNLGTVF 26.2 BCR p.A1160G 5 HLA-A*31:01 SIISDSPR 149.38 FcRL5 p.V269I 6 HLA-A*31:01 HYFMHLLK 37.16 SIRT2 p.R116H  Patient#3     7 HLA-C*05:01 ITDFGHSEIL 25.18 CHEK2 p.K344E  Patient#4     8 HLA-A*11:01 VVGARGVGK 121.47 KRAS p.G12R 9 HLA-B*41:01 LEIDQLFRI 132.84 CDK1 p.S208L  Patient#5     10 HLA-A*31:01 AVGCGFRRARR 106.68 MAT2B p.P65R  Patient#6     11 HLA-A*30:01 HQRVLYIEI 93.61 HDAC2 p.D145E 12 HLA-A*30:01 FTRCLTPLL 63.19 RAD21 p.V397L View Large Disclosures Chari: Array Biopharma: Consultancy, Other: Institutional Research Funding, Research Funding; Celgene: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Millennium/Takeda: Consultancy, Research Funding; Biotest: Other: Institutional Research Funding; Novartis: Consultancy, Research Funding; Onyx: Consultancy, Research Funding. Jagannath: BMS: Honoraria; Janssen: Honoraria; MERCK: Honoraria; Novartis Pharmaceuticals Corporation: Honoraria; Celgene: Honoraria. Dudley: NuMedii, Inc: Patents & Royalties; Janssen Pharmaceuticals: Consultancy; GlaxoSmithKline: Consultancy; Personalis: Patents & Royalties; Ayasdi, Inc: Other: Equity; Ecoeos, Inc: Other: Equity. Hammerbacher: Cloudera: Membership on an entity's Board of Directors or advisory committees; Bay Sensors: Other: Equity; Cambrian Genomics: Other: Equity; Genome Compiler Corporation: Other: Equity; Science Exchange: Other: Equity; Transcriptic: Other: Equity; Pymetrics: Other: Equity. Schadt: Pacific Biosciences: Consultancy; Berg Pharma: Other: Scientific Advisory Board; GNS Healthcare: Other: Scientific Advisory Board; Clinical Gene Networks AB: Other: Equity. Bhardwaj: Dynavax Technologies Corporation: Consultancy; Crucell: Other: Equity; Dendreon Corporation: Other: Scientific Advisory Board; Merck & Co., Inc.: Other: Scientific Advisory Board; Neostem, Inc.: Other: Equity.",
+    "topics": [
+        "cancer immunotherapy",
+        "multiple myeloma",
+        "mutation",
+        "tumor antigens",
+        "neoplasms",
+        "hla-a antigens",
+        "hla-a2 antigen",
+        "peptides",
+        "hla-c antigens",
+        "rna"
+    ],
+    "author_names": [
+        "Deepak Perumal, PhD",
+        "Alessandro Lagana', PhD",
+        "Alex Rubinsteyn, PhD",
+        "John P Finnigan, Jr., BS",
+        "Pei-Yu Kuo, MS",
+        "Violetta V Leshchenko, PhD",
+        "Ajai Chari, MD",
+        "Hearn Jay Cho, MD PhD",
+        "Sundar Jagannath, MD",
+        "Joel Dudley, PhD",
+        "Jeff Hammerbacher, BA",
+        "Eric Schadt, PhD",
+        "Nina Bhardwaj, MD PhD",
+        "Samir Parekh, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Deepak Perumal, PhD",
+            "author_affiliations": [
+                "Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alessandro Lagana', PhD",
+            "author_affiliations": [
+                "Genomics and Genetic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alex Rubinsteyn, PhD",
+            "author_affiliations": [
+                "Genomics and Genetic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John P Finnigan, Jr., BS",
+            "author_affiliations": [
+                "Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pei-Yu Kuo, MS",
+            "author_affiliations": [
+                "Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Violetta V Leshchenko, PhD",
+            "author_affiliations": [
+                "Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ajai Chari, MD",
+            "author_affiliations": [
+                "Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hearn Jay Cho, MD PhD",
+            "author_affiliations": [
+                "Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sundar Jagannath, MD",
+            "author_affiliations": [
+                "Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joel Dudley, PhD",
+            "author_affiliations": [
+                "Genomics and Genetic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jeff Hammerbacher, BA",
+            "author_affiliations": [
+                "Genomics and Genetic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eric Schadt, PhD",
+            "author_affiliations": [
+                "Genomics and Genetic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nina Bhardwaj, MD PhD",
+            "author_affiliations": [
+                "Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Samir Parekh, MD",
+            "author_affiliations": [
+                "Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-04T03:55:36",
+    "is_scraped": "1"
 }
