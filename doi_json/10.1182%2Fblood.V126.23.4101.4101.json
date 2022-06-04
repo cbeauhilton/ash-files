@@ -1,8 +1,95 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3215",
-    "start_url_page_num": "3215",
     "doi": "https://doi.org/10.1182/blood.V126.23.4101.4101",
-    "url": "https://ashpublications.org/blood/article/126/23/4101/135900/Analysis-of-Myelodysplastic-Syndrome-Stem-Cells-at?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T12:38:09",
-    "is_scraped": "0"
+    "article_title": "Analysis of Myelodysplastic Syndrome Stem Cells at Single Cell Resolution during DNA Methyltransferase Inhibitor Therapy ",
+    "article_date": "December 3, 2015",
+    "session_type": "636. Myelodysplastic Syndromes - Basic and Translational Studies: Poster III",
+    "abstract_text": "The myelodysplastic syndromes (MDS) arise in and are maintained by hematopoietic stem cells (HSCs). Serial sampling of patients treated with DNA methyltransferase inhibitors (DNMTIs) and lenalidomide has demonstrated that disease HSCs (MDS HSCs) persist at significant levels even in patients achieving complete clinical and cytogenetic responses. As MDS HSCs are the functional unit of clonal selection both during therapy and subsequent disease progression, we hypothesized that the molecular heterogeneity of MDS HSCs may underlie therapeutic resistance. We therefore sought to perform single cell RNA-sequencing (RNA-seq) on MDS HSCs from patients with known responses to therapy, with the intention of identifying novel therapeutic vulnerabilities. To characterize MDS HSC heterogeneity, we FACS-purified HSCs (Lin-CD34+CD38-CD90+CD45RA-) from paired bone marrow (BM) specimens taken from four MDS patients before and after two to four 28-day cycles of the DNMTI decitabine, as well as two patients who were not treated due to stable disease, and two normal age matched controls. Specimens from both responding and non-responding patients were included. We captured and sequenced a total of 869 single cells from 14 samples, sequencing to an average depth of 4.8 million reads. In a subset of samples (n=7) we also performed bulk RNA-seq (average 1500 cells) for comparison. The sequencing data was of high quality, with an average of 80% mapped reads. We confirmed our ability to accurately quantify transcript levels using ERCC spike-in controls, observing a linear correlation between expected concentration and observed FPKM (fragments per kilobase per million). Single cell RNA-seq revealed vast intratumoral heterogeneity in MDS HSCs that was otherwise missed by bulk RNA-seq, as evidenced by the presence of transcripts variably expressed among cells from the same specimen (Fig. 1A). Despite this intratumoral heterogeneity, single cell transcriptomes were able to completely separate individual MDS patients using principal components analysis and hierarchical clustering, consistent with the known heterogeneity of MDS. MDS HSCs further clustered separately from normal age-matched HSCs, with the top 10% of genes contributing to this separation enriched for Gene Ontology (GO) categories including pathways implicated in MDS biology such as \"mRNA splicing,\" \"nonsense mediated decay,\" and \"P53 mediated DNA Damage Response\" (all P<1e-9). Unsupervised hierarchical clustering of all pre-treatment MDS HSCs revealed clustering of cells from responders separately from non-responders (Fig. 1B). Differential gene expression analysis identified a cluster of genes (FDR<0.01) enriched for GO categories including \"translational termination,\" \"SRP dependent co-translational protein targeting to membrane,\" and \"nonsense mediated decay\" (all P<1e-9). Notably, this cluster included 60 ribosomal proteins, all of which were decreased in non-responders (t-test, P<1e-16), with responders demonstrating levels of expression closer to but still lower than normal controls (t-test, P<1e-3). Thus, defective ribosomal biogenesis, a hallmark of MDS pathogenesis, may also contribute to therapeutic resistance. Finally, within each sample we measured the spread of gene expression using dispersion (log[variance/mean]) within bins based on expression levels, defining variable genes as those with a dispersion >1.75 at a mean FPKM >2. The highest number of variable genes were in normal HSCs (mean=141), with the next highest in responders prior to treatment (mean=80), and the least number of variable genes in non-responders prior to treatment (mean=9.5). We speculate that the low number of variable genes in non-responders reflects a higher degree of clonal dominance. All post-treatment MDS HSCs demonstrated a relatively low number of variable genes (mean=25), suggesting that therapy induces clonal selection. In sum, our data illustrate the robustness of single cell RNA-seq to define the intrinsic variability of individual MDS HSCs, implicating perturbed ribosomal biogenesis and transcriptional variability as novel predictors of response to therapy. As we expand our data set with additional patients, we expect to identify additional pathways that mediate therapeutic response and resistance, as well as mutations and variably expressed genes that are selected for during therapy and drive disease progression. Figure 1. View large Download slide Figure 1. View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "dna modification methylases",
+        "myelodysplastic syndrome",
+        "stem cells",
+        "rna",
+        "disease progression",
+        "decitabine",
+        "dna methyltransferase inhibitors",
+        "lenalidomide",
+        "ribosomal proteins",
+        "rna, messenger"
+    ],
+    "author_names": [
+        "Stephen S. Chung, MD",
+        "Priyanka Vijay",
+        "Diana L. Stern",
+        "Deirdre O'Sullivan",
+        "Virginia M. Klimek, MD",
+        "Christopher Mason, PhD",
+        "Christopher Y. Park, MD, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Stephen S. Chung, MD",
+            "author_affiliations": [
+                "Leukemia Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Priyanka Vijay",
+            "author_affiliations": [
+                "Institute for Computational Biomedicine, Weill Cornell Medical College, New York, NY "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Diana L. Stern",
+            "author_affiliations": [
+                "Leukemia Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Deirdre O'Sullivan",
+            "author_affiliations": [
+                "Institute for Computational Biomedicine, Weill Cornell Medical College, New York, NY "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Virginia M. Klimek, MD",
+            "author_affiliations": [
+                "Leukemia Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher Mason, PhD",
+            "author_affiliations": [
+                "Institute for Computational Biomedicine, Weill Cornell Medical College, New York, NY "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher Y. Park, MD, PhD",
+            "author_affiliations": [
+                "Pathology and Human Oncology and Pathogenesis Program, Memorial Sloan-Kettering Cancer Center, New York, NY"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-04T15:29:38",
+    "is_scraped": "1"
 }

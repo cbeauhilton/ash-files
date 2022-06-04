@@ -1,8 +1,115 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3217",
-    "start_url_page_num": "3217",
     "doi": "https://doi.org/10.1182/blood.V126.23.4021.4021",
-    "url": "https://ashpublications.org/blood/article/126/23/4021/135939/Reliable-Detection-of-Abl-Tyrosine-Kinase-Domain?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T12:38:15",
-    "is_scraped": "0"
+    "article_title": "Reliable Detection of Abl Tyrosine Kinase Domain Mutations to <1% Using NGS Data Quality Parsing and Corroboration of Overlapping Paired-End Sequences ",
+    "article_date": "December 3, 2015",
+    "session_type": "632. Chronic Myeloid Leukemia: Therapy: Poster III",
+    "abstract_text": "CML patients should be screened for Abl kinase domain (KD) mutations before changing tyrosine kinase inhibitor (TKI) therapy to ensure that the second-line TKI will be effective against mutations that arose on the first drug. Sanger sequencing (SS) can confidently detect mutations present in >20% of BCR-ABL molecules but will fail to detect minor resistant sub-clones. If missed, these minor sub-clones may be further selected by the second-line TKI and cause treatment failure. The T315I mutation can be particularly problematic as it is resistant to most TKIs except ponatinib. It seems reasonable to detect all mutations if possible, and avoid second line drugs that are known to be ineffective in their presence. We have developed a next generation sequencing strategy (Illumina MiSeq, 2 x 300 bp) that enables confident detection of all Abl KD mutations present at a level of at least 1% in the BCR-ABL cDNA, this level being 3-5x above the background calling-error rate. Two 500 bp PCR products are sufficient to cover the entire kinase domain (aa M237 to E505). With 300 bp paired-end sequencing of the products, a 65 bp region containing the 315 codon (codons 306-326) is sequenced on both strands. By excluding base changes that are not corroborated on both strands, mutations in this region can be detected with a 10-fold higher accuracy (in 0.1% of BCR-ABL molecules). Samples with low disease burden (1% BCR-ABL/ABL positivity) can also be amplified sufficiently with 50 cycles of PCR, minimising artefactual DNA polymerase-induced mutations. Indexing allows the simultaneous analysis of 80 PCR's in a single MiSeq run (Abl KD of 40 patients). Important aspects of the method are: 50% PhiX DNA is added to the library to increase complexity, and the flow cell is seeded at low density (300,000 clusters per mm 2 ) to reduce sequencing errors. Overlapping paired reads are combined to produce a single FASTQ sequence (modified FLASH source code). Any bases in the overlapping region that do not agree with their counterpart on the other strand are labelled \"N\" and given a quality score (Q score) of 20. Combined sequences are quality parsed (FASTX Tool Kit) to exclude sequences that do not have a Q score of at least 20 at all bases Parsed high quality sequences are compared to the reference sequence. We have sequenced the BCR-ABL KD of patients who were sub-optimal responders (BCR-ABL/ABL ratio of >1% at >= 11 months on therapy) in the NCRI SPIRIT 2 trial of first-line imatinib vs dasatinib. Of 60 sub-optimally responding imatinib patients, 6 (10%) had high level mutations (in >20% of BCR-ABL molecules): T315I, L387F, G250E, N331D, M244V x 2. The patients with L387F and G250E were switched to dasatinib and proceeded to respond well. The patient with T315I was also initially switched to dasatinib but failed to respond (BCR-ABL/ABL 29% after 1 year). This patient eventually received ponatinib with good response (BCR-ABL/ABL <1%). One patient with M244V was switched to nilotinib. Initially this caused relative selection of a pre-existing M387F mutated clone, this mutation increasing from 11 months). Our study demonstrates the value of using 2 x 300 bp paired-end sequencing to detect high and low level mutations, even in patients with low-level disease burden, to guide the choice of an appropriate second-line TKI. Disclosures Dickson: Ariad: Research Funding. Kennedy: Ariad: Research Funding. Cork: Roche: Research Funding; Ariad: Research Funding; BMS: Research Funding; Novartis: Research Funding. Hedgley: Roche: Research Funding; BMS: Research Funding; Ariad: Research Funding; Novartis: Research Funding. Copland: Ariad: Honoraria, Membership on an entity's Board of Directors or advisory committees; Pfizer: Honoraria, Membership on an entity's Board of Directors or advisory committees; Novartis: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; BMS: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding. Holyoake: BMS: Honoraria, Research Funding; Novartis: Honoraria, Research Funding. O'Brien: BMS: Consultancy, Honoraria, Research Funding; Pzifer: Consultancy, Honoraria, Research Funding; Ariad: Consultancy, Honoraria, Research Funding; Novartis: Consultancy, Honoraria, Research Funding. Ramashoye: Ariad: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding.",
+    "topics": [
+        "massively-parallel genome sequencing",
+        "mutation",
+        "proto-oncogene proteins c-abl",
+        "bcr-abl tyrosine kinase",
+        "molecule",
+        "protein-tyrosine kinase inhibitor",
+        "dasatinib",
+        "nilotinib",
+        "imatinib mesylate",
+        "ponatinib"
+    ],
+    "author_names": [
+        "Jacqueline Dickson, PhD",
+        "Nick Kennedy, MBBS MA Cantab FRACP",
+        "Leanne M. Cork, BSc (Hons)",
+        "Letizia Foroni, MDPhDFRCPath",
+        "Corinne A. Hedgley, BSc (Hons)",
+        "Mhairi Copland, BSc (Hons) MB ChB PhDFRCP FRCPath",
+        "Tessa L. Holyoake, MDPhD",
+        "Stephen G. O'Brien, BSc (Hons) PhD MBChB FRCP MRCPath",
+        "Bernard Ramashoye, PhDMRCP FRCPath"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Jacqueline Dickson, PhD",
+            "author_affiliations": [
+                "Edinburgh Cancer Research Centre, University of Edinburgh, Edinburgh, United Kingdom "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nick Kennedy, MBBS MA Cantab FRACP",
+            "author_affiliations": [
+                "Centre for Genomic and Experimental Medicine, University of Edinburgh, Edinburgh, United Kingdom "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Leanne M. Cork, BSc (Hons)",
+            "author_affiliations": [
+                "Northern Institute for Cancer Research, Newcastle University, Newcastle upon Tyne, United Kingdom "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Letizia Foroni, MDPhDFRCPath",
+            "author_affiliations": [
+                "Department of Haematology, Imperial College London, Hammersmith Hospital, London, United Kingdom "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Corinne A. Hedgley, BSc (Hons)",
+            "author_affiliations": [
+                "Northern Institute for Cancer Research, Newcastle University, Newcastle upon Tyne, United Kingdom "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mhairi Copland, BSc (Hons) MB ChB PhDFRCP FRCPath",
+            "author_affiliations": [
+                "Paul O'Gorman Leukaemia Research Centre, University of Glasgow, Glasgow, United Kingdom"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tessa L. Holyoake, MDPhD",
+            "author_affiliations": [
+                "Paul O'Gorman Leukaemia Research Centre, University of Glasgow, Glasgow, United Kingdom"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephen G. O'Brien, BSc (Hons) PhD MBChB FRCP MRCPath",
+            "author_affiliations": [
+                "Northern Institute for Cancer Research, Newcastle University, Newcastle upon Tyne, United Kingdom "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bernard Ramashoye, PhDMRCP FRCPath",
+            "author_affiliations": [
+                "Edinburgh Cancer Research Centre, University of Edinburgh, Edinburgh, United Kingdom "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-04T15:31:53",
+    "is_scraped": "1"
 }

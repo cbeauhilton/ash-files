@@ -1,8 +1,268 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3223",
-    "start_url_page_num": "3223",
     "doi": "https://doi.org/10.1182/blood.V126.23.2921.2921",
-    "url": "https://ashpublications.org/blood/article/126/23/2921/135623/Personalized-Modeling-of-Disease-Evolution-in-CLL?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T12:38:39",
-    "is_scraped": "0"
+    "article_title": "Personalized Modeling of Disease Evolution in CLL: Does Statistical Significance Translate into Predictive Accuracy? ",
+    "article_date": "December 3, 2015",
+    "session_type": "641. CLL: Biology and Pathophysiology, excluding Therapy: Poster II",
+    "abstract_text": "The remarkable clinical heterogeneity of CLL has prompted several initiatives towards the development of prognostic models aiming to stratify patients into subgroups with distinct outcome. However, despite progress, the resultant prognostic models, mostly based on Cox regression analysis, have not been adopted in everyday clinical practice, mainly due to failure to provide sufficiently accurate predictions on a per patient basis. Here, we approached the issue of prognostication amongst Binet stage A CLL cases following a novel approach, in particular using Adaboost, an ensemble learning algorithm based on decision trees. Adaboost jointly considers all available parameters providing a specific prediction for each patient, unlike Cox regression models which are based on identifying parameters with independent prognostic significance. In addition, Adaboost models are completely automated with minimal time for training and prediction generation. This is in contrast to Cox models which are manually trained and require significantly more time for prediction generation. Both Cox regression and Adaboost models were evaluated regarding their predictive accuracy i.e. the number of patients successfully assigned to their true risk group divided by the total number of patients. For the development of the prognostic models, 5-fold cross-validation was used. The patients were equally subdivided into 5 subgroups. Each time, 4 out of the 5 subgroups were used to train the Cox regression and the Adaboost models while the 5 th was kept as the validation cohort, where the models were applied to. The study cohort included 789 Binet A CLL patients with available data regarding gender, age, immunogenetic profile, CD38 expression, D\u00f6hner model cytogenetic aberrations and treatment status with a median follow up of 8.5 years (range 0-40.5 years, at least 5 years for untreated cases). Patients were subdivided in 3 groups: (i) high risk (HR): time-to-first-treatment (TTFT) <2 years, n=215 (27%); (ii) intermediate risk (IR): TTFT\u22652 years and <5 years, n=151 (20%); and, (iii) low risk (LR): no need for treatment within 5 years from diagnosis, n=422 (53%). Applying Adaboost, the HR, IR and LR groups included 326 (41.5%), 0 (0%) and 463 (58.5%) cases, respectively. On multivariate analysis, unmutated IGHV genes U-CLL, subset #2 assignement and CD38 expression emerged as independently predictive of shorter TTFT; in contrast, adverse prognosis cytogenetic aberrations i.e. del(17p) and del(11q) did not retain significance (p=0.06 and 0.052, respectively), likely due to their strong association with U-CLL. Applying Cox regression models based on the significant independent parameters, patients were classified as follows: (i) HR: unmutated IGHV genes (U-CLL) and/or assignment to stereotyped subset #2 (n=357, 45%); (ii) IR: mutated IGHV genes (M-CLL) and high CD38 expression (CD38+) (n=41, 5%); and, (iii) LR: M-CLL and low CD38 expression (CD38-) (n=397, 50%). Prediction accuracies were 58.2% and 61.1% for the Cox regression and the Adaboost model, respectively (McNemar's test: p<0.0025). Both models often failed to identify patients belonging to the IR group. Further, we gave the same clinico-biological parameters used for the development of the prognostic models to 7 trained hematologists and asked them to assign each patient included in the study to one of the 3 risk groups. Among the trained hematologists, responses varied within the range of 51.2-58.4%, leading to an average prediction accuracy of 54.6%: particularly challenging was the discrimination between the HR vs the IR group. In conclusion, Adaboost outperforms to a small, yet statistically significant, degree the predictive accuracy of both Cox regression and expert judgment, suggesting its potential for clinical testing. However, the predictive accuracy rates of both the Adaboost and Cox regression approach are still unsatisfactory, highlighting that further development is required in order to provide robust personalized predictive modeling, while also suggesting that statistical significance does not automatically translate into clinical utility. This indicates the need for incorporating disease- and host-related parameters not yet evaluated for their prognostic/predictive value in CLL in order to refine risk stratification, thus meaningfully empowering physicians in clinical decision-making. Disclosures Niemann: Janssen: Consultancy; Roche: Consultancy; Gilead: Consultancy; Novartis: Other: Travel grant. Ghia: Janssen Pharmaceuticals: Research Funding.",
+    "topics": [
+        "cd38",
+        "chromosome abnormality",
+        "cox proportional hazards models",
+        "decision trees",
+        "disclosure",
+        "follow-up",
+        "gender",
+        "genes",
+        "health care decision making",
+        "heterogeneity"
+    ],
+    "author_names": [
+        "Elisavet Chatzilari",
+        "Panagiotis Baliakas",
+        "Aliki Xochelli",
+        "Anastasios Maronidis",
+        "Anna Vardi",
+        "Mattias Mattsson",
+        "Karin Larsson",
+        "Vassiliki Douka",
+        "Michail Iskas, MD",
+        "George Karavalakis",
+        "Apostolia Papalexandri",
+        "Carsten Niemann",
+        "Marco Montillo",
+        "Achilles Anagnostopoulos",
+        "David Oscier",
+        "Sarka Pospisilova",
+        "Frederic Davi, MD PhD",
+        "Niki Stavroyianni",
+        "Paolo Ghia",
+        "Anastasia Hadzidimitriou",
+        "Richard Rosenquist",
+        "Spiros Nikolopoulos",
+        "Kostas Stamatopoulos",
+        "Yannis Kompatsiaris"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Elisavet Chatzilari",
+            "author_affiliations": [
+                "Information Technologies Institute, CERTH, Thessaloniki, Greece "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Panagiotis Baliakas",
+            "author_affiliations": [
+                "Department of Immunology, Genetics and Pathology, Uppsala University, Uppsala, Sweden "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aliki Xochelli",
+            "author_affiliations": [
+                "Center for Research and Technology Hellas, Thessaloniki, Greece ",
+                "Institute of Applied Biosciences, CERTH, Thessaloniki, Greece "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anastasios Maronidis",
+            "author_affiliations": [
+                "Information Technologies Institute, CERTH, Thessaloniki, Greece "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anna Vardi",
+            "author_affiliations": [
+                "Institute of Applied Biosciences, CERTH, Thessaloniki, Greece ",
+                "Hematology Department and HCT Unit, G. Papanicolaou Hospital, Thessaloniki, Greece "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mattias Mattsson",
+            "author_affiliations": [
+                "Uppsala University, Uppsala, Sweden "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karin Larsson",
+            "author_affiliations": [
+                "Department of Immunology, Genetics and Pathology, Uppsala University, Uppsala, Sweden "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vassiliki Douka",
+            "author_affiliations": [
+                "Hematology Department and HCT Unit, G. Papanicolaou Hospital, Thessaloniki, Greece "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michail Iskas, MD",
+            "author_affiliations": [
+                "Hematology - BMT Unit, George Papanicolaou General Hospital, Thessaloniki, Greece "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "George Karavalakis",
+            "author_affiliations": [
+                "Department of Hematology - BMT Unit, G. Papanicolaou Hospital, Thessaloniki, Greece "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Apostolia Papalexandri",
+            "author_affiliations": [
+                "Hematology Department and HCT Unit, G. Papanicolaou Hospital, Thessaloniki, Greece "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Carsten Niemann",
+            "author_affiliations": [
+                "Department of Hematology, Rigshospitalet, Copenhagen, Denmark "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marco Montillo",
+            "author_affiliations": [
+                "Molecular Pathology Unit and Haematology Department, Niguarda Cancer Center, Niguarda Ca' Granda Hospital, Milan, Italy "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Achilles Anagnostopoulos",
+            "author_affiliations": [
+                "Hematology Department and HCT Unit, G. Papanicolaou Hospital, Thessaloniki, Greece "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David Oscier",
+            "author_affiliations": [
+                "Department of Haematology, Royal Bournemouth Hospital, Bournemouth, United Kingdom "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sarka Pospisilova",
+            "author_affiliations": [
+                "Central European Institute of Technology, Masaryk University and University Hospital Brno, Brno, Czech Republic "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Frederic Davi, MD PhD",
+            "author_affiliations": [
+                "Department of Biological Hematology, Pitie-Salpetriere Hospital and Pierre et Marie Curie University, Paris, France "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Niki Stavroyianni",
+            "author_affiliations": [
+                "Hematology Department and HCT Unit, G. Papanicolaou Hospital, Thessaloniki, Greece "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Paolo Ghia",
+            "author_affiliations": [
+                "Division of Experimental Oncology and Department of Onco-Hematology, IRCCS San Raffaele Scientific Institute, Milan, Italy"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anastasia Hadzidimitriou",
+            "author_affiliations": [
+                "Institute of Applied Biosciences, CERTH, Thessaloniki, Greece "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Richard Rosenquist",
+            "author_affiliations": [
+                "Department of Immunology, Genetics and Pathology, Uppsala University, Uppsala, Sweden "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Spiros Nikolopoulos",
+            "author_affiliations": [
+                "Information Technologies Institute, CERTH, Thessaloniki, Greece "
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kostas Stamatopoulos",
+            "author_affiliations": [
+                "Department of Immunology, Genetics and Pathology, Uppsala University, Uppsala, Sweden ",
+                "Institute of Applied Biosciences, CERTH, Thessaloniki, Greece "
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yannis Kompatsiaris",
+            "author_affiliations": [
+                "Information Technologies Institute, CERTH, Thessaloniki, Greece "
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-04T15:38:57",
+    "is_scraped": "1"
 }
