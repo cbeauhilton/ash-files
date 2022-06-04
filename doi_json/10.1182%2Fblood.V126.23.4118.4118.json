@@ -1,8 +1,125 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3172",
-    "start_url_page_num": "3172",
     "doi": "https://doi.org/10.1182/blood.V126.23.4118.4118",
-    "url": "https://ashpublications.org/blood/article/126/23/4118/136067/Systematic-Drug-Repositioning-By-Integrating?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T10:24:18",
-    "is_scraped": "0"
+    "article_title": "Systematic Drug Repositioning By Integrating Transcriptome and Historical Clinical Data, Identification of Digoxin As a Novel Drug Reposition Candidate for High-Risk Myelodysplastic Syndromes ",
+    "article_date": "December 3, 2015",
+    "session_type": "636. Myelodysplastic Syndromes - Basic and Translational Studies: Poster III",
+    "abstract_text": "Background: Traditional drug development typically takes more than 15 years and costs 1 billions to bring a new drug to market. Drug repositioning, the application of established drug compounds to new therapeutic indications can hasten effective therapies at a lower cost. Although a number of treatment options are available, there is currently no proven cure for Myelodysplastic syndromes (MDS) besides bone marrow transplantation. We employed a novel two stages, transdisciplinary method to identify potential drug reposition candidates for MDS with commonly prescribed drugs. We found Digoxin, a drug prescribed for heart failure, as the leading candidate. Methods: After we downloaded all human mRNA microarray platforms and their associated annotation files from NCBI GEO database (as Jul 2014), we retained 145 microarray platforms from more than 4k unique Gene IDs. We then used a text mining tool, MetaMap (http://metamap.nlm.nih.gov/), to map text to Unified Medical Language System (UMLS) Concept Unique Identifier (CUI). Only concepts belong to Anatomical Abnormality, Disease or Syndrome and Neoplastic Process were kept. Then we manually grouped microarray samples into healthy and pathological conditions and susing R package, Limma, we generated diseases signatures by systematically comparing with 1.3M drug response gene expression signatures of 20K drugs/compounds and using pattern matching algorithm. In the second stage, drug repositioning candidates for MDS were further analyzed by integrating historical clinical data warehouse, METEOR ( M ethodist E nvironment for T ranslational E nhancement and O utcomes R esearch). METEOR data warehouse contains clinical records of Houston Methodist Hospital System and external data dating from Jan 1 st 2006 to present (2015). There are over 1 million unique patients and over 4 million unique patient encounters in METEOR. Selected drug repositioning candidates predicted by transcriptome data in the first stage were tested for their effects on MDS patients using METEOR data. Age, gender, race matched myelodysplastic syndrome (MDS) patients that have taken or not taken a specific drug were compared for their overall survival. Results: 1174 diseases signatures for 301 human diseases were generated; for each the signatures, we computed it's repositioning score in CMap and LINCS database by non-parametric rank-ordered kolmogorov-Smirnov statistics. The overall disease-drug reposition map is presented in Figure 1. Many FDA approved indications were recovered by our disease-drug reposition map including 5'-azacitidine which was at top 1% of leading hints in the disease-drug reposition map (Figure 1B). We also find some potential new indication for old drugs such as cardiac glycosides (Digoxin, Digitoxin, Lanatoside C and others) for MDS (Figure 1D). In the second stage we found Digoxin, had a significant positive effect on high risk patients (Figure 2) unlike those for low risk MDS. Conclusions: We have generated 1174 gene expression signatures for 301 human diseases including MDS and systematically compared them with gene expression signatures of 20K drug/compounds. By integrating clinical data warehouse, METEOR, we further verified one potential drug repositioning candidate, Digoxin for high-risk MDS. We are currently testing Digoxin like compounds for its effects in short-term bone marrow culture from high-risk MDS patients. Preliminary results show encouraging results which will be reported at the Annual ASH meeting 2015. View large Download slide View large Download slide Close modal View large Download slide View large Download slide Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "digoxin",
+        "myelodysplastic syndrome",
+        "azacitidine",
+        "bone marrow culture",
+        "bone marrow transplantation",
+        "cardiac glycosides",
+        "digitoxin",
+        "heart failure",
+        "iduronate sulfatase",
+        "neoplastic processes"
+    ],
+    "author_names": [
+        "Huojun Cao",
+        "Zheng Yin, PhD",
+        "Shenyi Chen",
+        "Timothy Liu",
+        "Jiyong Liu",
+        "Yaping Hu",
+        "Hong Zhao",
+        "Lawrence Rice, MD",
+        "Swaminathan Padmanabhan Iyer, MD",
+        "Stephen Wong"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Huojun Cao",
+            "author_affiliations": [
+                "Houston Methodist Research Institute, Weill Cornell Medical College, Houston, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Zheng Yin, PhD",
+            "author_affiliations": [
+                "Houston Methodist Research Institute, Houston, TX "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shenyi Chen",
+            "author_affiliations": [
+                "Houston Methodist Research Institute, Weill Cornell Medical College, Houston, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Timothy Liu",
+            "author_affiliations": [
+                "Houston Methodist Research Institute, Weill Cornell Medical College, Houston, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jiyong Liu",
+            "author_affiliations": [
+                "Houston Methodist Research Institute, Weill Cornell Medical College, Houston, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yaping Hu",
+            "author_affiliations": [
+                "Houston Methodist Research Institute, Weill Cornell Medical College, Houston, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hong Zhao",
+            "author_affiliations": [
+                "Houston Methodist Research Institute, Weill Cornell Medical College, Houston, "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lawrence Rice, MD",
+            "author_affiliations": [
+                "Department of Medicine, Houston Methodist Hospital, Weill Cornell Medical College, Houston, TX "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Swaminathan Padmanabhan Iyer, MD",
+            "author_affiliations": [
+                "Hematology, Early Drug Development, Houston Methodist Cancer Center/Weill Cornell Medical College, Houston, TX"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephen Wong",
+            "author_affiliations": [
+                "Houston Methodist Research Institute, Weill Cornell Medical College, Houston, "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-04T02:18:52",
+    "is_scraped": "1"
 }
