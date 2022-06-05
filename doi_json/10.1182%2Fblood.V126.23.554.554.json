@@ -1,8 +1,235 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3255",
-    "start_url_page_num": "3255",
     "doi": "https://doi.org/10.1182/blood.V126.23.554.554",
-    "url": "https://ashpublications.org/blood/article/126/23/554/134169/A-Crispr-Cas9-Drop-out-Screen-Identifies-Genome?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T14:19:21",
-    "is_scraped": "0"
+    "article_title": "A Crispr/Cas9 Drop-out Screen Identifies Genome-Wide Genetic Valnerubilities in Acute Myeloid Leukaemia ",
+    "article_date": "December 3, 2015",
+    "session_type": "603. Oncogenes and Tumor Suppressors: Transcriptional Control and Dysregulation in Hematopoiesis and Leukemia",
+    "abstract_text": "Despite progress in understanding its genomics and molecular pathogenesis, the therapeutic landscape of acute myeloid leukaemia (AML) has changed little in the last 40 years. Whilst our improved molecular understanding of AML permits some optimism that progress may be forthcoming, an alternative approach for the identification of therapeutic targets is the agnostic interrogation of AML genomes for genetic vulnerabilities. In this study we apply a new and technically robust CRISPR-Cas9 platform to perform genome-wide screens for genetic vulnerabilities in human cancers. To do this, we develop and validate a CRISPR-based functional genomics toolkit composed of: i) lentiviral gRNA expression vectors harbouring an improved sgRNA scaffold, ii) Cas9 activity reporters for choosing cell line clones with high Cas9 nuclease activity and iii) an improved human genome-wide CRISPR library composed of 90,709 gRNAs targeting 18,010 genes. We first describe the timescale over which cells lacking individual essential genes are depleted from a pool of isogenic cells, thus providing the first such genome-wide framework for mammalian cells. As well as being of fundamental interest, such a temporal framework can be used to decide the length of time required for performing genetic screens and to select therapeutic targets. We then proceeded to perform drop-out screens with 30-day latencies in 5 AML cell lines (MV4-11, MOLM-13, OCI-AML2, OCI-AML3 and HL-60) and also in the non-AML lines HT-29 (colorectal adenocarcinoma) and HT-1080 (fibrosarcoma). Drop-out genes were identified using the MAGeCK algorithm as those showing significant depletion across their \u22655 cognate sgRNAs. From each cell line, more than 1,000 genes dropped out at FDR <20%, with the exception of MV4-11 where the number was slightly lower. Using these data we identified 881 \"pan-essential genes\" defined as those displaying significant depletion across \u22655 cell lines including HT-29 and HT-1080. These 881 genes can be used as a standard set of quality-control genes for future screens. Of these, 335 genes were depleted in all 7 cell lines, showing remarkable consistency across different cellular contexts. Next, we looked for genes that are specifically essential to AML cells by extracting genes depleted in at least 1 of the 5 AML cell lines, but not in HT-29 or HT-1080. This analysis identified approximately 150-200 essential genes for each cell line yielding a total of 510 AML-specific genes. Of these, 59 genes including RUNX1 , CEBPA , CEBPB , MEN1 , DOT1L and SMARCB1 were essential to 3 or more AML cell lines. GO analysis of these 59 genes showed particular enrichment in processes pertaining to chromatin modification and organisation, transcriptional regulation and nucleotide metabolism. We proceed to validate a number of novel drop-out genes using CRISPR-Cas9 with new sgRNAs and where possible with existing clinical/pre-clinical inhibitors. Furthermore, we identify oncogene-specific cell vulnerabilities, even for leukaemias driven by closely related oncogenes such as the MLL-AF4 (MV4-11) and MLL-AF9 (MOLM-13) fusion genes, which differed in their dependency on several genes including KAT2A and SRPK1 . To validate these findings in primary cells, we generate a novel Rosa26-Ef1a-Cas9 mouse model and cross this with mice carrying Flt3-ITD . We then transformed Lin- haemopoietic cells from Rosa Cas9/+ /Flt3 ITD/+ mice using MLL-AF4- or MLL-AF9 -expressing retroviruses and validate the findings of our screens using sgRNAs against murine Kat2a and Srpk1 . Taken together, these data dissecting the individual vulnerabilities of highly similar initiating mutations demonstrate the power of our screen to identify specific vulnerabilities for individual oncogenes and suggest that similar screens may also help to guide programmes of personalised medicine for patients based on the complement of somatic mutations within their cancer, which in some cases could be achieved through re-purposing of existing therapeutics. Disclosures McDermott: 14M Genomics: Other: co-founder, stock-holder and consultant.",
+    "topics": [
+        "crispr",
+        "genetics",
+        "genome",
+        "leukemia, myelocytic, acute",
+        "cancer",
+        "crispr-cas9",
+        "impedance threshold device",
+        "ms-like tyrosine kinase 3",
+        "ccaat/enhancer binding protein alpha",
+        "complement system proteins"
+    ],
+    "author_names": [
+        "Konstantinos Tzelepis, MSc",
+        "Hiroko Koike-Yusa, MD",
+        "Etienne De Braekeleer, PhD",
+        "Yilong Li",
+        "Emmanouil Metzakopian, PhD",
+        "Oliver M. Dovey, PhD",
+        "Annalisa Mupo, PhD",
+        "Vera Grinkevich, PhD",
+        "Milena M. Mazan, PhD",
+        "Malgorzata Gozdecka, PhD",
+        "Jonathan L. Cooper",
+        "Miten Patel, MD",
+        "Thomas David Hardman McKerrell, MD",
+        "Bin Chen",
+        "Hannes Ponstingl, PhD",
+        "Brian J.P Huntly, MD PhD",
+        "Ultan McDermott, MD PhD",
+        "Julio Saez-Rodriguez, PhD",
+        "Francesco Iorio, PhD",
+        "Kosuke Yusa, PhD",
+        "George S. Vassiliou, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Konstantinos Tzelepis, MSc",
+            "author_affiliations": [
+                "Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hiroko Koike-Yusa, MD",
+            "author_affiliations": [
+                "Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Etienne De Braekeleer, PhD",
+            "author_affiliations": [
+                "Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yilong Li",
+            "author_affiliations": [
+                "Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Emmanouil Metzakopian, PhD",
+            "author_affiliations": [
+                "Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Oliver M. Dovey, PhD",
+            "author_affiliations": [
+                "Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Annalisa Mupo, PhD",
+            "author_affiliations": [
+                "Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vera Grinkevich, PhD",
+            "author_affiliations": [
+                "Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Milena M. Mazan, PhD",
+            "author_affiliations": [
+                "Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Malgorzata Gozdecka, PhD",
+            "author_affiliations": [
+                "Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan L. Cooper",
+            "author_affiliations": [
+                "Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Miten Patel, MD",
+            "author_affiliations": [
+                "Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Thomas David Hardman McKerrell, MD",
+            "author_affiliations": [
+                "Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bin Chen",
+            "author_affiliations": [
+                "Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hannes Ponstingl, PhD",
+            "author_affiliations": [
+                "Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brian J.P Huntly, MD PhD",
+            "author_affiliations": [
+                "Cambridge Institute for Medical Research, Cambridge, United Kingdom "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ultan McDermott, MD PhD",
+            "author_affiliations": [
+                "Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Julio Saez-Rodriguez, PhD",
+            "author_affiliations": [
+                "EMBL European Bioinformatics Institute, Cambridge, United Kingdom"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Francesco Iorio, PhD",
+            "author_affiliations": [
+                "EMBL European Bioinformatics Institute, Cambridge, United Kingdom"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kosuke Yusa, PhD",
+            "author_affiliations": [
+                "Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "George S. Vassiliou, MD PhD",
+            "author_affiliations": [
+                "Wellcome Trust Sanger Institute, Cambridge, United Kingdom "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-05T03:44:09",
+    "is_scraped": "1"
 }
