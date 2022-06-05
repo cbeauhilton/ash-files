@@ -1,8 +1,185 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3286",
-    "start_url_page_num": "3286",
     "doi": "https://doi.org/10.1182/blood.V128.22.1701.1701",
-    "url": "https://ashpublications.org/blood/article/128/22/1701/91630/Whole-Transcriptome-Sequencing-RNAseq-As-a?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T16:31:40",
-    "is_scraped": "0"
+    "article_title": "Whole Transcriptome Sequencing (RNAseq) As a Comprehensive, Cost-Efficient Diagnostic Tool for Acute Myeloid Leukemia ",
+    "article_date": "December 2, 2016",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster I",
+    "abstract_text": "Background Acute myeloid leukemia (AML) is caused by cooperating oncogenic driver mutations that induce uncontrolled proliferation in combination with maturation arrest in myeloid precursor cells. The majority of oncogenic drivers are somatically acquired. Recurrent genetic lesions are used for molecular classification and prognosis of AML. In addition, expression levels of selected genes contribute to AML subclassification (CD34, KIT ) and prognostication (e.g. EVI1 ). Actionable aberrations and pathways are molecular targets for personalized pharmacotherapy. Structures, incidences, and mutual associations of recurrent genetic aberrations have been elucidated by large whole genome/exome sequencing efforts. However, 10-20% of AML appear to be caused by hitherto unrecognized or individual driver lesions. Current AML diagnostics are poorly standardized and comprise a combination of morphology, flow cytometry, cytogenetics, targeted gene amplification with electrophoresis, sequence analysis, and qRT-PCR. We here test the hypothesis that whole transcriptome sequencing (RNAseq) without parallel germ-line sequencing could potentially be used as a single and cost-efficient platform for AML diagnosis and prognostication. Methods Poly(A)+ RNA was isolated from 100 cryopreserved AML samples with a blast count of 10-99% (median: 75%). These samples were obtained from 97 patients (2 diagnosis-relapse pairs, 1 de novo AML with subsequent tAML). RNA was sequenced at a depth of 59x10 6 paired-end reads per sample with median read length of 126 bp through a ISO17025-accredited Illumina HiSeq 2500 pipeline. After alignment against the GRCh38 reference genome, single nucleotide variants (SNV) and small indels were called by VarScan with a threshold of 20% aberrant reads. Variants were filtered for known polymorphisms occurring at >5% in defined ethnic subpopulations of the 1000 Genomes and Genome of the Netherlands Projects. Internal tandem duplications (ITD) were identified by frequency and distribution of soft clipped reads. Detection of fusion genes was performed on raw reads using STAR-Fusion and FusionCatcher. Geneexpression levels were measured relative to HBMS as a housekeeping gene by counting the number of reads aligned to gene exons normalized to the sum of exon lengths. HAMLET was developed and implemented as an integrated RNAseq pipeline to measure relevant recurrent AML-associated aberrations, i.e. SNV and small indels in recurrently mutated genes, the FLT3-ITD , AML-associated gene fusions, and EVI1 overexpression. Results A total of 221 SNV/indels (15 homozygous) were detected at expected or higher frequencies in NPM1 (33%), FLT3 (ITD+TKD: 37%), DNMT3A (30%), TET2 (27%), IDH1 (14%), IDH2 (14%), RUNX1 (23%), CEBPA (4%), KIT (7%), WT1 (8%), ASXL1 (11%), and TP53 (3%). Sensitivities to detect SNV/small indels and FLT3-ITD were 96% and 94%, respectively, with no apparent relation to the blast count. Fusion genes relevant to the WHO AML classification were found with a sensitivity of 100% when compared to metaphase cytogenetics and FISH. Specifically, 10 cases of CBFB-MYH11 , 3 RUNX1-RUNX1T1 , 2 PML-RARA , 1 FUS-ERG , 1 KMT2A-MLLT3 , and 1 DEK-NUP214 fusion events were correctly detected. In addition, 3 variant KMT2A translocations with MLLT1 , MLLT4, and MLLT6 as fusion partners were correctly called. The specificity of HAMLET for recurrent SNV, indels, and fusion genes was 100%. Finally, RNAseq quantitatively detected variability in gene expression as exemplified for EVI1 overexpression and confirmed by qRT-PCR (r=0.85). Conclusions In conclusion, RNAseq analysis of AML samples without concomitant germ-line sequencing detects molecular information with relevance for classification, prognosis, and targeted therapy with 96% overall sensitivity and 100% specificity. HAMLET is currently optimized to further improve the sensitivity to detect SNV/small indel and ITD events. With a cost price of \u20ac980,- per case and full accreditation for diagnostic application of the RNAseq raw data, RNAseq facilitates comprehensive and cost-effective AML diagnostics in a single assay. Additional predicted benefits of this RNAseq approach to be explored include identification of non-recurrent individual drivers, neoantigens, and minor histocompatibility antigens, a potential to replace conventional HLA typing, and as a potential alternative for flow cytometry. Disclosures Janssen: GenomeScan BV: Employment.",
+    "topics": [
+        "clinical diagnostic instrument",
+        "leukemia, myelocytic, acute",
+        "impedance threshold device",
+        "ms-like tyrosine kinase 3",
+        "flow cytometry",
+        "polymerase chain reaction",
+        "rna",
+        "ccaat/enhancer binding protein alpha",
+        "cd34 antigens",
+        "cryopreservation"
+    ],
+    "author_names": [
+        "Marieke Griffioen, PhD",
+        "Wibowo Arindrarto, MSc",
+        "Daniel Borr\u00e0s, MSc",
+        "Saskia A.M.E. van Diessen, BSc",
+        "Edith D. van der Meijden",
+        "M. Willy Honders",
+        "Mariam Alloul, PhD",
+        "Inge Jedema, PhD",
+        "Wilma G.M. Kroes, PhD",
+        "Peter J.M. Valk, PhD",
+        "Bart Janssen, PhD",
+        "Cornelis A.M. van Bergen, PhD",
+        "Szymon M. Kie\u0142basa, PhD",
+        "Jeroen F.J. Laros, PhD",
+        "Peter A.C. 't Hoen, PhD",
+        "Hendrik Veelken, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Marieke Griffioen, PhD",
+            "author_affiliations": [
+                "Department of Hematology, Leiden University Medical Center, Leiden, Netherlands "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wibowo Arindrarto, MSc",
+            "author_affiliations": [
+                "Sequence Analysis Support Core, Leiden University Medical Center, Leiden, Netherlands "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel Borr\u00e0s, MSc",
+            "author_affiliations": [
+                "GenomeScan B.V., Leiden, Netherlands "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Saskia A.M.E. van Diessen, BSc",
+            "author_affiliations": [
+                "Department of Hematology, Leiden University Medical Center, Leiden, Netherlands "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Edith D. van der Meijden",
+            "author_affiliations": [
+                "Department of Hematology, Leiden University Medical Center, Leiden, Netherlands "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "M. Willy Honders",
+            "author_affiliations": [
+                "Department of Hematology, Leiden University Medical Center, Leiden, Netherlands "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mariam Alloul, PhD",
+            "author_affiliations": [
+                "Department of Hematology, Leiden University Medical Center, Leiden, Netherlands "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Inge Jedema, PhD",
+            "author_affiliations": [
+                "Department of Hematology, Leiden University Medical Center, Leiden, Netherlands "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wilma G.M. Kroes, PhD",
+            "author_affiliations": [
+                "Department of Clinical Genetics, Leiden University Medical Center, Leiden, Netherlands "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter J.M. Valk, PhD",
+            "author_affiliations": [
+                "Department of Hematology, Erasmus University Medical Center, Rotterdam, Netherlands "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bart Janssen, PhD",
+            "author_affiliations": [
+                "GenomeScan B.V., Leiden, Netherlands "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cornelis A.M. van Bergen, PhD",
+            "author_affiliations": [
+                "Department of Hematology, Leiden University Medical Center, Leiden, Netherlands "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Szymon M. Kie\u0142basa, PhD",
+            "author_affiliations": [
+                "Bioinformatics Center of Expertise, Leiden University Medical Center, Leiden, Netherlands "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jeroen F.J. Laros, PhD",
+            "author_affiliations": [
+                "Department of Human Genetics, Leiden University Medical Center, Leiden, Netherlands"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter A.C. 't Hoen, PhD",
+            "author_affiliations": [
+                "Department of Human Genetics, Leiden University Medical Center, Leiden, Netherlands"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hendrik Veelken, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology, Leiden University Medical Center, Leiden, Netherlands "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-05T12:47:57",
+    "is_scraped": "1"
 }
