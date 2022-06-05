@@ -1,8 +1,117 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3281",
-    "start_url_page_num": "3281",
     "doi": "https://doi.org/10.1182/blood.V128.22.1458.1458",
-    "url": "https://ashpublications.org/blood/article/128/22/1458/91689/Prediction-of-MNS-Blood-Group-Antigens-Using-Next?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T15:23:49",
-    "is_scraped": "0"
+    "article_title": "Prediction of MNS Blood Group Antigens Using Next Generation Sequencing ",
+    "article_date": "December 2, 2016",
+    "session_type": "401. Basic Science and Clinical Practice in Blood Transfusion: Poster I",
+    "abstract_text": "Background The MNS blood group system is second in diversity only to the RH blood group system, with 46 described antigens. MNS system antigens are carried on glycophorins GPA and GPB that are products of the GYPA and GYPB genes, respectively. GYPA and GYPB are homologous paralogs which lie adjacent to each other on chromosome 4 in tandem with a third GYP paralog, GYPE . Current DNA-based testing methods for predicting MNS can be confounded by all types of genetic variation at the GYP locus, particularly in individuals of non-European ancestry. We sought to develop a next generation sequencing (NGS) approach for the systematic characterization of the GYP locus to accurately predict the common M/N and S/s blood group antigens and simultaneously identify other clinically relevant GYP DNA variants. Study Methods A total of 1139 samples were DNA sequenced; 1135 were from a previous study of blood donors self-identified to be of Asian American or Native American descent, and were 4 WHO reference DNAs (NIBSC). Blood donors had been tested for M and N by serology and for M/N and S/s using a single nucleotide variant (SNV) blood group genotyping platform (Bioarray). Samples were selected to enrich for MNS serology-SNV discrepancies or indeterminate results. BloodSeq is a NGS targeted panel that includes capture of 97.4kb over 3 genomic regions including the exons, pseudo-exons, introns, and proximal intergenic regions of GYPA , GYPB , and GYPE . This custom capture was used to generate Illumina, paired-end 100 bp DNA sequence reads. Raw sequence data was aligned to the human reference genome (hg19) and SNVs assessed using standard calling methods (GATK HaplotypeCaller). To predict MNS blood group system antigens, we determined variants which identified ISBT alleles; M/N antigens were defined as codominant alleles with multiple variant sites present in GYPA exon 2, while S/s antigens were defined by GYPB c.143T>C (p.Thr48Met) and 2 known GYPB silencing SNVs. Other DNA variants were cross-referenced with ISBT to predict associated blood group antigens. Results In a preliminary analyses, standard DNA variant calling methods predicted S/s ( GYPB ) SNVs accurately. However, alleles with M ( GYPA ) blood group variants exhibited a low call rate. Visualization of aligned reads indicated alleles corresponding to the M blood group sequence align poorly to the reference GYPA sequence. We traced the origin of these poor quality alignments to the presence of a region in GYPE with high sequence homology to the GYPA M allele. Notably, in the reference genome the GYPA gene has DNA variants indicative of theN genotype. With this knowledge, we developed a new approach which considers alignments of all 3 genes ( GYPA , GYPB , GYPE ) to predict M/N and S/s blood group antigens. Applying this method, BloodSeq predicted M with high concordance with serology (99.2%) and SNV genotype (99.6%), similar to the SNV genotype-serology concordance for M (98.9%). BloodSeq also predicted S/s in high concordance with the SNV predicted genotype (99.4% and 99.8%, respectively for S and s). Prediction of N by both BloodSeq and SNV genotype were similar to each other (99.6%) but exhibited lower accuracy (86.1% and 85.6%, respectively) when compared to serology. Interestingly, most (90%) of the N discrepancies were genetic prediction of absent N antigen but a positive N result by serology. We suspect these discrepancies result from cross-reactivity of reagent antibodies with \"N\" (an N-like antigen encoded by GYPB ), which would require additional DNA sequence curation, or other underlying genetic variation. Additionally, 9 GYPA and GYPB variants indicative of other named ISBT alleles were detected, as well as a novel predicted frameshift variant in GYPA . Conclusion Our results demonstrate that a targeted NGS approach followed by an analysis pipeline customized for the GYP locus can simultaneously predict M/N and S/s blood groups and detect other GYP variants of known clinical significance. We propose that use of GYP locus-specific DNA sequence analysis strategies, such as addition of alternative reference sequences, should allow for automated and reliable classification of the M/N, S/s, and other variants in the MNS blood group system using next generation DNA sequencing. This work provides the foundation for a DNA-based, high resolution blood-typing method for the detection of clinically relevant MNS blood group system genetic variation. Disclosures Johnsen: CSL Behring: Consultancy; Octapharma: Consultancy.",
+    "topics": [
+        "blood group antigens",
+        "massively-parallel genome sequencing",
+        "dna",
+        "blood groups",
+        "antigens",
+        "serologic tests",
+        "sequence analysis, dna",
+        "antibodies",
+        "blood type",
+        "genotype determination"
+    ],
+    "author_names": [
+        "Marsha Wheeler",
+        "Chris Frazar",
+        "Kerry Lannert",
+        "Shelley N Fletcher",
+        "Haley Huston",
+        "Samantha Harris",
+        "Meghan Delaney",
+        "Deborah Nickerson",
+        "Jill Johnsen"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Marsha Wheeler",
+            "author_affiliations": [
+                "Genome Sciences, University of Washington, Seattle, WA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chris Frazar",
+            "author_affiliations": [
+                "Genome Sciences, University of Washington, Seattle, WA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kerry Lannert",
+            "author_affiliations": [
+                "Research Institute, Bloodworks Northwest, Seattle, WA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shelley N Fletcher",
+            "author_affiliations": [
+                "Research Institute, Bloodworks Northwest, Seattle, WA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Haley Huston",
+            "author_affiliations": [
+                "Research Institute, Bloodworks Northwest, Seattle, WA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Samantha Harris",
+            "author_affiliations": [
+                "Research Institute, Bloodworks Northwest, Seattle, WA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Meghan Delaney",
+            "author_affiliations": [
+                "Bloodworks NW, Seattle, WA ",
+                "Laboratory Medicine, University of Washington, Seattle, WA "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Deborah Nickerson",
+            "author_affiliations": [
+                "Genome Sciences, University of Washington, Seattle, WA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jill Johnsen",
+            "author_affiliations": [
+                "Research Institute, Bloodworks Northwest, Seattle, WA ",
+                "Department of Medicine, University of Washington, Seattle, WA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-05T09:35:08",
+    "is_scraped": "1"
 }
