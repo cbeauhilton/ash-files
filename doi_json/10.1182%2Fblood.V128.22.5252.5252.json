@@ -1,8 +1,125 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3353",
-    "start_url_page_num": "3353",
     "doi": "https://doi.org/10.1182/blood.V128.22.5252.5252",
-    "url": "https://ashpublications.org/blood/article/128/22/5252/99994/Micro-RNAs-in-Acute-Myeloid-Leukemia?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T19:16:41",
-    "is_scraped": "0"
+    "article_title": "Micro RNAs in Acute Myeloid Leukemia ",
+    "article_date": "December 2, 2016",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
+    "abstract_text": "Acute leukemia is a life-threatening condition that occurs in MDS, MPD or de novo . Although progress has been made with regard to cytogenetics, little is known about the epigenetic biology of leukemia. MicroRNA (miR) plays a role in regulation of gene expression in many cellular processes, including hematopoiesis. About 19- 25 nucleotides in length, miRs target specific mRNAs and influence their stability, degradation, or translation. miR profiling has begun to contribute to the understanding of the complex regulatory events that occur during normal hematopoiesis and are disrupted during the emergence of the leukemic clone. In particular, miR expression may be useful to understanding normal cytogenetic AMLs and developing novel treatments for AML. Our study was approved by the IRB and informed consent was obtained from patients and controls. We collected peripheral blood samples from 10 patients with newly diagnosed AML, prior to induction therapy, and 8 controls. Two ml of whole blood was collected in Paxgene RNA tubes and frozen for later processing. miRNA was purified using standard Trizol method, followed by RNeasy mini column (Qiagen). Quality of the RNA samples was assessed using the Agilent Bioanalyzer prior to library construction using the Illumina TruSeq Small RNA Sample Prep protocol (Illumina; San Diego, California). Multiplexed samples of RNA that exceeded quality control metrics (RIN > 6.0) were run on an Illumina NextSeq500 instrument at a targeted depth of 10 million reads per sample. After filtering and trimming of index and adapter sequences, whole genome alignment of the miR FASTQ reads was performed using the Homo sapiens/hg19 reference genome in the SHRiMPS aligner included in the miRNAs Analysis application available in BaseSpace (Illumina), as well as the sRNA Toolbox application suite. Quantification and normalization of aligned reads to the miRBase 21 database was performed, and differential expression between AML and control groups performed using DESeq2, NOIseq, and EdgeR algorithms. Consensus changes were seen using all three algorithms after correcting for multiple testing using the Benjamni-Hochberg False Discovery Rate (FDR) algorithm and were examined for use as potential diagnostic markers and for evidence of association with medical/demographic measures. Finally, systems-level analysis of consensus miR findings was performed using the proprietary Core Analysis workflow of the Qiagen Ingenuity\u00ae Pathway Analysis (IPA) software to identify leukemia-specific pathways and networks, and to predict the activation or inhibition of specific mRNA targets. We sequenced approximately 800 miRs from our 10 patients with AML and 8 control samples. We identified 44 miRs that showed a statistically significant increase in expression in AML patients versus controls and 33 miRs that showed a statistically significant decrease in expression in AML patients versus controls. Among these 77 differentially expressed miRs, only 10 were previously described in leukemia, including miR 181, miR 199b, miR 10a-5p, miR 22-3p, miR 23b-3p, miR 28-3p, miR 34a-5p, miR 409-3p, miR 500a-3p, miR 744-5p, and miR 126-5p. Finding these 10 miRs confirmed the validity of our approach. The remaining 67 of the miRs that showed differential expression in our study have not been described in relation to AML. Most of these have been found in association with colorectal, breast, cervical, NSCLC. Others have been reported in neurodegerative diseases and cardiac pathologies. Four of the patients with AML also had remission samples sequenced. Comparison of this subset of samples before and after treatment revealed statistically significant differences in three additional miRs. We are currently analyzing our data further to determine possible linkage between specific miRs and subtypes of AML. We are continuing to accrue patients to this study and we are following them over time in order to analyze miR expression as a biomarker that may predict relapse prior to usual indicators, i.e. cbc. Our approach of global sequencing of miRs as opposed to microarray analysis provides an unbiased approach regarding which miRs to assay and has demonstrated discovery of new associations of miRs with AML. We are hopeful that our study will provide further information about the molecular changes that lead to evolution of the leukemic clone and offer new targets for treatments. [ Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "leukemia, myelocytic, acute",
+        "micrornas",
+        "leukemia",
+        "rna",
+        "rna, messenger",
+        "biological markers",
+        "disease remission",
+        "leukemia, acute",
+        "neoadjuvant therapy",
+        "non-small-cell lung carcinoma"
+    ],
+    "author_names": [
+        "Aakriti Pandita, MBBS",
+        "Alina Basnet, MBBS",
+        "Poornima Ramadas, MD",
+        "Aarati Poudel, MD",
+        "Ankit Anand, MBBS",
+        "Nibal Saad, MD",
+        "Syed A. Akbar, MBBS",
+        "Salman I. Chaudhry, MBBS",
+        "Frank Middleton, PhD",
+        "Diana M. Gilligan, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Aakriti Pandita, MBBS",
+            "author_affiliations": [
+                "Department of Medicine, Upstate Medical University, Syracuse, NY "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alina Basnet, MBBS",
+            "author_affiliations": [
+                "Department of Medicine, Upstate Medical University, Syracuse, NY "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Poornima Ramadas, MD",
+            "author_affiliations": [
+                "Department of Medicine, Upstate Medical University, Syracuse, NY "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aarati Poudel, MD",
+            "author_affiliations": [
+                "Department of Medicine, Upstate Medical University, Syracuse, NY "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ankit Anand, MBBS",
+            "author_affiliations": [
+                "Department of Medicine, Upstate Medical University, Syracuse, NY "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nibal Saad, MD",
+            "author_affiliations": [
+                "Department of Medicine, Upstate Medical University, Syracuse, NY "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Syed A. Akbar, MBBS",
+            "author_affiliations": [
+                "Department of Medicine, Upstate Medical University, Syracuse, NY "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Salman I. Chaudhry, MBBS",
+            "author_affiliations": [
+                "Department of Medicine, Upstate Medical University, Syracuse, NY "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Frank Middleton, PhD",
+            "author_affiliations": [
+                "Department of Neuroscience, Upstate Medical University, Syracuse, NY"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Diana M. Gilligan, MD PhD",
+            "author_affiliations": [
+                "Department of Medicine, Upstate Medical University, Syracuse, NY "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-06T06:46:23",
+    "is_scraped": "1"
 }

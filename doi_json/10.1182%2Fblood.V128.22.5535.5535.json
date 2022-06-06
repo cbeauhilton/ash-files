@@ -1,8 +1,135 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3347",
-    "start_url_page_num": "3347",
     "doi": "https://doi.org/10.1182/blood.V128.22.5535.5535",
-    "url": "https://ashpublications.org/blood/article/128/22/5535/99956/A-Genomic-Predictive-Signature-for-Rigosertib-in?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T19:16:21",
-    "is_scraped": "0"
+    "article_title": "A Genomic Predictive Signature for Rigosertib in Lower Risk MDS Derived By Integrating Clinical Response, Mechanism of Action Data and Simulation ",
+    "article_date": "December 2, 2016",
+    "session_type": "637. Myelodysplastic Syndromes-Clinical Studies",
+    "abstract_text": "Background: Lower risk non-del5q MDS patients (pts) have limited treatment options and majority pts are transfusion dependent. Erythropoiesis stimulating agents (ESA) are first line of therapy for LR-MDS pts but almost half are resistant to ESA or become resistant after responding. Hence, LR-MDS represents an area of unmet medical need for novel agents to improve hematopoiesis and reduce transfusion dependency. Rigosertib (RIG) blocks RAS-mediated activation of proteins containing a common RAS binding domain, or RBD (Athuluri-Divaker, et al; Cell 165; 643'16). Since many pathways include proteins that employ RBD (i.e. ras, raf PI3-Kinase), interference with RBD provides a novel approach to block proliferation. While RIG showed encouraging response in LR-MDS pts (Tycko, et al; Blood 2013; 122:2745), there is a need for a biomarker that can differentiate responders from non-responders. To correlate genomics with response to RIG, we employed computational tools to integrate molecular data and observed responses. Aim: To determine predictive value of a computational biology derived genomic signature in LR-MDS pts who are treated with RIG. Methods: Materials were derived from Phase I and II studies of RIG in LR-MDS pts. Efficacy was reported as transfusion independence. Bone marrow samples were collected and processed using standard methods. DNA was extracted from bone marrow mononuclear cells or T-cells (germline control) purified from peripheral blood samples. Exome sequencing was performed using Agilent SureSelect Human All Exon v4 - 51Mb kit and HiSeq 2000. Raw sequences were aligned to the human genome build hg19 using BWA software; SNPs and In/Dels analysis was performed using PICARD, SAMTOOLS and GATK. These results, entered into predictive computational biology software (Cellworks Group), generated disease-specific protein network maps using PubMed and other online resources. Digital drug simulations are conducted by measuring drug effect on a score: a composite of cell proliferation, viability and apoptosis. Each patient-specific network map was screened for RIG reduced progression in a dose-respondent manner. Computer predictions were blindly correlated with clinical outcomes. Results: Predicted response was blindly correlated with the clinical outcome for 19 pts: Results showed 16 matches and 3 mismatches; and the following predictive test statistics: PPV - 81.25%, NPV - 100%, Sensitivity - 100%: accuracy of the predictive test at 84.21%. Modeling of LR-MDS pts predicted amplification of genes MYC, FNTA on chromosome 8; amplification of genes LGALS3, AJUBA, MAX on chromosome 14; TIAM1 on chromosome 21; HMGCR, on chromosome 5; PDPK1, MAPK3, PLK1 on chromosome 16 and PIK3CA, RAF1 on chromosome 3 correlated with increased response to RIG. Aberrations that enhanced the downstream of RAS signaling via the RAF-ERK or PI3K-AKT-MTOR pathway increased the signal flow through the drug response paths. MYC amplification on chromosome 8 via increasing the Purine synthesis pathway and production of GTP increased the RAS-ERK and RHEB-MTOR signaling. MYC also enhanced CCND1 production/proliferation. Prenylation pathway genes FNTA and HMGCR amplification also affect RAS and RHEB; enhance the drug response pathways. Another pathway that was found to be significant in the drug response, reducing proliferation, was inhibition of PLK1 and AURKA. Amplification of AJUBA, PLK1 made this pathway more significant and improved drug response via inhibition of proliferation via TIAM1-RAC1-PAK1-AURKA-PLK1 and RAF-PLK1 pathway. Deletion of TP53 and NF1 on chromosome 17 did not correlate with response. MYC amplification was seen in LR and HR MDS pts and correlated with response to RIG. However, the computational biology method showed that MYC amplification alone is not a predictor for response since there were non-responder profiles with MYC amplification and responder profiles with MYC deletion that had other aberrations in genes on chromosomes 3, 14, 16 or 21. Conclusions: A predictive method that models multiple genomic abnormalities simultaneously showed greater than 80% correlation between RIG mediated protein network perturbations and clinical outcomes in LR-MDS. The method also explained lack of response and highlighted resistance pathways that could be targeted to recover sensitivity. We also established eligibility criteria for greater precision enrollment in future trials. View large Download slide View large Download slide  Close modal Disclosures Fruchtman: Onconova: Employment. Petrone: Onconova Therapeutics, Inc.: Employment. Zbyszewski: Onconova Therapeutics, Inc.: Employment. Hoffman: Onconova Therapeutics, Inc.: Employment. Vali: Cellworks Group: Employment. Singh: Cellworks Group: Employment. Usmani: Cellworks: Employment. Grover: Cellworks Group: Employment. Abbasi: Cellworks: Employment.",
+    "topics": [
+        "genome",
+        "risk reduction",
+        "pharmacokinetics",
+        "brachial plexus neuritis",
+        "transfusion",
+        "1-phosphatidylinositol 3-kinase",
+        "hydroxymethylglutaryl-coa reductases",
+        "mtor serine-threonine kinases",
+        "predictive genetic testing",
+        "tiam1 protein"
+    ],
+    "author_names": [
+        "Steven M. Fruchtman, MD",
+        "Abdullah Mahmood Ali, PhD",
+        "Michael E. Petrone, MD MPH",
+        "Patrick Simon Zbyszewski, MBA",
+        "Benjamin Hoffman, PhD",
+        "Shireen Vali, PhD",
+        "Neeraj Kumar Singh",
+        "Shahabuddin Usmani",
+        "Himanshu Grover",
+        "Taher Abbasi",
+        "Azra Raza, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Steven M. Fruchtman, MD",
+            "author_affiliations": [
+                "Onconova Therapeutics, Inc., Newtown, PA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Abdullah Mahmood Ali, PhD",
+            "author_affiliations": [
+                "Myelodysplastic Syndrome Center, Columbia University Medical Center, New York, NY "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael E. Petrone, MD MPH",
+            "author_affiliations": [
+                "Onconova Therapeutics, Inc., Newtown, PA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Patrick Simon Zbyszewski, MBA",
+            "author_affiliations": [
+                "Onconova Therapeutics, Inc., Newtown, PA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Benjamin Hoffman, PhD",
+            "author_affiliations": [
+                "Onconova Therapeutics, Inc., Newtown, PA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shireen Vali, PhD",
+            "author_affiliations": [
+                "Cellworks Group Inc., San Jose, CA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Neeraj Kumar Singh",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd., Whitefield, India "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shahabuddin Usmani",
+            "author_affiliations": [
+                "Cellworks Research India Ltd, Whitefield, India "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Himanshu Grover",
+            "author_affiliations": [
+                "Cellworks Research India Ltd., Whitefield, India "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Taher Abbasi",
+            "author_affiliations": [
+                "Cellworks Group Inc., San Jose, CA "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Azra Raza, MD",
+            "author_affiliations": [
+                "Columbia University Medical Center, New York, NY"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-06T06:38:29",
+    "is_scraped": "1"
 }
