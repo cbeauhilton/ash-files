@@ -1,8 +1,95 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3369",
-    "start_url_page_num": "3369",
     "doi": "https://doi.org/10.1182/blood.V128.22.2643.2643",
-    "url": "https://ashpublications.org/blood/article/128/22/2643/98592/Stochastic-Modeling-of-Hematopoietic-Stem-and?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T20:23:05",
-    "is_scraped": "0"
+    "article_title": "Stochastic Modeling of Hematopoietic Stem and Progenitor Cell Barcoding Data from Rhesus Macaques Challenges the Classic Model of Hematopoiesis ",
+    "article_date": "December 2, 2016",
+    "session_type": "501. Hematopoietic Stem and Progenitor Biology: Poster II",
+    "abstract_text": "The classical model of hematopoiesis states that differentiation proceeds from hematopoietic stem cells (HSC) to mature blood cells via specified multipotent and bipotent progenitors, such as the common myeloid progenitor (CMP), common lymphoid progenitor (CLP), erythrocyte-megakaryoctye progenitor and granulocyte-monocyte progenitor. However, recent studies question this assumption and suggest that these intermediates are neither required nor prevalent. As an example, analyses of binarized data from murine barcoding experiments (Perie et al, Cell Reports, 2014) raise the possibility that hematopoiesis progresses via a random loss of potentials rather than discrete steps. Additionally, Notta et al (Science, 2015) showed that oligopotent progenitor cells form only a negligible component in the hierarchy by studying the distribution of progenitors in human marrow, leading them to infer that HSC and earliest multipotent progenitors differentiate directly into unipotent cells. Although these data challenge fundamental beliefs, the quantitative contributions of HSC and progenitors to cell lineages could not be tracked in individual mice or persons over time. We developed a statistical method to infer the rates and probabilities of cell fate decisions in a class of stochastic branching models and used this to analyze sequence data from a rhesus macaque transplanted with lentivirally barcoded CD34+ HSC and progenitor cells. The macaque's blood granulocytes (Gr), monocytes (Mo), B cells, T cells, and NK cells were tracked over 30 months. Our quantitative framework is based on computing correlations between pairs of observable mature blood cell types across all independently barcoded lineages. The method also accounts for experimental uncertainties intrinsic to blood sampling, cell purification and PCR amplification. Specifically, our approach relies on a loss function estimator that minimizes residuals between empirical pairwise correlations across barcode lineages and analytical model-based correlations derived generally for continuous-time multi-type branching processes. We integrate over sampling distributions accounting for noise in experimental protocol and CBC counts. Candidate models represent possible hematopoietic structures and allow an arbitrary number of progenitor and mature cell types descended from each HSC. We identify best-fitting fate decision rates and initial marking levels with corresponding confidence intervals via nonlinear least squares and can assess whether a given model is statistically consistent with the data. This is the first statistical method to our knowledge for fitting stochastic models of hematopoiesis to lineage barcoding time-series, and together with the rhesus macaque data, enables quantitative analysis of in vivo dynamics in a large animal model. Using this new approach, we confirmed the major finding in Wu et al. (Cell Stem Cell, 2014) of a distinct NK cell ontogeny, i.e., that CD16+ blood NK cells do not overlap in origin with T and B cell lineages. We estimate that 13.9% of HSC and 86.1% of progenitors were initially barcoded, which is consistent with the finding by Wu that the percentage of blood cells expressing GFP stabilized at 13% after 6 months. Additionally, we estimate that HSC self-renew approximately once every 12 weeks, which is consistent with the range estimated in previous primate studies based on telomere studies (Shepherd, Blood, 2007). These initial analyses help validate our method. We then showed that Gr and Mo cells derive from a common precursor in vivo (correlation \u03c1 \u2248.9 across time). We also estimated progenitor differentiation rates and showed that Gr and Mo cells are produced up to 10- to 100-fold more rapidly than T, B and NK cells, and that each progenitor committed to the Gr/Mo lineage (i.e., CFUGM) produces thousands of mature cells per day. Importantly, we tested models requiring an ordered differentiation through defined intermediaries and found that they did not suitably fit the data compared to models allowing for non-restricted pathways. Together these analyses challenge the classic model of blood cell differentiation and provide new insights into the structure of hematopoiesis. Disclosures Dunbar: GSK/Novartis: Research Funding.",
+    "topics": [
+        "animal model",
+        "bar codes",
+        "hematopoiesis",
+        "macaca mulatta",
+        "phlebotomy",
+        "polymerase chain reaction",
+        "stem cells",
+        "complete blood count",
+        "blood cells",
+        "natural killer cells"
+    ],
+    "author_names": [
+        "Jason Xu, PhD",
+        "Samson J. Koelle, BA",
+        "Peter Guttorp, PhD",
+        "Chuanfeng Wu, MDPhD",
+        "Cynthia E. Dunbar, MD",
+        "Janis L. Abkowitz, MD",
+        "Vladimir Minin, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Jason Xu, PhD",
+            "author_affiliations": [
+                "Department of Statistics, University of Washington, Seattle, WA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Samson J. Koelle, BA",
+            "author_affiliations": [
+                "Hematology Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter Guttorp, PhD",
+            "author_affiliations": [
+                "Department of Statistics, University of Washington, Seattle, WA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chuanfeng Wu, MDPhD",
+            "author_affiliations": [
+                "Hematology Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cynthia E. Dunbar, MD",
+            "author_affiliations": [
+                "Hematology Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Janis L. Abkowitz, MD",
+            "author_affiliations": [
+                "Division of Hematology, University of Washington, Seattle, WA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vladimir Minin, PhD",
+            "author_affiliations": [
+                "Department of Statistics, University of Washington, Seattle, WA "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-06T13:03:00",
+    "is_scraped": "1"
 }
