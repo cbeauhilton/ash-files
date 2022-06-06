@@ -1,8 +1,135 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3394",
-    "start_url_page_num": "3394",
     "doi": "https://doi.org/10.1182/blood.V128.22.4406.4406",
-    "url": "https://ashpublications.org/blood/article/128/22/4406/101366/Bayesian-Network-Models-of-Multiple-Myeloma?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T20:43:11",
-    "is_scraped": "0"
+    "article_title": "Bayesian Network Models of Multiple Myeloma: Drivers of High Risk and Durable Response ",
+    "article_date": "December 2, 2016",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster III",
+    "abstract_text": "Introduction Multiple Myeloma (MM)is characterizedby heterogeneous clinical outcomes to existing therapies, which reflects the diverse genetic and molecular properties of tumor clones among patients. This intra-clonal heterogeneity may affect distinct molecular pathways within individual patients, contributing to reduced treatment efficacy over time and eventual relapse. In this work we investigate this problem by applying Bayesian network inference to develop high-dimensional network models of MM based on the Interim Analysis 9 (IA9) CoMMpass trial dataset (NCT0145429), an effort by the Multiple Myeloma Research Foundation (MMRF) to collect longitudinal data of newly-diagnosed patients from the United States, Canada and Europe. We demonstrate that our approach finds a number of known drug targets and identifies potentially novel ones. These targets, in our simulations, affect a number of treatment efficacy outcomes. Methods The IA9 dataset encompasses 645 patients with complete clinical and molecular data. We created an integrated table of clinical and genomic data including RNAseqmeasurements, somatic copy numbers, single nucleotide variants, and structural variants, for a combined input table of 30426 variables by 645 patients. We performed causal modeling using REFS\u2122 Bayesian causal inference engine, constrained only by a minimal set of biological considerations but otherwise entirely de novo . The objective of modeling is to discover the causal mechanisms among variables and, in particular, with respect to the outcomes, by means of a set of Bayesian network models that are consistent with the observed disease biology. Such a model ensemble captures uncertainty in inference and highlights similarities among the models, allowing us to distinguish confident predictions from incidental ones. We investigated our model ensemble by means of systematic perturbations to model variables while observing effects upon treatment outcomes within specific patient backgrounds. Results Drivers of High Risk High riskwas definedas having disease progression before 18 months. The model uncovered a pathway involved in cell cycle regulation that leads to high risk when overexpressed. Specifically, the model identified CDK1, PKMY1, MELK, and NEK2 as the top drivers of the probability of high risk. These genes are \"actionable\", having drugsbeing investigatedclinically in the context of MM or in other cancers. Drivers of Durable Response Durable responsewas definedas a treatment response that lasts over a year before disease progression. The model was able to identify several novel pathways that appear to drive the probability of a durable response: a pathway of ribosomal genes (RPL6, RPL23, RPL12), a pathway of translation elongation factor EEF1A1 and associated pseudogenes, and a pathway of regulatory noncoding genes MIR1302-9, RP11-946L20.4, RP11-346D14.1, and RP11-506N2.1. Not much is known regarding the connection of these genes to MM. However, the ubiquitin-proteasome pathway, which is central to ribosomal biogenesis, is a major drug target in MM. Conclusions In this work we have developed a causal model of MM. In-silico perturbations of the model uncovered known and novel causal mechanisms for relevant endpoints, including a pathway involved in cell cycle that leads to high risk when dysregulated; a pathway involving ribosomal proteins and translation elongation factors that drives durable response; and several novel noncoding regulatory genes that are relevant to various measures of response. Beyond generating novel targets of immediate biological interest, our work demonstrates the promise of large-scale de novo network inference to this and similar problems in the future. View large Download slide View large Download slide Close modal View large Download slide View large Download slide Close modal View large Download slide View large Download slide Close modal Disclosures Gruber: GNS Healthcare: Employment. McBride: Instat: Employment. Runge: GNS Healthcare: Employment. Wuest: GNS Healthcare: Employment. Hadzi: GNS Healthcare: Employment. Lonial: BMS: Consultancy; Novartis: Consultancy; Celgene: Consultancy; Onyx: Consultancy; Merck: Consultancy; Janssen: Consultancy; Novartis: Consultancy; Millenium: Consultancy; Celgene: Consultancy; Janssen: Consultancy; BMS: Consultancy; Onyx: Consultancy. Khalil: GNS Healthcare: Employment. Hayete: GNS Healthcare: Employment.",
+    "topics": [
+        "multiple myeloma",
+        "disease progression",
+        "drug delivery systems",
+        "cancer",
+        "cdc2 protein kinase",
+        "neoplasms",
+        "nucleotides",
+        "ribosomal proteins",
+        "surrogate endpoints",
+        "treatment effectiveness"
+    ],
+    "author_names": [
+        "Fred Gruber, PhD",
+        "Jonathan J Keats, PhD",
+        "Kyle McBride, MS",
+        "Karl Runge, PhD",
+        "Diane Wuest",
+        "Tiffany Hadzi",
+        "Mary Derome, MS",
+        "Sagar Lonial, MD FACP",
+        "Iya Khalil, PhD",
+        "Boris Hayete",
+        "Daniel Auclair, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Fred Gruber, PhD",
+            "author_affiliations": [
+                "GNS Healthcare, Cambridge, MA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan J Keats, PhD",
+            "author_affiliations": [
+                "Translational Genomics Research Institute, Phoenix, AZ "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kyle McBride, MS",
+            "author_affiliations": [
+                "Instat Services, Chatham, NJ "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karl Runge, PhD",
+            "author_affiliations": [
+                "GNS Healthcare, Cambridge, MA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Diane Wuest",
+            "author_affiliations": [
+                "GNS Healthcare, Cambridge, MA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tiffany Hadzi",
+            "author_affiliations": [
+                "GNS Healthcare, Cambridge, MA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mary Derome, MS",
+            "author_affiliations": [
+                "Multiple Myeloma Research Foundation, Norwalk, CT "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sagar Lonial, MD FACP",
+            "author_affiliations": [
+                "Winship Cancer Institute of Emory University, Department of Hematology and Medical Oncology, Atlanta, GA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Iya Khalil, PhD",
+            "author_affiliations": [
+                "GNS Healthcare, Cambridge, MA "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Boris Hayete",
+            "author_affiliations": [
+                "GNS Healthcare, Cambridge, MA "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel Auclair, PhD",
+            "author_affiliations": [
+                "Multiple Myeloma Research Foundation, Norwalk, CT "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-06T18:48:21",
+    "is_scraped": "1"
 }
