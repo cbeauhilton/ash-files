@@ -1,8 +1,35 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3383",
-    "start_url_page_num": "3383",
     "doi": "https://doi.org/10.1182/blood.V128.22.SCI-31.SCI-31",
-    "url": "https://ashpublications.org/blood/article/128/22/SCI-31/99082/Novel-Technologies-to-Detect-Minimal-Residual?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T20:42:32",
-    "is_scraped": "0"
+    "article_title": "Novel Technologies to Detect Minimal Residual Disease ",
+    "article_date": "December 2, 2016",
+    "session_type": "Minimal Residual Disease in Hematology: Why, When, and How?",
+    "abstract_text": "The widespread use of ribonucleic acid (RNA) analysis as a measure of minimal residual disease (MRD) in leukemia has primarily been performed via real-time quantitative polymerase chain reaction (PCR) (RQ-PCR) for common translocations, insertions/deletions and duplications (e.g. FLT3-ITD, MLL-PTD ). While RQ-PCR for known rearrangements can offer a limit of detection as low as 1:10 6 , these make up a minority of the total leukemia cases. MLL -rearrangements are generally not amenable to RQ-PCR due to the many fusion partners and breakpoints in these translocations. The ability to use quantitative RNA sequencing (RNA-seq) for MRD assessment would enable detection of allele-specific gene expression, alternative splicing and cryptic splice forms in addition to common rearrangements. While a few institutions are performing reflexive genome, transcription and methylome sequencing for cancer patients, standard RNA-seq library preparation is relatively low efficiency, which causes loss of rare transcripts 1 required for meaningful MRD assessment. Three methods currently employed to overcome this inherent bias in RNA-seq are targeted RNA sequencing of cancer-related genes to reduce off target, non-specific sequencing which improves read depth and mutation detection 2 ; single cell transcriptomes to obtain a digital readout of gene expression in single cells rather than a population-based average; and the addition of unique molecular indexes (UMI) to normalize amplification bias and obtain digital quantitation of transcripts in populations of cells. None of these methods have been carefully studied for their applicability to diagnostic testing, but single cell transcriptome profiling has been applied to solid tumor biology 3,4 . In this presentation, we explore whether digital RNA-seq can serve as a viable modality for MRD either as a stand-alone method or in conjunction with other methods of genomic profiling or immunophenotyping. While single-cell RNA profiling allows for co-localization of mutations within the same cell and is now capable of surveying hundreds to thousands of cells in a single experiment for reasonable costs, this scale remains far below the throughput necessary for MRD detection of cells present at 1:10 5 . One would need to process tens of thousands of cells and analyze the resulting data to confidently identify any residual leukemia cells, which is not currently feasible in timescales amenable to clinical decision making. We present data from the combination of targeted RNA sequencing of a pan-cancer gene expression array with the addition of UMIs to normalize amplification bias and computationally eliminate errors introduced by the sequencing platform while specifically sequencing cancer-associated genes to high read depths. This enables high-throughput detection of allele and isoform-specific transcripts at frequencies below 1:5,000. This method can be coupled with an equivalent DNA sequencing analysis from the same sample to ascertain the relative expression of leukemia-associated mutant alleles. However, one significant drawback to the addition of UMIs compared to single-cell RNA-seq is that the ability to co-localize mutations is lost. As epigenetic modifiers and targeted agents continue to permeate cancer therapy, these evolving technologies should offer more than direct quantification of residual leukemia cells, but a rich series of data on expression differences in healthy and cancer cells before, during and after therapy. References: Fu GK, Xu W, Wilhemly J, et al. Molecular indexing enables quantitative targeted RNA sequencing and reveals poor efficiencies in standard library preparations. PNAS . 2014;111(5):1891-1896. Lin L, Abo R, Dolcen D, et al. Targeted RNA sequencing improves transcript analysis in cancer samples. Cancer Res . 2015;75:1115 (abstract). Kim KT, Lee HW, Lee HO, et al. Application of single-cell RNA sequencing in optimizing a combinatorial therapeutic strategy in metastatic renal carcinoma. Genome Biol . 2016;17:80. Tirosh I, Izar B, Prakadan SM, et al. Dissecting the multicellular ecosystem of metastatic melanoma by single-cell RNA-seq. Science . 2016;352:189-196. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "neoplasm, residual",
+        "technology",
+        "rna",
+        "cancer",
+        "sequence analysis, rna",
+        "leukemia",
+        "polymerase chain reaction",
+        "cancer therapy",
+        "gene expression profiling",
+        "immunophenotyping"
+    ],
+    "author_names": [
+        "Todd E. Druley, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Todd E. Druley, MD PhD",
+            "author_affiliations": [
+                "Washington University School of Medicine in St. Louis, St. Louis, MO"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-06T15:42:56",
+    "is_scraped": "1"
 }
