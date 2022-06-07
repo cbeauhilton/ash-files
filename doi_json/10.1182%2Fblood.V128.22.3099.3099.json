@@ -1,8 +1,185 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3424",
-    "start_url_page_num": "3424",
     "doi": "https://doi.org/10.1182/blood.V128.22.3099.3099",
-    "url": "https://ashpublications.org/blood/article/128/22/3099/97990/A-New-Computational-Method-to-Predict-Long-Term?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T21:42:17",
-    "is_scraped": "0"
+    "article_title": "A New Computational Method to Predict Long-Term Minimal Residual Disease and Molecular Relapse after TKI-Cessation in CML ",
+    "article_date": "December 2, 2016",
+    "session_type": "632. Chronic Myeloid Leukemia: Therapy: Poster II",
+    "abstract_text": "Predicting minimal residual disease (MRD) levels in tyrosine kinase inhibitor (TKI)-treated chronic myeloid leukemia (CML) patients is of major clinical relevance. The reason is that residual leukemic (stem) cells are the source for both, potential relapses of the leukemicclone but also for its clonal evolution and, therefore, for the occurrence of resistance. The state-of-the art method for monitoring MRD in TKI-treated CML is the quantification of BCR-ABL levels in the peripheral blood (PB) by PCR. However, the question is whether BCR-ABL levels in the PB can be used as a reliable estimate for residual leukemic cells at the level of hematopoietic stem cells in the bone marrow (BM). Moreover, once the BCR-ABL levels have been reduced to undetectable levels, information on treatment kinetics is censored by the PCR detection limit. Clearly, BCR-ABL negativity in the PB suggests very low levels of residual disease also in the BM, but whether the MRD level remains at a constant level or decreases further cannot be read from the BCR-ABL negativity itself. Thus, also the prediction of a suitable time point for treatment cessation based on residual disease levels cannot be obtained from PCR monitoring in the PB and currently remains a heuristic decision. To overcome the current lack of a suitable biomarker for residual disease levels in the BM, we propose the application of a computational approach to quantitatively describe and predict long-term BCR-ABL levels. The underlying mathematical model has previously been validated by the comparison to more than 500 long-term BCR-ABL kinetics in the PB from different clinical trials under continuous TKI-treatment [1,2,3]. Here, we present results that show how this computational approach can be used to estimate MRD levels in the BM based on the measurements in the PB. Our results demonstrate that the mathematical model can quantitatively reproduce the cumulative incidence of the loss of deep and major molecular response in a population of patients, as published by Mahon et al. [4] and Rousselot et al. [5]. Furthermore, to demonstrate how the model can be used to predict the BCR-ABL levels and to estimate the molecular relapse probability of individual patients, we compare simulation results with more than 70 individual BCR-ABL-kinetics. For this analysis we use patient data from different clinical studies (e.g. EURO-SKI: NCT01596114 , STIM(s): NCT00478985 , NCT01343173 ) where TKI-treatment had been stopped after prolonged deep molecular response periods. Specifically, we propose to combine statistical (non-linear regression) and mechanistic (agent-based) modelling techniques, which allows us to quantify the reliability of model predictions by confidence regions based on the quality (i.e. number and variance) of the clinical measurements and on the particular kinetic response characteristics of individual patients. The proposed approach has the potential to support clinical decision making because it provides quantitative, patient-specific predictions of the treatment response together with a confidence measure, which allows to judge the amount of information that is provided by the theoretical prediction. References [1] Roeder et al. (2006) Dynamic modeling of imatinib-treated chronic myeloid leukemia: functional insights and clinical implications, Nat Med 12(10):1181-4 [2] Horn et al. (2013) Model-based decision rules reduce the risk of molecular relapse after cessation of tyrosine kinase inhibitor therapy in chronic myeloid leukemia, Blood 121(2):378-84. [3] Glauche et al. (2014) Model-Based Characterization of the Molecular Response Dynamics of Tyrosine Kinase Inhibitor (TKI)-Treated CML Patients a Comparison of Imatinib and Dasatinib First-Line Therapy, Blood 124:4562 [4] Mahon et al. (2010) Discontinuation of imatinib in patients with chronic myeloid leukaemia who have maintained complete molecular remission for at least 2 years: the prospective, multicentre Stop Imatinib (STIM) trial. Lancet Oncol 11(11):1029-35 [5] Rousselot  et al. (2014) Loss of major molecular response as a trigger for restarting TKI therapy in patients with CP- CML who have stopped Imatinib after durable undetectable disease, JCO 32(5):424-431 Disclosures Glauche: Bristol Meyer Squib: Research Funding. von Bubnoff: Amgen: Honoraria; Novartis: Honoraria, Research Funding; BMS: Honoraria. Saussele: ARIAD: Honoraria; Novartis: Honoraria, Other: Travel grants, Research Funding; Pfizer: Honoraria, Other: Travel grants; BMS: Honoraria, Other: Travel grants, Research Funding. Mustjoki: Bristol-Myers Squibb: Honoraria, Research Funding; Pfizer: Honoraria, Research Funding; Ariad: Research Funding; Novartis: Honoraria, Research Funding. Guilhot: CELEGENE: Consultancy. Mahon: NOVARTIS PHARMA: Honoraria, Research Funding; BMS: Honoraria; PFIZER: Honoraria; ARIAD: Honoraria. Roeder: Bristol-Myers Squibb: Honoraria, Research Funding.",
+    "topics": [
+        "neoplasm, residual",
+        "protein-tyrosine kinase inhibitor",
+        "bcr-abl tyrosine kinase",
+        "imatinib mesylate",
+        "leukemia, myelocytic, chronic",
+        "polymerase chain reaction",
+        "residual tumor",
+        "biological markers",
+        "dasatinib",
+        "disease remission"
+    ],
+    "author_names": [
+        "Ingmar Glauche, PhD",
+        "Hendrik Liebscher",
+        "Christoph Baldow",
+        "Matthias Kuhn",
+        "Philipp Schulze",
+        "Tom Haehnel",
+        "Astghik Voskanyan, PhD",
+        "Joelle Guilhot, PhD",
+        "St\u00e9phanie Dulucq, PhD",
+        "Nikolas von Bubnoff, MD",
+        "Susanne Saussele, MD",
+        "Satu Mustjoki, MD PhD",
+        "Philipp J. Jost, MD",
+        "Francois Guilhot, MD PhD",
+        "Fran\u00e7ois-Xavier Mahon, MD PhD",
+        "Ingo Roeder, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Ingmar Glauche, PhD",
+            "author_affiliations": [
+                "Institute for Medical Informatics and Biometry, Carl Gustav Carus Faculty of Medicine, Technische Universit\u00e4t Dresden, Dresden, Germany "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hendrik Liebscher",
+            "author_affiliations": [
+                "Institute for Medical Informatics and Biometry, Carl Gustav Carus Faculty of Medicine, Technische Universit\u00e4t Dresden, Dresden, Germany "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christoph Baldow",
+            "author_affiliations": [
+                "Institute for Medical Informatics and Biometry, Carl Gustav Carus Faculty of Medicine, Technische Universit\u00e4t Dresden, Dresden, Germany "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matthias Kuhn",
+            "author_affiliations": [
+                "Institute for Medical Informatics and Biometry, Carl Gustav Carus Faculty of Medicine, Technische Universit\u00e4t Dresden, Dresden, Germany "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Philipp Schulze",
+            "author_affiliations": [
+                "Institute for Medical Informatics and Biometry, Carl Gustav Carus Faculty of Medicine, Technische Universit\u00e4t Dresden, Dresden, Germany "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tom Haehnel",
+            "author_affiliations": [
+                "Institute for Medical Informatics and Biometry, Carl Gustav Carus Faculty of Medicine, Technische Universit\u00e4t Dresden, Dresden, Germany "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Astghik Voskanyan, PhD",
+            "author_affiliations": [
+                "III. Medizinische Klinik, Universit\u00e4t Heidelberg, Medizinische Fakult\u00e4t, Mannheim, Germany "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joelle Guilhot, PhD",
+            "author_affiliations": [
+                "Inserm CIC 1402, CHU de Poitiers, Poitiers, France "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "St\u00e9phanie Dulucq, PhD",
+            "author_affiliations": [
+                "Universite Bordeaux, Centre Hospitalier Universitaire, Hematologie, Bordeaux, France "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nikolas von Bubnoff, MD",
+            "author_affiliations": [
+                "H\u00e4matologie, Onkologie und Stammzelltransplantation, Klinik f\u00fcr Innere Medizin I, Universit\u00e4tsklinikum Freiburg, Freiburg, Germany "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Susanne Saussele, MD",
+            "author_affiliations": [
+                "III. Medizinische Klinik, Universit\u00e4t Heidelberg, Medizinische Fakult\u00e4t, Mannheim, Germany "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Satu Mustjoki, MD PhD",
+            "author_affiliations": [
+                "Hematology Research Unit Helsinki, University of Helsinki and Department of Hematology, Helsinki University Hospital Comprehensive Cancer Center, Helsinki, Finland "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Philipp J. Jost, MD",
+            "author_affiliations": [
+                "III. Medical Department for Hematology and Oncology, Technical University of Munich, Munich, Germany"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Francois Guilhot, MD PhD",
+            "author_affiliations": [
+                "Inserm CIC 1402, CHU de Poitiers, Poitiers, France "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Fran\u00e7ois-Xavier Mahon, MD PhD",
+            "author_affiliations": [
+                "Universite Bordeaux, Centre Hospitalier Universitaire, Hematologie, Bordeaux, France "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ingo Roeder, PhD",
+            "author_affiliations": [
+                "Institute for Medical Informatics and Biometry, Carl Gustav Carus Faculty of Medicine, Technische Universit\u00e4t Dresden, Dresden, Germany "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-07T04:08:00",
+    "is_scraped": "1"
 }
