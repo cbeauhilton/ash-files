@@ -1,8 +1,125 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3413",
-    "start_url_page_num": "3413",
     "doi": "https://doi.org/10.1182/blood.V128.22.3151.3151",
-    "url": "https://ashpublications.org/blood/article/128/22/3151/98099/A-Genomic-Rule-Predicting-HMA-Treatment-Response?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T21:41:37",
-    "is_scraped": "0"
+    "article_title": "A Genomic Rule Predicting HMA Treatment Response in MDS Identified By Protein Network Mapping and Validated By Clinical Trial Simulation ",
+    "article_date": "December 2, 2016",
+    "session_type": "636. Myelodysplastic Syndromes-Basic and Translational Studies: Poster II",
+    "abstract_text": "Background: Hypomethyating agents (HMAs) for the treatment of the myelodysplastic syndromes (MDS) fail to achieve clinical improvement in nearly 60% of patients. We previously reported a genomics-informed computational method that had >80% accuracy in predicting HMA treatment response in higher risk MDS patients. Aim: To define novel genomic signature rules to predict MDS response to HMA therapy and validate the rules in a clinical trial simulation. Methods: We analyzed a cohort of 213 high-risk MDS patients treated with an HMA and assessed for disease response by IWG criteria (Bejar, et al. Blood 2014). Bone marrow cells from these MDS patients were examined by conventional cytogenetics and next generation sequencing of target myeloid genes. For each patient, every available genomic abnormality was entered into a computational biology program (Cellworks Group) that uses PubMed and other online resources to generate patient-specific protein network maps of activated and inactivated protein pathways. Digital drug simulations with HMAs were conducted by quantitatively measuring drug effect on a composite MDS disease inhibition score (i.e., cell proliferation, viability, and apoptosis). This information was then used to create virtual Kaplan Meier-type estimates plotting the percent of responders (Y axis) to their disease inhibition score (X axis). A database was developed to house the clinical, genomic, and demographic information for each patient, and used to run clinical trial simulations. Results: A training cohort of 80 MDS patients was used to identify genomic signature rules capable of predicting clinical response to HMA treatment. The 3 rules identified were (1) null hypothesis, no rule for selection of MDS patients for HMA response; (2) TET2 mutation alone, which is known to influence response to HMA in MDS; and (3) TET2 function exclusion, defined as TET2 mutation without the presence of ASXL1 mutation, harboring wild-type SRSF2 , and wild-type EZH2 . Next, we used these rules in a clinical trial simulation involving 109 different patients in the test dataset. 14 of 203 patients lacked adequate genomic or clinical data for the virtual trial. The 3 rules identified in the training set served as inclusion criteria for 3 HMA treatment arms. The data enabled us to generate the predictive equivalent to a Kaplan-Meier estimate for each arm. Using rule (1) as a control treatment arm, we used rule (2) as an inclusion criterion for a second treatment arm and found a non-significant probability that a randomly selected patient obtained a better MDS disease inhibition score using the rule (2) inclusion criterion ( P =0.08) (Figure 1). When rule (3) was used as inclusion criteria, the probability that a randomly selected patient obtained a better MDS disease inhibition score was significantly increased ( P =0.0023) (Figure 1). Conclusions: In this study we identified a new four-gene rule predicting MDS response to HMA treatment. We also present a novel method of clinical trial simulation to validate biomarker rules. This unique computer-based approach is intended to inform the design of phase 2 and 3 clinical trials with the ultimate goal of improving drug development time and expense by establishing and validating inclusion criteria for precision enrollment. Figure 1 View large Download slide Clinical Trial Simulation of HMA Treatment in MDS Patients Based on Gene Signature Rules. A genomically-informed computational method identified 3 MDS genomic signatures with potential to predict HMA treatment response based on a training set of patient data (N=80). A separate validation cohort of 109 patients was then virtually recruited into one of 3 HMA treatment arms based on genomic signature rules. In this study, patients with TET2 mutation alone (red line) showed a trend toward greater clinical response than the unselected control cohort (black line) ( P =0.08). However, patients harboring TET2 mutation without mutations of ASXL1 , SRSF2 , and EZH2 (green line) showed significantly greater response to HMA treatment than the unselected control cohort (black line) (p=0.0023). Figure 1 View large Download slide Clinical Trial Simulation of HMA Treatment in MDS Patients Based on Gene Signature Rules. A genomically-informed computational method identified 3 MDS genomic signatures with potential to predict HMA treatment response based on a training set of patient data (N=80). A separate validation cohort of 109 patients was then virtually recruited into one of 3 HMA treatment arms based on genomic signature rules. In this study, patients with TET2 mutation alone (red line) showed a trend toward greater clinical response than the unselected control cohort (black line) ( P =0.08). However, patients harboring TET2 mutation without mutations of ASXL1 , SRSF2 , and EZH2 (green line) showed significantly greater response to HMA treatment than the unselected control cohort (black line) (p=0.0023).  Close modal Disclosures Kumar Singh: Cellworks: Employment. Tiwari: Cellworks: Employment. Vali: Cellworks Group: Employment. Abbasi: Cellworks: Employment. Bejar: Celgene: Consultancy, Honoraria; Genoptix: Consultancy, Honoraria, Patents & Royalties: No royalties; Foundation Medicine: Consultancy.",
+    "topics": [
+        "biological markers",
+        "gene expression profiling",
+        "genome",
+        "lung injury, ventilator-associated",
+        "massively-parallel genome sequencing",
+        "myelodysplastic syndrome",
+        "arm",
+        "bone marrow cells",
+        "computers",
+        "drug development"
+    ],
+    "author_names": [
+        "Leylah Drusbosky, PhD",
+        "Neeraj Kumar Singh",
+        "Pranav Tiwari",
+        "Shireen Vali, PhD",
+        "Taher Abbasi",
+        "Sarbjit Sarkaria",
+        "Adam Lorant",
+        "Satin Burns",
+        "Rafael Bejar, MD PhD",
+        "Christopher R. Cogle, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Leylah Drusbosky, PhD",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, Department of Medicine, University of Florida, Gainesville, FL "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Neeraj Kumar Singh",
+            "author_affiliations": [
+                "Cellworks Group Inc., San Jose, CA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pranav Tiwari",
+            "author_affiliations": [
+                "Cellworks Group Inc., San Jose, CA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shireen Vali, PhD",
+            "author_affiliations": [
+                "Cellworks Group Inc., San Jose, CA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Taher Abbasi",
+            "author_affiliations": [
+                "Cellworks Group Inc., San Jose, CA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sarbjit Sarkaria",
+            "author_affiliations": [
+                "PHEMI, Vancouver, Canada "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Adam Lorant",
+            "author_affiliations": [
+                "PHEMI, Vancouver, Canada "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Satin Burns",
+            "author_affiliations": [
+                "PHEMI, Vancouver, Canada "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rafael Bejar, MD PhD",
+            "author_affiliations": [
+                "Moores Cancer Center, UCSD, La Jolla, CA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher R. Cogle, MD",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, Department of Medicine, University of Florida, Gainesville, FL "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-07T02:24:35",
+    "is_scraped": "1"
 }

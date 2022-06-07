@@ -1,8 +1,319 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3406",
-    "start_url_page_num": "3406",
     "doi": "https://doi.org/10.1182/blood.V128.22.1091.1091",
-    "url": "https://ashpublications.org/blood/article/128/22/1091/96011/Divergent-Modes-of-Tumor-Evolution-Underlie?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T21:19:59",
-    "is_scraped": "0"
+    "article_title": "Divergent Modes of Tumor Evolution Underlie Histological Transformation and Early Progression of Follicular Lymphoma ",
+    "article_date": "December 2, 2016",
+    "session_type": "621. Lymphoma-Genetic/Epigenetic Biology: Sequencing",
+    "abstract_text": "Introduction : Follicular lymphoma (FL) remains a significant clinical burden as it is an incurable disease and most patients will eventually suffer from disease progression. Two clinical events are associated with poor outcomes for patients with FL: (1) histological transformation (TFL) of their original FL into a high-grade, aggressive lymphoma subtype (2-3% of patients per year) and (2) early disease progression (PFL) where patients experience treatment failure within 2 years of receiving therapy (20% of patients). Despite recent high-throughput sequencing studies, the nature of tumor clonal dynamics leading to TFL or PFL is poorly understood and it is unknown if similar, or contrasting, modes of selection underpin these FL clinical events. Materials & Methods: We assembled a study cohort consisting of 21 patients: 15 experiencing TFL and 6 PFL. For each TFL and PFL patient, we obtained primary biopsies (T1; taken at the time of the initial FL diagnosis), biopsies at transformation/progression (T2) and matched normal samples. We performed whole genome sequencing on each specimen and identified single point mutations and copy number alterations using MutationSeq and TITAN, respectively. We compared T1 to T2 somatic mutation profiles and identified mutations associated with extinction of T1 clones and expansion of T2 clones. To validate these patterns, we selected 192 positions from each patient for deep-targeted sequencing validation (~10733X) in their T1, T2, and normal samples. We applied a statistical model (PyClone) to estimate cancer cell fraction (CCF) of each validated mutation. These CCF estimates were used to construct clonal phylogenies (Citup) and infer clonal dynamic patterns during their evolutionary histories. The Wright-Fisher model of genetic drift was used to model tumor evolution. Results : Temporal analysis of mutational burden revealed that mutational burden was significantly higher in T2 (8162 mutations \u00b1 2146) than in T1 (6373 \u00b1 2630) tumors for both TFL and PFL patients (Wilcox P < 0.001). This was independent of time interval between sampling (Spearman R 2 = 0.029, P = 0.456). Mutation variant allelic fraction (VAF) distributions revealed that all distributions showed evidence of shared clonal ancestry between T1 and T2 tumors accompanied by substantial numbers of T1 and T2-specific mutations. We selected \u2265 192 mutations per patient from these distributions and performed deep-targeted amplicon sequencing, validating 96.3% of mutations and acquiring precise VAFs to infer clonal dynamics. In 13 of 15 TFL patients (87%), we observed dramatic clonal dynamics, characteristic of T2 tumors dominated by clones (or phylogenetic lineages) that were absent or extremely rare in T1 tumors (< 1% CCF). Digital droplet PCR was used to confirm the existence of both scenarios (confirming a clone as rare as 2 out of approximately 10 5 cells). Tumor evolution modeling demonstrated that this mode of evolution was driven through positive selection for mutations that confer fitness advantages and not by genetic drift. In contrast, PFL patients exhibited markedly different patterns of clonal dynamics compared to TFL patients. 4 of 6 PFL patients (67%) harbored readily detectable clones at T1, which expanded to full clonal prevalence during treatment with immuno-chemotherapy. Tumor evolution modeling demonstrated that this mode of evolution could be explained under neutral evolutionary dynamics (drift). Conclusions : We have shown that histological transformation and early progression manifest through divergent modes of tumor evolution. As the transformation phenotype may arise after diagnosis, more frequent monitoring of these patients will be required to determine the exact timing of the evolutionary inflection point that elicits transformation. In comparison, prediction of early treatment resistance should be achievable through comprehensive characterization of the genetic and clonal composition at diagnosis; this would ultimately identify patients who may benefit from upfront alternative therapies without the need to first endure predictable early treatment failure. Disclosures Sehn: roche/genentech: Consultancy, Honoraria; amgen: Consultancy, Honoraria; seattle genetics: Consultancy, Honoraria; abbvie: Consultancy, Honoraria; TG therapeutics: Consultancy, Honoraria; celgene: Consultancy, Honoraria; lundbeck: Consultancy, Honoraria; janssen: Consultancy, Honoraria. Connors: Millennium Takeda: Research Funding; Seattle Genetics: Research Funding; F Hoffmann-La Roche: Research Funding; Bristol Myers Squib: Research Funding; NanoString Technologies: Research Funding. Scott: Janssen: Consultancy; Celgene: Consultancy; Roche: Honoraria; BC Cancer Agency: Patents & Royalties: Inventor on a patent licensed to NanoString Technologies.",
+    "topics": [
+        "follicular lymphoma",
+        "neoplasms",
+        "biopsy",
+        "disease progression",
+        "alternative medicine",
+        "cancer",
+        "cancer immunotherapy",
+        "non-hodgkin's lymphoma, aggressive",
+        "polymerase chain reaction",
+        "tumor cells, malignant"
+    ],
+    "author_names": [
+        "Fong Chun Chan",
+        "Robert Kridel",
+        "Anja Mottok",
+        "Merrill Boyle",
+        "Pedro Farinha",
+        "King Tan",
+        "Barbara Meissner",
+        "Ali Bashashati",
+        "Andrew McPherson, PhD",
+        "Andrew Roth, PhD",
+        "Karey Shumansky",
+        "Damian Yap, PhD",
+        "Susana Ben-Neriah",
+        "Jamie Rosner",
+        "Maia A. Smith",
+        "Cydney Nielsen, PhD",
+        "Adele Telenius",
+        "Daisuke Ennishi",
+        "Andrew J. Mungall",
+        "Richard Moore, PhD",
+        "Ryan D. Morin",
+        "Nathalie A. Johnson",
+        "Laurie H Sehn, MD",
+        "Joseph M. Connors",
+        "David W Scott, MBChB, PhD",
+        "Christian Steidl",
+        "Marco A. Marra, PhD",
+        "Randy D Gascoyne, MD",
+        "Sohrab P. Shah"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Fong Chun Chan",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer Agency, Vancouver, Canada ",
+                "Department of Bioinformatics, University of British Columbia, Vancouver, Canada "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Robert Kridel",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anja Mottok",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Merrill Boyle",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pedro Farinha",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "King Tan",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Barbara Meissner",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ali Bashashati",
+            "author_affiliations": [
+                "Department of Molecular Oncology, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew McPherson, PhD",
+            "author_affiliations": [
+                "Department of Molecular Oncology, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew Roth, PhD",
+            "author_affiliations": [
+                "Department of Molecular Oncology, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karey Shumansky",
+            "author_affiliations": [
+                "Department of Molecular Oncology, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Damian Yap, PhD",
+            "author_affiliations": [
+                "Department of Molecular Oncology, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Susana Ben-Neriah",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jamie Rosner",
+            "author_affiliations": [
+                "Department of Molecular Oncology, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maia A. Smith",
+            "author_affiliations": [
+                "Department of Molecular Oncology, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cydney Nielsen, PhD",
+            "author_affiliations": [
+                "Department of Molecular Oncology, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Adele Telenius",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daisuke Ennishi",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew J. Mungall",
+            "author_affiliations": [
+                "Michael Smith Genome Sciences Centre, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Richard Moore, PhD",
+            "author_affiliations": [
+                "Michael Smith Genome Sciences Centre, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ryan D. Morin",
+            "author_affiliations": [
+                "Michael Smith Genome Sciences Centre, BC Cancer Agency, Vancouver, Canada ",
+                "Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, Canada "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nathalie A. Johnson",
+            "author_affiliations": [
+                "Lady Davis Institute for Medical Research, McGill University, Montreal, Canada "
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laurie H Sehn, MD",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joseph M. Connors",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David W Scott, MBChB, PhD",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 25,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christian Steidl",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer Agency, Vancouver, Canada ",
+                "Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, Canada "
+            ],
+            "author_rank": 26,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marco A. Marra, PhD",
+            "author_affiliations": [
+                "Michael Smith Genome Sciences Centre, British Columbia Cancer Agency, Vancouver, Canada"
+            ],
+            "author_rank": 27,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Randy D Gascoyne, MD",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 28,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sohrab P. Shah",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer Agency, Vancouver, Canada ",
+                "Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, Canada "
+            ],
+            "author_rank": 29,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-07T02:16:08",
+    "is_scraped": "1"
 }
