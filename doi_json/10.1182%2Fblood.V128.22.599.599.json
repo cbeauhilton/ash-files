@@ -1,8 +1,275 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3477",
-    "start_url_page_num": "3477",
     "doi": "https://doi.org/10.1182/blood.V128.22.599.599",
-    "url": "https://ashpublications.org/blood/article/128/22/599/94876/Changes-of-the-Mutational-Landscape-in-Relapsed?searchresult=1",
-    "datetime_link_obtained": "2022-04-27T23:45:57",
-    "is_scraped": "0"
+    "article_title": "Changes of the Mutational Landscape in Relapsed Acute Myeloid Leukemia ",
+    "article_date": "December 2, 2016",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Insights into AML Based on Comprehensive Sequencing Data",
+    "abstract_text": "Acute myeloid leukemia (AML) is the most common type of acute leukemia in adults. Unfortunately, a significant proportion of patients relapse after responding to initial treatment reflecting our poor understanding of the mechanisms mediating therapy resistance and relapse. We hypothesized that understanding the evolution of the mutational landscape between diagnosis and relapse is essential in order to identify mutational markers associated with sensitivity or resistance to treatment. To address this hypothesis we assembled a cohort of 53 clinically annotated, paired AML patient samples (diagnosis, relapse and patient-matched germline samples; mean age = 52 years). All patients achieved clinical remission after treatment with combination chemotherapy (cytarabine arabinoside and an anthracycline) during induction phase followed by consolidation chemotherapy treatment with or without a stem cell transplantation in first remission. Serial samples were collected at the time of initial diagnosis and within three months of relapse (mean time to relapse 455 days). We performed whole-exome and targeted capture followed by high-throughput sequencing. We aligned samples with BWA, recalibrated them with The Genome Analysis Toolkit (GATK) and then compiled integrated calls from substitution and indel callers (Mutect, Scalpel, Strelka, Varscan and Somatic Sniper). We performed several layers of post-processing filtering on these calls, including removing non-oncogenic mutations and previously documented non-somatic variants, and correcting for the variant allele fraction of indel calls. We filtered out the variants that were found to occur in non-copy number neutral re-arrangements using the clinically determined cytogenetic data. Furthermore, we assessed for copy number events, including loss of heterozygosity events, and for the presence and the variant allele frequency of the FLT3-ITD in our samples. We observed a median of 4.5 and 5 mutations per patient at diagnosis and relapse, respectively, with 3.5 mutations being shared by paired diagnosis and relapse samples. When limiting our analysis to genes previously shown to contribute to leukemogenesis, we found a median of 1.5 and 2 mutations per patient at diagnosis and relapse, with 1 mutation being shared. FLT3 , DNMT3A , IDH2, NRAS, RUNX1 and TET2 were among the most commonly mutated genes, with a detected presence rate of 28%, 25%, 19%, 19%, 11% and 11%, respectively, in the diagnosis samples and 39%, 23%, 19%, 4%, 13% and 11% in the relapse samples. We identified significant variation in the variant allele frequency (VAF) for several of the mutations related to these genes and others, denoting variations in the cellular prevalence of the related clones after adjustment for tumor content using the mutations with the highest VAF to delineate clonal architecture. Specifically, we observed that DNMT3A , IDH2 , TET2 variants are most commonly present in the bulk AML clone, and persist after treatment. WT1 , GATA2 and FLT3 mutations are predicted to confer relative resistance to standard combination chemotherapy treatment based on their increased VAF at relapse, whereas KRAS and NRAS subclone(s) are more sensitive to chemotherapy since their VAFs decrease following multiagent chemotherapy. Fifteen patients presented new events in leukemogenesis-related genes at relapse. Overall, our results support a model of AML as a disease with a complex mutational hierarchy and clonal architecture and provide further insight into how these change in response to standard induction therapy. Our data suggests that future efforts to develop targeted therapies with maximal clinical benefit in combination with standard induction treatments should be placed on mutated genes identified to be more strongly associated with disease relapse. Authors contributed equally: F. Rapaport and M.R. De Massy Authors contributed equally: A. al Hinai and M.A. Sanders Disclosures Guzman: Cellectis: Research Funding. Roboz: Cellectis: Research Funding; Agios, Amgen, Amphivena, Astex, AstraZeneca, Boehringer Ingelheim, Celator, Celgene, Genoptix, Janssen, Juno, MEI Pharma, MedImmune, Novartis, Onconova, Pfizer, Roche/Genentech, Sunesis, Teva: Consultancy. Melnick: Janssen: Research Funding. Levine: Qiagen: Membership on an entity's Board of Directors or advisory committees; Novartis: Consultancy.",
+    "topics": [
+        "leukemia, myelocytic, acute",
+        "chemotherapy regimen",
+        "ms-like tyrosine kinase 3",
+        "combination drug therapy",
+        "disease remission",
+        "leukemogenesis",
+        "anthracycline antibiotics",
+        "cytarabine",
+        "hematopoietic stem cell transplantation",
+        "impedance threshold device"
+    ],
+    "author_names": [
+        "Franck Rapaport, PhD",
+        "Marc Robert de Massy",
+        "Adil al Hinai",
+        "Mathijs A. Sanders, PhD",
+        "Todd Hricik",
+        "Caroline Sheridan",
+        "Tak C Lee, M.S.",
+        "Yaseswini Neelamraju",
+        "Jay Patel",
+        "Stephen S. Chung, MD",
+        "Michael W. Becker, MD",
+        "Ian D Lewis, MBBS, PhD FRACP, FRCPA",
+        "Richard D'Andrea, PhD",
+        "Lars Bullinger, MD",
+        "Konstanze D\u00f6hner, MD",
+        "Hartmut D\u00f6hner, MD",
+        "Monica L. Guzman, PhD",
+        "Gail J. Roboz",
+        "Martin Carroll, MD",
+        "Christopher Y. Park, MD PhD",
+        "Christopher E. Mason, PhD",
+        "Ari Melnick, MD",
+        "Ross L. Levine, MD",
+        "Peter J.M. Valk, PhD",
+        "Francine E. Garrett-Bakelman, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Franck Rapaport, PhD",
+            "author_affiliations": [
+                "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marc Robert de Massy",
+            "author_affiliations": [
+                "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Adil al Hinai",
+            "author_affiliations": [
+                "Erasmus Medical Center, Rotterdam, Netherlands "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mathijs A. Sanders, PhD",
+            "author_affiliations": [
+                "Department of Hematology, Erasmus University Medical Center, Rotterdam, Netherlands "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Todd Hricik",
+            "author_affiliations": [
+                "Memorial Sloan Kettering Cancer Center (Currently at Desca Consulting), New York, NY "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Caroline Sheridan",
+            "author_affiliations": [
+                "Department of Hematology & Medical Oncology, Weill Cornell Medicine, New York, NY "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tak C Lee, M.S.",
+            "author_affiliations": [
+                "Department of Medicine, Division of Hematology & Medical Oncology, Weill Cornell Medicine, New York, NY "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yaseswini Neelamraju",
+            "author_affiliations": [
+                "Department of Medicine, Division of Hematology & Medical Oncology, Weill Cornell Medicine, New York, NY "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jay Patel",
+            "author_affiliations": [
+                "Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephen S. Chung, MD",
+            "author_affiliations": [
+                "Leukemia Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael W. Becker, MD",
+            "author_affiliations": [
+                "James P. Wilmot Cancer Institute, Department of Medicine, University of Rochester, Rochester, NY "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ian D Lewis, MBBS, PhD FRACP, FRCPA",
+            "author_affiliations": [
+                "Department of Haematology, SA Pathology, Adelaide, Australia "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Richard D'Andrea, PhD",
+            "author_affiliations": [
+                "School of Molecular and Biomedical Science, The University of Adelaide, Adelaide, Australia "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lars Bullinger, MD",
+            "author_affiliations": [
+                "Department of Internal Medicine III, University Hospital of Ulm, Ulm, Germany "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Konstanze D\u00f6hner, MD",
+            "author_affiliations": [
+                "Department of Internal Medicine III, University Hospital of Ulm, Ulm, Germany "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hartmut D\u00f6hner, MD",
+            "author_affiliations": [
+                "Department of Internal Medicine III, University Hospital of Ulm, Ulm, Germany "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Monica L. Guzman, PhD",
+            "author_affiliations": [
+                "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medical College, New York, NY "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gail J. Roboz",
+            "author_affiliations": [
+                "Weill Cornell Medical College, New York, NY "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martin Carroll, MD",
+            "author_affiliations": [
+                "Division of Hematology and Oncology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher Y. Park, MD PhD",
+            "author_affiliations": [
+                "Department of Pathology, New York University School of Medicine, New York, NY "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher E. Mason, PhD",
+            "author_affiliations": [
+                "Institute for Computational Biomedicine and Department of Physiology and Biophysics, Weill Cornell Medical College, New York, NY "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ari Melnick, MD",
+            "author_affiliations": [
+                "Division of Hem./Onc., Dept. of Medicine, Weill Cornell Medical College, New York, NY"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ross L. Levine, MD",
+            "author_affiliations": [
+                "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter J.M. Valk, PhD",
+            "author_affiliations": [
+                "Department of Hematology, Erasmus University Medical Center, Rotterdam, Netherlands "
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Francine E. Garrett-Bakelman, MD PhD",
+            "author_affiliations": [
+                "Department of Medicine, Division of Hematology & Medical Oncology, Weill Cornell Medicine, New York, NY "
+            ],
+            "author_rank": 25,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-07T21:29:32",
+    "is_scraped": "1"
 }
