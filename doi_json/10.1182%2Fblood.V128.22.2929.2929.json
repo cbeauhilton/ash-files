@@ -1,8 +1,65 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3518",
-    "start_url_page_num": "3518",
     "doi": "https://doi.org/10.1182/blood.V128.22.2929.2929",
-    "url": "https://ashpublications.org/blood/article/128/22/2929/113474/Dynamical-Modeling-of-Clonal-Evolution-in-Paired?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T05:27:41",
-    "is_scraped": "0"
+    "article_title": "Dynamical Modeling of Clonal Evolution in Paired Primary and Relapsed Follicular Lymphoma Predicts a Link Between Cell Migration and Evolutionary Heterogeneity ",
+    "article_date": "December 2, 2016",
+    "session_type": "621. Lymphoma-Genetic/Epigenetic Biology: Poster II",
+    "abstract_text": "Background : Recently, data of paired primary and relapsed t(14;18) positive follicular lymphoma (FL) revealed a large heterogeneity in clonal evolution. In these studies, ongoing somatic hypermutation (SHM) in immunoglobulin heavy chain V gene (IGHV) rearrangements was used as a \"flight recorder\" of evolution providing phylogenetic trees. Pasqualucci et al. [ Cell Rep . 2014;6(1):130-40] observed that FL transformation to DLBCL is associated with \"divergent evolution\", i.e. primary and relapse tumors arise from a common precursor. Loeffler et al. [Genomic and epigenomic co-evolution in follicular lymphomas. Leukemia . 2015;29(2):456-63] reported a broader evolutionary spectrum in relapsed FL, ranging from \"divergent\" to \"sequential\" (relapse sequences emerge out of primary clones) and \"no evolution\" (shared IGHV sequences in primary and relapse tumors). Currently, there is no conclusive concept to explain these different types of evolution. Furthermore, the consequences of this heterogeneity for clinical decision-making are yet unclear. To answer these questions, a mathematical modeling approach was used. Methods: We developed a single-cell model of the physiological germinal center (GC) reaction to describe the dynamics of GC expansion and B-cell affinity maturation in silico . Two different growth compartments (dark and light zone within a GC) are considered. GCs are simulated over time, based on cell-cell and cell-microenvironment interactions. To capture mechanisms such as SHM, we incorporated an artificial genome into each model cell. While IGHV mutations influence antigen affinities, driver mutations are reflected by parameter changes of proliferation and apoptosis behavior in affected cells. Additionally, we permitted cell migration between follicles. Using our model, we simulated primary FL emergence and relapse and compared the results to phylogenetic trees reconstructed from IGHV sequences of paired tumor samples. Results: We identified a set of parameter changes in single cells (driver mutations) which permit an FL-cell population to take over a normal GC, creating a primary tumor in silico . Importantly, our model only provides a consistent explanation for the different types of evolution following tumor initiation if interfollicular cell migration is taken into account. Modulating 2 critical parameters (timepoint of migration and number of migrating cells), the heterogeneity of clonal evolution can be fully reproduced. While \"divergent evolution\" is only obtained with early migration (i.e., shortly after GC formation) and few migrating FL cells, \"sequential evolution\" is found in cases with late migration. In contrast, \"no evolution\" can only be explained if migration of multiple cells is assumed. Our model results are also in agreement with quantitative measurements such as clone sizes and the ratio of replacement and silent IGHV mutations. Additionally, our model is consistent with the observed co-evolution of driver mutations. Finally, we can make biologically and clinically testable model predictions: Upon clonal dominance of FL cells within a GC we predict antigen affinity-independent growth regulation of B-cells and complete cessation of SHM. Furthermore, we predict a pivotal role of cell migration in FL evolution and the existence of extrafollicular niche-like environments in which FL cells lie dormant for extended periods of time. Our simulations indicate that there are no distinct types of evolution. We rather propose to view evolutionary heterogeneity as a continuum, predicting the possibility of co-existence of different patterns of evolution within a patient. This notably also includes the option that the evolutionary sequence of primary and relapse tumor appears reversed. Conclusions: Our work represents the first comprehensive dynamical in silico lymphoma model, providing a consistent explanation for evolutionary heterogeneity. We conclude that the type of evolution is not predictable based on profiling of tumor cells (e.g., with respect to driver mutations) but is rather stochastic (i.e., based on random timepoints and the frequency of cell migration). We therefore caution to draw clinically relevant conclusions from evolutionary profiles. As migration of FL cells within the lymphatic system appears to be a key event in disease evolution, inhibition of cell migration may be a therapeutic target. Acknowledgment: BMBF/PTJ 031 6166 Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "cell motility",
+        "follicular lymphoma",
+        "heterogeneity",
+        "neoplasms",
+        "antigens",
+        "diffuse large b-cell lymphoma",
+        "immunoglobulin heavy chains",
+        "leukemia",
+        "lymphoma",
+        "tumor cells"
+    ],
+    "author_names": [
+        "Matthias Horn, PhD",
+        "Markus Kreuz, PhD",
+        "Ralf K\u00fcppers, PhD",
+        "Markus Loeffler, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Matthias Horn, PhD",
+            "author_affiliations": [
+                "Institute for Medical Informatics, Statistics and Epidemiology, University of Leipzig, Leipzig, Germany "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Markus Kreuz, PhD",
+            "author_affiliations": [
+                "Institute for Medical Informatics, Statistics and Epidemiology, University of Leipzig, Leipzig, Germany "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ralf K\u00fcppers, PhD",
+            "author_affiliations": [
+                "Institute of Cell Biology, University of Duisburg-Essen, Essen, Germany"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Markus Loeffler, MD PhD",
+            "author_affiliations": [
+                "Institute for Medical Informatics, Statistics and Epidemiology, University of Leipzig, Leipzig, Germany "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-08T09:32:16",
+    "is_scraped": "1"
 }

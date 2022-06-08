@@ -1,8 +1,156 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3522",
-    "start_url_page_num": "3522",
     "doi": "https://doi.org/10.1182/blood.V128.22.2893.2893",
-    "url": "https://ashpublications.org/blood/article/128/22/2893/113568/Discovery-of-Predictive-Gene-Signatures-for-Tumor?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T05:27:55",
-    "is_scraped": "0"
+    "article_title": "Discovery of Predictive Gene Signatures for Tumor Sensitivity to MDM2 Inhibition in Development of a Novel MDM2 Inhibitor DS-3032b ",
+    "article_date": "December 2, 2016",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster II",
+    "abstract_text": "Development of MDM2 inhibitors enabled successful induction of p53-mediated apoptosis in tumor cells without a risk of DNA damage. Early clinical trials of MDM2 inhibitors demonstrated proof-of-concept (Andreeff et al., Clin Can Res, 2015). However, a clinical challenge is that not all the tumors bearing wild-type TP53 are sensitive to MDM2 inhibition. We here discovered novel gene profiling-based algorithms for predicting tumor sensitivity to MDM2 inhibition, using DS-3032b, a novel potent MDM2 inhibitor, which is currently in early clinical trials. In vitro inhibitory effects of DS-3032b on MDM2-p53 interaction was demonstrated using the homogeneous time resolved fluorescence (HTRF) assay (IC 50 5.57 nM). DS-3032b treatment (30-1000 nM) indeed increased p53 protein in a dose-dependent manner, and also the p53 targets MDM2 and p21, in cancer cell lines with wild-type TP53 (SJSA-1, MOLM-13, DOHH-2, and WM-115), showing around 10-fold potent growth inhibition effects compared to Nutlin-3a (Table 1). The xenograft mouse models with SJSA-1 and MOLM-13 cells showed > 90% reduction in tumor growth with oral administrations of 25 and 50 mg/kg/day. For discovering predictive gene signatures, we performed two different approaches. In the first approach, 240 cell lines available as OncoPanel were treated with DS-3032b, another prototypic MDM2 inhibitor DS-5272, and Nutlin-3a, and determined 62 sensitive and 164 resistant lines, based on GI50s. Using gene expression profiling (GEP) publicly available for all the cell lines, we selected 175 top-ranked genes with highest expression in the 62 sensitive cell lines. We thus defined the average of Z-scores of the 175 gene expression as \"sensitivity score\". To validate the 175-gene signature, we evaluated in vivo anti-tumor activities of DS-3032b in 13 patient-derived tumor xenografts (melanoma, NSCLC, colorectal and pancreatic cancers). The prediction accuracy, sensitivity, positive predictive value (PPV), and negative predictive value (NPV) were 85, 88, 88 and 80% respectively. As another validation set, 41 primary AML samples were treated with DS-3032b to define the top and bottom one-third most sensitive or resistant samples (14 each), and GEP was performed in every sample. TP53 mutations were detected in 8 specimens by next generation sequencing and confirmed by Sanger sequencing. The 175-gene signature was applied to the AML dataset, and the accuracy, sensitivity, PPV and NPV to predict the 14 sensitive or resistant samples were 79, 93, 72 and 90% respectively. Importantly, this signature was more predictive than the TP53 mutation status alone applied (68, 93, 62 and 86%). (Table 2A-B) In contrast to the cell line-based approach, the second approach defined an AML-specific gene signature. Specifically, we used the same dataset of 41 primary AML samples described above as training and validation set, by performing random forest methods with cross validation. Using a routine way in bioinformatics analysis of classifying gene signature, we first selected the 1500 top-ranked genes with highest expression variance among all the specimens. In addition, p53-related 32 genes that potentially have predictive values were also selected based on the previous reports. Classification was performed using the random forest method to identify a predictive algorithm with the 1500-gene set, 32-gene set or combined 1525-gene set (7 genes were overlapped), thus we found that the 1525-gene set had highest performance than each gene set alone. However, applying this method to all the 41 samples showed inferior predictive performance than applied only to the 33 wild-type TP53 samples (the prediction accuracy, sensitivity, PPV and NPV were 68, 72, 67 and 69%, vs. 77, 82, 75 and 80%).(Table 2C) Finally, we combined each of the two algorithms (Table 2B-C) with TP53 mutation status. Specifically, the samples with TP53 mutations were predicted as resistant, then either of gene signatures was applied to the rest of the samples with wild-type TP53 . Predictive performance (Table 2D-E) was improved in both signatures compared to the others, especially showing the highest PPVs (80 and 82%, respectively). Taken together, gene signatures discovered in the present study, by combining with TP53 mutation status, provided new highly predictive algorithms for therapy of MDM2 inhibition. Our findings will be tested in ongoing clinical trials of DS-3032b. View large Download slide View large Download slide Close modal View large Download slide View large Download slide Close modal Disclosures Nakamaru: Daiichi Sankyo Co., Ltd: Employment. Seki: 2Daiichi Sankyo Co., Ltd.: Employment. Tazaki: 2Daiichi Sankyo Co., Ltd.: Employment. DiNardo: Celgene: Research Funding; Novartis: Other: advisory board, Research Funding; Abbvie: Research Funding; Agios: Other: advisory board, Research Funding; Daiichi Sankyo: Other: advisory board, Research Funding. Tse: Daiichi Sankyo, Inc.: Employment.",
+    "topics": [
+        "genes",
+        "neoplasms",
+        "protein p53",
+        "gene expression profiling",
+        "mechlorethamine",
+        "transplantation, heterologous",
+        "administration, oral",
+        "dideoxy chain termination dna sequencing",
+        "massively-parallel genome sequencing",
+        "melanoma"
+    ],
+    "author_names": [
+        "Jo Ishizawa, MD PhD",
+        "Kenji Nakamaru",
+        "Takahiko Seki",
+        "Koichi Tazaki",
+        "Kensuke Kojima, MD PhD",
+        "Dhruv Chachad",
+        "Courtney D DiNardo, MD",
+        "Sherry Pierce, BSN, BA",
+        "Keyur P. Patel, MD PhD",
+        "Archie Tse",
+        "R Eric Davis, MD",
+        "Arvind Rao, PhD",
+        "Michael Andreeff, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Jo Ishizawa, MD PhD",
+            "author_affiliations": [
+                "Section of Molecular Hematology and Therapy, Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kenji Nakamaru",
+            "author_affiliations": [
+                "Daiichi Sankyo Co., Ltd., Tokyo, Japan "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Takahiko Seki",
+            "author_affiliations": [
+                "Daiichi Sankyo Co., Ltd., Tokyo, Japan "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Koichi Tazaki",
+            "author_affiliations": [
+                "Daiichi Sankyo Co., Ltd., Tokyo, Japan "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kensuke Kojima, MD PhD",
+            "author_affiliations": [
+                "Section of Molecular Hematology and Therapy, Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, ",
+                "Hematology, Respiratory Medicine and Oncology, Department of Medicine, Saga University, Saga, Japan "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dhruv Chachad",
+            "author_affiliations": [
+                "Section of Molecular Hematology and Therapy, Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Courtney D DiNardo, MD",
+            "author_affiliations": [
+                "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sherry Pierce, BSN, BA",
+            "author_affiliations": [
+                "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Keyur P. Patel, MD PhD",
+            "author_affiliations": [
+                "Department of Hematopathology, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Archie Tse",
+            "author_affiliations": [
+                "Daiichi Sankyo, Inc., Edison, "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "R Eric Davis, MD",
+            "author_affiliations": [
+                "Department of Lymphoma/Myeloma, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Arvind Rao, PhD",
+            "author_affiliations": [
+                "Department of Bioinformatics and Computational Biology, The University of Texas MD Anderson Cancer Center, Houston,"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Andreeff, MD PhD",
+            "author_affiliations": [
+                "Section of Molecular Hematology and Therapy, Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-08T09:38:04",
+    "is_scraped": "1"
 }

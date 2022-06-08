@@ -1,8 +1,135 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3518",
-    "start_url_page_num": "3518",
     "doi": "https://doi.org/10.1182/blood.V128.22.3052.3052",
-    "url": "https://ashpublications.org/blood/article/128/22/3052/113485/Similarity-Search-Methods-As-an-Alternative-to-Sub?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T05:27:41",
-    "is_scraped": "0"
+    "article_title": "Similarity Search Methods As an Alternative to Sub-Type Characterisation in Aggressive Lymphomas ",
+    "article_date": "December 2, 2016",
+    "session_type": "627. Aggressive Lymphoma (Diffuse Large B-Cell and Other Aggressive B-Cell Non-Hodgkin Lymphomas)-Results from Retrospective/Observational Studies: Poster II",
+    "abstract_text": "Aggressive B-cell non-Hodgkin lymphomas are haematological malignancies that account for significant morbidity and mortality worldwide. They encompass a wide range of histological and clinical features: Diffuse large B-cell lymphoma (DLBCL) represents the most frequent subtype and Burkitt lymphoma (BL) occurs less frequently. Recent advances in molecular profiling have demonstrated considerable heterogeneity at the molecular level, and further classified DLBCL into germinal centre B-cell-like (GCB), activated B-cell-like (ABC), primary mediastinal B-cell lymphoma (PMBL) and type III subgroups, where ABC associates with the most unfavourable prognosis. Gene-expression profiling (GEP) also confirmed a subgroup with features intermediate between BL and DLBCL, and these cases particularly that have concurrent chromosomal rearrangements of MYC and BCL2 are often associated with poor prognosis. Despite the progress made from GEP, the classification still has limited influence on clinical treatment decision-making. In fact, as more heterogeneity beyond the subtypes above has been discovered by recent next-generation sequencing studies the approach of dividing cases into limited subgroups makes less sense in clinical practice. It is clear that the subtypes overlap to an extent in the affected signalling and regulatory pathways, and that small groupings within subtypes exhibit clear mechanistic differences and treatment responses. We describe an alternative approach, where a large database of aggressive B-cell lymphomas is used in a similarity search to identify those cases most similar at a molecular level to a query case. The hypothesis is that the most similar cases provide the best guide to prognosis and treatment outcome in the query case, independent of any need to place the query case into a particular subtype. We used both large public datasets and data from our Haematological Malignancy Research Network (www.HMRN.org) to explore genes associated with pathogenic pathways and an unfavourable prognosis. We also defined similarity between cases according to their molecular features and treatment responses. We then trained the similarity search method, by employing a distance metric learning approach that has been successfully used in similar machine learning applications, to test our HMRN dataset which contains detailed clinical data with treatment and outcome information. The cross-validation result on the public dataset achieved nearly 90% accuracy in recognizing cases with similar overall survival, and initial test results on HMRN data also shows that over 80% cases can be correctly represented by similar cases. In summary, we present a similarity learning method as an alternative to the current sub-type classification method. This mathematical method is able to accurately recognise cases with similar molecular features and provides important information on predicted treatment response for any given query case. Disclosures Smith: Novartis: Research Funding; Celgene: Research Funding; Jansen Cilag: Research Funding; Amgen: Research Funding.",
+    "topics": [
+        "burkitt's lymphoma",
+        "lymphoma",
+        "diffuse large b-cell lymphoma",
+        "hematologic neoplasms",
+        "b-cell lymphomas",
+        "bcl-2 protein",
+        "gene expression profiling",
+        "laboratory test finding",
+        "lymphoma, non-hodgkin",
+        "massively-parallel genome sequencing"
+    ],
+    "author_names": [
+        "Chulin Sha, PhD",
+        "Sharon Barrans, PhD",
+        "Andrew Jack",
+        "Cathy H Burton",
+        "Alexandra Smith, PhD",
+        "Eve Roman",
+        "Dan Painter",
+        "Simon Crouch, PhD",
+        "Reuben M Tooze, PhD FRCP",
+        "Matthew Care, PhD",
+        "David R Westhead, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Chulin Sha, PhD",
+            "author_affiliations": [
+                "Bioinformatics Group, School of Molecular and Cellular Biology, University of Leeds, Leeds, United Kingdom "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sharon Barrans, PhD",
+            "author_affiliations": [
+                "Haematological Malignancy Diagnostic Service, St James's Institute of Oncology, Leeds, United Kingdom "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew Jack",
+            "author_affiliations": [
+                "Haematological Malignancy Diagnostic Service, St James's Institute of Oncology, Leeds, United Kingdom "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cathy H Burton",
+            "author_affiliations": [
+                "Haematological Malignancy Diagnostic Service, St James's Institute of Oncology, Leeds, United Kingdom "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexandra Smith, PhD",
+            "author_affiliations": [
+                "Epidemiology and Cancer Statistics Group, University of York, York, United Kingdom "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eve Roman",
+            "author_affiliations": [
+                "Department of Health Sciences, University of York, York, United Kingdom "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dan Painter",
+            "author_affiliations": [
+                "Epidemiology and Cancer Statistics Group, University of York, York, United Kingdom "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Simon Crouch, PhD",
+            "author_affiliations": [
+                "Epidemiology and Cancer Statistics Group, University of York, York, United Kingdom "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Reuben M Tooze, PhD FRCP",
+            "author_affiliations": [
+                "Haematological Malignancy Diagnostic Service, Leeds Cancer Centre, Leeds Teaching Hospitals NHS Trust, Leeds, United Kingdom "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matthew Care, PhD",
+            "author_affiliations": [
+                "University of Leeds, Leeds Institute of Cancer and Pathology, Leeds, United Kingdom "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David R Westhead, PhD",
+            "author_affiliations": [
+                "Bioinformatics Group, Faculty of Biological Sciences, University of Leeds, Leeds, United Kingdom"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-08T09:32:58",
+    "is_scraped": "1"
 }
