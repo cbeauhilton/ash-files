@@ -1,8 +1,85 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3557",
-    "start_url_page_num": "3557",
     "doi": "https://doi.org/10.1182/blood.V128.22.3803.3803",
-    "url": "https://ashpublications.org/blood/article/128/22/3803/97442/Creation-of-a-Venous-Thromboembolism-Risk?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T07:19:09",
-    "is_scraped": "0"
+    "article_title": "Creation of a Venous Thromboembolism Risk Prediction Tool for Critically Ill Children - the Cleveland Score ",
+    "article_date": "December 2, 2016",
+    "session_type": "331. Pathophysiology of Thrombosis: Poster III",
+    "abstract_text": "Introduction The incidence of Venous Thromboembolism (VTE) in critically ill children with central venous catheters (CVCs) is increasing. VTE in Pediatric Intensive Care Unit patients with CVCs (VTE-PICU) have been associated with fewer ventilation free days, prolonged length of stay (LOS) and higher risk of mortality. Screening and prophylaxis practices vary amongst clinicians due to the lack of a simple and reliable risk stratification tool. A validated bedside prediction tool could help clinicians improve outcomes by identifying patients who may benefit from screening and prophylaxis. Method With IRB approval, the Virtual Pediatric Systems, LLC database was interrogated for children < 18yo admitted between 01/2009-09/2014 to any of 130 participating PICUs who had a CVC present and developed VTE at some point during PICU care. This cohort was chosen due to an expected high prevalance of risk factors and a high incidence of VTE. From this cohort a prediction model was created using logistic regression. The logistic regression model was constructed using potential VTE risk factors and reduced to find the best fitting parsimonious model. The model reduction process was performed using Frank Harrell's \"step down\" model approximation method, where all the risk factors are ranked by their impact on the full model's R 2 from the least impact to the most impact and removed from the model. The Model's performance was measured by discrimination, using c-statistic, which is the area under the receiver operator curve (ROC) describing the model's ability to distinguish between a patient at higher risk of the event from a patient who is at lower risk. The c-statistic ranges from 0 to 1, where 1 indicates that model has perfect discrimination and 0.5 indicates that the model does no better than chance. All reported measurements of accuracy were internally validated using a 200 bootstrap resampling process to correct for the bias of over fitting. The nomogram was then generated from the logistic regression model by rescaling the model's coefficients to a point scale to allow users of the model to make predictions of probability. Subjects whose risk score was in the lower third percentile were considered to have \"normal risk,\" middle third percent tile \"moderate risk\" and those in the highest third percent tile were considered to have \"high risk.\" Decision curve analysis was used to look at which strategy leads to the largest net benefit. VPS data was provided by Virtual Pediatric Systems (VPS, LLC). Results There were 1623 VTE-PICU amongst 158,299 PICU patients who had a CVC during their admission (10.3 per 1000 patients). A logistic regression model was generated and internally validated; Bootstrapped C-index was 0.832. Figure 1 shows the area under the receiver operator curve [82.55% (95% CI: 80.71%-84.38%)]. The decision curve analysis showed that across the range of reasonable threshold probabilities, the predicted model has a higher net benefit than \"treat all\" and \"treat none\" approach. Figure 2 shows the nomogram (the \"Cleveland Score\") generated from the logistic regression model by rescaling the model's coefficients to a point scale to allow users of the model to make predictions of probability. The major categories in the Cleveland Score are age, sex, race, primary diagnosis, post-op status and type of surgery, past medical history, type of central venous line, airway/ventilation status, and presence of cardiac catheterization. Using the Cleveland Score, a hypothetical 1-month-old white male, with a past medical history of sepsis, who remains intubated after a cardiac catheterization and congenital heart disease repair and has a percutaneous central venous catheter, has a high risk probability of 4.526% of developing a VTE. Conclusion Using a large multicenter database we were able to build and validate a nomogram to predict the risk of developing a VTE in critically ill hospitalized children. Furthermore, we created an easy to use bedside application for the prediction model - The Cleveland Score. We plan to prospectively validate the Cleveland score using the same database. View large Download slide View large Download slide Close modal View large Download slide View large Download slide Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "critically ill children",
+        "venous thromboembolism",
+        "central venous catheters",
+        "cardiac catheterization",
+        "medical history",
+        "screening",
+        "airway device",
+        "critical illness",
+        "length of stay",
+        "risk reduction"
+    ],
+    "author_names": [
+        "Minh Q Tran, MD",
+        "Steven L Shein, MD",
+        "Xinge Ji, MS",
+        "Kevin Chagin, MS",
+        "Hilda Ding, MD MS",
+        "Sanjay P Ahuja, MD, MSc"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Minh Q Tran, MD",
+            "author_affiliations": [
+                "Department of Pediatric Critical Care Medicine, Case Western Reserve University SOM/ Rainbow Babies & Children's Hospital, Cleveland, OH "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Steven L Shein, MD",
+            "author_affiliations": [
+                "Department of Pediatric Critical Care Medicine, Case Western Reserve University SOM/ Rainbow Babies & Children's Hospital, Cleveland, OH "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xinge Ji, MS",
+            "author_affiliations": [
+                "Department of Quantitative Health Sciences, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kevin Chagin, MS",
+            "author_affiliations": [
+                "Department of Quantitative Health Sciences, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hilda Ding, MD MS",
+            "author_affiliations": [
+                "Department of Pediatric Hematology Oncology, Case Western Reserve University SOM/ Rainbow Babies & Children's Hospital, Cleveland, OH"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sanjay P Ahuja, MD, MSc",
+            "author_affiliations": [
+                "Department of Pediatric Hematology Oncology, Case Western Reserve University SOM/ Rainbow Babies & Children's Hospital, Cleveland, OH"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-08T21:28:10",
+    "is_scraped": "1"
 }

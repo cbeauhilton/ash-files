@@ -1,8 +1,95 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3562",
-    "start_url_page_num": "3562",
     "doi": "https://doi.org/10.1182/blood.V128.22.3749.3749",
-    "url": "https://ashpublications.org/blood/article/128/22/3749/97296/Differentiating-Thrombotic-Microangiopathies-Based?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T07:19:29",
-    "is_scraped": "0"
+    "article_title": "Differentiating Thrombotic Microangiopathies Based on Laboratory Tests Other Than ADAMTS13 Using Machine Learning Technology ",
+    "article_date": "December 2, 2016",
+    "session_type": "311. Disorders of Platelet Number or Function: Poster III",
+    "abstract_text": "Introduction: ADAMTS13 activity level is crucial for differentiating thrombotic microangiopathies. However, ADAMTS13 testing is not readily available at site in many parts of the world. Hence, we developed an innovative algorithm that allow differentiation of thrombotic thrombocytopenic purpura (TTP) from other TMA's based on laboratory results other than ADAMTS13 using machine learning. Methods: Two hundred- eight adult patients with either TTP (N=64) or TMA other than TTP (N=144) (ADAMTS13 cutoff level of 10%) were classified using three machine learning techniques (decision tree, random forest, and neural network), using a set of easily measured 19 clinical variables such as fever, Hb, ALT and so on. Basically, each clinical variable is not correlated with TTP (Absolute values of correlation coefficients are lower than 0.5), so we applied machine learning algorithms. First, we divided patient data into three parts, train, test and validation set. And then, we applied these 3 machine learning techniques, decision tree, random forest and neural network. Principal component analysis was also performed. Results: As a single variable, platelet count, BUN and total bilirubin were the most important three variables that are predictive of differentiating TTP from other TMA's with accuracy of 82%. Random forest method increased accuracy to 85% and precision, and recall statistic is 0.828, and 0.832, respectively. Neural network did not do better without optimization than random forest method. Conclusion: Machine learning technology seems promising in differentiating TTP from other TMA's if ADAMTS13 value is not available. These algorithms could support the physician in tailoring the management of TMA. View large Download slide Correlation coefficient in our study View large Download slide Correlation coefficient in our study Close modal View large Download slide Scheme of Random Forest method used in our study View large Download slide Scheme of Random Forest method used in our study Close modal Disclosures Lee: SamsungSDS: Employment. Yun: Samsung SDS: Employment.",
+    "topics": [
+        "adamts13 gene",
+        "laboratory techniques and procedures",
+        "machine learning",
+        "thrombotic microangiopathies",
+        "tissue microarray",
+        "trimethylamine",
+        "bilirubin",
+        "blood urea nitrogen",
+        "fever",
+        "thrombotic thrombocytopenic purpura"
+    ],
+    "author_names": [
+        "Youngil Koh, MD PhD",
+        "SuYeon Lee",
+        "Hong-Seok Yun",
+        "Sung-Soo Yoon, MD PhD",
+        "Inho Kim, MD PhD",
+        "Byung-Su Kim, MD PhD",
+        "Doyeun Oh"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Youngil Koh, MD PhD",
+            "author_affiliations": [
+                "Internal Medicine, Seoul National University Hospital, Seoul, Korea, The Republic of "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "SuYeon Lee",
+            "author_affiliations": [
+                "Development Group, Healthcare Analytics Team, Samsung SDS, Seoul, Korea, The Republic of "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hong-Seok Yun",
+            "author_affiliations": [
+                "Development Group, Healthcare Analytics Team, Samsung SDS, Seoul, Korea, The Republic of "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sung-Soo Yoon, MD PhD",
+            "author_affiliations": [
+                "Internal Medicine, Seoul National University Hospital, Seoul, Korea, The Republic of "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Inho Kim, MD PhD",
+            "author_affiliations": [
+                "Internal Medicine, Seoul National University Hospital, Seoul, Korea, The Republic of "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Byung-Su Kim, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology and Oncology, Daegu Fatima Hospital, Daegu, Korea, The Republic of "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Doyeun Oh",
+            "author_affiliations": [
+                "CHA Bundang Medical Center, Seongnam, Korea, The Republic of"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-08T21:33:30",
+    "is_scraped": "1"
 }
