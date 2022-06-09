@@ -1,8 +1,96 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3572",
-    "start_url_page_num": "3572",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.4474.4474",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/4474/72438/Gaussian-Mixture-Models-and-Machine-Learning?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T07:40:03",
-    "is_scraped": "0"
+    "article_title": "Gaussian Mixture Models and Machine Learning Predict Megakaryocytic Growth and Differentiation Potential Ex Vivo ",
+    "article_date": "December 7, 2017",
+    "session_type": "711. Cell Collection and Processing: Poster III",
+    "abstract_text": "The ability to analyze single cells via flow cytometry has resulted in a wide range of biological and medical applications, such as monitoring populations of developing immune and hematopoietic cells over time. Currently, there is no established framework to compare and interpret time-series flow cytometry data for cellular engineering applications. Manual analysis of temporal trends is time-consuming and subjective for large-scale datasets. We resolved this bottleneck by developing TEmporal Gaussian Mixture models (TEGM), an unbiased computational strategy to quantify and predict temporal trends of developing cell subpopulations indicative of cellular phenotype. We validated its utility by accurately predicting peak CD41 + /CD42 + % of megakaryocyte (MK) cultures derived from human CD34 + -selected umbilical cord blood units (CB). TEGM applies Gaussian mixture modeling for feature extraction and gradient boosted trees for prediction. Our modeling strategy allows for data to be gated and clustered on multi-dimensional planes, enabling rapid processing of flow cytometry data. TEGM enables the extraction of subtle features, such as the dispersion and rate of change of surface marker expression for each subpopulation over time. These critical, yet hard-to-discern, features are fed into machine-learning algorithms that predict underlying cellular classes and phenotypes. Our framework can be flexibly applied to conventional flow cytometry sampling schemes, and allows for faster and more consistent processing of time-series flow cytometry data. As proof-of-concept, we applied our method to the analysis of ex vivo MK differentiation and maturation of hematopoietic cells from donors with varying potential to generate CD41 + /CD42 + cells. Our computational approach consists of three major steps: preprocessing, feature extraction, and prediction (Figure 1) . We illustrate the major steps of the computational approach by predicting peak CD41 + /CD42 + % MK maturation of CD34 + -selected CB cells from 16 independent donors. Cells were cultured over a 19-day multi-phase differentiation culture, consisting of a pre-expansion phase and a differentiation phase. The novel dataset comprised 720 measurements from 80 perturbations of 16 individual donors, with 9 time-point measurements sampled every 2-5 days for each donor. In the preprocessing step, we filtered out non-uniform events, margin events, and doublets. We then constructed an automated gating strategy to extract surface marker expression of various clusters of DAPI low /CD41 + MK cells. Notably, we demonstrated that estimation of the CD34 + and CD42 + % was within 1% of manual gating estimates, thus illustrating the consistency and accuracy of the technique. We then performed feature extraction for each flow cytometry time-course dataset on several descriptors, such as growth rate, viability, production, percentage positivity of each surface marker, covariance of mean fluorescence intensity, rate of change, and bifurcation of each subpopulation. A gradient boosted tree model was trained using an explanatory matrix describing early characteristics (Day 0-Day 9) and tested to predict peak CD41 + /CD42 + marker expression, which typically occurs on Day 14 to Day 17. Overall, we identified several influential early culture factors that are predictive of peak CD42 + % expression. We showed that CD41 + % on Day 5 and Day 7 is highly predictive of peak CD42 + % expression. Cell viability and CD34 + % were comparatively less predictive of peak CD42 + %. Based on our analysis, we were able to identify the best performing cultures with high sensitivity and specificity (AUROC = 0.92, where 1 denotes perfect accuracy). Predicted and actual CD41 + /CD42 + responses were highly correlated (p=7.4e09, R = 0.87) using 3 independently selected partitions of test/training sets of our data. We demonstrated that the resulting model captured apparent cell development processes represented by cell surface markers including CD34, CD41, and CD42, and was able to predict MK differentiation and maturation potential of a given CB unit in culture. Identifying CB units with high and low MK potential early in the 19-day culture process can save expensive resources and time, and provides the potential to intervene during the culture process. Figure 1. Manual gating strategy (left) vs. TEGM gating strategy (right) for time-series flow cytometry data. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "cd34 antigens",
+        "flow cytometry",
+        "machine learning",
+        "megakaryocytes",
+        "platelet glycoprotein gpib-ix complex",
+        "area under the roc curve",
+        "donors",
+        "trees (plant)",
+        "fluorescence",
+        "proof of concept studies"
+    ],
+    "author_names": [
+        "Jia J. Wu, BS",
+        "Darryl A. Abbott, BS",
+        "Meryem K. Terzioglu, MD",
+        "Dolores Mahmud, PhD",
+        "Nadim Mahmud, MBBS, PhD",
+        "William M. Miller, PhD",
+        "Neda Bagheri, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Jia J. Wu, BS",
+            "author_affiliations": [
+                "Interdisciplinary Biological Sciences, Northwestern University, Evanston, IL ",
+                "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Darryl A. Abbott, BS",
+            "author_affiliations": [
+                "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Meryem K. Terzioglu, MD",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, University of Illinois at Chicago, Chicago, IL"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dolores Mahmud, PhD",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, University of Illinois at Chicago, Chicago, IL"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nadim Mahmud, MBBS, PhD",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, University of Illinois at Chicago, Chicago, IL"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "William M. Miller, PhD",
+            "author_affiliations": [
+                "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Neda Bagheri, PhD",
+            "author_affiliations": [
+                "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T02:28:21",
+    "is_scraped": "1"
 }

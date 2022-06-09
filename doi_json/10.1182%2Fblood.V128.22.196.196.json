@@ -1,8 +1,216 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3569",
-    "start_url_page_num": "3569",
     "doi": "https://doi.org/10.1182/blood.V128.22.196.196",
-    "url": "https://ashpublications.org/blood/article/128/22/196/100738/The-Multiple-Myeloma-Genome-Project-Development-of?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T07:39:52",
-    "is_scraped": "0"
+    "article_title": "The Multiple Myeloma Genome Project: Development of a Molecular Segmentation Strategy for the Clinical Classification of Multiple Myeloma ",
+    "article_date": "December 2, 2016",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Prognostic Factors",
+    "abstract_text": "Introduction Segmenting multiple myeloma (MM) into subgroups with distinct pathogenesis and clinical behavior is important in order to move forward with advancements in therapy and implement a targeted therapy approach. Current technologies have elucidated five major translocation groups, which have a varying effect on prognosis: t(4;14), t(6;14), t(11;14), t(14;16) and t(14;20) along with recurrent copy number changes including deletion of CDKN2C (1p32.3) and TP53 (17p13.1) as well as gain or amplification of 1q21. However, minor translocation and mutational groups are poorly described because sample numbers are limited in small datasets. The availability of multiple sets of high quality mutation data associated with clinical outcomes has provided a unique opportunity in MM whereby clustering mutational data with chromosomal aberrations in the context of gene expression we can develop a molecular classification system to segment the disease into therapeutically meaningful subgroups. The Multiple Myeloma Genome Project (MGP) is a global collaborative initiative that aims to develop a molecular segmentation strategy for MM to develop clinically relevant tests that could improve diagnosis, prognosis, and treatment of patients with MM. Materials and methods We have established a set of 2161 patients for which whole exome sequencing (WES; n=1436), Whole Genome Sequencing (WGS; n=708), targeted panel sequencing (n=993) and expression data from RNA-Seq and Gene Expression arrays (n=1497) were available. These data were derived from the Myeloma XI trial (UK), Intergroupe Francophone du Myeloma/Dana-Faber Cancer Institute (MA), The Myeloma Institute (AR) and the Multiple Myeloma Research Foundation (IA1 - IA8). We assembled all data on a secure site and analyzed it using a streamlined and consistent pipeline using state of the art tools. First, BAM were converted to FASTQ using Picard tools v2.1.1 to extract read sequences and base quality scores. Next, all reads were realigned to the human genome assembly hg19 using BWA-mem. Duplicate marking and sorting was performed using Picard tools v2.1.1. For QAQC we use FASTQC and Picard tools. We identified somatic single nucleotide variants and indels with Mutect2 using default parameters. Translocations and large chromosomal aberrations were identified using MANTA and breakdancer and inferred copy number abnormalities and homozygous deletions using Sequenza v2.1.2 and ControlFreeC. Results We have begun to integrate these diverse large genomic datasets with various correlates. Samples were stratified by RNA-seq expression values and WES/WGS to identify the main cytogenetic groups with high concordance. In addition to the main translocation groups, translocations into MAFA , t(8;14), were detected in 1.2% of samples by both RNA-seq and WES/WGS. RNA-seq also detected fusion transcripts, including the known Ig-WHSC1 transcript in t(4;14). However, a proportion of identified in-frame fusion genes involved kinase domains consistent with activation of the Ras/MAPK pathway, which may be clinical targets for therapy. The main recurrent mutations included KRAS and NRAS , and negative regulators of the NF-\u03baB pathway. In addition we identified recurrent copy number abnormalities and examined the interaction of these with mutations. This highlighted the interaction of the recurrent changes at 1p, 13q, and 17p with mutation of genes located within these regions, specifically indicating bi-allelic inactivation of CDKN2C , RB1 and TP53 . Using WGS and RNA-Seq data we identified recurrent translocations and fusion genes that can be used to instruct therapy. Based on these data and the presence of homogeneous inactivation of key tumor expressed genes we will present clinically relevant clusters of MM that can form the basis of future risk and molecular targeted trials. Interaction of mutation with expression patterns has identified distinct expression signatures associated with mutational groups. Conclusions We have established the largest repository of molecular profiling data in MM along with associated clinical outcome data. Integrated analyses of these are enabling generation of clinically meaningful disease segments associated with differing risk. The MGP intends to build a global network by expanding collaboration with leading MM centers around the world and incorporating additional datasets through current and new collaborations. Disclosures Mavrommatis: Discitis DX: Membership on an entity's Board of Directors or advisory committees; Celgene Corporation: Employment, Equity Ownership. Ashby: University of Arkansas for Medical Sciences: Employment. Ortiz: Celgene: Employment. Towfic: Celgene: Employment, Equity Ownership; Immuneering Corp: Equity Ownership. Amatangelo: Celgene: Employment, Equity Ownership. Yu: Celgene: Employment, Equity Ownership. Avet-Loiseau: celgene: Consultancy; janssen: Consultancy; sanofi: Consultancy; amgen: Consultancy. Jackson: Janssen: Consultancy, Honoraria, Speakers Bureau; Celgene: Consultancy, Honoraria, Other: Travel support, Research Funding, Speakers Bureau; MSD: Consultancy, Honoraria, Speakers Bureau; Roche: Consultancy, Honoraria, Speakers Bureau; Takeda: Consultancy, Honoraria, Other: Travel support, Research Funding, Speakers Bureau; Amgen: Consultancy, Honoraria, Speakers Bureau. Thakurta: Celgene: Employment, Equity Ownership. Munshi: Takeda: Consultancy; Amgen: Consultancy; Janssen: Consultancy; Celgene: Consultancy; Merck: Consultancy; Pfizer: Consultancy; Oncopep: Patents & Royalties. Morgan: Univ of AR for Medical Sciences: Employment; Janssen: Research Funding; Celgene: Consultancy, Honoraria, Research Funding; Takeda: Consultancy, Honoraria; Bristol Meyers: Consultancy, Honoraria.",
+    "topics": [
+        "genome",
+        "multiple myeloma",
+        "rna",
+        "protein p53",
+        "cancer",
+        "discitis",
+        "immunoglobulins",
+        "mitogen-activated protein kinases",
+        "molecular profiling",
+        "molecular targeted therapy"
+    ],
+    "author_names": [
+        "Brian A Walker, PhD",
+        "Mehmet K. Samur, PhD",
+        "Konstantinos Mavrommatis",
+        "Cody Ashby, PhD",
+        "Christopher P Wardell, PhD",
+        "Maria Ortiz, PhD",
+        "Fadi Towfic",
+        "Caleb K. Stein, MS",
+        "Michael A Bauer, PhD",
+        "Michael Amatangelo, PhD",
+        "Giovanni Parmigiani, PhD",
+        "Zhinuan Yu, PhD",
+        "Matthew Trotter",
+        "Herve Avet-Loiseau, MD PhD",
+        "Graham H Jackson, MD PhD",
+        "Kenneth C. Anderson",
+        "Anjan Thakurta, PhD",
+        "Nikhil C. Munshi, MD",
+        "Gareth J Morgan, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Brian A Walker, PhD",
+            "author_affiliations": [
+                "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mehmet K. Samur, PhD",
+            "author_affiliations": [
+                "The Jerome Lipper Multiple Myeloma Center, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Konstantinos Mavrommatis",
+            "author_affiliations": [
+                "Celgene Corporation, San Francisco, CA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cody Ashby, PhD",
+            "author_affiliations": [
+                "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher P Wardell, PhD",
+            "author_affiliations": [
+                "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maria Ortiz, PhD",
+            "author_affiliations": [
+                "Celgene Institute for Translational Research Europe, Celgene Corporation, Seville, Spain "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Fadi Towfic",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Caleb K. Stein, MS",
+            "author_affiliations": [
+                "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael A Bauer, PhD",
+            "author_affiliations": [
+                "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Amatangelo, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Giovanni Parmigiani, PhD",
+            "author_affiliations": [
+                "Biostatistics and Computational Biology, Dana-Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Zhinuan Yu, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matthew Trotter",
+            "author_affiliations": [
+                "Celgene Institute for Translational Research Europe, Celgene Corporation, Seville, Spain "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Herve Avet-Loiseau, MD PhD",
+            "author_affiliations": [
+                "Centre de Recherche en Canc\u00e9rologie de Toulouse Institut National de la Sant\u00e9 et de la Recherche M\u00e9dicale, Toulouse, France ",
+                "IUC-Oncopole, Unite de Genomique du Myelome, Toulouse, France "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Graham H Jackson, MD PhD",
+            "author_affiliations": [
+                "Department of Haematology, Royal Victoria Infirmary, Newcastle upon Tyne, United Kingdom "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kenneth C. Anderson",
+            "author_affiliations": [
+                "Harvard Medical School, Dana-Farber Cancer Institute, Boston, MA"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anjan Thakurta, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nikhil C. Munshi, MD",
+            "author_affiliations": [
+                "Harvard Medical School, Dana-Farber Cancer Institute, Boston, MA"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gareth J Morgan, MD PhD",
+            "author_affiliations": [
+                "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T02:24:47",
+    "is_scraped": "1"
 }

@@ -1,8 +1,115 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3573",
-    "start_url_page_num": "3573",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.460.460",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/460/72465/Applying-Neural-Networking-Identifies?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T07:40:06",
-    "is_scraped": "0"
+    "article_title": "Applying Neural Networking Identifies Antiphospholipid Syndrome Patients with an Accuracy of 98.7% ",
+    "article_date": "December 7, 2017",
+    "session_type": "331. Pathophysiology of Thrombosis I",
+    "abstract_text": "Background: The antiphospholipid syndrome (APS) is characterized by the presence of antiphospholipid antibodies predominantly directed against \u03b2 2 -glycoprotein I. The syndrome is associated with an increased risk of thrombosis and pregnancy morbidity. In APS patients an altered thrombin generation (TG) profile has recently been described; however, it was not possible to differentiate between patients and healthy controls based on the value of a single TG parameter. Therefore, we used a novel machine learning approach called 'neural networking' to look for hidden patterns in patient and healthy subject data. A neural network is a computing system inspired by the human brain and consists of a collection of artificial neurons. These systems can learn to classify samples (healthy or APS patient) using examples from a database containing many input variables (i.e. training). Once the network has been trained and tested it can be used to classify new samples as healthy or APS patient. Aim: To develop a neural network to predict APS in subjects based on TG results. Materials and methods: 31antiphospholipid syndrome patients and 44 age- and sex-matched healthy subjects were enrolled in the study. Patients on anticoagulant therapy were excluded from the study. Thrombin generation was measured at 1 pM tissue factor (TF) and thrombin dynamics analysis was performed to study prothrombin conversion and thrombin inactivation. The sensitivity of the activated protein C system was tested by measuring TG in the presence and absence of 20 nM thrombomodulin (TM). A neural network was trained and tested to predict whether a subject is a patient or a healthy subject using Matlab software. The input of the neural network consisted of TG data (lag time, time-to-peak, peak height, ETP and TM effect) and thrombin dynamics data (total and maximal prothrombin conversion and thrombin inactivation). Results: Thrombin generation was measured in platelet poor plasma at 1 pM TF and prothrombin conversion parameters were determined computationally (Figure 1). The lag time was significantly prolonged in APS patients and the peak height was elevated. Time-to-peak and ETP were comparable between healthy subjects and APS patients, but the inhibitory effect of TM was significantly less in APS patients than healthy controls (p<0.001). The total amount of prothrombin converted during thrombin generation (PCtot) did not differ between healthy subjects and patients, but the maximum rate of prothrombin conversion (PCmax) was significantly elevated in APS patients. The neural networking tool was used to develop a classification network. The network consists of an input layer (thrombin generation and thrombin dynamics data, 1 layer of hidden processing neurons and two outputs (either APS patient or healthy subject) (Figure 2). After a training and testing phase, we obtained a network that accurately predicts a subject's class (APS patient or healthy) based on the given input values with an accuracy of 98.7%. Discussion: APS is a complex condition associated with thrombosis, pregnancy morbidity and alterations of diagnostic variables, for example in the thrombin generation profile. Single TG parameters are unable to predict whether or not a subject has APS, but a neural network based on TG and thrombin dynamics data correctly classifies APS patients in 98.7% of the cases. We have found a novel approach that is helpful in correctly categorizing APS patients and therefore might be included to improve treatment strategies. View large Download slide View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "antiphospholipid syndrome",
+        "thrombin",
+        "prothrombin",
+        "polymyositis",
+        "prednimustine",
+        "thrombosis",
+        "activated protein c",
+        "anticoagulation",
+        "antiphospholipid antibodies",
+        "glycoprotein"
+    ],
+    "author_names": [
+        "Romy Kremers, PhD",
+        "St\u00e9phane Zuily, MDPhD",
+        "Hilde Kelchtermans, PhD",
+        "Philip G. de Groot, PhD",
+        "Tessa Peters",
+        "Saartje Bloemen, PhD",
+        "Coenraad Hemker, MD PhD",
+        "Denis Wahl, MD PhD",
+        "Bas De Laat, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Romy Kremers, PhD",
+            "author_affiliations": [
+                "Synapse Research Institute, Synapse B.V., Maastricht, Netherlands "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "St\u00e9phane Zuily, MDPhD",
+            "author_affiliations": [
+                "Vascular Medicine Division, Centre Hospitalier Universitaire de Nancy, Nancy, France "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hilde Kelchtermans, PhD",
+            "author_affiliations": [
+                "Synapse Research Institute, CARIM, Maastricht University, Maastricht, Netherlands"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Philip G. de Groot, PhD",
+            "author_affiliations": [
+                "Synapse Research Institute, CARIM, Maastricht University, Maastricht, Netherlands"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tessa Peters",
+            "author_affiliations": [
+                "Synapse Research Institute, CARIM, Maastricht University, Maastricht, Netherlands"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Saartje Bloemen, PhD",
+            "author_affiliations": [
+                "Synapse Research Institute, CARIM, Maastricht University, Maastricht, Netherlands"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Coenraad Hemker, MD PhD",
+            "author_affiliations": [
+                "Synapse Research Institute, CARIM, Maastricht University, Maastricht, Netherlands"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Denis Wahl, MD PhD",
+            "author_affiliations": [
+                "Vascular Medicine Division, Centre Hospitalier Universitaire de Nancy, Nancy, France "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bas De Laat, MD PhD",
+            "author_affiliations": [
+                "Synapse Research Institute, CARIM, Maastricht University, Maastricht, Netherlands"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T02:29:59",
+    "is_scraped": "1"
 }

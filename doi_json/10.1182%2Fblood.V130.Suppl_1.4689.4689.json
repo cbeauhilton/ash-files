@@ -1,8 +1,225 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3575",
-    "start_url_page_num": "3575",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.4689.4689",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/4689/72506/Disparities-in-Outcomes-of-Patients-with-Multiple?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T07:40:14",
-    "is_scraped": "0"
+    "article_title": "Disparities in Outcomes of Patients with Multiple Myeloma Based on Geographic Distance from NCI-Designated Cancer Centers: A SEER Based Analysis ",
+    "article_date": "December 7, 2017",
+    "session_type": "902. Health Services Research\u2014Malignant Conditions: Poster III",
+    "abstract_text": "Background : National Cancer Institute-Designated Cancer Centers (NCI-DCC)-including sub-designated Comprehensive Cancer Centers and Cancer Centers-are institutions singled out by the National Cancer Institute (NCI) for their quality in education, innovation, and care. Studies have demonstrated that the presence of these institutions improve the overall survival (OS) of patients with multiple myeloma (MM) diagnosed in their counties in comparison to patients with MM diagnosed in counties that do not have such institutions. However, access to these NCI-DCC by actual geographic distance and its influence on the OS outcomes for patients with MM have yet to be evaluated. Thus, we sought to determine whether MM patients' geographic distance from NCI-DCCs influences disease outcomes. Methods: We queried the Surveillance, Epidemiology, and End Results (SEER) research data using software SEER*STAT. Focusing on Katrina-corrected dated from 2000-2014, we selected diagnoses from 2000-2012 of Site recode ICD-0-3/WHO 2008 diagnosis code \"myeloma\", recognizing that this would include cases mostly in the era of novel therapeutics. To determine the approximate distances of patients from the nearest NCI-DCC, we collected the 810 county codes and state names used in SEER*STAT reporting and ascertained their central zip codes. Next, we collected the street addresses of all 62 clinical NCI-DCC as well as the year at which they received NCI-DCC status. We used statistical software R and package gmapsdistance to determine the distance in kilometers and expected drive time between each county and cancer center. For each county, the shortest distance to an NCI-DCC during a given year was selected. These data were then merged with the above SEER*STAT epidemiological data and matched with individual cases according to year of diagnosis. Cases that received a diagnosis at death certificate/autopsy, without follow-up records, lacking documentation on age at diagnosis, sex, or race/ethnicity were excluded. Cases without feasible driving routes to multiple NCI -DCC were also excluded. Cox proportional hazards models were used to evaluate association between patient characteristics and OS in months. All statistical tests utilized the SAS software (v9.4) and were two-sided with a significance level of 0.05. Results: A total of 65,306 patients were included in the final analysis. There were 35,646 (54.6%) males. The age distribution of this cohort was as follows: < 40: 1,041 (1.6%), 41-65: 25,048 (38.4%), 66-74: 16,878 (25.8%), and 75+: 22,339 (34%). The median OS was 42 months. There were 29,756 patients (45.6%) living within 50km; 48,243 patients (66%) living within 100km; and 51,974 patients (79.6%) living within 200km of an NCI-Designated Cancer Center. For all included patients living within 100km or more than 100km from a NCI-DCC, the median OS were 44 months and 38 months respectively (P < 0.001). For patients under 65 years at diagnosis, median OS for patients living more than 200km, 100-199km, 50-99km, and under 50km from an NCI-DCC, median survivals were 60, 67, 71, and 75 months respectively (Figure 1). For patients 65 and older at diagnosis, these median OS were considerably poorer and less impacted by distance from an NCI-DCC at 28, 30, 32, and 30 months respectively (Figure 2). In a multivariate analysis, predictors of worse OS included age at diagnosis (p < 0.0001) and distance from the nearest NCI-DCC (p < 0.0001). Discussion: Access to care by NCI-DCCs based on geographic distance appears to impact the OS of patients with MM more so in the younger population than the elderly. Further research studies evaluating the specific causes of such disparity as well as avenues to overcome it are required. Figure View large Download slide Figure View large Download slide  Close modal Disclosures Kumar: Celgene, Millennium/Takeda, Onyx, AbbVie, Janssen, Sanofi, Novartis, Amgen, Genentech, Merck, Oncopeptides, Roche, Skyline Diagnostics: Research Funding; Skyline: Honoraria; Celgene, Millennium, BMS, Onyx, Janssen, Noxxon, AbbVie, Amgen, Merck, Oncopeptides, Skyline Diagnostics, Takeda: Consultancy. Dispenzieri: Celgene, Millenium, Pfizer, Janssen: Research Funding. Gertz: Millennium: Consultancy, Honoraria; Celgene, Novartis, Smith-Kline, Prothena, Ionis, Amgen: Honoraria. Dingli: Alexion Pharmaceuticals: Consultancy; Millenium: Consultancy; Janssen: Consultancy; Takeda: Consultancy; Karyopharm Therapeutics: Research Funding. Kapoor: Takeda, Celgene and Amgen: Research Funding. Russell: Vyriad: Equity Ownership; Imanis Life Sciences: Equity Ownership.",
+    "topics": [
+        "cancer care facilities",
+        "health disparity",
+        "multiple myeloma",
+        "national cancer institute",
+        "seer program",
+        "cancer",
+        "follow-up",
+        "software",
+        "statim",
+        "equity"
+    ],
+    "author_names": [
+        "Jacob Orme, MD PhD",
+        "Ronald S. Go, MD",
+        "Shaji K Kumar, MD",
+        "Angela Dispenzieri, MD",
+        "Morie A. Gertz, MD",
+        "Francis K Buadi, MD",
+        "David Dingli, MD",
+        "Nelson Leung, MD",
+        "Martha Q Lacy, MD",
+        "Prashant Kapoor, MD",
+        "John A. Lust, MD PhD",
+        "Yi Lin, MD PhD",
+        "Stephen J. Russell, MD PhD",
+        "Suzanne R. Hayman, MD",
+        "Steven Zeldenrust, MD",
+        "Taxiarchis Kourelis, MD",
+        "Rahma Warsame, MD",
+        "Robert A Kyle, MD",
+        "S. Vincent Rajkumar, MD",
+        "Wilson I Gonsalves, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Jacob Orme, MD PhD",
+            "author_affiliations": [
+                "Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ronald S. Go, MD",
+            "author_affiliations": [
+                "Mayo Clinic, Rochester, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shaji K Kumar, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Angela Dispenzieri, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Morie A. Gertz, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Francis K Buadi, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David Dingli, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nelson Leung, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martha Q Lacy, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Prashant Kapoor, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John A. Lust, MD PhD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yi Lin, MD PhD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephen J. Russell, MD PhD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Suzanne R. Hayman, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Steven Zeldenrust, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Taxiarchis Kourelis, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rahma Warsame, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Robert A Kyle, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "S. Vincent Rajkumar, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wilson I Gonsalves, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T02:32:28",
+    "is_scraped": "1"
 }

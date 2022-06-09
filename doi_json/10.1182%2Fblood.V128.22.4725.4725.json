@@ -1,8 +1,110 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3569",
-    "start_url_page_num": "3569",
     "doi": "https://doi.org/10.1182/blood.V128.22.4725.4725",
-    "url": "https://ashpublications.org/blood/article/128/22/4725/101691/High-Throughput-Validation-of-Mutations-Identified?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T07:39:52",
-    "is_scraped": "0"
+    "article_title": "High-Throughput Validation of Mutations Identified in Primary Leukemia Cells ",
+    "article_date": "December 2, 2016",
+    "session_type": "802. Chemical Biology and Experimental Therapeutics: Poster III",
+    "abstract_text": "Next generation sequencing has enabled the cataloguing of mutations found in many different cancers. The mutational burden for any given leukemia patient can range from 2 to hundreds of non-somatic mutations and it can therefore be challenging to separate drivers from the passengers. In performing deep sequencing on 139 primary leukemia samples using a custom capture library of ~1,800 genes including all kinases, phosphatases, and a variety of growth factors, cytokine receptors, and adapter proteins, we identified 3,390 non-somatic unique SNV and indel mutations in 1,286 genes. Many of the changes identified were non-recurrent or low frequency mutations found a single patient or a small numbers of patients. To determine the functional consequences, each mutation must be created and tested in vitro. We sought to develop a high throughput method to: 1) prioritize mutations for validation, 2) create mutations for testing, and 3) assess the transformative capacity of each mutation using a BaF3 growth factor independence assay. Using the following heuristic we ranked and prioritized mutations for further validation: i) include only high quality sequence variant cells; ii) exclude mutations found in >50% of samples iii) include mutations not found in dbSNP or 1000 genomes, or in 1000 genomes with a global mutant allele frequency less than or equal to 0.1; and iv) include mutations found dbSNP but not in 100 genomes with a cohort frequency equal to or less than <5%. Variants were ranked using HitWalker (Bottomly et al. 2013 PubMed ID: 23303510). HitWalker uses random walks with restarts algorithm to rank mutations based on proximity to known functionally important targets. These functionally important targets were identified using data from small molecule inhibitor screens performed on freshly isolated leukemia cells from each patient sample. We then prioritized 784 mutations for creation based on a HiWalker rank of 1-20. After mutations were ranked and prioritized, an R-based program, PrimeR, was used to automate mutagenesis primer design. Primers were batch ordered and arranged in 96-well plates based on primer T m to enable the use of gradient PCR. Mutagenesis was performed on cDNA Entry clones purchased from commercial sources. Greater than 50% of the initial mutagenesis reactions were successful in producing mutagenized plasmids with no non-specific mutations. Confirmed mutations and their wild type counter parts were transferred into retroviral vector destination clones using Gateway LR Clonase II (ThermoFisher Scientific). Following LR Clonase reactions, we repeated sequencing and found no non-specific mutations and opted to identify successful constructs solely by restriction digestion/DNA gel analysis in future runs. IL-3 withdrawl assays were performed using round bottom 96-well plates, enabling removal of IL-3 from the cell media. Cells were split equally into 5 flat bottomed 96-well tissue culture plates, and covered with breathable seals and incubated at 37\u00b0C. Every 4 days MTS was added to a single plate according to the manufacturers specification and a cell viability assay was performed. Wells possessing an absorbance of 0.100 or higher compared to the blanks were considered to contain mutations of interest, and were subsequently repeated using traditional growth factor independence assays in 25mL flasks. Using this method we have screened 86 mutations along with their wildtype controls and identified 10 mutations with transformative capacity in 7 genes. All transforming mutations had a HitWalker rank of 1-3 supporting the use of HitWalker in prioritizing mutations for further validation. Disclosures Druker: Dana-Farber Cancer Institute: Patents & Royalties: Millipore royalties via Dana-Farber Cancer Institute; Array: Patents & Royalties; Curis: Patents & Royalties; Pfizer: Patents & Royalties; CTI: Consultancy, Equity Ownership; Cylene: Consultancy, Equity Ownership; Lorus: Consultancy, Equity Ownership; MolecularMD: Consultancy, Equity Ownership, Patents & Royalties; Agios: Honoraria; Ambit BioSciences: Consultancy; AstraZeneca: Consultancy; D3 Oncology Solutions: Consultancy; Gilead Sciences: Consultancy, Other: travel, accommodations, expenses; Roche: Consultancy; ARIAD: Patents & Royalties: inventor royalties paid by Oregon Health & Science University for licenses, Research Funding; BMS: Research Funding; Novartis: Research Funding; Oncotide Pharmaceuticals: Research Funding; Dana-Farber Cancer Institute: Patents & Royalties: Millipore royalties via Dana-Farber Cancer Institute; Array: Patents & Royalties; Curis: Patents & Royalties; Pfizer: Patents & Royalties.",
+    "topics": [
+        "leukemia",
+        "mutation",
+        "gel",
+        "cancer",
+        "growth factor",
+        "interleukin-3",
+        "massively-parallel genome sequencing",
+        "dna",
+        "dna, complementary",
+        "mohr-tranebjaerg syndrome"
+    ],
+    "author_names": [
+        "Michelle Degnin, BASc",
+        "Cristina E. Tognon",
+        "Christopher A. Eide",
+        "Beth Wilmot",
+        "Shannon K. McWeeney",
+        "Daniel Bottomly",
+        "Rebecca Smith, BASc",
+        "Brian J. Druker"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Michelle Degnin, BASc",
+            "author_affiliations": [
+                "Knight Cancer Institute, Oregon Health and Science University, Portland, OR "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cristina E. Tognon",
+            "author_affiliations": [
+                "Knight Cancer Institute, Division of Hematology and Medical Oncology, Oregon Health & Science University, Portland, OR ",
+                "Howard Hughes Medical Institute, Portland, OR "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher A. Eide",
+            "author_affiliations": [
+                "Knight Cancer Institute, Division of Hematology and Medical Oncology, Oregon Health & Science University, Portland, OR ",
+                "Howard Hughes Medical Institute, Portland, OR "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Beth Wilmot",
+            "author_affiliations": [
+                "Knight Cancer Institute, Division of Bioinformatics and Computational Biology, Oregon Health& Science University, Portland, OR "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shannon K. McWeeney",
+            "author_affiliations": [
+                "Knight Cancer Institute, Oregon Health and Science University, Portland, OR ",
+                "Knight Cancer Institute, Division of Bioinformatics and Computational Biology, Oregon Health & Science University, Portland, OR "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel Bottomly",
+            "author_affiliations": [
+                "Knight Cancer Institute, Oregon Health and Science University, Portland, OR ",
+                "Department of Bioinformatics and Computational Biology, Oregon Health and Science University, Portland, OR"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rebecca Smith, BASc",
+            "author_affiliations": [
+                "Knight Cancer Institute, Oregon Health and Science University, Portland, OR "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brian J. Druker",
+            "author_affiliations": [
+                "Knight Cancer Institute, Division of Hematology and Medical Oncology, Oregon Health & Science University, Portland, OR ",
+                "Howard Hughes Medical Institute, Portland, OR "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T02:25:25",
+    "is_scraped": "1"
 }
