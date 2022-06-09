@@ -1,8 +1,265 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3627",
-    "start_url_page_num": "3627",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.3910.3910",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/3910/71984/Digital-Drug-Screening-and-Computational-Modeling?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T10:23:14",
-    "is_scraped": "0"
+    "article_title": "Digital Drug Screening and Computational Modeling Identifies Treatment Opportunities Despite Lack of Directly Actionable Mutations in Acute Myeloid Leukemia (AML) and Myelodysplastic Syndromes (MDS) ",
+    "article_date": "December 7, 2017",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster III",
+    "abstract_text": "Background: Although virtually all patients (pts) with AML or MDS harbor at least one somatic mutation, a minority of pts possess genetic mutations considered directly targetable by a drug. Moreover, in pts with multiple gene mutations, single-gene/single-drug matching often produces conflicting drug recommendations. This lack of clinically relevant mutation-targeted therapy represents an unmet need in treating AML and MDS, and is a major limitation in personalized medicine. We hypothesized that genomic mutations from pts with AML or MDS could be used to generate pt-specific protein network maps for use in digital drug screening (DDS) even in cases when the gene mutations per se are not directly actionable. This would dramatically increase the percent of pts with actionable findings. Our primary goal was to establish a genomics and computational biology workflow that identified disease-relevant treatment options for every pt. Methods: We prospectively enrolled AML and MDS pts and collected bone marrow (BM), peripheral blood and clinical data relevant to their diagnosis and treatment. BM specimens were examined by conventional cytogenetics (Giemsa), whole exome sequencing (WES, Agilent), and copy number variation (CNV). Directly actionable mutations were defined as IDH1/2, JAK2, NRAS, KRAS, FLT3, TET2 or del(5q), based on currently available drugs that directly act on these mutations. Genomic data from each pt were used as inputs into a computational biology modeling (CBM) software (Cellworks Group), that generated pt-specific protein network maps based on software written from PubMed references and other online databases. DDS was conducted by mathematically quantifying drug effects on a cell growth score (CGS), which is a composite of modeled cell proliferation, viability and apoptosis. 77 drug combinations, comprised of 10 standard of care (SOC) and 16 non-SOC drugs were digitally screened on each pt's case to identify drug or drug combinations with significant reductions in CGS. Evaluation for drug-drug synergy was calculated by coefficient of drug interaction (CDI) and the extent to which each drug reduced the CGS. Results: 80 pts with either AML (n=41, 51%) or MDS (n=31, 39%), or myeloproliferative neoplasms (n=8, 10%) were successfully analyzed by the genomics and computational biology analysis plan. 23/80 (29%) were treatment-naive, while 58/80 (71%) were treatment-refractory. The median age was 65 years (range 36-90). While 28/80 (34%) pts had a directly actionable mutation, 53/80 (66%) patients did not. Disease-relevant biomarkers were identified for all (100%) of the pts using the CBM technology, involving pathways related to kinase activity (BTK, MAPK3, SRC, AURKA/B, AKT, mTOR, etc.) and transcription factors (TP53, MYC_MAX, CTNNB1, NFkB1, RUNX3, STAT3, etc.). DDS identified 77 unique drug combinations with potential therapeutic activity in these 81 patients, where cytarabine + dexamethasone (n=10), cytarabine + ruxolitinib (n=8), cytarabine + everolimus (n=6) were the most commonly identified combinations. A majority of pts (63/80, 79%) were predicted to respond to a combination of SOC + non-SOC, while 18/80 (21%) patient's cases were predicted to respond to a combination of non-SOC + non-SOC. In addition to selecting therapeutic regimens, computational modeling identified 9 pt cases whose simulated drug combinations resulted in synergistic activity, more frequently including cytarabine + ruxolitinib or cytarabine + dexamethasone. Conclusions: In contrast to a widely used practices of next generation sequencing techniques to identify single-gene/single-drug matching, this strategy of using a protein networking mapping and DDS identified therapeutic options for all pts with AML or MDS, even when there was no directly actionable mutation. In clinical situations of no established standard of care, such as refractory AML or MDS, the use of computational modeling and digital drug simulations may increase therapeutic options. CBM is currently being validated in a prospective clinical trial (NCT02435550). These results serve as the basis for a new, non-basketized clinical trial testing the effectiveness of computer-informed treatment based on the pt's malignant mutanome. Disclosures Norkin: Celgene: Honoraria, Research Funding. Vasista: Cellworks Research India: Employment. Basu: Cellworks: Employment. Usmani: Cellworks: Employment. Roy: Cellworks: Employment. Lala: Cellworks: Employment. Radhakrishnan: Cellworks: Employment. Kumar: Cellworks: Employment. Rajagopalan: Cellworks: Employment. Abbasi: Cellworks Group Inc.: Employment. Vali: Cellworks Group Inc.: Employment. Cogle: Celgene: Other: Membership on Steering Committee for Connect MDS/AML Registry.",
+    "topics": [
+        "computer simulation",
+        "drug screening",
+        "leukemia, myelocytic, acute",
+        "mutation",
+        "myelodysplastic syndrome",
+        "brachial plexus neuritis",
+        "cytarabine",
+        "drug combinations",
+        "dexamethasone",
+        "ruxolitinib"
+    ],
+    "author_names": [
+        "Leylah M. Drusbosky, PhD",
+        "Kimberly E. Hawkins, PhD BS",
+        "Madeleine Turcotte, MS",
+        "Hemant S. Murthy, MD",
+        "Helen L. Leather",
+        "Nosha Farhadfar, MD",
+        "Maxim Norkin, MD",
+        "John R. Wingard, MD",
+        "John W. Hiemenz, MD",
+        "Paul Castillo, MD",
+        "Randy A. Brown, MD",
+        "William Slayton, MD",
+        "Biljana N. Horn, MD",
+        "Sumanth Vasista, BE",
+        "Kabya Basu, MS",
+        "Shahabuddin Usmani, MS",
+        "Kunal Ghosh Roy, MS",
+        "Deepak Anil Lala, BT",
+        "Saumya Radhakrishnan, BT",
+        "Rajeev Kumar, BT",
+        "Swaminathan Rajagopalan, MT",
+        "Taher Abbasi, MS, MBA",
+        "Shireen Vali, PhD",
+        "Christopher R. Cogle, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Leylah M. Drusbosky, PhD",
+            "author_affiliations": [
+                "Department of Medicine/Division of Hematology Oncology, University of Florida, Gainesville, FL "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kimberly E. Hawkins, PhD BS",
+            "author_affiliations": [
+                "Department of Medicine/Division of Hematology Oncology, University of Florida, Gainesville, FL "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Madeleine Turcotte, MS",
+            "author_affiliations": [
+                "College of Medicine, University of Florida, Gainesville, FL "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hemant S. Murthy, MD",
+            "author_affiliations": [
+                "University of Florida Department of Medicine/Division of Hematology Oncology, Gainesville, FL "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Helen L. Leather",
+            "author_affiliations": [
+                "Department of Medicine/Division of Hematology Oncology, University of Florida, Gainesville, FL "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nosha Farhadfar, MD",
+            "author_affiliations": [
+                "University of Florida Department of Medicine/Division of Hematology Oncology, Gainesville, FL "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maxim Norkin, MD",
+            "author_affiliations": [
+                "University of Florida, Gainesville, FL "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John R. Wingard, MD",
+            "author_affiliations": [
+                "University of Florida Department of Medicine/Division of Hematology Oncology, Gainesville, FL "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John W. Hiemenz, MD",
+            "author_affiliations": [
+                "University of Florida Department of Medicine/Division of Hematology Oncology, Gainesville, FL "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Paul Castillo, MD",
+            "author_affiliations": [
+                "Shand's Children's Hospital, Department of Pediatrics, Division of Pediatric Hematology Oncology, University of Florida, Gainesville, FL "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Randy A. Brown, MD",
+            "author_affiliations": [
+                "University of Florida Department of Medicine/Division of Hematology Oncology, Gainesville, FL "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "William Slayton, MD",
+            "author_affiliations": [
+                "University of Florida College of Medicine, Gainesville, FL "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Biljana N. Horn, MD",
+            "author_affiliations": [
+                "University of Florida College of Medicine, Gainesville, FL "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sumanth Vasista, BE",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kabya Basu, MS",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shahabuddin Usmani, MS",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kunal Ghosh Roy, MS",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Deepak Anil Lala, BT",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Saumya Radhakrishnan, BT",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rajeev Kumar, BT",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Swaminathan Rajagopalan, MT",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Taher Abbasi, MS, MBA",
+            "author_affiliations": [
+                "Cellworks Group Inc., San Jose, CA"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shireen Vali, PhD",
+            "author_affiliations": [
+                "Cellworks Group Inc., San Jose, CA"
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher R. Cogle, MD",
+            "author_affiliations": [
+                "University of Florida, Gainesville, FL "
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T18:35:21",
+    "is_scraped": "1"
 }
