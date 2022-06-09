@@ -1,8 +1,55 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3641",
-    "start_url_page_num": "3641",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.2227.2227",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/2227/71426/Quantifying-the-Pathophysiology-of-Beta?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T10:44:51",
-    "is_scraped": "0"
+    "article_title": "Quantifying the Pathophysiology of Beta-Thalassemia Using a Novel in-Silico Model of Red Blood Cell Production and Lifespan ",
+    "article_date": "December 7, 2017",
+    "session_type": "112. Thalassemia and Globin Gene Regulation: Poster II",
+    "abstract_text": "Background: From a qualitative perspective the pathophysiology of beta-thalassemia (BT) is generally well understood. Reduction in hemoglobin (Hb) beta-chain synthesis relative to the normal rate of alpha-chain synthesis causes a free alpha-chain excess (ACE) that is toxic to the RBC and its precursors. Circulating RBCs are hemolyzed in the spleen, shortening their lifespan from the normal value of 120 days. RBC precursors in the bone marrow undergo early apoptosis leading to reduced RBC production relative to other anemic states (so called \"ineffective erythropoiesis\"). Together with low MCH levels these mechanisms lead to Hb levels ranging from 10 - 12 g/dL in BT trait, 7 - 10 g/dL in non-transfusion dependent (NTD) BT, below 7 g/dL in transfusion-dependent (TD) BT at baseline and above 9 - 10.5 g/dL in TD patients receiving regular transfusions administered every 2 to 5 weeks. To quantify the mechanisms responsible for the different BT phenotypes and the response to transfusion in TD patients, we have developed an in-silico model of RBC production and lifespan. Methods: The theoretical amount of ACE per cell was estimated by assuming that the alpha-chain level corresponds to an MCH of 30 pg and the non-alpha chain level (beta, gamma and delta chains) corresponds to the MCH of the BT phenotype, which varies from ~12 to 20 pg in TD BT to ~16 to 23 pg in NTD BT and ~18 to 24 pg in BT trait. The in-silico model consists of a bone marrow module - representing the production and aging of reticulocytes, Hb synthesis and entry to the bloodstream (equivalent to the RBC production rate, PRBC); a circulation module - representing the total blood volume (TBV), conversion of reticulocytes to mature RBCs, attainment of the final MCH, normal aging of RBCs, and a hemolytic process in BT (with rate constant k H that depends on the ACE level); and a transfusion module - representing the volume of transfused blood (V TF ) with hematocrit H, a normal RBC age-distribution, and a separate hemolytic process (with rate constant k H_Tf ). Reticulocyte lifespans in the bone marrow and circulation were set to ~3 days and ~1 day, respectively, but can vary oppositely at high PRBC (stress erythropoiesis). A key assumption of the model is that PRBC is down-regulated by the Hb level according to a sigmoidal Hill function, which was calibrated using PRBC data from normal subjects and patients with sickle cell disease, and was assumed to have a maximum value 10-fold the normal PRBC rate. In BT the PRBC function is also modulated by a factor F BT , dependent on the ACE level. Additional data from BT patients were used to derive the k H and F BT values. The model was expressed in ordinary differential equations using the Berkeley Madonna platform (Version 8.3.18). Results: To simulate the spectrum of BT phenotypes, MCH levels were varied from 15 pg to the normal value of 30 pg and the ACE levels, k H and F BT values were computed from the model. The simulated steady-state dependences of Hb vs. MCH (Figure 1A) and Reticulocyte count vs. Hb level (Figure 1B) are in good agreement with published literature data. For virtual patients (VPs) with MCH levels of 23, 21 and 18 pg, typical of BT trait, NTD and TD phenotypes, respectively, the estimated ACE levels were 0.22, 0.28 and 0.38 fmole/cell; k H values were 0.01, 0.019 and 0.037 day -1 and values of F BT were 0.65, 0.6 and 0.55. The effective RBC lifespans for these VPs were 68, 47 and 23 days, respectively. Regular transfusions (V TF = 15 mL/kg; H = 0.6) were simulated over 24 weeks for a TD VP (MCH = 18 pg; baseline Hb = 6.61 g/dL) to maintain the Hb level above 9 g/dL. In Figure 2A, where k H_Tf = 0 (no hemolysis of transfused blood), the transfusion interval stabilizes at 3.71 weeks. In Figure 2B, where k H_Tf = 0.0165 day -1 (an effective RBC lifespan of 50.7 days), the transfusion interval stabilizes at 2 weeks. Reticulocyte counts decrease markedly in both cases. To achieve a ~3 g/dL increment in the Hb level, TBV must equal 100 mL/kg (~40% greater than normal). Conclusions: Our in-silico model explains the phenotypic variation of Hb levels and reticulocyte counts in BT in terms of the effects of ACE on the hemolysis rate constant (k H ) and the fractional reduction in RBC production (F BT ). The 2-week transfusion interval required in some patients to maintain Hb above 9 g/dL is explained by a shortened lifespan of the transfused blood. More clinical data would be helpful to confirm and refine these observations to better understand the key drivers of disease pathology in BT. View large Download slide View large Download slide  Close modal Disclosures Mazer: Roche: Employment, Equity Ownership. Hermosilla: Roche: Employment. Koerner: Roche: Employment.",
+    "topics": [
+        "beta thalassemia",
+        "erythropoiesis",
+        "life span",
+        "transfusion",
+        "packed red blood cells",
+        "blood transfusion",
+        "anemia",
+        "hemoglobin",
+        "ineffective erythropoiesis",
+        "sickle cell anemia"
+    ],
+    "author_names": [
+        "Norman Alan Mazer, MD PhD",
+        "Ricardo Hermosilla, PhD",
+        "Annette Koerner, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Norman Alan Mazer, MD PhD",
+            "author_affiliations": [
+                "Clinical Pharmacology, Roche Innovation Center Basel, Basel, Switzerland "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ricardo Hermosilla, PhD",
+            "author_affiliations": [
+                "Neuroscience, Ophthalmology and Rare Diseases, Roche Innovation Center Basel, Basel, Switzerland"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Annette Koerner, PhD",
+            "author_affiliations": [
+                "Neuroscience, Ophthalmology and Rare Diseases, Roche Innovation Center Basel, Basel, Switzerland"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T21:32:40",
+    "is_scraped": "1"
 }
