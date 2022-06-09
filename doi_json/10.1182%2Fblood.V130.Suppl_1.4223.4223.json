@@ -1,8 +1,75 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3578",
-    "start_url_page_num": "3578",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.4223.4223",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/4223/72575/Deep-Learning-Algorithms-Support-Distinction-of-PV?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T07:40:27",
-    "is_scraped": "0"
+    "article_title": "Deep Learning Algorithms Support Distinction of PV, PMF, and ET Based on Clinical and Genetic Markers ",
+    "article_date": "December 7, 2017",
+    "session_type": "635. Myeloproliferative Syndromes: Basic Science: Poster III",
+    "abstract_text": "Introduction: The WHO classification (2016) defines myeloproliferative neoplasms (MPN) according to cytomorphology, bone marrow biopsy, grading of fibrosis, blood counts and several molecular markers. Polycythemia vera (PV), primary myelofibrosis (PMF) and essential thrombocythemia (ET) are separated from each other. However, overlaps and borderline findings occur. Entities also can transform into another subtype of MPN or even AML. Aim: To separate and stratify PV, PMF, and ET using blood counts, cytogenetics, standard molecular markers ( JAK2 , CALR , MPL ) and a panel of further 15 genes all investigated by NGS supported by deep learning algorithms. Methods and Results: As a training cohort we used well characterized samples (n=243, all BCR-ABL1 negative) diagnosed with either PMF, PV, or ET based on morphology and JAK2 , MPL , CALR mutation status following WHO criteria: 65 PMF, 70 PV, and 108 ET. Mutation status of another 15 recurrently mutated genes was available in all cases ( ASXL1 , CBL , DNMT3A , EZH2 , IDH1 , IDH2 , NPM1 , NRAS , RUNX1 , SETBP1 , SF3B1 , SRSF2 , TET2 , TP53 , U2AF1 ). Further, in 207/243 cytogenetics was available. Based on these 243 cases an algorithm was trained using platelet and white blood cell counts, hemoglobin levels, mutation status of 18 genes, cytogenetics (normal or aberrant), and low versus high JAK2 mutational load (<35/\u226535%). We used Support Vector Machines with class-probabilities output. Individual models were built for PMF, PV, and ET with 3-fold cross-validation, resulting in training errors of 8%, 9%, and 10%, respectively. Afterwards, the trained models were used to predict the most probable diagnosis of patients from a test cohort (n=183) retrieving the class probabilities for each patient (Fig. A). Open-set recognition was applied to correctly handle patients that were characterized by patterns that did not match any of the trained patterns. The latter patients received the class label \"unknown\". A probability of \u226560% in one of the classes was the class defining argument. The test cases were classified following the WHO criteria: 24 PMF, 3 PV, 41 ET. However, if sufficient clinical parameters were missing cases were classified as \"MPN\" only if JAK2 , CALR , or MPL were mutated (n=61). Cases without such a mutation were classified as \"suspected MPN\" (n=54). Overall, we reached an accuracy of 96%, showing only 7 cases with severe clinical discordant information (Fig. B). In total, 25 cases were classified as PMF, 16 as PV, 48 as ET, and 94 as \"unknown\" by clinical parameters and deep learning, respectively. For all patients the probabilities of classification to all four classes are given in Figure A. 88% of ET cases were classified correctly, with only 5 cases assigned to the \"unknown\" labeled group. 100% of PV patients were classified correctly without any misclassification at all. Classification of PMF cases was more challenging with a number of not assigned cases. However, the classification of the large group of 61 MPN patients not further specified by WHO criteria and morphology resulted in 25 assigned cases: 19 PMF, 3 PV, and 3 ET, illustrating the power of deep learning to support clinicians by making the diagnosis based on the genetic background of the patient only if some clinical parameters are missing. The last group of cases, where no valid diagnosis of a MPN was possible (cases without a MPN defining mutation), were - as expected - grouped mainly to the \"unknown\" class in 76% (41/54) of cases. Conclusions: Use of WHO criteria to classify MPN leads to the diagnosis of PV, PMF, or ET. Borderline cases can be categorized by adding more molecular markers. Deep learning algorithms can support decision making with a high accuracy even if clinical data is insufficient. In cases with incomplete data set or borderline features the application of such algorithms might assist diagnostic procedures in the near future. View large Download slide View large Download slide  Close modal Disclosures Meggendorfer: MLL Munich Leukemia Laboratory: Employment. Walter: MLL Munich Leukemia Laboratory: Employment. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Kern: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership.",
+    "topics": [
+        "biological markers",
+        "bone marrow biopsy",
+        "deep learning",
+        "fibrosis",
+        "genetic markers",
+        "hemoglobin measurement",
+        "leukemia",
+        "massively-parallel genome sequencing",
+        "myelofibrosis, idiopathic, chronic",
+        "myeloproliferative disease"
+    ],
+    "author_names": [
+        "Manja Meggendorfer, PhD",
+        "Wencke Walter, PhD",
+        "Claudia Haferlach, MD",
+        "Wolfgang Kern, MD",
+        "Torsten Haferlach, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Manja Meggendorfer, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wencke Walter, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Claudia Haferlach, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wolfgang Kern, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Torsten Haferlach, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T04:01:15",
+    "is_scraped": "1"
 }
