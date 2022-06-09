@@ -1,8 +1,135 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3604",
-    "start_url_page_num": "3604",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.4201.4201",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/4201/72823/Essential-Thrombocythemia-Versus-Pre-Fibrotic?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T08:47:15",
-    "is_scraped": "0"
+    "article_title": "Essential Thrombocythemia Versus Pre-Fibrotic/Early Primary Myelofibrosis: Discrimination By Laboratory and Clinical Data ",
+    "article_date": "December 7, 2017",
+    "session_type": "634. Myeloproliferative Syndromes: Clinical: Poster III",
+    "abstract_text": "In clinical practice there is an active interest to evaluate whether laboratory or clinical parameters would help to distinguish WHO-defined essential thrombocythemia (ET) and pre-fibrotic / early primary myelofibrosis (pre-PMF) in patients presenting with thrombocytosis given the very different outcome and treatment options. A first step in this direction was initiated by Carobbio et al. (Am J Hematol.2012;87:203-204), who used hemoglobin (Hb) level, white blood cell (WBC) count and serum lactate dehydrogenase (LDH) level in a dichotomized fashion, resulting in a step-by-step algorithm (the so-called Bergamo algorithm). The aim of the present study was to extend and improve this algorithm. In addition to the laboratory parameters, leftshift in the peripheral blood cell count (presence of single erythroblasts or myelocytes, metamyelocytes, promyelocytes or myeloblasts) and splenomegaly were also tested as presumptive parameters. The second, more important approach was to look not necessarily at each parameter in a stepwise order, but to develop a logistic regression model. Only patients diagnosed with ET or pre-PMF according to the 2008 WHO diagnostic criteria with a complete dataset (age at diagnosis, complete blood counts, left-shift, LDH-levels and presence of splenomegaly), consistent diagnosis between bone marrow (BM) morphology and clinical findings, platelet count greater than 450 x 10 9 /L and no evidence for masked/early stages of polycythemia vera were eligible for this study. These criteria were met by 359 patients who were included in the study. Results from the first application of the Bergamo algorithm on our cohort are given in Table 1 . The expanded algorithm, which includes leftshift and splenomegaly increased sensitivity with regard to pre-PMF and the number of undetermined cases could be reduced to 93 ( Table 1 ). In an alternative approach, a logistic regression model was used, which weights the information contained in the laboratory parameters and in the dichotomous variable splenomegaly in an optimal, data-driven way and exploits the full information of the continuous laboratory parameters, instead of dichotomizing them. Leftshift was removed from the final model due to obvious negligibility for the sake of model parsimony. While step-by-step procedures deliver a prediction in the form of a patient's direct classification into either ET or pre-PMF (or undetermined), a logistic regression model transforms each set of a patient's characteristics into a predicted probability for pre-PMF. The final model's calibration plot shows a good agreement between observed and shrunk predicted pre-PMF probabilities; accordingly, the Hosmer-Lemeshow test shows a non-significant test result (p=0.255). The predicted shrunk pre-PMF probability can be used as a prediction score ranging from 0 (ET) to 1 (pre-PMF). It is calculated using the following formula: Score = 1 / [1+exp(-21.01-0.249*Hb+0.613*log2(WBC) + 2.63*log2(LDH) +1.04*Splenomegaly)] Here, log2 denotes the binary logarithm (1 is inserted for presence of splenomegaly, zero otherwise). To transform this score into a dichotomous classification rule (ET vs. pre-PMF) a cutoff equal to 0.438 is proposed which leads to approximately equal sensitivity and specificity in our data. Utilizing only dichotomized laboratory parameters we could reproduce the results of the Bergamo algorithm yielding a sensitivity and specificity of about 50% among our study cohort. Expanding these parameters by leftshift and splenomegaly, we achieved an increase of these values and provide predictions also for previously undetermined cases. Finally, we demonstrated that a risk score formula based on statistical modeling is able to exploit the information contained in the same predictor variables in a much more efficient way ( Table 1). Although, according to the WHO criteria, BM biopsy examination persists as an integral part of the final diagnosis, laboratory parameters may provide clinicians with additional information to suspect pre-PMF in a patient with a presumptive clinical diagnosis of ET. However, in this context it should be underscored that our formula and the proposed cutoff for the resulting score need to be externally validated in other large cohorts of patients presenting with thrombocythemic myeloproliferative neoplasms, and most important, in prospective clinical trials. View large Download slide View large Download slide  Close modal Disclosures Krauth: Celgene: Honoraria; Novartis: Honoraria; Takeda: Honoraria; Amgen: Honoraria; BMS: Honoraria; Janssen Cilag: Honoraria; AOP Orphan Pharmaceuticals AG: Honoraria. Gisslinger: AOP Orphan Pharmaceuticals AG: Consultancy, Honoraria; Novartis: Consultancy, Honoraria; PharmaEssentia: Consultancy, Honoraria; Janssen Cilag: Honoraria; Shire: Honoraria; Takeda: Honoraria.",
+    "topics": [
+        "myelofibrosis, idiopathic, chronic",
+        "thrombocythemia, hemorrhagic",
+        "splenomegaly",
+        "apnea of prematurity",
+        "thrombocytosis",
+        "biopsy",
+        "calibration",
+        "clinical diagnosis",
+        "hemoglobin",
+        "laboratory test finding"
+    ],
+    "author_names": [
+        "Martin Schalling",
+        "Andreas Gleiss",
+        "Bettina Gisslinger",
+        "Albert W\u00f6lfler",
+        "Veronika Buxhofer-Ausch",
+        "Georg Jeryczynski, MD",
+        "Maria-Theresa Krauth, MD",
+        "Ingrid Simonitsch-Klupp, MD",
+        "Christine Beham-Schmid",
+        "Jurgen Thiele",
+        "Heinz Gisslinger"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Martin Schalling",
+            "author_affiliations": [
+                "Department of Internal Medicine I, Division of Hematology and Hemostaseology, Medical University of Vienna, Vienna, Austria "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andreas Gleiss",
+            "author_affiliations": [
+                "Center for Medical Statistics, Informatics, and Intelligent Systems, Medical University of Vienna, Vienna, Austria "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bettina Gisslinger",
+            "author_affiliations": [
+                "Department of Medicine I, Division of Hematology and Hemostaseology, and Comprehensive Cancer Center, Medical University of Vienna, Vienna, Austria "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Albert W\u00f6lfler",
+            "author_affiliations": [
+                "Department of Internal Medicine, Division of Hematology, Medical University of Graz, Graz, Austria "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Veronika Buxhofer-Ausch",
+            "author_affiliations": [
+                "Department of Internal Medicine I, Elisabethinen Hospital Linz, Linz, Austria "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Georg Jeryczynski, MD",
+            "author_affiliations": [
+                "Department of Internal Medicine I, Division of Hematology and Hemostaseology, Medical University of Vienna, Vienna, Austria "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maria-Theresa Krauth, MD",
+            "author_affiliations": [
+                "Department of Medicine I, Division of Hematology and Hemostaseology, and Comprehensive Cancer Center, Medical University of Vienna, Vienna, Austria "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ingrid Simonitsch-Klupp, MD",
+            "author_affiliations": [
+                "Clinical Institute of Pathology, Medical University of Vienna, Vienna, Austria "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christine Beham-Schmid",
+            "author_affiliations": [
+                "Institute of Pathology, Medical University of Graz, Graz, Austria "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jurgen Thiele",
+            "author_affiliations": [
+                "Institute of Pathology, University of Cologne, Koeln, DEU"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Heinz Gisslinger",
+            "author_affiliations": [
+                "Department of Medicine I, Division of Hematology and Hemostaseology, and Comprehensive Cancer Center, Medical University of Vienna, Vienna, Austria "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T09:40:00",
+    "is_scraped": "1"
 }

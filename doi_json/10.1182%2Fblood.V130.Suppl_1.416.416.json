@@ -1,8 +1,253 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3605",
-    "start_url_page_num": "3605",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.416.416",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/416/72846/A-New-Immunohistochemical-Algorithm-Using-Four?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T08:47:19",
-    "is_scraped": "0"
+    "article_title": "A New Immunohistochemical Algorithm Using Four Antibodies Has a High Concordance with Gene Expression Profiling Defined ABC and GCB Diffuse Large B-Cell Lymphoma ",
+    "article_date": "December 7, 2017",
+    "session_type": "627: Aggressive Lymphoma (Diffuse Large B-Cell and Other Aggressive B-Cell Non-Hodgkin Lymphomas)\u2014Results from Retrospective/Observational Studies: Molecular Characterization of Diffuse Large B Cell Lymphoma",
+    "abstract_text": "The new WHO 2016 classification of lymphoid neoplasms requires the identification of Activated B-cell like (ABC) and Germinal center B-cell like (GCB) Diffuse large B-cell lymphomas (DLBCL) NOS as oncogenetic pathways and probably sensitivity to specific therapies differ between these two subtypes. Whereas RNA based signatures from FFPE DLBCL seem promising in reproducibility, still 15% to 20% of DLBCL NOS are of the Unclassified subtype and there is variability between gene expression profiling (GEP) and RNA signatures considering this unclassified subtype. Therefore, the immunohistochemical tool, used during the diagnostic process of the lymphoma, might be useful to maintain and develop in addition to the molecular tools. Hans and coworkers previously developed an immunohistochemical algorithm with 86% concordance with GEP among patients treated with Rituximab with antracyclin based regimens. However, some antibodies such as BCL6 are difficult to evaluate and might hamper reproducibility of scoring. We propose an alternative to the Hans algorithm using 4 easy to use antibodies while keeping the classification process fairly simple. Methods One thousand eight hundred forty-three patients with previously untreated de novo CD20+ DLBCL were enrolled in the GELA (Groupe d'Etudes des Lymphomes de l'Adulte)/LYSA (Lymphoma Study Association) LNH01-5B and LNH03-B clinical trials. A Tissue microarray of 854 tumors were built and immunostaining with CD10, MUM1, FOXP1 (Barrans' threshold, 0 vs Variable/Strong), BCL6, IGM, MYC, BCL2 was performed. 761 cases of DLBCL NOS had immunostains data available. For 150 of these patients, frozen tissue was available and GEP has been analyzed using GeneChip Human Genome HGU133 Plus 2.0 arrays (Affymetrix, Santa Clara, CA, USA). A new immunohistochemical algorithm was then developped and validated in concordance with GEP using a training set and a validation set (100 cases for training, 50 cases for validation). The first step was to choose the best and most parsimonious machine learning algorithm capable of predicting DLBCL subtypes. Then, logical rules were created based on the predicted probabilities of class membership using a probability threshold that optimize concordance between machine learning and logical rules predictions. xgBoost algorithm (boosted trees models) with 4 covariables was chosen, using a cut-off of 0.39 for predicted class membership probabilities. Results A new algorithm (Table 1) using CD10, MUM1, FOXP1 and IGM was then derived with an accuracy of 93% (IC95 [0.80 ; 0.98]) on the validation set, compared to GEP classification. This algorithm has four arms taking into account the GCB marker CD10 and independently one of the three ABC (MUM1, FOXP1, IGM) markers to classify as GCB, ABC or non classified. Hans algorithm had an accuracy of 0.88 (IC95 [0.75 ; 0.96]) on this same dataset. On the training and validation set combined, our algorithm re-classified correctly 7 GCB subtypes compared to the Hans algorithm. Survival analysis on the remaining cases (611 patients) found an ABC vs GC hazard ratio (HR) of 2.0 (IC95 [1.47 ; 2.73]) for progression free survival (PFS) and 1.95 (IC95 [1.36-2.80]) for overall survival (OS), using ABC vs GCB classification of our new algorithm. In our series, Hans' algorithm found an ABC vs GCB HR of 1,74 IC95 [1,27-2,39] for PFS and 1,87 IC95 [1,29-2,71] for OS. Conclusion Our new algorithm shows excellent performance compared to the Gold Standard GEP classification, using only 4 immunostains, and allows for more accurate risk stratification both for PFS and OS than Hans'algorithm. Therefore, it can be used as a useful tool in addition to molecular signatures. View large Download slide View large Download slide Close modal Disclosures Bruneau: Innate Pharma: Research Funding. Delarue: Gilead: Consultancy, Honoraria; BMS: Consultancy, Honoraria; Roche: Consultancy, Honoraria. Haioun: PFIZER: Consultancy, Honoraria; GILEAD: Consultancy, Honoraria; JANSSEN: Consultancy, Honoraria; Sandoz: Consultancy, Honoraria; Takeda: Consultancy, Honoraria; Amgen: Consultancy, Honoraria; Roche: Consultancy, Honoraria. Casasnovas: BMS: Consultancy, Honoraria; Abbvie: Consultancy, Honoraria; Sanofi: Consultancy, Honoraria; Takeda: Consultancy, Honoraria; Gilead: Consultancy, Honoraria, Research Funding; Roche: Consultancy, Honoraria, Research Funding. Morschhauser: Roche: Consultancy, Honoraria; Celgene: Consultancy, Honoraria; Janssen: Consultancy, Honoraria; Bristol-Myers Squibb: Consultancy, Honoraria; Gilead: Consultancy; Servier: Consultancy. Emile: Merck Serono: Honoraria. Tilly: Gilead: Honoraria; Immunogen: Honoraria; Karyopharm: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees; Celgene: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Roche: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Janssen: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees; Takeda: Consultancy, Honoraria. Salles: Celgene: Consultancy, Honoraria; Gilead: Consultancy, Honoraria; Janssen: Consultancy, Honoraria; Kite: Consultancy, Honoraria; MSD: Consultancy, Honoraria; Novartis: Consultancy, Honoraria; Servier: Consultancy, Honoraria; BMS: Consultancy; morphosys: Consultancy, Honoraria; Amgen: Consultancy, Honoraria; Roche: Consultancy, Honoraria, Research Funding. Jardin: Roche: Honoraria; celgen: Honoraria; Janssen: Honoraria. Molina: Merck Serono: Honoraria; Novartis: Honoraria; Takeda: Other: travel support to the ASH meeting.",
+    "topics": [
+        "antibodies",
+        "diffuse large b-cell lymphoma",
+        "gene expression profiling",
+        "immunoglobulin m",
+        "neprilysin",
+        "immunostain",
+        "lymphoma",
+        "antigens",
+        "bcl-2 protein",
+        "gold standard"
+    ],
+    "author_names": [
+        "Henry Theophraste, Resident",
+        "Julie Bruneau, MD PhD",
+        "Christiane Copie, MDPhD",
+        "Philippe Ruminy, PhD",
+        "Petrella Tony, MD PhD",
+        "Josette Briere, MD",
+        "Richard Delarue, MD",
+        "Marie Parrens, MDPhD",
+        "Corinne Haioun",
+        "Danielle Canioni, MD",
+        "Olivier Casasnovas, MD",
+        "Bettina Fabiani, MD",
+        "Franck Morschhauser, MD PhD",
+        "Jean-Fran\u00e7ois Emile, MD PhD",
+        "Herve Tilly",
+        "Martin Figeac, PhD",
+        "Philippe Gaulard, MD PhD",
+        "Gilles Andre Salles, MD PhD",
+        "Fabrice Jardin",
+        "Karen Leroy, MD PhD",
+        "Jean-Philippe Jais, MD PhD",
+        "Thierry Jo Molina, MDPhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Henry Theophraste, Resident",
+            "author_affiliations": [
+                "Biostatistics, Paris, France "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Julie Bruneau, MD PhD",
+            "author_affiliations": [
+                "Pathology Department, Necker University Hospital, Paris, France "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christiane Copie, MDPhD",
+            "author_affiliations": [
+                "Pathology Department, CHU Henri Mondor, AP HP, Paris, France "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Philippe Ruminy, PhD",
+            "author_affiliations": [
+                "INSERM U1245, Centre Henri Becquerel, Rouen, France "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Petrella Tony, MD PhD",
+            "author_affiliations": [
+                "Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, Canada "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Josette Briere, MD",
+            "author_affiliations": [
+                "Pathology, Hopital Saint-Louis, France, France "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Richard Delarue, MD",
+            "author_affiliations": [
+                "Hematology Department / Hemophilia Center, Necker University Hospital, AP-HP, Paris, France ",
+                "URC/CIC Paris Descartes Necker-Cochin, Paris, France ",
+                "Institut Imagine Universite Sorbonne Paris-Cite, Paris, France "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marie Parrens, MDPhD",
+            "author_affiliations": [
+                "H\u00f4pitaux de Bordeaux CHU, Bordeaux, France "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Corinne Haioun",
+            "author_affiliations": [
+                "AP-HP, Groupe Hospitalier Mondor, Cr\u00e9teil, France ",
+                "Henri Mondor University Hospital, Cr\u00e9teil, France ",
+                "UPEC University, CRETEIL, France ",
+                "Unit\u00e9 H\u00e9mopathies Lympho\u00efdes, AP-HP H\u00f4pital Henri Mondor, Cr\u00e9teil, France "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Danielle Canioni, MD",
+            "author_affiliations": [
+                "Pathology Department, Hopital Necker, Paris, FRA "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Olivier Casasnovas, MD",
+            "author_affiliations": [
+                "Department of Hematology, University Hospital of Djion, Dijon, France "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bettina Fabiani, MD",
+            "author_affiliations": [
+                "Pathology Department, AP-HP H\u00f4pital Saint Antoine, Paris, France "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Franck Morschhauser, MD PhD",
+            "author_affiliations": [
+                "Clinical Hematology Department, Centre Hospitalier R\u00e9gional Universitaire de Lille, Lille, France "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jean-Fran\u00e7ois Emile, MD PhD",
+            "author_affiliations": [
+                "Research Unit (EA) EA4340 and Pathology Laboratory, Versailles University and AP-HP, Ambroise Par\u00e9 Hospital, Boulogne, France "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Herve Tilly",
+            "author_affiliations": [
+                "Hematology Department, Centre Henri Becquerel, Rouen, France "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martin Figeac, PhD",
+            "author_affiliations": [
+                "Universit\u00e9 de Lille 2, Lille, France "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Philippe Gaulard, MD PhD",
+            "author_affiliations": [
+                "UPEC University, CRETEIL, France ",
+                "EQ 9, INSERM U955, CRETEIL, France ",
+                "department of pathology, APHP, Groupe Hospitalier Mondor, CRETEIL, France ",
+                "Department of Pathology, Henri-Mondor Hospital, Creteil, France "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gilles Andre Salles, MD PhD",
+            "author_affiliations": [
+                "Hematology, Hospices Civils de Lyon - Universit\u00e9 de Lyon, Pierre-B\u00e9nite, France "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Fabrice Jardin",
+            "author_affiliations": [
+                "INSERM U1245, Centre Henri Becquerel, Rouen, France "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karen Leroy, MD PhD",
+            "author_affiliations": [
+                "AP HP, Paris, France "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jean-Philippe Jais, MD PhD",
+            "author_affiliations": [
+                "Statistics, Paris Descartes University, Paris, France "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Thierry Jo Molina, MDPhD",
+            "author_affiliations": [
+                "Department of Pathology, H\u00f4pital Necker, Paris, France"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T09:41:21",
+    "is_scraped": "1"
 }
