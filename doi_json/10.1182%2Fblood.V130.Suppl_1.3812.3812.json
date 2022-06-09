@@ -1,8 +1,215 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3619",
-    "start_url_page_num": "3619",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.3812.3812",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/3812/71832/Abnormal-Splicing-Patterns-and-Novel-Intron?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T09:22:51",
-    "is_scraped": "0"
+    "article_title": "Abnormal Splicing Patterns and Novel Intron Retentions Affect Genes Regulating Splicing, NF-Kb, ERK1/2, and TP53 in Waldenstrom's Macroglobulinemia ",
+    "article_date": "December 7, 2017",
+    "session_type": "602. Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation: Poster III",
+    "abstract_text": "Waldenstrom's Macroglobulinemia (WM) is characterized by activating mutations in MYD88 and CXCR4 in in 93-95% and 30-40% of patient's, respectively. Functional analysis of these mutations has revealed downstream activation of NF-kB, through BTK/IRAK as well as AKT/ERK activation downstream of HCK and CXCR4. Transcriptome analysis using next generation sequencing demonstrated strong upregulation of BCL2 and overall dysregulation of the BCL2 family of genes. Isoform based evaluation of splicing assumes that the data consists of a mixture of known isoforms, which may not be a reasonable assumption for a cancer transcriptome wherein mutational events and transcription factor dysregulation may cause unique combinations of splicing events not observed in healthy donors (HD). To explore alternative splicing in Waldenstrom's Macroglobulinemia (WM), we developed a MISO (Katz et al, Nat Meth 2010) based protocol to analyze next generation RNA sequencing data from 77 WM patients, 16 HD plasma cell samples, 9 HD CD19+CD27- peripheral blood B-cells and 9 HD CD19+CD27+ memory B-cells. Fifty-five patients harbored MYD88 mutations, 20 of whom also carried activating mutations in CXCR4. Twenty-two patients were wild-type (WT) for both genes, and was specifically enriched to insure adequate numbers for comparative study. To identify dysregulated splicing events, the memory B-cell cohort was merged and down-sampled for use as common comparator control for the WM and other HD samples. Estimating the variance in the control group is critical for statistical analysis so a jackknife permutation analysis where control samples pulled out and compared to the remaining samples was performed. This analysis was build into an automated pipeline based on two-pass STAR aligned bam files and corresponding tools to aggregate and analyze the data were developed using R. Novel intron retentions were investigated by identifying intronic regions not overlapping known exons. The number or reads mapping to these regions relative their flanking exons was calculated and compared. Filtering against events observed in the control permutation analysis and other healthy donor samples allowed for the identification of individual splicing events associated with WM. Splicing events were present in genes that regulated splicing itself (SF1, PTBP1), as well as pathways critical to WM growth and survival including NF-kB (ZFAND5, LYN, PKCD), ERK1/2 (CTBP1, VPS28, CCM2), and TP53 (PML, EIF4G2). PCR was successfully used to validate many of these splicing events (Figure 1). Preliminary intron retention analysis identified 4/77 (5%) of patients had intronic retentions on CD79B that were caused by intronic somatic mutations near the intron exon boundary (Figure 2). CD79B is a critical component of the B-cell receptor pathway and coding mutations have been observed in 7-15% of WM patients (Hunter et al, Blood 2013; Poulain et al, Am J Hematol, 2013). The retentions identified in this study represent a novel form of CD79B mutation that has not been previously reported. Additional analysis and functional characterization of these events is planned. These studies aim to identify novel biomarkers and therapeutic targets for WM while developing analytical tools applicable to other malignancies. View large Download slide View large Download slide  Close modal Disclosures Castillo: Janssen: Consultancy, Research Funding; Millennium: Research Funding; Pharmacyclics: Consultancy, Research Funding; Abbvie: Research Funding. Anderson: MedImmune: Membership on an entity's Board of Directors or advisory committees; Millenium Pharmaceuticals: Membership on an entity's Board of Directors or advisory committees; Oncopep: Other: scientific founder; Gilead Sciences: Membership on an entity's Board of Directors or advisory committees; C4 Therapeutics: Other: scientific founder; Bristol-Myers Squibb: Membership on an entity's Board of Directors or advisory committees. Treon: Pharmacyclics: Consultancy, Research Funding.",
+    "topics": [
+        "genes",
+        "introns",
+        "nf-kappa b",
+        "protein p53",
+        "rna splicing",
+        "tp53 gene",
+        "waldenstrom macroglobulinemia",
+        "cxcr4 receptors",
+        "bcl-2 protein",
+        "cancer"
+    ],
+    "author_names": [
+        "Zachary Hunter, PhD",
+        "Nickolas Tsakmaklis, BA",
+        "Lian Xu",
+        "Maria Demos, BS",
+        "Amanda Kofides, BS",
+        "Jiaji Chen, BS",
+        "Gloria Chan, MS",
+        "Manit Munshi, MS",
+        "Xia Liu, MD",
+        "Joshua Gustine",
+        "Kirsten Meid, MPH",
+        "Christopher Patterson, MAcc",
+        "Toni Dubeau, NP",
+        "Patricia Severns, NP",
+        "Jorge J. Castillo, MD",
+        "Guang Yang, PhD",
+        "Nikhil Munshi, MD",
+        "Kenneth C Anderson, MD",
+        "Steven P Treon, MDPhDFRCP"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Zachary Hunter, PhD",
+            "author_affiliations": [
+                "Bing Center for Waldenstrom's macroglobulinemia, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nickolas Tsakmaklis, BA",
+            "author_affiliations": [
+                "Bing Center for Waldenstrom's macroglobulinemia, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lian Xu",
+            "author_affiliations": [
+                "Bing Center for Waldenstrom's macroglobulinemia, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maria Demos, BS",
+            "author_affiliations": [
+                "Bing Center for Waldenstrom's macroglobulinemia, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amanda Kofides, BS",
+            "author_affiliations": [
+                "Bing Center for Waldenstrom's macroglobulinemia, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jiaji Chen, BS",
+            "author_affiliations": [
+                "Bing Center for Waldenstrom's macroglobulinemia, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gloria Chan, MS",
+            "author_affiliations": [
+                "Bing Center for Waldenstrom's macroglobulinemia, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manit Munshi, MS",
+            "author_affiliations": [
+                "Bing Center for Waldenstrom's macroglobulinemia, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xia Liu, MD",
+            "author_affiliations": [
+                "Bing Center for Waldenstrom's macroglobulinemia, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joshua Gustine",
+            "author_affiliations": [
+                "Bing Center for Waldenstrom's macroglobulinemia, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kirsten Meid, MPH",
+            "author_affiliations": [
+                "Bing Center for Waldenstrom's macroglobulinemia, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher Patterson, MAcc",
+            "author_affiliations": [
+                "Bing Center for Waldenstrom's macroglobulinemia, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Toni Dubeau, NP",
+            "author_affiliations": [
+                "Bing Center for Waldenstrom's macroglobulinemia, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Patricia Severns, NP",
+            "author_affiliations": [
+                "Bing Center for Waldenstrom's macroglobulinemia, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jorge J. Castillo, MD",
+            "author_affiliations": [
+                "Bing Center for Waldenstrom's macroglobulinemia, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Guang Yang, PhD",
+            "author_affiliations": [
+                "Bing Center for Waldenstrom's macroglobulinemia, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nikhil Munshi, MD",
+            "author_affiliations": [
+                "J. Lipper Cancer Center for Multiple Myeloma, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kenneth C Anderson, MD",
+            "author_affiliations": [
+                "J. Lipper Cancer Center for Multiple Myeloma, Dana-Farber Cancer Institute, Boston, MA"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Steven P Treon, MDPhDFRCP",
+            "author_affiliations": [
+                "Bing Center for Waldenstrom's macroglobulinemia, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T15:34:15",
+    "is_scraped": "1"
 }

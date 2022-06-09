@@ -1,8 +1,75 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3625",
-    "start_url_page_num": "3625",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.3783.3783",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/3783/71940/Metabolic-Changes-in-Aging-Bone-Marrow?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T10:23:07",
-    "is_scraped": "0"
+    "article_title": "Metabolic Changes in Aging Bone Marrow ",
+    "article_date": "December 7, 2017",
+    "session_type": "506. Hematopoiesis and Stem Cells: Microenvironment, Cell Adhesion, and Stromal Stem Cells: Poster III",
+    "abstract_text": "Introduction: Aging is associated with complex molecular changes at the cellular level. Bone marrow undergoes distinct phenotypic changes with aging, the mechanisms of which are not completely understood. Current metabolomic approaches provide a comprehensive analysis of tissue-related changes that occur due to exposure to external agents, environmental shifts, or the passage of time. A limited number of studies have investigated the metabolome in aging models and have shown significant alterations in lipid and amino acid metabolism. However, no study has investigated the metabolome of aging bone marrow. In this study, we comprehensively characterized the metabolome and transcriptome of aging murine bone marrow and compared it with bone marrow from young healthy mice and chemotherapy treated mice; chemotherapy treatment is known to induce age-related changes in hematopoiesis. Methods: Mice experiment: Twenty 8-week old and eleven 18-week old BALB/c mice were used in this experiment. 8-week old mice were injected with 0.15mg/g of cyclophosphamide (chemo group, N=10) or saline (young group, N=10) intraperitoneally every 28 days, for a total of three cycles. During the same period, the 18-month old mice (N=11) were observed in similar vivarium conditions. 28 days after the last chemotherapy/saline treatment, all mice were sacrificed (after 16 hours of fasting) and bone marrow was extracted from tibia, femur, and spine. One chemotherapy-treated mouse died before bone-marrow extraction. Subsequently, red blood cells were depleted using red blood cell lysis buffer. Metabolon assay: A 200 ul aliquot of the cells in suspension were used for RNA extraction and the remaining cells were used for the metabolomic assay (Metabolon, Durham, NC, USA). For the metabolomic analysis, the bone marrow cells were pelleted (25 ul), snap frozen and stored at -80\u00b0C until the assay was performed. Statistical analysis of the metabolon assay: A one-way ANOVA followed by Tukey's test was used to test the null hypothesis of no difference in the mean values of each metabolite between experimental-groups. A P < 0.05 was used as the criteria to reject the null hypothesis in each analysis. IBM SPSS Statistics TM ver. 24 was used to perform ANOVA and Tukey analyses. Outlier detection was determined using a median-based technique in R-package Rallfun-v27 23 and RStudio 1.0.44. RNA sequencing: Three samples from each experimental-group were used for RNA-sequencing. RNA was isolated from frozen bone marrow and 250 nanograms was used to generate RNA-sequencing libraries using TruSeq stranded mRNA library prep kit. Sequencing was performed on an Illumina NextSeq500 system that produced paired-end 75bp reads\u00be an estimated 33 million reads per sample. Statistical analysis of RNA sequencing: Pair-wise-differential expression between treatment-groups (aged and chemotherapy-treated) and control (young) was determined with a limma-based general linear model using Edge-R software. Genes with a P <0.05 and FDR <0.05 were considered differentially expressed. Genes with a P <0.05, regardless of FDR score, were considered marginally differentially expressed. Pathway analysis was performed using Ingenuity Pathway Analysis (IPA). Statistically significant pathways were identified using a Fisher's exact test. Pathways with a P < 0.05 were considered significantly activated. IPA was also used to predict regulator genes and their downstream target molecules that were differentially expressed in our dataset. Results: Our results revealed broad changes in lipids, amino acids, and nucleotides in aging marrow tissue. In particular, the metabolome of the aging bone marrow exhibited a signature of suppressed fatty-acid oxidation: accumulation of free fatty acids, reduced acyl-carnitines and low \u03b2-hydroxy butyric acid. The aged bone marrow also exhibited a significant reduction in amino acid and nucleic acid pool. The transcriptome of the aging bone marrow revealed a signature of oxidative stress, known to be associated with mitochondrial dysfunction. Lastly, the metabolic and transcriptomic profiles of the bone marrow of chemotherapy treated mice did not show broad age-related changes but rather mostly resembled young healthy mice, suggestive of a lack of 'metabolic aging' with chemotherapy exposure. Together, these data provide significant insights into metabolic alterations associated with aging in bone marrow. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "aging",
+        "bone marrow",
+        "metabolic disturbance",
+        "chemotherapy regimen",
+        "sequence analysis, rna",
+        "amino acids",
+        "lipids",
+        "rna",
+        "saline solutions",
+        "buffers"
+    ],
+    "author_names": [
+        "Young Hsu, BA",
+        "Kwasi Connor",
+        "Stephen Capone",
+        "Anthony Colombo",
+        "Giridharan Ramsingh, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Young Hsu, BA",
+            "author_affiliations": [
+                "Keck School of Medicine of University of Southern California, Jane Anne Nohl Division of Hematology and Center for the Study of Blood Diseases, Los Angeles, CA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kwasi Connor",
+            "author_affiliations": [
+                "Keck School of Medicine of University of Southern California, Los Angeles, CA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephen Capone",
+            "author_affiliations": [
+                "Keck School of Medicine of University of Southern California, Jane Anne Nohl Division of Hematology and Center for the Study of Blood Diseases, Los Angeles, CA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anthony Colombo",
+            "author_affiliations": [
+                "Keck School of Medicine of University of Southern California, Los Angeles, CA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Giridharan Ramsingh, MD",
+            "author_affiliations": [
+                "Keck School of Medicine of University of Southern California, Los Angeles, CA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T15:40:45",
+    "is_scraped": "1"
 }

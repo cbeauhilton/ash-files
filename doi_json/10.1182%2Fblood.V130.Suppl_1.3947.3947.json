@@ -1,8 +1,46 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3625",
-    "start_url_page_num": "3625",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.3947.3947",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/3947/71942/Robust-Parsing-and-Automated-ELN-Risk?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T10:23:07",
-    "is_scraped": "0"
+    "article_title": "Robust Parsing and Automated ELN Risk Classification for Acute Myeloid Leukemia ",
+    "article_date": "December 7, 2017",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster III",
+    "abstract_text": "Introduction: Tumor karyotype is determined from cytogenetic analysis and is among the most valuable features for prognosis and therapy selection in many hematological malignancies. The International System for Human Cytogenetic Nomenclature (ISCN) standardizes the reporting of karyotypes. However, karyotype strings can be extremely complicated, sometimes leading to confusion in their interpretation by non-cytogeneticists. To improve the speed and accuracy of karyotype interpretation and classification, we developed an automated system to parse and interpret cytogenetics reports and have initially applied this to risk prediction in AML. Previous work in automated cytogenetics parsing (e.g. the CyDAS project Bradtke 2004) have not included inferred abnormalities (e.g. arm deletions inferred from isochromosomes and whole-arm translocations) or logic to categorize more general types of abnormalities (e.g. \"any 17p abnormality\") which may have specific phenotypic significance or prognostic risk classifications, and require some level of both cytogenetic and programming expertise to utilize effectively. Methods: In previous work (Silgard, 2015), we developed a modular set of python scripts that process a batch of cytogenetics reports, identify and clean ISCN formulas, and parse ISCN into an efficient representation of cells and their clonal abnormalities as well as classify karyotypes according to Southwestern Oncology Group (SWOG) risk categories (Slovak, 2000). We extended this system to (1) effectively group abnormalities by types (e.g. translocation, deletion, duplication, inversions, etc.) and by the chromosome and arm affected, and (2) classify karyotypes according to the European Leukemia Net (ELN) risk categories (D\u00f6hner, 2017), and output salient abnormalities, risk categories, and text span references to the supporting evidence for interpretation. We classified each case according to ELN risk categories: favorable, unfavorable, or intermediate. Notable improvements upon the previous system include logic for inferred abnormalities (e.g. i(12)(q10) implies both a deletion of 12p as well as a duplication of 12q) as well as an optional minimum cell count to determine clonality. Complex karyotype and monosomal karyotype are also delineated. Results: Upon expert review of the automated parsing of 724 karyotype strings from 470 AML patients treated at the University of Washington/Fred Hutch Cancer Consortium between 1991 and 2016, automated ELN classification had an accuracy of 97.1%. Codification of chromosome arm specific abnormalities using 12p as a prototype (i.e. deletions, additions, translocations, duplications, inversions, and -12) collectively had micro-averaged sensitivity, specificity, and overall accuracy of 82.26%, 99.93%, and 99.68%; identifications of complex and monosomal karyotypes had sensitivity, specificity, and overall accuracy of 95.83%, 99.68%, 99.17% and 86.89%, 99.4%, 98.34%, respectively. The majority of the parsing errors were due either to typos in karyotype strings and non-standard nomenclature or to single cell count abnormalities that were assumed non-clonal. Conclusions: The automated karyotype parsing is an effective way to deliver condensed cytogenetic information to a more diverse audience of clinicians and researchers who lack either time or expertise to decipher complex karyotype strings or are unfamiliar with the updated risk stratification criteria for each disease. We have addressed any errors that arose from program defaults not associated with typos in the ISCN string and have included an optional clonality detection parameter to allow for some customization to individual lab reporting standards. Our next steps include extending the system to parse fluorescence in situ hybridization (FISH) nomenclature strings from cytogenetic lab reports, which can detect low-level or submicroscopic chromosomal abnormalities that cannot be detected by standard chromosomal analysis. We aim to provide the parsing and classification as an openly available web service for the broader community in the near future. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "arm",
+        "cancer",
+        "cell count",
+        "chromosome abnormality",
+        "clonality (genetic analysis)",
+        "cytogenetic analysis",
+        "fluorescent in situ hybridization",
+        "hematologic neoplasms",
+        "isochromosomes",
+        "karyotype determination procedure"
+    ],
+    "author_names": [
+        "Emily Silgard, MS",
+        "Min Fang, MDPhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Emily Silgard, MS",
+            "author_affiliations": [
+                "Hutch Data Commonwealth, Fred Hutchinson Cancer Research Center, Seattle, WA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Min Fang, MDPhD",
+            "author_affiliations": [
+                "University of Washington Medical Center, Seattle, WA ",
+                "Seattle Cancer Care Alliance, Seattle, WA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T15:40:50",
+    "is_scraped": "1"
 }

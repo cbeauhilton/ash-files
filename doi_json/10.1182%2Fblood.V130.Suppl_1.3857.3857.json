@@ -1,8 +1,79 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3621",
-    "start_url_page_num": "3621",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.3857.3857",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/3857/71869/Developing-Models-to-Predict-Intensive-Care-Unit?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T10:22:51",
-    "is_scraped": "0"
+    "article_title": "Developing Models to Predict Intensive Care Unit Admission and Mortality for Adults with Acute Myeloid Leukemia (AML) ",
+    "article_date": "December 7, 2017",
+    "session_type": "613. Acute Myeloid Leukemia: Clinical Studies: Poster III",
+    "abstract_text": "Introduction: The survival expectations for adults with acute myeloid leukemia (AML) have improved over the last 40 years, partly due to supportive care advances enabling the delivery of increasingly intensive treatment modalities. However, with increasing therapy intensity comes potential for increased use of hospital resources. Indeed, our recent work with a large national database - the University HealthSystem Consortium (UHC)-- demonstrated that intensive care unit (ICU) admissions remained frequent in AML patients over the last decade and were associated with significant mortality and steeply climbing costs. As the next step, we now used this database to develop models to predict ICU admission (\"ICU Admission Risk Score\") and mortality (\"ICU Mortality Risk Score\") for hospitalized AML patients. Methods: A longitudinal discharge database derived from 239 U.S. UHC participating hospitals was used to retrospectively evaluate AML patients hospitalized from 2004-2012. Clinical data from each hospital's discharge summaries were extracted by certified coders and merged to create the central UHC database. Included were patients with a diagnosis of active AML based on ICD-9 CM coding. Patients were excluded if they had undergone a hematopoietic stem cell transplant. Generalized estimating equations were used to control for patients with >1 admission in the study period . Primary outcomes were ICU admission and in-hospital death after ICU admission. Independent variables included age, gender, geographic location, AML volume of the admitting hospital based on quartiles of unique patients, number of prior ICU admissions, and types of comorbidities and infections present. We then applied multivariate logistic regression to create the models in which each covariate and the multicomponent model's predictive ability was evaluated by testing the area under the receiver operating characteristic curve (AUC). We made 2 models for each outcome: a full model using all relevant covariates tested and a simplified model for facilitating use in clinical practice. Models' internal validity was evaluated with 10-fold cross-validation. Results: 73,955 AML patient admissions were identified for inclusion. Patients had a median age of 58 (range 18-102) years, were 54% male, and were hospitalized in the Northeast (33%), Central (31%), Western (18%), and Southern (17%) U.S. One percent of admissions were at very-low AML volume hospitals, 5% at low, 21% at medium, and 74% at high. Overall, 22% of patients were admitted to the ICU during their hospitalization with a median ICU length of stay of 5 (1 st -3 rd quartile: 4-25) days. In-hospital mortality was 28% for those requiring ICU care. Factors with the greatest risk for ICU admission and subsequent in-hospital mortality by odds ratio in multivariate analysis included younger age, treatment at a small volume center, baseline lung disease, renal disease, vascular disease, gram negative/positive sepsis, pneumonia, and increasing number of comorbidities. The AUC for the full model for ICU admission was 0.73 (95% confidence interval [CI]: 0.728-0.732) and for the simplified model (composed of number of prior admissions, thrombosis, lung disease, renal disease, vascular disease, fungal infection, and number of comorbidities; Table 1A ) was 0.70 (95% CI: 0.690-0.695). The AUC for the full model for in-hospital mortality was 0.70 (95% CI: 0.701-0.705) and for the simplified model (composed of lung disease, renal disease, and number of comorbidities; Table 1B ) was 0.86 (95% CI: 0.853-0.859). The AUC was actually higher for the simplified mortality model due to a small number of risk factors with high univariate AUCs; thus including the covariates with low predictive ability decreased the AUC of the large model. Conclusions: These simplified models composed of readily available clinical variables have good performance characteristics in their ability to predict hospital death, and to a lesser extent, ICU admission, for hospitalized AML patients. The inferior performance of the ICU model may be related to heterogeneity in ICU admission criteria between hospitals. As a next step, these models will be externally validated and refined with our large institutional AML dataset to improve their predictive ability. If validated, we plan to use them to risk stratify patients upon hospital admission to allow for testing of primary prevention and intervention strategies. Table 1 View large Download slide Table 1 View large Download slide  Close modal Disclosures Walter: Aptevo Therapeutics: Research Funding; ADC Therapeutics: Research Funding.",
+    "topics": [
+        "intensive care unit",
+        "leukemia, myelocytic, acute",
+        "kidney diseases",
+        "lung diseases",
+        "vascular diseases",
+        "hematopoietic stem cell transplantation",
+        "hospital admission",
+        "infections",
+        "length of stay",
+        "mycoses"
+    ],
+    "author_names": [
+        "Anna B Halpern, MD",
+        "Megan Othus, PhD",
+        "Emily M Huebner",
+        "Roland B. Walter, MD PhD",
+        "Gary H. Lyman, MD MPH, FRCP"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Anna B Halpern, MD",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA ",
+                "Division of Hematology, Department of Medicine, University of Washington, Seattle, WA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Megan Othus, PhD",
+            "author_affiliations": [
+                "Public Health Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, WA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Emily M Huebner",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Roland B. Walter, MD PhD",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA ",
+                "Division of Hematology, Department of Medicine, University of Washington, Seattle, WA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gary H. Lyman, MD MPH, FRCP",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA ",
+                "Division of Oncology, Department of Medicine, University of Washington, Seattle, WA ",
+                "Hutchinson Institute for Cancer Outcomes Research, Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T15:36:28",
+    "is_scraped": "1"
 }

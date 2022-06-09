@@ -1,8 +1,121 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3623",
-    "start_url_page_num": "3623",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.3987.3987",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/3987/71899/Linking-Biophysical-and-Transcriptional-Profiles?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T10:23:00",
-    "is_scraped": "0"
+    "article_title": "Linking Biophysical and Transcriptional Profiles of In Vivo -Treated Human Leukemias on a Single-Cell Level Uniquely Resolves Subpopulations of Response ",
+    "article_date": "December 7, 2017",
+    "session_type": "618. Acute Lymphoblastic Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster III",
+    "abstract_text": "Introduction : Assays are needed to define the susceptibility of heterogeneous primary human tumor cells. We previously showed that single-cell mass accumulation rate (MAR) - conceptually similar to growth rate - can accurately define drug sensitivity ex vivo (Stevens et al. Nature Biotechnology, 2016). This live-cell assay is performed using a suspended microchannel resonator (SMR), which maintains cell viability and permits the downstream application of single-cell whole transcriptome sequencing (scRNA-seq) to identify molecular correlates of drug response. By comparing leukemias exposed to antineoplastic therapy or vehicle in vivo , we sought to identify unique transcriptional signatures that, when coupled with single-cell biophysical properties, provide a more nuanced view of therapeutic susceptibility. Methods : We transplanted a patient-derived xenograft of BCR-ABL-rearranged, B-cell leukemia into NOD.Cg-Prkdc scid Il2rg tm1Wjl /SzJ recipients. This model was derived from a patient whose leukemia relapsed following combination chemotherapy and multiple tyrosine kinase inhibitors. Clinical sequencing revealed an ABL1 Y253H resistance mutation that was confirmed in the PDX. Upon engraftment, animals initiated therapy with ponatinib 40 mg/kg/day or vehicle via oral gavage. Splenocytes were harvested on treatment day 5, and immunomagnetically enriched leukemia cells were individually profiled for mass and MAR using the SMR, from which they were sequentially released directly into micro PCR tubes. Smart-Seq2 whole transcriptome amplification, library preparation, and 30-bp paired-end sequencing was then performed on these individual cells. Results : Leukemia cells treated with ponatinib in vivo had significantly lower mass and normalized MAR (MAR/mass) than vehicle-treated controls (p<2e-16 by Welch two-sample t-test, Figure 1A ). Single-cell RNA-seq libraries generated from both treatment conditions were of appropriate quality and complexity, with 5,540 \u00b1 81 and 3,826 \u00b1 92 genes mapped per cell for vehicle- and ponatinib-treated cells, respectively. These figures are in line with our published experience (Kimmerling et al. Nature Communications , 2016). Library quality was temporally stable, with consistent average single-cell complexities maintained over the full course of collection experiments. Principal components analysis segregated cells by treatment status according to PC1 (positive enrichment for protein translation genes) and PC2 (negative enrichment for B-cell activation and B-cell receptor signaling genes) ( Figure 1B ). While single-cell measurements of biophysical properties or gene expression independently resolved treated and untreated cells at the population level (p<2e-16 by Welch two-sample t-test for both normalized MAR as well as PC1), layering single-cell mass and MAR on top of the transcriptomic data enabled us to identify and characterize subpopulations within treatment groups. For instance, biophysical measurements defined a subset of ponatinib-treated cells that maintained high mass and MAR despite continued therapeutic pressure. No subset of cells corresponding to this physically distinct subpopulation was identified by analysis of single-cell transcriptional profiles alone. Critically, linking biophysical and gene expression measurements from the same cells revealed gene sets with functional enrichment for cell cycle and translation - distinct from the gene sets identified from principal components analysis - that correlated with single-cell mass and mass-normalized MAR, respectively. Conclusions : Integrating the biophysical and molecular profiles of human leukemias on a single-cell level using the SMR platform coupled with scRNA-seq permits assessment of in vivo therapeutic susceptibility within hours of tissue sampling, with the potential to resolve and characterize intratumoral heterogeneity with greater precision. We are now focused on defining the clinical significance of such physical-molecular tumor subpopulations and interrogating mechanisms of therapeutic resistance illuminated by these methods in the context of phase II-like in vivo treatment studies. View large Download slide View large Download slide  Close modal Disclosures Stevens: Travera: Equity Ownership, Other: Co-founder. Kimmerling: Travera: Equity Ownership, Other: Co-founder. Manalis: Affinity Bio: Equity Ownership, Other: Co-founder; Travera: Consultancy, Equity Ownership, Other: Co-founder.",
+    "topics": [
+        "biophysics",
+        "leukemia",
+        "transcription, genetic",
+        "ponatinib",
+        "rna, small cytoplasmic",
+        "chronic lymphocytic leukemia",
+        "combination drug therapy",
+        "microbiology procedures",
+        "neoplasms",
+        "polymerase chain reaction"
+    ],
+    "author_names": [
+        "Mark A. Murakami, MDMA,MMSc",
+        "Mark M Stevens, PhD",
+        "Robert J Kimmerling, PhD",
+        "Alejandro J Gupta, BS",
+        "Huiyun Liu",
+        "Sanjay M. Prakadan, AB",
+        "Alex K. Shalek, PhD",
+        "Scott R. Manalis, PhD",
+        "David M. Weinstock, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Mark A. Murakami, MDMA,MMSc",
+            "author_affiliations": [
+                "Department of Medicine, Harvard Medical School, Boston, MA ",
+                "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mark M Stevens, PhD",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Robert J Kimmerling, PhD",
+            "author_affiliations": [
+                "Koch Institute for Integrative Cancer Research, Massachusetts Institute of Technology, Cambridge, MA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alejandro J Gupta, BS",
+            "author_affiliations": [
+                "Koch Institute for Integrative Cancer Research, Massachusetts Institute of Technology, Cambridge, MA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Huiyun Liu",
+            "author_affiliations": [
+                "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sanjay M. Prakadan, AB",
+            "author_affiliations": [
+                "Institute for Medical Engineering & Science, Massachusetts Institute of Technology, Cambridge, MA ",
+                "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA ",
+                "Broad Institute of MIT and Harvard, Massachusetts Institute of Technology, Cambridge, MA ",
+                "Ragon Institute of MGH, MIT and Harvard, Massachusetts Institute of Technology, Cambridge, MA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alex K. Shalek, PhD",
+            "author_affiliations": [
+                "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Scott R. Manalis, PhD",
+            "author_affiliations": [
+                "Koch Institute for Integrative Cancer Research, Massachusetts Institute of Technology, Cambridge, MA ",
+                "Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, MA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David M. Weinstock, MD",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Boston, MA ",
+                "Broad Institute of Harvard and MIT, Boston, MA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T15:38:19",
+    "is_scraped": "1"
 }

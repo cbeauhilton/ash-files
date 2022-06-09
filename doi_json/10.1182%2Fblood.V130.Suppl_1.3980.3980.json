@@ -1,8 +1,126 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3619",
-    "start_url_page_num": "3619",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.3980.3980",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/3980/71833/An-Artificial-Intelligence-Approach-for-B?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T09:22:51",
-    "is_scraped": "0"
+    "article_title": "An Artificial Intelligence Approach for B Lymphoblastic Leukemia Minimal Residual Disease Detection and Clinical Prognosis Prediction Using Flow Cytometry Data ",
+    "article_date": "December 7, 2017",
+    "session_type": "618. Acute Lymphoblastic Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster III",
+    "abstract_text": "Introduction Detection of minimal residual disease (MRD) of B-cell acute lymphoblastic leukemia (B-ALL) measured by flow cytometry (FC) has been shown to be an important prognostic indicator in B-ALL. However, the current analysis is based on the manual gating by the reviewers; therefore, objectivity could be compromised, and decentralization of the B-ALL MRD detection is difficult to be established. We then aimed to develop an objective diagnostic tool via artificial intelligence (AI) technique for FC data interpretation in order to provide efficient and objective B-ALL MRD detection. Methods Retrospective FC data of patients with adult B-ALL from 2009 to 2016 in National Taiwan University Hospital were enrolled. A total of 1,073 unique bone marrow FC samples were collected for analysis. Each of the samples had a 10-tube test done on 100,000 cells - each cell was measured in 6 fluorescent channels (FSC, SSC, FITC, PE, PerCP, APC) within one tube. The flow conclusion of each FC sample was categorized into \"positive MRD\" and \"no MRD\" groups according to previous manual interpretation, and the whole dataset was randomly divided into 3 groups: Training set (n=718), Accuracy set (n=141) and Validation set (n=178). The Training set was used to train the algorithm, and the Accuracy set was used to evaluate the accuracies achieved and optimize algorithmic parameters. The final optimized algorithm was then evaluated blindly in Validation set, with the concordance rate comparing the manual and the AI conclusions in distinguishing \"positive MRD\" from \"no MRD\". For the algorithm development, the recorded numerical values of the 6 fluorescent channels (FSC, SSC, FITC, PE, PerCP, APC) of each tube (100,000 cells) were considered as raw feature attributes. The probabilistic distributions of these attributes were first modeled as multivariate Gaussian mixture model using a sub-dictionary learning approach. Then a probabilistic derivation was exploited to compute per-sample L2-normalized vectorized representations. Lastly, representations of each tube were then concatenated to be the final feature input to the supervised machine learning classifier, in this case, a support vector machine with linear kernel. In addition, ANOVA-based feature selection was also conducted throughout the experiments. For outcome correlation analysis, we included 35 adult B-ALL patients with available FC data after induction therapy, record their clinical parameters and measured their overall survival (OS) and progression-free survival (PFS), with median follow-up 40.0 months. The Kaplan-Meier curves were constructed to estimated OS and RFS. Results The primary algorithm concordance estimated using the Accuracy set was 90.8% and the area under the receiver operating characteristic curve (AUC) is 0.944 (Table1). The calibrated algorithm, adjusted with training in Accuracy set, can produce a concordance rate of 88.2% with manual interpretation on Validation set, and the AUC is 0.919 (Table 1). It is noteworthy that it only took 7 seconds to analyze one FC sample using the AI algorithm while it took approximately 15 to 30 minutes for manual gating by trained professionals. Furthermore, the concordance of the algorithm developed from 10 tube-data remained almost unchanged when the tube number decreased. In fact, algorithm from 1 tube still yields an AUC of 0.874 (vs. 0.919 from 12 tubes), indicating that AI algorithm may reduce laboratory testing currently applied in standard FC processing. For outcome correlation, B-ALL patients with no MRD by AI algorithm had significant longer OS compared to those with positive MRD (NR vs 20.0 months, p=0.0051). Moreover, patients with no MRD also had significant longer RFS compared to those with positive MRD (8.9 vs 5.2 months, p=0.019), (Figure.1). Conclusions This is the first study using AI approach to develop FC data diagnostic algorithms with prognosis implications for B-ALL, demonstrating the advantages of reliability, high efficacy and time saving. Incorporating other test results into AI algorithm may lead to more precise prognostic prediction in the future and potentially guide therapeutic strategy for B-ALL. View large Download slide View large Download slide  Close modal Disclosures Ko: Celgene International S\u00e0rl: Research Funding. Li: Celgene International S\u00e0rl: Research Funding. Tien: Celgene International S\u00e0rl: Research Funding. Tang: Celgene International S\u00e0rl: Research Funding.",
+    "topics": [
+        "artificial intelligence",
+        "burkitt's lymphoma",
+        "flow cytometry",
+        "lymphoblastic leukemia",
+        "neoplasm, residual",
+        "leukemia, b-cell, acute",
+        "fluorescein-5-isothiocyanate",
+        "clinical diagnostic instrument",
+        "detection of minimal residual disease",
+        "follow-up"
+    ],
+    "author_names": [
+        "Yu-Fen Wang, MS",
+        "Bor-Sheng Ko, MD, PhD",
+        "Chi-Cheng Li, MD",
+        "Jeng-Lin Li, BS",
+        "Pei-Fang Weng, BS",
+        "Huai-Hsuan Huang, MD",
+        "Hsin-An Hou, MD, PhD",
+        "Hwei-Fang Tien, MD, PhD",
+        "Chi-Chun Lee, PhD",
+        "Jih-Luh Tang, MD,PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Yu-Fen Wang, MS",
+            "author_affiliations": [
+                "Tai-Cheng Stem Cell Therapy Center, National Taiwan University, Taipei, Taiwan "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bor-Sheng Ko, MD, PhD",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chi-Cheng Li, MD",
+            "author_affiliations": [
+                "Tai-Cheng Stem Cell Therapy Center, National Taiwan University, Taipei, Taiwan "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jeng-Lin Li, BS",
+            "author_affiliations": [
+                "Department of Electrical Engineering, National Tsing Hua University, Hsinchu, Taiwan"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pei-Fang Weng, BS",
+            "author_affiliations": [
+                "Tai-Cheng Stem Cell Therapy Center, National Taiwan University, Taipei, Taiwan "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Huai-Hsuan Huang, MD",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hsin-An Hou, MD, PhD",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hwei-Fang Tien, MD, PhD",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chi-Chun Lee, PhD",
+            "author_affiliations": [
+                "Department of Electrical Engineering, National Tsing Hua University, Hsinchu, Taiwan"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jih-Luh Tang, MD,PhD",
+            "author_affiliations": [
+                "Tai-Cheng Stem Cell Therapy Center, National Taiwan University, Taipei, Taiwan ",
+                "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T15:34:19",
+    "is_scraped": "1"
 }
