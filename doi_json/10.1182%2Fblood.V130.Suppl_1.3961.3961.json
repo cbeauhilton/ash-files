@@ -1,8 +1,125 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3608",
-    "start_url_page_num": "3608",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.3961.3961",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/3961/71610/Longitudinal-Transcriptome-Analysis-of?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T09:22:14",
-    "is_scraped": "0"
+    "article_title": "Longitudinal Transcriptome Analysis of Myelodysplatic Syndrome Progression to Acute Myeloid Leukemia: Implications for Prognosis ",
+    "article_date": "December 7, 2017",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster III",
+    "abstract_text": "INTRODUCTIONS: MDS are a heterogeneous group of clonal bone marrow disorders. A subset of MDS patients progress to secondary AML. The current prognostic scoring systems lack accuracy in predicting time to transformation. We postulated that gene expression profiling (GEP), in a longitudinal manner, using a large cohort of MDS patients who progressed to sAML, will not only help understand the biological differences between MDS and AML stages but also allow us to develop molecular markers that predict progression and prognosis. METHODS: RNA Sequencing ( Nantomics , USA) was performed on bone marrow mononuclear cells obtained both at MDS and sAML stages from 25 patients whose time to progression ranged between 20 years (median=51 months). Differential gene expression (DGE) analysis was performed using DESeq2. Gene signatures were established using Random Forest and CancerClass packages. Gene ontology and enrichment (GOE) analysis was done using DAVID. DGE validation is being performed using the HD BioMark gene expression platform on the 25 patients test set and on a 20 new MDS to AML cohort as validation set. RESULTS: Whole transcriptome data showed that patients clustered into MDS and AML stages suggesting the transcriptomic landscapes are more \"stage-dependent\" (sAML or MDS). GOE analysis of DE genes between MDS and AML stages revealed significant enrichment of genes involved in chromatin organization (nucleosome, telomere), especially with a massive decrease of histone genes expression at the sAML stage. Additionally, several genes involved in cell cycle, innate immune system, porphyrin and heme biosynthesis were downregulated while an increase of ABC transporter genes was noted at the sAML stage. Next, we performed DGE analysis comparing MDS patients whose progression is either \"fast\" or \"slow\" using different categorization based on the progression rate to sAML (Figure 1A). GOE analysis presented a deregulation of genes mostly involved in the immune response but also a deregulation of homeobox transcription factors. The extremely fast progression also showed a significant deregulation of pathways transmitting proliferation, immune and inflammatory response, and apoptotic signals. On the other hand, the extremely slow progression to sAML presented a specific enrichment in ER stress, amongst other pathways that differentiate signaling from fast progressors. To predict which MDS patients might evolve in sAML in less than two years, we selected a classifier using the top 55 discriminating genes on which the predictive power was validated by leave one out cross validation and on the validation cohort (Figure 1B). Finally, we performed DGE to identify differences between the MDS and sAML corresponding samples regarding progression categories. In all progression-based groups, we only retained the genes specifically deregulated between the paired samples in the fast or the slow progression for further analysis. The fast progression is mostly associated with an enrichment and a deregulation of the immune response (innate immunity, antiviral defense, platelet activation, chemotaxis) as is the slow progression (antiviral defense, Innate Immunity, cytokine, TNF signaling). However, the genes enriched in those pathways are inversely expressed between those with slow versus fast progression. The fast progression cohort manifested a specificity with enrichment of genes involved in angiogenesis, MAPK signaling, and growth factors. Deregulation of chromatin organization factors suggests distinct epigenetic landscapes between MDS and AML. In comparing MDS fast vs. slow, the genetic expression profiles with involvement of the innate immune system, especially viral defenses, suggests either an infection or the expression of mobile genetic elements triggering a pro-inflammatory response. CONCLUSIONS: This is the first GEP analysis using next-generation sequencing of RNA from a large cohort of MDS and corresponding AML samples from the same individuals as they evolved from pre-leukemia to frank acute leukemia. A 55-gene prognostic classifier was identified which segregated MDS patients who progressed to sAML in <2 years. The prognostic implications of these biologic insights are quite profound. The gene expression signature provides an accurate way of identifying slow versus fast transformers from MDS to AML and sheds light on the pathology behind the transformation. View large Download slide View large Download slide  Close modal Disclosures Ali: Kura Oncology: Consultancy; Onconova Therapeutics: Consultancy. Szeto: Nantomics LLC: Employment, Equity Ownership. Golovato: Nantomics LLC: Employment, Equity Ownership. Sedgewick: Nantomics LLC: Employment, Equity Ownership. Jurcic: Astellas Pharma, Inc: Research Funding; Incyte: Consultancy; Kura Oncology: Research Funding; Merck: Consultancy; Novartis: Membership on an entity's Board of Directors or advisory committees; Seattle Genetics: Consultancy, Research Funding; Syros Pharmaceuticals: Research Funding; Genentech: Research Funding; Forma Therapeutics: Research Funding; Celgene: Research Funding; Alexion Pharmaceuticals: Consultancy; Actinium Pharmaceuticals, Inc.: Membership on an entity's Board of Directors or advisory committees, Research Funding; Daiichi-Sankyo: Research Funding; Amgen: Consultancy. Benz: Nantomics LLC: Employment, Equity Ownership. Rabizadeh: Nantworks: Employment, Equity Ownership; Nantomics LLC: Employment, Equity Ownership. Raza: Genoptix: Speakers Bureau; Celgene Inc.: Research Funding; Kura Oncology: Research Funding; Janssen R&D: Research Funding; Novartis: Speakers Bureau; Onconova Therapeutics: Research Funding, Speakers Bureau; Syros Pharmaceuticals: Research Funding.",
+    "topics": [
+        "gene expression profiling",
+        "leukemia, myelocytic, acute",
+        "antiviral agents",
+        "actinium",
+        "atp-binding cassette transporters",
+        "biological markers",
+        "bone marrow diseases",
+        "cytokine",
+        "growth factor",
+        "histones"
+    ],
+    "author_names": [
+        "Etienne De Clara, PhD",
+        "Abdullah Mahmood Ali, PhD",
+        "Jehanzeb Kayani",
+        "Christopher Szeto, PhD",
+        "Justin Golovato",
+        "Andrew Sedgewick, PhD",
+        "Joseph G. Jurcic, MD",
+        "Steve Benz, PhD",
+        "Shahrooz Rabizadeh, PhD",
+        "Azra Raza, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Etienne De Clara, PhD",
+            "author_affiliations": [
+                "Department of Medicine, Columbia University Medical Center, New York, NY "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Abdullah Mahmood Ali, PhD",
+            "author_affiliations": [
+                "Department of Medicine, Columbia University Medical Center, New York, NY "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jehanzeb Kayani",
+            "author_affiliations": [
+                "Department of Medicine, Columbia University Medical Center, New York, NY "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher Szeto, PhD",
+            "author_affiliations": [
+                "Nantomics LLC, Culver City, CA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Justin Golovato",
+            "author_affiliations": [
+                "Nantomics LLC, Culver City, CA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew Sedgewick, PhD",
+            "author_affiliations": [
+                "Nantomics LLC, Culver City, CA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joseph G. Jurcic, MD",
+            "author_affiliations": [
+                "Department of Medicine, Columbia University Medical Center, New York, NY "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Steve Benz, PhD",
+            "author_affiliations": [
+                "Nantomics LLC, Culver City, CA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shahrooz Rabizadeh, PhD",
+            "author_affiliations": [
+                "Nantomics LLC, Culver City, CA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Azra Raza, MD",
+            "author_affiliations": [
+                "Department of Medicine, Columbia University Medical Center, New York, NY "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T13:01:14",
+    "is_scraped": "1"
 }

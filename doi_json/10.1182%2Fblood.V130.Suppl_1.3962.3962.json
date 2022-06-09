@@ -1,8 +1,95 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3609",
-    "start_url_page_num": "3609",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.3962.3962",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/3962/71620/Robust-Bioinformatics-Approach-for-Identifying?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T09:22:17",
-    "is_scraped": "0"
+    "article_title": "Robust Bioinformatics Approach for Identifying Novel AML LSC Targets: Putative Role of Galectin-1 in the Immune-Microenvironment ",
+    "article_date": "December 7, 2017",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster III",
+    "abstract_text": "Acute Myeloid Leukemia (AML) is a clonal malignancy of the bone marrow derived from and maintained by rare leukemia stem cells (LSC). Conventional chemotherapy results in remission in up to 80% of patients, however, most patients relapse and the 5-year survival rate for those with AML lingers at 25%. Chemoresistant LSCs are an important source of relapse, implicating LSCs as a critical target for curing AML. In this study, we aimed to identify novel LSC markers that can potentially be translated into AML therapy. First, we performed a broad survey of publically available data and identified 3 datasets (Gentles et al., 2010; Goardon et al., 2011; Jung et al., 2015) in which the authors performed gene expression arrays on human AML patient samples sorted by leukemia stem, progenitor, and blast cells. These studies also contained paired normal hematopoietic cell subsets for comparison. While immunophenotyping varied between datasets, all LSC discrimination included Lin-CD34+CD38-CD90-. For each dataset, we performed two-sample t-tests per gene to identify those which were significantly differentially expressed between LSCs and HSCs (p<0.05) and had a directional fold change greater than 2 (LSC/HSC). However, instead of correcting for multiple testing within each analysis using traditional methods, we looked instead at the intersection of genes that met the above criteria in all 3 independently generated datasets. This resulted in a list of 43 genes, 27 of which appear to be novel markers of AML LSCs. From this list, we chose to first investigate galectin-1 (Fig. 1A), which is encoded by the LGALS1 gene. Galectin-1 is a member of the beta-galactoside-binding protein family and plays a functional role in modulating cell-cell interactions. Its presence at the cell surface and in the extracellular matrix makes this protein readily targetable. In fact, OTX 008 is a selective small-molecule inhibitor of galectin-1 already clinically available for solid tumors. Using samples from TCGA, we determined that LGALS1 expression is a marker of poor prognosis AML (Fig. 1B). To examine the role of galectin-1 in AML, we established a stable LGALS1 knockdown in vitro model. The human leukemia derived cell line, THP1, has high basal expression of galectin-1 protein at both mRNA and protein level. We transduced these cells with simple hairpin shRNAs in the pLKO.1 lentiviral vector designed by The RNAi Consortium (Fig. 1C). Interestingly, wild-type (WT) and knockdown (shLGALS1) cells showed no differences in proliferation rate or viability (Fig. 1D). We next investigated the potential role of galectin-1 in the immune microenvironment of the overexpressing AML cells. To look explicitly at the function of the secreted galectin-1 protein, we cultured normal human peripheral blood mononuclear cells (PBMCs) with the supernatant from WT or shLGALS1 THP1 cells. Additionally, some PBMCs were stimulated using either PHA or CD3/CD28 activating beads to characterize the role of galectin-1 in the setting of either a nonspecific or specific T cell response, respectively. Cells were incubated in the culture media for 72 hours before being harvested and measured by flow cytometry. We observed that CD3/CD28-stimulated PBMCs had significantly more cells actively proliferating (Fig.1E) and significantly fewer dead cells (Fig. 1F) when cultured in media produced by shLGALS1 cells. This suggests that excess secreted galectin-1 protein can suppress the proliferation and increase cell death of activated T cells. We also measured the relative abundance of CD4+ and CD8+ T cells. PBMCs cultured in shLGALS supernatant had significantly fewer CD4+ T cells than those cultured in WT supernatant (Fig. 1G). This suggests that secreted galectin-1 may play a role in the recruitment or accumulation of CD4+ T cells. In conclusion, we introduce a novel bioinformatics approach for robustly identifying novel AML LSC targets. Additionally, we have shown that one of these markers, galectin-1, has a potential role in suppressing the immune microenvironment by reducing activated PBMC proliferation and increasing CD4+ T cell prevalence. View large Download slide View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "bioinformatics",
+        "culture media",
+        "galectin 1",
+        "leukemia",
+        "cd28 antigens",
+        "chemotherapy regimen",
+        "disease remission",
+        "flow cytometry",
+        "galactosides",
+        "immunophenotyping"
+    ],
+    "author_names": [
+        "Shelley Herbrich, MS",
+        "Peter P. Ruvolo, PhD",
+        "Vivian Ruvolo, PhD",
+        "Keith Baggerly, PhD",
+        "Gheath Alatrash, DO, PhD",
+        "Michael Andreeff, MD PhD",
+        "Marina Konopleva, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Shelley Herbrich, MS",
+            "author_affiliations": [
+                "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter P. Ruvolo, PhD",
+            "author_affiliations": [
+                "Section of Molecular Hematology & Therapy, Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vivian Ruvolo, PhD",
+            "author_affiliations": [
+                "Department of Leukemia, University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Keith Baggerly, PhD",
+            "author_affiliations": [
+                "Department of Bioinformatics & Computational Biology, University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gheath Alatrash, DO, PhD",
+            "author_affiliations": [
+                "Department of Stem Cell Transplantation and Cellular Therapy, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Andreeff, MD PhD",
+            "author_affiliations": [
+                "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marina Konopleva, MD PhD",
+            "author_affiliations": [
+                "Department of Leukemia, M.D. Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T13:01:47",
+    "is_scraped": "1"
 }

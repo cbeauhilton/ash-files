@@ -1,8 +1,115 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3616",
-    "start_url_page_num": "3616",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.3764.3764",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/3764/71761/Epigenetic-and-Single-Cell-Analyses-Reveal-Dual?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T09:22:40",
-    "is_scraped": "0"
+    "article_title": "Epigenetic and Single Cell Analyses Reveal Dual Fate Decision Points in Pre-Primed Hematopoietic Stem Cells during Erythro-Megakaryopoiesis ",
+    "article_date": "December 7, 2017",
+    "session_type": "502. Hematopoiesis: Regulation of Gene Transcription, Cytokines, Signal Transduction, Apoptosis, and Cell Cycle Regulation: Poster III",
+    "abstract_text": "Recent single cell analyses have shown that hematopoietic differentiation is more complex than the traditional hierarchical model suggests, and that lineage commitment may occur earlier in the hierarchy than previously thought (Notta, 2016; Psaila, 2017). In particular, the relationship between bipotential megakaryocyte-erythroid progenitors (MEP) and common myeloid progenitors (CMP) is unclear in erythro-megakaryopoiesis. While it has been established that mouse MEP and CMP populations contain different proportions of megakaryocytic and erythroid lineage-committed cells, our aim was to determine when lineage-commitment occurs and whether a 'default' differentiation pathway exists. We established the transcriptional and epigenetic profiles of 14 flow cytometry-enriched primary murine hematopoietic populations, including hematopoietic stem/progenitor cells (HSPC) and lineage-committed populations. We performed transcriptome profiling (RNASeq), chromatin accessibility profiling (Assay for Transposable-Accessible Chromatin; ATACSeq), and DNA methylation profiling (MethylCSeq). We also performed ChIPSeq of H3K27ac on erythroblasts (EB) and immature megakaryocytes (Mk) to identify putative active enhancer elements. Principle component analysis (PCA) of the RNASeq data demonstrated variation between lineages. Primary cells and cell lines were separated by PC1 (20% of variance) while PC2 (14% of variance) separated HSPC and Mk-committed cells from EB, monocytes and granulocytes. Likewise, PCA of ATACSeq data also indicated that HSPC and Mk shared more similarity than other populations: PC1 (19% of variance) separated EB and non-EB populations while PC2 (12% of variance) separated HSPC and Mk-committed cells from EB, monocytes, granulocytes and lymphocytes (Figure 1). These data demonstrate that the transcriptional and chromatin accessibility profiles of Mk are more similar to HSPC than to other populations. We defined putative active enhancers (pAE) as the intersection of ATACSeq and H3K27ac ChIPSeq peaks in EB and Mk. We identified 2098 EB- and 6386 Mk-specific pAE, and 5989 shared pAE. To predict pAE in progenitors we overlaid EB and Mk pAE with successive ATACSeq peaks in lineage-restricted progenitors (CFU-E, CFU-Mk), followed by CMP and the Lin-Sca+Kit+ population (LSK). 97% and 89% of Mk pAE were detected in CMP and LSK, whereas only 84% and 64% of EB pAE were detected. To validate which EB and Mk pAE in LSK were active (as opposed to poised), we compared our LSK pAE with the indexing-first ChIP histone marks identified by Lara-Astiaso et al., ( Science , 2014). We found that 31% of Mk-, but only 13% of EB pAE, were active in the LSK. These data indicate that the MK enhancer profile is established earlier than that of EB. Our comparison of the DNA methylation (CH3) profiles showed that, unlike the RNASeq, ATACSeq, and H3K27ac profiles, erythropoiesis was associated with an 87% decrease in CH3 from CMP and LSK sets; 15% of EB CH3 peaks were established de novo. In contrast, megakaryopoiesis was associated with a 33% increase in CH3 peaks from CMP and LSK sets; 50% of Mk CH3 peaks were established de novo. Many of these de novo methylation sites were associated with genes directing non-Mk lineages that are downregulated compared to CMP (e.g., Dach2, Sox5, Kit, Klf1, Tet1, Fog1). To determine when lineage-commitment occurs we performed single cell RNASeq (10X Genomics platform) on ~9000 cells from each of LSK, CMP, MEP, and GMP (granulocyte-macrophage progenitors) populations. The Seurat software (Sajita, 2015) was used to 'cluster' cells with similar expression profiles. MEP contained 5 erythroid clusters of different maturation stages (57% of cells), and 1 cluster with an Mk gene signature (5% of cells). CMP contained, among others, 8 Mk clusters (60% of cells) and 1 cluster (2% of cells) co-expressing Mk and EB genes. LSK contained 4 Mk clusters (26% of cells) but no populations expressing EB-associated genes. We conclude that the transcriptional and epigenetic Mk profile is detectable at the earliest stages of hematopoiesis. The requirement of de novo methylation and silencing of other lineage-associated factors prevents the classification of Mk as a default pathway. In contrast, the EB profile is established after most megakaryocyte progenitor cells have become committed and extensive transcriptional and epigenetic reprogramming is required to permit erythropoiesis. View large Download slide View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "chromatin",
+        "cyclic gmp",
+        "epigenetics",
+        "gene expression profiling",
+        "hematopoietic stem cells",
+        "histones",
+        "megakaryocytopoiesis",
+        "paradoxical embolism",
+        "principal component analysis",
+        "megakaryocytes"
+    ],
+    "author_names": [
+        "Elisabeth F Heuston, PhD",
+        "Cheryl A. Keller, PhD",
+        "Jens Lichtenberg",
+        "Belinda Giardine",
+        "Stacie M Anderson",
+        "Bethan Psaila, MD PhD",
+        "NISC Comparative Sequencing Program",
+        "Ross C Hardison, PhD",
+        "David M. Bodine, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Elisabeth F Heuston, PhD",
+            "author_affiliations": [
+                "NHGRI, Bethesda, MD "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cheryl A. Keller, PhD",
+            "author_affiliations": [
+                "Penn State University, University Park, PA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jens Lichtenberg",
+            "author_affiliations": [
+                "NHGRI, Bethesda, MD "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Belinda Giardine",
+            "author_affiliations": [
+                "Pennsylvania State University, State College, PA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stacie M Anderson",
+            "author_affiliations": [
+                "Flow Cytometry Core, NHGRI, Bethesda, MD "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bethan Psaila, MD PhD",
+            "author_affiliations": [
+                "NHGRI, Bethesda, MD "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "NISC Comparative Sequencing Program",
+            "author_affiliations": [
+                "NHGRI, Rockville, MD"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ross C Hardison, PhD",
+            "author_affiliations": [
+                "Penn State University, University Park, PA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David M. Bodine, PhD",
+            "author_affiliations": [
+                "NHGRI, Bethesda, MD "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T13:10:11",
+    "is_scraped": "1"
 }
