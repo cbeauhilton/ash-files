@@ -1,8 +1,76 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3587",
-    "start_url_page_num": "3587",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.2074.2074",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/2074/71159/Precision-Chemotherapy-for-Patients-with-Acute?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T08:29:25",
-    "is_scraped": "0"
+    "article_title": "Precision Chemotherapy for Patients with Acute Myeloid Leukemia Using the \u03c0iChemo Prediction and Optimization Tool ",
+    "article_date": "December 7, 2017",
+    "session_type": "802. Chemical Biology and Experimental Therapeutics: Poster I",
+    "abstract_text": "Acute Myeloid Leukemia (AML) has poor treatment outcomes in older patients, due to poor performance status and biological heterogeneity of the disease derived from antecedent hematological disorders. Current treatments for AML take into consideration a small number of patient-specific and leukemia-specific parameters, with choice of chemotherapy regimen often dependent on the treating physician's experience. Patient-specific mutation profiling has now created the potential for personalized treatments, yet it is unclear how such treatments are best used. We have developed a novel dynamic mathematical model (\u03c0iChemo) that uses patient- and leukaemia-specific data to predict treatment outcomes, which could be used for precision optimization of drug selection, schedule and choice of treatment regimen for patients with AML. The \u03c0iChemo tool predicts normal and leukemic population dynamics in bone marrow (BM) of patients with AML, and consists of five population balance models (PBMs) for each population, normal and leukemic (L), describing cell cycle fractions in the following compartments: (1) long-term stems cells (LT-HSC and LT-LSC), (2) short-term stem cells (ST-HSC and ST-LSC), (3) multi-potent progenitors (MPP and L-MPP), (4) common myeloid progenitors (CMP and L-CMP) and, (5) common lymphoid progenitors (CLP and L-CLP). The model also predicts the absolute number of leukemic blasts, red blood cells (RBC), white blood cells (WBC) and neutrophils in peripheral blood (PB), critical in evaluating recovery from chemotherapy-induced hypoplasia. The PBMs determine number of cells in G1 and S phase of cell cycle, which are vulnerable to drug effect, as calculated by the pharmacokinetic and pharmacodynamic (PK/PD) module of the model which used treatment-specific parameters. The integrated PBM & PK/PD model, enables prediction of cell death due to drug and enumerates normal and leukemic cells in BM and PB over time. The PBMs have 3086 variables, 428 differential equations, 2609 algebraic equations and 49 parameters. The model development framework consists of 4 stages: (1) development of the high fidelity model, described above, (2) model analysis using global sensitivity analysis (GSA) to identify significant model parameters; (3) patient-specific parameter estimation of the significant model parameters identified by GSA to obtain the most accurate predictions of treatment outcome; (4) model validation whereby the model was implemented to predict treatment outcome. The model predicted normal and leukemic population dynamics in BM for 6 patients treated with low-dose Ara-C. Clinical and biological patient-specific features used in the model were: height (1.55-1.77 m), weight (49-74.6 Kg), age (71-80 years old), gender (2 males), cellularity factor (1=hypocellular, 2=normocellular and 3=hypercellular), and initial percentage of leukemic blasts (range 23-74%). Treatment-specific parameters were: dose (20 mg), administration route (subcutaneous bolus injection), treatment schedule (bid for 10 days) and number of cycles (2, 3 and 4). The model only required an initial BM sample (cell count and assessment of mutations), and daily PB cell count to monitor model-fit to ensure accurate predictions of treatment outcome. These patient datasets enabled predictions of the absolute number of normal and leukemic populations, and the leukemic blast percentage over time for the 6 patients as determined by BM restaging assessments; three patients achieved complete morphologic remission (after 4 cycles), one patient entered partial remission (after 3 cycles) and two patients relapsed (after 2 and 4 cycles), as per the documented patient outcomes. We have presented a novel tool for prediction of treatment outcomes for patients with AML undergoing chemotherapy. The innovative \u03c0iChemo platform is rendered patient- and leukaemia-specific by using BM and PB results and datasets usually acquired during AML diagnosis and treatment during routine clinical care. These datasets enabled model-monitoring and reduced the interval for model-fit testing compared with sequential BM sampling, increasing the PBM & PK/PD model accuracy for the design of a precision chemotherapy regimen. The \u03c0iChemo tool has the potential to personalize leukemia treatment in real-time, and could represent a step-change in the approach to the use of both standard chemotherapy and novel targeted treatments. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "chemotherapy regimen",
+        "leukemia, myelocytic, acute",
+        "leukemia",
+        "cytarabine",
+        "disease remission",
+        "drug administration routes",
+        "hematological diseases",
+        "leukemic cells",
+        "partial response",
+        "cell count"
+    ],
+    "author_names": [
+        "Ana Luz Quiroga-Campano, BSc, MSc, PhD",
+        "Athanasios Mantalaris, PhD",
+        "Margaritis Kostoglou, PhD",
+        "Michael Georgiadis, PhD",
+        "Nicki Panoskaltsis, MD PhD FRCP"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Ana Luz Quiroga-Campano, BSc, MSc, PhD",
+            "author_affiliations": [
+                "Biological System Engineering Laboratory, Department of Chemical Engineering, Imperial College London, London, United Kingdom "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Athanasios Mantalaris, PhD",
+            "author_affiliations": [
+                "Biological System Engineering Laboratory, Department of Chemical Engineering, Imperial College London, London, United Kingdom "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Margaritis Kostoglou, PhD",
+            "author_affiliations": [
+                "Department of Chemistry, Aristotle University of Thessaloniki, Thessaloniki, Greece "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Georgiadis, PhD",
+            "author_affiliations": [
+                "Department of Chemical Engineering, Aristotle University of Thessaloniki, Thessaloniki, Greece "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nicki Panoskaltsis, MD PhD FRCP",
+            "author_affiliations": [
+                "Biological System Engineering Laboratory, Imperial College London, London, United Kingdom ",
+                "Imperial College London Northwick Park & St. Mark's Campus, Harrow, United Kingdom"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T06:36:34",
+    "is_scraped": "1"
 }

@@ -1,8 +1,100 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3586",
-    "start_url_page_num": "3586",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.2114.2114",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/2114/71152/Counseling-Patients-pts-with-Higher-Risk?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T08:29:21",
-    "is_scraped": "0"
+    "article_title": "Counseling Patients (pts) with Higher-Risk Myelodysplastic Syndromes (HR-MDS) Regarding Expected Survival with Azacitidine (aza) Therapy: Are We Using Accurate Estimates? ",
+    "article_date": "December 7, 2017",
+    "session_type": "902. Health Services Research-Malignant Conditions: Poster I",
+    "abstract_text": "Introduction: Aza is the only drug proven to prolong overall survival (OS) in pts with HR-MDS in the large randomized trial AZA-001 with a median OS of 24\u00b75 months (mos) compared to vs. 15\u00b70 mos for conventional care regimens (CCR) arm, with a hazard ratio of 0\u00b758; p=0\u00b70001 (Fenaux et al, 2009). Two-year OS probability was 51% in aza arm compared to 26% in the CCR arm (p<0\u00b70001). These numbers are often quoted to counsel HR-MDS pts regarding expected benefits with aza therapy. However, increasing real-life and registry data suggest that the OS benefits with aza is much lower than what is suggested by AZA-001 trial. To get a more realistic estimate of OS with aza, we pooled OS data from several reported clinical trials and re-analyzed data from the AZA-001 trial. Methods: We conducted a literature search for published prospective clinical trials that had an aza monotherapy arm at the standard approved dose (75mg/m2/day for 7 days), in which OS results were presented in Kaplan-Meier (KM) methodology. GetData Graph Digitizer Version 2.26 was used to digitize the published KM curves of the aza monotherapy arms in these trials. An algorithm developed by Guyot et al. 2012 was implemented in the R statistical software to recreate individual pt level data based on the information from each KM curve, number of pts at risk, and number of events. Individual pt level data were pooled for pts receiving aza to produce overall KM estimates and estimates of median OS and 1-, 2-, and 3-year OS probabilities. Furthermore, based on the individual level pt data recreated from the AZA-001 trial, the validity of the proportional hazards assumption between the aza and CCR arms was assessed by testing the independence between Schoenfeld residuals and time. The difference (and ratio) of the Restricted Mean Survival Time (RMST) are non-parametric test which are less sensitive to assumptions than the Cox proportional hazards (CPH) ratios, and has been gaining popularity as an estimate of survival benefit in time-to-event endpoints in clinical trials (Uno et al, JCO, 2014). The hazard ratio provided in trials can significantly increase treatment effect estimates than the ratio of RMST, and the hazard ratio may seem large when the absolute effect is small. We calculated the difference (and the ratio) of the RMST in the AZA-001 trial to estimate OS benefit with aza compared to CCR, as an alternative to the hazard ratio reported in the trial, that is less sensitive to violations in the proportional hazards assumption. Results: We have found four published manuscript that fit the research criteria [Table 1]. We first assessed the proportionality of the hazard functions for each treatment arm of AZA-001 trial . While there wassome variability in the CPH model residuals for the log hazard ratio over time, the proportionality assumption is not violated based on the test of the Schoenfeld residuals (Rho = 0.085, p = 0.224). The difference in RMST between aza and CCR arms shows that OS benefit in aza arm was 5.38 months longer than CCR arm on average when pts were followed for 34 months (p < 0.001). The ratio of RMST over 34 months was 0.748, suggesting that hazard of death was reduced with aza by 25% compared to CCR (p < 0.001), in comparison to what was reported in the AZA-001 trial of hazard of death reduction of 42% based on the CPH. When KM curves for the aza arm of each of the four manuscripts were pooled [Figures 1,2] , median OS was 19.2 months (95%CI 16.9, 21.8). KM estimates of OS for pooled data at 1-year was 65.4% (95%CI 60.8%, 70.3%), at 2-years 42.4% (95%CI 37.3%, 48.3%), and at 3 years 33.6% (95%CI 27.6%, 40.8%). Summary: Pooled data from clinical trials with aza monotherapy arms support the real-life observation that the median OS of 24.5 months with aza in AZA-001 trial reflects a substantial unexplained over-performance of aza in this landmark trial that is not related to the selective process of enrollment in clinical trials. While individual pts have exceptional responses with aza, such responses are uncommon and a median OS of less than 19 months (based on trial data of selected patients) and 13 to 16 months (based on real-life analyses) might be more realistic estimates for most pts with HR-MDS using aza. These observations provide rationale to strongly consider first-line enrollment into clinical trials or transplantation for HR-MDS pts rather than defaulting to the routine use of \"standard-of-care\" aza monotherapy, and have important implications for the design of clinical trials. View large Download slide View large Download slide Close modal Disclosures Podoltsev: CTI biopharma/Baxalta: Consultancy; Ariad: Consultancy; Alexion: Consultancy; Incyte: Consultancy. Ma: Incyte Corp.: Consultancy. Zeidan: AbbVie, Otsuka, Pfizer, Gilead, Celgene, Ariad, Incyte: Consultancy, Honoraria; Takeda: Speakers Bureau; Otsuka: Consultancy.",
+    "topics": [
+        "azacitidine",
+        "brachial plexus neuritis",
+        "myelodysplastic syndrome",
+        "patient counseling",
+        "surrogate endpoints",
+        "transplantation",
+        "nonparametric test",
+        "arm",
+        "digitizers",
+        "software"
+    ],
+    "author_names": [
+        "Michelle Deveaux",
+        "Maximilian Stahl, MD",
+        "Smith Giri, MBBS",
+        "Rong Wang, PhD",
+        "Nikolai A. Podoltsev, MD PhD",
+        "Xiaomei Ma, MD PhD",
+        "Amer M. Zeidan, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Michelle Deveaux",
+            "author_affiliations": [
+                "Department of Biostatistics, Yale School of Public Health, New Haven, CT "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maximilian Stahl, MD",
+            "author_affiliations": [
+                "Yale Cancer Center, New Haven, CT "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Smith Giri, MBBS",
+            "author_affiliations": [
+                "Yale Cancer Outcomes, Public Policy, and Effectiveness Research (COPPER) Center, New Haven, CT ",
+                "Yale Cancer Center, New Haven, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rong Wang, PhD",
+            "author_affiliations": [
+                "Yale Cancer Outcomes, Public Policy, and Effectiveness Research (COPPER) Center, New Haven, CT ",
+                "Department of Chronic Diseases, Yale School of Public Health, Yale University, New Haven, CT "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nikolai A. Podoltsev, MD PhD",
+            "author_affiliations": [
+                "Yale Cancer Center, New Haven, CT ",
+                "Yale Cancer Outcomes, Public Policy, and Effectiveness Research (COPPER) Center, New Haven, CT "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xiaomei Ma, MD PhD",
+            "author_affiliations": [
+                "Department of Chronic Diseases, Yale School of Public Health, Yale University, New Haven, CT ",
+                "Yale Cancer Outcomes, Public Policy, and Effectiveness Research (COPPER) Center, New Haven, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amer M. Zeidan, MD",
+            "author_affiliations": [
+                "Yale Cancer Outcomes, Public Policy, and Effectiveness Research (COPPER) Center, New Haven, CT ",
+                "Section of Hematology, Department of Internal Medicine, Yale Cancer Center, East Haven, CT"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T06:36:08",
+    "is_scraped": "1"
 }

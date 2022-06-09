@@ -1,8 +1,165 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3593",
-    "start_url_page_num": "3593",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.2212.2212",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/2212/71288/Measurement-of-Liver-Iron-Concentration-in-a?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T08:46:35",
-    "is_scraped": "0"
+    "article_title": "Measurement of Liver Iron Concentration in a Population of Non-Transfusion Dependent Thalassemia Patients Using a Trained Artificial Neural Network to Analyse Magnetic Resonance Images ",
+    "article_date": "December 7, 2017",
+    "session_type": "102. Regulation of Iron Metabolism: Poster II",
+    "abstract_text": "Background: Measurements of liver iron concentration (LIC) by magnetic resonance imaging (MRI) have become established and validated in several research intensive centers. However, challenges remain with translating these measurement methodologies for routine clinical use. Current methods involve many steps presenting multiple opportunities for human error and can lead to systematic severe measurement error. Artificial neural networks (ANNs) can be trained to replace human input into image processing and may have a role in providing a simple, robust, and low cost solution for LIC measurement. Aims: The aim of the study wasto determine the limits of agreement between measurements of LIC by a reference standard spin-density-projection-assisted (SDPA) R2-MRI method (FerriScan) and a method using trained ANNs to analyse image data. MR image datasets (400) previously acquired from Siemens scanners were pre-processed and then, together with their corresponding SDPA R2-MRI LIC values, were filtered through publically available ANNs. The ANNs had been pre-trained on large image sets (ImageNet). Relevant features were extracted and then used to train a machine learning (gradient boosting) algorithm to predict LIC values from previously unseen MR image datasets. Methods: Thalassemia patients (N=100) referred by the National Institute of Haematology and Blood Transfusion, Hanoi, Vietnam for routine LIC measurement by MRI were prospectively recruited with informed consent. Patients were randomised to be scanned in either a Philips Ingenia or a Siemens Avanto 1.5T scanner. Image data were acquired using the FerriScan protocol. Images were then processed (1) using a quality controlled core laboratory data analysis service using the SDPA R2-MRI method and (2) by a non-radiologically-trained technician using the trained artificial neural network to generate LIC values. The technician was required to trace the outline of the torso and then click a mouse button. The technician using the ANN was blinded from the SDPA R2-MRI results and the analysts generating the SDPA R2-MRI results were blinded from the ANN results. Reported data were analysed using the statistical methods of Bland and Altman. Results: A plot of the ANN-predicted LIC values against the SDPA R2-MRI LIC values (Figure) shows the data scattered about the line of equivalence indicating that the ANN method is generating results that correlate with the validated SDPA R2-MRI reference standard. The geometric mean ratio of ANN LIC to SDPA R2-MRI LIC was 0.93 (95% CI 0.91 -0.96) indicating a small but statistically significant systematic underestimation of LIC by the ANN. The geometric mean ratios of the two LIC measurements were significantly different for the two scanners (0.98 for Philips and 0.90 for Siemens, p = 0.006) indicating that the bias of the ANN method against the reference standard is not universal but is dependent on scanner. Bland Altman analysis indicates that 95% of pairs of measurements are predicted to have ratios between 1.23 and 0.69 indicating a modest random variability between the ANN method and the reference standard that is better than that between biopsy and the reference standard. The performance of the ANN method in predicting SDPA R2-MRI LIC values above the clinically relevant thresholds of 7 and 15 mg Fe/g dw is characterized in Table 1 showing positive predictive values (PPVs) and negative predictive values (NPVs) together with their 95% CIs. Conclusion: The data indicate that the ANN method of measurement of LIC has potential to be used as a fast and robust method of analysing MR image data to generate LIC values. Further testing is required on a wider range of scanner types and with more patients with lower LICs. The performance of the ANN will also likely be improved through training on a larger number of datasets. Figure View large Download slide Figure View large Download slide  Close modal Disclosures St Pierre: Resonance Health Ltd: Consultancy, Equity Ownership, Speakers Bureau. Cooper: Resonance Health Ltd: Consultancy. Boulos: Resonance Health Ltd: Employment. House: Resonance Health Ltd: Employment. Pang: Resonance Health Ltd: Employment. Bangma: Resonance Health Ltd: Employment. Taher: Novartis Pharmaceuticals: Honoraria, Research Funding; Celgene: Research Funding.",
+    "topics": [
+        "iron",
+        "liver",
+        "magnetic resonance imaging",
+        "thalassemia",
+        "transfusion",
+        "biopsy",
+        "blood transfusion",
+        "positive pressure ventilators",
+        "coefficient of determination",
+        "transverse spin relaxation rate"
+    ],
+    "author_names": [
+        "Tim St Pierre, PhD",
+        "Tony Cooper",
+        "Nguyen Ngoc Trang",
+        "Nguyen Thi Thu Ha",
+        "Dang Thai Ton",
+        "Nguyen Khoi Viet",
+        "Pham Minh Thong",
+        "Nguyen Anh Tri",
+        "Bach Quoc Khanh",
+        "Sherif Boulos",
+        "Michael House",
+        "Wenjie Pang",
+        "Sander Bangma",
+        "Ali Taher, MDPhDFRCP"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Tim St Pierre, PhD",
+            "author_affiliations": [
+                "The University of Western Australia, Crawley, Australia "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tony Cooper",
+            "author_affiliations": [
+                "Resonance Health Ltd, Burswood, Australia "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nguyen Ngoc Trang",
+            "author_affiliations": [
+                "Bach Mai Hospital, Hanoi, Viet Nam "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nguyen Thi Thu Ha",
+            "author_affiliations": [
+                "National Institute of Hematology and Blood Transfusion, Hanoi, Viet Nam "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dang Thai Ton",
+            "author_affiliations": [
+                "Bach Mai Hospital, Hanoi, Viet Nam "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nguyen Khoi Viet",
+            "author_affiliations": [
+                "Bach Mai Hospital, Hanoi, Viet Nam "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pham Minh Thong",
+            "author_affiliations": [
+                "Bach Mai Hospital, Hanoi, Viet Nam "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nguyen Anh Tri",
+            "author_affiliations": [
+                "National Institute of Hematology and Blood Transfusion, Hanoi, Viet Nam "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bach Quoc Khanh",
+            "author_affiliations": [
+                "National Institute of Hematology and Blood Transfusion, Hanoi, Viet Nam "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sherif Boulos",
+            "author_affiliations": [
+                "Resonance Health Ltd, Burswood, Australia "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael House",
+            "author_affiliations": [
+                "Resonance Health Ltd, Burswood, Australia "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wenjie Pang",
+            "author_affiliations": [
+                "Resonance Health Ltd, Burswood, Australia "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sander Bangma",
+            "author_affiliations": [
+                "Resonance Health Ltd, Burswood, Australia "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ali Taher, MDPhDFRCP",
+            "author_affiliations": [
+                "Department of Internal Medicine, American University of Beirut - Medical Center Raid El Solh, Beirut, Lebanon"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T06:44:20",
+    "is_scraped": "1"
 }

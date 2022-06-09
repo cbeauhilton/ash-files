@@ -1,8 +1,175 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3594",
-    "start_url_page_num": "3594",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.2044.2044",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/2044/71313/Patient-Based-Prediction-Algorithm-of-Relapse?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T08:46:39",
-    "is_scraped": "0"
+    "article_title": "Patient-Based Prediction Algorithm of Relapse after Allo-HSCT for Acute Leukemia Using Machine Learning Approach ",
+    "article_date": "December 7, 2017",
+    "session_type": "732. Clinical Allogeneic Transplantation: Results: Poster I",
+    "abstract_text": "Background: Although allogeneic hematopoietic stem-cell transplantation (allo-HSCT) is a curative therapy for patients with high risk acute leukemia (AL), a method of reduction in relapse after allo-HSCT remains to be elucidated. Prognostic factors for allo-HSCT for AL, such as the Disease Risk Index (DRI), donor and conditioning type, hematopoietic cell transplantation -specific comorbidity index (HCT-CI), have been determined with conventional statistic methods like uni- and multivariate analysis. However, patient-based prediction of relapse, which would be useful for bedside decision making or for a protocol of diversified allo-HSCT, is difficult because all of these factors are related with each other in the patient. Alternating decision tree (ADTree) is a successful classification method that combines decision trees with the predictive accuracy of boosting into a set of interpretable classification rules. It is one part of the machine learning (ML) approach based on artificial intelligence and can handle multiple factors simultaneously. Recently, some ML approaches like ADTree have been highlighted as promising approaches for the development of new prediction models. Purpose: To construct a patient-based prediction algorithm of AL relapse within 1-year after allo-HSCT to help in deciding on therapy options to prevent relapse. Patients and Method: Our analysis was a retrospective, supervised data mining learning study that included 223 AL patients (acute myelogenous leukemia; AML n=132, acute lymphoblastic leukemia; ALL n=91). They received allo-HSCT at Niigata University Hospital (n=144) and Nagaoka Red Cross Hospital (n=79) from 1990 to 2016. The median age at HSCT was 38 years old (range 18-71). The median follow-up for living patients was 61 months (range 12-223). Myeloablative conditioning was used in 174 (78%) and reduced-intensity in 49 (22%) patients. Donors were related for 97 (43.5%) and unrelated for 126 (56.5%) patients. Grafts were peripheral blood stem cells in 49 (22.0%), bone marrow in 128 (57.4%) and cord blood in 46 (20.6%) patients. According to the DRI for low, intermediate, high and very high-risk, there were 12 (5.4%), 124 (55.6%), 56 (25.1%) and 31 (13.9%) patients, respectively. ADTree was performed using the WEKA software (Ver.3.9.1, Machine Learning Group at the University of Waikato, New Zealand). The algorithm model was trained and tested using 10-fold cross validation on the training data set (Niigata group) and validated again on the validation data set (Nagaoka group). The model was evaluated for prediction accuracy and the area under curve (AUC) of the receiver operating characteristics (ROC) analysis, which discriminates the true prediction rate from the false prediction rate, was determined. Result: The 1-year relapse rate and 1-year overall survival of all patients were 35.5% and 69.7%, respectively. The ADTree model selected 10 clinical variables based on the statistical values during analysis. As the accuracy rate and the AUC of prediction of this algorithm were 76.2% and 0.690 in the training data set and 77.2% and 0.714 in the validation data set, respectively (Table 1), this model has high accuracy and generalization ability for predicting AL relapse. Figure 1 shows the graphical output of the ADTree prediction model. Each score indicates the prediction node weight (NW); NW0 higher risk to relapse. In the same disease stage categories (DRI; very high), AML patients had lower risk (NW, -0.133) than ALL patients (NW, 0.568). The final judgment of AL relapse prediction within 1-year was as follows; total NW sum> 0 was predicted relapse and <0 was no predicted relapse, respectively. For example, in the case of a patient (DRI; high, under 40 years old and HCT-CI \u22662) who received CBT (cord blood transplantation) with total body irradiation (TBI), the NW sum was -1.1650, which indicates predicted relapse. (Table 2) Conclusion: This algorithm has high prediction accuracy and generalization ability. Our analysis suggested that the AL relapse within 1-year may be changed by therapy options. The ML approach like ADTree is promising to construct a new patient-based prognostic prediction algorithm and it may be useful in bed-side decision-making for diversified allo-HSCT protocols. View large Download slide View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "allopurinol",
+        "hematopoietic stem cell transplantation",
+        "leukemia, acute",
+        "machine learning",
+        "risk reduction",
+        "acute lymphocytic leukemia",
+        "follow-up",
+        "leukemia, myelocytic, acute",
+        "prognostic factors",
+        "tissue transplants"
+    ],
+    "author_names": [
+        "Kyoko Fuse, MD",
+        "Shun Uemura, MD",
+        "Tatsuya Suwabe, MD",
+        "Takayuki Katagiri, MD",
+        "Tomoyuki Tanaka, MD",
+        "Takashi Ushiki, MD PhD",
+        "Yasuhiko Shibasaki, MD PhD",
+        "Naoko Sato, MD PhD",
+        "Toshio Yano, MD PhD",
+        "Takashi Kuroha, MD PhD",
+        "Shigeo Hashimoto, MD PhD",
+        "Tastuo Furukawa, MD PhD",
+        "Miwako Narita, MD PhD",
+        "Hirohito Sone, MD PhD",
+        "Masayoshi Masuko, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Kyoko Fuse, MD",
+            "author_affiliations": [
+                "Department of Hematology, Endocrinology and Metabolism, Niigata University Faculty of Medicine, Niigata, Japan "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shun Uemura, MD",
+            "author_affiliations": [
+                "Department of Hematology, Endocrinology and Metabolism, Niigata University Faculty of Medicine, Niigata, Japan "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tatsuya Suwabe, MD",
+            "author_affiliations": [
+                "Department of Hematology, Endocrinology and Metabolism, Niigata University Faculty of Medicine, Niigata, Japan "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Takayuki Katagiri, MD",
+            "author_affiliations": [
+                "Department of Hematology, Endocrinology and Metabolism, Niigata University Faculty of Medicine, Niigata, Japan "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tomoyuki Tanaka, MD",
+            "author_affiliations": [
+                "Department of Hematology, Endocrinology and Metabolism, Niigata University Faculty of Medicine, Niigata, Japan "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Takashi Ushiki, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology, Endocrinology and Metabolism, Niigata University Faculty of Medicine, Niigata, Japan "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yasuhiko Shibasaki, MD PhD",
+            "author_affiliations": [
+                "Department of Hematopoietic Cell Transplantation, Niigata University Medical and Dental Hospital, Niigata, Japan "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Naoko Sato, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology, Nagaoka Red Cross Hospital, Nagaoka, Japan "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Toshio Yano, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology, Nagaoka Red Cross Hospital, Nagaoka, Japan "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Takashi Kuroha, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology, Nagaoka Red Cross Hospital, Nagaoka, Japan "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shigeo Hashimoto, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology, Nagaoka Red Cross Hospital, Nagaoka, Japan "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tastuo Furukawa, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology, Nagaoka Red Cross Hospital, Nagaoka, Japan "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Miwako Narita, MD PhD",
+            "author_affiliations": [
+                "Laboratory of Hematology and Oncology, Graduate School of Health Sciences, Niigata University, Niigata, Japan"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hirohito Sone, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology, Endocrinology and Metabolism, Niigata University Faculty of Medicine, Niigata, Japan "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Masayoshi Masuko, MD PhD",
+            "author_affiliations": [
+                "Department of Hematopoietic Cell Transplantation, Niigata University Medical and Dental Hospital, Niigata, Japan "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T06:45:53",
+    "is_scraped": "1"
 }

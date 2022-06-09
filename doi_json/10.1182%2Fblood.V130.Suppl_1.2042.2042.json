@@ -1,8 +1,156 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3593",
-    "start_url_page_num": "3593",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.2042.2042",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/2042/71294/An-Artificial-Intelligence-Approach-for-Predicting?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T08:46:35",
-    "is_scraped": "0"
+    "article_title": "An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome By Detecting Pre-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data ",
+    "article_date": "December 7, 2017",
+    "session_type": "732. Clinical Allogeneic Transplantation: Results: Poster I",
+    "abstract_text": "Introduction Disease status before allogeneic hematopoietic stem cell transplantation (allo-HSCT) is an important prognostic marker for recipients with acute myeloid leukemia (AML), and flow cytometry (FC)-assisted minimal residual disease (MRD) detection is of well-known clinical significance in this setting. However, current interpretation requires experienced manual gating, which is time consuming as well as suffering from inter-physician idiosyncrasies. The reproducibility and objectivity could then be compromised. In this study, we aimed to develop automated FC data interpretation algorithm using artificial intelligence (AI) technology in supporting physicians to conduct rapid and reliable pre-HSCT MRD detection for AML patients. Methods Retrospective FC data of AML or myelodysplastic syndrome (MDS) from 2009 to 2017 for MRD detection at the National Taiwan University Hospital were used for establishing AI diagnostic strategy. Totally 4350 data samples from two different FC machines (3090 from FASCalibur and 1260 from FASCantoII-Senior) were included. Each of the samples had a 12-tube test on 100000 cells, measured in 6 fluorescent channels (FSC, SSC, FITC, PE, PerCP, APC) within 1 tube. The whole dataset was randomly divided to the Training set and the Validation set, taking 80% and 20% samples respectively. The Training set was used to develop and tune the AI algorithm, and final concordance was estimated on the blinded Validation set. Algorithms for pair-wise recognition (AML vs. normal, MDS vs. normal and abnormal (AML+MDS) vs. normal) were developed independently, according to previous manual interpretation of FC data. The recorded numerical values of the 6 fluorescent channels of each tube were considered as raw feature attributes. The data was first statistically-modelled with a sub-dictionary approach in learning a multivariate Gaussian mixture model. Then a probabilistic derivation based on Fisher scoring was exploited to compute the L2-normalized fixed-dimensional input representations. The raw feature attributes were then encoded into a Fisher representational vector. Lastly, vectors of each tube were concatenated as the final high-dimensional input to the supervised machine learning classifier, i.e., a support vector machine with linear kernel. In addition, ANOVA-based feature selection was also conducted throughout the experiments. For outcome predicting analysis, we included 94 AML patients with available pre-allo-HSCT FC data. Their clinical parameters, progression-free survival (PFS) and overall survival (OS) after allo-HSCT are recorded and analyzed with a median follow-up of 39.9 months. Results For the Calibur Training set (n=2,649), the concordance rate of AI algorithm with manual analysis in differentiating AML vs. normal, MDS vs. normal, and abnormal vs normal was as high as 91.8%, 94.0%, and 90.8%, respectively. Similar rates were noted for the CantoII-Senior Training set (n=1,041): 88.0%, 85.5%, and 84.4%. The final concordance rates for the overall Validation set was 87.9%, 87.9% and 85.1%, respectively. Surprisingly, the algorithm developed from only single tube (CD13, CD16, CD45, FSC and SSC) can achieve almost identical concordance rates as to that from all 12 tubes, both for Calibur data (estimated by the area under receiver operating characteristic curve (AUC), 0.932 vs. 0.935) and CantoII-Senior data (AUC 0.790 vs. 0.832). Another point to note is that the AI system is 100 times faster than the trained professionals in interpreting one FC data (around 7 secs vs 15-30 mins). The clinical parameters for 94 AML patients underwent HSCT were illustrated (Table 1). As noted, 38 were classified to have abnormal pre-HSCT FC data by AI system (indicating residual disease) and 56 were normal. Those with normal FC had significantly longer post-HSCT OS compared to those with abnormal FC (median OS NR vs 6.5 months, p<0.001) (Figure 1a). Pre-HSCT normal FC also predicted longer post-HSCT PFS (median PFS NR vs 4.5 months, p<0.0001) (Figure. 1b). Multi-variate analysis with Cox Hazard Proportional model confirmed the prognostic significance of positive MRD by AI for OS and RFS. Conclusions This study demonstrated that AI could be an efficient and reliable diagnostic and prognosis prediction tool for AML. In the future, we like to incorporate other test results simultaneously measured for those patients as our next phase of advancing the AI system. View large Download slide View large Download slide  Close modal Disclosures Li: Celgene International S\u00e0rl: Research Funding. Ko: Celgene International S\u00e0rl: Research Funding. Hou: Celgene International S\u00e0rl: Research Funding. Lin: Celgene International S\u00e0rl: Research Funding. Tien: Celgene International S\u00e0rl: Research Funding. Tang: Celgene International S\u00e0rl: Research Funding.",
+    "topics": [
+        "allogeneic hematopoietic stem cell transplant",
+        "artificial intelligence",
+        "flow cytometry",
+        "leukemia, myelocytic, acute",
+        "neoplasm, residual",
+        "transplantation",
+        "hematopoietic stem cell transplantation",
+        "allopurinol",
+        "alanine aminopeptidase",
+        "antigens, cd16"
+    ],
+    "author_names": [
+        "Chi-Cheng Li, MD",
+        "Bor-Sheng Ko, MD, PhD",
+        "Yu-Fen Wang, MS",
+        "Jeng-Lin Li, BS",
+        "Pei-Fang Weng, BS",
+        "Hsin-An Hou, MD, PhD",
+        "Xiu-Wen Liao, MS",
+        "Chien-Ting Lin, MD",
+        "Jia-Hou Liu, MD",
+        "Hsun-I Sun",
+        "Hwei-Fang Tien, MD, PhD",
+        "Chi-Chun Lee, PhD",
+        "Jih-Luh Tang, MD,PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Chi-Cheng Li, MD",
+            "author_affiliations": [
+                "Tai-Cheng Stem Cell Therapy Center, National Taiwan University, Taipei, Taiwan "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bor-Sheng Ko, MD, PhD",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yu-Fen Wang, MS",
+            "author_affiliations": [
+                "Tai-Cheng Stem Cell Therapy Center, National Taiwan University, Taipei, Taiwan "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jeng-Lin Li, BS",
+            "author_affiliations": [
+                "Department of Electrical Engineering, National Tsing Hua University, Hsinchu, Taiwan"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pei-Fang Weng, BS",
+            "author_affiliations": [
+                "Tai-Cheng Stem Cell Therapy Center, National Taiwan University, Taipei, Taiwan "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hsin-An Hou, MD, PhD",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xiu-Wen Liao, MS",
+            "author_affiliations": [
+                "Tai-Cheng Stem Cell Therapy Center, National Taiwan University, Taipei, Taiwan "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chien-Ting Lin, MD",
+            "author_affiliations": [
+                "Tai-Cheng Stem Cell Therapy Center, National Taiwan University, Taipei, Taiwan "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jia-Hou Liu, MD",
+            "author_affiliations": [
+                "Tai-Cheng Stem Cell Therapy Center, National Taiwan University, Taipei, Taiwan "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hsun-I Sun",
+            "author_affiliations": [
+                "Tai-Cheng Stem Cell Therapy Center, National Taiwan University, Taipei, Taiwan "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hwei-Fang Tien, MD, PhD",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chi-Chun Lee, PhD",
+            "author_affiliations": [
+                "Department of Electrical Engineering, National Tsing Hua University, Hsinchu, Taiwan"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jih-Luh Tang, MD,PhD",
+            "author_affiliations": [
+                "Tai-Cheng Stem Cell Therapy Center, National Taiwan University, Taipei, Taiwan ",
+                "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-09T06:44:44",
+    "is_scraped": "1"
 }
