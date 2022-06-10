@@ -1,8 +1,158 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3649",
-    "start_url_page_num": "3649",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.207.207",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/207/71586/Identification-of-Leukemia-Associated-Minor?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T11:17:23",
-    "is_scraped": "0"
+    "article_title": "Identification of Leukemia Associated Minor Histocompatibility Antigens through Computational Prediction and Targeted Mass Spectrometry ",
+    "article_date": "December 7, 2017",
+    "session_type": "701. Experimental Transplantation: Basic Biology, Pre-Clinical Models: Novel T cell targets in regulation of GVHD and GVL",
+    "abstract_text": "Background and Rationale: T-cell responses to minor histocompatibility antigens (mHA) mediate both anti-tumor immunity (GvL) and graft versus host disease (GvHD) in allogeneic stem cell transplantation. Clinical trials of cellular immunotherapies that target one or more of these mHA are ongoing, however current laboratory and GWAS methods have thus far produced a limited number of confirmed mHA (Oostvogels et al. BMT 2016, PMID: 26501766). Identifying mHA with tight binding affinity to common HLA alleles, narrow tissue restriction, and high population prevalence (GvL mHA) could provide promising immunotherapy targets against leukemia as therapeutic strategies that target these mHA would maximize the number of candidate recipients and may drive a beneficial GvL effect without causing GvHD. Methods: To evaluate a custom GvL mHA prediction pipeline (Figure 1) based on neoantigen prediction software developed in the Vincent lab (Kardos et al. JCI Insight 2016, PMID: 27699256), we predicted mHA for HLA-matched allogeneic stem cell transplant (SCT) donor-recipient pairs (DRPs) from a cohort of 101 patients with myeloid hematologic diseases who had been genotyped at 13,917 non-synonyomous coding polymorphisms (cSNPs) by Illumina NS-12 microarrays (Armistead et al . PLoS One 2011, PMID: 21858034). We computationally predicted GvL mHA by first eliciting in silico all possible 8, 9, 10, 11, 16, 20, and 24-mer peptides arising from DRP genetic variation, then estimating peptide/HLA binding with NetMHCpan and tissue restriction based on Human Protein Atlas and in-house AML sample RNAseq data. We validated our computational approach to mHA prediction by assessing our capacity to predict previously published mHA and by performing two complementary biological validations of a novel GvL mHA we discovered. We purified HLA-restricted peptide epitopes from HLA-A*02:01 expressing U937 cells and used targeted differential ion mobility spectrometry/tandem mass spectrometry (DIMS/MS/MS) (Dharmasiri et al. J. Proteome Res. 2014, PMID: 25184817) to test for HLA-A*02:01 presentation of a predicted novel GvL mHA (UNC-GVL-1). We also tested for T cell responses to UNC-GVL-1 using peptide/HLA tetramers on post-SCT AML patient samples. Results: We identified 18 previously published mHA that were potentially discoverable in our patient cohort because at least one DRP expressed the appropriate HLA and the mHA arose from a cSNP contained in the Illumina NS-12 microarray. Of these 18 possible mHA, we successfully predicted 14 in our analysis (Figure 2A), with the 4 missed mHA resulting from inadequate cohort size (n=2), non-canonical translation of a mHA (n=1), and poor predicted HLA binding (n=1). Of our 101 DRPs, 60 (59%) were predicted to have at least one of these 14 mHA, with T4A the most common, identified in 21 DRPs (21%), and UNC-GVL-1 identified in 13 DRPs (13%). All previously published Class I mHA predicted in our cohort as well as UNC-GVL-1 had similar or tighter predicted binding affinity for the recipient peptide/HLA as compared to the donor (i.e. alternate allele) peptide/HLA (Figure 2B). In addition to predicting previously discovered mHA, we predicted 102 novel public GvL mHA. By optimizing DIMS settings to filter out other peptide epitopes, we confirmed that the novel GvL mHA UNC-GVL-1 was presented on HLA-A*02:01 by HLA-A*02:01 expressing U937 cells. Using UNC-GVL-1/HLA-A*02:01 tetramers, we identified T cell responses in 4 of 9 HLA-A*02:01 expressing post-SCT samples. Conclusions: Computational prediction of GvL mHA with tight predicted binding affinity to common HLA alleles, narrow tissue restriction, and high population prevalence can provide novel public immunotherapy targets. UNC-GVL-1 is a promising novel target for immunotherapy in AML. View large Download slide View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "leukemia",
+        "mass spectrometry",
+        "minor histocompatibility antigens",
+        "human leukocyte antigens",
+        "peptides",
+        "hla-a antigens",
+        "hla-a2 antigen",
+        "immunotherapy",
+        "graft-versus-host disease",
+        "allogeneic stem cell transplant"
+    ],
+    "author_names": [
+        "Jefferson L. Lansford, BS",
+        "Udara Dharmasiri, PhD",
+        "Shengjie Chai, BS",
+        "Sally A. Hunsucker, PhD",
+        "Dante S. Bortone, PhD",
+        "James E. Keating, BS",
+        "Ian M. Schlup",
+        "Gary L. Glish, PhD",
+        "Edward J. Collins, PhD",
+        "Gheath Alatrash, DO, PhD",
+        "Jeffrey J. Molldrem, MD",
+        "Paul M. Armistead, MD PhD",
+        "Benjamin G. Vincent, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Jefferson L. Lansford, BS",
+            "author_affiliations": [
+                "School of Medicine, University of North Carolina at Chapel Hill, Carrboro, NC "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Udara Dharmasiri, PhD",
+            "author_affiliations": [
+                "Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, Chapel Hill, NC "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shengjie Chai, BS",
+            "author_affiliations": [
+                "Curriculum in Bioinformatics and Computational Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sally A. Hunsucker, PhD",
+            "author_affiliations": [
+                "Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, Chapel Hill, NC "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dante S. Bortone, PhD",
+            "author_affiliations": [
+                "Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, Chapel Hill, NC "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "James E. Keating, BS",
+            "author_affiliations": [
+                "Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, NC "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ian M. Schlup",
+            "author_affiliations": [
+                "Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, NC "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gary L. Glish, PhD",
+            "author_affiliations": [
+                "Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, NC "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Edward J. Collins, PhD",
+            "author_affiliations": [
+                "Department of Microbiology and Immunology, University of North Carolina at Chapel Hill, Chapel Hill, NC "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gheath Alatrash, DO, PhD",
+            "author_affiliations": [
+                "Department of Stem Cell Transplantation & Cellular Therapy, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jeffrey J. Molldrem, MD",
+            "author_affiliations": [
+                "Department of Stem Cell Transplantation & Cellular Therapy, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Paul M. Armistead, MD PhD",
+            "author_affiliations": [
+                "Department of Medicine, Division of Hematology/Oncology, University of North Carolina at Chapel Hill, Chapel Hill, NC ",
+                "Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, Chapel Hill, NC"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Benjamin G. Vincent, MD",
+            "author_affiliations": [
+                "Curriculum in Bioinformatics and Computational Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC ",
+                "Department of Medicine, Division of Hematology/Oncology, University of North Carolina at Chapel Hill, Chapel Hill, NC ",
+                "Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, Chapel Hill, NC"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T02:27:34",
+    "is_scraped": "1"
 }
