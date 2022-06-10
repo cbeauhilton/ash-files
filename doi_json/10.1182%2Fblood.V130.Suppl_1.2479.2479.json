@@ -1,8 +1,87 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3678",
-    "start_url_page_num": "3678",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.2479.2479",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/2479/80053/Genomic-and-Epigenetic-Effects-of-DNA?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T12:41:07",
-    "is_scraped": "0"
+    "article_title": "Genomic and Epigenetic Effects of DNA Methyltransferase Inhibition in Acute Lymphoblastic Leukemia ",
+    "article_date": "December 7, 2017",
+    "session_type": "602. Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation: Poster II",
+    "abstract_text": "Background: Children with acute lymphoblastic leukemia (ALL) who relapse are more resistant to chemotherapy. We have previously identified a unique gene expression signature associated with relapsed leukemic blasts and showed that relapse samples have higher level of CpG methylation compared to diagnosis. We also demonstrated that treatment with DNMT inhibitor, decitabine, alone or in combination with the HDAC inhibitor, vorinostat restored blast chemosensitivity in vitro . These observations led to the hypothesis that global methylation status is a key regulator of drug resistance. Method: To discover the pathways affected by changes in global methylation and chromosomal architecture, we performed ChIPseq for the CCCTC-binding factor (CTCF) and the histone marks H3K9ac, H3K27ac and H3K27me3 as well as RNAseq, and DNA methylation in the B-ALL cell line Reh treated with 1\u00b5M decitabine versus DMSO for 3 days in triplicates. ChIPseq data was analyzed using MACS2 broad setting for peak calling, GENCODE for gene annotations and diffbind for differences between the two groups. Promoter regions were inferred to be +/-3KB from TSS and the ROSE algorithm was used on the H3K27ac mark to define enhancers and superenhancers. Analysis of differential gene expression was performed using DESeq2 Bioconductor package and the 850k methylation data was analyzed using `Minfi` Bioconductor package. For all data sets, fold changes of 1.5 or more and p<0.05 (FDR of 5% for the ChIPseq data) were considered significant. Results: As expected, decitabine treatment resulted in a global loss of CpG methylation and there were 1286 genes upregulated and 1003 genes downregulated by 1.5 fold or more in treated versus untreated cells. Interestingly, there was a subset of CpG sites which had a significant gain of methylation, and gene ontology biological process analysis of those sites using DAVID Bioinformatics identified, among others, genes involved in mitotic cell cycle and MAPK activation. ChIPseq data analysis show that more than 90% of the peaks remain unchanged for the activation mark H3K27ac and the repressive mark H3K27me3 between decitabine-versus DMSO-treated Reh cells. However decitabine treatment resulted in a slight variation in the genomic distribution of the overall peaks. H3K27ac mark occupied 28% of the promoter region after decitabine treatment as compared to 23% in untreated state and likewise H3K27me3 occupancy changed from 11% to 8% at the promoter region with treatment with decitabine. The most impacted histone mark was H3K9ac where 40% of the global peaks called in the untreated cells were lost upon DNMTi treatment. However most of the losses of the H3K9ac mark were located outside of promoters resulting in 56% of these activation marks in promoter regions in treated cells compared to 35% in the untreated cells. Unlike the expected gain of CTCF from lower DNA methylation, there was a 30% reduction of CTCF binding sites with decitabine treatment. CTCF was disproportionately lost at promoter regions compared to gene body and intergenic regions. Integrative analysis of changes in gene expression, CpG methylation, histone marks reveal that up to 60% of their gene expression changes can be directly attributed to the observed epigenetic changes with the greatest impact from changes in DNA methylation and H3K9ac. The gene expression data was also compared to our previously published relapsed gene expression signature on a large cohort of diagnosis-relapse primary samples. We found that decitabine reversed the expression of 74 genes which are typically downregulated in blasts at relapse and 57 genes which are typically upregulated in relapsed blasts. Decitabine treatment led to two predominant epigenetic modifications: loss of CpG methylation with corresponding de-repression of genes typically downregulated in relapse samples (primarily proapototic and antiproliferative genes) and loss of H3K9ac at promoters of antiapoptotic genes. Conclusions: We show that DNMTi not only impacts CpG methylation but also histone status, likely chromosomal architecture, and gene expression in B-ALL cells and can reverse expression of a subset of the relapse gene expression signature. Further study and validation will lead to a better description of epigenetic events in relapsed ALL that may guide future therapy. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "acute lymphocytic leukemia",
+        "burkitt's lymphoma",
+        "dna modification methylases",
+        "epigenetics",
+        "genome",
+        "decitabine",
+        "histones",
+        "dimethyl sulfoxide",
+        "leukemia, b-cell, acute",
+        "antiapoptotic agents"
+    ],
+    "author_names": [
+        "Shella Saint Fleur-Lominy, MDPhD",
+        "Teena Bhatla, MD",
+        "Stephen Kelly, MS",
+        "Varshini Vasudevaraja, MS",
+        "Aristotelis Tsirigos, PhD",
+        "William L. Carroll, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Shella Saint Fleur-Lominy, MDPhD",
+            "author_affiliations": [
+                "Laura and Isaac Perlmutter Cancer Center at NYU Langone, New York, NY ",
+                "NYU Langone Health, New York, NY "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Teena Bhatla, MD",
+            "author_affiliations": [
+                "New York University Langone Health, New York, NY"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephen Kelly, MS",
+            "author_affiliations": [
+                "New York University Langone Health, New York, NY"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Varshini Vasudevaraja, MS",
+            "author_affiliations": [
+                "New York University Langone Health, New York, NY"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aristotelis Tsirigos, PhD",
+            "author_affiliations": [
+                "New York University Langone Health, New York, NY"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "William L. Carroll, MD",
+            "author_affiliations": [
+                "Laura and Isaac Perlmutter Cancer Center at NYU Langone, New York, NY ",
+                "NYU Langone Health, New York, NY "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T09:30:02",
+    "is_scraped": "1"
 }

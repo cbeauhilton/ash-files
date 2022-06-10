@@ -1,8 +1,108 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3681",
-    "start_url_page_num": "3681",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.2485.2485",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/2485/80124/RNA-Seq-Revealed-an-Integration-of-Multiple?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T12:41:17",
-    "is_scraped": "0"
+    "article_title": "RNA-Seq Revealed an Integration of Multiple Resistance Functions for Predicting Response to the \"7+3\" Induction Chemotherapy of De Novo Acute Myeloid Leukemia ",
+    "article_date": "December 7, 2017",
+    "session_type": "602. Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation: Poster II",
+    "abstract_text": "Background: The \"7+3\" (cytarabine 100-200mg/M2 for 7 days; idarubicin 12mg/M2 for 3 days) regimen of chemotherapy is a standard induction therapy of acute myeloid leukemia (AML). While about 70% of patients achieve complete remission (CR) with the regimen, outcome of the remaining patients remains typically poor. In addition to cytogenetic and molecular aberrations, several independent cellular functions have been linked to chemoresistance, such as stem cell activities and oxidative phosphorylation (OXPHOS), suggesting chemoresistance a multifactorial mechanism. However, a comprehensive investigation of resistance functions and their interactions in the development and prediction of chemoresistance remain unexplored. Materials and Methods: We reviewed medical records of 146 patients with de novo AML receiving the \"7+3\" chemotherapy enrolled at the Taichung Veterans General Hospital (TCVGH). Thirty-six patients were selected for further analysis; 18 were referred to the CR group and the other 18 to the non-CR group. RNAs were extracted from pre-treatment bone marrow samples and subject to Illumina RNA-Seq. Sequencing reads were analyzed by a standard RNA-Seq pipeline and tested for differential expression between non-CR and CR groups. We employed Gene Set Enrichment Analysis (GSEA) to comprehensively screen for chemoresistance-associated cellular functions (represented by curated molecular signatures). A gene set scoring method was applied to measure per-sample activity of each selected function. Based on a logistic regression scheme, we merged several resistance functions into a prediction model by a weighted sum of the gene set scores. Power of these resistance functions in independently and jointly predicting chemoresistance was assessed by the area under receiver operating characteristic curve (AUC). Results: RNA-Seq of bone marrow samples of 36 de novo AML yielded an average throughput of 21.5 million aligned paired-end reads. We used GSEA to test the associations between ~8,500 curated molecular signatures and the global expressional changes between non-CR and CR patients. A total of 173 resistance functions were identified (adjusted P <0.01). Of note, about half of these functions were related to stemness ( P =0.002), Myc targets/cell cycle ( P \u22640.002), and mTOR signaling/OXPHOS ( P <0.001). While the three function clusters were all associated with chemoresistance, of note, they barely share common component genes (Figure 1A), indicating the molecular independence of these functions. Hierarchical clustering divided the non-CR samples into four groups: Myc/cell cycle alone (22.2%), stemness (16.7%), Myc targets/cell cycle + mTOR signaling/OXPHOS (11.1%), and others (Figure 1A). Among them, stemness achieved the best prediction performance for chemoresistance (AUC=0.75 and accuracy=72.2%; Figure 1B). However, it suffered from a high false-negative rate (sensitivity=55.6%). We used a logistic regression model to merge the three resistance functions into a prediction model (per-patient score = 1.28\u00d7stemness + 0.81\u00d7Myc/cell cycle - 0.15\u00d7mTOR/OXPHOS). Remarkably, the integration of functions rescued the sensitivity back to 72.2% and achieved a superior performance (accuracy=80.6% and AUC=0.80; P for AUC=0.014; Figure 1B). We confirmed its prediction power for chemoresponse by an independent cohort published by Farge et al. (n=21; AUC=0.71 and P =0.02). We also evaluated the tri-function model in predicting overall survival by our (TCVGH) and two independent cohorts (Metzeler et al. and The Cancer Genome Atlas (TCGA)). Patients predicted to be chemorefractory indeed exhibited inferior overall survival (log-rank test P =0.003, <0.001, and =0.060, respectively; Figure 1C). For easy clinical implementation, we developed a 10-gene scoring system that significantly mimicked the tri-function score (correlation=0.96 and P <0.001). Conclusion: In the present study, by a high-throughput profiling and systematic analysis, we explored the landscape of resistance functions of the \"7+3\" chemotherapy. Our data showed the benefit of integrating multiple independent functions in predicting treatment response. Based on the findings, we proposed a tri-function prediction model together with a 10-gene scoring system. The accurate prediction model enables early decision of alternative induction regimens or clinical trials for de novo AML. View large Download slide View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "chemotherapy, neoadjuvant",
+        "leukemia, myelocytic, acute",
+        "rna",
+        "chemotherapy regimen",
+        "immunoglobulins, thyroid-stimulating",
+        "bone marrow specimen",
+        "mtor serine-threonine kinases",
+        "cancer",
+        "complete remission",
+        "cytarabine"
+    ],
+    "author_names": [
+        "Yu-Chiao Chiu, PhD",
+        "Tzu-Chieh Ho, PhD",
+        "Jia-Rong Tsai",
+        "Li-Ju Wang, MS",
+        "Shih-Lan Hsu, PhD",
+        "Yidong Chen, PhD",
+        "Chieh-Lin Teng, MD",
+        "Tzu-Hung Hsiao, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Yu-Chiao Chiu, PhD",
+            "author_affiliations": [
+                "Greehey Children's Cancer Research Institute, UT Health San Antonio, San Antonio, TX ",
+                "Department of Medical Research, Taichung Veterans General Hospital, Taichung, Taiwan "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tzu-Chieh Ho, PhD",
+            "author_affiliations": [
+                "Department of Biomedical Engineering, Columbia University, New York, NY "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jia-Rong Tsai",
+            "author_affiliations": [
+                "Division of Hematology/Medical Oncology, Department of Medicine, Taichung Veterans General Hospital, Taichung, Taiwan "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Li-Ju Wang, MS",
+            "author_affiliations": [
+                "Department of Medical Research, Taichung Veterans General Hospital, Taichung, Taiwan "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shih-Lan Hsu, PhD",
+            "author_affiliations": [
+                "Department of Medical Research, Taichung Veterans General Hospital, Taichung, Taiwan "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yidong Chen, PhD",
+            "author_affiliations": [
+                "Greehey Children's Cancer Research Institute, UT Health San Antonio, San Antonio, TX "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chieh-Lin Teng, MD",
+            "author_affiliations": [
+                "Division of Hematology/Medical Oncology, Department of Medicine, Taichung Veterans General Hospital, Taichung, Taiwan ",
+                "Faculty of Medicine, Chung Shan Medical University, Taichung, Taiwan ",
+                "Department of Life Science, Tunghai University, Taichung, Taiwan"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tzu-Hung Hsiao, PhD",
+            "author_affiliations": [
+                "Department of Medical Research, Taichung Veterans General Hospital, Taichung, Taiwan "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T09:34:12",
+    "is_scraped": "1"
 }

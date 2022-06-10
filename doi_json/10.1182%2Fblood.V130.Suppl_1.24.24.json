@@ -1,8 +1,120 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3682",
-    "start_url_page_num": "3682",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.24.24",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/24/80135/The-LSC17-Leukemic-Stem-Cell-Signature-Predicts?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T12:41:22",
-    "is_scraped": "0"
+    "article_title": "The LSC17 Leukemic Stem Cell Signature Predicts Outcome in Pediatric Acute Myeloid Leukemia ",
+    "article_date": "December 7, 2017",
+    "session_type": "617: Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Prognostic and predictive markers",
+    "abstract_text": "Introduction The model of the leukemic stem cell was proposed nearly 60 years ago as a mechanism of leukemic pathogenesis. Recently, a 17-gene leukemic stem cell (LSC) prognostic signature, termed the LSC17, was developed (Ng et al. , 2016). The LSC17 score was shown to reliably differentiate adult acute myeloid leukemia (AML) patients into high and low risk groups. However, its applicability to pediatric AML remains unknown. Prognostic indicators are sensitive to differences in age. For example, NPM1 mutations, which are highly prognostic of favorable outcome, have no significance in patients older than 65 years (Ostronoff et al. , 2015). Similarly, core-binding factor AML, also associated with favorable outcomes, loses prognostic value in older patients (Pr\u00e9bet et al., 2009). Given that age remained a significant prognostic factor in multivariate analyses with the LSC17, we evaluated the impact of the signature in older versus younger adults in the TCGA AML dataset and further, applied it to transcriptome sequence data from pediatric AML to assess the prognostic power in younger patients. Patients and Methods Pediatric AML biological samples were collected from patients enrolled in the Children's Oncology Group protocol AAML0531 and RNA sequencing was performed by the British Columbia Genome Sciences Center (Vancouver, BC). The Cancer Genome Atlas AML RNA sequencing data was downloaded from the Broad Institute Firehose (TCGA Network et al. , 2013; Broad Institute TCGA Genome Data Analysis Center, 2016). LSC17 scores were calculated from log2 RPKM normalized gene expression as described by Ng et al . Results We initially verified that the LSC17 score is effective for risk stratification in adult AML by applying the method to the TCGA AML cohort, excluding PML-RARA, BCR-ABL1 fusions, and those who received no treatment (n = 155, range: 18 - 88 yrs). Patients with low LSC17 scores had significantly better overall survival (OS) compared to the high scoring group after 5 years (low-LSC17 OS: 38.0%, high-LSC17 OS: 15.2%, hazard ratio (HR) = 2.08, p < 0.001). To investigate age effects on LSC17, we divided TCGA into two groups based on the median age of 58 yrs. The low (n = 81) and high age groups (n = 78) were reanalyzed. Younger patients with low LSC17 scores fared much better (low-LSC17 OS at 5yrs: 57.9%, high-LSC17 OS at 5yrs: 16.0% p < 0.001, Fig. 1A). Strikingly, for TCGA patients above 58 years, the LSC17 signature showed no prognostic significance (p = 0.714, Fig. 1B). We then evaluated the LSC17 signature to identify risk groups using RNA sequencing from our pediatric AML cohort (n = 446, range: 0.02 - 28 yrs). Univariate survival analysis revealed strong prognostic value for both overall survival (low-LSC17 OS at 5yrs: 72.8%, high-LSC17 OS at 5yrs: 51.4%, HR = 2.06, p < 0.001, Fig. 1C) and event-free survival (low-LSC17 EFS at 5yrs: 60.3%, high-LSC17 EFS at 5yrs: 36.4%, HR = 2.04, p < 0.001). Although dividing the cohort by LSC17 scores above and below the median (as proposed by Ng. et al. ) demonstrated prognostic value in pediatric AML, the choice of median as a threshold may not be ideal. Dividing pediatric AML patients into four quartiles, we found no statistical significance between the survival curves for the middle two groups. In contrast, the top and bottom quartiles show very strong trends (LSC17-q1: 77.0% at 5 years, LCS17-q4: 41.1% OS at 5yrs, HR = 3.34, p < 0.001, Fig.1D). The high-LSC17 cohort carried a higher incidence of adverse cytogenetics and recurrent mutations, such as FLT3-ITD, and conversely, the low-scoring group was found to have a higher percentage of favorable cytogenetics (Fig.1E). To determine if the prognostic significance would remain, we performed a multivariate analysis; though WBC, age, and NMP1 mutations continued to maintain prognostic significance, we found the LSC17 score to be a strong independent prognostic indicator (HR = 2.031, p < 0.001, Fig. 1F). Conclusion In this study, we validated that the LSC17 score can be used as an effective risk stratification tool in children and young adults. The LSC17 remains a strong independent prognostic factor after controlling for age, WBC, adverse FLT3-ITD mutations and favorable NPM1 mutations. While the LSC17 can be used as an informative indicator of long term survival, and event-free survival, we showed that this signature loses prognostic value in older AML patients. View large Download slide View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "leukemia, myelocytic, acute",
+        "leukemic hematopoietic stem cell",
+        "pediatrics",
+        "myeloblastic leukemia, pediatric acute",
+        "sequence analysis, rna",
+        "impedance threshold device",
+        "ms-like tyrosine kinase 3",
+        "prognostic factors",
+        "cancer",
+        "core-binding factor"
+    ],
+    "author_names": [
+        "Jenny L. Smith, MSc, MD",
+        "Rhonda E. Ries, MA",
+        "Anders Kolb, MD",
+        "Todd A Alonzo, PhD",
+        "Robert B Gerbing",
+        "Yussanne Ma, PhD",
+        "Marco A. Marra, PhD",
+        "Hamid Bolouri, PhD",
+        "Soheil Meshinchi, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Jenny L. Smith, MSc, MD",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA ",
+                "Applied Bioinformatics and Genomics Program, University of Oregon, Eugene, OR "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rhonda E. Ries, MA",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anders Kolb, MD",
+            "author_affiliations": [
+                "Nemours Center for Cancer and Blood Disorders, Alfred I. duPont Hospital for Children, Wilmington, DE ",
+                "Children's Oncology Group, Monrovia, CA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Todd A Alonzo, PhD",
+            "author_affiliations": [
+                "Univ. of Southern California Keck School of Med., Monrovia, CA ",
+                "Department of Preventive Medicine, University of Southern California, Los Angeles, CA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Robert B Gerbing",
+            "author_affiliations": [
+                "Children's Oncology Group, Monrovia, CA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yussanne Ma, PhD",
+            "author_affiliations": [
+                "Canada's Michael Smith Genome Sciences Centre, British Columbia Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marco A. Marra, PhD",
+            "author_affiliations": [
+                "Canada's Michael Smith Genome Sciences Centre, British Columbia Cancer Agency, Vancouver, Canada "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hamid Bolouri, PhD",
+            "author_affiliations": [
+                "Human Biology Division, Fred Hutchinson Cancer Research Center, Seattle, "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Soheil Meshinchi, MD PhD",
+            "author_affiliations": [
+                "Children's Oncology Group, Monrovia, CA ",
+                "Department of Pediatrics, University of Washington, Seattle, ",
+                "Clinical Research Division, Fred Hutchinson Cancer Rsrch. Ctr., Seattle, WA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T09:34:53",
+    "is_scraped": "1"
 }

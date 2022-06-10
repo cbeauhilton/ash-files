@@ -1,8 +1,285 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3681",
-    "start_url_page_num": "3681",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.265.265",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/265/80117/Crowdsourcing-a-High-Risk-Classifier-for-Multiple?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T12:41:17",
-    "is_scraped": "0"
+    "article_title": "Crowdsourcing a High-Risk Classifier for Multiple Myeloma Patients ",
+    "article_date": "December 7, 2017",
+    "session_type": "651 Myeloma: Biology and Pathophysiology, excluding Therapy: Mechanisms of Resistance and Prognosis",
+    "abstract_text": "Background Multiple myeloma (MM) is a cancer of the plasma cells, and its clinical course depends on a complex interplay of clinical traits and molecular characteristics of the tumor. While current therapeutic combinations work well for a majority of patients, a subset of MM patients still rapidly progress or die within 18 months after diagnosis. Thus, there is an urgent need for a precise risk stratification model to identify these patients to allow selection of alternative therapeutic approaches. Current risk stratification practice is based on plasma cell cytogenetics and clinical stage at presentation, and, to a lesser degree, myeloma cell gene expression. The Myeloma Genome Project (MGP), an industry-academia collaborative project aims to develop highly accurate, clinically-implementable prognostic tests for MM patients. As part of the broader MGP effort, The MM DREAM (Dialogue for Reverse Engineering Assessments and Methods) challenge was conceived as an innovative approach to accelerate the development and evaluation of risk models in newly diagnosed MM. We collected large and diverse datasets from multiple collaborative groups and recruited a community of computational biologists, statisticians and leading experts in MM to build and test models (including the DREAM community of 20,000 solvers). Methods We assembled nine datasets comprised of 3,077 subjects with whole exome profiling (N = 1,273), gene expression profiling (N = 2,431), and clinical and cytogenetic data. Four data sets are publicly available and were provided for model training/development, while 5 data sets are previously unpublished and blinded to participants for model validation. Unpublished data were generously provided by an array of public, private and non-profit contributors including the University of Arkansas for Medical Sciences and Dana Farber Cancer Institute on behalf of the MGP, the Multiple Myeloma Research Foundation's Personalized Medicine Initiative (www.themmrf.org), Moffitt Cancer Center and M2Gen, and the University of Heidelberg. The Challenge goal was to accurately predict which newly diagnosed MM patients would progress (or die) within 18 months of diagnosis. We challenged the community to identify high-risk patients using DNA-based, RNA-based, or a combination of RNA, DNA, cytogenetic and demographic features. As an additional incentive, $150,000 in prizes will be awarded to top performing teams. By the first month of the competition, 290 teams from around the world had signed up for the challenge. We compare competitors' performance against state of the art classifiers based on gene expression (e.g. UAMS-70, EMC-92), patient characteristics (e.g. International Staging System stage combined with age), and cytogenetics. These were used as a benchmark upon which winning models needed to improve. The challenge was hosted on Sage Bionetworks' Synapse platform, which enabled development, submission and evaluation of models using an automated framework. A Docker framework was used to ensure portability and to allow secure use of unpublished validation data. Participants were evaluated on their ability to predict high risk patients using a variety of metrics including integrated AUC, AUC and precision-recall AUC. Results / Discussion Based on implementation of several published benchmark models on a preliminary set of validation data, the top performing published DNA-based model was based on mutation burden (Miller et al., AUC = 0.70, iAUC = 0.71), the top performing published RNA-based model was the UAMS-17 (Shaughnessy et al., AUC = 0.52), and the top performing clinical based model was a combination of age and ISS (AUC = 0.69, iAUC=0.68). The unique combination of over 3,000 patients' worth of molecular and clinical data allowed precise model generation while the collection of multiple distinct (unpublished) validation cohorts prevented model over fitting. Top performing teams identified novel prognostic feature sets for high risk MM, establishing new benchmarks for the field, and final results from the top performing models will be presented. Such novel models will be integrated with the broader efforts within MGP for validation and clinical test development. The results of this effort demonstrate that data sharing coupled with the power of crowdsourcing can contribute to the development of robust and clinically-implementable models for risk-stratification of patients with MM. Disclosures Dervan: Celgene Corporation: Employment, Equity Ownership; Twinstrand Biosciences: Equity Ownership. Towfic: Celgene Corporation: Employment, Equity Ownership; Immuneering Corporation: Equity Ownership. Amatangelo: Celgene Corporation: Employment. Bassett: Celgene Corporation: Employment. Dalton: M2Gen: Employment. Danziger: Celgene Corporation: Employment. Flynt: Celgene Corporation: Employment. Goldschmidt: Chugai: Consultancy, Honoraria, Research Funding, Speakers Bureau; Novartis: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; Morphosys: Research Funding; Celgene: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; Janssen: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; Millenium: Research Funding, Speakers Bureau; Bristol-Myers Squibb: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; Amgen: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; Takeda: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; Onyx: Membership on an entity's Board of Directors or advisory committees, Speakers Bureau. Hose: Takeda: Membership on an entity's Board of Directors or advisory committees; Sanofi: Research Funding; EngMab: Research Funding. Mavrommatis: Celgene Corporation: Employment. Morgan: Takeda: Consultancy, Honoraria; Bristol Myers: Consultancy, Honoraria; Celgene: Consultancy, Honoraria, Research Funding. Ratushny: Celgene Corporation: Employment. Rozelle: Rancho Biosciences: Employment. Schmitz: Celgene Corporation: Employment. Shain: Takeda Pharmaceuticals: Consultancy; Celgene Corporation: Consultancy, Research Funding; Amgen: Consultancy, Research Funding; Janssen: Consultancy. Trotter: Celgene Corporation: Equity Ownership; Celgene Institute for Translational Research Europe: Employment. Thakurta: Celgene Corporation: Employment, Equity Ownership.",
+    "topics": [
+        "crowdsourcing",
+        "multiple myeloma",
+        "dna",
+        "rna",
+        "cancer",
+        "death",
+        "gene expression profiling",
+        "neoplasms",
+        "serial analysis of gene expression",
+        "dreams"
+    ],
+    "author_names": [
+        "Andrew P Dervan",
+        "Michael Mason, PhD",
+        "Fadi Towfic, PhD",
+        "Michael Amatangelo, PhD",
+        "Daniel Auclair, PhD",
+        "Douglas Bassett, PhD",
+        "Hongyue Dai, PhD",
+        "William S. Dalton, PhDMD",
+        "Samuel Danziger, PhD",
+        "Erin Flynt, PhD",
+        "Hartmut Goldschmidt, MD",
+        "Justin Guinney, PhD",
+        "Dirk Hose, MD",
+        "Konstantimos Mavrommatis, PhD",
+        "Gareth J. Morgan, MD PhD",
+        "Nikhil Munshi, MD",
+        "Alexander Ratushny, PhD",
+        "Dan Rozelle, PhD",
+        "Mehmet Kemal Samur, PhD",
+        "Frank Schmitz, MD PhD",
+        "Kenneth H Shain, MD PhD",
+        "Matthew Trotter, PhD",
+        "Brian A Walker, PhD",
+        "Brian S. White, PhD",
+        "Thomas Yu, BS",
+        "Anjan Thakurta, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Andrew P Dervan",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Mason, PhD",
+            "author_affiliations": [
+                "Sage Bionetworks, Seattle, WA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Fadi Towfic, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Amatangelo, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel Auclair, PhD",
+            "author_affiliations": [
+                "Multiple Myeloma Research Foundation, Norwalk, CT "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Douglas Bassett, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Seattle, WA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hongyue Dai, PhD",
+            "author_affiliations": [
+                "M2Gen, Tampa, FL "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "William S. Dalton, PhDMD",
+            "author_affiliations": [
+                "M2Gen, Tampa, FL "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Samuel Danziger, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Seattle, WA "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Erin Flynt, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hartmut Goldschmidt, MD",
+            "author_affiliations": [
+                "University Hospital Heidelberg and German Cancer Research Center, Heidelberg, Germany "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Justin Guinney, PhD",
+            "author_affiliations": [
+                "Sage Bionetworks, Seattle, WA "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dirk Hose, MD",
+            "author_affiliations": [
+                "Department of Internal Medicine V, University Hospital Heidelberg, Heidelberg, Germany "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Konstantimos Mavrommatis, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gareth J. Morgan, MD PhD",
+            "author_affiliations": [
+                "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nikhil Munshi, MD",
+            "author_affiliations": [
+                "J. Lipper Cancer Center for Multiple Myeloma, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexander Ratushny, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Seattle, WA "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dan Rozelle, PhD",
+            "author_affiliations": [
+                "Rancho Biosciences, Boston, "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mehmet Kemal Samur, PhD",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Frank Schmitz, MD PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Seattle, WA "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kenneth H Shain, MD PhD",
+            "author_affiliations": [
+                "Department of Malignant Hematology, H. Lee Moffitt Cancer Center & Research Institute, Tampa, FL "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matthew Trotter, PhD",
+            "author_affiliations": [
+                "Celgene Institute for Translational Research Europe (CITRE), Seville, Spain"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brian A Walker, PhD",
+            "author_affiliations": [
+                "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brian S. White, PhD",
+            "author_affiliations": [
+                "Sage Bionetworks, Seattle, WA "
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Thomas Yu, BS",
+            "author_affiliations": [
+                "Sage Bionetworks, Seattle, WA "
+            ],
+            "author_rank": 25,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anjan Thakurta, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ "
+            ],
+            "author_rank": 26,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T09:33:46",
+    "is_scraped": "1"
 }
