@@ -1,8 +1,275 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3659",
-    "start_url_page_num": "3659",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.267.267",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/267/80332/A-Seven-Gene-Signature-to-Distinguish-Bortezomib?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T11:17:58",
-    "is_scraped": "0"
+    "article_title": "A Seven Gene Signature to Distinguish Bortezomib- and Lenalidomide-Responsive Myeloma: Rnaseq from the Padimac Study ",
+    "article_date": "December 7, 2017",
+    "session_type": "651 Myeloma: Biology and Pathophysiology, excluding Therapy: Mechanisms of Resistance and Prognosis",
+    "abstract_text": "Background The treatment of multiple myeloma has benefited from the adoption of several highly active novel therapies over the last 20 years. This has led to the challenge of how to rationally choose the best drug regimen for an individual patient. Two of the most important novel anti-myeloma drugs are the proteasome inhibitor (PI), bortezomib, and the immunomodulatory drug (IMiD), lenalidomide. However, whilst patients often respond much better to one or other of these agents, there are very few means for rationally choosing between them. The application of precision medicine to guide this choice would improve efficacy and reduce adverse drug effects. Microarray data can identify poor prognosis disease very effectively, but is agnostic to treatment and does not inform drug selection. RNA sequencing (RNAseq) offers several potential advantages over microarray profiling. However, it also poses specific challenges for deriving prediction signatures and RNAseq-based signatures have not so far been described in myeloma. Methods In the phase 2 PADIMAC trial, newly diagnosed transplant-eligible myeloma patients were treated with bortezomib, doxorubicin, and dexamethasone (PAD) therapy and stratified to receive autograft in partial remission or no further treatment (\"watch and wait\") in very good partial remission (VGPR) or better. We extracted somatic RNA from CD138-selected cells prior to treatment and performed massively parallel RNAseq. We employed a novel combination of published techniques to transform the data and to perform training, validation, and testing. Results Nine of 41 patients with RNAseq data achieved \u2265VGPR sustained for over 12 months with no further treatment. We used these RNAseq data as a training/validation set to develop a signature for predicting good responses to bortezomib-based therapy in the absence of an IMiD. We developed several signatures, cross-validated within the PADIMAC dataset, and tested performance in identifying good responders to bortezomib-based therapy from an independent test set of 109 patients from the CoMMpass study. The signatures performed extremely well in testing (p=2.3x10 -14 , p=0.001, p<2.2x10 -16 , and p<2.2x10 -16 for sensitivity, specificity, F-measure, and accuracy, respectively). Based on cross-validation performance, we identified a single seven-gene signature, trained it on the PADIMAC data, and applied it to the 109 bortezomib-treated patients within CoMMpass. Predicted good responders had superior survival to the remaining patients (p=0.016; Figure 1A). To investigate whether the signature identified generic good risk disease or whether it was treatment-specific, we tested it on 31 patients treated with lenalidomide-based therapies (without PI) within the CoMMpass study. To our surprise, when applied to lenalidomide-treated patients, the signature performed significantly worse than expected by chance, as did several other signatures trained on the PADIMAC data (p=3.2x10 -9 , p=3.6x10 -6 , p=3.8x10 -12 , and p=1.7x10 -13 for sensitivity, specificity, F-measure, and accuracy, respectively). This implied that expectation of a good response to bortezomib was associated with a poor response when the patient received lenalidomide and vice - versa . We could not assess survival in lenalidomide-treated patients because of small numbers, so we instead trained our seven-gene signature on lenalidomide-treated patients and tested it on bortezomib-treated patients. This confirmed the reciprocal relationship; patients expected to respond well to lenalidomide, but receiving bortezomib, had an inferior survival to other bortezomib-treated patients (p=0.008; figure 1B). This reciprocity across independent datasets implies that our signature could select between bortezomib-based or lenalidomide-based therapies for individual patients. Conclusions We have identified a seven-gene RNAseq signature that can predict if newly diagnosed myeloma patients would benefit from initial bortezomib-based or lenalidomide-based therapy, both in terms of response and survival. This is, to our knowledge, the first example of such a signature in MM and could be employed for precision medicine in the future. View large Download slide View large Download slide  Close modal Disclosures Chapman: Takeda: Other: Travel sponsorship; Janssen: Honoraria; Celgene: Other: Travel sponsorship; Celgene: Honoraria. Popat: Janssen: Honoraria, Other: Travel support for meetings; Celgene: Honoraria, Other: Travel support for meetings; Amgen: Honoraria; Takeda: Honoraria, Other: Travel support for meetings. Cavenagh: Novartis: Consultancy; Janssen: Honoraria; Celgene: Consultancy; Takeda: Consultancy. Owen: Janssen: Consultancy, Other: Travel support; Takeda: Honoraria, Other: Travel Support; Celgene: Consultancy, Honoraria, Research Funding. D'Sa: Janssen Cilag: Consultancy, Honoraria, Other: Education grant, Research Funding; Amgen: Consultancy, Honoraria, Research Funding. Cook: Janssen: Honoraria, Other: Travel support, Research Funding; Takeda: Honoraria; Amgen: Honoraria, Other: Travel support; Celgene: Honoraria, Other: Travel support, Research Funding; Jazz Pharmaceuticals: Honoraria; Myeloma UK: Membership on an entity's Board of Directors or advisory committees. Yong: Amgen: Honoraria, Research Funding; Janssen: Honoraria, Research Funding.",
+    "topics": [
+        "bortezomib",
+        "gene expression profiling",
+        "lenalidomide",
+        "multiple myeloma",
+        "partial response",
+        "adverse effects of medication",
+        "dexamethasone",
+        "doxorubicin",
+        "proteasome inhibitors",
+        "rna"
+    ],
+    "author_names": [
+        "Michael Chapman, PhD MRCP, FRCPath",
+        "Jonathan Sive",
+        "John Ambrose",
+        "Claire Roddie, PhD MD",
+        "Nicholas Counsell",
+        "Paul Smith",
+        "Nivette Braganza",
+        "Toyin Adedayo",
+        "Rakesh Popat, MD PhD",
+        "James D Cavenagh",
+        "Matthew J. Streetly, BMBS, PhD MRCP, FRCPath",
+        "Roger G. Owen, MD",
+        "Stephen Schey, MBBS",
+        "Mickey Koh, MD PhD",
+        "Josephine Crowe",
+        "Michael F. Quinn, FRCPath, MB, MD MRCP",
+        "Shirley D'Sa, MD FRCP, FRCPath",
+        "Andres E. Virchis, FRCP, FRCPath",
+        "Gordon Cook, PhD",
+        "Charles R Crawley",
+        "Guy Pratt, MD FRCP, FRCPath",
+        "Mark Cook, MBChB,PhD",
+        "Laura Clifton-Hadley, PhDBSc",
+        "Javier Herrero, PhD",
+        "Kwee Yong, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Michael Chapman, PhD MRCP, FRCPath",
+            "author_affiliations": [
+                "University of Cambridge, Cambridge, United Kingdom "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan Sive",
+            "author_affiliations": [
+                "St. Bartholomew's Hospital, London, GBR "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John Ambrose",
+            "author_affiliations": [
+                "University College London, London, United Kingdom "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Claire Roddie, PhD MD",
+            "author_affiliations": [
+                "University College London, London, United Kingdom "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nicholas Counsell",
+            "author_affiliations": [
+                "3Cancer Research UK & UCL Cancer Trials Centre, London, United Kingdom "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Paul Smith",
+            "author_affiliations": [
+                "Cancer Research UK & UCL Cancer Trials Centre, London, United Kingdom "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nivette Braganza",
+            "author_affiliations": [
+                "Cancer Research UK & UCL Cancer Trials Centre, London, United Kingdom "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Toyin Adedayo",
+            "author_affiliations": [
+                "Cancer Research UK & UCL Cancer Trials Centre, London, United Kingdom "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rakesh Popat, MD PhD",
+            "author_affiliations": [
+                "Department of Haematology, University College London Hospital, London, United Kingdom "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "James D Cavenagh",
+            "author_affiliations": [
+                "St. Bartholomew's Hospital, London, United Kingdom "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matthew J. Streetly, BMBS, PhD MRCP, FRCPath",
+            "author_affiliations": [
+                "Clinical Haematology, Shepley Towers, London, United Kingdom "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Roger G. Owen, MD",
+            "author_affiliations": [
+                "Haematological Malignancy Diagnostic Service, St. James's University Hospital, Leeds, United Kingdom "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephen Schey, MBBS",
+            "author_affiliations": [
+                "Kings College Hospital, London, GBR "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mickey Koh, MD PhD",
+            "author_affiliations": [
+                "Department of Haematology, St George's Hospital NHS Foundation Trust, London, United Kingdom "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Josephine Crowe",
+            "author_affiliations": [
+                "Royal United Hospital, Bath, United Kingdom "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael F. Quinn, FRCPath, MB, MD MRCP",
+            "author_affiliations": [
+                "Belfast City Hospital, Belfast, GBR "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shirley D'Sa, MD FRCP, FRCPath",
+            "author_affiliations": [
+                "University College Hospital, London, GBR "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andres E. Virchis, FRCP, FRCPath",
+            "author_affiliations": [
+                "Haematology, University College London Hospitals NHS Foundation Trust, London, United Kingdom "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gordon Cook, PhD",
+            "author_affiliations": [
+                "St James's University Hospital, Leeds, United Kingdom "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Charles R Crawley",
+            "author_affiliations": [
+                "Haematology, Cambridge University Hospitals NHS Trust, Cambridge, United Kingdom "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Guy Pratt, MD FRCP, FRCPath",
+            "author_affiliations": [
+                "Centre for Clinical Haematology, Queen Elizabeth Hospital Birmingham, Birmingham, United Kingdom "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mark Cook, MBChB,PhD",
+            "author_affiliations": [
+                "Centre for Clincal Haematology, University Hospitals Birmingham, Birmingham, United Kingdom "
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laura Clifton-Hadley, PhDBSc",
+            "author_affiliations": [
+                "Cancer Research UK & UCL Cancer Trials Centre, London, United Kingdom "
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Javier Herrero, PhD",
+            "author_affiliations": [
+                "Cancer Institute, Bill Lyons Informatics Centre, University College London, London, United Kingdom "
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kwee Yong, PhD",
+            "author_affiliations": [
+                "Department of Haematology, UCL Cancer Institute, United Kingdom"
+            ],
+            "author_rank": 25,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T03:56:55",
+    "is_scraped": "1"
 }

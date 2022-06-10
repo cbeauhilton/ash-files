@@ -1,8 +1,77 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3665",
-    "start_url_page_num": "3665",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.1723.1723",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/1723/79847/Integrative-Epigenomics-Reveals-Novel-Chronic?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T11:38:44",
-    "is_scraped": "0"
+    "article_title": "Integrative Epigenomics Reveals Novel Chronic Lymphocytic Leukemia-Specific Chromatin States Associated with Epigenetic and Transcriptional Heterogeneity ",
+    "article_date": "December 7, 2017",
+    "session_type": "641. CLL: Biology and Pathophysiology, excluding Therapy: Poster I",
+    "abstract_text": "Chronic lymphocytic leukemia (CLL) evolves through progression and relapse. Intra-leukemic epigenetic heterogeneity in DNA methylation (DNAme) has been shown to co-operate with genetic heterogeneity in increasing CLL's evolutionary capacity. However, DNAme constitutes only one layer of epigenetic information. To comprehensively study the epigenetic landscape of CLL and its intra-leukemic heterogeneity, we complemented bisulfite sequencing with RNA-seq and a ChIP-seq compendium of histone modification maps (H3K4me3, H3K27ac, H3K27me3, H3K9me3, H3K36me3) in a cohort of 17 primary CLL and 5 normal B cell samples. Analysis of H3K4me3 and H3K27ac distribution revealed that CLL is associated with greater enhancer activation than normal B cells, with enhanced NFAT, FOXP1, NFkB, and BACH2 activity, as well as downregulated TP53 activity. 1,013 super-enhancers were differentially regulated in CLL compared with normal B cells, with preferential association for genes critical for lymphocyte proliferation and differentiation (including BCL2 , TCF/LEF , and EP400 ) ( Figure A) . Next, we hypothesized that intra-leukemic admixtures of epigenetic states and stochastic epigenetic changes during CLL evolution, may lead to reduced co-ordination between any two layers of epigenetic or transcriptional information. To assess this, we drew on a fundamental metric in information theory - mutual information (MI) - which measures how much can be learned from one variable about another. Normal B cells exhibited highly coordinated transcriptional regulation, resulting in higher pairwise MI compared with CLL samples. For example, we observed a 13% decrease in DNAme-RNAseq MI in CLL relative to normal B cells, suggesting that stochastic changes and intra-leukemic heterogeneity decreases the MI of these two variables when measured at the population level ( Figure B ). To extend the evaluation of epigenetic co-ordination beyond mutual information of two variables, we modeled the combinatorial patterns of histone modifications, DNAme, and gene expression using a Dirichlet Process Mixture (DPM), which allows learning de novo the number of combinatorial states. DPM analysis revealed that while in normal B cells the combinatorial chromatin states were generally associated with a uniform transcriptional output, in CLL many of these states were associated with variable expression level. For example, transcription start sites (TSSs) with H3K27me3 hi /H3K4me3 low /H3K27ac low , that in normal B cells were associated with uniform gene silencing, were 3 times more likely to be associated with gene expression in CLL ( P < 0.0001, Figure C ). To validate the greater combinatorial epigenetic complexity in CLL, we applied an orthogonal method by training a multivariate Hidden Markov Model (HMM) in CLL and normal B cells. We identified convergence at 12 states( Figure D) . HHM distinguished between CLL and normal B cells, with ~20,000 segments assigned to discrepant states between CLL and normal cells, enriched for TP53 regulated genes. Consistent with greater combinatorial complexity, we observed higher within-state variation in CLL, with active TSSs, transcribed regions, and poised TSSs exhibiting the largest fold-change increase in within-state variability (2.7, 2.5, and 1.4, respectively). Interestingly, HMM also revealed a CLL specific state ( P < 0.0001) marked by intermediate H3K27ac and H3K27me3, which are typically exclusive. This state was >2-fold more common in CLL than normal B cells. CLL cells harbored ~1.6M segments of this novel state often located at non-first introns and LTRs and distal regulatory elements. Interestingly, these segments, repressed by Polycomb in normal B cells, were also more likely to be reactivated in CLL (OR: 1.98; CI: 1.39-2.82; P < 0.0001), putatively enabling higher MYC activity by motif enrichment analysis (Figure D-inset) . Thus, CLL's epigenetic landscape is marked by decreased co-ordination between different layers of the epigenome. Our data suggest that ongoing diversification of the CLL cell population leads to an admixture of cells with diverging epigenetic identities, resulting in incomplete gene silencing by the Polycomb complex, and unexpected co-occurrence of, typically mutually exclusive, activating and repressing histone modifications. Figure View large Download slide Figure View large Download slide  Close modal Disclosures Landau: Pharmacyclics: Membership on an entity's Board of Directors or advisory committees.",
+    "topics": [
+        "chromatin",
+        "epigenetics",
+        "epigenomics",
+        "heterogeneity",
+        "leukemia",
+        "lymphocytes",
+        "transcription, genetic",
+        "histones",
+        "protein p53",
+        "bcl-2 protein"
+    ],
+    "author_names": [
+        "Alessandro Pastore, MD",
+        "Federico Gaiti, PhD",
+        "Sydney X. Lu, MDPhD",
+        "Omar Abdel-Wahab, MD",
+        "Dan A. Landau, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Alessandro Pastore, MD",
+            "author_affiliations": [
+                "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Federico Gaiti, PhD",
+            "author_affiliations": [
+                "Weill Cornell Medical College, New York, NY ",
+                "New York Genome Center, New York, NY"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sydney X. Lu, MDPhD",
+            "author_affiliations": [
+                "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Omar Abdel-Wahab, MD",
+            "author_affiliations": [
+                "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dan A. Landau, MD",
+            "author_affiliations": [
+                "Weill Cornell Medical College, New York, NY ",
+                "New York Genome Center, New York, NY"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T04:03:50",
+    "is_scraped": "1"
 }
