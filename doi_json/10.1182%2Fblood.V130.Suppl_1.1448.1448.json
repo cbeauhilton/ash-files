@@ -1,8 +1,185 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3698",
-    "start_url_page_num": "3698",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.1448.1448",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/1448/79597/Personalized-Therapy-Design-for-Early-T-Cell?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T13:39:34",
-    "is_scraped": "0"
+    "article_title": "Personalized Therapy Design for Early T-Cell Precursor Acute Lymphoblastic Leukemia (ETP-ALL) Using Computational Biology Modeling with in Vitro Validation ",
+    "article_date": "December 7, 2017",
+    "session_type": "618. Acute Lymphoblastic Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster I",
+    "abstract_text": "ETP-ALL is a high-risk subtype of T-ALL with poor prognosis and high risk of relapse in patients treated with standard of care (SOC). ETP-ALL patients have more complex cytogenetic profiles and a unique immunophenotype compared to other T-ALL cases. ETP-ALL is characterized by the expression of myeloid and hematopoietic stem cell (HSC) surface proteins, as well as gene expression profiles similar to myeloid progenitors and HSCs, including frequent mutations in myeloid oncogenes. Targeted therapies for ETP-ALL are limited because identified gene mutations are not actionable by currently available drugs. Recently we developed a predictive simulation modeling method that projects cancer patient-specific protein network maps based on the patient's unique cancer genomics (PMID 27855285). Here, we present a computational biology approach to analyze the genomic profile of ETP-ALL and identify novel treatment strategies using available FDA approved drugs. In this study, we used the LOUCY cell line as a model of ETP-ALL due to its high expression of characteristic ETP-ALL markers HHEX, LYL1, MEF2C and ZEB2. Aim : To identify and validate novel drug or drug combinations for ETP-ALL using an integrated genomics and computational biology modeling (CBM) approach. Methods : The LOUCY cell line was used as a model of ETP-ALL. Publicly available genomic profiling data (cBioPortal, Sanger) were collected. All available genomic data for the LOUCY cell line were entered into a CBM program (Cellworks Group) that generates a disease-specific protein network map using PubMed and other online resources. Disease-specific biomarkers unique to the LOUCY cell line were identified within the protein network maps. A digital drug library of FDA approved therapies and drugs in clinical development was developed and digitally simulated in the computational model at varying doses. Drug impact was quantitatively assessed by a cell growth score, which is a composite of cell proliferation, viability, apoptosis, along with the impact on disease-specific biomarkers. This CBM's predictions for drug response were compared with publicly available in vitro experimental data. Novel drug options and combinations to treat ETP-ALL were also identified by CBM. The novel drugs and drug combinations identified by CBM were then tested on the LOUCY cells at varying concentrations to calculate IC 50 values. Drug activity was measured by XTT assay, using the Jurkat cell line as a non-ETP-ALL control and the KG-1 AML cell line as a non-ALL control. Results : CBM predicted extensive dysregulation of multiple protein signaling pathways in the LOUCY cell line: Cell cycle upregulation was predicted due to copy number loss of CDKN1B , CDKN2B and CDKN2A genes. BCL2 expression was predicted to be increased due to the presence of a NUP214 - SET fusion protein, activating the BCL2 transcription factor HOXA9. Knockdown of PTEN and TSC2 was predicted to activate the AKT-mTOR pathway, while knockdown of ETV6 and SOCS1 was predicted to activate the JAK-STAT pathway (Fig 1). The response predictions of 31 drugs were compared with data from in vitro experiments. LOUCY cells were predicted to respond to 9 of the drugs, and in vitro testing showed sensitivity to 8 out of 9 drugs (88.8%). LOUCY cells were predicted to show no response to 22 of the drugs, and in vitro testing showed resistance to all 22 drugs (100%) (Table 1). Additionally, CBM predicted everolimus, nelfinavir, and palbociclib as novel therapies for the ETP-ALL representative LOUCY cell line, and were validated (100%) by additional in vitro XTT assays (Fig 2). Key statistical correlations for drug efficacy were observed (Table 2). Conclusions : Predictive simulation modeling of the unique genomic abnormalities found in the ETP-ALL LOUCY cell line led to the creation of an ETP-ALL protein network map that shows multiple interacting and cooperative protein network disturbances including cell cycle, anti-apoptosis, AKT-mTOR and JAK-STAT pathways. Digital drug screening using this distinctive protein network map led to the discovery of new drugs with predicted efficacy. In vitro studies validated the computational method with high accuracy. Results from this work inform future clinical trials for patients with ETP-ALL. This CBM technology may be a useful tool for clinicians to personalize treatment for patients with relapsed/refractory ETP-ALL. View large Download slide View large Download slide  Close modal Disclosures Kumar: Cellworks: Employment. K: Cellworks: Employment. Kamath: cellworks: Employment. Nair: cellworks: Employment. Raju: cellworks: Employment. Abbasi: Cellworks Group Inc.: Employment. Vali: Cellworks Group Inc.: Employment. Cogle: Celgene: Other: Membership on Steering Committee for Connect MDS/AML Registry.",
+    "topics": [
+        "acute lymphocytic leukemia",
+        "adult t-cell lymphoma/leukemia",
+        "bcl-2 protein",
+        "biological markers",
+        "cancer",
+        "computational biology",
+        "drug combinations",
+        "drug screening",
+        "everolimus",
+        "fusion proteins"
+    ],
+    "author_names": [
+        "Madeleine Turcotte, MS",
+        "Raphael Charles Bosse, BS, MD PhD",
+        "Kimberly E. Hawkins, PhD BS",
+        "Amy Meacham, MS",
+        "Vindhya Vijay, MS",
+        "Girish Chinnaswamy, MD MRCP",
+        "Manju Sengar, MD DM",
+        "Ansu Kumar, MS",
+        "Shwetha K, BE",
+        "Anisha Kamath, BT",
+        "Anjana T. Nair, MS",
+        "Karthik S. Raju, MS",
+        "Taher Abbasi, MS, MBA",
+        "Shireen Vali, PhD",
+        "Christopher R. Cogle, MD",
+        "Leylah M. Drusbosky, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Madeleine Turcotte, MS",
+            "author_affiliations": [
+                "College of Medicine, University of Florida, Gainesville, FL "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Raphael Charles Bosse, BS, MD PhD",
+            "author_affiliations": [
+                "Department of Medicine/Division of Hematology Oncology, University of Florida, Gainesville, FL "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kimberly E. Hawkins, PhD BS",
+            "author_affiliations": [
+                "Department of Medicine/Division of Hematology Oncology, University of Florida, Gainesville, FL "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amy Meacham, MS",
+            "author_affiliations": [
+                "Department of Medicine/Division of Hematology Oncology, University of Florida, Gainesville, FL "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vindhya Vijay, MS",
+            "author_affiliations": [
+                "Department of Medicine/Division of Hematology Oncology, University of Florida, Gainesville, FL "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Girish Chinnaswamy, MD MRCP",
+            "author_affiliations": [
+                "Department of Medical Oncology, TATA Memorial Centre, Mumbai, India "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manju Sengar, MD DM",
+            "author_affiliations": [
+                "Department of Medical Oncology, Tata Memorial Centre, Mumbai, India "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ansu Kumar, MS",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shwetha K, BE",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anisha Kamath, BT",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anjana T. Nair, MS",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karthik S. Raju, MS",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Taher Abbasi, MS, MBA",
+            "author_affiliations": [
+                "Cellworks Group Inc., San Jose, CA "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shireen Vali, PhD",
+            "author_affiliations": [
+                "Cellworks Group Inc., Irvine, "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher R. Cogle, MD",
+            "author_affiliations": [
+                "University of Florida, Gainesville, FL"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Leylah M. Drusbosky, PhD",
+            "author_affiliations": [
+                "Department of Medicine/Division of Hematology Oncology, University of Florida, Gainesville, FL "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T15:35:54",
+    "is_scraped": "1"
 }

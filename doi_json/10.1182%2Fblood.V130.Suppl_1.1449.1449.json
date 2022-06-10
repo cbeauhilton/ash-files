@@ -1,8 +1,155 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3699",
-    "start_url_page_num": "3699",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.1449.1449",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/1449/79608/Computational-Biology-Model-of-ETP-ALL-Used-to?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T13:39:37",
-    "is_scraped": "0"
+    "article_title": "Computational Biology Model of ETP-ALL Used to Accurately Classify ETP-ALL Vs Non ETP-ALL Patients with Genomic Input ",
+    "article_date": "December 7, 2017",
+    "session_type": "618. Acute Lymphoblastic Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster I",
+    "abstract_text": "Background: Early T-cell precursor acute lymphoblastic leukemia (ETP-ALL) is an aggressive hematological malignancy with poor prognosis after chemotherapy compared to other ALLs. ETP-ALL cases typically display a high burden of chromosomal copy number variations (CNVs) and myeloid gene mutations. To enhance the understanding of this disease, a computational biological modeling approach was developed to classify ETP-ALL vs. non-ETP-ALL patient based on genomic abnormalities and protein biomarkers associated with ETP-ALL and non ETP-ALL profiles. Methods: Genomic profiling data for whole exome sequencing (WES), array CGH (Agilent) and karyotype data of 69 ETP- ALL and Non-ETP-ALL patient were used for this study. The genomic data for each patient were entered into a computational biology model (CBM) (Cellworks Group), which generates a disease-specific protein network map using PubMed and other online resources. CBM was used for a) Classification between ETP-ALL and Non-ETP ALL model, b) Identification of unique patient characteristics and c) Drug response. For the CBM approach, we divided the data into training and validation data sets. 40 patients were selected for training data and 39 patients selected for the validation data set. In a training dataset, genomic data from 22 ETP-ALL patients were used from a GEO database (GSE28703) (N=11) and a prior genomics report (PMID:22237106) (N=11). The training dataset also included non-ETP-ALL patients from a GEO database (GSE28703) (N=18). Each patient's data was analyzed by CBM, to translates genomic variants into protein networks. To validate these findings, genomic data from 15 ETP-ALL patients, different than training set patients, were used from a GEO database (GSE28703) (N=1), Moffitt Cancer Center (IRB201600284) (N=6), a prior genomics report (PMID: 22237106) (N=7), and an ETP-ALL LOUCY cell line with known genomic aberrations. The validation dataset also included Non-ETP-ALL patients different than training set patients, from a GEO database (GSE28703) (N=14). Results: Prediction accuracy for classification between ETP-ALL and Non ETP ALL patient was 89.65%. PPV value was 86.67% and NPV value was observed 92.86%. Sensitivity and Specificity of prediction outcome was observed as 92.86% and 86.67% respectively. The simulation model identified six protein biomarkers which predicted increased activity in ETP-ALL profiles compared to non-ETP-ALL cases: STAT3, RUNX1, HIF1A, FOXM1, CEBPA, mTORC1. Key genomic differences were also identified between ETP-ALL and non ETP-ALL patients (Table1). Conclusions: ETP-ALL is distinct from other T-ALL with respect to genomic and protein network abnormalities. Computational biology model can accurately classify between ETP-ALL and Non ETP-ALL patients. CBM also predicted unique biomarkers between ETP-ALL and Non-ETP-ALL patients. View large Download slide View large Download slide  Close modal Disclosures Kumar: Cellworks: Employment. K: Cellworks: Employment. Vasista: Cellworks Research India: Employment. Tyagi: Cellworks: Employment. Rajagopalan: Cellworks: Employment. Alam: Cellworks: Employment. Abbasi: Cellworks Group Inc.: Employment. Vali: Cellworks Group Inc.: Employment. Cogle: Celgene: Other: Membership on Steering Committee for Connect MDS/AML Registry.",
+    "topics": [
+        "acute lymphocytic leukemia",
+        "adult t-cell lymphoma/leukemia",
+        "biological markers",
+        "ccaat/enhancer binding protein alpha",
+        "chemotherapy regimen",
+        "computational biology",
+        "forkhead box protein m1",
+        "gene expression profiling",
+        "genome",
+        "hematologic neoplasms"
+    ],
+    "author_names": [
+        "Leylah M. Drusbosky, PhD",
+        "Ansu Kumar, MS",
+        "Shwetha K, BE",
+        "Sumanth Vasista, BE",
+        "Anuj Tyagi, MS",
+        "Swaminathan Rajagopalan, MT",
+        "Aftab Alam, MS",
+        "Taher Abbasi, MS, MBA",
+        "Shireen Vali, PhD",
+        "Girish Chinnaswamy, MD MRCP",
+        "Manju Sengar, MD DM",
+        "Bijal D. Shah, MD",
+        "Christopher R. Cogle, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Leylah M. Drusbosky, PhD",
+            "author_affiliations": [
+                "Department of Medicine/Division of Hematology Oncology, University of Florida, Gainesville, FL "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ansu Kumar, MS",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shwetha K, BE",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sumanth Vasista, BE",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anuj Tyagi, MS",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Swaminathan Rajagopalan, MT",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aftab Alam, MS",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Taher Abbasi, MS, MBA",
+            "author_affiliations": [
+                "Cellworks Group Inc., San Jose, CA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shireen Vali, PhD",
+            "author_affiliations": [
+                "Cellworks Group Inc., San Jose, CA "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Girish Chinnaswamy, MD MRCP",
+            "author_affiliations": [
+                "Department of Medical Oncology, TATA Memorial Centre, Mumbai, India "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manju Sengar, MD DM",
+            "author_affiliations": [
+                "Department of Medical Oncology, Tata Memorial Centre, Mumbai, India "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bijal D. Shah, MD",
+            "author_affiliations": [
+                "Malignant Hematology, Moffit Cancer Center, Tampa, FL "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher R. Cogle, MD",
+            "author_affiliations": [
+                "University of Florida, Gainesville, FL"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T15:36:35",
+    "is_scraped": "1"
 }

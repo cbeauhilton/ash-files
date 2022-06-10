@@ -1,8 +1,125 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3704",
-    "start_url_page_num": "3704",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.1695.1695",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/1695/79516/Global-and-Targeted-RNA-Sequencing-Assessment-of?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T13:39:52",
-    "is_scraped": "0"
+    "article_title": "Global and Targeted RNA-Sequencing Assessment of Cancer Testis Antigen Re-Expression Following Azacitidine in Myelodysplastic Syndromes ",
+    "article_date": "December 7, 2017",
+    "session_type": "637. Myelodysplastic Syndromes\u2014Clinical Studies: Poster I",
+    "abstract_text": "Background and Aim : Azanucleoside DNA-hypomethylating agents have remarkable clinical activity in myelodysplastic sindromes (MDS) and acute myeloid leukemia (AML), particularly at low, non-cytotoxic doses favoring hypomethylation over cytotoxicity. Cancer/testis antigens (CTAs) encoding immunogenic proteins are normally expressed in the testicles and trophoblastic cells of the ovary and in some malignant tissues: these antigens are expressed to variable degrees particularly in melanoma, multiple myeloma, lung and breast cancer, but expression is quite infrequent in myeloid malignancies. However, they have been shown to undergo derepression after the use of demethylating agents in cell line models. Due to their tumor-restricted expression and their potential immunogenicity, we aimed to comprehensively study CTAs re-expression following azacitidine (AZA) treatment in MDS patients. Methods and Patients : We enrolled 32 patients with MDS (n =22) and chronic myelomonocytic leukemia (n = 10). Deep RNA-sequencing (RNA-Seq) was performed on RNA extracted from blood at day 0 and at day +28 of the first AZA cycle, from 12 patients and compared with 9 healthy donors. RNA-Seq (mean 106 million reads per sample) was sequenced on a HiSeq4000. After TopHat alignment and Cufflinks assembly, expression profile was calculated as FPKM. Targeted RNA-Seq (tRNA-Seq) designed to capture 214 CTA genes was performed on a validation cohort of 20 patients (40 samples). Coverage analysis as well as mapping the reads and alignment was done using the Ion Torrent Browser Suite. We used LIMMA package or empirical analysis of digital gene expression data in R (edgeR) to identify differential expressed genes between day 0 and d+28 samples, and between responder and non-responder groups. A log2 fold change (FC) > 10 and a p<0.1 were considered as significant. Results: The median age of the cohort was 69 (range 48-81 years). The cohort consisted of MDS (75%) and MDS/MPN (25%) patients. MDS Patients were stratified based on IPSS as low (8%), intermediate-1 (23%), intermediate-2 (46%), and high (23%) risk groups and MDS/MPN patients based on CPSS as low (20%), intermediate-1 (20%) and intermediate-2 (60%) . A homogeneous treatment schedule with AZA (75 mg/m2/day x 7 days every 4 weeks) was received by each patient. Seventeen patients were classified as responders (achieving complete remission (CR), marrow CR, partial remission, or stable disease with haematological improvement according to the 2006 International Working Group (IWG) criteria for evaluating MDS. Five patients progressed within the 6 first cycles; otherwise response evaluation was performed after the sixth cycle. In the screening RNA-Seq experiment, MAGEB3, AKAP4, POTEB2 and TMPRSS12 were non-expressed in control or MDS pretreatment, but re-expressed after 1 cycle of Aza; ADAM29, and XAGE1E were non expressed in controls, but expressed in MDS samples: an upregulation which increased after the first cycle. Regarding the tRNA-Seq cohort, on average, we achieved 3.888.308 mapped reads per sample (p25-p75, 1.2x106 - 5.9x106) which represents a sufficient depth for digital gene expression profiling of 214 genes. CTAs re-expressed after one AZA cycle in tRNA-Seq validation cohort: CT45A5, BRDT, TFDP3, TSPY3, TSPY2 showed an FC >10 and a p10, = 0.006; p=0.01), and viceversa for PRM1 and TFDP3 (FC>10; p=0.01, p 0.006). Conclusions: This is the first study to assess, in a global and sentitive design, the targetable re-expression of CTAs following therapeutical demethylation in MDS. Strikingly, in addition to finding attractive targets for cancer immunotherapy, some CTAs were exclusively and markedly re-expressed in non-responders. We also show that targeted RNA-Seq can overcome the test posed by the wide range of the RNA population by sequencing targeted genes providing a vast enrichment of weakly expressed transcripts. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "antigens",
+        "azacitidine",
+        "myelodysplastic syndrome",
+        "sequence analysis, rna",
+        "testicular cancer",
+        "rna",
+        "ctas",
+        "transfer rna",
+        "breast cancer",
+        "cancer"
+    ],
+    "author_names": [
+        "Ana M Hurtado",
+        "Tzu Hua Chen-Liang",
+        "Joaqu\u00edn Panadero",
+        "Eduardo Jos\u00e9 Salido, MD",
+        "Victor Beltr\u00e1n",
+        "Bego\u00f1a Mui\u00f1a",
+        "Noelia Navarro-Villamor",
+        "In\u00e9s Calabria",
+        "Ana Isabel Ant\u00f3n",
+        "Andres Jerez"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Ana M Hurtado",
+            "author_affiliations": [
+                "Hematology and Medical Oncology Department, Hospital Morales Meseguer, Universidad de Murcia, MURCIA, Spain "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tzu Hua Chen-Liang",
+            "author_affiliations": [
+                "Hematology and Medical Oncology Department, Hospital Morales Meseguer. Centro Regional de Hemodonaci\u00f3n. Universidad de Murcia. IMIB, MURCIA, Murcia, Spain "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joaqu\u00edn Panadero",
+            "author_affiliations": [
+                "Genomics Unit, Health Research Institute La Fe, Valencia, Spain "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eduardo Jos\u00e9 Salido, MD",
+            "author_affiliations": [
+                "Department of Hematology, Virgen de la Arrixaca University Hospital, IMIB, Murcia, Murcia, ESP "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Victor Beltr\u00e1n",
+            "author_affiliations": [
+                "Hematology Unit. H Virgen del Castillo. Yecla, Yecla, Spain "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bego\u00f1a Mui\u00f1a",
+            "author_affiliations": [
+                "Hematology Unit.Hospital Rafael M\u00e9ndez, Lorca, Spain "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Noelia Navarro-Villamor",
+            "author_affiliations": [
+                "Genomics Unit. IMIB-Arrixaca, Murcia, Murcia, Spain "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "In\u00e9s Calabria",
+            "author_affiliations": [
+                "Genomics Unit, Health Research Institute La Fe, Valencia, Spain "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ana Isabel Ant\u00f3n",
+            "author_affiliations": [
+                "Genomics Unit. IMIB-Arrixaca, Murcia, Murcia, Spain "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andres Jerez",
+            "author_affiliations": [
+                "Hematology and Medical Oncology Department, Hospital Morales Meseguer, IMIB, Murcia, Spain, MURCIA, Spain"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T15:41:55",
+    "is_scraped": "1"
 }

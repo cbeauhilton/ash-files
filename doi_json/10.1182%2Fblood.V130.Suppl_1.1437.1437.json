@@ -1,8 +1,157 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3701",
-    "start_url_page_num": "3701",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.1437.1437",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/1437/79475/Label-Free-Analyses-of-Minimal-Residual-Disease-in?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T13:39:43",
-    "is_scraped": "0"
+    "article_title": "Label-Free Analyses of Minimal Residual Disease in ALL Using Deep Learning and Imaging Flow Cytometry ",
+    "article_date": "December 7, 2017",
+    "session_type": "618. Acute Lymphoblastic Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster I",
+    "abstract_text": "MD/MC and PR/JI contributed equally Minimal residual disease is an important response biomarker for risk stratification in acute lymphoblastic leukaemia (ALL) and is assessed by two methodologies, molecular analyses of patient-specific, clonal antigen receptor rearrangements or flow cytometric analyses of aberrant leukaemia-associated immunophenotypes. Some clinical regimens use both methodologies and sequential samples of bone marrow and/or peripheral blood are assessed during, at the end of induction therapy and at time points beyond. Both MRD methods are highly specialised, laborious and for resource poor countries, are not affordable. In addition, a proportion of patients are not evaluable by either method. Technological advances in cytometry have led to imaging flow cytometers (IFC) which deliver all standard flow cytometric parameters, as well as a high quality image of each cell. We have previously shown that machine learning of IFC data can classify cell cycle phases within a cell, using only data from bright field (BF) and dark field (DF) 1 and we hypothesised that this might be possible in the MRD setting. Thus, paired diagnostic and follow up bone marrow aspirates taken during remission induction from children with ALL (n=23, 6 at day 8 or day 15 or day 28 following the start of treatment) were stained with CD19 APC, CD10PE, CD34Texas Red, CD45APCH7 and DAPI and ran on an imaging flow cytometer (Amnis, Imagestream X Mark II) at x40 magnification. A standard sequential gating technique identified ALL cells and levels (range 90-0.01%) correlated with that assessed by traditional flow cytometry. Next, 200 morphological features were extracted from BF and DF images of cells including pixel intensities, size, shapes, textures and subcellular components and both supervised machine and deep learning algorithms were developed to correctly classify ALL cells in clinical samples. The classifiers were trained initially using all fluorescent and BF and DF parameters but then with a sequential leave-one-parameter-out. In parallel, iteration of the training-testing sets on 23 datasets, with a leave-one-sample-out approach was performed, to ensure prediction accuracy across samples. Correct cell classifiers peaked at 98.21% when all parameters were considered but even without antibody-conjugated signals, relying only in DAPI, DF and BF signals, correct cell classification averaged 85.36%. Finally, DF/BF in combination and BF alone still gave rise to correct cell call rates of 81.62% and 71.26% respectively. Thus, we report a new MRD detection method that is label free, using only the morphological features extracted from BF and DF cell images. The method is cheap, quick, and highly applicable and with a technology that could be simplified to be laser-free and allow point of care testing. Transferability of this unique methodological approach to other types of leukaemia is also feasible and may be further developed to give functional information e.g. cell cycle status. References 1. Blasi T, Hennig H, Summers HD, et al. Label-free cell cycle analysis for high-throughput imaging flow cytometry. Nat Commun . 2016;7:10256. Figure View large Download slide Figure View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "deep learning",
+        "diagnostic imaging",
+        "flow cytometry",
+        "neoplasm, residual",
+        "leukemia",
+        "acute lymphocytic leukemia",
+        "antibodies",
+        "biological markers",
+        "bone marrow aspiration",
+        "cd19 antigens"
+    ],
+    "author_names": [
+        "Minh Doan",
+        "Marian Case",
+        "Dino Ma\u0161i\u0107, PhD",
+        "Holger Hennig",
+        "Claire McQuin",
+        "Allen Goodman",
+        "Juan Caicedo",
+        "Olaf Wolkenhauer",
+        "Huw Summers",
+        "Anne E Carpenter",
+        "Andy Filby",
+        "Paul Rees",
+        "Julie Irving, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Minh Doan",
+            "author_affiliations": [
+                "Imaging Platform, Broad Institute of MIT and Harvard, Cambridge, MA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marian Case",
+            "author_affiliations": [
+                "Northern Institute for Cancer Research, Newcastle University, Newcastle upon Tyne, United Kingdom "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dino Ma\u0161i\u0107, PhD",
+            "author_affiliations": [
+                "Northern Institute for Cancer Research, Newcastle University, Newcastle upon Tyne, United Kingdom "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Holger Hennig",
+            "author_affiliations": [
+                "Dept. of Systems Biology & Bioinformatics, University of Rostock, Rockstock, Germany "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Claire McQuin",
+            "author_affiliations": [
+                "Imaging Platform, Broad Institute of MIT and Harvard, Cambridge, MA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Allen Goodman",
+            "author_affiliations": [
+                "Imaging Platform, Broad Institute of MIT and Harvard, Cambridge, MA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Juan Caicedo",
+            "author_affiliations": [
+                "Imaging Platform, Broad Institute of MIT and Harvard, Cambridge, MA "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Olaf Wolkenhauer",
+            "author_affiliations": [
+                "Dept. of Systems Biology & Bioinformatics, University of Rostock, Rockstock, Germany "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Huw Summers",
+            "author_affiliations": [
+                "College of Engineering, Swansea University, Swansea, United Kingdom "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anne E Carpenter",
+            "author_affiliations": [
+                "Imaging Platform, Broad Institute of MIT and Harvard, Cambridge, MA "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andy Filby",
+            "author_affiliations": [
+                "Flow facility, Newcastle University, Newcastle upon Tyne, United Kingdom "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Paul Rees",
+            "author_affiliations": [
+                "Imaging Platform, Broad Institute of MIT and Harvard, Cambridge, MA ",
+                "College of Engineering, Swansea University, Swansea, United Kingdom "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Julie Irving, PhD",
+            "author_affiliations": [
+                "Northern Institute for Cancer Research, Newcastle University, Newcastle upon Tyne, United Kingdom ",
+                "Northern Institute for Cancer Research, Newcastle University, Newcastle Upon Tyne, United Kingdom"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T15:39:27",
+    "is_scraped": "1"
 }

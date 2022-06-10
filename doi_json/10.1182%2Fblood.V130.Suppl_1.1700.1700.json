@@ -1,8 +1,248 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3698",
-    "start_url_page_num": "3698",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.1700.1700",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/1700/79584/A-Novel-Single-Next-Generation-Sequencing-NGS?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T13:39:34",
-    "is_scraped": "0"
+    "article_title": "A Novel Single Next-Generation Sequencing (NGS) Approach for the Molecular Karyotyping and Genotyping of Patients with Myelodysplastic Syndromes ",
+    "article_date": "December 7, 2017",
+    "session_type": "637. Myelodysplastic Syndromes\u2014Clinical Studies: Poster I",
+    "abstract_text": "Myelodysplastic Syndromes (MDS) are a heterogeneous group of diseases, characterized by the clonal acquisition of somatic point mutations and chromosomal alterations. Conventional karyotyping remains one of the most important tools for MDS diagnosis because several cytogenetics abnormalities can be used to stratify patients into subtypes with different prognoses. However, a non-informative cytogenetics due to normal or unsuccessful karyotype could lead to an erroneous estimation of the prognostic risk. To overcome this drawback, we assessed the reliability of a single Next-Generation Sequencing (NGS) assay to simultaneously detect Single Nucleotide Variations (SNVs), including small indels, as well as Copy Number Alterations (CNAs) and copy-neutral Loss of Heterozygosity (cnLOH) for diagnostic application. We combined a custom panel, targeting 40 genes frequently implicated in myeloid neoplasms, with a target enrichment design (OneSeq, Agilent\u00ae), having a genome-wide backbone resolution of 1 Mb and 10 Mb for CNAs and cnLOH, respectively. Sequencing libraries were prepared following the \"SureSelect QXT Library Prep\" protocol and sequenced using the NextSeq 500 platform (Illumina\u00ae). Data processing and variant annotation were performed using an integrated in-house bioinformatic pipeline. SNVs and small indels were selected based on allele frequency (VAF \u2265 3%), their absence in the healthy population (UCSC Common SNP; MAF < 1%) and their putative effect on splicing and protein. For CNAs and cnLOH detection, we combined the analysis of the sequencing depth, using the DECoN tool, with the B-allele frequency (BAF) for a selection of high minor allele frequency single nucleotide polymorphisms. The CNA pathogenicity was evaluated taking into account gene content, frequency in the general population ( e.g . Database of Genomic Variants) and reports in the literature. We performed a pilot study with a cohort of 30 patients clinically diagnosed with primary MDS at La Fe University Hospital in Valencia. Samples were analysed in parallel by NGS and CytoScan TM HD array (Affymetrix\u00ae) in order to establish criteria and thresholds for accurate filtering of sequencing data, especially for CNA identification and calculation of analytical sensitivity. Currently, we are evaluating the reliability of these criteria in a separate cohort of 30 additional patients. Preliminary results in the test cohort showed that we were able to identify at least one point mutation in 29 of 30 patients, with an average of 2 mutations per sample (range 0-7). Mutations were detected in 20 of the 40 genes covered in the panel. The epigenetic modifier TET2 was the most frequently mutated gene in the cohort (9 of 30 cases), followed by two splicing genes, SF3B1 and SRSF2 (each 8 of 30). In addition, we observed some of the described gene correlations, such as the co-occurrence of mutations in IDH2 and SRSF2 genes and the mutually exclusive presence of SF3B1 and SRSF2 . Although cytogenetic studies identified chromosomal abnormalities in 9 of 30 of cases, the number of MDS-related copy number changes detected by sequencing increased to 20 cases, including 9 with normal and 1 with unsuccessful karyotype. We observed the frequent CNAs, such as chromosome 5q and 7q deletions, 4 and 3 cases, respectively, the complete duplication of chr21 in 1 case and 9 cnLOH events. Interestingly, in patients with normal karyotype, although we focused on large chromosomal abnormalities, we have detected at least 3 small events (6-14 Mb) leading to focal deletions of ETV6 , BTG1 and RUNX1 genes, as well as 6 cnLOH events, 2 of which involved chr7q22q36. We obtained a high level of concordance between clinical relevant CNAs larger than 1 Mb identified by the CytoScan TM HD array and our sequencing approach. However, the variation in probe distribution in the two backbones was responsible for differences in the detected sizes of deletions and duplications in ~10% of the observed CNAs. This NGS strategy allowed the identification of point mutations and large chromosomal alterations with a resolution of 1 Mb using a single assay, as well as other alterations invisible to conventional cytogenetics, such as cnLOH. Although automating the bioinformatic pipeline is still ongoing, this study demonstrated that a comprehensive NGS-based genomic approach could contribute to improve MDS diagnosis and prognosis. Disclosures Sanz: Gamida Cell: Research Funding.",
+    "topics": [
+        "genotype determination",
+        "karyotype determination procedure",
+        "massively-parallel genome sequencing",
+        "myelodysplastic syndrome",
+        "neoplasms",
+        "nucleotides",
+        "chromosome abnormality",
+        "heterogeneity",
+        "hospitals, university"
+    ],
+    "author_names": [
+        "Alessandro Liquori, PhD",
+        "Esperanza Such",
+        "Laura Palomo, MSc",
+        "Ivan Lesende",
+        "Alexander Neef, PhD",
+        "Mariam Iba\u00f1ez",
+        "Gayane Avetisyan",
+        "Desir\u00e9 Company",
+        "Sarah Moreau",
+        "Laia Pedrola, PhD",
+        "Jorge Selles",
+        "Ana Saus",
+        "Javi Ayala",
+        "Pamela Acha",
+        "Alejandra Sanjuan, PhD",
+        "Mireia Boluda",
+        "Beatrice De Matteo",
+        "Elisa Gonzalez",
+        "Miguel A. Sanz, MD",
+        "Francesc Sole, PhD",
+        "Guillermo Sanz, MD",
+        "Jos\u00e9 Cervera, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Alessandro Liquori, PhD",
+            "author_affiliations": [
+                "CIBERONC, Madrid, Spain ",
+                "Servicio de Hematolog\u00eda. Hospital La Fe, Valencia, Spain, Valencia, Spain "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Esperanza Such",
+            "author_affiliations": [
+                "Servicio de Hematolog\u00eda. Hospital La Fe, Valencia, Spain, Valencia, Spain "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laura Palomo, MSc",
+            "author_affiliations": [
+                "MDS Research Group, Institut de Recerca Contra la Leuc\u00e8mia Josep Carreras, Institut Catal\u00e0 d'Oncologia-Hospital Germans Trias i Pujol, Universitat Aut\u00f2noma de Barcelona, Badalona, Spain "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ivan Lesende",
+            "author_affiliations": [
+                "Universidad de la Coru\u00f1a. UDC, Coruna, Spain "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexander Neef, PhD",
+            "author_affiliations": [
+                "Servicio de Hematolog\u00eda. Hospital La Fe, Valencia, Spain, Valencia, Spain ",
+                "CIBERONC, Spain, Madrid, Spain "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mariam Iba\u00f1ez",
+            "author_affiliations": [
+                "CIBERONC, Madrid, Spain ",
+                "Servicio de Hematolog\u00eda. Hospital La Fe, Valencia, Spain, Valencia, Spain "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gayane Avetisyan",
+            "author_affiliations": [
+                "Servicio de Hematolog\u00eda. Hospital La Fe, Valencia, Spain, Valencia, Spain "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Desir\u00e9 Company",
+            "author_affiliations": [
+                "Servicio de Hematolog\u00eda. Hospital La Fe, Valencia, Spain, Valencia, Spain "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sarah Moreau",
+            "author_affiliations": [
+                "Unidad de Gen\u00e9tica, Valencia, Spain, Valencia, Spain "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laia Pedrola, PhD",
+            "author_affiliations": [
+                "Unidad de Gen\u00e9tica, Valencia, Spain, Valencia, Spain "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jorge Selles",
+            "author_affiliations": [
+                "Unidad de Gen\u00e9tica, Valencia, Spain, Valencia, Spain "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ana Saus",
+            "author_affiliations": [
+                "Servicio de Hematolog\u00eda. Hospital La Fe, Valencia, Spain, Valencia, Spain "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Javi Ayala",
+            "author_affiliations": [
+                "Servicio de Hematolog\u00eda. Hospital La Fe, Valencia, Spain, Valencia, Spain "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pamela Acha",
+            "author_affiliations": [
+                "MDS Research Group, Institut de Recerca Contra la Leuc\u00e8mia Josep Carreras, Institut Catal\u00e0 d'Oncologia-Hospital Germans Trias i Pujol, Universitat Aut\u00f2noma de Barcelona, Badalona, Spain ",
+                "Universitat de Barcelona, Barcelona, Spain"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alejandra Sanjuan, PhD",
+            "author_affiliations": [
+                "Servicio de Hematolog\u00eda. Hospital La Fe, Valencia, Spain, Valencia, Spain "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mireia Boluda",
+            "author_affiliations": [
+                "Servicio de Hematolog\u00eda. Hospital La Fe, Valencia, Spain, Valencia, Spain "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Beatrice De Matteo",
+            "author_affiliations": [
+                "Servicio de Hematolog\u00eda. Hospital La Fe, Valencia, Spain, Valencia, Spain "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elisa Gonzalez",
+            "author_affiliations": [
+                "Servicio de Hematolog\u00eda. Hospital La Fe, Valencia, Spain, Valencia, Spain "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Miguel A. Sanz, MD",
+            "author_affiliations": [
+                "Servicio de Hematolog\u00eda. Hospital La Fe, Valencia, Spain, Valencia, Spain "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Francesc Sole, PhD",
+            "author_affiliations": [
+                "MDS Research Group, Institut de Recerca Contra la Leuc\u00e8mia Josep Carreras, Institut Catal\u00e0 d'Oncologia-Hospital Germans Trias i Pujol, Universitat Aut\u00f2noma de Barcelona, Badalona, Spain "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Guillermo Sanz, MD",
+            "author_affiliations": [
+                "Servicio de Hematolog\u00eda. Hospital La Fe, Valencia, Spain, Valencia, Spain "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jos\u00e9 Cervera, MD PhD",
+            "author_affiliations": [
+                "Servicio de Hematolog\u00eda. Hospital La Fe, Valencia, Spain, Valencia, Spain "
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T15:35:06",
+    "is_scraped": "1"
 }
