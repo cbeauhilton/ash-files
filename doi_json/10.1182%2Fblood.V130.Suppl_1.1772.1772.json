@@ -1,8 +1,75 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3676",
-    "start_url_page_num": "3676",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.1772.1772",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/1772/79436/Using-Single-Cell-RNA-Sequencing-to-Characterize?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T11:39:25",
-    "is_scraped": "0"
+    "article_title": "Using Single Cell RNA Sequencing to Characterize Cell-Type Specific Gene Expression in a Mouse Model of Multiple Myeloma Treated with the cIAP Antagonist LCL161 ",
+    "article_date": "December 7, 2017",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster I",
+    "abstract_text": "Multiple myeloma (MM) is the second most common hematological cancer, accounting for roughly 2% of all cancer deaths. Unfortunately, MM remains incurable and nearly all patients experience relapse. Recently, we have identified a novel cIAP1 antagonist, LCL161, with remarkable anti-MM effects. Interestingly, unlike in other tumor types, our prior work found LCL161 does not directly induce apoptosis of MM cells, but rather drives activation and infiltration of macrophages to the tumor bed and phagocytosis of tumor cells. Furthermore, it appears the anit-MM activity of the agent relies on complex interactions between the tumor and the immune microenvironment. Traditionally, it has been very difficult to understand the molecular mechanisms governing complex interactions between cell types; however, recent advances in technology are making such characterizations possible. We are now able profile molecular phenotypes at a single cell resolution affording unprecedented knowledge of in vivo systems. We believe characterizing cell-type specific gene expression changes after LCL161 treatment will aid in our understanding of how tumor-microenvironment interactions lead to a high efficacy treatment and potentially identify additional and more targeted therapies. To this end, we collected whole spleens from three control and ten VK*MYC tumor bearing mice - three untreated, two treated with LCL161, two treated with cyclophosphamide, and three treated with bortezomib - for single cell RNA-sequencing (scRNA-seq). All samples were collected and processed in tandem 24 hours after treatment using the 10X genomics chromium platform. Ultimately, we measured mRNA levels in over 52,000 individual cells. The cells from conditions were analyzed jointly, allowing us more power to identify gene expression changes and compare across treatments. Using a graph based clustering method, we identified groups of cells with shared expression profiles. These groups were assigned to known cell-types using the expression of known marker genes. Consistent with our previous work we observed a marked reduction in tumor cells and activation of the non-canonical NFkB pathway in mice treated with LCL161. We performed high resolution clustering on individual immune cells-types (B-cells, T-cells, and myeloid cells) to obtain a clear picture of treatment-induced changes. Within these clusters, we were able to identify enrichments and depletions of cells treated from mice treated with LCL161, compared to other tumor bearing mice. Of particular interest, was an observed enrichment of cells from LCL161 treated mice within the group identified as macrophages. Upon further examinination, we were able to utilize a binomial model to identify over 500 genes that were upregulated in LCL161 treated macrophages compared to macrophages from other mice. Of note, we identified two genes, Saa3 and Spp1 , which are expressed nearly exclusively in LCL161 treated macrophages (~0.4% of total cells). Due to this small number cells, this signal is unobservable using traditional bulk RNA-seq; yet we believe it may play a critical role in the efficacy of LCL161. We continue to assess the biological relevance of the observed cell-type and treatment specific changes and anticipate this work will contribute greatly to our understanding of LCL161 treatment efficacy. Disclosures Chesi: Phosplatin Therapeutics: Research Funding.",
+    "topics": [
+        "antagonists",
+        "cells",
+        "gene expression",
+        "mice",
+        "multiple myeloma",
+        "sequence analysis, rna",
+        "neoplasms",
+        "tumor cells",
+        "bortezomib",
+        "chromium"
+    ],
+    "author_names": [
+        "Nicholas Banovich, PhD",
+        "Martin Boateng, BS",
+        "P. Leif Bergsagel, MD",
+        "Marta Chesi, PhD",
+        "Jonathan J. Keats, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Nicholas Banovich, PhD",
+            "author_affiliations": [
+                "Translational Genomics Research Institute, Phoenix, AZ "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martin Boateng, BS",
+            "author_affiliations": [
+                "Translational Genomics Research Institute, Phoenix, AZ "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "P. Leif Bergsagel, MD",
+            "author_affiliations": [
+                "Mayo Clinic Arizona, Scottsdale, AZ "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marta Chesi, PhD",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, Mayo Clinic, Scottsdale, AZ"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan J. Keats, PhD",
+            "author_affiliations": [
+                "Translational Genomics Research Institute, Phoenix, AZ "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T06:46:26",
+    "is_scraped": "1"
 }

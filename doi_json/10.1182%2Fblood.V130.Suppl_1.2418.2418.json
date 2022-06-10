@@ -1,8 +1,131 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3666",
-    "start_url_page_num": "3666",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.2418.2418",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/2418/79882/Population-Scale-Identification-of-Clonal?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T11:38:47",
-    "is_scraped": "0"
+    "article_title": "Population-Scale Identification of Clonal Hematopoiesis Derived Mutations in Solid Tumor Mutation Profiling ",
+    "article_date": "December 7, 2017",
+    "session_type": "501. Hematopoietic Stem and Progenitor Biology: Poster II",
+    "abstract_text": "Background: Clonal hematopoiesis (CH) is the commonly observed age-related acquisition of somatic mutations in hematopoietic lineage leading to clonal expansion of mutated cells. We recently showed 25% of advanced solid tumor patients harbor CH related mutations in their blood. As tumor tissue is typically infiltrated by blood cells, we hypothesized that sequencing tumors without the utilization of matched blood in a paired analysis could erroneously attribute CH mutations to be of tumor-specific origin. In review of patient clinical records, we encountered two patients (one endometrial adenocarcinoma and one mucosal melanoma) with DNMT3A R882H mutations reported by an external tumor-only NGS assay. In each case, paired tumor/blood sequencing subsequently confirmed the hematopoietic origin. Here, we show the prevalence of CH derived mutations in the solid tumors by analyzing a cohort of patients where tumor/normal sequencing is performed using MSK-IMPACT. Methods: We analyzed deep coverage, targeted next-generation sequencing data from January 2014 - May 2017 of paired blood and tumor samples from 15,432 patients with advanced solid malignancies using the MSK-IMPACT platform. MSK-IMPACT detects point mutations and indels in coding exons of currently 468 genes with older versions targeting 341 and 410 genes. We called mutations in blood DNA and identified those associated with CH using a custom filtering schema: First, germline mutations were eliminated based on variant allele fraction (VAF) > 0.35, except for mutations reported in COSMIC on at least 10 occasions. Second, we required mutations to be supported by at least 8 reads and present at twice the variant allele fraction (VAF) or greater in blood cells compared to the tumor. Third, we retained mutations that were detected with a VAF greater than 0.02 for a selected panel of leukemia genes and 0.05 for other genes. For cases where at least one mutation exceeded these thresholds, we reduced the VAF threshold in blood to 0.01 to detect subsequent events for leukemia genes and 0.03 for non-leukemia genes. Results: We identified 4,044 (26.2%) patients with at least one CH derived mutation in their blood corresponding to 6,588 presumptive somatic, non-silent mutations in 350 genes. Out of these, we identified 963 CH mutations from 808 patients (5.2%) that could have been classified as tumor-derived mutations in the absence of paired blood sequencing given a tumor VAF > 0.02. The number of mutations per patient ranged from 1-7 with a median VAF of 0.04 and 0.17 in paired tumor and blood samples, respectively. 34.5% of these variants are present in the COSMIC database with occurrence counts greater than 5 and include well-characterized driver alterations such as DNMT3A R882H, NRAS G12D, and IDH2 R140Q, which could readily be mistaken for somatic mutations in the corresponding solid tumor. Conclusion: With the potential for admixed leukocytes in biopsy specimens, these data demonstrate that failure to employ a paired blood sample in solid tumor sequencing can lead to the misclassification of CH mutations as somatic in the tumor, with clear diagnostic, prognostic, and therapeutic implications. Disclosures Coombs: H3 Biomedicine: Honoraria; Pharmacyclics: Honoraria. Arcila: Raindance Tecnologies: Honoraria; Archer: Honoraria; Invivoscribe: Honoraria. Levine: Roche: Research Funding; Qiagen: Equity Ownership; Celgene: Research Funding; Celgene: Research Funding; Roche: Research Funding; Qiagen: Equity Ownership.",
+    "topics": [
+        "hematopoiesis",
+        "mutation",
+        "solid tumors",
+        "neoplasms",
+        "kidney, sponge",
+        "leukemia",
+        "massively-parallel genome sequencing",
+        "biopsy",
+        "blood tests",
+        "cancer"
+    ],
+    "author_names": [
+        "Ryan Ptashkin, MS",
+        "Catherine C. Coombs, MD",
+        "David M. Hyman, MD",
+        "David Solit, MD",
+        "Jose Baselga, MD",
+        "Maria E. Arcila",
+        "Marc Ladanyi, MD",
+        "Ross L. Levine, MD",
+        "Michael F. Berger, PhD",
+        "Ahmet Zehir, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Ryan Ptashkin, MS",
+            "author_affiliations": [
+                "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Catherine C. Coombs, MD",
+            "author_affiliations": [
+                "Lineberger Comprehensive Cancer Center, University of North Carolina, Chapel Hill, NC "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David M. Hyman, MD",
+            "author_affiliations": [
+                "Department of Medicine, Developmental Therapeutics Service, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David Solit, MD",
+            "author_affiliations": [
+                "Department of Medicine, Genitourinary Oncology Service, Memorial Sloan Kettering Cancer Center, New York, NY ",
+                "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jose Baselga, MD",
+            "author_affiliations": [
+                "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY ",
+                "Department of Medicine, Breast Medicine Service, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maria E. Arcila",
+            "author_affiliations": [
+                "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marc Ladanyi, MD",
+            "author_affiliations": [
+                "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY ",
+                "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ross L. Levine, MD",
+            "author_affiliations": [
+                "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY ",
+                "Leukemia Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY ",
+                "Center for Hematologic Malignancies, Memorial Sloan Kettering Cancer Center, New York, NY"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael F. Berger, PhD",
+            "author_affiliations": [
+                "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY ",
+                "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ahmet Zehir, PhD",
+            "author_affiliations": [
+                "Department of Pathology, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T06:34:32",
+    "is_scraped": "1"
 }

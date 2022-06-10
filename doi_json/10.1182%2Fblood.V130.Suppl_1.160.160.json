@@ -1,8 +1,176 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3675",
-    "start_url_page_num": "3675",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.160.160",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/160/79405/A-Personalized-Prediction-Model-to-Risk-Stratify?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T11:39:21",
-    "is_scraped": "0"
+    "article_title": "A Personalized Prediction Model to Risk Stratify Patients with Myelodysplastic Syndromes (MDS) ",
+    "article_date": "December 7, 2017",
+    "session_type": "637. Myelodysplastic Syndromes\u2014Clinical Studies: Predicting Drug Response Using Novel Genomic Algorithms",
+    "abstract_text": "Background Patients (pts) with myelodysplastic syndromes (MDS) have widely variable outcomes, ranging from months to more than a decade. Although several prognostic scoring systems have been developed to stratify MDS pts, survival significance varies even within discrete categories. This heterogeneity may contribute to over-treating or under-treating some pts classified within the same risk category. Here, we explore how incorporation of genomic-clinical data using machine learning algorithms can create a personalized (precision) prediction model that can outperform other commonly used models in MDS. Method Clinical and mutational data from MDS pts diagnosed according to 2008 WHO criteria were analyzed. The model was developed in a cohort from our institution and validated in a separate cohort from other MDS Clinical Research Consortium sites. Next generation targeted deep sequencing of 60 gene mutations commonly mutated in myeloid malignancies was included. pts who underwent hematopoietic cell transplant (HCT) were censored at the time of transplant. OS was measured from the time of diagnosis to death or last follow up. Leukemia-free survival was calculated from the time of diagnosis to time of acute myeloid leukemia (AML) progression or last follow up. A random survival forest (RSF) algorithm was used to build the model, in which clinical and molecular variables are randomly selected for inclusion in determining survival, thereby avoiding the shortcomings of traditional Cox step-wise regression in accounting for variable interactions. Survival prediction is thus specific to each pt's particular clinical and molecular characteristics. The accuracy of the proposed model compared to other models was assessed by concordance (c-) index. Results: Of the 975 pts included, 527 were in the training cohort and 448 in the validation cohort. In the training cohort, the median age was 67 years (range, 19-99), pts received a median of 2 lines of therapies (range, 0-7) and 15% underwent HCT. First line therapies included: supportive care (22%), growth factors (22%), azacitidine +/- combinations (30%), decitabine+/- combinations (6%), lenalidomide (5%), induction chemotherapy (3%), immunosuppressive therapy (3%), and other therapies/clinical trials (9%). A total of 105 pts (20%) progressed to AML. Risk stratification by IPSS: 148 (28%) low, 235 (45%) intermediate-1, 106 (20%) intermediate-2, 38 (7%) high and by IPSS-R: 78 (15%) very low, 200 (38%) low, 95 (18%) intermediate, 98 (19%) high, and 56 (10%) very high. Cytogenetic analysis by IPSS-R criteria: 15 (3%) very good, 331 (62%) good, 87 (17%) intermediate, 37 (7%) poor, and 57 (11%) very poor. The most commonly mutated genes were: SF3B1 (14%), ASXL1 (13%), TET2 (12%), SRSF2 (11%), DNMT3A (11%), STAG2 (9%), TP53 (8%), and RUNX1 (8%). All clinical variables and mutations present in >/= 5 pts were included in the RSF algorithm. Variable importance analysis (the most important variables that contributed to the outcome) and multiple backward elimination analysis (identifying the least number of variables that can provide the least error rate) identified the following variables (ranked from the most important to the least important) that impacted OS: cytogenetics categories by IPSS-R, bone marrow blasts %, 2008 WHO criteria, platelets, WBC, hemoglobin, TP53 , RUNX1 , ANC, STAG2 , SRSF2 , NPM1 , secondary vs. de novo MDS, age, PHF6 , IDH1 , EZH2 , and SF3B1 . The clinical and mutational variables can be entered into a web application that can run the trained model and provide OS and AML transformation estimates as an output, Figure 1. The C-index for the new model was 0.71 for OS and 0.76 for AML transformation. The new model outperformed all commonly used models for OS and AML transformation including IPSS (c-index 0.65, 0.72), IPSS-R (0.67, 0.73), WHO prognostic scoring system (WPSS) (0.65, 0.73) and MD Anderson prognostic model (MDAPSS) (0.65, 0.7), respectively. When applying the new model to the validation cohort, the c-index for OS and AML transformation were 0.7, 0.75, respectively. Conclusion A personalized (precision) prediction model based on clinical and genomic data outperforms all commonly used prognostic models to refine survival and AML transformation estimates that are unique for a given pt. The web application that can ease the translation of this model into the clinic is being developed. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Komrokji: Novartis: Honoraria, Speakers Bureau; Celgene: Honoraria. Padron: Incyte: Honoraria, Research Funding. Steensma: Takeda: Consultancy; Pfizer: Consultancy; Onconova: Consultancy; Incyte: Equity Ownership; Amgen: Consultancy, Membership on an entity's Board of Directors or advisory committees; Janssen: Consultancy, Research Funding; Celgene: Consultancy; Novartis: Consultancy, Membership on an entity's Board of Directors or advisory committees; H3 Biosciences: Consultancy; Pfizer: Consultancy, Membership on an entity's Board of Directors or advisory committees. Roboz: AbbVie, Agios, Amgen, Amphivena, Array Biopharma Inc., Astex, AstraZeneca, Celator, Celgene, Clovis Oncology, CTI BioPharma, Genoptix, Immune Pharmaceuticals, Janssen Pharmaceuticals, Juno, MedImmune, MEI Pharma, Novartis, Onconova, Pfizer, Roche Pharmace: Consultancy; Cellectis: Research Funding. Sekeres: Celgene: Membership on an entity's Board of Directors or advisory committees.",
+    "topics": [
+        "myelodysplastic syndrome",
+        "brachial plexus neuritis",
+        "prostatic hypertrophy risk score",
+        "follow-up",
+        "protein p53",
+        "azacitidine",
+        "cancer",
+        "chemotherapy, neoadjuvant",
+        "cytogenetic analysis",
+        "growth factor"
+    ],
+    "author_names": [
+        "Aziz Nazha, MD",
+        "Rami S. Komrokji, MD",
+        "John Barnard, PhD",
+        "Karam Al-Issa, MD",
+        "Eric Padron, MD",
+        "Yazan F. Madanat, MD",
+        "Teodora Kuzmanovic, BA",
+        "Nour Abuhadra, MD",
+        "David P. Steensma, MD",
+        "Amy E. DeZern, MD",
+        "Gail J. Roboz, MD",
+        "Guillermo Garcia-Manero, MD",
+        "Alan F. List, MD",
+        "Jaroslaw P. Maciejewski, PhD MD FACP",
+        "Mikkael A. Sekeres, MD MS"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Aziz Nazha, MD",
+            "author_affiliations": [
+                "Taussig Cancer Institute, Department of Hematology & Medical Oncology, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rami S. Komrokji, MD",
+            "author_affiliations": [
+                "H. Lee Moffitt Cancer Center, Tampa, FL ",
+                "Moffitt Cancer Center, Tampa, FL "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John Barnard, PhD",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Cleveland Clinic, Cleveland, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karam Al-Issa, MD",
+            "author_affiliations": [
+                "Leukemia Program, Taussig Cancer Institute, Department of Hematology and Medical Oncology, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eric Padron, MD",
+            "author_affiliations": [
+                "Malignant Hematology, Moffitt Cancer Center, Tampa, FL "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yazan F. Madanat, MD",
+            "author_affiliations": [
+                "Taussig Cancer Institute, Department of Hematology & Medical Oncology, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Teodora Kuzmanovic, BA",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nour Abuhadra, MD",
+            "author_affiliations": [
+                "Leukemia Program, Taussig Cancer Institute, Department of Hematology and Medical Oncology, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David P. Steensma, MD",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amy E. DeZern, MD",
+            "author_affiliations": [
+                "Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gail J. Roboz, MD",
+            "author_affiliations": [
+                "Division of Hematology and Oncology, Weill Cornell Medical College, New York, NY "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Guillermo Garcia-Manero, MD",
+            "author_affiliations": [
+                "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alan F. List, MD",
+            "author_affiliations": [
+                "Malignant Hematology, H. Lee Moffitt Cancer Center, Tampa, FL "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jaroslaw P. Maciejewski, PhD MD FACP",
+            "author_affiliations": [
+                "Taussig Cancer Institute, Department of Hematology & Medical Oncology, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mikkael A. Sekeres, MD MS",
+            "author_affiliations": [
+                "Taussig Cancer Institute, Department of Hematology & Medical Oncology, Cleveland Clinic Taussig Cancer Institute, Cleveland, OH"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T06:44:34",
+    "is_scraped": "1"
 }

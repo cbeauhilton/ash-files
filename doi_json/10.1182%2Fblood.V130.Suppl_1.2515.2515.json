@@ -1,8 +1,109 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3672",
-    "start_url_page_num": "3672",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.2515.2515",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/2515/79997/Characterization-of-Kinase-Activity-By?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T11:39:08",
-    "is_scraped": "0"
+    "article_title": "Characterization of Kinase Activity By Phosphoproteomics in Myeloid Cell Lines for Identification of Driving Oncogenic Pathways ",
+    "article_date": "December 7, 2017",
+    "session_type": "603. Oncogenes and Tumor Suppressors: Poster II",
+    "abstract_text": "Introduction: Myelodysplastic syndromes (MDS) are heterogeneous disorders caused by sequential accumulation of genetic lesions in haematopoietic stem cells (HSC). MDS are characterized by dysplasia, ineffective haematopoiesis and a propensity to evolve towards acute myeloid leukemia (AML). Based on the recent advances in next generation sequencing, our understanding of the genetic background of myeloid neoplasms has dramatically increased. However, clonal heterogeneity, genetic interactions, and clonal evolution remain enigmatic phenomena of oncogenesis and important investigational challenges to be addressed in the post-genomic era. Aim and objectives: The aim of this project was to build a bioinformatic pipeline to integrate phosphoproteomic data with genetic information in order to characterize targettable kinase-activities of involved oncogenic pathways. Our objective was to establish a network analysis of the kinase-substrate relationship in myeloid cell lines first, before moving into primary cells. Here, we present data on the ongoing phosphoproteome characterization and the inferred kinase-activity from five myeloid cell lines. Methods: The five myeloid cell lines K562 (erythroid), NB4 (promyelocytic), THP1 (monocytic), OCI-AML3 (myelomonocytic) and MOLM13 (monocytic) were used. These cell lines contain distinct oncogenes, such as BCR-ABL1 , PML-RARalpha , MLL-MLLT3, mutated NPM1 and FLT3-ITD , respectively. Cytogenetic analysis and next generation sequencing, using a myeloid driver gene panel of Ion Torrent , were performed for genetic characterization (Table 1). Phosphoproteomes were enriched using Titanium-dioxide (TiO2) and samples were analyzed in triplicates by reversed-phase nano liquid chromatography coupled to tandem-mass spectrometry (nanoLC-MS 2 ). Raw data was analyzed using MaxQuant software and further processed with R . For kinase-activity enrichment analysis (KAEA), we integrated all substrate-kinase datasets from five databases 1) PhosphoSitePlus , 2) Human Protein Reference Database , 3) Regulatory Network in Protein Phosphorylation , 4) The Signaling Network Open Resource and 5) phosphor.ELM . The SetRank R-package was employed for KAEA with p-value and FDR cutoffs set at 0.05. Results: We identified 15'698, 14'087, 13'969, 13'993 and 14'201 unique phosphopeptides corresponding to 3'536, 3'363, 3'411, 3'410 and 3'403 unique phosphoproteins, respectively.KAEA identified 77 different kinases across the five cell lines (Table 2). In the heat-map of the KAEA, phenotypically related cell lines clustered together and unique kinase-activity patterns emerged for each cell line (Figure 1). Two cell lines are driven by oncogenic kinases; K562 by BCR-ABL1 and MOLM13 by FLT3-ITD. An ABL1-kinase signal was detectable from 2 different databases in K562 as well as additional downstream kinases of ABL1, including mTOR and MAPK. We could not enrich for the FLT3-kinase in MOLM-13, due to lack of representation in the currently available substrate-kinase databases. However, our pipeline was able to identify the activity of downstream kinases of FLT3, including AKT1/PKB and MAPK1. Conclusion: Our bioinformatic pipeline was able to detect unique phosphoproteins and enrich for kinase-activities in five distinct myeloid cell lines. Moreover, it reproduced an expected pattern of kinase-activities for two relevant driving oncogenic kinases. These promising results remain still limited by insufficient quantification and incompleteness of available databases. We expect to further improve on quantification and annotation by using heavy labeled cell lines (SILAC) as well as kinase-motif analysis, respectively. This may allow us to perform unsupervised characterization of involved oncogenic pathways and to proceed into the analysis of primary cells. View large Download slide View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "myeloid cells",
+        "phosphotransferases",
+        "ms-like tyrosine kinase 3",
+        "impedance threshold device",
+        "massively-parallel genome sequencing",
+        "phosphoproteins",
+        "carcinogenesis",
+        "cytogenetic analysis",
+        "dysplasia",
+        "leukemia, myelocytic, acute"
+    ],
+    "author_names": [
+        "Mahmoud Hallal",
+        "Manfred Heller, PhD",
+        "R\u00e9my Bruggmann, PhD",
+        "Ramanjaneyulu Allam, PhD MSc, BSc",
+        "Raphael Jeancourt, PhD",
+        "Elisabeth Oppliger Leibundgut, PharmD",
+        "C\u00e9dric Simillion, PhD",
+        "Nicolas Bonadies, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Mahmoud Hallal",
+            "author_affiliations": [
+                "Department of Haematology and Central Haematology Laboratory, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland ",
+                "Department for BioMedical Research, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manfred Heller, PhD",
+            "author_affiliations": [
+                "Department for BioMedical Research, University of Bern, Bern, Switzerland "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "R\u00e9my Bruggmann, PhD",
+            "author_affiliations": [
+                "Department for BioMedical Research, University of Bern, Bern, Switzerland "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ramanjaneyulu Allam, PhD MSc, BSc",
+            "author_affiliations": [
+                "Department of Haematology and Central Haematology Laboratory, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland ",
+                "Department for BioMedical Research, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Raphael Jeancourt, PhD",
+            "author_affiliations": [
+                "Department of Haematology and Central Haematology Laboratory, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elisabeth Oppliger Leibundgut, PharmD",
+            "author_affiliations": [
+                "Department of Haematology and Central Haematology Laboratory, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland ",
+                "Department for BioMedical Research, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "C\u00e9dric Simillion, PhD",
+            "author_affiliations": [
+                "Department for Biomedical Research, University of Berne, Berne, Switzerland"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nicolas Bonadies, MD",
+            "author_affiliations": [
+                "Department of Haematology and Central Haematology Laboratory, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland ",
+                "Department for BioMedical Research, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T06:41:34",
+    "is_scraped": "1"
 }

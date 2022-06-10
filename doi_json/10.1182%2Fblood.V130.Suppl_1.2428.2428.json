@@ -1,8 +1,80 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3671",
-    "start_url_page_num": "3671",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.2428.2428",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/2428/79972/A-CRISPR-RNA-Binding-Protein-Screen-Reveals-Novel?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T11:39:06",
-    "is_scraped": "0"
+    "article_title": "A CRISPR RNA-Binding Protein Screen Reveals Novel Regulators of RUNX1 Alternative Polyadenylation ",
+    "article_date": "December 7, 2017",
+    "session_type": "502. Hematopoiesis: Regulation of Gene Transcription, Cytokines, Signal Transduction, Apoptosis, and Cell Cycle Regulation: Poster II",
+    "abstract_text": "Alternative polyadenylation (APA) is a crucial post-transcriptional process that regulates the 3' end formation of over 75% of all human genes. Despite its prevalence and importance during development and in disease, there are few studies that focus on APA in the hematology field. Interestingly, APA affects the coding sequence of RUNX1, a pivotal transcription factor for proper hematopoiesis. Usage of the most proximal RUNX1 polyadenylation sequence (PAS) in upstream alternative terminal exon 7a results in the C-terminally truncated RUNX1a isoform. RUNX1a uniquely promotes self-renewal and expansion of hematopoietic stem cells (HSCs). In the endogenous context, usage of this proximal PAS is tightly restricted, resulting in polyadenylation at one of three distal PAS in exon 8 and producing the RUNX1b/c isoforms. RUNX1b/c are much more abundant and promote HSC differentiation and lineage commitment. Importantly, the ratio of RUNX1a to RUNX1b/c is developmentally-regulated. Therefore, it is highly significant to uncover the APA mechanism that controls the RUNX1 isoform ratio and consequently the balance of HSC self-renewal and differentiation. We hypothesize that there are enhancers and suppressors of the proximal RUNX1 PAS, tightly controlling the relative amount of RUNX1a produced during hematopoiesis. To identify RUNX1 APA regulators, we first developed a strategy to monitor RUNX1 proximal PAS usage in vitro. We cloned alternative terminal exon 7a, which contains the proximal PAS, along with 500 bp of up and downstream flanking intron between the two exons of a split GFP reporter. When we introduce this fluorescent minigene reporter into blood cells, two transcripts can be produced: (1) the first GFP exon splices and polyadenylates RUNX1 exon 7a, producing no GFP ( RUNX1a formation) or (2) the two GFP exons are spliced together, skipping the proximal PAS in exon 7a, producing GFP ( RUNX1b/c formation). Since RUNX1b/c are much more highly expressed than RUNX1a throughout hematopoiesis, we observed a robust GFP signal when this reporter was transfected into MDS-L, K562, and U937 cell lines. RT-PCR analysis confirmed that both transcripts are produced, albeit at dramatically different levels. We can thus use GFP fluorescence as a read-out for RUNX1 proximal PAS usage. Next, we generated a stable, clonal MDS-L cell line expressing this RUNX1 exon 7a split GFP reporter. We used this reporter line to perform a CRISPR screen using an sgRNA library that is enriched for targeting RNA-binding proteins (RBPs). We infected cells with the library, cultured in puromycin to force sgRNA and Cas9 integration, waited three weeks to ensure gene knockout, and then used fluorescence-activated cell sorting (FACS) to isolate GFP low and high cell populations. GFP low cells contained sgRNAs targeting RUNX1a suppressors since these cells exhibited enhanced proximal PAS usage. Conversely, GFP high cells contained sgRNAs targeting RUNX1a enhancers since proximal PAS usage was further diminished. We identified 44 putative RUNX1a suppressors and 41 putative enhancers (p < 0.05). We then sought to validate the genes revealed in our CRISPR screen by using individual sgRNAs targeting a subset of the candidates. One confirmed suppressor is HNRNPA1, an RBP which is upregulated and leukemogenic in BCR/ABL chronic myelogenous leukemia (CML). In HNRNPA1 knockout cells, there was a 5-fold increase in relative RUNX1a and a corresponding decrease in RUNX1b/c levels by RT-qPCR. This effect was dose-dependent as heterozygous HNRNPA1 cells exhibited an intermediate 2.5-fold increase in RUNX1a mRNA. We verified this data by performing shRNA knockdown of HNRNPA1 in MDS-L and K562 cells, again observing a significant increase in relative RUNX1a levels. Interestingly, HNRNPA1 is highly expressed throughout the course of hematopoiesis, indicating that a cooperating protein helps facilitate this suppressive effect. Indeed, numerous HNRNPA1-interacting proteins were also identified in our screen and are the subject of current studies. In summary, we devised a fluorescent minigene reporter to monitor RUNX1 APA in vitro. Using this reporter, we performed a CRISPR RBP screen and identified HNRNPA1 as the founding member of a complex that suppresses RUNX1a production during hematopoiesis. HNRNPA1 and additional regulators represent novel proteins that have the potential to regulate HSC behavior by modifying the RUNX1 isoform ratio. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "crispr",
+        "polyadenylation",
+        "rna-binding proteins",
+        "protein isoforms",
+        "bcr-abl tyrosine kinase",
+        "cell separation",
+        "gene knockout techniques",
+        "leukemia, myelocytic, chronic",
+        "puromycin",
+        "reverse transcriptase polymerase chain reaction"
+    ],
+    "author_names": [
+        "Amanda G Davis, BS",
+        "Jaclyn Einstein",
+        "Eric L Van Nostrand, PhD",
+        "Gene W Yeo, PhD",
+        "Dong-Er Zhang, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Amanda G Davis, BS",
+            "author_affiliations": [
+                "University of California, San Diego, La Jolla, CA ",
+                "Moores Cancer Center, University of California, San Diego, La Jolla, CA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jaclyn Einstein",
+            "author_affiliations": [
+                "University of California, San Diego, La Jolla, CA ",
+                "Sanford Consortium for Regenerative Medicine, La Jolla, CA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eric L Van Nostrand, PhD",
+            "author_affiliations": [
+                "University of California, San Diego, La Jolla, CA ",
+                "Sanford Consortium for Regenerative Medicine, La Jolla, CA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gene W Yeo, PhD",
+            "author_affiliations": [
+                "University of California, San Diego, La Jolla, CA ",
+                "Sanford Consortium for Regenerative Medicine, La Jolla, CA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dong-Er Zhang, PhD",
+            "author_affiliations": [
+                "University of California, San Diego, La Jolla, CA ",
+                "Moores Cancer Center, La Jolla, CA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T06:39:54",
+    "is_scraped": "1"
 }
