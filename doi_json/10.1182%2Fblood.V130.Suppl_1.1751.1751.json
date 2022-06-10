@@ -1,8 +1,175 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3688",
-    "start_url_page_num": "3688",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.1751.1751",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/1751/79693/Deconvolution-of-the-Immune-Microenvironment-Can?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T12:41:40",
-    "is_scraped": "0"
+    "article_title": "Deconvolution of the Immune Microenvironment Can Predict the Outcome of Myeloma Patients and Inform Potential Intervention Strategies ",
+    "article_date": "December 7, 2017",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster I",
+    "abstract_text": "Introduction The microenvironment of cells around multiple myeloma (MM) tumors strongly influences patient outcomes, as evidenced by the success of immunomodulatory therapies. To develop precision immunotherapeutic approaches, it is essential to identify and enumerate pro- and anti-myelomatous cell types within the bone marrow. Methods The population of immune and other non-tumor cell types was estimated from RNA microarray data derived from paired whole bone marrow (WBM) core biopsies and CD138-enriched (CD138+) bone marrow aspirates at presentation from 405 newly diagnosed MM patients who underwent similar treatments. Expression profiles from CD138+ cells were used to infer the residual transcriptome contribution of immune and stromal cells in the WBM array data. We performed unsupervised clustering of the estimated microenvironment gene expression profiles and calculated the statistical significance of cluster splitting using the R packages ConsensusClusterPlus and sigclust, respectively. Individual cell type composition of these microenvironments was estimated using the DCQ algorithm and a gene expression signature matrix based on the published LM22 leukocyte matrix (Newman et al., 2015) that we augmented with phenotypic profiles of 5 bone marrow-specific cell types (myelomatous plasma cells, plasma memory cells, osteoclasts, osteoblasts, and adipocytes). Results This deconvolution approach accurately estimated the percent of tumor cells in WBM core biopsy as estimated by both microscopy and flow cytometry (PCC = 0.57, RMSE = 10.9%). Unsupervised consensus clustering of whole bone marrow microenvironment gene expression data revealed 5 significantly different subtypes. The two largest subtypes, Cluster 1 (N=136) and Cluster 2 (N=128), had the most divergent outcomes with median PFS values of 78 months and 53 months, respectively. Cluster 1 was significantly enriched for ISS-I patients (FDR < 0.02) while Cluster 2 was enriched for ISS-III patients (FDR < 7x10^-5). Cluster 2 showed a significant increase in estimated M1 macrophages, CD8+ T cells, adipocytes, and dendritic cells with a decrease in estimated osteoclasts versus all other clusters combined (FDRs < 0.05). Cluster 5 (N=63) had the second worst PFS at 55 months, however, it had 44% fewer than expected ISS-III patients (FDR = 0.04). Cluster 5 had fewer estimated T cells and adipocytes, and it was the only cluster with a significant (3-fold) increase in estimated NK cells compared to the other clusters combined (FDRs < 0.05). No clusters were significantly enriched for older individuals, hyperdiploidy or common chromosomal translocations (t(4;14), t(11;14), t(14;16)). No clusters were significantly enriched for CD138+ gene expression-defined high risk patients (UAMS GEP-70) or CD138+ gene expression-based molecular subtypes (Zhan et al., 2006). Conclusions We demonstrated the technical feasibility to accurately delineate CD138+ expression profiles from a bulk transcriptome admixture and to use the residual microenvironment transcriptome to cluster patients into distinct microenvironment subtypes. Within these subtypes, the clinical outcomes are not explained by CD138+ molecular features nor ISS stage. For example, Cluster 5 has patients with poor prognosis compared to the rest of the cohort, yet it is not significantly enriched for high risk translocations, ISS-III patients, nor GEP-70 high risk patients. Cluster 5 patients show significant decrease in both CD8+ T cell infiltrate and activated dendritic cells, perhaps reflective of a high risk immune state that would not be responsive to checkpoint inhibition. Moreover, Cluster 5 patients are the only ones to have an increase in NK cells, suggesting one could try to stimulate these NK cells to reinvigorate their anti-tumor immunity. Cluster 2, with the poorest prognosis patients and highest tumor burden (by ISS stage), shows increased CD8+ T cells and dendritic cells (where all other clusters are neutral or decreased in these cell types). Cluster 2 patients may thus benefit from checkpoint blockade, and we plan to further explore relevant checkpoint-related pathways in this cohort. Adding this layer of immune-microenvironment to the analysis of myeloma patient samples enables us to formulate biological hypotheses independent of CD138+ biology and may eventually guide more tailored therapeutic interventions and improve outcomes for patients. View large Download slide View large Download slide  Close modal Disclosures Danziger: Celgene Corporation: Employment. Dervan: Twinstrand Biosciences: Equity Ownership; Celgene Corporation: Employment, Equity Ownership. Schmitz: Celgene Corporation: Employment. Copeland: Celgene Corporation: Employment. Fitch: Celgene Corporation: Employment. Newhall: Celgene Corporation: Employment, Equity Ownership. Barlogie: Celgene Corporation: Consultancy, Research Funding; Millenium Pharmaceuticals: Consultancy, Research Funding. Foy: Celgene Corporation: Employment, Equity Ownership. Trotter: Celgene Corporation: Equity Ownership; Celgene Institute for Translational Research Europe: Employment. Hershberg: Adaptive Biotechnologies: Membership on an entity's Board of Directors or advisory committees; Fraizer Healthcare Partners: Consultancy; NanoString Technologies: Membership on an entity's Board of Directors or advisory committees; Celgene Corporation: Employment, Equity Ownership. Ratushny: Celgene Corporation: Employment. Morgan: Takeda: Consultancy, Honoraria; Bristol Myers: Consultancy, Honoraria; Celgene: Consultancy, Honoraria, Research Funding.",
+    "topics": [
+        "multiple myeloma",
+        "neoplasms",
+        "core needle biopsy",
+        "bone marrow aspiration",
+        "flow cytometry",
+        "gene expression profiling",
+        "infiltrates",
+        "rna",
+        "therapeutic intervention",
+        "tumor cells"
+    ],
+    "author_names": [
+        "Samuel Danziger, PhD",
+        "Andrew P Dervan",
+        "Frank Schmitz, MD PhD",
+        "Brian A Walker, PhD",
+        "Wilbert Copeland, PhD",
+        "Alison Fitch, BS",
+        "Kathryn Newhall, PhD",
+        "Cody Cody Ashby, PhD",
+        "Michael Bauer, PhD",
+        "Bart Barlogie, MD PhD",
+        "Teri Foy, PhD",
+        "Matthew Trotter, PhD",
+        "Rob Hershberg, MD PhD",
+        "Alexander Ratushny, PhD",
+        "Gareth J. Morgan, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Samuel Danziger, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Seattle, WA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew P Dervan",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Frank Schmitz, MD PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Seattle, WA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brian A Walker, PhD",
+            "author_affiliations": [
+                "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wilbert Copeland, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Seattle, WA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alison Fitch, BS",
+            "author_affiliations": [
+                "Celgene Corporation, Seattle, WA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kathryn Newhall, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Seattle, WA "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cody Cody Ashby, PhD",
+            "author_affiliations": [
+                "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Bauer, PhD",
+            "author_affiliations": [
+                "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bart Barlogie, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology and Medical Oncology, Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Teri Foy, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Seattle, WA "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matthew Trotter, PhD",
+            "author_affiliations": [
+                "Celgene Institute for Translational Research Europe (CITRE), Seville, Spain"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rob Hershberg, MD PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexander Ratushny, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Seattle, WA "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gareth J. Morgan, MD PhD",
+            "author_affiliations": [
+                "Myeloma Institute, University of Arkansas for Medical Sciences, Little Rock, AR "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T12:57:47",
+    "is_scraped": "1"
 }

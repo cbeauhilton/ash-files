@@ -1,8 +1,75 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3690",
-    "start_url_page_num": "3690",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.1671.1671",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/1671/79734/Comparison-of-Variant-Interpretation-between?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T12:41:46",
-    "is_scraped": "0"
+    "article_title": "Comparison of Variant Interpretation between Manual Expert Curator and Automated in-Silico Classification Using ACMG/AMP Guidelines in Myeloid Malignancies in a Routine NGS Setting ",
+    "article_date": "December 7, 2017",
+    "session_type": "636. Myelodysplastic Syndromes\u2014Basic and Translational Studies: Poster I",
+    "abstract_text": "Background: In recent years, with the adoption of next generation sequencing, clinical laboratories are performing an increasing catalogue of genetic testing. This shift in paradigm was accompanied by new challenges in variant interpretation. Evaluating the pathogenicity of a variant is challenging given the plethora of types of genetic evidence that laboratories have to consider. Deciding how to weigh each type of evidence is difficult, and standards are needed. In 2015, ACMG/AMP published guidelines with 28 criteria that include evidence derived from population data, case-control analyses, functional data, computational predictions, allelic data, segregation studies, and de novo observations to assess variants with conflicting data.in different sources. Aims: We set out to evaluate in myeloid malignancies how the ACMG/AMP guidelines compare to an accredited laboratory approach to variant classification and explore the variance in the use and interpretation of the pathogenicity criteria. This may reduce variability in reporting across different labs and improve upon turn-around time of NGS results. Patient cohort and method: We have selected 50 cases with myeloid malignancies and with an interesting and complex mutational pattern, harboring variants which were difficult to classify during routine workup, analyzed either with a 26 genes myeloid panel (ThunderStorm Target Enrichment library; Raindance, Billerica, MA) or a 63 genes panel (TruSeq Custom Amplicon; Illumina, San Diego, CA). Alignment and Variant calling was performed with JSI SeqPilot (JSI Medisys, Ettenheim, Germany). Expert curators in the lab annotated each variant manually in a 3-tier system (pathogenic, uncertain significance, benign) given the lab's SOP for variant classification. Each variant was checked against the following databases: COSMIC (v76), ClinVar, dbSNP (v147) and IARC TP53 (r17). Population frequency information was extracted from ExAC (gnomAD) and 1,000 genomes. Disease-associated frequency of mutations was extracted from the lab's own database based on 235,669 variants classified between 2006 and 2017. Mutation impact prediction was performed using PolyPhen-2, SIFT and VEP. For this study, VCF files from Seqpilot were analyzed in QCI interpret software (Qiagen, Hilden, Germany), which computes variant classification based on ACMG/AMP professional guidelines without human intervention. In contrast to the lab's 3-tier system, a 5-tier system is proposed (Pathogenic, Likely pathogenic, Uncertain significance, Likely benign, Benign). Results: Among the 50 cases 747 variants were classified in our labs routine workflow according SOPs and accreditation according EN ISO15189, subsequent to the elimination of sequencing artefacts. 443 were classified as benign, 55 with variant of uncertain significance (VUS) and 248 as pathogenic by the expert curators. Using the computed classification yielded 395 benign variants, 16 likely benign, 143 with uncertain significance, 86 likely pathogenic and 107 pathogenic variants. To be able to compare, pathogenic/likely pathogenic and benign/likely benign were binned together. In 87% (651/747) of instances both approaches are concordant. Strikingly, there were no strong discordance calls, with a mismatch between pathogenic and benign (see Table 1). Manual interrogation of a subset of the discrepant calls revealed that in those instances, public data was scarce and/or in-silico mutation impact predication was unavailable. In some instances the pathogenic call in the manual approach was due to disease-specific frequency data of that particular variant in the lab's database. Conclusion: This study systematically evaluated the performance of manual curation against fully automated ACMG/AMP guideline variant classification and found a high concordance rate of 87% between both approaches. With more curated data and more comprehensive knowledge bases, the automated classification will even improve further. The automated approach seems to be more cautious, thus the bias towards more uncertain significance calls, which is preferable to miscalls. The guidelines seem to yield results sufficiently good for clinical use, especially for labs with little experience in variant classification and a big step forward regarding standardization. View large Download slide View large Download slide  Close modal Disclosures Nadarajah: MLL Munich Leukemia Laboratory: Employment. Meggendorfer: MLL Munich Leukemia Laboratory: Employment. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Kern: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership.",
+    "topics": [
+        "cancer",
+        "guidelines",
+        "massively-parallel genome sequencing",
+        "leukemia",
+        "laboratory techniques and procedures",
+        "laboratory test finding",
+        "standard operating procedure",
+        "artifacts",
+        "cisplatin/vinblastine protocol",
+        "genetic screening"
+    ],
+    "author_names": [
+        "Niroshan Nadarajah",
+        "Manja Meggendorfer, PhD",
+        "Claudia Haferlach, MD",
+        "Wolfgang Kern, MD",
+        "Torsten Haferlach, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Niroshan Nadarajah",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manja Meggendorfer, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Claudia Haferlach, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wolfgang Kern, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Torsten Haferlach, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T13:00:21",
+    "is_scraped": "1"
 }

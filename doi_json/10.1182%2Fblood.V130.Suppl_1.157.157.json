@@ -1,8 +1,165 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3696",
-    "start_url_page_num": "3696",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.157.157",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/157/79546/Genomic-Biomarkers-to-Predict-Response-to?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T13:39:28",
-    "is_scraped": "0"
+    "article_title": "Genomic Biomarkers to Predict Response to Hypomethylating Agents in Patients with Myelodysplastic Syndromes (MDS) ",
+    "article_date": "December 7, 2017",
+    "session_type": "637. Myelodysplastic Syndromes\u2014Clinical Studies: Predicting Drug Response Using Novel Genomic Algorithms",
+    "abstract_text": "Background While treatment with the hypomethylating agents (HMAs) azacitidine (AZA) and decitabine (DAC) improves cytopenias and prolongs survival in MDS patients (pts), response is not guaranteed. Identification of non-responders could prevent prolonged exposure to ineffective therapy, avoid toxicities and decrease unnecessary costs. Some genomic abnormalities may predict response to HMAs in small subset of pts, though this approach doesn't take into account the genomic heterogeneity of the disease and the association of these mutations with others. Aim We developed an unbiased framework to study the association of several mutations in predicting response to HMAs, analogous to Netflix or Amazon's recommender system in which customers who bought products A and B is likely to buy C: pts who have a mutation in gene A, and B are likely to respond or not respond to HMAs. Methods We screened a cohort of 433 pts with MDS (per 2008 WHO criteria) who received HMAs (230 at our institution [training cohort], and 203 at multiple other academic institutions [validation cohort]) for the presence of common myeloid mutations in 29 genes that are obtained by NGS prior to start HMA. Responses were assessed per IWG 2006 criteria. The association between mutations and response was evaluated by the Apriori market basket analysis algorithm. Association rule is a machine learning method that can discover hidden relationships between variables in a dataset. Rules with highest confidence (confidence that the association exist) and highest lift (how strong is the association) were chosen. Results Among 433 pts, 193 (45%) received AZA, 176 (40%) DAC, and 64 (15%) received HMA +/- combination. The median age was 70 years (range, 31-100) and 28% were female. A total of 125 (29%) had very low/low risk, 100 (23%) intermediate, 113 (26%) high, and 95 (22%) very high risk category per IPSS-R. Responses included: 95 (22%) complete remission (CR), 14 (3%) marrow CR, 16 (4%) partial remission (PR), and 59 (14%) hematologic improvement (HI). For the purpose of this analysis, pts with CR/PR/HI were considered as responders. The most commonly mutated genes were: ASXL1 (31%), TET2 (22%), SRSF2 (17%), RUNX1 (15%), DNMT3A (14%), SF3B1 (13%), and TP53 (12%). The median number of mutations per sample was 3 (range, 0-9), and 182 pts (42%) had > 3 mutations per sample. In univariate analyses, no single mutation was more prevalent in responders compared to non-responders except NF1 (more common in non-responders, p = .04). TP53 mutations did not predict response or resistance to HMA. A logistic regression multivariate analysis that included clinical and mutational data did not produce a reliable and reproducible model for response. Further, the number of mutations per sample did not predict response (3 mutations, p = .09). Co-mutated genes such as TET2+ASXL1 , TET2+SRSF2 , and others did not predict response/resistance to HMA. Association rules identified the following genomic combinations as being highly associated with no response: ( ASXL1 , NF1 ), ( ASXL1 , EZH2 , TET2 ); ( ASXL1 , EZH2 , RUNX1 ), ( EZH2 , SRSF2 , TET2 ); ( ASXL1 , EZH2 , SRSF2 ); ( ASXL1 , RUNX1 , SRSF2 ); ( ASXL1 , TET2 , SRSF2 ); ( ASXL1, BCOR, RUNX1); and ( SRSF2, RUNX1, BCOR ) while the combination of ( TET2 , RUNX1 , SRSF2 ) predicted response, Figure 1. These molecular signatures are present in 31% of pts with >/= 3 mutations/sample of the total pt population. They predicted response among 30% of pts with lower-risk disease by IPSS and 30% of pts with higher-risk disease with >/= 3 mutations/sample. When applying these rules to the validation cohort, the sensitivity of these genomic biomarkers for no response to HMA was 1, specificity for response to HMA was 1, and accuracy was .85. Conclusion Genomic biomarkers can identify about a third of pts with MDS who will not respond to HMAs, with high sensitivity. Although these abnormalities are only present in a subset of pts, it can be used to tailor treatment options for these pts by offering alternative therapies to pts with lower risk disease and enrolling pts with higher risk disease on clinical trial with novel combination or proceed to transplant without prior HMA treatment. This study highlights the complexity of interpreting genomic data in regards to response to HMA and addresses the importance of machine learning technologies such as the recommender system algorithm in translating genomic data into useful clinical tools. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Sekeres: Celgene: Membership on an entity's Board of Directors or advisory committees. Bejar: Genoptix: Consultancy, Honoraria, Patents & Royalties; Celgene: Consultancy, Honoraria, Other: DSMB, Steering Committee, Research Funding; Otsuka/Astex: Honoraria, Other: Ad-hoc advisory board; Foundation Medicine: Honoraria, Other: Ad-hoc advisory board; AbbVie/Genetech: Honoraria, Other: Ad-hoc advisory board; Modus Outcomes: Consultancy, Honoraria. Komrokji: Novartis: Honoraria, Speakers Bureau; Celgene: Honoraria. Steensma: Onconova: Consultancy; Janssen: Consultancy, Research Funding; Takeda: Consultancy; Incyte: Equity Ownership; H3 Biosciences: Consultancy; Celgene: Consultancy; Pfizer: Consultancy; Amgen: Consultancy, Membership on an entity's Board of Directors or advisory committees; Pfizer: Consultancy, Membership on an entity's Board of Directors or advisory committees; Novartis: Consultancy, Membership on an entity's Board of Directors or advisory committees. Roboz: Cellectis: Research Funding; AbbVie, Agios, Amgen, Amphivena, Array Biopharma Inc., Astex, AstraZeneca, Celator, Celgene, Clovis Oncology, CTI BioPharma, Genoptix, Immune Pharmaceuticals, Janssen Pharmaceuticals, Juno, MedImmune, MEI Pharma, Novartis, Onconova, Pfizer, Roche Pharmace: Consultancy. Ebert: H3 Biomedicine: Consultancy; Genoptix: Patents & Royalties; GRAIL: Consultancy; Celgene: Research Funding.",
+    "topics": [
+        "biological markers",
+        "genome",
+        "myelodysplastic syndrome",
+        "brachial plexus neuritis",
+        "prostatic hypertrophy risk score",
+        "protein p53",
+        "risk reduction",
+        "alternative medicine",
+        "azacitidine",
+        "clinical diagnostic instrument"
+    ],
+    "author_names": [
+        "Aziz Nazha, MD",
+        "Mikkael A. Sekeres, MD MS",
+        "Rafael Bejar, MD PhD",
+        "Rami S. Komrokji, MD",
+        "John Barnard, PhD",
+        "Karam Al-Issa, MD",
+        "Bartlomiej P. Przychodzen, MSc",
+        "Cassandra M. Hirsch, BS",
+        "David P. Steensma, MD",
+        "Amy E. DeZern, MD",
+        "Gail J. Roboz, MD",
+        "Guillermo Garcia-Manero, MD",
+        "Benjamin L. Ebert, MD PhD",
+        "Jaroslaw P. Maciejewski, PhD MD FACP"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Aziz Nazha, MD",
+            "author_affiliations": [
+                "Taussig Cancer Institute, Department of Hematology & Medical Oncology, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mikkael A. Sekeres, MD MS",
+            "author_affiliations": [
+                "Taussig Cancer Institute, Department of Hematology & Medical Oncology, Cleveland Clinic Taussig Cancer Institute, Cleveland, OH "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rafael Bejar, MD PhD",
+            "author_affiliations": [
+                "Moores Cancer Center, Univeresity of California, San Diego, La Jolla, CA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rami S. Komrokji, MD",
+            "author_affiliations": [
+                "H. Lee Moffitt Cancer Center, Tampa, FL "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John Barnard, PhD",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Cleveland Clinic, Cleveland, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karam Al-Issa, MD",
+            "author_affiliations": [
+                "Leukemia Program, Taussig Cancer Institute, Department of Hematology and Medical Oncology, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bartlomiej P. Przychodzen, MSc",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cassandra M. Hirsch, BS",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David P. Steensma, MD",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amy E. DeZern, MD",
+            "author_affiliations": [
+                "Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gail J. Roboz, MD",
+            "author_affiliations": [
+                "Division of Hematology and Oncology, Weill Cornell Medical College, New York, NY "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Guillermo Garcia-Manero, MD",
+            "author_affiliations": [
+                "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Benjamin L. Ebert, MD PhD",
+            "author_affiliations": [
+                "Division of Hematology, Harvard Medical School, Boston, MA"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jaroslaw P. Maciejewski, PhD MD FACP",
+            "author_affiliations": [
+                "Taussig Cancer Institute, Department of Hematology & Medical Oncology, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T13:07:08",
+    "is_scraped": "1"
 }
