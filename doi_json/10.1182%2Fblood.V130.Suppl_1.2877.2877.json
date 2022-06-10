@@ -1,8 +1,115 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3718",
-    "start_url_page_num": "3718",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.2877.2877",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/2877/80707/Association-of-Tyrosine-Kinase-Inhibitors-with?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T14:18:16",
-    "is_scraped": "0"
+    "article_title": "Association of Tyrosine Kinase Inhibitors with Vascular Adverse Events: A Cohort Study Using Pooled Electronic Health Record ",
+    "article_date": "December 7, 2017",
+    "session_type": "632. Chronic Myeloid Leukemia: Therapy: Poster II",
+    "abstract_text": "Introduction Tyrosine Kinase Inhibitor (TKI)-associated vascular adverse events (VAE) have emerged as one of the challenges in the management of chronic myeloid leukemia (CML). Available knowledge on association of TKIs with VAE mostly comes from randomized clinical trials but there are concerns about comprehensiveness of the reported data. This is because different trials have relied on differing definitions to capture VAE. It is generally considered that TKI-associated VAE reported in clinical trials are underestimates. In this retrospective cohort study, we used a clinical informatics approach to collect data on CML pts from multiple, distinct electronic health records across several different healthcare systems and report on the prevalence of VAE in CML cohorts treated on different TKIs. Methods Explorys Enterprise Performance Management (EPM) is a HIPAA-compliant database containing de-identified clinical data on 50 million pts from 26 healthcare networks comprising 360 hospitals since 1999. As this database is HIPAA-compliant, IRB approval was waived by Cleveland Clinic IRB. In this study, we used the EPM database's \"power search\" tool to create CML cohort and then identified VAE events occurring after TKI initiation using specific temporal relationships. Power searches for data extraction relies on associating clinical informatics standard ontologies that includes Current Procedural Terminology (CPT) (for procedures), International Classification of Diseases 9th edition (ICD-9) and 10th edition (for diagnoses), logical observation identifiers names and codes (LOINC) (for laboratory information), Medical Subject Headings (MeSH) (for medical topics), RxNorm (for pharmacy information), and Systematized Nomenclature for Medicine - Clinical Terms (SNOMED-CT) (for medical terms). We created temporal attributes linking the CML cohort to outcome of interest (VAE) using SNOMED-CT diagnosis for VAE (included coronary, cerebrovascular and peripheral arterial disease, venous thrombosis among others) and subsequently mapping it with RxNorm (all anticoagulants or antiplatelet agents in clinical use for the study time period) and CPT codes (use of inferior vena cava filter or thrombectomy). All generated quantitative data using EPM database are rounded to the nearest 10 for the purposes of de-identification. Results Using Explorys, we identified a total of 2750 CML pts who were treated with imatinib, 680 pts with dasatinib, 600 pts with nilotinib and 870 pts with 2 or more TKI's. Of the five TKIs, we excluded bosutinib and ponatinib from analysis because of low pt numbers (<100). Baseline demographic characteristics showing overall distribution of atherosclerotic disease in CML pts treated with these three TKIs are shown in Table 1. Of note, there was a high prevalence of coronary arteriosclerosis in these TKI-treated cohorts - 29% in imatinib cohort, 28% in nilotinib group and 22% in pts who received dasatinib. A total of 780 VAE (28%) were identified after initiation of imatinib - 19% (520/2750) of them were arterial events and 9.5% (260/2750) were venous. Following initiation of nilotinib, 160 VAE occurred with a prevalence rate of 26.6% - 18.3% (110/600) of them were arterial and 8.3% (50/600) were venous. After starting dasatinib, 150 VAE was identified with a prevalence rate of 22% - 14.7% (100/680) of them were arterial events and 7.4% (50/680) were venous. In CML pts treated with 2 or more TKIs, the prevalence of VAE was highest at 36.8% (320/870) - 24.1% (210/870) were arterial and 12.6% were venous events. Conclusions: In this population based study of CML pts using clinical informatics approach, we report a much higher rate of VAE, both arterial and venous in TKI cohorts compared to that reported in clinical trials. Ontology based linking of CML with outcomes of interest and cross confirmation with subsequent anticoagulation treatment received ensures accuracy of the reported events using this approach. Arterial vascular events ranged from 15-20% whereas venous events were reported in the range of 8-9% for the three TKIs examined. Surprisingly high rates of VAE noted in the imatinib cohort could be the result of lead time bias because of earlier introduction of imatinib. Additional analysis of this cohort is underway to characterize this association. View large Download slide View large Download slide  Close modal Disclosures Gerds: Incyte: Consultancy; CTI BioPharma: Consultancy. Advani: Takeda/ Millenium: Research Funding; Pfizer: Consultancy. Majhail: Sanofi: Honoraria; Anthem, Inc.: Consultancy. Sekeres: Celgene: Membership on an entity's Board of Directors or advisory committees.",
+    "topics": [
+        "adverse event",
+        "electronic medical records",
+        "protein-tyrosine kinase inhibitor",
+        "venous air embolism",
+        "brachial plexus neuritis",
+        "imatinib mesylate",
+        "dasatinib",
+        "nilotinib",
+        "anticoagulants",
+        "anticoagulation"
+    ],
+    "author_names": [
+        "Olivia Copelan, BA",
+        "Aaron T. Gerds, MDMS",
+        "Hetty E. Carraway, MD MBA",
+        "Anjali S. Advani, MD",
+        "Aziz Nazha, MD",
+        "Navneet S. Majhail, MD MS",
+        "Mikkael A. Sekeres, MD MS",
+        "Matt Kalaycio, MD",
+        "Sudipto Mukherjee, MD PhD MPH"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Olivia Copelan, BA",
+            "author_affiliations": [
+                "Case Western Reserve University School of Medicine, Columbus, OH "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aaron T. Gerds, MDMS",
+            "author_affiliations": [
+                "Taussig Cancer Institute, Department of Hematology & Medical Oncology, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hetty E. Carraway, MD MBA",
+            "author_affiliations": [
+                "Taussig Cancer Institute, Department of Hematology & Medical Oncology, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anjali S. Advani, MD",
+            "author_affiliations": [
+                "Leukemia Program, Taussig Cancer Institute, Department of Hematology and Medical Oncology, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aziz Nazha, MD",
+            "author_affiliations": [
+                "Taussig Cancer Institute, Department of Hematology & Medical Oncology, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Navneet S. Majhail, MD MS",
+            "author_affiliations": [
+                "Taussig Cancer Institute, Department of Hematology & Medical Oncology, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mikkael A. Sekeres, MD MS",
+            "author_affiliations": [
+                "Taussig Cancer Institute, Department of Hematology & Medical Oncology, Cleveland Clinic Taussig Cancer Institute, Cleveland, OH "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matt Kalaycio, MD",
+            "author_affiliations": [
+                "Blood and Marrow Transplant Program, Department of Hematology and Medical Oncology, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sudipto Mukherjee, MD PhD MPH",
+            "author_affiliations": [
+                "Taussig Cancer Institute, Department of Hematology & Medical Oncology, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T21:27:29",
+    "is_scraped": "1"
 }
