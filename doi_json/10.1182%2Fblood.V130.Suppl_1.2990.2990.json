@@ -1,8 +1,115 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3708",
-    "start_url_page_num": "3708",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.2990.2990",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/2990/80507/Computational-Integration-to-Model-Tumor-Dynamics?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T14:17:39",
-    "is_scraped": "0"
+    "article_title": "Computational Integration to Model Tumor Dynamics in CLL Patients Treated with the Btk Inhibitor Ibrutinib (CompuTreatCLL): First Results of an Integrative Systems Biology Approach ",
+    "article_date": "December 7, 2017",
+    "session_type": "641. CLL: Biology and Pathophysiology, excluding Therapy: Poster II",
+    "abstract_text": "Introduction: The Btk inhibitor ibrutinib is now a standard therapy for the treatment of CLL. Its daily and prolonged use results in a highly complex illness, the management of which poses multiple challenges. By impairing B-cell receptor signaling, survival, and homing of leukemic cells, ibrutinib purges CLL cells out of the lymphoid organs and/or induces their apoptosis. However, important inter-patient variability in the redistribution of the leukemic cells, the rate of leukemic cell elimination and the disparity of relapses call for an in-depth ( i.e. systemic ) analysis of the parameters influencing the dynamical behavior of the leukemic cell population in individual patients. In CompuTreatCLL project we consider treatment of CLL with ibrutinib as a prototypical showcase to implement an original systems biology approach in the management of this disease. Aims and methods: The overall objective of this project (started May 2016, 25 pts planned per year, 3 years of follow-up) is to elaborate a computational model that accounts for the physical and biological evolution of the CLL leukemic cell population during ibrutinib therapy. The collected data stem from pharmacokinetic study, dynamic imaging (whole-body diffusion-weighted MRI+Tepscan day 0-1-12-24 months), clinical evolution, and in vitro read-outs of leukemic cell viability, tumoral heterogeneity (by measuring relative apparent diffusion coefficients, or ADCs), and migrative/adhesion capacities of both tumoral B cells, nurselike cells and normal T cells (assessed with a high content screening imaging protocol). Results: The first month of ibrutinib therapy, we found three groups of response, as already described by A.wiestner's and J.Burger's groups. As expected, our first 24 patients segregate into 3 different subsets based on baseline fold-change of CD5+/CD19+ lymphocytes counts, monthly monitored from month 0-6 (n=8 each): group 1 had a transient (6mo). For the first time, we were able to correlate BTK/p-BTK levels, nodal/spleen bulk (in cubic centimeters), absolute numbers of normal immune subsets, PK parameters (Cmax, Cmin, AUC), and in vitro apoptotic response to 0.25microM ibrutinib measured at day 0 and day 30, to these 3 groups reflecting inter-patient variability. At baseline, response at 1 month was not predicted by BTK/pBTK levels, CD4/CD8/NK/B cells levels, but interestingly group 2 patients had significantly more Tregs cells and CD4/PD-1+ cells than in groups 1 and 3 (which had very similar immune subsets cell levels). In accordance publications about heavy water experiments and math models of kinetics of CLL cells in blood and tissues indicating that the reduction of disease burden is due more to cell death than egress from nodal compartments, we found that in vitro response to ibrutinib (before initiation of therapy in patients) was highly correlated to response group (mean % of B-cell depletion: 24% in group 3 vs 45% in group 2 vs 70% in group 2, correlation coefficient r 2 =0.4962, p<0.01). Interestingly, tissular disease as assessed with MRI was not different among the 3 groups. After one month, no PK parameter was correlated to response group. Median lymph node sizes reduction (evaluated with a in-house, informatic delineation tool to avoid long radiologist interpretation time) tends to be significantly higher in group 1 and 3 than in group 2. Conclusion: The project is expected to elucidate key questions about mechanisms underlying response to treatment, by identifying which biological parameters (from both CLL/normal T cells counterparts) are linked to the in vivo redistribution and to the clinical outcomes. At the time of data presentation in December, we will have more data for early 1 mo MRI, and 12 mo MRI to correlate clinical response with early parameters of response and the 3 groups of lymphocytosis behaviour. Ultimately, a mathematical model based on the most relevant parameters will be elaborated with the perspective in the future to benchmark tumor micro-environment-targeting agents, and also maybe link cellularity to sub-clonal evolution (as already reported with tyrosine kinase inhibitors in oncology). Disclosures Ysebaert: Janssen: Consultancy, Research Funding, Speakers Bureau. Recher: Celgene, Sunesis, Amgen, Novartis: Research Funding; Novartis, Celgene, Jazz, Sunesis, Amgen: Consultancy.",
+    "topics": [
+        "btk inhibitors",
+        "ibrutinib",
+        "neoplasms",
+        "systems biology",
+        "leukemic cells",
+        "lymphocytosis",
+        "magnetic resonance imaging",
+        "diagnostic imaging",
+        "adhesions",
+        "brachial plexus neuritis"
+    ],
+    "author_names": [
+        "Loic Ysebaert, MD PhD",
+        "Sarah Cadot, PhD",
+        "Salim Kanoun, MD",
+        "Soleakhena Ken",
+        "Christian Recher, MD PhD",
+        "Fran\u00e7ois Malgouyres",
+        "Sebastien Gadat",
+        "Loic Dupre, PhD",
+        "Anne Quillet Mary, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Loic Ysebaert, MD PhD",
+            "author_affiliations": [
+                "Service d'Hematologie, IUCT-Oncopole, Toulouse, France "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sarah Cadot, PhD",
+            "author_affiliations": [
+                "CRCT, Inserm UMR 1037, Toulouse, France "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Salim Kanoun, MD",
+            "author_affiliations": [
+                "Radiology Department, IUC Toulouse Oncopole, Toulouse, France "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Soleakhena Ken",
+            "author_affiliations": [
+                "Radiology Department, IUC Toulouse Oncopole, Toulouse, France "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christian Recher, MD PhD",
+            "author_affiliations": [
+                "Clinical Hematology, IUCT Oncopole, Toulouse University Hospital, Toulouse, France "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Fran\u00e7ois Malgouyres",
+            "author_affiliations": [
+                "CNRS UMR 5219, Institut des Math\u00e9matiques de Toulouse, Toulouse, France "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sebastien Gadat",
+            "author_affiliations": [
+                "Universit\u00e9 Toulouse I Capitole, Toulouse School of Economics, Toulouse, France "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Loic Dupre, PhD",
+            "author_affiliations": [
+                "CPTP, Inserm UMR 1043, Toulouse, France"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anne Quillet Mary, PhD",
+            "author_affiliations": [
+                "CRCT, Inserm UMR 1037, Toulouse, France "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T18:38:38",
+    "is_scraped": "1"
 }

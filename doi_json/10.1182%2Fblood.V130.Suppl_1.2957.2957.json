@@ -1,8 +1,75 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3712",
-    "start_url_page_num": "3712",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.2957.2957",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/2957/80591/Deep-Learning-Algorithms-Depict-New-Subgroups-of?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T14:17:55",
-    "is_scraped": "0"
+    "article_title": "Deep Learning Algorithms Depict New Subgroups of AML and MDS Based on Genetics Only and Allow Distinction of Both Entities with High Accuracy of 90% ",
+    "article_date": "December 7, 2017",
+    "session_type": "636. Myelodysplastic Syndromes-Basic and Translational Studies: Poster II",
+    "abstract_text": "Since 45 years MDS and AML are separated according to the percentage of bone marrow blasts. Although this is an arbitrary threshold, it led to different therapeutic strategies and the discovery of more or less directly related cytogenetic changes. The last decade added a lot of molecular genetic information for diagnosis, prognosis and increasingly targeted treatment options. The vast majority of cytogenetic and molecular genetic findings however are common in both diseases, irrespective of blast count. However, the classification of myeloid neoplasms is still based on morphology. Therefore, we analyzed for the first time a large cohort of morphologically defined de novo AML (n=901) and MDS (n=2,097) patients (pts), all characterized by gene panel sequencing and cytogenetics, and applied deep learning algorithms to differentiate AML versus MDS based on genetics only. Mutation status of 22 recurrently mutated genes as well as 23 recurrent cytogenetic aberrations, including fusion transcripts and copy number variations, were used as markers. The dataset was initially filtered to exclude pts and genes with a large number of missing values, which would otherwise hamper the computational analysis of the cohort. The filtered dataset was randomly divided into a training (90%) and validation (10%) set. Subsequently we applied Lasso regression to classify AML versus MDS with 10-fold cross-validation. The whole procedure was repeated 1,000 times. We were able to classify AML versus MDS with an accuracy of 83%. Misclassification of 17% of pts indicated that these pts exhibited a genetic profile that could not be matched to the learned patterns of the two entities. Interestingly, the only cytogenetic markers that impacted classification at all but on a low level were PML - RARA and CBFB - MYH11 , while 19 gene mutations were of high impact. Hence, we applied unsupervised k-modes clustering to partition the pts into k groups per entity. Here the dissimilarity of two gene profiles was determined by simple-matching distance and the optimal k was chosen based on internal measures and biological relevance of the groups using the 19 most relevant gene mutations as markers only. The analysis revealed 4 genetically distinct clusters for both the AML and MDS cohorts. Within AML 158 pts were grouped in one cluster, dominated by mutations in ASXL1 , RUNX1 , and SRSF2 . A second cluster (n=160) was mainly set up by pts with NPM1 , IDH , and DNMT3A mutations, while a third cluster consisted of 41 pts with ASXL1 , NRAS , and TET2 mutations. The remaining pts (n=541) grouped in cluster 4 showed no obvious pattern. 242 MDS pts were grouped in one cluster with also ASXL1 , RUNX1 , and SRSF2 mutations. A second cluster contained 216 MDS pts with mainly ASXL1 , SRSF2 , and TET2 mutations. A third cluster was dominated by pts with SF3B1 mutation (n=382), while cluster 4 again was a cluster with no obvious pattern (n=1,257). We performed the same analysis for both entities together and identified 6 different clusters (Fig.). The distribution of AML and MDS to the 6 clusters differed significantly, one cluster each was dominated by AML and MDS, respectively, although each cluster contained pts from both entities. Cluster 2 represented cases with SF3B1 and RUNX1 mutation, while cluster 3 was dominated by NPM1 , IDH , and DNMT3A mutated AML pts. Cluster 4 contained preferentially pts with NPM1 and TET2 mutations and cluster 6 ASXL1 , RUNX1 , and TET2 mutated pts. Cluster 1 and 5 showed no obvious pattern. Interestingly, these 6 clusters showed different outcome within the AML and MDS subgroups, respectively (range median OS AML: 12 to 46 months, MDS: 9 months to not reached; p<0.001 for both groups). Using the 19 highly relevant genetic markers now for Lasso regression to classify AML versus MDS with 10-fold cross-validation we reached an accuracy of 90%. In conclusion, we here challenged arbitrary disease defining thresholds (20% of bone marrow blasts) and applied deep learning approaches and artificial intelligence to a cohort of AML and MDS pts. 1) We reproduced only on 19 molecular markers the standard diagnoses with an accuracy of 90%. 2) We detected specific molecular patterns shared from AML and MDS cases that were irrespective of the original WHO diagnoses. 3) The respective new patterns demonstrated different outcome within AML and MDS subgroups. This might be a first proof how future classification systems might be based on molecular data and deep learning algorithms. View large Download slide View large Download slide  Close modal Disclosures Meggendorfer: MLL Munich Leukemia Laboratory: Employment. Walter: MLL Munich Leukemia Laboratory: Employment. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Kern: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership.",
+    "topics": [
+        "biological markers",
+        "brachial plexus neuritis",
+        "deep learning",
+        "genetics",
+        "leukemia",
+        "neoplasms",
+        "progressive multifocal leukoencephalopathy",
+        "retinoic acid receptor alpha",
+        "chromosome abnormality",
+        "genetic markers"
+    ],
+    "author_names": [
+        "Manja Meggendorfer, PhD",
+        "Wencke Walter, PhD",
+        "Claudia Haferlach, MD",
+        "Wolfgang Kern, MD",
+        "Torsten Haferlach, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Manja Meggendorfer, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wencke Walter, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Claudia Haferlach, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wolfgang Kern, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Torsten Haferlach, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T18:43:47",
+    "is_scraped": "1"
 }

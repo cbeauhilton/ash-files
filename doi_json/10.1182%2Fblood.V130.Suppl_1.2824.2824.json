@@ -1,8 +1,147 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3709",
-    "start_url_page_num": "3709",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.2824.2824",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/2824/80530/Parsimonious-Gene-Correlation-Network-Analysis-in?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T14:17:43",
-    "is_scraped": "0"
+    "article_title": "Parsimonious Gene Correlation Network Analysis in DLBCL Allows Refined Linkage to Mutation State and Treatment Response ",
+    "article_date": "December 7, 2017",
+    "session_type": "626. Aggressive Lymphoma (Diffuse Large B-Cell and Other Aggressive B-Cell Non-Hodgkin Lymphomas)-Results from Prospective Clinical Trials: Poster II",
+    "abstract_text": "Background DLBCL can be divided into categories based on gene expression signatures. The two common classifications, Cell of Origin (COO) and Consensus Clustering Classification (CCC), assess overlapping but distinct aspects of DLBCL biology. We sought to explore the DLBCL expression landscape, without using prior knowledge, using a novel parsimonious gene correlation network approach (PGCNA). Methods Using 10 publicly available DLBCL data-sets we calculated pairwise correlations amongst the most variant genes. To aid module discovery the median correlations (across data-sets) were strongly filtered to remove noise. Resulting correlations were used to carry out 10,000 independent clusterings of the data utilizing a fast modularity optimisation method. Clusterings were ranked by modularity score and the top 100 clusterings were analysed for linkage of each module per cluster to biological function with a weighting to reward purity. Modules in each clustering were compared to calculate cluster stability. This process resulted in an optimised network level view of gene expression correlations in DLBCL. Using sets of the most correlated (hub) genes per module, the enrichment of the modules was mapped back onto expression data-sets allowing classification of individual cases. The network modules were then used to assess the independent REMoDL-B DLBCL data-set (n=923, frontline study R-CHOP versus R-CHOP with bortezomib) Results The parsimonious gene correlation network approach (PGCNA) defines 26 modules corresponding to core biological processes and differentiation states including ABC-like, GCB-like, immune, lymph node, cell-cycle and metabolic. This integrated view, derived solely from the intrinsic structure of gene expression across many clusterings and recurrent across all data-sets, extends fundamental concepts of DLBCL disease biology and visualises the fundamental linkages between core biological processes. Analysis of the modules across the 11 data-sets reveals that the ABC- and GCB-like modules explain most of the variance across the DLBCL patients alongside the host-response/immunogenic cluster. The association of modules with mutation status, assigned COO class (ABC, GCB and COO-UNC) and outcome was then tested in the REMoDL-B data-set. This established the significant enrichment of the ABC-like module with MYD88 *** , CD79B *** and PRDM1 *** and GCB-like with EZH2 *** , CREBBP *** , MEF2B *** and KMT2D ** mutations, confirming the association of these expression states with specific mutations independent of conventional COO classification. Novel associations in DLBCL between the cell-cycle module and DDX3X *** , the lymph-monocyte module and FAS ** and B2M * , and the lymph-node/stromal module and TNFAIP3 ** were also identified ( p -value *** < 0.001,** < 0.01, *< 0.05). Interestingly more diverse associations are observed between selected gene mutations and expression modules, for example for MYD88 , underlining the importance of defining both expression and mutation state. Analysis of REMoDL-B survival data (OS and PFS) confirmed the association of differentiation-linked expression states with outcome trends independently of conventional COO-classification: ABC-like module with increased hazard ratio (HR), GCB-like module with decreased HR. Lymph-node and mast-cell modules were associated with decreased HR in both OS/PFS in both treatment arms (R-CHOP/RB-CHOP). Of note some modules differed in HR association between treatment types, for example the glycolysis module, associated with a decreased HR only in the R-CHOP treatment arm. Conclusion Network analysis provides an integrated view of the DLBCL expression landscape without a priori concepts. Discovery of expression modules corresponding to ABC and GCB-like states alongside those corresponding to OxPhos, BCR and Host Response groups provides a unified view of these features of DLBCL biology. The DLBCL expression modules allow refined linkage to mutation state and treatment response. Figure View large Download slide Figure View large Download slide  Close modal Disclosures Davies: Janssen: Honoraria, Research Funding; CTI: Honoraria, Membership on an entity's Board of Directors or advisory committees; Takeda: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Bayer: Research Funding; Karyopharma: Membership on an entity's Board of Directors or advisory committees, Research Funding; Roche: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Gilead: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Mundipharma: Honoraria, Membership on an entity's Board of Directors or advisory committees; Celgene: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Pfizer: Honoraria, Research Funding; GSK: Research Funding. Johnson: Epizyme: Research Funding; Genmab: Consultancy, Honoraria; Boehringer Ingelheim: Consultancy, Honoraria; Zenyaku Kogyo: Consultancy, Honoraria; Janssen: Research Funding; Novartis: Consultancy, Honoraria; Incyte: Consultancy, Honoraria; Celgene: Consultancy, Honoraria; Bristol-Myers Squibb: Consultancy, Honoraria; Karus: Consultancy, Honoraria; Takeda: Consultancy, Honoraria; Carrick: Consultancy, Honoraria.",
+    "topics": [
+        "diffuse large b-cell lymphoma",
+        "genes",
+        "mutation",
+        "r-chop",
+        "bortezomib",
+        "cyclophosphamide, doxorubicin, prednisone, and vincristine",
+        "tumor necrosis factor alpha-induced protein 3",
+        "lymph nodes",
+        "immune response",
+        "arm"
+    ],
+    "author_names": [
+        "Matthew A Care, PhD MSc, BSc",
+        "Sharon Barrans",
+        "Michael A Bentley",
+        "Ming Wang",
+        "Alexandra Clipson",
+        "Ming-Qing Du",
+        "Cathy H Burton",
+        "Josh Caddy",
+        "Andrew J Davies, PhD",
+        "Peter Johnson",
+        "David R Westhead",
+        "Reuben M Tooze"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Matthew A Care, PhD MSc, BSc",
+            "author_affiliations": [
+                "LICAP, University of Leeds, Leeds, United Kingdom ",
+                "Institute of Molecular and Cellular Biology, University of Leeds, Leeds, United Kingdom "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sharon Barrans",
+            "author_affiliations": [
+                "HMDS, Leeds Cancer Centre, Leeds Teaching Hospitals NHS Trust, Leeds, United Kingdom "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael A Bentley",
+            "author_affiliations": [
+                "Department of Genetics, University College London, London, United Kingdom "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ming Wang",
+            "author_affiliations": [
+                "Department of Pathology, University of Cambridge, Cambridge, United Kingdom "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexandra Clipson",
+            "author_affiliations": [
+                "Department of Pathology, University of Cambridge, Cambridge, United Kingdom "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ming-Qing Du",
+            "author_affiliations": [
+                "Department of Pathology, University of Cambridge, Cambridge, United Kingdom "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cathy H Burton",
+            "author_affiliations": [
+                "HMDS, Leeds Cancer Centre, Leeds Teaching Hospitals NHS Trust, Leeds, United Kingdom "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Josh Caddy",
+            "author_affiliations": [
+                "Southampton Clinical Trials Unit, University of Southampton, Southampton, United Kingdom "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew J Davies, PhD",
+            "author_affiliations": [
+                "Cancer Research UK Clinical Centre, University of Southampton, Southampton, United Kingdom "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter Johnson",
+            "author_affiliations": [
+                "Cancer Research UK Clinical Centre, University of Southampton, Southampton, United Kingdom "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David R Westhead",
+            "author_affiliations": [
+                "Institute of Molecular and Cellular Biology, University of Leeds, Leeds, United Kingdom "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Reuben M Tooze",
+            "author_affiliations": [
+                "HMDS, Leeds Cancer Centre, Leeds Teaching Hospitals NHS Trust, Leeds, United Kingdom ",
+                "LICAP, University of Leeds, Leeds, United Kingdom"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T18:40:02",
+    "is_scraped": "1"
 }

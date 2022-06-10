@@ -1,8 +1,165 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3711",
-    "start_url_page_num": "3711",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.2954.2954",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/2954/80569/Computational-Biology-Approach-to-Predict?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T14:17:51",
-    "is_scraped": "0"
+    "article_title": "Computational Biology Approach to Predict Hypomethylating Agent (HMA) Response Using Genomic and Clinical Characteristics in Myelodsyplastic Syndromes (MDS) ",
+    "article_date": "December 7, 2017",
+    "session_type": "636. Myelodysplastic Syndromes-Basic and Translational Studies: Poster II",
+    "abstract_text": "Background: HMAs (e.g., azacitidine (AZA), decitabine (DAC)) are approved agents for the treatment of patients with MDS. Despite their widespread use, only 50% of patients respond to HMA without reliable biomarkers of response despite knowing the patient's genomic and clinical (non-genomic) characteristics prior to treatment. Unfortunately, no comprehensive method exists to predict HMA response in a patient using both genomic and non-genomic parameters, though we recently developed a genomics-informed computational biology method (CBM) for MDS (PMID 27855285). Predicting treatment response would improve management of MDS patients by empowering the clinician to restrict treatment-related adverse events to those who would benefit and also reduce health care costs. Aim: To predict response to HMA in MDS patients using a CBM approach, which analyzes genomic and non-genomic parameters at the time of treatment. Methods: Seventy-seven HMA treated higher-risk MDS, CMML and oligoblastic AML (20-30% blasts) patients with genomic and clinical data were identified from the Moffitt Cancer Center MDS database. 46 out of 77 had sufficient data for this analysis. The other 31 patients had insufficient genomic data to create a CBM profile (n=28), were missing clinical outcomes (n=1), or were treated with an agent not supported by CBM (n=2). The patient's genomic aberrations were detected on a targeted amplicon based next-generation sequencing (NGS) panel of 24 genes. Genomic (cytogenetic and NGS data) and non-genomic clinical data (age, WBC, ANC, Hb, platelets, bone marrow blast percentage) were used for CBM and drug response prediction. Digital drug simulations were conducted on each patient's computational MDS model by quantitatively measuring the drug effect on a cell growth score, which is a composite of cell proliferation, viability and apoptosis. Each patient-specific protein network map was digitally screened for the extent by which AZA or DAC reduced simulated MDS cell growth in a dose-respondent manner. The CBM tool combined the simulated drug response prediction and clinical data via a weighted decision tree analysis for final response call. Composite outcome of CR (complete response) + PR (partial response) + HI (hematological improvement) was used to define positive response (IWG 2006). Results : Clinically, 18/46 (39%) MDS patients treated with HMA achieved CR, PR, or HI, (Table 1). The CBM tool correctly predicted response by combining clinical and genomic data in 37/46 (80.43%) patients, resulting in 76.47% PPV, 82.76% NPV, 72.22% sensitivity and 85.71% specificity. 8 patients achieved a CR, and CBM correctly predicted 5 out of 8 responders (62.5%). This analysis found that MDS patients who harbored wild-t ype TET2, which historically are less likely to respond to HMA treatment, but possessed -7/7q and -20 chromosomal aberrations achieved a PR or HI response (N=3) and begs further investigation. CBM identified differential expression of protein kinases and transcription factors between responders and non-responders (Figure 1), suggesting potential HMA sensitivity and resistance mechanisms. Of note, non-responders were found to have higher activity in HIF1A, IRF7, SP1, MAPK3, PAK1, and RAF1. Conclusions: These results demonstrate a computational biological modelingtool to predict MDS response to standard of care HMA therapy based on genomic and non-genomic parameters. Predicting non-response could spare patients from ineffective therapies, avoid treatment-related adverse events, and decrease cost of care. This technology also gives novel insights into the molecular mechanisms by which each drug impacts the MDS disease-specific biomarkers and characteristics. View large Download slide View large Download slide  Close modal Disclosures Singh: Cellworks Research India Pvt. Ltd: Employment. Kumar: Cellworks Research India: Employment. Vasista: Cellworks Research India: Employment. Sahu: Cellworks Research India Pvt. Ltd: Employment. Naga: Cellworks: Employment. Dattatraya: cellwoks: Employment. Abbasi: Cellworks Group Inc.: Employment. Vali: Cellworks Group Inc.: Employment. Sallman: Celgene: Research Funding. Komrokji: Celgene: Honoraria; Novartis: Honoraria, Speakers Bureau. Cogle: Celgene: Other: Membership on Steering Committee for Connect MDS/AML Registry.",
+    "topics": [
+        "adverse event",
+        "azacitidine",
+        "biological markers",
+        "chromosome abnormality",
+        "complete remission",
+        "computational biology",
+        "decitabine",
+        "genome",
+        "hypoxia inducible factor 1, alpha subunit",
+        "leukemia, myelomonocytic, chronic"
+    ],
+    "author_names": [
+        "Leylah M. Drusbosky, PhD",
+        "Salah-Eddin Komrokji",
+        "Najla Al Ali, M.Sc",
+        "Neeraj Kumar Singh, B.Tech",
+        "Chandan Kumar, MT",
+        "Sumanth Vasista, BE",
+        "Diwyanshu Sahu, M.Sc.",
+        "Ganesh Naga, BT",
+        "Patil Dattatraya, MS",
+        "Taher Abbasi, MS, MBA",
+        "Shireen Vali, PhD",
+        "David A Sallman, MD",
+        "Rami S. Komrokji, MD",
+        "Christopher R. Cogle, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Leylah M. Drusbosky, PhD",
+            "author_affiliations": [
+                "Department of Medicine/Division of Hematology Oncology, University of Florida, Gainesville, FL "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Salah-Eddin Komrokji",
+            "author_affiliations": [
+                "H. Lee Moffitt Cancer Center, Tampa, FL "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Najla Al Ali, M.Sc",
+            "author_affiliations": [
+                "Malignant Hematology, H. Lee Moffitt Cancer Center, Tampa, FL "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Neeraj Kumar Singh, B.Tech",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chandan Kumar, MT",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sumanth Vasista, BE",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Diwyanshu Sahu, M.Sc.",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ganesh Naga, BT",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Patil Dattatraya, MS",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Taher Abbasi, MS, MBA",
+            "author_affiliations": [
+                "Cellworks Group Inc., San Jose, CA "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shireen Vali, PhD",
+            "author_affiliations": [
+                "Cellworks Group Inc., San Jose, CA "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David A Sallman, MD",
+            "author_affiliations": [
+                "Moffitt Cancer Center, Tampa, FL "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rami S. Komrokji, MD",
+            "author_affiliations": [
+                "Malignant Hematology, H. Lee Moffitt Cancer Center, Tampa, FL "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher R. Cogle, MD",
+            "author_affiliations": [
+                "University of Florida, Gainesville, FL"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T18:42:27",
+    "is_scraped": "1"
 }

@@ -1,8 +1,110 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3708",
-    "start_url_page_num": "3708",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.3069.3069",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/3069/80503/Unbiased-Phosphoproteomics-Reveals-a?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T14:17:39",
-    "is_scraped": "0"
+    "article_title": "Unbiased Phosphoproteomics Reveals a Therapeutically Relevant Connection between Pre-mRNA Splicing and Proteasome Inhibition in Multiple Myeloma ",
+    "article_date": "December 7, 2017",
+    "session_type": "652. Myeloma: Pathophysiology and Pre-Clinical Studies, excluding Therapy: Poster II",
+    "abstract_text": "Introduction: Proteasome inhibitors (PIs) are first-line therapeutic agents in multiple myeloma. While these small molecules have revolutionized myeloma therapy, nearly all myeloma patients treated with PIs eventually experience drug resistance and relapse. We have previously examined the global effects of PIs on the transcriptional and translational landscape of multiple myeloma plasma cells (Wiita et al , eLife (2013) 2:01236). Here, we hypothesized that investigation into the intracellular signaling response to PI-induced stress would help elucidate additional PI mechanisms of action in this cancer. Methods: We applied an unbiased phosphoproteomic screen to MM.1S myeloma cells treated with the PI carfilzomib across a 24-hour time course. We used trypsin digestion, FeCl 2 enrichment, and a single-shot 4-hour LC method on each sample harvested at each time point on a Thermo Q-Exactive Plus mass spectrometer, with phosphopeptide identification and label-free quantification performed in MaxQuant. Targeted mass spec was then performed for validation on a subset of upregulated and downregulated phosphosites by parallel reaction monitoring (PRM) on SILAC-labeled, carfilzomib treated MM.1S cells, as well as another multiple myeloma cell line, AMO1, at 24 hr of treatment. MM.1S cells were also treated with another multiple myeloma therapeutic agent, melphalan, to compare the response to a non-PI drug. Analysis was carried out in Skyline. For paired-end mRNA-seq, we constructed sequencing libraries from the SILAC samples and sequenced on an Illumina HiSeq4000 and analyzed with JuncBASE software to correlate changes in splicing factor phosphorylation with alternative splicing events. In vitro viability studies of myeloma cell lines were carried out with Cell-titer-glo assay. For in vivo studies, we used disseminated murine xenograft models of luciferase-labeled MM.1S implanted intravenously into NSG mice, with tumor burden measured by bioluminescence. Mice ( n =6 per arm) were treated with 3 mg/kg E7107 or DMSO IV 5d/wk for 2 wks. Results: Among the more than 5,000 phosphopeptides quantified in the phosphoproteomic screen, the most profoundly upregulated phosphosites mapped to numerous serine-and-arginine rich (\"SR\") core components of the pre-mRNA spliceosome ( Fig. 1A : upregulated phosphosites across time course in gold; downregulated in cyan. Red arrows indicate SR protein phosphosites; green arrows are positive control phosphosites on EIF4EBP1 and RPS6, known to decrease after PI treatment.). These targets were confirmed by targeted mass spec, while simultaneous mRNA-seq confirmed no change in splicing factor abundance in response to PI ( Fig. 1A ). Intriguingly, intron retention appeared to be a dominant signature in pre-mRNA splicing after PI treatment based on JuncBASE analysis. This connection led us to investigate whether induction of intron retention may be sufficient to lead to myeloma tumor cell death. We therefore obtained the clinical candidate E7107, a specific inhibitor of the core spliceosome factor SF3B1, known to strongly induce intron retention across the transcriptome. We found that a panel of myeloma cell lines were highly sensitive to E7107 at low nanomolar concentrations, which are easily achievable in patients based on prior Phase I studies. We further found evidence of synergy in vitro between E7107 and PI treatment, and E7107 was equally efficacious in na\u00efve and PI-resistant AMO1 cells. Furthermore, pre-clinical experiments in murine xenograft models with a brief two-week treatment with E7107 significantly decreased tumor burden and significantly increased lifespan ( Fig 1B ). Conclusion : Our approaches here reveal a novel connection between PI-induced stress and modulation of the core spliceosome machinery not previously observed in any other system. By capitalizing on this vulnerability, we further propose that targeting the spliceosome machinery may be a novel therapeutic option for multiple myeloma patients, either in combination with PIs or in the PI-refractory setting, addressing a major clinical need. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Wiita: Sutro Biopharma: Research Funding; TeneoBio, Inc.: Research Funding.",
+    "topics": [
+        "heterogeneous nuclear rna",
+        "multicatalytic endopeptidase complex",
+        "multiple myeloma",
+        "rna splicing",
+        "spliceosomes",
+        "neoplasms",
+        "carfilzomib",
+        "mass spectrometry",
+        "phosphopeptides",
+        "rna, messenger"
+    ],
+    "author_names": [
+        "Hector H Huang, PhD",
+        "Christine YT Lam, BA",
+        "Alexis Thornton, BA",
+        "Margarette Mariano, MS",
+        "Ian Ferguson, BA",
+        "Byron C Hann, MD PhD",
+        "Angela Brooks, PhD",
+        "Arun P. Wiita, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Hector H Huang, PhD",
+            "author_affiliations": [
+                "Laboratory Medicine, University of California San Francisco, San Francisco, CA ",
+                "Helen Diller Family Comprehensive Cancer Center, University of California San Francisco, San Francisco, CA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christine YT Lam, BA",
+            "author_affiliations": [
+                "Laboratory Medicine, University of California San Francisco, San Francisco, CA ",
+                "Helen Diller Family Comprehensive Cancer Center, University of California San Francisco, San Francisco, CA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexis Thornton, BA",
+            "author_affiliations": [
+                "Genomics Institute, University of California Santa Cruz, Santa Cruz, CA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Margarette Mariano, MS",
+            "author_affiliations": [
+                "Laboratory Medicine, University of California San Francisco, San Francisco, CA ",
+                "Helen Diller Family Comprehensive Cancer Center, University of California San Francisco, San Francisco, CA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ian Ferguson, BA",
+            "author_affiliations": [
+                "Laboratory Medicine, University of California San Francisco, San Francisco, CA ",
+                "Helen Diller Family Comprehensive Cancer Center, University of California San Francisco, San Francisco, CA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Byron C Hann, MD PhD",
+            "author_affiliations": [
+                "Helen Diller Family Comprehensive Cancer Center, University of California San Francisco, San Francisco, CA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Angela Brooks, PhD",
+            "author_affiliations": [
+                "Genomics Institute, University of California Santa Cruz, Santa Cruz, CA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Arun P. Wiita, MD PhD",
+            "author_affiliations": [
+                "Laboratory Medicine, University of California San Francisco, San Francisco, CA ",
+                "Helen Diller Family Comprehensive Cancer Center, University of California San Francisco, San Francisco, CA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T18:38:23",
+    "is_scraped": "1"
 }

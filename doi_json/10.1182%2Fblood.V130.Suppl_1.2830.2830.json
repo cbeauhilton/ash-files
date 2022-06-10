@@ -1,8 +1,125 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3713",
-    "start_url_page_num": "3713",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.2830.2830",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/2830/80611/Discovery-of-an-Immune-Driven-Gene-Expression?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T14:17:59",
-    "is_scraped": "0"
+    "article_title": "Discovery of an Immune-Driven Gene Expression Signature That Predicts for Clinical Benefit to CC-122 in Relapsed or Refractory Diffuse Large B-Cell Lymphoma (R/R DLBCL) ",
+    "article_date": "December 7, 2017",
+    "session_type": "626. Aggressive Lymphoma (Diffuse Large B-Cell and Other Aggressive B-Cell Non-Hodgkin Lymphomas)\u2014Results from Prospective Clinical Trials: Poster II",
+    "abstract_text": "Introduction: CC-122, a small-molecule cereblon-binding agent, degrades the hematopoietic transcription factors Ikaros (IKZF1) and Aiolos (IKZF3) by modulating the CRL4 CRBN E3 ligase complex and shows clinical activity in patients (pts) with R/R DLBCL. In preclinical models, CC-122 has activity in ABC and GCB DLBCL cells, which differentiates it from lenalidomide (primarily active in the ABC subtype). Thus, cell of origin is not an appropriate selection strategy for CC-122. Herein described are 2 DLBCL patient phenotypes, identified de novo from public gene expression data, which describe immune infiltration and increased tumor cellularity. When incorporated into a gene expression classifier that distinguishes between them, and applied to gene expression data from samples collected in a trial of CC-122 monotherapy in R/R DLBCL (NCT01421524; CC-122-ST-001), these phenotypes enrich for improved response and prolonged PFS. Methods: Publicly available raw Affymetrix expression profiles for 414 newly diagnosed DLBCL not otherwise specified (NOS) pts (GEO accession: GSE10846; Lenz et al, NEJM 2008) were normalized and batch-corrected, prior to transformation of the resulting expression matrix using non-negative matrix factorization (NMF). Unsupervised analysis of the output revealed 2 major phenotypes, which were interpreted via a combination of methods and prior biological knowledge, including GSEA with GO Biological Processes and published gene signatures. The patient gene expression profiles were separated into 2 subgroups based on the phenotypes observed. Supervised classification was applied to demonstrate their predictability, and to identify a subset of discriminant genes that were used to design a custom gene expression panel on the NanoString nCounter platform. An adapted Nearest Template Prediction algorithm (Hoshida Y, PLoS 2010) was applied to the same Affymetrix data and candidate gene-set to separate the 2 sub-groups and enable the classification of NanoString profiles to select a patient phenotype potentially enriched for positive outcome to CC-122. Results: Based on the Lenz 2008 dataset, biological interpretation of the first phenotype identified pathways involved in the immune system and inflammatory response (phenotype 1), and the second phenotype was enriched for DNA replication/repair and cell cycle and RNA processing, indicating a proliferative signal and potentially higher B-cell content (phenotype 2). Phenotype 1 pts were also enriched in the 2 stromal signatures reported by Lenz et al, reflecting tumor infiltration by cells of the monocytic lineage and endothelial cells. Application of multiple immune deconvolution methods to the Lenz 2008 dataset identified an enrichment of T cells and macrophages in phenotype 1 and high B-cell content in phenotype 2. These observations yielded the hypothesis that differential contribution of these molecular phenotypes may predict pts who receive greatest benefit from CC-122. The gene expression classifier developed to separate pts in the Lenz dataset according to dominant phenotype was applied to gene expression data from Celgene trial CC-122-ST-001 to predict pts as phenotypic subgroup 1 (classifier-positive pts) or phenotypic subgroup 2 (classifier-negative pts). Initial observations in H&E staining confirmed significant differences ( P <.01) in tumor cellularity (B-cell content) for classifier-positive (75%) vs classifier-negative (92%) pts (median 90 [SD 29.3; MAD 13.3] vs 98 [SD 13.7; MAD 1.5]), which reinforces the original interpretation of phenotypes discovered in the Lenz dataset. Application of the gene expression classifier to pre-treatment nCounter profiles from third-line or greater R/R DLBCL NOS pts in Celgene trial CC-122-ST-001 revealed an ORR of 34.8% and mPFS of 186 days for classifier-positive pts vs an ORR of 21.7% and mPFS of 49 days for classifier-negative pts (mPFS HR = 0.43; P =.02). No significant differences in overall survival were observed in first-line DLBCL pts treated with immunochemotherapy R-CHOP, suggesting that the classifier is not prognostic. Conclusions: A novel gene expression classifier has been developed that predicts response and prolonged PFS to CC-122 in R/R DLBCL NOS but has no prognostic value. This classifier will be explored in future trials as an enrichment strategy for pts most likely to benefit clinically from CC-122. Disclosures Risue\u00f1o: Celgene: Employment, Patents & Royalties: US15273205. Hagner: Celgene: Employment, Equity Ownership. Fontanillo: Celgene: Employment, Equity Ownership. Djebbari: Celgene: Employment. Parker: Celgene: Consultancy. Drew: Celgene Corp.: Consultancy. Towfic: Celgene Corporation: Employment, Equity Ownership; Immuneering Corporation: Equity Ownership. Pourdehnad: Celgene Corporation: Employment, Equity Ownership. Gandhi: Celgene Corporation: Employment, Equity Ownership. Trotter: Celgene Corporation: Equity Ownership; Celgene Institute for Translational Research Europe: Employment.",
+    "topics": [
+        "chief complaint",
+        "diffuse large b-cell lymphoma",
+        "gene expression",
+        "brachial plexus neuritis",
+        "neoplasms",
+        "activated b-cell-like diffuse large b-cell lymphoma",
+        "gene expression profiling",
+        "lenalidomide",
+        "r-chop",
+        "transcription factor"
+    ],
+    "author_names": [
+        "Alberto Risue\u00f1o, PhD",
+        "Patrick R. Hagner, PhD",
+        "Celia Fontanillo, PhD",
+        "Amira Djebbari, DSc",
+        "Joel S. Parker, PhD",
+        "Clifton P. Drew, PhD",
+        "Fadi Towfic, PhD",
+        "Michael Pourdehnad, MD",
+        "Anita K. Gandhi, PhD",
+        "Matthew Trotter, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Alberto Risue\u00f1o, PhD",
+            "author_affiliations": [
+                "Celgene Institute for Translational Research Europe, Seville, Spain "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Patrick R. Hagner, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Celia Fontanillo, PhD",
+            "author_affiliations": [
+                "Celgene Institute for Translational Research Europe, Seville, Spain "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amira Djebbari, DSc",
+            "author_affiliations": [
+                "Celgene Institute for Translational Research Europe, Seville, Spain "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joel S. Parker, PhD",
+            "author_affiliations": [
+                "University of North Carolina, Chapel Hill, NC "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Clifton P. Drew, PhD",
+            "author_affiliations": [
+                "Peninsular Veterinary Pathology Consulting, LLC, San Diego, CA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Fadi Towfic, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Pourdehnad, MD",
+            "author_affiliations": [
+                "Celgene Corporation, San Francisco, CA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anita K. Gandhi, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matthew Trotter, PhD",
+            "author_affiliations": [
+                "Celgene Institute for Translational Research Europe, Seville, Spain "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-10T18:45:00",
+    "is_scraped": "1"
 }
