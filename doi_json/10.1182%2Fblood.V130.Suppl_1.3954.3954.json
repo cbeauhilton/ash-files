@@ -1,8 +1,65 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3766",
-    "start_url_page_num": "3766",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.3954.3954",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/3954/72023/Comprehensive-Characterization-of-Transposable?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T17:22:51",
-    "is_scraped": "0"
+    "article_title": "Comprehensive Characterization of Transposable Elements in the Acute Myeloid Leukemia Transcriptome ",
+    "article_date": "December 7, 2017",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster III",
+    "abstract_text": "Over half of the human genome is comprised of genomic transposable elements (TEs). TE expression has been implicated in cancer. It has been shown to induce genomic instability and more recently, a potential beneficial effect by causing cancer cell death by activating the viral recognition pathways. Recently we showed that the expression of distinct classes of TE such as SINEs and LTRs, but not LINEs, are suppressed in acute myeloid leukemia (AML) stem cells. Hence, it is likely that different classes and subtypes of TE perform diverse functions in cancer. Several large-scale studies characterized the transcriptome of numerous cancer types, and improved our understanding of oncogenesis in cancer. However, the expression of TEs has not been analyzed in these impactful studies. We developed a tool, Arkas, to comprehensively characterize the expression of TEs, accompanying coding gene expression, and gene pathways in large transcriptome databases. Using this we investigated the dysregulation of TEs in 178 AML transcriptome from The Cancer Genome Atlas. We first investigated the effect of recurrent AML mutations on TE dysregulation. In order to disentangle the effect of recurrent mutations on the TE expression, we combined mutation with TE expression in a multivariate linear model. Using a mutation-centric view, we observed that the number TEs significantly differentially expressed with respect to mutational drivers varied significantly with different mutations (Figure A). TE dysregulation was most affected by TP53 mutation, showing downregulation. MLL gene rearrangement was the second most, with mostly upregulated TE expression. Regulation of TE expression and its downstream effects is not fully understood. In the past, assumptions have been made generalizing the function of TE as a whole without understanding the diversity in TE. In addition to directly activating the interferon pathway and DNA damage, TEs are key regulators of coding gene expression, hence likely exhibiting diverse function. In order to gain insight into this, we correlated the expression of TE biotypes with coding gene networks. The coding genes were first clustered together (to form modules) based on their co-expression profile. 50 modules were formed using this method (Figure D). These modules are likely co-regulated and/or functionally related. These modules were then correlated with the expression of specific TE types . Distinct correlation pattern emerged with coding gene networks; positively associated modules with LINE1 were negatively associated with LTR elements including ERVs. Within the LTR class, distinct modules were associated with each ERV types. Though these findings do not prove direct functional relationship between TE types and the coding gene networks, they support diverse functions of exhibited by each TE type and subtype. Finally, we investigated the role of TE in predicting prognosis in AML. Using a penalized cox regression analysis, which included nested 10-fold cross validation, we examined the TE expression association to survival prediction. We identified 17 TE transcripts able to predict prognosis in AML (Figure C), classifying them into good-risk (N=77) and bad risk AML (N=101) (P=0.0011) (Figure B). Interestingly, this signature was able to further divide good-risk AML (N=87, identified based on gene mutations) into good-risk (N=41) and bad-risk AML (N=46) (P=0.026), suggesting TE predicts prognosis independently from gene mutations. 12 (9 of which were ERVs) of the 17 TEs predicting prognosis were associated with good prognosis. 5 TEs including L1M3B_5, which is LINE1, predicted worse prognosis. Interestingly, 3 of the good risk TEs were suppressed in TP53 mutation. In summary, this is the first study to comprehensively characterize TE expression in cancer. TE expression in AML shows distinct expression pattern associated with specific mutations and coding gene networks. TE expression offers independent prognostic information. These finding suggest the need for future mechanistic characterization of the role of distinct TEs in AML. Figure View large Download slide Figure View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "dna transposable elements",
+        "leukemia, myelocytic, acute",
+        "transanal endoscopic surgery",
+        "cancer",
+        "protein p53",
+        "carcinogenesis",
+        "human leukocyte interferon",
+        "interferons",
+        "tumor cells, malignant",
+        "tumorigenesis"
+    ],
+    "author_names": [
+        "Anthony Colombo",
+        "Pradeep K Aggarwal",
+        "Timothy Junius Triche, Jr., PhD",
+        "Giridharan Ramsingh, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Anthony Colombo",
+            "author_affiliations": [
+                "Keck School of Medicine of University of Southern California, Los Angeles, CA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pradeep K Aggarwal",
+            "author_affiliations": [
+                "Keck School of Medicine of University of Southern California, Los Angeles, CA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Timothy Junius Triche, Jr., PhD",
+            "author_affiliations": [
+                "Keck School of Medicine of University of Southern California, Los Angeles, CA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Giridharan Ramsingh, MD",
+            "author_affiliations": [
+                "Keck School of Medicine of University of Southern California, Los Angeles, CA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-11T09:38:02",
+    "is_scraped": "1"
 }

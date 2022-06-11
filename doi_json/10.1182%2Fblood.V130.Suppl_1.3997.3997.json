@@ -1,8 +1,241 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3765",
-    "start_url_page_num": "3765",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.3997.3997",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/3997/72004/A-Compendium-of-Transcriptional-and-Mutational?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T17:22:49",
-    "is_scraped": "0"
+    "article_title": "A Compendium of Transcriptional and Mutational Data to Improve the Stratification of Peripheral T-Cell Lymphoma Subtypes ",
+    "article_date": "December 7, 2017",
+    "session_type": "621. Lymphoma\u2014Genetic/Epigenetic Biology: Poster III",
+    "abstract_text": "Molecular classification of the different nodal peripheral T-cell lymphoma (PTCL) entities is not yet clarified, and this particularly applies to the two main clinical subtypes: angio-immunoblastic T-lymphomas (AITL) and PTCL-not otherwise specified (PTCL-NOS). Previous studies have shown that these two entities bear distinct gene expression profiles (GEP) that allow their distinction. However, clinical usage of GEP has been limited due to its complexity and to the absence of a well validated signature. Following the recent advances in next generation sequencing (NGS), three recurrently mutated genes ( RHOA , TET2 , DNMT3A ) were found in approximately 60-70% of AITL and in 20-30% of PTCL-NOS. In addition, 20-30% of AITLs cases are characterized by a hotspot IDH2 R172 mutation that is generally absent in PTCL-NOSs. Furthermore, the interrelationship of the mutations with the AITL/PTCL-NOS GEP classification has not been comprehensively evaluated. We collected and analyzed GEP data from available public PTCL studies (for a total of 503 cases: 127 AITL, 144 PTCL-NOS, 56 ALK-pos anaplastic large cell lymphoma (ALCL), 96 Alk-neg ALCL, 21 adult T-lymphoma/leukemia (ATLL), 59 NK/T-cell lymphomas. After correcting for any potential batch effect, the cases were re-classified based on published studies (Iqbal, Blood 2014). For 53 cases, mutational data for RHOA , TET2 , DNMT3A, and IDH2 genes (Wang, Blood 2015) were available and used to perform an integrated analysis to improve the current molecular classification between AITL and PTCL-NOS. As expected, ALK-neg and ALK-pos ALCLs, NK/T-cell lymphoma and ATLL were associated with distinct signatures; conversely, GEP of AITL and PTCL-NOS revealed significant overlap. To improve their distinction, we investigated the contribution of recurrent mutations to the transcriptional pattern, applying a recently published analysis (Gerstung, Nat Comm 2015) on 39 AITLs and 14 PTCL-NOSs for whom mutational data were available. Briefly, we created a model that included the lymphoma histotype, its gene expression profile, its genotype, and the age and gender of the patient. Interestingly, we observed how the mutational status of RHOA , TET2 and DNMT3A correlated poorly with the transcriptional profile of each case in both AITL and PTCL-NOS. RHOA mutations are known to be frequently subclonal, possibly explaining their little effect on gene expression. Conversely, TET2 and DNMT3A mutations are likely as early as hematopoietic stem cells mutations involved in clonal hemopoiesis, so that their effect on transcription may be lost during lymphoma development. Conversely, a strong transcriptional signature was identified in IDH2 R172 samples consisting of 35 genes with False Discovery Rate (FDR) <5%. Furthermore, the integration between clinical, mutational and molecular data allowed us to specifically extract the 85 most significant differently expressed genes between AITL and PTCL-NOS (FDR q<0.05). We then used this signature to analyse the whole series of AITL and PTCL-NOS (n=271) using the ConsensusClusterPlus R package, which led to the identification of 6 main groups. Next, we applied Cibersort analysis to these groups to better characterize the contribution of their microenvironment (Gentles, Nat Med 2015). The two main groups were represented by the bulk of AITL (n=107) and PTCL-NOS (n=101) cases, with 7% of PTCL-NOS reclassified as AITL and 5% AITL as PTCL-NOS. We identified a third group (n=35) characterized by a strong signature associated with NK-cell and low presence of B-cell/plasma-cell (PC) signals, likely compatible with other T lymphomas entities (NK/T-cell lymphoma). The fourth group (n=12) was composed by PTCL-NOS with strong T-CD4 and M1 Macrophage signals and very low PC contribution. The remaining clusters were associated with T-cell gamma delta (n=7) and with M1 Macrophage (n=9) cibersort signatures. Interestingly, AITL were characterized by significantly higher contribution from PCs and prevalence of IDH2 R172 mutations as compared to the other clusters (p<0.001). In this study, we provide a novel and reproducible bioinformatic approach to integrate clinical, expression and mutational data to improve the current molecular classification of PTCL. The presence of IDH2 R217 mutations and the extent of PC infiltration could be used to differentiate AITL and PTCL-NOS in clinical practice, and this will be tested in future studies. Disclosures Chiappella: Pfizer: Speakers Bureau; Teva: Speakers Bureau; Amgen: Speakers Bureau; Celgene: Speakers Bureau; Roche: Speakers Bureau; Janssen: Speakers Bureau; Nanostring: Speakers Bureau. Zaja: Takeda: Honoraria; Janssem: Honoraria; Abbvie: Honoraria; Novartis: Honoraria, Research Funding; Celgene: Honoraria, Research Funding; Roche: Honoraria, Research Funding; Gilead: Honoraria. Corradini: Amgen: Honoraria; Sanofi: Honoraria; Takeda: Honoraria; Janssen: Honoraria; Celgene: Honoraria; Novartis: Honoraria; Roche: Honoraria; Gilead: Honoraria.",
+    "topics": [
+        "lymphoma, t-cell, peripheral",
+        "transcription, genetic",
+        "angioimmunoblastic lymphadenopathy",
+        "lymphoma",
+        "rhoa gtp-binding protein",
+        "ki-1+ anaplastic large cell lymphoma",
+        "adult t-cell lymphoma/leukemia",
+        "gene expression profiling",
+        "leukemia-lymphoma, t-cell, acute, htlv-i-associated",
+        "massively-parallel genome sequencing"
+    ],
+    "author_names": [
+        "Francesco Maura",
+        "Luca Agnelli",
+        "Tayla Heavican",
+        "Anna Dodero, MD",
+        "Cristiana Carniti",
+        "John Chan, MD",
+        "Yu Jiayu",
+        "Alessio Pellegrinelli",
+        "Antonello Domenico Cabras",
+        "Niccol\u00f2 Bolli",
+        "Annalisa Chiappella, MD",
+        "Daniel Leongamornlert, PhD",
+        "Alice Di Rocco",
+        "Michela Ansuinelli",
+        "Francesco Zaja, MD",
+        "Umberto Vitolo",
+        "Roberto Piva",
+        "Wenyi Wang",
+        "Antonino Neri",
+        "Javeed Iqbal",
+        "Paolo Corradini, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Francesco Maura",
+            "author_affiliations": [
+                "Cancer Genome Project, Wellcome Trust Sanger Institute, Hinxton, United Kingdom ",
+                "Department of Oncology and Hemato-Oncology, University of Milan, Milan, Italy "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Luca Agnelli",
+            "author_affiliations": [
+                "Department of Oncology and Hemato-Oncology, University of Milan, Milan, Italy ",
+                "Hematology, Foundation IRCCS Ca' Granda Ospedale Maggiore Policlinico, Milan, Italy "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tayla Heavican",
+            "author_affiliations": [
+                "Department of Pathology and Microbiology, University of Nebraska Medical Center, Omaha, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anna Dodero, MD",
+            "author_affiliations": [
+                "Department of Hematology, Fondazione IRCCS Istituto Nazionale dei Tumori, Milan, Italy "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cristiana Carniti",
+            "author_affiliations": [
+                "Department of Hematology, Fondazione IRCCS Istituto Nazionale dei Tumori, Milan, Italy "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John Chan, MD",
+            "author_affiliations": [
+                "Department of Pathology, City of Hope Medical Center, Duarte, CA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yu Jiayu",
+            "author_affiliations": [
+                "Department of Pathology and Microbiology, University of Nebraska Medical Center, Omaha, "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alessio Pellegrinelli",
+            "author_affiliations": [
+                "Department of Pathology and Laboratory Medicine, Fondazione IRCCS Istituto Nazionale dei Tumori, Milan, Italy "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Antonello Domenico Cabras",
+            "author_affiliations": [
+                "Department of Pathology and Laboratory Medicine, Fondazione IRCCS Istituto Nazionale dei Tumori, Milan, Italy "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Niccol\u00f2 Bolli",
+            "author_affiliations": [
+                "Cancer Genome Project, Wellcome Trust Sanger Institute, Hinxton, United Kingdom ",
+                "Department of Oncology and Hemato-Oncology, University of Milan, Milan, Italy ",
+                "Department of Hematology, Fondazione IRCCS Istituto Nazionale dei Tumori, Milan, Italy "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Annalisa Chiappella, MD",
+            "author_affiliations": [
+                "Department of Hematology, Azienda Ospedaliera Citt\u00e0 della Salute e della Scienza, Torino, Italy "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel Leongamornlert, PhD",
+            "author_affiliations": [
+                "Cancer Genome Project, Wellcome Trust Sanger Institute, Hinxton, United Kingdom "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alice Di Rocco",
+            "author_affiliations": [
+                "Sapienza University of Rome, Rome, Italy "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michela Ansuinelli",
+            "author_affiliations": [
+                "Sapienza University of Rome, Rome, Italy "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Francesco Zaja, MD",
+            "author_affiliations": [
+                "Clinica Ematologica, DAME, University of Udine, Udine, Italy "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Umberto Vitolo",
+            "author_affiliations": [
+                "Department of Hematology, Azienda Ospedaliera Citt\u00e0 della Salute e della Scienza, Torino, Italy "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Roberto Piva",
+            "author_affiliations": [
+                "Center for Experimental Research and Medical Studies, University of Torino, Department of Molecular Biotechnology and Health Sciences, Torino, Italy "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wenyi Wang",
+            "author_affiliations": [
+                "The University of Texas MD Anderson Cancer Center, Houston, "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Antonino Neri",
+            "author_affiliations": [
+                "Department of Oncology and Hemato-Oncology, University of Milan, Milan, Italy ",
+                "Hematology, Foundation IRCCS Ca' Granda Ospedale Maggiore Policlinico, Milan, Italy "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Javeed Iqbal",
+            "author_affiliations": [
+                "Department of Pathology and Microbiology, University of Nebraska Medical Center, Omaha, "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Paolo Corradini, MD",
+            "author_affiliations": [
+                "Department of Hematology, Fondazione IRCCS Istituto Nazionale dei Tumori, Milan, Italy ",
+                "University of Milan, Milan, Italy"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-11T09:36:48",
+    "is_scraped": "1"
 }

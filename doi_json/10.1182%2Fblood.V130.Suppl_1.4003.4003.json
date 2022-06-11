@@ -1,8 +1,75 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3762",
-    "start_url_page_num": "3762",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.4003.4003",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/4003/72034/Whole-Genome-Sequencing-in-Hairy-Cell-Leukemia?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T17:22:41",
-    "is_scraped": "0"
+    "article_title": "Whole Genome Sequencing in Hairy Cell Leukemia-Variant (HCL-v) and Splenic Marginal Zone Lymphoma (SMZL) ",
+    "article_date": "December 7, 2017",
+    "session_type": "621. Lymphoma\u2014Genetic/Epigenetic Biology: Poster III",
+    "abstract_text": "Background: The WHO 2016 classification defines a variety of lymphomas. Among the mature B-cell neoplasms different types of splenic lymphomas are separated from each other. In particular, hairy cell leukemia-variant (HCL-v) and splenic marginal zone lymphoma (SMZL) are defined as distinct entities, however, while they are readily separated from hairy cell leukemia based on cytomorphology, immunophenotype and lack of BRAF V600E mutation, HCL-v and SMZL feature partial overlaps of findings in cytomorphology and immunophenotype. Cytogenetic changes are rare and nonspecific. Thus, a comprehensive molecular work up may provide insight into shared and differentiating mutation. Aims: Molecular characterization of HCL-v and SMZL through whole genome sequencing (WGS) to provide a more distinct disease category. Patient cohort and methods: Diagnostic peripheral blood or bone marrow samples of 14 patients (7 HCL-v and 7 SMZL, median age 82, range 59-94; 8 female, 6 males) were selected for WGS with 90x coverage. Infiltration by mature B-lymphatic population ranged from 6%-72% (median 52%) by immunophenotyping. HCL-v cases were negative for BRAF . Library preparation was performed using Truseq DNA PCR-Free HT sample preparation kit (Illumina, San Diego, CA) according to manufacturer's protocol using fresh/frozen samples and sequenced on NovaSeq sequencing instruments. Tumor-only data was aligned by BaseSpace (BS) WGS app with default parameters and (structural) variant calling was performed with Tumor/Normal app using an unmatched reference DNA (Promega, Fitchburg, WI). Data was subsequently loaded into BS Variant Interpreter to filter and prioritize variants of interest. For the structural variants we looked at all high confidence variant calls passing filters with at least 5 paired reads and 3 split reads with a somatic QScore of >30. In addition, all calls were eliminated with a population frequency of >1% according to the DGV (Database of Genomic variants). For mutation analysis we filtered down the passed variant list to the coding regions of the CancerGeneCensus genes, with a variant read frequency of >0.2, ExAC population frequency of <1% and a damaging/deleterious mutation prediction score with PolyPhen-2 and SIFT. We performed mutation signature analysis by looking at the distribution of base substitutions across the sample with a 3mer context to decompose somatic mutation patterns and compared the results to the COSMIC signature database. Results: We observed a heterogeneous structural variation pattern with no obvious recurrent aberrations across both cohorts. The high diversity in molecular pattern was further confirmed on variant level. Mutation analysis yielded 164 mutations with a median of 12.5 (range 3-18) mutations per sample involving 122 of the 600 investigated genes. 19 genes were mutated in both entities, 44 were exclusive to HCL-v and 59 exclusive to SMZL. Recurrent mutations (n=3/14) were observed in the following genes: ASXL1, ATM, KMT2C, PCSK7, SMO, SPEN, TP53, TRIP11, WRN . PCSK7 is a transcriptional regulator and has been described to be associated with B-cell lymphoma. WRN is a helicase enzyme involved in DNA repair and associated with AML. Strikingly 3/7 (42%) of SMZL cases were mutated in these two genes. SPEN is known to block the differentiation of precursor B-cells into marginal zone B-cells. Additional exclusive recurrent mutations (n=2) were observed in ABL2, ARID1B, CREBBP for HCL-v, and BCL11A, NACA, NSD1, SF3B1 for SMZL. ABL2 is a tyrosine kinase and thus may provide a treatable target. Pathway analysis revealed that 30% of genes mutated (n=36) are involved in the MAPK/ERK pathway. We subsequently conducted a context-sensitive mutation signature analysis with the SNV data, using 96 substitution patterns rather than 6 to increase the complexity. In all instances we found a highly similar pattern across all 14 samples with a strong bias towards C>T substitutions. Conclusion: HCL-v and SMZL are highly diverse on the molecular level. Mutation signature analysis creates patterns associated with cancer and age. More data and further refinement of mutational entity specific signatures are needed to increase the granularity of these signatures. We identified several putative genes to be involved in HCL-v and SMZL, which were not associated with the two entities before. In two instances tyrosine kinase proteins were involved revealing a target for drugs. Disclosures Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Nadarajah: MLL Munich Leukemia Laboratory: Employment. Meggendorfer: MLL Munich Leukemia Laboratory: Employment. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Kern: MLL Munich Leukemia Laboratory: Employment, Equity Ownership.",
+    "topics": [
+        "hairy cell leukemia variant",
+        "leukemia",
+        "splenic marginal zone b-cell lymphoma",
+        "whole genome sequencing",
+        "immunophenotyping",
+        "lymphoma",
+        "dna",
+        "mutation analysis",
+        "neoplasms",
+        "protein tyrosine kinase"
+    ],
+    "author_names": [
+        "Torsten Haferlach, MD",
+        "Niroshan Nadarajah",
+        "Manja Meggendorfer, PhD",
+        "Claudia Haferlach, MD",
+        "Wolfgang Kern, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Torsten Haferlach, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Niroshan Nadarajah",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manja Meggendorfer, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Claudia Haferlach, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wolfgang Kern, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-11T09:33:11",
+    "is_scraped": "1"
 }

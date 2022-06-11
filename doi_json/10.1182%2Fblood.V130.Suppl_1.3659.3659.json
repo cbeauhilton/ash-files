@@ -1,8 +1,85 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3765",
-    "start_url_page_num": "3765",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.3659.3659",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/3659/72009/In-silico-Modeling-of-the-Impact-of-Antithrombin?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T17:22:49",
-    "is_scraped": "0"
+    "article_title": "In silico Modeling of the Impact of Antithrombin Lowering on Thrombin Generation in Rare Bleeding Disorders ",
+    "article_date": "December 7, 2017",
+    "session_type": "321. Blood Coagulation and Fibrinolytic Factors: Poster III",
+    "abstract_text": "Introduction : Rare bleeding disorders (RBDs) arise from deficiencies in various clotting factors, such as factors V, VII, and X, which like hemophilia A or B, are often characterized by an inability to generate sufficient thrombin to prevent bleeds. However, compared to hemophilia, RBDs are less prevalent, more heterogeneous in phenotype, and less understood clinically. Furthermore, RBD patients, subsets of whom can suffer from frequent and severe bleeding episodes, often have limited treatment options. Fitusiran is an investigational RNAi therapeutic targeting antithrombin (AT), a major endogenous inhibitor of thrombin production, and is currently in Phase 3 trials for the treatment of hemophilia A or B, with or without inhibitors. Initial clinical studies with fitusiran have demonstrated that lowering AT resulted in improved thrombin generation and was correlated with reduced bleeding frequency in patients with hemophilia (Pasi et al. New Engl J Med . 2017.). Based on this mechanism of action, pharmacological lowering of AT may potentially have clinical applicability in RBDs. In this light, in silico kinetic models that predict the dynamic behavior of coagulation, including thrombin generation in plasma under a diverse set of experimental conditions, can provide a useful theoretical platform to test whether AT lowering may be effective in RBDs. In this abstract, we demonstrate the use of a computational model to predict the impact of AT lowering on thrombin generation in plasma with various degrees of deficiencies in Factors V, VII, and X. Methods : We implemented the model developed by Nayak et al. (Nayak et al. CPT Pharmacometrics Syst. Pharmacol. 2015.), which describes the coagulation cascade and simulates thrombin generation under various experimental conditions, using Matlab and the Simbiology Toolbox\u00ae. For each Factor deficiency (V, VII, X), we tested thrombin generation at factor levels of 0.1, 0.5, 1.0, 2.0, 5.0, and 10.0% of their mean plasma concentrations in normal healthy individuals as well as AT lowering of 0, 40, 60, 80, 90, and 99% of baseline levels. Peak thrombin values from each thrombin curve were computed and compared across experimental conditions. Patient heterogeneity was simulated by monte-carlo sampling of plasma factor concentrations based on known mean and variances reported in literature. Results: Consistent with published results in hemophilia A and B, the model predicted an increase in thrombin generation as AT was lowered in the setting of factor V, VII, and X deficiencies. AT lowering to 20% resulted in increased thrombin generation by 14, 4, and 3-fold for conditions of 1% factor V, VII, and X, respectively. Conclusions: Our results suggest that pharmacological AT lowering may serve as an effective strategy for certain RBDs. Disclosures Sridharan: Alnylam: Employment, Equity Ownership. Liu: Alnylam: Employment, Equity Ownership. Qian: Alnylam: Employment, Equity Ownership. Goel: Alnylam: Employment, Equity Ownership. Huang: Alnylam: Employment, Equity Ownership. Akinc: Alnylam: Employment, Equity Ownership.",
+    "topics": [
+        "antithrombin iii",
+        "antithrombins",
+        "bleeding diathesis",
+        "blood coagulation disorders",
+        "thrombin",
+        "hemophilia a",
+        "factor v",
+        "blood coagulation factors",
+        "hemorrhage",
+        "hemorrhagic episodes"
+    ],
+    "author_names": [
+        "Gautham Sridharan, PhD",
+        "Jingxuan Liu, PhD",
+        "Kun Qian, M.S.",
+        "Varun Goel, PhD",
+        "Stephen Huang, MD",
+        "Akin Akinc, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Gautham Sridharan, PhD",
+            "author_affiliations": [
+                "Alnylam Pharmaceuticals, Cambridge, MA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jingxuan Liu, PhD",
+            "author_affiliations": [
+                "Alnylam Pharmaceuticals, Cambridge, MA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kun Qian, M.S.",
+            "author_affiliations": [
+                "Alnylam Pharmaceuticals, Cambridge, MA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Varun Goel, PhD",
+            "author_affiliations": [
+                "Alnylam Pharmaceuticals, Cambridge, MA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephen Huang, MD",
+            "author_affiliations": [
+                "Alnylam Pharmaceuticals, Cambridge, MA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Akin Akinc, PhD",
+            "author_affiliations": [
+                "Alnylam Pharmaceuticals, Cambridge, MA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-11T09:37:06",
+    "is_scraped": "1"
 }
