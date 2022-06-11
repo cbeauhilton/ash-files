@@ -1,8 +1,105 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3797",
-    "start_url_page_num": "3797",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.1267.1267",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/1267/116159/Greater-Efficacy-and-Potency-of-Obinutuzumab?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T18:26:58",
-    "is_scraped": "0"
+    "article_title": "Greater Efficacy and Potency of Obinutuzumab Compared with Rituximab in Chronic Lymphocytic Leukemia Patients Confirmed By a Semi-Mechanistic Pharmacokinetic/Pharmacodynamic Model ",
+    "article_date": "December 7, 2017",
+    "session_type": "605. Molecular Pharmacology, Drug Resistance\u2014Lymphoid and Other Diseases: Poster I",
+    "abstract_text": "Introduction: In the pivotal CLL11 study (NCT02053610) that compared two CD20-targeting monoclonal antibodies in combination with chlorambucil (Clb) for the treatment of chronic lymphocytic leukemia (CLL), obinutuzumab (GA101; G) was shown to be superior to rituximab (R), with higher rates of complete response and prolongation of progression-free survival (PFS) in elderly CLL patients (pts) with comorbidities. However, the relationship between dose, exposure, and outcome is often complicated by the extent of tumor burden for antibody treatments for which target-mediated elimination is substantial, a case in which drug-binding to the pharmacological target influences drug exposure. Addressing this complexity necessitates the use of mechanistic mathematical models incorporating the extent of changes in pt target burden and its effect on drug disposition. We conducted a retrospective analysis to develop and evaluate a semi-mechanistic pharmacokinetic/pharmacodynamic (PK/PD) model for comparing drug exposure and clinical outcomes in CLL11. Methods: A semi-mechanistic PK/PD model ( Figure 1 ) was developed for temporal changes in drug and lymphocyte counts in 632 pts who participated in the CLL11 study (325 pts treated with R-Clb and 307 pts with G-Clb). The model features both drug- and system-specific parameters allowing for the direct comparison of key factors that govern the critical responses observed with each antibody. Measurements of serum R concentrations were not available in CLL11. Therefore, R PK data were simulated using a prior population model describing R PK in CLL pts (Li et al. J Clin Pharmacol 2012) and actual dosing information from CLL11 pts. Drug concentrations and lymphocyte counts were analyzed with a nonlinear mixed effects approach using the Stochastic Approximation to Expectation Maximization (SAEM) algorithm in Monolix (version 4.3.3; Lixoft, Orsay, France). Covariate analysis was performed to identify major factors contributing to the inter-individual variability (IIV) in model parameters. The final PK/PD model was used in simulations of alternative dosing amounts and schedules (e.g. R given at the dose of G, G at the dose of R), and time-to-event modeling was used to assess the potential of various model-derived or pt-specific factors to predict PFS. Results: A semi-mechanistic PK/PD model structure was developed for joint modeling of both CD20-targeting agents, and all parameters were estimated with good precision ( Table 1 ), albeit with high IIV, especially for PD parameters. Drug removal due to drug-target binding (k int ) was 4.3-fold lower for G than that for R (0.0642 vs. 0.274 nM -1 \u00d7day -1 , p<0.01). The antitumor effect of R did not correlate with this greater clearance, suggesting this antibody loss is likely due to mechanisms not associated with its cytotoxic effects. The coefficient of cell kill (k kill ) for G was estimated to be 4.7-fold greater than that for R (0.851 vs. 0.182 day -1 , p<0.01), whereas the half-maximal effective concentration (EC 50 ) of G was 15-fold lower (64.5 vs. 962 nM, p<0.01), indicating a significantly greater efficacy and potency compared with R based on the reduction of circulating lymphocytes. Body surface area was identified as a covariate for the IIV of the central drug volume of distribution. Model-based simulations suggest that G exhibits superior efficacy, regardless of alternative dosing schedules, as compared with R. Finally, time-to-progression analysis revealed that model-predicted antibody concentration and the percent reduction from baseline in minimal residual disease (MRD) were predictors of PFS in CLL pts. Conclusion: A comparative population-based semi-mechanistic PK/PD model was developed for analyzing exposure-outcome relationships for R and G in CLL11. Parameters associated with antibody elimination from the system indicated a faster rate of target-mediated clearance for R, whereas greater efficacy and potency of G were identified from differences in drug-specific PD parameters. A time-to-event model suggested that serum drug concentrations and percent reduction from baseline in MRD are predictors of PFS in CLL pts. View large Download slide View large Download slide Close modal Disclosures Kamisoglu: Roche: Other: CLL11 is sponsored by F. Hoffmann-La Roche Ltd in collaboration with the GCLLSG and Genentech, Inc. Third-party editorial support, under the direction of Dr Kamisoglu, was provided by Scott Malkin of Gardiner-Caldwell Communications, and funded by Roche. Phipps: Roche: Equity Ownership. Jamois: Roche: Employment, Other: GALLIUM was sponsored by F. Hoffmann-La Roche Ltd.. Buchheit: Roche: Employment. Meneses-Lorente: Roche Products Ltd: Employment. Fingerle-Rowson: F. Hoffmann-La Roche Ltd: Employment, Equity Ownership. Wagg: F. Hoffmann-La Roche Ltd: Employment. Mager: Enhanced Pharmacodynamics, LLC: Employment, Equity Ownership; Roche: Research Funding.",
+    "topics": [
+        "chronic b-cell leukemias",
+        "chronic lymphocytic leukemia",
+        "obinutuzumab",
+        "pharmacodynamics",
+        "rituximab",
+        "brachial plexus neuritis",
+        "antibodies",
+        "cd20 antigens",
+        "mechlorethamine",
+        "chlorambucil"
+    ],
+    "author_names": [
+        "Kubra Kamisoglu",
+        "Alex Phipps",
+        "Candice Jamois",
+        "Vincent Buchheit",
+        "Georgina Meneses-Lorente",
+        "G\u00fcnter Fingerle-Rowson",
+        "Jonathan Wagg",
+        "Donald E Mager"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Kubra Kamisoglu",
+            "author_affiliations": [
+                "University at Buffalo - The State University of New York, Buffalo, NY "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alex Phipps",
+            "author_affiliations": [
+                "Roche Innovation Center, Welwyn, United Kingdom "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Candice Jamois",
+            "author_affiliations": [
+                "Department of Clinical Pharmacology, F. Hoffmann-La Roche, Roche Innovation Center, Basel, Switzerland "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vincent Buchheit",
+            "author_affiliations": [
+                "Department of Clinical Pharmacology, F. Hoffmann-La Roche, Roche Innovation Center, Basel, Switzerland "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Georgina Meneses-Lorente",
+            "author_affiliations": [
+                "Roche Innovation Center, Welwyn, United Kingdom "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "G\u00fcnter Fingerle-Rowson",
+            "author_affiliations": [
+                "F. Hoffmann-La Roche Ltd., Basel, Switzerland "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan Wagg",
+            "author_affiliations": [
+                "Roche Innovation Center, Basel, Switzerland"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Donald E Mager",
+            "author_affiliations": [
+                "University at Buffalo - The State University of New York, Buffalo, NY "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-11T21:25:17",
+    "is_scraped": "1"
 }

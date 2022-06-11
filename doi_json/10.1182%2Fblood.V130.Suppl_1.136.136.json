@@ -1,8 +1,165 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3802",
-    "start_url_page_num": "3802",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.136.136",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/136/116263/Defining-the-Transcriptional-Code-That-Specifies?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T18:27:15",
-    "is_scraped": "0"
+    "article_title": "Defining the Transcriptional Code That Specifies Sinusoidal Endothelial Cells in the HSPC Niche ",
+    "article_date": "December 7, 2017",
+    "session_type": "506. Hematopoiesis and Stem Cells: Microenvironment, Cell Adhesion, and Stromal Stem Cells: Hematopoietic Microenvironment II",
+    "abstract_text": "Hematopoietic stem and progenitor cell (HSPC) niches are specialized microenvironments that support the maintenance and self-renewal of HSPCs. In the fetal liver, bone marrow and spleen, vascular endothelial cells are thought to function as core components of the HSPC niche. In the bone marrow, sinusoidal endothelial cells are known to secrete soluble factors and express cell surface adhesion molecules that promote the recruitment, maintenance and function of HSPCs. Using tomo-seq (RNA tomography) - a technique that involves extracting and barcoding the RNA from sequentially collected cryosections and then performing RNA-seq - we identified ~300 genes enriched in the zebrafish caudal hematopoietic tissue (CHT; the hematopoietic equivalent of the mammalian fetal liver). We also used FACS with tissue-specific fluorescent reporter transgenes to isolate different cell populations from whole embryos and then performed RNA-seq. This included endothelial cells, macrophages, neutrophils and erythrocytes. By overlaying these datasets with the tomo-seq results, we determined the cell types in which many of the CHT-enriched genes were expressed. Unexpectedly, we found a set of ~20 genes that appeared to be enriched specifically in endothelial cells within the CHT. Whole embryo in situ hybridization revealed that these genes had similar spatial and temporal expression patterns, being specifically enriched in sinusoidal endothelial cells in the CHT but absent in other endothelial cells throughout the body. We cloned the upstream promoter regions for several of these genes, fused them to a GFP reporter and then injected them into embryos. Of note, we found that a 5.3 kb sequence upstream of selectin-e ( sele ; a gene known to be expressed by bone marrow endothelial cells where it promotes HSPC homing) drove GFP expression specifically in sinusoidal endothelial cells in the CHT. By crossing this sele:GFP transgene to a pan-endothelial marker ( kdrl:mCherry ), we were able to use FACS to isolate CHT endothelial cells, as well as endothelial cells from tissues outside the CHT. We performed ATAC-seq - a transposon-based method used to detect regions of open chromatin - on these two cell populations and identified 6,710 peaks (regions of open chromatin) that were unique to sele:GFP+; kdrl:mCherry+ CHT niche endothelial cells. Several of these peaks were associated with CHT endothelial genes we had initially identified by tomo-seq, including mrc1a, gpr182, stab1, stab2 and exoc3l2a . Informatic analysis of the sequences under the 6,710 CHT endothelial peaks identified Ets, Sox, Nuclear Hormone and Gata sites as the most enriched transcription factor binding motifs compared to peaks from the non-CHT endothelial cells. These results suggested a transcription factor code involving members of these families might specify sinusoidal endothelial cells in the HSPC niche. Upon closer examination of the sele locus itself, we observed a narrow ATAC-seq peak within the 5.3 kb upstream sequence that was uniquely open in the sele:GFP+; kdrl:mCherry+ CHT niche endothelial cells. Promoter truncation experiments identified a short 158 bp sequence that perfectly aligned with this unique ATAC-seq peak and which was sufficient to drive GFP expression in CHT endothelial cells. This 158 bp sequence contained three Ets, three Sox and one RORA (nuclear hormone receptor) binding sites. Synthetic variants were made in which the different transcription factor binding sites within the 158 bp sequence were disrupted. Injection of these variants driving GFP demonstrated that the Sox and RORA sites were required for expression in CHT endothelial cells. Disruption of the Ets sites, in contrast, led to dramatically enhanced GFP expression, suggesting these sites could be repressive. Together these studies demonstrate that the transcriptional regulation of niche endothelial cells include transcription factors that bind to Ets, Sox, and RORA motifs. The results of this work has important implications for culturing HSPCs in vitro with endothelial cells or for modulating the HSPC niche in the context of human disease or transplantation. Disclosures Zon: Fate, Inc.: Consultancy, Equity Ownership; Marauder, Inc.: Consultancy, Equity Ownership; Scholar Rock, Inc: Consultancy, Equity Ownership; Stemgent: Consultancy.",
+    "topics": [
+        "atac trial",
+        "cell adhesion molecules",
+        "endothelial cells",
+        "e-selectin",
+        "hormones",
+        "nuclear hormone receptor",
+        "rna",
+        "transcription factor",
+        "transcription, genetic",
+        "transplantation"
+    ],
+    "author_names": [
+        "Elliott J. Hagedorn, PhD",
+        "Julie R. Perlin, PhD",
+        "Clara Mao",
+        "Shelby E. Redfield, B.S.",
+        "Madeleine L. Daily, B.S.",
+        "Samantha H. Collins, B.S.",
+        "Christopher R. D'Amato, B.S.",
+        "Raquel Riquelme",
+        "Brian Li, B.S.",
+        "Samuel J. Wattrus, B.S.",
+        "Karoline Holler, B.S.",
+        "Alexander van Oudenaarden, PhD",
+        "Jan Philipp Junker, PhD",
+        "Leonard I. Zon, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Elliott J. Hagedorn, PhD",
+            "author_affiliations": [
+                "Stem Cell Program, Boston Children's Hospital, Boston, MA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Julie R. Perlin, PhD",
+            "author_affiliations": [
+                "Stem Cell Program, Boston Children's Hospital, Boston, MA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Clara Mao",
+            "author_affiliations": [
+                "Stem Cell Program, Boston Children's Hospital, Boston, MA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shelby E. Redfield, B.S.",
+            "author_affiliations": [
+                "Stem Cell Program, Boston Children's Hospital, Boston, MA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Madeleine L. Daily, B.S.",
+            "author_affiliations": [
+                "Stem Cell Program, Boston Children's Hospital, Boston, MA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Samantha H. Collins, B.S.",
+            "author_affiliations": [
+                "Stem Cell Program, Boston Children's Hospital, Boston, MA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher R. D'Amato, B.S.",
+            "author_affiliations": [
+                "Stem Cell Program, Boston Children's Hospital, Boston, MA "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Raquel Riquelme",
+            "author_affiliations": [
+                "Stem Cell Program, Boston Children's Hospital, Boston, MA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brian Li, B.S.",
+            "author_affiliations": [
+                "Stem Cell Program, Boston Children's Hospital, Boston, MA "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Samuel J. Wattrus, B.S.",
+            "author_affiliations": [
+                "Stem Cell Program, Boston Children's Hospital, Boston, MA "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karoline Holler, B.S.",
+            "author_affiliations": [
+                "Max Delbruck Center for Molecular Medicine, Berlin, Germany "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexander van Oudenaarden, PhD",
+            "author_affiliations": [
+                "Hubrect Institute, Utrecht, Netherlands"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jan Philipp Junker, PhD",
+            "author_affiliations": [
+                "Max Delbruck Center for Molecular Medicine, Berlin, Germany "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Leonard I. Zon, MD",
+            "author_affiliations": [
+                "Stem Cell Program, Boston Children's Hospital, Boston, MA "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-11T21:31:47",
+    "is_scraped": "1"
 }

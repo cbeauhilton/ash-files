@@ -1,8 +1,126 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3800",
-    "start_url_page_num": "3800",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.1398.1398",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/1398/116208/Gene-Drug-Interactions-in-AML-Patients-Identified?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T18:27:09",
-    "is_scraped": "0"
+    "article_title": "Gene-Drug Interactions in AML Patients Identified By RNA Sequencing and Comprehensive Ex Vivo Drug Sensitivity and Resistance Testing ",
+    "article_date": "December 7, 2017",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster I",
+    "abstract_text": "Introduction Transcriptome analysis of patient samples can provide crucial insight of disease biology and treatment response. In acute myeloid leukemia (AML) where treatment options are limited, combining functional genomics with transcriptomics can uncover novel therapeutically useful pharmacogenomic associations. We sought to determine associations between drug response and individual gene or gene expression modules to identify indicators of drug sensitivity and resistance. Here, we analyzed responses of primary cells from 123 diagnostic and relapsed/refractory AML patients to 527 different small molecule inhibitors along with gene expression profiles from the same samples, and applied different statistical and bioinformatic approaches to define high confident drug-gene interactions. Methods RNA was prepared from bone marrow or blood mononuclear cells (MNCs) collected from diagnostic (n=61), relapsed (n=38) and refractory (n=24) AML patients after written informed consent. RNA-seq was performed and data analyzed as described previously 1 . Specifically, RSubread package was employed for read summarization from aligned bam files using (EnsEMBL v82). The R packages DESeq2 and edgeR were used for the count normalization and differential gene expression analysis. Ex vivo drug sensitivity and resistance testing (DSRT) was also performed on the MNCs with 527 approved and investigational oncology chemical compounds in a 10,000-fold concentration range as described earlier 2 . Weighted correlation network analysis (WGCNA) was performed using the WGCNA R package and the resulting eigengenes were correlated (Spearman) with drug response for each drug. In addition, linear regression analysis was performed for each drug with potential confounding factors including RNA-seq library preparation and media used for drug testing. Results To identify expressed genes associated with drug sensitivity and resistance, we applied a weighted correlation network analysis method. After data pre-processing, 5000 most-highly variable genes were selected for co-expression gene module exploration. The gene co-expression modules and the corresponding hierarchical clustering of these genes resulted in 24 distinct gene modules (Fig. 1). These modules were then correlated with ex-vivo drug response profiles. The results indicated that BCL2 inhibitors navitoclax and venetoclax and MDM2 inhibitor idasanutlin strongly correlated (rho=0.69) with a module consisting of 142 genes. Gene set enrichment analysis suggested that genes within this module were enriched with gene involved in hematopoietic stem cells and nucleic acid binding/transcriptional regulation. Linear regression analysis for predictors of tyrosine kinase inhibitor responses (sorafeninb, sunitinib, tivozanib) revealed significant positive correlation with FLT3LG and KITLG and negative correlation with BEX2 and BEX5 genes. Similarly, the regression analysis for MEK inhibitors resulted in positive correlation with RRAS and JAK2 gene expression. Associations were considered significant with adjusted p-value <0.1. Summary Determining gene-drug interactions is a powerful strategy to identify clinically actionable pharmacogenomic associations. By applying different statistical and bioinformatic approaches to RNA-seq and ex vivo drug sensitivity data, we were able to identify potential drug-gene interactions, which could be used to monitor clinical drug response or identify responding vs. non-responding patients. Our results also indicated novel associations for drugs (e.g. TKIs and MEK inhibitors) that are being considered for AML therapy. Figure 1. Gene expression analysis of 123 AML patient samples resulted in 24 distinct gene modules. References Kontro M, Kumar A, Majumder MM, et al. HOX gene expression predicts response to BCL-2 inhibition in acute myeloid leukemia. Leukemia 2017, 31(2) ; 301-309. Pemovska T, Kontro M, Yadav B, et al. Individualized systems medicine strategy to tailor treatments for patients with chemorefractory acute myeloid leukemia. Cancer Discovery. 2013 Dec;3(12):1416-29. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Porkka: Novartis: Honoraria, Research Funding; Pfizer: Honoraria, Research Funding; Bristol-Myers Squibb: Honoraria, Research Funding; Celgene: Honoraria, Research Funding. Heckman: Celgene: Research Funding; Pfizer: Research Funding; IMI2 project HARMONY: Research Funding; Orion Pharma: Research Funding; Novartis: Research Funding.",
+    "topics": [
+        "cancer",
+        "gene expression profiling",
+        "genes",
+        "leukemia",
+        "leukemia, myelocytic, acute",
+        "mitogen-activated protein kinase inhibitors",
+        "mitogen-activated protein kinase kinase inhibitors",
+        "nucleic acids",
+        "protein-tyrosine kinase inhibitor",
+        "rna"
+    ],
+    "author_names": [
+        "Ashwini Kumar, MRes",
+        "Dishaben Rameshbhai Malani, MSc",
+        "Bhagwan Yadav, PhD",
+        "Matti Kankainen, PhD",
+        "Swapnil Potdar, MSc",
+        "Mika Kontro, MD",
+        "Kimmo Porkka, MD PhD",
+        "Olli Kallioniemi, MD PhD",
+        "Simon Anders, PhD",
+        "Caroline A Heckman, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Ashwini Kumar, MRes",
+            "author_affiliations": [
+                "Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dishaben Rameshbhai Malani, MSc",
+            "author_affiliations": [
+                "Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bhagwan Yadav, PhD",
+            "author_affiliations": [
+                "Hematology Research Unit Helsinki, University of Helsinki and Department of Hematology, Helsinki University Hospital Comprehensive Cancer Centre, Helsinki, Finland "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matti Kankainen, PhD",
+            "author_affiliations": [
+                "Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Swapnil Potdar, MSc",
+            "author_affiliations": [
+                "Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mika Kontro, MD",
+            "author_affiliations": [
+                "Hematology Research Unit Helsinki, University of Helsinki and Department of Hematology, Helsinki University Hospital Comprehensive Cancer Centre, Helsinki, Finland "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kimmo Porkka, MD PhD",
+            "author_affiliations": [
+                "Hematology Research Unit Helsinki, University of Helsinki and Department of Hematology, Helsinki University Hospital Comprehensive Cancer Centre, Helsinki, Finland "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Olli Kallioniemi, MD PhD",
+            "author_affiliations": [
+                "Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland ",
+                "Department of Oncology and Pathology, Science for Life Laboratory, Karolinska Institutet, Solna, Finland "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Simon Anders, PhD",
+            "author_affiliations": [
+                "Center for Molecular Biology of University of Heidelberg (ZMBH), University of Heidelberg, Heidelberg, Germany"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Caroline A Heckman, PhD",
+            "author_affiliations": [
+                "Institute for Molecular Medicine Finland (FIMM), University of Helsinki, Helsinki, Finland "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-11T21:28:21",
+    "is_scraped": "1"
 }
