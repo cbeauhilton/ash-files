@@ -1,8 +1,85 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3778",
-    "start_url_page_num": "3778",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.5118.5118",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/5118/81251/Using-Targeted-Enrichment-RNA-Sequencing-in-the?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T17:44:23",
-    "is_scraped": "0"
+    "article_title": "Using Targeted Enrichment RNA Sequencing in the Diagnosis of Hematologic Neoplasms in Fresh and Paraffin-Embedded Tissue ",
+    "article_date": "December 7, 2017",
+    "session_type": "618. Acute Lymphoblastic Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
+    "abstract_text": "Introduction: RNA profiling using microarray has been used extensively in cancer research, but its clinical utilization remains limited due to its poor reproducibility and difficulty in standardization. Next generation sequencing (NGS) technologies have advanced significantly in accuracy, reproducibility and simplicity. Targeted enrichment of RNA and NGS sequencing provides a reliable and reproducible approach for RNA profiling that is amenable to implementation in clinical laboratories. We explored using this approach in evaluating the utility of targeted enrichment RNA NGS sequencing in the diagnosis of various hematologic neoplasms. Methods: RNA from fresh bone marrow or peripheral blood samples from patients with ALL (N=29), AML (N=18), and CLL (N=25) and formalin fixed paraffin embedded (FFPE) samples from DLBCL (N=79), sarcoma (N=12) and various epithelial tumors (N=22). We used the TruSight RNA Pan-Cancer Panel (Illumina, San Diego, CA) for detecting the expression of 1385 genes. The results were standardized so the expression values had mean 0 and standard deviation 1. Fusions and mutations were not considered in this analysis. Results: The generated expression profiles provided simple data on various disease markers including CD3 , CD19 , CD8 and PAX5 that can be used directly for distinguishing between diseases. However, using statistical analysis we were able to distinguish between various diseases with high accuracy. We first focused on classifying ALL vs AML vs CLL since fresh samples were used in generating the expression data on these samples. Accounting for multiple hypothesis testing and setting false discovery rate (FDR) at 0.05, we found 1074 genes as statistically significant. Using the top 5 principal components, we can build a multinomial logit model with 93.1% accuracy rate based on leave-one-out cross-validation. Using a tree model with only FANCI and CIITA genes levels, we were able to diagnose ALL, AML, and CLL with an 88.9% accuracy rate also based on leave-one-out cross-validation. Similarly for the three FFPE groups (DLBCL, solid epithelial tumor, and sarcoma), setting FDR at 0.05 resulted in 1169 genes that were significantly different across the three groups. Using the top 5 principal components, we can build a multinomial logit model with a 92.0% accuracy rate on the leave-one-out testing. Using a simple tree model and the expression levels of CD79A and MALAT1 genes, we were able to distinguish between the three groups with a 94.7% accuracy rate on leave-one-out testing. Mixing FFPE with fresh tissue samples and analyzing all 6 groups, we found 1361 genes significantly by setting FDR at 0.05 to account for multiple hypothesis testing. A multinomial logit model with the top 5 principal components provided 89.7% accuracy in classifying the 6 disease using the leave-one-out testing. Conclusion: This data suggests that using targeted enrichment RNA sequencing and quantifying the expression of genes provide reliable data that can be used for distinguishing between various diseases. This is applicable to fresh and FFPE tissue. This approach also provides information on fusion genes and mutations. While these sources of information were not used in this model, they can provide additional important information not only to improve the model, but also to provide information on prognosis and potential response to therapy. Figure View large Download slide Figure View large Download slide  Close modal Disclosures Ma: NeoGenomics: Employment. De Dios: NeoGenomics: Employment. Funari: NeoGenomics: Employment. Blocker: NeoGenomics: Employment. Albitar: NeoGenomics: Employment.",
+    "topics": [
+        "hematologic neoplasms",
+        "paraffin",
+        "sequence analysis, rna",
+        "rna",
+        "massively-parallel genome sequencing",
+        "diffuse large b-cell lymphoma",
+        "neoplasms, epithelial",
+        "sarcoma",
+        "cancer",
+        "cd19 antigens"
+    ],
+    "author_names": [
+        "Wanlong Ma, MS",
+        "Ivan De Dios, BS",
+        "Vincent Funari, PhD",
+        "Babak Shahbaba, PhD",
+        "Forrest Blocker, PhD",
+        "Maher Albitar, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Wanlong Ma, MS",
+            "author_affiliations": [
+                "NeoGenomics, Inc., Aliso Viejo, CA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ivan De Dios, BS",
+            "author_affiliations": [
+                "NeoGenomics, Inc., Aliso Viejo, CA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vincent Funari, PhD",
+            "author_affiliations": [
+                "NeoGenomics, Inc., Aliso Viejo, CA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Babak Shahbaba, PhD",
+            "author_affiliations": [
+                "University of California, Irvine, Irvine, CA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Forrest Blocker, PhD",
+            "author_affiliations": [
+                "NeoGenomics, Inc., Aliso Viejo, CA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maher Albitar, MD",
+            "author_affiliations": [
+                "NeoGenomics, Valley Center, CA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-11T15:29:42",
+    "is_scraped": "1"
 }

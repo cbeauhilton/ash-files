@@ -1,8 +1,115 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3787",
-    "start_url_page_num": "3787",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.3575.3575",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/3575/114878/Transcriptome-Analysis-of-Lymphoma-Edited-Monocyte?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T17:45:00",
-    "is_scraped": "0"
+    "article_title": "Transcriptome Analysis of Lymphoma Edited Monocyte Phenotype ",
+    "article_date": "December 7, 2017",
+    "session_type": "201. Granulocytes, Monocytes, and Macrophages: Poster III",
+    "abstract_text": "Background : Immune editing is a major mechanism used by tumors to promote its survival. Checkpoint inhibitors demonstrated clinical utilities of targeting tumor-mediated immune suppression. We aim to identify additional immunotherapy targets for myeloid cells and previously reported the presence of a novel phenotype of immunosuppressive monocytes (CD14 + HLA-DR low/neg ) in a number of cancers. Increased presence of these cells was associated with decreased treatment response and OS. We have demonstrated that certain tumor cells can convert normal CD14 + HLA-DR + monocytes to CD14 + HLA-DR low/neg phenotype in an IL10 independent and a tumor specific way. These CD14 + HLA-DR low/neg monocytes, in turn, protect tumors from chemotherapy. Here we examine transcriptome changes from lymphoma editing of monocyte as a more comprehensive examination of these cells to inform development of therapeutic strategies. Method: Monocytes from healthy donors were co-cultured alone or with lymphoma cell lines (OCI-Ly3, n=3; Jeko-1, n=3; Granta-519, n=6; monocytes from healthy donors n=8 and lymphoma patients n=2). Cultured cells were isolated with immunomagnetic beads, assessed for phenotype by flow cytometry before RNAseq. Change in log expression level was analyzed using a linear mixed model with donor as the random effect to account for correlations between expression levels of different samples from the same donor. Results: RNA reads from both normal monocytes and lymphoma-converted CD14 + HLA-DR low/neg cells revealed that nearly half of the genes (n=11,611, 51.5%) are expressed at levels > 0.3 RPKM (kilo-base pair per 10 6 mapped reads). About 20.4% of these genes changed by more than 2-fold when after monocytes were co-culture with lymphoma cells (n=1184 up-regulated, n=1186 down-regulated). Gene ontology (GO) enrichment analysis by FunRich showed that top biological processes in the up-regulated genes are in plasma membranes (37.6%, p=1.3E-19) and integrin family cell surface interactions (33.1%, p=3.9E-7), and that the down-regulated genes are lysosome (22.0%, p=4.0E-23) and exosomes activities (23.4%, p=4.0E-16). For the top 100 up regulated genes with the highest RNA expressions in the lymphoma converted monocytes, protein interaction network analysis by STRING showed highly interactive nodes around IL8, CCR2, ALDOA, and VEGFA. For the top 100 genes with high monocyte expressions that were down regulated in co-culture, highest nodal interactions were seen with HLA-DP and HSP8. Interestingly, 25.3% of genes up-regulated and 26% of genes down regulated were shared among co-culture with at least two of the three cell lines. Among the shared genes, 32.1% of the up-regulated genes were involved in integrin family cell interactions; and 16.4% of the down-regulated genes were involved in STAT4-mediated IL12 signaling, immune regulation between lymphoid and non-lymphoid cell, and adaptive immune response. Monocytes from two lymphoma patients showed that up to 17.1% (84/490) of the up-regulated and close to 4.6% (34/741) of the down-regulated genes in primary lymphoma patients' monocytes were the same as those found from the in vitro generated CD14 + HLA-DR low/neg cells. Conclusions: We have shown that RNAseq is informative to understand the biological roles of immunosuppressive monocytes on lymphoma cells in a co-culture model. Preliminary analysis confirmed known phenotype changes in these cells and identified additional novel affected pathways by which monocytes support the oncogenic fitness of lymphoma cells in the tumor niche. Mechanistic studies of the newly identified pathways and functional analyses of affected pathways in primary monocytes from additional lymphoma patients are in progress. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "gene expression profiling",
+        "lymphoma",
+        "monocytes",
+        "phenotype",
+        "cd14 antigen",
+        "hla-dr antigens",
+        "neoplasms",
+        "coculture techniques",
+        "immunosuppressive agents",
+        "integrins"
+    ],
+    "author_names": [
+        "Yi Lin, MD PhD",
+        "Amel Dudakovic, PhD",
+        "Roman Thaler, PhD",
+        "Ailing Xue",
+        "Jennifer Le-Rademacher, PhD",
+        "Levy D. Pederson",
+        "Dennis A. Gastineau, MD",
+        "Allan Dietz, PhD",
+        "Andre van Wijnen, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Yi Lin, MD PhD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amel Dudakovic, PhD",
+            "author_affiliations": [
+                "Dept. of Orthopedic Surgery, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Roman Thaler, PhD",
+            "author_affiliations": [
+                "Department of Orthopedic Surgery, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ailing Xue",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jennifer Le-Rademacher, PhD",
+            "author_affiliations": [
+                "Dept of Biomedical Statistics and Informatics, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Levy D. Pederson",
+            "author_affiliations": [
+                "Department of Biomedical Statistics and Informatics, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dennis A. Gastineau, MD",
+            "author_affiliations": [
+                "Division of Transfusion Medicine, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Allan Dietz, PhD",
+            "author_affiliations": [
+                "Mayo Clinic Division of Transfusion Med., Rochester, MN"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andre van Wijnen, PhD",
+            "author_affiliations": [
+                "Dept. of Orthopedic Surgery, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-11T15:40:43",
+    "is_scraped": "1"
 }
