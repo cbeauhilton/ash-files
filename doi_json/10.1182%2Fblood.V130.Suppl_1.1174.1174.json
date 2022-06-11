@@ -1,8 +1,115 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3792",
-    "start_url_page_num": "3792",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.1174.1174",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/1174/116065/Whole-Genome-Sequencing-to-Detect-Small-Deletions?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T18:26:39",
-    "is_scraped": "0"
+    "article_title": "Whole Genome Sequencing to Detect Small Deletions in Ribosomal Protein Genes in Diamond Blackfan Anemia Patients ",
+    "article_date": "December 7, 2017",
+    "session_type": "508. Bone Marrow Failure: Poster I",
+    "abstract_text": "Diamond Blackfan Anemia (DBA) is characterized by profound anemia due to red cell aplasia (Vlachos, Blanc and Lipton 2014; Clinton and Gazda 2016). Mutations in ribosomal protein (RP) genes involved in the biogenesis of the small and large ribosomal subunits are detected in approximately 65% of patients and display an autosomal dominant pattern of inheritance. In addition, rare recessive mutations in the GATA1 , TSR2 , CECR1 , and EPO genes have also been associated with a DBA phenotype. The molecular diagnosis of DBA follows a standard genotyping pipeline that employs targeted sequencing, detection of large deletions and whole exome sequencing. However, approximately 35% of patients with a clinical diagnosis of DBA have no detectable mutation. We first hypothesized that mutations in other genes associated with ribosomal biogenesis and/or translation were responsible for DBA in the patients without a molecular diagnosis, and that these mutations would be inherited in an autosomal recessive pattern. To test this, we conducted whole exome sequencing for 12 patients that had a clinical diagnosis of DBA but were negative for previously characterized RP mutations, large deletions, as well as for both parents and a sibling (affected or unaffected). In our 12 families we detected compound heterozygous point mutations in 20 non-ribosomal protein genes. Unfortunately, none of these variants could be convincingly validated in functional assays or by finding an unrelated family with a mutation in the same gene. Similar to previous studies, we conclude that non-RP mutations associated with DBA are rare and that undetected mutations in RP genes were responsible for DBA in the majority of the undiagnosed patients. One limitation in the current genotyping pipelines is that they are unable to detect deletions smaller than 15kb and small insertions or deletions in the exons. Therefore we hypothesized that small deletions in RP genes may be present in DBA patients without a molecular diagnosis. To test this hypothesis we performed whole genome sequencing on five patients that had a clinical diagnosis of DBA but had been shown to be negative for the known RP gene and GATA1 mutations, large RP gene deletions and did not have RP mutations detected by whole exome sequencing. To identify deletions in whole genome sequencing data we used two variant callers, DELLY (Rausch et al, 2012) and CNVkit (Talevich et al, 2016). DELLY analyzes the sequence from the ends of the sequenced DNA fragments and determines whether the ends are the appropriate distance apart compared to reference genome. When DELLY identifies sequences that are not at the correct distance, it analyzes single reads to identify putative deletions. In contrast, CNVkit analyzes the number of reads at each location in the genome and identifies significant changes in sequencing read depth between exons and surrounding DNA in order to detect genomic variants (increased number = duplication, decreased number = deletion). All the variants we discovered in our 5 patients (~42000/patient) were screened against copy number variants found in the general population using the dbVar database. Only novel deletions that overlap with RP genes were considered. Nine ribosomal protein genes were found to carry deletions in at least 1 patient (Table 1). DELLY detected a 419bp deletion overlapping the 3' end of the RPL36AL gene while CNVkit predicted deletions in the RPS27L (1867bp), RPS24 (6666bp), RPS17 (4533bp), RPS13 (3200bp), RPS6 (1067bp), RPL5 (1334bp) and RPS5 (3466bp) genes for one patient each. A deletion in the RPL7 , predicted by CNVkit, was shared by 3 of the 5 patients and varied in length between 1867bp and 3200bp. To validate the presence of these deletions, we designed primers that span each predicted deletion. For example we performed PCR on DNA from healthy donor controls and the patient predicted to have the RPL36AL deletion. In the patient DNA we demonstrated both the wildtype band (~850bp) and a band of ~350bp, is consistent with a deletion of 500bp, which is within the confidence limits of the detection software. In conclusion, we identified deletions in five RP genes in five DBA patients that had no molecular diagnosis after targeted sequencing, analysis of SNP arrays and whole exome sequencing. These small deletions are amenable to primer-directed PCR analysis to validate the causative variant in uncharacterized DBA patients. View large Download slide View large Download slide  Close modal Disclosures Lipton: BMS: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Pfizer: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Novartis: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Ariad: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding.",
+    "topics": [
+        "diamond-blackfan anemia",
+        "genes",
+        "ribosomal proteins",
+        "whole genome sequencing",
+        "molecular diagnostic techniques",
+        "clinical diagnosis",
+        "dna",
+        "genotype determination",
+        "polymerase chain reaction",
+        "anemia"
+    ],
+    "author_names": [
+        "Jens Lichtenberg",
+        "Jason E. Farrar, MD",
+        "David Chelimo",
+        "Frederick Horne",
+        "NISC Comparative Sequencing Program",
+        "Steven Ellis, PhD",
+        "Adrianna Vlachos, MD",
+        "Jeffrey H. Lipton, PhD MD FRCPC",
+        "David M. Bodine, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Jens Lichtenberg",
+            "author_affiliations": [
+                "NHGRI, Bethesda, MD "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jason E. Farrar, MD",
+            "author_affiliations": [
+                "University of Arkansas For Medical Sciences, Little Rock, AR "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David Chelimo",
+            "author_affiliations": [
+                "NHGRI, Bethesda, MD "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Frederick Horne",
+            "author_affiliations": [
+                "NHGRI, Bethesda, MD "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "NISC Comparative Sequencing Program",
+            "author_affiliations": [
+                "NHGRI, Rockville, MD "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Steven Ellis, PhD",
+            "author_affiliations": [
+                "University of Louisville, Louisville, KY "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Adrianna Vlachos, MD",
+            "author_affiliations": [
+                "Hematology/Oncology and Stem Cell Transplantation, Cohen Children's Medical Center, New Hyde Park, NY "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jeffrey H. Lipton, PhD MD FRCPC",
+            "author_affiliations": [
+                "Hematology/Oncology and Stem Cell Transplantation, Cohen Children's Medical Center, New Hyde Park, NY "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David M. Bodine, PhD",
+            "author_affiliations": [
+                "National Institutes of Health, Bethesda, MD"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-11T18:39:16",
+    "is_scraped": "1"
 }
