@@ -1,8 +1,163 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3858",
-    "start_url_page_num": "3858",
     "doi": "https://doi.org/10.1182/blood-2018-99-117245",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/1898/261509/Comprehensive-Multi-Omics-Analysis-of-Gene-Fusions?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T20:43:07",
-    "is_scraped": "0"
+    "article_title": "Comprehensive Multi-Omics Analysis of Gene Fusions in a Large Multiple Myeloma Cohort ",
+    "article_date": "November 29, 2018",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster I",
+    "abstract_text": "Introduction : Gene fusions are the result of genomic rearrangements that create hybrid protein products or bring the regulatory elements of one gene into close proximity of another. Fusions often dysregulate gene function or expression through oncogene overexpression or tumor suppressor underexpression (Gao, Liang, Foltz, et al. Cell Rep 2018). Some fusions such as EML4--ALK in lung adenocarcinoma are known druggable targets. Fusion detection algorithms utilize discordantly mapped RNA-seq reads. Careful consideration of detection and filtering procedures is vital for large-scale fusion detection because current methods are prone to reporting false positives and show poor concordance. Multiple myeloma (MM) is a blood cancer in which rapidly expanding clones of plasma cells spread in the bone marrow. Translocations that juxtapose the highly-expressed IGH enhancer with potential oncogenes are associated with overexpression of partner genes, although they may not lead to a detectable gene fusion in RNA-seq data. Previous studies have explored the fusion landscape of multiple myeloma cohorts (Cleynen, et al. Nat Comm 2017; Nasser, et al. Blood 2017). In this study, we developed a novel gene fusion detection pipeline and post-processing strategy to analyze 742 patient samples at the primary time point and 64 samples at follow-up time points (806 total samples) from the Multiple Myeloma Research Foundation (MMRF) CoMMpass Study using RNA-seq, WGS, and clinical data. Methods and Results : We overlapped five fusion detection algorithms (EricScript, FusionCatcher, INTEGRATE, PRADA, and STAR-Fusion) to report fusion events. Our filtered call set consisted of 2,817 fusions with a median of 3 fusions per sample (mean 3.8), similar to glioblastoma, breast, ovarian, and prostate cancers in TCGA. Major recurrent fusions involving immunoglobulin genes included IGH--WHSC1 (88 primary samples), IGL--BMI1 (29), and the upstream neighbor of MYC , PVT1 , paired with IGH (6), IGK (3), and IGL (11). For each event, we used WGS data when available to determine if there was genomic support of the gene fusion (based on discordant WGS reads, SV event detection, and MMRF CoMMpass Seq-FISH WGS results) (Miller, et al. Blood 2016). WGS validation rates varied by the level of RNA-seq evidence supporting each fusion, with an overall rate of 24.1%, which is comparable to previously observed pan-cancer validation rates using low-pass WGS. We calculated the association between fusion status and gene expression and identified genes such as BCL2L11 , CCND1/2 , LTBR , and TXNDC5 that showed significant overexpression (t-test). We explored the clinical connections of fusion events through survival analysis and clinical data correlations, and by mining potentially druggable targets from our Database of Evidence for Precision Oncology (dinglab.wustl.edu/depo) (Sun, Mashl, Sengupta, et al. Bioinformatics 2018). Major examples of upregulated fusion kinases that could potentially be targeted with off-label drug use include FGFR3 and NTRK1 . We examined the evolution of fusion events over multiple time points. In one MMRF patient with a t(8;14) translocation joining the IGH locus and transcription factor MAFA , we observed IGH fusions with TOP1MT (neighbor of MAFA ) at all four time points with corresponding high expression of TOP1MT and MAFA . Using non-MMRF single-cell RNA data from different patients, we were able to track cell-type composition over time as well as detect subpopulations of cells harboring fusions at different time points with potential treatment implications. Discussion : Gene fusions offer potential targets for alternative MM therapies. Careful implementation of gene fusion detection algorithms and post-processing are essential in large cohort studies to reduce false positives and enrich results for clinically relevant information. Clinical fusion detection from untargeted RNA-seq remains a challenge due to poor sensitivity, specificity, and usability. By combining MMRF CoMMpass data from multiple platforms, we have produced a comprehensive fusion profile of 742 MM patients. We have shown novel gene fusion associations with gene expression and clinical data, and we identified candidates for druggability studies. Disclosures Vij: Bristol-Myers Squibb: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Celgene: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Jazz Pharmaceuticals: Honoraria, Membership on an entity's Board of Directors or advisory committees; Jansson: Honoraria, Membership on an entity's Board of Directors or advisory committees; Amgen: Honoraria, Membership on an entity's Board of Directors or advisory committees; Karyopharma: Honoraria, Membership on an entity's Board of Directors or advisory committees; Takeda: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding.",
+    "topics": [
+        "gene fusion",
+        "multiple myeloma",
+        "rna",
+        "false-positive results",
+        "bcl2-related protein 11",
+        "cancer",
+        "cyclin d1",
+        "follow-up",
+        "glioblastoma",
+        "hematologic neoplasms"
+    ],
+    "author_names": [
+        "Steven M. Foltz, MS",
+        "Qingsong Gao, PhD",
+        "Christopher J. Yoon, MPhil",
+        "Amila Weerasinghe, PhD",
+        "Hua Sun, PhD",
+        "Lijun Yao, MS",
+        "Mark A. Fiala, BS",
+        "Daniel R. Kohnen, MBA",
+        "Justin King, BS",
+        "Yeong Seok Ju, MD PhD",
+        "John F. DiPersio, MD PhD",
+        "Ravi Vij, MBBS",
+        "Li Ding, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Steven M. Foltz, MS",
+            "author_affiliations": [
+                "Medicine, Washington University School of Medicine, Saint Louis, MO ",
+                "McDonnell Genome Institute, Washington University School of Medicine, Saint Louis, MO "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Qingsong Gao, PhD",
+            "author_affiliations": [
+                "Medicine, Washington University School of Medicine, Saint Louis, MO ",
+                "McDonnell Genome Institute, Washington University School of Medicine, Saint Louis, MO "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher J. Yoon, MPhil",
+            "author_affiliations": [
+                "Graduate School of Medical Science and Engineering, Korea Advanced Institute of Science and Technology, Daejeon, Korea, Republic of (South) "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amila Weerasinghe, PhD",
+            "author_affiliations": [
+                "Medicine, Washington University School of Medicine, Saint Louis, MO ",
+                "McDonnell Genome Institute, Washington University School of Medicine, Saint Louis, MO "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hua Sun, PhD",
+            "author_affiliations": [
+                "Medicine, Washington University School of Medicine, Saint Louis, MO ",
+                "McDonnell Genome Institute, Washington University School of Medicine, Saint Louis, MO "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lijun Yao, MS",
+            "author_affiliations": [
+                "Medicine, Washington University School of Medicine, Saint Louis, MO ",
+                "McDonnell Genome Institute, Washington University School of Medicine, Saint Louis, MO "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mark A. Fiala, BS",
+            "author_affiliations": [
+                "Medicine, Washington University School of Medicine, Saint Louis, MO "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel R. Kohnen, MBA",
+            "author_affiliations": [
+                "Medicine, Washington University School of Medicine, Saint Louis, MO "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Justin King, BS",
+            "author_affiliations": [
+                "Medicine, Washington University School of Medicine, Saint Louis, MO "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yeong Seok Ju, MD PhD",
+            "author_affiliations": [
+                "Graduate School of Medical Science and Engineering, Korea Advanced Institute of Science and Technology, Daejeon, Korea, Republic of (South) "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John F. DiPersio, MD PhD",
+            "author_affiliations": [
+                "Medicine, Washington University School of Medicine, Saint Louis, MO "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ravi Vij, MBBS",
+            "author_affiliations": [
+                "Medicine, Washington University School of Medicine, Saint Louis, MO "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Li Ding, PhD",
+            "author_affiliations": [
+                "Medicine, Washington University School of Medicine, Saint Louis, MO ",
+                "McDonnell Genome Institute, Washington University School of Medicine, Saint Louis, MO ",
+                "Genetics, Washington University School of Medicine, Saint Louis, MO ",
+                "Siteman Cancer Center, Washington University School of Medicine, Saint Louis, MO"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-12T15:30:07",
+    "is_scraped": "1"
 }

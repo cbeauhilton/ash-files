@@ -1,8 +1,85 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3862",
-    "start_url_page_num": "3862",
     "doi": "https://doi.org/10.1182/blood-2018-99-119094",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/2215/261593/Development-of-a-Neoantigen-Prediction-Tool-for?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T21:18:02",
-    "is_scraped": "0"
+    "article_title": "Development of a Neoantigen Prediction Tool for Patient Stratification in Immuno-Oncology Trials ",
+    "article_date": "November 29, 2018",
+    "session_type": "802. Chemical Biology and Experimental Therapeutics: Poster I",
+    "abstract_text": "Immunotherapeutic agents are quickly becoming a routine aspect of treatment paradigms. However, despite clinical successes, cancer immunotherapy faces major challenges. One such challenge is that efficacy in most patients is unpredictable. Many immunotherapy treatments have demonstrated efficacy in only select cancer types. Variability in patient response indicates that immunotherapy needs to be patient-specific in order to be most effective. Identifying biomarkers that have value in predicting benefit from treatment with immunotherapy has been difficult. Few predictive biomarkers for immunotherapy treatments are robustly validated for use in clinical trials. Pivotal trials reveal that treatment benefits with checkpoint blockers is not solely restricted to PD-L1-positive patients, indicating the existence of other unknown biomarkers that could be predictive of response. Similarly, tumor mutational burden (TMB) has limitations, as it is not able to effectively segregate patients that are likely to respond to immunotherapeutic agents in tumor types that are relatively mutationally dormant. Increasingly, evidence suggests that tumor immunogenicity may be a strong biomarker for immunotherapy patient selection. In short, the abundance of predicted immunogenic mutations may be useful in predicting patients likely to benefit from checkpoint blockade and related immunotherapies. To address this need for a more specific biomarker, we have designed an assay and bioinformatic work-flow utilizing a multimodal neo-antigen prediction approach that combines data on somatic variants, RNA expression, and compatibility of resultant epitope with host HLA type. In summary, whole exome and whole transcriptome sequencing are performed on a patient tumor sample, and HLA typing is performed on a matched germline patient sample. The somatic variants (tumor-specific mutations) identified by exome sequencing are compared to the RNA sequencing data to identify the most prevalent variants in the transcriptome occurring in the most highly expressed regions. These highly expressed mutations are most likely to be translated into mutant peptides that can interact with MHC molecules and be subsequently presented on the tumor cell surface as neoantigens. The subject's HLA type is then determined using the seq2hla computational tool. Next, a molecular modeling tool, NetMHC4.0, compares the structures of the candidate mutant peptides to the HLA molecule structures and generates a goodness of fit prediction. A higher binding affinity between mutant peptide and HLA molecule corresponds to a greater likelihood of this complex existing on the cell surface as a neoantigen. This data - the DNA sequencing, RNA expression and binding affinity calculation - is combined via a series of filters to generate an immunogenicity score associated with each tumor mutation / predicted mutant peptide. These candidate neoantigens are then returned as a rank order list for each case. This information then can be used to guide targeted therapies and to stratify patients with higher immunogenicity scores for immunotherapy. To test our bioinformatic pipeline, we utilized a subset of multiple myeloma samples. Such analysis yielded a rank list of predicted neoantigens for each tumor sample, with associated immunogenicity scores for each prediction. Additionally, TMB was calculated for these samples. We compared the number of predicted neoantigens from our workflow to the TMB of the tumors as a proxy for this assay's performance against a current clinically utilized biomarker (TMB). The numbers of predicted neoantigens for the samples ranged from 19 to 61 (Average number of 41 neoantigens per sample), and the TMB scores for these samples respectively were between 7 and 13 mutations per megabase. Comparing these results using Pearson Correlation method yields a strong R squared value of 0.91. Among top ranking neoantigens were peptides associated with TP53, SIK3, ATM and NOTCH2 genes among others, and representing known frequently mutated genes in multiple myeloma. Therefore, our neoantigen predictor demonstrates promise as a reliable tool to identify markers of tumor immunogenicity. These preliminary results suggest that further validation of our process is warranted and may yield a new method for use in patient stratification and response prediction in immuno-oncology trials. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "antigens",
+        "biological markers",
+        "cancer",
+        "cancer immunotherapy",
+        "epitopes",
+        "hla serotyping",
+        "human leukocyte antigens",
+        "immuno-oncology",
+        "immunotherapy",
+        "molecular targeted therapy"
+    ],
+    "author_names": [
+        "Daniel Duncan, MD",
+        "Venkata Thodima, PhD",
+        "Jack Yen, MS",
+        "Samir Parekh, MD",
+        "Alessandro Lagana, PhD",
+        "Rita Shaknovich, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Daniel Duncan, MD",
+            "author_affiliations": [
+                "Cancer Genetics Incorporated, Morrisville, NC "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Venkata Thodima, PhD",
+            "author_affiliations": [
+                "Cancer Genetics Incorporated, Rutherford, NJ "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jack Yen, MS",
+            "author_affiliations": [
+                "Cancer Genetics Incorporated, Morrisville, NC "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Samir Parekh, MD",
+            "author_affiliations": [
+                "Department of Hematology and Medical Oncology, Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alessandro Lagana, PhD",
+            "author_affiliations": [
+                "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rita Shaknovich, MD PhD",
+            "author_affiliations": [
+                "Cancer Genetics Incorporated, Morrisville, NC "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-12T15:35:21",
+    "is_scraped": "1"
 }

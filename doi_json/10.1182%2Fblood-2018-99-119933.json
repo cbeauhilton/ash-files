@@ -1,8 +1,116 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3864",
-    "start_url_page_num": "3864",
     "doi": "https://doi.org/10.1182/blood-2018-99-119933",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/2219/261631/Predicting-Drug-Response-and-Novel-Therapeutic?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T21:18:09",
-    "is_scraped": "0"
+    "article_title": "Predicting Drug Response and Novel Therapeutic Candidates Using Signatures of Molecular Alterations in Hematologic Malignancies ",
+    "article_date": "November 29, 2018",
+    "session_type": "802. Chemical Biology and Experimental Therapeutics: Poster I",
+    "abstract_text": "Background: Hematologic malignancies present a varied genetic landscape that plays an important role in prognosis and therapeutic outcome of patients. However, our understanding of the impact of a patient's molecular alterations on therapy is limited. Cell Line-Based High Throughput Screening (CBHTS) can allow novel drug discovery and systematic evaluation of drug response in cell lines or patient samples to large panels of drugs. Here, we present a comprehensive profiling of molecular alterations in hematologic malignancies and their impact on drug response, which we believe provides novel insight into drug sensitivity and resistance correlated with unique molecular alteration signatures as well as clinical trial development. Methods: Cell lines were acquired from ATCC, suspended in growth media, plated in 384 well plates, and allowed to proliferate for 24 hours before addition of drugs. Compounds were obtained from Selleck Chemicals and were added to cells at concentrations of 100nM and 1nM in quadruplicate, with a 0.1% concentration of DMSO. Cell viability was measured after 72 hours with drugs. DMSO was used as the vehicle control, and all drug effects are normalized to the DMSO control and reported as percent viable. Drug activity was studied across a panel of 1,828 drugs and 30 cell-lines. Drug activity clusters were defined using unsupervised learning (Distance metric: Euclidean and Ward linkage; tree height: 1.2). Cell lines were annotated using Broad CCLE and Gnomad database, and mutations were ranked into four groups based on predicted variant effect - high, medium, low, and modifier. Drugs were annotated using Anatomical Therapeutic Classification (ATC), while pathways and targets were annotated using ToppGene Suite. T-statistic was used to estimate significance of differential drug activity between sensitive (cell-lines with viability 85% considered highly resistant). Results: We identified 25 clusters with significant differential drug activity across the 30 cell lines. Corticosteroids (n=19), for example, clustered together by activity profile, and showed most differential response across five cell lines: NB4 (Acute Myeloid Leukemia, AML), Kasumi-1 (AML), HL-60 (Acute Lymphoblastic Leukemia, ALL), RS4-11 (ALL) and MV4-11 (Biphenotypic Acute Leukemia, BAL), p = 6.10 -27 . Steroid activity was minimal in NB4, MV4-11 and HL-60; however, highest in RS4-11 (<11% cell viability) and Kasumi-1. Interestingly, loxapine, an antipsychotic, which acts as a dopamine and serotonin 5-HT2 antagonist, clustered with the main corticosteroid group, and shared similar activity profile (p = 5.5 10 -3 ). A unique gene signature common to RS4-11 and Kasumi-1 included mutations in LOXHD1, FBN3, TRIB3, TDRD6, ALX4, ALDH3B2, NT5DC3, TTC3, ZFAT and GLI2 with moderate variant effects impacting key hematologic processes. Conclusions: This high-dimensional screening against a backdrop of molecular alterations highlighted a potential for correlating differential drug activity with a patient's genetic landscape, with potential for experimental validation and clinical trial development. This pilot study further demonstrates that drug response in hematologic malignancy cell lines may be uniquely driven by a signature of molecular alterations sensitive to single or multiple therapeutic classes and provides rationale for novel drug discovery and drug repositioning in precision medicine. View large Download slide View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "culture media",
+        "drug response",
+        "hematologic neoplasms",
+        "dimethyl sulfoxide",
+        "adrenal corticosteroids",
+        "glucocorticoids",
+        "mineralocorticoids",
+        "screening",
+        "acute lymphocytic leukemia",
+        "antipsychotic agents"
+    ],
+    "author_names": [
+        "Guillaume Labilloy, MS",
+        "Eric O'Brien, BSc",
+        "Brett VanCauwenbergh, BSc",
+        "Luke Byerly, BSc",
+        "Mitali Basu, MSc",
+        "William Seibel, PhD",
+        "Erin H. Breese, MD PhD",
+        "John Peter Perentesis, MD",
+        "Mayur Sarangdhar, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Guillaume Labilloy, MS",
+            "author_affiliations": [
+                "Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eric O'Brien, BSc",
+            "author_affiliations": [
+                "Division of Oncology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brett VanCauwenbergh, BSc",
+            "author_affiliations": [
+                "Oncology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Luke Byerly, BSc",
+            "author_affiliations": [
+                "Oncology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mitali Basu, MSc",
+            "author_affiliations": [
+                "Oncology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "William Seibel, PhD",
+            "author_affiliations": [
+                "Division of Oncology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Erin H. Breese, MD PhD",
+            "author_affiliations": [
+                "Cancer and Blood Diseases Institute, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John Peter Perentesis, MD",
+            "author_affiliations": [
+                "Cancer and Blood Diseases Institute, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mayur Sarangdhar, PhD",
+            "author_affiliations": [
+                "Cancer & Blood Diseases Institute, Cincinnati Children's Hospital Medical Center, Cincinnati, OH ",
+                "Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-12T15:37:42",
+    "is_scraped": "1"
 }
