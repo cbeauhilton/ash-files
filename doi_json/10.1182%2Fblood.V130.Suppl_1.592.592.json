@@ -1,8 +1,155 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3813",
-    "start_url_page_num": "3813",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.592.592",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/592/115684/Computational-Modeling-of-Protein-Networks?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T19:18:10",
-    "is_scraped": "0"
+    "article_title": "Computational Modeling of Protein Networks Predicts Treatment Outcomes in Multiple Myeloma (MM) ",
+    "article_date": "December 7, 2017",
+    "session_type": "652. Myeloma: Pathophysiology and Pre-Clinical Studies, excluding Therapy: Emerging New Targets and Mechanisms of Resistance",
+    "abstract_text": "Background: MM is a highly refractory disease that is rarely cured. While introduction of novel therapies has improved survival and overall response rates (ORR), complete remission (CR) rates remain low (30%) and relapse is still frequent. Although nearly all newly diagnosed MM patients respond to standard of care (SOC) therapy, the depth of response varies. Triplet regimens, such as RVd (lenalidomide [R], bortezomib [V] and dexamethasone [d]), are accepted as SOC, but four-drug regimens are being investigated in an effort to improve CR rates. Doublet regimens are commonly initiated in older, transplant ineligible patients. Limitations of combination therapies include treatment-related adverse events, resulting in patients receiving suboptimal therapy. Unfortunately, no precise method exists to predict MM response to SOC, or to predict which patients will respond with two-drug combinations, making MM management challenging. Computational biological modeling (CBM) is a genomics-based tool to identify aberrant protein signaling networks within disease cells, and predict how each MMD case will respond to FDA-approved drugs and combinations. Predicting disease response would improve MM patient management and potentially reduce unnecessary treatment-related adverse events by identifying drug regimens with high potential for therapeutic activity against patient-specific, MM protein networks. Aim: To test the application of a genomics-informed CBM in MM patients treated with RVd. Methods: Forty newly-diagnosed patient profiles were identified from the publicly available MMRF CoMMpass dataset and divided into training (n=15) and test (n=25) cohorts. For each patient, all available genomic information was entered into computational biology program (Cellworks Group) that uses PubMed and other online resources to generate patient-specific protein network maps of activated and inactivated protein networks. Digital drug simulations with standard of care (SOC) drugs were conducted by quantitatively measuring drug effect on a composite MM disease inhibition score (i.e. cell proliferation, viability, and apoptosis) to predict patient clinical outcomes. Additionally, the dynamics of antibody (heavy and light chains) transcription, translation, folding, and secretion were modeled to measure the extent that SOC therapy reduced paraprotein expression. Clinically, patients received SOC treatment and clinical responses were recorded. CR, VGPR, and PR were considered as responsive, while stable disease (SD) was considered non-response. Predictive values were calculated based on comparisons of the computer predictions and actual clinical outcomes. Results: The computational modeling correctly predicted 36 out of 40 clinical outcomes resulting in 94.12% PPV, 66.67% NPV (p=0.02), 94.12% sensitivity, and 66.67% specificity, and 90% accuracy. Additionally, 33 of 34 simulated paraprotein reductions were matched to actual clinical reductions in paraprotein levels, resulting in 97% accuracy. CBM was used to identify the minimum number of drugs each responder needed to achieve a simulated response, and selected the drug within the doublet or triplet regimen that had no therapeutic effect due to absence of the drug's target within the disease profiles. Conclusions: Computational modeling and digital drug simulations using MM patient genomic data resulted in highly accurate matching of clinical response to SOC treatment. CBM also accurately predicted the extent by which each patient's therapy reduced paraprotein levels, which can precede improved clinical outcomes. The computational approach identified each patient's anchor drug in their combination therapy that was most likely responsible for achieving improved clinical outcome. For patients who were clinical non-responders, the CBM identified probable protein networks responsible for drug resistance and rapidly screened for alternative drug combinations with predicted efficacy in light of the patients' drug-resistant pathways. Thus, CBM may be a useful tool for clinicians and translational scientists in search of personalized treatment or newer therapies for patients with MM. Disclosures Grover: Cellworks: Employment. Narvekar: Cellworks: Employment. Kumari: Cellworks: Employment. Narayanabhatia: Cellworks: Employment. Bhowmick: Cellworks: Employment. Abbasi: Cellworks Group Inc.: Employment. Vali: Cellworks Group Inc.: Employment. Usmani: Takeda: Consultancy, Honoraria, Research Funding, Speakers Bureau; Skyline: Honoraria, Membership on an entity's Board of Directors or advisory committees; Amgen: Consultancy, Honoraria, Speakers Bureau; Bristol-Myers Squibb: Honoraria, Research Funding; Janssen: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Millennium: Honoraria, Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Onyx: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; Celgene: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; Novartis: Speakers Bureau; Sanofi: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Pharmacyclics: Honoraria, Research Funding; Array BioPharma: Honoraria, Research Funding. Cogle: Celgene: Other: Membership on Steering Committee for Connect MDS/AML Registry.",
+    "topics": [
+        "adverse event",
+        "antibodies",
+        "bortezomib",
+        "combined modality therapy",
+        "complete remission",
+        "computer simulation",
+        "dexamethasone",
+        "drug combinations",
+        "lenalidomide",
+        "lung injury, ventilator-associated"
+    ],
+    "author_names": [
+        "Leylah M. Drusbosky, PhD",
+        "Hemant S. Murthy, MD",
+        "Helen L. Leather",
+        "Himanshu Grover, MS",
+        "Yugandhara Narvekar, MS",
+        "Pallavi Kumari, MS",
+        "Sirisha Narayanabhatia, MS",
+        "Priyanka Bhowmick, MS",
+        "Taher Abbasi, MS, MBA",
+        "Shireen Vali, PhD",
+        "Qing Zhang, PhD",
+        "Saad Z Usmani, MD",
+        "Christopher R. Cogle, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Leylah M. Drusbosky, PhD",
+            "author_affiliations": [
+                "Department of Medicine/Division of Hematology Oncology, University of Florida, Gainesville, FL "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hemant S. Murthy, MD",
+            "author_affiliations": [
+                "University of Florida Department of Medicine/Division of Hematology Oncology, Gainesville, FL "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Helen L. Leather",
+            "author_affiliations": [
+                "Department of Medicine/Division of Hematology Oncology, University of Florida, Gainesville, FL "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Himanshu Grover, MS",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yugandhara Narvekar, MS",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pallavi Kumari, MS",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sirisha Narayanabhatia, MS",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Priyanka Bhowmick, MS",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Taher Abbasi, MS, MBA",
+            "author_affiliations": [
+                "Cellworks Group Inc., San Jose, CA "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shireen Vali, PhD",
+            "author_affiliations": [
+                "Cellworks Group Inc., San Jose, CA "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Qing Zhang, PhD",
+            "author_affiliations": [
+                "Department of Cancer Biostatistics, Levine Cancer Institute, Carolinas HealthCare System, Charlotte, NC "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Saad Z Usmani, MD",
+            "author_affiliations": [
+                "Levine Cancer Institute/Carolinas HealthCare System, Charlotte, NC "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher R. Cogle, MD",
+            "author_affiliations": [
+                "University of Florida, Gainesville, FL"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-12T02:39:14",
+    "is_scraped": "1"
 }

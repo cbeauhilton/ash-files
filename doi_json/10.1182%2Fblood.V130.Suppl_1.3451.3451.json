@@ -1,8 +1,246 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3811",
-    "start_url_page_num": "3811",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.3451.3451",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/3451/114490/Delphi-a-Data-Warehouse-to-Discover-Associations?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T19:18:02",
-    "is_scraped": "0"
+    "article_title": "Delphi, a Data Warehouse to Discover Associations between Variables in Clinical Trials: Application to the Fondazione Italiana Linfomi (FIL) MCL0208 Phase III Trial ",
+    "article_date": "December 7, 2017",
+    "session_type": "904. Outcomes Research\u2014Malignant Conditions: Poster II",
+    "abstract_text": "Background and aims. Data collection in clinical trials is becoming complex, with huge amount of clinical and biological variables that need to be recorded, verified and analyzed to confirm obvious and identify unexpected associations. Outside the medical field, data warehouses (DWs) are widely employed to achieve these objectives. To verify whether DWs might be useful for data quality and association analysis, a team of clinicians, biologists, statisticians and biomedical engineers developed DELPHI (\"Data ELaboration to Predict Hypothetical assocIations\"). The tool has been suited to a large clinical trial from the Fondazione Italiana Linfomi (FIL), including all the clinical, biological and mutational features collected both in the trial and in the ancillary studies. Herein we present the first results, related to baseline variables: 1) creation of a broad DW (including 350 variables for 300 patients, thus > 10 5 data); 2) data harmonization and quality control; 3) discovery of unexpected associations and (in a later phase) outcome correlations; 4) results visualization. Methods. Data were retrieved from electronic case reporting forms (eCRF) of the phase III, multicenter \"FIL-MCL0208\" trial (NCT02354313) for younger, untreated mantle cell lymphoma patients [Cortelazzo, EHA 2015], now at the second interim analysis. DW was created with Mysql\u00ae, a relational database management system, already used in many apps. DW filling, data cleaning and statistical analysis were performed via Matlab\u00ae. For this preliminary analysis 62 baseline features from 300 subjects were organized in groups of demographics, clinical, laboratory, pathological, minimal residual disease, gene expression profiling (GEP) and mutational variables. A first data quality control was performed. Secondly, a team of 3 lymphoma experts claimed the expected associations among about 1860 couples of features conveniently categorized. The original series was randomly divided in two subsets (200 vs 100 subjects): the first used for discovery and the second as a validation set. For each subset, couples were screened by Chi-square and Fisher's test as appropriate (p<0.05), then Cramer's V coefficients were calculated to assess the statistical strength of association. Couples from discovery set confirmed by validation-set were selected. Hence, selected couples were overlapped to the previously declared \"clinical expectations\" to extrapolate the unexpected ones, suggested by the analysis. Data visualization was performed via Circos [Krzywinski, Gen Res 2009]. Results. Quality Control: DELPHI allowed cross comparison analysis and detected many incongruities in eCRF, prompting request for queries to clinical centers, which allowed data corrections - e.g. data quality increase has been recorded for classical laboratory (+7%), biological (+40%) and clinical data (up to 99.6% of correctness). Testing associations: DELPHI identified 231/1860 (12%) associations in the discovery set, of whom 64% (149/231) were confirmed in the validation set. Among these mismatches, main contribution is imputed to associations between clinical and laboratory data with baseline tumor burden by quantitative PCR, qPCR, (n=21) and mutational data (n=11). The clinical team classified as \"expected\" 242/1860 variables matches (13%), 54% of whom were confirmed by DELPHI (Figure 1A). The thickest ribbons have V>0.5: among these, bone marrow tumor invasion (BMinf) by immunohistochemistry with nodal (NLTB) and extra-nodal (ENLTB) tumor burden at CT scan; Lymphocytes with BMinf by Flow cytometry (Flow). TP53 mutations and blastoid histology with a V=0.39. Finally, discovery of novel associations is shown in Figure 1B. 54 of 1860 (3%) matches were identified by DELPHI as statistically significant unexpected associations: the thickest ribbons have V>0.35. Among these, MIPI, albumin and LDH with Hemoglobin; BMinf by qPCR with MIPIc. Moreover, TP53 mutations and GammaGT (V=0.34), as well as NOTCH1 mutations with ALkaline-Phosphatase (V=0.35) and MIPIb with Beta2 Microglobulin, B2M (V=0.33). Discussion. DELPHI DW is a powerful tool that identifies novel putative associations between clinical and biological features. In order to consider confounding interactions and multiple comparison issues, every association needs further validation on independent data series. The association of baseline data with post-treatment outcomes is ongoing. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Galimberti: Novartis: Speakers Bureau; Incyte: Speakers Bureau; Bristol-Myers Squibb: Speakers Bureau; Pfizer: Speakers Bureau. Gaidano: AbbVie: Consultancy, Honoraria; Janssen: Consultancy, Honoraria; Amgen: Consultancy, Honoraria; Gilead: Consultancy, Honoraria; Roche: Consultancy, Honoraria. Boccadoro: AbbVie: Honoraria; Amgen: Honoraria, Research Funding; Janssen: Honoraria, Research Funding; Novartis: Honoraria, Research Funding; Bristol-Myers Squibb: Honoraria, Research Funding; Sanofi: Honoraria, Research Funding; Celgene: Honoraria, Research Funding; Mundipharma: Research Funding.",
+    "topics": [
+        "albumins",
+        "alkaline phosphatase",
+        "beta 2-microglobulin",
+        "bone marrow neoplasms",
+        "computed tomography",
+        "dandy-walker syndrome",
+        "data warehousing",
+        "extranodal disease",
+        "flow cytometry",
+        "gene expression profiling"
+    ],
+    "author_names": [
+        "Gian Maria Zaccaria, MSc",
+        "Simone Ferrero",
+        "Andrea Evangelista",
+        "Samanta Rosati",
+        "Cristina Castagneri",
+        "Marco Ghislieri",
+        "Barbero Daniela",
+        "Elisa Genuardi",
+        "Mariella Lo Schirico",
+        "Alberto Zam\u00f2",
+        "Umberto Vitolo",
+        "Riccardo Bomben",
+        "Valter Gattei, MD",
+        "Sara Galimberti, PhD MD",
+        "Antonello Di Paolo",
+        "Davide Rossi, MD PhD",
+        "Gianluca Gaidano, MD PhD",
+        "Alice Di Rocco",
+        "Sergio Cortelazzo",
+        "Mario Boccadoro",
+        "Gabriella Balestra",
+        "Marco Ladetto"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Gian Maria Zaccaria, MSc",
+            "author_affiliations": [
+                "University of Torino, Department of Molecular Biotechnologies and Health Sciences, Turin, Italy ",
+                "Department of Electronics and Telecommunications, Politecnico di Torino, Turin, Italy "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Simone Ferrero",
+            "author_affiliations": [
+                "University of Torino, Department of Molecular Biotechnologies and Health Sciences, Turin, Italy "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrea Evangelista",
+            "author_affiliations": [
+                "Unit of Clinical Epidemiology, AOU Citt\u00e0 della Salute e della Scienza di Torino, Turin, Italy "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Samanta Rosati",
+            "author_affiliations": [
+                "Department of Electronics and Telecommunications, Politecnico di Torino, Turin, Italy "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cristina Castagneri",
+            "author_affiliations": [
+                "Department of Electronics and Telecommunications, Politecnico di Torino, Turin, Italy "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marco Ghislieri",
+            "author_affiliations": [
+                "Department of Electronics and Telecommunications, Politecnico di Torino, Turin, Italy "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Barbero Daniela",
+            "author_affiliations": [
+                "University of Torino, Department of Molecular Biotechnologies and Health Sciences, Turin, Italy "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elisa Genuardi",
+            "author_affiliations": [
+                "University of Torino, Department of Molecular Biotechnologies and Health Sciences, Turin, Italy "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mariella Lo Schirico",
+            "author_affiliations": [
+                "University of Torino, Department of Molecular Biotechnologies and Health Sciences, Turin, Italy "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alberto Zam\u00f2",
+            "author_affiliations": [
+                "Department of Pathology and Diagnostics, University of Verona, Verona, Italy "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Umberto Vitolo",
+            "author_affiliations": [
+                "AOU Citt\u00e0 della Salute e della Scienza di Torino, Turin, Italy "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Riccardo Bomben",
+            "author_affiliations": [
+                "Clinical and Experimental Onco-Hematology Unit, Centro di Riferimento Oncologico, IRCCS, Aviano (PN), Italy "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Valter Gattei, MD",
+            "author_affiliations": [
+                "Clinical and Experimental Onco-Hematology Unit, Centro di Riferimento Oncologico, IRCCS, Aviano (PN), Italy "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sara Galimberti, PhD MD",
+            "author_affiliations": [
+                "Hematology Division, AOUP, Pisa, Italy "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Antonello Di Paolo",
+            "author_affiliations": [
+                "Pharmacology Unit, University of Pisa, Pisa, Italy "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Davide Rossi, MD PhD",
+            "author_affiliations": [
+                "Institute of Oncology Research, Bellinzona, Switzerland "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gianluca Gaidano, MD PhD",
+            "author_affiliations": [
+                "Amedeo Avogadro University of Eastern Piedmont, Novara, Italy "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alice Di Rocco",
+            "author_affiliations": [
+                "Department of Cellular Biotechnologies and Hematology, Policlinico Umberto I, University \"La Sapienza\", Roma, Italy "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sergio Cortelazzo",
+            "author_affiliations": [
+                "Oncology Unit, Clinica Humanitas/Gavazzeni, Bergamo, Italy "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mario Boccadoro",
+            "author_affiliations": [
+                "Dipartimento di Biotecnologie Molecolari e Scienze per la Salute, Universit\u00e0 degli Studi di Torino, Torino, Italy "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gabriella Balestra",
+            "author_affiliations": [
+                "Department of Electronics and Telecommunications, Politecnico di Torino, Turin, Italy "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marco Ladetto",
+            "author_affiliations": [
+                "Division of Hematology, Azienda Ospedaliera SS Antonio e Biagio e Cesare Arrigo, Alessandria, ITA"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-12T02:36:46",
+    "is_scraped": "1"
 }
