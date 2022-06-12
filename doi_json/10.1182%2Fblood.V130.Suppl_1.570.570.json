@@ -1,8 +1,145 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3830",
-    "start_url_page_num": "3830",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.570.570",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/570/115935/Molecular-Epidemiology-of-Acute-Myeloid-Leukemia?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T19:38:29",
-    "is_scraped": "0"
+    "article_title": "Molecular Epidemiology of Acute Myeloid Leukemia (AML): Novel Association of Clinical Epidemiologic Exposures with Unique Mutation Groups on Exome Sequencing of Leukemia DNA in the Mayo Clinic AML Epidemiology Cohort ",
+    "article_date": "December 7, 2017",
+    "session_type": "613. Acute Myeloid Leukemia: Clinical Studies: Risk Factors and Response-Adapted Personalized Medicine",
+    "abstract_text": "Background: Clinical epidemiologic risk factors associated with leukemia development are prevalent, and can be identified in over 90% of AML patients. We previously demonstrated an association of clinical exposures with cytogenetic risk group and outcome after therapy, but the molecular impact of such exposures is unclear, and specifically it is not known whether specific epidemiologic exposures are associated with unique genetic lesions. We therefore performed Exome Sequencing in 98 patients from our clinical epidemiology cohort to determine whether there was an association of clinically relevant AML risk factors and exposures with unique deleterious non-synonymous (nonsyn.) mutations. Methods: The Mayo Clinic AML Epidemiology cohort comprises a highly annotated series of n=295 unselected and consecutive patients diagnosed and treated at Mayo Clinic Florida & Arizona [Cancer Epidemiol 39:1084, 2015]. We obtained AML DNA from remnant diagnostic cytogenetic pellets identified in 98 patients in the cohort, and performed Exome Sequencing [ExSeq] using standard techniques. The ~100 million paired-end 100bp reads from each sample were mapped to human genome build hg19 using BWA-MEM 1. The single nucleotide variants (SNVs) and small INDELs in the exome capture regions were identified using Mayo Clinic in-house developed analytic pipeline GenomeGPS 4.0.1 following Broad GATK 2 variant discovery best practices of alignment, realignment and recalibration, haplotype caller, and multi-sample joint genotyping. The variants passed the GATK's Variant Quality Score Recalibration (VQSR) quality control were kept. Since no patient matched normal were sequenced, SNVs and INDELs were filtered using both germline whole exome and whole genome sequencing of ~1200 Mayo Clinic Biobank samples and the public germline variant databases of 1000 genome project, 6500 individuals sequenced in the exome sequencing project (ESP), and HapMap phase 3. The remaining variants were annotated using ANNOVAR 3, and potential functional variants of non-synonymous, truncating, frame-shift, and splice-sites were used in the statistical association analyses. We evaluated the association of unique mutations occurring in 10 or more patients and in TP53, and also gene categories according to algorithm of Lindsley et al (Blood 125:1367, 2015) with relevant clinical and epidemiology exposures identified in our prior analysis. Risk factors and exposures were compared between patients with and without a mutation in different genes of interest using Fisher's exact test. Results: The read quality was excellent, and results from 97 evaluable samples were included in analysis. Results are noted in Table. We found a strong and significant association of prior history of immunosuppressive therapy (IST) or solid organ transplantation (SOT) with RUNX1 mutation (p=0.0001), and of regular Statin use with ASXL1 mutation (p=0.008). Statin use was also associated with mutations in genes involved in DNA methylation (p=0.036) and in Chromatin Modifier genes (p=0.049). We identified a novel inverse association of obesity - the most prevalent AML risk factor - with spliceosome mutation (p=0.010), and of IST/SOT with mutations in Myeloid Transcription Factors (TF, p=0.015) and Activated Signaling pathways [RAS, FLT3, KIT, CBL, NF1] (p=0.026). We confirm the association of secondary AML [sAML] with spliceosome mutation (p=0.018), observed as expected most strongly for Antecedent Hematologic Disorder (p=0.008, not shown). Other borderline associations (p\u22640.10) are noted in Table. We did not identify any association of family history [FHx] of hematologic malignancy or of smoking [TOB] with unique mutations, nor did we identify clinical exposures associated with TP53 mutation. Conclusion: For the first time (apart from sAML) we have identified a unique leukemia genotype associated with some common clinical and epidemiologic exposures. Some mutations groups (Cohesin, TP53) were not associated with any clinical exposures, suggesting alternate mechanisms of leukemogenesis. ExSeq was for the first time successfully performed on archived diagnostic cytogenetic cell pellets, we believe a novel source of leukemia DNA. These results will guide a planned prospective study to determine frequency and mechanism of leukemogenesis after exposures, and development of strategies for prediction of leukemia risk and ultimately prevention. View large Download slide View large Download slide  Close modal Disclosures Cerhan: Janssen: Other: Scientific Advisory Board (REMICADELYM4001); Janssen: Other: Multiple Myeloma Registry Steering .",
+    "topics": [
+        "dna",
+        "epidemiology",
+        "epidemiology, molecular",
+        "leukemia",
+        "leukemia, myelocytic, acute",
+        "mutation",
+        "whole exome sequencing",
+        "obesity",
+        "protein p53",
+        "inappropriate sinus tachycardia"
+    ],
+    "author_names": [
+        "James M. Foran, MD",
+        "Michael Heckman, MS",
+        "Rhett P. Ketterling, MD",
+        "Lisa Sproat, MD MSW",
+        "Liuyan Jennifer Jiang, MD",
+        "Bruce Eckloff, PhD",
+        "Nancy Diehl",
+        "Laura E. Finn, MD",
+        "Keith Robertson, PhD",
+        "Raoul Tibes, MD PhD",
+        "James R. Cerhan, MD PhD",
+        "Yan W Asmann, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "James M. Foran, MD",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, Mayo Clinic Florida, Jacksonville, FL "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Heckman, MS",
+            "author_affiliations": [
+                "Biostatistics & Health Sciences Research, Mayo Clinic, Jacksonville, FL "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rhett P. Ketterling, MD",
+            "author_affiliations": [
+                "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lisa Sproat, MD MSW",
+            "author_affiliations": [
+                "Division of Hematology and Medical Oncology, Mayo Clinic, Phoenix, AZ "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Liuyan Jennifer Jiang, MD",
+            "author_affiliations": [
+                "Pathology, Mayo Clinic, Jacksonville, FL "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bruce Eckloff, PhD",
+            "author_affiliations": [
+                "Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nancy Diehl",
+            "author_affiliations": [
+                "Mayo Clinic, Jacksonville, FL "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laura E. Finn, MD",
+            "author_affiliations": [
+                "Ochsner Medical Center, New Orleans, LA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Keith Robertson, PhD",
+            "author_affiliations": [
+                "Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Raoul Tibes, MD PhD",
+            "author_affiliations": [
+                "Hematology and Medical Oncology, Mayo Clinic Arizona, Scottsdale, AZ "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "James R. Cerhan, MD PhD",
+            "author_affiliations": [
+                "Department of Health Sciences Research, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yan W Asmann, PhD",
+            "author_affiliations": [
+                "Department of Health Sciences Research, Mayo Clinic, Jacksonville, FL"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-12T06:38:20",
+    "is_scraped": "1"
 }

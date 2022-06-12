@@ -1,8 +1,135 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3829",
-    "start_url_page_num": "3829",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.61.61",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/61/115915/Comprehensive-Identification-of-Fusion-Transcripts?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T19:38:26",
-    "is_scraped": "0"
+    "article_title": "Comprehensive Identification of Fusion Transcripts in Multiple Myeloma: An Mmrf Commpass Analysis ",
+    "article_date": "December 7, 2017",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Transcriptional Regulatory Circuitries of Multiple Myeloma",
+    "abstract_text": "Multiple myeloma is a hematological malignancy characterized by the clonal expansion of plasma cells in the bone marrow. Unlike many other blood cancers there is a diverse array of somatic alterations with patients being split into two large groups of non-hyperdiploid and hyperdiploid based on recurrent trisomies of the odd number chromosomes in ~58% of patients. Though the remaining non-hyperdiploid patients are frequently characterized by immunoglobulin translocations these rarely create fusion transcripts like the quintessential BCR-ABL fusions seen in CML, as the majority represent promoter or enhancer replacements driving the ectopic expression of a target gene with oncogenic potential. The only well defined fusion transcripts in myeloma are the IGH-MMSET fusions created in the majority of patients with t(4;14) translocations. However, these fusions are simple byproducts of the enhancer replacement event and do not create hybrid poly-peptides. We have used the comprehensive nature of the MMRF CoMMpass dataset with matched tumor RNA sequencing and tumor/normal whole genome sequencing to define the landscape of fusion transcripts in myeloma. In this IA11 analysis of the MMRF CoMMpass dataset, which represents the first release of the complete baseline cohort, we utilized the RNA sequencing data from 806 samples with matching WGS for 704 specimens. Our approach leverages a discovery step using Tophat-Fusion to identify potential fusion candidates. These potential fusions are then validated with three independent processes: Tophat-Fusion post, a guided assembly based approach of the RNA sequencing reads to create the fusion transcript in silico , and genomic validation using the WGS data to confirm a somatic structural event exists that could explain the observed fusion. In this large cohort we identified 45,769 potential fusions from 806 samples, Tophat-Fusion Post filters the list to 36,267, with numerous highly recurrent false positive between highly expressed genes. The guided assembly was able to construct 17,420 fusion transcripts with many being proximal fusions of adjacent genes that likely occur in normal cells. Genomic validation identified somatic structural events occurring proximal and in the correct orientation to create 1192 of the observed fusions. All three processes validate 930 fusion events. This analysis found the expected fusions between IGH-JH segments and WHSC1 as the most common fusion event detected in 100 patients. In addition, we observed several other fusion transcripts associated with common IgH rearrangements; CCND1/MYEOV and MYC plus several novel IgH fusions with TOP1MT and MAP3K14. There are very few recurrent gene pairs outside of novel fusions of KANSL1-ARL17A and TFG-GPR128. However, there are several genes like FCHSC2, TXNDC11, TXNDC5, MAP3K14, NEDD9, and TNFRSF17. Several like FCHSC2 and TNXDC5 are clear promoter replacements putting a strong B-cell promoter in front of myeloma promoting genes like CD40, LTBR, or MYC. Others appear to be the target gene of the fusion such as those involving MAP3K14 that removes the protein degradation region leading constitutive non-canonical NF-kB signaling. Another frequent set of fusions observed were highly random events associated with inactivation of known tumor suppressor genes in myeloma like TRAF3, RB1, FAM46C, and NF1. In conclusion, our comprehensive analysis of the landscape of fusion transcripts across several hundred samples with in-silico validation in RNA and DNA brings forth several fusion genes in myeloma. These genes are informative of the malignant processes occurring in multiple myeloma. Further investigation is warranted to understand the significance of the recurrently observed gene pairs or hub genes to understand how they contribute to the development and pathogenesis of multiple myeloma. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "multiple myeloma",
+        "sequence analysis, rna",
+        "hematologic neoplasms",
+        "idiopathic guttate hypomelanosis",
+        "immunoglobulin heavy chains",
+        "neoplasms",
+        "bcr-abl tyrosine kinase",
+        "cd40 antigens",
+        "cyclin d1",
+        "dna"
+    ],
+    "author_names": [
+        "Sara Nasser",
+        "Austin Christofferson, BS",
+        "Christophe Legendre",
+        "Jessica Aldrich",
+        "Brooks Benard, BS",
+        "The MMRF CoMMpass Network",
+        "Jennifer Yesil, MS",
+        "Daniel Auclair, PhD",
+        "Winnie Liang, PhD",
+        "Sagar Lonial, MD",
+        "Jonathan Keats, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Sara Nasser",
+            "author_affiliations": [
+                "TGen, Phoenix, "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Austin Christofferson, BS",
+            "author_affiliations": [
+                "TGen, Phoenix, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christophe Legendre",
+            "author_affiliations": [
+                "TGen, Phoenix, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jessica Aldrich",
+            "author_affiliations": [
+                "Translational Genomics Research Institute, Phoenix, AZ "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brooks Benard, BS",
+            "author_affiliations": [
+                "Translational Genomics Research Institute, Phoenix, AZ "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "The MMRF CoMMpass Network",
+            "author_affiliations": [
+                "MMRF, Norwalk, "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jennifer Yesil, MS",
+            "author_affiliations": [
+                "Multiple Myeloma Research Foundation (MMRF), Middletown, CT "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel Auclair, PhD",
+            "author_affiliations": [
+                "Multiple Myeloma Research Foundation (MMRF), Middletown, CT "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Winnie Liang, PhD",
+            "author_affiliations": [
+                "Translational Genomics Research Institute, Phoenix, AZ "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sagar Lonial, MD",
+            "author_affiliations": [
+                "Winship Cancer Institute/Hematology and Medical Oncology, Emory University School of Medicine, Atlanta, GA"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan Keats, PhD",
+            "author_affiliations": [
+                "Translational Genomics Research Institute, Phoenix, AZ "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-12T06:37:09",
+    "is_scraped": "1"
 }
