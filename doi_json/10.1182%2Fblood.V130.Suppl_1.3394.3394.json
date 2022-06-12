@@ -1,8 +1,95 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3820",
-    "start_url_page_num": "3820",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.3394.3394",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/3394/114787/Detecting-Cases-of-Monoclonal-Gammopathy-of?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T19:37:54",
-    "is_scraped": "0"
+    "article_title": "Detecting Cases of Monoclonal Gammopathy of Undetermined Significance in Electronic Health Data ",
+    "article_date": "December 7, 2017",
+    "session_type": "902. Health Services Research\u2014Malignant Conditions: Poster II",
+    "abstract_text": "Introduction: Multiple myeloma (MM) is known to be preceded by the largely asymptomatic and incidentally diagnosed condition monoclonal gammopathy of undetermined significance (MGUS). Retrospective studies estimate that 3% of all US adults aged \u226550 years have this premalignant condition, and that MGUS patients have a lifelong risk of progression to MM of about 1% per year. This persistent uncertainty results in heightened anxiety and clinical surveillance, and the associated financial burden. Recent population-based studies of MGUS have identified cases through testing stored blood specimens, an expensive and inefficient process that hinders initiation of large-scale studies of MGUS etiology and outcome. Thus, to facilitate population-based MGUS research, we are developing an algorithm to efficiently and accurately identify patients diagnosed with MGUS in longitudinally-collected automated healthcare claims and electronic health record (EHR) data. Our aim is to achieve maximum positive predictive value (PPV) with an algorithm that can be applied to large electronic health datasets to accurately identify MGUS cases for longitudinal studies of MGUS etiology, natural history, and health service utilization, minimizing the need for individual chart review. Methods: Men and women aged \u226550 years who sought care at a large, community-based healthcare provider group in central Massachusetts at least once between 2007 and 2015 and were enrolled for \u226512 months were eligible for this analysis. Patients diagnosed with MM prior to, or \u22643 months after the first MGUS diagnosis (ICD-9 code 273.1) were excluded. The MGUS case-finding algorithm was constructed using the Virtual Data Warehouse (VDW) at the Meyers Primary Care Institute. The VDW, which has been adopted by healthcare systems participating in the NCI-funded Cancer Research Network, is a distributed, standardized resource comprised of clinical and administrative data, and populated with linked demographic, administrative, outpatient laboratory, and healthcare utilization data. The first step of the algorithm identified all eligible patients with \u22652 MGUS diagnosis codes entered on different dates within a 12 month period. Next, we selected those patients who, within 90 days of MGUS diagnosis, had: A) \u22651 code for a serum protein electrophoresis test (CPT code 84155 or 84156); B) a serum or urine immunofixation test (CPT 86334 or 86335); and C) an office visit with an oncologist. Relevant protein electrophoresis test results, which typically appear as text in the EHR, were not extractable from available data, and thus patients met the algorithm criteria if the corresponding CPT code was present in their EHR. A targeted manual chart review, conducted by three nurse abstractors and adjudicated by two clinicians, validated the algorithm and constituted the gold standard for subsequent calculations of PPV. Results: The algorithm identified 833 subjects with \u22652 MGUS diagnosis codes in their EHR within a 12 month period; 429 (52%) patients met all four algorithm criteria. Records for 250 of the latter patients (58%) were selected for review. Potential MGUS cases meeting all four algorithm criteria were 85% white, 51% female, had a median of 10 MGUS diagnosis codes in their EHR, and a mean age of 74 years at diagnosis. In the underlying patient population, immunofixation was routinely ordered for patients with abnormal protein electrophoresis test results; thus, 98% of patients who had a protein electrophoresis test also had an immunofixation test, reducing the discriminatory capacity of this algorithm step. Review of the first 2% of charts suggests a preliminary PPV of 75% or greater for the four-step algorithm; chart review is ongoing. Conclusions: Early results from this single-site study suggest that MGUS cases can be identified with reasonable accuracy in electronic health data through a four-step algorithm. However, in light of the frequent use of immunofixation noted above, the incorporation of specific lab test results may be required to improve the PPV. Following completion of ongoing chart review, the algorithm will be applied to a second Cancer Research Network healthcare system with a shared data structure for further refinement, and to evaluate its performance in an independent population. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "monoclonal gammopathy of undetermined significance",
+        "immunofixation",
+        "laboratory test finding",
+        "protein electrophoresis",
+        "blood preservation",
+        "gold standard",
+        "multiple myeloma",
+        "precancerous conditions",
+        "protein electrophoresis, serum",
+        "second primary cancers"
+    ],
+    "author_names": [
+        "Mara M Epstein, ScD",
+        "Cassandra Saphirak, MA",
+        "Yanhua Zhou, MS",
+        "Brenda M Birmann, ScD",
+        "Candace Leblanc, BSN, CCRC",
+        "Alan G Rosmarin, MD",
+        "Jerry H Gurwitz, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Mara M Epstein, ScD",
+            "author_affiliations": [
+                "Department of Medicine and the Meyers Primary Care Institute, University of Massachusetts Medical School, Worcester, MA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cassandra Saphirak, MA",
+            "author_affiliations": [
+                "Meyers Primary Care Institute, Worcester, MA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yanhua Zhou, MS",
+            "author_affiliations": [
+                "Department of Medicine and the Meyers Primary Care Institute, University of Massachusetts Medical School, Worcester, MA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brenda M Birmann, ScD",
+            "author_affiliations": [
+                "Brigham and Women's Hospital and Harvard Medical School, Boston, MA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Candace Leblanc, BSN, CCRC",
+            "author_affiliations": [
+                "Reliant Medical Group, Worcester, MA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alan G Rosmarin, MD",
+            "author_affiliations": [
+                "Wolters Kluwer Health, Waltham, MA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jerry H Gurwitz, MD",
+            "author_affiliations": [
+                "Division of Geriatric Medicine, Department of Medicine, and the Meyers Primary Care Institute, University of Massachusetts Medical School, Worcester, MA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-12T03:57:08",
+    "is_scraped": "1"
 }
