@@ -1,8 +1,139 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3851",
-    "start_url_page_num": "3851",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.3249.3249",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/3249/114606/Prediction-of-Severe-Acute-Graft-Versus-Host?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T20:42:41",
-    "is_scraped": "0"
+    "article_title": "Prediction of Severe Acute Graft-Versus-Host Disease (aGVHD) Based on Whole Transcriptome Sequencing of Donor CD4 T Cells ",
+    "article_date": "December 7, 2017",
+    "session_type": "722. Clinical Allogeneic Transplantation: Acute and Chronic GVHD, Immune Reconstitution: Poster II",
+    "abstract_text": "Background: After decades of intensive research, GVHD remains the unrelenting nemesis of patients and physicians involved in allogeneic hematopoietic cell transplantation (AHCT). While some plasma biomarkers can predict response to GVHD therapy at day 14-post AHCT and at the onset of clinical GVHD, an ideal tool would enable prediction of GVHD prior to transplantation. Recent systems immunology analyses of human cohorts have shown that immune parameters are stable over time within a given person, but display substantial inter-individual variations. We therefore hypothesized that inter-individual variations in T-cell function could explain a fundamental question in GVHD pathogenesis: while all allogeneic donor-recipient pairs are histo-incompatible, only a fraction of recipients present severe aGVHD post-AHCT. In order to address this question, we searched for potential correlation between the whole transcriptome of donor CD4 T cells and the occurrence of aGVHD in their recipient. Methods and Patients: We performed RNA-sequencing on purified CD4 T cells from 330 AHCT donors from three centers (Boston, Calgary, Montreal). Donor and recipient were 8/8 HLA matched siblings. CD4 T lymphocytes were isolated from blood samples collected from donors prior to hematopoietic stem cell mobilisation and collection. Recipients with acute myeloid leukemia (AML), acute lymphoid leukemia (ALL), chronic myeloid leukemia (CML), or myelodysplastic syndromes were included. Both myeloablative and reduced intensity conditioning were included. Peripheral blood and marrow graft were used as source of stem cells. Recipients received standard calcineurin based GVHD prophylaxis. Acute(a) and chronic(c) GVHD were graded according to Glucksberg and IBMTR classification. RNA was poly-A enriched and sequenced on an Ion Proton to an average depth of 40M reads. Expression profiles were computed using TopHat and cuffquant. A nested cross-validation protocol was used to train a logistic regression with either L1 or L2 regularization to predict the onset of acute GVHD of IBMTR grade C and above. An outer 10-fold cross-validation was used for the selection of hyper-parameters (number of genes considered, type and weight of the regularization) and an inner leave-one-out cross-validation was used for the predictor training. Area under the ROC curve (AUC) and relative risks were computed based on out-of-sample predicted risk of GVHD. Results : aGVHD developed in 43%. According to IBMTR classification, severe and potentially lethal aGVHD of grade \u2265 C was diagnosed in 13.6% of recipients.Figure 1A presents the cross-validated performance of logistic regression classifier using either all annotated transcripts (solid line, AUC = 0.62) or expression profiles in which miRNA and snoRNA were removed (dashed line, AUC = 0.49). Discrimination between high-risk vs. low-risk donors was absolutely contingent upon the inclusion miRNA and snoRNA expression profile in our algorithm. Depending on the selected threshold applied to our predictive score, we can identify donors whose relative risk to trigger severe aGVHD is increased by 1.8- to 4-fold (Figure 1B depicting bootstrap-based confidence intervals (95%) for relative risks derived for all possible thresholds). Conclusion : Transcriptome sequencing of donor CD4 T cells can segregate donors that carry a high- vs. low-risk of causing severe aGVHD in their recipient. The key variable here was the miRNA and snoRNA expression profile. Considering that i) miRNA and snoRNA detected with our method (poly-A enriched RNA) are mostly located in introns, and ii) that intron retention regulates CD4 T-cell activity (PMID: 27369383), the most parsimonious mechanistic explanation is that the extent of intron retention in donor CD4 T cells determines the risk of severe aGVHD in recipients. Transcriptome sequencing of donor CD4 T cells could become a useful tool to optimize donor selection, personalized GVHD prophylaxis and improve AHCT outcome. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Busque: Novartis Canada Inc.: Honoraria; Pfizer: Honoraria; Bristol Myer Squibb: Honoraria; Paladin: Honoraria.",
+    "topics": [
+        "donors",
+        "graft-versus-host disease, acute",
+        "helper-inducer t-lymphocytes",
+        "graft-versus-host disease",
+        "micrornas",
+        "small nucleolar rna",
+        "poly a",
+        "rna",
+        "acute lymphocytic leukemia",
+        "biological markers"
+    ],
+    "author_names": [
+        "Silvy Lachance, MDFRCPC",
+        "Jonathan S\u00e9guin, MSc.",
+        "Ann Brasey, PhD",
+        "Jean-Philippe Laverdure, PhD",
+        "Vincent T Ho, MD",
+        "Jerome Ritz, MD",
+        "Jan Storek, MD PhD",
+        "Denis-Claude Roy, MD",
+        "Lambert Busque, MD",
+        "S\u00e9bastien Lemieux, PhD",
+        "Claude Perreault, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Silvy Lachance, MDFRCPC",
+            "author_affiliations": [
+                "Division of Hematology and Medical Oncology, Stem Cell Transplant Program, Department of Medicine, Centre D'H\u00e9matologie Et D'Immunologie HMR, Montreal, Canada ",
+                "Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, Canada "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan S\u00e9guin, MSc.",
+            "author_affiliations": [
+                "Institute for Research in Immunology and Cancer, Montreal, Canada "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ann Brasey, PhD",
+            "author_affiliations": [
+                "Division of Hematology and Hematopoietic Stem Cell Transplant Program, H\u00f4pital Maisonneuve-Rosemont, Montreal, Canada "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jean-Philippe Laverdure, PhD",
+            "author_affiliations": [
+                "Institute for Research in Immunology and Cancer, Montreal, Canada "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vincent T Ho, MD",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA ",
+                "Dana-Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jerome Ritz, MD",
+            "author_affiliations": [
+                "Harvard Medical School, Boston, MA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jan Storek, MD PhD",
+            "author_affiliations": [
+                "Alberta Blood and Marrow Transplant Program, University of Calgary, Calgary, Canada "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Denis-Claude Roy, MD",
+            "author_affiliations": [
+                "Division of Hematology and Hematopoietic Stem Cell Transplant Program, Hopital Maisonneuve-Rosemont, Montreal, Canada "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lambert Busque, MD",
+            "author_affiliations": [
+                "H\u00f4pital Maisonneuve Rosemont, Montreal, Canada "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "S\u00e9bastien Lemieux, PhD",
+            "author_affiliations": [
+                "Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, Canada ",
+                "Institute for Research in Immunology and Cancer, University of Montreal, Montreal, Canada "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Claude Perreault, MD",
+            "author_affiliations": [
+                "Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, Canada ",
+                "Institute for Research in Immunology and Cancer, Universit\u00e9 de Montr\u00e9al, Montreal, Canada"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-12T12:49:50",
+    "is_scraped": "1"
 }
