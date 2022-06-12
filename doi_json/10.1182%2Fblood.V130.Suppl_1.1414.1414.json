@@ -1,8 +1,255 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3839",
-    "start_url_page_num": "3839",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.1414.1414",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/1414/116407/A-Knowledge-Based-Approach-for-Clinical-Annotation?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T20:22:01",
-    "is_scraped": "0"
+    "article_title": "A Knowledge-Based Approach for Clinical Annotation of Oncogenic Variants to Support Patient-Tailored Diagnosis in Myeloid Disease ",
+    "article_date": "December 7, 2017",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster I",
+    "abstract_text": "Background In recent years, cancer gene discovery studies have delivered a comprehensive list of the genes recurrently mutated in cancer. Myeloid disease has been at the forefront of such discoveries, with more than 100 genes characterized. Most genes are infrequently mutated (<5%) and carry complex patterns of mutations (activating, inactivating, gain-of-function, etc). From a clinical perspective, such molecular findings are being increasingly incorporated into diagnostic and prognostic classifiers for disease diagnosis, risk stratification and treatment decisions. To support clinical decisions, molecular profiling of gene panels is implemented at diagnosis. However, the annotation of gene mutations poses significant challenges. Not all mutations identified in a cancer gene will be pathogenic and conversely rare, previously unseen mutations within well-established cancer genes can be pathogenic. Manual curation of variants is time consuming, requires specialized expert and technical knowledge, imposes thresholds (5% variant allele fraction) and is subject to false positive or negative results. Translation of cancer genome discoveries into the clinic is dependent on a reproducible and evidence based resource to support accurate variant annotation. To address this unmet clinical need, we develop a clinical diagnosis support tool that prioritizes variants identified by next-generation-sequencing of myeloid cancer genes for their putative role in myeloid pathogenesis. Data and Methods We assembled a database of 22,680 variants (22% oncogenic, 14% sequencing artefacts, 22% germline polymorphisms and 42% variants of unknown significance) on the 275 most frequently mutated genes in myeloid neoplasia from patients affected by AML (n=4607), MDS (n=758) and MPN (n=2041) using published and in-house data. Patients' samples were sequenced by custom capture and Illumina sequencing technologies using protocols that reflect current clinical profiling workflows. Triple-blinded expert annotation of each variant was performed as previously described (Papaemmanuil et al Blood, 2013, Papaemmanuil E & Gerstung et al, NEJM 2016). The database is characterized by 4,990 oncogenic variants, split into 65% missense, 25% stop-gained and 10% splice-site mutations. We applied supervised classification analysis, to learn a model on the existing annotated variant database. The model predicts the probability of each variant being pathogenic and thus of clinical relevance. Results Our predictive model considers informative features derived from sequencing measurements (such as read depth, read directionality), metrics extracted from control panels, genetic attributes (gene, mutation type, effect), as well as information extracted from external databases of somatic mutations in cancer (COSMIC), and germline variations (ExAC database, 1000 genomes). We assess the predictive power of 60 features, informing on the minimal set of required information to accurately categorize variants (30 features). Model performance was similar within and across disease subsets, illustrating its generalizability. We also evaluate the model with internal cross-validation and external validation on independently processed variants from a MDS cohort (n=944) (Haferlach et al Leukemia 2014). The overall performance of our model in classifying variants reaches an area under the ROC curve (AUC) greater than 0.9. Finally, we inspect the distributions of predicted probabilities and assess that the prioritization performed by our method is meaningful. Rare somatic mutations are associated with higher probabilities for a putative oncogenic assignment than sequencing artefacts or germline variants and variants correlate with expected clinical outcomes. Conclusion Variant annotation poses a significant challenge in the clinic. Using a reference database of 22,680 variants from 7,406 patients with myeloid disease, we deliver an automated, standardized and unbiased approach for variant annotation. Our model considers technical parameters from sequencing, accounts for germline variations and incorporates current knowledge from cancer genome profiling studies. The method will be available as an open-access online tool, where clinical laboratories can upload variants discovered through their clinical pipelines to obtain instant and accurate interpretation of variants. Disclosures Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership.",
+    "topics": [
+        "alleles",
+        "area under the roc curve",
+        "artifacts",
+        "cancer",
+        "clinical diagnosis",
+        "disclosure",
+        "employment",
+        "equity",
+        "evidence-based practice",
+        "false-positive results"
+    ],
+    "author_names": [
+        "Elsa Bernard, PhD",
+        "Kenichi Yoshida, MD PhD",
+        "Gunes Gundem, PhD",
+        "Jacob Grinfeld, MBChB, BSc, MRCP, FRCPath",
+        "Jyoti Nangalia, MBBChir, MA, MRCP, FRCPath, PhD",
+        "Daniel Leongamornlert, PhD",
+        "Noushin Farnoud, PhD",
+        "Juan Medina",
+        "Matahi Moarii, PhD",
+        "Charlie Massie, PhD",
+        "Yasunobu Nagata, MD PhD",
+        "Yusuke Okuno, MD PhD",
+        "Torsten Haferlach, MD",
+        "Seishi Ogawa, MD PhD",
+        "Amanda Gilkes",
+        "Oliver G. Ottmann, MD",
+        "Robert K. Hills, DPhil",
+        "Nigel H. Russell",
+        "Brian J.P Huntly",
+        "Anthony R Green, PhD FRCP, FRCPath, FMedSci",
+        "Alan K. Burnett, MD",
+        "Peter Campbell, PhD",
+        "Elli Papaemmanuil, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Elsa Bernard, PhD",
+            "author_affiliations": [
+                "MSKCC, New York, NY "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kenichi Yoshida, MD PhD",
+            "author_affiliations": [
+                "Department of Pathology and Tumor Biology, Graduate School of Medicine, Kyoto University, Kyoto, Japan "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gunes Gundem, PhD",
+            "author_affiliations": [
+                "Memorial Sloan-Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jacob Grinfeld, MBChB, BSc, MRCP, FRCPath",
+            "author_affiliations": [
+                "Department of Haematology, University of Cambridge, Cambridge, United Kingdom "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jyoti Nangalia, MBBChir, MA, MRCP, FRCPath, PhD",
+            "author_affiliations": [
+                "Wellcome Trust Sanger Institute, Hinxton, United Kingdom "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel Leongamornlert, PhD",
+            "author_affiliations": [
+                "Cancer Genome Project, Wellcome Trust Sanger Institute, Hinxton, United Kingdom "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Noushin Farnoud, PhD",
+            "author_affiliations": [
+                "Center for Molecular Oncology and Department of Epidemiology and Biostatistics, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Juan Medina",
+            "author_affiliations": [
+                "Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matahi Moarii, PhD",
+            "author_affiliations": [
+                "MSKCC, New York, NY "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Charlie Massie, PhD",
+            "author_affiliations": [
+                "Early detection programme, CRUK Cambridge Centre, University of Cambridge, Cambridge, United Kingdom "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yasunobu Nagata, MD PhD",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yusuke Okuno, MD PhD",
+            "author_affiliations": [
+                "Center for Advanced Medicine and Clinical Research, Nagoya University Hospital, Nagoya, Japan "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Torsten Haferlach, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Seishi Ogawa, MD PhD",
+            "author_affiliations": [
+                "Department of Pathology and Tumor Biology, Kyoto University, Sakyoku, Japan "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amanda Gilkes",
+            "author_affiliations": [
+                "Cardiff University, Cardiff, United Kingdom "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Oliver G. Ottmann, MD",
+            "author_affiliations": [
+                "Department of Haematology, Cardiff University, Cardiff, United Kingdom "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Robert K. Hills, DPhil",
+            "author_affiliations": [
+                "Centre for Trials Research, College of Biomedical & Life Sciences, Cardiff University, Cardiff, United Kingdom "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nigel H. Russell",
+            "author_affiliations": [
+                "Centre for Clinical Haematology, Nottingham University Hospital, Nottingham, United Kingdom "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brian J.P Huntly",
+            "author_affiliations": [
+                "Hills Road, Cambridge Institute For Medical Research, Cambridge, United Kingdom "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anthony R Green, PhD FRCP, FRCPath, FMedSci",
+            "author_affiliations": [
+                "Department of Haematology, University of Cambridge, Cambridge, United Kingdom "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alan K. Burnett, MD",
+            "author_affiliations": [
+                "Cardiff University, Cardiff, United Kingdom "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter Campbell, PhD",
+            "author_affiliations": [
+                "Welcome Trust Sanger Institute, Cambridge UK, Cambridge, GBR"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elli Papaemmanuil, PhD",
+            "author_affiliations": [
+                "Center for Molecular Oncology and Department of Epidemiology and Biostatistics, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-12T09:30:04",
+    "is_scraped": "1"
 }

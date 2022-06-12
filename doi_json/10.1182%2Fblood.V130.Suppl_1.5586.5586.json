@@ -1,8 +1,75 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3842",
-    "start_url_page_num": "3842",
     "doi": "https://doi.org/10.1182/blood.V130.Suppl_1.5586.5586",
-    "url": "https://ashpublications.org/blood/article/130/Supplement 1/5586/115830/Sharing-Cellavision-Blood-Smear-Images-with?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T20:22:11",
-    "is_scraped": "0"
+    "article_title": "Sharing Cellavision Blood Smear Images with Clinicians Via the Electronic Medical Record ",
+    "article_date": "December 7, 2017",
+    "session_type": "901. Health Services Research\u2014Non-Malignant Conditions",
+    "abstract_text": "Background The CellaVision automated system digitizes peripheral blood smears and performs blood cell differentials. These images are available for local review in hematology laboratories on computer monitors or they can be transmitted for remote review via telehematology. Clinicians such as hematologists who typically review their patient's peripheral blood smears often need to contact an offsite hematology hospital laboratory for this purpose, frequently during evening or weekend hours. To overcome this barrier, our institution sought to make CellaVision blood smear images available to clinicians and trainees in the electronic medical record (EMR). The images could therefore be viewed at any time and from any computer or mobile device which could access the EMR. Technology CellaVision DM96 (CellaVision AB, Lund, Sweden) digital hematology analyzers. Images hosted on a Microsoft SQL Server. Microsoft Internet Information Services 7 web server and ColdFusion 9 middleware. Sunquest laboratory information system. Cerner PowerChart EMR. Design Image sharing was accomplished in 2 phases. For phase 1, a secure web portal (called \"HemaVue\") was created to allow clinicians to access CellaVision digital images with associated metadata (i.e. patient unique identifiers, blood counts). CellaVision image data was archived daily and stored for 6 months. For phase 2, CellaVision instrument results were tagged with the test code \"Image Differential Performed\". This code appeared in the patient result to inform the clinician this type of differential had been performed, as opposed to a manual or automated differential code. The HL7 message router transmitting results with this tag created a link in the EMR to the HemaVue website. This allowed clinicians to access CellaVision images from a patient's chart within the EMR. Results The CellaVision image database contained 3.38 million images for 23,000 patients, comprising 12TB of data on per 6 month temporal storage. Database and website maintenance had to be internally supported. While clinicians were pleased with having access to blood smear images, they expressed dissatisfaction that images were not always available immediately, not retained indefinitely, not offered on all patients, and that the images were of isolated white blood cells only. Conclusion CellaVision images were able to be successfully unlocked from the vendor's server and subsequently made accessible for remote viewing by linking patients' laboratory results in the EMR to a custom built website. While such enterprise image sharing of digital blood images offered some improvement for clinicians seeking to review peripheral blood smears, enhancements will be required to make this more readily available for all patients at our institution. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "blood smear",
+        "electronic medical records",
+        "peripheral blood smear",
+        "transluminal attenuation gradient",
+        "computers",
+        "blood cells",
+        "information services",
+        "internet",
+        "leukocytes",
+        "mobile devices"
+    ],
+    "author_names": [
+        "Christine Ann Garcia, MD MPH",
+        "Matthew Hanna, MD",
+        "Lydia C. Contis, MD",
+        "Liron Pantanowitz",
+        "Roseann Hyman"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Christine Ann Garcia, MD MPH",
+            "author_affiliations": [
+                "Hillman Cancer Pavilion, Division of Hematology and Oncology, University of Pittsburgh Medical Center, Pittsburgh, PA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matthew Hanna, MD",
+            "author_affiliations": [
+                "Department of Pathology Informatics, University of Pittsburgh Medical Center, Pittsburgh, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lydia C. Contis, MD",
+            "author_affiliations": [
+                "Univ. of Pittsburgh Med. Ctr., Pittsburgh, PA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Liron Pantanowitz",
+            "author_affiliations": [
+                "University of Pittsburgh Medical Center, Pittsburgh,"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Roseann Hyman",
+            "author_affiliations": [
+                "University of Pittsburgh Medical Center, Pittsburgh,"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-12T09:33:39",
+    "is_scraped": "1"
 }
