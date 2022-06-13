@@ -1,8 +1,87 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3922",
-    "start_url_page_num": "3922",
     "doi": "https://doi.org/10.1182/blood-2018-99-115071",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/2769/264296/Duplex-Sequencing-Accurately-Detects-Variants?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T23:21:18",
-    "is_scraped": "0"
+    "article_title": "Duplex Sequencing Accurately Detects Variants below 1/100,000 in Genes Recurrently Mutated in Acute Myeloid Leukemia ",
+    "article_date": "November 29, 2018",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis: Poster II",
+    "abstract_text": "Acute myeloid leukemia (AML) is a challenging disease to treat: most patients achieve remission after induction chemotherapy, but the majority eventually relapse. Minimal residual disease (MRD) after initial treatment is the best predictor of relapse and is thus a critical metric around which to develop new treatments. However, conventional MRD diagnostics, including cytology and flow cytometry, are of variable sensitivity and often only perform well in specialty centers, and there is no gold standard. Molecular tests developed to measure trace MRD in other hematological malignancies (i.e. CML) are high-resolution but assay a single, universally-present mutation, while many different genetic drivers exist in AML and these are spread among dozens of genes. Virtually every AML patient harbors a unique combination of mutations, making it difficult to design an effective universal assay. As such, most reported molecular AML MRD assays are either sensitive for mutations that are only found in a narrow subset of patients, or can screen many potential sites of mutation, but with low sensitivity. Here we present a broadly applicable Duplex Sequencing-based AML MRD assay that can readily detect mutant allele frequencies (MAF) below 1/10,000 across a large panel of genes, and below 1/100,000 in a focused panel. Conventional next generation sequencing (NGS) introduces errors during amplification and sequencing, creating a background of artifactual noise that obscures true mutations present below ~1%. Duplex Sequencing improves accuracy >100,000-fold through a molecular tagging approach whereby both strands of each original DNA duplex are ligated with a unique molecular barcode and amplified such that the reads generated from each strand can be related back to their unique original duplex. Reads can also be distinguished from those of their mate strand, thus the two strands of each DNA duplex can be compared and any discrepant nucleotide positions are discounted as errors. Our complete AML panel targets 151 exons or hotspot codons in 29 genes with a 59 kilobase (kb) hybrid-capture footprint. This region comprises loci containing single-nucleotide and short indel mutations found in approximately 90% of adult AMLs. A mean Duplex error-corrected sequence depth of 10,837 and a maximum Duplex depth of 14,967 was obtained across these targets from a single library preparation using 250 ng of sheared leukocyte DNA (Fig. 1). Duplex depth can be readily increased by preparing additional Duplex libraries from the same source DNA to achieve proportionally higher sensitivity for rarer variants. This stands in contrast to conventional NGS where, beyond a modest level, an increase in depth simply increases the number of background errors identified (Fig. 2A). We simulated low-level residual disease by mixing control DNA from a healthy young blood donor with DNA from 9 human cell lines harboring known AML mutations at dilutions from 1:100 to 1:100,000 (Table 2). The genomic loci of these 9 mutations in NRAS , KRAS and TP53 were captured with a small 1 kb probe panel. This mixture was sequenced to a mean Duplex depth of >1,000,000-fold, with the highest and lowest MAFs shown in Fig. 2B. All were close to expected frequencies (r 2 =0.96) with MAF as low as 6x10 -6 (Fig. 3). As proof of specificity, we examined all coding nucleotide positions (excluding the 9 expected variants) and identified only 241 background variant counts out of 414,452,402 total Duplex BP, for an aggregate mutation frequency of 5.8x10 -7 , consistent with the estimated background of normal human aging. Our Duplex Sequencing-based AML MRD assay is flexible, broadly applicable and extremely sensitive. The assay is easily implemented using standard NGS equipment and automated cloud-based analysis software. The ~90% of AML patients served by this SNV-focused panel can be expanded to nearly 100% with complementary indel detection via targeted NGS RT-PCR. Optionally, when a patient's mutation profile from time-of-diagnosis is known, MRD testing can focus exclusively on those targets using a subset of pre-validated probes to reduce sequencing cost. Improved MRD testing will facilitate accurate prognostication, better selection among treatment options, and could serve as a surrogate endpoint in clinical trials to bring new treatments to patients faster. We are currently evaluating Duplex Sequencing MRD tests in both retrospective and prospective clinical trials. View large Download slide View large Download slide  Close modal Disclosures Higgins: TwinStrand Biosciences: Employment. Williams: TwinStrand Biosciences: Employment. Buckley: CTI Biopharma: Employment; TwinStrand Biosciences: Consultancy. Radich: TwinStrand Biosciences: Research Funding. Salk: TwinStrand Biosciences: Employment, Equity Ownership.",
+    "topics": [
+        "genes",
+        "leukemia, myelocytic, acute",
+        "mutation",
+        "dna",
+        "massively-parallel genome sequencing",
+        "nucleotides",
+        "chemotherapy, neoadjuvant",
+        "disease remission",
+        "flow cytometry",
+        "gold standard"
+    ],
+    "author_names": [
+        "Jacob E. Higgins, PhD",
+        "Lindsey N. Williams, PhD",
+        "Sarah A Buckley, MD",
+        "Christopher S. Hourigan, DPhil FACP FRCP",
+        "Jerald P. Radich, MD",
+        "Jesse J. Salk, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Jacob E. Higgins, PhD",
+            "author_affiliations": [
+                "TwinStrand Biosciences, Seattle, WA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lindsey N. Williams, PhD",
+            "author_affiliations": [
+                "TwinStrand Biosciences, Seattle, WA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sarah A Buckley, MD",
+            "author_affiliations": [
+                "Department of Medicine, Division of Medical Oncology, University of Washington, Seattle, WA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher S. Hourigan, DPhil FACP FRCP",
+            "author_affiliations": [
+                "Laboratory of Myeloid Malignancies, National Heart, Lung and Blood Institute, Bethesda, MD "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jerald P. Radich, MD",
+            "author_affiliations": [
+                "Department of Medicine, Division of Medical Oncology, University of Washington, Seattle, WA ",
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jesse J. Salk, MD PhD",
+            "author_affiliations": [
+                "TwinStrand Biosciences, Seattle, WA ",
+                "Department of Medicine, Division of Medical Oncology, University of Washington, Seattle, WA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-13T09:36:48",
+    "is_scraped": "1"
 }

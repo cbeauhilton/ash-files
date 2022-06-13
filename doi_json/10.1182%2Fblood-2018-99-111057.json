@@ -1,8 +1,85 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3927",
-    "start_url_page_num": "3927",
     "doi": "https://doi.org/10.1182/blood-2018-99-111057",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/2604/264393/A-Novel-Method-to-Identify-Epigenetic-Subclones?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T23:21:37",
-    "is_scraped": "0"
+    "article_title": "A Novel Method to Identify Epigenetic Subclones with Increased Fitness from Genomic DNA Methylation Data of Lymphoma and Leukemia Patients ",
+    "article_date": "November 29, 2018",
+    "session_type": "602. Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation: Poster II",
+    "abstract_text": "DNA methylation has been functionally implicated in X-inactivation, genomic imprinting, and silencing of transposable elements. DNA methylation also has a complex regulatory relationship with gene expression. Canonically, methylation around the promoters of tumor-suppressor genes induces gene-silencing, thereby representing a hit in the two-hit hypothesis for the development of cancer. Unfortunately, profiling studies conducted to determine how aberrant methylation may contribute to cancer progression are confounded by heterogeneity in the original clinical sample. Thus, though studies in patients with Acute Myeloid Leukemia (AML), Diffuse Large B-cell Lymphoma (DLBCL), and Chronic Lymphocytic Leukemia (CLL) have found that variation in detected methylation values from patients at diagnosis correlates with prognosis following therapy, they do not address which subclonal methylation events contribute to cancer progression. To address this concern, we developed a novel computational method to deconvolve the bisulfite sequencing data from a sample into its major methylation profiles and their respective prevalence in the sample. Our method, based on a modified Hidden Markov Model, effectively models the autocorrelations found in methylation data and outperforms existing algorithms. Our method was validated across a wide range of mixture simulations, where bisulfite sequencing reads from various different cell types were subsampled to form test samples that could be deconvolved. We were able to accurately (98%) distinguish distinct methylation patterns corresponding to the expected underlying subpopulations, such as for CD14 and CD22 in mixtures of germinal center B-cells and monocytes and for CD4 and CD8A in mixtures of CD4+ T-lymphocytes and CD8+ T-lymphocytes. These patterns also recapitulated differentially methylated regions (DMRs) identified by an independent DMR-caller. Given that our method does not rely on cell-type specific parameters and is therefore robust to all samples, to further validate and demonstrate the applicability of our method, we conducted Agilent Methyl-Seq on 5 primary DLBCL samples procured by the Lymphoma Core at the Siteman Cancer Center. As a positive control, our method identified differential methylation profiles at loci expected to differ from underlying CD19+ and CD4+ cells, which comprise a large majority of each sample. Our method also identified distinct methylation profiles not found in reference profiles from normal cell-types, suggesting these methylation profiles may be specific to DLBCL. To further validate these findings, we used single-cell bisulfite-sequencing at ten loci to demonstrate that the methylation profiles predicted by our method from the original sample are found in individual cells. We found several methylation patterns that only existed in a subset of CD19+ cells, which may represent distinct epigenetic subclones of DLBCL. Using our novel computational method, we next profiled the subclonal epigenetic architecture of publicly available (dbGaP) paired samples from patients with AML (n=137) at diagnosis and following therapy. We were able to not only identify subclonal methylation profiles that were specific to cancer but also find profiles at higher prevalence in patients at relapse compared to diagnosis. These methylation profiles, which were enriched for genes in cancer pathways as seen by Gene Set Enrichment Analysis, may confer fitness advantages for a cancer subclone to expand. We are currently conducting additional analyses to characterize the epigenetic regulatory circuits that contribute to our observed increase in subclonal fitness. In summary, we have developed a robust method to identify subclonal methylation changes that may contribute to cancer progression and prognosis, as seen in AML, and may lead to new avenues for improving treatment for patients with leukemia or lymphoma. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "dna methylation",
+        "epigenetics",
+        "leukemia",
+        "lymphoma",
+        "genome",
+        "diffuse large b-cell lymphoma",
+        "cancer",
+        "tumor progression",
+        "cd14 antigen",
+        "chronic b-cell leukemias"
+    ],
+    "author_names": [
+        "Jerry Fong, BS",
+        "John R. Edwards, PhD",
+        "Jacob R. Gardner, PhD",
+        "Amanda F Cashen, MD",
+        "Kilian Q. Weinberger, PhD",
+        "Jacqueline E. Payton, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Jerry Fong, BS",
+            "author_affiliations": [
+                "Washington University School of Medicine, Saint Louis, MO "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "John R. Edwards, PhD",
+            "author_affiliations": [
+                "Washington University School of Medicine, St. Louis, MO "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jacob R. Gardner, PhD",
+            "author_affiliations": [
+                "Cornell University, Ithaca, NY "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amanda F Cashen, MD",
+            "author_affiliations": [
+                "Department of Medicine, Division of Oncology, Washington University School of Medicine, Saint Louis, MO "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kilian Q. Weinberger, PhD",
+            "author_affiliations": [
+                "Cornell University, Ithaca, NY "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jacqueline E. Payton, MD PhD",
+            "author_affiliations": [
+                "Washington Univ. in St. Louis, Saint Louis, MO"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-13T09:42:44",
+    "is_scraped": "1"
 }

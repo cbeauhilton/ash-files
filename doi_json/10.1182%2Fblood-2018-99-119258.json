@@ -1,8 +1,96 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3919",
-    "start_url_page_num": "3919",
     "doi": "https://doi.org/10.1182/blood-2018-99-119258",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/3500/264923/Personalized-and-Optimized-Low-Dose-and-Intensive?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T23:21:06",
-    "is_scraped": "0"
+    "article_title": "Personalized and Optimized Low-Dose and Intensive Chemotherapy Treatments for Patients with Acute Myeloid Leukemia (AML) ",
+    "article_date": "November 29, 2018",
+    "session_type": "802. Chemical Biology and Experimental Therapeutics: Poster II",
+    "abstract_text": "Patients with AML have heterogeneous features, including those specific to the patient as well as those specific to the disease, such as leukemic burden and dynamic sub-clonal populations. Outside of clinical trials, few of these components are used to determine treatment. In order to move towards precision medicine, we have developed \u03c0iChemo, a computational application based on a dynamic mathematical modelling framework, using patient-, leukemia- and treatment-specific data to predict outcomes and optimize chemotherapy regimens for patients with AML. The model consists of a pharmacokinetic and pharmacodynamic (PK/PD) module that calculates the concentration and effect of Cytarabine Arabinoside (Ara-C) and Daunorubicin (DNR) in bone marrow (BM); and a population balance models (PBMs) module that describes normal populations (stem cells, progenitors, precursors) and abnormal populations (leukemic sensitive blasts (LSB) and leukemic resistant blasts (LRB)) in BM. The PBMs module also determines mature cell numbers in three lineages found in BM and peripheral blood (PB): (1) red blood cells (RBC), (2) white blood cells (WBC) and (3) lymphocytes (L). Model structure was analysed by global sensitivity analysis, which identified the most significant parameters on outcome predictions, re-estimated for each patient. The final integrated PK/PD & PBMs model has 1,295 differential equations, 8,044 algebraic equations, 9,335 variables, 25 fixed parameters and 4 degrees of freedom or variables to be optimized (Ara-C dose, Ara-C injection duration, DNR dose and DNR injection duration). Model validation, predictions and optimizations were performed using anonymised retrospective data from 28 patients with AML. The model required: (i) patient features: height, weight, age and gender, (ii) patient status: initial BM differential and PB cell counts, (iii) leukemia data: cellularity, presence of dysplasia and initial blast percentage and, (iv) treatment data: type (low-dose (LD) or intensive (DA)), dose, administration route (SC vs IV), administration mode (bolus injection vs infusion), time between injections and between cycles. The model predicted the absolute numbers of stem cells, progenitors, precursors, WBC, RBC, L, LSB and LRB in BM, and WBC, RBC, L and neutrophil count in PB during treatment for all patients. Model simulations predicted outcomes for 18 patients who achieved complete remission (7 LD & 11 DA), 4 patients who entered partial remission (2 LD & 2 DA) and 6 patients who relapsed (2 LD & 4 DA). The most remarkable results are those of prediction for BM blast percentage after each chemotherapy cycle and the PB neutrophil count for all patients. The notable fit between model predictions and daily patient data demonstrate model robustness and accuracy in the capacity to track patient-specific restaging BM and daily PB count evolution before, during and after treatment. The same patient datasets were used to apply an optimization algorithm that could maximize normal cell number and reduce leukemia burden, to personalize chemotherapy dose and administration for best outcomes. The results show that doses and administration methods vary between patients and between chemotherapy cycles for the same patient, depending on the evolution of normal and abnormal populations in BM. Low-dose continuous Ara-C infusions were more effective than rapid bolus injections, due to reduced chemotherapy effects on normal cells and subsequent quicker recovery in the normal BM compartments. RBC progenitors and precursors recovered faster than WBC and L lineages, and the recovery of normal BM cells was faster than that of normal mature cells in PB. The \u03c0iChemo tool requires only patient- and leukemia-specific initial conditions at diagnosis, easily obtained in standard clinical practice, for outcome predictions and treatment optimizations. Real-time model-fit testing and comparison of model results against daily PB cell counts would enable the re-estimation of significant parameters, increasing model accuracy and treatment effectiveness whilst therapy is ongoing. The \u03c0iChemo precision therapy tool has the potential to personalize optimal standard and novel treatments for AML in real-time. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "chemotherapy regimen",
+        "leukemia, myelocytic, acute",
+        "cytarabine",
+        "leukemia",
+        "chemotherapy effects",
+        "complete remission",
+        "daunorubicin",
+        "drug administration routes",
+        "dysplasia",
+        "infusion procedures"
+    ],
+    "author_names": [
+        "Ana Luz Quiroga-Campano, PhD MSc, BSc",
+        "Louise Enfield",
+        "Matthew Foster, BS",
+        "Margaritis Kostoglou, PhD",
+        "Michael Georgiadis, PhD",
+        "Athanasios Mantalaris, PhD",
+        "Nicki Panoskaltsis, MD PhD FRCP"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Ana Luz Quiroga-Campano, PhD MSc, BSc",
+            "author_affiliations": [
+                "Biological System Engineering Laboratory, Department of Chemical Engineering, Imperial College London, London, United Kingdom "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Louise Enfield",
+            "author_affiliations": [
+                "Haematology Clinical Research Unit, London North West Healthcare NHS Trust, London, United Kingdom "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matthew Foster, BS",
+            "author_affiliations": [
+                "Biological System Engineering Laboratory, Department of Chemical Engineering, Imperial College London, London, United Kingdom "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Margaritis Kostoglou, PhD",
+            "author_affiliations": [
+                "Department of Chemistry, Aristotle University of Thessaloniki, Thessaloniki, Greece "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Georgiadis, PhD",
+            "author_affiliations": [
+                "Department of Chemical Engineering, Aristotle University of Thessaloniki, Thessaloniki, Greece "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Athanasios Mantalaris, PhD",
+            "author_affiliations": [
+                "Biological Systems Engineering Laboratory, Chemical Engineering Department, Imperial College London, London, United Kingdom "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nicki Panoskaltsis, MD PhD FRCP",
+            "author_affiliations": [
+                "Department of Hematology, Imperial College London, London, United Kingdom ",
+                "Biological System Engineering Laboratory, Imperial College London, London, United Kingdom"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-13T09:32:16",
+    "is_scraped": "1"
 }
