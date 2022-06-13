@@ -1,8 +1,190 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3897",
-    "start_url_page_num": "3897",
     "doi": "https://doi.org/10.1182/blood-2018-99-112037",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/2669/264136/RNA-Sequencing-Based-Measurement-of-Fusion?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T22:20:59",
-    "is_scraped": "0"
+    "article_title": "RNA Sequencing-Based Measurement of Fusion-Transcript for Minimal Residual Disease (MRD) Monitoring in Core-Binding Factor Acute Myeloid Leukemia (CBF-AML) ",
+    "article_date": "November 29, 2018",
+    "session_type": "613. Acute Myeloid Leukemia: Clinical Studies: Poster II",
+    "abstract_text": "Introduction Recent studies utilizing NGS demonstrated that residual allelic burden at complete remission (CR) is associated with worse overall survival (OS) and relapse incidence in AML. Quantitative PCR (qPCR) based disease monitoring is current practice in CBF-AML. However, qPCR requires standardization and the result for the same sample may vary depending on several factors. Also, other known prognostic factors such as c KIT mutation require an additional test. As RNA-seq can detect gene rearrangement as well as somatic mutations, we hypothesized that RNA-seq on samples taken at diagnosis and at remission can be used to monitor these genetic alterations simultaneously and can be utilized for minimal residual disease (MRD) monitoring in CBF-AML. Patients and Methods This study included 42 CBF-AML patients (23 RUNX1 - RUNX1T1 and 19 CBFB - MYH11 AML). Overall, 84 bone marrow samples (42 diagnosis-CR pairs) were subjected to targeted RNA-seq using Illumina TruSight Pan-Cancer panel. After read mapping, gene count was measured using HTSeq followed by DEseq2 for gene expression quantification. Average number of sequenced reads was 3.5M reads with 87% overall mapping rate. Gene fusions in diagnostic samples were detected using EricScript. All 84 samples as well as 42 samples from T-cell fraction (CD3+, as a control) were also subjected to DNA sequencing, targeting a panel of 84 genes (Agilent SureSelect custom gene panel). Average on-target coverage was 1,606x. All other computational analyses were done using R and python. Results In diagnostic samples, class-defining gene fusion events were detected in all 42 patients. In CR samples, we tracked identical junctions identified in corresponding diagnostic samples. As expected, both CBFB - MYH11 and RUNX1 - RUNX1T1 showed significant reduction in all CR samples compared to their corresponding diagnostic samples (p < 2.2e-13 and p < 6.3e-05, Fig A and B). CBFB - MYH11 was detectable in 6/19 CR samples (32%) and RUNX1 - RUNX1T1 was detectable in 15/23 CR samples (65%). Reduction level of RUNX1 - RUNX1T1 measured by RNA-seq showed positive correlation with the reduction level measured by qPCR (Pearson's Rho = 0.74, p < 5.4e-05, Fig C). As per mutational profile at diagnosis, we detected 74 mutations in 38 samples (n=38/42, 90%). NRAS (36%), KIT (36%), KRAS (17%) and, ASXL2 (17%) were commonly mutated. Survival analyses on each gene and each protein locus identified c KIT -D816 mutation as an adverse prognostic factor (HR = 3.57, [1.15 - 11.11], p = 0.028). We were able to detect all c KIT -D816 mutations in RNA-seq. Using information from NGS, we built a prognostic model for RUNX1 - RUNX1T1 AML (n = 23). Decision tree analysis identified three distinct subgroups of RUNX1-RUNX1T1 AML on the basis of reduction level of RUNX1 - RUNX1T1 and mutation profile (Fig D). Consistent with previous studies, 3-log or deeper reduction of RUNX1 - RUNX1T1 transcript level was the most significant prognostic factor (low risk group). The algorithm further divided the patients who failed to achieve 3-log reduction according to the presence of c KIT -D816 mutation at diagnosis (intermediate and high risk group). For three defined groups, 2-year OS rates were 87%, 74%, and 33% (p = 0.08, Fig E) and 2-year relapse incidence rates were 13%, 42%, and 67% (p = 0.048, Fig F). Conclusion RNA-seq can be utilized to quantify RUNX1 - RUNX1T1 and CBFB - MYH11 transcripts on diagnostic and CR samples in CBF-AML. We also showed that RNA-seq can stratify RUNX1 - RUNX1T1 AML patients into three risk groups according to their long-term prognosis. Figure. View large Download slide Figure. View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "core-binding factor",
+        "leukemia, myelocytic, acute",
+        "neoplasm, residual",
+        "rna",
+        "runx1 translocation partner 1 protein",
+        "proto-oncogene protein c-kit",
+        "prognostic factors",
+        "massively-parallel genome sequencing",
+        "bone marrow specimen",
+        "cancer"
+    ],
+    "author_names": [
+        "Taehyung Kim, MSc",
+        "Joon Ho Moon, MD",
+        "Jae-Sook Ahn, MD PhD",
+        "Marc S. Tyndel, B. Eng",
+        "Seung-Shin Lee, MD",
+        "Seo-Yeon Ahn, MD",
+        "Sung-Hoon Jung, MD",
+        "Deok-Hwan Yang, MD PhD",
+        "Je-Jung Lee, MD PhD",
+        "Seunghyun Choi, PhD",
+        "Ja-yeon Lee, MSc",
+        "Yoojin Lee, MDPhD",
+        "Sang Kyun Sohn, MD PhD",
+        "Zhaolei Zhang, PhD",
+        "Hyeoung-Joon Kim, MD PhD",
+        "Dennis Dong Hwan Kim, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Taehyung Kim, MSc",
+            "author_affiliations": [
+                "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Canada ",
+                "Department of Computer Science, University of Toronto, Toronto, Canada "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joon Ho Moon, MD",
+            "author_affiliations": [
+                "Department of Hematology-Oncology, Kyungpook National University Hospital, Daegu, Korea, Republic of (South) "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jae-Sook Ahn, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology-Oncology, Chonnam National University Hwasun Hospital, Hwasun, Korea, Republic of (South) "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marc S. Tyndel, B. Eng",
+            "author_affiliations": [
+                "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Canada ",
+                "The Edward S. Rogers Sr. Department of Electrical and Computer Engineering, University of Toronto, Toronto, Canada "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Seung-Shin Lee, MD",
+            "author_affiliations": [
+                "Department of Hematology-Oncology, Chonnam National University Hwasun Hospital, Hwasun, Korea, Republic of (South) "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Seo-Yeon Ahn, MD",
+            "author_affiliations": [
+                "Department of Hematology-Oncology, Chonnam National University Hwasun Hospital, Hwasun, Korea, Republic of (South) "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sung-Hoon Jung, MD",
+            "author_affiliations": [
+                "Department of Hematology-Oncology, Chonnam National University Hwasun Hospital, Hwasun, Korea, Republic of (South) "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Deok-Hwan Yang, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology-Oncology, Chonnam National University Hwasun Hospital, Hwasun, Korea, Republic of (South) "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Je-Jung Lee, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology-Oncology, Chonnam National University Hwasun Hospital, Hwasun, Korea, Republic of (South) "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Seunghyun Choi, PhD",
+            "author_affiliations": [
+                "Genomic Research Center for Hematopoietic Diseases, Chonnam National University Hwasun Hospital, Hwasun, Korea, Republic of (South) "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ja-yeon Lee, MSc",
+            "author_affiliations": [
+                "Genomic Research Center for Hematopoietic Diseases, Chonnam National University Hwasun Hospital, Hwasun, Korea, Republic of (South) "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yoojin Lee, MDPhD",
+            "author_affiliations": [
+                "Department of Hematology-Oncology, Kyungpook National University Hospital, Daegu, Korea, Republic of (South) "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sang Kyun Sohn, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology-Oncology, Kyungpook National University Hospital, Daegu, Korea, Republic of (South) "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Zhaolei Zhang, PhD",
+            "author_affiliations": [
+                "Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Canada ",
+                "Department of Computer Science, University of Toronto, Toronto, Canada ",
+                "Department of Molecular Genetics, University of Toronto, Toronto, Canada "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hyeoung-Joon Kim, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology-Oncology, Chonnam National University Hwasun Hospital, Hwasun, Korea, Republic of (South) ",
+                "Genomic Research Center for Hematopoietic Diseases, Chonnam National University Hwasun Hospital, Hwasun, Korea, Republic of (South) "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dennis Dong Hwan Kim, MD PhD",
+            "author_affiliations": [
+                "Blood and Marrow Transplant Program, Department of Medical Oncology and Hematology, Princess Margaret Cancer Centre, University Health Network, Toronto, Canada"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-13T02:42:45",
+    "is_scraped": "1"
 }
