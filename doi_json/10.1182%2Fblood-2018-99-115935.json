@@ -1,8 +1,227 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3951",
-    "start_url_page_num": "3951",
     "doi": "https://doi.org/10.1182/blood-2018-99-115935",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/3115/263661/Highly-Comprehensive-Genomic-Testing-for-CLL-WGS?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T01:54:21",
-    "is_scraped": "0"
+    "article_title": "Highly Comprehensive Genomic Testing for CLL: WGS, One Key to CLL Patient Stratification ",
+    "article_date": "November 29, 2018",
+    "session_type": "641. CLL: Biology and Pathophysiology, excluding Therapy: Poster II",
+    "abstract_text": "Background Chronic Lymphocytic Leukemia (CLL) is characterised by a highly heterogeneous natural history and treatment response. Indeed, 50% of immunoglobulin heavy chain variable region (IgHV) hypermutated patients have an excellent progression free survival (PFS) after chemoimmunotherapy. Conversely, 25% of FCR treated patients relapse within 24 months (high risk CLL). Recent studies have shown that complex karyotype with or without TP53 disruption predicts for relapse after BCL2 therapy and BTK inhibitors. However, TP53 is the only marker for which routine testing is available. Overall, nearly 80% of patients relapsing after frontline FCR do not present a known poor risk genomic marker. Additional candidate genomic predictors of poor outcome including mutations in coding regions of NOTCH1 , SF3B1 and RPS15 , non-coding regions of NOTCH1 and enhancer regions of PAX5 , telomere length, IgHV status, and DNA Damage Repair (DDR) germline mutations including TP53 and ATM have been reported in CLL. Further, the role of mutational signatures and regions of kataegis also merit additional investigation in progressive CLL. Evaluating all candidate predictors requires complex time consuming, multi-modality testing outside the scope of routine clinical diagnostic practice, however, in isolation, each has low predictive value. Here, we show preliminary data on a novel patient stratification method based on whole genome sequencing (WGS) data incorporating multiple genomic features in a single test. Patients and Methods Tumor (peripheral blood) and germline (saliva) samples were collected from 321 patients from 6 UK trials via the Genomics England CLL pilot: ARCTIC (n=61), AdMIRe (n=64), CLL 210 (n=30), CLEAR (n=12), RIAltO (n=88) and FLAIR (n=66). We performed WGS on the HiSeqX (Illumina). After read alignment, we detected somatic variants using Strelka 2.4.7 for small variants detection (SNV and InDels), Manta 0.28.0 for structural variant (SV) detection, and Canvas 1.3.1 for copy number variant (CNV) detection (Illumina). Non-coding regions were annotated with information from primary CLL, CLL cell lines and B-cell ENCODE databases. Mutational signatures and putative regions of kataegis were calculated based on Alexandrov et al. (Nature, 2013) and Lawrence et al. (Nature, 2013). Telomere lengths were assessed using Telomerecat. Data aggregation was performed using contingency tables combined with non-negative matrix factorization. Results Mean coverage was 94.2X for tumor and 28.5X for germline samples. We found a median of 9172 SNPs/sample after filtering and 2348 indels/sample across 321 patients. High risk CLL was enriched for genomic complexity and poor prognostic mutations. The most frequently mutated genes were SF3B1 (17%), TP53 (13%), NOTCH1 (12%), IGLL5 (12%), and ATM (11%). Analysis of non-coding regions using DNA methylation markers, ATAC-seq and Hi-C revealed potential candidate regions associated with early relapse. Using CNA and SV data, we identified interesting patterns of genomic complexity and structural variants, including a trend towards enrichment of del8p in Relapse/Refractory and FCR non-responders. Additionally, we investigated mutation signatures and kataegis across coding and non-coding regions of the genome. We correlated exonic regions of DDR genes in germline data with clinical outcomes and extended this to genes mutated in both tumor and germline data, termed germline-tumor double-hits. We examined the relationship between the Alexandrov hypermutation signature, IgHV status (determined by % homology to the reference genome) and PFS, and combined mutational density at the Ig locus with mutation signature aiming to predict IgHV status. Finally, we produced a binary contingency matrix, using non-negative matrix factorization to cluster the samples. This method highlighted patient groups with shared genomic profiles. Conclusion We present preliminary data on a patient stratification method derived from WGS of 321 paired germline and CLL trial samples. Our predictive signature includes driver gene mutations, CNAs, IgHV status, genomic complexity, telomere length, overall mutation burden and genes with germline-tumor double-hits. Our comprehensive, NGS-based patient stratification attempts to predict patient outcome in a single sequencing run. Disclosures Becq: Illumina: Employment. He: Illumina: Employment. Ross: Illumina: Employment. Bentley: Illumina: Employment. Pettitt: Celgene: Research Funding; Gilead: Research Funding; Roche: Research Funding; GSK/Novartis: Research Funding; Napp: Research Funding; AstraZeneca: Research Funding; Chugai: Research Funding. Hillmen: Novartis: Research Funding; Gilead Sciences, Inc.: Honoraria, Research Funding; Alexion Pharmaceuticals, Inc: Consultancy, Honoraria; F. Hoffmann-La Roche Ltd: Research Funding; Celgene: Research Funding; Acerta: Membership on an entity's Board of Directors or advisory committees; Abbvie: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Pharmacyclics: Research Funding; Janssen: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding. Schuh: Giles, Roche, Janssen, AbbVie: Honoraria.",
+    "topics": [
+        "atac trial",
+        "bcl-2 protein",
+        "btk inhibitors",
+        "chronic b-cell leukemias",
+        "chronic lymphocytic leukemia",
+        "fluid attenuated inversion recovery",
+        "genome",
+        "immunoglobulin heavy chains",
+        "immunoglobulin variable region",
+        "immunoglobulins"
+    ],
+    "author_names": [
+        "Kate E Ridout, PhD",
+        "Pauline Robbe, MSc, PhD",
+        "Doriane Cavalieri, MSc",
+        "Jennifer Becq, PhD",
+        "Miao He, PhD",
+        "Ruth Clifford, FRCPath, PhD",
+        "Niamh Appleby, FRCPath, MD",
+        "Reem Alsolami, PhD",
+        "Adam Burns, BSc, PhD",
+        "Melanie Oates, PhD",
+        "Basile Stamatopoulos, PhD",
+        "Samantha Knight, PhD",
+        "Alona Sosinsky, PhD",
+        "Pavlos Antoniou, PhD",
+        "Mark Ross, PhD",
+        "David Bentley, PhD",
+        "Andrew Pettitt, FRCPath, PhD",
+        "Peter Hillmen, MB ChB, PhD FRCP, FRCPath",
+        "Mark Caulfield, PhD",
+        "Anna Schuh, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Kate E Ridout, PhD",
+            "author_affiliations": [
+                "Department of Oncology, The University of Oxford, Oxford, United Kingdom "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pauline Robbe, MSc, PhD",
+            "author_affiliations": [
+                "Oxford Molecular Diagnostics Centre, University of Oxford, Radcliffe Department of Medicine, Oxford, United Kingdom "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Doriane Cavalieri, MSc",
+            "author_affiliations": [
+                "Department of Oncology, The University of Oxford, Oxford, United Kingdom ",
+                "Service d'H\u00e9matologie Clinique Adulte et de Th\u00e9rapie Cellulaire, CHU Clermont-Ferrand, Clermont-Ferrand, France "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jennifer Becq, PhD",
+            "author_affiliations": [
+                "Illumina, Chesterford, United Kingdom "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Miao He, PhD",
+            "author_affiliations": [
+                "Illumina, Chesterford, United Kingdom "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ruth Clifford, FRCPath, PhD",
+            "author_affiliations": [
+                "Oxford National Institute for Health Research Biomedical Research Centre and Department of Oncology, University of Oxford, Oxford, United Kingdom "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Niamh Appleby, FRCPath, MD",
+            "author_affiliations": [
+                "Department of Oncology, University of Oxford, Oxford, United Kingdom "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Reem Alsolami, PhD",
+            "author_affiliations": [
+                "Nuffield Department of Laboratory Sciences, University of Oxford, Oxford, United Kingdom "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Adam Burns, BSc, PhD",
+            "author_affiliations": [
+                "Department of Oncology, University of Oxford, Oxford, United Kingdom "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Melanie Oates, PhD",
+            "author_affiliations": [
+                "University of Liverpool, Liverpool, United Kingdom "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Basile Stamatopoulos, PhD",
+            "author_affiliations": [
+                "Laboratory of Clinical Cell Therapy, Institut Jules Bordet, Brussels, Belgium "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Samantha Knight, PhD",
+            "author_affiliations": [
+                "Oxford National Institute for Health Research Biomedical Research Centre, University of Oxford, Oxford, United Kingdom "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alona Sosinsky, PhD",
+            "author_affiliations": [
+                "Genomics England, London, United Kingdom "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pavlos Antoniou, PhD",
+            "author_affiliations": [
+                "Genomics England, London, United Kingdom "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mark Ross, PhD",
+            "author_affiliations": [
+                "Illumina, Chesterford, United Kingdom "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David Bentley, PhD",
+            "author_affiliations": [
+                "Illumina, Chesterford, United Kingdom "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew Pettitt, FRCPath, PhD",
+            "author_affiliations": [
+                "Department of Haematology, University of Liverpool, Liverpool, United Kingdom "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter Hillmen, MB ChB, PhD FRCP, FRCPath",
+            "author_affiliations": [
+                "St. James's University Hospital, Leeds, United Kingdom "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mark Caulfield, PhD",
+            "author_affiliations": [
+                "Genomics England, London, United Kingdom "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anna Schuh, MD PhD",
+            "author_affiliations": [
+                "Department of Oncology, University of Oxford, Oxford, United Kingdom ",
+                "Oxford University Hospitals NHS Foundation Trust, Oxford, United Kingdom"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-13T18:40:46",
+    "is_scraped": "1"
 }

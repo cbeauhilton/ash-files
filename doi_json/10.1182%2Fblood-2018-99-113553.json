@@ -1,8 +1,126 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3950",
-    "start_url_page_num": "3950",
     "doi": "https://doi.org/10.1182/blood-2018-99-113553",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/3157/263627/Whole-Exome-and-mRNA-Sequencing-of-Multiple?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T01:54:17",
-    "is_scraped": "0"
+    "article_title": "Whole-Exome and mRNA Sequencing of Multiple Myeloma Reveal Transformation to a More High-Risk and Proliferative Tumor at Relapse ",
+    "article_date": "November 29, 2018",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster II",
+    "abstract_text": "Introduction Multiple myeloma (MM) is a malignant plasma cell disorder of which the prognosis has significantly improved since the introduction of proteasome inhibitors (PIs) and immune modulatory drugs (IMiDs) in standard-of-care treatment protocols. Despite this progress, many patients still suffer from progressive disease, of which the underlying biological mechanisms are mainly unknown. To elucidate these, we have studied the genomic evolution of MM tumor samples in 29 patients before and after receiving a PI-based and/or IMiD-based treatment, using whole exome sequencing (WES) and mRNA sequencing (RNA-Seq). Methods Patient samples were selected from the Norwegian Biobank for Multiple Myeloma and the HOVON-87/NMSG-18 MM and EMN-02/HOVON-95 MM studies. Tumor DNA was isolated from CD138-positive MM cells with control DNA from peripheral blood samples. WES libraries were prepared using the SureSelectXTsample prep kit and the SureSelectXT Human All Exon V5 target 50 Mb kit (Agilent), followed by paired-end sequencing on a HiSeq2500 instrument (Illumina). Somatic, non-synonymous variants (SNSVs) were called using MuTect and Strelka. Copy number aberrations (CNAs) were estimated using Sequenza. RNA-Seq libraries were generated using the TruSeq\u00ae Stranded mRNA kit (Illumina).DESeq2 paired analysis was performed in R Studio to find differentially expressed genes. RNA-Seq expression data from diagnosis/relapse pairs from patients treated with a PI and/or IMiD were selected from the CoMMpass IA10 release database and used as validation cohort. Results We obtained 21 diagnosis/relapse pairs, as well as 8 relapse/relapse pairs, with a median time between samples of 21 months, respectively 16 months. In addition, for 3 of the patients, we had a 3 rd sample included. We found a median of 54 SNSVs in our cohort, with an increase in mutational load from the first to the second sample (median 44 to 61). Three different patterns of tumor evolution were observed, confirming previous reports: stable evolution (29% of patients), where the tumor had no or minor changes; linear evolution (29% of patients), where there were acquired mutations and/or CNAs at relapse; differential clonal response (42% of patients), where there was a disappearance of certain mutations/CNAs at relapse and appearance of new ones, suggesting a shift in dominance of different clones. Of interest, of the 7 relapse-relapse tumor pairs that were included in the analysis, 5 were defined to have a differential clonal response, while the remaining 2 had linear evolution, suggesting that the tumors are more prone to genomic change later in the disease course.Tumors shifting their clonal dominance tended to select for a clone with more high-risk features later in the disease course, as illustrated by the appearance of a deletion of chromosome 17p, TP53 mutations and a gain of chromosome 1q. There was a shorter average time interval between sample 1 and 2 for those having a stable evolution pattern (average 12 months, range [5-16]), than those having a differential clonal response (19 months [5-70]), and the highest interval was in patients with linear evolution patters (29 months [15-50]). Tumors having a differential clonal response and linear evolution, showed more often a deeper treatment response (43% CR/nCR, 40% VGPR and 22% CR/nCR, 56% VGPR, respectively) compared to those with stable evolution patterns (14% VGPR), suggesting that tumors that respond well to treatment are more prone to evolve. RNA-Seq data showed a higher expression of genes involved in G2M checkpoint, E2F targets and mitotic spindle at relapse. In line with this, relapsed tumors were found to have an increased proliferation index (GEP; Zhan et al, Blood, 2006). This was confirmed in RNA-Seq data from 27 diagnosis-relapse samples from the CoMMpass dataset. Conclusion This study has performed a comprehensive genomic and transcriptomic analysis of the clonal evolution of MM tumors after treatment with PIs and IMIDs. Our data suggest that clones with high-risk factors and increased expression of genes involved in proliferation and cell cycle regulation are selected for under the pressure of these treatment regimens. The data also suggest that there is a relation between the pattern of genomic evolution and the obtained depth of response, which deserves further investigation. Disclosures Sonneveld: Janssen: Honoraria, Research Funding; Amgen: Honoraria, Research Funding; Celgene: Honoraria, Research Funding; Karyopharm: Honoraria, Research Funding; BMS: Honoraria, Research Funding.",
+    "topics": [
+        "multiple myeloma",
+        "neoplasms",
+        "rna, messenger",
+        "exome",
+        "rna",
+        "disease progression",
+        "dna",
+        "mitotic index",
+        "neoplasm dna",
+        "plasma cell disorder"
+    ],
+    "author_names": [
+        "Kristine Misund, PhD",
+        "Davine Hofste Op Bruinink, MD",
+        "Eivind Coward, PhD",
+        "Remco Hoogenboezem, MSc",
+        "Even H Rustad, MD",
+        "Eivind Hovig, PhD",
+        "Anders Sundan, PhD",
+        "Ola Myklebost, PhD",
+        "Pieter Sonneveld, MD PhD",
+        "Anders Waage, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Kristine Misund, PhD",
+            "author_affiliations": [
+                "Department of Clinical and Molecular Medicine, NTNU, Trondheim, Norway "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Davine Hofste Op Bruinink, MD",
+            "author_affiliations": [
+                "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, Netherlands "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eivind Coward, PhD",
+            "author_affiliations": [
+                "Department of Clinical and Molecular Medicine, NTNU, Trondheim, Norway "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Remco Hoogenboezem, MSc",
+            "author_affiliations": [
+                "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, Netherlands "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Even H Rustad, MD",
+            "author_affiliations": [
+                "Department of Clinical and Molecular Medicine, NTNU, Trondheim, Norway "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eivind Hovig, PhD",
+            "author_affiliations": [
+                "Norwegian Cancer Genomic Consortium, Oslo University Hospital, Oslo, Norway "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anders Sundan, PhD",
+            "author_affiliations": [
+                "Department of Clinical and Molecular Medicine, NTNU, Trondheim, Norway "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ola Myklebost, PhD",
+            "author_affiliations": [
+                "Norwegian Cancer Genomic Consortium, Oslo University Hospital, Oslo, Norway "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pieter Sonneveld, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology, Erasmus MC Cancer Institute, Rotterdam, Netherlands "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anders Waage, MD PhD",
+            "author_affiliations": [
+                "St.Olavs University Hospital, Trondheim, Norway ",
+                "Department of Hematology, NTNU, Trondheim, Norway"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-13T18:38:41",
+    "is_scraped": "1"
 }
