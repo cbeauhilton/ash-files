@@ -1,8 +1,305 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3899",
-    "start_url_page_num": "3899",
     "doi": "https://doi.org/10.1182/blood-2018-99-113331",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/245/264177/Transcriptomic-Profiling-of-Circulating-Tumor?searchresult=1",
-    "datetime_link_obtained": "2022-04-28T22:21:05",
-    "is_scraped": "0"
+    "article_title": "Transcriptomic Profiling of Circulating Tumor Cells (CTCs) in Multiple Myeloma (MM): A New Model to Understand Disease Dissemination ",
+    "article_date": "November 29, 2018",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Immunological Aspects and the Microenvironment in Myeloma Pathogenesis",
+    "abstract_text": "Background. The number of CTC predicts risk of transformation in smoldering MM and survival in active MM. Growing evidence suggests that as the tumor progresses and the microenvironment becomes hypoxic, clonal plasma cells (PC) constantly invade new regions of the bone marrow (BM) through induced systemic recirculation. Of note, the frequency of CTCs is typically low and thus, it is conceivable that the dissemination of MM depends on few tumor cells with unique features that induce them to egress the BM and spread the disease through peripheral blood (PB). This hypothesis has not been yet demonstrated because the transcriptional profile of CTCs in MM has not been investigated. Aim. To identify gene regulatory networks related to MM dissemination by comparing the transcriptional profile of CTCs with patient-matched BM clonal PCs. Methods. We used FACS to isolate CTCs and BM clonal PCs of paired PB and BM samples from 34 patients: 24 newly diagnosed MM, 9 relapsed MM and 1 MGUS. Transcriptomes were analyzed using Affymetrix arrays (n =31) and the BD WTA Precise assay was used for single-cell RNA sequencing (scRNAseq, n =3). Data was analyzed using Gene Set Enrichment Analysis (GSEA) and Limma for bulk and Seurat for scRNAseq data. The prognostic value of deregulated genes (FDR 0.5) was investigated using a Cox-regression model in the CoMMpass dataset (n =553, IA11 release). The role of specific deregulated genes was evaluated by shRNA knockdown and blocking using a monoclonal antibody (mAb). Results. Transcriptomic profiling of patient matched CTCs and BM clonal PCs revealed a high correlation in gene expression (r =0.93; p =10 -16 ). Only 45 genes emerged as significantly deregulated in CTCs, and GSEA unveiled biological functions related to inflammatory and interferon response (e.g. CCL5 ), signaling by IL-6/JAK/STAT3, IL-2/STAT5 and TNF via NFKB ( CD44 ), the epithelial mesenchymal transition ( EMP3 ), mitotic spindle and G2M checkpoints ( TOP2A ), or E2F targets ( BIRC5 ). A high correlation in gene expression was also observed by scRNAseq (r =0.9; p =10 -16 ), with only 31 genes (e.g. MALAT1, B2M, RHOH, ENAM or DUSP5) differentially expressed (adj.p <0.01). Under the hypothesis that genes deregulated in CTCs could be markers of dissemination and therefore of a more aggressive disease, we evaluated their prognostic significance in CoMMpass, assuming that BM clonal PCs with higher expression of these genes would be enriched in tumor cells with CTC-features. Accordingly, the expression levels of 12/33 upregulated genes in CTCs from bulk RNAseq data were associated with significantly different progression free survival (PFS). In the multivariate analysis including the above mentioned 33 genes and the R-ISS, only FLNA retained independent prognostic value; patients showing higher FLNA expression (n =185/553) had a significantly inferior PFS vs the remaining cases (medians of 22 and 47 months, respectively; p <.001). Of note, patients with higher FLNA expression also displayed significantly higher mutational burden ( p =.003). After confirming that genes deregulated in CTCs were clinically meaningful, we selected two genes upregulated in CTCs ( FLNA and CD44 ) to investigate their functional role. Interestingly, knockdown of both genes in the U266 MM cell line significantly altered actin polymerization ( p \u2264.003) leading to reduce migration (2-fold, p \u22640.01). Furthermore, we evaluated the effect of an anti-CD44 mAb in CB17/Icr-PrKdcscid/Crl immunodeficient mice treated with clodronate to avoid potential phagocytosis. After inoculation of MM1S-GFP intravenously and MM1S-tomato subcutaneously in Matrigel, mice were left untreated (n =11) or treated with a weekly intravenous injection of anti-CD44 (n =11) for one month and monitored weekly by bioluminescence. Overall, there was a significant reduction in the plasmacytoma volume (5-fold, p <.001) and cell engraftment of circulating MM1S cells (42-fold, p =.003) in treated mice. Conclusions. This is the first study analyzing the transcriptional profile of CTCs in MM. Our results reveal that gene expression of CTCs is almost identical to that of patient-matched BM clonal PCs, except for a few genes that are involved in interferon and inflammatory response, hypoxia, cell cycle and migration. Importantly, some of these genes are related to more aggressive disease and therefore, may represent novel therapeutic targets to overcome disease dissemination. Figure. View large Download slide Figure. View large Download slide  Close modal Disclosures Rios: Amgen, Celgene, Janssen, and Takeda: Consultancy. Martinez-Lopez: Pfizer: Research Funding; Vivia: Honoraria; Celgene: Honoraria, Research Funding; Janssen: Honoraria, Research Funding; BMS: Research Funding; Novartis: Research Funding. Hajek: Janssen: Consultancy, Honoraria, Research Funding; Amgen: Consultancy, Honoraria, Research Funding; Celgene: Consultancy, Honoraria, Research Funding; Takeda: Consultancy, Honoraria, Research Funding; Bristol-Myers Squibb: Consultancy, Honoraria, Research Funding. San-Miguel: Sanofi: Honoraria; Celgene: Honoraria; Janssen: Honoraria; Amgen: Honoraria; Novartis: Honoraria; BMS: Honoraria; Roche: Honoraria.",
+    "topics": [
+        "circulating tumor cells",
+        "multiple myeloma",
+        "photon correlation spectroscopy",
+        "portacaval shunt, surgical",
+        "precordial catch syndrome",
+        "cd44 antigens",
+        "homing-associated cell adhesion molecule",
+        "monoclonal antibodies",
+        "human leukocyte interferon",
+        "hypoxia"
+    ],
+    "author_names": [
+        "Juan Jos\u00e9 Garc\u00e9s",
+        "Michal \u0160im\u00ed\u010dek",
+        "Marco Vicari",
+        "Lucie Brozova, MSc",
+        "Leire Burgos",
+        "Renata Bezd\u011bkov\u00e1, MSc.",
+        "Diego Alignani, PhD",
+        "Maria Jose Calasanz, BSc, PhD",
+        "Katerina Growkova",
+        "Ludek Pour, MD",
+        "Rafael Rios, MD PhD",
+        "Joaquin Martinez-Lopez, MD PhD",
+        "Pamela Millacoy",
+        "Luis Palomera, MD PhD",
+        "Rafael Del Orbe",
+        "Sonia Garate",
+        "Laura Blanco",
+        "Patricia Maiso, PhD",
+        "Zuzana Chyra",
+        "Alexander Vdovin",
+        "Tomas Jelinek",
+        "Cirino Botta, MD",
+        "Halima El Omri",
+        "Xabier Agirre, PhD",
+        "Felipe Prosper, MD PhD",
+        "Roman Hajek, MD PhD",
+        "Jesus F San-Miguel, MD PhD",
+        "Bruno Paiva, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Juan Jos\u00e9 Garc\u00e9s",
+            "author_affiliations": [
+                "Cl\u00ednica Universidad de Navarra, Pamplona, Spain "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michal \u0160im\u00ed\u010dek",
+            "author_affiliations": [
+                "Department of Haematooncology, University Hospital Ostrava, Ostrava, Czech Republic "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marco Vicari",
+            "author_affiliations": [
+                "Campus Bio-Medico University of Rome, Rome, Italy "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lucie Brozova, MSc",
+            "author_affiliations": [
+                "Institute of Biostatistics and Analyses, Faculty of Medicine, Masaryk University, Brno, Czech Republic "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Leire Burgos",
+            "author_affiliations": [
+                "Clinica Universidad de Navarra, Pamplona, Spain "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Renata Bezd\u011bkov\u00e1, MSc.",
+            "author_affiliations": [
+                "Department of Clinical Hematology, University Hospital Brno, Brno, Czech Republic "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Diego Alignani, PhD",
+            "author_affiliations": [
+                "Centro de Investigaci\u00f3n M\u00e9dica Aplicada, University of Navarra, Clinica Universidad de Navarra, Pamplona, Spain "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maria Jose Calasanz, BSc, PhD",
+            "author_affiliations": [
+                "Centro de Investigaci\u00f3n M\u00e9dica Aplicada (CIMA), IDISNA, CIBERONC, Cl\u00ednica Universidad de Navarra, Pamplona, Spain "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Katerina Growkova",
+            "author_affiliations": [
+                "Department of Haematooncology, University Hospital Ostrava, Ostrava, Czech Republic "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ludek Pour, MD",
+            "author_affiliations": [
+                "Department of Internal Medicine, Hematology and Oncology, University Hospital Brno, Brno, Czech Republic "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rafael Rios, MD PhD",
+            "author_affiliations": [
+                "Hospital Universitario Virgen de las Nieves de Granada, Granada, Spain "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joaquin Martinez-Lopez, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology, Hospital Universitario 12 de Octubre, Madrid, Spain "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pamela Millacoy",
+            "author_affiliations": [
+                "Complejo Hospitalario de Navarra, Pamplona, Spain "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Luis Palomera, MD PhD",
+            "author_affiliations": [
+                "Hospital Cl\u00ednico Universitario Lozano Blesa, Zaragoza, Spain "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rafael Del Orbe",
+            "author_affiliations": [
+                "Medikosta - An\u00e1lisis Cl\u00ednicos, Bilbao, Spain "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sonia Garate",
+            "author_affiliations": [
+                "Centro de Investigaci\u00f3n M\u00e9dica Aplicada, University of Navarra, Clinica Universidad de Navarra, Pamplona, Spain "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laura Blanco",
+            "author_affiliations": [
+                "Cl\u00ednica Universidad de Navarra, Pamplona, Spain "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Patricia Maiso, PhD",
+            "author_affiliations": [
+                "Centro de Investigaci\u00f3n M\u00e9dica Aplicada, University of Navarra, Clinica Universidad de Navarra, Pamplona, Spain "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Zuzana Chyra",
+            "author_affiliations": [
+                "University Hospital Ostrava, Ostrava, Czech Republic "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexander Vdovin",
+            "author_affiliations": [
+                "University Hospital Ostrava, Ostrava, Czech Republic "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tomas Jelinek",
+            "author_affiliations": [
+                "Department of Hemato-Oncology, University Hospital Ostrava, Faculty of Medicine, University of Ostrava, Ostrava, Czech Republic "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cirino Botta, MD",
+            "author_affiliations": [
+                "Magna Graecia University, Catanzaro, Italy "
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Halima El Omri",
+            "author_affiliations": [
+                "National Center for Cancer Care and Research, Hamad Medical Corporation, Doha, Qatar "
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xabier Agirre, PhD",
+            "author_affiliations": [
+                "Oncohematology Area, Centro de Investigaci\u00f3n M\u00e9dica Aplicada (CIMA), Pamplona, Spain "
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Felipe Prosper, MD PhD",
+            "author_affiliations": [
+                "Centro de Investigaci\u00f3n M\u00e9dica Aplicada, University of Navarra, Clinica Universidad de Navarra, Pamplona, Spain "
+            ],
+            "author_rank": 25,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Roman Hajek, MD PhD",
+            "author_affiliations": [
+                "Department of Hemato-oncology, University Hospital Ostrava, Ostrava, Czech Republic "
+            ],
+            "author_rank": 26,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jesus F San-Miguel, MD PhD",
+            "author_affiliations": [
+                "Clinica Universidad de Navarra, Pamplona, Spain "
+            ],
+            "author_rank": 27,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bruno Paiva, MD PhD",
+            "author_affiliations": [
+                "Applied Medical Research Center (CIMA), Clinica Universidad De Navarra, Pamplona, Spain"
+            ],
+            "author_rank": 28,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-13T04:06:27",
+    "is_scraped": "1"
 }
