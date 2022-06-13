@@ -1,8 +1,163 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3958",
-    "start_url_page_num": "3958",
     "doi": "https://doi.org/10.1182/blood-2018-99-114918",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/3093/263881/DNA-Methylation-Subgroups-in-Juvenile?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T03:30:19",
-    "is_scraped": "0"
+    "article_title": "DNA Methylation Subgroups in Juvenile Myelomonocytic Leukemia: An International Collaborative Analysis and Development of a Common Diagnostic Platform ",
+    "article_date": "November 29, 2018",
+    "session_type": "637. Myelodysplastic Syndromes\u2014Clinical Studies: Poster II",
+    "abstract_text": "Juvenile myelomonocytic leukemia (JMML) is a rare myeloproliferative neoplasm of early childhood characterized by Ras pathway mutations and aberrant DNA methylation. Despite allogeneic hematopoietic stem cell transplantation (HSCT) approx. 30% of patients (pts) succumb to resistant leukemia. Slowly regressing disease in the absence of HSCT is, however, noted in some pts. Mutational patterns and known clinical risk factors are insufficient to fully explain this heterogeneity. Three independent recent studies demonstrated the potential of DNA methylation profiling to identify clinically meaningful risk groups (Lipka et al., Nat Commun 2017; Stieglitz et al., Nat Commun 2017; Murakami et al., Blood 2018). The aim of this work was to establish an international consensus for the classification of JMML based on DNA methylation, to systematically describe the biological and clinical features of the subgroups identified and to develop a molecular classifier that enables the prospective assignment of DNA methylation categories. In a collaborative effort, we re-analyzed three well-annotated Illumina 450k methylation array data sets. In total, data from 292 pts with JMML or Noonan syndrome-associated myeloproliferative disorder (NS/MPD; EWOG-MDS, Europe: 147 pts, Nagoya, Japan: 106 pts, UCSF, USA: 39 pts) were available. Methylation data from 285 pts passed our quality control and were included in the present analysis. Of these, 256 (89.8%) pts had been diagnosed with JMML and 29 (10.2%) with NS/MPD. Mean age at diagnosis was 1.9 yrs. Levels of fetal hemoglobin (HbF) were available in 228/285 pts and elevated for age in 61%. Driver mutations affecting the Ras pathway were identified in 92% of JMML pts (PTPN11: 36%, NF1: 11%, NRAS: 15%, KRAS: 15%, CBL: 14%), and monosomy 7 in 14%. Initial exploratory analysis revealed batch effects that could, at least in part, be explained by the different ethnical backgrounds of the pts but also included a technical component. Therefore, we stringently filtered probes containing SNPs and performed batch correction using an empirical Bayes framework (Combat). CpG dinucleotides (CpGs) showing variable methylation across normal hematopoietic cell types were excluded from the analysis to avoid confounding with differential cell type composition between the samples. Unsupervised consensus clustering using the 5000 most variable CpGs identified three stable methylation clusters in this inter-group patient cohort. According to their DNA methylation levels, the clusters were designated \"high methylation\" (HM), \"intermediate methylation\" (IM) and \"low methylation\" (LM). Overall, 29.5%, 23.5%, and 47.0% of the cohort of JMML and NS/MPD pts were assigned to the HM, IM, and LM clusters, respectively. The methylation clusters showed a highly significant association with specific Ras-pathway mutations and with known clinical risk factors. All NS/MPD pts clustered with the LM subgroup and showed the lowest methylation levels. The HM cluster was enriched for somatic PTPN11 mutations, elevated HbF and older age, while the LM cluster was enriched for NRAS and CBL mutations, normal HbF and age <2yrs. KRAS mutations as well as monosomy 7 were significantly enriched in the IM cluster. Comparison of cluster assignments made in the present study to those from the original publications found only 3.9% (11/285) discordant cases. This encouraged us to establish a low-dimensional DNA methylation classifier for JMML that could be applied in a prospective setting. Therefore, we split the intergroup cohort randomly into a training (N=202) and a validation cohort (N=83) and trained an extreme gradient boosting machine (xgboost). When using as few as 10 CpGs, the resulting model predicted methylation clusters with 94% accuracy in the validation cohort. This inter-group meta-analysis is the single largest dataset of JMML patients to date and demonstrates the robustness of the JMML methylation signature across continents of origin and its power to identify biologically and clinically distinct JMML subgroups. Our ongoing efforts include developing a sequencing-based assay to predict DNA methylation clusters and to validate this assay using an independent cohort of 60 pts from the three participating research groups. This assay would allow for inclusion of DNA methylation as a biomarker into prospective clinical trials to assist in molecularly driven risk-stratification of JMML. Disclosures Niemeyer: Celgene: Consultancy, Membership on an entity's Board of Directors or advisory committees.",
+    "topics": [
+        "dna methylation",
+        "juvenile myelomonocytic leukemia",
+        "brachial plexus neuritis",
+        "fetal hemoglobin",
+        "hematopoietic stem cell transplantation",
+        "myeloproliferative disease",
+        "protein tyrosine phosphatase, non-receptor type 11",
+        "allogeneic hematopoietic stem cell transplant",
+        "biological markers",
+        "leukemia"
+    ],
+    "author_names": [
+        "Maximilian Schoenung",
+        "Elliot Stieglitz",
+        "Hideki Muramatsu, MD PhD",
+        "Norihiro Murakami, MD",
+        "Mark Hartmann",
+        "Manuel Wiesenfarth",
+        "Yusuke Okuno, MD PhD",
+        "Adam B. Olshen, PhD",
+        "Christoph Plass",
+        "Mignon L. Loh, MD",
+        "Charlotte Niemeyer, MD",
+        "Christian Flotho",
+        "Daniel B. Lipka"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Maximilian Schoenung",
+            "author_affiliations": [
+                "Regulation of Cellular Differentiation Group, Division of Epigenomics and Cancer Risk Factors, German Cancer Research Center (DKFZ), Heidelberg, Germany "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elliot Stieglitz",
+            "author_affiliations": [
+                "Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA ",
+                "Department of Pediatrics, Benioff Children's Hospital, University of California, San Francisco, San Francisco, CA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hideki Muramatsu, MD PhD",
+            "author_affiliations": [
+                "Department of Pediatrics, Nagoya University Graduate School of Medicine, Nagoya, Japan "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Norihiro Murakami, MD",
+            "author_affiliations": [
+                "Department of Pediatrics, Nagoya University Graduate School of Medicine, Nagoya, Japan "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mark Hartmann",
+            "author_affiliations": [
+                "Regulation of Cellular Differentiation Group, Division of Epigenomics and Cancer Risk Factors, German Cancer Research Center (DKFZ), Heidelberg, Germany "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manuel Wiesenfarth",
+            "author_affiliations": [
+                "Division of Biostatistics, German Cancer Research Center (DKFZ), Heidelberg, Germany "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yusuke Okuno, MD PhD",
+            "author_affiliations": [
+                "Center for Advanced Medicine and Clinical Research, Nagoya University Hospital, Nagoya, Japan "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Adam B. Olshen, PhD",
+            "author_affiliations": [
+                "Department of Neurological Surgery, University of California, San Francisco, San Francisco, CA ",
+                "Department of Epidemiology and Biostatistics, University of California, San Francisco, San Francisco, CA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christoph Plass",
+            "author_affiliations": [
+                "German Cancer Consortium (DKTK), Heidelberg, Germany ",
+                "Division of Epigenomics and Cancer Risk Factors, German Cancer Research Center (DKFZ), Heidelberg, Germany "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mignon L. Loh, MD",
+            "author_affiliations": [
+                "Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA ",
+                "Department of Pediatrics, Benioff Children's Hospital, University of California, San Francisco, San Francisco, CA "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Charlotte Niemeyer, MD",
+            "author_affiliations": [
+                "German Cancer Consortium (DKTK), Heidelberg, Germany ",
+                "Division of Pediatric Hematology and Oncology, University of Freiburg, Freiburg, Germany "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christian Flotho",
+            "author_affiliations": [
+                "German Cancer Consortium (DKTK), Heidelberg, Germany ",
+                "Division of Pediatric Hematology and Oncology, Department of Pediatrics and Adolescent Medicine, Medical Center, Faculty of Medicine, University of Freiburg, Freiburg, Germany "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel B. Lipka",
+            "author_affiliations": [
+                "Regulation of Cellular Differentiation Group, Division of Epigenomics and Cancer Risk Factors, German Cancer Research Center (DKFZ), Heidelberg, Germany ",
+                "Department of Hematology and Oncology, Medical Center, Otto-von-Guericke-University Magdeburg, Magdeburg, Germany ",
+                "Health Campus Immunology, Infectiology and Inflammation, Otto-von-Guericke-University Magdeburg, Magdeburg, Germany"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-13T21:28:21",
+    "is_scraped": "1"
 }
