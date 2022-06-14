@@ -1,8 +1,319 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4151",
-    "start_url_page_num": "4151",
     "doi": "https://doi.org/10.1182/blood-2018-99-111838",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/4357/275410/MDS-Diagnosis-Many-Patients-May-Not-Require-Bone?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T11:40:17",
-    "is_scraped": "0"
+    "article_title": "MDS Diagnosis: Many Patients May Not Require Bone Marrow Examination ",
+    "article_date": "November 29, 2018",
+    "session_type": "637. Myelodysplastic Syndromes\u2014Clinical Studies: Poster III",
+    "abstract_text": "Background : Myelodysplastic syndromes (MDS) are diagnosed with a bone marrow examination (BME), an invasive procedure that patients (pts) would rather avoid. Earlier (Oster et al, Leuk Lymph 2018) we developed a logistic regression (LoR) model to diagnose MDS by incorporating 6 variables (age, gender, Hb, WBC, PLT, MCV) into a formula (Figure 1A). We improved the model using data from 178 MDS pts (47 from Tel Aviv, 131 from the EUMDS registry), and 178 controls (ASH 2017). Here we significantly improve the model using a much larger dataset (501 pts; 501 controls) and additional variables. Methods : The EUMDS registry contains data on 2600 BME-proven MDS pts. A random sample of 501 MDS pts from the registry was combined with 501 controls with no MDS (ruled out with BME). Gradient-boosted models (GBM) were used to predict having or not having MDS, using the variables age, gender, Hb, WBC, PLT, MCV, neutrophils, monocytes, glucose, and creatinine (Figure 1B). Area under the ROC curve (AUC), sensitivity and specificity were used to evaluate the models, and model performance was validated by using 100 times 5-fold cross-validation. Model stability was also assessed by repeating the fit of the models using different randomly chosen groups of 501 EUMDS pts as cases. Results : The AUC was 0.97 (95% CI 0.96-0.98, Figure 2), compared with an AUC of 0.87 (0.84-0.91) achieved previously. Under cross-validation, AUC was 89%. Maximizing the sum of sensitivity and specificity led to sensitivity of 88% and specificity of 95%. This means we can calculate a threshold \"GBM score,\" assigning a subject to \"MDS\" or \"no MDS\" status with a specificity of 95% and a sensitivity of 88%. Alternatively, we can set two GBM score thresholds G1 & G2, where a GBM score > G2 provides 95% specificity and a score < G1 provides 95% sensitivity. A score between these two cutoffs gives an indeterminate probability of disease. Only 24% of our MDS patients and 15% of our control patients fall into this indeterminate region, compared with about 50% in our earlier model. The most influential variables were MCV, creatinine and neutrophils. Repeated random choice of cases from the EUMDS registry led to stable results. Conclusions : Using easily accessible parameters, MDS can be diagnosed or excluded non-invasively with high accuracy in a substantially large portion of patients. While the Logistic Regression model (Figure 1A) can be used with a relatively simple formula, the Gradient Boosted Model (Figure 1B) is more complex. The GBM combines the variables and the interactions among them, achieving an AUC that represents an excellent predictive ability and a considerable improvement over the previous model. Adding peripheral blood cytogenetic/genetic information could further improve non-invasive MDS diagnosis, and obviate the need for bone marrow examination in many patients. We continue to improve and validate the model. An on-line calculator/app for use in a clinical setting is being developed and will be presented. View large Download slide View large Download slide  Close modal Disclosures Smith: Jazz Pharmaceuticals: Research Funding; Johnson & Johnson: Research Funding; Novartis: Research Funding; Gilead Sciences: Consultancy. Fenaux: Celgene: Honoraria, Research Funding; Otsuka: Honoraria, Research Funding; Jazz: Honoraria, Research Funding; Janssen: Honoraria, Research Funding. Stauder: Novartis: Honoraria, Membership on an entity's Board of Directors or advisory committees; Teva: Research Funding; Celgene: Honoraria, Membership on an entity's Board of Directors or advisory committees. Germing: Novartis: Honoraria, Research Funding; Celgene: Honoraria, Research Funding; Janssen: Honoraria.",
+    "topics": [
+        "bone marrow examination",
+        "brachial plexus neuritis",
+        "cisplatin/methotrexate/vinblastine protocol",
+        "mean corpuscular volume analyses",
+        "creatinine",
+        "glucose",
+        "myelodysplastic syndrome",
+        "logistic regression",
+        "area under the roc curve",
+        "merkel cell polyomavirus"
+    ],
+    "author_names": [
+        "Howard S. Oster, MD PhD",
+        "Simon Crouch, MSc, PhD",
+        "Alexandra Smith, PhD",
+        "Ge Yu, MSc",
+        "Bander Abu Shrkihe, MD",
+        "Shoham Baruch",
+        "Albert Kolomansky, MD",
+        "Jonathan Ben-Ezra, MD",
+        "Shachar Naor, MD",
+        "Pierre Fenaux, MD PhD",
+        "Argiris Symeonidis, MD PhD",
+        "Reinhard Stauder, MD MSc",
+        "Jaroslav Cermak, MD PhD",
+        "Guillermo Sanz",
+        "Eva Hellstr\u00f6m-Lindberg, MD PhD",
+        "Luca Malcovati, MD",
+        "Saskia Langemeijer, MD PhD",
+        "Ulrich Germing, MD",
+        "Mette Skov Holm, MD PhD",
+        "Krzysztof Madry",
+        "Agnes Guerci-Bresler, MD",
+        "Dominic Culligan, MD",
+        "Laurence Sanhes, MD",
+        "Juliet Mills, MD",
+        "Ioannis Kotsianidis, PhD",
+        "Corine van Marrewijk, PhD",
+        "David Bowen, MD PhD",
+        "Theo de Witte, MD PhD",
+        "Moshe Mittelman, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Howard S. Oster, MD PhD",
+            "author_affiliations": [
+                "Department of Internal Medicine, Tel Aviv Sourasky Medical Center/Sackler Faculty of Medicine, Tel Aviv, Israel ",
+                "Sackler Faculty of Medicine, Tel Aviv University, Tel Aviv, Israel "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Simon Crouch, MSc, PhD",
+            "author_affiliations": [
+                "Epidemiology and Cancer Statistics Group, Department of Heath Sciences, University of York, York, United Kingdom "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexandra Smith, PhD",
+            "author_affiliations": [
+                "Epidemiology and Cancer Statistics Group, Department of Heath Sciences, University of York, York, United Kingdom "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ge Yu, MSc",
+            "author_affiliations": [
+                "Epidemiology and Cancer Statistics Group, Department of Heath Sciences, University of York, York, United Kingdom "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bander Abu Shrkihe, MD",
+            "author_affiliations": [
+                "Department of Internal Medicine, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shoham Baruch",
+            "author_affiliations": [
+                "Department of Internal Medicine, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Albert Kolomansky, MD",
+            "author_affiliations": [
+                "Department of Internal Medicine, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel ",
+                "Department of Cell and Developmental Biology, Sackler Faculty of Medicine, Tel Aviv University, Tel Aviv, Israel "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan Ben-Ezra, MD",
+            "author_affiliations": [
+                "Sackler Faculty of Medicine, Tel Aviv University, Tel Aviv, Israel ",
+                "Department of Pathology, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shachar Naor, MD",
+            "author_affiliations": [
+                "Department of Pathology, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pierre Fenaux, MD PhD",
+            "author_affiliations": [
+                "Service d'H\u00e9matologie S\u00e9niors, H\u00f4pital Saint-Louis, Universit\u00e9 Paris 7, Paris, France "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Argiris Symeonidis, MD PhD",
+            "author_affiliations": [
+                "Department of Internal Medicine, Div. Hematology, University of Patras, Medical School, Patras, Greece "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Reinhard Stauder, MD MSc",
+            "author_affiliations": [
+                "Department of Internal Medicine V (Hematology and Oncology), Innsbruck Medical University, Innsbruck, Austria "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jaroslav Cermak, MD PhD",
+            "author_affiliations": [
+                "Institute of Hematology and Blood Transfusion, Prague, Czech Republic "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Guillermo Sanz",
+            "author_affiliations": [
+                "Hematology Department, Hospital Universitario y Polit\u00e9cnico La Fe, Valencia, Spain "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eva Hellstr\u00f6m-Lindberg, MD PhD",
+            "author_affiliations": [
+                "Department of Medicine, Division of Hematology, Karolinska Institutet, Stockholm, Sweden "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Luca Malcovati, MD",
+            "author_affiliations": [
+                "Department of Molecular Medicine & Hematology Oncology, Piazzale Golgi 2, Italy "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Saskia Langemeijer, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology, Radboud University Medical Center, Nijmegen, Netherlands "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ulrich Germing, MD",
+            "author_affiliations": [
+                "Department of Hematology, Oncology and Clinical Immunology, Heinrich-Heine-University, D\u00fcsseldorf, Germany "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mette Skov Holm, MD PhD",
+            "author_affiliations": [
+                "Dep of Hematology, Aarhus University Hospital, Aarhus, DNK "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Krzysztof Madry",
+            "author_affiliations": [
+                "Medical University of Warsaw, Warszawa, POL "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Agnes Guerci-Bresler, MD",
+            "author_affiliations": [
+                "Hematology department, CHU Brabois, Nancy, France "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dominic Culligan, MD",
+            "author_affiliations": [
+                "Dep. of Haematology, Aberdeen Royal Infirmary, Aberdeen, United Kingdom "
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laurence Sanhes, MD",
+            "author_affiliations": [
+                "Service d'H\u00e9matologie, Centre Hospitalier de Perpignan, Perpignan, FRA "
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Juliet Mills, MD",
+            "author_affiliations": [
+                "Dep. of Haematology, Worcestershire Acute Hospitals NHS Trust and University of Birmingham, Birmingham, United Kingdom "
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ioannis Kotsianidis, PhD",
+            "author_affiliations": [
+                "Department of Hematology, Democritus University of Thrace, Alexandroupolis, Alexandroupolis, Greece "
+            ],
+            "author_rank": 25,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Corine van Marrewijk, PhD",
+            "author_affiliations": [
+                "Department of Hematology, Radboud University Medical Center, Nijmegen, Netherlands "
+            ],
+            "author_rank": 26,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David Bowen, MD PhD",
+            "author_affiliations": [
+                "Department of Haematology, The Leeds Teaching Hospitals NHS Trust, Leeds, United Kingdom "
+            ],
+            "author_rank": 27,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Theo de Witte, MD PhD",
+            "author_affiliations": [
+                "Department of Tumor Immunology - Nijmegen Center for Molecular Life Sciences, Radboud university medical center, Nijmegen, Netherlands"
+            ],
+            "author_rank": 28,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Moshe Mittelman, MD",
+            "author_affiliations": [
+                "Sackler Faculty of Medicine, Tel Aviv University, Tel Aviv, Israel ",
+                "Department of Internal Medicine, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel "
+            ],
+            "author_rank": 29,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-14T06:44:24",
+    "is_scraped": "1"
 }

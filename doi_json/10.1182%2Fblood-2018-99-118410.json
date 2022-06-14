@@ -1,8 +1,155 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3993",
-    "start_url_page_num": "3993",
     "doi": "https://doi.org/10.1182/blood-2018-99-118410",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/5087/265583/Single-Cell-Transcriptome-Analysis-of-GATA2?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T04:59:02",
-    "is_scraped": "0"
+    "article_title": "Single Cell Transcriptome Analysis of GATA2 Deficiency in Hematopoiesis Modeled with Induced Pluripotent Stem Cells ",
+    "article_date": "November 29, 2018",
+    "session_type": "502. Hematopoiesis: Regulation of Gene Transcription, Apoptosis, and Cell Cycle Regulation",
+    "abstract_text": "GATA2 deficiency is a rare, inherited or sporadic genetic disorder characterized by variable onset of a pleomorphic constellation of immune, hematologic and lymphatic abnormalities linked to heterozygous mutations in the Gata2 gene. Patients develop monocyte, B cell, NK cell and dendritic cell deficiencies resulting in vulnerabilities to unusual infections. Patients with GATA2 deficiency also frequently progress to bone marrow failure, myelodysplastic syndrome and/or acute myelogenous leukemia. GATA proteins are transcription factors with central roles in early embryonic development and lineage specification. GATA2 is a master regulator of hematopoiesis, implicated in the initial generation and maintenance of hematopoietic stem cells (HSC). Murine models recapitulate the human phenotype incompletely: GATA2 heterozygous knockout mice do not manifest loss of monocyte, B cells or NK cells; however, serial repopulation assays show decreased engraftment potential. Direct studies of primary HSC from patients with GATA2 deficiency are challenging due to the generally hypocellular marrow. We hypothesized that human pluripotent stem cells, particularly patient-specific iPSC, could be used to study potential developmental defects in GATA2 deficiency, overcoming a lack of primary HSC. In order to gain insights into the impact of human GATA2 deficiency on hematopoietic differentiation, we compared the single cell transcriptomes of HSPC differentiated from (i) iPSCs from a patient with GATA2 deficiency due to a mutation p.R337X (c.1009C>T) (ii) isogenic iPSCs created via homology-directed repair of Gata2 p.R337X, (iii) iPSCs from a healthy control and (iv) isogenic Gata2 heterozygous mutant iPSCs with monoallelic frameshift mutations in the second zinc finger domain. Mesodermal and hematopoietic differentiation was performed under feeder-free, defined media conditions. At day 0, iPSCs were plated in mesodermal induction media containing VEGF, SCF, Activin A and Y27632 in STEMdiff APEL media. Mesodermal induction was continued until day 4, when embryoid bodies were cultured in hematopoietic specification media with SCF, FLT3L, IL3, IL6, G-CSF and BMP4 until day 16, when CD34 + CD45 + iPSC-derived hematopoietic stem and progenitor cells (iHSC) were enumerated and sorted by fluorescence-activated cell sorting. Single cell RNA-seq was performed using the 10XGenomics Chromium platform and primary analysis via CellRanger. Scater was used to filter outlier cells. Seurat as used to compute multiple manifold alignment and differential gene expression. Cell classification, pseudotemporal ordering and branch point analysis were performed with monocle. URD was used to calculate confirmatory diffusion maps and pseudotemporal ordering. We analyzed 7,855 iHSPC (2952 from GATA2-deficient patient, 241 isogenic iHSPCs after repair of Gata2 mutation, 2,605 from a healthy volunteer and 2,057 from isogenic heterozygous Gata2 knockout iHSPCs) after filtering of outliers. We computed multiple manifold alignment to mitigate batch effects. Differential gene expression across Gata2 mutation status found that 42 out of 102 (42%) target genes of GATA2 (c.f. TRANSFAC database of curated transcription factor targets) were differentially expressed with adjusted p-values less than 0.05. Semi-supervised classification of cell-types and pseudotemporal ordering via monocle revealed two branch points, consistent with developmental branchings at the level of CLP and CMP multipotent progenitors. The numbers of cells along each branch was found to be statistically different (\u03c7 2 =30.07, p-value = 3e-7) with the biggest differences noted in the lymphoid branch (state 4). Differential gene expression in this branch revealed a differential up-regulation of Notch1 , CD69 and FKBP s and differential down-regulation of CD14 . In conclusion, iPSC/iHSPC differentiation models combined with single cell transcriptome analysis may be a valuable tool to identify pathways responsible for impaired hematopoietic/lymphatic development in GATA2 deficiency. Figure. View large Download slide Figure. View large Download slide  Close modal Disclosures Dunbar: National Institute of Health: Research Funding. Winkler: National Institute of Health: Research Funding.",
+    "topics": [
+        "gata2 deficiency",
+        "gene expression profiling",
+        "hematopoiesis",
+        "stem cells, pluripotent",
+        "transcription factor",
+        "activins",
+        "bone marrow, hypocellular",
+        "cd14 antigen",
+        "cd34 antigens",
+        "cd45 antigens"
+    ],
+    "author_names": [
+        "Francis Guitart, BA",
+        "Moonjung Jung, MD",
+        "Stefan Cordes, MD PhD",
+        "Shiqin Yu",
+        "Jizhong Zou",
+        "So Gun Hong, PhD",
+        "Vinh Dang",
+        "Diego A Espinoza, BA",
+        "Amy Hsu",
+        "Steven M. Holland, MD",
+        "Danielle M. Townsley, MD MSc",
+        "Cynthia E. Dunbar, MD",
+        "Thomas Winkler, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Francis Guitart, BA",
+            "author_affiliations": [
+                "Hematology Branch, National Heart, Lung and Blood Institute, Bethesda, MD "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Moonjung Jung, MD",
+            "author_affiliations": [
+                "Laboratory of Genome Maintenance, The Rockefeller University, New York, NY "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stefan Cordes, MD PhD",
+            "author_affiliations": [
+                "Hematology Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shiqin Yu",
+            "author_affiliations": [
+                "Hematology Branch, National Heart, Lung and Blood Institute, Bethesda, MD "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jizhong Zou",
+            "author_affiliations": [
+                "iPSC Core, National Heart, Lung and Blood Institute, Bethesda, MD "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "So Gun Hong, PhD",
+            "author_affiliations": [
+                "National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vinh Dang",
+            "author_affiliations": [
+                "Hematology Branch, National Heart, Lung and Blood Institute, Bethesda, MD "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Diego A Espinoza, BA",
+            "author_affiliations": [
+                "Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amy Hsu",
+            "author_affiliations": [
+                "Laboratory for Clinical Infectious Diseases, National Institutes of Allergy and Infectious Diseases, Bethesda, MD "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Steven M. Holland, MD",
+            "author_affiliations": [
+                "NIAID National Institutes of Health, Bethesda, MD "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Danielle M. Townsley, MD MSc",
+            "author_affiliations": [
+                "NIH/NHLBI, Potomac, MD "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cynthia E. Dunbar, MD",
+            "author_affiliations": [
+                "Hematology Branch, National Heart, Lung, and Blood Institute, National Institute of Health, Bethesda, MD"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Thomas Winkler, MD",
+            "author_affiliations": [
+                "Hematology Branch, National Heart, Lung, and Blood Institute, National Institute of Health, Bethesda, MD"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-14T06:45:47",
+    "is_scraped": "1"
 }

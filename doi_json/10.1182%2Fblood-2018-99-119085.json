@@ -1,8 +1,55 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4018",
-    "start_url_page_num": "4018",
     "doi": "https://doi.org/10.1182/blood-2018-99-119085",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/5256/265492/Immunophenotyping-Using-Targeted-RNA-NGS?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T06:26:24",
-    "is_scraped": "0"
+    "article_title": "Immunophenotyping Using Targeted RNA NGS Recapitulates Traditional AML and CLL FLOW Fingerprints ",
+    "article_date": "November 29, 2018",
+    "session_type": "617. Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
+    "abstract_text": "Introduction Flow cytometry is the gold standard for diagnosing hematologic cancers based on morphologic detection and analysis of a few expensive and delicate immunological markers. On the other hand, targeted RNA sequencing panels are not sample or marker limited; in fact, 50ng of RNA stored for up to 6 months could yield results for thousands of markers. We hypothesized that an RNA-Seq-based targeted immuno-oncology gene expression panel could recapitulate the FLOW diagnostic patterns of AML and CLL routinely used in a clinical laboratory. Methods A custom panel of 2207 genes was constructed including 58 typical FLOW markers and well-referenced immune and oncology markers. Housekeeping genes were added to normalize between batches. A total of 52 CLL, 15 AML, and 20 normal clinical samples were tested in parallel with a clinically validated leukemia/lymphoma flow cytometry panel and targeted RNA-Seq. Paired-end 76 x 76 cycles sequencing was performed using Illumina NextSeq. Bowtie analysis suite was performed to determine gene expression. Unsupervised analysis was first performed to identify patterns associated with clinical diagnosis or sequencing artifacts. Two-way hierarchical clustering of genes having a median expression of >1 fpkm and at least 2 fold differential expression than the median in 10% of the samples revealed a strong CLL profile and a less pervasive AML profile without any supervised analysis. To determine which genes in the profiles were significantly associated with AML or CLL, genes with >5 fold differential expression were assessed after Benjamini-Hochberg correction with single tailed T-tests. Further, each FLOW marker was individually tested using a 1-way ANOVA. Pathway analysis was performed on GO terms using the Fischer exact test. All corrected p-values <0.05 were considered significant. Results In general, the FLOW marker gene expression data highly correlated with protein marker expression and was adequate for rendering proper diagnosis. Overall, CLL had a strong immune-oncology pattern with 10+ flow markers including CD19, CD5, CD2, CD200, CD22, CD79, FCER2, IL3RA, IL2RA, PDCD1, and MS4A1 significantly associated with CLL. In addition, 295 other genes including immune targets like CD74, CD33, CD34, CD48, CD40, and gene targets like PAX5, BCL2, PARP3 further help classify CLL. Forty-three of these genes are involved in immune response pathway (p<1.9x10 -17 ). In contrast, two markers used for FLOW (CD34 and CD52) could classify AML with RNA, and 218 other genes including immune (CD3E/G, CD23, CD48, CD6, CD33) and molecular markers (HOXA10, HOXA9, and TGFBR2) could be used to further classify AML. Interestingly, these genes were significantly enriched for T cell co-stimulation (p<2.0x10 -18 ) and other T cell receptor signaling pathways. To determine whether other immune genes may be used to differentiate CLL or AML, hierarchical clustering of the top 200 genes significantly expressed in either CLL or AML was performed. We could clearly identify two clusters of genes which characterize CLL from other disease types: 1) 110 genes which were highly expressed in CLL, but expressed at low levels in both normal and AML samples, 2) 28 genes with low expression in CLL, but highly expressed in both normal and AML samples. Conversely, few genes were able to characterize AML from normal or CLL samples, including BMP1, NPM2, and FLT3, which were highly expressed in AML samples, but were expressed at low levels in both normal and CLL samples. Conclusion Based on our preliminary study, we have shown that protein marker expression determined by flow are reproduced by our RNA expression panel. Importantly, we are able to classify and diagnose CLL and AML samples based on their RNA expression profiles. Disclosures Wong: NeoGenomics: Employment. Funari: NeoGenomics: Employment.",
+    "topics": [
+        "fingerprints",
+        "immunophenotyping",
+        "massively-parallel genome sequencing",
+        "rna",
+        "cd33 antigen",
+        "cd34 antigens",
+        "cd48 antigen",
+        "flow cytometry",
+        "alemtuzumab",
+        "antigens, cd25"
+    ],
+    "author_names": [
+        "Cynthie Wong, PhD",
+        "Vincent Funari, PhD",
+        "Maher Albitar, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Cynthie Wong, PhD",
+            "author_affiliations": [
+                "NeoGenomics, Inc., Aliso Viejo, CA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vincent Funari, PhD",
+            "author_affiliations": [
+                "NeoGenomics, Inc., Aliso Viejo, CA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maher Albitar, MD",
+            "author_affiliations": [
+                "NeoGenomics, Valley Center, CA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-14T06:40:08",
+    "is_scraped": "1"
 }

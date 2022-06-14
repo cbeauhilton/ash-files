@@ -1,8 +1,75 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3987",
-    "start_url_page_num": "3987",
     "doi": "https://doi.org/10.1182/blood-2018-99-114469",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/4133/265458/Mechanism-of-Synergistic-Effects-on-T-Cell?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T04:58:42",
-    "is_scraped": "0"
+    "article_title": "Mechanism of Synergistic Effects on T Cell Activation By Avadomide (CC-122) and Nivolumab ",
+    "article_date": "November 29, 2018",
+    "session_type": "622. Lymphoma Biology-Non-Genetic Studies: Poster III",
+    "abstract_text": "Background: Avadomide (CC-122) is a cereblon modulator that promotes ubiquitination and degradation of the hematopoietic transcription factors Ikaros and Aiolos, leading to immunomodulation, such as T cell activation and increased interleukin-2 (IL-2) production in primary peripheral blood mononuclear cells (PBMCs). The immune checkpoint inhibitor nivolumab (nivo), an anti-PD-1 antibody, induces immune activation and can enhance immune response against various solid tumors. Previously, we have shown that the combination of avadomide and nivo synergistically enhance IL-2 production, T cell proliferation, and immune-mediated cytotoxicity, relative to single agent activity. To understand molecular mechanisms underlying these synergistic effects, we compared the effects of avadomide, nivo, or the combination on gene expression in primary human T cells using whole transcriptome RNA sequencing and differential pathway analysis. Methods: PBMCs were isolated from healthy donors (N=6), treated with DMSO/IgG, avadomide 50 nM, nivo 10 \u00b5g/mL, or avadomide and nivo for 1 hour, then stimulated with 0.5 ng/mL staphylococcus enterotoxin B for 48 hours. Culture supernatants were collected for cytokine analysis; T cells were isolated by magnetic cell separation for RNA extraction. RNA was sequenced by Illumina HiSeq v4; data was filtered to transcripts \u226510 counts across all samples and processed by DESeq2. Significantly differentially expressed genes (FDR-adj. P values <0.05) were computed for each treatment group relative to DMSO/IgG controls. Pathway analysis was performed with the GSEA Molecular Signatures Database (MSigDB) using the Hallmark and C2 curated gene sets, which comprise a diverse set of biological pathways, including KEGG and Reactome, to provide unbiased enrichment analysis. T cell-related pathways from the MSigDB C5 (Gene Ontology) collection were used to investigate specific effects on immune function. Synergy was defined by the fractional product method. Results: Avadomide, nivo, and the combination enhanced IL-2 production in SEB-stimulated PBMCs by 282%, 47%, and 586% respectively, compared with DMSO/IgG controls, confirming the synergistic effects on cytokine production. The top pathways upregulated in each treatment group included the following T cell related pathways: for avadomide - T cell receptor (TCR) signaling, JAK/STAT, cytokine/receptor interaction; for nivo - CD8 TCR pathway and HIF1A targets; and for the combination - TCR signaling, JAK/STAT, and HDAC3 targets which are required for T cell maturation and cytokine production. Combination treatment uniquely upregulated pathways including the Biocarta cytotoxic T cell pathway and calcium signaling in CD4 + T cells. Among the 7732 genes modified by any treatment, 1949 were uniquely differentially expressed by the combination. A targeted enrichment analysis using only T cell-related pathways from the C5 collection revealed that these uniquely differentially expressed genes represent processes such as T cell differentiation, proliferation, and activation. Conclusions: At the gene expression level, many T cell-related pathways were upregulated by one or more single agent and/or the combination. However, the presence of uniquely differentially regulated genes suggests that combination treatment induced broader effects in pathways involved in T cell differentiation, proliferation, and activation than either avadomide or nivo alone. Interestingly, the cytotoxic T cell pathway was uniquely upregulated by the combination, consistent with our previous finding of a significant increase in cytotoxicity with avadomide/nivo in combination. Calcium signaling in CD4 + T cell genes were also uniquely upregulated, suggesting that avadomide/nivo combination effects may involve nuclear factor of activated T cells (NFAT)-dependent T cell immune regulation. These data provide molecular support for the in vitro phenotypic activity of avadomide and checkpoint blockade on enhancing T cell activity. Avadomide is now under investigation in combination with checkpoint blockade in solid tumors (NCT02859324) and with CAR T therapy in lymphoma (NCT03310619). Disclosures Nakayama: Celgene Corporation: Employment, Equity Ownership. Stokes: Celgene Corporation: Employment, Equity Ownership. Waldman: Celgene Corporation: Employment, Equity Ownership. Hagner: Celgene Corporation: Employment, Equity Ownership. Gandhi: Celgene Corporation: Employment, Equity Ownership.",
+    "topics": [
+        "chief complaint",
+        "nivolumab",
+        "t-cell activation",
+        "aldesleukin",
+        "cytokine",
+        "dimethyl sulfoxide",
+        "immunoglobulin g",
+        "cytotoxicity",
+        "rna",
+        "solid tumors"
+    ],
+    "author_names": [
+        "Yumi Nakayama, PhD",
+        "Matthew E. Stokes, PhD",
+        "Michelle Waldman, MS",
+        "Patrick R. Hagner, PhD",
+        "Anita K. Gandhi, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Yumi Nakayama, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matthew E. Stokes, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michelle Waldman, MS",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Patrick R. Hagner, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anita K. Gandhi, PhD",
+            "author_affiliations": [
+                "Celgene Corporation, Summit, NJ"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-14T06:38:03",
+    "is_scraped": "1"
 }
