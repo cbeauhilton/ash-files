@@ -1,8 +1,106 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4024",
-    "start_url_page_num": "4024",
     "doi": "https://doi.org/10.1182/blood-2018-99-115000",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/877/266099/A-Prognostic-Human-Splicing-Signature-That?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T06:26:44",
-    "is_scraped": "0"
+    "article_title": "A Prognostic Human Splicing Signature That Precurses Leukemia ",
+    "article_date": "November 29, 2018",
+    "session_type": "602. Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation: Altered Splicing and Transcriptional Regulation",
+    "abstract_text": "Alternative splicing is a primary mechanism used to achieve mRNA transcript and proteomic diversity in higher-order eukaryotes. While alternative splicing is a recognized oncogenic driver in a small percentage of adult acute myeloid leukemia (AML) cases (~10-15%), splicing factor mutations are rarely found in pediatric AML. To discover splicing heterogeneity within diverse cancers in the absence of known causal mutations we developed a new computational workflow called OncoSplice. This workflow incorporates unsupervised splicing pattern analysis to iteratively identify novel patient splicing-defined subtypes (splice-ICGS algorithm), in conjunction with new integrative methods for cis-regulatory motif, CLIP-Seq binding and splicing factor expression data analysis (Fig. 1a). Analysis of RNA-Seq data from over 800 AML diagnosis samples identified subtypes associated with nearly all known splicing factor mutations in addition to over a dozen novel splicing-defined subtypes. Novel splicing subtypes were confirmed in independent patient cohorts and were associated with the expression or mutation of oncogenes ( MYC, TP53, NPM1 ), oncofusions ( CBFB-MYH11, MLL, PML-RAR, RUNX1 ), or the regulation of diverse splicing factors (U2AF1, SRSF2, HNRNPK). Both adult and pediatric AML are most frequently characterized by a single predominant splicing signature which divides the majority of AML patients into subtypes with splicing events overlapping those found in patients with mutations in U2AF1 or SRSF2 (Figure 1b). These \" U2AF1 -covarying\" or \" SRSF2 -covarying\" (CV) occur independently of splicing-factor mutations and were principally linked to mis-splicing rather than differential gene expression. Unlike patients with U2AF1 -S3F mutations, U2AF1 -CV splicing events are associated with canonical rather than altered U2AF1 binding specificity (Fig. 1c). In both adult and pediatric AML, U2AF1 -CV splice events result in a shift towards longer protein isoforms associated with stem and progenitor programs, have significantly worse outcomes (poor survival and increased relapse) and are persistent during relapse in adults (Fig. 1d). Survival correlated U2AF1 -CV splicing events were statistically enriched in genes required for leukemic growth based on a published CRISPR dropout screen. U2AF1 -CV splicing was not associated with prior described epigenetic AML subtypes, but appears to be dependent on the expression of MYC and downstream splicing regulators (WDR77 and PRMT5). Surprisingly, RNA-Seq analysis of CD34+ bone marrow progenitors in healthy donors finds the same overall skewing in a subset of U2AF1 -CV or SRSF2 -CV splicing events as those found in AML. Distinct sorted progenitor populations (HSC, Multi-Lin, CMP, GMP, MEP) further show consistent U2AF1 -CV or SRSF2 -CV skewing within progenitors from the same donors, indicating that this is not a cell-type associated splicing difference. Hence, our data suggest that healthy bone marrow is skewed in the healthy population towards either U2AF1 or SRSF2 splicing pathways and that these splicing profiles impact future oncogenic transformation and patient survival in AML. These data further suggest a paradigm shifting model, in which widespread coordinated pathogenic splicing occurs across cancers, likely via imbalances in splicing factor expression, regulation or mutation. Figure 1. a) Steps implemented in the OncoSplice splicing subtype discovery workflow for splicing event quantification (MultiPath-PSI), iterative unsupervised splicing subtype discovery (splice-ICGS), supervised splicing subtype discovery (Bridger) and RNA-regulatory splicing subtype prediction (RBP-Finder). b) Comparison of splicing events enriched in adult AML with splicing factor mutations identifies their coincidence with U2AF1 -CV and SRSF2 -CV splicing events. c) Analysis of U2AF1 binding-site preferences at the e-3 splice-site position for cassette-exon splicing events ( U2AF1 -S34-specific but not U2AF1 -CV; occurring in U2AF1 -S34; occurring in U2AF1 -CV; U2AF1 -CV-specific but not U2AF1 -S34). d) Kaplan-Meier curves for overall survival in patients from TCGA (top) and TARGET (bottom) with associated coxph p-values (all splice-ICGS stringently classified U2AF1 -CV versus all other considered AMLs). Analysis of TCGA was restricted to cytogenetically normal AMLs with no splicing factor mutations and under 60 years of age. Figure 1. View large Download slide Figure 1. View large Download slide  Close modal Disclosures Myers: Bellicum Pharmaceuticals: Membership on an entity's Board of Directors or advisory committees; Novartis: Membership on an entity's Board of Directors or advisory committees.",
+    "topics": [
+        "cancer",
+        "cyclic gmp",
+        "leukemia",
+        "leukemia, myelocytic, acute",
+        "myeloblastic leukemia, pediatric acute",
+        "progressive multifocal leukoencephalopathy",
+        "protein isoforms",
+        "protein p53",
+        "rna",
+        "rna splicing"
+    ],
+    "author_names": [
+        "Meenakshi Venkatasubramanian, BS",
+        "Xiaoting Chen, PhD",
+        "Kashish Chetal, MS",
+        "Aishwarya Kulkarni, MS",
+        "Kasiani C. Myers, MD",
+        "Matthew T. Weirauch, PhD",
+        "H. Leighton Grimes, PhD",
+        "Nathan Salomonis, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Meenakshi Venkatasubramanian, BS",
+            "author_affiliations": [
+                "Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xiaoting Chen, PhD",
+            "author_affiliations": [
+                "Center for Autoimmune Genomics and Etiology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kashish Chetal, MS",
+            "author_affiliations": [
+                "Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aishwarya Kulkarni, MS",
+            "author_affiliations": [
+                "Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kasiani C. Myers, MD",
+            "author_affiliations": [
+                "Bone Marrow Transplantation & Immune Deficiency, Cincinnati Children's Hospital, Cincinnati, OH "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matthew T. Weirauch, PhD",
+            "author_affiliations": [
+                "Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH ",
+                "Center for Autoimmune Genomics and Etiology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "H. Leighton Grimes, PhD",
+            "author_affiliations": [
+                "Division of Immunobiology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nathan Salomonis, PhD",
+            "author_affiliations": [
+                "Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-14T15:33:22",
+    "is_scraped": "1"
 }

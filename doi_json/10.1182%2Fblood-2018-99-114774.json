@@ -1,8 +1,245 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4026",
-    "start_url_page_num": "4026",
     "doi": "https://doi.org/10.1182/blood-2018-99-114774",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/793/266156/A-Personalized-Prediction-Model-to-Risk-Stratify?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T06:26:51",
-    "is_scraped": "0"
+    "article_title": "A Personalized Prediction Model to Risk Stratify Patients with Myelodysplastic Syndromes ",
+    "article_date": "November 29, 2018",
+    "session_type": "637. Myelodysplastic Syndromes\u2014Clinical Studies: Prognosis and Prediction",
+    "abstract_text": "Background Patients (pts) with myelodysplastic syndromes (MDS) have heterogeneous outcomes that can range from months for some pts to decades for others. Although several prognostic scoring systems have been developed to risk stratify MDS pts, survival varies even within discrete categories, which may lead to over- or under-treatment. Deficits in discriminatory power likely derive from analytic approaches or lack of incorporation of molecular data. Here, we developed a model that uses a machine learning approach to analyze genomic and clinical data to provide a personalized overall outcome that is patient-specific. Method Clinical and mutational data from MDS pts diagnosed according to 2008 WHO criteria were analyzed. The model was developed in a combined cohort from the Cleveland Clinic and Munich Leukemia Laboratory and validated in a separate cohort from the Moffitt Cancer Center. Next generation targeted deep sequencing of 40 gene mutations commonly found in myeloid malignancies was performed. Pts who underwent hematopoietic cell transplant (HCT) were censored at the time of transplant. A random survival forest (RSF) algorithm was used to build the model, in which clinical and molecular variables are randomly selected for inclusion in determining survival, thereby avoiding the shortcomings of traditional Cox step-wise regression in accounting for variable interactions. Survival prediction is thus specific to each pt's particular clinical and molecular characteristics. The accuracy of the proposed model, compared to other models, was assessed by concordance (c-) index. Results Of 2302 pts, 1471 were included in the training cohort and 831 in the validation cohort. In the training cohort, the median age was 71 years (range, 19-99), 230 pts (16%) progressed to AML, 156 (11%) had secondary/therapy-related MDS, and 130(9%) underwent HCT. Risk stratification by IPSS: 391 (27%) low, 626 (43%) intermediate-1, 280 (19%) intermediate-2, 104 (7%) high, 104 (7%) missing, and by IPSS-R: 749 (51%) very low/ low, 336 (23%) intermediate, 190 (13%) high, 92 (6%) very high, and 104 (7%) missing. Cytogenetic analysis by IPSS-R criteria: 65 (4%) very good, 1060 (72%) good, 193 (13%) intermediate, 60 (4%) poor, and 93 (6%) very poor. The most commonly mutated genes were: SF3B1 (26%), TET2 (25%), ASXL1 (20%), SRSF2 (15%), DNMT3A (12%), STAG2 (8%), RUNX1 (8%), and TP53 (8%). All clinical variables and mutations were included in the RSF algorithm. To identify the most important variables that impacted the outcome and the least number of variables that produced the best prediction, we conducted several feature extraction analyses which identified the following variables that impacted OS (ranked from the most important to the least): cytogenetic risk categories by IPSS-R, platelets, mutation number, hemoglobin, bone marrow blasts %, 2008 WHO diagnosis, WBC, age, ANC, absolute lymphocyte count (ALC), TP53 , RUNX1 , STAG2 , ASXL1 , absolute monocyte counts (AMC), SF3B1 , SRSF2 , RAD21 , secondary vs. de novo MDS, NRAS , NPM1 , TET2 , and EZH2 . The clinical and mutational variables can be entered into a web application that can run the trained model and provide OS and AML transformation probabilities at different time points that are specific for a pt, Figure 1. The C-index for the new model was .74 for OS and .81 for AML transformation. The new model outperformed IPSS (c-index .66, .73) and IPSS-R (.67, .73) for OS and AML transformation, respectively. The geno-clinical model outperformed mutations only (c-index .64, .72), mutations + cytogenetics (c-index .68, .74), and mutations + cytogenetics +age (c-index .69, .75) for OS and AML transformation, respectively. Addition of mutational variant allelic frequency did not significantly improve prediction accuracy. When applying the new model to the validation cohort, the c-index for OS and AML transformation were .80, and .78, respectively. Conclusion We built a personalized prediction model based on clinical and genomic data that outperformed IPSS and IPSS-R in predicting OS and AML transformation. The new model gives survival probabilities at different time points that are unique for a given pt. Incorporating clinical and mutational data outperformed a mutations only model even when cytogenetics and age were added. View large Download slide View large Download slide  Close modal Disclosures Nazha: MEI: Consultancy. Komrokji: Celgene: Honoraria, Research Funding; Novartis: Honoraria, Speakers Bureau; Novartis: Honoraria, Speakers Bureau; Novartis: Honoraria, Speakers Bureau; Novartis: Honoraria, Speakers Bureau; Celgene: Honoraria, Research Funding. Meggendorfer: MLL Munich Leukemia Laboratory: Employment. Walter: MLL Munich Leukemia Laboratory: Employment. Hutter: MLL Munich Leukemia Laboratory: Employment. Sallman: Celgene: Research Funding, Speakers Bureau. Roboz: Otsuka: Consultancy; Orsenix: Consultancy; Celgene Corporation: Consultancy; Daiichi Sankyo: Consultancy; Pfizer: Consultancy; Cellectis: Research Funding; Argenx: Consultancy; Roche/Genentech: Consultancy; Celltrion: Consultancy; Sandoz: Consultancy; Aphivena Therapeutics: Consultancy; Bayer: Consultancy; Pfizer: Consultancy; Aphivena Therapeutics: Consultancy; Eisai: Consultancy; Sandoz: Consultancy; Eisai: Consultancy; Roche/Genentech: Consultancy; AbbVie: Consultancy; Novartis: Consultancy; Janssen Pharmaceuticals: Consultancy; Bayer: Consultancy; Celltrion: Consultancy; Novartis: Consultancy; Janssen Pharmaceuticals: Consultancy; Astex Pharmaceuticals: Consultancy; Daiichi Sankyo: Consultancy; Celgene Corporation: Consultancy; Jazz Pharmaceuticals: Consultancy; Jazz Pharmaceuticals: Consultancy; Cellectis: Research Funding; Otsuka: Consultancy; Orsenix: Consultancy; Argenx: Consultancy; Astex Pharmaceuticals: Consultancy; AbbVie: Consultancy. List: Celgene: Research Funding. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Maciejewski: Apellis Pharmaceuticals: Consultancy; Ra Pharmaceuticals, Inc: Consultancy; Alexion Pharmaceuticals, Inc.: Consultancy, Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Ra Pharmaceuticals, Inc: Consultancy; Alexion Pharmaceuticals, Inc.: Consultancy, Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Apellis Pharmaceuticals: Consultancy. Haferlach: MLL Munich Leukemia Laboratory: Employment, Equity Ownership. Sekeres: Opsona: Membership on an entity's Board of Directors or advisory committees; Celgene: Membership on an entity's Board of Directors or advisory committees; Celgene: Membership on an entity's Board of Directors or advisory committees; Opsona: Membership on an entity's Board of Directors or advisory committees.",
+    "topics": [
+        "myelodysplastic syndrome",
+        "prostatic hypertrophy risk score",
+        "brachial plexus neuritis",
+        "leukemia",
+        "protein p53",
+        "cancer",
+        "cytogenetic analysis",
+        "hematopoietic stem cell transplantation",
+        "hemoglobin",
+        "magnetic endoscopic imaging"
+    ],
+    "author_names": [
+        "Aziz Nazha",
+        "Rami S. Komrokji, MD",
+        "Manja Meggendorfer, PhD",
+        "Sudipto Mukherjee, MDPhDMPH",
+        "Najla Al Ali, M.Sc",
+        "Wencke Walter, PhD",
+        "Stephan Hutter, PhD",
+        "Eric Padron, MD",
+        "Yazan F. Madanat, MD",
+        "David A Sallman, MD",
+        "Teodora Kuzmanovic",
+        "Cassandra M. Hirsch",
+        "Vera Adema, PhD",
+        "David P. Steensma, MD",
+        "Amy E. DeZern, MD",
+        "Gail J. Roboz, MD",
+        "Guillermo Garcia-Manero, MD",
+        "Alan F. List, MD",
+        "Claudia Haferlach, MD",
+        "Jaroslaw P. Maciejewski",
+        "Torsten Haferlach, MD",
+        "Mikkael A. Sekeres, MD MS"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Aziz Nazha",
+            "author_affiliations": [
+                "Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rami S. Komrokji, MD",
+            "author_affiliations": [
+                "Department of Malignant Hematology, H Lee Moffitt Cancer Center, Tampa, FL "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manja Meggendorfer, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sudipto Mukherjee, MDPhDMPH",
+            "author_affiliations": [
+                "Leukemia Program, Department of Hematology and Medical Oncology, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Najla Al Ali, M.Sc",
+            "author_affiliations": [
+                "H. Lee Moffitt Cancer Center & Research Institute, Tampa, FL "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wencke Walter, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephan Hutter, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eric Padron, MD",
+            "author_affiliations": [
+                "H. Lee Moffitt Cancer Center & Research Institute, Tampa, FL "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yazan F. Madanat, MD",
+            "author_affiliations": [
+                "Taussig Cancer Institute, Cleveland Clinic, Leukemia Program, Department of Hematology and Medical Oncology, Cleveland, OH "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David A Sallman, MD",
+            "author_affiliations": [
+                "Department of Malignant Hematology, H. Lee Moffitt Cancer Center, Tampa, FL "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Teodora Kuzmanovic",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cassandra M. Hirsch",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic Foundation, Cleveland, OH "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vera Adema, PhD",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David P. Steensma, MD",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amy E. DeZern, MD",
+            "author_affiliations": [
+                "Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University, Baltimore, MD "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gail J. Roboz, MD",
+            "author_affiliations": [
+                "Weill Cornell Medicine and The Weill Medical College of Cornell University, New York, NY "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Guillermo Garcia-Manero, MD",
+            "author_affiliations": [
+                "Department of Leukemia, University of Texas M.D. Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alan F. List, MD",
+            "author_affiliations": [
+                "H. Lee Moffitt Cancer Center, Tampa, FL "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Claudia Haferlach, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jaroslaw P. Maciejewski",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Torsten Haferlach, MD",
+            "author_affiliations": [
+                "MLL Munchner Leukamie Labor Gmbh, Munchen, Germany "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mikkael A. Sekeres, MD MS",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic Taussig Cancer Institute, Cleveland, OH"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-14T15:37:03",
+    "is_scraped": "1"
 }
