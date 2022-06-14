@@ -1,8 +1,248 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4049",
-    "start_url_page_num": "4049",
     "doi": "https://doi.org/10.1182/blood-2018-99-119974",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/4246/275647/Comparison-of-the-Transcriptomic-Signature-of?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T07:20:12",
-    "is_scraped": "0"
+    "article_title": "Comparison of the Transcriptomic Signature of Pediatric Vs. Adult CML and Normal Bone Marrow Stem Cells ",
+    "article_date": "November 29, 2018",
+    "session_type": "631. Chronic Myeloid Leukemia: Biology and Pathophysiology, excluding Therapy: Poster III",
+    "abstract_text": "Introduction Pediatric chronic myeloid leukemia (CML) accounts for 10 to 15% of children with myeloid leukemia and 2 to 9% of all pediatric leukemias. Prior to the discovery of tyrosine kinase inhibitors (TKI) such as imatinib, stem cell transplantation was the only curative treatment for both adults and children with CML. However, due to the small numbers of patients, standardized treatment approaches for pediatric CML have not been established. There are several unique characteristics of CML diagnosed in children and adolescents, and young adults (AYA; 16-29 years), compared to adults. Children and AYA with CML present with a higher white blood count and have larger spleens, higher peripheral blast counts, and lower hemoglobin levels, suggesting that the biology of pediatric CML is different than adult CML. In addition, potential side effects of TKIs unique to pediatric CML patients include impaired bone growth, fertility and immune function, however none have been extensively studied. We hypothesize that the differences in clinical presentation of pediatric CML patients are due to unique molecular characteristics that are absent in adult CML patients. To test this hypothesis, we studied the transcriptomic signature of pediatric CD34 + CML cells compared to adult CML and normal age-matched bone marrow CD34 + cells. Methods CD34 + cells were isolated from pediatric CML (n=7), adult CML (n=8), pediatric normal (n=2) and adult normal (n=3) bone marrow samples. Total RNA was isolated from cells, and then cDNA libraries were generated. Prepared libraries were sequenced on the Illumina HiSeq 4000 instrument. We aligned reads using the HISAT2 alignment software, and mapped to genes with HT-Seq. We removed genes that had zero reads across all the samples, resulting in a set of 4,696 genes that were detected in one or more samples. In case of technical replicates, we used mean of replicates. We performed three differential expression comparisons with edgeR: (1) Pediatric CML vs Adult CML, (2) Adult CML vs Adult Normal, and (3) Pediatric CML vs Pediatric Normal. We used a False Discovery Rate (FDR) of \u00a3 20% and absolute log2 fold-change \u00b3 1 for selecting differentially expressed genes in each comparison. We used Fisher's exact test to identify significant KEGG pathways for the differentially expressed genes in each comparison. Results Pediatric CML vs Adult CML We found 24 differentially expressed genes (15 over- and 9 under-expressed). Though no pathway was found to be significant at the false discovery rate (FDR) \u00a3 20%, we identified a number of sub-pathways that are relevant. For example, the Chemokine Signaling pathway shows at the top of the list (ordered by raw p-value) because of two genes, XCR1 and HCK, associated with VEGF and MAPK pathways involved in cell proliferation, angiogenesis, DNA repair, and cancer pathogenesis. Adult CML vs Adult Normal We found 60 genes (30 over- and 30 under-expressed) differentially expressed when comparing adult CML patients to normal adults. Ten genes overlapped with 24 genes we identified when comparing pediatric and adult CML patients. We found 11 pathways as significant at FDR \u00a3 10%. Multiple pathways, including Cell adhesion, allograft rejection, Graft versus Host Disease, and Type I diabetes pathways, showed downregulation of MHC, with subsequent downstream reduction in expression of apoptosis-related genes. The IL-17 pathway makes sense, as MAPK, well-known to be associated with various cancers, is down-regulated. Lastly, in the NK pathway the gene DAP12 is up-regulated. This gene is known as a tyrosine kinase binding protein, and although tyrosine kinase inhibitors are the standard treatment for CML, the role of DAP12 in relation to leukemia has not yet been described. Pediatric CML vs Pediatric Normal We found 509 genes (350 over- and 159 under-expressed) differentially expressed in pediatric CML patients compared to normal. Interestingly, transcriptional regulators are differentially enriched in the hematopoietic stem cell differentiation function group including GATA1, GATA2, KLF1 and KLF2. RFC is down-regulated. RFC is a mismatch repair gene known to be involved in colorectal cancer. Many of the significant pathways are involved in glucose and fatty acid metabolism. Our pilot study identified novel molecular features of pediatric CML bone marrow stem cells, providing new insights into the novel biomarkers and pathogenesis of pediatric CML. Disclosures Gotlib: Blueprint Medicines: Consultancy, Honoraria, Research Funding; Promedior: Research Funding; Deciphera: Consultancy, Honoraria, Research Funding; Incyte: Consultancy, Honoraria, Research Funding; Kartos: Consultancy; Celgene: Consultancy, Honoraria, Research Funding; Gilead: Consultancy, Research Funding; Novartis: Consultancy, Honoraria, Research Funding.",
+    "topics": [
+        "adverse effects",
+        "biological markers",
+        "bone marrow",
+        "bone marrow specimen",
+        "cancer",
+        "carrier proteins",
+        "cd34 antigens",
+        "chemokines",
+        "childhood leukemia",
+        "colorectal cancer"
+    ],
+    "author_names": [
+        "Hee-Don Chae, PhD",
+        "Lara C. Murphy, MD",
+        "Michele Donato, PhD",
+        "Alex G. Lee, PhD",
+        "E. Alejandro Sweet-Cordero, MD PhD",
+        "Parveen Abidi, PhD",
+        "Henrique Bittencourt, MD PhD",
+        "Norman J. Lacayo, MD",
+        "Gary Van Houten Dahl, MD",
+        "Catherine Aftandilian, MD",
+        "Kara L. Davis, DO",
+        "Min Huang, PhD",
+        "Nathan Sumarsono, BS",
+        "Michele Redell, MD PhD",
+        "Cecilia H. Fu, MD",
+        "I-Ming L. Chen, DVM, MS",
+        "Todd A Alonzo, PhD",
+        "Elizabeth A. Eklund, MD",
+        "Jason R. Gotlib, MD MS",
+        "Purvesh Khatri, PhD",
+        "Nobuko Hijiya, MD",
+        "Kathleen M. Sakamoto, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Hee-Don Chae, PhD",
+            "author_affiliations": [
+                "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lara C. Murphy, MD",
+            "author_affiliations": [
+                "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA ",
+                "Institute for Immunity, Transplantation and Infection, Stanford University, Stanford, CA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michele Donato, PhD",
+            "author_affiliations": [
+                "Institute for Immunity, Transplantation and Infection, Stanford University, Stanford, CA ",
+                "Stanford Center for Biomedical Informatics Research, Stanford University School of Medicine, Stanford, CA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alex G. Lee, PhD",
+            "author_affiliations": [
+                "Department of Pediatrics, Benioff Children's Hospital, University of California San Francisco, San Francisco, CA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "E. Alejandro Sweet-Cordero, MD PhD",
+            "author_affiliations": [
+                "Department of Pediatrics, Benioff Children's Hospital, University of California San Francisco, San Francisco, CA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Parveen Abidi, PhD",
+            "author_affiliations": [
+                "Department of Medicine, Stanford University School of Medicine, Stanford, CA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Henrique Bittencourt, MD PhD",
+            "author_affiliations": [
+                "Hematology Oncology Division, CHU Sainte-Justine, Montreal, Canada "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Norman J. Lacayo, MD",
+            "author_affiliations": [
+                "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gary Van Houten Dahl, MD",
+            "author_affiliations": [
+                "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Catherine Aftandilian, MD",
+            "author_affiliations": [
+                "Department of Pediatrics, Lucile Packard Children's Hospital, Palo Alto, CA "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kara L. Davis, DO",
+            "author_affiliations": [
+                "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Min Huang, PhD",
+            "author_affiliations": [
+                "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nathan Sumarsono, BS",
+            "author_affiliations": [
+                "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michele Redell, MD PhD",
+            "author_affiliations": [
+                "Division of Pediatric Hematology/Oncology, Baylor College of Medicine, Houston, TX "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cecilia H. Fu, MD",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, Children's Hospital Los Angeles, Los Angeles, CA "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "I-Ming L. Chen, DVM, MS",
+            "author_affiliations": [
+                "Department of Pathology, University of New Mexico Cancer Rsch Facility, Albuquerque, NM "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Todd A Alonzo, PhD",
+            "author_affiliations": [
+                "Children's Oncology Group, Department of Preventive Medicine, University of Southern California, Monrovia, CA "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elizabeth A. Eklund, MD",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, Northwestern University Feinberg School of Medicine, Chicago, IL "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jason R. Gotlib, MD MS",
+            "author_affiliations": [
+                "Department of Medicine, Stanford University School of Medicine, Stanford, CA "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Purvesh Khatri, PhD",
+            "author_affiliations": [
+                "Institute for Immunity, Transplantation and Infection, Stanford University, Stanford, CA ",
+                "Stanford Center for Biomedical Informatics Research, Stanford University School of Medicine, Stanford, CA "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nobuko Hijiya, MD",
+            "author_affiliations": [
+                "Department of Pediatrics, Northwestern University Feinberg School of Medicine, Chicago, IL"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kathleen M. Sakamoto, MD PhD",
+            "author_affiliations": [
+                "Department of Pediatrics, Stanford University School of Medicine, Stanford, CA "
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-14T13:04:28",
+    "is_scraped": "1"
 }

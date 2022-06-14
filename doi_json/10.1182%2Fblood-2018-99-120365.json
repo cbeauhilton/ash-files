@@ -1,8 +1,85 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4045",
-    "start_url_page_num": "4045",
     "doi": "https://doi.org/10.1182/blood-2018-99-120365",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/4549/275578/Development-of-T-Cell-Receptor-Analysis-Based?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T06:51:08",
-    "is_scraped": "0"
+    "article_title": "Development of T Cell Receptor Analysis Based Strategy to Identify Leukemia Specific Neoantigens ",
+    "article_date": "November 29, 2018",
+    "session_type": "703. Adoptive Immunotherapy: Poster III",
+    "abstract_text": "Allogeneic hematopoietic stem cell transplantation (HSCT) is the only curative treatment option for high-risk patients with Acute Myeloid Leukemia (AML). The curative potential of this treatment is likely attributed to the graft versus leukemia (GvL) effect, in which donor T lymphocytes target persistent leukemic cells, by identifying AML-specific antigens (neoantigens) presented on MHC class I molecules through T cell receptors (TCR). Therefore, neoantigens present ideal targets for T cell-based leukemia immunotherapy. In order to identify leukemia specific neoantigens, we developed an MHC-peptide-TCR prediction strategy. This strategy utilizes the analysis of combined TCR repertoire and somatic mutation data using a structure-based computational approach. Here, we apply this strategy to identify FLT3-ITD specific neoantigens in AML. FLT3-ITD, a mutation in the receptor tyrosine kinase FLT3, is commonly found in patients with AML (30% of normal karyotype patients) and associates with a poor prognosis. On the other hand; more than 50% of the patients harboring this mutation are leukemia-free at two years post HSCT. We hypothesize that FLT3-ITD presents a viable neoantigen that influence the TCR repertoire and the expansion of particular T cell clones. Here, we test this hypothesis and develop a platform to identify TCR clones against FLT3-ITD neoantigens. We selected ten FLT3-ITD sequences found in patients with AML. Using Immune Epitope Database and Analysis Resource, T cell epitope prediction and T cell epitopes-MHC binding prediction tools we generated peptides with high affinity to the top three common HLA alleles. FLT3-ITD (N=21) and FLT3-WT (N=5) peptides were synthesized. Peripheral blood mononuclear cells (PBMC) from healthy donors (N=7) were pulsed with the peptides pool in the presence of IL-2 and IL-7 cytokines and cultured for one week. Cells were analyzed by flow cytometry to assess changes in T cell populations. Two of the samples were magnetically enriched for CD3 positive cells (T cells) and then further sorted into the following T cell populations: CD8+, CD4+ and CD4+ CD25+. RNA was extracted from the collected cells, and 5'Race RNA based NGS was performed for TCRA and TCRB repertoire. Sequence reads were analyzed using MiXCR and \"tcR\" software. We compared the TCRB diversity and the V and J segment utilization difference between cells pulsed with FLT3-ITD and FLT3-WT peptides; using the Inverse Simpson index (IS) and Jensen Shannon Divergence index (JSD), respectively. We also compared the TCRA and TCRB clonal expansion between FLT3-WT and FLT3-ITD peptide stimulated cells. The average number of different TCRB clones we identified was 32320 \u00b112789. The majority of V and J segment utilization JSD between FLT3-ITD and FLT3-WT values were less than 0.001; only two samples exhibited a v segment utilization JSD higher than 0.01. Among the five samples, two exhibited 50% decreased TCR diversity in the FLT3-ITD stimulated cells compared with FLT3-WT; and one sample showed 2.5 fold increase following stimulation with the -ITD peptides compared with the -WT. We also identified seven CDR3 clones that were present in FLT3-ITD peptide stimulated but not FLT3-WT stimulated T-cells from three healthy PBMC samples. The seven CDR3s in conjunction with the peptide sequences modeled from the sequence-based prediction program were then computationally docked in the MHC/TCR complex using EXSAN anchor-and-grow process. Some peptides were found to be non-binders to all TCR clones, but others were predicted to be a binder to at least one TCR and non-binders for other TCRs indicating the influence of the CDR3 region. The FLT3-ITD peptide sequences, RENLDNEYFYV, was able to bind to one CDR3 sequence, but failed to bind to other CDR3 sequences. These data suggest that the presence of the CDR3 in the model significantly influences the peptide binding. In conclusion, we have established an MHC-peptide-TCR prediction strategy. With further optimization and validation this approach should enable the identification of neoantigens and GvL responsible TCR clones for future development of novel immunotherapy. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "leukemia",
+        "t-cell receptor",
+        "ms-like tyrosine kinase 3",
+        "impedance threshold device",
+        "peptides",
+        "epitopes",
+        "hematopoietic stem cell transplantation",
+        "immunotherapy",
+        "rna",
+        "t-cell receptor complex"
+    ],
+    "author_names": [
+        "Lucas Gutierrez, BS",
+        "Jason Giles, MS",
+        "Miran Jang, PhD",
+        "Mojtaba Akhtari, MD",
+        "Ian Haworth, PhD",
+        "Houda Alachkar, PharmD, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Lucas Gutierrez, BS",
+            "author_affiliations": [
+                "University of Southern California, Hacienda Heights, CA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jason Giles, MS",
+            "author_affiliations": [
+                "University of Southern California, Los Angeles, "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Miran Jang, PhD",
+            "author_affiliations": [
+                "University of Southern California, Los Angeles, CA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mojtaba Akhtari, MD",
+            "author_affiliations": [
+                "Department of Hematology, University of Southern California Norris Comprehensive Cancer Center, Los Angeles, CA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ian Haworth, PhD",
+            "author_affiliations": [
+                "University of Southern California, Los Angeles, CA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Houda Alachkar, PharmD, PhD",
+            "author_affiliations": [
+                "School of Pharmacy, University of Southern California, Los Angeles, CA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-14T13:01:22",
+    "is_scraped": "1"
 }
