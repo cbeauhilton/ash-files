@@ -1,8 +1,86 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3985",
-    "start_url_page_num": "3985",
     "doi": "https://doi.org/10.1182/blood-2018-99-113454",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/1157/262777/Bayesian-Analysis-of-TPO-Levels-in-Immune?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T04:08:47",
-    "is_scraped": "0"
+    "article_title": "Bayesian Analysis of TPO Levels in Immune Thrombocytopenia ",
+    "article_date": "November 29, 2018",
+    "session_type": "311. Disorders of Platelet Number or Function: Poster I",
+    "abstract_text": "Introduction: Thrombopoietin (TPO) is a haematopoietic growth factor that has a primary function in promoting the differentiation and maturation of megakaryocytes and the subsequent production of platelets. In patients with immune thrombocytopenia (ITP) TPO levels have been shown to be inappropriately low. The exact reasons for this are not well understood and are highly debated. The predominant hypothesis is that higher rates of platelet turnover in active ITP lead to an increased consumption of TPO through its binding to high-affinity receptors on the platelet cell membrane (the 'sponge theory'). To better understand the relationship between TPO and platelets in ITP we measured TPO levels in 67 patients with chronic ITP with a range of different platelet counts. For comparison we also measured TPO levels in 5 patients with aplastic anaemia as these patients are thrombocytopenic but lack direct immune-mediated platelet destruction. We used a Bayesian regression model to analyse the association between TPO and platelet counts, which has been shown to be more accurate with smaller sample sizes than classical gaussian regression models. We used this model to infer the probability distribution of TPO over a range of different platelet counts. Methods: Blood samples were collected in duplicate in sodium citrate vacutainer tubes, double spun and stored at -80\u00b0C within four hours of collection. TPO levels were measured using quantitative sandwich enzyme immunoassay technique. We used log-normalised TPO and platelet counts in a Bayesian regression model; with uninformative Gaussian prior distributions (mean 0.01, standard deviation 10). We used Gibbs sampling with 100,000 iterations to calculate posterior distributions from which we derived maximium a posteriori (MAP) estimates and 90% Bayesian Confidence intervals (BCI) for a range of platelet counts (1 to 200). Results: Of the 130 samples collected, 30 samples were excluded for failing to detect any TPO. All but 1 of these patients had a second positive sample. In the ITP group, median TPO levels was 43pg/ml (range 1.7 - 923.4pg/ml) with a median platelet count of 63 (range 3 - 328). 20% of this group were in remission at the time of sampling. In the aplastic anaemia cohort there were 9 samples with a median TPO of 1887.6pg/ml (range 9.4-4572.5pg/ml) and a median platelet count of 20 (range 4 - 102). The higher platelet counts (>35) in this aplastic group were from patients on tacrolimus therapy (n= 3). There was a clear non-linear relationship between platelet counts and TPO levels in both ITP and aplastic anaemia patients (FIGURE 1). At any given platelet count, MAP TPO estimates in our ITP cohort were approximately a tenth of that for patients with aplastic anaemia. 13% of the ITP patients were on TPO agonists, although a sensitivity analysis found this did not significantly influence model estimates. At a platelet count of 1 the MAP TPO estimate in ITP was 410pg/ml (BCI; 200-804pg/ml). This declined sharply to 100pg/ml as platelet counts increased to 10. The decline in TPO became increasingly shallow as platelet counts increased further, and at 100 it was 24pg/ml (BCI 18-29 pg/ml). In contrast, MAP TPO estimates in the aplastic anaemia group were >10000pg/ml at a platelet count of 1 and 221pg/ml (BIC 112 to 828pg/ml) at 100. This is approaching the normal range for a healthy individual (mean 120pg/ml, range 80 - 230pg/ml). Conclusion: This study shows that in patients with ITP and aplastic anaemia there is a non-linear correlation between platelet counts and TPO. The levels of TPO in patients with ITP were consistently lower than patients with aplastic anaemia at all platelet counts. This indicates that at all stages of disease activity, immune attack on platelets (and possibly megakaryocytes) in ITP and immune attack on the whole bone marrow in aplastic anaemia have differential effects on TPO levels. The findings also suggest that TPO in combination with platelet counts, when compared to modelled predictions, could be used as a diagnostic marker to differentiate between failure of platelet production and increased platelet destruction. Further work is needed to better understand the regulation of TPO in each disease. View large Download slide View large Download slide  Close modal Disclosures Cooper: Amgen, Novartis: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees.",
+    "topics": [
+        "bayesian analysis",
+        "thrombocytopenia due to immune destruction",
+        "inosine triphosphate",
+        "purpura, thrombocytopenic, idiopathic",
+        "aplastic anemia",
+        "platelet destruction, increased",
+        "agonists",
+        "disease remission",
+        "hematopoietic growth factors",
+        "sodium citrate"
+    ],
+    "author_names": [
+        "George Adams, MBChB",
+        "Adam Gosztolai, PhD",
+        "Elisa Lucchini, MD",
+        "Anwar A. Sayed, MBBS, MSc",
+        "Amna Malik, PhD",
+        "Nichola Cooper, MRCP"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "George Adams, MBChB",
+            "author_affiliations": [
+                "Department of Haematology, Imperial College London, Hammersmith Hospital, London, United Kingdom "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Adam Gosztolai, PhD",
+            "author_affiliations": [
+                "Department of Mathematics, Imperial College London, London, United Kingdom "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elisa Lucchini, MD",
+            "author_affiliations": [
+                "Imperial College NHS Trust, London, United Kingdom "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anwar A. Sayed, MBBS, MSc",
+            "author_affiliations": [
+                "Department of Haematology, Imperial College London, Hammersmith Hospital, London, United Kingdom ",
+                "Department of Medical Microbiology and Immunology, College of Medicine, Taibah University, Madinah, Saudi Arabia "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amna Malik, PhD",
+            "author_affiliations": [
+                "Centre for Haematology, Department of Medicine, Imperial College London, London, United Kingdom"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nichola Cooper, MRCP",
+            "author_affiliations": [
+                "Imperial College NHS Trust, London, United Kingdom "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-14T04:32:00",
+    "is_scraped": "1"
 }

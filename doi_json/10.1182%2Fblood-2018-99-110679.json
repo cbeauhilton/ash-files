@@ -1,8 +1,76 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=3979",
-    "start_url_page_num": "3979",
     "doi": "https://doi.org/10.1182/blood-2018-99-110679",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/934/266275/Single-Cell-Transcriptome-in-Chronic-Myeloid?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T04:08:23",
-    "is_scraped": "0"
+    "article_title": "Single Cell Transcriptome in Chronic Myeloid Leukemia (CML): Pseudotime Analysis Reveals a Rare Population with Embryonic Stem Cell Features and Druggable Intricated Transitional Stem Cell States ",
+    "article_date": "November 29, 2018",
+    "session_type": "631. Chronic Myeloid Leukemia: Biology and Pathophysiology, excluding Therapy: CML Stem Cells And Their Environment",
+    "abstract_text": "Recent experimental data suggest that the heterogeneity of CML stem cells can be due not only to their differential BCR-ABL expression but also to the development of unique molecular events generating functional consequences in terms of their stem cell potential. Understanding these events at diagnosis of the disease and during tyrosine kinase inhibitor (TKI) therapies is of major interest as this can explain the clonal evolution and selection explaining resistance and persistence of LSC. Single cell (sc) RNA-transcriptome technology allows to study cell heterogeneity with simultaneous analysis of gene expression applied to a high numbers of stem cells and progenitors. In order to explore this phenomenon at diagnosis and during therapy, we have designed a scRNA study using C1 (Fluidigm) technology allowing to evaluate simultaneously the expression of 87 genes. The panel that has been chosen included genes controlling stem cell quiescence (such as PML, SPP1,FBXW7), pluripotency (such as NANOG, MYC, POUF51, SOX2) and drug resistance (MYC, TP53). Highly purified CD34+ cells from 3 CML patients at diagnosis and from two cord blood samples were included in the study. Individual 70, 93, 93 cells from three patients were immobilized in microfluidic chips and the expression of 86 genes was evaluated in each cell. After independent normalization and preprocessing filtration, a merged matrix was built with 256 valid cells and 87 transcripts. Batch surrogates adjustment was performed with Stanford algorithm and effect of batch correction was validated by unsupervised principal component analysis. Pearson correlation matrix performed on gene regulation identified a group of 13 genes highly connected and enriched in pluripotency genes such as NANOG, POU5F1, LIN28A, SOX2 suggesting the presence of a stem cell population independent of MYC in CD34+ CML cells (fig 1A). This \u00abstem cell-like\u00bb population was found to represent 8.59% (range [7.53-11.42]%) of the cells analyzed. Bioinformatics analysis with corrected matrix and tSNE algorithm identified four distinct clusters (fig 1B) including a major cluster (126 cells)and a smaller cluster of 41 cells harboring high expression of MYC, LIMS1 and TGFB1. A third small cluster of 50 cells also expressed high levels of MYC and JAK2 and the last minor cluster comprising 35 cells is enriched in a subpopulation expressing ALOX5. We have then performed a pseudotime analysis, which allows the study of individual cells according to their trajectory in terms of transitional cell states such as differentiation, self-renewal or proliferation. This analysis confirmed the presence of 4 clusters with 7 states of cells separated by 3 intersection branches (fig 1C). Interestingly, during this analysis ALOX5 expression was associated to the group of cells expressing the pluripotent markers confirming their stem cell-like profile (figure 1D). Branched expression analysis modeling (BEAM) on intersection 2 allowed to separate a stem cell-like cluster from MYC cluster from 2 others and highlighted 18 genes including STAT5A, CXCR2, TFCP2L1, EZH2, BMI1. PIK3CA was amongst this group with a pseudotime profile similar to ALOX5 (fig 1C and 1E). Importantly, pseudotime analysis for FGFR1 was also similar to that of ALOX5 (fig 1C and 1E). We then asked whether it was possible to identify a gene signature in individual CML progenitors resistant to IM in vitro. CD34+ cells from 5 patients were seeded in methycellulose CFC assays with and without IM (1 microM / ml). At day+14, individual CFC were counted, isolated and a scRNA transcriptome assay was performed using the same gene panel in single progenitors. Preliminary data from these experiments (n=5) showed an enrichment of cells with high level of SOX2 expression in IM-treated cell subgroup. Overall, these single cell experiments allowed to identify individual stem cells expressing high levels of pluripotency genes in which a continuum of transitional states was identified using pseudotime analysis. We confirm the expression of ALOX5 expression in stem cell-like compartment and by associating its pseudotime regulation to other drug-targetable markers such as PIK3CA and FGFR1. These results also suggest that LSC persistence is regulated by transitional stem cell states that need to be targeted simultaneously rather than by the use of a single pathway. The validation of these findings in quiescent CML stem cells is underway in our laboratory. View large Download slide View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "bcr-abl tyrosine kinase",
+        "embryonic stem cells",
+        "f-box-wd repeat-containing protein 7",
+        "gene expression profiling",
+        "leukemia, myelocytic, chronic",
+        "progressive multifocal leukoencephalopathy",
+        "protein p53",
+        "protein-tyrosine kinase inhibitor",
+        "rna",
+        "rna, small cytoplasmic"
+    ],
+    "author_names": [
+        "Sarah Pagliaro, Pharm D",
+        "Christophe Desterke",
+        "Herve Acloque, PhD",
+        "Annelise Bennaceur-Griscelli, MD PhD",
+        "Ali G Turhan, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Sarah Pagliaro, Pharm D",
+            "author_affiliations": [
+                "Inserm U935 University Paris Sud, Villejuif, France ",
+                "Science Without Borders, CAPES - Bras\u00edlia, Brazil, Sao Paolo, Brazil "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christophe Desterke",
+            "author_affiliations": [
+                "Inserm U935, IFR 89, Paris 11 University, Villejuif, FRA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Herve Acloque, PhD",
+            "author_affiliations": [
+                "Inserm U935 and INRA, Villejuif, France "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Annelise Bennaceur-Griscelli, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology, Inserm U935 University Paris Sud, Villejuif, France "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ali G Turhan, MD PhD",
+            "author_affiliations": [
+                "Hopital Bicetre-Paris Sud 11 University, Le Kremlin Bicetre, France"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-14T04:25:21",
+    "is_scraped": "1"
 }
