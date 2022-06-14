@@ -1,8 +1,217 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4135",
-    "start_url_page_num": "4135",
     "doi": "https://doi.org/10.1182/blood-2018-99-112611",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/3175/263824/Whole-Exome-Sequencing-of-Residual-Disease-in?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T11:17:28",
-    "is_scraped": "0"
+    "article_title": "Whole Exome Sequencing of Residual Disease in Multiple Myeloma: Searching for Novel Therapeutic Targets ",
+    "article_date": "November 29, 2018",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster II",
+    "abstract_text": "Introduction: Multiple myeloma (MM) is a plasma cell dyscrasia causing damage of multiple organs with fatal consequences for patients. Despite the success of modern therapies eliminating a vast bulk of the aberrant cells, surviving residual clones eventually lead to the relapse of the disease. Accumulation of genomic alterations during the stage of minimal residual disease (MRD) likely contributes to a selective grow advantage and survival under the drug pressure. Identification of specific mutations in MM patients with MRD can provide unique opportunities to target the residual plasma cell clones. Here we present the first whole exome sequencing (WES) analysis of 22 MM samples of patients with MRD that identified 814 mutated genes with 4% of genes previously implicated in the pathogenesis of MM. Methods: Aberrant plasma cells (A-PCs) and peripheral blood (PB) were collected from patients after signing informed consent form. Presence of MRD was assessed with EuroFlow protocol and A-PCs were sorted out from bone marrow according to their pathological immunophenotype based on the expression of antigens CD38, CD45, CD19 and CD56. DNA from A-PCs was isolated and amplified by Repli-g Single cell kit (QIAGEN). Sequencing libraries were prepared using SureSelect Human All Exon V6 Kit (Agilent Technologies) and sequenced by Macrogen Inc. on Illumina HiSeq 4000 platform with average coverage 50x and 2x 100bp read length. Sequencing data were processed using the Bcbio framework following the standard workflow for tumor-matched-normal studies. Specifically, reads were mapped to the human reference genome GRCh37, successively marking duplicates using Picard. Germline mutations were identified using GATK HaplotypeCaller, whereas somatic mutations were identified using MuTect2 reporting as significant variants observed in at least 5 reads and minimum allele frequency of 10%. Variants in homopolymer regions longer than 5 nucleotides were filtered out. The final set of calls were further characterised by assessing their functional impact using snpEff and by annotating each variant using data from 1000 Genomes Phase 3, ExAC, and ClinVar. We then used OncodriveCLUST to identify putative oncogenic genes, and later compared these results with a literature curated list of MM driver genes (Weaver & Tariman, 2017). Results: Our dataset comprises 22 samples from 21 patients (one patient was sampled in two time points) with MM MRD, who received bortezomib-based regimen (age 41-71, average 59 years, 11/22 males, 10/22 females). 8 patients reached complete response, 9 patients had very good partial response and 4 patients had partial response. In our analysis, we detected 1,014 tumour somatic variants (8-287 per sample, median 36), most of them being missense mutations (676/1014), splice site mutations (145/1014) and frameshift insertions (134/1014). The variants affected a total of 814 genes, 97 genes were shared in at least two samples. The most frequently mutated genes were KIAA1211 (11/22), the immunoglobulin gene IGLV3-1 (8/22), apoptotic chromatin condensation inducer ACIN1 (7/22) and CCR4-associated factor 3 CNOT3 (7/22). We also identified 32 genes known to be mutated in MM in 64% of our samples (14/22). We found mutations shared by at least 2 samples in KRAS (4/22), DIS3 (3/22), TRAF3 (3/22), NRAS (2/22), ANK2 (2/22), BRAF (2/22) and RBM15 (2/22). Further analysis with OncodriveCLUST identified 18 putative oncogenic genes (FDR < 0.1), including KRAS, DIS3, ACIN1. Conclusion: We presented the first whole exome study of MM MRD, providing a characterisation of the mutations observed in A-PCs. We overcame problem with low amount of A-PCs in this disease stage by using whole genome amplification and a highly customised bioinformatic analysis pipeline. Our study suggests that A-PCs are characterised by new MM MRD specific set of mutated genes, along with the presence of mutations in well-known multiple myeloma cancer driver genes. This offers a great potential for design of novel precise treatments targeting MRD after standard MM therapies. Supported by Ministry of Health of the Czech Republic (17-30089A, CZ-DRO-FNOs/2016) and Ministry of Education of the Czech Republic (SGS18/P\u0159F/2017-2018) Disclosures Kryukov: JSC BIOCAD: Employment. Maisnar: Celgene: Honoraria, Membership on an entity's Board of Directors or advisory committees; Novartis: Honoraria; Bristol Myers Squibb: Membership on an entity's Board of Directors or advisory committees; Amgen: Honoraria, Membership on an entity's Board of Directors or advisory committees; Janssen: Honoraria, Membership on an entity's Board of Directors or advisory committees; Takeda: Membership on an entity's Board of Directors or advisory committees. Hajek: Celgene: Consultancy, Honoraria, Research Funding; Janssen: Consultancy, Honoraria, Research Funding; Takeda: Consultancy, Honoraria, Research Funding; Bristol Myers Squibb: Consultancy, Honoraria; Amgen: Consultancy, Honoraria, Research Funding; Novartis: Research Funding.",
+    "topics": [
+        "multiple myeloma",
+        "residual tumor",
+        "whole exome sequencing",
+        "photon correlation spectroscopy",
+        "portacaval shunt, surgical",
+        "precordial catch syndrome",
+        "neoplasms",
+        "partial response",
+        "antigens",
+        "bortezomib"
+    ],
+    "author_names": [
+        "Martina Z\u00e1topkov\u00e1, MSc",
+        "Tereza Sevcikova",
+        "Zuzana Kufova",
+        "Katerina Growkova",
+        "Jana Filipova",
+        "Tomas Jelinek",
+        "Lucie \u0158\u00edhov\u00e1",
+        "Renata Bezd\u011bkov\u00e1, MSc.",
+        "Fedor Kryukov",
+        "Jana Smejkalov\u00e1",
+        "Jiri Minarik, MD PhD",
+        "Vladimir Maisnar, MD",
+        "Martin Mistrik, MD PhD",
+        "Ludek Pour, MD",
+        "Alexandra Jungova",
+        "Michal \u0160im\u00ed\u010dek",
+        "Giovanni Stracquadanio",
+        "Roman Hajek"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Martina Z\u00e1topkov\u00e1, MSc",
+            "author_affiliations": [
+                "Department of Biology and Ecology, Faculty of Science, University of Ostrava, Ostrava, Czech Republic ",
+                "Department of Haematooncology, University Hospital Ostrava, Ostrava, Czech Republic "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tereza Sevcikova",
+            "author_affiliations": [
+                "Department of Haematooncology, University Hospital Ostrava, Ostrava, Czech Republic ",
+                "Department of Clinical Studies, Faculty of Medicine, University of Ostrava, Ostrava, Czech Republic "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Zuzana Kufova",
+            "author_affiliations": [
+                "Department of Haematooncology, University Hospital Ostrava, Ostrava, Czech Republic ",
+                "Department of Clinical Studies, Faculty of Medicine, University of Ostrava, Ostrava, Czech Republic "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Katerina Growkova",
+            "author_affiliations": [
+                "Department of Biology and Ecology, Faculty of Science, University of Ostrava, Ostrava, Czech Republic ",
+                "Department of Haematooncology, University Hospital Ostrava, Ostrava, Czech Republic ",
+                "Department of Clinical Studies, Faculty of Medicine, University of Ostrava, Ostrava, Czech Republic "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jana Filipova",
+            "author_affiliations": [
+                "Department of Biology and Ecology, Faculty of Science, University of Ostrava, Ostrava, Czech Republic ",
+                "Department of Haematooncology, University Hospital Ostrava, Ostrava, Czech Republic ",
+                "Department of Clinical Studies, Faculty of Medicine, University of Ostrava, Ostrava, Czech Republic "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tomas Jelinek",
+            "author_affiliations": [
+                "Department of Biology and Ecology, Faculty of Science, University of Ostrava, Ostrava, Czech Republic ",
+                "Department of Haematooncology, University Hospital Ostrava, Ostrava, Czech Republic ",
+                "Department of Clinical Studies, Faculty of Medicine, University of Ostrava, Ostrava, Czech Republic "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lucie \u0158\u00edhov\u00e1",
+            "author_affiliations": [
+                "Department of Clinical Hematology, University Hospital Brno, Brno, Czech Republic "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Renata Bezd\u011bkov\u00e1, MSc.",
+            "author_affiliations": [
+                "Department of Clinical Hematology, University Hospital Brno, Brno, Czech Republic "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Fedor Kryukov",
+            "author_affiliations": [
+                "Medical Department, JCS BIOCAD, St.Petersburg, Russian Federation "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jana Smejkalov\u00e1",
+            "author_affiliations": [
+                "Department of Haematooncology, University Hospital Ostrava, Ostrava, Czech Republic "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jiri Minarik, MD PhD",
+            "author_affiliations": [
+                "Department of Hematooncology, University Hospital and Palacky University Olomouc, Olomouc, Czech Republic "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vladimir Maisnar, MD",
+            "author_affiliations": [
+                "4th Department of Medicine - Haematology, University Hospital Hradec Kralove, Hradec Kr\u00e1lov\u00e9, Czech Republic "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martin Mistrik, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology and Transfusiology, University Hospital Bratislava, Bratislava, Slovakia "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ludek Pour, MD",
+            "author_affiliations": [
+                "Department of Internal Medicine, Hematology and Oncology, University Hospital Brno, Brno, Czech Republic "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexandra Jungova",
+            "author_affiliations": [
+                "Department of Hemato-Oncology, Charles University Hospital Pilsen, Pilsen, Czech Republic "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michal \u0160im\u00ed\u010dek",
+            "author_affiliations": [
+                "Department of Biology and Ecology, Faculty of Science, University of Ostrava, Ostrava, Czech Republic ",
+                "Department of Haematooncology, University Hospital Ostrava, Ostrava, Czech Republic ",
+                "Department of Clinical Studies, Faculty of Medicine, University of Ostrava, Ostrava, Czech Republic "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Giovanni Stracquadanio",
+            "author_affiliations": [
+                "School of Computer Science and Electronic Engineering, University of Essex, Colchester, United Kingdom"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Roman Hajek",
+            "author_affiliations": [
+                "Department of Haematooncology, University Hospital Ostrava, Ostrava, Czech Republic ",
+                "Department of Clinical Studies, Faculty of Medicine, University of Ostrava, Ostrava, Czech Republic "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-14T02:46:09",
+    "is_scraped": "1"
 }
