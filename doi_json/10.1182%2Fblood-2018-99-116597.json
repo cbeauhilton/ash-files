@@ -1,8 +1,245 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4045",
-    "start_url_page_num": "4045",
     "doi": "https://doi.org/10.1182/blood-2018-99-116597",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/723/266358/Data-Access-and-Interactive-Visualization-of-Whole?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T07:19:58",
-    "is_scraped": "0"
+    "article_title": "Data Access and Interactive Visualization of Whole Genome Sequence of Sickle Cell Patients within the St. Jude Cloud ",
+    "article_date": "November 29, 2018",
+    "session_type": "113. Hemoglobinopathies, Excluding Thalassemia\u2014Basic and Translational Science: Sickle Cell Disease\u2014Genomic, Gene Regulation, and Pain Mechanisms",
+    "abstract_text": "With the increase in availability of high depth whole genome sequencing (WGS) data of individuals with sickle cell disease (SCD), easy access to the raw sequencing data remains an issue due to technical and regulatory challenges. A compliant system that can provide facile data access would accelerate scientific discovery of genetic variants associated with clinical phenotypes. Cloud storage and computing provide an ultimate solution to this data access, which we have shown through the St. Jude Cloud (https://stjude.cloud) where over 5000 whole genome sequences for pediatric cancer patients are being shared in collaboration with DNANexus and Microsoft. Here we expand the St. Jude Cloud to sickle cell disease data through the Sickle Genome Project (SGP) Data Portal (https://pecan.stjude.org/permalink/sgp) to allow instantaneous raw data access (following data access committee approval), as well as visualization of genotype calls at individual level in a novel genome. The SGP WGS data was generated from 871 patients from St. Jude Children's Research Hospital (St. Jude) through the Sickle Cell Clinical Research and Intervention Program (SCCRIP, Pediatr Blood Cancer. 2018 May 24: e27228) and from Baylor College of Medicine (BCM). All study participants provided informed consent for genomic study and data sharing on IRB-approved research protocols. The SGP data portal will have multi-tiered access. All users will have access to a general heat map view which shows anonymized patient clinical values (e.g., fetal hemoglobin (HbF), mean corpuscular volume (MCV), hemoglobin concentration (Hb)) and relevant SCD modifying variants (e.g., Beta-globin locus, MYB, BCL11A, HBA). The GenomePaint bowser allows for viewing coding and noncoding variants. Displayed with each variant will be a visual indication of the median fetal hemoglobin values for patients homozygous for the reference allele, heterozygous, or homozygous for the alternative allele. The browser also displays erythroid specific DNA-accessibility and epigenetic marks and indicates variant that may disrupt erythroid specific transcription factor binding sites (GATA1 and BCL11A). For anonymization purposes, within the genome browser and heat map views, clinical values and the patients age will be binned into ranges when displayed as single or low count values. Lastly, the ProteinPaint tool (Zhang and Zhou, Nature Gen, Dec 29, 2015) will enable visualization and filtering of variants with reference to protein domain and amino acid sequence. To access processed data such as BAM and VCF files for downstream analyses, a user will be required to apply for access which will be adjudicated by a data access committee. Verified researchers will be granted access to clinical data in a manner consistent with the protocol specific informed consent documentation and protocol under which the sequencing was performed. This may include coded clinical and demographic data when specified by the research protocol and informed consent The SGP data set will be one of the first WGS datasets from primarily African American Sickle cell patients to be made available to clinicians and researchers worldwide. In addition, no SCD-centric data portal exists that contains controlled access to data and provides graphical tools for visual analysis. The combination of the visual tools and ability to download tools provides the scientific community an invaluable resource for studying sickle cell disease. Figure. View large Download slide Figure. View large Download slide  Close modal Disclosures Estepp: Daiichi Sankyo: Consultancy; NHLBI: Research Funding; Global Blood Therapeutics: Consultancy, Research Funding; ASH Scholar: Research Funding. Hankins: Global Blood Therapeutics: Research Funding; bluebird bio: Consultancy; NCQA: Consultancy; Novartis: Research Funding.",
+    "topics": [
+        "beta-globin",
+        "childhood cancer",
+        "dna",
+        "drepanocytes",
+        "fetal hemoglobin",
+        "genome",
+        "hematologic neoplasms",
+        "hemoglobin",
+        "mean corpuscular volume analyses",
+        "sickle cell anemia"
+    ],
+    "author_names": [
+        "Lance E. Palmer, PhD",
+        "Xin Zhou, PhD",
+        "Clay McLeod",
+        "Evadnie Rampersaud, PhD",
+        "Jeremie H. Estepp, MD",
+        "Xing Tang, PhD",
+        "Jian Wang",
+        "Edgar Siosan",
+        "J. Robert Michael",
+        "Kirby Birch",
+        "Jason R Hodges, PhD MA",
+        "Martha Villavicencio, PhD",
+        "Michael Rusch, BS",
+        "Scott Newman, PhD",
+        "Heather Mulder, BS",
+        "John Easton, PhD",
+        "Keith Perry",
+        "James R. Downing, MD",
+        "Jane S. Hankins, MD MS",
+        "Gang Wu, PhD",
+        "Jinghui Zhang",
+        "Mitchell J. Weiss, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Lance E. Palmer, PhD",
+            "author_affiliations": [
+                "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xin Zhou, PhD",
+            "author_affiliations": [
+                "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Clay McLeod",
+            "author_affiliations": [
+                "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Evadnie Rampersaud, PhD",
+            "author_affiliations": [
+                "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jeremie H. Estepp, MD",
+            "author_affiliations": [
+                "Department of Hematology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xing Tang, PhD",
+            "author_affiliations": [
+                "Department of Hematology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jian Wang",
+            "author_affiliations": [
+                "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Edgar Siosan",
+            "author_affiliations": [
+                "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "J. Robert Michael",
+            "author_affiliations": [
+                "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kirby Birch",
+            "author_affiliations": [
+                "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jason R Hodges, PhD MA",
+            "author_affiliations": [
+                "Department of Hematology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martha Villavicencio, PhD",
+            "author_affiliations": [
+                "Department of Hematology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Rusch, BS",
+            "author_affiliations": [
+                "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Scott Newman, PhD",
+            "author_affiliations": [
+                "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Heather Mulder, BS",
+            "author_affiliations": [
+                "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John Easton, PhD",
+            "author_affiliations": [
+                "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Keith Perry",
+            "author_affiliations": [
+                "Information Services, St. Jude Children's Research Hospital, Memphis, "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "James R. Downing, MD",
+            "author_affiliations": [
+                "Department of Pathology, St. Jude Children's Research Hospital, Memphis, TN"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jane S. Hankins, MD MS",
+            "author_affiliations": [
+                "Department of Hematology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gang Wu, PhD",
+            "author_affiliations": [
+                "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jinghui Zhang",
+            "author_affiliations": [
+                "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mitchell J. Weiss, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology, St. Jude Children's Research Hospital, Memphis, TN "
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-14T18:45:33",
+    "is_scraped": "1"
 }
