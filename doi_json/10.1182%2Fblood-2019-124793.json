@@ -1,8 +1,125 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4162",
-    "start_url_page_num": "4162",
     "doi": "https://doi.org/10.1182/blood-2019-124793",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/4666/428520/A-Fully-Automated-Measurement-of-Total-Metabolic?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T11:40:53",
-    "is_scraped": "0"
+    "article_title": "A Fully Automated Measurement of Total Metabolic Tumor Burden in Diffuse Large B-Cell Lymphoma and Follicular Lymphoma ",
+    "article_date": "November 13, 2019",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Introduction: Baseline total metabolic tumor volume (TMTV) from FDG-PET/CT scans has been shown to be prognostic for progression-free survival (PFS) in diffuse large B-cell lymphoma (DLBCL; Kostakoglu et al. Blood 2017) and follicular lymphoma (FL; Meignan et al. J Clin Oncol 2016). Fully automated TMTV measurements could increase reproducibility and enable results in real-time after a PET/CT scan. Although numerous methods for tumor segmentation on FDG PET images are published, they typically involve a manual step to identify a point within each tumor, performed by a trained reader, followed by semi-automatic identification of the tumor margins. To allow for rapid segmentation of whole body metabolic tumor burden, we developed a fully automated approach based on deep learning algorithms. Methods: An image processing pipeline was developed using FDG-PET/CT images from two large Phase III, multicenter trials, in first-line (1L) DLBCL (GOYA, NCT01287741, n=1418) and FL (GALLIUM, NCT01332968, n=1401). FDG-PET/CT scans were acquired according to a standardized imaging charter using a range of scanner models. Images were automatically preprocessed and used as inputs to cascaded 2D and region-specific 3D convolutional neural networks. The resulting tumor masks were then used for feature extraction. For simplicity, our prognostic analysis is limited to three variables: TMTV, number of identified lesions, and bulky disease (longest tumor diameter >7.5cm). For tumor segmentation, neural networks were trained on 2,266 scans from 1,133 patients in GOYA, and tested (out-of-sample) on 1,064 scans from 532 patients with evaluable baseline and end-of-treatment scans in GALLIUM. Manually directed, semi-automated tumor masks reviewed by board certified radiologists were used as ground truth for both training and testing. Based on the extracted tumor information, prognostic analyses for PFS were conducted on 1,139 evaluable pretreatment PET/CT scans from GOYA, and 541 patients from GALLIUM. Kaplan-Meier methodology was used for survival analysis, and a Cox proportional hazards (CPH) model was used for multivariate analysis. Results: From the out-of-sample validation step, the Dice Similarity Coefficient for the segmented tumor burden was 0.886, while the voxelwise sensitivity was 0.926. The lesion-level correlation between extracted and measured TMTV was 0.987. For PFS in the 1L DLBCL trial (GOYA), our calculated patient-level TMTV quartiles closely replicate the prognostic results of the semi-automated analysis reported by Kostakoglu et al. (Fig 1A, Table 1). A high lesion count above Q3 (>12 lesions [Fig 1B]) and bulky disease were also prognostic for PFS. To evaluate the prognostic value of the derived metrics, a simple risk score (RS) was constructed by considering the quantity: RS-DLBCL = \ud835\udfd9 (TMTV >330ml) + \ud835\udfd9 (nr. lesions \u226512) + \ud835\udfd9 (bulky disease >1), where \ud835\udfd9 (.) denotes the indicator function and 330ml is the median TMTV in GOYA. Multivariate CPH analysis verified the unique contribution of RS-DLBCL (p<0.0005) when added to the International Prognostic Index (IPI) score (p<0.01); derived from the multivariate model, the estimated HRs for RS-DLBCL are given in Table 2. In the 1L FL trial (GALLIUM), baseline TMTV >510mL was prognostic for PFS (HR, 1.59; p18 lesions) and bulky disease (Fig 1D) were also prognostic. Three-year PFS for patients with TMTV 510mL, it was 77.3% (71.3-83.7%). A RS for 1L FL was defined similarly as for DLBCL: RS-FL = \ud835\udfd9 (TMTV >510ml) + \ud835\udfd9 (nr. lesions >18) + \ud835\udfd9 (bulky disease). RS-FL (p<0.034) was significant when added to a CPH model with FLIPI (p<0.024). Estimated HRs for RS-FL after adjusting for FLIPI are given in Table 2. Conclusion: We present a novel approach for a fully automated whole body metabolic tumor burden segmentation on FDG-PET/CT scans for non-Hodgkin lymphoma patients. This method allows for the extraction of a range of tumor burden features from FDG-PET/CT. For example, TMTV, number of lesions, and bulky disease-features shown to be prognostic for PFS-in addition to known factors such as IPI/FLIPI. Our method is fast and produces a complete pt-level assessment in <5mins. Further development including clinical and biomarker covariates, and considering organ involvement, may yield better prognostic performance to identify pts who are likely to progress within 1-2 years. View large Download slide View large Download slide  Close modal Disclosures Jemaa: Genentech, Inc./F. Hoffmann-La Roche Ltd: Employment. Fredrickson: Genentech, Inc.: Employment; F. Hoffmann-La Roche Ltd: Equity Ownership. Coimbra: Genentech, Inc.: Employment. Carano: Genentech, Inc.: Employment; F. Hoffmann-La Roche Ltd: Equity Ownership. El-Galaly: Takeda: Other: Travel support; Roche: Employment, Other: Travel support. Knapp: F. Hoffmann-La Roche Ltd: Employment. Nielsen: F. Hoffmann-La Roche Ltd: Employment, Equity Ownership. Sahin: F. Hoffmann-La Roche Ltd: Employment, Equity Ownership. Bengtsson: Genentech, Inc.: Employment; F. Hoffmann-La Roche Ltd: Equity Ownership. de Crespigny: Genentech, Inc.: Employment; F. Hoffmann-La Roche Ltd: Equity Ownership.",
+    "topics": [
+        "diffuse large b-cell lymphoma",
+        "follicular lymphoma",
+        "neoplasms",
+        "fluorodeoxyglucose positron emission tomography",
+        "gallium",
+        "computed tomography",
+        "computed tomography/positron emission tomography imaging",
+        "biological markers",
+        "brachial plexus neuritis",
+        "diagnostic imaging"
+    ],
+    "author_names": [
+        "Skander Jemaa, MS",
+        "Jill Fredrickson, PhD",
+        "Alexandre Coimbra, PhD",
+        "Richard AD Carano, PhD",
+        "Tarec Christoffer C. El-Galaly, MD",
+        "Andrea Knapp, PhD",
+        "Tina G Nielsen, MD PhD",
+        "Deniz Sahin, BSc",
+        "Thomas Bengtsson, PhD",
+        "Alex de Crespigny, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Skander Jemaa, MS",
+            "author_affiliations": [
+                "Genentech, Inc., South San Francisco, CA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jill Fredrickson, PhD",
+            "author_affiliations": [
+                "Genentech, Inc., South San Francisco, CA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexandre Coimbra, PhD",
+            "author_affiliations": [
+                "Genentech, Inc., South San Francisco, CA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Richard AD Carano, PhD",
+            "author_affiliations": [
+                "Genentech, Inc., South San Francisco, CA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tarec Christoffer C. El-Galaly, MD",
+            "author_affiliations": [
+                "F. Hoffmann-La Roche Ltd, Basel, Switzerland"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrea Knapp, PhD",
+            "author_affiliations": [
+                "F. Hoffmann-La Roche Ltd, Basel, Switzerland"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tina G Nielsen, MD PhD",
+            "author_affiliations": [
+                "F. Hoffmann-La Roche Ltd, Basel, Switzerland"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Deniz Sahin, BSc",
+            "author_affiliations": [
+                "F. Hoffmann-La Roche Ltd, Basel, Switzerland"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Thomas Bengtsson, PhD",
+            "author_affiliations": [
+                "Genentech, Inc., South San Francisco, CA "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alex de Crespigny, PhD",
+            "author_affiliations": [
+                "Genentech, Inc., South San Francisco, CA "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-15T21:30:37",
+    "is_scraped": "1"
 }

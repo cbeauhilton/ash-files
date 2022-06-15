@@ -1,8 +1,156 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4162",
-    "start_url_page_num": "4162",
     "doi": "https://doi.org/10.1182/blood-2019-123970",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/3084/423531/Computational-Systems-Biology-Models-for-the?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T12:40:17",
-    "is_scraped": "0"
+    "article_title": "Computational Systems Biology Models for the Identification of Metabolic Vulnerabilities in Multiple Myeloma ",
+    "article_date": "November 13, 2019",
+    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
+    "abstract_text": "Multiple myeloma (MM) is a hematological malignancy characterized by an abnormal accumulation of clonal plasma cells in the bone marrow. MM heterogeneity is associated to the presence of different genomic and transcriptomic profiles that have a clear impact on the prognosis of the disease. Metabolism has been deeply studied in cancer research, unveiling several vulnerabilities in different tumors. However, information regarding the role of metabolism in the pathogenesis of MM has not been explored in detail. Previous studies from our group using Systems Biology approach, explained the essentiality of metabolic gene RRM1 in several MM cell lines. The aim of our current study was to identify metabolic vulnerabilities in MM based on the application of a system biology approach focus on metabolic networks and trascriptomic data from MM patients. Our hypothesis being that changes in the metabolic landscape of MM could be exploited to uncover novel targets for prognosis and treatment in MM patients. We have analyzed the strand specific RNA-seq data from 35 samples from different subpopulations of B cells (Na\u00efve, Centroblast, Centrocyte, Memory, Tonsilar and Bone Marrow Plasma cells (PCs)) and PCs of 37 MM patient samples. Using only the expression of 3287 metabolic genes included in Recon3D, the latest human metabolic reconstruction, we identified metabolic transcription patterns that clearly differentiate the different B cells from MM plasma cells ( Figure 1A ). MM samples were more similar to the normal PCs than to other B cells, which suggest that they maintain part of the metabolic pattern of the PCs, but in turn showed significant differences in the expression of metabolic genes. Interestingly, differential expression analysis of metabolic genes in MM PCs revealed a decrease in the expression of genes involved in mitochondrial activity and an increase in those that participate in metabolic proliferation, indicating that these alterations could probably play an important role in the development of this tumor. Using our novel systems biology approach, based on Recon3D and transcriptomic profiles, we predicted essential genes and synthetic lethals (involving two or more genes) that were specific for MM patients and not for the rest of the B cell subpopulations. Our approach makes use of the concept of genetic Minimal Cut Sets, previously introduced by our group in cancer research, which defines subsets of genes that if knocked out at the same time, induce a blockage of cellular proliferation. A metabolic vulnerability is found when only one gene is highly expressed in one of these gMCSs. We also analyzed the essentiality of these genes in more than 500 MM patients samples included in CoMMpass project and MM cell lines analyzed in Cancer Cell Line encyclopedia (CCLE). Using this computational strategy, we detected 8 essential genes involved in 42 gMCS specific for MM patients. From those candidates, GNPAT was our most promising target gene, as it was predicted to be essential for more than 40% of MM patients in our group, approximately 10% of patients of CoMMpass and in the majority of MM cell lines ( Figure 1B ). Validation of GNPAT expression and other 18 genes involved in the GNPAT gMCS was carried out by RT-qPCR showing similar results that were obtained with our RNA-seq data. Interestingly, the expression of the partner genes included in the GNPAT gMCS, such as DGK gene family, could also be indicators of the effectiveness of knocking-out, where their high expression is an indicator of resistance and their low expression an indicator of sensitivity. In conclusion, our findings suggest that our systems biology computational approach, driven by RNA-seq data, identifies metabolic vulnerabilities (defined as essential genes or synthetic lethal genes) providing pairs of new targets (essential gene) and their associated biomarkers (gMCS) in patients with MM. Figure 1: Metabolic genes expression analysis in human humoral immune response and MM patient samples. A) Standardized PCA result using the expression of metabolic genes included in Recon3D, in distinct subpopulations of B cells and MM samples. B) GNPAT gMCS showing the expression (in TPM) of GNPAT and associated 18 genes in MM cell lines. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Paiva: Amgen, Bristol-Myers Squibb, Celgene, Janssen, Merck, Novartis, Roche, and Sanofi; unrestricted grants from Celgene, EngMab, Sanofi, and Takeda; and consultancy for Celgene, Janssen, and Sanofi: Consultancy, Honoraria, Research Funding, Speakers Bureau. Melnick: Epizyme: Consultancy; KDAc Therapeutics: Membership on an entity's Board of Directors or advisory committees; Constellation Pharmaceuticals: Consultancy; Janssenn: Research Funding. San-Miguel: Amgen, Bristol-Myers Squibb, Celgene, Janssen, MSD, Novartis, Roche, Sanofi, and Takeda: Consultancy, Honoraria.",
+    "topics": [
+        "multiple myeloma",
+        "systems biology",
+        "photon correlation spectroscopy",
+        "portacaval shunt, surgical",
+        "precordial catch syndrome",
+        "rna",
+        "neoplasms",
+        "biological markers",
+        "discoid lupus erythematosus",
+        "hematologic neoplasms"
+    ],
+    "author_names": [
+        "Luis Vitores V. Valc\u00e1rcel, MSc",
+        "Raquel Ordo\u00f1ez, PhD",
+        "I\u00f1igo Apaolaza, MSc",
+        "Ana Valc\u00e1rcel",
+        "Leire Garate",
+        "Cem Meydan, PhD",
+        "Bruno Paiva, PhD",
+        "Ari M Melnick, MD",
+        "Jes\u00fas San-Miguel",
+        "Francisco J. Planes",
+        "Xabier Agirre, PhD",
+        "Felipe Prosper, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Luis Vitores V. Valc\u00e1rcel, MSc",
+            "author_affiliations": [
+                "Tecnun School of Engineering, University of Navarra, San Sebastian, Spain ",
+                "Hemato-oncology program, Centro de Investigaci\u00f3n M\u00e9dica Aplicada, IDISNA, University of Navarra, Pamplona, Spain ",
+                "Centro de Investigaci\u00f3n Biom\u00e9dica en Red de C\u00e1ncer, CIBERONC, Madrid, Spain "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Raquel Ordo\u00f1ez, PhD",
+            "author_affiliations": [
+                "Hemato-oncology program, Centro de Investigaci\u00f3n M\u00e9dica Aplicada, IDISNA, University of Navarra, Pamplona, Spain ",
+                "Centro de Investigaci\u00f3n Biom\u00e9dica en Red de C\u00e1ncer, CIBERONC, Madrid, Spain "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "I\u00f1igo Apaolaza, MSc",
+            "author_affiliations": [
+                "Tecnun School of Engineering, University of Navarra, San Sebastian, Spain "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ana Valc\u00e1rcel",
+            "author_affiliations": [
+                "Hemato-oncology program, Centro de Investigaci\u00f3n M\u00e9dica Aplicada, IDISNA, University of Navarra, Pamplona, Spain "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Leire Garate",
+            "author_affiliations": [
+                "Centro de Investigaci\u00f3n Biom\u00e9dica en Red de C\u00e1ncer, CIBERONC, Madrid, Spain ",
+                "Hematology-Oncology Program, Centro de Investigaci\u00f3n M\u00e9dica Aplicada (CIMA), IDISNA, Universidad de Navarra, Pamplona, Spain "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cem Meydan, PhD",
+            "author_affiliations": [
+                "Department of Medicine, Division of Hematology & Medical Oncology, Division of Hematology/Oncology, Dept. of Medicine, Weill Cornell Medical College, New York, NY "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bruno Paiva, PhD",
+            "author_affiliations": [
+                "Centro de Investigaci\u00f3n Biom\u00e9dica en Red de C\u00e1ncer, CIBERONC, Madrid, Spain ",
+                "Hematology Department, Cl\u00ednica Universidad de Navarra, University of Navarra, Pamplona, Spain ",
+                "CIMA Lab Diagnostics, University of Navarra, Pamplona, Spain ",
+                "Flow Cytometry Core, CIMA, University of Navarra, Pamplona, Spain "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ari M Melnick, MD",
+            "author_affiliations": [
+                "Department of Medicine, Division of Hematology & Medical Oncology, Division of Hematology/Oncology, Dept. of Medicine, Weill Cornell Medical College, New York, NY "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jes\u00fas San-Miguel",
+            "author_affiliations": [
+                "Centro de Investigaci\u00f3n Biom\u00e9dica en Red de C\u00e1ncer, CIBERONC, Madrid, Spain ",
+                "Hematology Department, Clinica Universidad de Navarra, CIMA, IDISNA, Pamplona, Spain "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Francisco J. Planes",
+            "author_affiliations": [
+                "Tecnun School of Engineering, University of Navarra, San Sebastian, Spain "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xabier Agirre, PhD",
+            "author_affiliations": [
+                "Centro de Investigaci\u00f3n Biom\u00e9dica en Red de C\u00e1ncer, CIBERONC, Madrid, Spain ",
+                "Hematology-Oncology Program, Centro de Investigaci\u00f3n M\u00e9dica Aplicada (CIMA), IDISNA, Universidad de Navarra, Pamplona, Spain "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Felipe Prosper, MD PhD",
+            "author_affiliations": [
+                "Centro de Investigaci\u00f3n Biom\u00e9dica en Red de C\u00e1ncer, CIBERONC, Pamplona, Spain ",
+                "Centro de Investigaci\u00f3n M\u00e9dica Aplicada, University of Navarra, Cl\u00ednica Universidad de Navarra, Pamplona, Spain ",
+                "Advanced Genomics Laboratory, Hemato-Oncology program, Centro de Investigaci\u00f3n M\u00e9dica Aplicada (CIMA), University of Navarra, Pamplona, Spain"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-15T21:33:18",
+    "is_scraped": "1"
 }
