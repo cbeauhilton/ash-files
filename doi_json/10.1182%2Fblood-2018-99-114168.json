@@ -1,8 +1,285 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4141",
-    "start_url_page_num": "4141",
     "doi": "https://doi.org/10.1182/blood-2018-99-114168",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/2890/263577/The-Engineered-MIPI-e-MIPI-a-Candidate-Data-Mining?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T11:17:48",
-    "is_scraped": "0"
+    "article_title": "The Engineered MIPI (e-MIPI), a Candidate Data-Mining Based Mantle Cell Lymphoma Prognostic Index Developed from the Dataset of the Fondazione Italiana Linfomi (FIL) MCL0208 Phase III Trial ",
+    "article_date": "November 29, 2018",
+    "session_type": "623. Mantle Cell, Follicular, and Other Indolent B-Cell Lymphoma\u2014Clinical Studies: Poster II",
+    "abstract_text": "Background and aims The amount of clinical and biological data stored within clinical trials is growing exponentially. Data warehousing (DW) is useful for systematic global evaluation of information collected in trials: the highly translational FIL(Fondazione Italiana Linfomi)-MCL0208 trial has been used to test DW to improve data quality and to discover putative associations [Zaccaria, ASH 17]. In this study we developed an engineered prognostic model, focusing on easily accessible clinical variables. For this purpose, we exploited hierarchical clustering with the aim of seeking hidden patterns of interest in large datasets. Hence, these tools allowed to develop a novel prognostic model: the engineered MIPI index (e-MIPI). Herein we present the first results, on baseline clinical characteristics: clustering analysis and definition of a signature of predictive variables construction of the e-MIPI to detect patients' risk of relapse comparison with known prognostic indexes for MCL validation of the signature on independent subset of patients. Methods Data were retrieved from electronic case report forms of the phase III, multicenter FIL-MCL0208 trial (NCT02354313) for younger MCL patients [Cortelazzo, EHA 15]. The study enrolled 300 subjects, with median followup of 51 months. In this work we employed baseline clinical data and May '18 as survival outcomes cut-off. For the present analysis, we started from 32 baseline features: 7 were not eligible due to number of missing values (MVs \u226540). Features with <15 MVs were imputed by median of observations. Secondly, 18 not binary variables were dichotomized, to be compared to the 7 binary ones: normal vs abnormal range or lower vs higher than a recognized cut-off value. Patients were thus split in 2 subsets, training (n=185) and validation (n=115): for the training set, only patients with no MVs were chosen. Clustering analysis was performed to discriminate different groups of patients. Thus, we applied a recursive feature reduction, according to regression modeling, to extrapolate a restricted signature predictive of both progression free survival (PFS) and overall survival (OS). Survival analyses were done according to e-MIPI classes via both multivariate Cox and Kaplan-Maier modeling. Therefore, the e-MIPI classification was compared to known prognostic models [Hoster, Blood 08]. Finally, the signature was tested on the validation set: if any variable of the e-MIPI was missing (MVs=36, 29 and 15 for albumin - alb, Ki67 and flowcytometric peripheral blood invasion - flowpb) data mining (K-nn) technique was employed for imputation. Clustering and statistical analyses were implemented via MATLAB \u00a9 and SPSS \u00a9 . Results Training set: the clustering analysis allowed to define 3 groups of subjects: C1 (n=71), C2 (n=77) and C3 (n=37), showing significantly different PFS and OS. Thus, the e-MIPI index was modeled based on a signature of 9 significant features (fig 1): histologic bone marrow infiltration (bminf), flowpb, Ki67, B symptoms, platelets (plts), ldh, white blood cells (wbc), hemoglobin (hb) and alb levels. The re-clustering of the training set according to the e-MIPI confirmed the original patients clustering with 83% of accuracy. Figure 2A depicts the PFS curves stratified for the e-MIPI: C1, C2 and C3 groups have been renamed as low (L), intermediate (I) and high (H) e-MIPI risk classes, respectively. Each comparison reached the statistical significancy: I vs L, p=0.010; H vs I, p=0.023, outperforming in our series both the MIPI-St (H vs I risk, p=0.801) and MIPI-Bio (I vs L risk, p=0.665, fig. 2B) classifications. Validation set: the e-MIPI allowed to discriminate 3 groups of subjects C1 (n=32), C2 (n=59) and C3 (n=24). Actually, the e-MIPI on the validation set (fig. 2C) confirmed the results of the training set, overall improving the MIPI-St stratification (H vs I, p=0.059 \u21d2 p=0.049), even if without reaching the statistical significancy on the I vs L comparison (p=0.24 \u21d2 p=0.15), due to the limited number of events in this series. Discussion e-Mipi is a new first prognostic index derived from hierarchical clustering. Our results indicate that this approach might allow to model engineered prognostic indexes based on comprehensive analysis of large datasets. Even if promising, it needs validation through its application to independent series of MCL patients. Additional efforts aiming at integrating biological variables in the model are ongoing. View large Download slide View large Download slide  Close modal Disclosures Gaidano: Amgen: Consultancy, Honoraria; Morphosys: Honoraria; Janssen: Consultancy, Honoraria; Gilead: Consultancy, Honoraria; Roche: Consultancy, Honoraria; AbbVie: Consultancy, Honoraria. Ladetto: Celgene: Honoraria; Sandoz: Honoraria; Jannsen: Honoraria; Roche: Honoraria; Abbvie: Honoraria; Acerta: Honoraria.",
+    "topics": [
+        "albumins",
+        "data mining",
+        "datasets",
+        "hemoglobin",
+        "ki-67 antigen",
+        "mantle-cell lymphoma",
+        "phase 3 clinical trials",
+        "imputation",
+        "predictor variable",
+        "recurrence risk"
+    ],
+    "author_names": [
+        "Gian Maria Zaccaria, PhD",
+        "Simone Ferrero, MD",
+        "Roberto Passera, PhD",
+        "Andrea Evangelista, PhD",
+        "Mariella Loschirico, MD",
+        "Irene Dogliotti, MD",
+        "Marco Ghislieri",
+        "Elisa Genuardi, PhD",
+        "Riccardo Bomben, PhD",
+        "Valter Gattei, MD",
+        "Giovannino Ciccone",
+        "Monica Tani, MD",
+        "Gianluca Gaidano, MD PhD",
+        "Stefano Volpetti, MD",
+        "Maria Giuseppina Cabras, MD",
+        "Nicola Di Renzo, MD",
+        "Francesco Merli, MD",
+        "Daniele Vallisa, MD",
+        "Michele Spina, MD",
+        "Anna Pascarella, MD",
+        "Giancarlo Latte, MD",
+        "Caterina Patti",
+        "Gabriele Pozzato, MD",
+        "Alberto Fabbri, MD",
+        "Sergio Cortelazzo, MD",
+        "Marco Ladetto"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Gian Maria Zaccaria, PhD",
+            "author_affiliations": [
+                "Department of Molecular Biotechnologies and Health Sciences, Hematology Division, University of Turin, Turin, Italy "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Simone Ferrero, MD",
+            "author_affiliations": [
+                "Department of Molecular Biotechnologies and Health Sciences, Hematology Division, University of Turin, Turin, Italy "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Roberto Passera, PhD",
+            "author_affiliations": [
+                "Division of Nuclear Medicine, Universit\u00e0 degli Studi di Torino, Turin, Italy "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrea Evangelista, PhD",
+            "author_affiliations": [
+                "Unit of Clinical Epidemiology and CPO, Citt\u00e0 della Salute e della Scienza, Turin, Italy "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mariella Loschirico, MD",
+            "author_affiliations": [
+                "Department of Molecular Biotechnologies and Health Sciences, Hematology Division, University of Turin, Turin, Italy "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Irene Dogliotti, MD",
+            "author_affiliations": [
+                "Department of Molecular Biotechnologies and Health Sciences, Hematology Division, University of Torino, Torino, Italy "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marco Ghislieri",
+            "author_affiliations": [
+                "Department of Electronics and Telecommunications, Politecnico di Torino, Turin, Italy "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elisa Genuardi, PhD",
+            "author_affiliations": [
+                "Department of Molecular Biotechnologies and Health Sciences, Hematology Division, University of Turin, Turin, Italy "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Riccardo Bomben, PhD",
+            "author_affiliations": [
+                "Clinical and Experimental Onco-Hematology Unit, IRCCS Centro Di Riferimento Oncologico, Aviano, Italy "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Valter Gattei, MD",
+            "author_affiliations": [
+                "Clinical and Experimental Onco-Hematology Unit, Centro Di Riferimento Oncologico, Aviano, Italy "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Giovannino Ciccone",
+            "author_affiliations": [
+                "Unit of Cancer Epidemiology, University of Torino and CPO Piemonte, A.O.U. Citt\u00e0 della Salute e della Scienza di Torino, Torino, Italy "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Monica Tani, MD",
+            "author_affiliations": [
+                "Hematology Unit, Santa Maria delle Croci Hospital, Ravenna, Italy "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gianluca Gaidano, MD PhD",
+            "author_affiliations": [
+                "Department of Translational Medicine, Amedeo Avogadro University of Eastern Piedmont, Novara, Italy "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stefano Volpetti, MD",
+            "author_affiliations": [
+                "Clinica Ematologica, Centro Trapianti e Terapie Cellulari \"C. Melzi\", DAME, Universit\u00e0 degli Studi, Udine, Italy "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maria Giuseppina Cabras, MD",
+            "author_affiliations": [
+                "Division of Hematology, Ospedale Oncologico Armando Businco, Cagliari, Italy "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nicola Di Renzo, MD",
+            "author_affiliations": [
+                "Hematology, Vito Fazzi Hospital, Lecce, Italy "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Francesco Merli, MD",
+            "author_affiliations": [
+                "Clinics and Public Health, Arcispedale S.Maria Nuova, University of Modena e Reggio Emilia, Hematology Division, Department of Diagnostic Medicine, Reggio Emilia, Italy "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniele Vallisa, MD",
+            "author_affiliations": [
+                "Division of Hematology, Guglielmo da Saliceto Hospital, Piacenza, Italy "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michele Spina, MD",
+            "author_affiliations": [
+                "Division of Medical Oncology, Nation Cancer Institute, Aviano, ITA "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anna Pascarella, MD",
+            "author_affiliations": [
+                "Division of Hematology, Azienda ULSS 3 Serenissima, Venezia Mestre, Italy "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Giancarlo Latte, MD",
+            "author_affiliations": [
+                "Unit\u00e0 di Ematologia e Trapianto di Midollo Osseo, Ospedale San Francesco, Nuoro, ITA "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Caterina Patti",
+            "author_affiliations": [
+                "Division of Hematology 1, Azienda Ospedali Riuniti Villa Sofia-Cervello, Palermo, Italy "
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gabriele Pozzato, MD",
+            "author_affiliations": [
+                "Department of Internal Medicine and Haematology, Maggiore General Hospital, University of Trieste, Trieste, ITA "
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alberto Fabbri, MD",
+            "author_affiliations": [
+                "Department of Oncology, Division of Hematology, Azienda Ospedaliera Universitaria Senese, Siena, Italy "
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sergio Cortelazzo, MD",
+            "author_affiliations": [
+                "Clinica Humanitas/Gavazzeni, Bergamo, Italy "
+            ],
+            "author_rank": 25,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marco Ladetto",
+            "author_affiliations": [
+                "Division of Hematology, Azienda Ospedaliera SS Antonio e Biagio e Cesare Arrigo, Alessandria, ITA"
+            ],
+            "author_rank": 26,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-15T15:44:02",
+    "is_scraped": "1"
 }
