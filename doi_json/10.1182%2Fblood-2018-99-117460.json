@@ -1,8 +1,159 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4153",
-    "start_url_page_num": "4153",
     "doi": "https://doi.org/10.1182/blood-2018-99-117460",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/4492/275434/Clustering-Analysis-of-Myeloma-Clone-Phenotype-Is?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T11:40:22",
-    "is_scraped": "0"
+    "article_title": "Clustering Analysis of Myeloma Clone Phenotype Is Informative for Disease Heterogeneity and Prognosis at Relapse ",
+    "article_date": "November 29, 2018",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster III",
+    "abstract_text": "Background: Multiple myeloma (MM) is a remitting-relapsing malignancy with variable clinical outcome. Certain cytogenetic abnormalities, either present at diagnosis or emerged at later stages, predict for poor outcome and highlight the clinical importance of MM genetic heterogeneity. Whole genome and exome sequencing studies reveal a complex intraclonal genetic landscape, organised in linear and branching Darwinian patterns, which evolves in space and time. Clones with a more complex genetic architecture may be more fit to escape treatment and those patients are likely to have a worse clinical outcome. Clinical multicolour flow cytometry (MFC) is routinely used in MM diagnosis and detection of minimal residual disease. Previous studies have shown that MM cell subpopulations with discrete phenotypic features correspond to genetic subclones, therefore it is plausible that MFC data captures clonal heterogeneity. On that basis, we propose that clustering analysis of MM phenotypic subpopulations could be clinically relevant. Methods: We retrospectively analysed clinical MCF data at diagnosis from 44 patients eligible for autologous stem cell transplantation (AutoSCT) and 14 ineligible patients and data from 52 relapsed patients after first AutoSCT. All patients were treated between 2012 - 2018. The 8-colour MCF marker panel included CD138, CD38, CD56, CD45, CD20, CD19, cytoplasmic kappa and lambda light chains (cytLC). Data was analysed in FlowJo software and MM plasma cells were identified as CD38high, CD19-, cytLC+, within their FSC-A/SSC-A physical gate. The gated events were exported in a new fcs file. Clustering analysis was performed in Cytofkit, a R-based Bioconductor package, using the Rphenograph, Cluster-X and FlowSOM algorithms. All fcs files were subjected in the same clustering analysis, but CD56 positive and CD56 negative cases were analysed separately to offset bias from differential CD56 expression. Parameters inserted in the algorithms were FSC-A, CD138, CD38, CD45, CD20 and CD56. The number of clusters was produced by FlowSOM (k=4) and only clusters with size >1% of the total events were accepted. Results: At diagnosis, FlowSOM identified 1 (n=32, 56.1%) or 2 clusters (n=19, 33.3%) in most cases. Three clusters were found only in 5 patients (8.8%) and 4 clusters in 1 patient (1.8%). The number of clusters at diagnosis did not correlate with cytogenetic risk group or ISS. Also, the number of clusters did not predict for depth of response or relapse free survival post AutoSCT. On the contrary, phenotypic patterns at relapse post AutoSCT were more complex, with 1 cluster identified in 2 patients only (3.8%), 2 clusters in 23 (44.2%), 3 clusters in 24 (46.2%) and 4 clusters in 3 patients (5.8%). Patients with >2 clusters (n=27) had a shorter survival post relapse (median 17 months - 95% CI, 7-26.6) compared to those (n=25) with 1-2 phenotypic clusters (median not reached, Log rank p=0.06). A phenotypic cluster characterised by CD138low/- at relapse, was also associated with adverse outcome and higher risk cytogenetics. In 14 patients with available serial samples at diagnosis and relapse we observed 3 patterns of phenotypic evolution: a. sustained pattern, b. change of dominant cluster and c. emergence of completely new subpopulations. These evolving phenotypes resemble changes in clonal composition over time observed in genetic studies. Conclusion: Clinical MCF, in addition to routine diagnostics, can be informative of MM biological and clinical heterogeneity. Particularly in the relapsed setting, complex phenotypic patterns identified by clustering analysis may be of prognostic value. Validation of this preliminary study results in larger patient cohorts or clinical trials, could provide a useful and readily available tool for patient stratification and prognosis. Disclosures Apperley: Novartis: Honoraria, Research Funding, Speakers Bureau; Pfizer: Honoraria, Speakers Bureau; BMS: Honoraria, Speakers Bureau; Incyte: Honoraria, Speakers Bureau. Karadimitris: Celgene: Research Funding; GSK: Research Funding; Gilead: Honoraria.",
+    "topics": [
+        "clone cells",
+        "heterogeneity",
+        "multiple myeloma",
+        "phenotype",
+        "cd56 antigens",
+        "neural cell adhesion molecules",
+        "cd19 antigens",
+        "cd20 antigens",
+        "cd45 antigens",
+        "autologous stem cell transplant"
+    ],
+    "author_names": [
+        "Syeda Maheen Ahsan",
+        "Elisabet Nadal-Melsio, MD",
+        "Mark E Robinson, PhD",
+        "Richard Syzdlo, PhD",
+        "Eva Yebra-Fernandez, MD",
+        "Holger W Auner, MD PhD",
+        "Maria Atta, MD",
+        "Marco Bua, MD",
+        "Farah O'Boyle, PhD",
+        "Kikkeri Naresh",
+        "Jane Apperley, MB ChB MD",
+        "Anastasios Karadimitris, FRCPath, PhD",
+        "Aristeidis Chaidos, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Syeda Maheen Ahsan",
+            "author_affiliations": [
+                "Centre for Haematology, Department of Medicine, Imperial College London, London, United Kingdom "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elisabet Nadal-Melsio, MD",
+            "author_affiliations": [
+                "Department of Haematology, Hammersmith Hospital, Imperial College Healthcare NHS Trust, London, United Kingdom "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mark E Robinson, PhD",
+            "author_affiliations": [
+                "Centre for Haematology, Department of Medicine, Imperial College London, London, United Kingdom "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Richard Syzdlo, PhD",
+            "author_affiliations": [
+                "Centre for Haematology, Department of Medicine, Imperial College London, London, United Kingdom "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eva Yebra-Fernandez, MD",
+            "author_affiliations": [
+                "Department of Haematology, Hammersmith Hospital, Imperial College Healthcare NHS Trust, London, United Kingdom "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Holger W Auner, MD PhD",
+            "author_affiliations": [
+                "Centre for Haematology, Department of Medicine, Imperial College London, London, United Kingdom ",
+                "Department of Haematology, Hammersmith Hospital, Imperial College Healthcare NHS Trust, London, United Kingdom "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maria Atta, MD",
+            "author_affiliations": [
+                "Department of Haematology, Hammersmith Hospital, Imperial College Healthcare NHS Trust, London, United Kingdom "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marco Bua, MD",
+            "author_affiliations": [
+                "Department of Haematology, Hammersmith Hospital, Imperial College Healthcare NHS Trust, London, United Kingdom "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Farah O'Boyle, PhD",
+            "author_affiliations": [
+                "Department of Haematology, Hammersmith Hospital, Imperial College Healthcare NHS Trust, London, United Kingdom "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kikkeri Naresh",
+            "author_affiliations": [
+                "Department of Medicine, Imperial College London, London, United Kingdom "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jane Apperley, MB ChB MD",
+            "author_affiliations": [
+                "Centre for Haematology, Department of Medicine, Imperial College London, London, United Kingdom ",
+                "Department of Haematology, Hammersmith Hospital, Imperial College Healthcare NHS Trust, London, United Kingdom "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anastasios Karadimitris, FRCPath, PhD",
+            "author_affiliations": [
+                "Centre for Haematology, Department of Medicine, Imperial College London, London, United Kingdom ",
+                "Department of Haematology, Hammersmith Hospital, Imperial College Healthcare NHS Trust, London, United Kingdom "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aristeidis Chaidos, MD PhD",
+            "author_affiliations": [
+                "Department of Haematology, Hammersmith Hospital, Imperial College Healthcare NHS Trust, London, United Kingdom ",
+                "Centre for Haematology, Department of Medicine, Imperial College London - Centre for Haematology, London, United Kingdom"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-15T18:42:40",
+    "is_scraped": "1"
 }

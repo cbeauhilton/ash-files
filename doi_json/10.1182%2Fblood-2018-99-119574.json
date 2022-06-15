@@ -1,8 +1,205 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4145",
-    "start_url_page_num": "4145",
     "doi": "https://doi.org/10.1182/blood-2018-99-119574",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/1911/261661/Computational-Modelling-of-Multiple-Myeloma?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T11:18:00",
-    "is_scraped": "0"
+    "article_title": "Computational Modelling of Multiple Myeloma Patient Genomic Signatures to Predict Treatment Outcome ",
+    "article_date": "November 29, 2018",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Poster I",
+    "abstract_text": "Background : Multiple myeloma (MM) is characterized by the invasion of malignant plasma cells into the bone marrow. While first line treatment options result in significant clinical benefit to patients, spatiotemporal clonal evolution results in disease relapse and mortality. Advances in genomics have armed clinicians with unprecedented insight into the molecular architecture of MM cells, however, the clinical benefit derived by genomics-guided intervention has been limited. We present a novel computational biology modelling (CBM) tool, which takes into account the combined effect of individual mutations, gene copy number abnormalities and large scale chromosomal changes in order to predict the salient molecular pathways utilized by the MM cell for survival. By reverse-engineering MM cell architecture in silico , the CBM tool is able to predict drug response and resistance mechanisms. Thus, our aim was to determine the accuracy of the CBM tool in predicting treatment response of relapsed/refractory MM patients for future management of their disease, in a more individualized manner. Methods : Cytogenetics and somatic mutations (by targeted NGS) for 15 MM patients were input into the CBM model to predict responses to different therapeutic combinations. All patients were relapsed to prior treatment. CBM uses PubMed and other online resources to generate patient-specific protein network maps of activated and inactivated disease pathways. We simulated the specific combinations of the drugs per patient and measured the quantitative drug effect on a composite MM disease inhibition score (i.e., cell proliferation, viability, apoptosis and paraproteins). The actual clinical outcome of the treatments was compared with predicted outcomes. Results : Fifteen patients were analysed using CBM for prediction of treatment response after NGS was performed. 13/15 were clinically evaluable, of which 1 was a responder and 12 were non-responder. 6/13 patients were treated on clinical trial and 7/13 were on drug combinations per physician decision. CBM correctly predicted 1 responder and 11 non-responder with a PPV of 50%, NPV 100%, specificity 91.67%, sensitivity 100%. The accuracy of CBM prediction was 92.30%. CBM also predicted the response of prior drug therapies for its non-response at relapse. For prior drug treatment options, 14 patients were evaluable. All the 14 patients were clinically non-responders and CBM correctly predicted for 13 patients with NPV 100%, Specificity 92.85% and overall accuracy of 92.85%. The majority of patients did not respond to therapies recommended at relapse. As an example, the operative molecular pathways from 2 patients who did not respond to combination treatment, either pre-NGS or post-NGS profiling, are shown in Fig. 1 and Table 1. CBM identified amplification (AMP) of chromosome (chr) 1 ( WNT3A, IL6R, CKS1B, MCL1, PIK3C2B, USF1 ), chr 3 ( HES1, PIK3CA, CTNNB1, WNT7A, FANCD2 ), chr 5 ( IL6ST, IRF1, GLRX, SKP2 ), chr 7 ( CDK5, EZH2, IL6, CAV1, ABCB1 ), chr 9 ( NOTCH1, HSPA5, FANCC, FANCG ), chr 15 ( DLL4, FANCI, ALDH1A2 ), chr 19 ( ERCC1, ERCC2, USF2 ); deletion(DEL) of chr 13 ( CUL4A ) , chr 16 ( AXIN1, CDH1 ) and TP53 mutation in different combinations, which confer resistance to therapies at relapse. Conclusions: The CBM technology represents a potential means to identify therapeutic options for MM patients based on the patients individual tumor-genome profile and which can also be deployed for uncovering drug resistance mechanisms. This tool may aid clinicians in decision making for recommending the most appropriate therapy based on standard of care agents or clinical trials; thus improving patient outcomes and reducing unnecessary costs or drug-related toxicities. View large Download slide View large Download slide  Close modal Disclosures Singh: Cellworks Research India Private Limited: Employment. Sauban: Cellworks Research India Private Limited: Employment. Husain: Cellworks Research India Private Limited: Employment. Kumar: Cellworks Research India Private Limited: Employment. Kumari: Cellworks Research India Private Limited: Employment. Tyagi: Cellworks Research India Private Limited: Employment. Abbasi: Cell Works Group Inc.: Employment. Vali: Cell Works Group Inc.: Employment. Ailawadhi: Pharmacyclics: Research Funding; Takeda: Consultancy; Celgene: Consultancy; Amgen: Consultancy; Janssen: Consultancy.",
+    "topics": [
+        "computer simulation",
+        "genome",
+        "multiple myeloma",
+        "treatment outcome",
+        "massively-parallel genome sequencing",
+        "pharmacotherapy",
+        "beta catenin",
+        "cyclin-dependent kinase 5",
+        "drug combinations",
+        "e-cadherin"
+    ],
+    "author_names": [
+        "Aneel Paulus, MD",
+        "Prachi Jani, MD",
+        "Salman Ahmed, MD",
+        "Sonikpreet Aulakh, MD",
+        "Alak Manna, PhD",
+        "Neeraj Kumar Singh, B.Tech",
+        "Mohammed Sauban, B.E",
+        "Zakir Husain, M.Tech",
+        "Ansu Kumar, M.Sc.",
+        "Pallavi Kumari, M.Sc.",
+        "Anuj Tyagi, M.Sc.",
+        "Taimur Sher, MD",
+        "Rami Manochakian, MD",
+        "Vivek Roy, MD",
+        "Taher Abbasi, MS, MBA",
+        "Shireen Vali, PhD",
+        "Asher A. Chanan-Khan, MD",
+        "Sikander Ailawadhi"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Aneel Paulus, MD",
+            "author_affiliations": [
+                "Department of Cancer Biology, Mayo Clinic, Jacksonville, FL "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Prachi Jani, MD",
+            "author_affiliations": [
+                "Division of Hematology-Oncology, Mayo Clinic, Jacksonville, FL "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Salman Ahmed, MD",
+            "author_affiliations": [
+                "Division of Hematology-Oncology, Mayo Clinic, Jacksonville, FL "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sonikpreet Aulakh, MD",
+            "author_affiliations": [
+                "Division of Hematology-Oncology, Mayo Clinic, Jacksonville, FL "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alak Manna, PhD",
+            "author_affiliations": [
+                "Department of Cancer Biology, Mayo Clinic, Jacksonville, FL "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Neeraj Kumar Singh, B.Tech",
+            "author_affiliations": [
+                "Cellworks Research India Private Limited, Bangalore, India "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mohammed Sauban, B.E",
+            "author_affiliations": [
+                "Cellworks Research India Pvt. Ltd, Bangalore, India "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Zakir Husain, M.Tech",
+            "author_affiliations": [
+                "Cellworks Research India Private Limited, Bangalore, India "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ansu Kumar, M.Sc.",
+            "author_affiliations": [
+                "Cellworks Research India Private Limited, Bangalore, India "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pallavi Kumari, M.Sc.",
+            "author_affiliations": [
+                "Cellworks Research India Private Limited, Bangalore, India "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anuj Tyagi, M.Sc.",
+            "author_affiliations": [
+                "Cellworks Research India Private Limited, Bangalore, India "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Taimur Sher, MD",
+            "author_affiliations": [
+                "Division of Hematology-Oncology, Mayo Clinic, Jacksonville, FL "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rami Manochakian, MD",
+            "author_affiliations": [
+                "Division of Hematology-Oncology, Mayo Clinic, Jacksonville, FL "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vivek Roy, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Jacksonville, FL "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Taher Abbasi, MS, MBA",
+            "author_affiliations": [
+                "Cell Works Group Inc., Irvine, CA "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shireen Vali, PhD",
+            "author_affiliations": [
+                "Cell Works Group Inc., Irvine, CZ"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Asher A. Chanan-Khan, MD",
+            "author_affiliations": [
+                "Division of Hematology-Oncology, Mayo Clinic, Jacksonville, FL "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sikander Ailawadhi",
+            "author_affiliations": [
+                "Division of Hematology-Oncology, Mayo Clinic, Jacksonville, FL "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-15T18:36:58",
+    "is_scraped": "1"
 }
