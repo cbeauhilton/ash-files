@@ -1,8 +1,95 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4089",
-    "start_url_page_num": "4089",
     "doi": "https://doi.org/10.1182/blood-2018-99-113683",
-    "url": "https://ashpublications.org/blood/article/132/Supplement 1/469/262173/Integrating-Phosphoproteomics-and-Transcriptional?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T08:49:20",
-    "is_scraped": "0"
+    "article_title": "Integrating Phosphoproteomics and Transcriptional Classifiers Reveals \"Hidden Signaling\" in Multiple Myeloma Including Differential KRAS and NRAS Mutant Effects ",
+    "article_date": "November 29, 2018",
+    "session_type": "651. Myeloma: Biology and Pathophysiology, excluding Therapy: Genomic Analysis of Dysregulated Cellular Signaling and Mechanisms of Drug Resistance in Myeloma",
+    "abstract_text": "Introduction: Multiple myeloma (MM) is a complex disease that requires a sophisticated treatment strategy. Currently, no kinase inhibitors have been approved for MM despite their potential for supplementing current combination therapies. Previous functional studies have explored kinase dependency in MM by either a small molecule inhibitor library (Dhimolea et al. 2014 ASH) or RNA interference (Tiedemann et al. 2010, Blood 115:1594). However, owing to their off-target effects, these approaches are imprecise at dissecting signaling networks driving MM growth and survival. Here, we aim to improve diagnostic and prognostic measures and recommend small molecule-based treatments for MM patients by identifying vulnerable signaling patterns in disease using integrated transcriptome- and phosphoproteome-based predictive models. Methods: We employed two methods for measuring cellular signaling activity within a tumor sample. The first involves an unbiased phosphoproteome profiling of eight human myeloma cell lines (HMCL) in biological triplicates. Cells were lysed and digested with trypsin prior to enrichment for phosphorylated peptides by Fe 3+ -IMAC. Samples were analyzed on a Thermo Q-Exactive Plus mass spectrometer and data processed in MaxQuant to identify and quantify phosphorylation sites. To infer relative kinase activities, we applied kinase set enrichment analysis (KSEA). Drug screening was performed in 384-well plates with CellTiter-Glo as viability readout as previously described (Lam et al. 2018, Haematologica 103:1218). For transcriptome analysis, we implemented the gene expression-based signaling pathway prediction model called PROGENy (Schubert et al. 2018, Nat Comm. 9:20). We applied PROGENy to RNAseq data on 64 MM cell lines (www.keatslab.org) as well as plasma cells from >1000 patients in the MMRF CoMMpass study (research.themmrf.org). Furthermore, using our recently described approach (Way et al. 2018, Cell Rep. 23:172), we built a machine learning classifier to predict RAS genotype from the transcriptomic profiles of MM patients. A tenth of the data set was withheld for testing while the rest was used to train the multiclass logistic regression classifier with sparse penalty. Results: We measured the KSEA-predicted activities of 297 kinases across eight tested MM cell lines. Initially, we were surprised to find high predicted activity in the Ras signaling pathway for KRAS -codon 12 mutant cell lines but low predicted activity in NRAS -mutant cell lines ( Fig. A : AMO1 harbors a non-canonical KRAS mutation at codon 146). We further explored this finding with our machine learning-based Ras classifier built on transcriptional data in the CoMMpass study. We identified 311, 405, and 390 genes whose expressions are characteristic of the WT RAS , KRAS mutant, and NRAS mutant genotype, respectively, with surprisingly limited overlap between KRAS and NRAS transcriptional signatures. Building on our KSEA analysis, we next performed a kinase inhibitor screen to evaluate the predictive value of the inferred kinase activities for drug sensitivity. Of 12 screened compounds, mTOR inhibitor INK128 displayed the strongest correlation between drug response and predicted kinase activity. Furthermore, we probed the potential of using pathway activity signatures as prognostic and therapeutic markers. To this end, we applied PROGENy to RNAseq data derived from CoMMpass patients and found that the MAPK signature stratifies patient survival with statistical significance, while the presence and absence of RAS mutations carry no prognostic value ( Fig. B ). Finally, by integrating RNAseq and drug screen data from the Cancer Dependency Map, we identified three compounds whose inhibitory effects strongly correlate with MAPK activity scores while no significant difference in drug sensitivity was detected between RAS WT and mutants. Conclusion: Both phosphoproteomics and a machine learning-based transcriptional classifier highlight a striking difference in the pattern of signaling between NRAS and KRAS mutants. In addition, we have demonstrated that PROGENy scores possess clinical value for prognostic and therapeutic use based on patient transcriptome data. Taken together, uncovering the cellular signaling networks dysregulated in MM may lead to improved precision medicine, particularly in stratifying patients who may benefit most from kinase inhibitor therapy. Figure. View large Download slide Figure. View large Download slide  Close modal Disclosures Wiita: TeneoBio: Research Funding; Sutro Biopharma: Research Funding.",
+    "topics": [
+        "k-ras oncogene",
+        "kras2 gene",
+        "multiple myeloma",
+        "signal transduction",
+        "transcription, genetic",
+        "phosphotransferases",
+        "kinase inhibitors",
+        "drug screening",
+        "mitogen-activated protein kinases",
+        "cancer"
+    ],
+    "author_names": [
+        "Yu-Hsiu T. Lin, BA",
+        "Gergory P. Way, PhD",
+        "Margarette C. Mariano, MS",
+        "Makeba Marcoulis, BA",
+        "Ian Ferguson, BA",
+        "Casey S. Greene, PhD",
+        "Arun P Wiita, MD, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Yu-Hsiu T. Lin, BA",
+            "author_affiliations": [
+                "Laboratory Medicine, University of California San Francisco, Berkeley, CA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gergory P. Way, PhD",
+            "author_affiliations": [
+                "Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, PA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Margarette C. Mariano, MS",
+            "author_affiliations": [
+                "Department of Laboratory Medicine, University of California San Francisco, San Francisco, CA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Makeba Marcoulis, BA",
+            "author_affiliations": [
+                "Laboratory Medicine, University of California San Francisco, San Francisco, CA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ian Ferguson, BA",
+            "author_affiliations": [
+                "Department of Laboratory Medicine, University of California San Francisco, San Francisco, CA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Casey S. Greene, PhD",
+            "author_affiliations": [
+                "Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, PA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Arun P Wiita, MD, PhD",
+            "author_affiliations": [
+                "Department of Laboratory Medicine, University of California San Francisco, San Francisco, CA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-15T06:37:25",
+    "is_scraped": "1"
 }
