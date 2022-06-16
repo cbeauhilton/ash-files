@@ -1,8 +1,136 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4203",
-    "start_url_page_num": "4203",
     "doi": "https://doi.org/10.1182/blood-2019-130977",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/574/426411/Integrative-Analysis-of-FISH-Transcriptomics-and?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T14:40:32",
-    "is_scraped": "0"
+    "article_title": "Integrative Analysis of FISH, Transcriptomics and Mutational Status Predicts Responsiveness to Novel Agents in Multiple Myeloma ",
+    "article_date": "November 13, 2019",
+    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
+    "abstract_text": "Introduction Despite continuous improvement of clinical outcome in multiple myeloma (MM), disease relapse remains a major challenge, leading to progressively shorter remissions and fewer treatment options. Strategies attempting to counteract this challenge include recent efforts resulting in an increase in the availability of novel promising anti-MM agents and targeting specific genetic profiles of the disease. In this context, we aim to develop predictive models of sensitivity and resistance to novel compounds by connecting an ex vivo high-throughput drug screen with genetic, transcriptomics, FISH, and clinical features. Methods Twenty compounds (afatinib, afuresertib, belinostat, buparlisib, cobimetinib, CPI-0610, crenolanib, dinaciclib, dovitinib, JQ1, LGH447, osimertinib, OTX015, panobinostat, romidepsin, selinexor, sunitinib, trametinib, venetoclax, and vorinostat) were selected based on overall promising anti-MM activity from an ex vivo high throughput drug screen with a panel of 79 single agents incubated for 24 hours. The area under the curve (AUC) was used to rank order the ex vivo responses for each compound and the lowest and highest quartile samples were identified for further analysis. Clinical data and FISH data, including t(11;14), t(4;14), t(14;16), del(17p), +1q, monosomy 13, and MYC rearrangement, were collected. Targeted DNA sequencing was performed using a 2.3 Mb custom capture panel covering 139 MM-relevant genes. mRNA-sequencing was performed and differential gene expression analysis in the highest and lowest quartile identified subsets of markers positively and negatively associated with the AUC response for a given compound. An additional unbiased selection of markers using lasso techniques was performed, resulting in predictive generalized linear models (GLM) for each agent. Responses from the remaining intermediate samples were estimated with the predictive models, with overall predictive ability assessed by correlating predicted AUCs with their actual counterparts. Results Our integrative analysis was performed on 50 primary patient samples (36% untreated and 64% relapsed MM). Venetoclax, dinaciclib, romidepsin, panobinostat, osimertinib, belinostat and selinexor were the most active compounds in the cohort. Interestingly, LGH447, dovitinib, selinexor, JQ1, OTX-015, cobimetinib, and trametinib showed increased activity in relapsed MM when compared to untreated samples (Wilcoxon Test; p<0.05). We generated GLMs using an average of 92 markers (range 64-107) per compound, combining mRNA-sequencing expression with FISH and mutation data. The analysis proposed in the present study was validated through the unbiased selection of BCL2 among the subset of markers included in the GLM predicting sensitivity to venetoclax, a first-in-class orally bioavailable selective BCL2 inhibitor. Expression level of critical NF-kB and cell cycle genes, such as BIRC3 , CKS1B , PAX5 , NFKB2 , and CCND2 , were included in 60% of our predictive models. Mutations of DNA repair genes ( ATM, TP53 ) were included in the GLMs of three epigenetic therapies, one histone deacetylase inhibitor and two BET inhibitors, associated to ex vivo resistance to the drugs. The presence of monosomy 13 was also a marker for ex vivo resistance for five epigenetic therapies, four HDAC inhibitors and one BET inhibitor. The three BET inhibitors, JQ1, CPI-0610, and OTX015, were among the compounds most accurately predicted by our integrative approach, with Spearman correlation values between 0.773-0.858. Overall, our models accurately predicted the ex vivo response for 16 (80%) of the compounds (r>0.7). Five (25%) of these compounds displayed a remarkably accurate prediction model in both training (highest and lowest quartiles) and validation (intermediate quartiles) samples (r>0.8). Conclusions The GLM data integration approach enabled the establishment of effective predictive models, identifying FISH, transcriptomics, and mutations of putative driver genes important in anti-MM agent responsiveness. In addition, the resulting dataset is promising for future research focusing on the discovery of novel mechanisms of action and establishing markers of sensitivity and resistance to novel compounds. We are currently increasing our dataset and seek to create an omnibus approach that predicts responses to multiple anti-MM agents simultaneously. Disclosures Bergsagel: Celgene: Consultancy; Ionis Pharmaceuticals: Consultancy; Janssen Pharmaceuticals: Consultancy. Stewart: Amgen: Consultancy, Research Funding; Bristol Myers-Squibb: Consultancy; Celgene: Consultancy, Research Funding; Ionis: Consultancy; Janssen: Consultancy, Research Funding; Oncopeptides: Consultancy; Ono: Consultancy; Roche: Consultancy; Seattle Genetics: Consultancy; Takeda: Consultancy.",
+    "topics": [
+        "multiple myeloma",
+        "selinexor",
+        "venetoclax",
+        "bcl-2 protein",
+        "belinostat",
+        "cobimetinib",
+        "drug screening",
+        "histone deacetylase inhibitors",
+        "osimertinib",
+        "panobinostat"
+    ],
+    "author_names": [
+        "Cecilia Bonolo De Campos, PhD",
+        "Caleb K Stein, PhD",
+        "Nathalie Meurice, PhD",
+        "Laura Ann Bruins, BS",
+        "Joachim L Petit, PhD",
+        "Alysia N Polito, BS",
+        "Gregory J Ahmann, BS",
+        "Shulan Tian, MS, PhD",
+        "P. Leif Bergsagel, MD",
+        "Esteban Braggio, PhD",
+        "A. Keith Stewart, MB, ChB"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Cecilia Bonolo De Campos, PhD",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, Mayo Clinic, Scottsdale, AZ "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Caleb K Stein, PhD",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, Mayo Clinic, Scottsdale, AZ "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nathalie Meurice, PhD",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, Mayo Clinic, Scottsdale, AZ "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laura Ann Bruins, BS",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, Mayo Clinic, Scottsdale, AZ "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joachim L Petit, PhD",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, Mayo Clinic, Scottsdale, AZ "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alysia N Polito, BS",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, Mayo Clinic, Scottsdale, AZ "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gregory J Ahmann, BS",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, Mayo Clinic, Scottsdale, AZ "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shulan Tian, MS, PhD",
+            "author_affiliations": [
+                "Department of Health Science Research, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "P. Leif Bergsagel, MD",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, Mayo Clinic, Scottsdale, AZ "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Esteban Braggio, PhD",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, Mayo Clinic, Scottsdale, AZ "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "A. Keith Stewart, MB, ChB",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, Mayo Clinic, Scottsdale, AZ ",
+                "Center for Individualized Medicine, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-16T09:38:27",
+    "is_scraped": "1"
 }

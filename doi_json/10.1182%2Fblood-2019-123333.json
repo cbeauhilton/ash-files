@@ -1,8 +1,75 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4203",
-    "start_url_page_num": "4203",
     "doi": "https://doi.org/10.1182/blood-2019-123333",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/510/426417/Interaction-of-Plasmacytoid-Dendritic-Cells-and?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T14:40:32",
-    "is_scraped": "0"
+    "article_title": "Interaction of Plasmacytoid Dendritic Cells and Myeloma Cells Trigger Tumor Promoting Transcriptional Changes in Multiple Myeloma Cells ",
+    "article_date": "November 13, 2019",
+    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
+    "abstract_text": "Introduction We have previously shown that increased numbers of plasmacytoid dendritic cells (pDCs) in bone marrow (BM) of multiple myeloma (MM) patients promote tumor cell growth, survival, and drug resistance; as well as suppress T and NK cell mediated anti-MM immunity (Chauhan et al, Cancer Cell 2009, 16:309-323; Ray et al, Leukemia 2015, 29:1441-1444). Here, we analyzed genetic changes in MM cells triggered by coculture with pDCs using next generation sequencing (NGS). Functional validation of NGS data was performed in our coculture models of pDC-T-MM cells to assess impact on tumor cell surface phenotype, growth, survival, and drug resistance; as well as cytotoxic T lymphocyte (CTL) activity against MM. We identified and validated the metabolic ectoenzyme CD73/NT5E, implicated in cancer metabolism and immunosuppression via nucleotide degradation pathway, as a novel therapeutic target in MM. Methods Purified MM patient pDCs were cocultured with autologous MM cells or allogeneic MM cell lines (1pDC/5MM) for 48h, followed by separation of MM cells from pDCs using flow cytometry. Total RNA from MM cells was subjected to RNAseq analysis using Illumina Next Generation Sequencing (NGS). Raw sequence data were analyzed using VIPER workflow generating differential expression (DEseq2) and KEGG pathway. Statistical significance: log2FC (fold change) values in coculture vs control, with an FDR (False Discovery Rate) value of  95). Linear model for RNAseq analysis (Limma) and its GUI (Glimma) were also utilized for the visualization of data. Results RNA-seq data was analyzed using negative binomial distribution (DEseq2) and linear (Limma) models. Results showed 9200 and 9250 genes were differentially expressed (p < 0.05). MM cells cultured with or without pDCs clustered into two distinct groups, based upon pDC-MM contact-dependent transcriptional changes. Pathway enrichment analysis showed that pDCs interaction with MM cells regulates multiple physiological processes in MM cells including DNA replication/repair, purine/pyrimidine metabolism, and cell cycle. Hierarchical clustering showed increased expression of genes in MM cells after coculture with pDCs (log2FC range: \u00b1 6.0): TLR7/9 (0.5; p=0.02), HDAC6 (0.65; p=0.00002), CD274 (0.6; p=0.02), or IL3R\u03b1/CD123(0.1; p<0.05). On the other hand, pDCs reduces expression of CASP3 (-1.049; p= 1.1e-7), BAK1 (-0.5; p=0.000043), ADAM33 (-1.36; p=0.004), and BAD (-0.14; p = 0.0048) in MM cells. We validated the functional significance of pDC-induced gene alterations in MM cells using coculture model of patient MM-pDCs and autologous tumor cells. For example CD73 levels further increases in MM cells after coculture with pDCs (MFI: 1.2-fold vs MM; p = 0.008; CD73+ cells: 1.15-fold vs MM; n = 5; p = 0.005); and anti-CD73 Ab (1.0 \u00b5g/ml) treatment of autologous pDC-T cell cocultures (1pDC/10T cells) induces MM-specific CD8 + CTL activity against both autologous and allogeneic tumor cells. Furthermore, combining anti-CD73 Ab and TLR7 agonist triggers more robust MM-specific CD8 + CTL activity than either agent alone (% MM lysis: anti-CD73 Ab plus TLR7 agonist: 60-70%; TLR7 agonist: 40%; and anti-CD73 Ab: 30%; p = 0.009; n = 5). Conclusions Our RNA-seq and NGS analysis of pDCs-triggered transcriptome changes in MM cells identifies genes and pathways mediating tumor growth and immunosuppression, which therefore represent targets for novel therapeutics to improve patient outcome. Disclosures Chauhan: C4 Therapeutics.: Equity Ownership; Stemline Therapeutics: Consultancy. Anderson: Sanofi-Aventis: Other: Advisory Board; Bristol-Myers Squibb: Other: Scientific Founder; Oncopep: Other: Scientific Founder; Amgen: Consultancy, Speakers Bureau; Janssen: Consultancy, Speakers Bureau; Takeda: Consultancy, Speakers Bureau; Celgene: Consultancy, Speakers Bureau.",
+    "topics": [
+        "dendritic cells",
+        "multiple myeloma",
+        "myeloma cells",
+        "neoplasms",
+        "precipitating factors",
+        "transcription, genetic",
+        "coculture techniques",
+        "5'-nucleotidase",
+        "massively-parallel genome sequencing",
+        "agonists"
+    ],
+    "author_names": [
+        "Arghya Ray, PhD",
+        "Leutz Buon",
+        "Yan Song, PhD",
+        "Dharminder Chauhan, PhD",
+        "Kenneth C. Anderson, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Arghya Ray, PhD",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Leutz Buon",
+            "author_affiliations": [
+                "Department of Bioinformatics and Data Science, Dana Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yan Song, PhD",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dharminder Chauhan, PhD",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kenneth C. Anderson, MD",
+            "author_affiliations": [
+                "Jerome Lipper Multiple Myeloma Center, LeBow Institute for Myeloma Therapeutics, Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-16T09:38:47",
+    "is_scraped": "1"
 }

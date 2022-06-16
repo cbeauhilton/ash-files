@@ -1,8 +1,234 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4203",
-    "start_url_page_num": "4203",
     "doi": "https://doi.org/10.1182/blood-2019-130051",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/575/426416/A-Comprehensive-Analysis-of-Single-Cell-Chromatin?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T14:40:32",
-    "is_scraped": "0"
+    "article_title": "A Comprehensive Analysis of Single-Cell Chromatin Accessibility and Gene Expression Identifies Intra-Tumor Heterogeneity and Molecular Treatment Responses in Relapsed/Refractory Multiple Myeloma ",
+    "article_date": "November 13, 2019",
+    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
+    "abstract_text": "Introduction: Multiple myeloma (MM) is a heterogeneous malignancy of clonal plasma cells that accumulate in the bone marrow (BM). Despite new treatment approaches, in most patients resistant subclones are selected by therapy, resulting in the development of refractory disease. While the subclonal architecture in newly diagnosed patients has been investigated in great detail, intra-tumor heterogeneity in relapsed/refractory (RR) MM is poorly characterized. Recent technological and computational advances provide the opportunity to systematically analyze tumor samples at single-cell (sc) level with high accuracy and througput. Here, we present a pilot study for an integrative analysis of sc Assay for Transposase-Accessible Chromatin with high-throughput sequencing (scATAC-seq) and scRNA-seq with the aim to comprehensively study the regulatory landscape, gene expression, and evolution of individual subclones in RRMM patients. Methods: We have included 20 RRMM patients with longitudinally collected paired BM samples. scATAC- and scRNA-seq data were generated using the 10X Genomics platform. Pre-processing of the sc-seq data was performed with the CellRanger software (reference genome GRCh38). For downstream analyses the R-packages Seurat and Signac (Satija Lab) as well as Cicero (Trapnell Lab) were used. For all patients bulk whole genome sequencing (WGS) data was available, which we used for confirmatory studies of intra-tumor heterogeneity. Results: A comprehensive study at the sc level requires extensive quality controls (QC). All scATAC-seq files passed the QC, including the detected number of cells, number of fragments in peaks or the ratio of mononucleosomal to nucleosome-free fragments. Yet, unsupervised clustering of the differentially accessible regions resulted in two main clusters, strongly associated with sample processing time. Delay of sample processing by 1-2 days, e.g. due to shipment from participating centers, resulted in global change of chromatin accessibility with more than 10,000 regions showing differences compared to directly processed samples. The corresponding scRNA-seq files also consistently failed QC, including detectable genes per cell and the percentage of mitochondrial RNA. We excluded these samples from the study. Analysing scATAC-seq data, we observed distinct clusters before and after treatment of RRMM, indicating clonal adaptation or selection in all samples. Treatment with carfilzomib resulted in highly increased co-accessibility and >100 genes were differentially accessible upon treatment. These genes are related to the activation of immune cells (including T-, and B-cells), cell-cell adhesion, apoptosis and signaling pathways (e.g. NF\u03baB) and include several chaperone proteins (e.g. HSPH1) which were upregulated in the scRNA-seq data upon proteasome inhibition. The power of our comprehensive approach for detection of individual subclones and their evolution is exemplarily illustrated in a patient who was treated with a MEK inhibitor and achieved complete remission. This patient showed two main clusters in the scATAC-seq data before treatment, suggesting presence of two subclones. Using copy number profiles based on WGS and scRNA-seq data and performing a trajectory analysis based on scATAC-seq data, we could confirm two different subclones. At relapse, a seemingly independent dominant clone emerged. Upon comprehensive integration of the datasets, one of the initial subclones could be identified as the precursor of this dominant clone. We observed increased accessibility for 108 regions (e.g. JUND, HSPA5, EGR1, FOSB, ETS1, FOXP2) upon MEK inhibition. The most significant differentially accessible region in this clone and its precursor included the gene coding for kr\u00fcppel-like factor 2 (KLF2). scRNA-seq data showed overexpression of KLF2 in the MEK-inhibitor resistant clone, confirming KLF2 scATAC-seq data. KLF2 has been reported to play an essential role together with KDM3A and IRF1 for MM cell survival and adhesion to stromal cells in the BM. Conclusions: Our data strongly suggest to use only immediately processed samples for single cell technologies. Integrating scATAC- and scRNA-seq together with bulk WGS data showed that detection of individual clones and longitudinal changes in the activity of cis-regulatory regions and gene expression is feasible and informative in RRMM. Disclosures Goldschmidt: John-Hopkins University: Research Funding; Novartis: Membership on an entity's Board of Directors or advisory committees, Research Funding; John-Hopkins University: Research Funding; Bristol-Myers Squibb: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Mundipharma: Research Funding; Takeda: Membership on an entity's Board of Directors or advisory committees, Research Funding; MSD: Research Funding; Molecular Partners: Research Funding; Dietmar-Hopp-Stiftung: Research Funding; Janssen: Consultancy, Research Funding; Chugai: Honoraria, Research Funding; Janssen: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Sanofi: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Amgen: Consultancy, Research Funding; Celgene: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Adaptive Biotechnology: Membership on an entity's Board of Directors or advisory committees.",
+    "topics": [
+        "chromatin",
+        "gene expression",
+        "heterogeneity",
+        "multiple myeloma",
+        "neoplasms",
+        "rna, small cytoplasmic",
+        "adhesions",
+        "mitogen-activated protein kinase inhibitors",
+        "mitogen-activated protein kinase kinase inhibitors",
+        "cancer"
+    ],
+    "author_names": [
+        "Alexandra M Poos, PhD",
+        "Jan-Philipp Mallm, PhD",
+        "Stephan M Tirier, PhD",
+        "Nicola Casiraghi, PhD",
+        "Hana Susak, PhD",
+        "Nicola Giesen, MD",
+        "Katharina Bauer",
+        "Anja Baumann",
+        "Lukas John, MD",
+        "Isabelle Lander, BSc",
+        "Jing Xu, PhD",
+        "Moritz Przybilla, BSc",
+        "Anja Kunze, PhD",
+        "Carsten Mueller-Tidow, MD",
+        "Benedikt Brors, PhD",
+        "Oliver Stegle, PhD",
+        "Hartmut Goldschmidt, MD",
+        "Karsten Rippe, PhD",
+        "Marc S Raab, MD PhD",
+        "Niels Weinhold, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Alexandra M Poos, PhD",
+            "author_affiliations": [
+                "Department of Medicine V, Hematology, Oncology and Rheumatology, University Hospital Heidelberg, Heidelberg, Germany ",
+                "Division of Chromatin Networks, German Cancer Research Center (DKFZ) and BioQuant, Heidelberg, Germany "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jan-Philipp Mallm, PhD",
+            "author_affiliations": [
+                "Division of Chromatin Networks, German Cancer Research Center (DKFZ) and BioQuant, Heidelberg, Germany ",
+                "Open Lab for Single Cell Sequencing (scOpenLab), German Cancer Research Center (DKFZ) and BioQuant, Heidelberg, Germany "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephan M Tirier, PhD",
+            "author_affiliations": [
+                "Division of Chromatin Networks, German Cancer Research Center (DKFZ) and BioQuant, Heidelberg, Germany "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nicola Casiraghi, PhD",
+            "author_affiliations": [
+                "Division Computational Genomics and Systems Genetics, German Cancer Research Center (DKFZ), Heidelberg, Germany ",
+                "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hana Susak, PhD",
+            "author_affiliations": [
+                "Division Computational Genomics and Systems Genetics, German Cancer Research Center (DKFZ), Heidelberg, Germany ",
+                "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nicola Giesen, MD",
+            "author_affiliations": [
+                "Department of Medicine V, Hematology, Oncology and Rheumatology, University Hospital Heidelberg, Heidelberg, Germany ",
+                "CCU Molecular Hematology/Oncology, German Cancer Research Center (DKFZ), Heidelberg, Germany "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Katharina Bauer",
+            "author_affiliations": [
+                "Open Lab for Single Cell Sequencing (scOpenLab), German Cancer Research Center (DKFZ) and BioQuant, Heidelberg, Germany "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anja Baumann",
+            "author_affiliations": [
+                "CCU Molecular Hematology/Oncology, German Cancer Research Center (DKFZ), Heidelberg, Germany "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lukas John, MD",
+            "author_affiliations": [
+                "Department of Medicine V, Hematology, Oncology and Rheumatology, University Hospital Heidelberg, Heidelberg, Germany "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Isabelle Lander, BSc",
+            "author_affiliations": [
+                "Division of Chromatin Networks, German Cancer Research Center (DKFZ) and BioQuant, Heidelberg, Germany "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jing Xu, PhD",
+            "author_affiliations": [
+                "CCU Molecular Hematology/Oncology, German Cancer Research Center (DKFZ), Heidelberg, Germany ",
+                "Division of Applied Bioinformatics, German Cancer Research Center (DKFZ), Heidelberg, Germany"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Moritz Przybilla, BSc",
+            "author_affiliations": [
+                "Division Computational Genomics and Systems Genetics, German Cancer Research Center (DKFZ), Heidelberg, Germany ",
+                "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anja Kunze, PhD",
+            "author_affiliations": [
+                "Department of Medicine V, Hematology, Oncology and Rheumatology, University Hospital Heidelberg, Heidelberg, Germany "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Carsten Mueller-Tidow, MD",
+            "author_affiliations": [
+                "Department of Medicine V, Hematology, Oncology and Rheumatology, University Hospital Heidelberg, Heidelberg, Germany "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Benedikt Brors, PhD",
+            "author_affiliations": [
+                "Division of Applied Bioinformatics, German Cancer Research Center (DKFZ), Heidelberg, Germany"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Oliver Stegle, PhD",
+            "author_affiliations": [
+                "Division Computational Genomics and Systems Genetics, German Cancer Research Center (DKFZ), Heidelberg, Germany ",
+                "Genome Biology Unit, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hartmut Goldschmidt, MD",
+            "author_affiliations": [
+                "Department of Medicine V, Hematology, Oncology and Rheumatology, University Hospital Heidelberg, Heidelberg, Germany "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karsten Rippe, PhD",
+            "author_affiliations": [
+                "Division of Chromatin Networks, German Cancer Research Center (DKFZ) and BioQuant, Heidelberg, Germany "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marc S Raab, MD PhD",
+            "author_affiliations": [
+                "Department of Medicine V, Hematology, Oncology and Rheumatology, University Hospital Heidelberg, Heidelberg, Germany ",
+                "CCU Molecular Hematology/Oncology, German Cancer Research Center (DKFZ), Heidelberg, Germany "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Niels Weinhold, PhD",
+            "author_affiliations": [
+                "Department of Medicine V, Hematology, Oncology and Rheumatology, University Hospital Heidelberg, Heidelberg, Germany "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-16T09:38:44",
+    "is_scraped": "1"
 }

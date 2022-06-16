@@ -1,8 +1,103 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4197",
-    "start_url_page_num": "4197",
     "doi": "https://doi.org/10.1182/blood-2019-129866",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/4656/428679/Flowsom-An-R-Based-Evaluation-Strategy-for-Flow?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T14:19:05",
-    "is_scraped": "0"
+    "article_title": "Flowsom: An R-Based Evaluation Strategy for Flow Cytometry-Based Measurable Residual Disease (MRD) Diagnostics in Acute Myeloid Leukemia (AML) ",
+    "article_date": "November 13, 2019",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Patients with Acute Myeloid Leukemia (AML) frequently relapse due to chemorefractory AML cells persisting after intensive chemotherapy at levels below the 5% morphological detection threshold (measurable residual disease, MRD). MRD has been established as an important prognostic factor for relapse-free and overall survival, making it highly relevant for post-remission treatment stratification. In contrast to MRD assessment by molecular techniques, multiparameter flow cytometry (MFC)-based MRD measurements are applicable in more than 95% of AML patients, while still offering a sensitivity of 10 -4 to 10 -5 . Current MFC MRD assessment strategies measure 8-10 fluorochromes in parallel, resulting in a high-dimensional data set. However, evaluation of this data is usually performed by scatterplot-based manual, two-dimensional analysis. This leads to loss of information and significant inter-observer variability in MRD diagnostics. We therefore established a computational data analysis strategy for MFC MRD diagnostics, based on the unsupervised FlowSOM algorithm. By comparison with healthy bone marrow (HBM) data, FlowSOM analysis can identify aberrant (sub-)populations of cells, clustered in nodes (according to similarity of their antigen profile). These nodes can be denoted as \"nodes of interest\" (NOI) to simplify MRD analysis after clustering. Aim of the project was to establish FlowSOM analysis protocols and retrospectively evaluate their prognostic significance in a cohort of 46 patients with known outcomes. Bone marrow samples of these patients were analyzed at aplasia (day 16 after initiation of induction chemotherapy). Only patients with morphological blast clearance at aplasia were included. Healthy reference FlowSOM trees were established by merging flow data of 17 HBM. Analysis protocols were developed to report individual (\"any node\" approach) and cumulative (\"sum node\" approach) differences in NOI percentages when comparing HBM and MRD samples. We then performed FlowSOM MRD analyses in a patient subcohort of 19 AML patients. Importantly, for these analyses, we excluded patients who underwent allogeneic stem cell transplantation in first remission (non-HSCT subcohort). Median follow-up time was 8.3 (range 2-40) months for this subcohort. Receiver operating characteristic (ROC) analyses were used to determine optimal threshold values to differentiate relapse (n=5) and non-relapse (n=14) patients within the cohort. For \"sum node\" analysis strategies (defining MRD levels as cumulative difference of NOI percentages) a threshold of -2.44% was identified, optimized for Youden (Y) index and diagnostic odds ratio (DOR). For the \"any node\" strategy (defining MRD levels by the maximum difference of any NOI), a threshold of 0.04%, also optimized for the Y-index and DOR, discriminated best between relapse and non-relapse patients. Relapse-free survival (RFS) was significantly shorter for MRD-positive (MRDpos) patients identified by \"sum node\" analysis (median 8 months vs. not reached, p=0.016) and tended to be shorter for MRDpos patients by \"any node\" analysis (median 8 months vs. not reached, p=0.1). When applying the thresholds identified in the non-HSCT cohort to the full set of 46 patients (median follow-up interval 10.6 months, range 2-40), median RFS was not reached for the MRD-negative group (both for \"sum node\" and \"any node\" analysis), and was 14 (\"sum node\", p=0.098) and 14 months (\"any node\", p=0.360) for the MRDpos patients. Median overall survival for MRDpos patients by \"sum node\" analysis was 27 months, whereas it was not reached for MRD-negative patients. However, this difference did not reach statistical significance (p=0.335), probably due to the small sample size. Taken together, FlowSOM-based analysis strategies seem well suited to identify patients with MRD positivity after intensive induction chemotherapy. MFC MRD positivity at aplasia, defined by FlowSOM-based analysis, is associated with inferior RFS in retrospective analyses of small patient cohorts. Due to the underlying computational, unsupervised data analysis, FlowSOM-based assessment can be a means to harmonize MFC MRD evaluation. These promising results need to be verified in larger cohorts, with inclusion of post-induction assessments, and should be followed by prospective analyses to delineate the diagnostic validity of FlowSOM for AML MRD diagnostics in clinical trials. Disclosures Subklewe: Janssen: Consultancy; Morphosys: Research Funding; Celgene: Consultancy, Honoraria; Gilead: Consultancy, Honoraria, Research Funding; Miltenyi: Research Funding; Oxford Biotherapeutics: Research Funding; Pfizer: Consultancy, Honoraria; AMGEN: Consultancy, Honoraria, Research Funding; Roche: Consultancy, Research Funding.",
+    "topics": [
+        "leukemia, myelocytic, acute",
+        "residual tumor",
+        "chemotherapy, neoadjuvant",
+        "disease remission",
+        "follow-up",
+        "hematopoietic stem cell transplantation",
+        "allogeneic stem cell transplant",
+        "antigens",
+        "biological products",
+        "bone marrow specimen"
+    ],
+    "author_names": [
+        "Veit B\u00fccklein, MD",
+        "Alexandra Stein",
+        "Benjamin Tast, PhD",
+        "Thomas Koehnke, MD",
+        "Karsten Spiekermann, MD",
+        "Francis Lacombe, MD PhD",
+        "Marion Subklewe, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Veit B\u00fccklein, MD",
+            "author_affiliations": [
+                "Laboratory for Translational Cancer Immunology, Gene Center of the LMU Munich, Munich, Germany ",
+                "Laboratory of Leukemia Diagnostics, Department of Medicine III, University Hospital, LMU Munich, Munich, Germany "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexandra Stein",
+            "author_affiliations": [
+                "Laboratory for Translational Cancer Immunology, Gene Center of the LMU Munich, Munich, Germany "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Benjamin Tast, PhD",
+            "author_affiliations": [
+                "Laboratory for Translational Cancer Immunology, Gene Center of the LMU Munich, Munich, Germany ",
+                "Laboratory of Leukemia Diagnostics, Department of Medicine III, University Hospital, LMU Munich, Munich, Germany "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Thomas Koehnke, MD",
+            "author_affiliations": [
+                "Laboratory for Translational Cancer Immunology, Gene Center of the LMU Munich, Munich, Germany ",
+                "Laboratory of Leukemia Diagnostics, Department of Medicine III, University Hospital, LMU Munich, Munich, Germany ",
+                "Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Stanford, CA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karsten Spiekermann, MD",
+            "author_affiliations": [
+                "Laboratory of Leukemia Diagnostics, Department of Medicine III, University Hospital, LMU Munich, Munich, Germany ",
+                "Experimental Leukemia and Lymphoma Research (ELLF), University Hospital, LMU Munich, Munich, Germany ",
+                "German Cancer Consortium (DKTK) and German Cancer Research Center (DKFZ), Heidelberg, Germany "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Francis Lacombe, MD PhD",
+            "author_affiliations": [
+                "H\u00f4pital Haut-L\u00e9v\u00eaque, Bordeaux University Hospital, Pessac, FRA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marion Subklewe, MD",
+            "author_affiliations": [
+                "Laboratory for Translational Cancer Immunology, Gene Center of the LMU Munich, Munich, Germany ",
+                "Laboratory of Leukemia Diagnostics, Department of Medicine III, University Hospital, LMU Munich, Munich, Germany ",
+                "German Cancer Consortium (DKTK) and German Cancer Research Center (DKFZ), Heidelberg, Germany "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-16T09:32:14",
+    "is_scraped": "1"
 }
