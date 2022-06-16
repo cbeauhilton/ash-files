@@ -1,8 +1,105 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4246",
-    "start_url_page_num": "4246",
     "doi": "https://doi.org/10.1182/blood-2019-123407",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/1772/427627/The-Transcriptome-of-Immunomodulator-Resistant?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T16:31:10",
-    "is_scraped": "0"
+    "article_title": "The Transcriptome of Immunomodulator-Resistant Multiple Myeloma ",
+    "article_date": "November 13, 2019",
+    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
+    "abstract_text": "Introduction: While the molecular target of immunomodulators such as pomalidomide (POM) and lenalidomide (LEN) has been identified, the mechanisms underlying therapeutic resistance remain incompletely understood. The uniformly emerging resistance to therapy over time in the absence of identifiable cereblon pathway mutations in the majority of patients raises questions about alternative mechanisms including aberrant gene expression. Methods: We performed gene expression profiling using an Affymetrix GeneChip Human Genome U133 Plus 2.0 microarray on CD138 + bone marrow cells from patients with relapsed / refractory (RRMM) and newly diagnosed (NDMM) multiple myeloma prior to initiating treatment. Patients were treated on two phase II clinical trial protocols (MC0789: POM \u00b1 dexamethasone in RRMM; MC0884: LEN \u00b1 dexamethasone in NDMM) between 2007 and 2012. We categorized patients based on their IMWG response as non-responders (SD) and responders (VGPR+). We selected 15 responders and 15 non-responders from MC0789 (n = 30) and compared overall survival, gene expression patterns, and involved cellular pathways between the two groups. We selected 5 responders and 5 non-responders from MC0884 (n = 10) for targeted validation of differentially expressed candidate genes. After data quality control and normalization of gene expression values, differential gene expression was estimated using limma . Statistical significance was adjusted for multiple testing in the discovery set using a false discovery rate-based approach for genome-wide experiments (q-value). We used Gene Ontology and PANTHER pathway analysis for functional annotation of differentially expressed genes. Overall survival estimates were calculated using the Kaplan-Meier method. Computation and visualization were performed in R . Results: Median age at treatment initiation on MC0789 was 65 years (40 - 82), 65% of the patients were male. Pomalidomide resistance was associated with an increase in mortality (median overall survival 1.6 versus 6.4 years, p = 0.009, Kaplan-Meier plot). There were 1076 differentially regulated genes between responders and non-responders (521 up- and 555 down-regulated, q < 0.050 for all genes, volcano plot). Expression of CRBN was 1.5-fold down-regulated in non-responders (q = 0.005). Supervised hierarchical clustering of the top 500 differentially expressed genes demonstrated distinct patterns in pomalidomide-resistant disease (heatmap). Gene ontology analysis revealed protein synthesis as one of the most enriched biological processes (bar graph). Pathway analysis showed a 6-fold enrichment (FDR = 0.007) of the ubiquitin proteasome pathway in pomalidomide-resistant disease. Differentially expressed genes involved key protein degradation pathways, epigenetic modifiers, and transcription factors. Targeted validation in MC0884 revealed 13 common genes with at least 1.5-fold differential expression (5 up- and 8 down-regulated), 12 of which have previously been implicated in the regulation of apoptosis, tumor glucose metabolism, Rho and Wnt signaling, miRNA-driven resistance to chemotherapy, and ubiquitin-dependent protein degradation (Table and Sankey diagram). The most up-regulated gene in non-responders was MYRIP , a gene coding for a vesicle trafficking protein associated with platinum resistance and suppression of pro-apoptotic BCL-2 family members in solid malignancies. The most down-regulated gene was FRZB , a gene coding for a negative regulator of Wnt signaling, previously implicated in the progression of monoclonal gammopathy of undetermined significance to multiple myeloma. Conclusions: Overall survival of patients with pomalidomide-resistant RRMM remains poor. Pomalidomide resistance was associated with differential gene expression in several potentially targetable cellular pathways beyond the known drug target cereblon. Targeted validation of candidate genes revealed common cellular pathways in immunomodulator-resistant disease. Elucidating the exact molecular mechanisms underlying immunomodulator resistance is of considerable interest for biomarker development and the identification of novel therapeutic targets and warrants further exploration. Figure View large Download slide Figure View large Download slide  Close modal Disclosures Lacy: Celgene: Research Funding. Dispenzieri: Celgene: Research Funding; Alnylam: Research Funding; Intellia: Consultancy; Janssen: Consultancy; Pfizer: Research Funding; Akcea: Consultancy; Takeda: Research Funding. Kumar: Takeda: Research Funding; Celgene: Consultancy, Research Funding; Janssen: Consultancy, Research Funding.",
+    "topics": [
+        "immunologic adjuvants",
+        "multiple myeloma",
+        "pomalidomide",
+        "dexamethasone",
+        "biological markers",
+        "cancer",
+        "chemotherapy regimen",
+        "drug delivery systems",
+        "gene expression profiling",
+        "lenalidomide"
+    ],
+    "author_names": [
+        "Moritz Binder, MDMPH",
+        "S. Vincent Rajkumar, MD",
+        "Martha Q. Lacy, MD",
+        "Jessica L. Haug",
+        "Angela Dispenzieri, MD",
+        "Kimberly J. Henderson",
+        "Teresa K. Kimlinger",
+        "Shaji K. Kumar, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Moritz Binder, MDMPH",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "S. Vincent Rajkumar, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martha Q. Lacy, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jessica L. Haug",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Angela Dispenzieri, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kimberly J. Henderson",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Teresa K. Kimlinger",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shaji K. Kumar, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-16T18:46:18",
+    "is_scraped": "1"
 }

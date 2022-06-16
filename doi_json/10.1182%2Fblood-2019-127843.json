@@ -1,8 +1,55 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4242",
-    "start_url_page_num": "4242",
     "doi": "https://doi.org/10.1182/blood-2019-127843",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/1825/427548/MCL-1-Inhibitor-Induced-Killing-of-Multiple?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T16:30:56",
-    "is_scraped": "0"
+    "article_title": "MCL-1 Inhibitor-Induced Killing of Multiple Myeloma Is Modulated By the Relative Level of Expression of Pro-Survival Members of the BCL-2 Family and the Proto-Oncogene MYC ",
+    "article_date": "November 13, 2019",
+    "session_type": "652.Myeloma: Pathophysiology and Pre-Clinical Studies, excluding Therapy",
+    "abstract_text": "Background: The anti-apoptotic protein Myeloid cell leukemia sequence 1 (MCL-1) is involved in the regulation of programmed cell death and is highly expressed in multiple myeloma (MM) playing an important role in promoting the survival of MM cells. Recent data suggests that the efficacy against MM of the selective BCL-2 inhibitor Venetoclax (V) may be correlated with the relative level of expression of the pro-survival members of the BCL-2 protein family. Against this background we have evaluated the activity of the MCL-1 inhibitor (MCL1i) S63845 (S) against human myeloma cell lines (HMCL) and primary MM tumours (1\u00baMM) both as a single agent and in combination with other anti-MM agents. Moreover, we have used RNASeq to identify biomarkers of responsiveness to S in both HMCL and 1\u00baMM. Methods: A panel of 16 HMCL and 46 1\u00baMM were treated for 72 hours with S (100nM and 500nM) either alone or in combination with V (500nM), the BCLxL inhibitor A1331852 (A) (500nM), bortezomib (B) (10nM) or panobinostat (P) (10nM). Apoptosis was measured by flow-cytometric enumeration of either propidium iodide positivity (HMCL) or Apo2.7 positivity following cell permeabilisation (1\u00baMM). Drug synergy was calculated based on the net effect of cell death by Drug A plus Drug B divided by cell death caused by drugs A and B singly, with a Synergy Quotient >1 indicating a synergistic effect. Paired samples from 30 of the 1\u00baMM were subject to CD138 enrichment utilizing CD138 micro-beads. Subsequently total RNA was extracted from both HMCL (n = 16) and CD138 enriched 1\u00baMM (n = 30). mRNAs were sequenced on a HiSeq 4000 platform with a paired-end 150 bp strategy. Raw data were evaluated and quality controlled by FASTQC (v0.11.5) and SOAPnuke. Hisat2 and StringTie were used to align clean reads to the reference genome (GRCH38) and profile gene expression, respectively. HTSeq-count was used to count the reads aligned to each gene then differentially expressed genes (DEGs) (S sensitive vs resistant) were defined by edgeR (fold change > 2, p < 0.05 and false discovery rate < 0.05). DAVID Bioinformatics Resources was used to analyse the Gene Ontology and KEGG pathway enrichment by the DEGs. The co-expression in both HMCL and 1\u00baMM of apoptosis-related genes (ARG) (BIM, BCL2, BAD, BCL2A1, NOXA, BID, BAK1, MCL1, BAX, BCLw, TP53, PUMA, BCLxL, BMF) and MYC was specifically evaluated using Pearson correlation. The Spearman correlation coefficient was used to define any correlation between S sensitivity and ARG/MYC expression. The correlation scatter plots and p-values were calculated using 'gg_scatter' function (from ggpubr package) in R. Results: HMCL killing with S ranged from 0.9-91.6% (100nM) and 1.0-93.3% (500nM) with 70%, 80%, 37% and 61% demonstrating synergy when S was combined with V, A, B or P, respectively. S killing of HMCL was modestly but statistically significantly correlated with MCL-1 expression but strongly correlated with both BCL-2 expression and the BCLxL:BCL-2, MCL-1:BCL-2 and BCLxL:MYC expression ratios (Table 1). 1\u00baMM, cells were classified as sensitive when >20% cell death was induced and resistant with \u226420% cell death. The proportion of sensitive 1\u00baMM with single agent drug treatments was S100nM 37%, S500nM 66%, V50%, A77%, B47% and P45%. Synergy with S was seen with 70%, 80%, 37% and 61% of the 1\u00baMM with V, A, B or P, respectively. 1\u00baMM demonstrated a statistically significant, albeit modest, correlation with the BCLxL:MCL-1 ratio (reduced 1\u00baMM death with high BCLxL coupled with low MCL-1, R=-0.43, p=0.019) (Figure A) and the MCL-1:MYC ratio (increased 1\u00baMM death with high MCL-1 coupled with low MYC, R=0.43, p=0.018) (Figure B), the former consistent with the high frequency of synergistic killing of 1\u00baMM when S was combined with BCLxL inhibition. Compared to 1\u00baMM sensitive to the MCL1-inhibitor, we identified 985 genes (440 up-regulated and 545 down-regulated) differentially expressed in the 1\u00baMM resistant to the drug. DEGs were annotated demonstrating that the top 2 KEGG pathways involved by the DEGs were \"hsa03010:Ribosome\" (p<0.0001) and \"hsa04010:MAPK signaling pathway\" (p=0.04). Conclusions: The efficiency of MCL1i-induced killing of both HMCL and 1\u00baMM is modulated by the co-expression of pro-survival members of the BCL-2 family and MYC. These data provide a framework for future MCL1i MM treatment by potentially enabling rational patient selection and providing insights into strategies to optimize MCL1i-based MM therapy. View large Download slide View large Download slide  Close modal Disclosures Spencer: Takeda: Other: Consulting/advisory role, Research Funding; Janssen Oncology: Other: Consulting/advisory role, Research Funding, Speakers Bureau; Amgen: Other: Consulting/advisory role, Research Funding; AbbVie: Other: Consulting/advisory role, Research Funding; Servier: Other: Consulting/advisory role; Secura Bio: Other: Consulting/advisory role; Haemalogix: Other: Consulting/advisory role; Celgene: Other: Consulting/advisory role, Research Funding, Speakers Bureau; Sanofi: Other: Consulting/advisory role; Specialised Therapeutics Australia: Consultancy, Honoraria. Khong: Novartis Oncology: Research Funding.",
+    "topics": [
+        "bcl-2 gene family",
+        "killing",
+        "multiple myeloma",
+        "proto-oncogenes",
+        "bcl-2 protein",
+        "biological markers",
+        "bortezomib",
+        "iodides",
+        "leukemia",
+        "microbiology procedures"
+    ],
+    "author_names": [
+        "Andrew Spencer, DM",
+        "Tiffany Khong, BSc, PhD",
+        "Maoshan Chenn, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Andrew Spencer, DM",
+            "author_affiliations": [
+                "Department of Clinical Haematology, Alfred Health-Monash University, Melbourne, Australia "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tiffany Khong, BSc, PhD",
+            "author_affiliations": [
+                "Myeloma Research Group, Alfred Hospital-Monash University, Melbourne, Australia"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maoshan Chenn, PhD",
+            "author_affiliations": [
+                "Myeloma Research Group, Alfred Hospital-Monash University, Melbourne, Australia"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-16T18:41:41",
+    "is_scraped": "1"
 }

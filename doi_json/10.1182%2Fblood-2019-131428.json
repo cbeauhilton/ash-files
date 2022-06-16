@@ -1,8 +1,75 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4249",
-    "start_url_page_num": "4249",
     "doi": "https://doi.org/10.1182/blood-2019-131428",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/2093/427897/Redefining-Gold-Standard-Ultra-Sensitive?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T16:31:22",
-    "is_scraped": "0"
+    "article_title": "Redefining \"Gold Standard\": Ultra-Sensitive Characterization of Commercial DNA Standards with Duplex Sequencing ",
+    "article_date": "November 13, 2019",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "DNA standards are a critical resource in diagnostic and research labs. Positive and negative controls are essential for validating the sensitivity and specificity of next generation sequencing (NGS) and other genetic assays. Several commercial DNA standards have been widely used to validate clinical oncology assays. However, as genomic technologies have become more sensitive, the metrics defining what a \"gold standard\" entails have not been carefully re-evaluated. Cell culture and synthetic chemical means of generating DNA standards have the potential to artificially introduce mutations. Cell lines are often exposed to supraphysiologic levels of reactive oxygen. Oligonucleotide synthesis has an error rate orders of magnitude above biological levels. This background may not interfere with detection of clonal or sub clonal variants with moderately sensitive assays, but it will obscure the presence of very rare mutations when assessing with extremely sensitive ones and it will decrease apparent assay performance. In this study, we applied Duplex Sequencing (DS), an extremely sensitive NGS technology with an error rate below one-in-ten-million, to characterize widely used commercial myeloid DNA standards. Duplex sequencing is an error correction method that independently sequences and compares the two strands of original DNA molecules to enable error correction. The cross-strand comparison eliminates errors caused by DNA damage, early cycle PCR errors and various technical errors that escape standard NGS and other error-corrected NGS methods. We performed DS on two commercial myeloid leukemia DNA standards and an in-house control DNA. Commercial standard A (CS-A) is constructed of a mix of DNA from multiple mutation-containing cell lines. Commercial standard B (CS-B) is constructed of synthetic mutant DNA molecules mixed into DNA from a single well-characterized cell line. The control DNA was obtained from the donated apheresis product of a healthy 25-year old never-smoker. We used a hybrid capture panel covering 15 variants with a 5%-40% expected variant allele frequency (VAF) in CS-A, and 12 variants with a 5%-15% expected VAF in CS-B. CS-A, CS-B and control DNA were sequenced to maximum Duplex depths of 12,256x, 15,844x and 38,535x, respectively. In the two commercial DNA standards, all targeted variants were detected by DS. The majority of variants were within +/- 1.5-fold from the expected VAF. For CS-A, the correlation of DS vs. vendor target VAF was strong (r 2 = 0.96). For CS-B, the correlation between DS and vendor target VAF was very weak (r 2 = 0.07), although was better correlated to vendor-reported ddPCR and conventional NGS (r 2 = 0.49 and 0.61). We also performed DS on a specially designed in-house standard, comprised of apheresis-derived control DNA with a series of mutant cell lines spiked at low frequencies from 1/100 to 1/100,000, that we sequenced to more than 1 million-fold Duplex depth. 9/9 mutations were detected down to a target VAF of 10 - 5 with r 2 = 0.96 for DS vs. target values. We performed DS on a second in-house mutation dilution series which included the CS-A standard and other samples diluted into apheresis control DNA, and detected 9/9 mutations down to a target VAF of 4x10 -5 with r 2 = 0.93. The overall mutation frequencies (number of unexpected mutations / total number of base-pairs sequenced) of CS-A, CS-B and the control were 1.6x10 -6 , 2.1x10 -6 and 4.7x10 -7 , respectively. The in-house mutation mixes were both 5.4x10 -7 . CS-A carried 96 low-frequency clonal variants (\u22652 counts, <1% VAF) and CS-B had 102 low-frequency clonal variants. The apheresis control, despite being sequenced to nearly 3 times greater Duplex depth, had only 6 low-frequency clonal variants. The variants in the control sample are in genes associated with Clonal Hematopoiesis of Indeterminate Potential (CHIP) and reflect true biological background rather than technical noise. As genomic technologies increase in accuracy, so too does the need for ultra-pure DNA standards. As shown in this study the use of cell line DNA as the primary substrate for mutation standards, whether spiking in synthetic mutant molecules or simply mixing DNA from multiple cell lines, is not sufficient for highly sensitive assays due to accumulation of mutations in culture. Improved standards are necessary for high-precision technologies, especially for detection of residual disease or early cancer screening. Disclosures Higgins: TwinStrand Biosciences: Employment. Pratt: TwinStrand Biosciences: Employment. Valentine: TwinStrand Biosciences: Employment. Williams: TwinStrand Biosciences: Employment. Salk: TwinStrand Biosciences: Employment.",
+    "topics": [
+        "dna",
+        "gold standard",
+        "massively-parallel genome sequencing",
+        "apheresis",
+        "molecule",
+        "cancer screening",
+        "cell culture techniques",
+        "clonal hematopoiesis of indeterminate potential",
+        "dilution technique",
+        "laboratory techniques and procedures"
+    ],
+    "author_names": [
+        "Jacob Higgins, PhD",
+        "Gabriel Pratt, PhD",
+        "Charles C. Valentine, MS",
+        "Lindsey N. Williams, PhD",
+        "Jesse J. Salk, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Jacob Higgins, PhD",
+            "author_affiliations": [
+                "TwinStrand Biosciences, Seattle, WA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gabriel Pratt, PhD",
+            "author_affiliations": [
+                "TwinStrand Biosciences, Seattle, WA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Charles C. Valentine, MS",
+            "author_affiliations": [
+                "TwinStrand Biosciences, Seattle, WA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lindsey N. Williams, PhD",
+            "author_affiliations": [
+                "TwinStrand Biosciences, Seattle, WA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jesse J. Salk, MD PhD",
+            "author_affiliations": [
+                "TwinStrand Biosciences, Seattle, WA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-16T18:49:13",
+    "is_scraped": "1"
 }
