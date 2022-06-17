@@ -1,8 +1,290 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4276",
-    "start_url_page_num": "4276",
     "doi": "https://doi.org/10.1182/blood-2019-126088",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/4366/424500/Association-between-a-Polygenic-Risk-Score-for?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T17:45:05",
-    "is_scraped": "0"
+    "article_title": "Association between a Polygenic Risk Score for Multiple Myeloma Risk and Overall Survival ",
+    "article_date": "November 13, 2019",
+    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
+    "abstract_text": "Background Genome-wide association studies (GWAS) conducted in populations of European ancestry (EA) have identified and confirmed 23 germline susceptibility loci for multiple myeloma (MM). The effect sizes of single nucleotide polymorphisms (SNPs) at these loci are small, therefore combining them into a single summary measure, known as a polygenic risk score (PRS), may provide a more meaningful risk factor. We have previously shown a PRS comprised of the 23 SNPs for MM contributes to increased risk of MM, with a 2.7-fold increase for highest vs. lowest PRS quintiles. Whether the MM-PRS is also associated with overall survival (OS) in MM cases has not been evaluated. We examined the association between MM-PRS and OS in two EA studies. Methods The first study consisted of 2,179 EA MM cases from ten studies included in the Multiple Myeloma Working Group within the International Lymphoma Consortium (InterLymph). Cases were diagnosed between 1970 and 2015 and genotyped using multiple platforms (Oncoarray, Affymetrix, Human660W-quad Beadchip, and Illumina arrays); 885 cases also had stage [based on International Staging System (ISS)] available. Each of the GWAS was subjected to rigorous standard quality control independently (prior to imputation via the Michigan imputation server based on the Haplotype Reference Consortium (HRC). The second study consisted of 515 newly diagnosed EA MM cases from CoMMpass (Relating C linical O utcomes in M ultiple M yeloma to P ersonal A sse ss ment of Genetic Profile), diagnosed from 2011-2013, who had whole genome sequencing (WGS) performed on germline DNA. The WGS data was used to call common germline genetic variants through the Mayo Clinic bioinformatics pipeline. Briefly, genetic variants were detected with GenomeGPS, aligned to the hg19 reference genome, called using the GATK (V3.6) Haplotype Caller, and merged for multiple-sample joint calling. To reduce the false positive variants, variant quality score recalibration (VQSR) was applied for both SNPs and INDELs. After quality control, 458 EA samples remained. Follow-up was available for both studies and consisted of time from MM diagnosis date until death or date of last known follow-up. The PRS was constructed from the 23 MM SNPs using the published per allele odds ratio associated with MM risk. The published log odds ratios for each SNP were multiplied by the number of risk alleles (0, 1, 2) for the corresponding SNP, and summed, resulting in a unique score per person. Kaplan-Meier curves and Cox proportional hazard models were used to assess the association between PRS with MM OS considering two models: 1) adjusted for age, sex, study and 2) additional adjustment by stage (ISS). Hazard ratios (OR) and 95% confidence intervals (CI) were estimated. The PRS was evaluated both as a continuous variable, per standard deviation (SD), and as a categorical variable (quintiles). Results MM cases (N=2,179) in the InterLymph study were 59% male and 41% female and the median age was 61.0 years (26-90 years). Median follow-up time was 57.2 months (1.0-509.0 months) with 868 reported deaths. MM cases with stage information available consisted of 20% stage I (n=178), 53% stage II (n=466), and 27% stage III (n=241). No association was observed between PRS and OS in MM patients regardless of adjustment for stage (continuous PRS (HR: 1.03, 95% CI: 0.83-1.28, P=0.80) or by quintile PRS (p>0.05)) (Table). The CoMMpass EA MM cases (n=458) had similar distributions for sex (61% male and 39% females) but were slightly older 65 years (27-93 years) and had shorter follow-up time (median=39.75 months (0.13-77.2)) with 117 deaths. Stage was available for 96% of CoMMpass cases including 36% stage I (n=159), 33% stage II (n=146), and 31% stage III (n=134). We also observed no association of PRS and OS in the CoMMpass study (HR=1.02, 95% CI: 0.72 -1.46, P= 0.89), adjusted for age, sex, and stage (Table). Discussion A PRS score for MM risk is not associated with OS for MM cases in two EA populations. Given that prior studies have shown association of genetic variation with MM survival, efforts to identify additional loci associated with OS or MM specific survival are warranted. Future studies should also consider germline variants impact on molecular subtypes, specific therapies, and outcomes. View large Download slide View large Download slide  Close modal Disclosures Kumar: Celgene: Consultancy, Research Funding; Janssen: Consultancy, Research Funding; Takeda: Research Funding.",
+    "topics": [
+        "multiple myeloma",
+        "follow-up",
+        "dna",
+        "false-positive results",
+        "lymphoma",
+        "tenofovir/ftc/elvitegravir/cobicistat combination pill",
+        "imputation",
+        "categorical variables",
+        "interlymph consortium",
+        "michigan"
+    ],
+    "author_names": [
+        "Alyssa I. Clay-Gilmour, PhD",
+        "Michelle Hildebrandt, PhD",
+        "Yan Asmann, PhD",
+        "Elizabeth E. Brown, PhD MPH",
+        "Jonathan N Hofmann, PhD",
+        "John Spinelli, PhD MSc, BS",
+        "Graham Giles",
+        "Parveen Bhatti, PhD",
+        "Wendy Cozen, DO,MPH",
+        "Dennis P. Robinson",
+        "Daniel R O'Brien",
+        "S. Vincent Rajkumar, MD",
+        "Shulan Tian, MS, PhD",
+        "Sonja I Berndt, PhD",
+        "Stephen J Chanock, MD",
+        "Mitchell Machiela, PhD",
+        "Aaron D. Norman",
+        "Jason P Sinnwell, MS",
+        "Xifeng Wu, PhD",
+        "Rosalie Griffin Waller, BS",
+        "Roger L Milne, BCom, BSW, BA, Grad Dip Clinical Epi, MSc, PhD",
+        "Susan L Slager, PhD",
+        "Shaji K. Kumar, MD",
+        "Nicola J Camp, PhD",
+        "Elad Ziv, MD",
+        "Celine M. Vachon, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Alyssa I. Clay-Gilmour, PhD",
+            "author_affiliations": [
+                "Arnold School of Public Health- Department of Epidemiology & Biostatistics, University of South Carolina, Greenville, SC ",
+                "Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michelle Hildebrandt, PhD",
+            "author_affiliations": [
+                "UT MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yan Asmann, PhD",
+            "author_affiliations": [
+                "Division of Biomedical Statistics and Informatics, Mayo Clinic, Jacksonville, FL "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elizabeth E. Brown, PhD MPH",
+            "author_affiliations": [
+                "University of Alabama at Birmingham, Birmingham, AL "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan N Hofmann, PhD",
+            "author_affiliations": [
+                "National Cancer Institute, Bethesda, MD "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John Spinelli, PhD MSc, BS",
+            "author_affiliations": [
+                "Division of Population Oncology, BC Cancer, Vancouver, Canada ",
+                "School of Population and Public Health, University of British Columbia, Vancouver, Canada "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Graham Giles",
+            "author_affiliations": [
+                "Cancer Council Victoria, Melbourne, AUS "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Parveen Bhatti, PhD",
+            "author_affiliations": [
+                "Public Health Sciences Division, University of Washington School of Public Health and Community Medicine/Fred Hutch Cancer Center, Seattle, WA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wendy Cozen, DO,MPH",
+            "author_affiliations": [
+                "Norris Comprehensive Cancer Center, Center for Genetic Epidemiology, Department of Preventive Medicine and Pathology, Univ. of Southern California Norris Cancer Ctr., Los Angeles, CA "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dennis P. Robinson",
+            "author_affiliations": [
+                "Department of Health Sciences Research, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel R O'Brien",
+            "author_affiliations": [
+                "Department of Health Sciences Research, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "S. Vincent Rajkumar, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shulan Tian, MS, PhD",
+            "author_affiliations": [
+                "Department of Health Science Research, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sonja I Berndt, PhD",
+            "author_affiliations": [
+                "National Cancer Institute, NIH, DHHS, Bethesda, MD ",
+                "Division of Cancer Epidemiology and Genetics, Bethesda, MD "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephen J Chanock, MD",
+            "author_affiliations": [
+                "Division of Cancer Epidemiology and Genetics, National Cancer Institute, Bethesda, MD "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mitchell Machiela, PhD",
+            "author_affiliations": [
+                "National Cancer Institute, Rockville, MD "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aaron D. Norman",
+            "author_affiliations": [
+                "Department of Health Sciences Research, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jason P Sinnwell, MS",
+            "author_affiliations": [
+                "Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xifeng Wu, PhD",
+            "author_affiliations": [
+                "Department of Epidemiology, MD Anderson, Houston, TX "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rosalie Griffin Waller, BS",
+            "author_affiliations": [
+                "University of Utah, Salt Lake City, UT "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Roger L Milne, BCom, BSW, BA, Grad Dip Clinical Epi, MSc, PhD",
+            "author_affiliations": [
+                "Division of Epidemiology, Cancer Council of Victoria, Melbourne, Australia ",
+                "University of Melbourne, Melbourne, Australia "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Susan L Slager, PhD",
+            "author_affiliations": [
+                "Department of Health Sciences Research, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shaji K. Kumar, MD",
+            "author_affiliations": [
+                "Mayo Clinic, Rochester, MN ",
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nicola J Camp, PhD",
+            "author_affiliations": [
+                "Huntsman Cancer Institute, Salt Lake City, UT "
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elad Ziv, MD",
+            "author_affiliations": [
+                "University of California, San Francisco, San Francisco, CA "
+            ],
+            "author_rank": 25,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Celine M. Vachon, PhD",
+            "author_affiliations": [
+                "Division of Epidemiology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 26,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-17T04:02:10",
+    "is_scraped": "1"
 }
