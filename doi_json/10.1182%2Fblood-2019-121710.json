@@ -1,8 +1,155 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4385",
-    "start_url_page_num": "4385",
     "doi": "https://doi.org/10.1182/blood-2019-121710",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/2502/423043/Whole-Genome-Sequencing-Identifies-Small-Deletions?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T22:21:04",
-    "is_scraped": "0"
+    "article_title": "Whole Genome Sequencing Identifies Small Deletions in Ribosomal Genes Causing Diamond Blackfan Anemia ",
+    "article_date": "November 13, 2019",
+    "session_type": "508.Bone Marrow Failure",
+    "abstract_text": "Diamond Blackfan Anemia Syndrome (DBA) is a rare, congenital bone marrow failure syndrome characterized by severe macrocytic anemia, most often diagnosed during infancy. Congenital anomalies and predisposition to cancer are also important features of DBA. Establishment of a molecular diagnosis in a patient with DBA is critical to determine treatment strategies (i.e. the identification of compatible related transplant donors), as well as developing reproductive strategies for genetically at risk families. The overwhelming majority (>98.75%) of DBA patients with a molecular diagnosis have mutations in a Ribosomal Protein (RP) gene. Targeted and exome sequencing (WES) strategies can identify RP mutations in >70% of DBA patients (Ulrisch et al. Am J Hum Genet. 2018). Single Nucleotide Polymorphism Comparative Genome Hybridization (SNP array) detects >30 kb deletions of RP genes (which cannot be identified by sequencing) in ~10% of DBA patients (Farrar et al. Blood. 2011), leaving ~20% of DBA patients without a molecular diagnosis. We hypothesized that smaller copy number variants (CNVs - either insertions or deletions) in RP genes that are below the limit of detection of SNP array are responsible for the remaining 20%. To test this hypothesis we collected DNA with informed consent for whole genome sequencing (WGS) analysis from 6 patients who had no mutations detected by WES or SNP array. On average, we aligned ~1x10 10 paired end reads of 250 base pairs for each patient (~83X coverage of the genome). The aligned sequences were analyzed for CNVs using two independent software packages. Delly analyzes the two ends of each sequence read and maps them to the current human reference genome. Read ends that map further apart than expected are flagged as potential CNVs. CNVkit estimates regions of copy loss by changes in average sequencing depth. Using relatively relaxed thresholds in Delly and CNVkit we identified ~100 candidate CNVs in each patient. We filtered out CNVs present in public databases and focused on those CNVs in the region of the RP genes. This analysis identified 2-5 potential RP gene associated CNVs in each patient. We designed PCR primers that flanked each putative CNV and confirmed at least one RP CNV in all 6 patient DNAs. At this time, the CNVs in two patients are in the process of evaluation. We have validated causative RP CNVs in the other 4 patients, representing one known and three novel DBA genes. One patient had a 464 bp deletion in 3 rd intron of the RPL27 gene, which is mutated in other DBA patients. We hypothesized that the deletion caused a splicing defect. Using a mini gene in which the second intron of the gamma globin gene was replaced with the 3 rd intron of either the wild type or mutant RPL27 gene, we showed that the mutant exon was not spliced. An alternative hypothesis, that the deletion removed an enhancer element, was also tested, but no enhancer activity was detected. We conclude that the RPL27 exon deletion causes aberrant splicing leading to an unstable RPL27 m RNA and haploinsufficiency of RPL27. A second patient had a 3.5 kb deletion at the 3' end of the RPS5 gene, including the stop codon and poly A addition site. We hypothesized that the lack of the 3' processing signals would lead to an unstable mRNA. To test this hypothesis we generated MYC and FLAG tagged wildtype and 3' deleted RPS5 genes and co-transfected them into 293T cells. Regardless of the tag used, RT-PCR analysis showed a severe reduction in the mutant mRNA levels. Western Blot analysis demonstrated that only the wild type protein was expressed, leading to the conclusion that the RPS5 truncation led to an unstable RPS5 mRNA and haploinsufficiency of RPS5. A third patient had a 28 kb deletion that removes the RPS9 gene. shRNA knockdown of RPS9 mRNA in normal CD34+ cells inhibited erythroid differentiation, leading to the conclusion that RPS9 deficiency causes DBA. Finally, we observed a 3 bp insertion in exon 6 of the RPL14 gene. The deletion adds an alanine residue to a string of 10 alanines in the wild type allele. We confirmed the insertion by targeted sequence analysis of patient DNA. Our data show that WGS can identify small CNVs that cause DBA in at least 2/3 of patients who do not have a mutation detectable by other methods. We believe that WGS analysis following targeted sequencing, SNP array and WES can identify virtually all DBA mutations. With declining WGS costs, we recommend adding WGS to the molecular diagnostic pipeline for genetic testing of DBA. Disclosures Farrar: Novartis: Research Funding. Vlachos: Novartis: Other: Steering committee member.",
+    "topics": [
+        "diamond-blackfan anemia",
+        "genes",
+        "ribosomes",
+        "whole genome sequencing",
+        "rna, messenger",
+        "molecular diagnostic techniques",
+        "alanine",
+        "dna",
+        "anemia, macrocytic",
+        "cancer"
+    ],
+    "author_names": [
+        "David M. Bodine, PhD",
+        "Jens Lichtenberg",
+        "Nancy Seidel",
+        "NISC Comparative SequencingProgram",
+        "G. Jayashree Jagadeesh",
+        "John G Conboy, PhD",
+        "Jason E. Farrar, MD",
+        "Jessica Kang, BS",
+        "Lionel Blanc, PhD",
+        "Evangelia Atsidaftos, MA, MPH",
+        "Steven Ellis, PhD",
+        "Jeffrey Michael M Lipton, MD PhD",
+        "Adrianna Vlachos, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "David M. Bodine, PhD",
+            "author_affiliations": [
+                "NHGRI, National Institutes of Health, Bethesda, MD "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jens Lichtenberg",
+            "author_affiliations": [
+                "NHGRI, National Institutes of Health, Bethesda, MD "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nancy Seidel",
+            "author_affiliations": [
+                "NHGRI, National Institutes of Health, Bethesda, MD "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "NISC Comparative SequencingProgram",
+            "author_affiliations": [
+                "NHGRI, Bethesda, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "G. Jayashree Jagadeesh",
+            "author_affiliations": [
+                "NHGRI, National Institutes of Health, Bethesda, MD "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John G Conboy, PhD",
+            "author_affiliations": [
+                "Lawrence Berkeley Lab., Berkeley, CA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jason E. Farrar, MD",
+            "author_affiliations": [
+                "University of Arkansas For Medical Sciences, Little Rock, AR "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jessica Kang, BS",
+            "author_affiliations": [
+                "NHGRI, National Institutes of Health, Bethesda, MD "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lionel Blanc, PhD",
+            "author_affiliations": [
+                "Feinstein Institute of Medical Research, Cohen Children's Medical Center, Manhasset, NY "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Evangelia Atsidaftos, MA, MPH",
+            "author_affiliations": [
+                "Feinstein Institute of Medical Research, Cohen Children's Medical Center, Manhasset, NY "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Steven Ellis, PhD",
+            "author_affiliations": [
+                "University of Louisville, Louisville, KY"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jeffrey Michael M Lipton, MD PhD",
+            "author_affiliations": [
+                "Feinstein Institute of Medical Research, Cohen Children's Medical Center, Manhasset, NY "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Adrianna Vlachos, MD",
+            "author_affiliations": [
+                "Feinstein Institute of Medical Research, Cohen Children's Medical Center, Manhasset, NY "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-17T21:38:38",
+    "is_scraped": "1"
 }
