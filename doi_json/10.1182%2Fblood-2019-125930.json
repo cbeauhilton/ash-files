@@ -1,8 +1,64 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4339",
-    "start_url_page_num": "4339",
     "doi": "https://doi.org/10.1182/blood-2019-125930",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/5070/425068/Spatio-Temporal-Clustering-of-Childhood-Leukemia?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T20:22:50",
-    "is_scraped": "0"
+    "article_title": "Spatio-Temporal Clustering of Childhood Leukemia Relative to Population Mixing in Finland: A Nationwide Register-Based Study ",
+    "article_date": "November 13, 2019",
+    "session_type": "612.Acute Lymphoblastic Leukemia: Clinical Studies",
+    "abstract_text": "Introduction Leukemia is the most common malignant disease of the childhood. Its etiology remains unclear apart from Down syndrome and high-dose ionizing radiation. Involvement of immunological factors is plausible, and it was proposed by Leo Kinlen that population influx into a rural site could cause an increase in childhood leukemia incidence, by introducing an infectious agent into a pediatric population spared from it at younger, more typical age 1 . Also, Spatio-temporal clusters of childhood leukemia have been observed in some studies for example around nuclear power plants and some have been related to specific subtypes 2 . Evidence regarding both population mixing and clustering remains conflicting and requires further clarification. In this study, we aim to characterize these intertwined phenomena with Finnish high-quality register-based data. Materials and Methods We identified all childhood leukemia cases diagnosed in 1990-2011 in Finland (N=1093) and three times as many individually matched (on sex and the year of birth) controls. From population register center, we obtained complete residential histories for all subjects, including the coordinates of the dwellings, as well as the moving dates. In this study, the date of diagnosis was the main time point of interest and no latency period was used. We obtained annual citizenship numbers from Statistics Finland for each Finnish municipality to quantify the annual influx and efflux of people in those areas. We used join-point regression to identify counties with the potentially leukemogenic migration patterns as suggested by Kinlen. We analyzed both absolute influx to the municipality, and migration relative to the population size. A doubling (100% increase) from the municipality's pre-existing stable influx rate was defined as an event of interest. The municipalities and the years with the recognized migration pattern were aggregated for better statistical power. For spatiotemporal clustering, we used Knox's test with predefined thresholds for closeness of two events in time (6, 12, 18 and 24 months) and in Euclidean distance (0.5, 1, 2, 5 and 10 kilometers). ETV6-RUNX1 subtype was analyzed separately in accordance with the findings of a recent study 2 . We also created a bootstrapping-based method for computing distributions for the expected number of cases for each municipality and year and searched for instances of significant excesses. In addition, we evaluated the case-control status the nearest neighbor of each subject and compared the observed distribution of cases and controls to the expected. Results Using Knox's test, a significant excess of clustering was observed for thresholds of 5 km and 6 months, (p=0.047) but when corrected for multiple testing, it was no longer significant. For the ETV6-RUNX1 subtype, we found no indications of clustering, unlike in the Swiss study (lowest p-value of 0.61 before correcting for multiple testing) 2 . When analyzing the nearest neighbors of the cases, the ratio between cases and controls did not differ from the expected 1/4 for the closest (0.24, p=0.39) or for five neighbors (0.24, p=0.49). Using join-point regression we were able to identify counties with high influx of people into rural areas. In the bootstrapping analysis, we observed two instances when the 95 th percentile of the expected number was exceeded by more than 2 cases in a municipality during one year. The absolute annual incidence in both counties was four cases. Discussion Using multiple methods, we did not find clear evidence for clustering of childhood leukemia in Finland. The use of small units of area might have diluted our results to some degree, as the number of expected cases was low even in the municipalities of Finland. However, the methods that did not require pre-specified areal units did not reveal any clustering either. In future, we will further develop our approach regarding the join-point approach, as the primary analyses showed some weak signals. Also, different methods for recognizing areas of interest will be used. Also clustering methods utilizing subjects' entire residential histories could improve the sensitivity to detect clustering. Figure - An example of a Finnish municipality (Liminka), in which an influx to a rural site has been recognized using join-point regression Kinlen LJ. Br J Cancer. 2012. Kreis C et al. PLoS One. 2017. Figure View large Download slide Figure View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "childhood leukemia",
+        "finland",
+        "cancer",
+        "immunologic factors",
+        "leukemia",
+        "down syndrome",
+        "child",
+        "infectious agent",
+        "radiation, ionizing"
+    ],
+    "author_names": [
+        "Atte Nikkil\u00e4, MD",
+        "Jani Raitanen, MSc",
+        "Olli Lohi, MD PhD",
+        "Anssi Auvinen, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Atte Nikkil\u00e4, MD",
+            "author_affiliations": [
+                "Tampere University, Tampere, Finland "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jani Raitanen, MSc",
+            "author_affiliations": [
+                "Tampere University, Tampere, Finland "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Olli Lohi, MD PhD",
+            "author_affiliations": [
+                "Tampere Center for Child Health Research, University of Tampere and Tampere University Hospital, Tampere, Finland"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anssi Auvinen, MD PhD",
+            "author_affiliations": [
+                "Tampere University, Tampere, Finland "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-17T12:56:58",
+    "is_scraped": "1"
 }
