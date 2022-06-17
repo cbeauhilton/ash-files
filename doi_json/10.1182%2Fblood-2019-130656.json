@@ -1,8 +1,175 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4271",
-    "start_url_page_num": "4271",
     "doi": "https://doi.org/10.1182/blood-2019-130656",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/333/426217/Rates-of-Laboratory-Adverse-Events-By-Chemotherapy?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T17:44:45",
-    "is_scraped": "0"
+    "article_title": "Rates of Laboratory Adverse Events By Chemotherapy Course for Pediatric Acute Leukemia Patients within the Leukemia Electronic Abstraction of Records Network (LEARN) ",
+    "article_date": "November 13, 2019",
+    "session_type": "903.Health Services Research-Malignant Conditions (Myeloid Disease)",
+    "abstract_text": "Introduction: Adverse events (AEs) are often under- or misreported on clinical trials, leading to an incomplete understanding of therapy-associated toxicities. We previously demonstrated that laboratory result data can be extracted from the electronic health record (EHR), cleaned, and processed to ascertain laboratory AEs with high accuracy compared to gold standard chart abstraction at a single institution. We sought to employ this methodology at three large children's hospitals to demonstrate scalability and describe laboratory AE rates during therapy for pediatric acute myeloid and acute lymphoblastic leukemia (AML, ALL). Methods: The Leukemia Electronic Abstraction of Records Network (LEARN) comprises data from patients with AML and ALL treated at the Children's Hospital of Philadelphia (CHOP) from 2006 to 2014, Children's Healthcare of Atlanta from 2010 to 2018, and Texas Children's Hospital from 2008 to 2014. Risk classification, clinical trial enrollment status, and chemotherapy course start and end dates for all patients were collected via manual chart abstraction. After manual input of medical record numbers and course dates, a package we developed in the R programming language (ExtractEHR) was employed to extract laboratory results from the Epic EHR at each site. De-identified laboratory result data were cleaned centrally at CHOP to remove falsely abnormal results, including hemolyzed specimens and results that normalized within 1 hour for electrolytes and hematology tests and within 12 hours for liver function tests (LFTs). Laboratory results were processed and graded according to Common Terminology Criteria for Adverse Events (CTCAE) v5 definitions for 22 AEs. The highest grade of each AE in each course was calculated and results were tabulated by chemotherapy course for ALL and AML separately. Only chemotherapy courses with complete start and end dates were included; courses that were ongoing at time of abstraction were excluded. Highest grades for each AE over all chemotherapy courses combined were stratified by leukemia risk classification and trial enrollment status and were compared using chi square tests. CTCAE grade 5 definitions are not numerically based, so were excluded. Results: Laboratory result data on 1687 patients (AML: 282, ALL: 1405) who experienced 6652 courses (AML: 909, ALL: 5743) were extracted, processed and graded. For the purposes of these results, AEs indicate grades 3-4. More than 95% of AML courses had anemia, neutropenia and thrombocytopenia (Table). AML patients experienced the most laboratory AEs during Induction I and Intensification III (prevalence of grade 3-4 AEs was \u226510% for 10 AEs evaluated). Apart from hematologic AEs, hypokalemia (17.9-44.9% of courses) and increased LFTs (7.7-18.6% of courses) were the most common AEs in AML courses. While AML patients experienced higher rates of hematologic AEs, ALL patients had higher rates of electrolyte and LFT AEs over all courses. These AEs were distributed across all courses; in each course there were 7-9 AEs with a prevalence of \u226510%. Increased alanine aminotransferase was common in every ALL course (17.4-66.2%). For both for AML and ALL, AE rates were similar among patients enrolled on trials and those who were not. AE rates were similar for all AML risk classifications. In contrast, for ALL there were significantly higher rates (p<0.05) among intermediate/high risk compared to standard risk patients for 17 AEs, including AEs in all laboratory categories. Conclusions: The ExtractEHR tool is scalable for extracting laboratory result data from the EHR at multiple hospitals. These data can be processed centrally using a series of electronic code to describe comprehensive laboratory AE rates during chemotherapy, which does not otherwise exist in the literature. The lack of difference by trial enrollment status indicates that these results apply to all patients with AML and ALL. These data therefore describe expected AE rates for patients during each chemotherapy phase that can be used to provide clinical guidance and serve as a baseline comparison for experimental agents in clinical trials. These data and LEARN provide a granular resource for clinical epidemiology research focused on evaluating factors associated with incidence and resolution of laboratory AEs. Efforts are ongoing to incorporate medication and outcome data to investigate the impact of these AEs on clinical experience and outcomes. View large Download slide View large Download slide  Close modal Disclosures Fisher: Pfizer: Research Funding; Astellas: Other: Data Safety Monitoring Board Chair for an antifungal study; Merck: Research Funding.",
+    "topics": [
+        "adverse event",
+        "chemotherapy regimen",
+        "leukemia",
+        "leukemia, acute",
+        "pediatrics",
+        "liver function tests",
+        "cyclophosphamide, doxorubicin, prednisone, and vincristine",
+        "electrolytes",
+        "abnormal test results",
+        "acute lymphocytic leukemia"
+    ],
+    "author_names": [
+        "Tamara P. Miller, MD MSc",
+        "Kelly D Getz",
+        "Biniyam Demissei, MD PhD",
+        "Karen R. Rabin, MD PhD",
+        "Marla Daves, MD",
+        "Philip J. Lupo, PhD MPH",
+        "Michael E. Scheurer, PhD MPH",
+        "Evanette Burrows, MPH",
+        "Brian T. Fisher, DO, MSCE",
+        "Robert W. Grundmeier, MD",
+        "Judy Lee",
+        "Jennifer J. Wilkes, MDMSCE",
+        "Lena E. Winestone, MD",
+        "Maria Monica J. Gramatges, MD PhD",
+        "Richard Aplenc, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Tamara P. Miller, MD MSc",
+            "author_affiliations": [
+                "Children's Healthcare of Atlanta, Emory University, Division of Hematology/Oncology, Aflac Cancer and Blood Disorders Center, Decatur, GA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kelly D Getz",
+            "author_affiliations": [
+                "Children's Hospital of Philadelphia, Philadelphia, PA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Biniyam Demissei, MD PhD",
+            "author_affiliations": [
+                "Children's Hospital of Philadelphia, Philadelphia, PA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karen R. Rabin, MD PhD",
+            "author_affiliations": [
+                "Division of Hematology-Oncology, Texas Children's Hospital, Department of Pediatrics, Baylor College of Medicine, Houston, TX "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marla Daves, MD",
+            "author_affiliations": [
+                "Pediatric Hematology/Oncology, Texas Children's Hospital, Baylor College of Medicine, Houston, TX "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Philip J. Lupo, PhD MPH",
+            "author_affiliations": [
+                "Texas Children's Hospital, Baylor College of Medicine, Texas Children's Cancer and Hematology Centers, Houston, TX "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael E. Scheurer, PhD MPH",
+            "author_affiliations": [
+                "Texas Children's Hospital, Baylor College of Medicine, Texas Children's Cancer and Hematology Centers, Houston, TX "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Evanette Burrows, MPH",
+            "author_affiliations": [
+                "Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brian T. Fisher, DO, MSCE",
+            "author_affiliations": [
+                "Children's Hospital of Philadelphia, Philadelphia, PA "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Robert W. Grundmeier, MD",
+            "author_affiliations": [
+                "Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Judy Lee",
+            "author_affiliations": [
+                "Children's Healthcare of Atlanta, Atlanta, GA "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jennifer J. Wilkes, MDMSCE",
+            "author_affiliations": [
+                "Department of Pediatrics, University of Washington, Division of Hematology/Oncology, Seattle Children's Hospital, Seattle, WA "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lena E. Winestone, MD",
+            "author_affiliations": [
+                "Division of Allergy, Immunology, and BMT, UCSF Benioff Children's Hospital, San Francisco, CA "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maria Monica J. Gramatges, MD PhD",
+            "author_affiliations": [
+                "Texas Children's Hospital, Baylor College of Medicine, Texas Children's Cancer and Hematology Centers, Houston, TX "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Richard Aplenc, MD PhD",
+            "author_affiliations": [
+                "Division of Oncology and Center for Childhood Cancer Research, Children's Hospital of Philadelphia, Philadelphia, PA"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-17T02:36:04",
+    "is_scraped": "1"
 }
