@@ -1,8 +1,117 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4324",
-    "start_url_page_num": "4324",
     "doi": "https://doi.org/10.1182/blood-2019-127837",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/4275/425624/Modelling-Single-Cell-B-Cell-Receptor-Signaling?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T19:38:40",
-    "is_scraped": "0"
+    "article_title": "Modelling Single Cell B-Cell Receptor Signaling Reveals Enhanced Activity in Primary CLL Cells Compared to Non-Malignant Cells While Fundamental Network Circuit Topology Remains Stable Even with Novel Therapeutic Inhibitors ",
+    "article_date": "November 13, 2019",
+    "session_type": "641.CLL: Biology and Pathophysiology, excluding Therapy",
+    "abstract_text": "B-cell receptor (BCR) signalling is central for the pathomechanism of chronic lymphocytic leukemia (CLL). Novel inhibitors of BCR signalling have recently substantially improved treatment of CLL, and a better characterization of the molecular circuitry of leukemic BCR signalling will allow a more refined targeting of this Achilles heel. In order to model malignant and non-malignant BCR signalling, we quantified after stimulation 5 components of BCR signaling (ZAP70/SYK, BTK, PLCy2, AKT, ERK1/2) in single cells from primary human leukemic and non-malignant tissue via phospho-specific flow cytometry over 6 time points. We stimulated cells from 11 patients and non-malignant CD19 negative enriched B-cells from 5 healthy donors by crosslinking the BCR with anti-IgM and/or anti-CD19 and synchronous inhibition of phosphatases with H 2 O 2 . As expected, we found more phosphorylation of all BCR signalling components after stimulation in malignant vs non-malignant cells and in IGHV non-mutated CLL cells compared to IGHV mutated CLL cells. Intriguingly, inhibition of phosphatases with H 2 O 2 led to higher phosphorylation of BCR components in CLL cells with mutated IGHV genes compared to CLL cells with non-mutated IGHV genes, suggesting a stronger dampening of signalling activity in mutated IGHV CLL by phosphatases. In order to characterize the signalling circuitry, we modelled the connectivity of the cascade components by correlating signal intensities across single cells of the cell populations of single samples (Figure 1). Surprisingly, upon stimulation no substantial differences in network topology were observed between malignant and non-malignant cells. To additionally test for changes in network topology, we challenged the BCR signaling cascade with inhibitors for BTK (ibrutinib), PI3K (idelalisib). Ibrutinib and idelalisib acted complementary, but not synergistic, and were similarly effective in IGHV mutated and non-mutated CLL. Effects of idelalisib were the same on malignant and non-malignant cells, whereas ibrutinib was mostly active on CLL cells, not on non-malignant B-cells. Upon stimulation with combinations of IgM and CD19 crosslinking augmented with H 2 O 2 , phosphorylation of PLCy2 could not be significantly inhibited by idelalisib or ibrutinib on a timescale of 28mins. We therefore aimed to identify central activating nodes of the BCR signalling cascade using targeted inhibitors. In fact, we found that inhibition of LYN with dasatinib and inhibition of SYK with entospletinib could substantially reduce phosphorylation of PLCy2, BTK and ERK but not AKT after all combinations of BCR stimulation. This suggests additional signalling cascades modulating AKT and a strong impact of SYK/LYN activity on the regulation of PLCy2. In summary, our findings underline the importance of single cell analysis of the dynamic circuitry of B-cell receptor signalling to understand development of resistance mechanisms and potential vulnerabilities. Figure 1: Workflow scheme of the Bayesian network learning and averaging approach. After discretizing the continuous single cell data, an optimal network is derived from each of R bootstrap samples. The Bayesian network learning strategy uses the BDe scoring function and a greedy hill-climbing algorithm to find the network model that represents the resampled data best. An average arc strength for each connection between nodes is derived from the number of occurrences of the respective connection in the set of R best scoring networks. Further averaging among networks derived from different data sets was applied for identifying conditional, temporal, and group-specific differences. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures D\u00f6hner: Novartis: Consultancy, Honoraria, Research Funding; Astex: Consultancy, Honoraria; Bristol Myers Swuibb: Research Funding; Amgen: Consultancy, Honoraria, Research Funding; Arog: Research Funding; Seattle Genetics: Consultancy, Honoraria; Astellas: Consultancy, Honoraria; Roche: Consultancy, Honoraria; Janssen: Consultancy, Honoraria; Agios: Consultancy, Honoraria; Pfizer: Research Funding; Celgene Corporation: Consultancy, Honoraria, Research Funding; Jazz: Consultancy, Honoraria, Research Funding; AbbVie: Consultancy, Honoraria. Stilgenbauer: GSK: Consultancy, Honoraria, Research Funding, Speakers Bureau; Janssen: Consultancy, Honoraria, Research Funding, Speakers Bureau; Pharmacyclics: Other: Travel support; Amgen: Consultancy, Honoraria, Research Funding, Speakers Bureau; Novartis: Consultancy, Honoraria, Research Funding, Speakers Bureau; Gilead: Consultancy, Honoraria, Research Funding, Speakers Bureau; AstraZeneca: Consultancy, Honoraria, Research Funding, Speakers Bureau; Celgene: Consultancy, Honoraria, Research Funding, Speakers Bureau; Hoffmann La-Roche: Consultancy, Honoraria, Research Funding, Speakers Bureau; AbbVie: Consultancy, Honoraria, Research Funding, Speakers Bureau.",
+    "topics": [
+        "anatomy, regional",
+        "receptors, antigen, b-cell",
+        "signal transduction",
+        "ibrutinib",
+        "idelalisib",
+        "cd19 antigens",
+        "hydrogen peroxide",
+        "phosphoric monoester hydrolases",
+        "proto-oncogene proteins c-akt",
+        "immunoglobulin m"
+    ],
+    "author_names": [
+        "Daniel Mertens, PhD",
+        "Christine Wolf, PhD",
+        "Carsten Maus, PhD",
+        "Michael Persicke",
+        "Katharina Filarsky, PhD",
+        "Hartmut D\u00f6hner",
+        "Peter Lichter, PhD",
+        "Thomas H\u00f6fer, PhD",
+        "Stephan Stilgenbauer, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Daniel Mertens, PhD",
+            "author_affiliations": [
+                "Internal Medicine III, University of Ulm, Ulm, Germany ",
+                "Mechanisms of Leukemogenesis, German Cancer Research Center (DKFZ), Heidelberg, Germany "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christine Wolf, PhD",
+            "author_affiliations": [
+                "Mechanisms of Leukemogenesis, German Cancer Research Center (DKFZ), Heidelberg, Germany "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Carsten Maus, PhD",
+            "author_affiliations": [
+                "Theoretical Systems Biology, German Cancer Research Center (DKFZ), Heidelberg, Germany "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Persicke",
+            "author_affiliations": [
+                "Mechanisms of Leukemogenesis, German Cancer Research Center (DKFZ), Heidelberg, Germany "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Katharina Filarsky, PhD",
+            "author_affiliations": [
+                "Mechanisms of Leukemogenesis, German Cancer Research Center (DKFZ), Heidelberg, Germany "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hartmut D\u00f6hner",
+            "author_affiliations": [
+                "Internal Medicine III, University of Ulm, Ulm, Germany "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter Lichter, PhD",
+            "author_affiliations": [
+                "Molecular Genetics, German Cancer Research Center (DKFZ), Heidelberg, Germany "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Thomas H\u00f6fer, PhD",
+            "author_affiliations": [
+                "Theoretical Systems Biology, German Cancer Research Center (DKFZ), Heidelberg, Germany "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephan Stilgenbauer, MD",
+            "author_affiliations": [
+                "Department of Internal Medicine III, Ulm University, Ulm, Germany ",
+                "Hematology, Oncology, Rheumatology and Clinical Immunology, Saarland University Medical Center, Homburg, Germany"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-17T15:37:05",
+    "is_scraped": "1"
 }

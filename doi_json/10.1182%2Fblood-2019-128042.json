@@ -1,8 +1,95 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4354",
-    "start_url_page_num": "4354",
     "doi": "https://doi.org/10.1182/blood-2019-128042",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/4251/425683/Machine-Learning-Approach-Identifies-Independent?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T20:43:11",
-    "is_scraped": "0"
+    "article_title": "Machine Learning Approach Identifies Independent Prognostic Value of Flow Cytometry (FCM) in Myelodysplastic Syndromes (MDS) ",
+    "article_date": "November 13, 2019",
+    "session_type": "637.Myelodysplastic Syndromes-Clinical Studies",
+    "abstract_text": "Introduction: Flow cytometry (FCM) is considered as a co-criterion in MDS diagnostics if the main diagnostic methods are not sufficient to clearly diagnose or rule out MDS. The iMDSFlow working group of the European LeukemiaNet worked on recommendations regarding the harmonization of preanalytics, data analysis, as well as of appropriate diagnostic scores. The aims of the present study were (1) to test whether the parameters and reference ranges applied for FCM diagnostics in MDS do have an impact on prognosis; and (2) whether the incorporation of computational algorithms in data mining could further improve the prognostic information of FCM. Methods: FCM diagnostics was performed in bone marrow (BM) of 303 patients cytomorphologically classified as MDS using a Lyse-wash-method and measuring on a FACSCantoII cytometer. For FCM data evaluation, commonly used diagnostic flow-scores - FCSS (Wells et al. 2003), Ogata-score (Ogata et al. 2009), new iFS-score (Cremers et al. 2017), ELN-Red-score (Westers et al. 2017), Red-score (Mathis et al. 2013) - were applied, including the analysis of progenitor cells, granulopoiesis, monopoiesis, and nucleated erythropoiesis. Thus, 55 FCM parameters necessary to assess the mentioned flow-scores and 33 additional FCM parameters have been evaluated. Clinical variables (n=11) including IPSS-R (vLR+LR: 163 pts., Int: 81 pts., HR+vHR: 59 pts.) have also been recorded. Median follow-up time was 28 months (1.5 - 84 mo). Overall survival (OS) was assessed in uni- and multivariate Cox proportional hazards regression analysis using log-rank likelihood test. Reference ranges for FCM parameters have been assessed before using BM of 49 healthy donors. In addition, in order to improve prognostic output, a computational approach was devised that tests every possible combination of binary, ternary, and quaternary marker strata segregation to identify the thresholds that bring about optimum separation of hazard strata in each model based on log-likelihood p-value. Finally, it was assessed whether the FCM variables correlate with IPSS-R and also have independent predictive value in MDS. Results: First, MDS flow-scores and IPSS-R have been tested for OS resulting in a significant association of higher flow-scores with shorter survival, Ogata: median OS: 51 mo vs. not reached (NR), hazard ratio (HR)=2.1, p=0.00084; FCSS: 70 mo vs. NR, HR=2.1, p=0.013; new iFS: 70 mo vs. NR, HR=1.9, p=0.02; IPSS-R: 37 vs. 55 vs. 74 mo; HR=2.4/1.4, p=0.0045. Second, we wanted to explore whether single FCM parameters inherit prognostic information using the diagnostic reference ranges. Of note, 19 of all FCM parameters were significantly associated with OS, e.g. decreased side scatter (granulopoiesis; 37 mo vs. NR, HR=2.4, p=0.000047), decreased % of B-lymphatic progenitors (lyPC; 52 mo vs. NR, HR=2.3, p=0.0013). As a third step, a computational learning algorithm was applied. In 7/19 parameters already showing significant differences in OS while using the diagnostic reference ranges, the algorithm could add information. Moreover, the algorithm optimized thresholding for 17 additional FCM parameters, resulting in clearer survival differences, e.g. decreased side scatter (myPC, 33 vs. 74 mo, HR=2.6 p=0.00002), aberrant CD5 expression (granulopoiesis; 32 vs. 74 mo, HR=2.5 p=0.000045). Next, we performed an independent multivariate Cox model with lasso penalty, considering 14 FCM parameters which in univariate analysis showed a clearer survival difference compared to IPSS-R. Of note, this identified the following as best predictors of OS: IPSS-R, decreased side scatter (granulopoiesis), CD45 MFI (ratio of CD45 MFI lymphocytes : myPC), and decreased % B-lymphatic progenitors. Conclusions: In addition to the known importance of FCM in MDS diagnostics, we provided evidence that FCM has also an important prognostic impact in relation to IPSS-R even in this heterogeneous group of MDS patients. Thus, in univariate analysis a computational learning algorithm was able to refine thresholding resulting in an improved separation of OS curves. Importantly, even in multivariate analysis FCM proved its significance for patient outcome. Further studies should evaluate, whether a flow-score including the most influential variables could add prognostic information to IPSS-R. Disclosures Kordasti: Celgene: Research Funding; Novartis: Research Funding; Boston Biomed: Consultancy; API: Consultancy. Platzbecker: Novartis: Consultancy, Honoraria, Research Funding; Abbvie: Consultancy, Honoraria; Celgene: Consultancy, Honoraria, Research Funding.",
+    "topics": [
+        "flow cytometry",
+        "machine learning",
+        "myelodysplastic syndrome",
+        "prostatic hypertrophy risk score",
+        "brachial plexus neuritis",
+        "cd45 antigens",
+        "follow-up",
+        "survival analysis",
+        "reference values",
+        "lymphatic vessels"
+    ],
+    "author_names": [
+        "Uta Oelschlaegel, PhD",
+        "Kevin Blighe, PhD",
+        "Susann Winter, PhD",
+        "Katja Sockel, MD",
+        "Martin Bornh\u00e4user, MD",
+        "Shahram Kordasti, MD PhD",
+        "Uwe Platzbecker"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Uta Oelschlaegel, PhD",
+            "author_affiliations": [
+                "University Hospital Carl Gustav Carus, Dresden, Germany "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kevin Blighe, PhD",
+            "author_affiliations": [
+                "Comprehensive Cancer Centre, School of Cancer and Pharmaceutical Sciences, King's College, London, United Kingdom "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Susann Winter, PhD",
+            "author_affiliations": [
+                "University Hospital Carl Gustav Carus, Dresden, Germany "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Katja Sockel, MD",
+            "author_affiliations": [
+                "University Hospital Carl Gustav Carus, Dresden, Germany "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martin Bornh\u00e4user, MD",
+            "author_affiliations": [
+                "University Hospital Carl Gustav Carus, Dresden, Germany "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shahram Kordasti, MD PhD",
+            "author_affiliations": [
+                "Comprehensive Cancer Centre, School of Cancer and Pharmaceutical Sciences, King's College, London, United Kingdom "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Uwe Platzbecker",
+            "author_affiliations": [
+                "Universit\u00e4tsklinikum Leipzig, Leipzig, Germany"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-17T15:39:28",
+    "is_scraped": "1"
 }
