@@ -1,8 +1,197 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4400",
-    "start_url_page_num": "4400",
     "doi": "https://doi.org/10.1182/blood-2019-125727",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/2694/423120/Next-Generation-RNA-Sequencing-Based-Analysis?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T22:43:12",
-    "is_scraped": "0"
+    "article_title": "Next-Generation RNA Sequencing-Based Analysis Identifies a Novel Set of Prognostic Micrornas (miRs) in Cytogenetically Normal Acute Myeloid Leukemia (CN-AML) ",
+    "article_date": "November 13, 2019",
+    "session_type": "617.Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
+    "abstract_text": "Background: Aberrant expression levels of several miRs have been reported to independently associate with outcome of patients (pts) with CN-AML. In these reports, miR expression was profiled using microarray assays, which interrogate a selected subset of miRs. The advent of next-generation sequencing (NGS) has allowed unbiased measurement of miR expression, but, to our knowledge, NGS has not been used to identify miRs associated with prognosis of AML pts. Here, we analyze small RNA sequencing (smRNA-seq) data from a large cohort of younger adults with CN-AML, for whom outcome data were available, with the goal to identify new prognostic miRs. Methods: We performed smRNA-seq in 281 younger adults (aged 18-59 y) with de novo CN-AML. Cytogenetic analyses were performed in Cancer and Leukemia Group B (CALGB)/Alliance institutional laboratories using standard banding techniques; mutational analyses were done centrally using a targeted DNA sequencing platform. All pts were treated on frontline CALGB/Alliance protocols. Results: We first evaluated which miRs associated with overall survival (OS) in univariable analysis; we detected 9 such miRs. We then used a machine-learning approach, namely random forests, to identify miRs whose concomitant expression could generate an effective outcome predictor in CN-AML. To account for the effect of co-existing prognostic gene mutations, we included the European LeukemiaNet (ELN) risk group status in the random forest analyses. A total of 8 prognostic miRs were identified, 4 of which were also found to be prognostic in univariable analysis (underlined below), thus bringing the total number of unique prognostic miRs to 13: miR-511, miR-1193, miR-155, miR-4517, miR-3681, miR-2355, miR-628, miR-1266, miR-6715a, miR-1180, miR-6715b, miR-132, miR-146b. We used partitioning around medoids to divide our pts into clusters, based on the combined expression levels of the 13 prognostic miRs. Two such clusters were identified: cluster 1 comprised 173 pts and cluster 2 contained 108 pts. Regarding pretreatment and molecular features, pts in cluster 1 had lower percent of bone marrow blasts ( P =.04), and had more frequently biallelic CEBPA mutations ( P <.001) and less frequently internal tandem duplications of the FLT3 gene ( P <.001), RUNX1 ( P =.02) and WT1 ( P =.03) mutations than pts in cluster 2. In outcome analyses, pts in cluster 1 had a higher complete remission rate (CR; 91% vs 73%, P <.001) and a longer disease-free survival (DFS; 5-y rates 52% vs 16%, P <.001) and OS (5-y rates 60% vs 19%, P <.001). In multivariable analysis, cluster 1 status remained significantly associated with higher odds of achieving a CR ( P =.001) and longer DFS ( P <.001) and OS ( P <.001), after adjusting for other covariates. Regarding accuracy of outcome prediction, our composite model had a concordance index of 0.687. When ranked according to importance for prognosis, miR-511 expression was the most significant determinant among the random forest model parameters. To evaluate the reproducibility of our findings, we performed analyses in the publicly available TCGA dataset (Ley et al. NEJM 2013;368:2059). Eighty-eight CN-AML pts with miR expression and survival data were available in the TCGA cohort. As TCGA pts are not classified according to ELN risk groups, we could not directly reproduce the random forest-based cluster analysis. However, a univariable analysis showed that miR-511 and miR-628 expression levels were also prognostic in the TCGA dataset. Next, we evaluated whether the identified prognostic miRs have functional relevance in AML. We focused on miR-511, which was the most important determinant of our outcome predictor and has not been previously studied in AML. Among 6 AML cell lines tested, MV4-11 had the most abundant expression of miR-511. Functional silencing of miR-511 in MV4-11 cells decreased both their viability (as measured by Annexin-PI staining and flow-cytometry, P =.004) and proliferative capacity (as measured by WST1 reagent degradation, P <.001). Conclusion: Unbiased profiling of miRs using smRNA-seq has identified a novel set of 13 miRs with prognostic significance in CN-AML. MiR expression-based cluster status independently associates with clinical outcome of CN-AML pts. Our preliminary in vitro experiments have shown that miR-511, whose association with prognosis was the strongest among the newly identified prognostic miRs, is functionally relevant in AML. Disclosures Uy: Astellas: Consultancy; Pfizer: Consultancy; Curis: Consultancy; GlycoMimetics: Consultancy. Powell: Rafael Pharmaceuticals: Consultancy, Research Funding; Novartis: Consultancy, Speakers Bureau; Jazz Pharmaceuticals: Consultancy, Research Funding, Speakers Bureau; Pfizer: Consultancy, Research Funding; Janssen: Research Funding. Kolitz: Astellas: Research Funding; Boeringer-Ingelheim: Research Funding; Roche: Research Funding. Byrd: Acerta: Research Funding; TG Therapeutics: Other: Travel Expenses, Research Funding, Speakers Bureau; Genentech: Research Funding; Janssen: Consultancy, Other: Travel Expenses, Research Funding, Speakers Bureau; Ohio State University: Patents & Royalties: OSU-2S; Genentech: Research Funding; Novartis: Other: Travel Expenses, Speakers Bureau; BeiGene: Research Funding; TG Therapeutics: Other: Travel Expenses, Research Funding, Speakers Bureau; Novartis: Other: Travel Expenses, Speakers Bureau; Pharmacyclics LLC, an AbbVie Company: Other: Travel Expenses, Research Funding, Speakers Bureau; Acerta: Research Funding; Ohio State University: Patents & Royalties: OSU-2S; Ohio State University: Patents & Royalties: OSU-2S; Gilead: Other: Travel Expenses, Research Funding, Speakers Bureau; Genentech: Research Funding; Acerta: Research Funding; BeiGene: Research Funding; Gilead: Other: Travel Expenses, Research Funding, Speakers Bureau; Janssen: Consultancy, Other: Travel Expenses, Research Funding, Speakers Bureau; Pharmacyclics LLC, an AbbVie Company: Other: Travel Expenses, Research Funding, Speakers Bureau.",
+    "topics": [
+        "annexins",
+        "blast cells",
+        "bone marrow",
+        "brachial plexus neuritis",
+        "cancer and leukemia group b",
+        "ccaat/enhancer binding protein alpha",
+        "cell lines",
+        "complete remission",
+        "cytogenetic analysis",
+        "flow cytometry"
+    ],
+    "author_names": [
+        "Dimitrios Papaioannou, MD",
+        "Deedra Nicolet, MS",
+        "Kellie J Archer, PhD",
+        "Allison Walker",
+        "Krzysztof Mr\u00f3zek, MD PhD",
+        "Andrew J. Carroll, PhD",
+        "Jessica Kohlschmidt, PhD",
+        "Ann-Kathrin Eisfeld, MD",
+        "Marius Bill, MD PhD",
+        "Christopher J. Walker, PhD",
+        "Geoffrey L. Uy, MD",
+        "Bayard L Powell, MD",
+        "Jonathan E. Kolitz, MD",
+        "Richard Stone, MD",
+        "John C. Byrd, MD",
+        "Ramiro Garzon, MD",
+        "Clara D. Bloomfield, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Dimitrios Papaioannou, MD",
+            "author_affiliations": [
+                "The Ohio State University, Comprehensive Cancer Center, Columbus, OH "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Deedra Nicolet, MS",
+            "author_affiliations": [
+                "The Ohio State University, Comprehensive Cancer Center, Columbus, OH ",
+                "Alliance Statistics and Data Center, The Ohio State University Comprehensive Cancer Center, Columbus, OH "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kellie J Archer, PhD",
+            "author_affiliations": [
+                "Division of Biostatistics, College of Public Health, The Ohio State University, Columbus, "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Allison Walker",
+            "author_affiliations": [
+                "The Ohio State University, Comprehensive Cancer Center, Columbus, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Krzysztof Mr\u00f3zek, MD PhD",
+            "author_affiliations": [
+                "The Ohio State University, Comprehensive Cancer Center, Columbus, OH "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew J. Carroll, PhD",
+            "author_affiliations": [
+                "Department of Genetics, University of Alabama at Birmingham, Birmingham, AL "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jessica Kohlschmidt, PhD",
+            "author_affiliations": [
+                "The Ohio State University, Comprehensive Cancer Center, Columbus, OH ",
+                "Alliance Statistics and Data Center, The Ohio State University Comprehensive Cancer Center, Columbus, OH "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ann-Kathrin Eisfeld, MD",
+            "author_affiliations": [
+                "The Ohio State University, Division of Hematology, Department of Internal Medicine, Columbus, OH "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marius Bill, MD PhD",
+            "author_affiliations": [
+                "The Ohio State University, Comprehensive Cancer Center, Columbus, OH "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher J. Walker, PhD",
+            "author_affiliations": [
+                "The Ohio State University, Comprehensive Cancer Center, Columbus, OH "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Geoffrey L. Uy, MD",
+            "author_affiliations": [
+                "Division of Oncology, Washington University School of Medicine, Saint Louis, MO "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bayard L Powell, MD",
+            "author_affiliations": [
+                "Wake Forest Baptist Comprehensive Cancer Center, Winston-Salem, NC "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan E. Kolitz, MD",
+            "author_affiliations": [
+                "Zucker School of Medicine at Hofstra/Northwell, Northwell Health Cancer Institute, Lake Success, NY "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Richard Stone, MD",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Boston, MA "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John C. Byrd, MD",
+            "author_affiliations": [
+                "The Ohio State University, Columbus, OH "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ramiro Garzon, MD",
+            "author_affiliations": [
+                "The Ohio State University, Comprehensive Cancer Center, Columbus, OH "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Clara D. Bloomfield, MD",
+            "author_affiliations": [
+                "Comprehensive Cancer Center, The Ohio State University, Columbus, OH"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-18T06:43:42",
+    "is_scraped": "1"
 }
