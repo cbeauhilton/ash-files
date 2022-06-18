@@ -1,8 +1,65 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4381",
-    "start_url_page_num": "4381",
     "doi": "https://doi.org/10.1182/blood-2019-124662",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/2454/422825/Development-and-Validation-of-a-Machine-Learning?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T21:42:12",
-    "is_scraped": "0"
+    "article_title": "Development and Validation of a Machine Learning Algorithm for Prediction of Platelet Transfusion Efficiency in Patients with Hematological Diseases ",
+    "article_date": "November 13, 2019",
+    "session_type": "401.Basic Science and Clinical Practice in Blood Transfusion",
+    "abstract_text": "Background: Prophylactic transfusion of platelets provides a good protection for the implementation of invasive procedures and the prevention of bleeding events during chemotherapy and hematopoietic stem cell transplantation in patients who are suffering from hematological diseases. The issues that what is the optimal dose of platelet transfusion and how to monitor platelet transfusion efficiency are important due to the short storage time of platelet products, rising clinical demands, and decreasing donors. It is worthy that there are amount of studies have been conducted in the past to explore factors that may affect the clinical efficacy of platelet transfusion and characteristics of patients under these different transfusion effects. While, previous studies failed to exactly address the problems of clinical needs for platelet transfusion. Methods: The aim of our study is to develop a model to evaluate the efficacy of platelet transfusion and the statistic method of machine learning algorithm (ML) was involved. The differences between this algorithm and traditional methods are that the former one can continuously be learning from the data and form a self-training model, therefore ML is more accurate than traditional artificial models and generally independent of the model and parameters themselves. We further take the multi-layer fully connected layer neural network model (MLNN) into our consideration because it simulates the multi-layer interconnection of human nervous systems, which is suitable for processing inaccurate and fuzzy information. In our study, the establishment of a neural network model was used to make a multiple-dimension analysis between factors affecting platelet transfusion efficacy and platelet count added value correction index (aCCI), and explore the correlation among these influencing factors as well. Results: The study utilized the data relative to 1840 platelet transfusions performed in 460 patients with hematological diseases. The participants ranged in age from 16 to 92, and the median age was 59.5. There were 199 females and 261 men. The whole data was divided to 2 parts, 2/3 of them were analyzed as a training set and the others were used for validating. We selected 30 factors (including patient-related factors and transfusion product-related characteristics) that may affect the efficacy of platelet transfusion except the storage time of platelet (all data < 2 days), and established a model for predicting platelet transfusion efficacy based on the volume of platelet transfusion. After the model was established, it was tested for goodness of fit, and the results showed that the LOSS value tended to be stable. Conclusions: The establishment of this model may not only be used for predicting the platelet count after platelet transfusions in patients and the amount of platelets that need to be transfused, but also provide supports for the solution of related problems. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "hematological diseases",
+        "machine learning",
+        "platelet transfusion",
+        "transfusion",
+        "chemotherapy regimen",
+        "hematopoietic stem cell transplantation",
+        "hemorrhage",
+        "platelet count measurement",
+        "blood platelets",
+        "donors"
+    ],
+    "author_names": [
+        "Meng Wang",
+        "Jian Cheng",
+        "Xiuwen Li",
+        "Baoan Chen, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Meng Wang",
+            "author_affiliations": [
+                "Department of Hematology and Oncology, Zhongda Hospital, School of Medicine,Southeast University, Nanjing, China, Nanjing, China "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jian Cheng",
+            "author_affiliations": [
+                "Department of Hematology and Oncology, Zhongda Hospital, School of Medicine,Southeast University, Nanjing, China, Nanjing, CHN "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xiuwen Li",
+            "author_affiliations": [
+                "Department of Blood Transfusion, Southeast University Zhongda Hospital, Nanjing, China "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Baoan Chen, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology and Oncology, School of Medicine, Zhongda Hospital, Southeast University, Nanjing, China"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-18T04:03:18",
+    "is_scraped": "1"
 }

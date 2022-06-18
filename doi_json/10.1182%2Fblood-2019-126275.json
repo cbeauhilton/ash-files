@@ -1,8 +1,205 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4376",
-    "start_url_page_num": "4376",
     "doi": "https://doi.org/10.1182/blood-2019-126275",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/2089/428110/Predicting-Response-to-Hypomethylating-Agents-in?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T21:41:52",
-    "is_scraped": "0"
+    "article_title": "Predicting Response to Hypomethylating Agents in Patients with Myelodysplastic Syndromes (MDS) Using Artificial Intelligence (AI) ",
+    "article_date": "November 13, 2019",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Introduction While the hypomethylating agents (HMAs) azacitidine (AZA) and decitabine (DAC) improve cytopenias and prolong survival in MDS patients (pts), response is not guaranteed. Timely identification of non-responders could prevent prolonged exposure to ineffective therapy, thereby reducing toxicities and costs. Currently no widely accepted clinical or genomic models exist to predict response or resistance to HMAs. We developed a clinical model to predict response or resistance to HMA after 90 days of initiating therapy based on changes in blood counts using time series analysis technology similar to the kind used in Apple's Siri or Google Assistant. In the setting of voice recognition, the sequence and context of words determines the meaning of a sentence; similarly, we hypothesized that the pattern of changes in MDS pts' blood counts would predict response or resistance early during treatment. Methods We screened a cohort of 107 pts with MDS (per 2016 WHO criteria) who received HMAs at our institution between February 2005 and July 2013 and had regular CBCs drawn during treatment. Mutations from a panel of 60 genes commonly mutated in myeloid malignancy were included. Responses were assessed after 6 months of therapy per International Working Group (IWG) 2006 criteria. Pts were divided randomly into training (80%) and validation (20%) cohorts. To address the potential for bias due to a small sample size, an oversampling algorithm was used to cluster similar pts based on their CBC data, Revised International Prognostic Scoring System (IPSS-R) score, and % bone marrow blasts at the time of diagnosis. CBC data from the first 90 days of treatment were fed into deep neural network (recurrent neural network) and decision tree algorithms, which were trained to predict whether pts would achieve a response (defined as complete remission (CR), partial remission (PR), or hematologic Improvement (HI)). Area under the curve (AUC) was used to assess model performance. Important features that impact the algorithm's predictions were extracted and plotted. Results 20747 unique data points were used, including CBC, clinical and genomic data. Among 107 pts, 61 (57.0%) received AZA only, 19 (17.8%) DAC only, 4 (3.7%) received both DAC and AZA, and 23 (21.5%) received HMA with an additional agent. Median age was 69 years (range: 37-100 years), and 27 (26.4%) were female. Forty pts (37.4%) were very low/low risk, 32 (29.9%) intermediate, 19 (17.8%) high, and 16 (14.9%) very high risk per IPSS-R. Responses included 23 (22.5%) CR, 2 (1.9%) marrow CR, 4 (3.9%) PR, and 20 (19.6%) HI. The most commonly mutated genes were ASXL1 (17.6%), TET2 (16.7%), SRSF2 (15.7%), SF3B1 (11.8%), RUNX1 (10.8%), STAG2 (10.8%), and DNMT3A (10.8%). The median number of mutations per sample was 1 (range, 0-11), and 40 pts (39.2%) had > 3 mutations per sample. When trained using absolute values and changes in CBC values, the model's AUC was 0.95 in the training cohort and 0.83 in the validation cohort. When the cohort was oversampled to 1000 pts, the validation cohort AUC increased to 0.89. Feature extraction algorithms identified increases in MCV and RDW during weeks 2-8 of treatment, increased proportion of lymphocytes, decreased proportion of monocytes, and increased platelet counts during weeks 6-8 as factors favoring response to HMA. The model provides personalized, patient-specific predictions that correlate with blood counts (Figure 1). Conclusions We describe a machine learning model that monitors changes in blood counts during therapy with HMA to predict response or resistance to HMA in MDS pts. Such a model can be used to develop novel trial designs wherein pts predicted to not respond after 90 days of HMA treatment could be assigned to an investigational agent. Conversely, it would help inform the decision to continue HMA therapy in pts predicted to respond. Increasing sample size with oversampling dramatically increased model accuracy; a larger cohort of pts treated at different institutions is currently under development. View large Download slide View large Download slide  Close modal Disclosures Sekeres: Millenium: Membership on an entity's Board of Directors or advisory committees; Syros: Membership on an entity's Board of Directors or advisory committees; Celgene: Membership on an entity's Board of Directors or advisory committees. Mukherjee: Partnership for Health Analytic Research, LLC (PHAR, LLC): Consultancy; Takeda: Membership on an entity's Board of Directors or advisory committees; Celgene Corporation: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Projects in Knowledge: Honoraria; Novartis: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Pfizer: Honoraria; McGraw Hill Hematology Oncology Board Review: Other: Editor; Bristol-Myers Squibb: Speakers Bureau. Advani: Glycomimetics: Consultancy, Research Funding; Kite Pharmaceuticals: Consultancy; Amgen: Research Funding; Pfizer: Honoraria, Research Funding; Macrogenics: Research Funding; Abbvie: Research Funding. Maciejewski: Alexion: Consultancy; Novartis: Consultancy. Nazha: Novartis: Speakers Bureau; Tolero, Karyopharma: Honoraria; Abbvie: Consultancy; Jazz Pharmacutical: Research Funding; Incyte: Speakers Bureau; Daiichi Sankyo: Consultancy; MEI: Other: Data monitoring Committee.",
+    "topics": [
+        "artificial intelligence",
+        "azacitidine",
+        "blast cells",
+        "bone marrow",
+        "brachial plexus neuritis",
+        "cisplatin/methotrexate/vinblastine protocol",
+        "complete blood count",
+        "complete remission",
+        "cytopenia",
+        "decision trees"
+    ],
+    "author_names": [
+        "Nathan Radakovich, BA",
+        "Mikkael A. Sekeres, MD MS",
+        "Cameron Beau Hilton, BA",
+        "Sudipto Mukherjee, MD PhD MPH",
+        "Jacob Shreve, MD MS",
+        "Yazan Rouphail",
+        "Rachel Shirley",
+        "Vera Adema, PhD",
+        "Hassan Awada, MD",
+        "Anjali S. Advani, MD",
+        "Cassandra M Kerr, MS",
+        "Yasunobu Nagata, MD PhD",
+        "Yihong Guan, PhD",
+        "Teodora Kuzmanovic, BA",
+        "Metis Hasipek, PhD",
+        "Babal K. Jha, PhD",
+        "Jaroslaw P. Maciejewski, MD PhD",
+        "Aziz Nazha, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Nathan Radakovich, BA",
+            "author_affiliations": [
+                "Cleveland Clinic Lerner College of Medicine of Case Western Reserve University, Bellingham, WA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mikkael A. Sekeres, MD MS",
+            "author_affiliations": [
+                "Leukemia Program, Department of Hematology and Medical Oncology, Taussig Cancer Institute, Cleveland Clinic Taussig Cancer Institute, Cleveland, OH "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cameron Beau Hilton, BA",
+            "author_affiliations": [
+                "Cleveland Clinic Lerner College of Medicine of Case Western Reserve University, Cleveland Heights, OH "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sudipto Mukherjee, MD PhD MPH",
+            "author_affiliations": [
+                "Leukemia Program, Department of Hematology and Medical Oncology, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jacob Shreve, MD MS",
+            "author_affiliations": [
+                "Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yazan Rouphail",
+            "author_affiliations": [
+                "Ohio State University, Columbus, OH "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rachel Shirley",
+            "author_affiliations": [
+                "Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vera Adema, PhD",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hassan Awada, MD",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anjali S. Advani, MD",
+            "author_affiliations": [
+                "Leukemia Program, Department of Hematology and Medical Oncology, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cassandra M Kerr, MS",
+            "author_affiliations": [
+                "epartment of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yasunobu Nagata, MD PhD",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yihong Guan, PhD",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Teodora Kuzmanovic, BA",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Metis Hasipek, PhD",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Babal K. Jha, PhD",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic, Cleveland, "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jaroslaw P. Maciejewski, MD PhD",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Cleveland Clinic, Cleveland, OH "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aziz Nazha, MD",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic Foundation, Cleveland, OH"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-18T04:00:31",
+    "is_scraped": "1"
 }
