@@ -1,8 +1,215 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4432",
-    "start_url_page_num": "4432",
     "doi": "https://doi.org/10.1182/blood-2019-130926",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/4477/424804/Updated-Analysis-Novel-Machine-Learning-Based?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T23:42:31",
-    "is_scraped": "0"
+    "article_title": "Updated Analysis: Novel Machine-Learning-Based Sepsis Prediction Model for Patients Undergoing Hematopoietic Stem Cell Transplantation (Early Sepsis Prediction/Identification for Transplant Recipients: ESPRIT) ",
+    "article_date": "November 13, 2019",
+    "session_type": "721.Clinical Allogeneic Transplantation: Conditioning Regimens, Engraftment, and Acute Transplant Toxicities",
+    "abstract_text": "Sepsis contributes significantly to early treatment-related mortality after hematopoietic cell transplantation (HCT). Since the clinical presentation and characteristics of sepsis immediately after HCT can be different from that seen in general population or those who are receiving non-HCT chemotherapy, detecting early signs of sepsis in HCT recipients becomes critical. Herein, we extended our earlier analyses (Dadwal et al. ASH 2018) and evaluated a consecutive case series of 1806 patients who underwent HCT at City of Hope (2014-2017) to develop a machine-learning sepsis prediction model for HCT recipients, namely E arly S epsis Pr ediction/ I dentification for T ransplant Recipients ( ESPRIT ) using variables within the Electronic Health Record (EHR) data. The primary clinical event was sepsis diagnosis within 100 days post-HCT, identified based on the use of the institutional \"sepsis management order set\" and mention of \"sepsis\" in the progress notes. The time of sepsis order set was considered as time of sepsis for the analyses. Data from 2014 to 2016 (108 visits with and 1315 visits without sepsis, 8% sepsis prevalence) were used as the training set and data from 2017 (24 visits with and 359 visits without sepsis, 6.6% sepsis prevalence) were kept as the holdout dataset for testing the model. From each patient visit, 61 variables were collected with a total of 862,009 lab values, 3,284,561 vital sign values and 249,982 medication orders for 1806 visits over the duration of HCT hospitalization (median: 24.1 days, range: 7-304). An ensemble of 100 random forest classification models were used to develop the prediction model. Last Observation Carried Forward (LOCF) imputation was done to attribute the missing values with the last observed value of that variable. For model development and optimization, we applied a 5-fold stratified cross validation on the training dataset. Variable importance for the 100 models was assessed using Gini mean decrease accuracy method value, which was averaged to produce the final variable importance. HCT was autologous in 798 and allogeneic in 1008 patients. Ablative conditioning regimen was delivered to 97.3% and 38.3% of patients in autologous and allogeneic groups, respectively. When the impact of \"sepsis\" was analyzed as a time-dependent variable, sepsis development was associated with increased mortality (HR=2.79, 95%CI: 2.14-3.64, p<0.001) by multivariable Cox regression model. Retrospective evaluation at 0, 4, 8 and 12 hours pre-sepsis showed area under the ROC curves (AUCs) of 0.98, 0.91, 0.90 and 0.85, respectively (Fig 1a) , outperforming the widely used Modified Early Warning Score (MEWS) (Fig 1b) . We then simulated our ESPRIT's performance in the unselected real-world data by running the model every hour from admit to sepsis or discharge, whichever occurred first. This process created an hourly risk score from admit to sepsis or discharge. ESPRIT achieved an AUC of 0.83 on the training and AUC of 0.82 on the holdout test dataset ( Fig 2). An example of risk over time for a septic patient that was identified by the model with 27 hours lead time at threshold of 0.6 is shown in Fig 3 . With at risk threshold of 0.6 (sensitivity: 0.4, specificity: 0.93), ESPRIT had a median lead time of 35 and 47 hours on training and holdout test data, respectively. This model allows users to select any threshold (with specific false positive/negative rate expected for a given population) to be used for specific purposes. For example, a red flag can be assigned to a patient when the risk passes the threshold of 0.6. At this threshold the false positive rate is only 7% and true positive rate is 40%. Then a yellow flag can be assigned at the threshold of 0.4, with which the model has higher (38%) false positive rate but also a high (90%) true positive rate . Using this two-step assessment/intervention system (red flag as an alarm and yellow flag as a warning sign to examine the patient to rule out sepsis), the model would achieve 90% sensitivity and 93% specificity in practice and overcome the low positive predictive value due to the rare incidence of sepsis. In summary, we developed and validated a novel machine learning monitoring system for sepsis prediction in HCT recipients. Our data strongly support further clinical validation of the ESPRIT model as a method to provide real-time sepsis predictions, and timely initiation of preemptive antibiotics therapy according to the predicted risks in the era of EHR. View large Download slide View large Download slide  Close modal Disclosures Dadwal: Ansun biopharma: Research Funding; SHIRE: Research Funding; Janssen: Membership on an entity's Board of Directors or advisory committees; Merck: Membership on an entity's Board of Directors or advisory committees; Clinigen: Membership on an entity's Board of Directors or advisory committees. Nakamura: Kirin Kyowa: Other: support for an academic seminar in a university in Japan; Merck: Membership on an entity's Board of Directors or advisory committees; Celgene: Other: support for an academic seminar in a university in Japan; Alexion: Other: support to a lecture at a Japan Society of Transfusion/Cellular Therapy meeting .",
+    "topics": [
+        "hematopoietic stem cell transplantation",
+        "sepsis",
+        "transplant recipients",
+        "false-positive results",
+        "antibiotics",
+        "cell therapy",
+        "chemotherapy regimen",
+        "early warning score",
+        "transfusion",
+        "vital signs"
+    ],
+    "author_names": [
+        "Zahra Eftekhari, MS",
+        "Sally Mokhtari, PhD",
+        "Tushondra Thomas, MSN, MBA, PHN, RN-BC",
+        "Dongyun Yang, PhD",
+        "Liana Nikolaenko, MD",
+        "Deron Johnson, PharmD",
+        "Jana Dickter, MD",
+        "Justine Abella Ross, PharmD",
+        "Bernard Tegtmeier, PhD D(ABMM), CIC",
+        "Eileen P. Smith, MD",
+        "Monzr M. Al Malki, MD",
+        "Ricardo Spielberger, MD",
+        "Anna B Pawlowska, MD",
+        "Argelia Sandoval, MD",
+        "John Zaia, MD",
+        "Stephen J Forman, MD",
+        "Janet Munu, BSc, MBA, RN",
+        "Sanjeet Dadwal, MD",
+        "Ryotaro Nakamura, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Zahra Eftekhari, MS",
+            "author_affiliations": [
+                "Department of Clinical Informatics, City of Hope National Medical Center, Duarte, CA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sally Mokhtari, PhD",
+            "author_affiliations": [
+                "Department of Clinical Translational Program Development, City of Hope National Medical Center, Duarte, CA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tushondra Thomas, MSN, MBA, PHN, RN-BC",
+            "author_affiliations": [
+                "Department of Clinical Informatics, City of Hope National Medical Center, Duarte, CA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dongyun Yang, PhD",
+            "author_affiliations": [
+                "Department of Computational and Quantitative Medicine-BRI, City of Hope National Medical Center, Duarte, CA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Liana Nikolaenko, MD",
+            "author_affiliations": [
+                "Department of Hematology/HCT, City of Hope National Medical Center, Duarte, CA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Deron Johnson, PharmD",
+            "author_affiliations": [
+                "Department of Clinical Informatics, City of Hope National Medical Center, Duarte, CA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jana Dickter, MD",
+            "author_affiliations": [
+                "Department of Medicine, City of Hope National Medical Center, Duarte, CA "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Justine Abella Ross, PharmD",
+            "author_affiliations": [
+                "Department of Pharmacy Services, City of Hope National Medical Center, Duarte, CA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bernard Tegtmeier, PhD D(ABMM), CIC",
+            "author_affiliations": [
+                "Department of Quality Risk and Regulatory Management, City of Hope National Medical Center, Duarte, CA "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eileen P. Smith, MD",
+            "author_affiliations": [
+                "Department of Hematology/HCT, City of Hope National Medical Center, Duarte, CA "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Monzr M. Al Malki, MD",
+            "author_affiliations": [
+                "Department of Hematology/HCT, City of Hope National Medical Center, Duarte, CA "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ricardo Spielberger, MD",
+            "author_affiliations": [
+                "Department of Hematology/HCT, City of Hope National Medical Center, Duarte, CA "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anna B Pawlowska, MD",
+            "author_affiliations": [
+                "Department of Pediatrics, City of Hope National Medical Center, Duarte, CA "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Argelia Sandoval, MD",
+            "author_affiliations": [
+                "Department of Medicine, City of Hope National Medical Center, Duarte, CA "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John Zaia, MD",
+            "author_affiliations": [
+                "Center for Gene Therapy - BRI, City of Hope National Medical Center, Duarte, CA"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephen J Forman, MD",
+            "author_affiliations": [
+                "Department of Hematology/HCT, City of Hope National Medical Center, Duarte, CA "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Janet Munu, BSc, MBA, RN",
+            "author_affiliations": [
+                "Department of Clinical Informatics, City of Hope National Medical Center, Duarte, CA "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sanjeet Dadwal, MD",
+            "author_affiliations": [
+                "Department of Medicine, City of Hope National Medical Center, Duarte, CA "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ryotaro Nakamura, MD",
+            "author_affiliations": [
+                "Department of Hematology/HCT, City of Hope National Medical Center, Duarte, CA "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-18T18:33:20",
+    "is_scraped": "1"
 }

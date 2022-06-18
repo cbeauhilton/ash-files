@@ -1,8 +1,105 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4439",
-    "start_url_page_num": "4439",
     "doi": "https://doi.org/10.1182/blood-2019-125718",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/548/426563/Single-Cell-RNA-Sequencing-Identifies-a-Pseudo?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T01:54:52",
-    "is_scraped": "0"
+    "article_title": "Single-Cell RNA Sequencing Identifies a Pseudo-Immune Differentiation Axis As the Main Source of Functional Heterogeneity in Follicular Lymphoma B-Cells ",
+    "article_date": "November 13, 2019",
+    "session_type": "621.Lymphoma-Genetic/Epigenetic Biology",
+    "abstract_text": "Introduction Follicular Lymphoma (FL), the second most frequent lymphoma in adults, often presents as a disseminated disease at diagnosis. Despite a generally slow progression and a median overall survival of more than 15 years with current chemo-immunotherapies, FL patients often suffer from multiple relapses. Yet, the biological mechanisms promoting FL dissemination, progression and relapse are still poorly understood. FL, like most B-cell lymphomas, originates from germinal centers (GC) where B-cells physiologically undergo clonal expansion, antibody affinity maturation, and differentiation into antibody-producing plasma cells (PC) or recirculating memory (Mem) B-cells. Recently, we provided evidence that FL B-cells are not blocked in a GC B-cell state but might adopt new dynamic modes of functional diversity ( Milpied et al., Nature Immunology 2018) , yet the main sources of intratumoral heterogeneity within FL remained to be identified. Methods Frozen live cell suspensions were obtained from the CeVi collection of the Institute Carnot/Calym (ANR, France). We initially applied a plate-based 5'-end single-cell RNAseq (scRNAseq) method for deep integrative single-cell analyses of transcriptome, B-cell receptor (BCR) sequence, and surface phenotype on FACS-sorted FL B-cells (4 patients, lymph node biopsies) and their non-malignant counterparts (6 adult healthy donors, spleen and tonsil samples). We confirmed our findings on additional FL samples with high-throughput droplet-based 3'-end scRNAseq (9 patients, lymph node biopsies), and 5'-end scRNAseq paired with BCRseq (5 patients, lymph node biopsies). Custom and existing bioinformatics analysis pipelines were combined for quality control and cell filtering, dimensionality reduction (PCA, t-SNE, UMAP), clustering, pseudo-time analysis, BCR sequence analysis and integrative data analysis. We further validated our transcriptomic data with FACS-based surface and intracellular protein analysis (8 patients, lymph node biopsies). Results Consistent with our previous findings, FL B-cells were transcriptionally diverse, with most cells exhibiting a patient-specific gene expression profile distinct from PC, GC and Mem cells. Challenging the mainstream view of a differentiation blockade in FL, we identified rare FL B-cells carrying a PC-like profile (including low expression of MS4A1 /CD20, high expression of XBP1 , MZB1 , PRDM1 ). PC-like FL B-cells expressed high levels of the tumor clonal BCR heavy and light chain mRNA, and BCR sequence phylogenetic analysis revealed that those cells did not branch out from a specific tumor subclone. Most importantly, we found that the molecular profiles of the vast majority of FL B-cells spanned a continuum of transitional states between proliferating GC-like and quiescent Mem-like gene expression states. Principal component analysis and pseudo-time reconstruction revealed that pseudo-immune differentiation axis was consistently the main source of intra-sample transcriptional heterogeneity. On top of cell cycle related genes, GC-like FL B-cells notably expressed AICDA , BCL6 , RGS13 , NANS , CD81 , and CD38 genes. By contrast, Mem-like FL B-cells expressed CD44 , GPR183 , CD69 , CXCR4 , CCR7 , SELL , KLF2 , suggesting that those cells may not be confined to the FL follicles. Flow cytometry analysis of dissociated FL tumors confirmed that only the CD38 hi CD81 hi subset of FL B-cells (GC-like cells), expressed Ki67 and high levels of Bcl6, whereas only CD38 neg CD81 neg FL B-cells (Mem-like cells) consistently contained CD44 + and GPR183 + cells. Conclusions Our study suggests that FL B-cells hijack the physiological GC differentiation process to dynamically alternate between GC-like and Mem-like states that might be responsible for FL progression and dissemination, respectively. We anticipate that such FL-specific clonal dynamics may be orchestrated by extrinsic signals delivered by tumor-infiltrating T cells. Disclosures Milpied: Innate Pharma: Research Funding; Institut Roche: Research Funding.",
+    "topics": [
+        "b-lymphocytes",
+        "follicular lymphoma",
+        "heterogeneity",
+        "sequence analysis, rna",
+        "biopsy",
+        "neoplasms",
+        "cd20 antigens",
+        "cd44 antigens",
+        "homing-associated cell adhesion molecule",
+        "antibodies"
+    ],
+    "author_names": [
+        "Noudjoud Attaf",
+        "Inaki Cervera-Marzal",
+        "Laurine Gil",
+        "Chuang Dong",
+        "Jean-Marc Navarro, PhD",
+        "Lionel Spinelli, PhD",
+        "Bertrand Nadel, PhD",
+        "Pierre Milpied, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Noudjoud Attaf",
+            "author_affiliations": [
+                "Centre d'Immunologie de Marseille-Luminy (CIML), Aix Marseille Univ, CNRS, INSERM, Marseille, France "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Inaki Cervera-Marzal",
+            "author_affiliations": [
+                "Centre d'Immunologie de Marseille-Luminy (CIML), Aix Marseille Univ, CNRS, INSERM, Marseille, France "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laurine Gil",
+            "author_affiliations": [
+                "Centre d'Immunologie de Marseille-Luminy (CIML), Aix Marseille Univ, CNRS, INSERM, Marseille, France "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chuang Dong",
+            "author_affiliations": [
+                "Centre d'Immunologie de Marseille-Luminy (CIML), Aix Marseille Univ, CNRS, INSERM, Marseille, France "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jean-Marc Navarro, PhD",
+            "author_affiliations": [
+                "Centre d'Immunologie de Marseille-Luminy (CIML), Aix Marseille Univ, CNRS, INSERM, Marseille, France "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lionel Spinelli, PhD",
+            "author_affiliations": [
+                "Centre d'Immunologie de Marseille-Luminy (CIML), Aix Marseille Univ, CNRS, INSERM, Marseille, France "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bertrand Nadel, PhD",
+            "author_affiliations": [
+                "Genomic instability and human hemopathies, Centre d'Immunologie de Marseille Luminy, Marseille, France"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pierre Milpied, PhD",
+            "author_affiliations": [
+                "Centre d'Immunologie de Marseille-Luminy (CIML), Aix Marseille Univ, CNRS, INSERM, Marseille, France "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-18T18:41:52",
+    "is_scraped": "1"
 }
