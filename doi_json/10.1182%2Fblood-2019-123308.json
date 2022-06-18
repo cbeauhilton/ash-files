@@ -1,8 +1,56 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4390",
-    "start_url_page_num": "4390",
     "doi": "https://doi.org/10.1182/blood-2019-123308",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/2608/423172/Impact-of-Upfront-Chemotherapy-on-Overall-Survival?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T22:21:24",
-    "is_scraped": "0"
+    "article_title": "Impact of Upfront Chemotherapy on Overall Survival in Isolated Myeloid Sarcoma ",
+    "article_date": "November 13, 2019",
+    "session_type": "613.Acute Myeloid Leukemia: Clinical Studies",
+    "abstract_text": "Introduction Myeloid sarcoma (MS) is a tumor composed of myeloid blasts occurring at a site other than the bone marrow. MS may precede or coincide with acute myeloid leukemia (AML) or may also be an initial manifestation of relapse. Although the majority of isolated MS progress to AML, not all of them do. Due to its rarity and lack of prospective studies, there is no consensus for MS treatment; patients receive local treatment with radiotherapy, surgery, or both. In addition, due to progression to AML in the majority of patients treated with local therapies, systemic induction chemotherapy has also been used upfront in patients newly diagnosed with MS. However, it is unclear if chemotherapy can be avoided until patients develop AML, sparing some patients from intensive chemotherapy. In the current study, we utilize a large national database to compare the overall survival of MS patients treated with local therapies (radiation and/or surgery) versus patients treated with upfront chemotherapy combined with local therapies. Methods The National Cancer Database (NCDB) was used to extract cases of MS from 2004 to 2016 using the ICD-O-3 code 9930 (myeloid sarcoma). This multi-institutional database covers about 70% of the US population and has many important covariates like income level and comorbidities. It includes information on which treatment modalities were used and when they were performed. However, it does not include details on the exact chemotherapeutic agents and the number of cycles that patients received. Cases with unknown survival, development of MS after a previous malignancy, without histologic confirmation of the disease, bone marrow as primary site, and age less than 1 year old or more than 75 years old were excluded. In order to account for immortal-time bias due to variability in time from diagnosis to receipt of upfront treatment, we performed time-to-event landmark analysis. Since leukemic evolution usually starts occurring 3-6 months from diagnosis, we chose a landmark time of 60 days a priori. We excluded patients that survived less than 60 days and defined upfront treatment as any treatment that was received within 60 days after diagnosis. To exclude cases with disease not amenable to localized therapies, we excluded patients that did not receive surgery or radiation by the 60-day mark. To account for confounding, propensity scores for upfront chemotherapy administration were calculated using logistic regression. Inverse probability treatment weighting (IPTW) was used to calculate stabilized weights. Standardized bias (SB) was calculated among covariates before and after weighting. When the SBs were smaller than 0.10, groups were considered to be well-balanced. In the weighted cohort, overall survival was compared between the two groups using the inverse probability of treatment-weighted log-rank test and weighted survival functions were plotted. The hazard ratio was calculated with propensity-score weighted Cox proportional-hazard model and robust variance estimations was used to account for the sample weights. Statistical analysis was performed using STATA 15.1. Results A total of 1258 cases were retrieved from the NCDB. Of those, 151 cases met the criteria for the study ( Figure 1 ). As only four cases were missing data, we performed a complete case analysis. As a result, 147 cases were included in the study and the prediction of the propensity score. After IPTW, the covariates were well-balanced between the two cohorts as shown in Table 1 . In survival analysis, 82 events occurred during follow-up. The IPTW Kaplan-Meier analysis demonstrated no significant difference in the overall survival among isolated MS patients with localized treatments plus upfront chemotherapy versus localized treatment alone (log-rank P = 0.722, Figure 2 ). Conclusion We found no significant difference in overall survival among isolated MS patients who received localized treatment plus upfront chemotherapy versus localized treatment alone. This data suggests that MS patients can avoid upfront induction chemotherapy and its related complications. With this approach, some patients that will never develop AML may be spared from induction chemotherapy altogether. However, patients that are not treated with upfront chemotherapy should have close follow-up with bone marrow biopsies utilizing flow cytometry or molecular approaches to detect submicroscopic disease before they develop fulminant AML. View large Download slide View large Download slide Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "chemotherapy regimen",
+        "granulocytic sarcoma",
+        "chemotherapy, neoadjuvant",
+        "surgical procedures, operative",
+        "cancer",
+        "follow-up",
+        "antineoplastic agents",
+        "bone marrow biopsy",
+        "brooke-spiegler syndrome",
+        "flow cytometry"
+    ],
+    "author_names": [
+        "Konstantinos Lontos, MD",
+        "Jonathan G. Yabes, PhD",
+        "Michael Boyiadzis, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Konstantinos Lontos, MD",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, UPMC, Pittsburgh, PA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan G. Yabes, PhD",
+            "author_affiliations": [
+                "University of Pittsburgh, Division of General Internal Medicine, Pittsburgh, PA ",
+                "University of Pittsbugh, Department of Biostatistics, Pittsburgh, PA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Boyiadzis, MD",
+            "author_affiliations": [
+                "Univ. of Pittsburgh Cancer Inst., Pittsburgh, PA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-18T02:29:39",
+    "is_scraped": "1"
 }

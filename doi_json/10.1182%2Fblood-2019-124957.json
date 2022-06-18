@@ -1,8 +1,175 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4370",
-    "start_url_page_num": "4370",
     "doi": "https://doi.org/10.1182/blood-2019-124957",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/3006/423610/Transcriptomic-Analysis-Implicates-Necroptosis-in?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T21:41:27",
-    "is_scraped": "0"
+    "article_title": "Transcriptomic Analysis Implicates Necroptosis in Disease Progression and Prognosis in Myelodysplastic Syndromes ",
+    "article_date": "November 13, 2019",
+    "session_type": "637.Myelodysplastic Syndromes-Clinical Studies",
+    "abstract_text": "INTRODUCTION: Myelodysplastic syndromes (MDS) are characterized by ineffective hematopoiesis and cytopenias due to uncontrolled programmed cell death. The presence of pro-inflammatory cytokines and constitutive activation of innate immunity signals in MDS cells suggest inflammatory cell death, such as necroptosis, may be responsible for disease phenotype. There is no data evaluating the association of RIPK1 , RIPK3 and MLKL with response and prognosis in MDS. METHODS: We evaluated 64 bone marrow samples from 55 patients with MDS or chronic myelomonocytic leukemia (CMML) obtained prior to (n=46) or after (n=18) therapy with hypomethylating agents (HMAs). RNA from sorted bone marrow CD34+ cells was isolated and subject to amplification and RNA-seq. Gene co-expression was evaluated using Spearman correlation. Pathway enrichment analysis was performed using gene set enrichment analysis, with the fgsea library in R. Sequencing data was obtained by use of a 81-gene targeted PCR-based next generation sequencing (NGS) platform. Previously described somatic mutations registered at the Catalogue of Somatic Mutations in Cancer (COSMIC: http://cancer.sanger.ac.uk/cosmic) were considered as potential driver mutations. RESULTS: Compared to healthy controls, MLKL (CMML vs controls: 2.09 log2FC, p=0.0013; MDS vs control: 1.89 log2FC, p=0.003), but not RIPK1 or RIPK3 , were significantly upregulated in patients with MDS and CMML (Figure 1A-C). No differences in the level of expression of RIPK1, MLKL or RIPK3 were observed based on the mutation context or burden. No significant difference in RIPK1, RIPK3 or MLKL expression levels was observed based on presence of cytogenetic abnormalities (RIPK1: 0.10 log2FC, p=0.6; RIPK3: -0.39 log2FC, p=0.40; MLKL: 0.34 log2FC, p=0.30). Higher expression levels of MLKL were associated with lower hemoglobin levels at the time of diagnosis (-0.19 log2FC per 1g/dL increase of Hgb, p=0.03) (Figure 1D). Exposure to HMA therapy was associated with a trend to decreased expression of MLKL (-0.52 log2FC, p=0.08) when all post-HMA therapy samples were evaluated. Among patient matched samples, significant reduction in MLKL levels was observed after HMA therapy (-1.06 log2FC, p=0.05). The degree of reduction in expression levels was greater among non-responders (-2.89 log2FC, p=0.06) compared to responders (-0.78, log2FC, p=0.06). Expression levels of RIPK1 at the time of diagnosis predicted for shorter survival for patients with high RIPK1 levels, defined as a log expression higher than median mRNA expression values, (median OS 10.7 vs 24.2 months, HR 1.92, 95% CI 1.00-3.67, p=0.049 by Cox proportional hazards) (Figure 1E). A multivariate analysis for overall survival using both IPSS-R risk and RIPK1 expression levels demonstrated that high RIPK1 expression was an independent adverse prognostic factor in MDS patients (HR 6.83, 95% CI 1.74-26.8, p=0.006). A total of 359 genes were significantly correlated with RIPK1 levels in MDS CD34+ cells (Spearman's method q<0.2). Among these, 21 genes were positively correlated with RIPK1 expression, while 17 genes were negative correlated (Spearman's correlation, q<0.1). Gene set enrichment analysis identified 373 gene sets that significantly correlated with RIPK1 expression. Upregulated genes were associated with molecular signals associated with innate immunity and inflammatory signaling including TNF-\u03b1 signaling via NFkB, NFkB signaling, the IFN-g pathway, and RIG-I-like receptor (RLRs) signaling genes (Figure 1F). CONCLUSIONS: This data provides further support for a role of necroptosis in MDS, and potentially response to HMAs and prognosis. This data also indicates that RIPK1/RIPK3/MLKL are potential therapeutic targets in MDS. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Sasaki: Otsuka: Honoraria; Pfizer: Consultancy. Bueso-Ramos: Incyte: Consultancy. Kantarjian: Cyclacel: Research Funding; Jazz Pharma: Research Funding; AbbVie: Honoraria, Research Funding; Astex: Research Funding; Amgen: Honoraria, Research Funding; Actinium: Honoraria, Membership on an entity's Board of Directors or advisory committees; BMS: Research Funding; Immunogen: Research Funding; Daiichi-Sankyo: Research Funding; Pfizer: Honoraria, Research Funding; Novartis: Research Funding; Ariad: Research Funding; Agios: Honoraria, Research Funding; Takeda: Honoraria. Garcia-Manero: Amphivena: Consultancy, Research Funding; Helsinn: Research Funding; Novartis: Research Funding; AbbVie: Research Funding; Celgene: Consultancy, Research Funding; Astex: Consultancy, Research Funding; Onconova: Research Funding; H3 Biomedicine: Research Funding; Merck: Research Funding.",
+    "topics": [
+        "disease progression",
+        "myelodysplastic syndrome",
+        "necroptosis",
+        "leukemia, myelomonocytic, chronic",
+        "cancer",
+        "massively-parallel genome sequencing",
+        "nf-kappa b",
+        "rna",
+        "actinium",
+        "antigens"
+    ],
+    "author_names": [
+        "Guillermo Montalban-Bravo, MD",
+        "Caleb Class, PhD",
+        "Irene Ganan-Gomez, PhD",
+        "Rashmi Kanagal-Shamanna, MD",
+        "Koji Sasaki, MD",
+        "Guillaume Richard-Carpentier, MD",
+        "Kiran Naqvi, MDMPH",
+        "Yue Wei, PhD",
+        "Hui Yang, PhDMD",
+        "Kelly Soltysiak, PhD",
+        "Kelly S. Chien, MD",
+        "Carlos E. Bueso-Ramos, MD PhD",
+        "Kim-Anh Do, PhD",
+        "Hagop M. Kantarjian, MD",
+        "Guillermo Garcia-Manero, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Guillermo Montalban-Bravo, MD",
+            "author_affiliations": [
+                "University of Texas MD Anderson Cancer Center, Department of Leukemia, Houston, TX "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Caleb Class, PhD",
+            "author_affiliations": [
+                "Department of Biostatistics, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Irene Ganan-Gomez, PhD",
+            "author_affiliations": [
+                "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rashmi Kanagal-Shamanna, MD",
+            "author_affiliations": [
+                "Department of Hematopathology, University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Koji Sasaki, MD",
+            "author_affiliations": [
+                "MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Guillaume Richard-Carpentier, MD",
+            "author_affiliations": [
+                "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kiran Naqvi, MDMPH",
+            "author_affiliations": [
+                "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yue Wei, PhD",
+            "author_affiliations": [
+                "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hui Yang, PhDMD",
+            "author_affiliations": [
+                "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kelly Soltysiak, PhD",
+            "author_affiliations": [
+                "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kelly S. Chien, MD",
+            "author_affiliations": [
+                "Division of Cancer Medicine, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Carlos E. Bueso-Ramos, MD PhD",
+            "author_affiliations": [
+                "Department of Hematopathology, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kim-Anh Do, PhD",
+            "author_affiliations": [
+                "Department of Biostatistics, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hagop M. Kantarjian, MD",
+            "author_affiliations": [
+                "Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Guillermo Garcia-Manero, MD",
+            "author_affiliations": [
+                "University of Texas MD Anderson Cancer Center, Department of Leukemia, Houston, TX "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-18T02:37:34",
+    "is_scraped": "1"
 }

@@ -1,8 +1,285 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4394",
-    "start_url_page_num": "4394",
     "doi": "https://doi.org/10.1182/blood-2019-127623",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/2615/423267/Induction-Related-Mortality-in-Acute-Myeloid?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T22:21:36",
-    "is_scraped": "0"
+    "article_title": "Induction Related Mortality in Acute Myeloid Leukemia: Multivariate Model of Predictive Score from the Indian Acute Leukemia Research Database (INwARD) of the Hematology Cancer Consortium (HCC) ",
+    "article_date": "November 13, 2019",
+    "session_type": "613.Acute Myeloid Leukemia: Clinical Studies",
+    "abstract_text": "Background: Remission induction is the most intensive phase of acute myeloid leukemia (AML) treatment, associated with significant morbidity and mortality. Collaborative research and advances in supportive care have steadily improved outcomes in developed countries with induction mortality less than 5%. Challenges for treatment in resource limited settings are varied including delayed presentation, higher disease burden, baseline infections and poor general condition precluding standard intensive therapy, higher rates of resistant infections, and several social and financial constraints. Consequently, a significant proportion of patients do not receive definitive therapy and for those who are treated there is a considerably high risk of induction mortality. In an attempt to identify the subset of patients with highest risk of death during induction, we have developed a multivariate model of induction mortality score using baseline features relevant to our clinical setting by utilizing Indian acute leukemia research database [INwARD] established in 2018 by Hematology Cancer Consortium (HCC). Method: Retrospective data from January 2018 to May 2019 for adult AML was collected from 11 member institutions in a central online data management system. Selection of potential variables that would predict mortality was based on clinical and statistical significance. Thus, 10 variables defining baseline patient and disease characteristics (age, ECOG performance status, duration of symptoms in days, albumin, creatinine, bilirubin, white cell count, platelet, peripheral blood blast percentage, and presence of infection requiring intravenous antibiotic within one week prior of starting induction), were considered for the predictive model using machine learning algorithms: Logistic regression (LR) and Support Vector Machine (SVM). SVM was chosen as the best algorithm based on the AUCs. In order to get robust threshold, sensitivity, specificity and predictive values bootstrapping was done 10,000 times. The final statistics were based on the mean (SD) of bootstrapped sample. R software was used to bootstrap and analyze the data. Result: Of the 611 adult AML cases available during study period, 392 treated with the intensive '3+7' or its abbreviated regimen were considered for analysis. Median age of this cohort was 36 years (range 18 - 67), male to female ratio 1.34. European Leukemia Net (ELN) risk group distribution is shown in Fig 1a. Complete remission was attained in 52.8%. Induction mortality was 16.9 % ranging from 6.1% to 43% across different centers. Most common cause of death was infection (66.7%). Multi-drug resistant blood stream infection was documented in 25.4% cases. For the SVM model for predicting induction mortality using 10 covariates, the AUC based on the bootstrap validation was 91.3% with the best threshold probability being 0.262 (Fig 1b). Thus, a cut off score of 0.262 in the SVM model predicted induction death with sensitivity of 93.6% and specificity of 87.7%. Performance of each variable in the SVM model is shown in Fig 1c and comparison of the LR and SVM model in Fig 1d. Conclusion: Score predicting induction death with high accuracy will be a valuable tool in guiding clinicians against the use of intensive induction therapy, in tailoring of treatment as per individual patients' risk and proper resource allocation. Despite the limitations of retrospective data, wide disparity in resources, patient profile and treatment costs across centers accounting for variability in mortality rates, this study represents one major attempt to find answer to a locally relevant clinical problem of high induction mortality in a cohort of young adult AML, utilizing contemporary pooled data through multi-center collaboration. Optimal cut off point for the score needs to be validated in independent patient cohorts and have to be re-calibrated periodically. Further, an online calculator is being designed on the HCC online system to work as ready reckoner for clinicians. Figure 1 a) ELN risk group distribution b) descriptive statistics of bootstrapped SVM Model c) performance of each covariate in SVM model d) ROC Curve: Comparison of LR and SVM method Figure 1 View large Download slide Figure 1 View large Download slide Close modal Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "cancer",
+        "leukemia, acute",
+        "leukemia, myelocytic, acute",
+        "infections",
+        "albumins",
+        "antibiotics",
+        "bilirubin",
+        "bloodstream infections",
+        "complete remission",
+        "creatinine"
+    ],
+    "author_names": [
+        "Smita Kayal, MD DM",
+        "Manju Sengar, MD DM",
+        "Hasmukh Jain, MD DM",
+        "Avinash Bonda, MD DM",
+        "Biju George, MDDM",
+        "Uday Prakash Kulkarni, MD DM",
+        "Poonkuzhali Balasubramanian, PhD",
+        "Dinesh Bhurani, MD DM, FRCPA",
+        "Rayaz Ahmed, MDDM",
+        "Dubashi Biswajit, MD DNB, DM",
+        "Jayachandran PK, MD MRCP, DM",
+        "Ankit Batra, MD",
+        "Suman Kumar, MD DM",
+        "Kundan Mishra, MD DM",
+        "Jina Bhattacharyya, MD DM",
+        "Chepsy C Philip, MD",
+        "Maitreyee Bhattacharyya, MD DM",
+        "Lokanatha Dasappa, MD",
+        "K Govind Babu, MD DM",
+        "Smitha Carol Saldanha, DM, MBBS, MD",
+        "Atul Sharma, MD DM",
+        "Jeyaseelan Lakshmanan, PhD",
+        "Jothilakshmi Durairaj, M.Sc.",
+        "Vishnu Vardhan Rudravaram, PhD",
+        "Vikram Mathews, MD DM",
+        "Rajan Kapoor, MD DM"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Smita Kayal, MD DM",
+            "author_affiliations": [
+                "Department of Medical Oncology, Regional Cancer Center, Jawaharlal Institute of Postgraduate Medical Education & Research (JIPMER), Puducherry, India "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manju Sengar, MD DM",
+            "author_affiliations": [
+                "Adult Hematolymphoid Disease Management Group, Department of Medical Oncology, Tata Memorial Centre, Mumbai, India "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hasmukh Jain, MD DM",
+            "author_affiliations": [
+                "Adult Hematolymphoid Disease Management Group, Department of Medical Oncology, Tata Memorial Centre, Mumbai, Maharashtra, India "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Avinash Bonda, MD DM",
+            "author_affiliations": [
+                "BMT Unit, Department of Medical Oncology, Advanced Centre for Treatment, Research and Education in Cancer (ACTREC), Tata Memorial Centre, Mumbai, India "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Biju George, MDDM",
+            "author_affiliations": [
+                "Department of Haematology, Christian Medical College, Vellore, India "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Uday Prakash Kulkarni, MD DM",
+            "author_affiliations": [
+                "Department of Haematology, Christian Medical College, Vellore, India "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Poonkuzhali Balasubramanian, PhD",
+            "author_affiliations": [
+                "Department of Haematology, Christian Medical College, Vellore, India "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dinesh Bhurani, MD DM, FRCPA",
+            "author_affiliations": [
+                "Department of Hemato-Oncology and BMT, Rajiv Gandhi Cancer Institute and Research Centre, New Delhi, India "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rayaz Ahmed, MDDM",
+            "author_affiliations": [
+                "Department of Hemato-Oncology and BMT, Rajiv Gandhi Cancer Institute and Research Centre, New Delhi, India "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dubashi Biswajit, MD DNB, DM",
+            "author_affiliations": [
+                "Department of Medical Oncology, Regional Cancer Center, Jawaharlal Institute of Postgraduate Medical Education & Research (JIPMER), Puducherry, India "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jayachandran PK, MD MRCP, DM",
+            "author_affiliations": [
+                "Department of Medical Oncology, Cancer Institute (WIA), Chennai, India "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ankit Batra, MD",
+            "author_affiliations": [
+                "Department of Medical Oncology, Cancer Institute (WIA), Chennai, Tamilnadu, India "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Suman Kumar, MD DM",
+            "author_affiliations": [
+                "Department of Haematology, Army Hospital (Research & Referral), New Delhi, India "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kundan Mishra, MD DM",
+            "author_affiliations": [
+                "Department of Haematology, Army Hospital (Research & Referral), New Delhi, India "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jina Bhattacharyya, MD DM",
+            "author_affiliations": [
+                "Department of Clinical Hematology, Guwahati Medical College & Hospital, Guwahati, India "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chepsy C Philip, MD",
+            "author_affiliations": [
+                "Department of Clinical Haematology, Christian Medical College & Hospital, Ludhiana, India "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maitreyee Bhattacharyya, MD DM",
+            "author_affiliations": [
+                "Institute of Haematology &Transfusion Medicine (IHTM), Medical College Kolkata, Kolkata, India "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lokanatha Dasappa, MD",
+            "author_affiliations": [
+                "Department of Medical Oncology, Kidwai Memorial Institute of Oncology, Bengaluru, India "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "K Govind Babu, MD DM",
+            "author_affiliations": [
+                "Department of Medical Oncology, Kidwai Memorial Institute of Oncology, Bengaluru, India "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Smitha Carol Saldanha, DM, MBBS, MD",
+            "author_affiliations": [
+                "Department of Medical Oncology, Kidwai Memorial Institute of Oncology, Bengaluru, India "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Atul Sharma, MD DM",
+            "author_affiliations": [
+                "Department of Medical Oncology, Dr. B.R.A. IRCH, All India Institute of Medical Sciences, New Delhi, India "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jeyaseelan Lakshmanan, PhD",
+            "author_affiliations": [
+                "Department of Biostatistics, Christian Medical College, Vellore, India "
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jothilakshmi Durairaj, M.Sc.",
+            "author_affiliations": [
+                "Department of Biostatistics, Christian Medical College, Vellore, India "
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vishnu Vardhan Rudravaram, PhD",
+            "author_affiliations": [
+                "Department of Statistics, Pondicherry University, Puducherry, India"
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vikram Mathews, MD DM",
+            "author_affiliations": [
+                "Department of Haematology, Christian Medical College, Vellore, India "
+            ],
+            "author_rank": 25,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rajan Kapoor, MD DM",
+            "author_affiliations": [
+                "Department of Haematology, Army Hospital (Research & Referral), New Delhi, India "
+            ],
+            "author_rank": 26,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-18T02:35:18",
+    "is_scraped": "1"
 }

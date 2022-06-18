@@ -1,8 +1,95 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4365",
-    "start_url_page_num": "4365",
     "doi": "https://doi.org/10.1182/blood-2019-132008",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/2675/423221/Transcriptome-Analysis-of-Pediatric-AML-Reveals?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T21:19:21",
-    "is_scraped": "0"
+    "article_title": "Transcriptome Analysis of Pediatric AML Reveals Non Protein-Coding RNAs Associated with Poor Survival Outcome and Treatment Resistance ",
+    "article_date": "November 13, 2019",
+    "session_type": "617.Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
+    "abstract_text": "Pediatric AML is characterized by a high rate of relapse of up to ~40% (Im et al. 2016), and nearly half of the patients achieving initial remission experience relapse within 2 years (Alpenc et al. 2016; Rubnitz and Gruber 2018). Due to the lack of recurrently mutated genes associated with relapse as observed through genomic analysis (Farrar e t al. 2016; Boluori et al. 2017), we hypothesize that the transcriptome may reveal insights into molecules and mechanisms contributing to treatment resistance. Farrar et al. (2016) provided support for this hypothesis as they observed that somatic mutations across primary and relapse patient samples converged on genes involved in transcriptional regulation. McNeer et al. (2019) showed that a large number of non protein-coding RNAs, such as pseudogenes and long non-coding RNAs, many of which have regulatory roles through interactions with other genes and proteins, were observed to have increased mutational frequency post-induction compared to samples at diagnosis among induction-failure patients. These lines of evidence suggest that regulatory processes and interactions involving RNA molecules may play important roles in treatment resistance. To address our hypothesis, we conducted analysis of rRNA-depleted RNA sequencing data generated from 1325 primary and 396 relapse bone marrow or peripheral blood samples obtained from patients enrolled in the AAML1031 (treatment arms are ADE, ADE+Bortezomib, and ADE +Sorafenib) and AAML0531 (randomized treatment arms chemotherapy with or without Gemtuzumab Ozogamicin) clinical trials. We focused our analysis to malignant cells in 620 primary and 148 relapse samples with >50% blast count. To identify RNAs associated with overall survival, we conducted Cox proportional-hazards regression and generalized linear model via penalized maximum likelihood analyses using RNA expression profiles. We performed transcription factor and regulatory network profiling as adapted from Aibar et al. (2017) to identify significant interactions between RNAs. We used primary samples for 574 patients enrolled in AAML1031 treated with either ADE or ADE+Bortezomib to identify high risk features associated with overall survival. We identified 7 RNAs (AC002401.1, VAV1, RP1-37C10.3, RP11-92C4.3, PRICKLE4, RP11-491H9.3, and NYNRIN) with log hazard ratios >1 (adjusted p-value < 0.000025) and that were assigned positive coefficients as derived from a combinatorial RNA generalized linear model. Such results indicate that these RNAs are significantly associated with low probability of overall survival, and that the expression of these RNAs at diagnosis could be used to identify high-risk patients and to anticipate poor survival outcome. Interestingly, 5 of these genes encode antisense transcripts. RNA expression profiles of 620 primary and 148 relapse samples were compared to identify molecular features and interactions more directly associated with treatment resistance. Though we observed no differences in transcription factor network activities between primary and relapse samples, we identified 14 RNAs that were significantly upregulated at relapse compared to primary samples (log2 fold change >2; BH-adjusted p-value < 0.05), 10 of which were pseudogenes, long intergenic or non protein-coding RNAs. Gene regulatory network inference analysis using the regression tree-based algorithm GENIE3 (Huynh-Thu et al. 2010) identified 1842 genes to have interactions with these 14 genes (3594 interactions total; weight >0.001). Gene set enrichment analysis of the 1856 genes showed the top enriched pathway to be \"ribosome, cytoplasmic.\" These results suggest that RNA processing and translational control could be associated with treatment resistance. Our findings revealed previously uncharacterized molecular features and interactions potentially associated with low probably of overall survival and treatment resistance. Future analyses of these molecules will ideally contribute to deeper insights into the mechanisms driving relapse disease, and extend therapeutic targeting to regulatory RNAs which, through interactions with other molecules, may play important roles in regulating transcription and translation. Disclosures No relevant conflicts of interest to declare.",
+    "topics": [
+        "gene expression profiling",
+        "myeloblastic leukemia, pediatric acute",
+        "molecule",
+        "rna",
+        "transcription factor",
+        "chemotherapy regimen",
+        "disease remission",
+        "gemtuzumab",
+        "ribosomal rna",
+        "sequence analysis, rna"
+    ],
+    "author_names": [
+        "Lisa Wei, BS",
+        "Rhonda E. Ries, MA",
+        "Patrick Plettner",
+        "Karen Mungall, PhD",
+        "Andrew J. Mungall, PhD",
+        "Soheil Meshinchi, MD PhD",
+        "Marco A. Marra, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Lisa Wei, BS",
+            "author_affiliations": [
+                "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, Canada "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rhonda E. Ries, MA",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Patrick Plettner",
+            "author_affiliations": [
+                "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, Canada "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karen Mungall, PhD",
+            "author_affiliations": [
+                "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, Canada "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew J. Mungall, PhD",
+            "author_affiliations": [
+                "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, Canada "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Soheil Meshinchi, MD PhD",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marco A. Marra, PhD",
+            "author_affiliations": [
+                "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, Canada "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-18T02:32:35",
+    "is_scraped": "1"
 }

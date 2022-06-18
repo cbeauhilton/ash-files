@@ -1,8 +1,65 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4394",
-    "start_url_page_num": "4394",
     "doi": "https://doi.org/10.1182/blood-2019-129602",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/2680/423264/Single-Cell-Signaling-Responses-Stratify-Immune?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T22:21:36",
-    "is_scraped": "0"
+    "article_title": "Single Cell Signaling Responses Stratify Immune and Leukemia Cell Populations in Acute Myeloid Leukemia ",
+    "article_date": "November 13, 2019",
+    "session_type": "617.Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
+    "abstract_text": "In healthy hematopoiesis, cell identity and signaling response are tightly linked, with predictable cell type-specific responses to cytokines and growth factors. However, this correlation is often disrupted in myeloid malignancies, including acute myeloid leukemia (AML), wherein signaling responses may be driven directly by kinase mutational activation or cell state changes due to epigenetic alterations, for instance. In order to resolve ligand-driven signaling pathways in bone marrow, tools that allow simultaneous phenotypic characterization and functional cellular responses at single cell resolution are needed. Here, we present the use of a high content mass cytometry panel combined with mass-tag cell barcoding in order to characterize cell identity and signaling responses in bone marrow hematopoietic cells from healthy donors and leukemic patients. We created a phospho-specific mass cytometry panel comprising 24 surface phenotyping markers to resolve the predominant cellular subsets within bone marrow and blood. We perturbed cellular signaling with nine growth factors, cytokines, and chemicals and measured immediate (15 minute) responses at 10 intracellular signaling markers (pSTAT1, pSTAT3, pSTAT5, pSYK, pp38, pERK1/2, pS6, pNFkB, IkBa, & pAKT). To improve robustness of the signaling response analysis, we used mass-tag cell barcoding with palladium prior to surface and intracellular antibody staining, followed by computational debarcoding. Downstream analysis was performed with Cytobank and R. The data set included thirty-five AML patient samples and seven healthy controls with greater than 300,000 cells collected over the 10 barcoded conditions (unstimulated and 9 stimulation conditions). Dimensionality reduction with uniform manifold approximation and projection (UMAP) combined with topological clustering (HDBSCAN) enabled initial data analysis and was followed by expert identification of resultant clusters via surface marker expression. Density-based clustering of the common UMAP embedding of all samples identified known subsets of hematopoietic cells (B cells, CD4 (CD25+ and CD25-) and CD8 T cells, double negative (DN) T cells, NK cells (three subsets), erythroblasts, several subsets of myeloid and leukemia cells, and hematopoietic stem cells (HSCs)). Mass-tag cell barcoding provided stable UMAP embeddings for each sample over the 10 stimulation conditions. High dimensional signaling response was calculated per cell and per each major cell subset for the 90 nodes (9 conditions by 10 markers) and hierarchical clustering stratified samples based upon signaling signatures. Signaling responses varied across non-leukemia and leukemia cell populations in AML samples, whereas cellular phenotypes were more well correlated with signaling phenotypes in healthy samples. Heterogeneity in signaling response was driven by variability seen in several \"stimulation:response\" pairs. The most impactful pairs to clustering of AML blasts were IFN\u03b3:pSTAT1, GM-CSF:pSTAT5, IL-3:pSTAT5, PMA:pS6, and IL-6:pSTAT3. Favorable risk samples (by European LeukemiaNet risk stratification) were found to have significantly larger pSTAT5 increases to IL-3 and GM-CSF than both intermediate and adverse risk subgroups. In CD8 T cells, responsiveness to PMA and IL-10 drove clustering, and, in particular, samples with ELN adverse risk showed reduced PMA:pS6 and PMA:pERK responses. We present a robust evaluation of intracellular signaling responses in the bone marrow cellular environment of AML. These data provide rationale for ongoing investigation aimed at targeting both leukemia and non-leukemia cell signaling pathways in the treatment of AML. Disclosures Ferrell: Incyte: Research Funding; Forma Therapeutics: Research Funding; Agios: Consultancy; Astex Pharmaceuticals: Research Funding.",
+    "topics": [
+        "leukemia",
+        "leukemia, myelocytic, acute",
+        "signal transduction",
+        "transluminal attenuation gradient",
+        "cytokine",
+        "granulocyte-macrophage colony-stimulating factor",
+        "growth factor",
+        "interleukin-3",
+        "recombinant granulocyte-macrophage colony-stimulating factors",
+        "antibodies"
+    ],
+    "author_names": [
+        "Kathryn I Sunthankar, MD",
+        "Benjamin J Reisman, BS",
+        "Candace H Cote, BS",
+        "Paul Brent Ferrell, Jr., MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Kathryn I Sunthankar, MD",
+            "author_affiliations": [
+                "Department of Medicine, Vanderbilt University School of Medicine, Nashville, TN "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Benjamin J Reisman, BS",
+            "author_affiliations": [
+                "Vanderbilt University School of Medicine, Nashville, TN "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Candace H Cote, BS",
+            "author_affiliations": [
+                "Vanderbilt University Medical Center, Nashville, TN "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Paul Brent Ferrell, Jr., MD",
+            "author_affiliations": [
+                "Department of Medicine and Program in Cancer Biology, Vanderbilt University Medical Center, Nashville, TN"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-18T02:35:05",
+    "is_scraped": "1"
 }
