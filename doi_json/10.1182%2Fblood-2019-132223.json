@@ -1,8 +1,75 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4414",
-    "start_url_page_num": "4414",
     "doi": "https://doi.org/10.1182/blood-2019-132223",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/3882/424251/Targeting-Neurotrophic-Receptor-Tyrosine-Kinase?searchresult=1",
-    "datetime_link_obtained": "2022-04-29T23:20:34",
-    "is_scraped": "0"
+    "article_title": "Targeting Neurotrophic Receptor Tyrosine Kinase (NTRK) Fusion Structural Homologs in Refractory Pediatric Acute Lymphoblastic Leukemia (ALL) ",
+    "article_date": "November 13, 2019",
+    "session_type": "614.Acute Lymphoblastic Leukemia: Therapy, excluding Transplantation",
+    "abstract_text": "Introduction : Currently, the 5-year overall survival rate in relapsed pediatric ALL patients is only about 30%. Hence, new treatment approaches are urgently needed. Tyrosine receptor kinase (TRK) signalling pathways have been previously implicated in pediatric ALL relapse, although efficacious molecularly targeted therapies remain elusive. Larotrectinib is a recently approved inhibitor of Neurotrophic Receptor Tyrosine Kinase (NTRK) fusion proteins. Clinical trials have shown high efficacy of Larotrectinib, with limited side effects, in both adult and pediatric solid tumours. Here we show substantial homology between common NTRK fusion proteins and candidate members of the SRC family of TRKs, as well as high binding affinity of Larotrectinib to identified candidates and an impact on patient survival and prognosis. Our data provide the first evidence for a unique therapeutic approach for a subpopulation of refractory pediatric ALL. Methods : Using AutoDock Vina, molecular docking studies were conducted between Larotrectinib and multiple NTRK fusion structures to identify interaction regions with high affinity for Larotrectinib. Structural homologs with significant homology and coverage of substantial interaction regions were identified, and binding affinity to Larotrectinib was compared between the NTRK fusion structures and the identified homologs. To evaluate differential expression of these homologs, the mRNA expression of pediatric ALL bone marrow and normal bone marrow was collected from the GSE7186 dataset on the Gene Expression Omnibus (GEO). P-values of differential expression between ALL and normal mRNA expression of genes that encode for the identified homologs was determined. To evaluate the prognostic potential of the identified homologs in pediatric ALL, mRNA expression z-scores and overall survival data were collected from the recently published TARGET ALL dataset on cBioPortal. mRNA expression z-scores for the identified homologs were separated into quartiles, and survival of patients within the top and bottom quartiles were compared using the Kaplan-Meier survival analysis and the log-rank test for statistical significance. To evaluate the therapeutic potential of Larotrectinib, an inhibitor of both NTRK and the identified homologs was selected and its IC50 z-scores across cell lines and mRNA expression z-scores were analyzed from Genomics of Drug Sensitivity (GDSC) and Cancer Cell Line Encyclopedia (CCLE). IC50s were then compared between ALL and other cell lines. Spearman correlation values between the IC50s and mRNA expression of the identified homologs across all cell lines were verified to evaluate dose-dependency. Results : Four structural homologs were identified with significant homology and coverage with the NTRK fusion structures: FYN, YES1, FGR and SRC. Binding affinities to Larotrectinib for NTRK fusion structures and the identified homologs were not statistically significantly different. Differentially expressed genes in T-cell ALL were FYN (p=0.008), and YES1 (p=0.057) and in B-cell ALL was FYN (p=0.016). Kaplan-Meier survival analysis showed that poor prognosis was associated with low expression of FYN (p=0.006) and YES1 (p=0.000) and with high expression of FGR (p=0.068) and SRC (p=0.252). WZ3105 was identified as another inhibitor of both NTRK and the SRC kinase family, and IC50 of ALL cell lines were shown to be significantly more sensitive to this inhibitor than all other cell lines (p=0.016). Spearman analysis showed significant correlation between IC50s of WZ1305 and cell line mRNA expression of SRC (p=0.015) and FGR (p=0.027), indicating dose-dependency. Conclusion : In addition to NTRK fusion structures, Larotrectinib has been found to have substantial binding affinity with several members of the SRC kinase family. Among the homologs, both FYN and YES1 showed significant differential expression and prognostic significance in ALL. Interestingly, high expressions FGR and SRC are associated with poor prognosis in ALL, therefore representing potential targets. The Larotrectinib analog, WZ3105, is particularly efficacious in ALL cell lines, and dose-dependency with FGR and SRC expression. As such, we provide molecular bioinformatics and data from experimental studies for the potential therapeutic efficacy of Larotrectinib in pediatric ALL, as an inhibitor for NTRK fusion structural homologs, specifically FGR and SRC. Disclosures Narendran: Bayer: Honoraria, Other: CANTRK Advisory Board .",
+    "topics": [
+        "leukemia, lymphocytic, acute, childhood",
+        "receptor protein-tyrosine kinases",
+        "larotrectinib",
+        "rna, messenger",
+        "phosphotransferases",
+        "fusion proteins",
+        "adverse effects",
+        "b-cell acute lymphocytic leukemia",
+        "discoid lupus erythematosus",
+        "molecular targeted therapy"
+    ],
+    "author_names": [
+        "Son Tran",
+        "Mehul Gupta",
+        "Sunand Kannappan",
+        "Chunfen Zhang, MD",
+        "Aru Narendran, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Son Tran",
+            "author_affiliations": [
+                "University of Calgary, Calgary, Canada "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mehul Gupta",
+            "author_affiliations": [
+                "University of Calgary, Calgary, Canada "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sunand Kannappan",
+            "author_affiliations": [
+                "Alberta Children's Hospital Research Institute, University of Calgary, Calgary, Canada "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chunfen Zhang, MD",
+            "author_affiliations": [
+                "Alberta Children's Hospital, University of Calgary, Calgary, Canada"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aru Narendran, MD PhD",
+            "author_affiliations": [
+                "Alberta Children's Hospital Research Institute, University of Calgary, Calgary, Canada "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-18T12:48:59",
+    "is_scraped": "1"
 }
