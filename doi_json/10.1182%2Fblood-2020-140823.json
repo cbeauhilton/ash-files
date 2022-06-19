@@ -1,8 +1,86 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4487",
-    "start_url_page_num": "4487",
     "doi": "https://doi.org/10.1182/blood-2020-140823",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/6/472239/Patient-and-Disease-Factors-Predict-Risk-of-1-Year?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T04:34:05",
-    "is_scraped": "0"
+    "article_title": "Patient and Disease Factors Predict Risk of 1-Year Mortality Among Older Adults Who Receive Intensive Chemotherapy for Hodgkin Lymphoma (HL) ",
+    "article_date": "November 5, 2020",
+    "session_type": "902.Health Services Research-Malignant Conditions (Lymphoid Disease)",
+    "abstract_text": "Background: Older patients with HL are often treated heterogeneously, with treatments ranging from palliative single-agent treatment to intensive dose-dense chemotherapy (Rodday, Br J Haematol, 2020) . However, a proportion of patients are offered and administered potentially curative aggressive chemotherapy. There are scant data to guide the decision about which patients would benefit from this treatment approach. We developed and validated a model to predict 1-year mortality (overall survival) among older adults with HL who received intensive chemotherapy. WMethods: We analyzed data from the Surveillance, Epidemiology, and End Results (SEER) -Medicare linked dataset. We included adults \u226565 years old who were diagnosed with classical HL between 2000-2012 and initiated full-regimen chemotherapy within 4 months of diagnosis. Full-regimen (i.e., aggressive) chemotherapy was defined by intent-to-treat as receiving a minimum of 2 cycles of a full regimen, with the option for 1 drug of a regimen to be omitted. Patients were followed for 1 year after diagnosis, or until death. WPrior to model development, we did a non-random 2:1 split by geographic region to create development and validation cohorts. Predictor variables of interest included patient demographics (age, sex, race/ethnicity, marital status); Charlson comorbidity index (CCI); disability status, a performance status proxy, as measured by previously established methods using claims (Davidoff, Med Care, 2014) ; disease characteristics (advanced vs. early stage; B symptoms; histology); and metropolitan geography. The primary outcome of our model was death within 1 yr of diagnosis, defined as a binary variable. We performed multiple imputation for variables with missing data to create 10 imputed datasets for each cohort. Using all candidate variables, we performed automated stepwise regression with p-value selection of 0.2 in each imputed dataset. Variables selected in at least 5/10 models were included in the final model, from which the c-statistic was derived. The development model was then applied to the validation cohort, and discrimination and calibration were performed to evaluate our model's performance. A final model was then fit using both cohorts with our selected variables from development. Analysis was done in Stata 16.1. WResults: Our cohort included 1,315 older HL patients (n=813 development, n=502 validation). Death occurred in 20% of patients in the development cohort and 17% in the validation cohort. Within the development cohort, a minority (<15%) of patients were Black or Hispanic. Two-thirds (64%) were married or partnered. Overall, 28% had a CCI of 0, and 13% of patients had disability. Among those within the development cohort, those with higher CCI, disability, advanced stage, B symptoms at diagnosis, and older age were more likely to die within 1 year of diagnosis. WWe identified missing data within the variables of B-symptoms (77/1315) and stage at diagnosis (310/1315), which we addressed using multiple imputation. Stepwise regression on the 10 imputed development datasets yielded the following variables for model inclusion: 1) age, 2) CCI, 3) B symptoms at diagnosis,4) advanced stage, and 5) lymphocyte depleted (LD) histology. We elected not to include LD histology in the final model due to high risk of misclassification and small number of patients with this HL subtype. The c-statistic for the development cohort was 0.70 (95% CI 0.66-0.75) ( Figure 1). When applied to the validation dataset, this model yielded a c- statistic of 0.65 (95% CI 0.59-0.71). Calibration curve (Figure 2) revealed that predicted outcomes slightly exceeding observed outcomes. The final model was then fit on the two cohorts combined, shown in Table 1 . Conclusions: We present a novel prediction model for 1-year mortality among older patients with HL who receive intensive chemotherapy. We found that older age, B-symptoms, advanced stage, and increased comorbidity predict death within 1 year of diagnosis. Our model is an initial step to help inform decision making for older patients and oncology providers who are weighing risks and benefits of aggressive chemotherapy among HL patients. In addition, we demonstrate that robust prediction modeling can be used to evaluate outcomes among older adults with hematologic malignancies prior to the initiation of treatment. View large Download slide View large Download slide  Close modal Disclosures Evens: Seattle Genetics: Consultancy, Honoraria, Research Funding; Abbvie: Consultancy, Honoraria; Mylteni: Consultancy, Honoraria; Epizyme: Consultancy, Honoraria, Research Funding; Pharmacyclics: Consultancy, Honoraria; Novartis: Consultancy, Honoraria; Merck: Consultancy, Honoraria, Research Funding; Research To Practice: Honoraria, Speakers Bureau; MorphoSys: Consultancy, Honoraria. Friedberg: Bayer: Consultancy; Astellas: Consultancy; Acerta Pharma - A member of the AstraZeneca Group, Bayer HealthCare Pharmaceuticals.: Other; Portola Pharmaceuticals: Consultancy; Kite Pharmaceuticals: Research Funding; Roche: Other: Travel expenses; Seattle Genetics: Research Funding. Wildes: Carevive Systems: Consultancy; Janssen: Research Funding; Seattle Genetics: Consultancy. Parsons: Seattle Genetics: Consultancy.",
+    "author_names": [
+        "Anita J Kumar, MDMS",
+        "Jason Nelson, MPH",
+        "Angie Mae Rodday, PhD",
+        "Andrew M. Evens, DO,MMSc",
+        "Jonathan W. Friedberg, MD MSSc",
+        "Tanya M. Wildes, MD MSCI",
+        "Susan K Parsons, MD MRP"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Anita J Kumar, MDMS",
+            "author_affiliations": [
+                "Institute for Clinical Research & Health Policy Studies, Tufts Medical Center, Boston, MA",
+                "Division of Hematology/Oncology, Tufts Medical Center, Winchester, MA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jason Nelson, MPH",
+            "author_affiliations": [
+                "Institute for Clinical Research & Health Policy Studies, Tufts Medical Center, Boston, MA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Angie Mae Rodday, PhD",
+            "author_affiliations": [
+                "Institute for Clinical Research & Health Policy Studies, Tufts Medical Center, Boston, MA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew M. Evens, DO,MMSc",
+            "author_affiliations": [
+                "Rutgers Cancer Institute of New Jersey, New Brunswick, NJ"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan W. Friedberg, MD MSSc",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, University of Rochester, Rochester, NY"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tanya M. Wildes, MD MSCI",
+            "author_affiliations": [
+                "Washington University School of Medicine, Saint Louis, MO"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Susan K Parsons, MD MRP",
+            "author_affiliations": [
+                "Institute for Clinical Research & Health Policy Studies, Tufts Medical Center, Boston, MA",
+                "Division of Hematology/Oncology, Tufts Medical Center, Boston, MA",
+                "Department of Medicine and Pediatrics, Tufts University School of Medicine, Boston, MA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T09:32:06",
+    "is_scraped": "1"
 }

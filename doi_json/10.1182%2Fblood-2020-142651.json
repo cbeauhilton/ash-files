@@ -1,8 +1,215 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4512",
-    "start_url_page_num": "4512",
     "doi": "https://doi.org/10.1182/blood-2020-142651",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/36/472428/Use-of-Olfactory-Receptor-Genes-As-Controls-for?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T06:24:44",
-    "is_scraped": "0"
+    "article_title": "Use of Olfactory Receptor Genes As Controls for Genome-Scale CRISPR Functional Genomic Studies to Define Treatment Resistance Mechanisms ",
+    "article_date": "November 5, 2020",
+    "session_type": "605.Molecular Pharmacology, Drug Resistance-Lymphoid and Other Diseases",
+    "abstract_text": "Background: CRISPR-based functional genomics studies in pooled format are increasingly used to define the mechanisms of tumor cells resistance to diverse therapies. Despite many advantages of CRISPR compared to prior functional genomics methodologies, controlling for off-target effects and other artifacts remains important, especially for focused screens, which involve limited numbers of genes and thus have room for relatively few controls. We reasoned that olfactory receptor (OR) genes can be applied as controls for both genome and sub-genome scale studies since these GPCR superfamily members are either not expressed or biologically inactive in most tissues beyond the olfactory epithelium; and their use may address limitations of non-targeting sgRNA controls that do not bind the human genome, and thus do not provide control for events occurring upon interaction of CRISPR nucleases with DNA/chromatin. Aim: To define the performance of olfactory genes as controls for CRISPR-based screens. Method: We examined the performance of a collection of 346 OR genes in a series of genome-scale and focused CRISPR studies including several releases of the Broad Institute Dependency Map dataset and a collection of screens performed to define mechanisms of tumor resistance vs. sensitization to pharmacological or immune-based therapies. Results: The large majority of OR genes exhibit in genome-scale CRISPR knockout studies metrics associated with non-essentiality. Specifically, ~90% of OR genes have CERES scores between -0.4 to 0.4 in ~90% of cell lines (e.g. 20Q1 data on 22 lymphoma, 19 multiple myeloma (MM) and 40 leukemia lines; and 658 solid tumor lines). Importantly, the average CERES score of all OR genes in a given cell line ranges between -0.08 to +0.05 for all hematologic or solid tumor lines tested. However, there are \"outlier\" OR genes for which CERES scores (and DNA copy number-uncorrected metrics) are in the same range as valid gene dependencies. Such \"outlier\" OR genes (e.g. OR7G2 , OR8A1 , OR1E2 , OR4N2 , OR2A1 , OR4K1 , OR2T29 , OR7A10 , OR7A17 , OR2T5 , OR1D2 , OR11H1 , OR4F4 ) have average CERES scores <-0.4 across all cell lines; yet, similarly to other OR genes, are consistently not expressed (RPKM<1.0) even in those cell lines for which they exhibit significant negative CERES scores. Sub-sampling analyses in up to 1000 permutations showed that a set of as few as 50 randomly selected OR genes (without any exclusion of potential \"outlier\" genes) yields for all cell lines of the DepMap an average CERES score between -0.2 to +0.2. We also examined more than 20 genome-scale CRISPR gene editing or gene activation screen performed in-house for mechanisms of resistance of MM or solid tumor cells to pharmacological agents or immune effector cells; or publicly available data from CRISPR interference screens. In these screens, the average log 2 -fold change of normalized read counts for OR genes consistently tracked closely with the center of the distribution of non-OR genes that exhibited no significant sgRNA depletion or enrichment. Conclusions: Collectively, these results indicate that in general OR genes, as an entire group or subsets of them, can serve as a control for CRISPR studies. The lack of expression or biological function of OR genes in most human cancers enhances their attractiveness as negative controls. The overwhelming majority of OR genes show limited deviation from the bulk of the distribution of \"non-hits\" from a variety of screening platforms and experimental conditions. Despite the existence of some outliers that warrant further investigation, even small subsets of OR genes are sufficient to establish a distribution of negative controls across hundreds of cell lines; different CRISPR platforms and experimental setups. We propose that OR genes can be applied as well-defined negative control genes across genome- and sub-genome scale functional genomics studies Disclosures Downey-Kopyscinski: Rancho BioSciences, LLC: Current Employment. Boise: AstraZeneca: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Genetech: Membership on an entity's Board of Directors or advisory committees. Tsherniak: Cedilla Therapeutics: Consultancy; Tango Therapeutics: Consultancy. Mitsiades: Takeda: Other: employment of a relative; Sanofi: Research Funding; Fate Therapeutics: Consultancy, Honoraria; Ionis Pharmaceuticals, Inc.: Consultancy, Honoraria; TEVA: Research Funding; FIMECS: Consultancy, Honoraria; EMD Serono: Research Funding; Arch Oncology: Research Funding; Janssen/Johnson & Johnson: Research Funding; Abbvie: Research Funding; Karyopharm: Research Funding.",
+    "author_names": [
+        "Olga Dashevsky, PhD",
+        "Ricardo De Matos Simoes, PhD",
+        "Ryosuke Shirasaki, MD",
+        "Michal Sheffer, PhD",
+        "Eugen Dhimolea, PhD",
+        "Sara Gandolfi, MD",
+        "Huihui Tang, PhD",
+        "Sondra L. Downey-Kopyscinski, PhD",
+        "Megan Bariteau, B.Sc.",
+        "Jeffrey Sorrell, BA",
+        "Brian Glassner, PhD",
+        "John Doench, PhD",
+        "Larry H. Boise, PhD",
+        "Jonathan D. Licht, MD",
+        "Aedin Culhane, PhD",
+        "William C. Hahn, MD PhD",
+        "Francisca Vazquez, PhD",
+        "Aviad Tsherniak, PhD",
+        "Constantine S. Mitsiades, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Olga Dashevsky, PhD",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA",
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ricardo De Matos Simoes, PhD",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA",
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ryosuke Shirasaki, MD",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA",
+                "Broad Institute of MIT and Harvard, Cambridge, MA",
+                "Dept. of Medical Oncology, Teikyo university hospital, Tokyo, Japan"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michal Sheffer, PhD",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA",
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eugen Dhimolea, PhD",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA",
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sara Gandolfi, MD",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA",
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Huihui Tang, PhD",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA",
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sondra L. Downey-Kopyscinski, PhD",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA",
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Megan Bariteau, B.Sc.",
+            "author_affiliations": [
+                "Dana Farber Cancer Institute, Boston, MA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jeffrey Sorrell, BA",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brian Glassner, PhD",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA",
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John Doench, PhD",
+            "author_affiliations": [
+                "Broad Institute, Cambridge, MA"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Larry H. Boise, PhD",
+            "author_affiliations": [
+                "Emory University, Atlanta, GA"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan D. Licht, MD",
+            "author_affiliations": [
+                "Department of Medicine, University of Florida, Gainesville, FL"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aedin Culhane, PhD",
+            "author_affiliations": [
+                "Dept. of Biostatistics, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "William C. Hahn, MD PhD",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA",
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Francisca Vazquez, PhD",
+            "author_affiliations": [
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aviad Tsherniak, PhD",
+            "author_affiliations": [
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Constantine S. Mitsiades, MD PhD",
+            "author_affiliations": [
+                "Broad Institute of MIT and Harvard, Cambridge, MA",
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Brookline, MA"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T09:39:52",
+    "is_scraped": "1"
 }

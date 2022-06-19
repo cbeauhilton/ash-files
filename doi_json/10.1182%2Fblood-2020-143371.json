@@ -1,8 +1,83 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4487",
-    "start_url_page_num": "4487",
     "doi": "https://doi.org/10.1182/blood-2020-143371",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/15/472232/High-Dimensional-Interrogation-of-Stress-Response?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T04:34:05",
-    "is_scraped": "0"
+    "article_title": "High Dimensional Interrogation of Stress Response Patterns and Cell Death Modes in AML ",
+    "article_date": "November 5, 2020",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Cellular response to stress is diverse, ranging from adaptation through activation of survival pathways to induction of cell death. We designed a multicolor flow cytometry panel to gain insight into multifaceted stress response and to assess multiple cell death modes at the single cell level. The panel included antibodies against RIP3, active caspase 3, cleaved PARP, ATF4, H2AX, p21, Ki-67 and a dead cell discriminating dye. This enabled simultaneous interrogation of a multitude of cell death modes including necrosis, necroptosis, apoptosis and parthanatos as well as proliferation, autophagy and endoplasmic reticulum (ER) stress. Notably, we utilized high dimensional analytic approaches to better elucidate stress response and cell death modes. We leveraged t-SNE for dimension reduction, PhenoGraph to identify distinct phenotypes and diffusion map to map cell trajectories. First, we aimed at delineating response patterns and cell death modes associated with targeted therapies currently being investigated for the treatment of acute myeloid leukemias (AML), including inhibitors targeting anti-apoptotic molecules (Bcl-2i and Mcl-1i), propagating p53-mediated apoptosis (MDM-2i and exportin 1i [XPO1i]), abrogating adaptive circuits through blocking autophagic degradation (SBI-0206965) and depleting anti-oxidant pool (Buthionine sulfoximine [BSO]), and mitochondrial proteasome ClpP activator (ClpPa) (ONC201). Initially, we generated two-dimensional t-SNE plots to interrogate agent-specific response landscapes. Unsupervised high-dimensional mapping demonstrated that Bcl-2 or Mcl-1 inhibition alone did not alter cellular landscape. However, treatment with MDM2i or XPO1i and ClpPa elicited divergent stress responses and cell death modes. Two-dimensional plots showed differential induction of autophagy and ER stress following treatment with MDM2i, XPO1i or ClpPa. Remarkably, we observed that MDM2i and XPO1i were associated with emergence of quiescent cells, based on high expression of p21, and higher levels of ER stress and autophagy while ClpPa induced DNA damage, and was associated with persistent Ki-67 expression and lower levels of p21. This approach enabled us to dissect single agent specific stress signatures. Next, we assessed the response landscapes of prior knowledge-based, data-driven synergistic dual drug combinations. Mapping of response landscapes of multiple dual drug combinations at single-cell resolution revealed distinct associations among integrated stress responses, divergent cellular progression trajectories and previously unidentified response patterns. We observed that autophagic cells were associated with high levels of ER stress and cell kinetic quiescence, suggesting that perturbation-specific stress responses are integrated at the cellular level and are triggered concomitantly. Unsupervised clustering and partitioning of response landscapes to identify major phenotypes revealed two distinct autophagic cell phenotypes: 1) Quiescent autophagic cells without DNA damage and 2) proliferating autophagic cells with DNA damage. Strikingly, combinatorial use of MDM2i and XPO1i almost completely eliminated all AML cells. The surviving cells were quiescent, had high levels of autophagy and ER stress, and were spared of DNA damage. On the other hand, addition of either Bcl-2i or Mcl-1i to MDM2i markedly reduced p21, ER stress and autophagy, indicating that these anti-apoptotic molecules may play a role in cellular adaptation. Addition of Bcl-2i or Mcl-1i inhibitors may specifically deplete autophagic cells with high p21 and ER stress (as we have reported, Pan et al. Cancer Cell 2017). To map cellular trajectories and identify the sequence of events we leveraged diffusion map algorithm and aligned the clusters along pseudo-time. This approach enabled us to identify the earliest stage of cell death, characterized by expression of LC3B, H2AX and cleaved PARP while dead cell dyes marked the latest stage. These findings provide proof of concept for the utility of single cell mapping of cellular stress in delineating stressor-specific response patterns and identifying potential resistance mechanisms. Single cell mapping of cell stress and cell death can inform the development of more effective combinatorial drug regimens. Disclosures Carter: Syndax: Research Funding; Ascentage: Research Funding; Amgen: Research Funding; AstraZeneca: Research Funding. Andreeff: Centre for Drug Research & Development; Cancer UK; NCI-CTEP; German Research Council; Leukemia Lymphoma Foundation (LLS); NCI-RDCRN (Rare Disease Clin Network); CLL Founcdation; BioLineRx; SentiBio; Aptose Biosciences, Inc: Membership on an entity's Board of Directors or advisory committees; Daiichi-Sankyo; Breast Cancer Research Foundation; CPRIT; NIH/NCI; Amgen; AstraZeneca: Research Funding; Amgen: Research Funding; Daiichi-Sankyo; Jazz Pharmaceuticals; Celgene; Amgen; AstraZeneca; 6 Dimensions Capital: Consultancy.",
+    "author_names": [
+        "Muharrem Muftuoglu, MD",
+        "Po Yee Mak",
+        "Vivian Ruvolo, MS",
+        "Yuki Nishida, MDPhD",
+        "Peter P. Ruvolo, PhD",
+        "Bing Z Carter, PhD",
+        "Michael Andreeff, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Muharrem Muftuoglu, MD",
+            "author_affiliations": [
+                "Section of Molecular Hematology and Therapy, Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Po Yee Mak",
+            "author_affiliations": [
+                "Section of Molecular Hematology and Therapy, Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vivian Ruvolo, MS",
+            "author_affiliations": [
+                "Section of Molecular Hematology and Therapy, Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yuki Nishida, MDPhD",
+            "author_affiliations": [
+                "Section of Molecular Hematology and Therapy, Department of Leukemia, MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter P. Ruvolo, PhD",
+            "author_affiliations": [
+                "Section of Molecular Hematology and Therapy, Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bing Z Carter, PhD",
+            "author_affiliations": [
+                "Section of Molecular Hematology and Therapy, Department of Leukemia, The University of Texas M.D. Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Andreeff, MD PhD",
+            "author_affiliations": [
+                "Section of Molecular Hematology and Therapy, Department of Leukemia, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T09:31:40",
+    "is_scraped": "1"
 }
