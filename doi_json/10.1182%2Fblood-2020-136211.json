@@ -1,8 +1,132 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4519",
-    "start_url_page_num": "4519",
     "doi": "https://doi.org/10.1182/blood-2020-136211",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/3/470373/Revealing-Transcriptome-Deregulation-upon-Genomic?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T06:25:11",
-    "is_scraped": "0"
+    "article_title": "Revealing Transcriptome Deregulation upon Genomic Complexity in Multiple Myeloma ",
+    "article_date": "November 5, 2020",
+    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
+    "abstract_text": "Introduction Multiple Myeloma (MM) is characterized by hyperdiploidy (HD) or immunoglobulin gene (IgH) rearrangements as initiating events. Clonal heterogeneity is a hallmark of its biology as highlighted by Next Generation Sequencing. In this context, data on the impact of peculiar mutations, copy number aberrations (CNAs), and chromosomal rearrangements (CRs) at the transcriptomic level are still scanty. In this study, we aimed to dissect the transcriptional deregulation promoted by the most recurrent genomic drivers. Based on this geno-trascriptomic link, we also aimed to identify biomarkers that could suggest personalized treatments. Methods We analyzed 517 newly diagnosed patients from the IA12 release of the CoMMpass study, focusing on mutations in MM driver genes, structural variants, copy number segments and raw transcript counts. RNAseq data was processed with the VOOM/LIMMA pipeline. To perform an in-silico drug sensitivity screen, we anchored cell lines to patients samples using the Celligner algorithm and interrogated the DepMap dataset. Results We first analyzed the global impact of genetic aberrations on the transcriptome. Chr(1q)amp/gain, followed by IgH translocations and HD showed the highest number of deregulated transcripts. Individual mutations had much less impact, with the exception of NRAS and chr(13q) genes ( DIS3 , TGDS , RB1 ) . Next, we investigated differential influence between hotspots (HS) vs nonHS mutations within driver genes. KRAS and NRAS , showed little changes between nonHS and wild type (WT), as the transcriptome was mostly impacted by HS mutations. IRF4 K123 showed a specific transcriptional profile, while nonHS mutations still carried functional relevance although on different genes. For BRAF , the kinase dead D594 mutation surprisingly impacted the most in comparison to V600 and WT cases. Next, we explored the effect of bi-allelic genetic events with known prognostic impact. TP53 double-hits were associated with an upregulation of PHF19 , a MM poor prognostic marker, and downregulation of SLAMF7 , a new immunotherapy target. CYLD and TRAF3 double-hits correlated with NF-\u03baB pathway activation, and the former showed a significant BCL2 upregulation. Bi-allelic events on chr13 exhibited gene-specific consequences: DIS3 inactivation deregulated mostly lncRNAs, while TGDS impacted on genes involved in cell-cycle regulation. Regarding chromosomal gains, only chr(1q)amp (> 3 copies) showed a gene dosage effect with upregulation of the potential therapeutic targets MCL1 and SLAMF7 . Given that the BCL2 axis was perturbated by several genetic alterations, we systematically compared the expression levels of BCL2 , NOXA , MCL1 and BCL2L1 in CYLD inactivated, t(11;14) and chr(1q)amp patients. BCL2 levels were higher in the CYLD group, which parallels with the overexpression of the anti-apoptotic gene BCL2L1 . NOXA , which promotes MCL1 degradation, was significantly upregulated in t(11;14). Chr(1q)amp patients showed a concomitant MCL1 overexpression and NOXA downregulation. To correlate these results to drug sensitivity, we performed an in-silico screen. We first selected MM and lymphoma cell lines from the DepMap dataset based on a gene expression profile that was most similar to the MM samples, then analyzed candidate drugs. The SKMM2 MM cell line, harboring t(11;14), del( CYLD ) e NOXA amp was highly sensitive to Venetoclax. The same was true for the lymphoma ones RI1 and OCI-LY3, both harboring NOXA amp, but negative for t(11;14). On the contrary, the U266 and MOLP8 both with t(11;14) carrying a MCL1 amp due to a chr(1q)amp were fully resistant. Of note, these latter resulted sensitive to the pan-BCL2 axis inhibitor Sabutoclax. Conclusions Our study suggests a link between the genomic architecture and transcriptome in MM, where CNAs and CRs had a stronger impact on expression than gene mutations. However, given that not all mutations are identical, HS ones need further testing as they may represent a future treatment target. Moreover, the mutational status is crucial since, while mono-allelic events are often of little transcriptional value, compound heterozygosity carries a huge influence on transcriptomic which provides biological basis for the observed prognostic impact of \"double-hit\" MM. Finally, we suggest that a comprehensive profiling of the BCL2 pathway may identify biomarkers of sensitivity to BCL2 inhibitors in addition to the t(11;14). Disclosures D'Agostino: GSK: Membership on an entity's Board of Directors or advisory committees. Corradini: Celgene: Consultancy, Honoraria, Other: Travel and accommodations paid by for; Sanofi: Consultancy, Honoraria; Janssen: Consultancy, Honoraria; Gilead: Consultancy, Honoraria, Other: Travel and accommodations paid by for; Incyte: Consultancy; Daiichi Sankyo: Consultancy, Honoraria; Takeda: Consultancy, Honoraria, Other; BMS: Other; F. Hoffman-La Roche Ltd: Consultancy, Honoraria; Amgen: Consultancy, Honoraria, Other: Travel and accommodations paid by for; Novartis: Consultancy, Honoraria, Other: Travel and accommodations paid by for; Servier: Consultancy, Honoraria; Kite: Consultancy, Honoraria; AbbVie: Consultancy, Honoraria, Other: Travel and accommodations paid by for; KiowaKirin: Consultancy, Honoraria. Bolli: Celgene: Honoraria; Janssen: Honoraria.",
+    "author_names": [
+        "Matteo Claudio Da Via', MD",
+        "Bachisio Ziccheddu",
+        "Matteo Dugo",
+        "Marta Lionetti, PhD",
+        "Katia Todoerti, PhD",
+        "Mattia D'Agostino, MD",
+        "Antonino Neri, MD",
+        "Luca Baldini, MD PhD",
+        "Paolo Corradini",
+        "Francesco Maura, MD",
+        "Niccolo Bolli, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Matteo Claudio Da Via', MD",
+            "author_affiliations": [
+                "Department of Oncology and Hemato-Oncology, University of Milan, Milan, Italy ",
+                "Department of Hematology, Fondazione IRCCS Istituto Nazionale dei Tumori, Milan, Italy "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bachisio Ziccheddu",
+            "author_affiliations": [
+                "Department of Hematology, Fondazione IRCCS Istituto Nazionale dei Tumori, Milan, Italy ",
+                "Department of Molecular Biotechnologies and Health Sciences, University of Turin, Turin, Italy "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matteo Dugo",
+            "author_affiliations": [
+                "Platform of Integrated Biology, Department of Applied Research and Technology Development, Fondazione IRCCS Istituto Nazionale dei Tumori, Milan, Italy "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marta Lionetti, PhD",
+            "author_affiliations": [
+                "Department of Oncology and Hemato-Oncology, University of Milan, Milan, Italy ",
+                "BMT Center - Hematology Unit, Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico, Milan, Italy "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Katia Todoerti, PhD",
+            "author_affiliations": [
+                "Department of Oncology and Hemato-Oncology, University of Milan, Milan, Italy ",
+                "BMT Center - Hematology Unit, Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico, Milan, Italy "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mattia D'Agostino, MD",
+            "author_affiliations": [
+                "Myeloma Unit, Division of Hematology, University of Torino, Azienda Ospedaliero-Universitaria Citt\u00e0 della Salute e della Scienza di Torino, Turin, Italy "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Antonino Neri, MD",
+            "author_affiliations": [
+                "Department of Oncology and Hemato-Oncology, University of Milan, Milan, Italy ",
+                "BMT Center - Hematology Unit, Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico, Milan, Italy "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Luca Baldini, MD PhD",
+            "author_affiliations": [
+                "Department of Oncology and Hemato-Oncology, University of Milan, Milan, Italy ",
+                "BMT Center - Hematology Unit, Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico, Milan, Italy "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Paolo Corradini",
+            "author_affiliations": [
+                "Department of Oncology and Hemato-Oncology, University of Milan, Milan, Italy ",
+                "Department of Hematology, Fondazione IRCCS Istituto Nazionale dei Tumori, Milan, Italy "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Francesco Maura, MD",
+            "author_affiliations": [
+                "Myeloma Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY ",
+                "Weill Cornell Medical College, New York, NY "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Niccolo Bolli, MD PhD",
+            "author_affiliations": [
+                "Department of Oncology and Hemato-Oncology, University of Milan, Milan, Italy ",
+                "Department of Hematology, Fondazione IRCCS Istituto Nazionale dei Tumori, Milan, Italy "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T18:35:57",
+    "is_scraped": "1"
 }

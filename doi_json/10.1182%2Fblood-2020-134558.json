@@ -1,8 +1,193 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4526",
-    "start_url_page_num": "4526",
     "doi": "https://doi.org/10.1182/blood-2020-134558",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/45/471841/Role-of-Aneuploidy-in-Transcriptional-Regulation?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T06:25:37",
-    "is_scraped": "0"
+    "article_title": "Role of Aneuploidy in Transcriptional Regulation and Clinical Prognosis in Relapsed and/or Refractory Multiple Myeloma (RRMM) ",
+    "article_date": "November 5, 2020",
+    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
+    "abstract_text": "BACKGROUND Aneuploidy, defined by abnormal copy number changes of chromosomes, contributes to genome instability in multiple myeloma and has potential prognostic impact. Previous research has explored transcriptional pathways affected by aneuploidy. We aim to evaluate aneuploidy, clinical prognosis, and gene expression in RRMM patients (pts) who participated in MMRF (Multiple Myeloma Research Foundation) sequencing study at University of Michigan. We further used gene set analysis to identify enrichment and variation of genetic pathways associated with aneuploidy and overall survival (OS). This was a pilot study in view of applying similar methods to larger populations. METHODS DNA and RNA materials were obtained from 51 RRMM pts at the time of disease relapse. Targeted sequencing was performed with the Onco1700 panel and RNA sequencing was performed with a capture protocol using Agilent SureSelect All Exon V4, followed by paired end sequencing. Copy number variation (CNV) was estimated using an in-house pipeline using matched normal samples. Arm-level aneuploidy was defined as copy number status (gain, loss or neutral) with maximal proportion for each chromosomal arm. Aneuploidy score was determined by total number of arm-level CNV aberrations, with the median score defining high and low aneuploidy groups. Survival analysis was performed using Kaplan-Meier (KM) and Cox regression. RNA-seq libraries were aligned with STAR aligner to the hg38 reference and read quantification were performed with featureCounts. We used gene set enrichment analysis (GSEA) and gene set variation analysis (GSVA) to obtain genetic pathway-level summaries for 50 hallmark pathways representative of cancer from the GSEA Molecular Signatures Database (https://www.gsea-msigdb.org/). Supervised GSEA was performed, based on differential analyses comparing gene expression profiles between high versus low aneuploidy groups to identify the differences in genetic pathways in RRMM pts. Unsupervised GSVA was applied to RNAseq count data of RRMM and newly-diagnosed multiple myeloma (NDMM) pts from the MMRF CoMMpass study (797 pts). Univariate Cox proportional hazard model was used to identify pathways having significant association with OS. RESULTS Arm scale aneuploidy analysis revealed high frequency of gains and losses in multiple chromosomes (Figure 1). RRMM pts with high aneuploidy scores had worse OS (median 15.9 months since study enrollment) compared to those with low scores (median not reached, p=0.027). Multivariate analysis demonstrated that high aneuploidy score is persistently associated with poor OS (hazard ratio (HR): 3.9, p=0.006), adjusting for t(4;14) and t(11;14). Hyperdiploidy (any whole chromosome carrying >2 copies) was identified in chromosomes 3, 5, 7, 9, 11, 19, 21, with frequency >20%. Pts with hyperdiploidy had better OS via KM (p=0.04). Using RNAseq gene expression data and GSEA analysis, we found enrichment of gene markers involving the pathways for targets of E2F transcription factors (Normalized Enrichment Score (NES) = 2.07), G2-M checkpoint in the cell division cycle (NES = 1.87), MYC proto-oncogene (NES = 1.93 and 1.85), and DNA repair (NES = 1.68) in RRMM pts with high aneuploidy compared against those with low scores (Benjamini-Hochberg adjusted p-value <0.001 for all pathways, Figure 2). GSVA analysis revealed 21 genetic pathways associated with survival in NDMM and RRMM pts, with 8, 2, and 11 pathways associated with OS in NDMM only, RRMM only, and both, respectively (Figure 3). Enrichment of several biological pathways involved with cellular growth, cell cycle regulation, and stress response (E2F, G2-M, MYC, DNA repair, mTORC1 signaling, UV radiation, mitotic spindle assembly, unfolded protein response, and peroxisome) are associated with poor survival (HR>1) in both NDMM and RRMM pts. Downregulation of KRAS signaling pathway is associated with better survival (HR<1) in both groups. CONCLUSION Aneuploidy, adjusted for chromosomal translocations, is an independent adverse prognostic factor for RRMM. Aneuploidy is correlated with dysregulation of major biological pathways involving cell cycle regulation, cellular division, oncogenes, and DNA damage repair. The majority of common pathways shared between RRMM and NDMM are linked to or reflective of genomic instability, and may explain association with poor survival. View large Download slide View large Download slide  Close modal Disclosures Talpaz: IMAGO: Consultancy; Takeda: Research Funding; Novartis: Research Funding; Constellation Pharmaceuticals: Membership on an entity's Board of Directors or advisory committees; BMS: Membership on an entity's Board of Directors or advisory committees. Ye: Janssen: Research Funding; Portola: Research Funding; Millennium: Research Funding; Celgene: Research Funding; Sanofi: Research Funding; Karyopharm: Research Funding; Nektar: Research Funding; AbbVie: Research Funding.",
+    "author_names": [
+        "Christopher T Su, MD",
+        "Liying Chen, MS",
+        "Jason Chen, MD",
+        "Brian Parkin, MD",
+        "Avery Polk",
+        "Malathi Kandarpa, PhD",
+        "Craig E. Cole, MD",
+        "Erica Campagnaro, MD",
+        "Josh Vo, PhD",
+        "Dan Robinson, PhD",
+        "Yi-Mi Wu, PhD",
+        "Moshe Talpaz, MD",
+        "Jennifer Yesil, MSc",
+        "Daniel Auclair",
+        "P. Leif Bergsagel, MD",
+        "Arul Chinnaiyan, MDPhD",
+        "Veerabhadran Baladandayuthapani, PhD",
+        "J Christine Ye, MDMSc"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Christopher T Su, MD",
+            "author_affiliations": [
+                "University of Michigan Medical Center, Ann Arbor, MI "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Liying Chen, MS",
+            "author_affiliations": [
+                "Department of Biostatistics, University of Michigan, Ann Arbor, MI "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jason Chen, MD",
+            "author_affiliations": [
+                "University of Michigan Medical Center, Ann Arbor, MI "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brian Parkin, MD",
+            "author_affiliations": [
+                "VA Ann Arbor Healthcare System, Ann Arbor, MI "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Avery Polk",
+            "author_affiliations": [
+                "University of Michigan Medical Center, Ann Arbor, MI "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Malathi Kandarpa, PhD",
+            "author_affiliations": [
+                "University of Michigan Medical Center, Ann Arbor, MI "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Craig E. Cole, MD",
+            "author_affiliations": [
+                "Division of Hematology Oncology, Michigan State University, Lansing, MI "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Erica Campagnaro, MD",
+            "author_affiliations": [
+                "University of Michigan Medical Center, Ann Arbor, MI "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Josh Vo, PhD",
+            "author_affiliations": [
+                "Department of Computational Medicine and Bioinformatics, University of Michigan, Ann Arbor, MI "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dan Robinson, PhD",
+            "author_affiliations": [
+                "Department of Pathology, University of Michigan, Ann Arbor, MI "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yi-Mi Wu, PhD",
+            "author_affiliations": [
+                "Department of Pathology, University of Michigan, Ann Arbor, MI "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Moshe Talpaz, MD",
+            "author_affiliations": [
+                "University of Michigan Medical Center, Ann Arbor, MI "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jennifer Yesil, MSc",
+            "author_affiliations": [
+                "Multiple Myeloma Research Foundation (MMRF), Norwalk, CT "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel Auclair",
+            "author_affiliations": [
+                "Multiple Myeloma Research Foundation (MMRF), Norwalk, CT "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "P. Leif Bergsagel, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Scottsdale, AZ"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Arul Chinnaiyan, MDPhD",
+            "author_affiliations": [
+                "Department of Pathology, University of Michigan, Ann Arbor, MI "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Veerabhadran Baladandayuthapani, PhD",
+            "author_affiliations": [
+                "Department of Biostatistics, University of Michigan, Ann Arbor, MI "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "J Christine Ye, MDMSc",
+            "author_affiliations": [
+                "University of Michigan Medical Center, Ann Arbor, MI "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T18:41:40",
+    "is_scraped": "1"
 }
