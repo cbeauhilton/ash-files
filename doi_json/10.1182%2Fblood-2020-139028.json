@@ -1,8 +1,95 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4547",
-    "start_url_page_num": "4547",
     "doi": "https://doi.org/10.1182/blood-2020-139028",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/47/470895/Single-Cell-Transcriptome-Reveals-the-Role-of?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T07:19:58",
-    "is_scraped": "0"
+    "article_title": "Single-Cell Transcriptome Reveals the Role of Sting Pathway in Acute B Lymphoblastic Leukemia Bone Marrow Cells ",
+    "article_date": "November 5, 2020",
+    "session_type": "618.Acute Lymphoblastic Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
+    "abstract_text": "Introduction Cancer immunotherapy and targeted therapy have yielded impressive clinical efficacy in acute B lymphoblastic leukemia (B-ALL). Despite the initial high complete remission (CR) rate following first-line therapy, treatment refractoriness and disease relapse remain are correlated with dismal survival. By the time the malignant cells generate, they are accompanied by a rich network of stromal cells and cytokines in bone marrow (BM). This tumor microenvironment (TME) represents an important feature of the biology of B-ALL but also shapes the clinical behavior of the disease. It remains to be confirmed whether the cellular composition and transcriptional heterogeneity impacts the clinical effects of B-ALL. Herein, we analyzed the immune cell infiltration features and related marker genes for B-ALL based on single cell RNA sequencing (scRNA-seq) data, which would be of significance for the development of novel immunotherapies. Methods ScRNA-seq data of 11373 BM cells from 3 B-ALL patients were obtained from the Gene Expression Omnibus (GEO, GSE153358). After quality control and data normalization, cell filtration and marker genes extraction were performed by the Seurat package. Principal component analysis (PCA) and t-distributed stochastic neighbor embedding (t-SNE) were then applied to cluster cells, following with cell types' definition and gene expression profiles in total subsets. Cell clustering was demonstrated using t-SNE-1 and t-SNE-2. In order to determine the cellular characteristics of TME cells mainly mediated by STING pathway, dendritic cell (DC) and B cell were extracted and further plotted gene expression including immunosuppressive molecules and STING pathway, respectively. The pseudo-time analysis was finally performed by Monocle package to display B cell development trajectory and gene expressions over time. Results 9 cell subsets in B-ALL BM, including na\u00efve and memory CD4 + T cell, CD14 + monocyte, B cell, CD8 + T cell, FCGRA3 + monocyte, nature killer (NK) cell, DC, and platelet, were identified based on t-SNE analysis (Fig.1A). Top 10 marker genes in each cell cluster were presented in heat map (Fig.1B). Through analyzing differentially expressed genes, we found that BM B cells hardly expressed PD-L1 (CD274), but partially carried TMEM173 (STING), NFKB1 (NF-\u03baB) and GSDMD. In addition, immune cells in BM TME broadly distributed and highly expressed STING and NF-\u03baB, indicating the potential response to type I innate immune response and higher sensitivity to STING agonists than PD-1 antibody (Fig.2A and B). Previous studies had revealed that STING pathway participated in the activation of DC following with production of type I IFNs. We further isolated DC from 9 subsets and profiled the gene expression features. T-SNE analysis revealed 3 subtypes of DC in BM, marker genes comparison further identified as monocyte derived DC, CD1C-CD14-DC and myeloid conventional DC. Cyclic GMP-AMP synthase (cGAS), STING and NF-\u03baB were highly expressed in each type in compared with PDCD1 (PD-1) and highest existed on myeloid conventional DC (Fig.3). We then explored B cell subsets to determine whether STING pathway could induce cell pyroptosis in BM B cells. Different subgroup of B cells shared similar marker genes, companying with higher expression of NF-\u03baB and GDSMD (Fig.4). Furthermore, pseudo-time analysis plotted the development trajectory of malignant B cells. The results showed that GSDMD gradually increased along with cell development, suggesting that STING agonist would be sensitive to mature B cells (Fig.5). Subsets analysis shown that anti-tumor immune response of DC and pyroptosis of B cell might be triggered through STING pathway activation. Conclusion Our study profiled for the first time the expression of STING pathway in BM DC and B cell from B-ALL patients based on single-cell transcriptome. Combination of STING agonist and conventional immunotherapy had been shown prospects in antitumor therapy. STING agonist is expected to be an adjuvant drug for B-ALL immunotherapies in the future. Keywords: Single-cell RNA sequencing; acute B lymphoblastic leukemia; STING; PD-1; immunotherapy. View large Download slide View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "author_names": [
+        "Yiqing Cai",
+        "Xiangxiang Zhou, MD",
+        "Juan Yang, PhD",
+        "Jiarui Liu",
+        "Yi Zhao, MM",
+        "Shunfeng Hu, MM",
+        "Shuai Ren, MM",
+        "Xin Wang, MDPhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Yiqing Cai",
+            "author_affiliations": [
+                "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong University, Jinan, China "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xiangxiang Zhou, MD",
+            "author_affiliations": [
+                "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong University, Jinan, China ",
+                "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, Shandong, China "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Juan Yang, PhD",
+            "author_affiliations": [
+                "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong University, Jinan, China "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jiarui Liu",
+            "author_affiliations": [
+                "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong University, Jinan, China "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yi Zhao, MM",
+            "author_affiliations": [
+                "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong University, Jinan, China "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shunfeng Hu, MM",
+            "author_affiliations": [
+                "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong University, Jinan, China "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shuai Ren, MM",
+            "author_affiliations": [
+                "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong University, Jinan, China "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xin Wang, MDPhD",
+            "author_affiliations": [
+                "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong University, Jinan, China ",
+                "Department of Hematology, Shandong Provincial Hospital Affiliated to Shandong First Medical University, Jinan, China"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T21:36:12",
+    "is_scraped": "1"
 }
