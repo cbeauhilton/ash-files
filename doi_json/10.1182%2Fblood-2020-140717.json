@@ -1,8 +1,163 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4479",
-    "start_url_page_num": "4479",
     "doi": "https://doi.org/10.1182/blood-2020-140717",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/31/471036/Chromatin-Accessibility-Identifies-Regulatory?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T04:33:34",
-    "is_scraped": "0"
+    "article_title": "Chromatin Accessibility Identifies Regulatory Elements Predictive of Oncogene Expression in Multiple Myeloma ",
+    "article_date": "November 5, 2020",
+    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
+    "abstract_text": "Introduction Extensive genomic characterization of multiple myeloma has identified subtypes with prognostic and therapeutic implications. In contrast, less is known about the myeloma epigenome. One challenge that has hindered epigenetic studies are assays amenable to biobanked specimens. Here, we sought to determine whether ATAC-seq and RNA-seq of myeloma cells from cryopreserved bone marrow aspirates recapitulated those from fresh samples and used this approach to investigate enhancers of myeloma oncogenes. Methods Consent and collection of specimens followed approved Institutional Review Board protocols. Mononuclear cells were enrichment by Ficoll gradient centrifugation and were either cryopreserved in 10% DMSO and RPMI media with 10% FBS or used to isolate viable CD138+CD38+ myeloma cells. RNA-seq used the mRNA HyperPrep kit (Kapa Biosystems) with RNA from 50,000 cells. ATAC-seq used the Tn5 transposase (Illumina) on 20,000 cells. Sequencing was performed on an HiSeq 4000 (Illumina). Sequencing data were quality and adapter trimmed using Trim Galore! And mapped to the GRCh37 genome using STAR (RNA-seq) or bowtie2 (ATAC-seq). MACS2 was used to determine chromatin accessible regions and R was used for downstream analyses. H3K27ac ChIP-seq from Jin et al. (Blood, 2018) were downloaded from the European nucleotide archive (PRJEB25605). RNA-seq from CoMMpass (NCT01454297) were downloaded from dbGaP phs000748.v7.p4. Enhancer RNAs were interrogated in intergenic regions excluding 500 bp upstream of TSSs and 5 kb downstream of transcription termination sites to avoid contamination from exonic mRNAs or intronic pre-mRNAs. Results We compared RNA-seq and ATAC-seq data from myeloma cells isolated from fresh bone marrow aspirates to those cryopreserved for up to 6 months from the same aspirate. RNA-seq and ATAC-seq data from fresh and frozen samples from the same aspirate were highly correlated with each other but distinct from other samples as depicted by principal component analysis ( Fig. A,B ). Inspection of CCND1 showed high levels of RNA in two patients and this was consistent in both fresh and frozen specimens as well as with FISH results indicating a t(11;14) translocation in these samples ( Fig. C ). Similarly, fresh and frozen specimens from the same patient showed consistent expression for CCND2 and MYC and these data corresponded with chromatin accessibility found near these genes ( Fig. D , see regions shaded in gray). Based on these results we expanded our analysis to include 8 biobanked specimens, which identified 91,632 regions of chromatin accessibility that were enriched around plasma cell lineage genes such as IRF4 , CD38 , SLAMF7 , and IGH . Chromatin accessibility often predicted proximal gene expression and this was especially pronounced for regions enriched for histone 3 lysine 27 acetylation (H3K27ac) - a mark of enhancers. Active enhancers are sometimes demarcated by enhancer RNAs (eRNAs) observable in RNA-seq data, thus we queried intergenic regions marked by chromatin accessibility and H3K27ac for eRNAs using RNA-seq data on 768 myeloma specimens from the CoMMpass study. This identified transcription at 4,729 of 13,452 potential regions. eRNA expression was highly correlated with proximal gene expression. To illustrate this point, we performed t-SNE clustering based on mRNA and eRNA expression and color-coded each sample by myeloma gene expression subtype ( Fig. E ). Interestingly, this identified several regions highly correlated with oncogene expression between myeloma subtypes. For example, an enhancer ~154 kb upstream of CCND2 was uniquely transcribed in the MAF subtype ( Fig. F ) and this was highly correlated with CCND2 expression ( Fig. G ). Conclusions Cryopreservation of myeloma bone marrow aspirates allows isolation and analysis of biobanked samples that produce RNA-seq and ATAC-seq data that are highly congruent with those obtained from fresh samples and this represents a strategy for retrospective genomic and epigenomic studies. Chromatin accessibility analysis identified distinct enhancer elements regulating oncogenes in myeloma subtypes providing mechanistic insight into myeloma pathology. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Lin: Amgen: Current Employment, Current equity holder in publicly-traded company. Hofmeister: Bristol Myers Squibb: Honoraria, Research Funding; Janssen: Honoraria, Research Funding; Nektar: Honoraria, Research Funding; Sanofi: Honoraria, Research Funding; Oncopeptides: Honoraria; Oncolytics Biotech: Research Funding; Imbrium: Honoraria; Karyopharm: Honoraria, Research Funding. Nooka: Celgene: Consultancy, Honoraria, Research Funding; Sanofi: Consultancy, Honoraria; Adaptive Technologies: Consultancy, Honoraria; Spectrum Pharmaceuticals: Consultancy; Takeda: Consultancy, Honoraria, Research Funding; Janssen: Consultancy, Honoraria, Research Funding; Amgen: Consultancy, Honoraria, Research Funding; Bristol-Myers Squibb: Consultancy, Honoraria, Research Funding; GlaxoSmithKline: Consultancy, Honoraria, Other: Personal Fees: Travel/accomodations/expenses, Research Funding; Karyopharm Therapeutics, Adaptive technologies: Consultancy, Honoraria, Research Funding; Oncopeptides: Consultancy, Honoraria. Lonial: GSK: Consultancy, Honoraria, Other: Personal fees; BMS: Consultancy, Honoraria, Other: Personal fees, Research Funding; Takeda: Consultancy, Other: Personal fees, Research Funding; Novartis: Consultancy, Honoraria, Other: Personal fees; Janssen: Consultancy, Honoraria, Other: Personal fees, Research Funding; Merck: Consultancy, Honoraria, Other: Personal fees; JUNO Therapeutics: Consultancy; TG Therapeutics: Membership on an entity's Board of Directors or advisory committees; Millennium: Consultancy, Honoraria; Onyx: Honoraria; Genentech: Consultancy; Karyopharm: Consultancy; Amgen: Consultancy, Honoraria, Other: Personal fees; Sanofi: Consultancy; Abbvie: Consultancy. Boise: AstraZeneca: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Genetech: Membership on an entity's Board of Directors or advisory committees.",
+    "author_names": [
+        "Benjamin G Barwick, PhD",
+        "Vikas A. Gupta, MD PhD",
+        "Shannon M Matulis, PhD",
+        "Jonathan C Patton, B.S.",
+        "Doris R Powell, MA",
+        "Yanyan Gu, MD PhD",
+        "David L. Jaye, MD",
+        "Karen N Conneely, PhD",
+        "Yin C Lin, PhD",
+        "Craig C Hofmeister, MDMPH",
+        "Ajay Nooka, MDMPH",
+        "Jonathan J Keats, PhD",
+        "Sagar Lonial, MD FACP",
+        "Paula M Vertino, PhD",
+        "Larry H. Boise, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Benjamin G Barwick, PhD",
+            "author_affiliations": [
+                "Winship Cancer Institute / Hematology and Medical Oncology, Emory University, Atlanta, GA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vikas A. Gupta, MD PhD",
+            "author_affiliations": [
+                "Winship Cancer Institute/ Hematology and Medical Oncology, Emory University, Atlanta, GA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shannon M Matulis, PhD",
+            "author_affiliations": [
+                "Winship Cancer Institute/ Hematology and Medical Oncology, Emory University, Atlanta, GA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan C Patton, B.S.",
+            "author_affiliations": [
+                "Emory Integrated Genomics Core, Emory University, Atlanta, GA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Doris R Powell, MA",
+            "author_affiliations": [
+                "Hematology and Medical Oncology / Winship Cancer Institute, Emory University, Atlanta, GA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yanyan Gu, MD PhD",
+            "author_affiliations": [
+                "Emory University Winship Cancer Institute, Atlanta, GA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David L. Jaye, MD",
+            "author_affiliations": [
+                "Department of Pathology, Emory University, Atlanta, GA "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karen N Conneely, PhD",
+            "author_affiliations": [
+                "615 Michael Street, Emory University, Atlanta, GA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yin C Lin, PhD",
+            "author_affiliations": [
+                "Baylor Scott & White Research Institute, Baylor Institute for Immunology Research, Dallas, "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Craig C Hofmeister, MDMPH",
+            "author_affiliations": [
+                "Winship Cancer Institute / Department of Hematology and Medical Oncology, Emory University School of Medicine, Atlanta, GA "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ajay Nooka, MDMPH",
+            "author_affiliations": [
+                "Winship Cancer Institute, Emory University, Atlanta, GA "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan J Keats, PhD",
+            "author_affiliations": [
+                "Translational Genomics Research Institute, Phoenix, AZ "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sagar Lonial, MD FACP",
+            "author_affiliations": [
+                "Department of Hematology and Medical Oncology, Emory University - Winship Cancer Institute, Atlanta, GA "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Paula M Vertino, PhD",
+            "author_affiliations": [
+                "Department of Biomedical Genetics, University of Rochester Medical Center, Atlanta, GA "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Larry H. Boise, PhD",
+            "author_affiliations": [
+                "Emory University, Atlanta, GA"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T04:13:48",
+    "is_scraped": "1"
 }

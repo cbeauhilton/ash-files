@@ -1,8 +1,184 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4598",
-    "start_url_page_num": "4598",
     "doi": "https://doi.org/10.1182/blood-2020-143221",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/1/471594/Single-Cell-Transcriptomic-Profiling-of-De-Novo?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T09:19:43",
-    "is_scraped": "0"
+    "article_title": "Single-Cell Transcriptomic Profiling of De Novo and Relapsed Acute Myeloid Leukemia Identifies a Leukemic Stemness Program Shared across Diverse Phenotypes ",
+    "article_date": "November 5, 2020",
+    "session_type": "617.Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
+    "abstract_text": "Introduction : Relapse remains the major cause of mortality in acute myeloid leukemia (AML). Prior work indicates that a rare subset of leukemic stem cells (LSCs) self-renew and propagate AML. However, characterizing LSCs is complicated by their scarcity, the lack of universal markers and the heterogeneity across patients. Here, we aim to define a transcriptional program associated with LSCs in patient samples. Methods: We performed single-cell RNA sequencing (scRNA-seq) scRNA-seq of bone marrow from 19 AML samples (14 patients) using the 10X Chromium 3' v2 platform. These samples span multiple morphologies, genetic alterations, and disease stages. Leukemic and normal cells were distinguished based on agreement of three methods: ( i ) canonical marker expression, ( ii ) clustering analysis in a multi-sample dataset, and ( iii ) inferred chromosomal alterations. Leukemic cells were mapped to a panel of signatures from the Human Cell Atlas to infer the most similar normal cell-type, using single-cell gene-set enrichment analysis. Transcription factor activity was inferred at the single-cell level using the SCENIC workflow. Cell state trajectories were constructed using Monocle v2. Common driver mutations were detected at the bulk level using targeted gDNA sequencing and in single cells with targeted amplification of cDNA libraries. A validation cohort of samples was processed with the CITE-seq protocol to capture single-cell gene expression and surface protein levels for CD34, CD38, CD123, CLL1, and TIM3. Results: We captured a total of 55,355 cells meeting quality thresholds, with a median of ~2,800 cells/sample. We observed a large inter-patient heterogeneity with cells segregating largely by sample (Fig. 1A), which was not explained by morphological subtype, treatment received, or driver mutations. As previously described, similarity in gene expression of longitudinal samples did not depend on time before relapse. However, we found transcriptional similarity in a group of samples with relatively silent CNV profiles, suggesting that large chromosomal alterations are a main driver of inter-patient variability. We also observed variation in terms of nearest normal cell assignment: while some samples contained cells resembling diverse mature cell types, others had an abundance of stem-like cells, confirmed by high activity of transcription factors involved in self-renewal (e.g. HOXA9 , GATA2 ). To analyze intrasample variation, we performed Principal Component Analysis and found that, in over half of the samples, LSC and maturation genes were the main source of transcriptional variation. A gradient of activation of known LSC signatures was detected in these samples (Fig 1B). Cell state trajectory reconstruction indicated a continuum of LSC gene expression in leukemic cells. Interestingly, expression of known LSC genes was mostly diffuse is a small subset of samples, a finding that suggests that LSC activity may be widespread in these cases but remains to be validated functionally. Finally, we derived a stemness signature correlated with LSC in our cohort, by extracting concordant genes in a ranked correlation analysis and reconstruction of gene regulatory networks. This yielded a recurrent stemness signature that included previously described LSC-associated genes that were not part of our input, as well as novel factors with expression highly specific to the most LSC-like cells (Fig 1C). To validate this novel stemness signature, we experimentally determined LSC frequencies in a separate cohort (N=5) by xenotransplantation according to expression of CD34 and CD38, and confirmed higher expression of our signature in the LSC fraction. Conclusions: Within a genetically and phenotypically diverse cohort of patients, we could identify, at single-cell resolution, recurrent programs of stemness and myeloid maturation. Altogether, we provide novel candidates for a transcriptional program of putative LSC drivers with therapeutic relevance in AML. Figure View large Download slide Figure View large Download slide  Close modal Disclosures Johnson: AbbVie: Research Funding; Roche/Genentech, Merck, Bristol-Myers Squibb, AbbVie: Consultancy; Roche/Genentech, Merck: Honoraria. Assouline: Takeda: Research Funding; AbbVie: Consultancy, Honoraria, Speakers Bureau; AstraZeneca: Consultancy, Honoraria, Speakers Bureau; Pfizer: Consultancy, Honoraria; BeiGene: Consultancy, Honoraria, Research Funding; Janssen: Consultancy, Honoraria, Speakers Bureau; F. Hoffmann-La Roche Ltd: Consultancy, Honoraria, Research Funding. Mercier: Sanofi-Genzyme: Consultancy.",
+    "author_names": [
+        "Samantha Worme, BSc",
+        "Selin Jessa, BSc",
+        "William Poon, BSc",
+        "Maja Jankovic, MSc",
+        "Gabriela Galicia Vazquez, PhD",
+        "Alexandre Bazinet, MD",
+        "Katharine Fooks, BSc",
+        "Isabella Iasenza, BSc",
+        "Patricia Arreba-Tutusaus, PhD",
+        "Kolja Eppert, PhD",
+        "Ioannis Ragoussis, PhD",
+        "Yu Chang Wang, PhD",
+        "Nathalie A Johnson, MD PhD",
+        "Sarit E Assouline, MD MSc",
+        "Claudia L Kleinman, PhD",
+        "Fran\u00e7ois E Mercier, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Samantha Worme, BSc",
+            "author_affiliations": [
+                "Lady Davis Institute for Medical Research, Montreal, Canada ",
+                "Department of Medicine, McGill University, Montreal, Canada "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Selin Jessa, BSc",
+            "author_affiliations": [
+                "Quantitative Life Sciences, McGill University, Montreal, Canada "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "William Poon, BSc",
+            "author_affiliations": [
+                "Lady Davis Institute for Medical Research, Montreal, Canada ",
+                "Department of Medicine, McGill University, Montreal, Canada "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maja Jankovic, MSc",
+            "author_affiliations": [
+                "Lady Davis Institute for Medical Research, Montreal, Canada ",
+                "Department of Medicine, McGill University, Montreal, Canada "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gabriela Galicia Vazquez, PhD",
+            "author_affiliations": [
+                "Lady Davis Institute for Medical Research, Montreal, Canada "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexandre Bazinet, MD",
+            "author_affiliations": [
+                "Department of Medicine, McGill University, Montreal, Canada ",
+                "Jewish General Hospital, Lady Davis Institute for Medical Research and Segal Cancer Centre, Montreal, Canada "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Katharine Fooks, BSc",
+            "author_affiliations": [
+                "Lady Davis Institute for Medical Research, Montreal, Canada ",
+                "Department of Medicine, McGill University, Montreal, Canada "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Isabella Iasenza, BSc",
+            "author_affiliations": [
+                "Department of Medicine, McGill University, Montreal, Canada ",
+                "Research Institute of the McGill University Health Centre, Montreal, Canada "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Patricia Arreba-Tutusaus, PhD",
+            "author_affiliations": [
+                "Research Institute of the McGill University Health Centre, Montreal, Canada "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kolja Eppert, PhD",
+            "author_affiliations": [
+                "Research Institute of the McGill University Health Centre, Montreal, Canada ",
+                "Department of Pediatrics, McGill University, Montreal, Canada "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ioannis Ragoussis, PhD",
+            "author_affiliations": [
+                "McGill University Genome Centre, Montreal, Canada ",
+                "Department of Human Genetics, McGill University, Montreal, Canada"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yu Chang Wang, PhD",
+            "author_affiliations": [
+                "McGill University Genome Centre, Montreal, Canada "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nathalie A Johnson, MD PhD",
+            "author_affiliations": [
+                "Department of Medicine, McGill University, Montreal, Canada ",
+                "Jewish General Hospital, Lady Davis Institute for Medical Research and Segal Cancer Centre, Montreal, Canada "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sarit E Assouline, MD MSc",
+            "author_affiliations": [
+                "Department of Medicine, McGill University, Montreal, Canada ",
+                "Jewish General Hospital, Lady Davis Institute for Medical Research and Segal Cancer Centre, Montreal, Canada "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Claudia L Kleinman, PhD",
+            "author_affiliations": [
+                "Department of Human Genetics, McGill University, Montreal, Canada"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Fran\u00e7ois E Mercier, MD",
+            "author_affiliations": [
+                "Department of Medicine, McGill University, Montreal, Canada ",
+                "Jewish General Hospital, Lady Davis Institute for Medical Research and Segal Cancer Centre, Montreal, Canada "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T04:05:01",
+    "is_scraped": "1"
 }

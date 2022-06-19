@@ -1,8 +1,75 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4467",
-    "start_url_page_num": "4467",
     "doi": "https://doi.org/10.1182/blood-2020-138566",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/5/471669/Target-Informed-Repurposing-of-Immunotherapies-in?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T03:58:55",
-    "is_scraped": "0"
+    "article_title": "Target-Informed Repurposing of Immunotherapies in AML - a Transcriptome Based Approach for Identifying Immediately Available Therapeutics ",
+    "article_date": "November 5, 2020",
+    "session_type": "617.Acute Myeloid Leukemia: Biology, Cytogenetics, and Molecular Markers in Diagnosis and Prognosis",
+    "abstract_text": "Acute Myeloid Leukemia (AML) is an aggressive hematopoietic malignancy with limited therapeutic options and a great need for innovative treatment. However, the identification of novel molecular biomarkers remains challenging, and significant lag time from target discovery to clinical development impedes timely implementation of novel therapies. We previously demonstrated aberrant expression of non-hematopoetic (NH) antigens on leukemic cells in AML; one such antigen, mesothelin ( MSLN ), has recently begun AML clinical development, providing evidence for the use of NH directed therapeutics in AML. Given this observation, we questioned whether we could build a computational platform to identify misregulated genes in AML that are targeted by currently available immunotherapies in other malignancies. Early phase trial data for these targets will provide vital safety and tolerability information, thereby supporting a rapid path to AML clinical development. To this end, we curated a knowledgebase of antibody-drug conjugate (ADC) and chimeric antigen receptor T-cell (CAR T) therapies by querying all cancer immunotherapy trials registered in the U.S. National Library of Medicine clinical trials database (https://clinicaltrials.gov) and the Journal of Antibody-Drug Conjugates (https://adcreview.com) in November of 2019. In total, our knowledgebase contained 893 clinical trials assessing 141 prospective gene targets. We interrogated transcriptome expression of these targets using ribodepleted RNA-seq data from the TARGET AML and TpAML initiatives (N = 1,394, age <0 to 30 years) and the TCGA LAML cohort (N = 173, age 18 - 88 years). We selected for therapeutic targets expressed in AML by employing a minimum transcript expression threshold of 5 TPM in >50% of our AML cases. This led to the identification of 35 targets of interest for further analysis ( Figure 1A ). A total of 131 immunotherapies (70 ADCs and 61 CAR Ts) directed against these targets are in various stages of clinical development ( Figure 1B ). These included 62 AML-directed therapies targeting a total of 13 antigens; among these, CD33 , CD123 , FLT3 , CD117 , and CLEC12A have been well described in the context of AML. The remaining 69 therapies (43 ADCs and 26 CAR-Ts) target 30 NH antigens. Nine (30%) of these NH antigens, including CD74 , BSG , TFRC , CXCR4 , and CD44 , all possesed a median of >90 TPM in our AML cohort and were subjects of therapies in Phase I or later. Additionally, these genes were universally expressed across major fusion groups ( Figure 1C ), suggesting potential as therapeutic targets regardless of age or genetic abnormality. A table of NH targets with high expression in AML is provided in Figure 1D . Conversely, we also identified targets for which expression was uniquely restricted to rare, high-risk, and therapeutically challenging AML variants. Upregulated genes in these variants were identified via differential expression analysis of CBFA2T3 - GLIS2 , NUP98 - NSD1 , and NUP98 - KDM5A fusions. Genes were filtered using a log fold-change (logFC) threshold of 1 and FDR-adjusted p < 0.05, then cross-referenced with the full knowledgebase to identify 37 rare-variant enriched targets. The top 5 most highly enriched targets (ranked by logFC) were FOLR1 , NCAM1 , MMP14 , TNF , and DLK1 . The association of NCAM1 with CBFA2T3 - GLIS2 has been previously described. However, FOLR1 , a member of the folate receptor family that is overexpressed in epithelial-derived tumors, is a novel target in the context of AML. Like NCAM1 , FOLR1 expression in our AML population is almost entirely limited to the CBFA2T3 - GLIS2 fusion: 36/43 FOLR1 -expressing patients possessed a CBFA2T3 - GLIS2 fusion, comprising 94.74% of all CBFA2T3 - GLIS2 fusions in our cohort. We screened transcriptome data from a large AML cohort for expression of immunotherapeutic targets with potential utility in AML. This enabled the identification of both broadly expressed and subtype-restricted putative targets. Future expansion of this methodology into other cellular therapies (CAR NK or BiTE) and the examination of new data sources could reveal additional targets with robust expression in AML. Demonstration of cell surface expression of these targets, and appropriate preclinical evidence of efficacy, could lay the groundwork for quickly moving these therapies to clinical trials in AML. Figure View large Download slide Figure View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "author_names": [
+        "Amanda R. Leonti, MS",
+        "Makia Manselle",
+        "Jenny L. Smith, MSc, MD",
+        "Rhonda E. Ries, MA",
+        "Anders E. Kolb, MD",
+        "Soheil Meshinchi, MDPhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Amanda R. Leonti, MS",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Mountlake Terrace, WA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Makia Manselle",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jenny L. Smith, MSc, MD",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rhonda E. Ries, MA",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anders E. Kolb, MD",
+            "author_affiliations": [
+                "Division of Oncology, Nemours/Alfed I. duPont Hospital For Children, Wilmington, DE "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Soheil Meshinchi, MDPhD",
+            "author_affiliations": [
+                "Department of Pediatrics, University of Washington, Seattle, WA ",
+                "Clinical Research Division, Fred Hutchinson Cancer Rsrch. Ctr., Seattle, WA ",
+                "Children's Oncology Group, Monrovia, CA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T04:09:42",
+    "is_scraped": "1"
 }

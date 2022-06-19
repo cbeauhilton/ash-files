@@ -1,8 +1,73 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4469",
-    "start_url_page_num": "4469",
     "doi": "https://doi.org/10.1182/blood-2020-143393",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/29/471020/Analysis-of-Sars-Cov-2-Associated-Proteins?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T03:59:03",
-    "is_scraped": "0"
+    "article_title": "Analysis of Sars-Cov-2-Associated Proteins Identify Tank-Binding Kinase-1 As an Immunotherapeutic Target in Multiple Myeloma ",
+    "article_date": "November 5, 2020",
+    "session_type": "651.Myeloma: Biology and Pathophysiology, excluding Therapy",
+    "abstract_text": "Background and Rationale Patients with multiple myeloma (MM) are at a higher risk of viral infection due to immune deficiency. Importantly, recent studies highlighted the severity of COVID-19 in MM. To date, however, the mechanism(s) underlying the lack of anti-viral immune response in MM are unclear. Plasmacytoid dendritic cells (pDCs) play a key role in both recognition of viral nucleic acid and initiating anti-viral activity via type 1 interferon (IFN) response signaling. We showed that interactions of dysfunctional pDCs with MM cells, T cells, and NK cells confer immune suppression in the host-MM bone marrow (BM) microenvironment (Chauhan et al, Cancer Cell 2009; 16: p309; Ray et al, Leukemia 2015; 29: p1441) . Here, we analyzed the immune-pathway proteins implicated in Covid-19-host interactions [ Gordon et al, Nature 2020; 583, p459 ] to assess whether pDC-MM interactions modulate these pathways to confer immune suppression and susceptibility to COVID-19. We identified the TLR pathway serine/threonine kinase TBK1 (TANK-binding kinase 1), involved in type I IFN induction, as a potential immunotherapeutic target in MM. Moreover, Covid-19 relies on host-Ubiquitin-proteasome-system for propagation, and we found that targeting ubiquitin receptor Rpn13 with a specific inhibitor RA190 restores TBK1 expression in MM. Methods For our studies, we examined SARS-CoV-2-human protein-protein interactions (PPIs) maps ( Gordon et al , 2 020 ). pDC-MM co-cultures, and RNAseq using next- generation sequencing (NGS): Purified MM patient pDCs were cocultured with autologous MM cells (1pDC/5MM) for 48h, followed by separation of MM cells from pDCs using FACS. Total RNA from MM cells was subjected to RNAseq analysis using Illumina NGS. Raw sequence data were analyzed to generate differential expression (DEseq2). Linear model (Limma) and its GUI (Glimma) were also used. Statistical significance: log2FC (fold change) values in coculture vs control, with a False Discovery Rate value of  95). The heatmap analysis was done using Morpheus software (Broad Institute, MIT). MM patient and pDCs data used for bioinformatics were from the NCBI GEO. Results A total of 41 genes involved in the Covid-19 host-pathogen immune interactions are also differentially expressed in MM after coculture with pDCs. (log2Fold change: \u00b1 3.5-fold; p < 0.00001; pDC-MM vs MM alone). The gene expression widely varies in pDC-MM vs MM [Median (log10): -0.13 to 4.5; adj p < 0.001]. We identified 3 specific innate immunity-linked genes TBK1 , IRF3 (Interferon regulatory factor 3), and RAE1 (interferon-inducible mRNA nuclear export factor) which are essential for IFN production in MM. Importantly, pDCs decrease TBK1 (Log2FC: -0.5) and RAE1 (Log2FC: -0.3) as well as induce IRF3 (Log2FC: 1.5) in MM (p < 0.0001). Analysis of publicly available gene profiling datasets on relapsed MM patient showed low levels of TBK1 and RAE1 and higher IRF3 (n = 50) [Log2FC: TBK1 : -0.208; RAE1 : -0.286; IRF3 : 0.273; vs normal ; p < 0.05). Of note, low TBK1 expression correlates with poor survival in MM patients (n = 350) and elevated TBK1 correlates with a better prognosis (p = 0.026). Similar analysis showed that most of 41 genes involved in the Covid-19 host-pathogen immune interactions are expressed in pDCs. In unstimulated pDCs, TBK1 expression is significantly lower than IRF3 and RAE1 (2-3-fold, p < 0.05). In functional studies, treatment of pDCs with IFN-\u03b1 activating CpG-ODN type-A increases both TBK1 (adj P = 0.004) and RAE1 (adj P = 0.043), without significantly altering IRF3 expression. Taken together, we show that TBK1 is downregulated in pDCs, and pDCs-MM interactions further decreases TBK1 in MM, thereby attenuating IFN-mediated anti-viral immune response signaling in MM. Finally, we found that blockade of proteasome-mediated protein degradation via inhibition of Ubiquitin receptor Rpn13 upregulates TBK-1 expression, indicating potential clinical use of targeting Rpn13 in restoring anti-viral immune responses in MM. Conclusion We found that pDC-MM interactions downregulate TBK1, which in turn reduces IFN response signaling essential to generate an effective anti-viral immune response in the MM BM microenvironment. Our findings suggest that: 1) low levels of TBK1 may confer increased susceptibility of MM patients to COVID-19; and 2) targeting TBK1 may restore anti-viral immune response and reduce COVID-19 severity in MM. Disclosures Chauhan: consultant to Stemline Therapeutics, Inc., and Equity owner in C4 Therapeutics.: Consultancy, Other: Equity owner in C4 Therapeutics.; Oncopeptide AB: Consultancy. Anderson: Janssen: Membership on an entity's Board of Directors or advisory committees; Millenium-Takeda: Membership on an entity's Board of Directors or advisory committees; Gilead: Membership on an entity's Board of Directors or advisory committees; Celgene: Membership on an entity's Board of Directors or advisory committees; Bristol Myers Squibb: Membership on an entity's Board of Directors or advisory committees; Oncopep and C4 Therapeutics.: Other: Scientific Founder of Oncopep and C4 Therapeutics.; Sanofi-Aventis: Membership on an entity's Board of Directors or advisory committees.",
+    "author_names": [
+        "Arghya Ray, PhD",
+        "Ting DU, PhD",
+        "Krishan Chauhan",
+        "Yan Song, PhD",
+        "Dharminder Chauhan, PhD",
+        "Kenneth Anderson, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Arghya Ray, PhD",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ting DU, PhD",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Krishan Chauhan",
+            "author_affiliations": [
+                "Department of Biomedical Engineering, Wentworth Institute of Technology, Boston, MA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yan Song, PhD",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Harvard Medical School, Brookline, MA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dharminder Chauhan, PhD",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kenneth Anderson, MD",
+            "author_affiliations": [
+                "The LeBow Institute for Myeloma Therapeutics and Jerome Lipper Multiple Myeloma Center, Department of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T04:12:47",
+    "is_scraped": "1"
 }

@@ -1,8 +1,235 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4597",
-    "start_url_page_num": "4597",
     "doi": "https://doi.org/10.1182/blood-2020-142580",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/18/471561/POU2AF1-As-a-Master-Regulator-of-Oncogenic?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T09:19:38",
-    "is_scraped": "0"
+    "article_title": " POU2AF1 As a Master Regulator of Oncogenic Transcription Factor Networks in Myeloma ",
+    "article_date": "November 5, 2020",
+    "session_type": "602.Disordered Gene Expression in Hematologic Malignancy, including Disordered Epigenetic Regulation",
+    "abstract_text": "Background: Functional genomics studies based on CRISPR and shRNA have documented that multiple myeloma (MM) cells are preferentially dependent (compared to other neoplasias) on a series of TFs, including IKZF1 and IKZF3 (which are targeted by thalidomide derivatives) and others that are not amenable to degradation or small molecule inhibition. Transcriptional co-factors have been therapeutically targeted, for example, inhibitors of BRD4, a co-factor for pTEFB, can be used to down-regulate c-myc. Aim: To identify new transcriptional vulnerabilities in MM with an emphasis on transcriptional co-factors Methods: We integrated results from genome-scale studies using the AVANA library for loss-of-function by gene editing (in 19 MM lines) and the Calabrese library for CRISPR-mediated gene activation (in 5 MM lines) to identify critical transcriptional co-factors (co-TFs). RNA-Seq analysis was used to identify critical pathways affected by POU2AF1 activation and existing ChIP-Seq tracks in MM cells were reanalyzed. Results: POU2AF1 (OCA-B) was the most preferentially essential TF co-factor in MM cell lines vs. non-MM and one of top genes which, upon CRISPR activation in genome-scale studies, increased MM cell fitness in vitro . We further confirmed the role of this gene using focused libraries of sgRNAs against POU2AF1 in vitro and in an in vivo model of MM cell growth in bone marrow-like scaffolds \"functionalized\" with humanized mesenchymal bone marrow stromal cells to simulate the human BM. CRISPR activation of POU2AF1 is associated with increased MM cell growth. RNA-Seq of POU2AF1 activation in LP1 cells a transcriptional program characterized by upregulation of other genes that are preferentially essential for MM including PRDM1 , SUPT7L , UBE2G2 and TSC1 ; broad-spectrum oncogenic dependencies (e.g KRAS ) and genes known or proposed to be involved in the pathophysiology of MM or other neoplasias (e.g. RUNX2, FGFR3 , SMO, CREB5, TNFRSF13B, MEF2D, PCGF2 ). POU2AF1 overexpression was also associated with down-regulation of CDKN1C ; of MHC class II molecules and their transcriptional activator CIITA , suggesting that POU2AF1 activation could also contribute to increased MM growth in vivo by allowing escape from immune surveillance. ATAC-Seq data and genome-wide ChIPseq for H3K27Ac in MM cell lines indicate that chromatin surrounding the POU2AF1 locus was highly accessible, concordant with the consistent expression of this TF in MM cell lines and patient-derived cells. CoMMpass data showed that POU2AF1 expression was enhanced in a subset of MM patients at relapse compared to diagnosis. Motif analysis of ChIP-seq data for POU2AF1 identified significant overlap with motifs for TFs relevant to the POU family (e.g. Oct11, Oct2, Oct4); members of the ETS family (e.g. ELF1, Elf4, GABPA); and other TFs with roles in MM including c-myc; IRF4; NF-kappaB, PRDM1, RUNX2 and the POU2AF1 target CREB5. These data suggest a functional interaction between POU2AF1 and other MM-relevant TFs. The transcriptional signature of POU2AF1 activation is enriched for genes downregulated by suppression/inhibition of MM-preferential TFs or epigenetic regulators including IRF4, PRDM1, IKZF1/3 and DOT1L. POU2AF1 binding motifs are also enriched in the promoter regions of MM-preferential dependencies including several MM-preferential TFs. Conclusions: POU2AF1 is essential for MM cells in vitro and in vivo; has a significantly more pronounced and recurrent role as a dependency in MM compared to most other neoplasias; and can further drive MM cell growth, through its ability to interact with several TFs critical for MM, forming multi-protein functional complexes. These results establish POU2AF1 as a central component in the regulatory network of oncogenic TFs in MM and highlight the value of further exploring POU2AF1 as a therapeutic target in MM. Disclosures Downey-Kopyscinski: Rancho BioSciences, LLC: Current Employment. Tsherniak: Cedilla Therapeutics: Consultancy; Tango Therapeutics: Consultancy. Boise: AstraZeneca: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Genetech: Membership on an entity's Board of Directors or advisory committees. Mitsiades: FIMECS: Consultancy, Honoraria; Ionis Pharmaceuticals, Inc.: Consultancy, Honoraria; Arch Oncology: Research Funding; Janssen/Johnson & Johnson: Research Funding; Karyopharm: Research Funding; TEVA: Research Funding; Takeda: Other: employment of a relative; Fate Therapeutics: Consultancy, Honoraria; Sanofi: Research Funding; Abbvie: Research Funding; EMD Serono: Research Funding.",
+    "author_names": [
+        "Ricardo De Matos Simoes, PhD",
+        "Ryosuke Shirasaki, MD",
+        "Huihui Tang, PhD",
+        "Shizuka Yamano",
+        "Benjamin G Barwick, PhD",
+        "Sara Gandolfi, MD",
+        "Eugen Dhimolea, PhD",
+        "Sondra L. Downey-Kopyscinski, PhD",
+        "Olga Dashevsky, PhD",
+        "Brian Glassner, PhD",
+        "Michal Sheffer, PhD",
+        "Dhvanir Kansara",
+        "Megan Bariteau, BSc",
+        "Jeffrey Sorrell, BA",
+        "Vikas Gupta, MD PhD",
+        "Aedin Culhane, PhD",
+        "Aviad Tsherniak, PhD",
+        "Francisca Vazquez, PhD",
+        "Larry H. Boise, PhD",
+        "Jonathan D. Licht, MD",
+        "Constantine S. Mitsiades, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Ricardo De Matos Simoes, PhD",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA ",
+                "Broad Institute of MIT and Harvard, Cambridge, MA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ryosuke Shirasaki, MD",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA ",
+                "Broad Institute of MIT and Harvard, Cambridge, MA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Huihui Tang, PhD",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA ",
+                "Broad Institute of MIT and Harvard, Cambridge, MA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shizuka Yamano",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA ",
+                "Broad Institute of MIT and Harvard, Cambridge, MA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Benjamin G Barwick, PhD",
+            "author_affiliations": [
+                "Emory University, Atlanta, GA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sara Gandolfi, MD",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA ",
+                "Broad Institute of MIT and Harvard, Cambridge, MA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eugen Dhimolea, PhD",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA ",
+                "Broad Institute of MIT and Harvard, Cambridge, MA "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sondra L. Downey-Kopyscinski, PhD",
+            "author_affiliations": [
+                "Broad Institute of MIT and Harvard, Cambridge, MA ",
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Olga Dashevsky, PhD",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA ",
+                "Broad Institute of MIT and Harvard, Cambridge, MA "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brian Glassner, PhD",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA ",
+                "Broad Institute of MIT and Harvard, Cambridge, MA "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michal Sheffer, PhD",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA ",
+                "Broad Institute of MIT and Harvard, Cambridge, MA "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dhvanir Kansara",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Megan Bariteau, BSc",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA ",
+                "Broad Institute of MIT and Harvard, Cambridge, MA "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jeffrey Sorrell, BA",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vikas Gupta, MD PhD",
+            "author_affiliations": [
+                "Emory University, Atlanta, GA "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aedin Culhane, PhD",
+            "author_affiliations": [
+                "Dept. of Biostatistics, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aviad Tsherniak, PhD",
+            "author_affiliations": [
+                "Broad Institute of MIT and Harvard, Cambridge, MA "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Francisca Vazquez, PhD",
+            "author_affiliations": [
+                "Broad Institute of MIT and Harvard, Cambridge, MA "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Larry H. Boise, PhD",
+            "author_affiliations": [
+                "Emory University, Atlanta, GA "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan D. Licht, MD",
+            "author_affiliations": [
+                "University of Florida College of Medicine, Gainesville, FL "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Constantine S. Mitsiades, MD PhD",
+            "author_affiliations": [
+                "Broad Institute of MIT and Harvard, Cambridge, MA ",
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Brookline, MA"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T04:03:08",
+    "is_scraped": "1"
 }

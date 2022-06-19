@@ -1,8 +1,103 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4564",
-    "start_url_page_num": "4564",
     "doi": "https://doi.org/10.1182/blood-2020-137463",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/47/470154/Artificial-Intelligence-Substantially-Supports?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T08:23:55",
-    "is_scraped": "0"
+    "article_title": "Artificial Intelligence Substantially Supports Chromosome Banding Analysis Maintaining Its Strengths in Hematologic Diagnostics Even in the Era of Newer Technologies ",
+    "article_date": "November 5, 2020",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Background: Chromosome banding analysis (CBA) is one of the most important techniques in diagnostics and prognostication in hematologic neoplasms. CBA is still a challenging method with very labor-intensive wet lab processes and karyotyping that requires highly skilled and experienced specialists for tumor cytogenetics. Short turnaround times (TAT) are becoming increasingly important to enable genetics-based treatment stratification at diagnosis. Aim: Improve TAT and quality of CBA by automated wet lab processes and AI-based algorithms for automatic karyotyping. Methods: In the last 15 years the CBA workflow has gradually been automated with focus on the wet lab and metaphase capturing processes. Now, a retrospective unselected digital data set of 100,000 manually arranged karyograms (KG) with normal karyotype (NKG) from routine diagnostics was used to train a deep neural network (DNN) classifier to automatically determine the class/number and orientation of the respective chromosomes (AI based classifier normal, AI-CN). With a total of 6 Mio parameters, the DNN uses two distinct output layers to simultaneously predict the chromosome number (24 classes) and the angle that is required to rotate the chromosome in its correct, vertical position (360 classes). Training of the DNN took 16 days on a Nvidia RTX 2080 Ti graphic card with 4352 cores. AI-CN was implemented into the routine workflow (including ISO 15189) after 7 months of development and intensive testing. Results: The AI-CN was tested by highly experienced staff in an independent prospective validation set of 500 NKG: 22,675/23,000 chromosomes (98.6%) were correctly assigned by AI-CN. In 369/500 (73.8%) of cells all chromosomes were correctly assigned, in an additional 20% only 2 chromosomes were interchanged. The chromosomes accounting for the majority of misclassifications were chromosomes 14 and 15 as well as 4 and 5, which are difficult to distinguish in poor quality metaphases also for humans. The 1st AI-CN was implemented into routine diagnostics in August 2019 and the 2nd AI-CN - optimized for chromosome orientation - was used since November 2019. Since then more than 17,500 cases have been processed with AI-CN (>350,000 metaphases) in routine diagnostics resulting in the following benefits: 1) Reduced working time: an experienced cytogeneticist needs - depending on chromosome quality - between 1 and 3 minutes to arrange a KG, while AI-CN needs only 1 second and the cytogeneticist about 30 seconds to review the KG. 2) Shorter TAT: The proportion of cases reported within 5 days increased from 30% before AI-CN (2019) to 36% with AI-CN1 (2019) and 45% with AI-CN2 (2019/2020), while the proportion of cases reported >7 days was reduced to 28%, 21%, and 17%, respectively (figure). Using AI-CN for aberrant karyotypes results in correct assignment of normal chromosomes and thus also correct KG in cases with solely numerical chromosome abnormalities. Derivative chromosomes derived from structural abnormalities (SA) that differ clearly from any normal chromosome are not automatically assigned but are left out for manual classification. Thus, even in cases with SA, using AI-CN saves time. To allow AI based SA assignment, two additional classifiers normal/aberrant (CNA) were built: AI-CNA1 was trained on 54,634 KG encompassing 10 different SA (AKG) and 100,000 NKG and AI-CNA2 was trained on all AKG and an equal number of NKG. First validation tests are promising and optimization is ongoing. Once the CNA has been optimized, a standardized high quality of chromosome aberration detection is feasible. A fully automated separation of chromosomes is currently in progress and will reduce the TAT by another 12-24 hours. In a fully automated workflow the detection of small subclones can be further optimized by increasing today's standard of 20 metaphases to several hundred, even without any delay in TAT and need for additional personnel. Conclusions: Implementation of AI in CBA substantially improves the quality of results and shortens turnaround times even in comparison to highly trained and experienced cytogeneticists. In the majority of cases a complete karyotype analysis can be guaranteed within 3 to 7 days, allowing CBA based treatment strategies at diagnosis. This fully automated workflow can be implemented worldwide, is rapidly scalable, can be performed cloud based and requires in the near future fewer experienced tumor cytogeneticists. Figure View large Download slide Figure View large Download slide  Close modal Disclosures H\u00e4nselmann: MetaSystems: Current Employment. L\u00f6rch: MetaSystems: Current equity holder in private company.",
+    "author_names": [
+        "Claudia Haferlach, MD",
+        "Siegfried H\u00e4nselmann, PhD",
+        "Wencke Walter, PhD",
+        "Sarah Volkert",
+        "Melanie Zenger",
+        "Wolfgang Kern, MD",
+        "Anna Stengel, PhD",
+        "Thomas L\u00f6rch, PhD",
+        "Torsten Haferlach, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Claudia Haferlach, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Siegfried H\u00e4nselmann, PhD",
+            "author_affiliations": [
+                "MetaSystems, Altlussheim, Germany "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wencke Walter, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sarah Volkert",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Melanie Zenger",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wolfgang Kern, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anna Stengel, PhD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Thomas L\u00f6rch, PhD",
+            "author_affiliations": [
+                "MetaSystems, Altlussheim, Germany "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Torsten Haferlach, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T04:08:47",
+    "is_scraped": "1"
 }

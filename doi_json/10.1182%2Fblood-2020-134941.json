@@ -1,8 +1,256 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4469",
-    "start_url_page_num": "4469",
     "doi": "https://doi.org/10.1182/blood-2020-134941",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/17/471016/High-Dimensional-Tissue-Based-Spatial-Analysis-of?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T03:59:03",
-    "is_scraped": "0"
+    "article_title": "High Dimensional Tissue-Based Spatial Analysis of the Tumor Microenvironment of Follicular Lymphoma Reveals Unique Immune Niches inside Malignant Follicles ",
+    "article_date": "November 5, 2020",
+    "session_type": "622.Lymphoma Biology-Non-Genetic Studies",
+    "abstract_text": "Background The importance of the immune system in modulating the trajectory of lymphoma outcomes has been increasingly recognized. We recently showed that CD4+ cells are associated with clinical outcomes in a prospective cohort of almost 500 patients with follicular lymphoma (FL). Specifically, we showed that the absence of CD4+ cells inside follicles was independently associated with increased risk of early clinical failure. These data suggest that the composition, as well as the spatial distribution of immune cells within the tumor microenvironment (TME), play an important role in FL. To further define the architecture of the TME in FL we analyzed a FL tumor section using the Co-Detection by Indexing (CODEX) multiplex immunofluorescence system. Methods An 8-micron section from a formalin-fixed paraffin-embedded block containing a lymph node specimen from a patient with FL was stained with a cocktail of 15 CODEX antibodies. Five regions of interest (ROIs) were imaged using a 20X air objective. Images underwent single-cell segmentation using a Unet neural network, trained on manually segmented cells (Fig 1A). Cell type assignment was done after scaling marker expression and clustering using Phenograph. Each ROI was manually masked to indicate areas inside follicles (IF) and outside follicles (OF). Relative and absolute frequencies of cell types were calculated for each region. Cellular contacts were measured as number and types of cell-cell contacts within two cellular diameters. To identify proximity communities, we clustered cells based on number and type of neighboring masks using Phenograph. The number of cell types and cellular communities were calculated inside and outside follicles after adjustment for total IF and OF areas. The significance of cell contact was measured using a random permutation test. Results We identified 13 unique cell subsets (11 immune, 1 endothelial, 1 unclassified) in the TME of our FL section (Fig. 1A). The unique phenotype of each subset was confirmed using a dimensionality reduction tool (t-SNE). The global composition of the TME varied minimally across ROIs and consisted primarily of B cells, T cells, and macrophages subsets - in decreasing order of frequency. Higher spatial heterogeneity across ROIs was observed in the frequency of T cell subsets in comparison to B cells subsets. Inspecting the spatial distribution of T cell subsets (Fig. 1B), we observed that cytotoxic T cells were primarily located in OF areas, whereas CD4+ T cells were found in both IF and OF areas. Notably, the majority of CD4+ T cells inside the follicles expressed CD45RO (memory phenotype), while most of the CD4+ T cells outside the follicles did not. Statistical analysis of the spatial distribution of CD4+ memory T cell subsets confirmed a significant increase in their frequency inside follicles compared to outside (20.4% vs 11.2%, p < 0.001; Fig. 1D). Cell-cell contact analysis (Fig 1C) showed increased homotypic contact for all cell types. We also found a higher frequency of heterotypic contact between Ki-67+CD4+ memory T cells and Ki-67+ B cells. Pairwise analysis showed these findings were statistically significant, indicating these cells are organized in niches rather than randomly distributed across image. Analysis of cellular communities (Fig. 1C) identified 13 niches, named according to the most frequent type of cell-cell contact. All CD4+ memory T cell subsets were found to belong to the same neighborhood ( CD4 Memory community ). Analysis of the spatial distribution of this community confirmed that these niches were more frequently located inside follicles rather than outside (26.3\u00b14% vs 0.004%, p < 0.001, Fig. 1D). Conclusions Analysis of the TME using CODEX provides insights on the complex composition and unique architecture of this FL case. Cells were organized in a pattern characterized by (1) high degree of homotypic contact and (2) increased heterotypic interaction between activated B cells and activated CD4+ memory T cells. Spatial analysis of both individual cell subsets and cellular neighborhoods demonstrate a statistically significant increase in CD4+ memory T cells inside malignant follicles. This emerging knowledge about the specific immune-architecture of FL adds mechanistic details to our initial observation around the prognostic value of the TME in this disease. These data support future studies using modulation of the TME as a therapeutic target in FL. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Galkin: BostonGene: Current Employment, Patents & Royalties. Svekolkin: BostonGene: Current Employment, Current equity holder in private company, Patents & Royalties. Postovalova: BostonGene: Current Employment, Current equity holder in private company. Bagaev: BostonGene: Current Employment, Current equity holder in private company, Patents & Royalties. Ovcharov: BostonGene: Current Employment, Current equity holder in private company, Patents & Royalties. Varlamova: BostonGene: Current Employment, Current equity holder in private company, Patents & Royalties. Novak: Celgene/BMS: Research Funding. Witzig: AbbVie: Consultancy; MorphSys: Consultancy; Incyte: Consultancy; Acerta: Research Funding; Karyopharm Therapeutics: Research Funding; Immune Design: Research Funding; Spectrum: Consultancy; Celgene: Consultancy, Research Funding. Nowakowski: Nanostrings: Research Funding; Seattle Genetics: Consultancy; Curis: Consultancy; Ryvu: Consultancy, Membership on an entity's Board of Directors or advisory committees, Other; Kymera: Consultancy; Denovo: Consultancy; Kite: Consultancy; Celgene/BMS: Consultancy, Research Funding; Roche: Consultancy, Research Funding; MorphoSys: Consultancy, Research Funding. Cerhan: BMS/Celgene: Research Funding; NanoString: Research Funding. Ansell: Trillium: Research Funding; Takeda: Research Funding; Regeneron: Research Funding; Affimed: Research Funding; Seattle Genetics: Research Funding; Bristol Myers Squibb: Research Funding; AI Therapeutics: Research Funding; ADC Therapeutics: Research Funding.",
+    "author_names": [
+        "Jose C Villasboas, MD",
+        "Patrizia Mondello, MDPhDMSc",
+        "Angelo Fama, MD",
+        "Melissa C. Larson, MD",
+        "Andrew L. Feldman, MD",
+        "Zhi-Zhang Yang, PhD",
+        "Ilia Galkin, MS",
+        "Viktor Svekolkin, MS",
+        "Ekaterina Postovalova, PhD",
+        "Alexander Bagaev, MS",
+        "Pavel Ovcharov, MS",
+        "Arina Varlamova, MS",
+        "Sarah Huet",
+        "Bruno Tesson",
+        "Kaitlyn R McGrath",
+        "Susan L. Slager, PhD",
+        "Sergei Syrbu, MD PhD",
+        "Anne J. Novak, PhD",
+        "Thomas M. Habermann, MD",
+        "Thomas E. Witzig, MD",
+        "Grzegorz S. Nowakowski, MD",
+        "Gilles Salles",
+        "James R. Cerhan, MD PhD",
+        "Stephen M. Ansell, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Jose C Villasboas, MD",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Patrizia Mondello, MDPhDMSc",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN ",
+                "Department of Medicine, Lymphoma Service, Memorial Sloan Kettering Cancer Center, New York, NY "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Angelo Fama, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN ",
+                "Hematology Unit, Arcispedale Santa Maria Nuova, Azienda Unit\u00e0 Sanitaria Locale- IRCCS, Reggio Emilia, Italy "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Melissa C. Larson, MD",
+            "author_affiliations": [
+                "Department of Health Sciences Research, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew L. Feldman, MD",
+            "author_affiliations": [
+                "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Zhi-Zhang Yang, PhD",
+            "author_affiliations": [
+                "Division of Hematology and Internal Medicine, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ilia Galkin, MS",
+            "author_affiliations": [
+                "BostonGene, Waltham, MA "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Viktor Svekolkin, MS",
+            "author_affiliations": [
+                "BostonGene, Waltham, MA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ekaterina Postovalova, PhD",
+            "author_affiliations": [
+                "BostonGene, Waltham, MA "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexander Bagaev, MS",
+            "author_affiliations": [
+                "BostonGene, Waltham, MA "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pavel Ovcharov, MS",
+            "author_affiliations": [
+                "BostonGene, Waltham, MA "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Arina Varlamova, MS",
+            "author_affiliations": [
+                "BostonGene, Waltham, MA "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sarah Huet",
+            "author_affiliations": [
+                "Laboratoire d'H\u00e9matologie, Centre Hospitalier Lyon Sud, Hospices Civils de Lyon, Pierre B\u00e9nite, France "
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bruno Tesson",
+            "author_affiliations": [
+                "Institut Carnot CALYM, Pierre B\u00e9Nite, FRA "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kaitlyn R McGrath",
+            "author_affiliations": [
+                "Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Susan L. Slager, PhD",
+            "author_affiliations": [
+                "Division of Biomedical Statistics and Informatics, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sergei Syrbu, MD PhD",
+            "author_affiliations": [
+                "Department of Pathology, University of Iowa, Iowa City, IA "
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anne J. Novak, PhD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Thomas M. Habermann, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Thomas E. Witzig, MD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Grzegorz S. Nowakowski, MD",
+            "author_affiliations": [
+                "Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gilles Salles",
+            "author_affiliations": [
+                "Lymphoma Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY ",
+                "Hematology Department, Centre Hospitalier Lyon-Sud, Pierre-B\u00e9nite, France"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "James R. Cerhan, MD PhD",
+            "author_affiliations": [
+                "Department of Health Sciences Research, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephen M. Ansell, MD PhD",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T04:12:33",
+    "is_scraped": "1"
 }

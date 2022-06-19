@@ -1,8 +1,123 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4534",
-    "start_url_page_num": "4534",
     "doi": "https://doi.org/10.1182/blood-2020-140215",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/45/470144/Machine-Learning-ML-Can-Successfully-Support?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T06:48:59",
-    "is_scraped": "0"
+    "article_title": "Machine Learning (ML) Can Successfully Support Microscopic Differential Counts of Peripheral Blood Smears in a High Throughput Hematology Laboratory ",
+    "article_date": "November 5, 2020",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Background: Cytomorphology is the gold standard for quick assessment of peripheral blood and bone marrow samples in hematological neoplasms. It is a broadly-accepted method for orchestrating more specific diagnostics including immunophenotyping or genetics. Inter-/intra-observer-reproducibility of single cell classification is only 75 to 90%. Only a limited number of cells (100 - 500 cells/smear) is read in a time-consuming procedure. Machine learning (ML) is more reliable where human skills are limited, i.e. in handling large amounts of data or images. We here tested ML to differentiate peripheral blood leukocytes in a high throughput hematology laboratory. Aim: To establish an ML-based cell classifier capable of identifying healthy and pathologic cells in digitalized peripheral blood smear scans at an accuracy competitive with or outperforming human expert level. Methods: We selected >2,600 smears out of our unique archive of > 250,000 peripheral blood smears from hematological neoplasms. Depending on quality, we scanned up to 1,000 single cell images per smear. For image acquisition, a Metafer Scanning System (Zeiss Axio Imager.Z2 microscope, automatic slide feeder and automatic oiling device) from MetaSystems (Altlussheim, GER) was used. Areas of interest were defined by pre-scan in 10x magnification followed by high resolution scan in 40x to generate cell images for analysis. Average capture times for 300/500 cells were 3:43/4:37 min We set up a supervised ML-learning model using colour images (144x144 pixels) as input, outputting predicted probabilities of 21 predefined classes. We used ImageNet-pretrained Xception as our base model. We trained, evaluated and deployed the model using Amazon SageMaker on a subset of 82,974 images randomly selected from 514,183 cells captured and labelled for this study. 20 different cell types and one garbage class were classified. We included cell type categories referring to the critical importance of detecting rare leukemia subtypes (e.g. APL). Numbers of images from respective 21 classes ranged from 1,830 to 14,909 (median: 2,945). Minority classes were up-sampledto handle imbalances. Each picture was labelled by highly skilled technicians (median years practicing in this laboratory: 5) and two independent hematologists (median years at microscope: 20). Results: On a separate test set of 8,297 cells, our classifier was able to predict any of the five cell types occurring in the peripheral blood of healthy individuals (PMN, lymphocytes, monocytes, eosinophils, basophils) at very high median accuracy (97.0%) Median prediction accuracy of 15 rare or pathological cell types was 91.3%. For six critical pathological cell forms (myeloblasts, atypical/bilobulated promyelocytes in APL/APLv, hairy cells, lymphoma cells,plasma cells), median accuracy was 93.4% (sensitivity 93.8%). We saw a very high \"T98 accuracy\" for these cell types (98.5%) which is the accuracy of cell type predictions with prediction probability >0.98 (achieved in 2231/2417 cases), implicating that critical cells predicted with probability <0.98 should be flagged for human expert validation with priority. For all 21 classes median accuracy was 91.7%. Accuracy was lower for cells representing consecutive steps of maturation, e.g. promyelo-/myelo-/metamyelocytes, reproducing inconsistencies from the human-built phenotypic classification system (s.Fig.). Con c lusions: We demonstrate an automated workflow using automatic microscopic cell capturing and ML-driven cell differentiation in samples of hematologic patients. Reproducibility, accuracy, sensitivity and specificity are above 90%, for many cell types above 98%. By flagging suspicious cells for humanvalidation, this tool can support even experienced hematology professionals, especially in detecting rare cell types. Given an appropriate scanning speed, it clearly outperforms human investigators in terms of examination time and number of differentiated cells. An ML-based intelligence can make its skills accessible to hematology laboratories on site or after upload of scanned cell images, independent of time/location. A cloud-based infrastructure is available. A prospective head to head challenge between ML-based classifier and human experts comparing sensitivity and accuracy for detection of all cell classes in peripheral blood will be tested to proof suitability for routine use (NCT 4466059). Figure View large Download slide Figure View large Download slide  Close modal Disclosures Heo: AWS: Current Employment. Wetton: AWS: Current Employment. Drescher: MetaSystems: Current Employment. H\u00e4nselmann: MetaSystems: Current Employment. L\u00f6rch: MetaSystems: Current equity holder in private company.",
+    "author_names": [
+        "Christian Pohlkamp, MD",
+        "Kapil Jhalani",
+        "Niroshan Nadarajah",
+        "Inseok Heo, PhD",
+        "William Wetton",
+        "Rudolf Drescher, PhD",
+        "Siegfried H\u00e4nselmann, PhD",
+        "Thomas L\u00f6rch, PhD",
+        "Claudia Haferlach, MD",
+        "Wolfgang Kern, MD",
+        "Torsten Haferlach, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Christian Pohlkamp, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kapil Jhalani",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Niroshan Nadarajah",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Inseok Heo, PhD",
+            "author_affiliations": [
+                "Amazon Web Services, Envision Engineering, Herndon, "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "William Wetton",
+            "author_affiliations": [
+                "Amazon Web Services, Envision Engineering, Herndon, "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rudolf Drescher, PhD",
+            "author_affiliations": [
+                "MetaSystems, Altlussheim, Germany "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Siegfried H\u00e4nselmann, PhD",
+            "author_affiliations": [
+                "MetaSystems, Altlussheim, Germany "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Thomas L\u00f6rch, PhD",
+            "author_affiliations": [
+                "MetaSystems, Altlussheim, Germany "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Claudia Haferlach, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wolfgang Kern, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Torsten Haferlach, MD",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T04:08:10",
+    "is_scraped": "1"
 }
