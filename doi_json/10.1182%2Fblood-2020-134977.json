@@ -1,8 +1,163 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4471",
-    "start_url_page_num": "4471",
     "doi": "https://doi.org/10.1182/blood-2020-134977",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/27/471054/ASXL1-Mutant-Chronic-Myelomonocytic-Leukemia-Is?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T03:59:12",
-    "is_scraped": "0"
+    "article_title": "ASXL1-Mutant Chronic Myelomonocytic Leukemia Is Associated with Increased Intratumoral Heterogeneity and Single-Cell Chromatin Co-Accessibility ",
+    "article_date": "November 5, 2020",
+    "session_type": "636.Myelodysplastic Syndromes-Basic and Translational Studies",
+    "abstract_text": "Introduction: Additional Sex Combs-Like 1 (ASXL1) is a chromatin modifier frequently affected by truncating mutations in myeloid malignancies. In chronic myelomonocytic leukemia (CMML), truncating ASXL1 mutations are associated with the overexpression of leukemogenic driver genes, however the molecular mechanisms underlying this transcriptional activation remain controversial. We performed single-cell chromatin accessibility studies of ASXL1 -mutant (MT) and -wildtype (WT) CMML to identify cis-regulatory elements (CREs) such as distal enhancer elements that may explain the observed transcriptional activity in MT CMML. Methods: Bone marrow mononuclear cells from a patient with WT and a patient with MT CMML were subjected to single-cell DNA transposase accessibility studies (scATAC-seq). The cryopreserved cells were thawed and resuspended and approximately 100000 viable mononuclear cells per sample were subjected to transposase assays before proceeding to single-cell partitioning into gel beads in emulsion, barcoding, library construction, and sequencing following an established 10X Genomics workflow. The target cell recovery was approximately 2000 cells per sample. Genomic libraries were sequenced on an Illumina HiSeq 4000 before demultiplexing, alignment to the reference genome, and post-alignment quality control. The 10X Genomics Cell Ranger ATAC software was used for demultiplexing, alignment of the reads to the GRCh38 reference genome, filtering and quality control, counting of barcodes and unique molecular identifiers, identification of transposase cut sites, detection of accessible chromatin peaks, count matrix generation for peaks and transcription factors, clustering, and differential accessibility analysis. The two-sample Kolmogorov-Smirnov test for equality of distribution functions was used to compare the distributions of single-cell entropies. Single-cell cis-co-accessibility scores were estimated using Cicero. Results: To mitigate potential effects on the analysis introduced by unequal cell recovery due to experimental conditions, we randomly sampled 1500 single cells from each genotype. Visualizing the first two principal components of the chromatin accessibility data revealed the differences in chromatin conformation between genotypes and also the increased heterogeneity within the MT sample ( Figure 1a ). To quantify this increase in intratumoral heterogeneity of chromatin accessibility in MT CMML, we calculated the single-cell entropies for both genotypes. There was an increase in the dispersion of single-cell entropy values (mean 0.793\u00b10.026 versus 0.811\u00b10.012, p=6.19x10 -151 ) in MT compared to WT disease ( Figure 1b ). To leverage the power of the single-cell chromatin accessibility data, we estimated cis-co-accessibility scores (two-way chromatin interactions). There were 631 genes involved in two-way chromatin interactions that were either specific to MT CMML or were shared between MT and WT CMML and showed an increase in co-accessibility in MT CMML. Co-accessibility was higher in MT compared to WT CMML, regardless whether the chromatin interaction was MT-specific or shared between the genotypes ( Figure 1c ). Gene ontology analysis revealed increased chromatin accessibility in genes involved in the regulation of cell cycle, nuclear division, chromosome organization, cell cycle phase transition, DNA conformation change, and DNA replication (FDR<1.00x10 -5 ). The construction of cis-co-accessibility networks demonstrated a remodeling of the chromatin landscape with MT-specific chromatin interactions involving key mitotic kinases such as MAP2K3 ( Figure 1d ). Conclusions: MT CMML is characterized by an increase in intratumoral heterogeneity and increased chromatin accessibility. The increased chromatin co-accessibility involved key mitotic kinases and may serve as a plausible explanation for the increased transcriptional activity observed in MT CMML. Figure 1 View large Download slide Figure 1 View large Download slide Close modal Disclosures Ordog: Millipore Sigma: Patents & Royalties.",
+    "author_names": [
+        "Moritz Binder, MDMPH",
+        "Sandeep Potluri, MA, MBBChir, MRCP",
+        "Ryan M. Carr, MD PhD",
+        "Terra Lasho, PhD",
+        "Christy Finke, BS",
+        "Abhishek A. Mangaonkar, MBBS",
+        "Christopher Pin, PhD",
+        "Kurt Berger",
+        "Tamas Ordog, MD",
+        "Bonnie Alver, PhD",
+        "Keith Robertson, PhD",
+        "David Marks, PhD",
+        "Martin Fernandez-Zapico, MD",
+        "Alexandre Gaspar Maia, PhD",
+        "Mrinal M. Patnaik, MDMBBS"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Moritz Binder, MDMPH",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sandeep Potluri, MA, MBBChir, MRCP",
+            "author_affiliations": [
+                "Institute of Cancer and Genomic Sciences, University of Birmingham, Birmingham, United Kingdom "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ryan M. Carr, MD PhD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Terra Lasho, PhD",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christy Finke, BS",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Abhishek A. Mangaonkar, MBBS",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher Pin, PhD",
+            "author_affiliations": [
+                "London Regional Transgenic and Gene Targeting Facility, Lawson Health Research Institute University of Western Ontario, London, Canada "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kurt Berger",
+            "author_affiliations": [
+                "London Regional Transgenic and Gene Targeting Facility, Lawson Health Research Institute University of Western Ontario, London, Canada "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tamas Ordog, MD",
+            "author_affiliations": [
+                "Center for Individualized Medicine, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bonnie Alver, PhD",
+            "author_affiliations": [
+                "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Keith Robertson, PhD",
+            "author_affiliations": [
+                "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David Marks, PhD",
+            "author_affiliations": [
+                "Division of Oncology Research, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martin Fernandez-Zapico, MD",
+            "author_affiliations": [
+                "Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexandre Gaspar Maia, PhD",
+            "author_affiliations": [
+                "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mrinal M. Patnaik, MDMBBS",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN "
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T06:34:19",
+    "is_scraped": "1"
 }

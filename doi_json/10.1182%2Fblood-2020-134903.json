@@ -1,8 +1,85 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4490",
-    "start_url_page_num": "4490",
     "doi": "https://doi.org/10.1182/blood-2020-134903",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/8/471246/A-Novel-Approach-to-Blood-Smear-Analysis-Based-on?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T05:18:57",
-    "is_scraped": "0"
+    "article_title": "A Novel Approach to Blood Smear Analysis Based on Specimen Topology: Implications for Human and Artificial Intelligence Decision Making ",
+    "article_date": "November 5, 2020",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Complete blood count (CBC) analysis is one of the most commonly ordered laboratory tests and is a critical first step in patients' clinical evaluation. However, CBC analyzers are limited in their ability to positively identify several types of white blood cells (WBC), and cells with substantial clinical significance, such as immature granulocytes or blasts, are merely marked as flags. Also, CBC analyzers fall short of recognizing informative red blood cell (RBC) morphology, such as schistocytes, and often provide inaccurate platelets count. Flags and clinically non-sufficient CBC-derived data reflex to generation of blood smear (BS), and BS review comprises a substantial portion of the workload in routine hematology laboratories. For accurate identification and classification of WBC, BS analysis (BSA) requires detailed observation of cells with high-magnification objective (60-100X), which provides a relatively narrow Field of View (FOV). This physical limitation restricts current BSA to either low resolution/wide FOV or to high resolution/narrow FOV data generation (Fig. 1A). Hence, key issues of BSA such as the effects of the smearing process on the distribution of blood components, the effects of cells distribution on their morphology and further classification, as well as many other attributes, are addressed only qualitatively or empirically, leaving the real topology of the BS obscure. The computational imaging microscopy system presented herein uses a low resolution and wide FOV objective, and records a plurality of images under different illumination conditions, of the same sample area (Fig. 1B). An algorithm reconstructs a high resolution and aberration free image of whole specimens, as can be observed in the attached link (https://tinyurl.com/Scopio-Labs-X100-ASH-2020). High resolution images are critical not only for manual BSA, but also for artificial intelligence (AI)-derived BSA, since data quality is of prime importance for deep-learning processes, and to a large extent determine their outcome. Thus, the combination of high resolution/wide FOV turns each BS into a big data analytic field, rendering the measurement of yet undetermined cell characteristics. In order to elucidate the basic topology, 60 normal BS (28 females, 32 males) were subjected to analysis utilizing this novel computational imaging microscopy. For convenience of analysis and comparison with current BSA methodology, BS were segmented into strips according to RBC density (Fig. 1C, D). The average length of smear from females (F) was higher by nearly 28% compared with smear from males (M), and the presence of acute inflammation (A) resulted in a significant 33% increase in overall smear length compared to normal (N) average (Fig. 1E). As expected, RBC density formed a linear gradient (Fig. 1C) along the axis of sample smearing, however, RBC morphology was affected by location within the BS. For example, strips 4-5 contained RBC with the appearance of spherocytes (Fig. 1F; arrows), while in strips with increased RBC density, cells aggregated resembling rouleaux formation (Fig. 1F; arrowheads). Platelets distribution was non-linear, with only a few of them reaching the feathered edge of the smear (Fig. 1G). Since the variance of both RBC/FOV and platelets/FOV concentrations drops starting with strip 4, BS-derived platelets number estimates should not be performed in strips 1-3. On average, a normal BS contains 890+399 WBC in the scanned area (strips 1-8). Similar to RBC, the location of individual WBC throughout the BS may affect their morphology, and hence their classification. WBC in the feathered edge (strips 1-3) are generally more stretched, and often squeezed between RBC, rendering their classification by AI-based tools challenging (Fig. 1H). In strips 4-7, WBC morphology is optimal for a classification task, enabling favorable outcomes for either manual or AI cell analysis (Fig. 1H). These data indicate that BSA can be taken to a sensitivity level of at least 10 -3 of WBC analysis, provided that a large portion of the BS is scanned. Our system provides a novel combination of computational imaging microscopy and AI-based classification tools to unravel the complex topology of blood smears, and upgrade the data obtained in BSA. This approach enables the establishment of quantitative rules to scientifically direct the objective analysis of cellular blood components both manually, and by AI-tools. Figure View large Download slide Figure View large Download slide  Close modal Disclosures Katz: Scopio Labs: Consultancy.",
+    "author_names": [
+        "Ben Zion Katz, PhD",
+        "Irit Avivi, MD",
+        "Dan Benisty, MD",
+        "Shahar Karni, M. Sc.",
+        "Hadar Shimoni",
+        "Omri Grooper",
+        "Olga Pozdnyakova, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Ben Zion Katz, PhD",
+            "author_affiliations": [
+                "Sackler Faculty of Medicine, Tel Aviv University, Tel Aviv, Israel ",
+                "Department of Hematology, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Irit Avivi, MD",
+            "author_affiliations": [
+                "Sackler Faculty of Medicine, Tel Aviv University, Tel Aviv, Israel ",
+                "Department of Hematology, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dan Benisty, MD",
+            "author_affiliations": [
+                "Hematology, Tel Aviv Medical Center, Tel Aviv, Israel "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shahar Karni, M. Sc.",
+            "author_affiliations": [
+                "Scopio Labs, Tel Aviv, Israel "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hadar Shimoni",
+            "author_affiliations": [
+                "Scopio Labs, Tel Aviv, Israel "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Omri Grooper",
+            "author_affiliations": [
+                "Scopio Labs, Tel Aviv, Israel "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Olga Pozdnyakova, MD PhD",
+            "author_affiliations": [
+                "Department of Pathology, Brigham and Women's Hospital, Boston, MA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T06:45:49",
+    "is_scraped": "1"
 }

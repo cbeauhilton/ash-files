@@ -1,8 +1,105 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4474",
-    "start_url_page_num": "4474",
     "doi": "https://doi.org/10.1182/blood-2020-143066",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/19/469833/A-Multi-Omics-Approach-to-X-Chromosome?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T04:33:14",
-    "is_scraped": "0"
+    "article_title": "A Multi-Omics Approach to X-Chromosome Inactivation (XCI) Identifies Severe Xci Skewing in Female Genetic Carriers of Hemophilia ",
+    "article_date": "November 5, 2020",
+    "session_type": "322.Disorders of Coagulation or Fibrinolysis",
+    "abstract_text": "Background. Hemophilia A and B are rare X-linked bleeding disorders caused by deficiencies in factor VIII (FVIII) and factor IX (FIX) respectively. Males with hemophilia are usually hemizygous for disease-causing genetic variants in the F8 or F9 genes. Females with disease-causing variants (female genetic carriers) are usually heterozygous for a F8 or F9 causative variant. However, relative to the general population, female carriers have lower factor levels and are at risk for increased bleeding. In addition, a subset of female carriers meet the criteria for hemophilia based on their factor level. X chromosome inactivation (XCI) silences transcription of one of the two X chromosomes in female mammalian cells as a mechanism of dosage compensation. XCI is a consideration in disease in all X-linked disorders. However, the literature is conflicted as to the correlation of XCI in blood with low levels and bleeding in female genetic carriers of hemophilia. In this study, we sought to further understand low factor levels in female genetic carriers. We used a multi-omics approach to characterize XCI used RNA-seq to characterize expression of the candidate genes F8 and VWF. Methods. We performed whole blood RNA-Seq (wbRNA-Seq) for subjects (N=200) selected from the My Life, Our Future (MLOF) Research Repository. wbRNA-Seq was aligned to the reference genome (GRCh38) using Star v2.7. For all subjects, we examined F8 and VWF expression in wbRNA-Seq data. We performed XCI analyses by combining wbRNA-seq and whole genome sequence (WGS) data. XCI analyses were performed for females (N=23) with matching WGS data from the NHLBI Trans-Omic for Precision Medicine program. WGS data were aligned to GRCh38 using BWA-MEM v0.7.8. Single nucleotide variants and small insertions and deletions in WGS data were assessed using GATK HaplotypeCaller v3.7. XCI skew was determined by examining the number of wbRNA-seq reads aligning to heterozygous variants in WGS data using the program, GATK ASEReadCounter. Results. wbRNA-Seq yielded high quality data in nearly all subjects (196 subjects). RNA-seq data show F8 and VWF expression in whole blood is consistent with previous findings. Abundance of VWF and F8 transcript were not significantly correlated with factor baseline levels. XCI analysis using wbRNA-seq and WGS data identified several females with a high degree of XCI skew (6 females >= 80% XCI skew), including one female in whom the same copy of chromosome X appears to be fully silenced (100% skewed). Association of FVIII baseline levels shows that this individual has baseline levels indicative of severe disease (less than 1% FVIII activity). Females with skewing >= 80% were associated with baseline levels indicative of mild hemophilia (greater than 5% factor activity). Conclusions. In this study, we used a multi-omics approach to study XCI in female genetic carriers of hemophilia. F8 and VWF expression was not associated with baseline factor levels, suggesting whole blood F8 and VWF transcript levels do not correlate with female hemophilia disease severity. XCI analyses indicated XCI skewing likely contributes to disease severity in a subset of female genetic carriers of hemophilia. One subject with severe hemophilia unexpectedly exhibited nearly 100% XCI skewing. We speculate from the baseline factor level, F8 genotype, and sequencing data available that she carries an X-chromosome genetic variant that impacts cell viability when that X chromosome is active. We are further investigating XCI skew in a larger cohort and are assessing the mechanisms which may lead to severe XCI skewing in females with hemophilia. Disclosures Konkle: BioMarin: Consultancy; Takeda: Research Funding; CSL Behring: Consultancy; Uniquire: Research Funding; Sigilon: Consultancy, Research Funding; Pfizer: Consultancy, Research Funding; Sanofi: Consultancy, Research Funding; Spark: Consultancy, Research Funding; Roche: Consultancy; Baxalta: Research Funding. Johnsen: Octapharma: Research Funding.",
+    "author_names": [
+        "Marsha M Wheeler, PhD",
+        "Kathryn Sheldon",
+        "Shelley N Fletcher",
+        "Angela Dove",
+        "Kerry W Lannert",
+        "Chris Frazar",
+        "Barbara A. Konkle, MD",
+        "Deborah A Nickerson",
+        "Jill M Johnsen, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Marsha M Wheeler, PhD",
+            "author_affiliations": [
+                "Department of Genome Sciences, University of Washington, Washington, MD "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kathryn Sheldon",
+            "author_affiliations": [
+                "Bloodworks Research Institute, Seattle, WA "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shelley N Fletcher",
+            "author_affiliations": [
+                "Bloodworks Research Institute, Seattle, WA "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Angela Dove",
+            "author_affiliations": [
+                "Bloodworks Research Institute, Seattle, WA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kerry W Lannert",
+            "author_affiliations": [
+                "Bloodworks Research Institute, Seattle, WA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chris Frazar",
+            "author_affiliations": [
+                "Department of Genome Sciences, University of Washington, Seattle, WA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Barbara A. Konkle, MD",
+            "author_affiliations": [
+                "Bloodworks Research Institute, Seattle, WA ",
+                "Department of Medicine, University of Washington, Seattle, WA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Deborah A Nickerson",
+            "author_affiliations": [
+                "Department of Genome Sciences, University of Washington, Seattle, WA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jill M Johnsen, MD",
+            "author_affiliations": [
+                "Bloodworks Research Institute, Seattle, WA ",
+                "Department of Medicine, University of Washington, Seattle, WA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T06:38:42",
+    "is_scraped": "1"
 }
