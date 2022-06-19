@@ -1,8 +1,105 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4453",
-    "start_url_page_num": "4453",
     "doi": "https://doi.org/10.1182/blood-2019-127459",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/5774/425983/Detection-of-Low-Frequency-T-Cell-Clones-Via-a?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T03:20:05",
-    "is_scraped": "0"
+    "article_title": "Detection of Low Frequency T-Cell Clones Via a Next Generation Sequencing (NGS) Based Immune-Oncology Research Assay ",
+    "article_date": "November 13, 2019",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Introduction: The ability to detect and quantitate low frequency T-cell clones enables numerous hematology/oncology research applications, including identification and assessment of biomarkers associated minimal residual disease (MRD). Rare clone detection via NGS requires highly efficient library preparation and accurate sequencing methodologies, because single nucleotide substitution sequencing errors mimic the natural variation in the T-cell repertoire, resulting in detection of artifactual low frequency clones. Here we present an experimental framework and corresponding performance of rare clone detection utilizing the Oncomine TM TCR Beta short read (TCRb-SR) assay, using Ampliseq-based library preparation targeting the highly variable CDR3 region of TCRb using either DNA or RNA as input, with sample-to-result in 2 days. Methods: To evaluate detection sensitivity of the TCRB-SR assay, we utilized Jurkat cell line DNA and RNA because the presence of a single T cell clone enables precise control of dilution studies. Commercially procured Jurkat gDNA or RNA was spiked into peripheral blood leukocyte gDNA or RNA from 10 -1 to 10 -6 absolute clone frequency to create specimens with a known T-cell clone at frequencies commonly observed in MRD research applications. Peripheral blood leukocyte gDNA or RNA was used as the background for spike in studies due to its high T-Cell diversity. Six to twenty technical replicates were analyzed per dilution point, with DNA inputs ranging from 100ng to 1ug and RNA inputs ranging from 25ng to 100ng to evaluate the minimum detectable clone frequency as a function of nucleic acid input. Libraries were prepared following the TCRB-SR manufacturer's instructions for both DNA and RNA, followed by templating and sequencing using Ion Chef and S5 systems. Data processing was performed in Torrent Suite software (v5.10) followed by read alignment to the IMGT database of variable, diversity, and joining genes using Ion Reporter software (v5.10). For the 10 -6 target frequency with gDNA as the input, four 1ug libraries were combined for analysis in Ion Reporter. Analytical sensitivity was calculated at each target clone frequency by detection of the Jurkat clone as defined by V-gene, Joining gene, and CDR3 nucleotide sequence. Results: Detection sensitivity was dependent on the amount gDNA or RNA input. For gDNA inputs, we observed 100% sensitivity at 10 -3 with 100ng input, 100% sensitivity at 10 -4 with 250ng input, 95% sensitivity at 10 -5 with 1ug input, and 100% sensitivity at 10 -6 with 4ug input. For RNA inputs, we observed 100% sensitivity at 10 -5 with 25ng input and 100% sensitivity at 10 -6 with 100ng input. In addition, we observe a strong linearity of observed clone frequencies at each dilution level, with an r-squared of 0.97. Conclusions: Here we demonstrate the ability to detect T-cell clones down to 10 -6 from gDNA or RNA inputs with high sensitivity and linearity utilizing the Oncomine TM TCR Beta short read assay. We present data demonstrating detection of clones with absolute frequencies of 10 -6 utilizing 4ug gDNA input or 100ng RNA input, highlighting strong performance at nucleic acid input levels typically seen in clinical research samples. Taken together, we show feasibility for rare clone detection in either gDNA or RNA enabling research and development for T-cell minimal residual disease applications. For research use only, not for use in diagnostic procedures. Disclosures Williamson: Thermo Fisher Scientific: Employment. Looney: Thermo Fisher Scientific: Employment. Lowman: Thermo Fisher Scientific: Employment. Sidhu: Thermo Fisher Scientific: Employment. Solano: Thermo Fisher Scientific: Employment. Salazar: Thermo Fisher Scientific: Employment. Tian: Thermo Fisher Scientific: Employment. Ramsamooj: Thermo Fisher Scientific: Consultancy.",
+    "topics": [
+        "clone cells",
+        "massively-parallel genome sequencing",
+        "medical oncology",
+        "t-lymphocytes",
+        "rna",
+        "dna",
+        "dilution technique",
+        "neoplasm, residual",
+        "nucleic acids",
+        "biological markers"
+    ],
+    "author_names": [
+        "John Williamson, MS, CLS",
+        "Timothy Looney, PhD",
+        "Geoffrey Lowman, PhD",
+        "Harwinder Sidhu, BS",
+        "Luis Solano, BS",
+        "Suzanne Salazar, MBA, CLS",
+        "Huan Tian, PhD",
+        "Rajendra Ramsamooj, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "John Williamson, MS, CLS",
+            "author_affiliations": [
+                "Thermo Fisher Scientific, West Sacramento, CA "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Timothy Looney, PhD",
+            "author_affiliations": [
+                "Thermo Fisher Scientific, AUSTIN, TX "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Geoffrey Lowman, PhD",
+            "author_affiliations": [
+                "Thermo Fisher Scientific, Carlsbad, CA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Harwinder Sidhu, BS",
+            "author_affiliations": [
+                "Thermo Fisher Scientific, West Sacramento, CA "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Luis Solano, BS",
+            "author_affiliations": [
+                "Thermo Fisher Scientific, West Sacramento, CA "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Suzanne Salazar, MBA, CLS",
+            "author_affiliations": [
+                "Thermo Fisher Scientific, West Sacramento, CA "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Huan Tian, PhD",
+            "author_affiliations": [
+                "Thermo Fisher Scientific, West Sacramento, CA "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rajendra Ramsamooj, MD",
+            "author_affiliations": [
+                "Thermo Fisher Scientific, West Sacramento, CA "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T02:43:55",
+    "is_scraped": "1"
 }

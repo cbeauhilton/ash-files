@@ -1,8 +1,93 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4455",
-    "start_url_page_num": "4455",
     "doi": "https://doi.org/10.1182/blood-2020-143059",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/14/471427/Outcome-of-Severe-Vaso-Occlusive-Crisis-in-Sickle?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T03:20:13",
-    "is_scraped": "0"
+    "article_title": "Outcome of Severe Vaso-Occlusive Crisis in Sickle Cell Disease Adults Admitted to Referral Centers in Africa and Europe. Introduction of Machine Learning Methods to Improve the Presev Score ",
+    "article_date": "November 5, 2020",
+    "session_type": "113.Hemoglobinopathies, Excluding Thalassemia-New Genetic Approaches to Sickle Cell Disease",
+    "abstract_text": "Introduction: Sickle Cell Disease (SCD) is one of the most common genetic disease worldwide. The Acute Chest Syndrome (ACS) is a leading cause of death for SCD patients. The PRESEV1 study was set to produce a predictive score to assess the risk of an ACS development (Bartolucci et al ., 2016). PRESEV2 was an international, multicenter prospective confirmatory study to validate the PRESEV score. This study aims at improving these predictions with the addition of a machine learning (ML) method. Patients and methods: Included patients follow PRESEV1 and PRESEV2 studies 'rules. The dataset thus contains 97 patients who developed an ACS episode (18.3%) against 434 patients who did not (81.7%). To compute the PRESEV score, we firstly used the method developed previously with the following variables as input: leukocytes, reticulocytes, hemoglobin levels and cervical spine pain. This method is based on a decision tree with fixed rules and is referred to as the decision tree method throughout this abstract. Secondly we used a ML method using a combined sampling method named SMOTEENN to balance the data and a C-Support Vector Classification (SVC) with fixed parameters to predict the score. This method produces a probability, with a threshold of 0.2, under which the patient is predicted to declare an ACS. We considered the dataset composed of PRESEV1 dataset and 80 percent of PRESEV2 with a randomly choice. The test dataset is thus composed of the remaining 20 percent of PRESEV2. This technique of random choice allowed us to use a 50-cross-validation and compute with Python an average score and a standard deviation (std). In order to allow comparison of the developed score with or without the addition of the ML method, rates were calculated by adding the weight of ACS representation in the dataset. Results: Among all parameters analyzed, the SVC method considered the following variables for calculation of the score: leukocytes, LDH, urea, reticulocytes and hemoglobin levels. A hundred and two adult patients with a severe VOC requiring hospitalization were included. Out of this pool of patients, 26 (25.5%) were predicted with a low risk of developing an ACS episode (SVC method). Sensibility and specificity were of 94.7% and 26.8%, respectfully. The negative predictive value (NPV) was of 95.8% and the positive predictive value (PPV) of 22.4%. Results are resumed in table 1. When compared to the PRESEV score (decision tree method), 44 patients out of 372 were identified with a low risk score (11.8%), Discussion and Conclusion: While the addition of a ML method did not allow the improvement of the sensibility or the NPV of the PRESEV score, it improved both the specificity and the PPV. The addition of artificial intelligence thus provides a better prediction with a higher percentage of \"low-risk\" patients. As highlighted in the international PRESEV study, this score could represent a useful tool for physicians in hospital settings, with limited beds. While the PRESEV score could allow a better management of \"low risk\" patients on one side, the identification of \"high-risk\" patients could also represent a serious advantage to physicians, as it could improve the feasibility of clinical trials for the prevention of this lethal complication in SCD patients. View large Download slide View large Download slide  Close modal Disclosures Bartolucci: Innovhem: Other; Novartis: Research Funding; Roche: Consultancy; Bluebird: Consultancy; Emmaus: Consultancy; Bluebird: Research Funding; Addmedica: Research Funding; AGIOS: Consultancy; Fabre Foundation: Research Funding; Novartis: Consultancy; ADDMEDICA: Consultancy; HEMANEXT: Consultancy; GBT: Consultancy.",
+    "author_names": [
+        "Yamna Ouchtar",
+        "Christian Kassasseya, MD",
+        "Kene Sekou, MD",
+        "Anne-Laure Pham Hung D'Alexandry D'Orengiani, PhD",
+        "Mehdi Kellaf, MD PhD",
+        "Dapa Aly Diallo, MD PhD",
+        "Laurent Najman, PhD",
+        "Pablo Bartolucci, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Yamna Ouchtar",
+            "author_affiliations": [
+                "ESIEE Paris, Paris, France "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christian Kassasseya, MD",
+            "author_affiliations": [
+                "IMRB - Inserm U955 Transfusion et maladies du globule rouge (Equipe 2) Etablissement Fran\u00e7ais du Sang, APHP Henri Mondor Hospital, Cr\u00e9teil, France "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kene Sekou, MD",
+            "author_affiliations": [
+                "Centre de Recherche et de Lutte contre la Dr\u00e9panocytose (CRLD), Bamako, Mali "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anne-Laure Pham Hung D'Alexandry D'Orengiani, PhD",
+            "author_affiliations": [
+                "APHP H\u00f4pital Henri Mondor, Cr\u00e9teil, France "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mehdi Kellaf, MD PhD",
+            "author_affiliations": [
+                "Emergency Department, APHP Henri Mondor hospital, Cr\u00e9teil, France "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dapa Aly Diallo, MD PhD",
+            "author_affiliations": [
+                "Centre de Recherche et de Lutte contre la Dr\u00e9panocytose (CRLD), Bamako, Mali "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laurent Najman, PhD",
+            "author_affiliations": [
+                "ESIEE Paris, Paris, France "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pablo Bartolucci, MD PhD",
+            "author_affiliations": [
+                "Sickle cell referral center, Internal Medicine Unit, Henri Mondor Hospital, Assistance Publique-H\u00f4pitaux de Paris, Creteil, France"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T02:46:06",
+    "is_scraped": "1"
 }

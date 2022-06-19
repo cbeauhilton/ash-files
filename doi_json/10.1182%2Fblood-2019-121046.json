@@ -1,8 +1,35 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4452",
-    "start_url_page_num": "4452",
     "doi": "https://doi.org/10.1182/blood-2019-121046",
-    "url": "https://ashpublications.org/blood/article/134/Supplement_1/SCI-28/425958/Single-Cell-Approaches-Drilling-Down-Deeper-Using?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T03:20:01",
-    "is_scraped": "0"
+    "article_title": "Single Cell Approaches - Drilling Down Deeper Using Technology and Integrated Data Analyses ",
+    "article_date": "November 13, 2019",
+    "session_type": "Scientific Abstracts",
+    "abstract_text": "Cancer progression, relapse and resistance are the result of an evolutionary optimization process. Vast intra-tumoral diversity provides the critical substrate for cancer to evolve and adapt to the selective pressures provided by effective therapy. Our previous work has shown that genetically distinct subpopulations compete and mold the genetic makeup of the malignancy (1, 2). Additionally, we have shown that epigenetic changes in cancer may be similar to the process of genetic diversification, in which stochastic trial and error leads to rare fitness enhancing events (3). These studies demonstrate the need to integrate genetic, epigenetic and transcriptional information in the study of cancer evolution, specifically at the single-cell resolution - the atomic unit of somatic evolution. To enable this work, we have developed a single-cell multi-omics toolkit, and apply it to chart the evolutionary history and developmental topographies of normal and malignant blood cells. First, we have applied single-cell multi-omics to chronic lymphocytic leukaemia (CLL), a highly informative model for cancer evolution (4). We applied multiplexed single-cell reduced-representation bisulfite sequencing to healthy B and CLL cells, and demonstrated that epimutations serve as a molecular clock. Heritable epimutation information therefore allows to infer high-resolution lineages with single-cell data, directly in patient samples. CLL tree topography showed earlier branching and longer branch lengths than normal B cell trees. These features reflect rapid drift after malignant transformation and CLL's greater proliferative history. Multi-omic single-cell Integration of methylome sequencing with whole transcriptome and genotyping capture validated tree topology inferred solely on the basis of epimutation information. To examine potential lineage biases during therapy, we profiled serial samples during ibrutinib-associated lymphocytosis, and identified clades of cells that were preferentially expelled from the lymph node after treatment, marked by distinct transcriptional profiles involving TLR pathway activation. The single-cell integration of genetic, epigenetic and transcriptional information thus charts the lineage history of CLL and its evolution with therapy. Second, charting the transcriptomes of clonally mutated cells is challenging in the absence of surface markers that distinguish cancer clones from one another, or from admixed non-neoplastic cells. To tackle this challenge, we developed Genotyping of Transcriptomes (GoT), a technology to integrate genotyping with high-throughput droplet-based single-cell RNA sequencing(5). With GoT we profiled thousands of CD34 + cells from patients myeloproliferative neoplasms to study how somatic mutations corrupt the process of human hematopoiesis. These data allow to superimpose the two differentiation trees; the native wildtype tree and the one corrupted by mutation. High-resolution mapping of malignant versus normal progenitors showed increased fitness with myeloid differentiation with CALR mutation. We identified the unfolded protein response as a predominant outcome of CALR mutations, with dependency on cell identity. Notably, stem cells and more differentiated progenitors show distinct transcriptional programs as a result of somatic mutation, suggesting differential sensitivity to therapeutic targeting. We further extended the GoT toolkit to genotype multiple targets and loci that are distant from transcript ends. Together, these findings reveal that the transcriptional output of somatic mutations in blood neoplasms is dependent on the native cell identity. Landau, D. A., Carter, S. L., Stojanov, P. et al. , Evolution and impact of subclonal mutations in chronic lymphocytic leukemia. Cell 152 , 714-726 (2013). Landau, D. A., Tausch, E., Taylor-Weiner, A. N. et al. , Mutations driving CLL and their evolution in progression and relapse. Nature 526 , 525-530 (2015). Landau, D. A., Clement, K., Ziller, M. J. et al. , Locally disordered methylation forms the basis of intratumor methylome variation in chronic lymphocytic leukemia. Cancer Cell 26 , 813-825 (2014). Gaiti, F., Chaligne, R., Gu, H. et al. , Epigenetic evolution and lineage histories of chronic lymphocytic leukaemia. Nature 569 , 576-580 (2019). Nam, A. S., Kim, K. T., Chaligne, R. et al. , Somatic mutations and cell identity linked by Genotyping of Transcriptomes. Nature 571 , 355-360 (2019). Disclosures Landau: Pharmacyclics: Research Funding; Celgene: Research Funding; Illumina Inc: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees.",
+    "topics": [
+        "advisory committees",
+        "anatomy, regional",
+        "aspartate aminotransferases",
+        "blood cells",
+        "b-lymphocytes",
+        "calr gene",
+        "cancer",
+        "cd34 antigens",
+        "chronic b-cell leukemias",
+        "chronic lymphocytic leukemia"
+    ],
+    "author_names": [
+        "Dan A. Landau, MD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Dan A. Landau, MD",
+            "author_affiliations": [
+                "New York Genome Center, New York, NY"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-19T02:42:23",
+    "is_scraped": "1"
 }
