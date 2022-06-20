@@ -1,8 +1,123 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4569",
-    "start_url_page_num": "4569",
     "doi": "https://doi.org/10.1182/blood-2020-140245",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/27/470264/18-f-FDG-PET-CT-Baseline-Rdiomics-Features-Improve?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T08:24:13",
-    "is_scraped": "0"
+    "article_title": " 18 f-FDG PET/CT Baseline Rdiomics Features Improve the Prediction of Treatment Outcome in Diffuse Large B-Cell Lymphoma Patients ",
+    "article_date": "November 5, 2020",
+    "session_type": "627.Aggressive Lymphoma (Diffuse Large B-Cell and Other Aggressive B-Cell Non-Hodgkin Lymphomas)-Results from Retrospective/Observational Studies",
+    "abstract_text": "Aim/Introduction Up to one third of diffuse large B-cell lymphoma (DLBCL) patients experience relapse or fail to achieve complete remission during first-line treatment. Identification of poor prognosis patients might be further improved by radiomics. Radiomics analysis of imaging data provides quantitative features of tumor characteristics such as intensity, shape, volume, texture and intra- and inter-lesion heterogeneity. The objective of this study was to assess the added value of baseline quantitative radiomics features in DLBCL patients compared to currently used clinical characteristics such as the IPI score. Materials and Methods 317 newly diagnosed DLBCL patients with baseline 18 F-FDG PET/CT scans from the HOVON84 trial (Lugtenburg et al, JCO 2020) were included. Lesions were delineated using a fully automated preselection of 18 F-FDG avid structures defined by a SUV \u2265 4.0 and volume >3mL. Missed lesions were added and non-tumour regions were removed (accurate tool, https://petralymphoma.org). Next, 490 radiomics features were extracted from the volume of interest using RaCat software (Pfaehler et al, 2019). To reduce feature space dimensions, we made a preselection of clinically most relevant radiomics features based on literature (SUV max , SUV mean , SUV peak , total lesion glycolysis, metabolic tumor volume (MTV), dissemination features and sphericity) and used logistic regression with backward feature selection to predict 2-year time to progression (TTP), defined as time from baseline PET/CT to progression. Patients who died without progression were censored at date of death. Furthermore, we tested the predictive value of known clinical predictors (age (cut off: >60 years), WHO performance status (cut-off: \u2265 1 and \u22652), Ann Arbor stage, extranodal involvement (cut-off: \u2265 1 and >1), lactate dehydrogenase (LDH) level and bulky disease (\u2265 10 cm)) and of a model that combined radiomics and clinical parameters. Model performance was assessed using repeated cross-validation (5 folds, 2000 repeats) yielding the mean receiver-operator-characteristics curve integral (AUC). High- and low-risk groups were defined based on prevalence of events, diagnostic performance was assessed using positive- and negative predictive values. Patients censored before 2 years of follow-up were excluded for the prediction models and diagnostic performance. Results The categorical IPI score yielded in a cross-validated AUC (CV-AUC) of 0.68 (Figure 1). The highest performance for the radiomics model was observed for the natural logarithms of MTV and SUV peak and the maximal distance between the largest lesion and any other lesion (Dmax bulk ), which yielded in a cross-validated AUC (CV-AUC) of 0.75\u00b10.07, which was significantly higher than the discriminative power of the MTV model (CV-AUC: 0.66\u00b10.08, p =0.01). LDH/upper limit of normal, WHO performance status \u22651 and extranodal involvement \u22651 showed the highest performance for the clinical prediction model with a CV-AUC of 0.71\u00b10.08. When combining radiomics features with clinical predictors, the highest performance was observed for the natural logarithms of MTV and SUV peak , Dmax bulk , WHO performance status \u2265 1 and age, with a CV-AUC of 0.77\u00b10.07, which was significantly higher than the IPI model ( p =0.003). Adding radiomics features to clinical predictors increased the positive predictive value with 15%, with more accurate selection of high-risk patients compared to the IPI model (progression at 2-year TTP: 28.3% vs 43.8%, respectively). Conclusion Combining quantitative radiomics features extracted from baseline 18 F-FDG PET/CT scans with components of the IPI score significantly improved identification of patients at risk of relapse at baseline. Adding radiomics features can significantly increase the efficiency of clinical trials in poor prognosis patients. Figure View large Download slide Figure View large Download slide  Close modal Disclosures Lugtenburg: Incyte: Honoraria; Celgene: Honoraria; Genmab: Honoraria; Genentech: Honoraria; Roche: Research Funding; Servier: Honoraria, Research Funding; Takeda: Honoraria, Research Funding. Zijlstra: Roche: Research Funding.",
+    "author_names": [
+        "Jakoba J Eertink, MSc",
+        "Tim van de Brug, PhD",
+        "Sanne E Wiegers, MSc",
+        "Gerben J.C. Zwezerijnen, MD",
+        "Elisabeth Pfaehler, MSc",
+        "Pieternella J. Lugtenburg, MD PhD",
+        "Bronno van der Holt, PhD",
+        "Henrica C.W. de Vet, PhD",
+        "Otto S Hoekstra, MD PhD",
+        "Ronald Boellaard, PhD",
+        "Jos\u00e9e M Zijlstra, MD PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Jakoba J Eertink, MSc",
+            "author_affiliations": [
+                "Department of Hematology, Amsterdam UMC, Vrije Universiteit Amsterdam, Cancer Center Amsterdam, Amsterdam, Netherlands "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tim van de Brug, PhD",
+            "author_affiliations": [
+                "Amsterdam UMC, Vrije Universiteit Amsterdam, department of Epidemiology and Data Science, Amsterdam Public Health research institute, Amsterdam, Netherlands "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sanne E Wiegers, MSc",
+            "author_affiliations": [
+                "Department of Hematology, Amsterdam UMC, Vrije Universiteit Amsterdam, Cancer Center Amsterdam, Amsterdam, Netherlands "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gerben J.C. Zwezerijnen, MD",
+            "author_affiliations": [
+                "Amsterdam UMC, Vrije Universiteit Amsterdam, department of Radiology and Nuclear Medicine, Cancer Center Amsterdam, Amsterdam, Netherlands "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elisabeth Pfaehler, MSc",
+            "author_affiliations": [
+                "Department of Nuclear Medicine and Molecular Imaging, University of Groningen, University Medical Center Groningen, Groningen, Netherlands "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pieternella J. Lugtenburg, MD PhD",
+            "author_affiliations": [
+                "Erasmus MC Cancer Institute, department of Hematology, Rotterdam, Netherlands "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bronno van der Holt, PhD",
+            "author_affiliations": [
+                "Erasmus MC Cancer Institute, HOVON Data Center, department of Hematology, Rotterdam, Netherlands "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Henrica C.W. de Vet, PhD",
+            "author_affiliations": [
+                "Amsterdam UMC, Vrije Universiteit Amsterdam, department of Epidemiology and Data Science, Amsterdam Public Health research institute, Amsterdam, Netherlands "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Otto S Hoekstra, MD PhD",
+            "author_affiliations": [
+                "Amsterdam UMC, Vrije Universiteit Amsterdam, department of Radiology and Nuclear Medicine, Cancer Center Amsterdam, Amsterdam, Netherlands "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ronald Boellaard, PhD",
+            "author_affiliations": [
+                "Amsterdam UMC, Vrije Universiteit Amsterdam, department of Radiology and Nuclear Medicine, Cancer Center Amsterdam, Amsterdam, Netherlands "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jos\u00e9e M Zijlstra, MD PhD",
+            "author_affiliations": [
+                "Department of Hematology, Amsterdam UMC, Vrije Universiteit Amsterdam, Cancer Center Amsterdam, Amsterdam, Netherlands"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-20T04:02:34",
+    "is_scraped": "1"
 }
