@@ -1,8 +1,73 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4620",
-    "start_url_page_num": "4620",
     "doi": "https://doi.org/10.1182/blood-2020-143433",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/18/473145/Deep-Learning-for-Discovering-and-Identifying?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T10:21:34",
-    "is_scraped": "0"
+    "article_title": "Deep Learning for Discovering and Identifying Morphological Heterogeneity of Neutrophils in Primary Hematological Diseases Based on Bone Marrow Neutrophils Analysis ",
+    "article_date": "November 5, 2020",
+    "session_type": "201.Granulocytes, Monocytes, and Macrophages",
+    "abstract_text": "It has been known that neutrophils play an important role in regulating homeostasis and disease. Tumor-associated neutrophils (TANs), as an important member of the tumor microenvironment, have gradually been proved their roles in a variety of solid tumors. It is generally believed that the changes in blood cell morphology (including neutrophils) are the phenotype of hematological diseases (such as in myelodysplastic syndromes) or tumor cells themselves. However, whether there is a possibility that the accumulation of abnormal neutrophils function leads to the change of hematopoietic stem cells and this is just the reason of hematological diseases? Do neutrophils play a key role in the pathogenesis and development of hematological tumors, especially acquired or age-related blood diseases, such as most acute and chronic leukemia, multiple myeloma and other diseases? TAN also has polarization, which is similar to tumor-associated macrophages (TAM), suggesting that the function and morphology of neutrophils are closely associated. Therefore, we assumed that there are function-related morphological differences in neutrophils in different hematological diseases. Finding these differences may provide clues for the functional research of neutrophils in hematological diseases. Artificial intelligence represented by deep learning can distinguish images efficiently and accurately (such as face recognition). Here we try to apply deep learning to discovery and recognize the morphological difference among neutrophils in different hematological diseases. We obtained whole slide images (WSI) from 4 types of malignant hematological diseases, which is chronic myelogenous leukemia (CML), multiple myeloma (MM), acute myeloblastic leukemia with maturation (AML-M2), acute monocytic leukemia (AML-M5) and normal bone marrow. Neutrophils were segmented from WSI by two diagnostic physicians (one with more than 40 years of diagnostic experience and the other with 13 years of diagnostic experience) There are 6115 neutrophils, and the number of cells in each disease and normal bone marrow is 593, 1404, 2509, 850, and 759, respectively. We trained these neutrophils using the transfer learning algorithm and the ratio of training and verification groups is 80:20. We established a convolutional neural network (CNN) model based on the morphological phenotype of neutrophils to judge their disease classification and used confusion matrix and receiver operator characteristic (ROC) curve for model evaluation. We found that neutrophils from different diseases can be classified into different categories, and the deep learning model has a high accuracy rate for judging the neutrophils from different diseases. Moreover, according to the obtained mixed matrix results, it is found that some M2 and M5 neutrophils are prone to misjudgment, while M2 and M5 is rarely confused with other diseases. The reason for this may be that M2 and M5 are both acute myeloid leukemia. Neutrophils from MM and normal bone marrow are prone to misjudge each other or judged as CML neutrophils, and MM often involves the plasma cell system, so some neutrophils of MM may be similar to normal bone marrow. Compared with acute leukemia, some chronic leukemia neutrophils are close to MM or normal bone marrow. Based on these results, we can further confirm that there are morphological and phenotypic differences between different types of hematological diseases. According to the ROC curve results, it is suggested that the deep learning model constructed based on the feature extraction of the CNN model can more accurately determine different hematological diseases according to morphological phenotypes of neutrophils. These findings suggest that neutrophils in different hematological diseases have their own features. These features may provide more evidence for the diagnosis of the disease and also provide clues for further research on the function of TAN in primary hematological diseases. View large Download slide View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "author_names": [
+        "Lintao Bi",
+        "Wen Gao, MD",
+        "Lingjun Meng",
+        "Guiying Gu",
+        "Zhangzhen Shi",
+        "Yuansong BAI, PhD"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Lintao Bi",
+            "author_affiliations": [
+                "China-Japan Union Hospital of Jilin University, Changchun, China "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wen Gao, MD",
+            "author_affiliations": [
+                "Beijing Chaoyang Hospital, Capital medical University, Beijing, China"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lingjun Meng",
+            "author_affiliations": [
+                "China-Japan Union Hospital of Jilin University, Changchun, China "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Guiying Gu",
+            "author_affiliations": [
+                "China-Japan Union Hospital of Jilin University, Changchun, China "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Zhangzhen Shi",
+            "author_affiliations": [
+                "China-Japan Union Hospital of Jilin University, Changchun, China "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yuansong BAI, PhD",
+            "author_affiliations": [
+                "China-Japan Union Hospital of Jilin University, Changchun, China "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-20T15:38:48",
+    "is_scraped": "1"
 }
