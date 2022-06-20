@@ -1,8 +1,93 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4549",
-    "start_url_page_num": "4549",
     "doi": "https://doi.org/10.1182/blood-2020-141791",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/19/472556/Stemness-Signature-Defined-By-Logistic-Regression?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T07:20:07",
-    "is_scraped": "0"
+    "article_title": "Stemness Signature Defined By Logistic Regression Machine Learning and Artificial Intelligence Predicts Outcomes in Diffuse Large B-Cell Lymphoma ",
+    "article_date": "November 5, 2020",
+    "session_type": "621.Lymphoma-Genetic/Epigenetic Biology",
+    "abstract_text": "Background: Stem and progenitor cell populations sequentially accumulate and lead to cancer through various genetic/epigenetic alterations. The stemness and its association with the tumor microenvironment (TME) have not been studied in diffuse large B-cell lymphoma (DLBCL). Methods: Molecular data from Gene Expression Omnibus of 702 DLBCL patients who received cyclophosphamide, doxorubicin, vincristine, and prednisone combined with rituximab (R-CHOP) were analyzed. A one-class logistic regression (OCLR) machine-learning algorithm was applied to obtain a stemness index (mRNAsi) for each patient and to build molecular stemness-associated genetic signature. A novel stemness molecular signature was established via artificial intelligence to evaluate therapeutic response and prognosis in DLBCL. The significance between the stemness signature and TME cell-infiltrating characteristics was dissected. Results: mRNAsi was biologically significant among DLBCL subtypes and was associated with overall survival (OS). Based on refined 12 stemness-related genes, the stemness molecular signature was able to classify DLBCL patients into high- and low-risk groups. The signature could accurately predict OS and provide a clinically-significant risk stratification in distinguishing DLBCL patients who benefitted from R-CHOP therapy from those with poor outcomes. TME analysis revealed negative correlation between DLBCL stemness origin and features of infiltrating immune cells. Two additional immunotherapy cohorts validated above discoveries in which patients with low-risk score showed significant clinical benefits from PD1/PD-L1 blockade. Conclusions: mRNAsi and stemness molecular signature as new prognostic algorithm was valuable to quantify DLBCL stemness and therapeutic resistance. Such molecular signature and stemness prediction model represent a solid foundation of biologic features for cancer stem cell therapy and immunotherapy in DLBCL. A. survival of patients with high and low mRNAsi. B. According to the stemness molecular signature, two cohorts were defined: high-risk and low-risk cohort. overall survival (OS) in 702 DLBCL patients in the training set. C. AUC for OS at 3 and 5 years in the training cohort to assess prognostic accuracy. D. Expression of 12 stemness signature genes between the germinal B cell and non-germinal B cell subtypes of the training cohort. E. Expression of 12 stemness signature genes between patients at early and advanced stages in the training cohort. F. Proportion of patients with different therapy responses in the high- and low-risk groups of the GSE31312 cohort. G. According to the stratification of the therapy responses, the survival analysis of DLBCL patients. H-I. Survival plots showing the stratification of risk model for each of the individual responses to R-CHOP. J. GSVA enrichment analysis showing the activation states of biological pathways in high- and low-risk groups. K. Abundance of TME-infiltrating cells between high- and low-risk groups. L. Component differences of immune cells between low-risk and high-risk samples analyzed by the CIBERSORT algorithm. M. Based on multivariate Cox regression analysis, riskScore, age, subtype, stage, ECOG, and extranodal sites were integrated to construct a nomogram for predicting patients' prognosis. N-O. Time-dependent receiver operating characteristic (ROC) curve to evaluate the accuracy of the OS nomogram. P-Q. Calibration curves for 3-year OS nomogram model in the training cohort (P), GSE31312 cohort (Q). R. Survival analyses for low- (172 cases) and high- (176 cases) riskScore patient groups in the anti-PD-L1 immunotherapy cohort (IMvigor210 cohort). S. Proportion of patients with different therapy responses in the high- and low-risk groups of the IMvigor210 cohort. T. Difference in riskScore among different clinical response groups in the anti-PD-L1 immunotherapy cohort. U. Kaplan-Meier survival curve according to stratification of the responses to anti-PD-L1 therapy. V. Correlation between each stemness molecular signature gene and each TME infiltration cell type using Pearson correlation analyses. W. Difference in ImmuneScore between high and low ODC1 expression groups. X. Differences in immune-activated pathways between the high and low ODC1 expression groups. Y. Survival analyses for patients with low or high ODC1 expression in the anti-PD-L1 immunotherapy cohort. Figure View large Download slide Figure View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "author_names": [
+        "Xiao-jie Liang",
+        "Na Yao",
+        "Dan Liu",
+        "Hai-ying Chen",
+        "Xin Xu",
+        "Jing-Wen Wang",
+        "Ken H. Young",
+        "Liang Wang"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Xiao-jie Liang",
+            "author_affiliations": [
+                "First Clinical Medical College of Southern Medical University, Guangzhou, China "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Na Yao",
+            "author_affiliations": [
+                "Department of Hematology, Beijing Tongren Hospital, Capital Medical University, Beijing, China "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dan Liu",
+            "author_affiliations": [
+                "The First School of Clinical Medicine, Guangdong Medical University, Zhanjiang, China "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hai-ying Chen",
+            "author_affiliations": [
+                "The First School of Clinical Medicine, Guangdong Medical University, Zhanjiang, China "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xin Xu",
+            "author_affiliations": [
+                "The First School of Clinical Medicine, Guangdong Medical University, Zhanjiang, China "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jing-Wen Wang",
+            "author_affiliations": [
+                "Department of Hematology, Beijing Tongren Hospital, Capital Medical University, Beijing, China "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ken H. Young",
+            "author_affiliations": [
+                "Duke Medical Center and Duke Cancer institute, Duke University School of Medicine, Durham, NC"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Liang Wang",
+            "author_affiliations": [
+                "Department of Hematology, Beijing Tongren Hospital, Capital Medical University, Beijing, China "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-20T02:27:01",
+    "is_scraped": "1"
 }
