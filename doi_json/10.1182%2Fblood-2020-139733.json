@@ -1,8 +1,133 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4643",
-    "start_url_page_num": "4643",
     "doi": "https://doi.org/10.1182/blood-2020-139733",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/13/471273/Development-of-a-Machine-Learning-Algorithm-for?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T11:16:45",
-    "is_scraped": "0"
+    "article_title": "Development of a Machine Learning Algorithm for Rapid, Point-of-Care Prediction of Serum Monoclonal Proteins in Multiple Myeloma ",
+    "article_date": "November 5, 2020",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Multiple Myeloma (MM) is a cancer of terminally-differentiated plasma cells residing in the bone marrow. Myeloma cells frequently secrete monoclonal proteins that can be used to assess tumor volume and patient response to therapy. Monoclonal proteins are measured by gel electrophoresis and subsequent immunofixation of the observed M-spike for protein typing. However, this a time-consuming process that may take up to 3-5 days that delays physician-patient decision-making, determining response to treatment and can be a significant psychological stressor for patients. Hence, there is an unmet need to develop a more rapid, point-of-care method to determine M-spike levels. Gamma gap is the difference between total serum protein and albumin and includes a variety metabolic proteins, i.e., transferrin, as well as immunologic proteins, e.g., non-involved immunoglobulins, in addition to the M-spike. Since estimation of the non-M-spike portion of the gamma gap cannot be achieved on routine patient care, the gamma gap cannot serve as an accurate surrogate for M-spike protein levels. Here, we hypothesized that an artificial intelligence (AI) algorithm utilizing readily available clinical and laboratory data along with previous and same-day lab variables can accurately predict M-spike levels without the need for serum electrophoresis. Methods: A total of 171 MM patients with 1,472 observations were included in the study, where the upper limit of the observed M-spike was 3.5 gr/dL. Correlation of the observed M-spike with gamma gap was assessed by two correlation methods using the Pearson and Spearman tests. Forty three clinical and lab variables (including total serum protein and albumin) as predictors of M-spike were fed into the machine learning model. Two lagged variables as the last two preceding M-spike values by the same subject were included. When needed, imputation for missing values was applied through interpolation from subject-level linear trend analysis. The random forest model was used, where regression forests are an ensemble of different regression trees and are used for nonlinear multiple regression. The default number of trees was set to be n = 500, and the number of variables considered at each split after random selection was 13. The goal of using a large number of trees was to train enough that each feature had a chance to appear in several models. The data was randomly split into a training set (80%) and a test set (20%), and a regression tree was built with the training set and then validated using the test set. Bootstrapping was used to generate a collection of data sets (n=500), leading to a random forest of regression trees. Results and estimates were combined across trees. Importance was measured by leaving a covariate out of models, and comparing performance with its inclusion. All analyses were performed using R v3.6.2 and its libraries. Results: Median age of the study cohort was 73 years old, range: 42-96), and 44% were male. The median M-spike value was (0.7 gr/dL, range: 0.1-3.5). Fig. 1 shows the number of observations and magnitude distribution for M-spike levels among the patients included in our study. The correlation of the calculated gamma gap and observed M-spike levels was assessed by two methods (Fig.2). The Pearson coefficient was 0.43 for M-spike levels 1 gr/dL, respectively (Fig.2a). The Spearman coefficient was 0.41 for M-spike levels 1 suggesting a low overall correlation overall, especially for M-spike levels <1 gr/dL (Fig .2b). In contrast, as shown in Fig. 3, M-spike levels predicted by the AI algorithm (i.e., fitted M-spike in the test set) correlated highly with the observed M-spike levels in the test set (R-square: 94% and RMSE of 0.21). The Pearson and Spearman coefficients were 0.97 and 0.95, respectively. Fig. 3b. Indicates the residual distribution for the RF model with most of values are close to and on both side zero value. Conclusion: Here, we showed that the difference between total protein and albumin (i.e., gamma gap) is a rough estimate of M-spike, especially with lower values. AI algorithm trained by 43 readily available clinical and laboratory variables could predict the observed M-spike very robustly. Taken together, our results indicate that the AI-based method developed here can be further advanced for rapid, accurate, point-of-care measurement of M-spike protein levels in MM patients. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Malek: Cumberland: Research Funding; Sanofi: Other: Advisory board; Clegene: Other: Advisory board , Speakers Bureau; Takeda: Other: Advisory board , Speakers Bureau; Janssen: Other: Advisory board, Speakers Bureau; Bluespark: Research Funding; Amgen: Honoraria; Medpacto: Research Funding. Caimi: Amgen: Other: Advisory Board; Verastem: Other: Advisory Board; Celgene: Speakers Bureau; Bayer: Other: Advisory Board; ADC Therapeutics: Other: Advisory Board, Research Funding; Kite Pharma: Other: Advisory Board. de Lima: Celgene: Research Funding; Pfizer: Other: Personal fees, advisory board, Research Funding; Kadmon: Other: Personal Fees, Advisory board; Incyte: Other: Personal Fees, advisory board; BMS: Other: Personal Fees, advisory board.",
+    "author_names": [
+        "Ehsan Malek, MD",
+        "Jeries Kort, MD",
+        "Gi-Ming Wang, PhD",
+        "Paolo F Caimi, MD",
+        "Kirsten M Boughan, DO",
+        "Stanton L. Gerson, MD",
+        "Brenda W. Cooper, MD",
+        "Molly M Gallogly, MDPhD",
+        "Benjamin K. Tomlinson, MD",
+        "Marcos de Lima, MD",
+        "Curtis Tatsuoka, PhD",
+        "James Driscoll"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Ehsan Malek, MD",
+            "author_affiliations": [
+                "Adult Hematologic Malignancies & Stem Cell Transplant Section, Seidman Cancer Center, University Hospitals Cleveland Medical Center, Cleveland, OH "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jeries Kort, MD",
+            "author_affiliations": [
+                "University Hospitals Cleveland Medical Center, Cleveland, OH "
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gi-Ming Wang, PhD",
+            "author_affiliations": [
+                "Department of Population and Quantitative Health Sciences, Case Western Reserve University, School of Medicine, Cleveland, OH "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Paolo F Caimi, MD",
+            "author_affiliations": [
+                "Adult Hematologic Malignancies & Stem Cell Transplant Section, University Hospitals Seidman Cancer Center, Cleveland, OH "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kirsten M Boughan, DO",
+            "author_affiliations": [
+                "Adult Hematologic Malignancies & Stem Cell Transplant Section, University Hospitals Seidman Cancer Center, Cleveland, OH "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stanton L. Gerson, MD",
+            "author_affiliations": [
+                "Case Comprehensive Cancer Center, Case Western Reserve University, Cleveland, OH "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brenda W. Cooper, MD",
+            "author_affiliations": [
+                "Adult Hematologic Malignancies & Stem Cell Transplant Section, University Hospitals Seidman Cancer Center, Cleveland, OH "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Molly M Gallogly, MDPhD",
+            "author_affiliations": [
+                "Adult Hematologic Malignancies & Stem Cell Transplant Section, University Hospitals Seidman Cancer Center, Cleveland, OH "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Benjamin K. Tomlinson, MD",
+            "author_affiliations": [
+                "Adult Hematologic Malignancies & Stem Cell Transplant Section, University Hospitals Seidman Cancer Center, Cleveland, OH "
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marcos de Lima, MD",
+            "author_affiliations": [
+                "Adult Hematologic Malignancies & Stem Cell Transplant Section, University Hospitals Seidman Cancer Center, Cleveland, OH "
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Curtis Tatsuoka, PhD",
+            "author_affiliations": [
+                "Department of Population and Quantitative Health Sciences, Case Western Reserve University, School of Medicine, Cleveland, OH "
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "James Driscoll",
+            "author_affiliations": [
+                "Case Western Reserve University, Cleveland, OH"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-20T21:31:31",
+    "is_scraped": "1"
 }
