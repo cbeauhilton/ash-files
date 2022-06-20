@@ -1,8 +1,93 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4664",
-    "start_url_page_num": "4664",
     "doi": "https://doi.org/10.1182/blood-2020-143460",
-    "url": "https://ashpublications.org/blood/article/136/Supplement 1/1/473866/Transfer-Learning-for-Identifying-Morphological?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T11:38:33",
-    "is_scraped": "0"
+    "article_title": "Transfer Learning for Identifying Morphological Heterogeneity of Neutrophils Nuclei in Hematological Diseases Based on Nuclei Semantic Segmentations of Bone Marrow Smear ",
+    "article_date": "November 5, 2020",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "It has been known that neutrophils are also very important in hematological diseases, such as dysplasia of neutrophils in myelodysplastic syndromes (MDS). But we pay more attention to immature blood cells (blasts) on bone marrow smear, because their proportion and morphology are key indicators for diagnosing malignant hematological diseases. We seem to pay less attention to neutrophils' roles in the diagnosis and the pathogenesis of hematological diseases. As we know, the survival period of neutrophils is relatively short and the neutrophils nuclei are rich in genetic information. Therefore, we assumed that the changes of neutrophils, especially the changes of neutrophils nuclei may be a mirror that reflects different hematological diseases. Here we will explore the differences among the morphology of neutrophils nuclei in hematological diseases, and try to find the bases of these differences. We selected neutrophils from 4 types of malignant hematological diseases, which is chronic myelogenous leukemia (CML), multiple myeloma (MM), acute myeloblastic leukemia with maturation (AML-M2), acute monocytic leukemia (AML-M5) and normal bone marrow. Neutrophils were identified by two senior diagnosticians (diagnostic experience longer than 10 years). In this study, we first segmented the neutrophils image by hand, and then use ilastik, an interactive semantic segmentations tool, to perform the nucleus segmentation. We applied transfer learning to training classification model of the segmented nuclei. We found that the neutrophils nuclei from different hematological diseases can be distinguished by the model. That is, we can preliminarily judge which kind of disease based on the neutrophils nuclei. These findings suggest that it is possible to have specific neutrophils nuclei features among different hematological diseases. However, due to the black box effect of the deep learning model, we still do not know what these features are. In order to clarify these potential features of neutrophils, we performed feature extraction (including texture analysis) on the segmented nuclei, and applied Fiji or imagej to obtain the feature parameters of the nuclei. At last using R language packages rattle (version 5.3.0) for features comparison and analysis. We found that there are differences in some feature parameters of the neutrophils nuclei among them. Maybe these are the basis for the heterogeneity of neutrophils in different hematological diseases. Here we provide a preliminary study for the neutrophils phenotype heterogeneity in different hematological diseases by deep learning. Differences in morphology of neutrophils nuclei may be the base of the heterogeneity. The features analysis of the neutrophils nuclei based on machine learning pixel classification further explains the basis of image specific difference discovered by transfer learning. In the future, the morphology of the neutrophils nuclei probably play an important role on distinguishing different hematological diseases. View large Download slide View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "author_names": [
+        "Hui Shao",
+        "Wen Gao, MD",
+        "Qi Zhang",
+        "Jun Li",
+        "Di Zhou",
+        "Lintao Bi",
+        "Yuansong BAI, PhD",
+        "Zhangzhen Shi"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Hui Shao",
+            "author_affiliations": [
+                "China-Japan Union Hospital of Jilin University, Changchun, China "
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wen Gao, MD",
+            "author_affiliations": [
+                "Beijing Chaoyang Hospital, Capital medical University, Beijing, China"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Qi Zhang",
+            "author_affiliations": [
+                "China-Japan Union Hospital of Jilin University, Changchun, China "
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jun Li",
+            "author_affiliations": [
+                "China-Japan Union Hospital of Jilin University, Changchun, China "
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Di Zhou",
+            "author_affiliations": [
+                "China-Japan Union Hospital of Jilin University, Changchun, China "
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lintao Bi",
+            "author_affiliations": [
+                "China-Japan Union Hospital of Jilin University, Changchun, China "
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yuansong BAI, PhD",
+            "author_affiliations": [
+                "China-Japan Union Hospital of Jilin University, Changchun, China "
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Zhangzhen Shi",
+            "author_affiliations": [
+                "China-Japan Union Hospital of Jilin University, Changchun, China "
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-20T13:02:06",
+    "is_scraped": "1"
 }
