@@ -1,8 +1,223 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4754",
-    "start_url_page_num": "4754",
     "doi": "https://doi.org/10.1182/blood-2021-147529",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/145/478067/Single-Cell-Multi-Omics-Defines-the-Cell-Type?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T15:44:21",
-    "is_scraped": "0"
+    "article_title": "Single-Cell Multi-Omics Defines the Cell-Type Specific Impact of SF3B1 Splicing Factor Mutations on Hematopoietic Differentiation in Human Clonal Hematopoiesis and Myelodysplastic Syndromes ",
+    "article_date": "November 5, 2021",
+    "session_type": "636.Myelodysplastic Syndromes-Basic and Translational",
+    "abstract_text": "Splicing factor mutations are recurrent genetic alterations in blood disorders, highlighting the importance of alternative splicing regulation in hematopoiesis. Specifically, mutations in splicing factor 3B subunit 1 ( SF3B1 ) are implicated in the pathogenesis of myelodysplastic syndromes (MDS) and linked to a high-risk of leukemic transformation in clonal hematopoiesis (CH). SF3B1 mutations are associated with aberrant RNA splicing, leading to increased cryptic 3' splice site (ss) usage and MDS with ring sideroblasts phenotype. The study of mutant SF3B1 -driven splicing aberrations in humans has been hampered by the inability to distinguish mutant and wildtype single cells in patient samples and the inadequate coverage of short-read sequencing over splice junctions. To overcome these limitations, we developed GoT-Splice by integrating Genotyping of Transcriptomes (GoT; Nam et al. 2019) with Nanopore long-read single-cell transcriptome profiling and CITE-seq ( Fig. A ). This allowed for the simultaneous single-cell profiling of protein and gene expression, somatic mutation status, and alternative splicing. Our method selectively enriched full-length sequencing reads with the accurate structure, enabling the capture of higher number of junctions per cell and greater coverage uniformity vs. short-read sequencing (10x Genomics; Fig. B, C ). We applied GoT-Splice to CD34+ bone marrow progenitor cells from MDS ( n = 15,436 cells across 3 patients; VAF: [0.38-0.4]) to study how SF3B1 mutations corrupt human hematopoiesis ( Fig. D ). High-resolution mapping of SF3B1 mut vs. SF3B1 wt hematopoietic progenitors revealed an increasing fitness advantage of SF3B1 mut cells towards the megakaryocytic-erythroid lineage, resulting in an expansion of SF3B1 mut erythroid progenitor (EP) cells ( Fig. E, F ). Accordingly, SF3B1 mut EP cells displayed higher protein expression of erythroid lineage markers, CD71 and CD36, vs. SF3B1 wt cells ( Fig. G ). In these SF3B1 mut EP cells, we identified up-regulation of genes involved in regulation of cell cycle and checkpoint controls ( e.g. , CCNE1, TP53 ), and mRNA translation (eIFs gene family; Fig. H ). Next, while SF3B1 mut cells showed the expected increase of cryptic 3' splicing vs. SF3B1 wt cells ( Fig. I ), they exhibited distinct cryptic 3' ss usage as a function of hematopoietic progenitor cell identity, displaying stage-specific aberrant splicing during erythroid maturation ( Fig. J ). In less differentiated EP cells, we observed mis-splicing of genes involved in iron homeostasis, such as the hypoxia-inducible factor HIF1A , and key regulators of erythroid cell growth, such as SEPT2 . At later stages, we observed mis-splicing of BAX , a pro-apoptotic member of the Bcl-2 gene family and transcriptional target of p53, and erythroid-specific genes ( e.g. , PPOX ). We further predicted 54% of the aberrantly spliced mRNAs to introduce premature stop codons, promoting RNA degradation through nonsense-mediated decay (NMD). In line with this notion, we observed a significant decrease in expression of NMD-inducing genes in SF3B1 mut vs . SF3B1 wt EP cells ( Fig. K ). Lastly, splicing factor mutations observed in CH subjects provide an opportunity to interrogate the downstream impact of SF3B1 mutations prior to development of disease. Like MDS, by applying GoT-splice to CD34+ progenitor cells from SF3B1 mut CH subjects ( n = 9,007 cells across 2 subjects; VAF: [0.15-0.22]; Fig. L ), we revealed increased mutant cell frequency in EP cells ( Fig. M ) with concomitant increased expression of genes involved in mRNA translation ( Fig. N ), consistent with SF3B1 mutation causing mis-splicing injury to translational machinery and ineffective erythropoiesis. Notably, CH patients already exhibited cell-type specific cryptic 3' ss usage in SF3B1 mut cells ( Fig. O ). In summary, we developed a novel multi-omics single-cell toolkit to examine the impact of splicing factor mutations on cellular fitness directly in human samples. With this approach, we showed that, while SF3B1 mutations arise in uncommitted HSCs, their effect on fitness increases with differentiation into committed EPs, in line with the mutant SF3B1 -driven dyserythropoiesis phenotype. We revealed that SF3B1 mutations exert cell-type specific mis-splicing that leads to abnormal erythropoiesis. Finally, we demonstrated that the impact of SF3B1 mutations on EP cells begins before disease onset, as observed in CH subjects. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Dai:  Oxford Nanopore Technologies: Current Employment. Beaulaurier:  Oxford Nanopore Technologies: Current Employment. Drong:  Oxford Nanopore Technologies: Current Employment. Hickey:  Oxford Nanopore Technologies: Current Employment. Juul:  Oxford Nanopore Technologies: Current Employment. Wiseman:  Astex: Research Funding; Novartis: Consultancy; Bristol Myers Squibb: Consultancy; Takeda: Consultancy; StemLine: Consultancy. Harrington:  Oxford Nanopore Technologies: Current Employment. Ghobrial:  AbbVie, Adaptive, Aptitude Health, BMS, Cellectar, Curio Science, Genetch, Janssen, Janssen Central American and Caribbean, Karyopharm, Medscape, Oncopeptides, Sanofi, Takeda, The Binding Site, GNS, GSK: Consultancy. Abdel-Wahab:  H3B Biomedicine: Consultancy, Research Funding; Foundation Medicine Inc: Consultancy; Merck: Consultancy; Prelude Therapeutics: Consultancy; LOXO Oncology: Consultancy, Research Funding; Lilly: Consultancy; AIChemy: Current holder of stock options in a privately-held company, Membership on an entity's Board of Directors or advisory committees; Envisagenics Inc.: Current holder of stock options in a privately-held company, Membership on an entity's Board of Directors or advisory committees.",
+    "author_names": [
+        "Federico Gaiti",
+        "Allegra Hawkins",
+        "Paulina Chamely",
+        "Ariel Swett",
+        "Xiaoguang Dai",
+        "Lloyd Kluegel",
+        "Celine Chen",
+        "John Beaulaurier",
+        "Alex Drong",
+        "Scott Hickey",
+        "Tarek H Mouhieddine",
+        "Franco Izzo",
+        "Neville Dusaj",
+        "Ronan Chaligne",
+        "Sissel Juul",
+        "Daniel H Wiseman",
+        "Eoghan Harrington",
+        "Justin Taylor",
+        "Irene M. Ghobrial",
+        "Omar Abdel-Wahab",
+        "Dan A. Landau"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Federico Gaiti",
+            "author_affiliations": [
+                "Meyer Cancer Center & Institute of Computational Biomedicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Allegra Hawkins",
+            "author_affiliations": [
+                "Meyer Cancer Center & Institute of Computational Biomedicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Paulina Chamely",
+            "author_affiliations": [
+                "Meyer Cancer Center & Institute of Computational Biomedicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ariel Swett",
+            "author_affiliations": [
+                "Meyer Cancer Center & Institute of Computational Biomedicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xiaoguang Dai",
+            "author_affiliations": [
+                "Oxford Nanopore Technologies, New York,"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lloyd Kluegel",
+            "author_affiliations": [
+                "Meyer Cancer Center & Institute of Computational Biomedicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Celine Chen",
+            "author_affiliations": [
+                "Meyer Cancer Center & Institute of Computational Biomedicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John Beaulaurier",
+            "author_affiliations": [
+                "Oxford Nanopore Technologies, San Francisco,"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alex Drong",
+            "author_affiliations": [
+                "Oxford Nanopore Technologies, New York,"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Scott Hickey",
+            "author_affiliations": [
+                "Oxford Nanopore Technologies, San Francisco,"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tarek H Mouhieddine",
+            "author_affiliations": [
+                "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Franco Izzo",
+            "author_affiliations": [
+                "Meyer Cancer Center & Institute of Computational Biomedicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Neville Dusaj",
+            "author_affiliations": [
+                "Meyer Cancer Center & Institute of Computational Biomedicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ronan Chaligne",
+            "author_affiliations": [
+                "Single Cell Research Initiative, Memorial Sloan Kettering Cancer Center, New York, NY"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sissel Juul",
+            "author_affiliations": [
+                "Oxford Nanopore Technologies, New York,"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel H Wiseman",
+            "author_affiliations": [
+                "Haematology, The Christie Hospital NHS Foundation Trust, Manchester, United Kingdom"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eoghan Harrington",
+            "author_affiliations": [
+                "Oxford Nanopore Technologies, New York,"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Justin Taylor",
+            "author_affiliations": [
+                "Sylvester Comprehensive Cancer Center, University of Miami, Miller School of Medicine, Miami, FL"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Irene M. Ghobrial",
+            "author_affiliations": [
+                "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Omar Abdel-Wahab",
+            "author_affiliations": [
+                "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dan A. Landau",
+            "author_affiliations": [
+                "Meyer Cancer Center & Institute of Computational Biomedicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T02:32:06",
+    "is_scraped": "1"
 }
