@@ -1,8 +1,93 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4686",
-    "start_url_page_num": "4686",
     "doi": "https://doi.org/10.1182/blood-2021-152103",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/4645/481661/MDS-and-MDS-MPN-Genomic-Subgroups-Demonstrate?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T13:27:38",
-    "is_scraped": "0"
+    "article_title": "MDS and MDS/MPN Genomic Subgroups Demonstrate Differential E x Vivo Drug Sensitivity ",
+    "article_date": "November 5, 2021",
+    "session_type": "636.Myelodysplastic Syndromes-Basic and Translational",
+    "abstract_text": "Background Myelodysplastic syndromes (MDS) and MDS/MPNs are heterogeneous disorders with various combinations of mutations and cytogenetic abnormalities associated with distinct clinical phenotypes, prognosis, and implications for targeted therapies. We previously demonstrated that ex vivo drug sensitivity screening (DSS) identified subgroups of MDS and MDS/MPNs with differing patterns of sensitivity to various drug classes including hypomethylating agents (HMAs), kinase inhibitors, and other small molecules. In this study, we used hierarchical clustering to identify MDS and MDS/MPN genomic subgroups in a large single-center cohort. We then examined associations between these genomic subgroups and ex vivo sensitivity to various drug classes in a cohort of patients with ex vivo DSS. Methods Patients: We identified 294 patients with MDS or MDS/MPNs who had cytogenetics and HemeSTAMP NGS panel (164 genes) performed at Stanford between June 2018 and June 2021. A separate, partially overlapping cohort of 60 patients had ex vivo DSS as described below. Genomic clusters: We used a hierarchical Dirichlet Process (HDP), incorporating mutations and cytogenetics, to identify genomic subgroups. We included pathogenic and likely pathogenic variants with VAF >2% and excluded variants of unknown significance. Ex vivo DSS: Fresh bone marrow aspirates and peripheral blood specimens were RBC-lysed and resuspended in serum-free media with cytokines (Spinner et al, Blood Adv 2020;4(12):2768-78). Samples were plated in 384-well microtiter plates and screened against a collection of up to 74 drugs and 36 drug combinations in triplicate. Specimens were treated for 72 hours and assayed using flow cytometry to assess for blast viability. Statistical analysis: An HDP model was trained on the cohort of 294 patients. To tune the hyperparameters of the model, the log-likelihood of the test data was optimized using cross validation combined with Gaussian Process Bayesian optimization. Inference using the trained model was performed on 60 patients with ex vivo DSS producing a genomic component distribution for each patient. Jensen-Shannon distance was then computed between each pair of patients using their genomic component distributions. Patients were then clustered via agglomerative clustering (average linkage and using a maximum distance cutoff of 0.5) using this distance matrix. Ex vivo sensitivity to drug classes was then compared across clusters using ANOVA on drug sensitivity per drug class averaged over each patient. Results Patient characteristics: Among all 294 patients, the median age was 73 years, 78% had MDS, 16% had CMML, and 6% had other MDS/MPNs. 45% had >5% blasts and 53% had higher risk disease with IPSS-R >3.5. 94% had at least 1 mutation or cytogenetic abnormality with a median of 2 mutations (range 0-7). Among the 60 patients with ex vivo DSS, the median age was 77 years, 82% had MDS, 18% had CMML or other MDS/MPN, 55% had >5% blasts, and 67% had higher risk disease. Genomic subgroups and clusters: An HDP model trained on all 294 patients identified 16 genomic subgroups. Applying these genomic subgroups to the 60 patients with ex vivo DSS, we identified 12 genomic clusters, of which 6 clusters were most common: cluster 0 (enriched for RUNX1/BCOR mutations, N=6), cluster 1 (enriched for TET2/SRSF2/ASXL1 , N=13), cluster 3 (enriched for DNMT3A , N=8), cluster 6 (enriched for KRAS/NRAS , N=5), cluster 7 (enriched for STAG2/ASXL1 , N=6), and cluster 10 (enriched for TP53 /complex cytogenetics, N=5). Associations between genomic clusters and drug sensitivity: Ex vivo drug sensitivity for 60 patients, organized by genomic cluster, is shown in Figure 1A . Ex vivo sensitivity to various drug classes is shown for the most common clusters in Figure 1B . Cluster 10 (enriched for TP53 /complex cytogenetics) demonstrated greater ex vivo sensitivity to proteasome inhibitors (p=0.018). In Cluster 6 (enriched for NRAS/KRAS ), there was a trend towards greater ex vivo resistance to HMAs and PARP inhibitors (p=0.1 for both comparisons). Conclusions Hierarchical clustering identified distinct genomic subgroups of MDS and MDS/MPNs, which displayed differing ex vivo sensitivity to various drug classes. While the small sample size limits our analysis, these associations between genotype and drug sensitivity phenotype are hypothesis generating and have potential implications for personalized therapy in MDS and MDS/MPNs. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Spinner:  Notable Labs: Honoraria. Schaffert:  Notable Labs: Consultancy, Current holder of stock options in a privately-held company, Ended employment in the past 24 months. Santaguida:  Notable Labs: Consultancy, Current holder of individual stocks in a privately-held company. Kita:  Notable Labs: Current Employment, Current holder of stock options in a privately-held company. Aleshin:  Notable Labs: Consultancy. Greenberg:  Notable Labs: Research Funding.",
+    "author_names": [
+        "Michael A Spinner",
+        "Steven A Schaffert",
+        "Henning Stehr",
+        "Marianne T Santaguida",
+        "Ryosuke Kita",
+        "Alexey Aleshin",
+        "James L Zehnder",
+        "Peter L. Greenberg"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Michael A Spinner",
+            "author_affiliations": [
+                "Division of Oncology, Department of Medicine, Stanford University Medical Center, Stanford, CA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Steven A Schaffert",
+            "author_affiliations": [
+                "Notable Labs, Foster City, CA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Henning Stehr",
+            "author_affiliations": [
+                "Department of Pathology, Stanford University Medical Center, Stanford, CA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marianne T Santaguida",
+            "author_affiliations": [
+                "Notable Labs, Foster City, CA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ryosuke Kita",
+            "author_affiliations": [
+                "Notable Labs, Foster City, CA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexey Aleshin",
+            "author_affiliations": [
+                "Division of Hematology, Department of Medicine, Stanford University Medical Center, Stanford, CA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "James L Zehnder",
+            "author_affiliations": [
+                "Department of Pathology, Stanford University School of Medicine, Stanford, CA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter L. Greenberg",
+            "author_affiliations": [
+                "Stanford Cancer Institute, Division of Hematology, Stanford University School of Medicine, Stanford, CA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T06:43:08",
+    "is_scraped": "1"
 }
