@@ -1,8 +1,103 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4706",
-    "start_url_page_num": "4706",
     "doi": "https://doi.org/10.1182/blood-2021-153763",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3934/482206/Predictive-Model-and-Factors-of-Relapse-after?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T13:44:21",
-    "is_scraped": "0"
+    "article_title": "Predictive Model and Factors of Relapse after Allogeneic Stem Cell Transplantation in Adults with Ph-Positive Acute Lymphoblastic Leukemia ",
+    "article_date": "November 5, 2021",
+    "session_type": "723.Allogeneic Transplantation: Long-term Follow-up and Disease Recurrence",
+    "abstract_text": "Background:  Relapses after allo-HSCT remain an unsolved problem in Ph-positive acute lymphoblastic leukemia (ALL) patients, especially in patients with detectable BCR/ABL levels prior to allogeneic stem cell transplantation (allo-HSCT). Majority of centers make efforts to manage with it by preemptive or prophylactic administration of TKIs after allo-HSCT. However, the risk factors in this setting are yet to be determined. Moreover, persistence of minimal residual disease (MRD) after induction plays a critical role in relapse probability, but its fluctuation after transplant in the context of TKIs application is still a question. The aim of this study is to apply modern machine-learning approaches for building relapse predicting models and testing variable importance. Patients and methods: This study analyses the data in retrospective cohort of 74 Ph-positive ALL patients with posttransplant BCR/ABL expression levels available at different time intervals with median age of 30,5 years (range, 18-55), in whom allo-HSCT were performed between 2008 and 2021. Patient characteristics and features of the disease are presented in Table 1. For the analysis, all TKIs were divided into 2 groups TKIs1 - imatinib, TKIs2 - other TKIs, regardless of generation. Machine learning models were developed using R programming language and Caret package. The dependent variable was relapse after prediction moment, the following independent variable features were used: time intervals between allo-HSCT and prediction moment, BCR/ABL expression level at prediction moment, therapy after allo-HSCT (TKIs1 or TKIs2), the highest BCR/ABL expression level before prediction moment, chronic \u00abgraft-versus-host\u00bb disease (GvHD) before prediction for the patients, who reached D+100 after allo-HSCT. Results: At the time of analysis median follow-up was 26 months (range, 1-116). 5-year OS and EFS were 67,1% (95% CI 54,2 - 80) and 55,1% (95% CI 42,5 - 68,3), respectively, whereas 5-year cumulative incidence of relapse was 46,1% (95% CI 26,2 - 66) for MRD-positive prior to allo-HSCT patients, compared to 24,1% (95% CI 6,9-41,3) for MRD-negative patients ( \u0440 =0,04). The resulting ROC-curve for 3 most effective classification models is given in figure 1A. As one can see Gradient Boosting Method (GBM) provided maximal AUC score (0.88). For this a decision-making threshold may be adjusted for obtaining Specificity = 0.75, Sensitivity = 0.88. Variable importance plot (figure 1B) showed that the highest BCR/ABL level, prediction moment, chronic GvHD and current BCR/ABL level have the strongest importance, while preceding therapy turned out to be less significant factor. In fact, exclusion of TKIs type almost did not affect the ROC curves. In GBM model AUC still demonstrated appropriate level of 0.87. When analyzing the model accuracy, false-negative rate (FNR) and false-positive rate (FPR) errors were estimated for the three ranges of prediction moments (figure 1C). It was shown that after D+100 both error rates don't exceed 22%, while before D+100 the model fails to make accurate prediction based on the independent variables used. Conclusions: Using independent factors, we built the model for both bone marrow and extramedullary relapses prediction after allo-HSCT with high sensitivity and reasonable specificity based on the relatively small group of patients. According to the predicting model, we confirm, that a high level of BCR/ABL at any time point after allo-HSCT is the most significant predictor of relapse, which may indicate the presence of subclones of cells that cause resistance to chemotherapy or TKIs. The BCR/ABL MRD levels before D+100 have low predictive ability for early relapses, which may develop rapidly without MRD phase. At the same time, BCR/ABL levels relatively accurate predict relapses after D+100 with ongoing TKI prophylaxis. The absence of chronic GvHD is an important independent factor influencing the risk of relapse. This means that for high-risk patients, approaches to induce a \u00abgraft-versus-leukemia\u00bb effect should be considered. In addition, prophylactic use of monoclonal antibodies in combination with TKIs may be considered to prevent relapse in the absence of chronic GvHD in high-risk patients. In summary, we believe that verification of this model on a multicenter group of patients is required to facilitate its clinical application. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Kulagin:  Pfizer: Speakers Bureau; Johnson & Johnson: Speakers Bureau; Alexion: Research Funding; Roche: Speakers Bureau; Novartis: Speakers Bureau; Generium: Speakers Bureau; Sanofi: Speakers Bureau; Apellis: Research Funding; Biocad: Research Funding; X4 Pharmaceuticals: Research Funding.",
+    "author_names": [
+        "Kseniia S. Afanaseva",
+        "Evgeny A. Bakin",
+        "Olga V. Pirogova",
+        "Elena V. Morozova",
+        "Ildar M. Barkhatov",
+        "Anna G. Smirnova",
+        "Sergey N. Bondarenko",
+        "Ivan S. Moiseev",
+        "Alexander D. Kulagin"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Kseniia S. Afanaseva",
+            "author_affiliations": [
+                "RM Gorbacheva Research Institute, Pavlov University, Saint-Petersburg, Russian Federation"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Evgeny A. Bakin",
+            "author_affiliations": [
+                "RM Gorbacheva Research Institute, Pavlov University, Saint-Petersburg, Russian Federation"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Olga V. Pirogova",
+            "author_affiliations": [
+                "RM Gorbacheva Research Institute, Pavlov University, Saint-Petersburg, Russian Federation"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elena V. Morozova",
+            "author_affiliations": [
+                "RM Gorbacheva Research Institute, Pavlov University, Saint-Petersburg, Russian Federation"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ildar M. Barkhatov",
+            "author_affiliations": [
+                "RM Gorbacheva Research Institute, Pavlov University, Saint- Petersburg, Russian Federation"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anna G. Smirnova",
+            "author_affiliations": [
+                "RM Gorbacheva Research Institute, Pavlov University, Saint-Petersburg, Russian Federation"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sergey N. Bondarenko",
+            "author_affiliations": [
+                "RM Gorbacheva Research Institute, Pavlov University, Saint-Petersburg, Russian Federation"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ivan S. Moiseev",
+            "author_affiliations": [
+                "RM Gorbacheva Research Institute, Pavlov University, Saint-Petersburg, Russian Federation"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexander D. Kulagin",
+            "author_affiliations": [
+                "RM Gorbacheva Research Institute, Pavlov University, Saint-Petersburg, Russian Federation"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T13:05:02",
+    "is_scraped": "1"
 }

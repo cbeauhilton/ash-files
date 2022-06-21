@@ -1,8 +1,453 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4702",
-    "start_url_page_num": "4702",
     "doi": "https://doi.org/10.1182/blood-2021-149521",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/4041/482159/Harmony-Alliance-Provides-a-Machine-Learning?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T13:44:05",
-    "is_scraped": "0"
+    "article_title": "Harmony Alliance Provides a Machine Learning Researching Tool to Predict the Risk of Relapse after First Remission in AML Patients Treated without Allogeneic Haematopoietic Stem Cell Transplantation ",
+    "article_date": "November 5, 2021",
+    "session_type": "903.Health Services Research-Myeloid Malignancies",
+    "abstract_text": "Background : The decision to perform allogeneic haematopoietic stem cell transplantation (alloHSCT) in acute myeloid leukemia (AML) is based on the risk-benefit ratio (non relapse mortality vs reduction of relapse risk). In 2017, the European LeukemiaNet (ELN) proposed a risk score based on cytogenetic and molecular genetic characteristics to facilitate this decision. Despite this improved classification of the genetic landscape of AML, the assessment of risk of relapse should be more precise. However, large cohorts are needed to analyze the clinical outcome of specific genetic alterations. Within the HARMONY alliance, we have now collected harmonized clinical and analytical data for a large number of AML patients. Aims: This study focuses on AML patients who achieved first complete remission (CR1) that, according to ELN risk (low/intermediate) assessment are not classical candidates for alloHSCT as consolidation therapy. The aim of this study is to create a more accurate risk prediction in this setting based on an on-line tool that can visualize the likelihood of relapse and thereby help to determine in which patient alloHSCT should be performed in CR1. Methods: The data included in the HARMONY alliance database was provided by 100 organisations in 18 European countries. In order to be accepted, they passed through quality control, anonymisation and harmonisation processes before being included in the database. Harmonisation is carried out according to the Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM), which is specially designed to accommodate both administrative claims and medical records, making it possible to bring together all the information from different data sources and to speed up its subsequent analysis. Through the analysis platform, we selected patients from the ~5700 patients available that matched the target population of the study. We filtered out those patients without sufficient information on their clinical course, those who did not achieve complete remission and patients with a poor prognosis (adverse risk according to ELN2017), as the study focuses on patients who a priori did not have an indication for alloHSCT. This process resulted in a sample of 842 patients. In the next steps, variable selection was performed together with the treatment of incomplete cases by imputation. Multiple Machine Learning (ML) techniques, both parametric and non-parametric, were tested for predictions (Random Forest, Weibull distribution), all of them taking into account censored data. Other sets of methods were applied to explain the information handled by the previous models and to present graphically, for each prediction, a breakdown of the influence that each feature had on that prediction. Validation of the results is being performed both by testing by medical specialists and by means of statistical indicators, such as Harrell's index. Results: The study population of 842 AML patients included 47% females and the median age was 49 years. The most frequent mutation was NPM1 (50%), followed by DNMT3A (31%) and NRAS (26%). The tool first displays a panel in which characteristics such as age, gender, and possible mutations and cytogenetic abnormalities are selected from a list based on information in the HARMONY database. Once the desired profile has been selected, graphical results are provided: 1). the probability of Relapse-Free Survival (RFS) over time. In parallel, as a reference, the probability of RFS of patients corresponding to each category of the ELN2017 can be seen. 2). a breakdown of the relative weight of each feature in the model at a specific time point, as well as the positive/negative effect that the presence/absence of these features has on the prognostic factor of relapse, adapting all this information in each individual simulation. This preliminary research tool can integrate new data and be expanded with new tools to provide useful results in a simple and accessible way. Conclusion: Building big data platforms, such as the HARMONY Alliance, are absolutely essential to facilitate the creation of tools to support research and ultimately clinical practice. Big data analysis should be considered a very useful field in disease research and it is necessary to share the results with easy-to-use tools that are available at all times. This new ML tool for AML aims to achieve these goals through its simple design and its implementation in mobile devices. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Sobas:  Novartis: Consultancy, Honoraria; Celgene: Consultancy, Honoraria. Heckman:  Kronos Bio, Inc.: Research Funding; Oncopeptides: Consultancy, Research Funding; Novartis: Research Funding; Orion Pharma: Research Funding; Celgene/BMS: Research Funding. Dombret:  Amgen: Honoraria, Research Funding; Incyte: Honoraria, Research Funding; Jazz Pharmaceuticals: Honoraria, Research Funding; Novartis: Research Funding; Pfizer: Honoraria, Research Funding; Servier: Research Funding; Abbvie: Honoraria; BMS-Celgene: Honoraria; Daiichi Sankyo: Honoraria. Sierra:  Jazz Pharmaceuticals: Research Funding; Astellas: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; Amgen: Other: Educational grant; BMS Celgene: Honoraria, Research Funding; Alexion: Other: Educational grant; Novartis: Honoraria, Research Funding, Speakers Bureau; Abbvie: Honoraria, Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Roche: Other: Educational grant; Janssen: Other: Educational grant; Pfizer: Honoraria. Mayer:  Principia: Research Funding. Voso:  Celgene: Consultancy, Research Funding, Speakers Bureau; Novartis: Speakers Bureau. Sanz:  Takeda: Consultancy, Membership on an entity's Board of Directors or advisory committees, Other: Travel, accommodations, and expenses, Speakers Bureau; Gilead Sciences: Other: Travel, accommodations, and expenses; Novartis: Consultancy, Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Boehringer Ingelheim: Consultancy, Membership on an entity's Board of Directors or advisory committees; Amgen: Consultancy, Membership on an entity's Board of Directors or advisory committees; Roche: Consultancy, Membership on an entity's Board of Directors or advisory committees, Other: Travel, accommodations, and expenses; Helsinn Healthcare: Consultancy, Membership on an entity's Board of Directors or advisory committees; Janssen: Consultancy, Membership on an entity's Board of Directors or advisory committees; Abbvie: Consultancy, Membership on an entity's Board of Directors or advisory committees; Celgene: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Other: Travel, accommodations, and expenses, Research Funding. Calado:  Novartis: Current Employment. D\u00f6hner:  Celgene/BMS: Consultancy, Honoraria, Research Funding; Daiichi Sankyo: Honoraria, Other: Advisory Board; Astellas: Research Funding; Jazz Roche: Consultancy, Honoraria; Agios and Astex: Research Funding; Abbvie: Consultancy, Honoraria; Janssen: Honoraria, Other: Advisory Board; Novartis: Consultancy, Honoraria, Research Funding. Gaidzik:  Abbvie: Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Pfizer: Speakers Bureau; Janssen: Speakers Bureau. Heuser:  Jazz Pharmaceuticals: Consultancy, Honoraria, Other: Research funding for institution; Janssen: Honoraria; Novartis: Consultancy, Honoraria, Other: Research funding for institution; Abbvie: Consultancy; BMS/Celgene: Consultancy; Daiichi Sankyo: Consultancy, Other: Research funding for institution; Pfizer: Consultancy, Other: Research funding for institution; Roche: Consultancy, Other: Research funding for institution; Tolremo: Consultancy; Astellas: Other: Research funding for institution; Bayer Pharma AG: Other: Research funding for institution; BergenBio: Other: Research funding for institution; Karyopharm: Other: Research funding for institution. Haferlach:  MLL Munich Leukemia Laboratory: Other: Part ownership. Turki:  CSL Behring: Consultancy; MSD: Consultancy, Speakers Bureau; Jazz Pharma: Consultancy, Speakers Bureau. Reinhardt:  Astellas Pharma Inc.: Research Funding; Eusa: Other: Advisory board; Novartis: Other: Advisory board; BluebirdBio: Other: Advisory board; Janssen: Other: Advisory board; Abbvie: Other: Advisory board; JAZZ: Other: Advisory board; BMS: Other: Advisory board. Schulze-Rath:  Bayer: Current Employment. Dohner:  Berlin-Chemie: Honoraria; Bristol Myers Squibb: Honoraria, Research Funding; Celgene: Honoraria, Research Funding; GEMoaB: Honoraria; Gilead: Honoraria; Helsinn: Honoraria; Janssen: Honoraria; Jazz Pharmaceuticals: Honoraria, Research Funding; Novartis: Honoraria, Research Funding; Oxford Biomedica: Honoraria; Pfizer: Research Funding; Roche: Honoraria; AstraZeneca: Honoraria; Astex Pharmaceuticals: Honoraria; Astellas: Honoraria, Research Funding; Amgen: Honoraria, Research Funding; Agios: Honoraria, Research Funding; Abbvie: Honoraria, Research Funding. Ossenkoppele:  Abbvie, AGIOS, BMS/Celgene Astellas,AMGEN, Gilead,Servier,JAZZ,Servier Novartis: Consultancy, Honoraria; Agios: Consultancy, Honoraria; BMS/Celgene: Consultancy, Honoraria; Astellas: Consultancy, Honoraria; Gilead: Consultancy, Honoraria; Servier: Consultancy, Honoraria; Jazz: Consultancy, Honoraria. Bullinger:  Pfizer: Consultancy, Honoraria; Novartis: Consultancy, Honoraria; Menarini: Consultancy; Jazz Pharmaceuticals: Consultancy, Honoraria, Research Funding; Janssen: Consultancy, Honoraria; Astellas: Honoraria; Sanofi: Honoraria; Seattle Genetics: Honoraria; Bayer: Research Funding; Amgen: Honoraria; Daiichi Sankyo: Consultancy, Honoraria; Abbvie: Consultancy, Honoraria; Bristol-Myers Squibb: Consultancy, Honoraria; Gilead: Consultancy; Celgene: Consultancy, Honoraria; Hexal: Consultancy. Hern\u00e1ndez-Rivas:  Amgen: Honoraria, Membership on an entity's Board of Directors or advisory committees; Pfizer: Honoraria, Membership on an entity's Board of Directors or advisory committees; Celgene/BMS: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Novartis: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding.",
+    "author_names": [
+        "Marta Sobas",
+        "Javier Martinez Elicegui",
+        "Angela Villaverde Ramiro",
+        "Teresa Gonz\u00e1lez",
+        "Alberto Hernandez-Sanchez",
+        "Ra\u00fal Azibeiro Melchor",
+        "Axel Benner",
+        "Eric Str\u00e4ng",
+        "Castellani Gastone",
+        "Caroline A. Heckman",
+        "Ana Heredia Casanoves",
+        "Jurjen Versluis",
+        "Mar\u00eda Ab\u00e1igar",
+        "Laura Jamilis",
+        "Peter JM Valk",
+        "Klaus H. Metzeler",
+        "Rosa Ayala",
+        "Joaquin Martinez Lopez",
+        "Herv\u00e9 Dombret",
+        "Jorge Sierra",
+        "Claude Preudomme",
+        "Frederick Damm",
+        "Ken I Mills",
+        "Ji\u0159\u00ed Mayer",
+        "Christian Thiede",
+        "Maria Teresa Voso",
+        "Sergio Amadori",
+        "Guillermo Sanz",
+        "Frederico Calado",
+        "Konstanze D\u00f6hner",
+        "Verena I Gaidzik",
+        "Michael Heuser",
+        "Torsten Haferlach",
+        "Amin T. Turki",
+        "Dirk Reinhardt",
+        "Rub\u00e9n Villoria Medina",
+        "Michel Van Speybroeck",
+        "Renate Schulze-Rath",
+        "John E Butler",
+        "Brian J.P Huntly",
+        "Hartmut Dohner",
+        "Gert J. Ossenkoppele",
+        "Lars Bullinger",
+        "Jesus Maria Hern\u00e1ndez-Rivas"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Marta Sobas",
+            "author_affiliations": [
+                "Department of Hematology, Blood Neoplasm and Bone Marrow Transplantation, Wroclaw Medical University, Wroclaw, Poland"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Javier Martinez Elicegui",
+            "author_affiliations": [
+                "Molecular Genetics in Oncohematology, Institute for Biomedical Research of Salamanca (IBSAL), Salamanca, Spain"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Angela Villaverde Ramiro",
+            "author_affiliations": [
+                "Molecular Genetics in Oncohematology, Institute for Biomedical Research of Salamanca (IBSAL), Salamanca, Spain"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Teresa Gonz\u00e1lez",
+            "author_affiliations": [
+                "Molecular Genetics in Oncohematology, Institute of Biomedical Research of Salamanca (IBSAL) - Cancer Research Center of Salamanca (USAL-CSIC), Salamanca, Spain"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alberto Hernandez-Sanchez",
+            "author_affiliations": [
+                "Department of Hematology, University Hospital of Salamanca, Institute of Biomedical Research of Salamanca (IBSAL), Cancer Research Center, Salamanca, Spain"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ra\u00fal Azibeiro Melchor",
+            "author_affiliations": [
+                "Department of Hematology, University Hospital of Salamanca, Institute of Biomedical Research of Salamanca (IBSAL), Cancer Research Center, Salamanca, Spain"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Axel Benner",
+            "author_affiliations": [
+                "German Cancer Research Center, Heidelberg, DEU"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eric Str\u00e4ng",
+            "author_affiliations": [
+                "Department of Hematology, Oncology and Tumor Immunology, Charit\u00e9 University Medicine Berlin, Berlin, Germany"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Castellani Gastone",
+            "author_affiliations": [
+                "Department of Experimental, Diagnostic and Specialty Medicine - DIMES, University of Bologna, Bologna, Italy"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Caroline A. Heckman",
+            "author_affiliations": [
+                "Institute for Molecular Medicine Finland, University of Helsinki, Helsinki, Finland"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ana Heredia Casanoves",
+            "author_affiliations": [
+                "GMV Innovating Solutions, Valencia, Spain"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jurjen Versluis",
+            "author_affiliations": [
+                "Department of Hematology, Erasmus University Medical Center Cancer Institute, Rotterdam, Netherlands"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mar\u00eda Ab\u00e1igar",
+            "author_affiliations": [
+                "Molecular Genetics in Oncohematology, Institute of Biomedical Research of Salamanca (IBSAL) - Cancer Research Center of Salamanca (USAL-CSIC), Salamanca, Spain"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laura Jamilis",
+            "author_affiliations": [
+                "GMV Innovating Solutions, Valencia, Spain"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter JM Valk",
+            "author_affiliations": [
+                "Department of Hematology, Erasmus University Medical Center, Rotterdam, Netherlands"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Klaus H. Metzeler",
+            "author_affiliations": [
+                "Department of Medicine III, University Hospital, LMU Munich, Munich, Germany"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rosa Ayala",
+            "author_affiliations": [
+                "Department of Hematology, Hospital Universitario 12 de Octubre, Madrid, Spain"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joaquin Martinez Lopez",
+            "author_affiliations": [
+                "Department of Hematology, Hospital Universitario 12 de Octubre, Madrid, Spain"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Herv\u00e9 Dombret",
+            "author_affiliations": [
+                "Division of Hematology, EA3518 Saint-Louis Institute for Research, H\u00f4pital Saint-Louis, APHP, University of Paris, Paris, France, Paris, France"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jorge Sierra",
+            "author_affiliations": [
+                "Hematology Department, Hospital de la Santa Creu i Sant Pau, Barcelona, Spain"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Claude Preudomme",
+            "author_affiliations": [
+                "University Hospital, Lille, France"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Frederick Damm",
+            "author_affiliations": [
+                "Hematology, Oncology, and Tumorimmunology, Charit\u00e9 - Universit\u00e4tsmedizin Berlin, Berlin, Germany"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ken I Mills",
+            "author_affiliations": [
+                "Patrick G Johnston Centre for Cancer Research, Queens University Belfast, Belfast, United Kingdom"
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ji\u0159\u00ed Mayer",
+            "author_affiliations": [
+                "Department of Internal Medicine Hematology and Oncology, University Hospital Brno and Masaryk University, Brno, Czech Republic"
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christian Thiede",
+            "author_affiliations": [
+                "Department of Internal Medicine I, University Hospital Carl Gustav Carus, Dresden, Germany"
+            ],
+            "author_rank": 25,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maria Teresa Voso",
+            "author_affiliations": [
+                "Dipartimento di Biopatologia e Diagnostica per Immagini, University of Rome Tor Vergata, Rome, Italy"
+            ],
+            "author_rank": 26,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sergio Amadori",
+            "author_affiliations": [
+                "Department of Biomedicine and Prevention, University of Rome, Tor Vergata, Rome, Italy"
+            ],
+            "author_rank": 27,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Guillermo Sanz",
+            "author_affiliations": [
+                "Hospital Universitario y Polit\u00e9cnico La Fe, Valencia, Spain"
+            ],
+            "author_rank": 28,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Frederico Calado",
+            "author_affiliations": [
+                "Novartis, Oncology Region Europe, Basel, Switzerland"
+            ],
+            "author_rank": 29,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Konstanze D\u00f6hner",
+            "author_affiliations": [
+                "University Hospital of Ulm, Ulm, Germany"
+            ],
+            "author_rank": 30,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Verena I Gaidzik",
+            "author_affiliations": [
+                "Internal Medicine III, University Hospital of Ulm, Ulm, Germany"
+            ],
+            "author_rank": 31,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Heuser",
+            "author_affiliations": [
+                "Department of Hematology,Hemostasis, Oncology and Stem Cell Transplantation, Hannover Medical School, Hannover, Germany"
+            ],
+            "author_rank": 32,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Torsten Haferlach",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 33,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amin T. Turki",
+            "author_affiliations": [
+                "Department of Hematology and Stem Cell Transplantation, University Hospital of Essen, West-German Cancer Center, Germany, Essen, Germany"
+            ],
+            "author_rank": 34,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dirk Reinhardt",
+            "author_affiliations": [
+                "Pediatric Hematology & Oncology, University Hospital of Essen, Essen, Germany"
+            ],
+            "author_rank": 35,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rub\u00e9n Villoria Medina",
+            "author_affiliations": [
+                "GMV Innovating Solutions, Valencia, Spain"
+            ],
+            "author_rank": 36,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michel Van Speybroeck",
+            "author_affiliations": [
+                "Data Sciences, Janssen Pharmaceutica N.V., Beerse, Belgium"
+            ],
+            "author_rank": 37,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Renate Schulze-Rath",
+            "author_affiliations": [
+                "Bayer Pharma AG, Berlin, Germany"
+            ],
+            "author_rank": 38,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John E Butler",
+            "author_affiliations": [
+                "Bayer Innovation GmbH, Duesseldorf, DEU"
+            ],
+            "author_rank": 39,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brian J.P Huntly",
+            "author_affiliations": [
+                "Department of Haematology, University of Cambridge, Cambridge, United Kingdom"
+            ],
+            "author_rank": 40,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hartmut Dohner",
+            "author_affiliations": [
+                "Department of Internal Medicine III, University Hospital of Ulm, Ulm, Germany"
+            ],
+            "author_rank": 41,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gert J. Ossenkoppele",
+            "author_affiliations": [
+                "Department of Hematology, Amsterdam UMC, VU University Medical Center, Cancer Center Amsterdam, Amsterdam, Netherlands"
+            ],
+            "author_rank": 42,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lars Bullinger",
+            "author_affiliations": [
+                "Department of Hematology, Oncology and Tumorimmunology, Charite University Berlin, Berlin, Germany"
+            ],
+            "author_rank": 43,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jesus Maria Hern\u00e1ndez-Rivas",
+            "author_affiliations": [
+                "Department of Hematology, University Hospital of Salamanca, Institute of Biomedical Research of Salamanca (IBSAL), Cancer Research Center, Salamanca, Spain"
+            ],
+            "author_rank": 44,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T13:00:35",
+    "is_scraped": "1"
 }

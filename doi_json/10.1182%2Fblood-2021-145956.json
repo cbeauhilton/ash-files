@@ -1,8 +1,114 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4707",
-    "start_url_page_num": "4707",
     "doi": "https://doi.org/10.1182/blood-2021-145956",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/615/479968/Inhibition-of-Pre-BCR-Signaling-Mediates-a?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T13:44:25",
-    "is_scraped": "0"
+    "article_title": "Inhibition of Pre-BCR Signaling Mediates a Metabolic Switch in B-Cell Progenitor Acute Lymphoblastic Leukemia ",
+    "article_date": "November 5, 2021",
+    "session_type": "618.Acute Lymphoblastic Leukemias: Biomarkers, Molecular Markers and Minimal Residual Disease in Diagnosis and Prognosis",
+    "abstract_text": "Despite improvements in overall survival for children with B-cell progenitor acute lymphoblastic leukemia (BCP-ALL), it remains the second-leading cause of cancer related death in children with approximately 200 deaths per year in the U.S. Thus, there remains a critical need for a definitive cure to prevent relapse for patients with BCP ALL. The accumulation of BCP ALL blasts results from the disruption of normal developmental checkpoints. One of these checkpoints, as pro-B cells transition to become pre-B cells, involves surface expression of the precursor-B-cell receptor (pre-BCR). Prior work has categorized BCP ALL into pre-BCR positive and pre-BCR negative subtypes based on the protein expression of Ig light chain and active signaling of SRC family kinases, SYK, BTK. Combining single cell analysis and machine learning, we previously identified pre-B cells with activation of pre-BCR signaling, namely CREB, 4EBP1, rpS6 and SYK, that are present at diagnosis and highly predictive of relapse. We call these relapse predictive cells. Relapse predictive cells were enriched in relapse samples, demonstrating their persistence from diagnosis to relapse and making them an actionable target to prevent relapse altogether. To better understand relapse predictive cells, we enriched pre-B cells from patients with known relapse status and performed whole transcriptome sequencing. Relapse predictive cells demonstrated significant upregulation of genes in the oxidative phosphorylation (OXPHOS), glycolysis, and reactive oxygen species (ROS) pathways compared to pre-B-like leukemia cells from patients who will not go on to relapse. Analysis of public genome-wide CRISPR screen datasets in 2 pre-BCR+ and 4 pre-BCR- cell lines found 69 essential genes uniquely present in pre-BCR+ cell lines, related to mitochondria translation, OXPHOS and TCA cycle pathway. We performed CRISPR knock down of proximal pre-BCR related tyrosine kinase SYK in pre-BCR+ (Nalm6, Kasumi-2) and pre-BCR- (697, REH, SUPB15) cell lines to understand how activated pre-BCR impacts cellular metabolism in pre-BCR+ and pre-BCR- cells. CyTOF analysis of pre-BCR signaling demonstrated effective inhibition of downstream pre-BCR pathway members in the KD cells (pSYK, pBLNK, pBTK). RNA sequencing demonstrated upregulation of mitochondrial translation and OXPHOS pathways with downregulation of hypoxia pathways in pre-BCR+ but not pre-BCR- SYK KD cells. Functional extracellular flux experiments by Seahorse confirmed pre-BCR+ SYK KD cells to have higher basal oxygen consumption rate (OCR) and lower extracellular acidification rate (ECAR) compared to wild-type pre-BCR+ cells, indicating a switch from highly glycolytic to aerobic metabolism. To determine the interplay between pre-BCR signaling and cellular metabolism at the single cell level, we performed CYTOF with a panel examining pre-BCR pathway members, developmental phenotype and metabolism in these cell lines as well as matched diagnosis-relapse patient-derived xenografts. These results indicate, in line with the RNA sequencing and Seahorse data, that inhibiting pre-BCR signaling is accompanied by inhibition of glycolysis with lower protein expression of glycolytic related enzymes HIF1A, GLUT1, PFKFB4, GAPDH, ENO1 and LDHA. Further, we observed in cells completely deficient in the ability to initiate pre-BCR signal (SYK knock out), activated p4EBP1 indicating signaling feedback from the PI3K-AKT pathway and a metabolic adaption indicating utilization of energy sources other than glucose in cells surviving SYK loss. Finally, to determine the impact of loss of pre-BCR signaling on proliferation, in vitro competition assays demonstrated SYK KD cells to be less proliferative in all the cell lines except pre-BCR- cell line 697. In vivo , SYK KO demonstrated significantly slower engraftment (median %hCD45: 84% vs 54%, P=0.009) in NSG mice and significantly longer survival time than the mice xenografted with wild-type cells (median survival 28 vs 39 days, P=0.0004). Together, our data indicate that individual BCP ALL cells with active pre-BCR signaling are associated with relapse and that these cells have a unique metabolic state that relies on active glycolysis and metabolic flexibility supporting proliferation in vitro as well as engraftment and aggressivity in vivo . Further metabolomics experiments and characterization of primary patient samples are underway. Disclosures Mullighan:  Pfizer: Research Funding; Illumina: Membership on an entity's Board of Directors or advisory committees; AbbVie: Research Funding; Amgen: Current equity holder in publicly-traded company. Davis:  Novartis Pharmaceuticals: Honoraria; Jazz Pharmaceuticals: Research Funding.",
+    "author_names": [
+        "Yuxuan Liu",
+        "Lucille Stuani",
+        "Dorra Jedoui",
+        "Milton Merchant",
+        "Astraea Jager",
+        "Jolanda Sarno",
+        "Charles G. Mullighan",
+        "Felix J. Hartmann",
+        "Sean Bendall",
+        "Kara L. Davis"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Yuxuan Liu",
+            "author_affiliations": [
+                "Bass Center for Childhood Cancer and Blood Disorders, Department of Pediatrics, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lucille Stuani",
+            "author_affiliations": [
+                "Bass Center for Childhood Cancer and Blood Disorders, Department of Pediatrics, Stanford University, Stanford, CA",
+                "Cancer Research Center of Toulouse, Inserm, Toulouse, France"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dorra Jedoui",
+            "author_affiliations": [
+                "Bass Center for Childhood Cancer and Blood Disorders, Department of Pediatrics, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Milton Merchant",
+            "author_affiliations": [
+                "Bass Center for Childhood Cancer and Blood Disorders, Department of Pediatrics, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Astraea Jager",
+            "author_affiliations": [
+                "Bass Center for Childhood Cancer and Blood Disorders, Department of Pediatrics, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jolanda Sarno",
+            "author_affiliations": [
+                "Bass Center for Childhood Cancer and Blood Disorders, Department of Pediatrics, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Charles G. Mullighan",
+            "author_affiliations": [
+                "Department of Pathology, St. Jude Children's Research Hospital, Memphis, TN"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Felix J. Hartmann",
+            "author_affiliations": [
+                "Department of Pathology, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sean Bendall",
+            "author_affiliations": [
+                "Department of Pathology, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kara L. Davis",
+            "author_affiliations": [
+                "Bass Center for Childhood Cancer and Blood Disorders, Department of Pediatrics, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T13:06:01",
+    "is_scraped": "1"
 }
