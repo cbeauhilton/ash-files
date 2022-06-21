@@ -1,8 +1,137 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4871",
-    "start_url_page_num": "4871",
     "doi": "https://doi.org/10.1182/blood-2021-150964",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/37/477479/Noninvasive-Cell-of-Origin-Classification-of?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T20:42:00",
-    "is_scraped": "0"
+    "article_title": "Noninvasive Cell-of-Origin Classification of Diffuse Large B-Cell Lymphoma Using Inferred Gene Expression from Cell-Free DNA Sequencing ",
+    "article_date": "November 5, 2021",
+    "session_type": "621.Lymphomas: Translational-Molecular and Genetic",
+    "abstract_text": "Background Diffuse large B-cell lymphoma (DLBCL) is a genetically and clinically heterogeneous disease. The cell-of-origin (COO) classification subdivides DLBCL into the transcriptionally defined activated B-cell (ABC) and germinal center B-cell (GCB) subtypes. While RNA based methods are considered the gold standard to determine COO, they are rarely used in clinical routine due to logistical and methodological challenges. Alternatives include the immunohistochemistry-based Hans algorithm and classifiers to infer the COO subtype from DNA sequencing [Esfahani et al., Blood 2019]. Despite the undisputed value of these methods, the concordance with the gold standard RNA and their prognostic implication are limited. We have recently shown that expression of individual genes can be inferred from cfDNA fragmentation patterns using a method called EPIC-Seq (EPigenetic expression Inference from Cell-free DNA Sequencing) [Esfahani et al., Cancer Res. 2020]. We therefore reasoned that EPIC-Seq may improve COO classification compared to other non-RNA methods. Methods A gene expression model, using cfDNA fragmentation patterns, was trained using leukocyte RNA-sequencing and deep whole genome profiling of the plasma cell-free DNA of an individual with no evidence of circulating disease. The trained model takes two features into account to infer gene expression: 1. promoter fragmentation entropy (PFE), and 2. normalized coverage at the nucleosome-depleted region of a given transcription start site (TSS). We then used a capture panel targeting TSS specifically designed for EPIC-Seq. We selected genes based on their power to discriminate COO subtypes in tumor RNA sequencing [Schmitz et al., NEJM 2018]. We first developed a classifier to distinguish DLBCL cases from healthy plasma using the inferred gene expression. Moreover, we defined GCB and ABC signature scores as the average inferred expression of a set of 'GCB genes' (n=34) and 'ABC genes' (n=34), respectively. Finally, we defined the COO score as the difference between the GCB and ABC scores. To validate our assay and method, we profiled 71 plasma samples from 68 healthy individuals and 90 pretreatment plasma samples from patients with large B-cell lymphomas using EPIC-Seq. Results We first evaluated the performance of the EPIC-Seq classifier in distinguishing DLBCL cases from controls and achieved an AUC of 0.92 in a cross-validation setting ( Fig 1a ). We then compared the result of EPIC-Seq COO classifier with the genotype-based method previously developed in our group. We observed epigenetic scores to be significantly correlated with previously described mutation-based GCB scores ( r =0.75, P =1E-5, Fig. 1b ). When comparing to the Hans classification algorithm, we observed significantly higher GCB scores in cases classified as GCB by Hans as compared with non-GCB cases (Wilcox P =0.001, Fig. 1c ). Comparing the prognostic power of epigenetic and mutation-based COO labels in previously untreated patients using univariate Cox regressions, the EPIC-Seq classifier better stratified event-free survival (EFS) with higher GCB scores being associated with favorable outcomes (n=70, EPIC-Seq: HR=0.13, P =0.033 vs CAPP-Seq: HR=0.95, P =0.62). Importantly, when binarizing patients into GCB and non-GCB cases by the median, patients with tumors classified as GCB had significantly longer EFS than non-GCB counterparts (log-rank P =0.013, Fig. 1d ). The Hans algorithm, in contrast, failed to stratify patients for EFS, among patients analyzed by both immunohistochemistry and DNA genotyping ( Fig. 1e ). Finally, we profiled n=12 additional DLBCL cases by both RNA-sequencing and EPIC-Seq. Strikingly, we found EPIC-COO scores to be significantly correlated with RNA based GCB scores ( r =0.84, P =6E-4, Fig. 1f ) underscoring the concordance of EPIC-Seq based COO classification with a gold standard scoring system. Conclusions We here apply EPIC-Seq, a method to infer expression of individual genes from cfDNA fragmentation patterns, to classify DLBCL patients into COO subtypes. COO classification by EPIC-Seq outperformed both Hans and mutation-based methods with regards to outcome stratification and correlated well with RNA-based methods. Overall, these results suggest that EPIC-Seq has utility for noninvasive classification of DLBCL cell-of-origin subtypes and may help to overcome logistical and methodological challenges of RNA-based methods. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Shahrokh Esfahani:  Foresight Diagnostics: Current holder of stock options in a privately-held company. Kurtz:  Genentech: Consultancy; Foresight Diagnostics: Consultancy, Current holder of stock options in a privately-held company; Roche: Consultancy. Diehn:  Foresight Diagnostics: Current holder of individual stocks in a privately-held company, Current holder of stock options in a privately-held company; CiberMed: Current holder of stock options in a privately-held company, Patents & Royalties; Illumina: Research Funding; Varian Medical Systems: Research Funding; BioNTech: Consultancy; RefleXion: Consultancy; AstraZeneca: Consultancy; Roche: Consultancy. Alizadeh:  Gilead: Consultancy; Bristol Myers Squibb: Research Funding; Janssen Oncology: Honoraria; Celgene: Consultancy, Research Funding; Forty Seven: Current holder of individual stocks in a privately-held company, Current holder of stock options in a privately-held company; CAPP Medical: Current holder of individual stocks in a privately-held company, Current holder of stock options in a privately-held company; Roche: Consultancy, Honoraria; Foresight Diagnostics: Consultancy, Current holder of individual stocks in a privately-held company, Current holder of stock options in a privately-held company; Cibermed: Consultancy, Current holder of individual stocks in a privately-held company, Current holder of stock options in a privately-held company.",
+    "author_names": [
+        "Mohammad Shahrokh Esfahani",
+        "Stefan Alig",
+        "Mahya Mehrmohamadi",
+        "Emily G. Hamilton",
+        "Daniel A King",
+        "Andre Schultz",
+        "Chloe B. Steen",
+        "Charles Macaulay",
+        "Brian Sworder",
+        "David M. Kurtz",
+        "Maximilian Diehn",
+        "Ash A. Alizadeh"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Mohammad Shahrokh Esfahani",
+            "author_affiliations": [
+                "Department of Medicine, Divisions of Oncology and Hematology, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stefan Alig",
+            "author_affiliations": [
+                "Department of Medicine, Divisions of Oncology and Hematology, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mahya Mehrmohamadi",
+            "author_affiliations": [
+                "Stanford Cancer Institute, Stanford University Medical Center, Stanford, CA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Emily G. Hamilton",
+            "author_affiliations": [
+                "Stanford University, Stanford, CA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel A King",
+            "author_affiliations": [
+                "Stanford Cancer Institute, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andre Schultz",
+            "author_affiliations": [
+                "Stanford Cancer Institute, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chloe B. Steen",
+            "author_affiliations": [
+                "Division of Oncology, Department of Medicine, Stanford Cancer Institute, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Charles Macaulay",
+            "author_affiliations": [
+                "Department of Medicine, Divisions of Hematology & Oncology, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brian Sworder",
+            "author_affiliations": [
+                "Department of Medicine, Divisions of Oncology and Hematology, Stanford University, Stanford, CA",
+                "Department of Oncology and Hematology, Stanford University Medical Center, Stanford, CA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David M. Kurtz",
+            "author_affiliations": [
+                "Department of Medicine, Divisions of Oncology and Hematology, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maximilian Diehn",
+            "author_affiliations": [
+                "Stanford Cancer Institute, Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Stanford, CA",
+                "Department of Radiation Oncology, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ash A. Alizadeh",
+            "author_affiliations": [
+                "Department of Medicine, Divisions of Oncology and Hematology, Stanford University, Stanford, CA",
+                "Stanford Cancer Institute, Stanford University Medical Center, Stanford, CA",
+                "Institute for Stem Cell Biology and Regenerative Medicine, Stanford University Medical Center, Stanford, CA"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T09:34:38",
+    "is_scraped": "1"
 }
