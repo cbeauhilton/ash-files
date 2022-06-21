@@ -1,8 +1,65 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4680",
-    "start_url_page_num": "4680",
     "doi": "https://doi.org/10.1182/blood-2021-148026",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/2033/482544/Model-Predicted-Clinical-Factors-Impacting-Patient?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T12:33:31",
-    "is_scraped": "0"
+    "article_title": "Model-Predicted Clinical Factors Impacting Patient-Specific Response of Sickle Cells to Voxelotor in a Microfluidic Platform ",
+    "article_date": "November 5, 2021",
+    "session_type": "113.Hemoglobinopathies, Excluding Thalassemia: Basic and Translational",
+    "abstract_text": "Background: Sickle cell disease (SCD) is a group of genetic disorders in which sickle hemoglobin polymerizes under deoxygenation, altering red blood cell (RBC) morphology and behavior. The properties of sickle RBCs contribute to increased viscosity of blood and occurrence of vaso-occlusions, a major aspect of SCD pathophysiology. Voxelotor is a novel FDA-approved treatment for SCD which modulates hemoglobin O 2 affinity, and while its known mechanism inhibits sickle polymerization, the impact on other aspects of SCD pathophysiology remain unknown. Thus, despite the new treatment option, highly variable clinical manifestation continues to be a hallmark of sickle cell and there is consequently a need to optimize the use of current therapies based on patient-specific factors. In this work, we leverage datasets generated from a unique microfluidic assay that measures blood flow behavior under varying oxygen tension in conjunction with novel statistical approaches to model and assess sources of variability in sickle blood flow response to voxelotor. Methods: RBCs from patients with SCD (n=28) were treated with voxelotor at 500 uM concentration. Treated samples and untreated controls were perfused through a microfluidic platform that dynamically modulates oxygen tension and measures flow velocity (Wood et al, 2012; Valdez et al, 2019). The area between curves (ABC) of the normalized velocity across the range of oxygen tension between treated and control conditions was calculated to quantify the effect of voxelotor for each sample (figure 1). A paired t-test was used to assess the difference in response between treated and untreated samples. Where available, clinical data including the hemoglobin fractions and complete blood count (CBC) were collected for each sample as predictor variables, and partial least squares regression (PLSR) modeling was used to assess the correlation of predictors and responses. Results: Voxelotor increased the velocity ABC from untreated to treated conditions (p<.0001). We observed that there were differences in response for velocity ABC between sickle cell genotypes (figure 2). Thus, generating separate PLSR models for distinct SCD genotypes revealed differences in sets of clinical factors that explained the most variance in response to voxelotor treatment. A 2-component model was constructed for the HbSC samples (n=6) that best explained variance in the data and had good predictive abilities (R 2 X=.69, R 2 Y=.97, Q 2 =.74). Within this subset, clustering of variables related to hemolysis and inflammation were observed (figure 3). An equivalent model constructed for the HbSS samples (n=15) characterized the predictor variables but lacked predictive power of the response (R 2 X=.74, R 2 Y=.25, Q 2 =.-0.21). Response to voxelotor for this model was most strongly correlated with HbA. Due to low sample size (n=2 samples with full set of predictors), predictive modeling was not performed for HbS\u03b2 0 samples, however, these samples responded the least to voxelotor treatment. Conclusions: Our analysis quantified patient-specific differences in the blood flow response to voxelotor, showing a wide variability in response despite treatment by the same drug concentration. Genotype-specific multivariable models that take into account easily measurable clinical variables such as the CBC have the potential to explain the variability in patient response to voxelotor treatment. In HbSC samples, the WBC, platelet, and reticulocyte counts were highly correlated and strong predictors of response to voxelotor, which may point to markers of hemolysis and inflammation being useful in determining patients that can be optimally treated with this drug. In HbSS, response to voxelotor was mainly inversely correlated with HbA levels, which is a surrogate marker for blood transfusions, indicating that the effect of voxelotor is lessened for patients who are receiving transfusions. However, the low R2Y of this model highlights the clinical variability in this SCD genotype and consequent need for additional biomarkers of disease severity. In conclusion, our hybrid experimental-computational approach is able to identify clinical factors that highly impact the response of patient blood samples to treatment with voxelotor for HbSC patients, and highlights the need for precision therapy recommendations in SCD. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Lam:  Sanguina, Inc.: Current holder of individual stocks in a privately-held company. Kemp:  Parthenon Therapeutics: Membership on an entity's Board of Directors or advisory committees.",
+    "author_names": [
+        "Dan Y. Zhang",
+        "Melissa Azul",
+        "Wilbur A. Lam",
+        "David K. Wood",
+        "Melissa L. Kemp"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Dan Y. Zhang",
+            "author_affiliations": [
+                "George W. Woodruff School of Mechanical Engineering, Georgia Institute of Technology, Atlanta, GA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Melissa Azul",
+            "author_affiliations": [
+                "Department of Biomedical Engineering, University of Minnesota, Minneapolis, MN",
+                "Department of Pediatrics, Division of Pediatric Hematology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wilbur A. Lam",
+            "author_affiliations": [
+                "Department of Pediatrics, Aflac Cancer and Blood Disorder Center of Children's Healthcare of Atlanta and Emory University School of Medicine, Atlanta, GA",
+                "Wallace H. Coulter Department of Biomedical Engineering, Georgia Institute of Technology and Emory University, Atlanta, GA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David K. Wood",
+            "author_affiliations": [
+                "Department of Biomedical Engineering, University of Minnesota, Minneapolis, MN"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Melissa L. Kemp",
+            "author_affiliations": [
+                "Wallace H. Coulter Department of Biomedical Engineering, Georgia Institute of Technology and Emory University, Atlanta, GA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T04:08:33",
+    "is_scraped": "1"
 }

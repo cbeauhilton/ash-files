@@ -1,8 +1,105 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4902",
-    "start_url_page_num": "4902",
     "doi": "https://doi.org/10.1182/blood-2021-154521",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/1615/480674/Establishing-a-Novel-Pipeline-That-Combines-in?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T22:19:57",
-    "is_scraped": "0"
+    "article_title": "Establishing a Novel Pipeline That Combines in-Silico Prediction with in-Vitro and Ex-Vivo V alidation to Discover Secondary Drug Combinations Against Relapsed and/or Refractory Multiple Myeloma ",
+    "article_date": "November 5, 2021",
+    "session_type": "651.Multiple Myeloma and Plasma Cell Dyscrasias: Basic and Translational",
+    "abstract_text": "Multiple myeloma (MM) is the second-most common hematological malignancy in the US. MM is an incurable, age-dependent plasma cell neoplasm with a 5-year survival rate of less than 50%. Extensive inter-individual variation in response to standard-of-care drugs like proteasome inhibitors (PIs) and immunomodulatory drugs (IMiDs), drug resistance, and dose-limiting toxicities are critical problems for the treatment of MM. Clinical success in anti-myeloma treatment, therefore, warrants continuous development of novel combination therapy strategies with the explicit goal to improve the therapeutic efficacy by concomitantly targeting multiple signaling pathways. Previously, we have reported the development of an in-house computational pipeline called secDrug that applies greedy algorithm-based set-covering computational optimization method followed by a regularization technique to predict secondary drugs that can be repurposed as novel synergistic partners of standard-of-care drugs for the management of refractory/ resistant MM. Top among these secondary drugs (secDrugs) were the HSP90 inhibitor 17-AAG. In this study, we used 17-AAG as a proof of principle to establish a pipeline that integrates our in silico predictions with in vitro and ex vivo validation as well as multi-omics technologies to identify, validate, and characterize therapeutic agents that could be used either alone or in combination with standard-of-care drugs for the treatment of R/R MM patients ( Figure 1 ). To screen and validate our in silico prediction results, we performed in vitro cytotoxicity assays using 17-AAG on a panel of human myeloma cell lines (HMCLs; in vitro model systems) that captures a wide range of biological and genetic heterogeneity representing the complexities encountered in clinical settings. These cell lines include HMCLs representing innate sensitive/resistance, >10 pairs of parental and clonally-derived PI- and IMiD-resistant pairs (P vs VR or LenR; representing acquired/emerging resistance/relapse), NRAS mutants which leads to the constitutive activation of oncogenic Ras signaling, and CRISPR-edited HSP90 knockdown cell line. Our results showed that 17-AAG has high synergistic activity in combination with PI in inducing apoptosis even in innate and acquired PI-resistant HMCLs and significantly reduces the effective dose of PI required to achieve IC 50 (Chou-Talalay's Dose Reduction Index or DRI 7\u00b11.4). Moreover, 17-AAG+IMiD showed synergistic cell killing activity in clonally-derived IMiD resistant HMCL. Further, 17-AAG induced cell death was comparable with Hsp90 knockdown as evident from the cytotoxicity assay using PI and 17-AAG in combination in RPMI8226-wild type and RPMI-HSP90AA1 knocked down cell line. Notably, 17-AAG was strikingly effective against the NRAS-mutant cell line indicating an additional niche (NRas mutant myeloma) where 17-AAG could be most effective. Next, we performed RNA sequencing to elucidate the molecular mechanisms behind 17-AAG drug action, drug synergy, 17-AAG-induced cell death. Our gene expression profiling (GEP) followed by Ingenuity Pathway Analysis (IPA) analysis revealed protein ubiquitination, aryl hydrocarbon receptor signalling pathway as the top canonical pathways. 17-AAG induced apoptosis via mitochondrial mediated pathway in myeloma. 17-AAG exerts its cytotoxic effect by activating intrinsic pathway of apoptosis which we further confirmed through the increase in reactive oxygen species generation and decrease in mitochondrial membrane potential. 17-AAG was also effective in reducing the expression of hallmarks of MM such as p65/NF-kB, IRF4, c-Myc. Finally, we performed mass cytometry (CyTOF; Cytometry by time of flight) on primary bone-marrow cells (PMCs) from myeloma patients for further validation of proteomic signatures at the single-cell level. CyTOF analysis confirmed 17-AAG-induced cell death and key changes in MM-specific proteomic markers. 17-AAG treated PMCs showed elevated cleaved caspase levels and down-regulation of IRF4 and phospho-STAT3. GEP and CyTOF results were confirmed using immunoblotting assays. Together, our study demonstrates a unique pipeline for drug repositioning that has the potential to revolutionize clinical decision-making by minimizing the number of drugs required for discovering successful combination chemotherapy regimens against drug-resistant myeloma. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Kumar:  BMS: Consultancy, Research Funding; Abbvie: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Amgen: Consultancy, Research Funding; Takeda: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Tenebio: Research Funding; Beigene: Consultancy; Oncopeptides: Consultancy; Antengene: Consultancy, Honoraria; Carsgen: Research Funding; Janssen: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; KITE: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Merck: Research Funding; Astra-Zeneca: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Novartis: Research Funding; Roche-Genentech: Consultancy, Research Funding; Bluebird Bio: Consultancy; Celgene: Membership on an entity's Board of Directors or advisory committees, Research Funding; Adaptive: Membership on an entity's Board of Directors or advisory committees, Research Funding; Sanofi: Research Funding.",
+    "author_names": [
+        "Sayak Chakravarti",
+        "Suman Mazumder",
+        "Harish Kumar",
+        "Neeraj Sharma",
+        "Ujjal Kumar Mukherjee",
+        "Shaji Kumar",
+        "Linda B Baughn",
+        "Brian G. Van Ness",
+        "Amit Kumar Mitra"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Sayak Chakravarti",
+            "author_affiliations": [
+                "Harrison School of Pharmacy, Auburn, AUBURN, AL"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Suman Mazumder",
+            "author_affiliations": [
+                "Harrison School of Pharmacy, Auburn University, Auburn, AL",
+                "Center for Pharmacogenomics and Integrated Omics Initiative, Auburn University, Auburn, AL"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Harish Kumar",
+            "author_affiliations": [
+                "Harrison School of Pharmacy, Auburn University, Auburn, AL"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Neeraj Sharma",
+            "author_affiliations": [
+                "Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ujjal Kumar Mukherjee",
+            "author_affiliations": [
+                "University of Illinois - Urbana Champaign, Champaign, IL"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shaji Kumar",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Linda B Baughn",
+            "author_affiliations": [
+                "Division of Laboratory Genetics, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brian G. Van Ness",
+            "author_affiliations": [
+                "Department of Genetics, Cell Biology and Development, University of Minnesota, Minneapolis, MN"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amit Kumar Mitra",
+            "author_affiliations": [
+                "Harrison School of Pharmacy, Auburn University, Auburn, AL",
+                "Center for Pharmacogenomics and Integrated Omics Initiative, Auburn University, Auburn, AL"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T04:16:08",
+    "is_scraped": "1"
 }

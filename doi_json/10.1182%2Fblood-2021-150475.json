@@ -1,8 +1,114 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4828",
-    "start_url_page_num": "4828",
     "doi": "https://doi.org/10.1182/blood-2021-150475",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/1151/482431/Snapshotting-Somatic-Hypermutation-in-Single?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T19:16:35",
-    "is_scraped": "0"
+    "article_title": "\"Snapshotting\" Somatic Hypermutation in Single Follicular Lymphoma Cells ",
+    "article_date": "November 5, 2021",
+    "session_type": "603.Oncogenes and Tumor Suppressors: Basic",
+    "abstract_text": "Introduction Follicular Lymphoma (FL) is one of the most prevalent B-cell neoplasms and despite recent advances remains incurable in most cases. FL cells are malignant counterparts of normal germinal center B-cells. At molecular level FL are characterized by the t(14;18) which results in the overexpression of the BCL-2. These apoptosis resistant cells accumulate somatic mutations associated with tumorigenesis and progression. Whereas several mutagenic mechanisms shape the FL genomic landscape, up to 22% of the mutations may be attributed to activation-induced cytidine deaminase (AID) activity. Under physiological conditions AID is responsible for somatic hypermutation (SHM) in immunoglobulin genes (IG) of germinal center B-cells. In fact, it is accepted that ongoing SHM still occurs at relatively high rates in FL cells as compared with other germinal center lymphoid neoplasms. Moreover, we recently demonstrated the direct effect of AID overexpression inducing somatic mutations driving murine and human B-cell neoplasm progression in vivo. Therefore, unveiling the molecular basis of AID activity in lymphoma cells remains essential to understand lymphomagenesis and to develop novel targeted therapies. The advent of single-cell high-throughput sequencing has enabled the analysis of molecular events at an unprecedented resolution. Therefore, we designed a study to capture AID-induced somatic hypermutation at the single cell level in FL. Methods Tumor samples derived from 14 FL patients were analyzed, as controls, we chose a B-cell malignancy with lower SHM rates and included 5 samples derived from chronic lymphocytic leukemia (CLL) and 2 from monoclonal B lymphocytosis (MBL). Single cell whole cDNA libraries were obtained by 10X Genomics. Immunoglobulin gene single cell libraries were prepared by enrichment with seminested amplification using 3 \u2032 constant domain primers followed by 10X Genomics prep. Both single-cell libraries were sequenced in paired-end mode (2 \u00d7 150 bp) on an Illumina Hiseq platform. We developed an immunoglobulin alignment tool to enable the analysis of highly mutated IG sequences derived from FL. A consensus sequence was obtained by transcript associated with a unique molecular identifier (UMI) for every cell. Then, the presence of variants in the IG by position in a particular cell was annotated. These observations were filtered using quality parameters (read depth => 25 , frequency of the event => 20%, UMIs supporting every variant => 5). Results We analyzed an average of 926 cells per case. Our data confirms at the single cell level previous reports on high clonal heterogeneity and hypermutation rate (mean 18.7%) in FL. When analyzing intracellular heterogeneity we observed single FL cells expressing simultaneously transcripts derived from the same immunoglobulin VDJ rearrangement but displaying high confidence single nucleotide variants. After applying strict filtering strategies to account for potential technical issues we defined the occurrence of \"SHM snapshot events'' when a single cell displayed a set of transcripts from a particular VDJ rearrangement with and without the occurring single nucleotide variant. Such events were detected in 8 of the 14 FL analyzed samples. In those 8 samples, 114 events were observed in which two different transcripts of one specific IG were found within a single cell. AID-related motifs (WRCY, WA and RCG) were found in 45% of the SHM snapshot events. SHM snapshot events were undetectable in CLL (5 samples) and 3 SHM snapshot events were detected in MBL (2 samples). In addition, the occurrence of SHM snapshot events was significantly associated with AID expression (Fisher exact test, p-value < 0.001). On the other hand, AID expression was not detectable on CLL and MBL samples. Conclusion Here we report for the first time the occurrence of ongoing somatic hypermutation at a single cell level in FL. The simultaneous detection of both the pre and post mutation IG mRNA transcripts within a single cell may be indicative of SHM occurring more recently than the lifespan of mRNA transcript. The detection of this phenomenon in 57% of FL samples and its association with AID expression suggests that AID-induced mutagenesis may be acting at a much higher rate than expected. This work highlights the role of AID in shaping the tumor heterogeneity in FL and the need to further understand the role of this enzyme in lymphomagenesis and tumor progression. Disclosures No relevant conflicts of interest to declare.",
+    "author_names": [
+        "Juleta H. Sepulveda-Yanez",
+        "Diego Alvarez-Saravia",
+        "Edwin Quinten",
+        "Roberta Menafra",
+        "Susan L. Kloet",
+        "Ramin Monajemi",
+        "Szymon M. Kielbasa",
+        "Marcelo Navarrete Signorile",
+        "Cornelis A.M. van Bergen",
+        "Hendrik Veelken"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Juleta H. Sepulveda-Yanez",
+            "author_affiliations": [
+                "Department of Hematology, Leiden University Medical Center, Leiden, Netherlands",
+                "School of Medicine, University of Magallanes, Punta Arenas, Chile"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Diego Alvarez-Saravia",
+            "author_affiliations": [
+                "University of Magallanes, Punta Arenas, Chile"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Edwin Quinten",
+            "author_affiliations": [
+                "Department of Hematology, Leiden University Medical Center, Leiden, Netherlands"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Roberta Menafra",
+            "author_affiliations": [
+                "Department of Human Genetics, Leiden University Medical Center, Leiden, Netherlands"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Susan L. Kloet",
+            "author_affiliations": [
+                "Department of Human Genetics, Leiden University Medical Center, Leiden, Netherlands"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ramin Monajemi",
+            "author_affiliations": [
+                "Department of Biomedical Data Sciences, Leiden University Medical Center, Leiden, Netherlands"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Szymon M. Kielbasa",
+            "author_affiliations": [
+                "Department of Biomedical Data Sciences, Leiden University Medical Center, Leiden, Netherlands"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marcelo Navarrete Signorile",
+            "author_affiliations": [
+                "School of Medicine, University of Magallanes, Punta Arenas, Chile"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cornelis A.M. van Bergen",
+            "author_affiliations": [
+                "Department of Hematology, Leiden University Medical Center, Leiden, Netherlands"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hendrik Veelken",
+            "author_affiliations": [
+                "Department of Hematology, Leiden University Medical Center, Leiden, Netherlands"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T04:11:46",
+    "is_scraped": "1"
 }
