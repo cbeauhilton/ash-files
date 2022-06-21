@@ -1,8 +1,217 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4815",
-    "start_url_page_num": "4815",
     "doi": "https://doi.org/10.1182/blood-2021-148862",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3492/479655/ARID1A-Controls-a-Novel-Transcriptional-Network?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T18:24:31",
-    "is_scraped": "0"
+    "article_title": "ARID1A Controls a Novel Transcriptional Network Regulating FAS in Follicular Lymphoma ",
+    "article_date": "November 5, 2021",
+    "session_type": "621.Lymphomas: Translational-Molecular and Genetic",
+    "abstract_text": "Follicular lymphoma (FL) is a clinically and genetically heterogeneous disease. Somatic gene mutations contribute to the heterogeneous clinical course of FL. ARID1A , which encodes for a subunit of the SWI/SNF chromatin remodeling complex, is among the most commonly mutated genes in FL (up to 15% of cases). These mutations are mostly disruptive and are predicted to result in protein haplodeficiency. While we have previously shown that ARID1A mutations are predictive of treatment outcome (Pastore, 2015), the underlying biology of ARID1A loss in FL is unclear. A functional genome-wide in vitro screen showed that ARID1A loss rescued a number of cancer cell lines from FAS-L induced apoptosis (Luo, 2008). FAS-L induced apoptosis plays a critical role in normal B-cell development and homeostasis. Thus, FAS/FAS-L deficiency could contribute to FL development and disease biology. Therefore, we studied the role of ARID1A loss in FAS expression and regulation. We first tested FAS-L induced apoptosis in established lymphoma cell lines that harbor the FL-hallmark translocation t(14;18)[BCL2/IGH] plus ARID1A mutations (Karpas422, WSU-FSCCL) or no ARID1A mutations (OCI-Ly1, OCI-Ly8, SU-DHL16). ARID1A mutant (mut) cells were indeed markedly less sensitive to FAS-L (300 ng/mL/24 hrs) compared to ARID1A wild type (WT) cells (98% vs 52% mean viability by Annexin-V). FAS receptor expression on mutant cells was reduced by almost half compared to WT cells by FACS analysis (N=3, P =0.0004). To test if reduced FAS expression was directly linked to ARID1A loss, we generated single-cell derived clones (from OCI-Ly1 and OCI-Ly8) with either heterozygous (het) loss or complete knock-out (KO) of ARID1A by CRISPR/Cas9. ARID1A loss was validated by Sanger sequencing and Western blot. We consistently observed significantly reduced FAS-L induced apoptosis in het and KO clones (exemplary shown for OCI-Ly8 in Fig A ). Remarkably, re-expressed of ARID1A in het cells (het+ARID1A) rescued sensitivity to FAS-L induced apoptosis ( Fig A ). We confirmed reduced FAS expression on mutant clones by FACS, while re-expression of ARID1A rescued its expression ( Fig B ). Furthermore, FAS mRNA expression was significantly reduced by qPCR in mut vs WT clones (N=4, P <0.05), while FAS mRNA levels were rescued to WT levels in het+ARID1A cells. To understand the molecular mechanism that links ARID1A loss and reduced FAS expression, we performed ATAC sequencing (Seq) and RNA Seq on 15 single-cell derived clones (9 mut and 6 WT from OCI-Ly1 and OCI-Ly8). RNA Seq confirmed significantly lower ARID1A and FAS mRNA levels (adj p<0.001 each) in the mut clones. We first hypothesized that ARID1A loss could directly affect chromatin accessibility at the FAS promoter. However, we did not observe different chromatin accessibility at the FAS promoter. Next, we searched our data for all known FAS-regulating transcription factors (TFs) (https://dorothea.opentargets.io/#/), but could not identify candidates that were both differentially accessible and differentially expressed. Finally, we searched our data for transcriptional networks, i.e. hubs of all recognized FAS-regulating TFs and their known and predicted interacting partners (https://string-db.org/). Through this, we identified RUNX3, a predicted Co-TF of ETS1, to be both less accessible (\"closed chromatin\") and less expressed upon ARID1A loss ( Fig C ), suggesting a novel ARID1A-dependent FAS-regulatory network. To functionally validate our model, we first confirmed reduced RUNX3 expression in ARID1A mutant clones by qPCR and Western blot, and showed that ETS1 levels were unaffected by ARID1A loss. Then, we stably overexpressed RUNX3 in ARID1A mutant clones by lentiviral transduction and could indeed show rescue of FAS surface levels by FACS ( Fig D ). Lastly, we wanted to validate our findings in primary patients samples. We quantified FAS expression in FL biopsies with known ARID1A mutation status by nCounter gene expression profiling (GEP; N=51, 12 mut vs 39 WT) and quantitative multispectral imaging (QMI; N=44, 10 mut vs 34 WT) ( Fig E ). Both approaches showed significantly reduced FAS expression in ARID1A mutant FL ( P <0.05 for GEP, P <0.0001 for QMI; Fig E ). In summary, we show that ARID1A loss is directly linked to reduced FAS expression via a novel RUNX3/ETS1 transcriptional network, potentially opening avenues for therapeutic targeting of this clinically relevant perturbation. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Subklewe:  Pfizer: Consultancy, Speakers Bureau; Takeda: Speakers Bureau; Klinikum der Universit\u00e4t M\u00fcnchen: Current Employment; Janssen: Consultancy; Seattle Genetics: Consultancy, Research Funding; Roche: Research Funding; Novartis: Consultancy, Research Funding, Speakers Bureau; MorphoSys: Research Funding; Miltenyi: Research Funding; Gilead: Consultancy, Research Funding, Speakers Bureau; Amgen: Consultancy, Research Funding, Speakers Bureau; BMS/Celgene: Consultancy, Research Funding, Speakers Bureau. von Bergwelt:  Kite/Gilead: Honoraria, Research Funding, Speakers Bureau; Roche: Honoraria, Research Funding, Speakers Bureau; Novartis: Honoraria, Research Funding, Speakers Bureau; Astellas: Honoraria, Research Funding, Speakers Bureau; Miltenyi: Honoraria, Research Funding, Speakers Bureau; BMS: Honoraria, Research Funding, Speakers Bureau; Mologen: Honoraria, Research Funding, Speakers Bureau; MSD Sharpe & Dohme: Honoraria, Research Funding, Speakers Bureau. Weigert:  Janssen: Speakers Bureau; Epizyme: Membership on an entity's Board of Directors or advisory committees; Roche: Research Funding.",
+    "author_names": [
+        "Martina Antoniolli",
+        "Maria Solovey",
+        "Deepak Bararia",
+        "Carolin Dorothea Strobl",
+        "William David Keay",
+        "Johannes Adrian Hildebrand",
+        "Michael Heide",
+        "Verena Passerini",
+        "Lucas Wange",
+        "Wolfgang Enard",
+        "Susanne Thieme",
+        "Helmut Blum",
+        "Martina Rudelius",
+        "Sebastian Bultmann",
+        "Heinrich Leonhardt",
+        "Marion Subklewe",
+        "Michael von Bergwelt",
+        "Maria Colom\u00e9-Tatch\u00e9",
+        "Oliver Weigert"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Martina Antoniolli",
+            "author_affiliations": [
+                "Department of Medicine III, University Hospital, LMU Munich, Munich, Germany"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maria Solovey",
+            "author_affiliations": [
+                "Institute of Computational Biology, Helmholtz Zentrum M\u00fcnchen, Neuherberg, Germany"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Deepak Bararia",
+            "author_affiliations": [
+                "Department of Medicine III, University Hospital, LMU Munich, Munich, Germany",
+                "German Cancer Consortium (DKTK), Heidelberg, Germany",
+                "German Cancer Research Center (DKFZ), Heidelberg, Germany"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Carolin Dorothea Strobl",
+            "author_affiliations": [
+                "Department of Medicine III, University Hospital, LMU Munich, Munich, Germany"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "William David Keay",
+            "author_affiliations": [
+                "Department of Medicine III, University Hospital, LMU Munich, Munich, Germany"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Johannes Adrian Hildebrand",
+            "author_affiliations": [
+                "Department of Medicine III, University Hospital, LMU Munich, Munich, Germany",
+                "German Cancer Consortium (DKTK), Heidelberg, Germany",
+                "German Cancer Research Center (DKFZ), Heidelberg, Germany"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Heide",
+            "author_affiliations": [
+                "Department of Medicine III, University Hospital, LMU Munich, Munich, Germany",
+                "German Cancer Consortium (DKTK), Heidelberg, Germany",
+                "German Cancer Research Center (DKFZ), Heidelberg, Germany"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Verena Passerini",
+            "author_affiliations": [
+                "Department of Medicine III, University Hospital, LMU Munich, Munich, Germany"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lucas Wange",
+            "author_affiliations": [
+                "Anthropology and Human Genomics, LMU Munich, Munich, Germany"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wolfgang Enard",
+            "author_affiliations": [
+                "Anthropology and Human Genomics, LMU Munich, Munich, Germany"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Susanne Thieme",
+            "author_affiliations": [
+                "Laboratory for Functional Genome Analysis (LAFUGA), Gene Center, LMU Munich, Munich, Germany"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Helmut Blum",
+            "author_affiliations": [
+                "Laboratory for Functional Genome Analysis (LAFUGA), Gene Center, LMU Munich, Munich, Germany"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martina Rudelius",
+            "author_affiliations": [
+                "Institute of Pathology, University Hospital, LMU Munich, Munich, Germany"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sebastian Bultmann",
+            "author_affiliations": [
+                "Department of Biology II and Center for Integrated Protein Science Munich (CIPSM), Human Biology and BioImaging, LMU Munich, Munich, Germany"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Heinrich Leonhardt",
+            "author_affiliations": [
+                "Department of Biology II and Center for Integrated Protein Science Munich (CIPSM), Human Biology and BioImaging, LMU Munich, Munich, Germany"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marion Subklewe",
+            "author_affiliations": [
+                "Department of Medicine III, University Hospital, LMU Munich, Munich, Germany",
+                "German Cancer Consortium (DKTK), Heidelberg, Germany",
+                "German Cancer Research Center (DKFZ), Heidelberg, Germany",
+                "Laboratory for Translational Cancer Immunology, Gene Center of the LMU Munich, Munich, Germany"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael von Bergwelt",
+            "author_affiliations": [
+                "Department of Medicine III, University Hospital, LMU Munich, Munich, Germany",
+                "German Cancer Consortium (DKTK), Heidelberg, Germany",
+                "German Cancer Research Center (DKFZ), Heidelberg, Germany"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maria Colom\u00e9-Tatch\u00e9",
+            "author_affiliations": [
+                "Institute of Computational Biology, Helmholtz Zentrum M\u00fcnchen, Neuherberg, Germany",
+                "Department of Physiological Chemistry, Biomedical Center (BMC), Munich, Germany"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Oliver Weigert",
+            "author_affiliations": [
+                "Department of Medicine III, University Hospital, LMU Munich, Munich, Germany",
+                "German Cancer Consortium (DKTK), Heidelberg, Germany",
+                "German Cancer Consortium (DKTK) and German Cancer Research Center (DKFZ), Heidelberg, Germany"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T15:44:14",
+    "is_scraped": "1"
 }

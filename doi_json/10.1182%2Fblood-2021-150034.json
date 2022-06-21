@@ -1,8 +1,376 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4810",
-    "start_url_page_num": "4810",
     "doi": "https://doi.org/10.1182/blood-2021-150034",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/809/480046/Chromatin-Accessibility-Profiling-to-Increase?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T17:42:24",
-    "is_scraped": "0"
+    "article_title": "Chromatin Accessibility Profiling to Increase Diagnostic Accuracy and Refine Cell-of-Origin Classification of Mature T-Cell Lymphomas ",
+    "article_date": "November 5, 2021",
+    "session_type": "621.Lymphomas: Translational-Molecular and Genetic",
+    "abstract_text": "Background: Mature T-cell lymphomas and leukemias (MTCL) are heterogeneous diseases with dismal prognosis. Differentiating between the numerous entities requires specialized pathology expertise and studies show up to 20% change in diagnosis after expert review of cases (Laurent, JCO, 2017). Assay for transposase accessible chromatin sequencing (ATAC-seq) is a simple technique to profile open chromatin regions (OCR) proven to be highly discriminant for cell-of-origin identification regardless of cell activation status (Shih, Cell, 2016). We applied ATAC-seq to MTCL in order to explore the epigenetic landscape of these diverse entities, compared them to normal T-cell subtypes and built a predictive model to help diagnosis. Method: Ten-thousand FACS-sorted single cells from primary MTCL samples and 50\u00b5m section of frozen tumoral tissue from the TENOMIC French T-cell Lymphoma Consortium were processed according to the previously published FAST-ATAC and OMNI-ATAC protocols respectively (Corces, Nat Genetics, 2016 & Nat. Methods, 2017). Concurrently we applied FAST ATAC to different normal T- and NK-cell subsets sorted from healthy donor PBMC or lymph node suspensions. Sequencing data were processed by an adapted version of ENCODE ATAC-seq pipeline. Matrix of insertion events in peaks by sample was obtained, normalized and most variant peaks were selected for UMAP projection. Results: In total, 678 normal and tumoral samples were sequenced to provide a comprehensive landscape of chromatin accessibility in MTCL. Epigenetic profiling by ATAC-seq of FACS-sorted tumoral samples resulted in a complete segregation of the known MTCL entities (AITL, TFH-PTCL, ALK+ and ALK- ALCL, HSTL, CTCL, ATLL, LGL and T-PLL). Most PTCL-NOS (13/17) clustered with a pre-defined MTCL subtype (mainly AITL/TFH-phenotype PTCL, CTCL and lymphomas exhibiting cytotoxic features). All but one discordant diagnosis between pathology and ATAC-seq (1/11) led to revised diagnosis after pathology review. Unsupervised clustering of normal NK- and T-cell subtypes (N=49) and sorted tumoral lymphoma cells (N=104) confirmed that AITL derive from TFH cells. HSTL and LGL closely segregated with NK- and gamma-delta T cells, in line with their known innate-like phenotype. Surprisingly, the cell-of-origin of T-PLL seems to be na\u00efve T cells despite the known expression of central memory markers on leukemic cells. Beyond epigenetic classification, background reads from ATAC-seq profiles were used to detect copy number variation (CNV), such as isochromosome 7q in HSTL. In addition, HTLV1 and EBV viral sequence detection in ATAC-seq reads strengthened identification of ATLL and NKTCL cases. Finally, using unsupervised deconvolution approaches, we were able to discriminate different MTCL subtypes from 223 processed bulk frozen samples. All known MTCL subtypes were differentiated (AITL/PTCL-TFH, HSTL, NKTCL, ATLL, ALK- and ALK+ ALCL, MEITL, EATL). A subgroup of PTCL-NOS harboring GATA3 OCRs and a distinctly high CNV number was isolated that might correspond to previously described PTCL-GATA3 subtypes (Iqbal, Blood, 2019). A random forest model was trained to predict diagnosis based on chromatin-accessibility clusters defined in the discovery cohort of patients. The model showed accurate prediction performance by cross-validation. External validation on 172 samples collected from 5 tertiary care centers will be presented at the meeting. Conclusion: ATAC-seq is a fast and cost-effective technique to help and refine MTCL pathological classification and allows for putative cell-of-origin identification in lymphoma. Training of a machine learning model to predict MTCL entity diagnosis based on ATAC-seq analysis of fresh or frozen samples shows promising results. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Sibon:  Janssen: Consultancy; Abbvie: Consultancy; iQone: Consultancy; Takeda: Consultancy; Roche: Consultancy. Drieux:  Genexpath: Patents & Royalties: The author is a potential inventor on a patent application for the LymphoSign, which has been licensed for by Genexpath Patents & Royalties.. Ruminy:  Genexpath: Patents & Royalties: The author is a potential inventor on a patent application for the LymphoSign, which has been licensed for by Genexpath Patents & Royalties. . Salles:  Takeda: Consultancy; Velosbio: Consultancy; Ipsen: Consultancy; Allogene: Consultancy; Miltneiy: Consultancy; Genentech/Roche: Consultancy; Genmab: Consultancy; Janssen: Consultancy; Loxo: Consultancy; Kite/Gilead: Consultancy; Regeneron: Consultancy, Honoraria; Morphosys: Consultancy, Honoraria; Novartis: Consultancy; Incyte: Consultancy; Rapt: Consultancy; Epizyme: Consultancy, Honoraria; Debiopharm: Consultancy; BMS/Celgene: Consultancy; Beigene: Consultancy; Abbvie: Consultancy, Honoraria; Bayer: Honoraria. Gaulard:  Alderaan: Research Funding; Sanofi: Research Funding; Innate Pharma: Research Funding; Gilead: Consultancy; Takeda: Consultancy, Honoraria. Bachy:  Kite, a Gilead Company: Honoraria; Novartis: Honoraria; Daiishi: Research Funding; Roche: Consultancy; Takeda: Consultancy; Incyte: Consultancy.",
+    "author_names": [
+        "Edith Julia",
+        "Sylvain Mareschal",
+        "Amel Chebel",
+        "Camille Golfier",
+        "Tony Andreas M\u00fcller",
+        "Camille Lours",
+        "Sofiane Hadj-Hamou",
+        "Nathalie Bissay",
+        "Manon Tschanz",
+        "Michele Ceribelli",
+        "Dimitri Chartoire",
+        "Aur\u00e9lie Vernay",
+        "Sylvain Carras",
+        "David Sibon",
+        "Ambroise Mar\u00e7ais",
+        "Camille Laurent",
+        "Laurent Martin",
+        "Vahid Asnafi",
+        "Lea Payen",
+        "Damien Sanlaville",
+        "Claire Bardel-Danjean",
+        "Mikael Roussel",
+        "Vanessa Szablewski",
+        "Fanny Drieux",
+        "Philippe Ruminy",
+        "Marco Herling",
+        "Catherine Chassagne-Cl\u00e9ment",
+        "Gilles Salles",
+        "Pierre Sujobert",
+        "Alexandra Traverse-Glehen",
+        "Lucile Baseggio",
+        "Laurence De Leval",
+        "Louis M. Staudt",
+        "Philippe Gaulard",
+        "Laurent Genestier",
+        "Emmanuel Bachy"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Edith Julia",
+            "author_affiliations": [
+                "Hematology deparment - Centre hospitalier Lyon Sud, Pierre-B\u00e9nite, France",
+                "Lymphoma Immunobiology Research Unit- Medical Faculty Lyon Sud, Pierre B\u00e9nite, France"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sylvain Mareschal",
+            "author_affiliations": [
+                "Cancer Research Center of Lyon, INSERM U1052 UMR CNRS 5286, Lyon, FRA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amel Chebel",
+            "author_affiliations": [
+                "Lymphoma Immunobiology Research Unit - Medical Faculty Lyon Sud, Pierre-B\u00e9nite, France"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Camille Golfier",
+            "author_affiliations": [
+                "Department of Hematology, Lyon-Sud Hospital, Pierre-Benite, France"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tony Andreas M\u00fcller",
+            "author_affiliations": [
+                "Department of Internal Medicine - K\u00f6ln, K\u00f6ln, Germany"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Camille Lours",
+            "author_affiliations": [
+                "HCL, Pierre B\u00e9nite, FRA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sofiane Hadj-Hamou",
+            "author_affiliations": [
+                "Lymphoma Immunobiology Research Unit- Medical Faculty Lyon Sud, Pierre-B\u00e9nite, France"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nathalie Bissay",
+            "author_affiliations": [
+                "Lymphoma Immunobiology Research Unit- Medical Faculty Lyon Sud, Pierre-B\u00e9nite, France"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manon Tschanz",
+            "author_affiliations": [
+                "Lymphoma Immunobiology Research Unit- Medical Faculty Lyon Sud, Pierre-B\u00e9nite, France"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michele Ceribelli",
+            "author_affiliations": [
+                "National Cancer Institute, NIH, Bethesda, MD"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dimitri Chartoire",
+            "author_affiliations": [
+                "Lymphoma Immunobiology Research Unit- Medical Faculty Lyon Sud, Pierre-B\u00e9nite, France"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aur\u00e9lie Vernay",
+            "author_affiliations": [
+                "Lymphoma Immunobiology Research Unit - Medical Faculty Lyon Sud, Pierre-B\u00e9nite, France"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sylvain Carras",
+            "author_affiliations": [
+                "Centre Hospitalier Universitaire Grenoble, La Tronche, FRA"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David Sibon",
+            "author_affiliations": [
+                "Hematology Department, Necker University Hospital, Paris, France"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ambroise Mar\u00e7ais",
+            "author_affiliations": [
+                "Hematology Department, Necker University Hospital, PARIS, France"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Camille Laurent",
+            "author_affiliations": [
+                "Institut universitaire du cancer Toulouse-Oncopole CHU Toulouse, Toulouse, France"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laurent Martin",
+            "author_affiliations": [
+                "Pathology Department, University Hospital F. Mitterrand and Inserm UMR 1231, Dijon, France"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vahid Asnafi",
+            "author_affiliations": [
+                "Biological Hematology, Necker University Hospital, Paris, France"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lea Payen",
+            "author_affiliations": [
+                "Centre Hospitalier Lyon Sud, Pierre-B\u00e9nite, France"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Damien Sanlaville",
+            "author_affiliations": [
+                "HCL, UCBL, Bron Cedex, FRA"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Claire Bardel-Danjean",
+            "author_affiliations": [
+                "Hospices civils de Lyon, Lyon, France"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mikael Roussel",
+            "author_affiliations": [
+                "CHU Rennes, Rennes, France"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vanessa Szablewski",
+            "author_affiliations": [
+                "Pathological Anatomy and Cytology, CHU Montpellier, Montpellier, FRA"
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Fanny Drieux",
+            "author_affiliations": [
+                "INSERM U1245, Centre Henri Becquerel, UNIROUEN, University of Normandie, Rouen, France"
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Philippe Ruminy",
+            "author_affiliations": [
+                "Centre Henri Becquerel, Rouen, FRA"
+            ],
+            "author_rank": 25,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marco Herling",
+            "author_affiliations": [
+                "Department I of Internal Medicine, Center for Integrated Oncology (CIO), Aachen-Bonn-Cologne-Duesseldorf, University of Cologne, Cologne, Germany",
+                "Excellence Cluster for Cellular Stress Response and Aging-Associated Diseases (CECAD), Center for Molecular Medicine Cologne (CMMC), University of Cologne, Cologne, Germany"
+            ],
+            "author_rank": 26,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Catherine Chassagne-Cl\u00e9ment",
+            "author_affiliations": [
+                "Department of Pathology, Leon Berard Center, Lyon, France"
+            ],
+            "author_rank": 27,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gilles Salles",
+            "author_affiliations": [
+                "Centre Hospitalier Lyon-Sud, Hospices Civils de Lyon, Universit\u00e9 Claude Bernard, Pierre B\u00e9nite, France",
+                "Memorial Sloan Kettering Cancer Center, New York, NY"
+            ],
+            "author_rank": 28,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pierre Sujobert",
+            "author_affiliations": [
+                "Laboratory of Hematology, Centre Hospitalier Lyon Sud, Pierre B\u00e9nite, France"
+            ],
+            "author_rank": 29,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexandra Traverse-Glehen",
+            "author_affiliations": [
+                "Department of Pathology, Hopital Lyon Sud, Pierre-Benite, France"
+            ],
+            "author_rank": 30,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lucile Baseggio",
+            "author_affiliations": [
+                "Department of Hematology, Centre Hospitalier Lyon-Sud, Hospices Civils de Lyon, Universit\u00e9 Claude Bernard, Pierre Benite, France"
+            ],
+            "author_rank": 31,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laurence De Leval",
+            "author_affiliations": [
+                "H\u00f4pital Universitaire de Lausanne, Lausanne, Switzerland"
+            ],
+            "author_rank": 32,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Louis M. Staudt",
+            "author_affiliations": [
+                "Lymphoid Malignancies Branch, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD"
+            ],
+            "author_rank": 33,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Philippe Gaulard",
+            "author_affiliations": [
+                "D\u00e9partement de Pathologie, H\u00f4pitaux Universitaires Henri Mondor, Cr\u00e9teil, France"
+            ],
+            "author_rank": 34,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laurent Genestier",
+            "author_affiliations": [
+                "Lymphoma Immunobiology Research Unit - Lyon Sud Medical Faculty, Oullins, FRA"
+            ],
+            "author_rank": 35,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Emmanuel Bachy",
+            "author_affiliations": [
+                "Department of Hematology, Centre Hospitalier Lyon-Sud, Hospices Civils de Lyon, Universit\u00e9 Claude Bernard, Pierre-Benite, France"
+            ],
+            "author_rank": 36,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T15:37:17",
+    "is_scraped": "1"
 }

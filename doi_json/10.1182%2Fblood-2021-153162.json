@@ -1,8 +1,103 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4812",
-    "start_url_page_num": "4812",
     "doi": "https://doi.org/10.1182/blood-2021-153162",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/675/479519/Complex-Structural-Variation-Associated-with?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T18:24:20",
-    "is_scraped": "0"
+    "article_title": "Complex Structural Variation Associated with Enhancer Hijacking and Loss of Tumor Suppressors in Mantle Cell Lymphoma ",
+    "article_date": "November 5, 2021",
+    "session_type": "602.Disordered Gene Expression and Epigenetics in Hematologic Malignancies: Basic",
+    "abstract_text": "Mantle cell lymphoma (MCL) is a rare, incurable mature B-cell lymphoma that can have either an aggressive or indolent clinical course. The hallmark aberration of MCL is the t(11;14)(q13;q32) translocation that places CCND1 under control of the immunoglobulin heavy chain (IGH) locus resulting in its constitutive expression. CCND1/IGH translocation occurs in nearly all MCL cases and arises during VDJ recombination. Whole genome sequencing (WGS) of MCLs has shown the prevalence of additional structural variations (SV), particularly in tumors with poor outcome. Complex rearrangements, such as chromothripsis and chromoplexy have been observed in MCL but their role in lymphomagenesis has not been determined. We hypothesized that some of these complex rearrangements afford a selective advantage to the tumor by disrupting tumor suppressor genes or by placing oncogenes in proximity to regulatory elements in cis , thereby resulting in ectopic expression. We performed WGS on tumor DNA extracted from 106 RCHOP-treated MCL patients. Matching ribosomal-depleted RNA-seq data was available for all tumor samples. Gene expression count values were obtained using Salmon and counts were normalized using the DESeq2 method. Structural variants were identified using a consensus between GRIDSS and Manta and these were analyzed to identify the topology of complex rearrangements using JaBbA. This allows the annotation of rearrangements such as chromothripsis and chromoplexy and enables the detection of genes near new regulatory elements through complex (multi-breakpoint) rearrangements. We supplemented this analysis by including 57 published classical and non-nodal leukemic MCL genomes. Chromothripsis and chromoplexy were observed in 8 and 12 tumors, respectively. The majority of the genomes were associated with isolated structural variations such as large deletions, inversions and reciprocal translocations were more common. Six genes ( BCL10 , TRAF6 , TRAF3 , MAP3K7 , BTK , RELB ) coding for canonical and non-canonical NF\u03baB signaling proteins were found rearranged to within 1Mbp of a na\u00efve B-cell super-enhancer region. The TRAF6 rearrangement was part of a chromothripsis and chromoplexy event involving both chr9 and chr11. A separate chromothripsis example involving chr1 placed each of BCL10 and NOTCH2 within 100-200kbp of super-enhancers. A 1Mbp region containing RELB was amplified and inserted into chr19p approximately 150kbp downstream a super-enhancer. An 800kbp deletion brought MAP3K7 to within 400kbp of a super-enhancer. DAZAP1 , a gene known to be recurrently mutated in MCL, was translocated upstream to within 300kbp of a super-enhancer by t(5;19)(p13.3;p15.33). TRAF3 was translocated 400kbp upstream a super-enhancer by t(14;20)(q32.32;q13.13). None of the aforementioned SVs were associated with a detectable increase in expression of the affected gene. In contrast, we identified one genome in which the MYC oncogene was relocated 500kbp upstream of a super-enhancer via an unbalanced t(4;8)(q21.23;q24.21) translocation. In this case, MYC expression was in the 95 th percentile of MYC expression across the cohort. Focal deletions and amplifications were also found affecting lymphoma driver genes. Focal amplifications affecting 3q (34 tumors) and 5p (9 tumors), were among the most common recurrent events. These respectively affect the TERC and TERT genes, both involved in telomerase function. All tumors with TERT amplifications also showed TERC amplifications. TERC and TERT were expressed higher on average in amplified tumors than in unamplified tumors. Two tumors showed focal deletions affecting the 3' end of BIRC3 . The focal deletion in one tumor was found to span to the 3' end of BIRC2 resulting in a BIRC2 / BIRC3 fusion. Aberrant splicing across the two genes was evident in matching tumor RNA-seq data. Complex rearrangements in MCL have been found to link distant super-enhancer elements with a variety of lymphoma oncogenes. We noted a recurrence of such events affecting known regulators of NF\u03baB signaling. We are using nanopore-based long-read PromethION sequencing to validate the structure of the derivative chromosome in these cases. Although these genes were not detectably overexpressed, deregulation of genes may be occurring by other means. The full extent of deregulation of NF\u03baB and other oncogenic pathways will be revealed as complex rearrangements are studied in additional MCL tumors. Disclosures Coyle:  Allakos, Inc.: Consultancy. Melnick:  Epizyme: Consultancy; Daiichi Sankyo: Research Funding; Sanofi: Research Funding; Janssen Pharmaceuticals: Research Funding; Constellation: Consultancy; KDAC Pharma: Membership on an entity's Board of Directors or advisory committees. Scott:  BC Cancer: Patents & Royalties: Patent describing assigning DLBCL COO by gene expression profiling--licensed to NanoString Technologies. Patent describing measuring the proliferation signature in MCL using gene expression profiling. ; AstraZeneca: Consultancy; Abbvie: Consultancy; NanoString Technologies: Patents & Royalties: Patent describing measuring the proliferation signature in MCL using gene expression profiling.; Rich/Genentech: Research Funding; Celgene: Consultancy; Incyte: Consultancy; Janssen: Consultancy, Research Funding. Morin:  Epizyme: Patents & Royalties; Celgene: Consultancy; Foundation for Burkitt Lymphoma Research: Membership on an entity's Board of Directors or advisory committees.",
+    "author_names": [
+        "Prasath Pararajalingam",
+        "Laura K Hilton",
+        "Krysta M. Coyle",
+        "Kostiantyn Dreval",
+        "Barbara Meissner",
+        "Ari Melnick",
+        "Marco A. Marra",
+        "David W. Scott",
+        "Ryan D Morin"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Prasath Pararajalingam",
+            "author_affiliations": [
+                "Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, Canada"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laura K Hilton",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer, Vancouver, Canada"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Krysta M. Coyle",
+            "author_affiliations": [
+                "Department of Molecular Biology & Biochemistry, Simon Fraser University, Vancouver, Canada"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kostiantyn Dreval",
+            "author_affiliations": [
+                "Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, Canada"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Barbara Meissner",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer, Vancouver, Canada"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ari Melnick",
+            "author_affiliations": [
+                "Department of Medicine, Division of Hematology/Oncology, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marco A. Marra",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer, Vancouver, Canada"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David W. Scott",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer, Vancouver, Canada"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ryan D Morin",
+            "author_affiliations": [
+                "Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, Canada"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T15:42:23",
+    "is_scraped": "1"
 }

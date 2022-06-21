@@ -1,8 +1,138 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4723",
-    "start_url_page_num": "4723",
     "doi": "https://doi.org/10.1182/blood-2021-150810",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3520/479631/The-Contribution-of-CD148-CD180-and-CD200?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T14:40:00",
-    "is_scraped": "0"
+    "article_title": "The Contribution of CD148, CD180 and CD200 Combination in the Diagnosis of Chronic B-Cell Lymphoproliferative Disorders ",
+    "article_date": "November 5, 2021",
+    "session_type": "622.Lymphomas: Translational-Non-Genetic",
+    "abstract_text": "Introduction: B-cell immunophenotype could be swiftly assessed by flow cytometry on blood samples or bone marrow aspirate specimens. It provides crucial information later refined with histologic, genetic and molecular features to assert accurate diagnosis of chronic B-cell lymphoproliferative disorders (B-CLPD). Besides Matutes score we identified additional useful markers, i.e. CD148 and CD180 to classify mantle cell lymphoma (MCL) and marginal zone lymphoma (MZL), respectively. Furthermore, CD200 is known to be highly expressed in chronic lymphoid leukemia (CLL) while absent in MCL. Hypothesis: The determination of CD148, CD180 and CD200 expression on B-cells by flow cytometry on blood samples and/or bone marrow aspirates could be a potent tool to accurately identify B-CLPD. We postulated the existence of the following specific expression patterns in B-CLPD: CD148 dim /CD180 dim /CD200 bright for CLL, CD148 dim /CD180 dim /CD200 dim for lymphoplasmocytic lymphoma (LPL), CD148 bright /CD180 dim /CD200 neg/dim for MCL and CD148 dim /CD180 bright /CD200 dim for MZL . Methods: In a prospective study we investigated the expression of CD148/CD180/CD200 on B-cells from 673 patients at the time of B-CLPD diagnosis in our hospital from 2014 to 2020. We analyzed 440 blood and 233 bone marrow aspirate specimens using a BD FACSCanto II flow cytometry instrument. Based solely on CD148/CD180/CD200 specific expression patterns we postulated a diagnosis of CLL, LPL, MCL or MZL. These postulated diagnoses were later confronted to the final diagnoses when all histologic, genetic and molecular features were finalized. Sensitivity, specificity, positive and negative predictive values of the expression profiles were determined. In addition, to investigate the relative importance of these three CD markers we then normalized their mean fluorescence intensities (MFI) and applied several supervised machine learning algorithms including Logistic Regression, Random Forest and Light Gradient Boosting Machine (LightGBM). Results: Out of the 673 clinical samples the CD148/CD180/CD200 expression patterns classified 212 specimens as CLL/SLL (30.8%), 160 as LPL (23.8%), 76 as MCL (11.28%) and 169 as MZL (25%). These diagnosis hypotheses were retrospectively compared to the final diagnoses based on all histologic, genetic and molecular features These diagnosis hypotheses of CLL, LPL, MCL and MZL were consistent with the final diagnosis in 583 out of the 617 corresponding cases (94%) with high positive and negative predictive values. The characteristics of the diagnosis accuracy are detailed in the table below. HCL and FL were not further investigated as their immunophenotype usually do not overlap with those of other B-CLPD. Seventeen out of 617 patients (17/617, 5.3%) did not displayed a clear CD148/CD180/CD200 pattern: 9 LPL, 4 CLL and 4 MZL. In sixteen patients (16/617, 5.0%) the diagnosis hypothesis based on this strategy was not confirmed after completion of the exploration including karyotype, MYD88 L265P mutational status, CCND1 overexpression and pathology explorations. We next investigated the relative importance of these 3 markers. We focused on MFI values of CD148, CD180 and CD200 and three categorical \"positive or negative\" markers (CD5, CD23, FMC7) that were assembled into a composite marker. After Cox-box normalization of CD148, CD180 and CD200 MFIs, a set of supervised machine learning algorithms including Logistic Regression, Random Forest and Light Gradient Boosting Machine (LightGBM) were applied to the cohort of CLL, LPL, MCL and MZL. We established that the highest diagnosis weights were obtained for CD200 in CLL, CD200 and CD148 in MCL (negatively and positively, respectively), CD180 in MZL. In LPL, CD148, CD180 and CD200 had the highest weights using LightGBM and Random Forest algorithms, while Logistic Regression determined that CD5 and CD23 had the highest (negative) weights. In conclusion, the determination of CD148/CD180/CD200 surface expression patterns by flow cytometry, along with morphology, allowed to assert an accurate diagnosis hypothesis in CLL, MCL, LPL and MZL with high positive and negative predictive values. Machine learning algorithms allowed to measure the relative importance of these markers, that could be of great help in case of discordant expression of the main diagnosis markers. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "author_names": [
+        "Laurent Miguet",
+        "Caroline Mayeur-Rousse",
+        "Alice Eischen",
+        "Anne-Cecile Galoisy",
+        "Delphine C. M. Rolland",
+        "Carine Gervais",
+        "Eric Jeandidier",
+        "Raoul Herbrecht",
+        "Luc-Matthieu Fornecker",
+        "Thibaut Fabacher",
+        "Razvan Bizoi",
+        "Laurent Mauvieux"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Laurent Miguet",
+            "author_affiliations": [
+                "UMR-S1113 - IRFAC, INSERM, Facult\u00e9 de M\u00e9decine, STRASBOURG, France",
+                "Laboratoire d'hematologie, Hopital Hautepierre, STRASBOURG, France"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Caroline Mayeur-Rousse",
+            "author_affiliations": [
+                "Laboratoire d'hematologie, Hopital Hautepierre, STRASBOURG, France"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alice Eischen",
+            "author_affiliations": [
+                "Laboratoire d'hematologie, Hopital Hautepierre, STRASBOURG, France"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anne-Cecile Galoisy",
+            "author_affiliations": [
+                "Laboratoire d'hematologie, Hopital Hautepierre, STRASBOURG, France"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Delphine C. M. Rolland",
+            "author_affiliations": [
+                "UMR-S1113 - IRFAC, INSERM, Facult\u00e9 de M\u00e9decine, STRASBOURG, France",
+                "Laboratoire d'hematologie, Hopital Hautepierre, STRASBOURG, France"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Carine Gervais",
+            "author_affiliations": [
+                "Laboratoire d'hematologie, Hopital Hautepierre, STRASBOURG, France"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eric Jeandidier",
+            "author_affiliations": [
+                "Centre Hospitalier De Mulhouse, MULHOUSE, France"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Raoul Herbrecht",
+            "author_affiliations": [
+                "UMR-S1113 - IRFAC, INSERM, Facult\u00e9 de M\u00e9decine, STRASBOURG, France",
+                "Institut De Canc\u00e9Rologie Strasbourg Europe, Strasbourg, France"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Luc-Matthieu Fornecker",
+            "author_affiliations": [
+                "UMR-S1113 - IRFAC, INSERM, Facult\u00e9 de M\u00e9decine, STRASBOURG, France",
+                "Institut De Canc\u00e9Rologie Strasbourg Europe, Strasbourg, France"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Thibaut Fabacher",
+            "author_affiliations": [
+                "Service de sante publique, Hopital Hautepierre, STRASBOURG, France"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Razvan Bizoi",
+            "author_affiliations": [
+                "DBSYS, STRASBOURG, France"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laurent Mauvieux",
+            "author_affiliations": [
+                "UMR-S1113 - IRFAC, INSERM, Facult\u00e9 de M\u00e9decine, STRASBOURG, France",
+                "Laboratoire d'hematologie, Hopital Hautepierre, STRASBOURG, France"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T15:45:45",
+    "is_scraped": "1"
 }

@@ -1,8 +1,232 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4723",
-    "start_url_page_num": "4723",
     "doi": "https://doi.org/10.1182/blood-2021-152801",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3519/479632/Diversity-of-Intratumoral-Regulatory-T-Cells-in?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T14:40:00",
-    "is_scraped": "0"
+    "article_title": "Diversity of Intratumoral Regulatory T Cells in Non-Hodgkin Lymphoma ",
+    "article_date": "November 5, 2021",
+    "session_type": "622.Lymphomas: Translational-Non-Genetic",
+    "abstract_text": "Introduction: Regulatory T cells (Tregs), a highly immunosuppressive subset of CD4 + T cells, represent a key challenge in the tumor microenvironment by limiting potent antitumor immune responses. While high densities of tumor-infiltrating Tregs are associated with poor prognosis in patients with various types of solid cancers, their prognostic impact in B-cell non-Hodgkin lymphoma (NHL) remains unclear. Emerging studies suggest substantial heterogeneity in the phenotype and suppressive capacities of Tregs, emphasizing the importance of understanding Treg diversity and the need for additional markers to identify highly suppressive Tregs. Our in-depth characterization of Tregs in NHL tumors could open new paths for rational drug design, facilitating selective therapeutic manipulation of Tregs to reduce immunosuppression and improve anti-tumor immunity. Methods : Single-cell suspensions from NHL patients (diffuse large B-cell lymphoma (DLBCL), follicular lymphoma (FL), mantle cell lymphoma (MCL) and healthy donors (tonsils and peripheral blood)) were analyzed by fluorescent flow- and mass cytometry to characterize Tregs, focusing on their expression of co-stimulatory and co-inhibitory checkpoint receptors. The immunosuppressive capacity of Tregs was measured by in vitro co-culture of FACS-sorted subsets of Tregs together with autologous CellTrace Violet-labelled T effector cells as responder cells, using samples from FL and tonsils. Live CD4 + T cells were obtained by FACS sorting from DLBCL ( n = 3), FL ( n = 3) and healthy donor tonsils ( n = 3) and subjected to single-cell RNA sequencing (scRNA-seq), Cellular Indexing of Transcriptomes and Epitopes by Sequencing (CITE-seq) and scTCR-seq by the 10X Genomics platform. The computational framework of CIBERSORTx was used to generate unique signature matrices for the three Treg subsets identified by scRNA-seq, to facilitate validation in separate scRNA-seq cohorts ( King, Sci Immunol 2021; Roider, Nat Cell Biol 2020 ), and to impute frequencies of the Treg subsets in cohorts with bulk RNA-seq data ( Chapuy, Nat Med 2018; Schmitz, NEJM 2018; Pastore, Lancet Oncol 2015 ). Results: Immunophenotyping by mass cytometry revealed a subset of activated Tregs identified by co-expression of TIGIT, CTLA-4, PD-1, ICOS and OX40, and higher expression of FOXP3, CD25 and CD45RO, that was present in DLBCL and tonsils, but lacking in peripheral blood. This was validated by fluorescent flow cytometry, demonstrating significantly higher frequencies of activated Tregs in NHL tumors compared to PBMCs and tonsils from healthy donors. The phenotypic heterogeneity of intratumoral Tregs reflected different suppressive capacities as activated Tregs more potently suppressed the proliferation of autologous effector CD4 + and CD8 + T cells than na\u00efve Tregs. For global transcriptomic profiling of CD4 + T cells from FL, DLBCL and tonsillar samples, we integrating scRNA-seq and CITE-seq data from 17,774 cells, revealing 13 distinct cellular states including three states of Tregs: na\u00efve, activated and non-conventional LAG3 + FOXP3 - Tregs. Activated Tregs had higher expression of checkpoint receptors ( TNFRSF4, TNFRSF18, ICOS ), phosphatases ( DUSP2, DUSP4 ), NF-\u03baB pathway ( NFKBIA, TNFAIP3, NFKBIZ, REL ), chemokine receptors ( CXCR4) and transcription factors ( JUNB, IRF1, STAT3 ) as compared to na\u00efve Tregs. We next used a computational approach to develop unique signature matrices for each Treg subset. This approach demonstrated strong concordance between CIBERSORTx estimated cell abundances of the three Treg subsets and the ground truth, and was validated in two external scRNA-seq cohorts. The development of unique signature matrices for Treg subsets facilitated imputation of their frequencies in bulk RNA-seq datasets. These analyses revealed that higher frequency of activated Tregs was enriched in the germinal B cell subtype of DLBCL and was associated with adverse outcome in FL. Conclusion: This study demonstrates that Tregs infiltrating NHL tumors are transcriptionally and functionally diverse and include highly immunosuppressive activated Tregs co-expressing several checkpoint receptors, which distinguish them from peripheral blood Tregs. Activated intratumoral Tregs could hamper clinical responses to checkpoint blockade, and identifying and targeting their vulnerabilities has the potential to improve anti-tumor immune responses. Disclosures Holte:  Gilead: Membership on an entity's Board of Directors or advisory committees; Roche: Membership on an entity's Board of Directors or advisory committees; Nordic: Membership on an entity's Board of Directors or advisory committees; Nanovector: Membership on an entity's Board of Directors or advisory committees, Other: lectures honorarias; Novartis: Membership on an entity's Board of Directors or advisory committees; Takeda: Membership on an entity's Board of Directors or advisory committees. Alizadeh:  Cibermed: Consultancy, Current holder of individual stocks in a privately-held company, Current holder of stock options in a privately-held company; CAPP Medical: Current holder of individual stocks in a privately-held company, Current holder of stock options in a privately-held company; Forty Seven: Current holder of individual stocks in a privately-held company, Current holder of stock options in a privately-held company; Foresight Diagnostics: Consultancy, Current holder of individual stocks in a privately-held company, Current holder of stock options in a privately-held company; Roche: Consultancy, Honoraria; Janssen Oncology: Honoraria; Celgene: Consultancy, Research Funding; Gilead: Consultancy; Bristol Myers Squibb: Research Funding.",
+    "author_names": [
+        "Ivana Spasevska",
+        "Ankush Sharma",
+        "Chloe B. Steen",
+        "Sarah Josefsson",
+        "Yngvild Nuvin Blaker",
+        "Even H Rustad",
+        "Saskia Meyer",
+        "Stalin Chellappa",
+        "Kushi Kushekhar",
+        "Arne Kolstad",
+        "Klaus Beiske",
+        "Harald Holte",
+        "Bj\u00f8rn \u00d8stenstad",
+        "Eva Kimby",
+        "Johanna Olweus",
+        "Kjetil Tasken",
+        "Suzanne Lorenz",
+        "Erlend B. Smeland",
+        "Ash A. Alizadeh",
+        "Kanutte Huse",
+        "June Helen Myklebust"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Ivana Spasevska",
+            "author_affiliations": [
+                "KG Jebsen Centre for B-cell malignancies, Institute for Clinical Medicine, University of Oslo, Oslo, Norway",
+                "Department of Cancer Immunology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ankush Sharma",
+            "author_affiliations": [
+                "KG Jebsen Centre for B-cell malignancies, Institute for Clinical Medicine, University of Oslo, Oslo, Norway",
+                "Department of Cancer Immunology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chloe B. Steen",
+            "author_affiliations": [
+                "Division of Oncology, Department of Medicine, Stanford Cancer Institute, Stanford University, Stanford, CA",
+                "Department of Cancer Immunology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sarah Josefsson",
+            "author_affiliations": [
+                "KG Jebsen Centre for B-cell malignancies, Institute for Clinical Medicine, University of Oslo, Oslo, Norway",
+                "Department of Cancer Immunology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yngvild Nuvin Blaker",
+            "author_affiliations": [
+                "KG Jebsen Centre for B-cell malignancies, Institute for Clinical Medicine, University of Oslo, Oslo, Norway",
+                "Department of Cancer Immunology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Even H Rustad",
+            "author_affiliations": [
+                "Department of Cancer Immunology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Saskia Meyer",
+            "author_affiliations": [
+                "Department of Cancer Immunology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stalin Chellappa",
+            "author_affiliations": [
+                "Department of Cancer Immunology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kushi Kushekhar",
+            "author_affiliations": [
+                "Department of Cancer Immunology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Arne Kolstad",
+            "author_affiliations": [
+                "Department of Oncology, Oslo University Hospital, Oslo, Norway"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Klaus Beiske",
+            "author_affiliations": [
+                "Department of Pathology, Division of Cancer Medicine, Oslo University Hospital, Oslo, NOR"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Harald Holte",
+            "author_affiliations": [
+                "KG Jebsen Centre for B-cell malignancies, Institute for Clinical Medicine, University of Oslo, Oslo, Norway",
+                "Department of Oncology, Oslo University Hospital, Oslo, Norway"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bj\u00f8rn \u00d8stenstad",
+            "author_affiliations": [
+                "Department of Oncology, Oslo University Hospital, Oslo, Norway"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eva Kimby",
+            "author_affiliations": [
+                "Hematology, Karolinska Institute, Stockholm, Sweden"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Johanna Olweus",
+            "author_affiliations": [
+                "Department of Cancer Immunology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kjetil Tasken",
+            "author_affiliations": [
+                "Department of Cancer Immunology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Suzanne Lorenz",
+            "author_affiliations": [
+                "Genomics Core Facility, Department of Core Facilities, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Erlend B. Smeland",
+            "author_affiliations": [
+                "KG Jebsen Centre for B-cell malignancies, Institute for Clinical Medicine, University of Oslo, Oslo, Norway",
+                "Department of Cancer Immunology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ash A. Alizadeh",
+            "author_affiliations": [
+                "Department of Medicine, Divisions of Oncology and Hematology, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kanutte Huse",
+            "author_affiliations": [
+                "KG Jebsen Centre for B-cell malignancies, Institute for Clinical Medicine, University of Oslo, Oslo, Norway",
+                "Department of Cancer Immunology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "June Helen Myklebust",
+            "author_affiliations": [
+                "KG Jebsen Centre for B-cell malignancies, Institute for Clinical Medicine, University of Oslo, Oslo, Norway",
+                "Department of Cancer Immunology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T15:45:41",
+    "is_scraped": "1"
 }

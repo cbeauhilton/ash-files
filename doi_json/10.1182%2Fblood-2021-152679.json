@@ -1,8 +1,203 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4815",
-    "start_url_page_num": "4815",
     "doi": "https://doi.org/10.1182/blood-2021-152679",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3496/479647/Integration-of-Targeted-Gene-Expression-Profiling?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T18:24:31",
-    "is_scraped": "0"
+    "article_title": "Integration of Targeted Gene Expression Profiling and FDG-PET Radiomics Uncovers Radiometabolic Signatures Associated with Outcome in Diffuse Large B-Cell Lymphoma ",
+    "article_date": "November 5, 2021",
+    "session_type": "621.Lymphomas: Translational-Molecular and Genetic",
+    "abstract_text": "Metabolic rewiring is a hallmark of cancer and a predominant feature of aggressive lymphoproliferative disorders such as diffuse large B-cell lymphomas (DLBCL), which need a reshaped metabolism in order to meet the increased demands related to rapid cell proliferation. Emerging evidence indicates that chemoresistance is closely related to altered metabolism in cancer. However, the relationship between metabolic rewiring and chemoresistance in lymphoma is yet to be elucidated. Radiomic analysis applied to functional imaging with fluoroedoxyglucose positron emission tomography (FDG-PET) provides a unique opportunity to explore DLBCL metabolism. In this study we hypothesized that distinct gene expression (GEP) signatures might be correlated with specific FDG-PET radiomics signatures, which in turn could be associated with resistance to standard chemoimmunotherapy and DLBCL outcome. First, we retrospectively analyzed a discovery cohort of 48 consecutive DLBCL patients (pts) treated at our center with standard first line R-CHOP/R-CHOP-like chemoimmunotherapy from 2010 to 2018, with available formalin-fixed paraffin embedded (FFPE) tissue from the initial diagnostic biopsy and FDG-PET radiomics data extracted from the same target lesion. Median follow-up was 55 months (range 18-110). We profiled this cohort with targeted-GEP (T-GEP) (NanoString platform), using a custom panel to define the cell of origin (COO) and MYC/BCL-2 levels, and a dedicated panel comprising 180 genes encompassing the most relevant cancer metabolism pathways. By applying the maxstat package we found that a 6-gene metabolic signature was strongly associated with outcome and outperformed the COO, the MYC/BCL-2 status and the International Prognostic Index (IPI) score for progression free survival (PFS) and overall survival (OS) in multivariate analysis. The 6-gene metabolic signature included genes regulating oxidative metabolism and fatty acid oxidation ( SCL25A1, PDK4, PDPR ) which were upregulated, and was inversely associated with genes involved in glycolytic pathways ( MAP2K1, HIF1A, GBE1 ) which were downregulated. Notably 5-year PFS and OS were 100% and 95% in metabolic signature (met-Sig) low pts vs 24% and 45% in met-Sig high pts respectively (p<0.0001 for PFS and OS). There was no significant association between the COO, MYC/BCL-2 levels, standardized uptake value (SUV), and the 6-gene signature. The prognostic value of the 6-gene signature for OS was validated in 2 large publicly available cohorts of 469 (Sha et al. J Clin Oncol 2019) and 233 (Lenz et al. N Eng J Med 2005) pts. Next, we integrated PET radiomics and T-GEP data. Radiomics analysis (LifeX package) was performed by applying regions of interest semi-automatically, using a 25% SUV max threshold for segmentation. Fifty-five radiomic features (RFs) were extracted and 10 RFs significantly correlated either positively or negatively with the T-GEP metabolic signature (Spearman). After stability evaluation, applying a stepwise feature selection procedure, 4 RFs (Histo Curtosis, Histo Energy, Shape Sphericity, NGLDM Contrast) were used to generate a radiomic signature (hereafter called radiometabolic signature) characterized by the most significant correlation with both the metabolic T-GEP signature (r=0.43, p=0.0027) and PFS (p=0.004). These results (obtained analyzing the lesion of the initial diagnostic biopsy), were confirmed using different target lesions (i.e. the most FDG-avid and the largest lesion), and were validated in a second independent cohort of 64 patients (validation cohort) treated at our center in the same period of time (with no FFPE tissue available). A multivariate analysis performed in the whole cohort of 112 pts (discovery + validation) indicated that the radiometabolic signature retained independent prognostic value in relation to the IPI score and metabolic tumor volume. The robustness of the radiometabolic signature was further confirmed by using a second segmentation method (fixed 2.5 SUV max threshold). These data indicate that oxidative metabolic rewiring could be a powerful adverse prognostic predictor, suggesting the possibility of targeting oxidative metabolism to overcome chemorefractoriness in DLBCL. This study provides the proof of principle for the use of FDG-PET radiomics as a tool for non-invasive assessment of cancer metabolism, and for predicting metabolic vulnerabilities in DLBCL. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Tarella:  ADC-THERAPEUTICS: Other: ADVISORY BOARD; Abbvie: Other: ADVISORY BOARD. Pileri:  CELGENE: Other: ADVISORY BOARD; ROCHE: Other: ADVISORY-BOARD; NANOSTRING: Other: ADVISORY BOARD. Derenzini:  TAKEDA: Research Funding; BEIGENE: Other: ADVISORY BOARD; ASTRA-ZENECA: Consultancy, Other: ADVISORY-BOARD; TG-THERAPEUTICS: Research Funding; ADC-THERAPEUTICS: Research Funding.",
+    "author_names": [
+        "Saveria Mazzara",
+        "Laura L. Travaini",
+        "Francesca Botta",
+        "Chiara Granata",
+        "Giovanna Motta",
+        "Federica Melle",
+        "Stefano Fiori",
+        "Valentina Tabanelli",
+        "Anna Vanazzi",
+        "Safaa M. Ramadan",
+        "Tommaso Radice",
+        "Sara Raimondi",
+        "Giuliana Lo Presti",
+        "Mahila E. Ferrari",
+        "Marta Cremonesi",
+        "Francesco Ceci",
+        "Corrado Tarella",
+        "Stefano A Pileri",
+        "Enrico Derenzini"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Saveria Mazzara",
+            "author_affiliations": [
+                "Hematopathology Division, IEO Istituto Europeo di Oncologia IRCCS, Milano, Italy"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laura L. Travaini",
+            "author_affiliations": [
+                "Nuclear Medicine Division, IEO Istituto Europeo di Oncologia IRCCS, Milano, Italy"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Francesca Botta",
+            "author_affiliations": [
+                "Medical Physics Unit, IEO Istituto Europeo di Oncologia IRCCS, Milano, Italy"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chiara Granata",
+            "author_affiliations": [
+                "Oncohematology Division, IEO Istituto Europeo di Oncologia IRCCS, Milano, Italy"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Giovanna Motta",
+            "author_affiliations": [
+                "Hematopathology Division, IEO Istituto Europeo di Oncologia IRCCS, Milano, Italy"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Federica Melle",
+            "author_affiliations": [
+                "Hematopathology Division, IEO Istituto Europeo di Oncologia IRCCS, Milano, Italy"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stefano Fiori",
+            "author_affiliations": [
+                "Hematopathology Division, IEO Istituto Europeo di Oncologia IRCCS, Milano, Italy"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Valentina Tabanelli",
+            "author_affiliations": [
+                "Hematopathology Division, IEO Istituto Europeo di Oncologia IRCCS, Milano, Italy"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anna Vanazzi",
+            "author_affiliations": [
+                "Oncohematology Division, IEO Istituto Europeo di Oncologia IRCCS, Milano, Italy"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Safaa M. Ramadan",
+            "author_affiliations": [
+                "Oncohematology Division, IEO Istituto Europeo di Oncologia IRCCS, Milano, Italy"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tommaso Radice",
+            "author_affiliations": [
+                "Oncohematology Division, IEO Istituto Europeo di Oncologia IRCCS, Milano, Italy"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sara Raimondi",
+            "author_affiliations": [
+                "Molecular and Pharmaco-Epidemiology Unit, Department of Experimental Oncology, IEO, Istituto Europeo di Oncologia IRCCS, Milano, Italy"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Giuliana Lo Presti",
+            "author_affiliations": [
+                "Molecular and Pharmaco-Epidemiology Unit, Department of Experimental Oncology, IEO, Istituto Europeo di Oncologia IRCCS, Milano, Italy"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mahila E. Ferrari",
+            "author_affiliations": [
+                "Medical Physics Unit, IEO, Istituto Europeo di Oncologia IRCCS, Milano, Italy"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marta Cremonesi",
+            "author_affiliations": [
+                "Radiation Research Unit, IEO, Istituto Europeo di Oncologia IRCCS, Milano, Italy"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Francesco Ceci",
+            "author_affiliations": [
+                "Nuclear Medicine Division, IEO Istituto Europeo di Oncologia IRCCS, Milano, Italy"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Corrado Tarella",
+            "author_affiliations": [
+                "Oncohematology Division, IEO Istituto Europeo di Oncologia IRCCS, Milano, Italy"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stefano A Pileri",
+            "author_affiliations": [
+                "Hematopathology Division, IEO Istituto Europeo di Oncologia IRCCS, Milano, Italy"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Enrico Derenzini",
+            "author_affiliations": [
+                "Oncohematology Division, IEO Istituto Europeo di Oncologia IRCCS, Milano, Italy"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T15:44:27",
+    "is_scraped": "1"
 }

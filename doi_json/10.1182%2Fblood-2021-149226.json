@@ -1,8 +1,144 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4813",
-    "start_url_page_num": "4813",
     "doi": "https://doi.org/10.1182/blood-2021-149226",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/678/479479/High-Throughput-Single-Cell-Simultaneous?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T18:24:23",
-    "is_scraped": "0"
+    "article_title": "High Throughput Single-Cell Simultaneous Genotyping and Chromatin Accessibility Reveals Genotype to Phenotype Relationship in Human Myeloproliferation ",
+    "article_date": "November 5, 2021",
+    "session_type": "602.Disordered Gene Expression and Epigenetics in Hematologic Malignancies: Basic",
+    "abstract_text": "In hematopoiesis, changes in chromatin accessibility define priming and commitment of hematopoietic precursors towards cellular fates. In turn, somatic mutations in hematopoietic stem and progenitor cells (HSPCs) drive the onset and progression of myeloid disorders, such as myeloproliferative neoplasms (MPNs), and reshape differentiation topologies. To chart how somatic mutations disrupt the epigenetic landscape in human clonal outgrowths, we developed Genotyping of Targeted loci with Chromatin Accessibility (GoT-ChA), linking genotypes to chromatin accessibility across thousands of single cells. Crucially, GoT-ChA captures genotypes directly from genomic DNA (Fig. 1a), and thus independently of the genomic location or expression of the target. We tested GoT-ChA via cell line mixing studies targeting either TP53 R248Q (Fig. 1b), or JAK2 V617F (Fig. 1c), assigning cell line identity solely based on chromatin accessibility. Notably, GoT-ChA resulted in genotyping of 54% of cells with 96.9% accuracy for TP53 R248Q and 60% of cells with 99.7% accuracy for JAK2 V617F . These data show the transformative advantage of targeting DNA directly, as prior high-throughput droplet methods to target the lowly expressed JAK2 via cDNA resulted in genotyping of only ~7% of cells (Nam et al, Nature, 2019). Next, we applied GoT-ChA to CD34 + cells from JAK2 V617F -mutant myelofibrosis (MF) samples (Fig. 1d). We clustered cells based on chromatin profiles, revealing the expected cell populations in hematopoiesis (Fig. 1d-e), and then projected genotyping status onto the differentiation map (Fig. 1f). In further validation of genotyping accuracy, copy number inference showed a sample that contained a partial deletion of chromosome 20 (Fig. 1g) concordant with our genotyping. Furthermore, GoT-ChA can be integrated with recent protocols to allow for high mitochondrial genome coverage (Lareau et al, Nature Biotechnology, 2020). We observed mitochondrial mutations that were highly concordant with JAK2 V617F (Fig. 1h), allowing genotyping of >85% of cells. Within MPN samples, wildtype (WT) and mutated (MUT) cells were intermingled across the differentiation topology. Nonetheless, we observed an increase in the mutant fraction within erythroid progenitors (EP; Fig. 1i). Moreover, pseudo-temporal ordering of chromatin accessibility revealed that the mutant cell fraction increased along erythroid or megakaryocyte differentiation in untreated MPN (Fig 1j), in line with clinical phenotypes. Chromatin accessibility profiles can provide clues to the underlying regulatory network through transcription factor (TF) motif accessibility. Uniquely, GoT-ChA enables de novo differential motif accessibility, directly comparing WT and MUT cells co-existing within the same bone marrow. Mutant HSPCs showed increased motif accessibility (FDR < 0.05) for TFs associated with erythropoiesis (Fig. 1k), suggestive of increased erythroid priming. Within EP clusters, we observed increased motif accessibility of STAT5A and STAT5B, downstream targets of JAK2 (Fig. 1l-m). These data demonstrated a cell-type specific effect of the JAK2 V617F mutation. Ruxolitinib is a frontline JAK1/2 inhibitor for MF. Despite improvements in quality of life, ruxolitinib does not clearly target the MPN clone or prevent progression of disease. In ruxolitinib-treated patients the MUT cell fraction was uniformly distributed along the differentiation (Fig.1i-j), demonstrating an abrogation of the fitness advantage of JAK2 V617F in committed progenitors, but not in HSPCs. Consistently, STAT5A motif accessibility remained increased in MUT cells at intermediate stages of erythroid maturation but decreased to similar levels as WT cells at later stages (Fig. 1n-o). Overall, GoT-ChA radically expands the single-cell multi-omics toolkit and obviates limiting dependencies on target gene transcription, allowing high throughput somatic genotype-to-phenotype mapping. Applied to JAK2 V617F -mutated MPN, GoT-ChA uncovered a cell-type specific fitness advantage with erythroid commitment, that was reversed upon JAK2 inhibitor treatment. The reshaping of the differentiation topography traced back to differential transcription factor activity driving uncommitted vs. committed JAK2 V617F progenitors. Thus, single-cell multi-omics with GoT-ChA enables to chart the epigenetic underpinnings of hematopoietic clonal outgrowth. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Mimitou:  Immunai: Current Employment. Hoffman:  Protagonist Therapeutics, Inc.: Consultancy; Kartos Therapeutics, Inc.: Research Funding; Novartis: Other: Data Safety Monitoring Board, Research Funding; AbbVie Inc.: Other: Data Safety Monitoring Board, Research Funding. Abdel-Wahab:  Prelude Therapeutics: Consultancy; LOXO Oncology: Consultancy, Research Funding; Merck: Consultancy; Foundation Medicine Inc: Consultancy; H3B Biomedicine: Consultancy, Research Funding; Lilly: Consultancy; AIChemy: Current holder of stock options in a privately-held company, Membership on an entity's Board of Directors or advisory committees; Envisagenics Inc.: Current holder of stock options in a privately-held company, Membership on an entity's Board of Directors or advisory committees. Smibert:  Immunai: Current Employment.",
+    "author_names": [
+        "Robert M. Myers",
+        "Franco Izzo",
+        "Tamara Prieto",
+        "Eleni Mimitou",
+        "Ramya Raviram",
+        "Ronan Chaligne",
+        "Ronald Hoffman",
+        "Maximilian Stahl",
+        "Omar Abdel-Wahab",
+        "Bridget Marcellino",
+        "Peter Smibert",
+        "Dan A. Landau"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Robert M. Myers",
+            "author_affiliations": [
+                "Tri-Institutional MD-PhD Program, Weill Cornell Medicine, Rockefeller University, Memorial Sloan Kettering Cancer Center, New York, NY",
+                "New York Genome Center, New York, NY",
+                "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY",
+                "Sandra and Edward Meyer Cancer Center, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Franco Izzo",
+            "author_affiliations": [
+                "New York Genome Center, New York, NY",
+                "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY",
+                "Meyer Cancer Center & Institute of Computational Biomedicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tamara Prieto",
+            "author_affiliations": [
+                "New York Genome Center, New York, NY",
+                "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY",
+                "Sandra and Edward Meyer Cancer Center, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eleni Mimitou",
+            "author_affiliations": [
+                "Immunai, New York, NY"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ramya Raviram",
+            "author_affiliations": [
+                "New York Genome Center, New York, NY",
+                "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY",
+                "Sandra and Edward Meyer Cancer Center, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ronan Chaligne",
+            "author_affiliations": [
+                "Single Cell Research Initiative, Memorial Sloan Kettering Cancer Center, New York, NY"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ronald Hoffman",
+            "author_affiliations": [
+                "Division of Hematology/Medical Oncology, Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maximilian Stahl",
+            "author_affiliations": [
+                "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Omar Abdel-Wahab",
+            "author_affiliations": [
+                "Human Oncology and Pathogenesis Program, Memorial Sloan Kettering Cancer Center, New York, NY"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bridget Marcellino",
+            "author_affiliations": [
+                "Division of Hematology/Medical Oncology, Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter Smibert",
+            "author_affiliations": [
+                "Immunai, New York, NY"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dan A. Landau",
+            "author_affiliations": [
+                "New York Genome Center, New York, NY",
+                "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY",
+                "Sandra and Edward Meyer Cancer Center, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T15:42:31",
+    "is_scraped": "1"
 }

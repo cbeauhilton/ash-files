@@ -1,8 +1,217 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4810",
-    "start_url_page_num": "4810",
     "doi": "https://doi.org/10.1182/blood-2021-153445",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/807/480061/Constrained-FL-A-Genetically-Distinct-Subgroup-of?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T17:42:24",
-    "is_scraped": "0"
+    "article_title": "Constrained FL: A Genetically Distinct Subgroup of Follicular Lymphoma with Low Rates of Somatic Hypermutation and a Reduced Propensity for Histologic Transformation ",
+    "article_date": "November 5, 2021",
+    "session_type": "621.Lymphomas: Translational-Molecular and Genetic",
+    "abstract_text": "Introduction : Follicular lymphoma (FL) is an indolent disease that undergoes histological transformation (HT) to aggressive diffuse large B-cell lymphoma (DLBCL) in 8-15% of patients. FLs frequently share genetic features with DLBCL, especially those of the germinal center B-cell-like (GCB) cell-of-origin (COO) and the EZB/C3 genetic subgroup, and approximately 80% of transformed FL (tFL) are classified as GCB. Our current understanding of the genetics of FL and tFL is based on a variety of studies, most of which have sequenced tumors in small case numbers or using targeted approaches such that the potential role of non-coding mutations and aberrant somatic hypermutation (aSHM) in predicting HT have not previously been fully explored. Methods : Whole genome sequencing (WGS) data from 212 FL (including 24 from patients that subsequently underwent HT) and 241 de novo DLBCL were analyzed. Simple somatic mutations (SSMs) were called using an ensemble of somatic variant callers, while structural variants (SVs) were called with Manta and copy number variants (CNVs) with Battenberg and GISTIC. Fluorescence in situ hybridization with break-apart probes (BA-FISH) was used to identify MYC , BCL2 , and BCL6 translocations, and with IGH /BCL2 dual-fusion probes (DF-FISH) for a subset of FLs. To compare the genetics of FL and DLBCL, 83 significantly mutated genes (SMGs) were identified with dNdS, MutSigCV, HotMaps, and OncoDriveFML, and non-silent mutations were tabulated for their presence in each genome. For 38 hypermutated regions, we used a region-specific threshold to binarize the data to aSHM/no aSHM. Recurrent missense mutations in FOXO1 , MYD88 L265P , CREBBP lysine acetyltransferase (KAT) domain, EZH2 Y646 , MEF2B , and STAT6 were tabulated separately from other mutations in these genes. Using only the FL tumors from patients with no evidence of subsequent transformation and all available de novo DLBCLs, we trained a random forest classifier to separate these two entities using this set of 129 features, including MYC and BCL6 translocations. To validate this classifier, we fit a linear model to the number of FL votes from each discovery case, utilizing the 65 features (including 19 aSHM features) that were adequately sequenced in a validation cohort of 127 tFL. Statistical tests were corrected for multiple comparisons where necessary. Results : This large cohort of FL and DLBCL genomes has enabled the curation of an extensive list of novel and established FL driver genes and the identification of distinguishing genetic features among SMGs and CNVs. Loci that are significantly enriched for mutations in FL vs. DLBCL include the CREBBP KAT domain (OR 11.5, P < 0.0001), RRAGC (OR 9.61, P < 0.001), and ATP6V1B2 (OR 11.17, P < 0.001). Deletions of ARID1A (OR 4.74, P < 0.1), PTEN (OR 3.65, P < 0.01), and TNFRSF14 (OR 3.31, P < 0.01) were among the CNVs significantly enriched in FL. Out of 156 FLs, 24 (15%) were negative for BCL2 translocations by BA-FISH, but 4 (17%) of these had BCL2 translocations detected from WGS data. All 4 of these cryptic events were confirmed using IGH /BCL2 DF-FISH. Using a threshold of 0.7, the linear model separated discovery FL cases into a more DLBCL-like subgroup, termed dFL (n = 107), and a genetically homogeneous subgroup enriched for the FL-associated features, which we describe as constrained FL (cFL, n = 105). This separation is supported by more mutations in dFL vs cFL across several aSHM loci, including the transcription start sites for BCL6 , BCL7A , DTX1 , and ZFP36L1 (Figure 1), consistent with reduced exposure to the germinal center reaction in cFL. Within the targeted capture validation cohort of tFL, 30 (24%) tumors were classified as cFL and 97 (76%) as dFL. The tFL cohort was significantly depleted for mutations in the CREBBP KAT domain (OR 0.59, P < 0.05), and were significantly less frequently classified as cFL (OR 0.30, P < 0.0001) compared to the discovery FLs. Conclusions : The distinction between cFL and dFL is strongly driven by CREBBP KAT domain mutations and different rates of aSHM genome wide. Given the known early clonal nature of CREBBP mutations in FL and its role in regulating germinal center cycling, we speculate that CREBBP KAT mutations may limit the exposure of FL to the dark zone, reducing the opportunity for aSHM and creating an evolutionary constraint that may limit the opportunity for HT. This classification may serve as a useful biomarker to identify FLs at higher risk of HT. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Coyle:  Allakos, Inc.: Consultancy. Grande:  Sage Bionetworks: Current Employment. Slack:  Seagen: Consultancy, Honoraria. Steidl:  Curis Inc.: Consultancy; Trillium Therapeutics: Research Funding; Epizyme: Research Funding; Bayer: Consultancy; Seattle Genetics: Consultancy; AbbVie: Consultancy; Bristol-Myers Squibb: Research Funding. Scott:  Janssen: Consultancy, Research Funding; Abbvie: Consultancy; AstraZeneca: Consultancy; NanoString Technologies: Patents & Royalties: Patent describing measuring the proliferation signature in MCL using gene expression profiling.; Incyte: Consultancy; Rich/Genentech: Research Funding; Celgene: Consultancy; BC Cancer: Patents & Royalties: Patent describing assigning DLBCL COO by gene expression profiling--licensed to NanoString Technologies. Patent describing measuring the proliferation signature in MCL using gene expression profiling. . Morin:  Epizyme: Patents & Royalties; Foundation for Burkitt Lymphoma Research: Membership on an entity's Board of Directors or advisory committees; Celgene: Consultancy.",
+    "author_names": [
+        "Laura K Hilton",
+        "Kostiantyn Dreval",
+        "Shaghayegh Soudi",
+        "Susana Ben-Neriah",
+        "Manuela Cruz",
+        "Brett Collinge",
+        "Krysta M. Coyle",
+        "Bruno M. Grande",
+        "Gerben Duns",
+        "Christopher K Rushton",
+        "Merrill Boyle",
+        "Barbara Meissner",
+        "Pedro Farinha",
+        "Graham W Slack",
+        "Andrew J. Mungall",
+        "Marco A. Marra",
+        "Joseph M. Connors",
+        "Christian Steidl",
+        "David W. Scott",
+        "Ryan D Morin"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Laura K Hilton",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer, Vancouver, Canada"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kostiantyn Dreval",
+            "author_affiliations": [
+                "Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, Canada"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shaghayegh Soudi",
+            "author_affiliations": [
+                "Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, Canada"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Susana Ben-Neriah",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer, Vancouver, Canada"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manuela Cruz",
+            "author_affiliations": [
+                "Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, Canada"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brett Collinge",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer, Vancouver, Canada"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Krysta M. Coyle",
+            "author_affiliations": [
+                "Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, Canada"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bruno M. Grande",
+            "author_affiliations": [
+                "Sage Bionetworks, Seattle, WA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gerben Duns",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer, Vancouver, Canada"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher K Rushton",
+            "author_affiliations": [
+                "Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, Canada"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Merrill Boyle",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer, Vancouver, Canada"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Barbara Meissner",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer, Vancouver, Canada"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pedro Farinha",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer, Vancouver, Canada",
+                "Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, Canada"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Graham W Slack",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer, Vancouver, Canada",
+                "Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, Canada"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew J. Mungall",
+            "author_affiliations": [
+                "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, Canada"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marco A. Marra",
+            "author_affiliations": [
+                "Canada's Michael Smith Genome Sciences Centre, BC Cancer, Vancouver, Canada"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joseph M. Connors",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer, Vancouver, Canada"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christian Steidl",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer, Vancouver, Canada"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David W. Scott",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, BC Cancer, Vancouver, Canada",
+                "Division of Medical Oncology, University of British Columbia, Vancouver, Canada"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ryan D Morin",
+            "author_affiliations": [
+                "Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, Canada",
+                "Canada's Michael Smith Genome Sciences Centre, BC Cancer Research Centre, Vancouver, Canada"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T15:37:12",
+    "is_scraped": "1"
 }

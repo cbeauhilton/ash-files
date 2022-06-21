@@ -1,8 +1,123 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4809",
-    "start_url_page_num": "4809",
     "doi": "https://doi.org/10.1182/blood-2021-146026",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/646/479976/Non-Genetic-Determinants-of-Clonotypic-T-Cell?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T17:42:20",
-    "is_scraped": "0"
+    "article_title": "Non-Genetic Determinants of Clonotypic T Cell Expansion Following Allogeneic Stem Cell Transplant ",
+    "article_date": "November 5, 2021",
+    "session_type": "701.Experimental Transplantation: Basic and Translational",
+    "abstract_text": "Background: The immunologic basis of acute GVHD fundamentally involves alloreactive donor T cells that recognize foreign major histocompatibility complex (MHC)-peptide structures derived from both major and minor antigen mismatches with the host. Within this paradigm, the relationship between the donor and recipient genetics represents a closed system that dictates the potential ability of any given T cell receptor (TCR) to expand, raising the question of whether there are predictable aspects of TCR reconstitution at a clonal level. Take a hypothetical example - if genetically identical twins were to receive allogeneic grafts from the same donor and both recipients develop GVHD, would one expect similar TCRs to be clonally expanded? It has been challenging to rigorously explore this phenomenon, however, because of the vast combinatorial diversity of \u03b1\u03b2 TCRs, the high prevalence of low copy number TCRs, and sampling constraints - all of which render tracking and comparing TCR expansion between the donor and host difficult. Methods: We address these challenges in order to better understand the predictability TCR clonal dynamics through an analysis platform utilizing 1) a series of matched and mismatched murine transplant experiments where genetically identical littermates receive T cells from the same polyclonal donor pool, thus creating multiple transplant replicates simulating the twin transplant system describe above ( Fig 1 ), and 2) probabilistic modeling of individual TCR frequencies to account for partitioning stochasticity (variation in how low copy number TCRs are distributed from donor to recipient). We conduct high-throughput DNA-based TCR amplicon sequencing for both donor and post-transplant recipient samples to generate over 20 million TCRs and model the expansion rates of all identifiable TCRs in each transplant system using a Bayesian approach. Results: While overall V and J gene usage were similar amongst identical recipients ( Fig 2 ), we find that a small fraction of TCR clonotypes appears to have widely disparate clone counts amongst identical recipients receiving the same donor T cell pool. For example, we saw 9,739, 129 and 0 copies of a particular TCR in 3 different recipients in our B6->B6D2F1 system ( Fig 3 ). In order to distinguish whether TCR count discrepancies seen across identical recipients is simply a reflection of donor partitioning stochasticity or true differential expansion ( Fig 4 ), we apply a Bayesian algorithm to identify differential expanders, which represent TCRs that are asymmetrically expanded between recipients of a genetically identical pair ( Fig 5 ). These TCRs can be generated from both memory and na\u00efve T cell compartments. The presence of these differentially expanded clones amongst identical recipients suggests that non-genetic dependent mechanisms may influence which TCRs expand post-transplant. We next show that broad gut decontamination of microbiota with peri-transplant vancomycin, gentamicin, cefoxitin and metronidazole dramatically reduced the fraction of differential expanders (p<0.0001). However, the change in inflammation from microbiome depletion did not appear to drive this difference, as 1) MyD88/TRIF double knockout recipients (deficient TLR signaling) did not show a reduction in differential expanders, and 2) altering conditioning intensity (900cGy to 1300 cGy TBI) also did not change the fraction of differential expanders. Rather, the difference is likely antigenically driven, as differential expanders are enriched in antigen specificity compared to other TCR sequences (p<0.0001) based on published algorithm that identify TCRs with similar amino acid sequence overlap. Conclusions: These results refine our current understanding of clonal T cell selection and expansion after allogeneic BMT and suggests that for a given transplant system, individual TCR selection is not solely dictated by genetic donor and recipient major and/or minor histocompatibility disparities. Rather, microbiota-derived molecules appear to behave as minor antigens to direct systemic clonal TCR selection. These data suggest a novel mechanism by which the microbiome may modulate transplant outcome, challenging current paradigms suggesting the microbiota primarily drive inflammation via their PAMP activities. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Hill:  Applied Molecular Transport: Research Funding; Syndax Pharmaceuticals: Research Funding; Compass Therapeutics: Research Funding; NapaJun Pharma: Consultancy; Generon corporation: Consultancy; iTeos Therapeutics: Consultancy, Research Funding; Neoleukin Therapeutics: Consultancy; Roche: Research Funding.",
+    "author_names": [
+        "Albert Yeh",
+        "Motoko Koyama",
+        "Simone A Minnie",
+        "Julie Boiko",
+        "Kathleen S Ensbey",
+        "Christine R Schmidt",
+        "Sam Legg",
+        "Gabriela Campoy",
+        "Ethan Nelson",
+        "Phil Bradley",
+        "Geoff R. Hill"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Albert Yeh",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Motoko Koyama",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Simone A Minnie",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Julie Boiko",
+            "author_affiliations": [
+                "Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kathleen S Ensbey",
+            "author_affiliations": [
+                "Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christine R Schmidt",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sam Legg",
+            "author_affiliations": [
+                "Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gabriela Campoy",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ethan Nelson",
+            "author_affiliations": [
+                "Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Phil Bradley",
+            "author_affiliations": [
+                "Public Health Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Geoff R. Hill",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T15:38:58",
+    "is_scraped": "1"
 }

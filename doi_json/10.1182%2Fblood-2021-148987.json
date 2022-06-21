@@ -1,8 +1,179 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4719",
-    "start_url_page_num": "4719",
     "doi": "https://doi.org/10.1182/blood-2021-148987",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/18/477500/Machine-Learning-Model-for-Resistance-Relapse?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T14:19:14",
-    "is_scraped": "0"
+    "article_title": "Machine-Learning Model for Resistance/Relapse Prediction in Immune Thrombocytopenia Using Gut Microbiota and Function Signatures ",
+    "article_date": "November 5, 2021",
+    "session_type": "311.Disorders of Platelet Number or Function: Clinical and Epidemiological",
+    "abstract_text": "Introduction Growing evidence has implicated gut microbiota in the pathogenesis of immune thrombocytopenia (ITP). In a previous research study, we found dysbiosis in the phylogenetic composition and function of gut microbiome in ITP and that corticosteroid treatment may have a strong effect on gut microbiota [Sci China Life Sci, 2020]. Corticosteroids have been widely used in the initial treatment of newly diagnosed ITP patients, but most adult patients relapse upon cessation of steroid treatment. Patients on agents in subsequent therapy may improve at any time, but which patients improve and when is unpredictable. The gut microbiome has been increasingly used in the assessment and prediction of immunomodulatory therapy in autoimmune diseases and cellular immunotherapy in cancers. Here, we provide evidence that gut microbiota and function signatures can be used to predict immune thrombocytopenia patients at high risk of relapse/resistance after corticosteroid treatment and to identify patients that are more likely to benefit from TPO-RAs in subsequent therapy. Methods Seventy-five fecal samples from 60 patients with newly diagnosed ITP (60 specimens before corticosteroid therapy and 15 specimens after corticosteroid therapy) and 41 samples from persistent/chronic ITP before and after treatment with TPO-RAs, including eltrombopag and avatrombopag were collected for deep shotgun metagenomic sequencing. To identify the microbial biomarkers related to relapse/resistance after corticosteroid treatment, we constructed a random forest classifier using machine learning to determine the risk of relapse/resistance of a training cohort of 30 patients from baseline samples and validated the classifier for 30 patients. Patients with persistent/chronic ITP were divided into responders and nonresponders according to their response to TPO-RA treatment in subsequent therapy. After identifying the microbial species and functional biomarkers related to the response to TPO-RA therapy, a random forest classifier was constructed using a training set of 20 patients and validated using a validation set of 21 patients. Results We used a metagenomic sequencing technique to investigate the differences among gut microbiota associated with relapse within 3 months of corticosteroid treatment. We observed that the diversity and composition of the microbial community in ITP patients after corticosteroid therapy (Post-C) changed significantly from the baseline (Pre-C), whereas the gut microbiota of the remission group was similar to that of the HC group, which implies that a shift in the gut microbiome could represent a return to homeostasis. To identify the microbial biomarkers related to early relapse after corticosteroid treatment, the Pre-C samples were divided into a remission group and a resistant/relapse group according to the response to corticosteroid therapy within 3 months. Nine significant associations with the microbial species and function were identified between the remission and resistant/relapse groups. A risk index built from this panel of microbes and functional pathways was used to differentiate remission from resistant/relapsed patients based on the baseline characteristics. The receiver operating characteristic (ROC) curve demonstrated that the risk index was a strong predictor of treatment response, with an area under the curve (AUC) of 0.87. Furthermore, to predict the response to TPO-RAs in subsequent therapy, the baseline gut microbiomes of responders and nonresponders before TPO-RA treatment were compared. Patients who responded to treatment exhibited an increase in Ruminococcaceae , Clostridiaceae and Bacteroides compared to nonresponders, with elevated abundance of the phosphotransferase system, tyrosine metabolism and secondary bile acid biosynthesis pathways according to KEGG analysis. Our prediction model based on the gut microbiome for TPO-RA response was robust across the cohorts and showed 89.5% and 79.2% prediction accuracy for persistent/chronic ITP patients in the training and validation sets, respectively. Conclusions The gut microbiome and function signatures based on machine learning analysis are novel potential biomarkers for predicting resistance/relapse after corticosteroid treatment and response to TPO-RAs, which may have important manifestations in the clinical. Disclosures No relevant conflicts of interest to declare.",
+    "author_names": [
+        "Feng-Qi Liu",
+        "Qi Chen",
+        "Qingyuan Qu",
+        "Xueyan Sun",
+        "Qiu-Sha Huang",
+        "Yun He",
+        "Xiaolu Zhu",
+        "Chencong Wang",
+        "Hai-Xia Fu",
+        "Yue-Ying Li",
+        "Qian-fei Wang",
+        "Kai-Yan Liu",
+        "Xiao-Hui Zhang"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Feng-Qi Liu",
+            "author_affiliations": [
+                "National Clinical Research Center for Hematologic Disease, Beijing, China",
+                "Peking University People's Hospital, Peking University Institute of Hematology, beijing, China",
+                "Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Beijing, China",
+                "Collaborative Innovation Centre of Hematology, Peking University, Beijing, China"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Qi Chen",
+            "author_affiliations": [
+                "National Clinical Research Center for Hematologic Disease, Beijing, China",
+                "Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Beijing, China",
+                "Collaborative Innovation Centre of Hematology, Peking University, Beijing, China",
+                "Peking University Institute of Hematology, Peking University People's Hospital, Beijing, China"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Qingyuan Qu",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, beijing, China",
+                "Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, beijing, China",
+                "National Clinical Research Center for Hematologic Disease, beijing, China",
+                "Collaborative Innovation Centre of Hematology, beijing, China"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xueyan Sun",
+            "author_affiliations": [
+                "National Clinical Research Center for Hematologic Disease, Beijing, China",
+                "Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Beijing, China",
+                "Collaborative Innovation Centre of Hematology, Peking University, Beijing, China",
+                "Peking University People's Hospital, Beijing, China"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Qiu-Sha Huang",
+            "author_affiliations": [
+                "National Clinical Research Center for Hematologic Disease, Beijing, China",
+                "Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Beijing, China",
+                "Peking University People's Hospital, Beijing, China",
+                "Collaborative Innovation Center of Hematology, Peking University, Beijing, China"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yun He",
+            "author_affiliations": [
+                "National Clinical Research Center for Hematologic Disease, Beijing, China",
+                "Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Beijing, China",
+                "Collaborative Innovation Centre of Hematology, Peking University, Beijing, China",
+                "Collaborative Innovation Center of Hematology, Peking University, Beijing, China"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xiaolu Zhu",
+            "author_affiliations": [
+                "National Clinical Research Center for Hematologic Disease, Beijing, China",
+                "Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Beijing, China",
+                "Collaborative Innovation Centre of Hematology, Peking University, Beijing, China",
+                "Peking University People's Hospital, Peking University Institute of Hematology, Beijing, China"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chencong Wang",
+            "author_affiliations": [
+                "Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Beijing, China",
+                "Collaborative Innovation Centre of Hematology, Peking University, Beijing, China",
+                "Peking University People's Hospital, Peking University Institute of Hematology, Beijing, China",
+                "National Clinical Research Center for Hematologic Disease, Washington, MD"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hai-Xia Fu",
+            "author_affiliations": [
+                "National Clinical Research Center for Hematologic Disease, Beijing, China",
+                "Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Beijing, China",
+                "Collaborative Innovation Center of Hematology, Peking University, Beijing, China",
+                "Peking University People's Hospital, Peking University Institute of Hematology, Beijing, China"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yue-Ying Li",
+            "author_affiliations": [
+                "Key Laboratory of Genomic and Precision Medicine, Collaborative Innovation Center of Genetics and Development, Beijing Institute of Genomics, Chinese Academy of Sciences, Beijing, China",
+                "CAS Key Laboratory of Genomic and Precision Medicine, Collaborative Innovation Center of Genetics and Development, Beijing Institute of Genomics, Chinese Academy of Sciences, Beijing, China, Beijing, China"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Qian-fei Wang",
+            "author_affiliations": [
+                "University of Chinese Academy of Sciences, Beijing, China",
+                "CAS Key Laboratory of Genomic and Precision Medicine, Collaborative Innovation Center of Genetics and Development, Beijing Institute of Genomics, Chinese Academy of Sciences(China National Center for Bioinformation), Beijing, China",
+                "China National Center for Bioinformation, Beijing, China"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kai-Yan Liu",
+            "author_affiliations": [
+                "National Clinical Research Center for Hematologic Disease, Beijing, China",
+                "Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Beijing, China",
+                "Collaborative Innovation Centre of Hematology, Peking University, Beijing, China",
+                "Peking University People's Hospital, Peking University Institute of Hematology, Beijing, China"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xiao-Hui Zhang",
+            "author_affiliations": [
+                "National Clinical Research Center for Hematologic Disease, Beijing, China",
+                "Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Beijing, China",
+                "Collaborative Innovation Center of Hematology, Peking University, Beijing, China",
+                "Peking University People's Hospital, Peking University Institute of Hematology,, Beijing, China"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T15:40:25",
+    "is_scraped": "1"
 }

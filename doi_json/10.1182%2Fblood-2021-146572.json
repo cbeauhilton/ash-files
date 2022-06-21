@@ -1,8 +1,142 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4724",
-    "start_url_page_num": "4724",
     "doi": "https://doi.org/10.1182/blood-2021-146572",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3428/479620/Single-Cell-Proteogenomic-Sequencing-Allows-Early?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T14:40:04",
-    "is_scraped": "0"
+    "article_title": "Single-Cell Proteogenomic Sequencing Allows Early Detection of Relapse Clone with CN-LOH at FLT3 -ITD Locus from Initial Diagnosis in AML ",
+    "article_date": "November 5, 2021",
+    "session_type": "617.Acute Myeloid Leukemias: Biomarkers, Molecular Markers and Minimal Residual Disease in Diagnosis and Prognosis",
+    "abstract_text": "Introduction FLT3 -ITD is one of the most common and clinically relevant mutations in acute myeloid leukemia (AML). A high FLT3 -ITD allelic ratio (AR) (>0.5) is strongly associated with poor prognosis. FLT3 -ITDs are heterogeneous mutations, varying in sizes and locations with some patients having multiple FLT3 -ITDs. Unfortunately, conventional clinical techniques are often not adequate in measuring these characteristics at sufficient resolution. The current study aimed to characterize an AML case with 2 FLT3 -ITDs at diagnosis, map the multi-omic evolution of AML clones, and understand genetic patterns underlying AML relapse using single-cell proteogenomic sequencing (ScPGseq). Methods Leukemic samples from a 46-year old female patient diagnosed with de novo AML obtained at initial diagnosis and relapse were archived and used in this study. Based on the 2017 ELN risk stratification, the patient was classified into a low-risk group due to normal karyotype/low FLT3 -ITD AR/ NPM1 +. The patient achieved complete remission (CR) after induction chemotherapy in combination with midostaurin. The patient relapsed 2 months after 4 cycles of consolidation, with a CR duration of 6 months. After relapse, the disease was refractory despite reinduction and salvage therapies, even with gilteritinib ( Fig A ). ScPGseq was performed using the Mission Bio's AML panel and antibody oligoconjugates for 16 cell surface proteins. Raw sequencing reads were processed using Mission Bio's Tapestri pipeline and results were exported from Tapestri Insights (v3.0.2). All downstream computational and statistical analyses were performed using R and Python. Results Consistent with clinical sequencing (R 2 = 0.997) and PCR, ScPGseq identified 5 mutations in FLT3 (21bp and 39bp ITDs and D835Y), NPM1 , and WT1 at diagnosis (2367 cells). At relapse, 1 FLT3 -ITD (21bp) and mutations in NPM1 and WT1 were detected while the other FLT3 -ITD (39bp) and FLT3 D835Y were absent (2611 cells). Clonal analyses of mutation patterns identified 4 AML clones at diagnosis (C1-4) and 1 at relapse (C3R; Fig B ). Two closely related clones, C3 and C3R ( WT1 +/ NPM1 +/21bp FLT3 -ITD+) differed in zygosity of 21bp FLT3 -ITD, where nearly all cells in C3R carries homozygous FLT3 -ITD. SNP array confirmed the presence of copy neutral loss of heterozygosity (CN-LOH) in chr13q. Analysis of 16 cell surface proteins along with clonal information identified 3 clusters including one devoted to non-leukemic fractions (i.e., no mutations) (top) and another nearly exclusively consisting of mutant cells from diagnosis, which we termed \"monocyte-like signature\" (right bottom). The other cluster was composed of nearly all mutant cells from the relapse sample and about 1/3 of mutant cells from diagnosis, which we termed \"immature myeloid cell signature\" (left) ( Fig C ). When investigating further, C3 cells with immature myeloid cell signature (98/287 cells, 34.1%) exhibited much higher allelic burden of (mean 73% vs. 56%, adj. p < 1.1e-6) and were significantly enriched with homozygous 21bp FLT3 -ITDs compared to C3 cells with monocyte-like signature (189/287 cells, 65.9%) (41/98 cells, 42% vs. 11/189 cells, 5.8%, adj. p = 2.7e-13). No other mutations showed similar patterns. It indicates that C3R existed from the initial diagnosis at low frequency, instead of losing heterozygosity during relapse. Without the single cell proteogenomic analyses, C3R cells, present in <5% cells at the initial diagnosis could have not been detected. The multi-omic information elucidates the complete clonal history of this AML ( Fig D ). Starting with WT1 and NPM1 mutations (C1), 3 FLT3 mutations (2 ITDs and D835Y) were subsequently acquired in 3 subclones (C2-4). A subset of C3 cells ( WT1 +/ NPM1 +/21bp FLT3 -ITD+) further gained CN-LOH in chr13q (C3R at diagnosis). When treated, AML cells without homozygous 21bp FLT3 -ITD were cleared. Cells with homozygous 21bp FLT3 -ITD survived/escaped from the treatment and became the dominant clone at relapse (C3R at relapse). Conclusion The current study demonstrates that ScPGseq allows 1) simultaneous and comprehensive analyses of multiple FLT3 -ITDs at the single-cell level 2) early detection of relapse clone with subclonal homozygous 21bp FLT3 -ITD from the initial diagnosis, which explains one of the mechanisms of relapse in AML cases with low FLT3 -ITD AR 3) multi-omic clonal analyses, which further refine clonal models relying only on mutation profiles. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Minden:  Astellas: Consultancy. Kim:  Pfizer: Honoraria, Research Funding; Bristol-Meier Squibb: Research Funding; Novartis: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Paladin: Honoraria, Research Funding.",
+    "author_names": [
+        "Taehyung Kim",
+        "Hyewon Lee",
+        "Jose-Mario Capo-Chichi",
+        "Myung Hee Chang",
+        "Young Seok Yoo",
+        "Gurbaksh Basi",
+        "Troy Ketela",
+        "Adam C. Smith",
+        "Anne Tierens",
+        "Mark D. Minden",
+        "Zhaolei Zhang",
+        "Dennis Dong Hwan Kim"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Taehyung Kim",
+            "author_affiliations": [
+                "Division of Medical Oncology and Hematology, Princess Margaret Cancer Centre, Toronto, Canada",
+                "Department of Computer Science, University of Toronto, Toronto, Canada",
+                "The Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Canada"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hyewon Lee",
+            "author_affiliations": [
+                "Division of Medical Oncology and Hematology, Princess Margaret Cancer Centre, Toronto, Canada",
+                "Center for Hematologic Malignancy, National Cancer Center, Goyang, Korea, Republic of (South)"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jose-Mario Capo-Chichi",
+            "author_affiliations": [
+                "Department of Clinical Laboratory Genetics, Genome Diagnostics Laboratory Medicine Program, University of Toronto, Toronto, Canada"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Myung Hee Chang",
+            "author_affiliations": [
+                "Division of Medical Oncology and Hematology, Princess Margaret Cancer Centre, Toronto, Canada",
+                "National Health Insurance Service Ilsan Hospital, Ilsan, Korea, Republic of (South)"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Young Seok Yoo",
+            "author_affiliations": [
+                "Division of Medical Oncology and Hematology, Princess Margaret Cancer Centre, Toronto, Canada"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gurbaksh Basi",
+            "author_affiliations": [
+                "Princess Margaret Genomics Centre, University Health Network, Toronto, Canada"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Troy Ketela",
+            "author_affiliations": [
+                "Princess Margaret Genomics Centre, University Health Network, Toronto, Canada"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Adam C. Smith",
+            "author_affiliations": [
+                "Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto, Canada",
+                "Laboratory Medicine Program, University Health Network, Toronto, Canada"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anne Tierens",
+            "author_affiliations": [
+                "Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto, Canada",
+                "Laboratory Medicine Program, University Health Network, Toronto, Canada"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mark D. Minden",
+            "author_affiliations": [
+                "Division of Medical Oncology and Hematology, Princess Margaret Cancer Centre, Toronto, Canada"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Zhaolei Zhang",
+            "author_affiliations": [
+                "Department of Computer Science, University of Toronto, Toronto, Canada",
+                "The Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, Toronto, Canada",
+                "Department of Molecular Genetics, University of Toronto, Toronto, Canada"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dennis Dong Hwan Kim",
+            "author_affiliations": [
+                "Division of Medical Oncology and Hematology, Princess Margaret Cancer Centre, Toronto, Canada",
+                "Hans Messner Allogeneic Blood and Marrow Transplant Unit, Princess Margaret Cancer Centre, Toronto, Canada"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T15:46:17",
+    "is_scraped": "1"
 }

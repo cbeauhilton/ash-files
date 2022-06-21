@@ -1,8 +1,225 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4805",
-    "start_url_page_num": "4805",
     "doi": "https://doi.org/10.1182/blood-2021-153992",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/787/480047/PRMT5-Inhibition-Modulates-E2F1-and-P53-to-Restore?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T17:42:05",
-    "is_scraped": "0"
+    "article_title": "PRMT5 Inhibition Modulates E2F1 and P53 to Restore Cell Cycle Regulation and Drive DNA Damage Response in Ibrutinib-Resistant Mantle Cell Lymphoma ",
+    "article_date": "November 5, 2021",
+    "session_type": "605.Molecular Pharmacology and Drug Resistance: Lymphoid Neoplasms",
+    "abstract_text": "Introduction: Ibrutinib is widely used for relapsed/refractory mantle cell lymphoma (MCL), however nearly 1/3 of patients have primary resistance and the remaining patients will inevitably acquire resistance with poor overall survival. There is an urgent need for novel therapies targeting pro-survival signaling pathways triggered by ibrutinib resistance. Pharmacologic inhibition of Protein Arginine Methyltransferase 5 (PRMT5) represents a novel therapeutic approach to overcome ibrutinib resistant MCL (IR-MCL). PRMT5 has many essential functions in normal and malignant B cells, however in the context of IR-MCL the mechanisms of PRMT5 inhibitor mediated cell death have not been described. Genomic co-deletions of MTAP/CDKN2A are commonly detected in IR-MCL cells. MTAP deletion and subsequent accumulation of the metabolite MTA, sensitizes cells to further inhibition of PRMT5. Although the published literature defines this therapeutic rationale for targeting PRMT5 in cancers with co-deletion of MTAP/CDKN2A , the literature lacks studies specifically targeting PRMT5 in IR-MCL. Methods: Here we report the primary mechanism of PRMT5 inhibitor mediated cell death in the context of IR-MCL, utilizing a combination of Whole Exome Sequencing (WES), RNA-seq, protein expression, and cell cycle analysis (PI-DNA staining with flow cytometry) in 8 MCL cell lines and 3 patient derived xenografts (PDXs) of IR-MCL. Pharmacologic inhibition of PRMT5 was performed with two selective compounds: PRT-382 and C220 (Prelude Therapeutics). Inducible CRISPR/CAS9-gRNA was used to selectively knock out MTAP and CDKN2A . Results: Comparing MCL cell lines with primary ibrutinib resistance, we found an inverse correlation between PRT-382 ic50 and ibrutinib ic50 (Spearman: r = -0.94, p = 0.017). In MCL cell lines, low expression of MTAP also correlated with lower global Symmetric Di-Methyl Arginine (SDMA) and enhanced sensitivity to C220 respectively (Pearson: r = 0.84, p = 0.01; r = 0.87, p = 0.01). Genomic deletion of MTAP in a cell line with primary ibrutinib resistance (Jeko MTAP-WT) enhanced sensitivity to PRMT5i, whereas MTAP knock-in (KI) in CCMCL, an MTAP-null cell line, decreased sensitivity to PRMT5i. The treatment of Jeko-MTAP-KI and CCMCL-MTAP-KO with MTA, further confirmed that genomic deletion of MTAP confers enhanced vulnerability to PRMT5i in MCL cell lines. In a PDX generated in our lab from an MCL patient with acquired IR, treatment with PRT-382 decreased tumor infiltration of multiple organs and ki-67 compared to ibrutinib or control (H&E and IHC staining). To mechanistically address the nature of the anti-tumor activity of PRMT5i in IR-MCL, we treated PDX mice with PRT-382 or vehicle control for 2 weeks to obtain ex-vivo samples for NGS methods. Splenic MCL tumor cells (Hu-CD19+) where subjected to transcriptomic profiling by RNA-seq (n=3 per Tx group). RNA-seq revealed 1014 down and 1124 up differentially expressed genes (DEGs) (q < 0.01, |log2FC| > 0.05). Gene Set Enrichment Analysis (GSEA) identified activation of the p53 pathway (NES = 1.73), with repression of E2F targets, G2M checkpoints, Epithelial to Mesenchymal Transition (EMT), and PRMT5 targets among the top gene sets modulated with PRMT5i (NES = -2.51, -2.26, -2.06, -1.79). Comparing genomic alterations across MCL cell lines and 3 PDXs of IR-MCL, co-deletion of MTAP/CDKN2A and/or a functional/WT copy of TP53 defines a therapeutic vulnerability to PRMT5i in 9 out of 11 cases (82%). In MCL, PRMT5i resulted in p53-dependent G1/S cell cycle arrest and p53-dependent DNA damage induced apoptosis by transcriptional activation of the p53 target genes ( CDKN1A, BBC3, BAX, PHLDA3, andSESN1). Western blot analysis confirmed E2F target gene repression (TK1, CCNA2, CHK1, CDK1) and accumulation of DNA damage response proteins (cleaved PARP, cleaved CASP3, p-H2AX) that are further enhanced with combination of doxorubicin. Conclusion: Pharmacologic inhibition of PRMT5 with the clinical-grade, novel small molecule inhibitor (PRT543, Prelude Therapeutics) merits further investigation in ongoing clinical trials (NCT03886831, clinicaltrials.gov), specifically for the treatment of IR-MCL with deletion of MTAP and prior to the genomic mutation of TP53 . We are currently exploring novel combinations to maximize the therapeutic potential of PRMT5 inhibition in this disease. Disclosures Byrd:  Vincerx Pharmaceuticals: Current equity holder in publicly-traded company, Membership on an entity's Board of Directors or advisory committees; Novartis, Trillium, Astellas, AstraZeneca, Pharmacyclics, Syndax: Consultancy, Honoraria; Newave: Membership on an entity's Board of Directors or advisory committees. Vaddi:  Prelude Therapeutics: Current Employment, Current equity holder in publicly-traded company. Scherle:  Prelude Therapeutics: Current Employment, Current equity holder in publicly-traded company. Baiocchi:  Prelude Therapeutics: Consultancy; viracta: Consultancy, Current holder of stock options in a privately-held company; Codiak Biosciences: Research Funding; Atara Biotherapeutics: Consultancy.",
+    "author_names": [
+        "Shelby Sloan",
+        "Fiona Brown",
+        "Mackenzie Long",
+        "JoBeth Helmig-Mason",
+        "Stacey Beck",
+        "Ji Hyun Chung",
+        "Walter Hanel",
+        "Eric Brooks",
+        "Haley Klimazewski",
+        "Cem Meydan",
+        "Jonathan Foox",
+        "Daniel Butler",
+        "John C. Byrd",
+        "Rosa Lapalombella",
+        "Maurizio Di Liberto",
+        "Christopher Mason",
+        "Selina Chen-Kiang",
+        "Kris Vaddi",
+        "Peggy Scherle",
+        "Robert Baiocchi",
+        "Lapo Alinari"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Shelby Sloan",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, The Ohio State University, Columbus, OH",
+                "Department of Veterinary Biosciences, College of Veterinary Medicine, The Ohio State University, Columbus, OH"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Fiona Brown",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, The Ohio State University, Columbus, OH"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mackenzie Long",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, The Ohio State University, Columbus, OH",
+                "Department of Veterinary Biosciences, College of Veterinary Medicine, The Ohio State University, Columbus, OH"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "JoBeth Helmig-Mason",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, The Ohio State University, Columbus, OH"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stacey Beck",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, The Ohio State University, Columbus, OH"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ji Hyun Chung",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, The Ohio State University, Columbus, OH"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Walter Hanel",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, The Ohio State University, Columbus, OH"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eric Brooks",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, The Ohio State University, Columbus, OH"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Haley Klimazewski",
+            "author_affiliations": [
+                "Medical Student Research Program, College of Medicine, The Ohio State University, Columbus, OH"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cem Meydan",
+            "author_affiliations": [
+                "Department of Physiology and Biophysics, Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan Foox",
+            "author_affiliations": [
+                "Department of Physiology and Biophysics, Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel Butler",
+            "author_affiliations": [
+                "Department of Physiology and Biophysics, Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John C. Byrd",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, The Ohio State University, Columbus, OH"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rosa Lapalombella",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, The Ohio State University, Columbus, OH"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maurizio Di Liberto",
+            "author_affiliations": [
+                "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher Mason",
+            "author_affiliations": [
+                "Department of Physiology and Biophysics, Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Selina Chen-Kiang",
+            "author_affiliations": [
+                "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kris Vaddi",
+            "author_affiliations": [
+                "Prelude Therapeutics, Wilmington, DE"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peggy Scherle",
+            "author_affiliations": [
+                "Research and Development, Prelude Therapeutics, Wilmington, DE"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Robert Baiocchi",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, The Ohio State University, Columbus, OH"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lapo Alinari",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, The Ohio State University, Columbus, OH"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T15:36:16",
+    "is_scraped": "1"
 }

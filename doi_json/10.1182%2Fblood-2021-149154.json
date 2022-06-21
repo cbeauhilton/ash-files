@@ -1,8 +1,103 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4723",
-    "start_url_page_num": "4723",
     "doi": "https://doi.org/10.1182/blood-2021-149154",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3516/479638/Terraflow-a-New-High-Parameter-Data-Analysis-Tool?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T14:40:00",
-    "is_scraped": "0"
+    "article_title": "Terraflow, a New High Parameter Data Analysis Tool, Reveals Systemic T-Cell Exhaustion and Dysfunctional Cytokine Production in Classical Hodgkin Lymphoma ",
+    "article_date": "November 5, 2021",
+    "session_type": "622.Lymphomas: Translational-Non-Genetic",
+    "abstract_text": "Background Classical Hodgkin lymphoma (cHL) is characterized by rare, malignant Hodgkin/Reed Sternberg (HRS) cells that shape their microenvironment (TME) to inhibit anti-tumor immune response. Systemic immune dysregulation may influence treatment response and toxicity, but the systemic influence of the TME is less well described. The wide variety of proteins measured in high-parmater flow cytometry make it a powerful tool for immune monitoring, but presents challenges in immuno-monitoring. Combinatorial expression of these proteins defines cell types that may influence disease. TerraFlow is a fully automated data analysis platform that evaluates millions of phenotypes and selects the populations that best predict clinical variables. The analysis can be performed using classical Boolean gates or a non-gating approach that approximates gates without using manual thresholds, allowing immunophenotypes to be comprehensively surveyed for disease associations. The platform was used to find phenotypes that discriminate healthy versus cHL patients (AUC = 1) and pre versus post treatment patient phenotypes(AUC = 0.79). Methods Human Subjects : Informed consent was obtained from cHL patients (N=44) treated at the Perlmutter Cancer Center (PCC) at NYU Langone Health and New York Presbyterian Weil Cornell (NYP) between 2011 and 2016. Blood samples were drawn at multiple time-points, for this study pre-treatment and 3 month post-treatment samples were used. Age-matched, cryopreserved healthy donor PBMC (n=25) were obtained from STEMCELL Technologies (Cambridge, MA).Patient-derived blood was processed for isolation of PBMC, stained analyzed on a Symphony Flow Cytometer (BD Biosciences, San Jose, CA). Analysis: Data was analyzed using an original platform called terraFlow. Many immune cell subsets are defined by the combinations of proteins they express. TerraFlow systematically evaluates millions of cell types by generating every possible combination of 1 to 5 markers. A network-based algorithm then selects the \"best\" phenotype from each set of inter-related combinations based on statistical power and ease of interpretation. Each phenotype is defined using a minimal gating strategy that can be replicated in a diagnostic panel or cell sorter. Together, phenotypes describe all the major differences between patient groups. A new platform developed by Epistemic AI was used to mine scientific literature and interpret selected phenotypes. Results We observed clear perturbations in the cHL systemic T-cell compartment pre-treatment as shown in Figure 1. These include higher levels of activated (CD278+), exhausted (CD366+, PD1+, CD152+), and suppressive (GITR+) T-cells compared to healthy donors, and diminished levels of T-cells producing effector cytokines (like IFN\u03b3 and IL4). Subsets of cytokine-producing cells that co-express markers of exhaustion (i.e., TNF+ CD366+ cells) are also elevated in cHL patients. Finally, T-cells expressing CD127 a receptor for IL7 involved in homeostatic renewal of cells and observed on naive and central memory T-cells are reduced. Taken together, these findings suggest that in cHL the systemic T-cell compartment is shifted toward a more exhausted profile, and away from less differentiated cells, with the potential for self-renewal. Our data also demonstrates a shift from T-helper 1 and T-helper 2 type toward T-helper 17 cells suggesting that T-cell effector function may be reduced. Conclusion Using a novel data analysis platform, TerraFlow we demonstrate dysregulation in systemic T cell function in cHL patients pre-treatment that persists within 3 months of completing therapy. Associations of phenotypes with clinical variables, and post-treatment phenotypes will be described in detail at the meeting. Our results detail new immunotherapy and biomarker research targets, and suggest novel strategies for combination therapies. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Li:  BD Bioscience: Current Employment. Ruan:  Kite Pharma: Consultancy; AstraZeneca: Research Funding; BMS: Consultancy, Research Funding; Daiichi Sankyo: Consultancy, Research Funding; Pharmacyclics: Research Funding; Seagen: Consultancy. Diefenbach:  Incyte: Research Funding; Trillium: Research Funding; Celgene: Research Funding; IGM Biosciences: Research Funding; Seattle Genetics: Consultancy, Honoraria, Research Funding; Gilead: Current equity holder in publicly-traded company; AbbVie: Research Funding; Perlmutter Cancer Center at NYU Langone Health: Current Employment; MEI: Consultancy, Research Funding; Genentech, Inc./ F. Hoffmann-La Roche Ltd: Consultancy, Honoraria, Research Funding; Janssen: Consultancy, Honoraria, Research Funding; IMab: Research Funding; Morphosys: Consultancy, Honoraria, Research Funding; Merck Sharp & Dohme: Consultancy, Honoraria, Research Funding; Bristol-Myers Squibb: Consultancy, Honoraria, Research Funding.",
+    "author_names": [
+        "Dan Freeman",
+        "Linda Lam",
+        "Tri Li",
+        "Jason Alexandre",
+        "Bruce G. Raphael",
+        "David Kaminetzky",
+        "Jia Ruan",
+        "Pratip Chattopadhyay",
+        "Catherine S. Diefenbach"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Dan Freeman",
+            "author_affiliations": [
+                "Perlmutter Cancer Center at NYU Langone Health, New York, NY"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Linda Lam",
+            "author_affiliations": [
+                "Department of Pathology, Perlmutter Cancer Center at NYU Langone Health, New York, NY"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tri Li",
+            "author_affiliations": [
+                "BD Biosciences, New Yor, NY"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jason Alexandre",
+            "author_affiliations": [
+                "Perlmutter Cancer Center at NYU Langone Health, New York, NY"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bruce G. Raphael",
+            "author_affiliations": [
+                "Perlmutter Cancer Center at NYU Langone Health, New York, NY"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David Kaminetzky",
+            "author_affiliations": [
+                "Myeloma Research Program, Perlmutter Cancer Center, NYU Langone Health, New York, NY"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jia Ruan",
+            "author_affiliations": [
+                "New York Presbyterian Hospital (Cornell Campus), New York, NY"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pratip Chattopadhyay",
+            "author_affiliations": [
+                "Perlmutter Cancer Center, NYU Langone Health, New York, NY"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Catherine S. Diefenbach",
+            "author_affiliations": [
+                "Perlmutter Cancer Center at NYU Langone Health, New York, NY"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T15:45:29",
+    "is_scraped": "1"
 }

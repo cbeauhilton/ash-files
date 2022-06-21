@@ -1,8 +1,129 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4818",
-    "start_url_page_num": "4818",
     "doi": "https://doi.org/10.1182/blood-2021-154282",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3488/479636/Pediatric-Single-Cell-Cancer-Atlas-An-Integrative?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T18:24:43",
-    "is_scraped": "0"
+    "article_title": " Pediatric Single Cell Cancer Atlas: An Integrative Web-Based Resource for Single Cell Transcriptome Data from Pediatric Leukemias  ",
+    "article_date": "November 5, 2021",
+    "session_type": "618.Acute Lymphoblastic Leukemias: Biomarkers, Molecular Markers and Minimal Residual Disease in Diagnosis and Prognosis",
+    "abstract_text": "Introduction: The emergence and optimization of single cell profiling as a powerful tool to characterize the tumor microenvironment has revealed the heterogeneity of pediatric cancers, particularly different leukemia types/subtypes. Ease of access and analysis of the data from studies on different leukemia types is critical for improving diagnosis as well as therapy.Currently, there are no single cell data based resources available for pediatric leukemias. We have developed a comprehensive resource, Ped iatric S ingle C ell Cancer A tlas (PedScAtlas), with the goal of developing a pan-leukemia genomics signature as well as highlighting the heterogeneity of different types of leukemia. This resource facilitates exploration and visualization of expression signatures in different leukemias without requiring extensive analysis and bioinformatics support. Methods: The PedScAtlas was built based on single cell data from various leukemias and normal bone marrow (BM) cells that have been pre-processed and analyzed using a uniform approach to generate normalized expression data (M. Bhasin et al. Blood 2020 (ASH), S. S. Bhasin et al. Blood 2020 (ASH), Panigraphy et al. JCI 2019, Stroopinsky et al. Haematologica 2021, Thomas et al. Blood 2020 (ASH)). The current version of PedScAtlas contains data from 30 local leukemia samples (Bhasin, et al. Blood 2020 (ASH), Thomas et al. Blood 2020 (ASH)) and those available on public resources such as GEO (Bailur et al. JCI Insight 2020). The PedScAtlas dataset and the Immune cell dataset each underwent quality control, integration, normalization, and dimensionality reduction using the Uniform Manifold Approximation and Projection (UMAP) method. Unsupervised UMAP analysis identified cellular clusters with similar transcriptome profiles that were annotated based on expression of cell-specific markers. Differential expression comparing different types of leukemia including acute myeloid leukemia (AML), B-cell acute lymphoblastic leukemia (B-ALL), T-cell acute lymphoblastic leukemia (T-ALL), and mixed phenotype acute leukemia (MPAL) samples was performed. To further ascertain genes specifically expressed in malignant blasts, the atlas also contains data from normal BM samples (Bailur et al. JCI Insight 2020) and healthy immune cells from the census of Immune Cells by the Human Cell Atlas Project (https://data.humancellatlas.org/). The web resource source code is written in R programming language and the interactive webserver has been implemented using the R Shiny package (Fig 1). The tool has been extensively tested on multiple operating systems (Linux, Mac, Windows) and web-browsers (Chrome, FireFox, and Safari). The tool is currently hosted on a 64bit CentOS 6 backend server running the Shiny Server program designed to host R Shiny applications. Results: The PedScAtlas contains data that facilitate exploration of gene expression profiles across leukemia types/subtypes and tumor microenvironment (TME) cell types. The atlas includes data from 33,930 AML, 25,744 T-ALL, 13,404 MPAL, and 6,252 B-ALL blast cells. It also contains single cell profiles of healthy BM samples from publicly available studies. The user can select data sets from the 5 major types of leukemia and normal BM in any combination of their choice to explore the expression profile of a gene of interest. The data can be visualized as UMAP (Fig. 1), or violin plots with annotations based on cluster ID, cell type, disease type, sample ID, and future continuous remission or relapse outcome. The UMAP with gene expression analyses allows the user to visualize the distribution of cell expressing a given gene on the UMAP plot. The Biomarker tool shows expression of different leukemia biomarker gene sets in the entire leukemia dataset. The Immune Cell section contains BM data from the Human Cell Atlas Project; the purpose of this section is to validate leukemia biomarkers by checking that the gene does not have significant expression in the healthy immune microenvironment. Conclusions: The PedScAtlas resource provides a unique and straightforward tool for biomarker identification, analysis of leukemia subtype heterogeneity, and transcriptome profile of the immune cell microenvironment. The resource is available online at https://bhasinlab.bmi.emory.edu/PediatricSC/. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures DeRyckere:  Meryx: Other: Equity ownership. Graham:  Meryx: Membership on an entity's Board of Directors or advisory committees, Other: Equity ownership.",
+    "author_names": [
+        "Hope L Mumme",
+        "Swati S Bhasin",
+        "Beena E Thomas",
+        "Bhakti Dwivedi",
+        "Deborah DeRyckere",
+        "Sharon M. Castellino",
+        "Daniel S. Wechsler",
+        "Sunil S. Raikar",
+        "Christopher C. Porter",
+        "Douglas K Graham",
+        "Manoj Bhasin"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Hope L Mumme",
+            "author_affiliations": [
+                "Aflac Cancer and Blood Disorders Center, Children's Healthcare of Atlanta, Atlanta, GA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Swati S Bhasin",
+            "author_affiliations": [
+                "Aflac Cancer and Blood Disorders Center, Children's Healthcare of Atlanta, Atlanta, GA",
+                "Department of Pediatrics, Emory University School of Medicine, Atlanta, GA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Beena E Thomas",
+            "author_affiliations": [
+                "Aflac Cancer and Blood Disorders Center, Children's Healthcare of Atlanta, Atlanta, GA",
+                "Emory School of Medicine, Department of Pediatrics, Emory University School of Medicine, Atlanta, GA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bhakti Dwivedi",
+            "author_affiliations": [
+                "Department of Biostatistics and Bioinformatics Shared Resource, Winship Cancer Institute, Emory University, Atlanta, GA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Deborah DeRyckere",
+            "author_affiliations": [
+                "Aflac Cancer and Blood Disorders Center, Children's Healthcare of Atlanta, Atlanta, GA",
+                "Department of Pediatrics, Emory University School of Medicine, Atlanta, GA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sharon M. Castellino",
+            "author_affiliations": [
+                "Aflac Cancer and Blood Disorders Center, Children's Healthcare of Atlanta, Atlanta, GA",
+                "Department of Pediatrics, Emory University School of Medicine, Atlanta, GA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel S. Wechsler",
+            "author_affiliations": [
+                "Aflac Cancer & Blood Disorders Center of Children's Healthcare of Atlanta and Department of Pediatrics, Emory University, Atlanta, GA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sunil S. Raikar",
+            "author_affiliations": [
+                "Aflac Cancer and Blood Disorders Center, Emory University/Children's Healthcare of Atlanta, Atlanta, GA",
+                "Aflac Cancer and Blood Disorders Center, Children's Healthcare of Atlanta, Atlanta, GA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher C. Porter",
+            "author_affiliations": [
+                "Department of Pediatrics, Emory University, Atlanta, GA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Douglas K Graham",
+            "author_affiliations": [
+                "Department of Pediatrics, Emory University School of Medicine, Atlanta, GA",
+                "Aflac Cancer and Blood Disorders Center, Children's Healthcare of Atlanta, Atlanta, GA"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manoj Bhasin",
+            "author_affiliations": [
+                "Department of Pediatrics, Emory University School of Medicine, Atlanta, GA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T15:43:58",
+    "is_scraped": "1"
 }
