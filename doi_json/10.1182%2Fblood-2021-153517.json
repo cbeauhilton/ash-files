@@ -1,8 +1,186 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4732",
-    "start_url_page_num": "4732",
     "doi": "https://doi.org/10.1182/blood-2021-153517",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3996/481433/Radiomic-Phenotypes-of-High-and-Low-Lesion-SUV?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T14:40:31",
-    "is_scraped": "0"
+    "article_title": "Radiomic Phenotypes of High and Low Lesion SUV Components for the Prediction of Refractory Disease in Hodgkin's Lymphoma Patients Treated with ABVD Based Therapy ",
+    "article_date": "November 5, 2021",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Background: Hodgkin's lymphoma (HL) is a curable malignancy. However, some patients are refractory to frontline therapy. Early prediction of response to frontline therapy could identify patients who may benefit from more intensive therapy. 18 F-fluorodeoxyglucose positron emission tomography/computed tomography ( 18 F-FDG PET/CT) has an established role in the management of HL. Radiomic features provide a way of quantifying imaging phenotypes and have shown promising results as predictors of outcomes in different lymphomas. Furthermore, great interest has been focused on the heterogeneity of standardized uptake value (SUV) within a single lesion. Since high SUV component (HSc) and low-SUV component (LSc) regions within a single lesion may be associated with different phenotypical characteristics, the radiomic analysis for each regional SUV component may provide a more complete description of lesions. Therefore, we proposed and evaluated new descriptors to quantify the image phenotypes based on HSc and LSc of lesions in HL. Methods: A total of 61 patients with HL of all stages who were seen at MD Anderson Cancer Center between 2016 and 2020 and had analyzable pre-treatment PET/CT were selected. All patients received standard of care ABVD or AVD regimens with or without radiation (Table 1A) . Pre-treatment PET/CT scans were analyzed, and HL lesions were semi-automatically segmented using MIM 7 (Cleveland, OH) based on a SUV max threshold of 2.5. Manual edits were made and reviewed by a nuclear medicine physician and a lymphoma specialist. A total of 110 radiomic features were extracted from the segmented lesions in CT and PET using the open-source package of 'PyRadiomics' (Table 1B) . Detailed description and algorithms of the extracted radiomics features are available at https://pyradiomics.readthedocs.io/en/latest/features.html. Additionally, each lesion was partitioned into HSc and LSc based on a cutoff value of 3 times the liver SUV mean ( Figure A ). The ratio of features between SUV components (HSc, LSc) and the lesion area was calculated. Furthermore, the feature difference between HSc and LSc was obtained. The maximum, minimum, average, and standard deviation of the radiomic features within multiple lesions were computed to reveal the distribution of features. A sequential forward feature selection was applied to select the significant features for building a logistic regression model, to predict refractory disease according to Lugano criteria. Two logistic regression models were constructed for early and advanced stage patients. Quantitative measures, namely metabolic tumor volume (MTV), total lesion glycolysis (TLG), and SUV max were measured for comparison. The leave-one-out-cross-validation (LOOCV) was applied to yield the receiver-operator-characteristics curve; the area under the curve (AUC) was then computed to evaluate the performance of the proposed model compared to quantitative measurements using DeLong's test. Results: The average of small dependence high gray level emphasis (GLDM) from PET, the difference of major axis length between high- and low- SUV component from PET, and the difference of 10th Percentile (histogram) between high- and low- SUV component from PET were selected for identifying the refractory disease in early stage lesions; the maximum of correlation (GLCM) from PET, SD of small dependence emphasis (GLDM) from PET, and SD of the inverse difference moment normalized (GLCM) from PET were selected for identifying refractory disease in advanced stage lesions. Based on LOOCV, the proposed radiomics model achieved an AUC of 0.93 for refractory disease prediction, which was significantly superior to MTV (AUC, 0.66; P = 0.01), TLG (AUC, 0.64; P = 0.01), and SUV max (AUC, 0.61; P = 0.01) ( Figure B ) Conclusion: High and low SUV components-based radiomic model of PET/CT was potentially useful for upfront prediction of refractory HL. Validation in a larger cohort using different segmentation methods, inclusion of additional treatment subgroups, comparison to other predictors, and correlation with survival outcomes are underway. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Ahmed:  Seagen: Research Funding; Merck: Research Funding; Tessa Therapeutics: Membership on an entity's Board of Directors or advisory committees, Research Funding; Xencor: Research Funding. Steiner:  BMS: Research Funding; Seattle Genetics: Research Funding; Rafael Pharmaceuticals: Research Funding. Pinnix:  Merck Inc: Research Funding. Wang:  Molecular Templates: Research Funding; The First Afflicted Hospital of Zhejiang University: Honoraria; Hebei Cancer Prevention Federation: Honoraria; Bayer Healthcare: Consultancy; Mumbai Hematology Group: Honoraria; Pharmacyclics: Consultancy, Research Funding; BioInvent: Research Funding; Celgene: Research Funding; Physicians Education Resources (PER): Honoraria; Miltenyi Biomedicine GmbH: Consultancy, Honoraria; Scripps: Honoraria; Janssen: Consultancy, Honoraria, Research Funding; Imedex: Honoraria; Dava Oncology: Honoraria; Epizyme: Consultancy, Honoraria; Clinical Care Options: Honoraria; BGICS: Honoraria; CAHON: Honoraria; VelosBio: Consultancy, Research Funding; Loxo Oncology: Consultancy, Research Funding; InnoCare: Consultancy, Research Funding; BeiGene: Consultancy, Honoraria, Research Funding; Anticancer Association: Honoraria; Genentech: Consultancy; AstraZeneca: Consultancy, Honoraria, Research Funding; CStone: Consultancy; Newbridge Pharmaceuticals: Honoraria; Juno: Consultancy, Research Funding; Acerta Pharma: Consultancy, Honoraria, Research Funding; Chinese Medical Association: Honoraria; Kite Pharma: Consultancy, Honoraria, Research Funding; Oncternal: Consultancy, Research Funding; DTRM Biopharma (Cayman) Limited: Consultancy; OMI: Honoraria; Moffit Cancer Center: Honoraria; Lilly: Research Funding.",
+    "author_names": [
+        "Serageldin Kamel",
+        "Li-Wei Chen",
+        "Gregory Ravizzini",
+        "Ho-Feng Chen",
+        "Joo Schmidt",
+        "Sairah Ahmed",
+        "Ranjit Nair",
+        "Raphael E Steiner",
+        "Branko Cuglievan",
+        "Yago Nieto",
+        "Roberto N. Miranda",
+        "Penny Fang",
+        "Jillian R. Gunther",
+        "Chelsea C. Pinnix",
+        "Michael Wang",
+        "Tinsu Pan",
+        "Hun Ju Lee"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Serageldin Kamel",
+            "author_affiliations": [
+                "Department of Lymphoma and Myeloma, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Li-Wei Chen",
+            "author_affiliations": [
+                "Department of Biomedical Engineering, National Taiwan University, Taipei, Taiwan"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gregory Ravizzini",
+            "author_affiliations": [
+                "Department of Nuclear Medicine, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ho-Feng Chen",
+            "author_affiliations": [
+                "Department of Biomedical Engineering, National Taiwan University, Taipei, Taiwan"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joo Schmidt",
+            "author_affiliations": [
+                "Department of Lymphoma and Myeloma, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sairah Ahmed",
+            "author_affiliations": [
+                "Department of Stem Cell Transplantation and Cellular Therapy, The University of Texas MD Anderson Cancer Center, Houston, TX",
+                "Department of Lymphoma/Myeloma and Stem Cell Transplantation, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ranjit Nair",
+            "author_affiliations": [
+                "Department of Lymphoma and Myeloma, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Raphael E Steiner",
+            "author_affiliations": [
+                "Department of Lymphoma and Myeloma, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Branko Cuglievan",
+            "author_affiliations": [
+                "Division of Pediatric Hematology Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yago Nieto",
+            "author_affiliations": [
+                "Department of Stem Cell Transplantation and Cellular Therapy, The University of Texas MD Anderson Cancer Center, Houston, TX",
+                "Department of Stem Cell Transplantation and Cellular Therapy, The UniversiM.D. Anderson Cancer Ctr., Houston, TX"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Roberto N. Miranda",
+            "author_affiliations": [
+                "Department of Hematopathology, The University of Texas, MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Penny Fang",
+            "author_affiliations": [
+                "Department of Radiation Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jillian R. Gunther",
+            "author_affiliations": [
+                "Department of Radiation Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chelsea C. Pinnix",
+            "author_affiliations": [
+                "Department of Radiation Oncology, MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Wang",
+            "author_affiliations": [
+                "Department of Lymphoma and Myeloma, The University of Texas MD Anderson Cancer Center, Houston, TX",
+                "Department of Stem Cell Transplantation and Cellular Therapy, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tinsu Pan",
+            "author_affiliations": [
+                "Department of Imaging Physics, University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hun Ju Lee",
+            "author_affiliations": [
+                "Department of Lymphoma and Myeloma, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T18:42:32",
+    "is_scraped": "1"
 }

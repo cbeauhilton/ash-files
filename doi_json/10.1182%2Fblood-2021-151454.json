@@ -1,8 +1,213 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4903",
-    "start_url_page_num": "4903",
     "doi": "https://doi.org/10.1182/blood-2021-151454",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/214/478130/Epigenome-Wide-Association-Study-of-Acute?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T22:20:01",
-    "is_scraped": "0"
+    "article_title": "Epigenome-Wide Association Study of Acute Lymphoblastic Leukemia in Children with Down Syndrome ",
+    "article_date": "November 5, 2021",
+    "session_type": "612.Acute Lymphoblastic Leukemias: Clinical and Epidemiological",
+    "abstract_text": "Background: Down syndrome (DS) is associated with an up to 30-fold increased risk of B-cell acute lymphoblastic leukemia (ALL), and DS-ALL patients have worse overall survival and increased long-term treatment-related health conditions compared with non-DS ALL patients. In a recent genome-wide association study of DS-ALL, established ALL genetic risk loci were associated with DS-ALL, with several single nucleotide polymorphisms (SNPs) conferring a larger effect on ALL risk in the context of DS than in euploidy. We performed an epigenome-wide association study (EWAS) to elucidate whether epigenetic differences at birth are associated with risk of subsequent DS-ALL. Methods: The DS-ALL Discovery Study included 147 DS-ALL cases and 198 DS controls from the International Study of Down Syndrome Acute Leukemia, with newborn dried bloodspots (DBS) obtained from California (n=326) and Washington state (n=19) biobanks. The DS-ALL Replication Study included 24 DS-ALL cases and 24 DS controls with newborn DBS from the Michigan Neonatal Biobank. DNA was isolated from DBS, bisulfite converted, and assayed using Illumina Infinium MethylationEPIC Beadchip genome-wide DNA methylation arrays. Raw data were processed using \"minfi\" and \"noob\" packages in R . Reference-based deconvolution of blood cell proportions was performed using the Identifying Optimal DNA methylation Libraries (IDOL) algorithm, using DNA methylation data from cord blood reference samples, to estimate proportions of B cells, T cells (CD4+ and CD8+), monocytes, granulocytes, natural killer cells, and nucleated red blood cells. We compared each cell type proportion between DS-ALL cases and DS controls using linear regression adjusting for sex, plate, and principal components (PCs) to account for genetic ancestry. To identify single CpG probes associated with DS-ALL risk, we performed a multiethnic EWAS of DS-ALL in each study using linear regression adjusting for sex, plate, and PCs related to: 1) cell-type proportions and 2) genetic ancestry. Differentially methylated regions (DMRs) were identified using DMRcate and comb-p methods. In the Discovery Study, genome-wide SNP array data were available for 131 cases and 130 controls, and data from targeted sequencing of somatic mutations in exons 2/3 of GATA1 were available for 184/198 DS controls. Results: Deconvolution of blood cell proportions in the DS-ALL Discovery Study showed significantly higher B cell proportions in newborns with DS who later developed ALL (mean=0.0128, sd=0.0151) compared with DS controls (mean=0.00826, sd=0.0115) ( P =6.4x10 -4 , coefficient=0.0052). A significantly higher B cell proportion at birth was also found in DS-ALL cases in the independent Replication Study (cases mean=0.048, sd=0.024; controls mean=0.039, sd=0.028; P =0.03, coefficient=0.015). In the Discovery Study, the B cell difference remained significant ( P =5.8x10 -3 ) with a similar effect size (coefficient=0.0045) after removal of GATA1 mutation-positive DS controls (n=30). We also investigated whether DS-ALL risk SNPs at ARID5B , IKZF1 , GATA3 , and CDKN2A may confound the association, but the increased B cell proportions in DS-ALL remained significant and effect estimates slightly increased in SNP genotype-adjusted models (coefficient range:0.0055-0.0059). In the EWAS of DS-ALL, 9 CpGs reached epigenome-wide significance (P<7.67x10 -8 ), including 2 CpGs overlapping the promoter of the tumor suppressor gene TRIM13 , frequently deleted in B-CLL, although none of these showed evidence of association (P<0.05) in the Replication Study. We identified 125 DMRs associated with DS-ALL in the Discovery Study. For 3 DMRs, overlapping genes HOPX , SMIM24 , and PPP1R10 , all implicated in normal and leukemic stem cell function, there were multiple significant CpGs in the Replication Study (P<0.05) all with effects in the same direction as the Discovery Study DMRs. Conclusions: Increased B cell proportions in newborns with DS may be a risk factor for development of DS-ALL in childhood. This finding, based on DNA methylation data, requires confirmation using conventional cell count measures, and should be explored as a novel biomarker for ALL risk in the non-DS population. Single CpGs and DMRs associated with DS-ALL risk in our Discovery Study require further investigation, including in additional ALL case-control studies in DS and non-DS populations. Disclosures Ma:  Celgene/Bristol Myers Squibb: Consultancy, Research Funding.",
+    "author_names": [
+        "Shaobo Li",
+        "Pagna Sok",
+        "Keren Xu",
+        "Ivo S Muskens",
+        "Natalina Elliott",
+        "Swe Swe Myint",
+        "Priyatama Pandey",
+        "Helen M Hansen",
+        "Libby M Morimoto",
+        "Alice Y Kang",
+        "Catherine Metayer",
+        "Xiaomei Ma",
+        "Beth A Mueller",
+        "Anindita Roy",
+        "Irene Roberts",
+        "Karen R Rabin",
+        "Austin L Brown",
+        "Philip J. Lupo",
+        "Joseph L. Wiemels",
+        "Adam J. de Smith"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Shaobo Li",
+            "author_affiliations": [
+                "Center for Genetic Epidemiology, Department of Population and Public Health Sciences, University of Southern California, Los Angeles, CA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pagna Sok",
+            "author_affiliations": [
+                "Department of Pediatrics, Section of Hematology-Oncology, Baylor College of Medicine, Houston, TX"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Keren Xu",
+            "author_affiliations": [
+                "Center for Genetic Epidemiology, Department of Population and Public Health Sciences, University of Southern California, Los Angeles, CA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ivo S Muskens",
+            "author_affiliations": [
+                "Center for Genetic Epidemiology, Department of Population and Public Health Sciences, University of Southern California, Los Angeles, CA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Natalina Elliott",
+            "author_affiliations": [
+                "Department of Paediatrics and MRC Molecular Haematology Unit, Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, United Kingdom"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Swe Swe Myint",
+            "author_affiliations": [
+                "Center for Genetic Epidemiology, Department of Population and Public Health Sciences, University of Southern California, Los Angeles, CA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Priyatama Pandey",
+            "author_affiliations": [
+                "Center for Genetic Epidemiology, Department of Population and Public Health Sciences, University of Southern California, Los Angeles, CA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Helen M Hansen",
+            "author_affiliations": [
+                "Department of Neurological Surgery, University of California San Francisco, San Francisco, CA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Libby M Morimoto",
+            "author_affiliations": [
+                "School of Public Health, University of California Berkeley, Berkeley, CA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alice Y Kang",
+            "author_affiliations": [
+                "School of Public Health, University of California Berkeley, Berkeley, CA"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Catherine Metayer",
+            "author_affiliations": [
+                "School of Public Health, University of California Berkeley, Berkeley, CA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xiaomei Ma",
+            "author_affiliations": [
+                "Department of Chronic Disease Epidemiology, Yale University School of Public Health, New Haven, CT"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Beth A Mueller",
+            "author_affiliations": [
+                "Public Health Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anindita Roy",
+            "author_affiliations": [
+                "Department of Paediatrics and MRC Molecular Haematology Unit, Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, United Kingdom"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Irene Roberts",
+            "author_affiliations": [
+                "Department of Paediatrics and MRC Molecular Haematology Unit, Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, United Kingdom"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karen R Rabin",
+            "author_affiliations": [
+                "Department of Pediatrics, Section of Hematology-Oncology, Baylor College of Medicine, Houston, TX"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Austin L Brown",
+            "author_affiliations": [
+                "Department of Pediatrics, Section of Hematology-Oncology, Baylor College of Medicine, Houston, TX"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Philip J. Lupo",
+            "author_affiliations": [
+                "Department of Pediatrics, Section of Hematology-Oncology, Baylor College of Medicine, Houston, TX"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joseph L. Wiemels",
+            "author_affiliations": [
+                "Center for Genetic Epidemiology, Department of Population and Public Health Sciences, University of Southern California, Los Angeles, CA"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Adam J. de Smith",
+            "author_affiliations": [
+                "Center for Genetic Epidemiology, Department of Population and Public Health Sciences, University of Southern California, Los Angeles, CA"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T18:44:43",
+    "is_scraped": "1"
 }

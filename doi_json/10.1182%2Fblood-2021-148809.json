@@ -1,8 +1,63 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4729",
-    "start_url_page_num": "4729",
     "doi": "https://doi.org/10.1182/blood-2021-148809",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/4305/481517/Application-of-an-Artificial-Intelligence-Machine?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T14:40:21",
-    "is_scraped": "0"
+    "article_title": "Application of an Artificial Intelligence/Machine Learning Model for Estimating Potential US Prevalence of WHIM Syndrome, a Rare Immunodeficiency, from Insurance Claims Data ",
+    "article_date": "November 5, 2021",
+    "session_type": "508.Bone Marrow Failure",
+    "abstract_text": "Introduction: WHIM (Warts, Hypogammaglobulinemia, Infections, and Myelokathexis) syndrome is an inborn error of immunity characterized as a primary immunodeficiency with neutropenia-but the acronym does not reflect the broad spectrum of disease manifestations that patients may experience. A WHIM syndrome diagnosis may be confirmed clinically by the presence of myelokathexis, the retention of white blood cells in the bone marrow, or by identification of a known pathogenic gain-of-function mutation in the CXCR4 gene coding for the CXCR4 receptor. Diagnosis of WHIM syndrome is thought to be frequently missed because of low disease awareness, missed identification of myelokathexis, and lack of routine genetic testing (Al Ustwani O, et al. Br J Haematol. 2014:164;15-23; Dotta L, et al. Curr Mol Med. 2011;11:317-325; Heusinkveld L, et al. Exp Opin Orphan Drugs. 2017;5(10):813-825). The prevalence of WHIM syndrome has never been systematically studied and is unknown. Determination of prevalence via insurance claims data is hindered by the absence of an International Classification of Diseases (ICD)-10 code for WHIM syndrome as well as inconsistent coding for key symptoms of WHIM syndrome, which are variably penetrant. This study applied an artificial intelligence (AI)/machine learning (ML) model to estimate the potential prevalence of WHIM syndrome using a large US insurance claims database. Methods: A deidentified, longitudinal, patient-level US claims database of >300 million lives was used for this study. Thirty-two patients with genetically confirmed WHIM syndrome were identified from the claims database by linking deidentified patients to known physicians and matching clinical and demographic features. Using this group as a positive training class, an AI/ML model was deployed to identify patients with WHIM look-alike clinical phenotypes in the database. Patients were further filtered based on clinical features to generate low (presence of warts, history of infections, and hypogammaglobulinemia) and high (presence of warts, history of infections, and coding associated with immunodeficiency) prevalence estimates; a final prevalence number for the US was projected to account for incomplete coverage of the US population in the claims database. Finally, insurance codes for disease symptoms, treatments, and management were analyzed to investigate the burden of disease in patients identified by the model. Results: The model showed a high predictive value for distinguishing patients with known WHIM syndrome from a random sample of age-matched patients in the database (area under the curve [AUC] of receiver operating characteristic [ROC] plot, >0.99) as well as a control group of patients with ICD-10 codes defining immunodeficiency conditions (AUC of ROC plot, 0.99). The model generated estimates ranging from 1803 (low) to 3718 (high) patients with WHIM look-alike phenotype in the US. Analysis of medical history in the high-estimate WHIM look-alike group revealed symptomatic and severe disease, as evidenced by \u22651 instance of use of granulocyte colony-stimulating factor (41%) or intravenous immunoglobulin (46%) therapy (both <1% in control group), need for respiratory services (82% vs 8% in control group), presence of hearing loss (18% vs 1% in control group), and high annual utilization of emergency (51%) and hospital (44%) services (vs 8% and 1%, respectively, in control group). Conclusions: The methodology used here provides an approach to explore the prevalence of rare diseases that are often mis- or under-diagnosed and are not captured with a unique ICD-10 code. This study estimates a prevalence of 1803 to 3718 WHIM look-alike patients in the US, supporting the possibility that there may be \u2264~3700 patients with either diagnosed or undiagnosed WHIM syndrome in the US. An analysis of the medical history of the WHIM look-alike patients revealed a history of symptomatic and severe disease and a high unmet medical need. Since it is not feasible to definitively confirm a WHIM diagnosis in the look-alike group, it is possible that some of these look-alike patients may have diagnosed or undiagnosed WHIM syndrome, while others may have a clinical phenotype consistent with WHIM syndrome without meeting its classic diagnostic criteria. Disclosures Garabedian:  X4 Pharmaceuticals: Current Employment, Current equity holder in publicly-traded company. Neri:  X4 Pharmaceuticals: Current Employment. Seng:  X4 Pharmaceuticals: Current Employment. Jones:  Real Chemistry (Formerly Swoop/IPM): Current Employment, Other: I was paid salary to perform secondary research project work for client \"X4\" which resulted in this publication.",
+    "author_names": [
+        "Cathy Garabedian",
+        "Lori Neri",
+        "Jan Seng",
+        "Graham K Jones",
+        "Jonathan Woodring"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Cathy Garabedian",
+            "author_affiliations": [
+                "X4 Pharmaceuticals, Inc., Boston, MA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lori Neri",
+            "author_affiliations": [
+                "X4 Pharmaceuticals, Inc., Boston, MA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jan Seng",
+            "author_affiliations": [
+                "X4 Pharmaceuticals, Inc., Boston, MA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Graham K Jones",
+            "author_affiliations": [
+                "IPM.ai, Cambridge, MA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan Woodring",
+            "author_affiliations": [
+                "IPM.ai, Cambridge, MA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T18:39:32",
+    "is_scraped": "1"
 }

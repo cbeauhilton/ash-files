@@ -1,8 +1,83 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4732",
-    "start_url_page_num": "4732",
     "doi": "https://doi.org/10.1182/blood-2021-150911",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3994/481455/Accurate-Prediction-of-Chromosome-Level-CNVs-from?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T14:40:31",
-    "is_scraped": "0"
+    "article_title": "Accurate Prediction of Chromosome-Level CNVs from Targeted NGS ",
+    "article_date": "November 5, 2021",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Background : Aneuploidy and large-scale Copy Number Variations (CNVs) are prominent features of cancer cells. While Fluorescence in situ hybridization (FISH) and conventional cytogenetics (CC) are the gold standard for detecting aneuploidy and CNVs, NGS-based assays are currently used for high-resolution detection of copy number alterations assessing the whole genome. However, although an increasing number of NGS-based tools have been developed for detecting aneuploidy or CNVs from whole genome or exome sequencing data, only a limited number of options are available for targeted gene panels. Despite mechanisms provided to establish normal profiles for a specific panel, the accuracy of these tools at the chromosome level suffer when only a small number of regions are targeted on each chromosome. Here we leveraged on a custom amplicon based NGS assay designed to detect somatic alterations (SNVs and indels) in 297 hematological cancer relevant genes, previously validated in our clinical laboratory. We introduce a simple approach to accurately predict chromosome-level CNVs such as monosomy and trisomy for a targeted gene panel, commonly used in a clinical setting. Methods: Mutation profiles, including SNVs, INDELs, and structural changes, were interrogated with an in-house bioinformatics pipeline that utilized PureCN and CNVkit algorithms to detect structural changes. The first step consists of finding optimal panel-specific decision thresholds for gains and losses at the gene level. This step was performed using an independent set of 1,314 clinical samples sequenced with the NeoType\u00ae Heme assay developed by NeoGenomics Laboratories, Inc. for which at least one FISH test was performed in addition to the sequencing. Three genes (ATM, TP53, and NF1) were used to find optimal decision thresholds based on the FISH result for these markers. These thresholds are used afterward to predict a gain or a loss for any other gene in the panel. The second step consists of predicting the chromosome-level gain or loss based on the individual predictions at the gene level by simply observing the frequency of targeted genes on the corresponding chromosome predicted as either gained or lost by the first step approach. The 19, 7, and 18 targeted genes in the NGS panel (Table 1) were respectively used to predict monosomy 7, trisomy 8, and trisomy 12 in a second set of over 7,000 clinical samples with known ploidy for chromosomes with clinically relevant ploidy abnormalities in hematological malignancies. Results: Evaluation of the first stage gene-level CNV prediction on 1,314 clinical samples shows a concordance rate of 97.95% between NGS and FISH results on ATM, TP53, and NF1. When we evaluated the second stage chromosome-level CNV prediction in clinical samples sequenced using the same targeted panel and assessed by FISH for chromosome-level variation on chromosomes 7, 8 and 12 (Table 1), a heatmap of the predicted Log 2 ratios for each sample and targeted gene from the first step shows a clear distinctive signal between aneuploidy and diploid samples (Figure 1). At the chromosome level, the concordance rate between the final prediction and the FISH results is consistently observed above 93% (Table 2). Roughly 50% of the 12, 78, and 40 discordant calls for monosomy 7, trisomy 8, and trisomy 12, respectively captured by FISH but not by NGS can be explained by low tumor content (less than 20%) in the tested samples. The concordance rate between NGS and FISH is consistently observed above 96% when leaving these samples aside. Note that results in Table 2 are obtained using all samples to decide the optimal decision threshold for the chromosome-level prediction, but are found identical when using a leave-one-out evaluation procedure, and nearly identical when using a repeated cross-validation procedure. Conclusion: This study demonstrates that chromosome-level CNVs can be accurately predicted in hematologic malignancies even when the number of targeted genes on a given chromosome is low. Despite the simplicity of the approach, the two stages bioinformatics pipeline based on an ensemble method allowed us to gain between 8% and 46% accuracy compared to relying only on the prediction of a single tool like PureCN. Samples with low tumor content remain, however, a difficult case to tackle with bulk NGS as it is difficult to distinguish a CNV from the natural variability of the sequencing coverage. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Nam:  NeoGenomics Laboratories, Inc.: Current Employment. Magnan:  NeoGenomics Laboratories, Inc.: Current Employment. Lopez-Diaz:  NeoGenomics Laboratories, Inc.: Current Employment. Bender:  NeoGenomics Laboratories, Inc.: Current Employment. Agersborg:  NeoGenomics Laboratories, Inc.: Current Employment. Jung:  NeoGenomics Laboratories, Inc.: Current Employment. Funari:  NeoGenomics Laboratories, Inc.: Current Employment.",
+    "author_names": [
+        "Hyunjun Nam",
+        "Christophe Magnan",
+        "Fernando Lopez-Diaz",
+        "Ryan Bender",
+        "Sally Agersborg",
+        "Segun C Jung",
+        "Vincent Funari"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Hyunjun Nam",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Carlsbad, CA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christophe Magnan",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Carlsbad, CA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Fernando Lopez-Diaz",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Carlsbad, CA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ryan Bender",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Carlsbad, CA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sally Agersborg",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Aliso Viejo, CA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Segun C Jung",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Aliso Viejo, CA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vincent Funari",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Aliso Viejo, CA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T18:42:25",
+    "is_scraped": "1"
 }

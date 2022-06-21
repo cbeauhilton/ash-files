@@ -1,8 +1,104 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4734",
-    "start_url_page_num": "4734",
     "doi": "https://doi.org/10.1182/blood-2021-151972",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/225/478163/Machine-Learning-of-Genomic-Factors-in-1-961?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T15:20:47",
-    "is_scraped": "0"
+    "article_title": "Machine Learning of Genomic Factors in 1,961 Patients with Acute Myeloid Leukemia Identifies Patients with Very Good or Very Poor Prognosis Who Do Not Benefit from Allogeneic Hematopoietic Cell Transplant in First Remission ",
+    "article_date": "November 5, 2021",
+    "session_type": "617.Acute Myeloid Leukemias: Biomarkers, Molecular Markers and Minimal Residual Disease in Diagnosis and Prognosis",
+    "abstract_text": "Genomic profiling contributes to assessment of suitability for allogeneic hematopoietic cell transplant (alloHCT) in Acute Myeloid Leukaemia (AML). The ELN 2017 AML risk classification identifies patients with favorable, intermediate and adverse risk (D\u00f6hner 2017). We have used supervised machine learning (ML) to prognostically risk stratify patients with AML and explore whether prognostic groups benefit from alloHCT in first complete remission (CR1) based on pre-treatment stratification. 1961 patients were identified across the German Acute Myeloid Leukemia Study Group (AMLSG, n=1315) and National Taiwan University Hospital (NTUH, n=646) who had sufficient cytogenetic and genomic information available including the ELN 2017 cytogenetic and genomic abnormalities, spliceosome, cohesin complex and the fifteen most common genomic alterations from the Cancer Genome Atlas dataset (Ley 2013). A supervised machine learning model within R (version 4.1.0) employed a combination of random forest analysis (utilising the RandomForestSRC module version 2.11.0) and recursive partitioning (utilising the Rpart module version 4.1-15) to identify prognostic groups categorised into quintiles based upon 4-year overall survival (OS) into very poor, poor, intermediate, good and very good prognostic groups (A). Outcome according to alloHCT in CR1 was then determined by a time-dependent analysis comparing patients who in CR1 who did/or did not receive an alloHCT and were alive at 147 days (median time to transplant in the cohort). The prognostic groups were then validated against a separate AML cohort (Montreal Leucegene cohort) Patients defined by ML classification (figure 1A) to have very poor risk included patients with complex karyotype and either -7, del(7q), -17, del(17p), abn(17p) or TP53 mutations; EVI1 abnormalities (inv(3)/t(3;3)) and combined spliceosome and ASXL1 mutations. These patients had a very poor outcome irrespective of alloHCT in CR1 with a 4yr OS of 13% vs 15% (p=0.24) (alloHCT vs no-alloHCT). Patients with the combination of bi-allelic CEBPA and NRAS mutations, or the combination of NPM1 , NRAS and Cohesin mutations had very good prognosis and failed to derive survival benefit from alloHCT in CR1 (4yr OS 80% vs 96% (p<0.05)) (figure 1B). Patients with either good, intermediate and poor prognosis all demonstrated improvement in OS with alloHCT in CR1 (good prognosis 90% vs 74% (p<0.05), intermediate 65% vs 50%mo (p<0.05) and poor 50% vs 31% (p<0.05)(figure 1B). ML AML classification defines two groups of patients who may not benefit from an alloHCT in CR1. Patients with very good prognosis may avoid the toxicity associated with transplantation with expectation of equivalent outcomes to those in receipt of alloHCT. Patients with very poor prognosis also fail to derive survival benefit from transplantation and represent candidates for novel post-remission strategies to improve the natural history of their disease. As this data predates the usage of FLT3 inhibitors and other novel therapies such as liposomal cytarabine/daunorubicin the impact of these therapies on patient outcome will warrant future consideration. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Fleming:  Amgen: Honoraria, Research Funding, Speakers Bureau; Pfizer: Honoraria, Speakers Bureau; Abbvie: Honoraria, Speakers Bureau; Servier: Honoraria. D\u00f6hner:  AstraZeneca: Honoraria; GEMoaB: Honoraria; Novartis: Honoraria, Research Funding; Helsinn: Honoraria; Bristol Myers Squibb: Honoraria, Research Funding; Celgene: Honoraria, Research Funding; Gilead: Honoraria; Agios: Honoraria, Research Funding; Abbvie: Honoraria, Research Funding; Berlin-Chemie: Honoraria; Astex Pharmaceuticals: Honoraria; Astellas: Honoraria, Research Funding; Amgen: Honoraria, Research Funding; Roche: Honoraria; Janssen: Honoraria; Jazz Pharmaceuticals: Honoraria, Research Funding; Oxford Biomedica: Honoraria; Pfizer: Research Funding. D\u00f6hner:  Abbvie: Consultancy, Honoraria; Jazz Roche: Consultancy, Honoraria; Janssen: Honoraria, Other: Advisory Board; Astellas: Research Funding; Agios and Astex: Research Funding; Daiichi Sankyo: Honoraria, Other: Advisory Board; Celgene/BMS: Consultancy, Honoraria, Research Funding; Novartis: Consultancy, Honoraria, Research Funding. Papaemmanuil:  Isabl Technologies: Divested equity in a private or publicly-traded company in the past 24 months; Kyowa Hakko Kirin Pharma: Consultancy. Tien:  AbbVie: Honoraria; Celgene: Honoraria, Research Funding; Novartis: Honoraria. Reynolds:  Abbvie: Research Funding; Alcon: Current equity holder in publicly-traded company; Novartis AG: Current equity holder in publicly-traded company. Wei:  Abbvie, Amgen, AstraZeneca, Celgene/BMS, Novartis, Servier and F. Hoffmann-La Roche: Research Funding; Abbvie, Amgen, Astellas, AstraZeneca, Celgene/BMS, Genentech, Janssen, MacroGenics, Novartis, Pfizer, and Servier: Honoraria; Former employee of Walter and Eliza Hall Institute: Patents & Royalties: Prof. Andrew Wei is a former employee of the Walter and Eliza Hall Institute and is eligible for a fraction of the royalty stream related to Venetoclax; Novartis, Abbvie, Celgene/BMS: Speakers Bureau; Abbvie, Amgen, Astellas, AstraZeneca, Celgene/BMS, Genentech, Janssen, MacroGenics, Novartis, Pfizer, and Servier: Membership on an entity's Board of Directors or advisory committees; Servier: Consultancy.",
+    "author_names": [
+        "Shaun Fleming",
+        "Cheng-Hong Tsai",
+        "Hartmut D\u00f6hner",
+        "Konstanze D\u00f6hner",
+        "Elli Papaemmanuil",
+        "Hwei-Fang Tien",
+        "John Reynolds",
+        "Andrew H. Wei",
+        "Hsin-An Hou"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Shaun Fleming",
+            "author_affiliations": [
+                "Department of Clinical Haematology, The Alfred Hospital, Melbourne, Australia"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cheng-Hong Tsai",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hartmut D\u00f6hner",
+            "author_affiliations": [
+                "Internal Medicine III, University of Ulm, Ulm, Germany"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Konstanze D\u00f6hner",
+            "author_affiliations": [
+                "University Hospital of Ulm, Ulm, Germany"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elli Papaemmanuil",
+            "author_affiliations": [
+                "Center for Hematologic Malignancies, Memorial Sloan Kettering Cancer Center, New York, NY"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hwei-Fang Tien",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John Reynolds",
+            "author_affiliations": [
+                "Biostatistics Consulting Platform, Alfred Health and Faculty of Medicine, Nursing & Health Sciences, Monash University, Melbourne, Australia"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew H. Wei",
+            "author_affiliations": [
+                "Department of Clinical Haematology, The Alfred Hospital, Melbourne, Australia",
+                "Australian Centre for Blood Diseases, Monash University, Melbourne, Australia"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hsin-An Hou",
+            "author_affiliations": [
+                "Division of Hematology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T18:45:25",
+    "is_scraped": "1"
 }

@@ -1,8 +1,94 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4889",
-    "start_url_page_num": "4889",
     "doi": "https://doi.org/10.1182/blood-2021-149475",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/4034/481456/Hematology-Patient-Explorer-an-Informatics?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T21:19:15",
-    "is_scraped": "0"
+    "article_title": "Hematology Patient Explorer - an Informatics Infrastructure and Web Application Empowering Clinicians and Researchers to Use Electronic Health Record Information to Identify Clinical Cohorts of Interest ",
+    "article_date": "November 5, 2021",
+    "session_type": "902.Health Services Research-Lymphoid Malignancies",
+    "abstract_text": "Introduction: The widespread adoption of electronic health records (EHR) in the US (Adler-Milstein and Jha 2017) presents an opportunity to transform healthcare into rapidly learning health organizations and systems (Etheredge 2007; Abernethy et al. 2010) that use routinely collected clinical data in the course of care to generate evidence, address information disparities in patients underrepresented in clinical trials, such as those who are older, belong to ethnic minorities, or are in medically underserved areas, and continuously improve the quality of care delivered.(Rivera et al. 2019; Penberthy, Rivera, and Ward 2019) Unfortunately, this potential remains largely unrealized due to deficiencies in EHR interoperability (Holmgren, Patel, and Adler-Milstein 2017) and usability.(Dunn Lopez et al. 2021) EHR information remains largely unstructured due to the nature of the patient-clinician interaction and current user interfaces where structured data entry is burdensome.(Khairat et al. 2019) At the University of Utah Huntsman Cancer Institute division of Hematology, clinicians as well as clinical and translational researchers often need detailed information on patients seen at the cancer center to plan and conduct research and evaluate and improve the quality of care delivered. Previous efforts to address these needs relied on a clinical data science and health informatics staff working with clinicians to identify patient cohorts of interest. As part of an effort to improve the efficiency of this service, decrease the latency in information provision, and serve a larger number of clinicians and researchers, we designed and implemented a highly usable, scalable, health information technology solution that allows clinicians and researchers to identify, in near real time, cohorts of interest, based on patient and disease characteristics. Methods: Common information needs at the division were assessed by identifying key stakeholders, including division leadership, clinicians, researchers, and health informatics leadership and staff. A team was formed to include overlapping expertise in Hematology, clinical informatics and data science, and prior experience in extraction of clinical information from EHR data warehouses to generate evidence on patient practices and outcomes. Information sources and architectures were evaluated on their comprehensiveness, validity, extensibility, and ability to integrate multiple data sources. A modern web-based interface was designed to mirror the steps clinicians and clinical researchers frequently used to identify cohorts of interest, provide guidance for these users, and generate population level and patient level information. Usability testing included rounds of initial internal testing, followed by a round of closed beta testing. Results: A data lake architecture was implemented to ingest, harmonize and stage information from various data sources, including the Enterprise Data Warehouse, Tumor Registry, and other data silos. Data cleaning and harmonization was done using Python. A web application using 'Dash' was implemented with four steps split into four consecutive panes. The first two focused on cohort identification using diagnosis (first pane), and patient and disease characteristics (pane 2). Users first input keywords that allow them to identify diagnoses of interest based on ICDO-3 codes. Users can select multiple codes at this stage. In the next step, users can filter down their cohort based on patient and disease characteristics, such as sex, age, year of initial diagnosis, grade and stage of disease, and others. Once all desired refinements to the pilot cohort are made, users move on to the third tab, which displays customizable population level information, such as number of diagnoses by year, sex, or age. Finally, the fourth tab presents individual level data such as Patient Medical Record Numbers, age, or ICDO-3 diagnosis descriptions. Based on this output, users can return to the initial selection criteria and adjust them. Users are able to download or export selection criteria and query results for future work. Conclusion: We describe the process, roles, and informatics infrastructure and tools to implement a web interface that allows clinicians and researchers to leverage EHR information to identify cohorts of patients for research and quality improvement. Further research will focus on tool usability and scope. Disclosures Deininger:  Sangamo: Consultancy, Membership on an entity's Board of Directors or advisory committees; Fusion Pharma, Medscape, DisperSol: Consultancy; Takeda: Consultancy, Membership on an entity's Board of Directors or advisory committees, Other: Part of a Study Management Committee, Research Funding; SPARC, DisperSol, Leukemia & Lymphoma Society: Research Funding; Novartis: Consultancy, Research Funding; Incyte: Consultancy, Honoraria, Research Funding; Blueprint Medicines Corporation: Consultancy, Membership on an entity's Board of Directors or advisory committees, Other: Part of a Study Management Committee, Research Funding.",
+    "author_names": [
+        "Luisa Rusta",
+        "Kyle Hansen",
+        "Zach Burningham",
+        "Vikas Patil",
+        "Sarah Soderborg",
+        "Andrew Post",
+        "Michael W. Deininger",
+        "Ahmad Halwani"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Luisa Rusta",
+            "author_affiliations": [
+                "Division of Hematology and Hematologic Malignancies, Huntsman Cancer Institute, University of Utah, Salt Lake City, UT"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kyle Hansen",
+            "author_affiliations": [
+                "Division of Hematology and Hematologic Malignancies, Huntsman Cancer Institute, University of Utah, Salt Lake City, UT"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Zach Burningham",
+            "author_affiliations": [
+                "Division of Epidemiology, Huntsman Cancer Institute, University of Utah, Salt Lake City, UT"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vikas Patil",
+            "author_affiliations": [
+                "Division of Hematology and Hematologic Malignancies, Huntsman Cancer Institute, University of Utah, Salt Lake City, UT",
+                "Division of Epidemiology, Huntsman Cancer Institute, University of Utah, Salt Lake City, UT"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sarah Soderborg",
+            "author_affiliations": [
+                "Division of Hematology and Hematologic Malignancies, Huntsman Cancer Institute, University of Utah, Salt Lake City, UT"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew Post",
+            "author_affiliations": [
+                "Division of Hematology and Hematologic Malignancies, Huntsman Cancer Institute, University of Utah, Salt Lake City, UT"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael W. Deininger",
+            "author_affiliations": [
+                "Division of Hematology and Hematologic Malignancies, Huntsman Cancer Institute, University of Utah, Salt Lake City, UT"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ahmad Halwani",
+            "author_affiliations": [
+                "Division of Hematology and Hematologic Malignancies, Huntsman Cancer Institute, University of Utah, Salt Lake City, UT"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T18:46:39",
+    "is_scraped": "1"
 }

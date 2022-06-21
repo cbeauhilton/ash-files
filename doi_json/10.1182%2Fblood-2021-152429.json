@@ -1,8 +1,163 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4732",
-    "start_url_page_num": "4732",
     "doi": "https://doi.org/10.1182/blood-2021-152429",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3993/481438/Human-Genetic-Diversity-Alters-Therapeutic-Gene?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T14:40:31",
-    "is_scraped": "0"
+    "article_title": "Human Genetic Diversity Alters Therapeutic Gene Editing Off-Target Outcomes ",
+    "article_date": "November 5, 2021",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "CRISPR gene editing holds great promise to modify somatic genomes to ameliorate disease. In silico prediction of homologous sites coupled with biochemical evaluation of possible genomic off-targets may predict genotoxicity risk of individual gene editing reagents. However, standard computational and biochemical methods focus on reference genomes and do not consider the impact of genetic diversity on off-target potential. Here we developed a web application called CRISPRme that explicitly and efficiently integrates human genetic variant datasets with orthogonal genomic annotations to predict and prioritize off-target sites at scale. The method considers both single-nucleotide variants (SNVs) and indels, accounts for bona fide haplotypes, accepts spacer:protospacer mismatches and bulges, and is suitable for personal genome analyses. We tested the tool with a guide RNA (gRNA) targeting the BCL11A erythroid enhancer that has shown therapeutic promise in clinical trials for sickle cell disease (SCD) and \u03b2-thalassemia (Frangoul et al. NEJM 2021). We find that the top predicted off-target site is produced by a non-reference allele common in African-ancestry populations (rs114518452, minor allele frequency (MAF) = 4.5%) that introduces a protospacer adjacent motif (PAM) for SpCas9. We validate that SpCas9 generates indels (~9.6% frequency) and chr2 pericentric inversions in a strictly allele-specific manner in edited CD34+ hematopoietic stem/progenitor cells (HSPCs), although a high-fidelity Cas9 variant mitigates this off-target. This report illustrates how population and private genetic variants should be considered as modifiers of genome editing outcomes. We expect that variant-aware off-target assessment will be required for therapeutic genome editing efforts going forward, including both ongoing and future clinical trials, and we provide a powerful approach for comprehensive off-target prediction. CRISPRme is available at crisprme.di.univr.it. Disclosures No relevant conflicts of interest to declare.",
+    "author_names": [
+        "Linda Yingqi Lin",
+        "Samuele Cancellieri",
+        "Jing Zeng",
+        "Francesco Masillo",
+        "My Anh Nguyen",
+        "Nicola Bombieri",
+        "Stacy A. Maitland",
+        "Marioara-Felicia Ciuculescu",
+        "Varun Katta",
+        "Shengdar Q. Tsai",
+        "Myriam Armant",
+        "Scot A. Wolfe",
+        "Rosalba Giugno",
+        "Luca Pinello",
+        "Daniel E. Bauer"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Linda Yingqi Lin",
+            "author_affiliations": [
+                "Department of Pediatric Hematology/Oncology, Boston Children's Hospital, Dana-Farber Cancer Institute, Harvard Stem Cell Institute, Broad Institute, Harvard Medical School, Boston, MA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Samuele Cancellieri",
+            "author_affiliations": [
+                "Department of Computer Science, University of Verona, Verona, Italy"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jing Zeng",
+            "author_affiliations": [
+                "Department of Pediatric Hematology/Oncology, Boston Children's Hospital, Dana-Farber Cancer Institute, Harvard Stem Cell Institute, Broad Institute, Harvard Medical School, Boston, MA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Francesco Masillo",
+            "author_affiliations": [
+                "Department of Computer Science, University of Verona, Verona, Italy"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "My Anh Nguyen",
+            "author_affiliations": [
+                "Department of Pediatric Hematology/Oncology, Boston Children's Hospital, Dana-Farber Cancer Institute, Harvard Stem Cell Institute, Broad Institute, Harvard Medical School, Boston, MA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nicola Bombieri",
+            "author_affiliations": [
+                "Department of Computer Science, University of Verona, Verona, Italy"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stacy A. Maitland",
+            "author_affiliations": [
+                "Department of Molecular, Cell and Cancer Biology, Li Weibo Institute for Rare Diseases Research, University of Massachusetts Medical School, Worcester, MA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marioara-Felicia Ciuculescu",
+            "author_affiliations": [
+                "TransLab, Boston Children's Hospital, Boston, MA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Varun Katta",
+            "author_affiliations": [
+                "Department of Hematology, St. Jude Children's Research Hospital, Memphis, TN"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shengdar Q. Tsai",
+            "author_affiliations": [
+                "Department of Hematology, St. Jude Children's Research Hospital, Memphis, TN"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Myriam Armant",
+            "author_affiliations": [
+                "TransLab, Boston Children's Hospital, Boston, MA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Scot A. Wolfe",
+            "author_affiliations": [
+                "Department of Molecular, Cell and Cancer Biology, Li Weibo Institute for Rare Diseases Research, University of Massachusetts Medical School, Worcester, MA"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rosalba Giugno",
+            "author_affiliations": [
+                "Department of Computer Science, University of Verona, Verona, Italy"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Luca Pinello",
+            "author_affiliations": [
+                "Molecular Pathology Unit, Center for Cancer Research, Department of Pathology, Massachusetts General Hospital, Harvard Medical School, Boston, MA"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel E. Bauer",
+            "author_affiliations": [
+                "Department of Pediatric Hematology/Oncology, Boston Children's Hospital, Dana-Farber Cancer Institute, Harvard Stem Cell Institute, Broad Institute, Harvard Medical School, Boston, MA"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T18:42:20",
+    "is_scraped": "1"
 }

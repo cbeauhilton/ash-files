@@ -1,8 +1,73 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4888",
-    "start_url_page_num": "4888",
     "doi": "https://doi.org/10.1182/blood-2021-151154",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/4002/481432/Fully-Automated-Workflows-Quantify-and-Report-Key?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T21:19:11",
-    "is_scraped": "0"
+    "article_title": "Fully Automated Workflows Quantify and Report Key T-Cell and B-Cell Receptor Biomarkers Relevant to Immuno-Oncology and Heme-Oncology Research ",
+    "article_date": "November 5, 2021",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Background T-cell and B-cell repertoire analysis is used in oncology research, to understand the etiology of complex disease phenotypes, for the identification of biomarkers predictive of disease burden, outcome, and response to treatment, and for research in diagnosis and recurrence monitoring. Key predictors include secondary and tertiary repertoire features not reported by existing sequencing software solutions. For example, due to ongoing somatic hypermutation in mature B-cell receptors, the underlying sequence of a given clone can accumulate base differences and appear as several distinct clones with smaller frequencies, thereby hampering the ability of analysis software to detect its presence as a single dominant clone with the highest frequency. This has particularly detrimental implications for research in disorders such as follicular lymphoma and may require clonal lineage analysis for proper mitigation. Therefore, to aid the downstream analytics of biomarker identification and the study of complex disease, we developed fully automated analysis solutions that directly compute and report several key features (clonal lineage, amongst several others described below) pertinent to this area of research. Results We developed the Oncomine\u2122 TCR Beta-SR, TCR Gamma-SR, BCR IGH-SR and BCR IGKL-SR workflows on Ion Reporter\u2122 to characterize T-cell (\u03b2, \u03b3 chains) and B-cell (heavy and light (\u03ba, \u03b4) chains) repertoires. These workflows generate output tables and visualizations for primary repertoire features such as detected clones (viz., unique rearrangements in the receptor DNA sequence), their frequencies, as well as their somatic hypermutation levels in the case of B-cells (Figure 1a & 1b) for clonality assessment and rare clone detection. The software also quantifies and reports several secondary and tertiary repertoire features in a sample, such as clonal diversity, evenness of the clonal population, and B-cell lineage groupings useful in identifying related sub-clones. It includes spectratyping format plots to simultaneously assess the above features as a function of v-gene usage and CDR3 length combinations (Figure 1c & 1d), thereby providing users a complete snapshot of the repertoire, and also the capability to quickly determine CDR3 lengths and V-gene usage of highly expanded or mutated clones. A separate CDR3 lengths histogram is included, as well as a heatmap that depicts the distributions/intensity of Variable-Joining gene combinations (Figure 1e & 1f). Furthermore, the TCR workflows also report (i) convergence frequencies (fraction of clones with different nucleotide sequences, but identical amino acid sequences), and (ii) haplotype grouping for an analyzed sample, based on V-gene allele genotyping and clustering (Figure 1g). In addition, the long read Oncomine\u2122 BCR IGH-LR workflow uniquely reports the isotype class for every detected clone, and includes a visualization of total reads, clones and lineages in the sample represented by isotype (Figure 1h). Conclusion The Oncomine\u2122 immune repertoire workflows for T-cell and B-cell receptor sequencing were designed to be of high utility in distinct areas of malignancy research, and we expect them to greatly simplify complex downstream analyses. The unique capabilities of the workflows to automatically report secondary and tertiary repertoire features such as (i) clonal lineages for improved dominant clone detection in blood cancers, (ii) TCR clone convergence for prediction of response to immune checkpoint inhibitors [1,2], (iii) TCR haplotype grouping for evaluation of risk factors for autoimmunity and immune-related adverse events [3], and (iv) isotype classification in BCRs for studying pan-cancer immune evasion mechanisms, demonstrate the clear advantages of using these automated workflows over other existing solutions. For research use only. References 1) Looney TJ et al. (2020) TCR Convergence in Individuals Treated With Immune Checkpoint Inhibition for Cancer. Front. Immunol. 10:2985. 2) Naidus et al. (2021) Early changes in the circulating T cells are associated with clinical outcomes after PD-L1 blockade by durvalumab in advanced NSCLC patients. Cancer Immunology, Immunotherapy 70:2095-2102 3) Looney TJ et al. (2019) Haplotype Analysis of the T-Cell Receptor Beta (TCRB) Locus by Long-amplicon TCRB Repertoire Sequencing. Journal of Immunotherapy and Precision Oncology. 2 (4): 137-143. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Sarda:  Thermo Fisher Scientific: Current Employment. Lowman:  Thermo Fisher Scientific: Current Employment. Toro:  Thermo Fisher Scientific: Current Employment. Pickle:  Thermo Fisher Scientific: Current Employment. Looney:  Thermo Fisher Scientific: Ended employment in the past 24 months; Singular Genomics: Current Employment. Hyland:  Thermo Fisher Scientific: Current Employment.",
+    "author_names": [
+        "Shrutii Sarda",
+        "Geoffrey Lowman",
+        "Michelle Toro",
+        "Loni Pickle",
+        "Timothy Looney",
+        "Fiona Hyland"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Shrutii Sarda",
+            "author_affiliations": [
+                "Thermo Fisher Scientific, South San Francisco, CA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Geoffrey Lowman",
+            "author_affiliations": [
+                "ThermoFisher Scientific, CARLSBAD, CA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michelle Toro",
+            "author_affiliations": [
+                "Thermo Fisher Scientific, Carlsbad, CA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Loni Pickle",
+            "author_affiliations": [
+                "Thermo Fisher Scientific, Carlsbad, CA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Timothy Looney",
+            "author_affiliations": [
+                "Thermo Fisher Scientific, AUSTIN, TX"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Fiona Hyland",
+            "author_affiliations": [
+                "Thermo Fisher Scientific, South San Francisco, CA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T18:42:46",
+    "is_scraped": "1"
 }

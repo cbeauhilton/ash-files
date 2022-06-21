@@ -1,8 +1,85 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4888",
-    "start_url_page_num": "4888",
     "doi": "https://doi.org/10.1182/blood-2021-152846",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3997/481428/Prediction-of-Malignant-Cell-Infiltration-Patterns?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T21:19:11",
-    "is_scraped": "0"
+    "article_title": "Prediction of Malignant Cell Infiltration Patterns with Texture Features of Biopsy-Correlated Positron Emission Tomography of Osteolytic Lesions in Multiple Myeloma ",
+    "article_date": "November 5, 2021",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Introduction: Osteolytic bone disease represents a severe clinical presentation of multiple myeloma (MM), as MM cells infiltrate the bone marrow throughout the skeleton, forming tumors, activating bone-resorbing osteoclasts, and impeding bone-depositing osteoblast activity. The extent of osteolytic lesions encompassing the skeleton influences the severity of disease for patients, with severe lesions leading to skeletal-related events (SREs). MM cell infiltration into the bone marrow gradually increases with disease progression; however, the distribution of myeloma cells within the bone and marrow is heterogenous. Standard of care imaging modalities used to monitor the number, size, and extent of bone destruction of lesions include whole-body magnetic resonance imaging (MRI), whole-body low-dose computed tomography (CT), and positron emission tomography with CT (PET/CT). With the use of computational methodologies, imaging textural features can be calculated from PET. In this prospective study, we aim to find PET textural features that will correlate with histological evaluation of myeloma cell infiltration patterns of osteolytic lesions and un-guided bone marrow biopsies in MM patients. Patients and Methods: 40 patients were enrolled in this prospective study with either newly diagnosed multiple myeloma (n=16, 40%) or relapse/refractory multiple myeloma (n= 24, 60%). Whole-body PET/CT imaging was performed on all patients as part of MM standard of care, after which CT-guided biopsies were taken from patient osteolytic lesions identified by imaging and in bone marrow biopsies. 68 biopsies were evaluated by an expert hematopathologist, of which 59 had analyzable imaging studies in the respective areas. Myeloma cell infiltration patterns in all biopsies were classified as interstitial (n=23, 41.8%), nodular (n=19, 34.6%), or packed (n=13, 23.6%), as described by Andrulis et al. (2014). PET lesion and bone marrow segmentation was performed on the Medical Imaging Interaction Toolkit (MITK) and 72 textural features were calculated using the PyRadiomics extension (van Griethuysen et al. 2017) for 3D Slicer 4.11 (Fedorov et al. 2012). PET quantitative features were calculated using the PET IndiC extension from 3D Slicer (QIICR (2015b)). Statistical analysis was performed via GraphPad Prism 9 (GraphPad Software, San Diego, California USA) and the Radiomics Analysis with R (RadAR, Benelli et al. 2020) package in the RStudio environment (RStudio Team (2020). RStudio: Integrated Development for R. RStudio, PBC, Boston, MA). Results: Lesion biopsy samples predominantly favored packed infiltration pattern (53.6%) over interstitial (21.4%) or nodular (25%), while staging/follow-up bone marrow biopsies predominantly favored interstitial or nodular patterns (47.5% and 35.0%, respectively) compared to packed (22.5%). Two-way analysis of variance (ANOVA) tests was performed to compare imaging features between biopsy infiltration patterns and also between disease status of patients. The first order uniformity (p<0.05) was able to discern between interstitial, nodular, or packed infiltration for all biopsies and textural features from the Gray Level Co-Occurrence Matrix (GLCM) Correlation and Joint Entropy were accurately able to discern between interstitial and either nodular or packed infiltration patterns for all biopsies (p<0.01). Within lesion biopsies specifically (n=25), first order uniformity, kurtosis, skewness, and textural features Joint Entropy and Dependence Non-Uniformity could discern between MM cell infiltration patterns (p<0.05). PET quantitative SUV statistics did not show any significant separation between infiltration patterns. First order, textural, and PET SUV quantitative features could not distinguish disease status of the patient. Conclusions: In this preliminary study, we demonstrate a correlation between textural imaging features and pathological findings within the bone marrow and osteolytic lesions of MM patients. This correlation illustrates a potential link between computational imaging features to predict pathological findings in patients with MM. Further expansion of this study with genomic, flow cytometry, and multimodality imaging data could lead to the generation of computational modeling of the pathophysiology of osteolytic lesions in MM and a reduction in the need for invasive bone marrow and lesion biopsies. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Merz:  Takeda: Honoraria; onkowissen.de: Honoraria; Amgen: Honoraria; BMS: Honoraria; Celgene: Honoraria; Sanofi: Honoraria; Janssen: Honoraria; GSK: Honoraria; Hexal: Honoraria. McCarthy:  Janssen: Honoraria, Membership on an entity's Board of Directors or advisory committees; Bluebird: Honoraria, Membership on an entity's Board of Directors or advisory committees; Bristol Myers Squibb: Honoraria, Membership on an entity's Board of Directors or advisory committees; Juno: Honoraria, Membership on an entity's Board of Directors or advisory committees; Karyopharm: Honoraria, Membership on an entity's Board of Directors or advisory committees; Celgene: Honoraria, Membership on an entity's Board of Directors or advisory committees; Magenta Therapeutics: Honoraria, Membership on an entity's Board of Directors or advisory committees; Oncopeptides: Honoraria, Membership on an entity's Board of Directors or advisory committees; Takeda: Honoraria, Membership on an entity's Board of Directors or advisory committees. Hillengass:  Beijing Life Oasis Public Service Center: Speakers Bureau; Oncopeptides: Membership on an entity's Board of Directors or advisory committees; Axxess Network: Membership on an entity's Board of Directors or advisory committees; Beijing Medical Award Foundation: Speakers Bureau; Adaptive: Membership on an entity's Board of Directors or advisory committees; Bristol Myers Squibb: Membership on an entity's Board of Directors or advisory committees; Skyline: Membership on an entity's Board of Directors or advisory committees; GlaxoSmithKline: Membership on an entity's Board of Directors or advisory committees; Sanofi: Membership on an entity's Board of Directors or advisory committees; Oncotracker: Membership on an entity's Board of Directors or advisory committees; Curio Science: Speakers Bureau.",
+    "author_names": [
+        "Michael Laurence Langsen",
+        "Jerry Thwin Wong",
+        "Maximilian Merz",
+        "Brian Yu",
+        "Hemn Mohammadpour",
+        "Philip L. McCarthy",
+        "Jens Hillengass"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Michael Laurence Langsen",
+            "author_affiliations": [
+                "Medical Physics program, Jacobs School of Medicine, University at Buffalo, The State University of New York, Buffalo, NY"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jerry Thwin Wong",
+            "author_affiliations": [
+                "Pathology, Roswell Park Comprehensive Cancer Center, Buffalo, NY"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maximilian Merz",
+            "author_affiliations": [
+                "University of Heidelberg, Heidelberg, Germany",
+                "Roswell Park Comprehensive Cancer Center Institute, Buffalo, NY"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brian Yu",
+            "author_affiliations": [
+                "Roswell Park Comprehensive Cancer Center, Buffalo, NY",
+                "Jacobs School of Medicine, University at Buffalo, The State University of New York, Buffalo, NY"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hemn Mohammadpour",
+            "author_affiliations": [
+                "Department of Immunology, Roswell Park Comprehensive Cancer Center, Buffalo, NY"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Philip L. McCarthy",
+            "author_affiliations": [
+                "Department of Medicine, Roswell Park Comprehensive Cancer Center, Buffalo, NY"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jens Hillengass",
+            "author_affiliations": [
+                "Roswell Park Comprehensive Cancer Center, Buffalo, NY"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T18:42:35",
+    "is_scraped": "1"
 }
