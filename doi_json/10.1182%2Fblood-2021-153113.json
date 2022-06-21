@@ -1,8 +1,43 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4833",
-    "start_url_page_num": "4833",
     "doi": "https://doi.org/10.1182/blood-2021-153113",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/2689/478722/The-Alternative-Splicing-Landscape-in-Multiple?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T19:16:54",
-    "is_scraped": "0"
+    "article_title": "The Alternative Splicing Landscape in Multiple Myeloma Is Determined By IGH Translocations and Mutations of RNA Processing Genes ",
+    "article_date": "November 5, 2021",
+    "session_type": "651.Multiple Myeloma and Plasma Cell Dyscrasias: Basic and Translational",
+    "abstract_text": "Introduction : Alternative Splicing (AS) plays a key role in regulating numerous cellular processes in both normal and malignant cells. Previous studies have revealed mutations in the spliceosome complex, such as SF3B1, can cause increased AS frequencies in multiple myeloma (MM) patients, and patients with increased levels of AS are associated with a poor prognosis. Other frequently mutated genes involved in RNA processing include DIS3 and FAM46C , thus, systematically investigating other causes of AS abnormalities and pathologies in MM patients is highly necessary. Materials and Methods: RNA-seq data from 598 newly diagnosed MM patients from the MMRF CoMMpass study were utilized to generate AS comparisons. They were previously annotated for cytogenetic, copy number, and mutation data (version IA16). RNA-seq data were aligned to HG38 using STAR and Salmon. SUPPA2 was used for calling AS differences. For each identified AS event, the splicing level was defined by Percentage of Spliced-In (PSI) while the mean difference of splicing levels between two groups was measured by \u0394PSI (dPSI) and by the P-value from independent T-tests against PSIs in the two groups. Filtering thresholds were determined to find high-quality differentially spliced events and were filtered for those also present in normal PCs (GSE110486). Geneset enrichment analysis was performed to identify dysregulated pathways caused by differential splicing and differential expression. Survival analysis was performed on clinical annotations of 598 NDMM patients while the Logrank test and Cox regression were used to evaluate the risk of AS and other genomic factors. Kaplan-Meier curves were plotted for various subgroups. Results: We compared 16 major cytogenetic subgroups, including Ig translocations (t(4;14), t(14;16), t(11;14)), hyperdiploidy, mutations in KRAS , NRAS , BRAF, FAM46C, SF3B1, DIS3 and TP53 , combined events (t(4;14) plus DIS3 mutation), as well as those with biallelic abnormalities ( DIS3, FAM46C, and TP53 ). Samples with SF3B1 hotspot mutations identified the greatest number of AS events (n=862), and samples with any SF3B1 mutation had approximately half as many. IGH translocations had an equivalent number of AS events to those with SF3B1 mutations, with t(14;16) having the most (n=587) followed by t(11;14) (n=366), and t(4;14) (n=256). We observed an increased number of significant AS events in bi-allelic DIS3 and FAM46C groups (n=404 and 171) compared to their mono-allelic abnormalities (n=114 and 35). As DIS3 mutations are enriched in the t(4;14) subgroup we also examined that interaction and found significantly more AS events (n=481; p<0.01) in the combination compared to either event alone. As expected, KRAS , NRAS and BRAF mutations did not have enrichment for AS events (n=2, 15, 23, respectively). The majority of AS events were unique to each subgroup, exemplifying the AS heterogeneity in these subgroups. Among overlapped events, an alternative first (AF) exon in ACACA was consistently more spliced in t(14;16), t(11;14) and t(4;14) groups (dPSI=0.18, 0.10, 0.12, P=2x10 -5 , 2x10 -9 , 5x10 -5 ). ACACA encodes an enzyme that significantly affects MM cell growth and viability, suggesting that similar regulations exist in the three translocation groups. Unique events were also detected including an AF event in MIB2 (E3 Ubiquitin Protein Ligase 2) in the t(11;14) group (dPSI=0.17, P=7x10 -14 ), and a skipped exon in UBXN4 (related to ER stress) in t(14;16) group (dPSI=0.1, P=3x10 -4 ). AS heterogeneity also leads to functional heterogeneity in the three groups. Besides commonly downregulated RNA catabolic processes, cell adhesion, migration and mobility related pathways are enriched pathways in t(14;16); cell growth related pathways in t(11;14); and ERK related pathways in t(4;14). High-risk events were identified through survival analysis and included a retained intron in RPS16 in the t(14;16) (Hazard Ratio (HR)=18.81, p=0.004). Similarly, high risk was associated with an AF event in DDX39B in t(11;14) (HR=2.62, p=0.001) and an AF event in COPA in t(4;14) (HR=6.29, p=0.001). Conclusion : AS is defined by multiple genomic events, including primary translocations and mutations in RNA processing genes, DIS3 and FAM46C , and interactions between genomic markers can increase AS. AS events contribute to outcome and some high risk AS events may serve as prognostic marker or potentially novel targets. Disclosures Walker:  Sanofi: Speakers Bureau; Bristol Myers Squibb: Research Funding.",
+    "author_names": [
+        "Enze Liu",
+        "Sabine Wenzel",
+        "Brian A Walker"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Enze Liu",
+            "author_affiliations": [
+                "Melvin and Bren Simon Comprehensive Cancer Center, Indiana University, Indianapolis, IN"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sabine Wenzel",
+            "author_affiliations": [
+                "Melvin and Bren Simon Comprehensive Cancer Center, Indiana University, Indianapolis, IN"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brian A Walker",
+            "author_affiliations": [
+                "Melvin and Bren Simon Comprehensive Cancer Center, Indiana University, Indianapolis, IN"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T21:33:01",
+    "is_scraped": "1"
 }

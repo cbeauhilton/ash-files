@@ -1,8 +1,233 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4787",
-    "start_url_page_num": "4787",
     "doi": "https://doi.org/10.1182/blood-2021-147099",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/1285/481230/Response-Prediction-to-Isocitrate-Dehydrogenase?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T17:23:32",
-    "is_scraped": "0"
+    "article_title": "Response Prediction to Isocitrate Dehydrogenase (IDH) Inhibitors in Patients with IDH1 - or IDH2 -Mutated Acute Myeloid Leukemia Using Clinical and Genomic Data ",
+    "article_date": "November 5, 2021",
+    "session_type": "617.Acute Myeloid Leukemias: Biomarkers, Molecular Markers and Minimal Residual Disease in Diagnosis and Prognosis",
+    "abstract_text": "Background: Ivosidenib (Servier Pharmaceuticals LLC) and enasidenib (Celgene) are inhibitors of mutant IDH1 and IDH2, respectively, approved for the treatment of relapsed/refractory (R/R) AML with an IDH1 or IDH2 mutation (ivosidenib is also approved for front-line use in patients \u2265 75 years or with comorbidities). While these drugs were approved based on durable complete remission (CR) + CR with partial hematologic recovery (CRh) rate, only 23-43% of patients responded. Thus, there is a need for a biomarker to better predict response. We previously presented a genomic model of response to enasidenib using linear discriminate analysis (Ghazanchyan et al., ASH 2018). In the two-part study presented here, we improved this modeling by adding clinical data, using machine learning-based approaches to model response to both enasidenib and ivosidenib, and generated an independent validation cohort using clinical samples. Methods: In part I, models were generated using data submitted to FDA in the marketing applications for ivosidenib and enasidenib (studies AG120-C-001 [NCT02074839] and AG221-C-001 [NCT01915498], respectively). Analysis inclusion criteria were available genomic data, IDH mutation positivity per the companion diagnostics, and receipt of at least the approved dose of IDH inhibitor. Patients in the ivosidenib cohort had untreated (n=33) or R/R AML (n=173); patients in the enasidenib cohort had R/R AML. Patients achieving a best response of CR or CRh were considered responders; all other patients were considered nonresponders. Genomic data for the ivosidenib cohorts were generated with the Foundation Medicine FoundationOne Heme panel (FMI) in dose escalation (n=38) and Brigham and Women's Hospital Rapid Heme Panel (RHP) in dose expansion (n=168); these cohorts were analyzed separately to account for differences between panels. Genomic data for the enasidenib cohort (n=75) were generated with the FMI panel. Machine learning-based feature selection approaches were used prior to modeling to identify important clinical data variables ( i.e. , baseline demographics and disease characteristics). Each analysis cohort was split into a training set (80% patients) and a testing set (20% patients). Machine learning modeling was performed with the decision-tree based algorithm XGBoost using repeated stratified cross validation. In part II of the study, we generated an independent validation cohort consisting of patients with IDH -mutated myeloid malignancies treated with ivosidenib or enasidenib at collaborating institutions (n=14). Bone marrow or peripheral blood samples were processed for deep whole exome sequencing to an average coverage of 441X. Custom analysis pipelines for filtering and annotation were developed to harmonize exome and panel data. Results: In part I, separate machine learning models were generated for each cohort using clinical data only, genomic data only, and clinical and genomic data together. Use of clinical and genomic data together, compared with either data type alone, resulted in improved model performance with accuracies of 89-100% in the testing sets. The most important clinical and genomic features for each cohort are shown in Figure 1. In part II, the independent validation cohort, collaborators provided response data and clinical data for variables found to be important in the models. Patient demographics and response rates are shown in Table 1. Mutational profiles for model genes mutated in \u2265 2 patients are shown in Figure 2. The models for CR+CRh response using both clinical and genomic data in the validation cohort had accuracies of 50-75% (66.7% ivosidenib BWH; 50% ivosidenib FMI; and 75% enasidenib). The combined accuracy improved to 80% when restricted to AML cases (excluding CMML and MDS) treated with ivosidenib (using the BWH model) or enasidenib (n=10). Conclusions: This study demonstrates the potential of harnessing machine learning for biomarker discovery to improve response prediction for the treatment of AML. The modeling approaches improved with inclusion of multiple data types, highlighting the importance of multi-faceted approaches for biomarker development in AML. The models presented have encouraging accuracies in a small independent validation cohort, suggesting potential clinical utility of machine learning-based biomarkers for identifying patients likely to respond to IDH inhibitors. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Kural:  Senseonics: Current equity holder in publicly-traded company; NanoDimensions: Current equity holder in publicly-traded company; Bionano Genomics: Current equity holder in publicly-traded company. Ghiaur:  Menarini Richerche: Research Funding; Syros Pharmaceuticals: Consultancy. Kazandjian:  Arcellx: Honoraria, Membership on an entity's Board of Directors or advisory committees; BMS: Honoraria, Membership on an entity's Board of Directors or advisory committees. Lai:  Macrogenics: Consultancy, Membership on an entity's Board of Directors or advisory committees; Jazz Pharma: Consultancy, Membership on an entity's Board of Directors or advisory committees; Genentech: Consultancy, Membership on an entity's Board of Directors or advisory committees; Jazz Pharma: Speakers Bureau; Astellas: Speakers Bureau; Daiichi-Sankyo: Consultancy, Membership on an entity's Board of Directors or advisory committees; Agios: Consultancy, Membership on an entity's Board of Directors or advisory committees; AbbVie: Consultancy, Membership on an entity's Board of Directors or advisory committees. Wynne:  Servier Pharmaceuticals: Honoraria; Carisma Therapeutics: Patents & Royalties. OffLabel Disclosure: This presentation references off label use of enasidenib in patients with MDS and CMML.",
+    "author_names": [
+        "Emma C. Scott",
+        "Kamil Kural",
+        "Sean Smith",
+        "Michael Colgan",
+        "Alexander J. Ambinder",
+        "Gabriel Ghiaur",
+        "Nora Holmes",
+        "Dickran Kazandjian",
+        "Catherine Lai",
+        "Colleen McGuire",
+        "Lorraine Pelosof",
+        "Svetlana Petrovskaya",
+        "V. Ashutosh Rao",
+        "Amy Rosenberg",
+        "Luis Santana-Quintero",
+        "Joseph Wynne",
+        "Wenming Xiao",
+        "Yong Zhang",
+        "R. Angelo de Claro",
+        "Richard Pazdur",
+        "Julia A. Beaver",
+        "Kelly J. Norsworthy"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Emma C. Scott",
+            "author_affiliations": [
+                "Center for Drug Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kamil Kural",
+            "author_affiliations": [
+                "Center for Biologics Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sean Smith",
+            "author_affiliations": [
+                "Center for Biologics Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Colgan",
+            "author_affiliations": [
+                "Center for Drug Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexander J. Ambinder",
+            "author_affiliations": [
+                "Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University Hospital, Baltimore, MD"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gabriel Ghiaur",
+            "author_affiliations": [
+                "Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University Hospital, Baltimore, MD"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nora Holmes",
+            "author_affiliations": [
+                "Lombardi Comprehensive Cancer Center, Georgetown University Hospital, Washington, DC"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dickran Kazandjian",
+            "author_affiliations": [
+                "Center for Drug Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Catherine Lai",
+            "author_affiliations": [
+                "Lombardi Comprehensive Cancer Center, Georgetown University Hospital, Washington, DC"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Colleen McGuire",
+            "author_affiliations": [
+                "Lombardi Comprehensive Cancer Center, Georgetown University Hospital, Washington, DC"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lorraine Pelosof",
+            "author_affiliations": [
+                "Center for Drug Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Svetlana Petrovskaya",
+            "author_affiliations": [
+                "Center for Drug Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "V. Ashutosh Rao",
+            "author_affiliations": [
+                "Center for Drug Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amy Rosenberg",
+            "author_affiliations": [
+                "Center for Drug Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Luis Santana-Quintero",
+            "author_affiliations": [
+                "Center for Biologics Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joseph Wynne",
+            "author_affiliations": [
+                "Center for Drug Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wenming Xiao",
+            "author_affiliations": [
+                "Center for Drug Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yong Zhang",
+            "author_affiliations": [
+                "Center for Drug Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "R. Angelo de Claro",
+            "author_affiliations": [
+                "Center for Drug Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Richard Pazdur",
+            "author_affiliations": [
+                "Oncology Center of Excellence, U.S. Food and Drug Administration, Silver Spring, MD"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Julia A. Beaver",
+            "author_affiliations": [
+                "Center for Drug Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kelly J. Norsworthy",
+            "author_affiliations": [
+                "Center for Drug Evaluation and Research, U.S. Food and Drug Administration, Silver Spring, MD"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T21:37:51",
+    "is_scraped": "1"
 }

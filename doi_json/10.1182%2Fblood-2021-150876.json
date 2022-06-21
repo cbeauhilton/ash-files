@@ -1,8 +1,189 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4832",
-    "start_url_page_num": "4832",
     "doi": "https://doi.org/10.1182/blood-2021-150876",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/2680/478686/Pathogenesis-of-Extramedullary-Multiple-Myeloma?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T19:16:49",
-    "is_scraped": "0"
+    "article_title": "Pathogenesis of Extramedullary Multiple Myeloma: From Resistance to Identification of Novel Therapeutic Targets ",
+    "article_date": "November 5, 2021",
+    "session_type": "651.Multiple Myeloma and Plasma Cell Dyscrasias: Basic and Translational",
+    "abstract_text": "I ntroduction Extramedullary disease (EMD) is a less frequent manifestation of multiple myeloma (MM), where MM plasma cells become independent of the bone marrow (BM) microenvironment and infiltrate other tissues and organs. The incidence of EMD is increasing and is associated with worse prognosis and drug resistance. The specific and efficient treatment is lacking. Therefore, a better understanding of EMD pathogenesis is desperately needed. Aims To identify biological pathways leading to EMD development and to evaluate therapeutic targets in EMD plasma cells with further focus on EMD tumor microenvironment to reveal presence of effector immune cells that are crucial for immunotherapy. Methods To identify EMD specific genes, FACS/MACS sorted aberrant plasma cells were collected from: i) fresh 11 EMD relapse tumors for which we had ii) 7 corresponding cryopreserved paired BM samples from the time of MM diagnosis (NDMM), iii) 9 unpaired fresh NDMM without EMD confirmed by PET-CT and iv) 6 unpaired fresh relapsed MM (RRMM). For library preparation, we used total RNA with rRNA depletion protocol and Illumina sequencing. Residual rRNA was filtered out by SortMeRNA. Differential expression analysis was performed using Salmon for read mapping and quantification and Deseq2 package. For single-cell RNAseq we used 10x Genomics technology for sequencing and CellRanger and Seurat for data processing and analysis. Results To better understand the aggressive nature of EMD, we have analyzed bulk RNA samples (7 EMD samples plus 7 corresponding cryopreserved paired BM samples from the time of MM diagnosis). Our preliminary analysis revealed a unique EMD profile (Fig 1A) with 423 up-regulated and 421 down-regulated genes in EMD samples (adjusted p-value < 0.1; absolute fold change > 1.5), with G2M checkpoint proteins being the most enriched hallmark pathways pointing to higher proliferation of EMD cells. EMD down-regulated genes mainly belong to genes of the adaptive immune response which together with lower immunoglobulin production suggest loss of mature plasma cell function. Among the top genes uniquely overexpressed in EMD (versus RRMM or NDMM) were SCD and ELOVL6 that regulate crucial steps in unsaturated fatty acids synthesis. Also their transcription factor SREBF1 was significantly up-regulated. The importance of these genes in EMD pathogenesis can be supported by the involvement of SREBP1 in stem cell differentiation and mediation of bortezomib resistance by ELOVL6 (Yi et al. 2018, Lipchick et al. 2021). Our dataset also revealed several deregulated lncRNA in EMD compared to NDMM. MALAT1 was highly expressed, however, we did not confirm results by Handa et al. 2017 showing lncRNA MALAT1 as upregulated in EMD. Furthermore, we aimed to evaluate expression of known immunotherapy MM targets being currently in use or under investigation. We compared the information about expression level in EMD vs paired NDMM, with unpaired NDMM without EMD lesion confirmed by PET/CT, and with RRMM. The analysis revealed a decrease in the expression of several antigens commonly used in anti-MM immunotherapy (e.g. CD38, SLAMF7, BCMA or PDL1) on EMD PCs (Fig 1B). Intriguingly, our data show EMD specific elevated expression of EZH2 gene being promising target in preclinical MM investigation which can prove efficient especially for the aggressive MM stage - EMD. Effective immunotherapy depends on the presence of effector immune cells. Therefore, we have evaluated immune cell types and their proportion in EMD tumors. Using flow cytometry we identified T and NK cells as the only immune cell subsets present in EMD tumors (median 0.9% and 0.5%, respectively). Single-cell RNAseq analysis of two EMD samples supported these findings. Conclusions Here, we present up to our knowledge the worldwide largest cohort of 11 EMD samples (including 7 longitudinal pre-EMD/EMD samples) analysed using RNAseq with focus on biological pathways and dysregulation of particular genes leading to EMD development. Drop of expression of several known drug targets may suggest limited efficacy of the modern treatment in EMD as already presented by Jelinek et al., 2021. Importantly, we are also providing the initial insight into the microenvironment (including single-cell RNA analysis) of EMD tumors, where we detected presence of T cell and NK cells in very limited numbers. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Hajek:  Takeda: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Celgene: Consultancy, Honoraria, Research Funding; BMS: Consultancy, Honoraria, Research Funding; AbbVie: Consultancy, Honoraria; Novartis: Consultancy, Research Funding; Pharma MAR: Consultancy, Honoraria; Janssen: Consultancy, Honoraria, Research Funding; Amgen: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding.",
+    "author_names": [
+        "Tomas Jelinek",
+        "David Zihala",
+        "Tereza Sevcikova",
+        "Veronika Kapustova",
+        "Hana Sahinbegovic",
+        "Anjana Anilkumar Sithara",
+        "Tereza Popkova",
+        "Hana Plonkova",
+        "Lucie Broskevicova",
+        "Jan Vrana",
+        "Vladimir Zidlik",
+        "Martin Havel",
+        "Zdenek Koristek",
+        "Juli R. Bago",
+        "Michal Simicek",
+        "Roman Hajek"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Tomas Jelinek",
+            "author_affiliations": [
+                "Department of Hematooncology, University Hospital Ostrava, Ostrava, Czech Republic",
+                "Faculty of Medicine, University of Ostrava, Ostrava, Czech Republic"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "David Zihala",
+            "author_affiliations": [
+                "Faculty of Medicine, University of Ostrava, Ostrava, Czech Republic",
+                "Department of Hematooncology, University Hospital Ostrava, Ostrava, Czech Republic"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tereza Sevcikova",
+            "author_affiliations": [
+                "Faculty of Medicine, University of Ostrava, Ostrava, Czech Republic",
+                "Department of Hematooncology, University Hospital Ostrava, Ostrava, Czech Republic"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Veronika Kapustova",
+            "author_affiliations": [
+                "Department of Hematooncology, University Hospital Ostrava, Ostrava, Czech Republic",
+                "Faculty of Medicine, University of Ostrava, Ostrava, Czech Republic",
+                "Faculty of Science, University of Ostrava, Ostrava, Czech Republic"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hana Sahinbegovic",
+            "author_affiliations": [
+                "Department of Hematooncology, University Hospital Ostrava, Ostrava, Czech Republic",
+                "Faculty of Medicine, University of Ostrava, Ostrava, Czech Republic",
+                "Faculty of Science, University of Ostrava, Ostrava, Czech Republic"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anjana Anilkumar Sithara",
+            "author_affiliations": [
+                "Department of Hematooncology, University Hospital Ostrava, Ostrava, Czech Republic",
+                "Faculty of Medicine, University of Ostrava, Ostrava, Czech Republic",
+                "Faculty of Science, University of Ostrava, Ostrava, Czech Republic"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tereza Popkova",
+            "author_affiliations": [
+                "Faculty of Science, University of Ostrava, Ostrava, Czech Republic",
+                "Department of Haematooncology, University Hospital Ostrava and Faculty of Medicine, Ostrava, Czech Republic"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hana Plonkova",
+            "author_affiliations": [
+                "Department of Hematooncology, University Hospital Ostrava, Ostrava, Czech Republic"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lucie Broskevicova",
+            "author_affiliations": [
+                "Department of Hematooncology, University Hospital Ostrava, Ostrava, Czech Republic"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jan Vrana",
+            "author_affiliations": [
+                "Department of Hematooncology, University Hospital Ostrava, Ostrava, Czech Republic",
+                "Faculty of Medicine, University of Ostrava, Ostrava, Czech Republic"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vladimir Zidlik",
+            "author_affiliations": [
+                "Department of Pathology, University Hospital Ostrava, Ostrava, Czech Republic"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martin Havel",
+            "author_affiliations": [
+                "Department of Imaging Methods, University Hospital Ostrava, Ostrava, Czech Republic"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Zdenek Koristek",
+            "author_affiliations": [
+                "Department of Hematooncology, University Hospital Ostrava, Ostrava, Czech Republic",
+                "Faculty of Medicine, University of Ostrava, Ostrava, Czech Republic"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Juli R. Bago",
+            "author_affiliations": [
+                "Department of Hematooncology, University Hospital Ostrava, Ostrava, Czech Republic",
+                "Faculty of Medicine, University of Ostrava, Ostrava, Czech Republic"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michal Simicek",
+            "author_affiliations": [
+                "Department of Hematooncology, University Hospital Ostrava, Ostrava, Czech Republic",
+                "Faculty of Medicine, University of Ostrava, Ostrava, Czech Republic",
+                "Faculty of Science, University of Ostrava, Ostrava, Czech Republic"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Roman Hajek",
+            "author_affiliations": [
+                "Department of Hematooncology, University Hospital Ostrava, Ostrava, Czech Republic",
+                "Faculty of Medicine, University of Ostrava, Ostrava, Czech Republic"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-21T21:32:26",
+    "is_scraped": "1"
 }
