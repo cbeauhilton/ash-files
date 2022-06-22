@@ -1,8 +1,164 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4814",
-    "start_url_page_num": "4814",
     "doi": "https://doi.org/10.1182/blood-2021-152258",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/272/479548/Karyosequencing-Integrating-Genome-Wide-and?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T18:24:27",
-    "is_scraped": "0"
+    "article_title": "Karyosequencing: Integrating Genome-Wide and Targeted Sequencing for Comprehensive Diagnosis of Lymphoproliferative Disorders ",
+    "article_date": "November 5, 2021",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Introduction: Molecular diagnostic testing for lymphoproliferative disorders (LPDs) includes detection of clonal immunoglobulin (IG) and/or T cell receptor (TCR) rearrangements, translocations, copy number alterations (CNA) and somatic mutations. To date, laboratories still rely on subjective and labour-intensive technologies, e.g. karyotyping/FISH to detect complex genomic alterations. Whole Genome Sequencing (WGS) can detect all genomic alterations, but factors such as cost, computation/storage, DNA requirements and poor detection of clinically relevant subclonal mutations limits the routine implementation of WGS in clinical diagnostics. We have developed \"KaryoSequencing\" (KS), a novel approach that combines targeted deep-sequencing, using a targeted hybridisation capture NGS panel, for rare mutation and translocation detection with shallow WGS (sWGS) for genome wide copy number analysis, in a single test. Methods: KS was validated using 138 clinical samples from patients with acute lymphoblastic leukaemia (ALL) (n=46), chronic lymphocytic leukaemia (CLL) (n=46) and plasma cell myeloma (PCM) (n=46) samples from 3 UK laboratories. Samples underwent library preparation and hybridisation using the EuroClonality-NDC assay. A KS library for each sample was prepared by combining the pre-capture and post-capture libraries at an optimised ratio to enable high coverage (>500 x) at regions covered by the targeted panel while providing 0.5-1x coverage genome-wide. Forty-six KS libraries were pooled and sequenced per NovaSeq 6000 run, using a 200-cycle SP flow cell and a 100bp paired-end strategy. For analysis of targeted regions, somatic mutation calling was performed using VarDict and structural variants (rearrangements and translocations) were detected using ARResT/Interrogate. For analysis of large chromosomal copy number variation using sWGS, a modified version of QDNASeq/ACE with a window size of 50kb was performed. For sWGS analysis, bioinformatic exclusion of all target capture regions and panel-specific off-target regions was performed using a panel of 48 DNA samples from healthy individuals ran on the same KS protocol. Results: Analysis of genome-wide copy number by sWGS was concordant in 477 of 503 (95%) evaluable FISH tests, including precise detection of hyper and hypo-diploidy and other complex karyotypes. The performance of the targeted deep-sequencing component of the KS approach was assessed to ensure comparable performance to previously validated results for the EuroClonality-NDC. The EuroClonality-NDC detected a clonal IG rearrangement in 46/46 (100%) CLL cases and in 42/46 (91.3%) PCM cases. Clonality was detected in 43/46 (93.5%) and 44/46 (95.7%) cases at an IG and TCR locus respectively in ALL, a disease entity known to exhibit cross-lineage rearrangements. Overall, 44 translocations were detected in the 138 samples by the EuroClonality-NDC. FISH results were available for 32 of the 44 translocations detected by NGS and were concordant in 29/32 (91%). In two PCM samples NGS and FISH reported a different translocation; in the ALL sample, the FISH pattern showed an additional copy but not a split signal. Across the entire cohort of 138 samples, KaryoSequencing detected 190 mutations with a variant allele frequency ranging from 4.0 - 97.6%. Of the detected mutations, 69/190 (36.3%) had a VAF <20% which can be difficult to detect reliably with typical coverage depths observed with conventional WGS. The most frequently mutated genes were KRAS [30.4%], NRAS [13.0%], KMT2D [10.9%] in ALL ; SF3B1 [23.9%], NOTCH1 [19.6%], ATM [15.2%] and TP53 [13.0%] in CLL and KRAS [19.6%], NRAS [15.2%] and TP53 [10.9%] in PCM, consistent with expected frequencies in each entity. Conclusions: KaryoSequencing demonstrated >95% sensitivity and specificity for detection of gross genome-wide copy number alterations while retaining the analytical performance for detection of rearrangements, translocations, and mutations for the lymphoid-specific targeted regions of the EuroClonality-NDC assay. KS is a cost-effective and high-throughput integrated alternative to current diagnostic strategies in haematological malignancies and can be implemented in routine clinical practice. Disclosures Jenner:  Janssen: Consultancy, Honoraria, Speakers Bureau; Pfizer: Consultancy; Takeda: Consultancy; BMS/Celgene: Consultancy, Honoraria, Speakers Bureau. Gonzalez:  Univ8 Genomics Ltd: Current holder of individual stocks in a privately-held company.",
+    "author_names": [
+        "James Peter Stewart",
+        "Louise Harewood",
+        "Shambhavi Srivastava",
+        "Jana Gazdova",
+        "Manisha Maurya",
+        "Sirintra Nakjang",
+        "Elizabeth Hodges",
+        "Laura Chiecchio",
+        "Nicholas C.P. Cross",
+        "Matthew W Jenner",
+        "Mark Catherwood",
+        "Sarra Ryan",
+        "Anthony V. Moorman",
+        "Nikos Darzentas",
+        "David Gonzalez"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "James Peter Stewart",
+            "author_affiliations": [
+                "Precision Medicine Centre of Excellence, Queen's University, Belfast, Belfast, United Kingdom"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Louise Harewood",
+            "author_affiliations": [
+                "Precision Medicine Centre of Excellence, Queen's University, Belfast, Belfast, United Kingdom"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shambhavi Srivastava",
+            "author_affiliations": [
+                "Precision Medicine Centre of Excellence, Queen's University, Belfast, Belfast, United Kingdom"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jana Gazdova",
+            "author_affiliations": [
+                "Precision Medicine Centre of Excellence, Queen's University, Belfast, Belfast, United Kingdom"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manisha Maurya",
+            "author_affiliations": [
+                "Precision Medicine Centre of Excellence, Queen's University, Belfast, Belfast, United Kingdom"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sirintra Nakjang",
+            "author_affiliations": [
+                "Precision Medicine Centre of Excellence, Queen's University, Belfast, Belfast, United Kingdom"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elizabeth Hodges",
+            "author_affiliations": [
+                "Precision Medicine Centre of Excellence, Queen's University, Belfast, Belfast, United Kingdom"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laura Chiecchio",
+            "author_affiliations": [
+                "Salisbury NHS Foundation Trust, Wessex Regional Genetics Laboratory, Salisbury, United Kingdom"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nicholas C.P. Cross",
+            "author_affiliations": [
+                "University of Southampton, Salisbury, United Kingdom",
+                "Wessex Regional Genetics Laboratory, University of Southampton, Southampton, United Kingdom"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matthew W Jenner",
+            "author_affiliations": [
+                "Department of Haematology, University Hospital Southampton NHS Foundation Trust, Southampton, United Kingdom"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mark Catherwood",
+            "author_affiliations": [
+                "Haematology Department, Belfast Health and Social Care Trust, Belfast, United Kingdom"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sarra Ryan",
+            "author_affiliations": [
+                "Wolfson Childhood Cancer Research Centre, Newcastle University, Newcastle-upon-Tyne, United Kingdom"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anthony V. Moorman",
+            "author_affiliations": [
+                "Wolfson Childhood Cancer Research Centre, Newcastle University, Newcastle upon Tyne, United Kingdom"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nikos Darzentas",
+            "author_affiliations": [
+                "Department of Hematology, University Hospital Schleswig-Holstein, Kiel, Germany"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David Gonzalez",
+            "author_affiliations": [
+                "Precision Medicine Centre of Excellence, Queen's University, Belfast, Belfast, United Kingdom"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T15:38:36",
+    "is_scraped": "1"
 }

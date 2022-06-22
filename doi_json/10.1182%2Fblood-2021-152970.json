@@ -1,8 +1,123 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4814",
-    "start_url_page_num": "4814",
     "doi": "https://doi.org/10.1182/blood-2021-152970",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/275/479561/Automated-Disease-Classification-Using-Whole?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T18:24:27",
-    "is_scraped": "0"
+    "article_title": "Automated Disease Classification Using Whole Genome Sequencing (WGS) and Whole Transcriptome Sequencing (WTS) Data with Transparent Artificial Intelligence (AI) ",
+    "article_date": "November 5, 2021",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Background : Currently, hematologic neoplasms are diagnosed using a combination of methods, which require complex equipment and highly skilled clinical laboratory scientists and technicians - scarce resources. WGS and WTS could streamline this process and become a singular method. Interpretation of WGS and WTS data in a diagnostic setting is extremely challenging due to the breadth of data and its high-dimensional data types. AI will be mandatory to identify clinically meaningful genetic patterns and produce unbiased diagnosis. Aim : Compute leukemia diagnosis using AI methods with WGS and WTS data only, depicting relevant features for a decision and thus making its results comprehensible and transparent to humans. Methods : To train the model we used our cohort of 4,689 samples both with WGS (100x coverage, 2x151bp) and WTS (50 mio reads/sample, 2x101bp), along with our independent final routine diagnosis based on gold standard techniques (GST) and following WHO guidelines. Single nucleotide variants (SNV), structural variants (SV) and copy number alterations (CNA) from WGS data using a tumor w/o normal pipeline and gene fusions (GF) and gene expression (GE) from WTS were extracted. The cohort comprised of 30 different neoplasms and was severely imbalanced (n: 20 - 773). To test its performance another independent cohort which was not used during model creation (n=202, 22 entities) was selected. Results : We trained an ensemble of multi-class classifier using SageMaker (AWS, Seattle, WA) based on LGBM implementation of gradient boosted decision trees (Ke et al, 2017) in a one vs. rest architecture (1vRA). The model accuracy reached 85% overall on a 5-fold cross-validation (Fig 1a). Since neighboring disease types such as MGUS/MM, MDS-EB-2/AML/CMML are in some cases difficult to classify correctly using GST, we trained entity-specific classifiers operating independently. Rather than forcing a single predicted class to be predicted as overwhelmingly likely, this architecture accounts for ambiguous entities. In addition to reflecting biological similarity, the 1vRA resulted in improved probability calibration, so that cases with ambiguous leukemias are more easily identifiable by the distribution of predicted class probabilities and flagged for a human. Expected calibration error was only 3.8% for the 1vRA with entity-specific components, compared to 8.7% for a single LGBM model. Typically, AI methods are black boxes, making it hard for a medical professional to understand predictions, which results in low confidence and acceptance of such systems. Thus, we particularly focused on the transparency aspect of the model. We employed the SHAP library (Lundberg et al, 2017) to retrace the models output and gain insight into the features (i.e. which SNV, SV, GE etc.) predominantly driving classification results (e.g. LPL case Fig 1b). Fig. 1c illustrates the application of SHAP at the global cohort level for two individuals wrongly diagnosed with CML compared to CML correctly predicted cohort. By using a decision plot, we can observe which features are the most important contributors to the model's prediction. Fig 1c shows that predictions for CML are primarily driven by the BCR-ABL1 features, as expected. In our independent test cohort the following entities reached a very high concordance, such as AML (16/21) AUL (11/12), BCP-ALL (10/10), CML (13/13), HZL (8/8), MGUS (7/7), Multiple Myeloma (9/11), PNH (10/10), T-ALL (6/7). Other clear cut entities with correct high level predictions include BPDCN, FL, LPL, PPBL, NK-cell, HCL-variant and HGBL. In other entities such as T-NHL results were more heterogeneous, but this was also expressed in the probability scores given by the model. The first choice had a probability score of ~50%, exposing the correct diagnosis as the second likeliest one with ~40%. Test cohort included cases with mixed diagnostic characteristics, e.g. MDS/MPN-RS-T (4/11 correct, 4 predicted as MDS, and 3 as MPN). Conclusion : We present an AI tool to interpret WGS and WTS data aiming to predict the final diagnosis without any human input and high concordance to today's WHO classification. Due to the high data dimensionality of WGS and WTS data, an impossible feat for a human. The tool is exposed via a web application and visualizations make the automated decisions transparent and verifiable through humans paving a way for better adoption of WGS and WTS into a clinical routine setting. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Kern:  MLL Munich Leukemia Laboratory: Other: Part ownership. Haferlach:  MLL Munich Leukemia Laboratory: Other: Part ownership. Haferlach:  MLL Munich Leukemia Laboratory: Other: Part ownership.",
+    "author_names": [
+        "Niroshan Nadarajah",
+        "Erika Pelaez Coyotl",
+        "James Golden",
+        "Stephan Hutter",
+        "Tamas Madl",
+        "Manja Meggendorfer",
+        "Wencke Walter",
+        "Liwen You",
+        "Wolfgang Kern",
+        "Claudia Haferlach",
+        "Torsten Haferlach"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Niroshan Nadarajah",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Erika Pelaez Coyotl",
+            "author_affiliations": [
+                "Amazon Web Services, Seattle,"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "James Golden",
+            "author_affiliations": [
+                "Amazon Web Services, Seattle,"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephan Hutter",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tamas Madl",
+            "author_affiliations": [
+                "Amazon Web Services, Seattle,"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manja Meggendorfer",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wencke Walter",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Liwen You",
+            "author_affiliations": [
+                "Amazon Web Services, Seattle,"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wolfgang Kern",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Claudia Haferlach",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Torsten Haferlach",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T15:38:48",
+    "is_scraped": "1"
 }

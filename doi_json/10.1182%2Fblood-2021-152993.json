@@ -1,8 +1,83 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4810",
-    "start_url_page_num": "4810",
     "doi": "https://doi.org/10.1182/blood-2021-152993",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/725/479985/Integrated-Epigenetic-and-Transcriptional-Single?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T17:42:24",
-    "is_scraped": "0"
+    "article_title": "Integrated Epigenetic and Transcriptional Single Cell Analysis of t(11;14) Myeloma and Its BCL2 Dependency ",
+    "article_date": "November 5, 2021",
+    "session_type": "651.Multiple Myeloma and Plasma Cell Dyscrasias: Basic and Translational",
+    "abstract_text": "Multiple myeloma is characterized by recurrent chromosomal translocations that involve the immunoglobulin gene enhancers and partners such as the cyclin D genes ( CCND1, CCND2 or CCND3 ) or other genes like WHSC1 and MAF . t(11;14) results in upregulation of CCND1 with unique morphological, phenotypic markers, and drug sensitivity profiles with exquisite sensitivity to BCL2 inhibitors. It is evident now that this unique sensitivity profile is driven by the BH3-proapoptotic protein priming of BCL2 with high BCL2/MCL1 or BCL2/BCL2L1 ratios. However, the epigenetic mechanisms associated with t(11;14) and their impact on genes regulation and clinical response to venetoclax remains elusive. In the present study we compared the transcriptomics (scRNA-seq) and chromatin accessibility (scATAC-seq) of single plasma cells of MM patients with and without t(11;14) as well as pre- and post-venetoclax exposure in order to establish the epigenomic signature of t(11;14) and/or BCL2-sensitivity in myeloma. Serial BM aspirates (n=24) were collected from 15 relapsed or refractory myeloma patients (RRMM); harboring t(11;14) (n=6 pairs) and 9 without this translocation prior to initiation of salvage therapy and at time of relapse. All t(11;14) MM patients were treated with venetoclax. Unbiased chromatin accessibility and mRNA profiling of CD138 pos cells were performed using the chromium single cell ATAC and RNA-Seq 3' solution (10x Genomics), respectively. Cell Ranger, Seurat and ArchR were used for sample de-multiplexing, barcode processing, single-cell 3' gene, peaks counting, and data analysis. We first compared the scATAC-seq and scRNA-seq profiles found in CD138 pos MM cell isolated from patients harboring t(11;14) with the one obtained in patients without this translocation. As expected, t(11:14) patients had high chromatin accessibility at the CCND1 locus and high mRNA expression. Differentially accessible chromatin analysis identified 147518 peaks that were specific to t(11;14) patients. Of interest, motifs enrichment analysis of accessible peaks identified a \"B cell-like\" motifs signature with enriched TFs motifs such as TCF4 and PAX5 in t(11;14) patients compared to non t(11:14) enriched for IRF and STAT family of motifs. The integration of the scATAC-seq and scRNA-seq data confirmed the B cell signature of t(11;14) patients with upregulation of B cell markers such as MS4A1, VPREB3, CD79A, CD19, and down-regulation of plasma cell markers such as TDO2, EFEMP1, CD28, SLAMF7, and IL6R. Additionally, we found PAX1, PAX5, TCF3, TCF5, and SPI1 transcription factors to be highly expressed in t(11;14) while the non t(11:14) were enriched for IRF1-9 transcription factors. Of interest, the clustering analysis performed on scATAC-seq data identified 3 non t(11;14) patients with a chromatin accessibility profile similar to that of t(11;14) patients. They expressed B cell markers (PAX5, VPREB3 or FCRLA), overexpressed BCL2 and we are currently examining whether this B cell-like epigenetic signature determines sensitivity to venetoclax. In order to define the epigenetic contribution to the acquired resistance to venetoclax in t(11;14) myeloma, we compared the chromatin accessibility profiles of t(11;14) patients pre- vs. post-venetoclax treatment. Enriched motifs within accessible peaks differed significantly between pre- and post-venetoclax with RELA, REL, RELB and EGR1 motifs predominantly enrichmed in the pre-samples in contrast to JUN, JUNB, JUND and FOSL1/L2 motifs enrichment in the post-samples. Of note, integration analysis of scRNAseq (differentially expressed genes) and ATACseq data (differentially accessible peaks) identified MCL1 and ENSA (a gene 60 Kb centromeric to MCL1 on chr1q) as the top enriched genes and peaks in resistant samples suggesting that copy number gain at the MCL1 locus (which we confirmed by single cell CNV analysis) rather than epigenetic modifications is likely the main determinant of acquired resistant to venetoclax in t(11;14) MM. In the current study we have defined the epigenetic regulome and transcriptome associated with t(11;14) myeloma and its relatedness to B cell rather than plasma cell biology. Our studies also suggest that acquired resistance to venetoclax is largely driven by copy number gain at the MCL1 locus. Disclosures Bahlis:  Karyopharm: Consultancy, Honoraria; Amgen: Consultancy, Honoraria; Takeda: Consultancy, Honoraria; Sanofi: Consultancy, Honoraria; Abbvie: Consultancy, Honoraria; Janssen: Consultancy, Honoraria; BMS/Celgene: Consultancy, Honoraria; GlaxoSmithKline: Consultancy, Honoraria; Genentech: Consultancy; Pfizer: Consultancy, Honoraria. Neri:  BMS: Consultancy, Honoraria; Janssen: Consultancy, Honoraria; Sanofi: Consultancy, Honoraria; Amgen: Consultancy, Honoraria.",
+    "author_names": [
+        "Noemie Leblay",
+        "Sungwoo Ahn",
+        "Ranjan Maity",
+        "Holly Lee",
+        "Elie Barakat",
+        "Nizar J. Bahlis",
+        "Paola Neri"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Noemie Leblay",
+            "author_affiliations": [
+                "Arnie Charbonneau Cancer Research Institute, University of Calgary, Calgary, Canada"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sungwoo Ahn",
+            "author_affiliations": [
+                "Arnie Charbonneau Cancer Research Institute, University of Calgary, Calgary, Canada"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ranjan Maity",
+            "author_affiliations": [
+                "Arnie Charbonneau Cancer Research Institute, University of Calgary, Calgary, Canada"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Holly Lee",
+            "author_affiliations": [
+                "Arnie Charbonneau Cancer Research Institute, University of Calgary, Calgary, Canada"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elie Barakat",
+            "author_affiliations": [
+                "Arnie Charbonneau Cancer Research Institute, University of Calgary, Calgary, Canada"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nizar J. Bahlis",
+            "author_affiliations": [
+                "Arnie Charbonneau Cancer Research Institute, University of Calgary, Calgary, Canada"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Paola Neri",
+            "author_affiliations": [
+                "Arnie Charbonneau Cancer Research Institute, University of Calgary, Calgary, Canada"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T15:37:40",
+    "is_scraped": "1"
 }

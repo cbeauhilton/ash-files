@@ -1,8 +1,139 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4811",
-    "start_url_page_num": "4811",
     "doi": "https://doi.org/10.1182/blood-2021-153925",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/732/480013/Functional-Genomic-Landscape-of-Natural-Killer?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T17:42:28",
-    "is_scraped": "0"
+    "article_title": "Functional Genomic Landscape of Natural Killer Cell Evasion in Multiple Myeloma ",
+    "article_date": "November 5, 2021",
+    "session_type": "651.Multiple Myeloma and Plasma Cell Dyscrasias: Basic and Translational",
+    "abstract_text": "Natural killer (NK) cell-based therapies are considered promising future approaches for multiple myeloma (MM) treatment, but immune evasion mechanisms are poorly understood. To determine the mechanisms regulating MM cell response to NK cells, we performed genome-wide (GW) and targeted CRISPR screens in MM cell lines. To further investigate the transcriptional impact of genes identified as regulators of sensitivity to NK cells, we performed additional pooled CRISPR screens with a single-cell (sc) transcriptome readout using the CROP-seq platform and integrated these findings with data from phenotypic assessment of NK cell response of pooled \"DNA-barcoded\" cell line including 15 MM cell lines (PRISM platform) and molecular profiling of MM patient samples. Our loss-of-function (LOF) and gain-of-function (GOF) GW-CRISPR screens were performed in the MM1.S, LP1, KMS11 MM lines treated with ex vivo expanded NK cells vs untreated control. The top LOF hits were validated using a focused library of ~600 genes. As expected, LOF of class I HLA /antigen presentation machinery genes, transcriptional regulators of HLA and IFNg pathway genes sensitized MM cells to NK cells, confirming that these pathways represent prominent suppressors of NK cell killing. Moreover, LOF of death receptors or downstream effectors was associated with NK resistance; while LOF of the negative regulators of death receptor signaling (e.g. CFLAR , and XIAP ) sensitized to NK cell killing. To mechanistically dissect the transcriptional impact of genes identified as regulators of sensitivity to NK cells, we performed scRNAseq using the CROP-seq platform. Pools of MM1.S and LP1 expressing single-guide (sg)RNAs targeting 31 select hits were co-cultured with NK cells for 24 h or left untreated, followed by scRNA-seq and sgRNA detection, differential gene-expression analysis and patient data correlation. The single cell transcriptional profiling of each CRISPR-based LOF for genes of interest documented that disruption of TRAF2, NFKBIA or NFKBIB enhanced NF-kB signaling and was associated with increased expression of the death receptor FAS , a key mediator of NK cell sensitivity (Figure), and changes in expression of BIRC3 , CD70 , and CXCL10 (the latter may further increase immune reactivity through recruitment of T and NK cells). Interestingly, in our PRISM data, high transcriptional NF-kB signatures and/or presence of TRAF3 mutations (an activator of NF-kB signaling) correlated with decreased NK cell response. Among the individual genes most highly correlated with NK cell resistance was CFLAR , a known NF-kB target gene, and negative regulator of death receptor-mediated apoptosis. In contrast, PTEN and NLRC5 mutations were associated with enhanced NK cell sensitivity in several MM lines tested, consistent with their depletion in the GW LOF CRISPR screens and the HLA I regulatory function of NLRC5. We correlated our findings with patient-derived data from the CoMMpass study. Mutations of NF-kB negative regulators TRAF2 and NFKBIA were associated with increased expression of NF-kB target genes, consistent with our CROP-seq data. NFKBIA mutations were also linked to reduced HLA-E expression in both MM patient and CROP-seq data, suggesting a potential explanation for the NK-sensitizing effect of NFKBIA disruption. NLRC5 mutations were associated with lower HLA-E expression consistent with CROP-seq data, suggesting that, although rare, NLRC5 mutations may represent a more NK-sensitive MM subset. TRAF3 alterations occurred both in a distinct TRAF3 -altered cluster and in a subset of CoMMpass patients with WHSC1 translocations, consistent with the observations in our PRISM data set. CFLAR expression was enriched in patients with TRAF3 alterations belonging to both of these groups. The aggregate of molecular data from MM patient samples and PRISM or CRISPR-based functional studies preclinically raise the possibility that TRAF3 and WHSC1 /t(4;14) alterations may contribute, at least in part through CFLAR , to decreased NK cell response in MM cells. Our data illuminate the complex mechanisms of response to NK cells in MM, highlighting the different effects of distinct molecularly defined subgroups of MM tumor cells with increased susceptibility to NK cell treatment, underlining the potential of such studies as a blueprint for identification of biomarkers individualized use of NK cell-based therapies in MM. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Mustjoki:  Novartis: Research Funding; BMS: Research Funding; Pfizer: Research Funding; Janpix: Research Funding. Mitsiades:  H3 Biomedicine: Research Funding; FIMECS: Consultancy, Honoraria; Adicet Bio: Membership on an entity's Board of Directors or advisory committees; Nurix: Research Funding; Sanofi: Research Funding; Karyopharm: Research Funding; BMS: Research Funding; Fate Therapeutics: Consultancy, Honoraria; Novartis: Research Funding; Janssen/Johnson & Johnson: Research Funding; TEVA: Research Funding; EMD Serono: Research Funding; Arch Oncology: Research Funding; Abbvie: Research Funding; Ionis Pharmaceuticals: Consultancy, Honoraria.",
+    "author_names": [
+        "Sara Gandolfi",
+        "Olli Dufva",
+        "Jani Huuhtanen",
+        "Olga Dashevsky",
+        "Jay Klievink",
+        "Jonas Bouhlal",
+        "Michal Sheffer",
+        "Matti Kankainen",
+        "Ricardo De Matos Simoes",
+        "Satu Mustjoki",
+        "Constantine S. Mitsiades"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Sara Gandolfi",
+            "author_affiliations": [
+                "Hematology Research Unit Helsinki, Department of Hematology, University of Helsinki and Helsinki University Hospital Comprehensive Cancer Center, Helsinki, Finland",
+                "Translational Immunology Research program, University of Helsinki, Helsinki, Finland",
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA",
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Olli Dufva",
+            "author_affiliations": [
+                "Hematology Research Unit Helsinki, Department of Hematology, University of Helsinki and Helsinki University Hospital Comprehensive Cancer Center, Helsinki, Finland",
+                "Translational Immunology Research program, University of Helsinki, Helsinki, Finland"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jani Huuhtanen",
+            "author_affiliations": [
+                "Hematology Research Unit Helsinki, University of Helsinki and Helsinki University Hospital Comprehensive Cancer Center, Helsinki, Finland",
+                "Department of Computer Science, Aalto University School of Science, Espoo, Finland",
+                "Translational Immunology Research Program and Department of Clinical Chemistry and Hematology, University of Helsinki, Helsinki, Finland"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Olga Dashevsky",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA",
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jay Klievink",
+            "author_affiliations": [
+                "Translational Immunology Research program, University of Helsinki, Helsinki, Finland",
+                "Hematology Research Unit Helsinki, University of Helsinki and Helsinki University Hospital Comprehensive Cancer Center, Helsinki, Finland"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonas Bouhlal",
+            "author_affiliations": [
+                "Hematology Research Unit Helsinki, Department of Hematology, University of Helsinki and Helsinki University Hospital Comprehensive Cancer Center, Helsinki, Finland",
+                "Translational Immunology Research program, University of Helsinki, Helsinki, Finland"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michal Sheffer",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA",
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matti Kankainen",
+            "author_affiliations": [
+                "Translational Immunology Research program, University of Helsinki, Helsinki, Finland",
+                "Hematology Research Unit Helsinki, University of Helsinki and Helsinki University Hospital Comprehensive Cancer Center, Helsinki, Finland",
+                "Institute for Molecular Medicine Finland (FIMM), HILIFE, Helsinki, Finland"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ricardo De Matos Simoes",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA",
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Satu Mustjoki",
+            "author_affiliations": [
+                "Translational Immunology Research program, University of Helsinki, Helsinki, Finland",
+                "Department of Clinical Chemistry, University of Helsinki, Helsinki, Finland",
+                "Hematology Research Unit Helsinki, University of Helsinki and Department of Hematology, Helsinki University Hospital Comprehensive Cancer Centre, Helsinki, Finland"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Constantine S. Mitsiades",
+            "author_affiliations": [
+                "Dept. of Medical Oncology, Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA",
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T15:38:06",
+    "is_scraped": "1"
 }

@@ -1,8 +1,33 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4814",
-    "start_url_page_num": "4814",
     "doi": "https://doi.org/10.1182/blood-2021-153331",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/276/479535/Survival-Genie-A-Web-Portal-for-Single-Cell-Data?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T18:24:27",
-    "is_scraped": "0"
+    "article_title": "Survival Genie: A Web Portal for Single-Cell Data, Gene-Ratio, and Cell Composition-Based Survival Analyses ",
+    "article_date": "November 5, 2021",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "The genomics data-driven identification of gene signatures and pathways has been routinely explored for predicting cancer survival and making decisions related to targeted treatments. Many packages and tools have been developed to correlate single-gene features to clinical outcomes, but lack in performing such analysis based on multiple-genes, gene sets, and genes ratio. Furthermore, cluster marker genes associated with cell types, states and function from cancer single-cell transcriptomics studies remain an underutilized prognostic option. Additionally, no bioinformatics online tool evaluates associations between the enrichment of known cell types and survival outcome across cancers. We have developed Survival Genie (https://bbisr.shinyapps.winship.emory.edu/SurvivalGenie/, a web tool to perform survival analysis on single-cell RNA-seq data and a variety of other molecular inputs such as gene sets, genes ratio, tumor-infiltrating immune cells proportion, gene expression profile scores, and tumor mutation burden (Fig. 1). For comprehensive survival evaluation, the Survival Genie contains 53 datasets of 27 distinct malignancies from 11 different cancer programs for both adult and pediatric cancers including different types of leukemia. Users can upload single-cell data or gene sets and select partitioning methods (i.e., mean, median, quartile, cutp) to determine the effect of their levels on patient survival outcomes. The tool provides comprehensive results including box plots of low and high-risk groups, Kaplan-Meier plots with univariate Cox proportional hazards model, and correlation of immune cell enrichment and molecular profile (Fig. 1). The Survival Genie source code is written in the R programming language and the interactive web application with the R Shiny framework. We demonstrate the application of the Survival Genie tool by exploring the prognostic utility of blast cell and immune cell markers generated from single cell RNA-seq analysis of paired pediatric AML bone marrow samples taken at the time of diagnosis and end of induction (Thomas, Perumalla et al. 2020) . We identified AML blast specific signature consisting of 7 genes ( CLEC11A, PRAME, AZU1, NREP, ARMH1, C1QBP, TRH ) that depicted significant association with poor survival (HR=2.3 and Log Rank P-value=.007). Further analysis of AML relapse-associated single cell clusters showed increased levels of individual markers, including CRIP1, FLNA, and RFLNB/FAM101B and their significant association with poor survival in TARGET AML dataset. Additionally, expression of combined RFLNB/FAM101B and WDFY4 genes was associated with poor overall survival (HR=1.8 Log Rank P-value=0.01) and shorter event-free survival (HR=1.9, Log Rank P-value<0.0001). This clearly shows the usefulness of Survival Genie tool in exploring the prognostic association of genes as well as gene sets. Survival Genie is a one-stop web-portal for single-cell phenotype clusters, list of genes, and cell composition-based survival analyses across multiple cancer datasets including hematological malignancies. The analytical options and harmonized collection of multiple cancer types makes Survival Genie a comprehensive resource to correlate gene sets, pathways, cellular enrichment, and single cell clusters to clinical outcome to assist in developing next generation prognostic and therapeutic biomarkers. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "author_names": [
+        "Bhakti Dwivedi",
+        "Manoj Bhasin"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Bhakti Dwivedi",
+            "author_affiliations": [
+                "Department of Biostatistics and Bioinformatics Shared Resource, Winship Cancer Institute, Emory University, Atlanta, GA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manoj Bhasin",
+            "author_affiliations": [
+                "Department of Pediatrics, Emory University School of Medicine, Atlanta, GA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T15:38:51",
+    "is_scraped": "1"
 }

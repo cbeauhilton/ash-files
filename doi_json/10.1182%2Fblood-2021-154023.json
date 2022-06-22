@@ -1,8 +1,283 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4817",
-    "start_url_page_num": "4817",
     "doi": "https://doi.org/10.1182/blood-2021-154023",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/689/479527/Therapy-Biosimulation-Using-the-Cellworks?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T18:24:38",
-    "is_scraped": "0"
+    "article_title": "Therapy Biosimulation Using the Cellworks Computational Omics Biology Model (CBM) Is Predictive of Individual Acute Myeloid Leukemia (AML) Patient Probability of Clinical Response (CR) and Overall Survival (OS): Mycare-023 ",
+    "article_date": "November 5, 2021",
+    "session_type": "613.Acute Myeloid Leukemias: Clinical and Epidemiological",
+    "abstract_text": "Background: Although some genomic biomarkers have been integrated into therapeutic decision-making for the management of AML, the complete remission and cure rates have significant margin for improvement. Except for a few targeted therapies, genomic assessments offer limited guidance on treatment. Nevertheless, comprehensive molecular profiling of AML discloses a complex and heterogeneous disease network that impacts the efficacy of individual chemotherapeutics differently in individual patients. The Cellworks Computational Omics Biology Model (CBM) was developed using artificial intelligence heuristics and literature sourced from PubMed to generate a patient-specific protein network map. The Cellworks Biosimulation Platform uses the CBM to model each patient's unique cancer and predict personalized responses to standard AML drugs, identify novel drug combinations for treatment-refractory patients and optimize treatment selection to improve outcomes. Methods: A prospectively designed study involving observational data from 416 de novo AML patients was used to test the hypothesis that biosimulation using the Cellworks Biosimulation Platform predicts clinical response to individual drugs and estimates likelihood of response and survival better than physician prescribed treatment (PPT) alone. Cytogenetic and molecular data obtained from clinical trials including AMLSG 07-04, Beat AML, TCGA and PubMed publications was used to create personalized in silico models of each patient's AML and generate a Singula\u2122 biosimulation report with a Therapy Response Index (TRI) to determine the efficacy of specific chemotherapeutic agents. The impact of specific AML agents on each patient's disease network was biosimulated to determine a treatment efficacy score by estimating the effect of chemotherapy on the cell growth score, a composite of cell proliferation, viability, apoptosis, metastasis, DNA damage and other cancer hallmarks. The mechanism of action of each drug was mapped to each patient's genome and biological consequences determined response. Multivariate logistic regression models for clinical response and likelihood ratio tests were used to assess the contribution of the Cellworks Biosimulation Platform beyond PPT. Similarly, multivariate Cox proportional hazards models were used to test the hypothesis that the Cellworks Biosimulation Platform is predictive of overall survival (OS) and provides predictive information beyond PPT alone. Scoring quantifies the benefit of each drug used to treat each patient's AML. Kaplan-Meier curves, associated log rank tests, and median OS are provided for patients predicted by predefined low and high treatment benefit groups. Results: The TRI Score, scaled from 0 to 100, predicted complete response (CR) (likelihood ratio \u03c7 1 2 = 52.54, p < 0.0001). Specific leukemia therapies generated a variable likelihood of benefit for individual patients. Notably, Cellworks biosimulation was able to predict treatment benefit or failure better than PPT alone (likelihood ratio \u03c7 1 2 = 14.86, p < 0.0001). The use of therapy biosimulation to select therapy is estimated to increase the odds of CR by 19% per every 25 units of the TRI Score. TRI was also a significant predictor of OS (likelihood ratio \u03c7 1 2 = 80.41, p < 0.0001) and provides predictive information above and beyond PPT alone (likelihood ratio \u03c7 1 2 = 58.70, p < 0.0001 ). Inclusion of the Cellworks Biosimulation Platform is estimated to reduce the hazard ratio for death above and beyond PPT alone by 16% per every 25 units of the TRI Score. Furthermore, predictiveness curves suggest that approximately 25% of de novo AML patients had low probabilities of CR resulting in lower OS and could benefit substantially from inclusion of drugs and combinations identified by biosimulation into frontline management. Conclusions: By predicting the impact of aberrations and copy number alterations on drug response, the Cellworks Biosimulation Platform can improve treatment outcomes for AML patients. The Cellworks TRI predicts response and OS beyond PPT alone, and the Cellworks Biosimulation Platform provides individualized, networked-based alternate treatment options for patients predicted to be non-responders to standard care. Disclosures Howard:  Sanofi: Consultancy, Other: Speaker fees; Cellworks Group Inc.: Consultancy; Servier: Consultancy. Watson:  Cellworks Group Inc.: Consultancy, Other: Advisor; CellMax Life: Consultancy, Other: Advisor; AlloVir: Consultancy, Membership on an entity's Board of Directors or advisory committees; BioAi Health: Consultancy, Membership on an entity's Board of Directors or advisory committees. Castro:  Cellworks Group Inc.: Current Employment; Bugworks: Consultancy; Guardant Health Inc.: Speakers Bureau; Exact sciences Inc.: Consultancy; Caris Life Sciences Inc.: Consultancy; Omicure Inc: Consultancy. Kapoor:  Cellworks Group Inc.: Current Employment. Nair:  Cellworks Group Inc.: Current Employment. Prasad:  Cellworks Group Inc.: Current Employment. Rajagopalan:  Cellworks Group Inc.: Current Employment. Alam:  Cellworks Group Inc.: Current Employment. Roy:  Cellworks Group Inc.: Current Employment. Sahu:  Cellworks Group Inc.: Current Employment. Lala:  Cellworks Group Inc.: Current Employment. Basu:  Cellworks Group Inc.: Current Employment. Ullal:  Cellworks Group Inc.: Current Employment. Narvekar:  Cellworks Group Inc.: Current Employment. Ghosh:  Cellworks Group Inc.: Current Employment. Sauban:  Cellworks Group Inc.: Current Employment. G:  Cellworks Group Inc.: Current Employment. Agrawal:  Cellworks Group Inc.: Current Employment. Tyagi:  Cellworks Group Inc.: Current Employment. Suseela:  Cellworks Group Inc.: Current Employment. Raju:  Cellworks Group Inc.: Current Employment. Pampana:  Cellworks Group Inc.: Current Employment. Patel:  Cellworks Group Inc.: Current Employment. Mundkur:  Cellworks Group Inc: Current Employment. Christie:  Cellworks Group Inc.: Current Employment. Macpherson:  Cellworks Group Inc.: Current Employment. Marcucci:  Agios: Other: Speaker and advisory scientific board meetings; Novartis: Other: Speaker and advisory scientific board meetings; Abbvie: Other: Speaker and advisory scientific board meetings.",
+    "author_names": [
+        "Scott C Howard",
+        "Drew Watson",
+        "Michael Castro",
+        "Shweta Kapoor",
+        "Prashant Ramachandran Nair",
+        "Samiksha Avinash Prasad",
+        "Swaminathan Rajagopalan",
+        "Aftab Alam",
+        "Kunal Ghosh Roy",
+        "Diwyanshu Sahu",
+        "Deepak Anil Lala",
+        "Kabya Basu",
+        "Yashaswini S Ullal",
+        "Yugandhara Narvekar",
+        "Adity Ghosh",
+        "Mohammed Sauban",
+        "Poornachandra G",
+        "Ashish Kumar Agrawal",
+        "Anuj Tyagi",
+        "Rakhi Purushothaman Suseela",
+        "Karthik Sundara Raju",
+        "Anusha Pampana",
+        "Sanjana Patel",
+        "Nirjhar Mundkur",
+        "James Christie",
+        "Michele Dundas Macpherson",
+        "Guido Marcucci"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Scott C Howard",
+            "author_affiliations": [
+                "Department of Acute and Tertiary Care, University of Tennessee Health Science Center, Memphis, TN"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Drew Watson",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Castro",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shweta Kapoor",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Prashant Ramachandran Nair",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Samiksha Avinash Prasad",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Swaminathan Rajagopalan",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aftab Alam",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kunal Ghosh Roy",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Diwyanshu Sahu",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Deepak Anil Lala",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kabya Basu",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yashaswini S Ullal",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yugandhara Narvekar",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Adity Ghosh",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mohammed Sauban",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Poornachandra G",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ashish Kumar Agrawal",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anuj Tyagi",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rakhi Purushothaman Suseela",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karthik Sundara Raju",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anusha Pampana",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sanjana Patel",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nirjhar Mundkur",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "James Christie",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 25,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michele Dundas Macpherson",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 26,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Guido Marcucci",
+            "author_affiliations": [
+                "Department of Hematological Malignancies Translational Science, Gehr Family Center for Leukemia Research, Hematology Malignancies and Stem Cell Transplantation Institute, Beckman Research Institute, City of Hope, Duarte, CA"
+            ],
+            "author_rank": 27,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T15:40:24",
+    "is_scraped": "1"
 }

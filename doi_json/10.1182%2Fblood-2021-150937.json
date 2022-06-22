@@ -1,8 +1,211 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4811",
-    "start_url_page_num": "4811",
     "doi": "https://doi.org/10.1182/blood-2021-150937",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/729/480000/The-Spatial-Heterogeneity-in-Newly-Diagnosed?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T17:42:28",
-    "is_scraped": "0"
+    "article_title": "The Spatial Heterogeneity in Newly Diagnosed Multiple Myeloma Patients - from Sub-Clonal Architecture to the Immune Microenvironment ",
+    "article_date": "November 5, 2021",
+    "session_type": "651.Multiple Myeloma and Plasma Cell Dyscrasias: Basic and Translational",
+    "abstract_text": "Tumor heterogeneity plays a significant role in the development of therapy resistance in multiple myeloma (MM). Focal lesions (FLs), which are nodular accumulations of MM cells, have been shown to be hotspots of genetic spatial tumor heterogeneity, which is characterized by unique tumor sub-clones at different sites in the bone marrow (BM). However, little is known about the mechanisms leading to mutations in FLs, the architecture of the tumor microenvironment (ME) at these sites, and the link between FL sub-clones and relapse. We applied whole genome sequencing (WGS) to CD138 + MM cells from paired FL and iliac crest random BM aspirates (RBMA) of 15 newly diagnosed MM (NDMM) patients. For 7 of these patients, single cell (sc) analyses were performed, including sc gene expression (scRNA) and T-cell receptor (TCR)-sequencing and sc assay for transposase-accessible chromatin (ATAC)-sequencing for paired BM CD138 + MM and CD138 - ME, as well as peripheral blood mononuclear cells (PBMC). WGS data was analyzed using inhouse pipelines. Mutations, copy-number-variations and mutational signatures were called using mpileup, ACESeq and mmsig. Neoantigen epitopes were predicted using NeoPredPipe. Sc data was generated using the 10X Genomics platform. Pre-processing and analysis of the sc data was performed with CellRanger and the R-packages Seurat, ArchR and inferCNV. In 13/15 patients we found significant differences in chromosomal and mutational profiles between FLs and paired RBMAs, with major unshared mutations (mutation seen in > 60% cells) being enriched at the FL site (mean 310 vs. 123, p<0.05). Mutations in driver genes, such as KRAS , CYLD , CDKN2C and TP53 , were site-unique or strongly enriched in FLs in 6/15 patients. To identify the mechanisms underlying heterogeneous mutations, we analyzed mutational signatures and found COSMIC signature SBS18 in these mutations, suggesting a role of reactive oxygen species. Combining WGS and sc sequencing, we observed between 3 and 6 sub-clones per patient. Sub-clones, which dominated in FLs, showed increased regulatory accessibility and expression of genes associated with disease aggressiveness and drug resistance such as CXCR4 and members of the NFKB- and interferon pathways, implying that FLs could play a significant role in the development of treatment resistance. Indeed, comparing sub-clones at baseline and at relapse after high-dose melphalan and autologous stem cell transplantation in one patient, we observed expansions of tumor cells at relapse, which were closely related to the main FL sub-clone at baseline. On average, 23 (range 0-83) site-unique baseline mutations were predicted to be neoantigens. Thus, we hypothesized that spatial tumor heterogeneity could be associated with heterogeneity in the tumor ME. We did not observe expansion of site-unique T cell clones, but some of the clones were enriched up to 10-fold at one of the two sites. These clones were typically seen in the PB at low frequency. Expanded T-cells clones were almost exclusively found in the CD8 + -compartment, with 65% and 27% of expanded T-cell clones being CD45RO + /CD57 + -memory- and CD69 + -effector-T-cells, respectively. Besides differences in the T-cell clonality, we observed changes in proportions of other cell types, including a depletion of CD14+- and CD16+-macrophages in FLs (p<0.05). Furthermore, we observed gene expression differences between FL and RBMA macrophages, especially for genes involved in TNF\u03b1, IL-6 and JAK/STAT3 signaling. While CCL2, CD44, CXCL2/3, KLF2/4 and CCR1 were significantly higher expressed in FLs compared to RBMAs, BTG2, DUSP1 and HIF1A were down-regulated. In conclusion, our results strengthen the concept of MM as a spatially heterogeneous disease, suggest that reactive oxygen species result in site-specific mutagenesis, and support the hypothesis that FLs are the origin of aggressive disease. We demonstrate spatial heterogeneity at single-cell level in the BM immune ME for the first time, which implies that understanding the complex biology of FLs could be important in the context of novel immune therapies such as bispecific antibodies and CAR-T-cells. Disclosures John:  Janssen: Consultancy. M\u00fcller-Tidow:  Janssen Cilag: Consultancy, Research Funding; Bioline: Consultancy, Research Funding; Pfizer: Consultancy, Research Funding. Goldschmidt:  Takeda: Consultancy, Research Funding; Sanofi: Consultancy, Honoraria, Other: Grants and/or Provision of Investigational Medicinal Product, Research Funding; Dietmar-Hopp-Foundation: Other: Grant; Novartis: Honoraria, Research Funding; Mundipharma: Research Funding; MSD: Research Funding; Molecular Partners: Research Funding; Johns Hopkins University: Other: Grant; Janssen: Consultancy, Honoraria, Other: Grants and/or Provision of Investigational Medicinal Product, Research Funding; Incyte: Research Funding; GSK: Honoraria; Chugai: Honoraria, Other: Grants and/or Provision of Investigational Medicinal Product, Research Funding; BMS: Consultancy, Honoraria, Other: Grants and/or Provision of Investigational Medicinal Product, Research Funding; Celgene: Consultancy, Honoraria, Other: Grants and/or Provision of Investigational Medicinal Product, Research Funding; Adaptive Biotechnology: Consultancy; Amgen: Consultancy, Honoraria, Other: Grants and/or Provision of Investigational Medicinal Product, Research Funding. Raab:  Janssen: Membership on an entity's Board of Directors or advisory committees; Roche: Consultancy; GSK: Honoraria, Membership on an entity's Board of Directors or advisory committees; Abbvie: Consultancy, Honoraria; BMS: Consultancy, Membership on an entity's Board of Directors or advisory committees; Amgen: Consultancy, Membership on an entity's Board of Directors or advisory committees; Sanofi: Membership on an entity's Board of Directors or advisory committees, Research Funding; Novartis: Membership on an entity's Board of Directors or advisory committees, Research Funding; Celgene: Membership on an entity's Board of Directors or advisory committees. Weinhold:  Sanofi: Honoraria.",
+    "author_names": [
+        "Lukas John",
+        "Alexandra Poos",
+        "Stephan M Tirier",
+        "Jan-Philipp Mallm",
+        "Nina Prokoph",
+        "Alexander Brobeil",
+        "Raphael Lutz",
+        "Sabrina Schumacher",
+        "Simon Steiger",
+        "Katharina Bauer",
+        "Anja Baumann",
+        "Christoph Rehnitz",
+        "Carsten M\u00fcller-Tidow",
+        "Hartmut Goldschmidt",
+        "Stefanie Huhn",
+        "Karsten Rippe",
+        "Marc-Steffen Raab",
+        "Sandra Sauer",
+        "Niels Weinhold"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Lukas John",
+            "author_affiliations": [
+                "Clinical Cooperation Unit (CCU) Molecular Hematology/Oncology, German Cancer Research Center (DKFZ), Heidelberg, Germany",
+                "Department of Medicine V, Hematology, Oncology and Rheumatology, University Hospital Heidelberg, Heidelberg, Germany"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexandra Poos",
+            "author_affiliations": [
+                "Clinical Cooperation Unit (CCU) Molecular Hematology/Oncology, German Cancer Research Center (DKFZ), Heidelberg, Germany",
+                "Department of Medicine V, Hematology, Oncology and Rheumatology, University Hospital Heidelberg, Heidelberg, Germany"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephan M Tirier",
+            "author_affiliations": [
+                "Division of Chromatin Networks, German Cancer Research Center (DKFZ) and BioQuant, Heidelberg, Germany"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jan-Philipp Mallm",
+            "author_affiliations": [
+                "Open Lab for Single Cell Sequencing (scOpenLab), German Cancer Research Center (DKFZ) and BioQuant, Heidelberg, Germany"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nina Prokoph",
+            "author_affiliations": [
+                "Department of Medicine V, Hematology, Oncology and Rheumatology, University Hospital Heidelberg, Heidelberg, Germany",
+                "Clinical Cooperation Unit (CCU) Molecular Hematology/Oncology, German Cancer Research Center (DKFZ), Heidelberg, Germany"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexander Brobeil",
+            "author_affiliations": [
+                "Institute of Pathology, University of Heidelberg, Heidelberg, Germany"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Raphael Lutz",
+            "author_affiliations": [
+                "Department of Medicine V, Hematology, Oncology and Rheumatology, Heidelberg University Hospital, Heidelberg, Germany",
+                "Heidelberg Institute for Stem Cell Technology and Experimental Medicine (HI-STEM), Heidelberg, Germany"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sabrina Schumacher",
+            "author_affiliations": [
+                "Division of Chromatin Networks, German Cancer Research Center (DKFZ) and BioQuant, Heidelberg, Germany"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Simon Steiger",
+            "author_affiliations": [
+                "Division of Chromatin Networks, German Cancer Research Center (DKFZ) and BioQuant, Heidelberg, Germany"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Katharina Bauer",
+            "author_affiliations": [
+                "Open Lab for Single Cell Sequencing (scOpenLab), German Cancer Research Center (DKFZ) and BioQuant, Heidelberg, Germany"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anja Baumann",
+            "author_affiliations": [
+                "Clinical Cooperation Unit (CCU) Molecular Hematology/Oncology, German Cancer Research Center (DKFZ), Heidelberg, Germany"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christoph Rehnitz",
+            "author_affiliations": [
+                "Department of Radiology, University Hospital Heidelberg, Heidelberg, Germany"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Carsten M\u00fcller-Tidow",
+            "author_affiliations": [
+                "National Center for Tumor Diseases (NCT), University of Heidelberg, Heidelberg, Germany",
+                "Department of Medicine V, Hematology, Oncology and Rheumatology,, University Hospital Heidelberg, Heidelberg, Germany"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hartmut Goldschmidt",
+            "author_affiliations": [
+                "National Center for Tumor Diseases (NCT), University of Heidelberg, Heidelberg, Germany",
+                "Internal Medicine V and National Center for Tumor Diseases (NCT), Heidelberg University Hospital, Heidelberg, Germany"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stefanie Huhn",
+            "author_affiliations": [
+                "Department of Medicine V, Hematology, Oncology and Rheumatology, University Hospital Heidelberg, Heidelberg, Germany"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karsten Rippe",
+            "author_affiliations": [
+                "Division of Chromatin Networks, German Cancer Research Center (DKFZ) and BioQuant, Heidelberg, Germany"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marc-Steffen Raab",
+            "author_affiliations": [
+                "Department of Medicine V, Hematology, Oncology and Rheumatology, University Hospital Heidelberg, Heidelberg, Germany",
+                "Clinical Cooperation Unit (CCU) Molecular Hematology/Oncology, German Cancer Research Center (DKFZ), Heidelberg, Germany"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sandra Sauer",
+            "author_affiliations": [
+                "Department of Medicine V, Hematology, Oncology and Rheumatology, University Hospital Heidelberg, Heidelberg, Germany"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Niels Weinhold",
+            "author_affiliations": [
+                "Department of Medicine V, Hematology, Oncology and Rheumatology, University Hospital Heidelberg, Heidelberg, Germany",
+                "German Cancer Research Center (DKFZ), Heidelberg, Germany"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T15:37:53",
+    "is_scraped": "1"
 }

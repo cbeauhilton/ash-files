@@ -1,8 +1,200 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4811",
-    "start_url_page_num": "4811",
     "doi": "https://doi.org/10.1182/blood-2021-149438",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/745/480029/Rare-Variant-Genetic-Association-Study-for?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T17:42:29",
-    "is_scraped": "0"
+    "article_title": "Rare Variant Genetic Association Study for Transplant-Associated Thrombotic Microangiopathy (TA-TMA) Via Whole Exome Sequencing ",
+    "article_date": "November 5, 2021",
+    "session_type": "721.Allogeneic Transplantation: Conditioning Regimens, Engraftment and Acute Toxicities",
+    "abstract_text": "Introduction : Transplant-associated thrombotic microangiopathy (TA-TMA) is an increasingly recognized hematologic complication after allogeneic hematopoietic cell transplantation (HCT). While few studies have reported germline association with rare variants in complement genes using targeted next generation sequencing (NGS) method, they were limited by small sample size (\u226440 TMA cases) and lack of analysis of non-complement genes (PMIDs 26603840, 32131130). In the present study, we employed whole exome sequencing (WES) to assess rare variant contribution to the development of TMA in a hypothesis-driven pathway-specific approach. Methods : In the current case-control genetic association study conducted at Fred Hutchinson Cancer Research Center, we selected 100 patients with a diagnosis of TMA and pre-transplant DNA samples (case definition described previously in PMID 30940363, 33836868). We then performed incidence density sampling to randomly select 100 non-TMA controls after allogeneic HCT matching by age, sex, race, and year of HCT. WES (germline variant detection 40x) was conducted using Illumina NovaSeq. Sequence reads were mapped to hg38 reference genome followed by deduplication and base quality score recalibration. Joint-genotyping was performed to call single nucleotide polymorphism (SNPs) and insertion/deletion (indels) using the GATK v3.3 and Atlas2. Variants were filtered during quality control (QC) and variant quality score recalibration (VQSR) and annotated using ANNOVAR and Ensembl VEP. To optimize signal detection by reducing neutral background variation, we defined qualifying variants as those meeting all 3 criteria: 1) novel or rare variants with a minor allele frequency (MAF) <1% in the reference database gnomAD; 2) functional variants with missense, frameshift, indel, splice region/acceptor/donor, start/stop gained/lost, coding sequence, and protein altering in VEP; and 3) missense variants previously reported to be likely pathogenic from the ClinVar database or predicted to be deleterious from 4/6 in-silico prediction tools (SIFT, Polyphen-2, MutationTaster, MutationAssessor, FATHMM, and FATHMM-MKL) (Figure 1). We then focused on the exome profiles of 5 a priori selected genetic pathways: complement regulation (17 genes), VWF and coagulation (7 genes), VWF clearance (10 genes), ADAMTS13 mimics or interacting proteins (10 genes), and angiopoietin family and endothelial activation (7 genes). Pathway-based and gene-based collapsing association tests were performed using the Optimized Sequence Kernel Association (SKAT-O) test as an optimal test combining burden test and SKAT. Results : After joint variant calling, 91 TMA cases and 93 non-TMA controls passed all QC filters (Table 1). Among 1,485 variants detected in the 5 pathways after QC, 60 variants (73 total mutations) were considered as qualifying variants with MAF <1%, functional coding, and in-silico pathogenic prediction (Figure 1). From pathway-based analysis, a significant association was observed in the VWF clearance pathway (p=0.041) but not in the complement regulation pathway (p=0.308) or the other 3 pathways (Table 2). From gene-based analysis, the significant association in the VWF clearance pathway appeared to be driven by rare variants within the LRP1 gene (Figure 2), which encodes a member of the low-density lipoprotein receptor family of proteins that contributes to the clearance of VWF (PMID 22234691). Sensitivity analyses performed including all rare variants without in-silico pathogenicity prediction resulted in similar findings. Conclusion : Contrary to the initial hypothesis, we did not observe pathogenic germline rare variants in the complement regulation pathway in patients with TA-TMA. Instead, we found a significant association in the VWF clearance pathway, particularly that of the LRP1 gene. In recent years, researchers have shown that VWF can bind to and activate complement proteins. Impaired VWF clearance could lead to the higher predisposition for complement activation observed in patients with TA-TMA. Future functional studies are needed to determine the impact of VWF clearance on the pathogenesis of the disease. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Sartain:  Alexon Pharamaceuticals: Membership on an entity's Board of Directors or advisory committees. Lee:  Incyte: Research Funding; Janssen: Other; Takeda: Research Funding; Novartis: Membership on an entity's Board of Directors or advisory committees, Research Funding; Pfizer: Research Funding; Kadmon: Research Funding; National Marrow Donor Program: Membership on an entity's Board of Directors or advisory committees; Syndax: Research Funding; AstraZeneca: Research Funding; Amgen: Research Funding.",
+    "author_names": [
+        "Zhihui Zhang",
+        "Qian Vicky Wu",
+        "Christopher I Amos",
+        "Yanhong Liu",
+        "Hong Wei",
+        "Chao Cheng",
+        "Spiridon Tsavachidis",
+        "Angela Bryce",
+        "Sarah E Sartain",
+        "Caridad A. Martinez",
+        "Vahid Afshar-Kharghan",
+        "Jing-fei Dong",
+        "Pavan Bhatraju",
+        "Paul J Martin",
+        "Stephanie J. Lee",
+        "Robert S. Makar",
+        "Pavan K. Bendapudi",
+        "Ang Li"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Zhihui Zhang",
+            "author_affiliations": [
+                "Institute for Clinical & Translational Research, Baylor College of Medicine, Houston, TX"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Qian Vicky Wu",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher I Amos",
+            "author_affiliations": [
+                "Institute for Clinical and Translational Research, Baylor College of Medicine, Houston, TX",
+                "Epidemiology and Population Sciences, Baylor College of Medicine, Houston, TX"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yanhong Liu",
+            "author_affiliations": [
+                "Epidemiology and Population Science, Baylor College of Medicine, Houston, TX"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hong Wei",
+            "author_affiliations": [
+                "Institute for Clinical & Translational Research, Baylor College of Medicine, Houston, TX"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chao Cheng",
+            "author_affiliations": [
+                "Institute for Clinical & Translational Research, Baylor College of Medicine, Houston, TX"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Spiridon Tsavachidis",
+            "author_affiliations": [
+                "Epidemiology and Population Science, Baylor College of Medicine, Houston, TX"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Angela Bryce",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sarah E Sartain",
+            "author_affiliations": [
+                "Department of Pediatrics, Section of Hematology-Oncology, Baylor College of Medicine/Texas Children's Hospital, Houston, TX"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Caridad A. Martinez",
+            "author_affiliations": [
+                "Department of Pediatrics, Center for Cell and Gene Therapy, Baylor College of Medicine/Texas Children's Hospital/Houston Methodist Hospital, Houston, TX"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vahid Afshar-Kharghan",
+            "author_affiliations": [
+                "Department of Medicine, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jing-fei Dong",
+            "author_affiliations": [
+                "Bloodworks Northwest, Seattle, WA",
+                "Division of Hematology, University of Washington School of Medicine, Seattle, WA"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pavan Bhatraju",
+            "author_affiliations": [
+                "Department of Medicine / Division of Pulmonary Critical Care and Sleep Medicine, University of Washington, Seattle, WA"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Paul J Martin",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA",
+                "Division of Medical Oncology, University of Washington School of Medicine, Seattle, WA"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephanie J. Lee",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA",
+                "Division of Medical Oncology, University of Washington School of Medicine, Seattle, WA"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Robert S. Makar",
+            "author_affiliations": [
+                "Division of Hematology and Blood Transfusion Service, Massachusetts General Hospital, Boston, MA",
+                "Division of Hemostasis and Thrombosis, Beth Israel Deaconess Medical Center, Boston, MA"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pavan K. Bendapudi",
+            "author_affiliations": [
+                "Division of Hematology and Blood Transfusion Service, Massachusetts General Hospital, Boston, MA",
+                "Harvard Medical School, Boston, MA",
+                "Division of Thrombosis and Hemostasis, Beth Israel Deaconess Medical Center, Boston, MA"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ang Li",
+            "author_affiliations": [
+                "Hematology-Oncology, Baylor College of Medicine, Houston, TX"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T15:35:53",
+    "is_scraped": "1"
 }

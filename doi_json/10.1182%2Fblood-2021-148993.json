@@ -1,8 +1,63 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4900",
-    "start_url_page_num": "4900",
     "doi": "https://doi.org/10.1182/blood-2021-148993",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3259/479091/Single-Cell-Analysis-of-Adult-Human-Hematopoietic?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T21:41:21",
-    "is_scraped": "0"
+    "article_title": "Single Cell Analysis of Adult Human Hematopoietic Stem and Progenitor Cells Identifies a Novel Lymphoid Primed Multipotent Progenitor That Expands in Relapsed Acute Myeloid Leukemia ",
+    "article_date": "November 5, 2021",
+    "session_type": "501.Hematopoietic Stem and Progenitor Cells and Hematopoiesis: Basic and Translational",
+    "abstract_text": "Background: Hematopoietic stem and progenitor cells (HSPCs) are capable of generating all human blood cells. Although these cells have been extensively evaluated using both sorted (Corces et al. Nat. Genet. 2016) and single cell assays (Pellin et al. Nat. Commun. 2019), there remains significant uncertainty as to the degree of heterogeneity within HSPC subpopulations and their relevance to disease. The phenotypic diversity within HSPCs needs to be better characterized in order to understand the pathogenesis of numerous blood disorders including hematologic malignancies. To address this need, we extensively characterized healthy bone marrow mononuclear cells (BMMCs) with both whole transcriptome analysis (WTA) and surface marker evaluation. We hypothesized that by utilizing concurrent RNA and multiplexed (n=35) surface marker analysis, we could not only improve HSPC clustering but also characterize specific phenotypic states along unique hematopoietic differentiation trajectories. This analysis allowed us to identify new subpopulations within currently defined hematopoietic stem cells (HSCs), multipotent progenitors (MPPs) and lymphoid primed multipotent progenitors (LMPPs). Methods: Three healthy adult BMMC samples were stained with antibody conjugated oligonucleotides (BD Abseq) and analyzed using a nanowell cell capture system (BD Rhapsody). We filtered 8,070 high quality cells for 2,508 HSPCs, myeloid cells, and lymphocyte precursors. These cells were first clustered using matrix factorization in order to identify unique HSPC states. Novel clusters within the HSC, MPP, and LMPP subpopulations were purified using flow cytometry, and functionally evaluated with both in vitro and in vivo assays. Results: The antibody-derived tags (ADTs) obtained from BD Abseq comprised 33 of the most informative features (n=2000) and resulted in more stable clustering as determined by within sum of squares (WSS = 898 versus 934 for mRNA alone for 20 clusters). Additionally, we were able to design a targeted HSPC panel (n=500 genes) with Abseq which identified similar cell clusters compared to the WTA alone and WTA plus ADT data (Rand index = 0.88). HSPC clustering identified the putative hematopoietic stem cell (HSC), a multipotent progenitor (MPP), and a new lymphoid primed multipotent progenitor (LMPP). A new computational sorting strategy was derived to purify these primitive HSPCs, and subsequently validated with flow cytometry. The functional evaluation of these sorted populations revealed that HSC and MPP cells were capable of increased serial replating ability in vitro suggesting enhanced self-renewal capabilities compared to LMPP cells. All three HSPC subpopulations produced gradients of erythroid and myeloid colonies in methylcellulose, and T-cells in T-cell expansion assays in vitro . The HSCs were the only cells that were able to produce long term engraftment in immunodeficient mice after serial transplantations. Additionally, common myeloid progenitor (CMP), granulocyte-monocyte progenitor (GMP), and megakaryocyte-erythroid progenitor (MEP) clusters that expressed canonical surface markers were identified. The primitive HSPC clusters were converted into a signature matrix using CIBERSORTx (Newman et al. Nat. Biotechnol. 2019), and bulk acute myeloid leukemia (AML) and healthy samples were deconvolved into respective healthy cell clusters. Using multivariate Cox proportional hazard analysis, we found that high levels of MPPs at diagnosis was the strongest feature associated with worse overall survival (HR = 78.46, 95% confidence interval 7.32-828). Interestingly, after performing paired analysis of diagnostic and relapse cases, the HSC and LMPP expanded significantly in relapsed AML after chemotherapy (p < 0.05) whereas the MPP expanded considerably after stem cell transplant but did not reach significance (p = 0.09). Conclusions: In summary, we identified new cell type clusters within previously defined HSC, MPP, and LMPP subpopulations, and unique surface marker associations using combined single cell WTA and surface marker analysis. We were able to purify these primitive HSPCs using these new markers, in addition to classical markers like CD34, CD90, and CD45RA. Importantly, deconvolution analysis provided preliminary insights into their clinical relevance in AML. Disclosures Ediriwickrema:  Nanosive SAS: Patents & Royalties. Majeti:  BeyondSpring Inc: Membership on an entity's Board of Directors or advisory committees; Circbio inc: Membership on an entity's Board of Directors or advisory committees; Kodikaz Therapeutics Solutions Inc: Membership on an entity's Board of Directors or advisory committees; Coherus Biosciences: Membership on an entity's Board of Directors or advisory committees; Acuta Capital Partners: Consultancy; Gilead Sciences, Inc: Patents & Royalties.",
+    "author_names": [
+        "Asiri Ediriwickrema",
+        "Bogdan A. Luca",
+        "Aaron M Newman",
+        "Andrew J Gentles",
+        "Ravindra Majeti"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Asiri Ediriwickrema",
+            "author_affiliations": [
+                "Department of Medicine, Division of Hematology, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bogdan A. Luca",
+            "author_affiliations": [
+                "Stanford Center for Biomedical Informatics Research, Department of Medicine, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aaron M Newman",
+            "author_affiliations": [
+                "Department of Biomedical Data Science, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew J Gentles",
+            "author_affiliations": [
+                "Departments of Medicine (Biomedical Informatics Research) and Biomedical Data Science, Stanford University School of Medicine, Stanford, CA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ravindra Majeti",
+            "author_affiliations": [
+                "Department of Medicine, Division of Hematology, Cancer Institute, and Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, Stanford, CA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T15:32:10",
+    "is_scraped": "1"
 }

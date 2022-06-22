@@ -1,8 +1,177 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4814",
-    "start_url_page_num": "4814",
     "doi": "https://doi.org/10.1182/blood-2021-153039",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/266/479546/An-In-Vivo-CRISPR-Screening-Platform-to-Identify?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T18:24:27",
-    "is_scraped": "0"
+    "article_title": "An In Vivo CRISPR Screening Platform to Identify New Therapeutic Targets in AML ",
+    "article_date": "November 5, 2021",
+    "session_type": "802.Chemical Biology and Experimental Therapeutics",
+    "abstract_text": "First-generation, large-scale functional genomic screens have revealed hundreds of potential genetic vulnerabilities in acute myeloid leukemia (AML), a devastating hematologic malignancy with poor overall survival. Because these large-scale genetic screens were primarily performed in vitro in established AML cell lines, their translational relevance has been debated. Therefore, we established a protocol for CRISPR screening in orthotopic xenograft models of human AML, including patient-derived-xenograft (PDX) models that are tractable for CRISPR-editing. We first defined experimental conditions necessary for an optimal in vivo screen via barcoding experiments. We determined that sub-lethal irradiation was necessary for improved barcode representation in bone marrow and to reduce mouse-to-mouse variation. Moreover, it was critical to combine samples from multiple mice to achieve complete in vivo library representation. Next, using the Broad DepMap and other publicly available functional genomic screen data, we identified 200 genes that were stronger dependencies in AML cell lines compared to all other cancer types screened. Using this list, we created a secondary library and performed parallel in vivo and in vitro screens using the MV4-11 and U937 cell lines and a PDX model. In vitro and in vivo hits were surprisingly well correlated, although a modest number of targets did not score well in vivo. Notably, dependencies identified across AML cell line models were strongly recapitulated in the PDX model, validating the application of AML cell lines for dependency discovery. Our in vivo screens nominated the mitochondria-localized RING-type ubiquitin E3 ligase MARCH5 as a potential therapeutic target in AML. Using CRISPR, we first validated this in vitro dependency on MARCH5 and determined that MARCH5 is a critical guardian to prevent apoptosis in AML. MARCH5 depletion activates the canonical mitochondrial apoptosis pathway in a BAX/BAK1-dependent manner. Multiple genome-wide screens revealed that a dependency on MARCH5 is strongly correlated with a dependency on MCL1, but not other anti-apoptotic BCL2-family members, across the AML cell lines in the screen. As observed with MCL1 inhibition, MARCH5 depletion sensitized AML cells to venetoclax, a BCL2-specific inhibitor FDA-approved in combination with a hypomethylating agent for the treatment of older adults with AML. Importantly, MARCH5 depletion diminished the venetoclax resistance induced by MCL1 overexpression but not that caused by BCLXL overexpression. Altogether, these results suggest that MARCH5 is required for maintaining MCL1 activity specifically. Since there are no small molecule inhibitors directed against MARCH5, we deployed a dTAG system as an approximation of pharmacological inhibition. This approach uses a hetero-bifunctional small molecule that binds the FKBP12 F36V -fused MARCH5 and the E3 ligase VHL, leading to the ubiquitination and proteasome-mediated degradation of the fusion protein. dTAG-MARCH5 cells were established via deleting endogenous MARCH5 by CRISPR and expressing exogenous FKBP-tagged MARCH5 protein. MARCH5 degradation with the dTAG molecule dTAG V -1 markedly impaired cell growth in vitro. Additionally, we demonstrated the utility of dTAG system in vivo using a PDX model. The combination treatment of dTAG V -1 and venetoclax elicited a much stronger anti-leukemic effect compared to the treatment with only venetoclax or dTAG V -1, further highlighting MARCH5 as a promising synergistic target for enhancing the efficacy of venetoclax in AML. Taken together, our in vivo screening approach, coupled with CRISPR-competent PDX models and dTAG-directed protein degradation, constitute a useful platform for prioritizing AML targets emerging from in vitro screens to serve as the starting point for therapy development. Disclosures Dharia:  Genentech: Current Employment. Piccioni:  Merck Research Laboratories: Current Employment. Stegmaier:  Bristol Myers Squibb: Consultancy; KronosBio: Consultancy; AstraZeneca: Consultancy; Auron Therapeutics: Consultancy, Current equity holder in publicly-traded company; Novartis: Research Funding.",
+    "author_names": [
+        "Shan Lin",
+        "Clement Larrue",
+        "Nastassja K. Scheidegger",
+        "Bo Kyung A. Seong",
+        "Neekesh V Dharia",
+        "Caroline Wechsler",
+        "Guillaume Kugener",
+        "Amanda L Robinchaud",
+        "Amy Conway",
+        "Biniam Adane",
+        "Scott Younger",
+        "Federica Piccioni",
+        "Lynn Lee",
+        "Mark Wunderlich",
+        "Jerome Tamburini",
+        "Kimberly Stegmaier"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Shan Lin",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Boston, MA",
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Clement Larrue",
+            "author_affiliations": [
+                "Translational Research Centre In Onco-Hematology, Faculty of Medicine, University of Geneva, Geneva, Switzerland"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nastassja K. Scheidegger",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Boston, MA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bo Kyung A. Seong",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Boston, MA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Neekesh V Dharia",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Boston, MA",
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Caroline Wechsler",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Boston, MA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Guillaume Kugener",
+            "author_affiliations": [
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amanda L Robinchaud",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Boston, MA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amy Conway",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Boston, MA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Biniam Adane",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Boston, MA"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Scott Younger",
+            "author_affiliations": [
+                "Broad Institute of MIT and Harvard, Cambridge, MA",
+                "Children's Mercy Kansas City, Children's Mercy Research Institute, Kansas City, MO"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Federica Piccioni",
+            "author_affiliations": [
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lynn Lee",
+            "author_affiliations": [
+                "Division of Oncology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mark Wunderlich",
+            "author_affiliations": [
+                "Experimental Hematology and Cancer Biology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jerome Tamburini",
+            "author_affiliations": [
+                "Translational Research Centre In Onco-Hematology, Faculty of Medicine, University of Geneva, Geneva, Switzerland"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kimberly Stegmaier",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Boston, MA",
+                "Broad Institute of MIT and Harvard, Cambridge, MA"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T15:41:30",
+    "is_scraped": "1"
 }

@@ -1,8 +1,145 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4812",
-    "start_url_page_num": "4812",
     "doi": "https://doi.org/10.1182/blood-2021-148234",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/750/480020/Internal-and-External-Validation-of-the-High-2-Low?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T17:42:33",
-    "is_scraped": "0"
+    "article_title": "Internal and External Validation of the High-2-Low Model: A Predictive Score for Venous Thromboembolism after Allogeneic Transplant ",
+    "article_date": "November 5, 2021",
+    "session_type": "721.Allogeneic Transplantation: Conditioning Regimens, Engraftment and Acute Toxicities",
+    "abstract_text": "Introduction : In patients undergoing allogeneic hematopoietic cell transplantation (HCT), venous thromboembolism (VTE) remains a serious complication that lacks validated risk assessment models to guide optimal timing and implementation of thromboprophylaxis. We recently derived the HIGH-2-LOW score that incorporated 7 simple clinical predictors assessed at day 30 post-transplant (Table 1, PMID 33570631). In this present study, we performed validation in two independent datasets. Methods : We selected consecutive patients undergoing first allogeneic HCT from Fred Hutchinson Cancer Research Center (FHCRC, 2015-2019) and MD Anderson Cancer Center (MDACC, 2016-2020). Patients who died, received therapeutic anticoagulation, or did not engraft platelets at day 30 were excluded (Table 2). Day 30 was chosen as the index date because most patients would be transfusion-dependent before that time. We used a combination of ICD9/10 codes and natural language processing (NLP) algorithms to identify possible cases of VTE, followed by confirmation via individual chart review. VTE was defined as radiology-confirmed pulmonary embolism (PE), lower-extremity deep venous thromboembolism (LE-DVT), or catheter-related DVT (CR-DVT). Covariates were captured and weighted according to the original model, except that grade 2-4 was used instead of grade 3-4 GVHD. Discrimination was assessed in each cohort by fitting logistic regression models with VTE and PE/LE-DVT outcomes at 100 days to estimate the c statistic, where a higher c statistic is desirable. Both continuous scores and categorical models were assessed. Kaplan Meier failure curves were plotted to compare the final risk stratification with high- vs. low/intermediate-risk groups. Results : The two cohorts (n=772 in FHCRC, n=1109 in MDACC) had similar characteristics in age, sex, race, weight, disease, and conditioning intensity. Key differences between the two cohorts included a higher number of umbilical cord transplants at FHCRC (vs. haploidentical at MDACC), higher numbers of acute GVHD at FHCRC (due to differences in grading criteria), fewer historical CR-DVT at FHCRC (4.0% vs. 6.8%), and more anticoagulation treatment at day 30 at FHCRC (9.0% vs. 3.5% - excluded). Incident VTE was 2.5% by 100 days and 7.8% by 365 days at FHCRC; incident VTE was 5.4% by 100 days and 9.4% by 365 days at MDACC (Table 2). Incident PE or LE-DVTs were similar in the two cohorts. When treated as a continuous score, every 1-point increase in the HIGH-2-LOW score was associated with odds ratio (OR) of 1.55 for VTE (1.06-2.27, c=0.64) and 2.50 (1.40-4.44, c=0.84) for PE/LE-DVT in the FHCRC cohort. The same increase was associated with OR of 1.93 (1.55-2.39, c=0.64) for VTE and 2.46 (1.61-3.76, c=0.79) for PE/LE-DVT in the MDACC cohort (Table 3). A total of 24% and 19% of patients were classified as high-risk (2+ points), respectively. High vs. low/intermediate-risk was associated with OR of 2.99 (1.20-7.49, c=0.62) for VTE and 19.93 (2.38-166.67, c=0.81) for PE/LE-DVT in the internal validation cohort. High vs. low/intermediate-risk was associated with OR of 4.58 (2.69-7.79, c=0.66) for VTE and 12.05 (3.17-45.81, c=0.77) for PE-LE-DVT in the external validation cohort. The VTE risk stratification separated early and persisted beyond 100 days (Figure 1). Conclusion : Despite differences in HCT and patient characteristics, the HIGH-2-LOW score identified ~20% of allogeneic HCT recipients at high-risk for VTE, particularly that of PE or LE-DVT, in both independent validation cohorts. The lower-than-expected absolute VTE incidence in the FHCRC cohort was likely driven by the increasing use of anticoagulation immediately post-transplant (exclusion criteria); however, the model retained similar OR with modest discrimination in both cohorts. In patients with prior history of PE/LE-DVT off anticoagulation, or those with prolonged admission and at least 1 additional risk factors from the HIGH-2-LOW score (2+ points), VTE prophylaxis should be considered upon platelet engraftment. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Lee:  Kadmon: Research Funding; Syndax: Research Funding; Takeda: Research Funding; Pfizer: Research Funding; Novartis: Other: clinical trials, Research Funding; JANSSEN: Other; Incyte: Research Funding; AstraZeneca: Research Funding; Amgen: Research Funding; National Marrow Donor Program: Membership on an entity's Board of Directors or advisory committees. Shpall:  Bayer HealthCare Pharmaceuticals: Honoraria; Novartis: Consultancy; Takeda: Patents & Royalties; Affimed: Patents & Royalties; Magenta: Honoraria; Magenta: Consultancy; Navan: Consultancy; Novartis: Honoraria; Axio: Consultancy; Adaptimmune: Consultancy.",
+    "author_names": [
+        "Ang Li",
+        "Kylee L Martens",
+        "Daniel Nguyen",
+        "Gabriela Rondon",
+        "Christopher I Amos",
+        "Stephanie J. Lee",
+        "Ryan Basom",
+        "Chris Davis",
+        "David A. Garcia",
+        "Richard E. Champlin",
+        "Elizabeth J. Shpall",
+        "Cristhiam Mauricio Rojas Hernandez",
+        "Partow Kebriaei"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Ang Li",
+            "author_affiliations": [
+                "Hematology-Oncology, Baylor College of Medicine, Houston, TX"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kylee L Martens",
+            "author_affiliations": [
+                "Division of Hematology and Medical Oncology, Oregon Health and Science University, Portland, OR"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel Nguyen",
+            "author_affiliations": [
+                "Department of Medicine, The University of Texas Health Science Center at Houston, Houston, TX"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gabriela Rondon",
+            "author_affiliations": [
+                "Department of Stem Cell Transplantation and Cellular Therapy, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christopher I Amos",
+            "author_affiliations": [
+                "Institute for Clinical and Translational Research, Baylor College of Medicine, Houston, TX",
+                "Epidemiology and Population Sciences, Baylor College of Medicine, Houston, TX"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephanie J. Lee",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA",
+                "Division of Oncology, University of Washington, Seattle, WA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ryan Basom",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chris Davis",
+            "author_affiliations": [
+                "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David A. Garcia",
+            "author_affiliations": [
+                "Division of Hematology, University of Washington, Seattle, WA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Richard E. Champlin",
+            "author_affiliations": [
+                "Department of Stem Cell Transplantation and Cellular Therapy, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elizabeth J. Shpall",
+            "author_affiliations": [
+                "Department of Stem Cell Transplantation and Cellular Therapy, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cristhiam Mauricio Rojas Hernandez",
+            "author_affiliations": [
+                "Section of Benign Hematology, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Partow Kebriaei",
+            "author_affiliations": [
+                "Department of Stem Cell Transplantation and Cellular Therapy, The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T15:36:12",
+    "is_scraped": "1"
 }
