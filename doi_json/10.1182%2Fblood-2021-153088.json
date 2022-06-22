@@ -1,8 +1,124 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4759",
-    "start_url_page_num": "4759",
     "doi": "https://doi.org/10.1182/blood-2021-153088",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/1857/480824/Impact-of-Ethnic-Origin-on-CRISPR-Cas-Off-Target?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T16:27:27",
-    "is_scraped": "0"
+    "article_title": "Impact of Ethnic Origin on CRISPR/Cas Off-Target Prediction for Guide RNAs Used in Gene Therapy for Sickle Cell Disease and Other Genetic Diseases ",
+    "article_date": "November 5, 2021",
+    "session_type": "801.Gene Therapies",
+    "abstract_text": "Background: Although gene editing by CRISPR/Cas9 is a promising curative strategy for inherited and acquired diseases, potential off-targets remain a major concern. Most computational and biochemical methods for off-target search have focused on single genomes, not considering the impact of genetic diversity among human populations. Previous studies showed that genetic variants might significantly impact on- and off-target specificity. However, none of them explored the most extensive worldwide human genetic diversity dataset to examine the impact of population genetic variation on therapeutically relevant guide RNAs (gRNAs). Objective: To evaluate how genetic variation among human populations affects the predicted off-targets for gRNAs that have been used in clinical trials or had consistent results in preclinical studies. Methods: We selected 13 gRNAs tested for sickle cell disease (SCD), severe combined immunodeficiency, chronic granulomatous disease, X-linked hyper IgM syndrome, acquired immunodeficiency syndrome, and Leber congenital amaurosis. Off-target prediction was performed against the reference genome (hg38) and against population-specific genomes using CRISPRitz (https://github.com/pinellolab/CRISPRitz). Genomic variants with allele frequencies \u22651 % were obtained from both the entire gnomAD v3.0 dataset (76,156 whole-genome sequences) and each ethnic group separately. Off-target sequences were filtered considering up to four mismatches and bulges, and a cutting frequency determination (CFD) score \u22650.2 for those harbouring only mismatch events. Sequences were annotated with Annovar (https://annovar.openbioinformatics.org/). Results: A total of 1,727 off-target events were found against the reference genome for the 13 selected gRNAs. 134 additional events were detected with the gnomad_all dataset. When variants from different ethnic groups were considered 234 additional off-targets were observed. The distribution of CFD values was comparable between the population-specific/additional and the reference genome off-targets, as well as the distribution of their genomic localization. Most events mapped to intergenic regions (~50%), followed by intronic regions (~35%). The proportion of additional events varied for the different gRNAs (ranging from 7.8% to 27.7% increase), and the number of events was also variable among the populations. Considering the different ethnic groups, the highest number of events was found in African-ancestry populations (164) and the lowest in the non Finish European population (87), implying that some off-target events were found exclusively in one of the populations (91 in total). Although 219 (75%) of the variants within the population-specific/ additional off-targets have a frequency between 1-10%, 20 (6.8%) have a frequency higher than 80% in at least one of the populations analysed. Considering only the gRNAs used in gene therapy for SCD (n=6), 100 additional predicted off-targets were found in the African population of which 29 are exclusive, while only 77 were found in gnomad_all and 43 in the non-Finish European population, being 2 exclusive. Discussion: Rigorous analysis regarding off-target events is a necessary step to address the safety of gene therapy strategies. Although in silico analysis against the reference genome captures most predicted off-target events, we and others have demonstrated that an important proportion of additional events are lost if population-specific variants are not considered. Herein, we showed that the number of additional events is particularly higher when variants with allele frequencies >=1% in African populations are considered. This might occur because the African population is more genetically diverse and the reference genome was assembled based on Caucasian individuals. In addition, several off-target events are exclusively found in non-African populations, showing the importance of considering the genetic background of patients who undergo gene therapy. Additional caution should be taken for diseases that are more frequent in specific populations, such as SCD and \u03b2-thalassemia, for which there are several ongoing gene therapy trials. Disclosures No relevant conflicts of interest to declare.",
+    "author_names": [
+        "Davi Coe Coe Torres",
+        "Karina Griesi-Oliveira",
+        "Karina Tozatto-Maio",
+        "Andrea Laurato Serti\u00e9",
+        "Mariana Morato Marques",
+        "Priscila Keiko Matsumoto Martin",
+        "Mariana Benicio",
+        "Barbara Ferri Moraschi",
+        "Lucas Assis Pereira",
+        "Luiz Vicente Rizzo",
+        "Ricardo Weinlich"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Davi Coe Coe Torres",
+            "author_affiliations": [
+                "Hospital Israelita Albert Einstein, S\u00e3o Paulo, Brazil"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karina Griesi-Oliveira",
+            "author_affiliations": [
+                "Hospital Israelita Albert Einstein, S\u00e3o Paulo, Brazil"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karina Tozatto-Maio",
+            "author_affiliations": [
+                "Hospital Israelita Albert Einstein, S\u00e3o Paulo, Brazil",
+                "Department of Hematology, Hospital das Clinicas da Faculdade de Medicina da Universidade de S\u00e3o Paulo, S\u00e3o Paulo, Brazil"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrea Laurato Serti\u00e9",
+            "author_affiliations": [
+                "Hospital Israelita Albert Einstein, S\u00e3o Paulo, Brazil"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mariana Morato Marques",
+            "author_affiliations": [
+                "Hospital Israelita Albert Einstein, S\u00e3o Paulo, Brazil"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Priscila Keiko Matsumoto Martin",
+            "author_affiliations": [
+                "Hospital Israelita Albert Einstein, S\u00e3o Paulo, Brazil"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mariana Benicio",
+            "author_affiliations": [
+                "Hospital Israelita Albert Einstein, S\u00e3o Paulo, Brazil"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Barbara Ferri Moraschi",
+            "author_affiliations": [
+                "Hospital Israelita Albert Einstein, S\u00e3o Paulo, Brazil"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lucas Assis Pereira",
+            "author_affiliations": [
+                "Hospital Israelita Albert Einstein, S\u00e3o Paulo, Brazil"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Luiz Vicente Rizzo",
+            "author_affiliations": [
+                "Hospital Israelita Albert Einstein, S\u00e3o Paulo, Brazil"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ricardo Weinlich",
+            "author_affiliations": [
+                "Hospital Israelita Albert Einstein, S\u00e3o Paulo, Brazil"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T04:07:38",
+    "is_scraped": "1"
 }

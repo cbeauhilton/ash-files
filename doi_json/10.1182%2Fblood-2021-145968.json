@@ -1,8 +1,283 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4766",
-    "start_url_page_num": "4766",
     "doi": "https://doi.org/10.1182/blood-2021-145968",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/1596/480650/A-Machine-Learning-Model-Based-on-Tumor-and-Immune?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T16:27:50",
-    "is_scraped": "0"
+    "article_title": "A Machine Learning Model Based on Tumor and Immune Biomarkers to Predict Undetectable Measurable Residual Disease (MRD) in Transplant-Eligible Multiple Myeloma (MM) ",
+    "article_date": "November 5, 2021",
+    "session_type": "651.Multiple Myeloma and Plasma Cell Dyscrasias: Basic and Translational",
+    "abstract_text": "INTRODUCTION: There is expectation of using biomarkers to personalize treatment in MM. Yet, a successful treatment selection cannot be confirmed before 5 or 10 years of progression-free survival (PFS). Treatment individualization based on the probability of an individual patient to achieve undetectable MRD with a singular regimen, could represent a new model towards personalized treatment with fast assessment of its success. This idea has not been investigated previously. AIM: Develop a machine learning model to predict undetectable MRD in newly-diagnosed transplant-eligible MM patients, treated with a standard of care. METHODS: This study included a total of 278 newly-diagnosed and transplant-eligible MM patients treated with proteasome inhibitors, immunomodulatory drugs and corticosteroids. The training (n=152) and internal validation cohort (n=60) consisted of 212 active MM patients enrolled in the GEM2012MENOS65 trial. The external validation cohort was defined by 66 high-risk smoldering MM patients enrolled in the GEM-CESAR trial, which treatment differed only by the substitution of bortezomib by carfilzomib during induction and consolidation. RESULTS: We started by investigating patients' MRD status after VRD induction, HDT/ASCT and VRD consolidation according to their ISS and R-ISS, LDH levels, and cytogenetic alterations. Surprisingly, neither the ISS nor the R-ISS predicted significantly different MRD outcomes. Indeed, high LDH levels and del(17p13) were the only parameters associated with lower rates of undetectable MRD. Because these two features are relatively infrequent at diagnosis, we next aimed to evaluate other disease features and develop integrative, weighted and more effective models based on machine learning algorithms. Of 37 clinical and biological parameters evaluated, 17 were associated with MRD outcomes. These were subsequently modeled using logistic regression for machine learning classification, where the sum of the weighted coefficients multiplied by its input variable, is transformed into a probability outcome that ranges from 0 to 1 using a logit sigmoid function. The most effective model resulted from integrating cytogenetic [t(4;14) and/or del(17p13)], tumor burden (plasma cell [PC] clonality in bone marrow and CTCs in blood) and immune related (myeloid precursors, mature B cells, intermediate neutrophils, eosinophils, CD27 neg CD38 pos T cells and CD56 bright CD27 neg NK cells) biomarkers. Of note, immune biomarkers displayed the highest coefficient weights and were determinant to predict patients' MRD status in this model. Data obtained for an individual patient can be substituted into our formula, which results in a numerical probability of achieving undetectable (>0.5) vs persistent (0.685 or <0.365 (observed in 102/212 patients), MRD outcomes are respectively predicted with higher confidence. Standard-confidence, high-confidence, and external validation predictions were accurate in 152/212 (71.7%), 85/102 (83.3%), and 48/66 (72.7%) patients respectively. Similarly, the external validation set exhibited a similar receiver operating characteristic (ROC) curve as the internal test set (AUC of 0.73 and 0.77 respectively). Patients predicted to achieve undetectable MRD using standard and high-confidence values showed longer PFS and overall survival (OS) than those with probability of persistent MRD. In fact, patients with >0.687 probability of achieving undetectable MRD showed 86% PFS and 94% OS at five years, whereas those in whom persistent MRD was predicted (<0.365), median PFS was 44 months, and 69% OS was observed at five years. These data indicate that the combination of cytogenetics, tumor burden in bone marrow plus peripheral blood, and immune profiling, may also be explored to identify a subset of patients that have a singular disease biology and long-term survival. CONCLUSION: We demonstrated that it is possible to predict patients' MRD status with significant accuracy, using an integrative, weighted model based on machine learning algorithms. Although immune biomarkers are not commonly used, the raw data from which these can be developed is generally obtained in diagnostic laboratories using flow cytometry to screen for PC clonality. Furthermore, we made the model available to facilitate its use in clinical practice at www.MRDpredictor.com. Disclosures Puig:  Celgene, Janssen, Amgen, Takeda: Research Funding; Celgene: Speakers Bureau; Amgen, Celgene, Janssen, Takeda: Consultancy; Amgen, Celgene, Janssen, Takeda and The Binding Site: Honoraria. Cedena:  Janssen, Celgene and Abbvie: Honoraria. Oriol:  Sanofi: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees; Karyopharm: Consultancy, Membership on an entity's Board of Directors or advisory committees; Oncopeptides: Consultancy, Membership on an entity's Board of Directors or advisory committees; GSK: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees; BMS/Celgene: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees; Amgen: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees. De Arriba:  Amgen: Consultancy, Honoraria; Glaxo Smith Kline: Consultancy, Honoraria; Janssen: Consultancy, Honoraria, Speakers Bureau; BMS-Celgene: Consultancy, Honoraria, Speakers Bureau. Mart\u00ednez-L\u00f3pez:  Janssen, BMS, Novartis, Incyte, Roche, GSK, Pfizer: Consultancy; Roche, Novartis, Incyte, Astellas, BMS: Research Funding. Lahuerta:  Celgene: Other: Travel accomodations and expenses; Celgene, Takeda, Amgen, Janssen and Sanofi: Consultancy. Rosinol:  Janssen, Celgene, Amgen and Takeda: Honoraria. Blad\u00e9 Creixenti:  Janssen, Celgene, Takeda, Amgen and Oncopeptides: Honoraria. Mateos:  Amgen: Honoraria, Membership on an entity's Board of Directors or advisory committees; AbbVie: Honoraria; Bluebird bio: Honoraria; GSK: Honoraria; Sanofi: Honoraria, Membership on an entity's Board of Directors or advisory committees; Roche: Honoraria, Membership on an entity's Board of Directors or advisory committees; Sea-Gen: Honoraria, Membership on an entity's Board of Directors or advisory committees; Takeda: Honoraria, Membership on an entity's Board of Directors or advisory committees; Adaptive Biotechnologies: Honoraria, Membership on an entity's Board of Directors or advisory committees; Pfizer: Honoraria, Membership on an entity's Board of Directors or advisory committees; Oncopeptides: Honoraria, Membership on an entity's Board of Directors or advisory committees; Celgene - Bristol Myers Squibb: Honoraria, Membership on an entity's Board of Directors or advisory committees; Oncopeptides: Honoraria; Janssen: Honoraria, Membership on an entity's Board of Directors or advisory committees; Regeneron: Honoraria, Membership on an entity's Board of Directors or advisory committees. San-Miguel:  AbbVie, Amgen, Bristol-Myers Squibb, Celgene, GlaxoSmithKline, Janssen, Karyopharm, Merck Sharpe & Dohme, Novartis, Regeneron, Roche, Sanofi, SecuraBio, and Takeda: Consultancy, Membership on an entity's Board of Directors or advisory committees. Paiva:  Bristol-Myers Squibb-Celgene, Janssen, and Sanofi: Consultancy; Adaptive, Amgen, Bristol-Myers Squibb-Celgene, Janssen, Kite Pharma, Sanofi and Takeda: Honoraria; Celgene, EngMab, Roche, Sanofi, Takeda: Research Funding.",
+    "author_names": [
+        "Camila Guerrero",
+        "Noemi Puig",
+        "Mar\u00eda Teresa Cedena",
+        "Ibai Goicoechea",
+        "Cristina P\u00e9rez Ruiz",
+        "Juan Jos\u00e9 Garc\u00e9s",
+        "Cirino Botta",
+        "Maria Jose Calasanz",
+        "Norma C. Gutierrez",
+        "Maria Luisa Martin-Ramos",
+        "Albert Oriol",
+        "Rafael Rios",
+        "Miguel Hern\u00e1ndez",
+        "Rafael Mart\u00ednez",
+        "Joan Bargay",
+        "Felipe De Arriba",
+        "Luis Palomera",
+        "Ana Pilar Gonzalez",
+        "Adri\u00e1n Mosquera Orgueira",
+        "Marta Sonia Gonzalez",
+        "Joaqu\u00edn Mart\u00ednez-L\u00f3pez",
+        "Juan Jose Lahuerta",
+        "Laura Rosinol",
+        "Joan Blad\u00e9 Creixenti",
+        "Maria-Victoria Mateos",
+        "Jesus San-Miguel",
+        "Bruno Paiva"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Camila Guerrero",
+            "author_affiliations": [
+                "Clinica Universidad de Navarra, Centro de Investigacion Medica Aplicada (CIMA), Instituto de Investigacion Sanitaria de Navarra (IDISNA), CIBER-ONC number CB16/12/00369, Pamplona, Spain"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Noemi Puig",
+            "author_affiliations": [
+                "Hospital Universitario de Salamanca Hematolog\u00eda. Instituto de investigaci\u00f3n biom\u00e9dica de Salamanca (IBSAL), Salamanca, Spain"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mar\u00eda Teresa Cedena",
+            "author_affiliations": [
+                "Hospital Universitario 12 de Octubre, Madrid, Spain"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ibai Goicoechea",
+            "author_affiliations": [
+                "Clinica Universidad de Navarra, Centro de Investigacion Medica Aplicada (CIMA), Instituto de Investigacion Sanitaria de Navarra (IDISNA), CIBER-ONC number CB16/12/00369, Pamplona, Spain"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cristina P\u00e9rez Ruiz",
+            "author_affiliations": [
+                "Clinica Universidad de Navarra, Centro de Investigacion Medica Aplicada (CIMA), Instituto de Investigacion Sanitaria de Navarra (IDISNA), CIBER-ONC number CB16/12/00369, Pamplona, Spain"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Juan Jos\u00e9 Garc\u00e9s",
+            "author_affiliations": [
+                "Clinica Universidad de Navarra, Centro de Investigacion Medica Aplicada (CIMA), Instituto de Investigacion Sanitaria de Navarra (IDISNA), CIBER-ONC number CB16/12/00369, Pamplona, Spain"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cirino Botta",
+            "author_affiliations": [
+                "Hematology Unit, \"Annunziata\" Hospital of Cosenza, Cosenza, Italy"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maria Jose Calasanz",
+            "author_affiliations": [
+                "Clinica Universidad de Navarra, Centro de Investigacion Medica Aplicada (CIMA), Instituto de Investigacion Sanitaria de Navarra (IDISNA), CIBER-ONC number CB16/12/00369, Pamplona, Spain"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Norma C. Gutierrez",
+            "author_affiliations": [
+                "Hospital Universitario de Salamanca Hematolog\u00eda. Instituto de investigaci\u00f3n biom\u00e9dica de Salamanca (IBSAL), Salamanca, Spain"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maria Luisa Martin-Ramos",
+            "author_affiliations": [
+                "Hospital Universitario 12 de Octubre, Madrid, Spain"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Albert Oriol",
+            "author_affiliations": [
+                "Institut Catal\u00e0 d'Oncologia L'Hospitalet, Barcelona, Spain"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rafael Rios",
+            "author_affiliations": [
+                "Hospital Universitario Virgen de las Nieves, Instituto de Investigaci\u00f3n Biosanitaria, Granada, Spain"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Miguel Hern\u00e1ndez",
+            "author_affiliations": [
+                "Hospital Universitario de Canarias, Santa Cruz de Tenerife, Spain"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rafael Mart\u00ednez",
+            "author_affiliations": [
+                "Hospital Universitario San Carlos, Madrid, Spain"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joan Bargay",
+            "author_affiliations": [
+                "Hospital Universitario Son Llatzer, Institut d' investigacio Illes Balears (IdISBa), Palma de Mallorca, Spain"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Felipe De Arriba",
+            "author_affiliations": [
+                "Hospital Morales Meseguer, IMIB-Arrixaca, Universidad de Murcia, Murcia, Spain"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Luis Palomera",
+            "author_affiliations": [
+                "Hospital Cl\u00ednico Universitario Lozano Blesa, Zaragoza, Spain"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ana Pilar Gonzalez",
+            "author_affiliations": [
+                "Hospital Central de Asturias, Oviedo, Spain"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Adri\u00e1n Mosquera Orgueira",
+            "author_affiliations": [
+                "Complexo Hospitalario Universitario de Santiago de Compostela (CHUS), SERGAS, Santiago de Compostela, Spain"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marta Sonia Gonzalez",
+            "author_affiliations": [
+                "Complexo Hospitalario Universitario de Santiago de Compostela (CHUS), SERGAS, Santiago de Compostela, Spain"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joaqu\u00edn Mart\u00ednez-L\u00f3pez",
+            "author_affiliations": [
+                "Hospital Universitario 12 de Octubre, Madrid, Spain"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Juan Jose Lahuerta",
+            "author_affiliations": [
+                "Hospital Universitario 12 de Octubre, Madrid, Spain"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laura Rosinol",
+            "author_affiliations": [
+                "Hematology Department, IDIBAPS, Hospital Cl\u00ednic, Barcelona, Spain"
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joan Blad\u00e9 Creixenti",
+            "author_affiliations": [
+                "Amyloidosis and Multiple Myeloma Unit, Department of Hematology, IDIBAPS, Hospital Cl\u00ednic, Barcelona, Spain, Barcelona, Spain"
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maria-Victoria Mateos",
+            "author_affiliations": [
+                "Hospital Universitario de Salamanca Hematolog\u00eda. Instituto de investigaci\u00f3n biom\u00e9dica de Salamanca (IBSAL), Salamanca, Spain"
+            ],
+            "author_rank": 25,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jesus San-Miguel",
+            "author_affiliations": [
+                "Clinica Universidad de Navarra, Centro de Investigacion Medica Aplicada (CIMA), Instituto de Investigacion Sanitaria de Navarra (IDISNA), CIBER-ONC number CB16/12/00369, Pamplona, Spain"
+            ],
+            "author_rank": 26,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bruno Paiva",
+            "author_affiliations": [
+                "Clinica Universidad de Navarra, Centro de Investigacion Medica Aplicada (CIMA), Instituto de Investigacion Sanitaria de Navarra (IDISNA), CIBER-ONC number CB16/12/00369, Pamplona, Spain"
+            ],
+            "author_rank": 27,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T04:13:21",
+    "is_scraped": "1"
 }
