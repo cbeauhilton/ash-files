@@ -1,8 +1,124 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4789",
-    "start_url_page_num": "4789",
     "doi": "https://doi.org/10.1182/blood-2021-153242",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/597/480158/Clonal-Hematopoiesis-Is-Driven-By-Aberrant?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T17:23:40",
-    "is_scraped": "0"
+    "article_title": "Clonal Hematopoiesis Is Driven By Aberrant Activation of TCL1A ",
+    "article_date": "November 5, 2021",
+    "session_type": "503.Clonal Hematopoiesis, Aging and Inflammation",
+    "abstract_text": "Introduction: Clonal hematopoiesis of indeterminate potential (CHIP) may occur when a hematopoietic stem cell (HSC) acquires a fitness-increasing mutation resulting in its clonal expansion. A diverse set of driver genes, such as regulators of DNA methylation, splicing, and chromatin remodeling, have been associated with CHIP, but it remains largely unknown why HSCs bearing these mutations are positively selected. It has been challenging to identify the genetic and environmental factors mediating clonal expansion in humans, partially due to a lack of large cohorts with longitudinal blood sampling of participants. To circumvent this limitation, we developed a method to infer clonal expansion rate from single timepoint data called PACER (passenger-approximated clonal expansion rate). Methods: PACER is based on the principle that genomic passenger mutations can be used to infer the birth date of pre-malignant clones because these mutations accumulate fairly linearly over time. Thus, an individual with CHIP with a greater number of passenger mutations in the mutant clone is expected to have acquired the clone at a later age than someone with fewer passenger mutations. For two individuals of the same age and with clones of the same size, we expect the clone with more passengers to be more fit, as it expanded to the same size in less time. Typically, one would need to isolate single-cell colonies derived from HSCs in order to calculate the total passenger mutation burden. However, we hypothesized that this measure could also be approximated from whole genome sequencing of blood cell DNA, such as that used in large biobank projects. The expansion rate (PACER) is then estimated by adjusting the total passenger count for age and variant allele fraction in each individual. The ability of passengers to predict future clonal expansion was validated using longitudinal blood samples from 51 CHIP carriers in the Women's Health Initiative taken ~10 years apart (Figure 1). It also accurately predicted the known fitness effects due to different driver mutations in 5,551 CHIP carriers from the Trans-Omics for Precision Medicine (TOPMed) program (Figure 2). Results: Having validated the approach, we next hypothesized that we could identify germline variants influencing PACER, thus revealing genes and pathways mediating clonal expansion. The lead hit in a genome-wide association study (GWAS) of PACER was a common single nucleotide polymorphism (SNP) in the TCL1A promoter that was associated with slower clonal expansion in CHIP overall (Figure 3). TCL1A is an oncogene that is activated via translocation in T-cell prolymphocytic leukemia, but has no known role in CHIP or myeloid malignancies. A gene-level analysis indicated that the TCL1A SNP was associated with slower growth of clones bearing TET2 mutations, but had no effect on DNMT3A -mutant clone growth. We further found that those carrying two copies of the protective SNP had 40-80% reduced odds of having clones with driver mutations in TET2 , ASXL1 , SF3B1 , SRSF2 , and JAK2 , but not DNMT3A . A concomitant decrease in incident myeloid malignancies was also seen in carriers of this protective SNP. Next, we interrogated how the protective SNP influenced TCL1A activity in HSCs. Normal human HSCs lacked open chromatin at the TCL1A promoter and TCL1A expression, but inducing frameshift mutations in TET2 via CRISPR editing led to accessibility of the promoter and gene/protein expression in HSCs (Figure 4). This effect was abrogated in HSCs from donors of the protective TCL1A SNP in a dose-dependent manner. Finally, we found that HSCs from donors homozygous for the protective SNP had markedly less expansion of phenotypic stem and progenitor cells in vitro after the introduction of TET2 mutations than TET2 -edited HSCs from donors with two copies of the reference allele. Conclusions: In summary, we developed a novel method to infer the expansion rate of pre-malignant clones and performed the first ever GWAS for this trait. Our results indicate that the fitness advantage of several common driver genes in CHIP and hematological cancers is mediated through TCL1A activation, which may be a therapeutic target to treat these conditions. PACER is an approach that can be widely adopted to uncover genetic and environmental determinants of pre-malignant clonal expansion in blood and other tissues. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Desai:  Bristol Myers Squibb: Consultancy; Kura Oncology: Consultancy; Agios: Consultancy; Astex: Research Funding; Takeda: Consultancy; Janssen R&D: Research Funding. Natarajan:  Blackstone Life Sciences: Consultancy; Boston Scientific: Research Funding; Novartis: Consultancy, Research Funding; AstraZeneca: Consultancy, Research Funding; Apple: Consultancy, Research Funding; Amgen: Research Funding; Genentech: Consultancy; Foresite Labs: Consultancy. Jaiswal:  Novartis: Consultancy, Honoraria; AVRO Bio: Consultancy, Honoraria; Genentech: Consultancy, Honoraria; Foresite Labs: Consultancy; Caylo: Current holder of stock options in a privately-held company.",
+    "author_names": [
+        "Jk Gopakumar",
+        "Joshua Weinstock",
+        "Bala B Burugula",
+        "Nikolaus Jahn",
+        "Charles Kooperberg",
+        "Pinkal Desai",
+        "Pradeep Natarajan",
+        "Jacob O Kitzman",
+        "Alexander Reiner",
+        "Alexander G. Bick",
+        "Siddhartha Jaiswal"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Jk Gopakumar",
+            "author_affiliations": [
+                "Stanford University, Stanford, CA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joshua Weinstock",
+            "author_affiliations": [
+                "Center for Statistical Genetics, Department of Biostatistics, University of Michigan School of Public Health, Ann Arbor,"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bala B Burugula",
+            "author_affiliations": [
+                "University of Michigan, Ann Arbor,"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nikolaus Jahn",
+            "author_affiliations": [
+                "Stanford University, Stanford, CA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Charles Kooperberg",
+            "author_affiliations": [
+                "University of Washington, Seattle,"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pinkal Desai",
+            "author_affiliations": [
+                "Division of Hematology and Oncology, Weill Cornell Medical College, New York, NY"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Pradeep Natarajan",
+            "author_affiliations": [
+                "Massachusetts General Hospital, Boston, MA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jacob O Kitzman",
+            "author_affiliations": [
+                "Department of Human Genetics, University of Michigan, Ann Arbor, MI"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexander Reiner",
+            "author_affiliations": [
+                "Fred Hutchinson Cancer Research Center, Seattle, WA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexander G. Bick",
+            "author_affiliations": [
+                "Division of Genetic Medicine, Department of Medicine, Vanderbilt University Medical Center, Nashville, TN"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Siddhartha Jaiswal",
+            "author_affiliations": [
+                "Department of Pathology, Stanford University, Stanford, CA",
+                "NHLBI Trans-omics for Precision Medicine (TOPMed), Stanford,"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T09:34:34",
+    "is_scraped": "1"
 }

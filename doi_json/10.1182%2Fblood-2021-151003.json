@@ -1,8 +1,94 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4793",
-    "start_url_page_num": "4793",
     "doi": "https://doi.org/10.1182/blood-2021-151003",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/2958/478917/MRI-Derived-Radiomics-of-Hemophilic-Arthropathy-Is?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T17:23:56",
-    "is_scraped": "0"
+    "article_title": "MRI-Derived Radiomics of Hemophilic Arthropathy Is Associated with Severity of Joint Disease ",
+    "article_date": "November 5, 2021",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Introduction Joint bleeding resulting in synovial hypertrophy and articular cartilage damage are the hallmarks of hemophilic arthropathy. Early prophylaxis with extended half-life factor products and non-factor replacement therapies reduce joint bleeds but do not provide complete protection from development of arthropathy. MRI is the gold standard imaging technique to diagnose and monitor arthropathy in hemophilia. MRI changes that are associated with joint bleeding and development of arthropathy, however, are not sensitive enough to detect early changes in the synovial membranes after sub-clinical bleeding. Radiomics, the computerized extraction of sub-visual attributes from imaging scans can detect early changes of hemophilic arthropathy and help in more accurate characterizations of severe joint disease. The goal of this project was to develop and compare MRI radiomics with the International Prophylaxis Study Group (IPSG) score, an established MRI joint disease scale, in assessing the severity of joint disease. Methods After IRB approval, knee MRI scans of 17 hemophilia patients with a history of joint bleeding and 12 age-matched healthy controls were included in this study. Manual annotations were performed in consensus by a board-certified musculoskeletal radiologist to include the prefemoral fat, suprapatellar fat pad and bursa . To ensure that the signal intensities from different cases were in tissue-specific correspondence, a landmark-based histogram transformation was used to align MRI signal intensity distributions across all cases. 560 radiomic features capturing MRI pixels texture heterogeneity (Gabor wavelets, Laws texture, Haralick and GoLIAGe co-occurrence patterns) were subsequently extracted on all MRI slices with ROI for all the cases. Top 2 radiomic features (F 2 ) for differentiating between abnormal joint changes and control were selected by Minimum Redundancy Maximum Relevance (mRMR) algorithm with 100 iterations of 3-fold cross-validation. Consensus hierarchical clustering was then applied on F 2 , from which two patient clusters were generated. A disease severity score was calculated based on historical lifetime bleed events in the joint, designation of target joint status, and history of surgical synovectomy. A previously described 17-point MRI IPSG score was also calculated by 2 independent reviewers. Both the IPSG score and the F 2 were then fit into a linear regression model separately as predictors whereas the disease severity score was set to be the response variable. The Akaike's Information Criteria (AIC) and the root mean square error (RMSE) were used to evaluate the model fitness and the likelihood ratio (LR) test was applied for model comparison. Results The dataset consisted of 17 males with moderate and severe hemophilia ranging in age from 10-55 years. The median disease severity score was 2 (0-11) and the median IPSG MRI Score was 2 (0-11). The top 2 radiomic features F 2 , a Gabor wavelet feature and a Lawshc texture feature, yielded an AUC of 0.94 and an accuracy of 0.9 for differentiating between hemophilic joint changes and healthy control patients. Unsupervised clustering demonstrated good separation between the two classes (Fig panel A and B). The radiomic-based linear regression model (AIC: 86.67; RMSE: 2.86) was significantly better than the IPSG score-based model (AIC: 94.24; RMSE: 3.66) in joint disease severity characterizations (LR, p = 0.0083, Fig panel C). Conclusions Radiomic analysis of knee MRI in hemophilia patients with history of joint bleeding is correlated with the severity of joint disease. Our study demonstrates the feasibility of developing and utilizing a radiomics based tool to detect the severity of joint damage in a small population of knee joint hemophilic arthropathy. We plan to perform an Independent validation of the radiomics signature in a larger dataset of hemophilia joint MRI scans Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Madabhushi:  Astrazeneca: Membership on an entity's Board of Directors or advisory committees; Bristol Meyers-Squibb: Membership on an entity's Board of Directors or advisory committees; Merck: Membership on an entity's Board of Directors or advisory committees; Roche: Consultancy; Caris: Consultancy; Aiforia: Consultancy; Philips: Research Funding; AstraZeneca: Research Funding; Boehringer-Ingelheim: Research Funding; Bristol Meyers-Squibb: Research Funding. Ahuja:  Sanofi: Membership on an entity's Board of Directors or advisory committees; XaTek, Inc: Patents & Royalties; Genentech: Membership on an entity's Board of Directors or advisory committees; Takeda: Other: DSMB member .",
+    "author_names": [
+        "Bolin Song",
+        "Vidya Sankar Sankar Viswanathan",
+        "Jonathan Nutt",
+        "Lin Li",
+        "Navid Faraji",
+        "Christos Kosmas",
+        "Anant Madabhushi",
+        "Sanjay Ahuja"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Bolin Song",
+            "author_affiliations": [
+                "Case Western Reserve University, Cleveland, OH"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vidya Sankar Sankar Viswanathan",
+            "author_affiliations": [
+                "Case Western Reserve University, Cleveland, OH"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan Nutt",
+            "author_affiliations": [
+                "Case Western Reserve University, Cleveland, OH"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lin Li",
+            "author_affiliations": [
+                "Case Western Reserve University, Cleveland, OH"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Navid Faraji",
+            "author_affiliations": [
+                "University Hospitals Cleveland Medical Center, Cleveland, OH"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christos Kosmas",
+            "author_affiliations": [
+                "University Hospitals Cleveland Medical Center, Cleveland, OH"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anant Madabhushi",
+            "author_affiliations": [
+                "Case Western Reserve University, Cleveland, OH"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sanjay Ahuja",
+            "author_affiliations": [
+                "Case Western Reserve University, Cleveland, OH",
+                "Pediatric Hematology/Oncology, Rainbow Babies & Children's Hospital, Cleveland, OH"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T09:39:44",
+    "is_scraped": "1"
 }

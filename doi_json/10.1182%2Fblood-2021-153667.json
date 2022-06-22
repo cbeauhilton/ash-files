@@ -1,8 +1,196 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4894",
-    "start_url_page_num": "4894",
     "doi": "https://doi.org/10.1182/blood-2021-153667",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/193/481255/Single-Cell-RNA-Seq-Characterization-of-an?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T21:40:57",
-    "is_scraped": "0"
+    "article_title": "Single Cell RNA-Seq Characterization of an Adaptive Population of NK Cells after Primary CMV Infection in Rhesus Macaques ",
+    "article_date": "November 5, 2021",
+    "session_type": "203.Lymphocytes and Acquired or Congenital Immunodeficiency Disorders",
+    "abstract_text": "By virtue of their direct cytotoxicity to transformed and virus infected cells, Natural Killer (NK) cells play crucial roles in immunity. NK cells modulate and coordinate innate and adaptive responses through the release of chemokines and cytokines. Although NK cells are endowed only with germ-line encoded receptors, evidence has been accumulating, that subsets of NK cells can bestow adoptively transferable, long-lasting and antigen-specific immune responses to certain haptens and viruses. Growing evidence suggests that adaptive immune responses lie on a spectrum. Rechallenge of cells, canonically belonging to the innate immune system, can result in enhanced responsiveness - a process termed 'trained immunity' and thought to be maintained by epigenetic and metabolic reprogramming. In previous work, our lab studied the role of NK cell responses to rhesus cytomegalovirus (rhCMV) in a genetic barcoding model. We found that new clones arose in the CD16 + NK compartment after primary rhCMV infection. There was rapid clearance without the emergence of new clones in subsequent rechallenge with rhCMV. In this study we used 3'-end single cell RNA-seq (3'-scRNA-seq) with CITE-seq to profile NK and T cells from an initially CMV-na\u00efve rhesus macaque (RM) at four time points before and after primary and secondary infections with rhCMV. We immunophenotypically sorted NK and T cells from peripheral Blood (PB) samples at 'baseline', 30 days after initial rhCMV infection ('primary infection'), ca. 500 days after initial rhCMV infection ('steady state') and 10 days after rmCMV reinfection ('secondary infection'). Alongside the PB samples at 'steady state' and after 'secondary infection', we also sorted NK and T cells from lymph nodes (LN). We applied CD16 and CD56 CITE-seq antibodies to NK cells from all samples; NK cells from the 'steady state' and 'secondary infection' samples were also labeled with CX3CL1 CITE-seq antibodies. We multiplexed NK and T cells from each time point in 4:1 ratios before preparing 3'-scRNA-seq libraries. We used scanpy and scvi-tools as well as custom python code to demultiplex NK from T cells, harmonize 3'-scRNA-seq with CITE-seq data and integrate the 6 different samples. We used scvelo and cellrank to compute RNA velocities and infer trajectories, respectively. We obtained a total of 35,523 high-quality cells. We identified 20 clusters of NK and T cells, on the basis of community detection via the Leiden algorithm. All clusters contained cells from both tissue sources. The 4 clusters characterized by expression of CD56 exhibit higher expression of KLRC1 (protein: NKG2A), IL7R and the transcription factors LEF1 and MYC . The 8 clusters of CD16 + cells are distinguished by high expression of the transcription factors ZEB2 and TBX21 / T-BET , cytotoxicity markers, GZMB and PRF1, and activating receptors, KLRC2 (protein: NKG2C), KLRC3 (protein: NKG2E) and NCR3 (protein: NKp30). An adaptive population of NK cells is identified on the basis of high KLRC2 and low FCER1G expression. We analyzed changes in the proportions of cells in each cluster of the time course of CMV infection using a binomial generalized linear model. Clusters associated with proliferation and acute inflammation were increased in proportion after primary rhCMV infection; the proportion of the adaptive population did not significantly change during the acute phase of primary infection but increased markedly by the later 'steady state' samples. RNA velocity and inferred developmental trajectories suggest transitions between the adaptive, proliferating CD16 + and mature effector subsets; the predominant path into the adaptive population occurring from the proliferating CD16 + subset after primary infection. There is a notable paucity of inferred transitions between the CD56 + and CD16 + subpopulations under all the experimental conditions we observed. We have characterized the single cell transcriptional states and dynamics of RM NK cells in response to rhCMV infection. We focus on a subset transcriptionally resembling a previously identified subset with adaptive function and find it arises from a proliferating population of effector cells after primary infection. This may be analogous to the dedifferentiation of effector CD8 T cells into memory T cells proposed by Youngblood et al. Confirmatory experiments to analyze the reconstitution of the CD16 + compartment after treatment with a depleting antibody are on-going. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "author_names": [
+        "Stefan Cordes",
+        "Ryland D Mortlock",
+        "Lauren Truitt",
+        "Di Yang",
+        "Diego A Espinoza",
+        "Xing Fan",
+        "Daniel Ram",
+        "Matilda Mostrom",
+        "Dollnovan Tran",
+        "Lesli Sprehe",
+        "R. Keith Reeves",
+        "Robert E. Donahue",
+        "Michael Kelly",
+        "Jinguo Chen",
+        "So Gun Hong",
+        "Amitinder Kaur",
+        "Chuanfeng Wu",
+        "Cynthia E. Dunbar"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Stefan Cordes",
+            "author_affiliations": [
+                "Translational Stem Cell Biology Branch, National Heart, Lung and Blood Institute, National Institutes of Health, Bethesda, MD"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ryland D Mortlock",
+            "author_affiliations": [
+                "Translational Stem Cell Biology Branch, National Heart Lung and Blood Institute, National Institutes of Health, Bethesda, MD"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lauren Truitt",
+            "author_affiliations": [
+                "Translational Stem Cell Biology Branch, National Heart, Lung and Blood Institute, National Institutes of Health, Bethesda, MD",
+                "University of Texas Southwestern Medical School, Dallas, TX"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Di Yang",
+            "author_affiliations": [
+                "Union Hospital, Huazhong University of Science and Technology, Institute of Hematology, Tongji Medical College, Wuhan, China",
+                "Translational Stem Cell Biology Branch, National Heart, Lung and Blood Institute, National Institutes of Health, Bethesda, MD"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Diego A Espinoza",
+            "author_affiliations": [
+                "Translational Stem Cell Biology Branch, National Heart, Lung and Blood Institute, National Institutes of Health, Bethesda, MD",
+                "Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xing Fan",
+            "author_affiliations": [
+                "Translational Stem Cell Biology Branch, National Heart Lung and Blood Institute, National Institutes of Health, Bethesda, MD"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel Ram",
+            "author_affiliations": [
+                "Department of Medicine, Division of Vaccine Research, Beth Israel Deaconess Medical Center, Boston, MA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matilda Mostrom",
+            "author_affiliations": [
+                "Immunology, Tulane National Primate Center, Covington, LA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dollnovan Tran",
+            "author_affiliations": [
+                "Tulane National Primate Research Center, Covington, LA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lesli Sprehe",
+            "author_affiliations": [
+                "Tulane National Primate Research Center, Covington, LA"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "R. Keith Reeves",
+            "author_affiliations": [
+                "NEPRC - Harvard Medical School, Southborough, MA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Robert E. Donahue",
+            "author_affiliations": [
+                "Translational Stem Cell Biology Branch, National Heart, Lung and Blood Institute, National Institutes of Health, Bethesda, MD"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Kelly",
+            "author_affiliations": [
+                "Single Cell Analysis Facility, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jinguo Chen",
+            "author_affiliations": [
+                "Center for Human Immunology, National Institutes of Autoimmune Diseases, National Institutes of Health, Bethesda, MD"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "So Gun Hong",
+            "author_affiliations": [
+                "Translational Stem Cell Biology Branch, National Heart, Lung, and Blood Institute, National Institute of Health, Bethesda, MD"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amitinder Kaur",
+            "author_affiliations": [
+                "Tulane National Primate Research Center, Covington, LA"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chuanfeng Wu",
+            "author_affiliations": [
+                "NHLBI/NIH, Bethesda, MD"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cynthia E. Dunbar",
+            "author_affiliations": [
+                "Translational Stem Cell Biology Branch, National Heart, Lung and Blood Institute, National Institutes of Health, Bethesda, MD"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T09:29:45",
+    "is_scraped": "1"
 }

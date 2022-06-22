@@ -1,8 +1,226 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4893",
-    "start_url_page_num": "4893",
     "doi": "https://doi.org/10.1182/blood-2021-149477",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/167/481280/Comprehensive-Secretome-Profiling-Elucidates-Novel?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T21:40:53",
-    "is_scraped": "0"
+    "article_title": "Comprehensive Secretome Profiling Elucidates Novel Disease Biology and Identifies Pre-Infusion Candidate Biomarkers to Predict the Development of Severe Cytokine Release Syndrome in Pediatric Patients Receiving CART19 ",
+    "article_date": "November 5, 2021",
+    "session_type": "703.Cellular Immunotherapies: Basic and Translational",
+    "abstract_text": "Introduction: The most common severe toxicity associated with chimeric antigen receptor T-cells targeting CD19 (CART19) is cytokine release syndrome (CRS; PMID: 29972754). Our group and others have published seminal observations on the biology of CRS through cytokine profiling, measuring a small number of analytes (PMID: 27076371, 33434058). Multiple biomarkers including interferon gamma (IFNG), IL-6, and IL-10 have been associated with the development of severe CRS in previous studies (PMID: 33434058). To date, the only biomarker predictive of the development of CRS prior to infusion has been disease burden. To obtain a more robust understanding of CRS biology, we performed comprehensive secretome profiling to measure more than 1400 serum analytes on serial serum samples collected from patients treated with the 41BB-containing CTL019 on two clinical trials. Methods: Serum from patients enrolled on two clinical trials of the CART19 product CTL019 (NCT01626495 & NCT02906371) were obtained serially from pre-infusion to one month post infusion. Patients were categorised as having \"minimal\" (no CRS, Grade 1, or Grade 2) or \"severe\" (Grade 3 or 4) CRS. The serum secretome was profiled using the Olink Explore 1536 Analysis platform (Olink, Upsala, Sweden). 1484 proteins were measured from serum via proximity extension assay (PEA) high-multiplex immunoassay. Differential expression analysis, correlation analyses and receiver operating characteristic (ROC) calculations were performed using R (version 4.0.4) in RStudio. Significance was based on a fold change of greater than 2 or less than -2 and a false discovery rate of less than 0.05 calculated using a Benjamini-Hochberg correction. Results: 26 patients (10 NCT01626495 & 16 NCT02906371) were included comprising 128 unique datapoints from baseline to 35 days post-infusion. Thirteen patients had minimal and 13 had severe CRS. Differentially expressed proteins between minimal and severe CRS at the peak timepoint are shown in (A; green represents IFNG responsive proteins). Not surprisingly, proteins involved in IL-6 and IFNG signalling were increased, including biomarkers of hemophagocytic lymphohistiocytosis (HLH) such as VSIG4, CXCL9, CXCL10, CD163. The IL-18 signalling axis was dysregulated at peak CRS in severe patients with markedly elevated IL18 and IL18BP, despite prior reports suggesting IL-18 up-regulation is unique to the late CRS seen with CART22 (PMID: 32925169). Soluble markers of checkpoint inhibition, including soluble PDL1 (CD274) and LAG3 were also highly elevated. Finally, biomarkers of endothelial damage, such as PLAT, TMSB10 and CALCA were significantly elevated in patients with severe CRS. Pathway analysis revealed significant dysregulation in targetable cytokine, chemokine, and signalling pathways (B). A volcano plot of differentially expressed proteins at pre-infusion (C) identified a single protein, MILR1, as a candidate biomarker that was highly differentially expressed in patients who would subsequently develop severe CRS. MILR1 expression decreased over time (D). An ROC of MILR1 as a predictor for development of severe CRS (E) demonstrated pre-infusion elevated MILR1 could accurately predict development of severe CRS (sensitivity 88%, specificity 97%, AUC=0.977). We identified correlates of MILR1 at pre-infusion and found that MILR1 correlated most highly with soluble FLT3 (R=0.86, p<0.01). Elevated levels of serum FLT3 at pre-infusion also predict severe CRS (F) with similar ROC as MILR1 (sensitivity 79%, specificity 93%, AUC=0.897). Interestingly, FLT3 decreased over time (F) and in an inverse pattern to FLT3 ligand (FLT3LG). Conclusions: With comprehensive secretome profiling we made multiple novel insights into the biology of CRS after CART19 and identified several potentially targetable proteins and pathways that could mitigate severe CRS. Similar secretome profiling in patients who developed neurotoxicity will also be shown. We identified two novel pre-infusion biomarkers that demonstrate significant capacity to predict the development of severe CRS following CART19 infusion. The inverse relationship apparent between FLT3 and FLT3LG that persists over time is an important finding that implies a potential biological role for FLT3/FLT3 ligand in the development of severe CRS. Mechanistic studies exploring the role of MILR1 and FLT3 in the initiation of CRS are ongoing. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Lambert:  Novartis, shionogi, argenx, Rigel, octapharma: Consultancy; Rigel, Novartis, Sysmex, octapharma: Research Funding. Bassiri:  Kriya Therapeutics: Consultancy, Current holder of individual stocks in a privately-held company; Guidepoint Global: Consultancy. Levine:  Vycellix: Membership on an entity's Board of Directors or advisory committees; Tmunity Therapeutics: Other: Co-Founder and equity holder; Ori Biotech: Membership on an entity's Board of Directors or advisory committees; Immusoft: Membership on an entity's Board of Directors or advisory committees; Immuneel: Membership on an entity's Board of Directors or advisory committees; Avectas: Membership on an entity's Board of Directors or advisory committees; Akron: Membership on an entity's Board of Directors or advisory committees; In8bio: Membership on an entity's Board of Directors or advisory committees. Maude:  Wugen: Consultancy; Novartis Pharmaceuticals Corporation: Consultancy, Research Funding. June:  Tmunity, DeCART, BluesphereBio, Carisma, Cellares, Celldex, Cabaletta, Poseida, Verismo, Ziopharm: Current equity holder in publicly-traded company; Novartis: Patents & Royalties; AC Immune, DeCART, BluesphereBio, Carisma, Cellares, Celldex, Cabaletta, Poseida, Verismo, Ziopharm: Consultancy. Barrett:  Tmunity Therapeutics: Current Employment. Grupp:  Novartis, Kite, Vertex, and Servier: Research Funding; Novartis, Roche, GSK, Humanigen, CBMG, Eureka, and Janssen/JnJ: Consultancy; Novartis, Adaptimmune, TCR2, Cellectis, Juno, Vertex, Allogene and Cabaletta: Other: Study steering committees or scientific advisory boards; Jazz Pharmaceuticals: Consultancy, Other: Steering committee, Research Funding. Teachey:  Janssen: Consultancy; NeoImmune Tech: Research Funding; Sobi: Consultancy; BEAM Therapeutics: Consultancy, Research Funding.",
+    "author_names": [
+        "Caroline Diorio",
+        "Rawan Shraim",
+        "Regina M. Myers",
+        "Chakkapong Burudpakdee",
+        "Allison Barz Leahy",
+        "Richard Aplenc",
+        "Michele P. Lambert",
+        "Hamid Bassiri",
+        "Edward M Behrens",
+        "Vanessa E. Gonzalez",
+        "Fang Chen",
+        "Bruce L Levine",
+        "Shannon L. Maude",
+        "Amanda M. DiNofia",
+        "Alix E. Seif",
+        "J. Joseph Melenhorst",
+        "Simon F Lacey",
+        "Carl H June",
+        "David Barrett",
+        "Stephan A. Grupp",
+        "David T. Teachey"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Caroline Diorio",
+            "author_affiliations": [
+                "Center for Childhood Cancer Research, Children's Hospital of Philadelphia, Philadelphia, PA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rawan Shraim",
+            "author_affiliations": [
+                "Children's Hospital of Philadelphia, Philadelphia, PA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Regina M. Myers",
+            "author_affiliations": [
+                "Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chakkapong Burudpakdee",
+            "author_affiliations": [
+                "Immune Dysregulation Frontier Program, Children's Hospital of Philadelphia, Philadelphia, PA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Allison Barz Leahy",
+            "author_affiliations": [
+                "Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Richard Aplenc",
+            "author_affiliations": [
+                "Division of Oncology and Center for Childhood Cancer Research, Children's Hospital of Philadelphia, Philadelphia, PA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michele P. Lambert",
+            "author_affiliations": [
+                "Department of Pediatrics, Division of Hematology, Children's Hosp. of Phila., Philadelphia, PA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hamid Bassiri",
+            "author_affiliations": [
+                "Immune Dysregulation Frontier Program, Department of Pediatrics, Children's Hospital of Philadelphia, Philadelphia, PA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Edward M Behrens",
+            "author_affiliations": [
+                "Immune Dysregulation Frontier Program, Department of Pediatrics, Children's Hospital of Philadelphia, Philadelphia, PA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vanessa E. Gonzalez",
+            "author_affiliations": [
+                "Center for Cellular Immunotherapies, University of Pennsylvania School of Medicine, Philadelphia, PA"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Fang Chen",
+            "author_affiliations": [
+                "Center for Cellular Immunotherapies, University of Pennsylvania, Philadelphia, PA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bruce L Levine",
+            "author_affiliations": [
+                "Center for Cellular Immunotherapies, University of Pennsylvania, Philadelphia, PA"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shannon L. Maude",
+            "author_affiliations": [
+                "The Children's Hospital of Philadelphia, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA",
+                "Center for Cellular Immunotherapies, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amanda M. DiNofia",
+            "author_affiliations": [
+                "Center for Childhood Cancer Research, Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alix E. Seif",
+            "author_affiliations": [
+                "Center for Childhood Cancer Research, Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "J. Joseph Melenhorst",
+            "author_affiliations": [
+                "Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Simon F Lacey",
+            "author_affiliations": [
+                "Center for Cellular Immunotherapies, University of Pennsylvania, Philadelphia, PA"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Carl H June",
+            "author_affiliations": [
+                "Center for Cellular Immunotherapies (CCI), The University of Pennsylvania, Perelman School of Medicine, Philadelphia, PA"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David Barrett",
+            "author_affiliations": [
+                "Tmunity, Philadelphia, PA"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stephan A. Grupp",
+            "author_affiliations": [
+                "Center for Cellular Immunotherapies, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA",
+                "Division of Oncology, Center for Childhood Cancer Research and Cancer Immunotherapy Program, Children's Hospital of Philadelphia, Philadelphia, PA"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David T. Teachey",
+            "author_affiliations": [
+                "Immune Dysregulation Frontier Program, Department of Pediatrics, Children's Hospital of Philadelphia, Philadelphia, PA",
+                "Perelman School of Medicine University of Pennsylvania, Philadelphia, PA"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T09:29:00",
+    "is_scraped": "1"
 }

@@ -1,8 +1,64 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4793",
-    "start_url_page_num": "4793",
     "doi": "https://doi.org/10.1182/blood-2021-147472",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/2951/478955/Machine-Learning-Reveals-Patient-Phenotypes-and?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T17:23:56",
-    "is_scraped": "0"
+    "article_title": "Machine Learning Reveals Patient Phenotypes and Stratifies Outcomes in Chronic Graft-Versus-Host Disease ",
+    "article_date": "November 5, 2021",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Background: Chronic graft-versus-host disease (cGVHD) contributes to significant morbidity and mortality post hematopoietic stem cell transplant. Establishing a reliable classification system for this biologically and clinically heterogenous disease, remains challenging. Current scoring systems (e.g., NIH consensus criteria) calculate a score of mild, moderate, or severe disease from multiple organ domains. However, important information about the biology of disease and subtypes of patients may be lost when using the aggregate NIH overall severity classification that combines multiple dimensions of organ data. Machine learning may thus reveal subgroups in multi-dimensional data. Aim: We previously utilized a machine learning workflow on a training dataset to cluster cases of cGVHD into seven distinct phenotypes and designed a user-facing prognostic tool organized as a decision tree (Gandelman et al., Haematologica 2018). This decision tree identified clusters of patients with different survival trends that were not explained or stratified by NIH Severity alone. We sought to validate and expand this workflow on an independent cohort of patients from BMT CTN Study #0801. Methods: With permission from CIBMTR, clinical data were obtained from patients enrolled in BMT CTN #0801, a Phase II/III, prospective, multi-center comparative study. The cohort size started at 151 patients; 19 patients were excluded because of missing organ scores, leaving 132 patients in the final analysis. In the training dataset, it was determined that clusters were stable with N=130 patients in the analysis. Therefore, the sample size of the BMT CTN data set was adequate for the validation. At enrollment, NIH 2005 consensus criteria scores were recorded for eye, liver, joint, mouth, gastrointestinal tract, and lung. The percentage of the body surface area with erythema (% erythema) was measured. Skin sclerosis and fascia were assessed using Hopkins scores. Eight organ domains (NIH Scores 0-3: eye, liver, joint, mouth, gastrointestinal tract; Hopkins Scores: Sclerosis 0-4, Fascia 0-3; % erythema) were analyzed via a machine learning workflow consisting of t-distributed stochastic neighbor embedding (t-SNE), self-organizing maps (FlowSOM), and marker enrichment modeling (MEM). These steps allowed for dimensionality reduction, patient clustering, and organ enrichment scoring.Lung scores were not included as they were not found to contribute significantly to patient clustering in the training dataset analysis. All analyses were performed using R v4.0.4 and its libraries. Results: Baseline characteristics of patients in the validation cohort were similar to those of the training dataset except for disease stage, as a greater proportion of patients in the validation cohort had early-stage disease versus intermediate or high risk (p = 0.0004). The machine learning workflow identified similar phenotypic clusters in the validation cohort, with the sclerotic and liver-predominant clusters preserved most robustly (Figure 1A). As with the training dataset, machine learning identified clusters of phenotypes different from severity alone as assessed by the NIH global severity score in the validation cohort. Mean time from stem cell transplant to cGVHD (ie. probability of being cGVHD-free) was comparable between the two cohorts (284 days in validation cohort versus 288 days in training dataset). Notably, as with the training cohort, \"Sclerotic\" cluster patients in the validation cohort had significantly longer time from stem cell transplant to cGVHD compared to patients from other clusters (Log-rank: p = 0.0032) (Figure 1B). Conclusion: Our machine learning workflow identified phenotypic clusters with high fidelity and stratified time-to-GVHD in a validation cohort of patients. The decision tree tool separated patients into phenotypic clusters as previously designed in R by clustering with FlowSOM on t-SNE axes and using MEM to quantitively describe the clusters based on organ scores. Further studies on other independent cohorts of patients are now needed to delineate the biological basis of cGVHD subtypes and to further define patients in mixed phenotype groups. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Jagasia:  Iovance Biotherapeutics: Current Employment, Current holder of stock options in a privately-held company.",
+    "author_names": [
+        "Ashley Y Wu",
+        "Sierra Barone",
+        "Jocelyn Gandelman",
+        "Madan Jagasia",
+        "Jonathan Michael Irish"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Ashley Y Wu",
+            "author_affiliations": [
+                "Vanderbilt University Medical Center, Nashville, TN"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sierra Barone",
+            "author_affiliations": [
+                "Vanderbilt University, Nashville, TN"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jocelyn Gandelman",
+            "author_affiliations": [
+                "Vanderbilt University School of Medicine, Nashville, TN"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Madan Jagasia",
+            "author_affiliations": [
+                "Vanderbilt University Medical Center, Nashville, TN",
+                "Vanderbilt-Ingram Cancer Center, Nashville, TN"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan Michael Irish",
+            "author_affiliations": [
+                "Vanderbilt University, Nashville, TN"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T09:39:33",
+    "is_scraped": "1"
 }

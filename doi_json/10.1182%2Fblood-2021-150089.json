@@ -1,8 +1,105 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4793",
-    "start_url_page_num": "4793",
     "doi": "https://doi.org/10.1182/blood-2021-150089",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/2954/478961/Mapbatch-Conservative-Batch-Normalization-for?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T17:23:56",
-    "is_scraped": "0"
+    "article_title": "Mapbatch: Conservative Batch Normalization for Single Cell RNA-Sequencing Data Enables Discovery of Rare Cell Populations in a Multiple Myeloma Cohort ",
+    "article_date": "November 5, 2021",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Introduction Many cancers involve the participation of rare cell populations that may only be found in a subset of patients. Single-cell RNA sequencing (scRNA-seq) can identify distinct cell populations across multiple samples with batch normalization used to reduce processing-based effects between samples. However, aggressive normalization obscures rare cell populations, which may be erroneously grouped with other cell types. There is a need for conservative batch normalization that maintains the biological signal necessary to detect rare cell populations. MapBatch We designed a batch normalization tool, MapBatch, based on two principles: an autoencoder trained with a single sample learns the underlying gene expression structure of cell types without batch effect; and an ensemble model combines multiple autoencoders, allowing the use of multiple samples for training. Each autoencoder is trained on one sample, learning a projection into the biological space S representing the real expression differences between cells in that sample (Figure 1a, middle). When other samples are projected into S , the projection reduces expression differences orthogonal to S , while preserving differences along S . The reverse projection transforms the data back into gene space at the autoencoder's output, sans expression differences orthogonal to S (Figure 1a, right). Since batch-based technical differences are not represented in S , this transformation selectively removes batch effect between samples, while preserving biological signal. The autoencoder output thus represents normalized expression data, conditioned on the training sample. To incorporate multiple samples into training, MapBatch uses an ensemble of autoencoders, each trained with a single sample (Figure 1b). We train with a minimal number of samples necessary to cover the different cell populations in the dataset. We implement regularization using dropout and noise layers, and an a priori feature extraction layer using KEGG gene modules. The autoencoders' outputs are concatenated for downstream analysis. For visualization and clustering, we use the top principal components of the concatenated outputs. For differential expression (DE), we perform DE on each of the gene matrices output by each model, then take the result with the lowest P-value. To test MapBatch, we generated a synthetic dataset based on 7 batches of publicly available PBMC data. For each batch we simulated rare cell populations by selecting one of three cell types to perturb by up and down-regulating 40 genes in 0.5%-2% of the cells (Figure 1c). We simulated additional batch effect by scaling each gene in each batch with a scaling factor. Upon visualization and clustering, cells grouped largely by batch (Figure 1d). After batch normalization, cells grouped by cell type rather than batch, and all three perturbed cell populations were successfully delineated (Figure 1e). DE between each perturbed population and its mother cells accurately retrieved the perturbed genes, showing that normalization maintained real expression differences (Figure 1e). In contrast, three methods tested Seurat (Stuart et al., 2019), Harmony (Korsunsky et al., 2019), and Liger (Welch et al., 2019) could only derive a subset of the perturbed populations (Figures 1f-h). MapBatch identifies rare populations in multiple myeloma (MM) We used MapBatch to process bone marrow scRNA-seq data from 14 MM samples and 2 healthy controls. After batch normalization, unsupervised clustering identified 20 clusters, which we annotated using MapCell (Koh & Hoon, 2019) (Figures 2a, 2b). We identified 3 small clusters of cells that could not be reliably annotated, comprising less than 1% of total cells and found in only a subset of patients (Figures 2c, 2d). As validation, we observed that these cells were present in distinct clusters in individual samples using their uncorrected expression data, providing evidence that these clusters were not driven by batch effect nor MapBatch (Figure 2e). Conclusion Batch normalization of scRNA-seq data involves a trade-off between minimizing batch effect and maximizing the remaining biological signal. While most methods lean towards the former, MapBatch maintains more biological signal for downstream analysis, enabling the discovery of previously difficult to find cell populations. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Xu:  Proteona Pte Ltd: Current Employment. Scolnick:  Proteona Pte Ltd: Current holder of individual stocks in a privately-held company. Huo:  Proteona Pte Ltd: Ended employment in the past 24 months. Lovci:  Proteona Pte Ltd: Current Employment. Chng:  Amgen: Honoraria, Research Funding; Abbvie: Honoraria; Janssen: Honoraria, Research Funding; Novartis: Honoraria; Celgene: Honoraria, Research Funding.",
+    "author_names": [
+        "Chern Han Yong",
+        "Shawn Hoon",
+        "Sanjay De Mel",
+        "Stacy Xu",
+        "Jonathan Adam Scolnick",
+        "Xiaojing Huo",
+        "Michael Lovci",
+        "Wee Joo Chng",
+        "Limsoon Wong"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Chern Han Yong",
+            "author_affiliations": [
+                "School of Computing, National University of Singapore, Singapore, Singapore"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shawn Hoon",
+            "author_affiliations": [
+                "Molecular Engineering Lab (MEL), Institute of Molecular and Cell Biology (IMCB), Agency for Science, Technology and Research (A*STAR), Singapore, Singapore"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sanjay De Mel",
+            "author_affiliations": [
+                "Department of Haematology-Oncology, National University Cancer Institute Singapore, Singapore, Singapore"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stacy Xu",
+            "author_affiliations": [
+                "Proteona Pte Ltd, Singapore, Singapore"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathan Adam Scolnick",
+            "author_affiliations": [
+                "Healthy Longevity Translational Research Programme, Department of Physiology, National University of Singapore, Singapore, Singapore"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xiaojing Huo",
+            "author_affiliations": [
+                "Proteona Pte Ltd, Singapore, Singapore"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Lovci",
+            "author_affiliations": [
+                "Proteona Pte Ltd, Singapore, Singapore"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wee Joo Chng",
+            "author_affiliations": [
+                "Department of Hematology-Oncology, National University Cancer Institute of Singapore, National University Health System, Singapore, Singapore",
+                "Department of Medicine, Yong Loo Lin School of Medicine, National University of Singapore, Singapore, Singapore",
+                "Cancer Science Institute of Singapore, National University of Singapore, Singapore, Singapore"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Limsoon Wong",
+            "author_affiliations": [
+                "School of Computing, National University of Singapore, Singapore, Singapore"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T09:39:36",
+    "is_scraped": "1"
 }

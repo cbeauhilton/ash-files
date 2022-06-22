@@ -1,8 +1,262 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4785",
-    "start_url_page_num": "4785",
     "doi": "https://doi.org/10.1182/blood-2021-153550",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/1082/480396/Single-Cell-Transcriptomics-Study-of-Human?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T17:23:25",
-    "is_scraped": "0"
+    "article_title": "Single-Cell Transcriptomics Study of Human Hematopoietic Progenitors Reveals Alterations Associated with Aging and Myeloid Malignancies ",
+    "article_date": "November 5, 2021",
+    "session_type": "501.Hematopoietic Stem and Progenitor Cells and Hematopoiesis: Basic and Translational",
+    "abstract_text": "Hematopoietic stem and progenitor cells (HSPCs) comprise a continuum of cells with varying differentiation potential and priming toward specific lineages. During both healthy aging and myeloid malignancies, changes occur in the composition and regulation of HSPCs. In this study, we evaluated human HSPCs obtained from young and elderly healthy donors using single-cell RNA sequencing to identify the transcriptional and regulatory alterations associated with aging at single cell resolution. We then applied this knowledge to the study of specific perturbations associated with the development of myeloid pathologies. We isolated >90,000 bone marrow CD34+ cells from 5 young (18-20 y/o), 3 elderly (>65 y/o) healthy donors, 1 patient with myelodysplastic syndrome (MDS) and 1 patient with acute myeloid leukemia (AML), using fluorescence-activated cell sorting. scRNA libraries were prepared with the 10X chromium platform and sequenced. Finally, bioinformatic analysis was performed using available R and Python algorithms such as Seurat, Palantir and Scenic. First, we characterized HSPC subpopulations in young donors by unsupervised clustering and manual annotation. Taking the previous findings as reference, we then classified the elderly and pathological HSPC using elastic-net regularization prediction models ( Figure 1A ). Comparison of subpopulations in young and elderly donors confirmed the age-related increase in HSC, as well as reduction of lymphoid progenitors and myelomonocytic compartments. Next, we performed differential expression and pathways analysis to uncover age-associated alterations in the transcriptional profile of cells with the same identity. We found a generalized enrichment in elderly HSPC of pathways activated upon stress and inflammation, such as p53, hypoxia and TNF alpha response. This suggests an age-related increased response to the more inflammatory microenvironment of elderly individuals. On the other hand, young HSPC were enriched for cell cycle activation and proliferation pathways, as well as metabolic processes ( Figure 1B ). Using trajectory analysis, we recovered 6 differentiation paths present in our young donor's data. When compared to the elderly, the greatest changes occurred along the monocytic trajectory. For some genes, expression differed through the whole trajectory, indicating the existence of original transcriptional alterations already at the HSC compartment. On the other hand, expression of myelomonocytic differentiation markers, such as MPO and CD74, reached lower levels in our elderly HSPC data, pointing towards a loss of capacity for monocytic differentiation in progenitors from elderly individuals. Finally, to identify key transcription factors regulating the progression of differentiation routes, we built gene regulatory networks. Overall, we found lower activation levels for transcriptional programs in the early progenitors from elderly donors. In addition, gene ontology enrichment analysis showed that the active networks in the young were enriched for differentiation-related terms, while networks from the elderly were not. These results also indicate an age-associated loss of differentiation capability. We then applied the same computational tools to analyze aberrant hematopoiesis in samples from 2 patients suffering from myeloid malignancies (MDS and AML). On one hand, we subjected the MDS sample to trajectory analysis, focusing on the erythroid lineage. We observed perturbations in the expression dynamics of genes playing a role in erythropoiesis. In the AML sample, we encountered a significant expansion of the most immature cell compartments (HSC, LMPP and MEP). In addition, GRN reconstruction showed up the specific activity of transcription programs activated by factors deregulated during leukemia, such as ZSCAN18 and GFI1. In conclusion, our work described the transcriptional alterations that occur in early hematopoiesis, both during healthy aging and myeloid pathology. We used multiple approaches, such as the study cellular proportions, differentiation trajectories and GRNs. The inclusion of samples from patients with myeloid pathology provided insights into the potential role of single-cell technologies for understanding and treating hematological malignancies. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Sanchez-Guijo:  Gilead: Consultancy, Honoraria; Celgene/Bristol-Myers-Squibb,: Consultancy, Honoraria; Incyte: Consultancy, Honoraria; Pfizer: Consultancy, Honoraria; Takeda: Honoraria, Research Funding; Roche: Consultancy, Honoraria; Amgen: Consultancy, Honoraria; Novartis: Consultancy, Honoraria, Research Funding. Diez-Campelo:  Novartis: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; BMS: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; Takeda Oncology: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau. Valcarcel:  BMS: Consultancy, Honoraria, Speakers Bureau; CELGENE: Consultancy, Honoraria, Speakers Bureau; ASTELLAS: Consultancy, Honoraria, Speakers Bureau; AMGEN: Consultancy, Honoraria, Speakers Bureau; NOVARTIS: Consultancy, Honoraria, Speakers Bureau; TAKEDA: Consultancy, Honoraria, Speakers Bureau; JAZZ: Consultancy, Honoraria, Speakers Bureau; SOBI: Consultancy, Honoraria, Speakers Bureau; SANOFI: Consultancy, Honoraria, Speakers Bureau. Romero:  10X Genomics: Current Employment. Prosper:  Janssen: Honoraria; Oryzon: Honoraria; BMS-Celgene: Honoraria, Research Funding.",
+    "author_names": [
+        "Marina Ainciburu",
+        "Teresa Ezponda",
+        "Nerea Berastegui",
+        "Ana Alfonso Pierola",
+        "Amaia Vilas-Zornoza",
+        "Patxi San Martin-Uriz",
+        "Diego Alignani",
+        "Jose Maria Lamo De Espinosa",
+        "Mikel San Juli\u00e1n",
+        "Tamara Jimenez",
+        "Felix L\u00f3pez Cadenas",
+        "Sandra Muntion",
+        "Fermin Sanchez-Guijo",
+        "Antonieta Molero Yordi",
+        "Mar\u00eda Julia Montoro",
+        "Guillermo Serrano",
+        "Aintzane Diaz-Mazkiaran",
+        "Miren Lasaga",
+        "Gomez-Cabrero David",
+        "Maria Diez-Campelo",
+        "David Valcarcel",
+        "Mikel Hern\u00e1ez",
+        "Juan P. Romero",
+        "Felipe Prosper"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Marina Ainciburu",
+            "author_affiliations": [
+                "Hematology/Oncology, CIMA Universidad de Navarra, IdISNA, Pamplona, Spain",
+                "Centro de Investigaci\u00f3n Biom\u00e9dica en Red de C\u00e1ncer, CIBERONC, Pamplona, Spain"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Teresa Ezponda",
+            "author_affiliations": [
+                "Centro de Investigaci\u00f3n Biom\u00e9dica en Red de C\u00e1ncer, CIBERONC, Madrid, Spain",
+                "\u00c1rea de Oncolog\u00eda, Centro de Investigaci\u00f3n M\u00e9dica Aplicada (CIMA), Universidad de Navarra, IDISNA, Pamplona, Spain"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nerea Berastegui",
+            "author_affiliations": [
+                "Hematology/Oncology, CIMA Universidad de Navarra, IdISNA, Pamplona, Spain"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ana Alfonso Pierola",
+            "author_affiliations": [
+                "Centro de Investigaci\u00f3n Biom\u00e9dica en Red de C\u00e1ncer (CIBERONC), Madrid, Spain",
+                "Hematology and Hemotherapy Department, Cl\u00ednica Universidad de Navarra, Pamplona, Spain"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amaia Vilas-Zornoza",
+            "author_affiliations": [
+                "Centro de Investigaci\u00f3n Biom\u00e9dica en Red de C\u00e1ncer (CIBERONC), Madrid, Spain",
+                "Hemato-Oncology Program, CIMA Universidad de Navarra, Pamplona, Spain"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Patxi San Martin-Uriz",
+            "author_affiliations": [
+                "Centro de Investigaci\u00f3n Biom\u00e9dica en Red de C\u00e1ncer, CIBERONC, Pamplona, Spain",
+                "Hemato-Oncology Program, CIMA Universidad de Navarra, Pamplona, Spain"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Diego Alignani",
+            "author_affiliations": [
+                "Centro de Investigaci\u00f3n Biom\u00e9dica en Red de C\u00e1ncer, CIBERONC, Pamplona, Spain",
+                "Centro De Investigacion Medica Alplicada. Universidad De Navarra., Pamplona, ESP"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jose Maria Lamo De Espinosa",
+            "author_affiliations": [
+                "Clinica Universidad De Navarra, Pamplona, ESP"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mikel San Juli\u00e1n",
+            "author_affiliations": [
+                "Cl\u00ednica Universidad de Navarra, Pamplona, Spain"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tamara Jimenez",
+            "author_affiliations": [
+                "Hospital Universitario de Salamanca-IBSAL, Salamanca, Spain"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Felix L\u00f3pez Cadenas",
+            "author_affiliations": [
+                "Hospital Clinico de Salamanca, Salamanca, Castile and Le\u00f3n, Spain"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sandra Muntion",
+            "author_affiliations": [
+                "Hematology department, Laboratoy of Cellualr Therapy, Hospital Cl\u00ednico Universitario de Salamanca (CAUSA/IBSAL), Salamanca, Spain"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Fermin Sanchez-Guijo",
+            "author_affiliations": [
+                "Hematology Department, Hospital Cl\u00ednico Universitario de Salamanca (CAUSA/IBSAL), Salamanca, Spain"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Antonieta Molero Yordi",
+            "author_affiliations": [
+                "Vall D'Hebron Hospital, Barcelona, Spain"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mar\u00eda Julia Montoro",
+            "author_affiliations": [
+                "Department of hematology, University Hospital Vall d\u00b4Hebron, Barcelona,, BARCELONA, Spain"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Guillermo Serrano",
+            "author_affiliations": [
+                "Computational Biology Program, CIMA Universidad de Navarra, Pamplona, Spain"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Aintzane Diaz-Mazkiaran",
+            "author_affiliations": [
+                "Computational Biology Program, Centro de Investigaci\u00f3n M\u00e9dica Aplicada (CIMA), Universidad de Navarra, IDISNA, Pamplona, Spain"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Miren Lasaga",
+            "author_affiliations": [
+                "Navarrabiomed, Complejo Hospitalario de Navarra (CHN), Universidad P\u00fablica de Navarra (UPNA), IdiSNA, Pamplona, Spain"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gomez-Cabrero David",
+            "author_affiliations": [
+                "Translational bioinformatics unit, NavarraBiomed, Pamplona, Spain"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maria Diez-Campelo",
+            "author_affiliations": [
+                "Hematology Department, Hospital Universitario de Salamanca-IBSAL, Salamanca, Spain"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David Valcarcel",
+            "author_affiliations": [
+                "Hematology Department, Vall Hebron Institute of Oncology (VHIO), Vall d'Hebron, University Hospital, Barcelona, Spain"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mikel Hern\u00e1ez",
+            "author_affiliations": [
+                "Computational Biology Program, CIMA Universidad de Navarra, Pamplona, Spain"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Juan P. Romero",
+            "author_affiliations": [
+                "Hematology/Oncology, CIMA Universidad de Navarra, IdISNA, Pamplona, Spain",
+                "Centro de Investigaci\u00f3n Biom\u00e9dica en Red de C\u00e1ncer, CIBERONC, Pamplona, Spain"
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Felipe Prosper",
+            "author_affiliations": [
+                "Centro de Investigaci\u00f3n Biom\u00e9dica en Red de C\u00e1ncer, CIBERONC, Pamplona, Spain",
+                "Oncohematology Area, Centro de Investigaci\u00f3n M\u00e9dica Aplicada (CIMA), Pamplona, Spain",
+                "Cl\u00ednica Universidad de Navarra, Pamplona, Spain"
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T09:30:04",
+    "is_scraped": "1"
 }
