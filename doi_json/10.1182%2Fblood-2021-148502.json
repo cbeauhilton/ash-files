@@ -1,8 +1,213 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4776",
-    "start_url_page_num": "4776",
     "doi": "https://doi.org/10.1182/blood-2021-148502",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/2714/481372/Unifying-the-Definition-of-High-Risk-in-Multiple?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T16:57:16",
-    "is_scraped": "0"
+    "article_title": "Unifying the Definition of High-Risk in Multiple Myeloma ",
+    "article_date": "November 5, 2021",
+    "session_type": "652.Multiple Myeloma and Plasma cell Dyscrasias: Clinical and Epidemiological",
+    "abstract_text": "Introduction: There is considerable heterogeneity in the clinical outcome of newly diagnosed multiple-myeloma (NDMM) with some patients having a good prognosis while others fail to respond or relapse quickly after therapy progressing rapidly to death. Using risk scores based on clinical, biochemical and genetic features it is possible to predict some of this variation giving an ability to segment the disease into risk strata. Clinical studies have suggested that patients with standard-risk disease have benefited more from the recent advances in therapy compared to those with high-risk disease. The development of clinical trials specifically recruiting patients with high-risk disease features offers the potential to improve the outcome of a subgroup of patients with a very poor clinical outcome. To perform such studies is it important to have a unifying definition of high-risk including standard parameters, group size and outcome of individual risk strata so that clinical trial rigor can be achieved (e.g., common entry criteria, statistical power). In order to understand the size and feasibility of such studies we analyzed the Myeloma Genome Project (MGP) dataset to assess multiple risk factors and scores to determine and compare how they perform as risk stratifiers with each other. Methods: The MGP dataset is a large set of molecular and clinical data from 1273 patient with NDMM. Data were available on clinical variables (Albumin (Alb), B2-microglobulin (B2M), LDH, age), cytogenetic variables [t(4;14), t(14;16), t(14;20), 17p-, TP53 mutations, 1q+ and 1p-] and gene expression analysis (GEP70). A literature search was used to identify risk models used in clinical studies. Survival analysis was performed in R. The median follow-up at the time of analysis was 54.5 (53.2-56.5) months. Results: The median patient age was 66 years, with 641 (50.4%) patients over age 65. The sex ratio (M:F) was 1:0.66. African American, White, and Asian constituted 17%, 76%, and 2%, of cases respectively. 26.7% received a stem cell transplant. We determined the size of the strata and actual risk (measure by the hazard ratios, HR) compared to standard risk cases for both PFS and OS of the various clinical models available, data are summarized in Figure 1 . When looking at individual risk scores, the HR for progression for t(4;14), TP53 inactivation (deletion and mutations), gain(1q), and del(1p) were 1.4, 1.1, 1.3, and 1.1 respectively. When considering overall survival these HR were 1.4, 1.7, 1.5, and 1.4 respectively. We went on to analyze the impact of these events in combination and show that combined, there is increased specificity, especially for OS (HR 2.3-5.1) but they identify small subsets making up <10% of patients. We then analyzed the purely clinical scores (ISS) and combined clinical/genetic scores. We show again, that the more specific risk scores (double hit, Boyd IV, GEP70) identify between 7-13% of cases with HR (2-3.1) for OS. When we looked specifically at the younger patients (=< 65), similar trends were seen with GEP70 by RNA-seq offering one of the most interesting means of identifying HR cases. Conclusion: In this large NDMM dataset, we demonstrate the clear variation in risk groups that occur dependent upon the approach used resulting in heterogeneous levels of risk, strata size, and performance. With the exception of GEP70, none of the single features are sensitive or specific enough to identify all cases. Risk models based on a combination of markers improve the ability to detect true high-risk disease but there remains variability. At a molecular level the inclusion of TP53 inactivation, and 1q+ improve the performance of the ISS. This analysis provides insights into standardizing the definition of high-risk and the generation of consensus definitions for clinical trial entry. Figure 1 Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Braunstein:  Jansen: Membership on an entity's Board of Directors or advisory committees, Research Funding; Celgene: Membership on an entity's Board of Directors or advisory committees, Research Funding; Adaptive: Membership on an entity's Board of Directors or advisory committees; AstraZeneca: Membership on an entity's Board of Directors or advisory committees; Epizyme: Membership on an entity's Board of Directors or advisory committees; Karyopharm: Membership on an entity's Board of Directors or advisory committees; Pfizer: Membership on an entity's Board of Directors or advisory committees; Takeda: Membership on an entity's Board of Directors or advisory committees. Pawlyn:  Celgene / BMS: Honoraria, Membership on an entity's Board of Directors or advisory committees; Janssen: Honoraria, Membership on an entity's Board of Directors or advisory committees; Amgen: Honoraria; Sanofi: Honoraria, Membership on an entity's Board of Directors or advisory committees. Cairns:  Amgen: Research Funding; Merck Sharpe and Dohme: Research Funding; Takeda: Research Funding; Celgene / BMS: Other: travel support, Research Funding. Jackson:  GSK: Consultancy, Honoraria, Speakers Bureau; takeda: Consultancy, Honoraria, Research Funding, Speakers Bureau; amgen: Consultancy, Honoraria, Speakers Bureau; celgene BMS: Consultancy, Honoraria, Research Funding, Speakers Bureau; J and J: Consultancy, Honoraria, Speakers Bureau; oncopeptides: Consultancy; Sanofi: Honoraria, Speakers Bureau. Morgan:  BMS: Membership on an entity's Board of Directors or advisory committees; Jansen: Membership on an entity's Board of Directors or advisory committees; Karyopharm: Membership on an entity's Board of Directors or advisory committees; Oncopeptides: Membership on an entity's Board of Directors or advisory committees; GSK: Membership on an entity's Board of Directors or advisory committees. Davies:  Takeda: Membership on an entity's Board of Directors or advisory committees; Sanofi: Membership on an entity's Board of Directors or advisory committees; Oncopeptides: Membership on an entity's Board of Directors or advisory committees; Constellation: Membership on an entity's Board of Directors or advisory committees; Janssen: Membership on an entity's Board of Directors or advisory committees; Celgene/BMS: Consultancy, Membership on an entity's Board of Directors or advisory committees.",
+    "author_names": [
+        "Ariel Siegel",
+        "Eileen M Boyle",
+        "Patrick Blaney",
+        "Yubao Wang",
+        "Hussein Ghamlouch",
+        "Jinyoung Choi",
+        "Jessica Caro",
+        "Louis Williams",
+        "Beatrice Razzo",
+        "Arnaldo A. Arbini",
+        "Marc Braunstein",
+        "David Kaminetzky",
+        "Daniel Auclair",
+        "Charlotte Pawlyn",
+        "David Cairns",
+        "Graham Jackson",
+        "Brian Walker",
+        "Benedetto Bruno",
+        "Gareth J. Morgan",
+        "Faith E. Davies"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Ariel Siegel",
+            "author_affiliations": [
+                "NYU Langone Health, Myeloma Research Program, Perlmutter Cancer Center, NYU Grossman School of Medicine, New York, NY"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eileen M Boyle",
+            "author_affiliations": [
+                "Perlmutter Cancer Center, New York University Langone Health, New York, NY"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Patrick Blaney",
+            "author_affiliations": [
+                "Perlmutter Cancer Center, NEW YORK UNIVERISITY, New York, NY"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yubao Wang",
+            "author_affiliations": [
+                "Perlmutter Cancer Center,, Myeloma Research Program, New York, NY"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hussein Ghamlouch",
+            "author_affiliations": [
+                "NYU Langone Health, Myeloma Research Program, Perlmutter Cancer Center, NYU Grossman School of Medicine, New York, NY"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jinyoung Choi",
+            "author_affiliations": [
+                "Myeloma Research Program, Laura and Isaar Perlmutter Cancer Center, NEW YORK UNIVERSITY, New York, NY"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jessica Caro",
+            "author_affiliations": [
+                "Perlmutter Cancer Center, New York University Langone Health, New York, NY"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Louis Williams",
+            "author_affiliations": [
+                "Laura & Isaac Perlmutter Cancer Center, NEW YORK UNIVERSITY SCHOOL OF MEDICINE, New York, NY"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Beatrice Razzo",
+            "author_affiliations": [
+                "Myeloma Research Program, NYU Langone's Perlmutter Cancer Center, New York, NY"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Arnaldo A. Arbini",
+            "author_affiliations": [
+                "NYU Langone Medical Center, New York, NY"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marc Braunstein",
+            "author_affiliations": [
+                "Myeloma Research Program, Perlmutter Cancer Center, NYU Langone Health, New York, NY"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David Kaminetzky",
+            "author_affiliations": [
+                "Myeloma Research Program, Perlmutter Cancer Center, NYU Langone Health, New York, NY"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Daniel Auclair",
+            "author_affiliations": [
+                "The MMRF, Norwalk, CT"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Charlotte Pawlyn",
+            "author_affiliations": [
+                "Institute of Cancer Research, Sutton, United Kingdom"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David Cairns",
+            "author_affiliations": [
+                "Leeds Cancer Research UK Clinical Trials Unit, Leeds Institute of Clinical Trials Research, University of Leeds, Leeds, United Kingdom"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Graham Jackson",
+            "author_affiliations": [
+                "Department of Haematology, NCCC Freeman Road Hospital, Newcastle Upon Tyne, United Kingdom"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brian Walker",
+            "author_affiliations": [
+                "Division of Hematology Oncology, Melvin and Bren Simon Comprehensive Cancer Center,, Indianapolis, IN"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Benedetto Bruno",
+            "author_affiliations": [
+                "Blood and Marrow Transplantation and Cellular Therapy, New York University Langone Health, New York, NY"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gareth J. Morgan",
+            "author_affiliations": [
+                "Myeloma Research Program, Perlmutter Cancer Center, NYU Langone Health, New York, NY"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Faith E. Davies",
+            "author_affiliations": [
+                "Laura & Isaac Perlmutter Cancer Center, NEW YORK UNIVERSITY SCHOOL OF MEDICINE, New York, NY"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T06:44:14",
+    "is_scraped": "1"
 }

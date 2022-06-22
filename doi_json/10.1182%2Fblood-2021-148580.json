@@ -1,8 +1,194 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4776",
-    "start_url_page_num": "4776",
     "doi": "https://doi.org/10.1182/blood-2021-148580",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/2833/481315/Prediction-of-Early-Onset-Cytokine-Release?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T16:57:16",
-    "is_scraped": "0"
+    "article_title": "Prediction of Early Onset Cytokine Release Syndrome and Neurologic Events after Axicabtagene Ciloleucel in Large B-Cell Lymphoma Based on Machine Learning Algorithms ",
+    "article_date": "November 5, 2021",
+    "session_type": "704.Cellular Immunotherapies: Clinical",
+    "abstract_text": "Background: In ZUMA-1, the pivotal study of axicabtagene ciloleucel (axi-cel) in patients with refractory large B-cell lymphoma (LBCL), Grade \u22653 cytokine release syndrome (CRS) and neurologic events (NEs) occurred in 13% and 28% of patients, respectively, and required intensive in-patient management (Neelapu, et al. NEJM. 2017;377:2531). With increased safety experience, the management of CRS and NEs has been under evaluation in several exploratory safety management cohorts of ZUMA-1. Cohort 4 evaluated levetiracetam prophylaxis and earlier corticosteroid and/or tocilizumab use on the incidence and severity of CRS and NEs (Topp, et al. Br J Haematol. 2021. In press). The impact of adding prophylactic corticosteroids to the Cohort 4 toxicity management regimen was assessed in Cohort 6 (Oluwole, et al. Br J Haematol. 2021). Notably, some treated patients have early versus late onset of CRS or NEs, warranting distinct management. To facilitate toxicity management, we developed predictive algorithms for early onset acute toxicities (within 3-4 days after axi-cel) based on machine learning from ZUMA-1 data. Methods: This post hoc analysis included patients from ZUMA-1 Phase 1 and Phase 2 Cohorts 1, 2, 4, and 6. Covariates (>1500; 227 measured before axi-cel infusion) included baseline product, patient and tumor characteristics, and proinflammatory soluble blood biomarker levels. Data from patients in Cohorts 1, 2, and 4 were randomly divided into training (70%) and testing (30%) sets. Univariate and multivariate analyses and clinical feasibility considerations were applied to select a covariate subset for further analysis. Machine learning (eg, logistic regression, random forest, XGBoost, and AdaBoost classifier) was applied to 3 categories of covariates (1, clinical; 2, mechanistic [eg, product attributes, inflammatory blood biomarkers]; 3, hybrid of 1 and 2) to build best-performing models (predictive performance evaluated by area under the curve [AUC] on test data). Optimal cutoffs for predictive scores were selected by receiver operating characteristic (ROC) or classification tree analysis. Data from patients in Cohort 6 were included to validate the best-performing model generated using training data. Results: Multivariate analysis and machine learning from data obtained from 149 evaluable patients in ZUMA-1 Cohorts 1, 2, and 4 led to several comparable predictive models for early onset CRS or NEs (best-performing models with ROC AUC >0.8 in training and >0.7 in testing). The covariates in best-performing models included product cell viability, centrally measured Day 0 (before axi-cel treatment) IL-15 and CCL2 serum levels and locally measured blood cell counts, blood chemistry analytes, tumor burden, and serum lactate dehydrogenase level. Best-performing models with 0.7 in testing) to larger best-performing models. Classification trees with splitting based on Day 0 IL-15 and product cell viability showed a potential to categorize patients by early versus late onset of toxicities (specificity >0.85). Conclusions: Machine learning applied to covariates measured before axi-cel infusion yielded predictive models for early onset CRS or NEs that can be used for toxicity prediction, monitoring, and management. High performing hybrid or mechanistic models corroborated the importance of T-cell viability (product cell fitness) and conditioning-related elevation of factors (IL-15 and CCL2) that influence toxicities. This algorithm may be further optimized in the context of improved toxicity management and by introducing monitoring of vitals early posttreatment. Disclosures Song:  Kite, a Gilead Company: Current Employment; Gilead Sciences: Current equity holder in publicly-traded company. Hu:  Kite, a Gilead Company: Current Employment. Neelapu:  Takeda Pharmaceuticals and related to cell therapy: Patents & Royalties; Kite, a Gilead Company, Bristol Myers Squibb, Merck, Poseida, Cellectis, Celgene, Karus Therapeutics, Unum Therapeutics (Cogent Biosciences), Allogene, Precision BioSciences, Acerta and Adicet Bio: Research Funding; Kite, a Gilead Company, Merck, Bristol Myers Squibb, Novartis, Celgene, Pfizer, Allogene, Kuur, Incyte, Precision BioSciences, Legend, Adicet Bio, Calibr, and Unum Therapeutics: Other: personal fees; Kite, a Gilead Company, Merck, Bristol Myers Squibb, Novartis, Celgene, Pfizer, Allogene Therapeutics, Cell Medica/Kuur, Incyte, Precision Biosciences, Legend Biotech, Adicet Bio, Calibr, Unum Therapeutics and Bluebird Bio: Honoraria. Locke:  Gerson Lehrman Group: Consultancy; Amgen: Consultancy, Other: Scientific Advisory Role; EcoR1: Consultancy; Emerging Therapy Solutions: Consultancy; Cowen: Consultancy; Umoja: Consultancy, Other; Iovance Biotherapeutics: Consultancy, Other: Scientific Advisory Role; Kite, a Gilead Company: Consultancy, Other: Scientific Advisory Role, Research Funding; Janssen: Consultancy, Other: Scientific Advisory Role; Novartis: Consultancy, Other, Research Funding; Takeda: Consultancy, Other; GammaDelta Therapeutics: Consultancy, Other: Scientific Advisory Role; Allogene Therapeutics: Consultancy, Other: Scientific Advisory Role, Research Funding; Bluebird Bio: Consultancy, Other: Scientific Advisory Role; Wugen: Consultancy, Other; Cellular Biomedicine Group: Consultancy, Other: Scientific Advisory Role; Calibr: Consultancy, Other: Scientific Advisory Role; BMS/Celgene: Consultancy, Other: Scientific Advisory Role; Legend Biotech: Consultancy, Other; Moffitt Cancer Center: Patents & Royalties: field of cellular immunotherapy. Jacobson:  Lonza: Consultancy, Honoraria, Other: Travel support; Kite, a Gilead Company: Consultancy, Honoraria, Other: Travel support; Axis: Speakers Bureau; Nkarta: Consultancy, Honoraria; AbbVie: Consultancy, Honoraria; Pfizer: Consultancy, Honoraria, Other: Travel support, Research Funding; Novartis Pharmaceuticals Corporation: Consultancy, Honoraria, Other: Travel support; Clinical Care Options: Speakers Bureau; Celgene: Consultancy, Honoraria, Other: Travel support; Humanigen: Consultancy, Honoraria, Other: Travel support; Precision Biosciences: Consultancy, Honoraria, Other: Travel support. Miklos:  Adaptive Biotechnologies, Novartis, Juno/Celgene-BMS, Kite, a Gilead Company, Pharmacyclics-AbbVie, Janssen, Pharmacyclics, AlloGene, Precision Bioscience, Miltenyi Biotech, Adicet, Takeda: Membership on an entity's Board of Directors or advisory committees; Kite, a Gilead Company, Amgen, Atara, Wugen, Celgene, Novartis, Juno-Celgene-Bristol Myers Squibb, Allogene, Precision Bioscience, Adicet, Pharmacyclics, Janssen, Takeda, Adaptive Biotechnologies and Miltenyi Biotechnologies: Consultancy; Pharmacyclics: Patents & Royalties; Pharmacyclics, Amgen, Kite, a Gilead Company, Novartis, Roche, Genentech, Becton Dickinson, Isoplexis, Miltenyi, Juno-Celgene-Bristol Myers Squibb, Allogene, Precision Biosciences, Adicet, Adaptive Biotechnologies: Research Funding. Oluwole:  Kite, a Gilead Company: Consultancy, Research Funding; Janssen: Consultancy; Pfizer: Consultancy; Curio Science: Consultancy. Kersten:  Takeda: Research Funding; Novartis: Consultancy, Honoraria, Other: Travel support; Miltenyi Biotec: Consultancy, Honoraria, Other: Travel support; BMS/Celgene: Consultancy, Honoraria; Roche: Consultancy, Honoraria, Other: Travel support, Research Funding; Celgene: Research Funding; Kite, a Gilead Company: Consultancy, Honoraria, Other: Travel support, Research Funding. Topp:  Universitatklinikum Wurzburg: Current Employment; Amgen: Consultancy, Research Funding; Macrogeniecs: Research Funding; Regeneron: Consultancy, Research Funding; Gilead: Research Funding; Roche: Consultancy, Research Funding; Novartis: Consultancy; Kite, a Gilead Company: Consultancy, Research Funding; Celgene: Consultancy, Research Funding; Janssen: Consultancy. Kim:  Gilead Sciences: Current equity holder in publicly-traded company; Kite, a Gilead Company: Current Employment. Singh:  Kite, a Gilead Company: Current Employment. Andrade:  Kite, a Gilead Company: Current Employment, Other: Leadership role. Huang:  Kite, a Gilead Company: Current Employment. Xue:  Kite, a Gilead Company: Current Employment; Gilead Sciences: Current equity holder in publicly-traded company. Schupp:  Kite, a Gilead Company: Current Employment, Honoraria, Other: Travel support; Gilead Sciences: Current equity holder in publicly-traded company. Nahas:  Kite: Current Employment; Gilead: Current equity holder in publicly-traded company. Shen:  Gilead Sciences: Current equity holder in publicly-traded company; Atara: Current Employment, Current equity holder in publicly-traded company, Other: Leadership role, Patents & Royalties; Kite, a Gilead Company: Current Employment, Other: Leadership role, Patents & Royalties. Bot:  Gilead Sciences: Consultancy, Current equity holder in publicly-traded company, Other: Travel support; Kite, a Gilead Company: Current Employment.",
+    "author_names": [
+        "Qinghua Song",
+        "Tao Hu",
+        "Sattva S. Neelapu",
+        "Frederick L. Locke",
+        "Caron Jacobson",
+        "David B. Miklos",
+        "Olalekan O. Oluwole",
+        "Marie Jos\u00e9 Kersten",
+        "Max Topp",
+        "Jenny J. Kim",
+        "Kanwarjit Singh",
+        "Jorge Andrade",
+        "Lei Huang",
+        "Allen Xue",
+        "Marco Schupp",
+        "Myrna Nahas",
+        "Rhine R. Shen",
+        "Adrian Bot"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Qinghua Song",
+            "author_affiliations": [
+                "Kite, a Gilead Company, Santa Monica, CA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tao Hu",
+            "author_affiliations": [
+                "Kite, a Gilead Company, Santa Monica, CA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sattva S. Neelapu",
+            "author_affiliations": [
+                "The University of Texas MD Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Frederick L. Locke",
+            "author_affiliations": [
+                "Moffitt Cancer Center, Tampa, FL"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Caron Jacobson",
+            "author_affiliations": [
+                "Dana-Farber Cancer Institute, Boston, MA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David B. Miklos",
+            "author_affiliations": [
+                "Stanford University School of Medicine, Stanford, CA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Olalekan O. Oluwole",
+            "author_affiliations": [
+                "Vanderbilt-Ingram Cancer Center, Nashville, TN"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marie Jos\u00e9 Kersten",
+            "author_affiliations": [
+                "on behalf of HOVON/LLPC (Lunenburg Lymphoma Phase I/II Consortium), Amsterdam, Netherlands",
+                "University of Amsterdam, Amsterdam UMC, Amsterdam, Netherlands"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Max Topp",
+            "author_affiliations": [
+                "Medizinische Klinik und Poliklinik II, Universit\u00e4tsklinikum W\u00fcrzburg, W\u00fcrzburg, Germany"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jenny J. Kim",
+            "author_affiliations": [
+                "Kite, a Gilead Company, Santa Monica, CA"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kanwarjit Singh",
+            "author_affiliations": [
+                "Kite, a Gilead Company, Santa Monica, CA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jorge Andrade",
+            "author_affiliations": [
+                "Kite, a Gilead Company, Santa Monica, CA"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lei Huang",
+            "author_affiliations": [
+                "Kite, a Gilead Company, Santa Monica, CA"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Allen Xue",
+            "author_affiliations": [
+                "Kite, a Gilead Company, Santa Monica, CA"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marco Schupp",
+            "author_affiliations": [
+                "Kite, a Gilead Company, Santa Monica, CA"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Myrna Nahas",
+            "author_affiliations": [
+                "Kite, a Gilead Company, Santa Monica, CA"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rhine R. Shen",
+            "author_affiliations": [
+                "Kite, a Gilead Company, Santa Monica, CA"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Adrian Bot",
+            "author_affiliations": [
+                "Kite, a Gilead Company, Santa Monica, CA"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T06:43:29",
+    "is_scraped": "1"
 }

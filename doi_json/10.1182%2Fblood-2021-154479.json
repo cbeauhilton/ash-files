@@ -1,8 +1,66 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4879",
-    "start_url_page_num": "4879",
     "doi": "https://doi.org/10.1182/blood-2021-154479",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/1191/480410/In-silico-Prediction-Followed-By-I-n-Vitro?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T21:18:39",
-    "is_scraped": "0"
+    "article_title": " In silico Prediction Followed By I n Vitro validation Identifies a Survivin Inhibitor and an MCL-1 Inhibitor As a Potent Secondary Drug Against Refractory or Relapsed Mantle Cell Lymphoma ",
+    "article_date": "November 5, 2021",
+    "session_type": "605.Molecular Pharmacology and Drug Resistance: Lymphoid Neoplasms",
+    "abstract_text": "Mantle cell lymphoma (MCL) is an aggressive lymphoid neoplasm that develops from malignant B-lymphocytes in the outer edge or mantle zone of a lymph node. This is a sub-type of B-cell non-Hodgkin lymphoma characterized by rapid clinical progression and poor response rate to conventional chemotherapeutic drugs with recurrent relapse resulting in a short estimated 5-year overall survival (OS) of 2-5 years depending on the clinical risk. Combination therapies such as R-CHOP, R-DHAP, Hyper-CVAD, VcR-CAP constitute the front-line chemotherapeutic treatment landscape for MCL. Despite good initial response to the combination regimens, all patients develop resistance over time. The Bruton's tyrosine kinase inhibitor (BTKi) Ibrutinib and the proteasome inhibitor (PI) Bortezomib are FDA-approved therapies for refractory or relapsed (R/R) MCL with demonstrated high initial response rate in clinical trials. However, highly variable treatment response along with dose-limiting toxicities has limited the efficacy in real-world settings with the median progression-free survival (PFS) of <15 months and Over-al of 1-2 years. Thus, the identification of novel drugs that function either alone or as combination to curb the oncogenic progression as well as to reduce drug-associated toxicities is of high clinical significance. We have designed a novel optimization-regularization-based computational prediction algorithm called \"secDrug\" that uses large-scale pharmacogenomics databases like the GDSC1000 to identify novel secondary drugs for the management of treatment-resistant B-cell malignancies. We hypothesize that combination of our predicted secDrugs with BTKi/ PI will be useful in curbing oncogenic progressions of R/R MCL and abrogate drug resistance through simultaneous inhibition of multiple oncogenic factors/pathways. When applied to BTKi/PI-resistant R/R MCL, the top predicted secondary drugs (secDrugs) were YM155 (Survivin inhibitor) and S63845 (selective MCL-1 inhibitor). Interestingly, both Survivin and MCL-1 are reported to be over-expressed in MCL, and their expression is strongly correlated with the oncogenic progression and survivability of the patients. To validate our in-silico predictions, we performed in vitro cytotoxicity assays with the top predicted secDrugs (YM155 and S63845) as single agents (IC50 for YM155 4.87\u00b10.66 nM, for S63845 0.9\u00b11.1 uM) as well as in combination with BTKi/PI against a panel of MCL cell lines representing PI/BTKi sensitive, innate resistant (representing refractory MCL) and clonally-derived acquired resistant (representing relapsed MCL). Our results showed that the YM155 and S63845 exhibited significant synergistic cell killing activities (Combination index/ CI value of 0.31\u00b10.49 as calculated using Chou-Talalay's CI theorem, C.I>1 depicts synergism) alone and in combination with Bortezomib (PI) and Ibrutinib (BTKi), especially in R/R MCL cell lines. Further, our results also showed that both YM155 and S63845 in combination with BTKi/PI were able to significantly lower the effective dose of both BTKi/PI required to achieve desired therapeutic response by >12 times (Dose Reduction Index or DRI for YM155 in combination is 15.87\u00b14.93; DRI for S63845 in combination is 12.34\u00b12.67), thereby making the cell lines relatively more BTKi/PI sensitive. Next, we performed next-generation RNA sequencing analysis to identify mechanisms of secDrug action and synergy. Our Gene expression profiling and Ingenuity pathway analysis of the RNAseq data among YM155-treated MCL cell lines revealed eIF4-p70S6K signaling and mTOR signaling as the top canonical pathways. Our study thus identified YM155 and S63845 as potential novel candidates for repurposing as secondary drugs in combination with BTKi/PI for the treatment of R/R MCL. Currently, we are exploring the probable subclonal molecular mechanisms governing the synergistic drug action by using single-cell transcriptomics analysis. As both YM155 and S63845 have reported activity against cancer stem-ness, we will further investigate the effect of our novel drugs on the cancer stem-like cells in MCL, which have a potential role in treatment resistance. The secDrug algorithm promises to serve as a universal prototype for the discovery of novel drug combination regimens for treatment outcomes in any cancer type by enhancing sensitivity or overcoming resistance to standard of care drugs. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "author_names": [
+        "Sayak Chakravarti",
+        "Ujjal Kumar Mukherjee",
+        "Suman Mazumder",
+        "Timothy Moore",
+        "Amit Kumar Mitra"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Sayak Chakravarti",
+            "author_affiliations": [
+                "Harrison School of Pharmacy, Auburn, AUBURN, AL"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ujjal Kumar Mukherjee",
+            "author_affiliations": [
+                "University of Illinois - Urbana Champaign, Champaign, IL"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Suman Mazumder",
+            "author_affiliations": [
+                "Harrison School of Pharmacy, Auburn University, Auburn, AL",
+                "Center for Pharmacogenomics and Integrated Omics Initiative, Auburn University, Auburn, AL"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Timothy Moore",
+            "author_affiliations": [
+                "Harrison School of Pharmacy, Auburn University, Auburn, AL"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amit Kumar Mitra",
+            "author_affiliations": [
+                "Harrison School of Pharmacy, Auburn University, Auburn, AL",
+                "Center for Pharmacogenomics and Integrated Omics Initiative, Auburn University, Auburn, AL",
+                "UAB Comprehensive Cancer Center, University of Alabama at Birmingham School of Medicine, Birmingham, AL"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T06:48:41",
+    "is_scraped": "1"
 }

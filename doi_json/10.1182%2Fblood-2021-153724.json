@@ -1,8 +1,108 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4767",
-    "start_url_page_num": "4767",
     "doi": "https://doi.org/10.1182/blood-2021-153724",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/449/478277/Integrative-Genomic-Analysis-Uncovers-Unique?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T16:27:53",
-    "is_scraped": "0"
+    "article_title": "Integrative Genomic Analysis Uncovers Unique Diffuse Large B Cell Lymphoma (DLBCL) Immune Environments and Identifies Associations with Specific Oncogenic Alterations ",
+    "article_date": "November 5, 2021",
+    "session_type": "622.Lymphomas: Translational-Non-Genetic",
+    "abstract_text": "Introduction: Most patients diagnosed with diffuse large B cell lymphoma (DLBCL) are cured with combination chemoimmunotherapy, but 40% will develop relapsed or refractory (r/r) disease, which is often associated with a poor clinical outcome. PD-1 blockade therapy has been investigated in r/r DLBCL; however, response rates in unselected DLBCL patients are disappointing, highlighting the need for deeper understanding of DLBCL immune landscapes, as well as mechanisms that regulate the immune response to checkpoint blockade therapy (CBT) in this disease. In solid cancers, tumor-cell intrinsic oncogenic signaling strongly influences the immune environment and impacts clinical response to CBT. Despite the recent publication of large-scale genomic datasets in DLBCL, the impact of oncogenic signaling on the immune environment remains to be fully elucidated. In this study, we aimed to characterize immune landscapes associated with DLBCL, as well as the role of lymphoma-intrinsic alterations on shaping the immune environment in this disease. Methods: Using gene set variation analysis (GSVA) in a large cohort of primary DLBCLs (n = ~900), a sample-wise enrichment score was generated for gene sets associated with tumor infiltrating lymphocytes. Gene sets were manually curated to include signatures relating to IFN\u03b3 response, T helper cell subsets, CD8 + T cell exhaustion, macrophages, and dendritic cells. A DLBCL cell-of-origin (COO) signature was also included in the GSVA to control for the transcriptional and genomic effects of COO. Samples were hierarchically clustered into related groups. Multispectral immunofluorescence (mIF) for canonical T cell markers was used to confirm GSVA clustering. To mechanistically validate our findings, CRISPR/Cas9 gene editing was used to modulate candidate oncogenes and tumor suppressors genes (TSGs) in the syngeneic A20 murine lymphoma model. Results: GSVA performed on transcriptomes from a large genomic DLBCL dataset revealed four distinct DLBCL immune clusters, termed \"ABC hot\", \"ABC cold\", \"GCB hot\" and \"GCB cold\", defined by differential expression scores of immune related gene sets (Fig 1A). Concordant with our previous work, DLBCLs with PD-L1 gene amplifications, which are associated with a \"T-cell inflamed\" tumor microenvironment, were enriched in the \"ABC hot\" cluster (Fig 1B) . Conversely, double hit signature DLBCLs, known to be associated with decreased immune cell infiltration and a GCB COO, were enriched in \"GCB cold\" DLBCLs (Fig 1C) . In an internal cohort of diagnostic DLBCL samples (n = 90) for whom RNA sequencing (RNAseq) and FFPE tissue were available, mIF analysis showed that both \"ABC hot\" and \"GCB hot\" DLBCLs had significantly higher ratios of CD8 + T cells to lymphoma cells compared to cold DLBCLs. \"ABC hot\" DLBCLs also had a significantly higher CD4 + T cell to lymphoma cell ratio ( Fig 1D) . Importantly, several mutations that correlated with particular DLBCL immune clusters were identified. The \"ABC cold\" cluster was significantly enriched for loss-of-function (LOF) mutations in TMEM30A and MYD88, whereas LOF mutations in ATM and FOXO1 were commonly observed in \"GCB cold\" DLBCLs. Finally, LOF mutations in SOCS1 and B2M were significantly enriched in \"GCB hot\" DLBCLs (Fig 1E, 1F) . As LOF SOCS1 mutations were strongly associated with \"GCB hot\" DLBCLs and are also prevalent in other CBT-sensitive lymphomas, we hypothesized that SOCS1 LOF mutations would enhance lymphoma cell vulnerability to CBT due to increased IFN\u03b3 sensitivity resulting from unopposed JAK/STAT activation. To test this hypothesis, we generated Socs1 deficient A20 lymphoma cells. Compared to A20 WT , A20 Socs1-/- cells were characterized by increased pStat1 levels upon IFN\u03b3 stimulation ( Fig 1G) . Interestingly, A20 Socs1-/- tumors showed increased sensitivity to \u03b1-PD1 therapy compared to A20 WT in syngeneic hosts. Together, these data suggest that tumor-cell intrinsic JAK/STAT activation via SOCS1 -/- increases lymphoma cell sensitivity to IFN\u03b3 and \u03b1-PD1 therapy ( Fig 1H) . Conclusion: We have developed a novel immunogenomic platform to define the role of tumor-cell intrinsic alterations on the immune landscape of DLBCL. Confirmatory studies using in vitro and in vivo models validated the effect of key oncogenes and TSGs on the tumor microenvironment, and suggest these candidate genes may impact response to CBT in DLBCL. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Smith:  Alexion, AstraZeneca Rare Disease: Other: Study investigator; Celgene, Genetech, AbbVie: Consultancy. Steidl:  Trillium Therapeutics: Research Funding; Curis Inc.: Consultancy; Epizyme: Research Funding; Seattle Genetics: Consultancy; Bayer: Consultancy; AbbVie: Consultancy; Bristol-Myers Squibb: Research Funding. Kline:  Seagen: Membership on an entity's Board of Directors or advisory committees; Morphosys: Consultancy, Membership on an entity's Board of Directors or advisory committees; Kite/Gilead: Speakers Bureau; Karyopharm: Membership on an entity's Board of Directors or advisory committees; Merck: Consultancy, Research Funding; Verastem: Research Funding; SecuraBio: Membership on an entity's Board of Directors or advisory committees; Regeneron: Membership on an entity's Board of Directors or advisory committees.",
+    "author_names": [
+        "Sravya Tumuluru",
+        "James Godfrey",
+        "Jovian Yu",
+        "Alan Cooper",
+        "Xiufen Chen",
+        "Gerben Duns",
+        "Sonali M. Smith",
+        "Christian Steidl",
+        "Justin Kline"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Sravya Tumuluru",
+            "author_affiliations": [
+                "Committee on Cancer Biology, University of Chicago, Chicago, IL"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "James Godfrey",
+            "author_affiliations": [
+                "Department of Hematology and Hematopoietic Cell Transplantation, City of Hope, Duarte, CA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jovian Yu",
+            "author_affiliations": [
+                "Department of Medicine, Section of Hematology/Oncology, University of Chicago, Chicago, IL",
+                "Committee on Genetics, Genomics and Systems Biology, University of Chicago, Chicago, IL"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alan Cooper",
+            "author_affiliations": [
+                "University of Chicago, Chicago, IL"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xiufen Chen",
+            "author_affiliations": [
+                "Department of Medicine, Section of Hematology/Oncology, University of Chicago, Chicago, IL"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gerben Duns",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, British Columbia Cancer, Vancouver, Canada"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sonali M. Smith",
+            "author_affiliations": [
+                "Department of Medicine, Section of Hematology/Oncology, University of Chicago, Chicago, IL",
+                "Comprehensive Cancer Center, University of Chicago Medicine, Chicago, IL",
+                "The University of Chicago Medical Center, Chicago, IL"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christian Steidl",
+            "author_affiliations": [
+                "Centre for Lymphoid Cancer, British Columbia Cancer, Vancouver, Canada",
+                "Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, Canada"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Justin Kline",
+            "author_affiliations": [
+                "Committee on Cancer Biology, University of Chicago, Chicago, IL",
+                "Department of Medicine, Section of Hematology/Oncology, University of Chicago, Chicago, IL"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T06:36:54",
+    "is_scraped": "1"
 }
