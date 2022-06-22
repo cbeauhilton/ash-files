@@ -1,8 +1,99 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4783",
-    "start_url_page_num": "4783",
     "doi": "https://doi.org/10.1182/blood-2021-153989",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/1023/481030/Predicting-Chronic-Immune-Thrombocytopenia-in?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T16:57:43",
-    "is_scraped": "0"
+    "article_title": "Predicting Chronic Immune Thrombocytopenia in Pediatric Patients at Disease Presentation: Leveraging Clinical and Laboratory Characteristics Via Machine Learning Models ",
+    "article_date": "November 5, 2021",
+    "session_type": "311.Disorders of Platelet Number or Function: Clinical and Epidemiological",
+    "abstract_text": "Introduction: Pediatric immune thrombocytopenia (ITP) is the most common acquired bleeding disorder of childhood with 3-4,000 new cases annually. While most children experience self-resolving disease, 25% go on to have chronic ITP (cITP) with thrombocytopenia persisting beyond one year. Given the likelihood of spontaneous resolution and potential side effects of initial treatments, standard management for patients without severe or life-threatening bleeding is often observation. However, if it were possible to predict development of chronic disease, earlier initiation of long-term therapies could minimize bleeding risk, reduce fatigue, ease activity restrictions, and mitigate the poorer health-related quality of life that characterizes cITP. Though associations between variables and cITP have been reported, none are strong enough alone to dictate clinical decisions regarding ITP management. Machine learning (ML) is a set of statistical tools that can be utilized to make predictions or cluster data from large datasets. ML models are well suited to complex patterns within clinical datasets. ML can incorporate greater numbers of variables than could be used with traditional statistical models and can assess the impact of variables contingent upon the state of multiple other variables. In this study, we used a large clinical dataset to test a series of ML models on their ability to predict cITP development. Methods: Our group identified 696 pediatric ITP patients cared for at Texas Children's Hematology Center (TXCH) from 2012 to 2020. Of these, 332 had confirmed acute ITP (self-resolved disease in <1 year), and 253 were diagnosed with cITP. Demographic information, presenting clinical features, and laboratory data drawn within 1 month of diagnosis were tabulated for this cohort. Variables included age, gender, race, ethnicity, presence of primary ITP (defined as ITP that is not caused by another underlying disorder), presenting platelet count, absolute leukocyte count, absolute lymphocyte count, absolute eosinophil count, immature platelet fraction (IPF), mean platelet volume (MPV), direct antiglobulin test (DAT), anti-nuclear antibody (ANA) titer, and immunoglobulin levels. We tested the capabilities of several ML methods in predicting cITP using these presenting clinical and laboratory parameters. We performed a 10-fold cross validation to compare average performance metrics of a 100 tree random forest method against logistic ridge regression, support vector machine (SVM), na\u00efve bayes, and AdaBoost methods. We tested feature importance of clinical variables with relation to cITP using the Gini index. Cross-validated ML method performance was compared using the area under the curve (AUC) receiver operator curve (ROC), as well as F1 statistic, classification accuracy (CA), precision or positive predictive value, and recall or sensitivity. Analyses was performed using Orange v2.7 (https://orangedatamining.com). Results: The top five most informative clinical features by Gini index were primary ITP, MPV, IPF, absolute lymphocyte count, and ANA titer. Comparing our five ML methods after 10-fold cross validation, the 100 tree random forest model was the top performing method on average (AUC = 0.795, CA = 0.737, F1=0.734, Precision = 0.738, Recall = 0.737). With an AUC of approximately 0.8, there is an 80% chance the model will accurately distinguish cITP from aITP. A close second performing method was the na\u00efve bayes (AUC 0.792, CA = 0.698, F1 = 0.671, Precision = 0.737, Recall = 0.698). We present the average cross validated AUC ROC curves and the full ML method test statistics in Figure 1. Conclusions: Clinical and laboratory features present at the time of initial ITP diagnosis can be utilized to predict the development of cITP in pediatric patients using ML models. Ensemble decision tree methods are promising candidates for further ML method refinement, as AUC ROC of predicting cITP with a 100 tree RF model is > 0.7. Our group is expanding this model through incorporation of genotyping data from both acute and cITP patients. Ultimately, these ML models, in the form of an online tool, could be applied to predict cITP, allowing providers to initiate upfront interventions for those ITP patients who are unlikely to experience spontaneous disease resolution. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Kirk:  Biomarin: Honoraria. Powers:  American Regent: Research Funding. Despotovic:  Agios: Consultancy; Apellis: Consultancy; UpToDate: Patents & Royalties: Royalties; Novartis: Consultancy, Research Funding.",
+    "author_names": [
+        "Taylor Olmsted Kim",
+        "Derek MacMath",
+        "Rowland W Pettit",
+        "Susan E Kirk",
+        "Amanda B Grimes",
+        "Megan M Gilbert",
+        "Jacquelyn M. Powers",
+        "Jenny M. Despotovic"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Taylor Olmsted Kim",
+            "author_affiliations": [
+                "Department of Pediatrics, Section of Hematology/Oncology, Baylor College of Medicine, Houston, TX",
+                "Texas Children's Cancer and Hematology Centers, Houston, TX"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Derek MacMath",
+            "author_affiliations": [
+                "Department of Pediatrics, Baylor College of Medicine, Houston, TX"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rowland W Pettit",
+            "author_affiliations": [
+                "Institute of Clinical and Translational Research, Baylor College of Medicine, Houston, TX"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Susan E Kirk",
+            "author_affiliations": [
+                "Department of Pediatrics, Section of Hematology/Oncology, Baylor College of Medicine, Houston, TX",
+                "Texas Children's Cancer and Hematology Centers, Houston, TX"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amanda B Grimes",
+            "author_affiliations": [
+                "Department of Pediatrics, Section of Hematology/Oncology, Baylor College of Medicine, Houston, TX",
+                "Texas Children's Cancer and Hematology Centers, Houston, TX"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Megan M Gilbert",
+            "author_affiliations": [
+                "Department of Pediatrics, Section of Hematology/Oncology, Baylor College of Medicine, Houston, TX",
+                "Texas Children's Cancer and Hematology Centers, Houston, TX"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jacquelyn M. Powers",
+            "author_affiliations": [
+                "Department of Pediatrics, Section of Hematology/Oncology, Baylor College of Medicine, Houston, TX",
+                "Texas Children's Cancer and Hematology Centers, Houston, TX"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jenny M. Despotovic",
+            "author_affiliations": [
+                "Department of Pediatrics, Section of Hematology/Oncology, Baylor College of Medicine, Houston, TX",
+                "Texas Children's Cancer and Hematology Centers, Houston, TX"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T02:43:00",
+    "is_scraped": "1"
 }

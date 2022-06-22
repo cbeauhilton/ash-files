@@ -1,8 +1,63 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4747",
-    "start_url_page_num": "4747",
     "doi": "https://doi.org/10.1182/blood-2021-150739",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3969/481082/CRISPR-Cas9-Editing-Induces-High-Rates-of?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T15:21:36",
-    "is_scraped": "0"
+    "article_title": "CRISPR/Cas9 Editing Induces High Rates of Unintended Large Gene Modifications in HSPCs from Patients with Sickle Cell Disease ",
+    "article_date": "November 5, 2021",
+    "session_type": "801.Gene Therapies",
+    "abstract_text": "Introduction: Several gene editing strategies have been developed to cure sickle cell disease (SCD), including the use of CRISPR/Cas9 to edit beta-globin (HBB), gamma-globin (HBG), or B-cell lymphoma/leukemia 11A (BCL11A) in hematopoietic stem and progenitor cells (HSPCs) from patients with SCD. Although high gene-editing rates can be achieved and off-target effects reduced, new challenges in applying the gene-editing strategies, including unintended gene modifications, need to be addressed in order to cure SCD with high efficacy and safety. To date, due to limitations in sequencing methods, studies on CRISPR/Cas9 genome editing for treating SCD only identified small insertions/deletions (INDELs); the extent and consequences of unintended large gene modifications are generally unknown. Here we provide accurate quantification and profiling of unintended gene modifications due to Cas9 induced double-stranded breaks (DSBs) in SCD HSPCs, including large deletions, insertions, and complex chromosomal arrangements, and the comparison of different approaches. Methods: R-66S gRNA targets the sickle mutation on the HBB. R-02 gRNA generates a DSB 16 bp away from the sickle mutation site. SD-02 gRNA introduces a 13-bp Hereditary Persistence of Fetal Hemoglobin (HPFH) deletion as a major INDEL in the HBG1/HBG2 promoter to reactivate fetal hemoglobin (HbF). BCL11A gRNA targets the GATA1 site at the BCL11A erythroid enhancer to induce HbF. R-66S, R-02, SD-02, and BCL11A gRNAs were respectively complexed with SpyCas9 and delivered as ribonucleoprotein (RNP) to SCD HSPCs. To accurately quantify CRISPR/Cas9 induced large modifications in gene-edited SCD HSPCs, we used PacBio Single Molecule, Real-Time (SMRT) Sequencing with Unique Molecular Identifiers (UMI). The 5-6 kb region around the Cas9 cut-site was dual-UMI tagged using two PCR cycles. The second and third PCR was performed with minimal cycle numbers to enrich the UMI-tagged template molecules. The SMRTbell library composed of edited and unedited SCD HSPCs samples was sequenced on a PacBio Sequel II 8M flowcell using the circular consensus sequencing (CCS) mode. The PacBio subreads were converted to HiFi reads and subjected to UMI consensus read generation and variant calling. Results: SMRT-seq with UMI revealed high rates and broad spectra of unintended large deletions (> 200 bp) induced by Cas9 cutting at HBB, HBG1, and BCL11A genes in RNP treated samples, with respectively R-66S RNP, 31.7%; R-02 RNP, 17.4%; SD-02 RNP, 13.3%; BCL11A RNP, 40%. The large deletions have a very broad distribution of sizes and locations. In addition, we found large insertions (> 50 bp) and local complex chromosomal rearrangements at the Cas9 cut-sites. Therefore, the current assessment of gene-editing rates using short-read Next Generation Sequencing (NGS) misses a substantial proportion of Cas9-cutting induced large gene modifications, resulting in an inaccurate measure of both allele and genotype frequencies. Discussions: We found that unintended on-target large deletions occur at high rates at HBB, HBG1, and BCL11A in gene-edited SCD HSPCs. These results raise significant safety concerns regarding gene-editing of HSPCs to treat SCD. Our results demonstrate the importance of detecting and quantifying all possible CRISPR/Cas9 gene-editing outcomes to ensure the efficient and safe translation of gene-editing-based strategies to cure SCD and other human diseases. Additional work is required to determine the functional consequences of the unintended gene modifications and the persistence of the unintended large gene modifications at the on-target cut-sites. Disclosures Sheehan:  Forma Therapeutics: Research Funding; Beam Therapeutics: Research Funding; Novartis: Research Funding.",
+    "author_names": [
+        "So Hyun Julie Park Park",
+        "Mingming Cao",
+        "Yankai Zhang",
+        "Vivien A. Sheehan",
+        "Gang Bao"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "So Hyun Julie Park Park",
+            "author_affiliations": [
+                "Bioengineering, Rice University, Houston, TX"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mingming Cao",
+            "author_affiliations": [
+                "Bioengineering, Rice University, Houston, TX"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yankai Zhang",
+            "author_affiliations": [
+                "Department of Pediatrics, Emory University School of Medicine, Children's Healthcare of Atlanta, Atlanta, GA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vivien A. Sheehan",
+            "author_affiliations": [
+                "Department of Pediatrics, Emory University School of Medicine, Children's Healthcare of Atlanta, Atlanta, GA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gang Bao",
+            "author_affiliations": [
+                "Bioengineering, Rice University, Houston, TX"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T02:36:44",
+    "is_scraped": "1"
 }

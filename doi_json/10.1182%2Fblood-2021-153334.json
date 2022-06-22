@@ -1,8 +1,44 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4749",
-    "start_url_page_num": "4749",
     "doi": "https://doi.org/10.1182/blood-2021-153334",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3285/479184/Computational-Tool-for-Assessing-Differential-Cell?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T15:44:04",
-    "is_scraped": "0"
+    "article_title": "Computational Tool for Assessing Differential Cell-Cell Communication between Two Cohorts of Patients Using Scrna-Seq or Fasc-Sorted Bulk RNA-Seq Data ",
+    "article_date": "November 5, 2021",
+    "session_type": "506.Hematopoiesis and Stem Cells: Microenvironment",
+    "abstract_text": "Cell-cell communication is essential in healthy bone marrow (BM) and seems to be disturbed in acute myeloid leukemia (AML). To understand whether the communication patterns are different in healthy and malignant BM, we need to perform a comparative analysis--a task which most algorithms published to date are not designed to do. We solved this issue with our new computational tool which analyses differential communication in two cohorts of multiple samples and allows us to do systematic studies of communication changes in large cohorts of individuals. Our algorithm works on single-cell RNA-seq or bulk RNA-seq data of individual FACS-sorted cell types. Here we use two published datasets of human bone marrow single-cell RNA-seq containing samples from AML patients at diagnosis, as well as healthy donors. We selected 9 AML samples from van Galen, 2019 by excluding samples collected later than day 0 after diagnosis, having less than 50% blasts at diagnosis, or having less than 5 cell types captured. As a control group, we used 29 samples from healthy donors (4 from van Galen, 2019 and 25 from Oetjen, 2018 ). To unify the cell type annotation, we merged the original cell type annotation into bigger classes: hematopoietic stem and progenitor cells (HSPCs), monocytes, erythrocytes, B cells, T cells, natural killer cells (NK), and dendritic cells (DC). Due to low capturing rate, we excluded NK from the subsequent analysis. After filtering out lowly expressed genes and cells with low number of reads, we normalised the data using scran package ( Lun, 2016 ). We next proceeded to calculate the communication between the 6 cell types for each sample. A communication edge represents a signal which is sent by a \"sending\" cell type via its ligand and is received by a \"receiving\" cell type via its receptor. Each edge has a weight that indicates the intensity of communication and varies between 0 (no communication) and 1 (communication of maximum intensity). We calculate edge weights using a formula which addresses the proportion of the cells within each cell type that expressed the ligand/receptor, the relative level of expression of ligand/receptor in sending/receiving cell type compared to other cell types and the discrepancy of expression between the ligand in the sending cell type and the receptor in the receiving cell type. We used iTALK ( Wang, 2019 ) database of ligand-receptor pair interactions as a reference. After calculating communication edges in all samples, we filter low-weight edges and proceed to differential communication analysis. Here we perform Wilcoxon-Mann-Whitney test with Bonferroni correction in the two groups of samples (AML vs healthy). We identified over 4.500 communication edges in the dataset, of which 58 were significantly differentially used (adjusted p-value < 0.1). Markedly, the majority of the communication edges, as well as all significantly differential edges were down-regulated in the AML samples, indicating overall decrease in communicative activity among the investigated cell types in AML patients at diagnosis. In the significantly differential edges -- which were actively used in the healthy bone marrow, but lost in the AML -- the two most active \"sending\" cell types were the erythrocytes (in 19 edges) and monocytes (in 17 edges), followed by the DC (in 9 edges), B cells (in 7 edges), T cells (in 4 edges), and HSCP (in 2 edges). The most active receiving cell types were the DC (in 24 edges) and the erythrocyte (in 17 edges), followed by the monocytes (in 8 edges), B cells (in 6 edges), HSCP (in 2 edges) and T cells (in 1 edge). The top 20 significantly differential edges showed communication from erythrocytes, monocytes, B cells and T cells to DC using CALM1/3 : SELL, as well as ADAM10 : AXL interaction, indicating reduced cell-cell adhesive contact among the immune cell types in the AML. In our study, we developed a computational tool which allows us to characterize differential cell-cell communication in two cohorts of patients using scRNA-seq data. We applied our tool to the published scRNA-seq data from the bone marrow of 8 AML patients and 29 healthy donors. We identified disease-driven loss in communication patterns in the AML such as disrupted adhesion among the immune cells, which might indicate immunoevasion. This analysis is crucial to generate new data driven hypotheses for a deeper understanding of haematopoietic neoplasms. Disclosures No relevant conflicts of interest to declare.",
+    "author_names": [
+        "Maria Solovey",
+        "Frank Ziemann",
+        "Maria Colom\u00e9-Tatch\u00e9"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Maria Solovey",
+            "author_affiliations": [
+                "Institute of Computational Biology, Helmholtz Zentrum M\u00fcnchen, Neuherberg, Germany"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Frank Ziemann",
+            "author_affiliations": [
+                "Experimental Leukemia and Lymphoma Research (ELLF), Department of Internal Medicine III, University Hospital, LMU Munich, Munich, Germany"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maria Colom\u00e9-Tatch\u00e9",
+            "author_affiliations": [
+                "Institute of Computational Biology, Helmholtz Zentrum M\u00fcnchen, Neuherberg, Germany",
+                "Department of Physiological Chemistry, Biomedical Center (BMC), Munich, Germany"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T02:41:06",
+    "is_scraped": "1"
 }

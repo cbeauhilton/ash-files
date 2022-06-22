@@ -1,8 +1,293 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4842",
-    "start_url_page_num": "4842",
     "doi": "https://doi.org/10.1182/blood-2021-149745",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/2398/478808/Genomic-and-Transcriptional-Characterization-of?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T19:38:24",
-    "is_scraped": "0"
+    "article_title": "Genomic and Transcriptional Characterization of Primary Mediastinal Large B Cell Lymphoma ",
+    "article_date": "November 5, 2021",
+    "session_type": "621.Lymphomas: Translational-Molecular and Genetic",
+    "abstract_text": "Introduction: Primary mediastinal large B-cell lymphoma (PMBL) is a rare non-Hodgkin lymphoma subtype that occurs predominantly in young adults, with an overall favorable prognosis. The cell of origin is presumed to be thymic medullary B-cells and the gene expression profile of PMBL is similar to classic Hodgkin lymphoma. Recent studies have begun unravelling the genomic alterations underlying PMBL. Frequent, recurrent mutations (e.g. B2M , TNFAIP3 , SOCS1 , STAT6 , GNA13 ) have been reported, but most of the studies have analyzed a small number of cases. To gain further insights into disease biology, we recruited 63 cases of PMBL as part of the Atlas of Blood Cancer Genomes (ABC-G) initiative, a consortium consisting of 25 institutions. Methods: Formalin-fixed paraffin-embedded (FFPE) biopsies and clinical data were collected. All cases were subjected to centralized review by an experienced panel of hematopathologists to ensure accurate diagnosis. Whole-exome DNA and RNA sequencing was performed using the Illumina platform and the DNA and RNA reads aligned to the GRCh38 genome and transcriptome respectively. Exonic variants were filtered using a set of paired normal samples and population-based databases to identify putative driver mutations, which were then aggregated at the gene level. Mutational analysis was performed on 56 samples that passed quality filtering and expression analysis on 45 samples. RNAseq data was normalized using DESeq2. Results: The cohort included samples from 16 males and 24 females, with a median age of 33 years (range 16 - 72) at the time of diagnosis. The majority of patients were treated with R-CHOP (47%) or R-EPOCH (43%), with 93% of patients surviving through the end of follow-up (median follow-up: 60.1 months). Besides the known recurrent mutations involving the JAK-STAT ( STAT6 -21%, SOCS1 - 26%), NFKB ( TNFAIP3 - 27%, NFKB1A - 7%), immune escape ( B2M - 20%, LTB - 11%, IRF8 - 9%, IRF4 -9%), and chromatin modification ( ZNF217 - 16%, CREBBP - 11%, KMT2D -11%) pathways , we discovered recurrent somatic variants in novel candidate driver genes in this disease, including NOTCH4 (7%), DICER1 (11%), MCL1 (7%), amongst others. EZH2 , EP300, and XPO1 mutations were not detected. CIITA mutations and fusions were observed in 14% and 11% of cases, respectively, with novel partner genes ( IGHA2, IGHG1, CDC6 ) detected in 67% of the fusion positive cases. Copy number alterations included gains at 2p16.1 ( REL - 20%) and 9p24.2 ( JAK2/PDL1/PDL2 - 24%), as well as loci not previously implicated in PMBL, 8q24.3 and 9q34.3 (each in 20%). Of note, CIITA alterations and 9p24 gains were virtually mutually exclusive, highlighting diverse mechanisms of immune escape in this entity. The transcriptomes of cases harboring CIITA alterations demonstrated differential enrichment of genes involved in protein glycosylation. The PMBLs in our series showed significant enrichment of the reported PMBL genetic classifier score, compared to nodal diffuse large B cell lymphoma (DLBCL) (p=0.0003). Finally, the gene expression profile of thymic B cells was more similar to that of PMBL than nodal DLBCL (p=0.0144). Conclusions: Our study, representing one of the largest comprehensive genomic and transcriptomic analyses of PMBL, expands the mutational landscape of PMBL, provides evidence for biologically distinct disease subsets and suggests an origin of PMBLs from thymic B-cells. Disclosures Hsi:  AbbVie: Research Funding; Eli Lilly: Research Funding; Cytomx: Honoraria; Seattle Genetics: Honoraria. McKinney:  BTG: Consultancy; Celgene: Consultancy, Research Funding; Epizyme: Consultancy; Genetech: Consultancy, Honoraria, Research Funding; Incyte: Research Funding; Kite/Gilead: Honoraria, Speakers Bureau; Molecular Templates: Consultancy, Research Funding; Nordic Nanovector: Research Funding; Novartis: Research Funding; Pharmacyclics: Consultancy; Verastem: Consultancy; Beigene: Research Funding; ADC Therapeutics: Consultancy, Speakers Bureau. Jaye:  Stemline Therapeutics: Honoraria. Cohen:  Genentech, Takeda, BMS/Celgene, BioInvent, LAM, Astra Zeneca, Novartis, Loxo/Lilly: Research Funding; Janssen, Adaptive, Aptitude Health, BeiGene, Cellectar, Adicet, Loxo/Lilly, AStra ZenecaKite/Gilead: Consultancy. Behdad:  Lilly: Speakers Bureau; Roche/Foundation Medicine: Speakers Bureau; Thermo Fisher: Speakers Bureau. Dave:  Data Driven Bioscience: Current equity holder in publicly-traded company.",
+    "author_names": [
+        "Rebecca J Leeman-Neill",
+        "Devang Thakkar",
+        "Sarah L. Ondrejka",
+        "Eric D. Hsi",
+        "Amy Chadburn",
+        "Mateo Mejia Saldarriaga",
+        "Sarah C. Rutherford",
+        "Chad M. McCall",
+        "Tareq Aljurf",
+        "Matthew McKinney",
+        "Jean L. Koff",
+        "David L Jaye",
+        "Jonathon B. Cohen",
+        "Dina Sameh Soliman",
+        "Abner Louissaint, Jr.",
+        "Choon Kiat Ong",
+        "Chee Leong Cheng",
+        "Lianne Lee",
+        "Amir Behdad",
+        "Peter H. Norgaard",
+        "Andrew G Evans",
+        "Rashmi S. Goswami",
+        "Ridas Juskevicius",
+        "Mary Ann Arildsen",
+        "Kikkeri N Naresh",
+        "Caroline J Roth",
+        "Sandeep S. Dave",
+        "Govind Bhagat"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Rebecca J Leeman-Neill",
+            "author_affiliations": [
+                "Department of Pathology and Cell Biology, Columbia University Medical Center, New York, NY"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Devang Thakkar",
+            "author_affiliations": [
+                "Duke University, Durham, NC"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sarah L. Ondrejka",
+            "author_affiliations": [
+                "Department of Pathology and Laboratory Medicine, Cleveland Clinic, Cleveland, OH"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eric D. Hsi",
+            "author_affiliations": [
+                "Department of Laboratory Medicine, Cleveland Clinic Foundation, Cleveland, OH"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amy Chadburn",
+            "author_affiliations": [
+                "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mateo Mejia Saldarriaga",
+            "author_affiliations": [
+                "Weill Cornell Medicine, New York,"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sarah C. Rutherford",
+            "author_affiliations": [
+                "Weill Cornell Medicine-New York Presbyterian Hospital, New York, NY"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chad M. McCall",
+            "author_affiliations": [
+                "Department of Pathology, Duke University, Durham, NC"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tareq Aljurf",
+            "author_affiliations": [
+                "Duke University, Durham, NC"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Matthew McKinney",
+            "author_affiliations": [
+                "Division of Hematologic Malignancies and Cellular Therapy, Duke University School of Medicine, Durham, NC"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jean L. Koff",
+            "author_affiliations": [
+                "Department of Hematology and Medical Oncology, Emory University School of Medicine, Atlanta, GA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David L Jaye",
+            "author_affiliations": [
+                "Department of Pathology and Laboratory Medicine, Emory University School of Medicine, Atlanta, GA"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jonathon B. Cohen",
+            "author_affiliations": [
+                "Department of Hematology and Medical Oncology, Emory University, Atlanta, GA"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dina Sameh Soliman",
+            "author_affiliations": [
+                "Department of Laboratory Medicine and Pathology, National Center for Cancer Care and Research, Hamad Medical Corporation, Doha, Qatar"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Abner Louissaint, Jr.",
+            "author_affiliations": [
+                "Department of Pathology, Massachusetts General Hospital, Boston, MA"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Choon Kiat Ong",
+            "author_affiliations": [
+                "Division of Cellular and Molecular Research, National Cancer Centre Singapore, Singapore, Singapore"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chee Leong Cheng",
+            "author_affiliations": [
+                "Department of Anatomical Pathology, Singapore General Hospital, Singapore, Singapore"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lianne Lee",
+            "author_affiliations": [
+                "National Cancer Centre Singapore / Singapore General Hospital, Singapore, Singapore"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amir Behdad",
+            "author_affiliations": [
+                "Department of Pathology, Northwestern University Feinberg School of Medicine, Chicago, IL"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter H. Norgaard",
+            "author_affiliations": [
+                "Dept. of Pathology, Copenhagen University Hospital Herlev, Herlev, Denmark"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew G Evans",
+            "author_affiliations": [
+                "University of Rochester Medical Center, Rochester, NY"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rashmi S. Goswami",
+            "author_affiliations": [
+                "University of Toronto, Toronto, Canada"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ridas Juskevicius",
+            "author_affiliations": [
+                "Vanderbilt University Medical Center, Nashville, TN"
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mary Ann Arildsen",
+            "author_affiliations": [
+                "Vanderbilt University, Nashville, TN"
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kikkeri N Naresh",
+            "author_affiliations": [
+                "Department of Pathology, University of Washington, Seattle, WA"
+            ],
+            "author_rank": 25,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Caroline J Roth",
+            "author_affiliations": [
+                "Duke University Medical Center, Durham, NC"
+            ],
+            "author_rank": 26,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sandeep S. Dave",
+            "author_affiliations": [
+                "Duke Cancer Institute, Duke University, Durham, NC"
+            ],
+            "author_rank": 27,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Govind Bhagat",
+            "author_affiliations": [
+                "Columbia University Medical Center, New York, NY"
+            ],
+            "author_rank": 28,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T02:34:56",
+    "is_scraped": "1"
 }

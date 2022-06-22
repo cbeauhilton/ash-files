@@ -1,8 +1,83 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4845",
-    "start_url_page_num": "4845",
     "doi": "https://doi.org/10.1182/blood-2021-151843",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3277/479202/Clonal-Hematopoiesis-Is-Associated-with-Risk-of?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T19:38:33",
-    "is_scraped": "0"
+    "article_title": "Clonal Hematopoiesis Is Associated with Risk of Cardiovascular Disease in Individuals with Human Immunodeficiency Virus ",
+    "article_date": "November 5, 2021",
+    "session_type": "503.Clonal Hematopoiesis, Aging and Inflammation",
+    "abstract_text": "Introduction An estimated 1.2 million individuals in the United States are living with HIV (www.hiv.gov). Thanks to modern antiretroviral therapies (ART), the life expectancies of individuals living with HIV now approach those of people without HIV (Marcus 2020). But with this, an increase in the proportion of deaths due to non-infectious causes has occurred including, predominately, cardiovascular disease (CVD). Multiple studies have shown that HIV infection is an independent risk factor for cardiovascular disease. This increased risk is multifactorial due to an increased prevalence of traditional CVD risk factors and HIV-specific risk factors including ART, chronic inflammation and immune activation (Hsue 2010). Clonal Hematopoiesis, characterized by the expansion of blood cells stemming from a mutant hematopoietic stem/progenitor cell (HSPCs) is an emerging risk factor for cardiovascular disease. Mechanistically, this is thought to be driven, at least in part, by CH-induced proinflammatory circulating leukocytes (Jaiswal 2017, Bick 2020). Recent data suggest that inflammatory states may also promote the expansion of DNMT3A and TET2 CH mutant HSPCs suggesting a potential feedback loop (Zheng 2019, King 2019). CH has been recently reported to be increased among individuals living with HIV (Dharan 2021). Whether CH is a risk factor for HIV-associated CVD is not known. Given evidence of an increased prevalence of CH among those with HIV, we hypothesized that CH would predict risk of CVD. Methods We performed a nested case-control study drawn from the AIDS Clinical Trials Group Longitudinal Linked Randomized Trials (ALLRT) observational study which was a long-term study of individuals with newly diagnosed HIV receiving ART (N=4,371). Cases who developed a cardiovascular event were matched to controls with no event based on age at blood draw and sex. Peripheral blood mononuclear cells (PMBCs) were isolated from the blood draw closest to the time of CVD event or time of censoring, for cases and controls respectively. Extracted DNA was subjected to whole exome sequencing (WES) at a median depth of 500x. We also included WES data from 267 children sequenced using the same platform as a technical panel of normal (PON). Mutation calling was performed using Mutect2, VarDict and Varscan2. We retained variants that met the following criteria: 1) passed by at least two callers 2) showed statistically significant higher variant allele fraction (VAF) compared to our PON 3) had VAF between 2-35% 4) at least 6 reads supporting the variant 5) passed additional post-calling filters for germline variants and sequencing artifacts 6) were annotated as a putative driver of CH based on previously defined criteria. Results Over 13 years of follow-up we observed 83 cardiovascular events: 4 cases of ASC, 14 of stroke, 25 of cerebrovascular accident, 37 of myocardial infarction, 2 of peripheral artery disease, and 1 heart failure. The mean age of our participants was 51.6 years, 81% were male, 35% percent were African-American, 17% were Hispanic and 2% were Asian. Among 161 participants (83 cases and 78 controls) we observed at least one CH mutation in 14% of participants (18% of cases and 10% of controls). The median VAF was 3.5% with 23 individuals harboring a median of 1 mutation (range 1-2). In a conditional logistic regression model adjusted for race, Atherosclerotic Cardiovascular Disease (ASCVD) Risk Score and stratified by case-control matched pairs, CH was significantly associated with CVD (OR=3.70, 95% CI 1.03-13.23 p=0.045). Because of the possible confounding effects of classes of ART therapy on the CH-CVD association, we explored whether the prevalence of CH differed based on prior exposure to ART sub-class(es). We did not observe differences in the frequency of CH among individuals with prior exposure to different ART regimens (Non-Nucleoside Reverse Transcriptase Inhibitors 14%, Nucleoside reverse transcriptase inhibitors 17%, Protease inhibitors 20%, Integrase inhibitors 18%) Conclusions Among individuals with HIV, CH is associated with a nearly four-fold increased risk of CVD. These findings highlight the relevance of CH to HIV-associated CVD and provide support for interventions targeting potential CH-induced pro-inflammatory states among patients with HIV. Disclosures Erlandson:  Gilead Sciences: Consultancy, Research Funding; Viiv Pharmaceuticals: Consultancy; Janssen Pharmaceuticals: Consultancy. Bolton:  bristol myers squibb: Research Funding.",
+    "author_names": [
+        "Brian Wiley",
+        "Kristin Erlandson",
+        "Katherine Tassiopoulos",
+        "Yizhe Song",
+        "Rachel Presti",
+        "Kelly L Bolton",
+        "Grant A. Challen"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Brian Wiley",
+            "author_affiliations": [
+                "Division of Oncology, Washington University School of Medicine, St. Louis, MO"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kristin Erlandson",
+            "author_affiliations": [
+                "University of Colorado, Anschutz Medical Campus, Aurora, CO"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Katherine Tassiopoulos",
+            "author_affiliations": [
+                "Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, MA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yizhe Song",
+            "author_affiliations": [
+                "Washington University School of Medicine, St. Louis, MO"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rachel Presti",
+            "author_affiliations": [
+                "Division of Infectious Diseases, Washington University in St. Louis School of Medicine, St. Louis,"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kelly L Bolton",
+            "author_affiliations": [
+                "Division of Oncology, Washington University School of Medicine, St Louis, MO"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Grant A. Challen",
+            "author_affiliations": [
+                "Division of Oncology, Washington University School of Medicine, St. Louis, MO"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T02:40:35",
+    "is_scraped": "1"
 }

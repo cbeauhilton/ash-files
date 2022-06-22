@@ -1,8 +1,153 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4785",
-    "start_url_page_num": "4785",
     "doi": "https://doi.org/10.1182/blood-2021-153254",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3838/481073/Single-Cell-Transcriptome-Profile-of-Myeloma-and?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T16:57:51",
-    "is_scraped": "0"
+    "article_title": "Single Cell Transcriptome Profile of Myeloma and Immune Cell Characteristics in Patients with Durable Response Post CART ",
+    "article_date": "November 5, 2021",
+    "session_type": "704.Cellular Immunotherapies: Clinical",
+    "abstract_text": "Background: Chimeric antigen receptor T cell therapy (CAR-T) is a recent therapeutic advance for the treatment of myeloma. Among the FDA approved and investigational CAR-T, primary refractory disease post CAR-T infusion is uncommon, however most patients eventually relapse. To gain insight to the myeloma cell and immune cell characteristics associated with early relapse (PD) versus durable response (DR), we examined myeloma cells and immune cells in both the bone marrow and blood by single cell RNA-seq. Method: Bone marrow aspirate and blood samples were collected prior to BCMA targeted CAR-T therapy. CD138 + and CD138 neg cells from bone marrow (BM) and peripheral blood mononuclear cells (PBMNC) were collected for 5' based scRNA-seq (10X Genomics). CD138 + cells were clustered by Harmony integration. Top expressing genes in unique clusters for PD and DR were analyzed by Ingenuity Pathway Analyses. To profile CD138 neg BM cells and PBMNC from myeloma patients, the scRNA-seq dataset was mapped to the human PBMC reference using the Seurat v4 reference-guiding approach. Differential gene expression between responders and non-responders was performed using the FindMarkers function for each of the immune cell clusters in the BM and PB. Results: BM and PB samples from 15 patients were analyzed. Among these, 5 patients had relapsed disease more than 1-year post CAR-T infusion (Durable Response, DR), and 10 patients had relapse within 1 year (early relapse, PD). Among these, CD138+ cells were available from 3 DR and 4 PD for analysis. Multimodal expression of BCMA were seen among the CD138+ cells across all samples. Using the mode of the highest expression level as a cut-off, patients with DR had a trend toward having higher fraction of BCMA high CD138+ cells compared to pts with PD. Clustering of all CD138+ cells by Harmony integration identified 12 distinct clusters, among which two clusters were unique to pts in DR, and one was unique to patients in PD. Ingenuity pathway analysis identified the top marker genes in these 3 clusters to be enriched in pathways for IL-15 signaling, BCR signaling, and primary immunodeficiency signaling. (Figure 1A-E.) Differential gene expression for immune cell clusters from CD138 neg BM cells and PBMNC were compared between pts in PD and DR. Interestingly, different patterns were seen in immune cells in PB and BM (Figure 1G). For example, compared to pts in PD, those with DR had decreased signaling in CD16 PB monocytes for interferon signaling and differentiation to macrophages, whereas the CD16 monocytes in the BM in pts in DR had increased expression of mitochondrial genes for anti-oxidant stress, polarization to M1 macrophage and anti-apoptosis. Similarly, pts in DR had CD8 Tcm in the BM with increased expression of genes involved in cell adhesion and anti-apoptosis, and CD4 Tcm in the BM with increased expression of genes in protein metabolism. Conclusion: scRNAseq analysis of myeloma cells suggest different tumor transcriptome profile may be identified in myeloma cells that could relapse early after CAR-T therapy. In addition, host immune profile both in the BM microenvironment and in systemic PB circulation could be associated with durable clinical response. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Kapoor:  Pharmacyclics: Consultancy; Glaxo SmithKline: Research Funding; Amgen: Research Funding; Sanofi: Research Funding; AbbVie: Research Funding; Ichnos Sciences: Research Funding; Sanofi: Consultancy; Regeneron Pharmaceuticals: Research Funding; Takeda: Research Funding; Karyopharm: Research Funding; Karyopharm: Consultancy; Cellectar: Consultancy; BeiGene: Consultancy. Dingli:  GSK: Consultancy; Janssen: Consultancy; Sanofi: Consultancy; Novartis: Research Funding; Apellis: Consultancy; Alexion: Consultancy. Kumar:  Bluebird Bio: Consultancy; Janssen: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Takeda: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; KITE: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Tenebio: Research Funding; Novartis: Research Funding; BMS: Consultancy, Research Funding; Celgene: Membership on an entity's Board of Directors or advisory committees, Research Funding; Roche-Genentech: Consultancy, Research Funding; Astra-Zeneca: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Abbvie: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Antengene: Consultancy, Honoraria; Carsgen: Research Funding; Oncopeptides: Consultancy; Beigene: Consultancy; Amgen: Consultancy, Research Funding; Merck: Research Funding; Adaptive: Membership on an entity's Board of Directors or advisory committees, Research Funding; Sanofi: Research Funding. Lin:  Merck: Research Funding; Kite, a Gilead Company: Consultancy, Research Funding; Takeda: Research Funding; Bluebird Bio: Consultancy, Research Funding; Celgene: Consultancy, Research Funding; Sorrento: Consultancy; Juno: Consultancy; Legend: Consultancy; Gamida Cell: Consultancy; Vineti: Consultancy; Novartis: Consultancy; Janssen: Consultancy, Research Funding.",
+    "author_names": [
+        "Yan Asmann",
+        "Ying Li",
+        "Taxiarchis Kourelis",
+        "Moritz Binder",
+        "Wilson I Gonsalves",
+        "Henan Zhang",
+        "Anatilde Gonzalez Guerrico",
+        "Zuoyi Shao",
+        "Prashant Kapoor",
+        "David Dingli",
+        "Rahma M Warsame",
+        "Haidong Dong",
+        "Shaji Kumar",
+        "Yi Lin"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Yan Asmann",
+            "author_affiliations": [
+                "Division of Biomedical Statistics and Informatics, Mayo Clinic, Jacksonville, FL"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ying Li",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic Rochester, Rochester, MN"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Taxiarchis Kourelis",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Moritz Binder",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wilson I Gonsalves",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Henan Zhang",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anatilde Gonzalez Guerrico",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Zuoyi Shao",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic Rochester, Rochester, MN"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Prashant Kapoor",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David Dingli",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rahma M Warsame",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Haidong Dong",
+            "author_affiliations": [
+                "Division of Hematology, Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shaji Kumar",
+            "author_affiliations": [
+                "Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yi Lin",
+            "author_affiliations": [
+                "Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T02:45:42",
+    "is_scraped": "1"
 }

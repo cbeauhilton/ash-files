@@ -1,8 +1,93 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4842",
-    "start_url_page_num": "4842",
     "doi": "https://doi.org/10.1182/blood-2021-152789",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/2385/478805/Single-Cell-Decoding-of-Minimal-Residual-Disease?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T19:38:24",
-    "is_scraped": "0"
+    "article_title": "Single-Cell Decoding of Minimal Residual Disease in Pediatric B Cell Acute Lymphoblastic Leukemia ",
+    "article_date": "November 5, 2021",
+    "session_type": "618.Acute Lymphoblastic Leukemias: Biomarkers, Molecular Markers and Minimal Residual Disease in Diagnosis and Prognosis",
+    "abstract_text": "Acute lymphoblastic leukemia (ALL) is the most common pediatric cancer, of which B cell ALL (B-ALL) accounts for up to 85% of all cases. Although risk-stratified chemotherapy significantly improves the clinical outcome of affected pediatric patients with B-ALL, relapse still occurs in approximately 10% of children, representing the main cause of pediatric cancer deaths. Minimal residual disease (MRD) that persists after chemotherapy was the most valuable prognostic marker for hematological malignancies and solid cancers. Unfortunately, our understanding of the resistance mechanisms elicited in MRD is limited due to the rarity and heterogeneity of these residual cells. In our study, we employed paired scRNA-seq and single-cell BCR sequencing (scBCR-seq) to study the distinct features of leukemic cells from longitudinal samples obtained at the diagnosis, residual and relapsed stages at the single-cell level. By performing unsupervised clustering of the scRNA-seq data from 16,543 bone marrow CD19 - CD34 + cells and 20,392 CD19 + cells of healthy donors, we successfully defined the cell clusters of different B cell development stages sequentially, from hematopoietic stem cell / lymphoid-primed multipotential progenitors (HSC/LMPP) to common lymphoid progenitor (CLP), proB, preBI, preBII, immature/mature B cells and finally, activated B cells. By referring to the landmarks of normal cells, we then employed scRNA-seq and scBCR-seq to further dissect the phenotypic complexities within and across 4 pediatric B-ALL diagnostic-relapsed pairs at the single cell level. Our study found that BCR states can be used to distinguish leukemic cells and normal cells. From the four relapsed pediatric B-ALL patients, we obtained a total of 104,055 CD19 + cells with paired scRNA-seq and scBCR-seq data encompassing the three stages of B cell differentiation that passed the quality control. By examining the scBCR-seq data at the diagnosis stage to distinguish leukemic and normal (or non-leukemic) B cells based on genome-wide expression patterns rather than a few marker genes, we employed a machine learning approach. To train the classifier, CD19 + cells with non-clonal BCRs in D19 samples were selected as \"non-leukemic\", and CD19 + cells with clonal BCRs (B265) and without detected BCRs (B590, B069 and B887) in D19 samples were selected as \"leukemic\". Using this strategy, we compared the gene expression profiles of the leukemic cells at the diagnosis and relapse for each patient, with the aim to identify specific features of relapse stage leukemia cells at the single-cell level. We found that the cell composition profile tended to shift to early differentiation stages in the relapsed samples in all four patients. By analyzing the differentiation stage, cell cycle and gene expression characteristics of relapsed cell samples at the single-cell level, we obtained some unique findings, such as significantly increased expression of CDKN1A in relapsed cells. To understand the basis of such specific differentiation stage and cell cycle transition during chemotherapy, we performed differential expression analysis to identify genes specifically altered at D19 compared to diagnosis and relapse. Then, pathway enrichment analysis applied to the differentially expressed genes revealed that the hypoxia pathway was one of the top hits, being significantly upregulated during intensified chemotherapy. We obtained experimental support by validating the efficacy of the HIF-1a inhibitor PX478 combined with chemotherapy drugs in two B-ALL cell lines and two primary B-ALL cells. In summary, our study leveraged single-cell transcriptomic analysis with paired BCR repertoire profiling to decode the molecular aberrations across the phenotypically heterogeneous disease, B-ALL. We also applied a powerful B cell development classifier and an innovative machine learning model for B-ALL cell identification at single-cell resolution to determine the clonal signatures, and to track residual cell evolution in a longitudinal manner from diagnosis, to post-treatment, and finally relapse. We propose that hypoxia signaling pathway activation might serve as valuable MRD therapeutic target. While this study provided great insights into the transcriptomic characteristics of MRD cells, practically, our analytical approach could readily be applied to other hematological malignancies and solid cancers. Disclosures No relevant conflicts of interest to declare.",
+    "author_names": [
+        "Yingchi Zhang",
+        "Shicheng Wang",
+        "Jingliao Zhang",
+        "Chao Liu",
+        "Xinqi Li",
+        "Xiaofan Zhu",
+        "Jin Gu",
+        "Cheng Tao"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Yingchi Zhang",
+            "author_affiliations": [
+                "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shicheng Wang",
+            "author_affiliations": [
+                "MOE Key Laboratory of Bioinformatics, BNRIST Bioinformatics Division, Department of Automation, Tsinghua University, Beijing, China"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jingliao Zhang",
+            "author_affiliations": [
+                "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chao Liu",
+            "author_affiliations": [
+                "Division of Pediatric Blood Diseases Center, Institute of Hematology and Blood Diseases Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Tianjin, China"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xinqi Li",
+            "author_affiliations": [
+                "MOE Key Laboratory of Bioinformatics, BNRIST Bioinformatics Division, Department of Automation, Tsinghua University, Beijing, China"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xiaofan Zhu",
+            "author_affiliations": [
+                "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jin Gu",
+            "author_affiliations": [
+                "MOE Key Laboratory of Bioinformatics, BNRIST Bioinformatics Division, Department of Automation, Tsinghua University, Beijing, China"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cheng Tao",
+            "author_affiliations": [
+                "State Key Laboratory of Experimental Hematology, National Clinical Research Center for Blood Diseases, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T02:34:12",
+    "is_scraped": "1"
 }

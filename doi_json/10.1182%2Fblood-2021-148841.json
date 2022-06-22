@@ -1,8 +1,273 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4842",
-    "start_url_page_num": "4842",
     "doi": "https://doi.org/10.1182/blood-2021-148841",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/2395/478815/Determining-Clinical-Course-of-Diffuse-Large-B?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T19:38:24",
-    "is_scraped": "0"
+    "article_title": "Determining Clinical Course of Diffuse Large B-Cell Lymphoma Using Targeted Transcriptome and Machine Learning Algorithms ",
+    "article_date": "November 5, 2021",
+    "session_type": "621.Lymphomas: Translational-Molecular and Genetic",
+    "abstract_text": "Introduction: Multiple studies have demonstrated that diffuse large B-cell lymphoma (DLBCL) can be divided into subgroups based on their biology. However, these biological subgroups overlap clinically. While R-CHOP (rituximab, cyclophosphamide, doxorubicin, vincristine, and prednisone) remains the standard of care for treating patients with DLBCL, predicting which patients will not benefit from such therapy is important so that alternative therapy or clinical trials can be considered. Most of the studies stratifying patients select biomarkers first, then explore how these biomarkers can stratify patients based on outcome. We explored the potential of using machine learning to first group patients with DLBCL based on survival, then isolating the biomarkers necessary for predicting these survival subgroups. Methods: RNA was extracted from tissue paraffin blocks from 379 R-CHOP treated patients with de novo DLBCL, and from 247 patients with extranodal DLBCL. A targeted hybrid capture RNA panel of 1408 genes was used for next generation sequencing (NGS). Sequencing was performed using an Illumina NextSeq 550 System platform. Ten million reads per sample in a single run were required, and the read length was 2 \u00d7 150 bp. An expression profile was generated from the sequencing coverage profile of each individual sample using Cufflinks. A machine learning system was developed to classify patients into four groups based on their overall survival. This machine learning approach based on Na\u00efve Bayesian algorithm was also used to discover the relevant subset of genes with which to classify patients into each of the four survival groups. To eliminate the underflow problem commonly associated with the standard Na\u00efve Bayesian classifiers, we applied Geometric Mean Na\u00efve Bayesian (GMNB) as the classifier to predict the survival group for each patient. Results: Using machine learning, patients were first divided into two groups: short survival (S) and long survival (L). To refine this model, we used the same approach and divided the patients in each group into two subgroups, generating four groups: long survival in the long group (LL), short survival in the long group (LS), long survival in the short group (SL), and short survival in the short group (SS). The hazard ratio for this model was 0.174 (confidence interval: 0.120-0.251), and P-value <0.0001. After defining these four groups, a machine learning algorithm was used to discover the biomarkers from the expression data of the 1408 genes from NGS data. To reduce the effects of noise and avoid overfitting, we employed a 12-step cross validation to obtain a robust measure. For an individual gene, a generalized Na\u00efve Bayesian classifier was constructed on the training of one of the 12 subsets and tested on the other 11 testing subsets. This allowed us to limit the prediction process to 60 genes for each separation step. Using the selected biomarkers, we classified the patients in the original set (379 patients) into LL, LS, SL, and SS groups and then evaluated the survival pattern of these groups. As shown in Fig. 1A, the selected biomarkers predicted survival as expected in the overall survival groups prior to biomarker selection. For additional validation of the system, we used the selected biomarkers to classify a completely new set of 247 samples of patients with extranodal DLBCL. As shown in Fig. 1B, these selected biomarkers successfully predicted the overall survival in this group of patients with an HR of 0.530 (confidence interval: 0.234-1.197, P=0.005). This classification correlated with cell of origin classification, TP53 mutation status, MYC expression, and IRF4 expression. However, in a multivariate analysis, only TP53 mutation was independent in predicting prognosis (P=0.005) and age (below or over 60) (P=0.01) along with the survival grouping (P<0.000001). Conclusions: Using a novel machine learning approach with the expression levels of 180 genes, we developed a model that can reliably stratify patients with DLBCL treated with R-CHOP into four survival subgroups. This model can be used to identify patients who may not respond well to R-CHOP to be considered for alternative therapy and clinical trials. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Hsi:  AbbVie Inc, Eli Lilly: Research Funding. Ferreri:  Ospedale San Raffaele srl: Patents & Royalties; BMS: Research Funding; Pfizer: Research Funding; Beigene: Research Funding; Hutchison Medipharma: Research Funding; Amgen: Research Funding; Genmab: Research Funding; ADC Therapeutics: Research Funding; Gilead: Membership on an entity's Board of Directors or advisory committees, Research Funding; Novartis: Membership on an entity's Board of Directors or advisory committees, Research Funding; Roche: Membership on an entity's Board of Directors or advisory committees, Research Funding; PletixaPharm: Membership on an entity's Board of Directors or advisory committees; x Incyte: Membership on an entity's Board of Directors or advisory committees; Adienne: Membership on an entity's Board of Directors or advisory committees. Piris:  Millenium/Takeda, EUSA, Jansen, NanoString, Kyowa Kirin, Gilead and Celgene.: Membership on an entity's Board of Directors or advisory committees, Speakers Bureau. Winter:  BMS: Other: Husband: Data and Safety Monitoring Board; Actinium Pharma: Consultancy; Janssen: Other: Husband: Consultancy; Agios: Other: Husband: Consultancy; Gilead: Other: Husband: Consultancy; Epizyme: Other: Husband: Data and Safety Monitoring Board; Ariad/Takeda: Other: Husband: Data and Safety Monitoring Board; Merck: Consultancy, Honoraria, Research Funding; Novartis: Other: Husband: Consultancy, Data and Safety Monitoring Board; Karyopharm (Curio Science): Honoraria.",
+    "author_names": [
+        "Maher Albitar",
+        "Hong Zhang",
+        "Andre H. Goy",
+        "Zijun Xu-Monette",
+        "Govind Bhagat",
+        "Carlo Visco",
+        "Alexandar Tzankov",
+        "Xiaosheng Fang",
+        "Feng Zhu",
+        "Karen Dybkaer",
+        "April Chiu",
+        "Wayne Tam",
+        "Youli Zu",
+        "Eric D. Hsi",
+        "F. B. Hagemeister",
+        "Jooryung Huh",
+        "Maurilio Ponzoni",
+        "Andr\u00e9s J M Ferreri",
+        "Michael Moller",
+        "Benjamin M Parsons",
+        "Joannes H.J.M. Van Krieken",
+        "Miguel Angel Piris",
+        "Jane N. Winter",
+        "Yong Li",
+        "Bing Xu",
+        "Ken H. Young"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Maher Albitar",
+            "author_affiliations": [
+                "Genomic Testing Cooperative, Irvine, CA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hong Zhang",
+            "author_affiliations": [
+                "Genomic Testing Cooperative, Irvine, CA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andre H. Goy",
+            "author_affiliations": [
+                "John Theurer Cancer Center at Hackensack-UMC, Hackensack, NJ"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Zijun Xu-Monette",
+            "author_affiliations": [
+                "Duke University School of Medicine, Durham, NC"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Govind Bhagat",
+            "author_affiliations": [
+                "Columbia University Medical Center, New York, NY"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Carlo Visco",
+            "author_affiliations": [
+                "Department of Medicine, Section of Hematology, University of Verona, Verona, ITA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexandar Tzankov",
+            "author_affiliations": [
+                "Institute of Pathology, University Hospital, Basel, Switzerland"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xiaosheng Fang",
+            "author_affiliations": [
+                "Duke University School of Medicine, Durham, NC"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Feng Zhu",
+            "author_affiliations": [
+                "Duke University Medical Center, Durham, NC"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karen Dybkaer",
+            "author_affiliations": [
+                "Aalborg Hospital, Aalborg, Denmark"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "April Chiu",
+            "author_affiliations": [
+                "Mayo Clinic, Rochester, MN"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wayne Tam",
+            "author_affiliations": [
+                "Department of Pathology and Laboratory Medicine, Weill Cornell Medical College, New York, NY"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Youli Zu",
+            "author_affiliations": [
+                "Houston Methodist Hospital, Houston, TX"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eric D. Hsi",
+            "author_affiliations": [
+                "Department of Pathology, Wake Forest Baptist Medical Center, Winston Salem, NC"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "F. B. Hagemeister",
+            "author_affiliations": [
+                "Department of Lymphoma/Myeloma, University of Texas M.D. Anderson Cancer Center, Houston, TX"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jooryung Huh",
+            "author_affiliations": [
+                "Department of Pathology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Korea, Republic of (South)"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maurilio Ponzoni",
+            "author_affiliations": [
+                "Pathology Unit, San Raffaele Scientific Institute, Milano, Italy"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andr\u00e9s J M Ferreri",
+            "author_affiliations": [
+                "Unit of Lymphoid Malignancies, Department of Onco-Hematology, San Raffaele Scientific Institute, Milano, Italy"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Moller",
+            "author_affiliations": [
+                "Odense University Hospital, Odense, Denmark"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Benjamin M Parsons",
+            "author_affiliations": [
+                "Gundersen Health System, La Crosse, WI"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joannes H.J.M. Van Krieken",
+            "author_affiliations": [
+                "University Hospital Nijmegen, Nijmegen, NLD"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Miguel Angel Piris",
+            "author_affiliations": [
+                "Hospital Universitario Marqu\u00e9s de Valdecilla, Santander, Spain"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jane N. Winter",
+            "author_affiliations": [
+                "Northwestern Feinberg School of Medicine, Chicago, IL"
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yong Li",
+            "author_affiliations": [
+                "Baylor College of Medicine, Houston, TX"
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bing Xu",
+            "author_affiliations": [
+                "Department of Hematology, The First Affiliated Hospital of Xiamen University and Institute of Hematology, School of Medicine, Xiamen University, Xiamen, China"
+            ],
+            "author_rank": 25,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ken H. Young",
+            "author_affiliations": [
+                "Duke Cancer Institute, Duke University Medical Center, Durham, NC"
+            ],
+            "author_rank": 26,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T02:34:43",
+    "is_scraped": "1"
 }
