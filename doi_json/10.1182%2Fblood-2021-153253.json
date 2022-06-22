@@ -1,8 +1,193 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4898",
-    "start_url_page_num": "4898",
     "doi": "https://doi.org/10.1182/blood-2021-153253",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/2961/478979/Detection-of-CCND1-Overexpression-By-RNA-Seq-from?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T21:41:12",
-    "is_scraped": "0"
+    "article_title": "Detection of CCND1 Overexpression By RNA-Seq from Tna Samples As a Surrogate for t(11:14) Translocation Traditionally Measured By FISH in Multiple Myeloma Patients for Improved Patient Care ",
+    "article_date": "November 5, 2021",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Background: Multiple myeloma (MM) is a blood cancer type affecting plasma cell in bone marrow. MM is heterogenous in nature but t(11;14)(q13;q32) translocation is a common prognostic marker among MM patients. One of the most frequent oncogenic drivers involved in this chromosomal rearrangement is CCND1 (Cyclin D1) gene translocation downstream to the immunoglobulin heavy chain (IGH), which results on overexpression of CCND1, thus promoting abnormal cell proliferation. Oncogenic CCND1 RNA levels can result from translocations such as t(11;14), gene amplifications, increased transcription rates and/or RNA stability. Indeed, CCND1 RNA overexpression has a favorable prognostic value for patients treated with high doses of chemotherapies but important challenges remain in accurate detection of CCND1 RNA levels. Currently, FISH is the gold standard method for detecting t(11:14) translocations at the DNA level. However, it cannot detect CCND1 overexpression. Therefore, a method that can detect CCND1 overexpression levels, as well as in frame transcripts has clinical implications. In the current study we leveraged in-use NeoGenomics Heme TNA single tube NGS assay to enable the detection of CCND1 RNA overexpression as a complementary test to FISH testing. Methods: We performed RNA sequencing from 32 healthy donors and on fixed cell pellets from 94 CD138-enriched BM samples from MM patients and from using the amplicon based (Qiagen, inc) NGS assay. We developed pipeline for gene expression by TPM count (transcript per million) for CCND1, and further normalized to the \"housekeeping\" gene GUSB. We validated the normalization to GUSB by comparing to normalization using the geometric mean of four housekeeping genes (GUSB, PGD, RPL5 and RPL19) showing a high correlation (R 2 >0.95). A commercially available qRT-PCR assay was used as orthogonal method to further confirm the linearity of the quantitative gene expression signal in NGS. The analytical cutoff was determined from normalized TPM calculation from 32 healthy volunteers following CLSI guideline (CLSI_EP17-A2) and further updated from MM-PCE samples with t(11:14) translocations from a CLIS-validated FISH assay . Results: From 94 CD138-enriched BM samples, 26 had t(11:14) translocations, or CCND1 gains as detected by FISH, 15 samples were confirmed negative by FISH and 32 normal volunteers with no suspected disease. Also, we determined the analytical cutoff for CCND1 overexpression based on the CLSI guidelines to be 2.37 times the expression level of GUSB (\"housekeeping\" gene) using normal volunteers (n=32) (sensitivity 86% and specificity 77%). We found specificity to be low, so further evaluated the threshold using a ROC curve analysis with multiple tests. Using Fischer's exact test, we found CCND1 expression 3.27 times the GUSB expression to yield higher specificity of 86.5 % and sensitivity for 78.9%. Further, we used 26 FISH positive and 32 normal samples to build a new model and determined the cutoff for CCND1 overexpression to be 4.15 times GUSB expression, which resulted lower sensitivity but higher specificity (75% sensitivity and 100% specificity). When we evaluated 15 FISH negative samples with this cutoff we observed CCND1 was not overexpressed in six samples, but 9 samples did have some degree of overexpression. Overexpression was confirmed by qRT-PCR. Two CCND1 high- and low- expressing normal samples (MM-PCE 27 and 48) were further evaluated using alternative extraction methods to test the dependencies on extractions and the data showed concordant to each other for overexpression. Interestingly, 1 sample (MM-PCE-27) showed very high overexpression without t(11:14) translocation event (~100 fold over expressed). Cytogenetic studies were discordant with FISH as well for this sample, showing abnormalities related to chr7q,13q,12p but no indication of any chr11 related event. Conclusions: In this study we evaluated our existing NGS assay for CCND1 overexpression using TNA as a surrogate for traditional FISH, while demonstrating the accuracy of the RNA quantitation by NGS using qRT-PCR. We developed an RNA-seq based CCND1 expression assay that could be used to complement traditional FISH testing especially if there is limited specimen. The confirmation of overexpression in FISH negative samples may suggest new ways to improve MM patients risk stratification and treatment. Disclosures Ghosal:  NeoGenomics Laboratories: Current Employment. Alarcon:  NeoGenomics Laboratories: Current Employment. Koo:  Neo Genomics Laboratories: Current Employment. Kang:  Neo Genomics Laboratories: Current Employment. Ramesh:  Neo Genomics Laboratories: Current Employment. Gyuris:  Neo Genomics Laboratories: Current Employment. Jung:  NeoGenomics Laboratories, Inc.: Current Employment. Thomas:  NeoGenomics Laboratories, Inc.: Current Employment. Fabunan:  NeoGenomics Laboratories, Inc.: Current Employment. Magnan:  NeoGenomics Laboratories, Inc.: Current Employment. Nam:  NeoGenomics Laboratories, Inc.: Current Employment. Petersen:  Neo Genomics Laboratories: Current Employment. Lopez-Diaz:  NeoGenomics Laboratories, Inc.: Current Employment. Yamahata:  Neo Genomics Laboratories: Current Employment. Bender:  NeoGenomics Laboratories, Inc.: Current Employment. Agersborg:  NeoGenomics Laboratories, Inc.: Current Employment. Ye:  Neo Genomics Laboratories: Current Employment. Funari:  NeoGenomics Laboratories, Inc.: Current Employment.",
+    "author_names": [
+        "Abhisek Ghosal",
+        "Francys Alarcon",
+        "Samuel Koo",
+        "Soo Jin Kang",
+        "Archana Ramesh",
+        "Tibor Gyuris",
+        "Segun C Jung",
+        "Brad B Thomas",
+        "Rudy Fabunan",
+        "Christophe Magnan",
+        "Hyunjun Nam",
+        "Paris Petersen",
+        "Fernando Lopez-Diaz",
+        "Susan Yamahata",
+        "Ryan Bender",
+        "Sally Agersborg",
+        "Fei Ye",
+        "Vincent Funari"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Abhisek Ghosal",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Aliso Viejo, CA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Francys Alarcon",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Aliso Viejo, CA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Samuel Koo",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Aliso Viejo, CA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Soo Jin Kang",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Aliso Viejo, CA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Archana Ramesh",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Carlsbad, CA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tibor Gyuris",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Carlsbad, CA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Segun C Jung",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Aliso Viejo, CA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Brad B Thomas",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Houston, TX"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rudy Fabunan",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Aliso Viejo, CA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christophe Magnan",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Carlsbad, CA"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hyunjun Nam",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Carlsbad, CA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Paris Petersen",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Aliso Viejo, CA"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Fernando Lopez-Diaz",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Carlsbad, CA"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Susan Yamahata",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Aliso Viejo, CA"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ryan Bender",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Carlsbad, CA"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sally Agersborg",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Aliso Viejo, CA"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Fei Ye",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Carlsbad, CA"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vincent Funari",
+            "author_affiliations": [
+                "NeoGenomics Laboratories, Inc., Aliso Viejo, CA"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T13:08:06",
+    "is_scraped": "1"
 }

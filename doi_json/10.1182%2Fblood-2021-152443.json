@@ -1,8 +1,154 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4798",
-    "start_url_page_num": "4798",
     "doi": "https://doi.org/10.1182/blood-2021-152443",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3666/479864/A-Novel-Machine-Learning-Derived-Molecular?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T17:41:39",
-    "is_scraped": "0"
+    "article_title": "A Novel Machine Learning-Derived Molecular Classification Scheme with Prognostic Significance ",
+    "article_date": "November 5, 2021",
+    "session_type": "636.Myelodysplastic Syndromes-Basic and Translational",
+    "abstract_text": "The gold standard for the diagnosis of MDS relies on morphologic alterations hampered by a great deal of subjectivity. Cytogenetic and clinical features allow for clinical classifications predictive of survival. However, with a few exceptions ( SF3B1 MT , del5q, and certain balanced translocations), neither classic histo-morphology nor prognostic scoring systems (e.g., IPSS-R) are reflective of pathogenic underpinnings. To date supervised analyses of mutational data did not succeed to produce profiles specific or predictive of traditional disease sub-entities. Large cohorts with clinical annotation and a sufficient follow-up allow for innovative biostatistical approaches to subgroup patients according to molecular profiles. Objective operator-independent subcategorization may be congruent with common pathogenic links, rational applications of targeted therapeutics and better prognostications. We hypothesized that machine-learning (ML) strategies used for analysis of mutational/cytogenetic profiles will enable recognition of invariant disease subcategories according to their molecular configurations. Herein, we compiled a meta-analytic database (our cohorts and publicly available sources) of 3,011 MDS (median age 71yrs) and 6,788 pAML/sAML. Results of deep targeted sequencing of a panel of 55 myeloid mutations were collected together with cytogenetics. We then performed unsupervised analysis of MDS and AML patients using Bayesian Latent Class Analysis (BLCA). A consensus matrix was then clustered using Ward's criteria to generate final cluster assignment based on the highest silhouette value. To identify genomic signatures, we used Random Forest classification and extracted mutations with highest global importance indicated by mean decrease in accuracy. Using BLCA we identified 5 unique genomic clusters (GCs) with 3 distinct prognostic outcomes [low risk (LR), intermediate risk (Int), and high risk (HR)] that were validated by survival analysis ( Fig.1A,B ). The LR group included GC-1 and was characterized by the highest prevalence of normal cytogenetics (100%) and SF3B1 MT (25%) with co-occurring DNMT3A MT (14%), and absence of ASXL1 MT , ETV6 MT , STAG2 MT , TP53 MT , and complex/abnormal cytogenetics. Int group included GC-2 and GC-4. GC-2 was characterized by a higher percentage of abnormal cytogenetics cases than LR group and absence of STAG2 MT , SRSF2 MT , ASXL1 MT , TP53 MT , and normal/complex cytogenetics. GC-4 had the highest frequency of SRSF2 MT (52%) with co-occurring ASXL1 MT (59%), TET2 MT (40%), normal karyotype, and absence of complex/abnormal cytogenetics. Finally, HR included GC-3 and GC-5. GC-3 included ASXL1 MT (67%) with co-occurring SRSF2 MT (47%), TET2 MT (37%), STAG2 MT (22%), and absence of normal cytogenetics. GC- 5 had the highest frequency of -5/del(5q) (50%), -7/del(7q) (43%), -17/del(17p) (16%) and the highest odds of complex karyotype (92%) as well as TP53 MT (48%). Paralleling the genomic ML-based clustering, the clinical relevance of these subgroups was reflected in significantly different survivals [median (95% CI)]: i) GC-1 [69 (59-80)], ii) GC-2 [35 (29-41)], iii) GC-3 [12 (10-16)], GC-4 [27 (22-34)], and GC-5 [9 (7-11)] months ( Fig.1C ). We then classified the MDS cohort according to the recently published and validated AML GCs (Awada et al Blood 2021) to investigate overlapping genomic features. Overall, 90% of MDS GC-1 and 67% of MDS GC-2 had the same molecular architecture of AML GC-2 and 70% of MDS GC-5 had the same molecular features of AML GC-4. In addition, 98% of MDS GC-3 and 92% of MDS GC-4 had the same features of AML GC-3 ( Fig.1D ). In sum, we propose a novel objective molecular classification of MDS and related diseases that allows subgrouping of patients according to shared pathogenesis for a better prognostic resolution without errors derived from subjectivity. The model was then internally and externally validated using a cohort of 200 cases. Results of a validation cohort and online URL site of molecular clustering will be presented at the meeting. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Balasubramanian:  Servier Pharmaceuticals: Research Funding. Patel:  Alexion: Consultancy, Other: educational talks, Speakers Bureau; Apellis: Consultancy, Other: educational talks, Speakers Bureau. Carraway:  Celgene, a Bristol Myers Squibb company: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding, Speakers Bureau; Astex: Other: Independent review committee; Novartis: Honoraria, Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Agios: Honoraria, Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Takeda: Other: Independent review committee; Bristol Myers Squibb: Honoraria, Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Jazz: Honoraria, Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; AbbVie: Other: Independent review committee; Stemline: Honoraria, Membership on an entity's Board of Directors or advisory committees, Speakers Bureau. Haferlach:  MLL Munich Leukemia Laboratory: Other: Part ownership. Maciejewski:  Regeneron: Consultancy; Novartis: Consultancy; Alexion: Consultancy; Bristol Myers Squibb/Celgene: Consultancy.",
+    "author_names": [
+        "Tariq Kewan",
+        "Arda Durmaz",
+        "Hassan Awada",
+        "Carmelo Gurnari",
+        "Waled Bahaj",
+        "Simona Pagliuca",
+        "Laila Terkawi",
+        "Ramsha Ahmed",
+        "Suresh Kumar Balasubramanian",
+        "Bhumika J. Patel",
+        "Hetty E. Carraway",
+        "Valeria Visconte",
+        "Torsten Haferlach",
+        "Jaroslaw P. Maciejewski"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Tariq Kewan",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic Foundation, Cleveland, OH"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Arda Durmaz",
+            "author_affiliations": [
+                "Department of Systems biology and Bioinformatics, CWRU, cleveland,"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hassan Awada",
+            "author_affiliations": [
+                "Roswell Park Comprehensive Cancer Center, buffalo, NY"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Carmelo Gurnari",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Ins, Cleveland, OH",
+                "Department of Biomedicine and Prevention, University of Rome \"Tor Vergata\", Rome, Italy"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Waled Bahaj",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic Foundation, Cleveland, OH"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Simona Pagliuca",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic Foundation, Cleveland, OH"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Laila Terkawi",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Taussig Cancer Institute, Cleveland, OH"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ramsha Ahmed",
+            "author_affiliations": [
+                "Department of Internal Medicine, Cleveland Clinic, Cleveland, OH"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Suresh Kumar Balasubramanian",
+            "author_affiliations": [
+                "Wayne State University, Detroit, MI"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bhumika J. Patel",
+            "author_affiliations": [
+                "Leukemia Program, Department of Hematology and Medical Oncology, Taussig Cancer Institute, Cleveland Clinic, Cleveland, OH"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hetty E. Carraway",
+            "author_affiliations": [
+                "Leukemia Program, Department of Hematology and Medical Oncology, Taussig Cancer Institute, Cleveland Clinic Foundation, Cleveland, OH"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Valeria Visconte",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Taussig Cancer Institute, Cleveland, OH"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Torsten Haferlach",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jaroslaw P. Maciejewski",
+            "author_affiliations": [
+                "Department of Translational Hematology and Oncology Research, Taussig Cancer Institute, Cleveland Clinic Foundation, Cleveland, OH"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T13:04:30",
+    "is_scraped": "1"
 }

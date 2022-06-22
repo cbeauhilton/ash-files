@@ -1,8 +1,273 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4798",
-    "start_url_page_num": "4798",
     "doi": "https://doi.org/10.1182/blood-2021-153539",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3690/479824/Biosimulation-Using-the-Cellworks-Computational?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T17:24:15",
-    "is_scraped": "0"
+    "article_title": "Biosimulation Using the Cellworks Computational Omics Biology Model (CBM) Identifies Immune Modulation As a Key Pathway for Predicting Azacitidine (AZA) Response in Myelodysplastic Syndromes (MDS) ",
+    "article_date": "November 5, 2021",
+    "session_type": "637.Myelodysplastic Syndromes - Clinical and Epidemiological",
+    "abstract_text": "Background: DNA methyltransferase inhibition (DNMTi) with the hypomethylating agents (HMA) azacitidine (AZA) or decitabine, remains the mainstay of therapy for the majority of high-risk Myelodysplastic Syndromes (MDS) patients. Nevertheless, only 40-50% of MDS patients achieve clinical improvement with DNMTi. There is a need for a predictive clinical approach that can stratify MDS patients according to their chance of benefit from current therapies and that can identify and predict responses to new treatment options. Ideally, patients predicted to be non-responders (NR) could be offered alternative strategies while being spared protracted treatment with HMA alone that has a low likelihood of efficacy. Recently, an intriguing discovery of immune modulation by HMA has emerged. In addition to the benefits of unsilencing differentiation genes and tumor suppressor genes, HMA's reactivate human endogenous retroviral (HERV) genes leading to viral mimicry and upregulation of the immune response as a major mechanism of HMA efficacy. Although the PD-L1/PD1 blockade plus HMA has been recognized as a beneficial combination, there are no established markers to guide decision-making. We report here the utility of immunomic profiling of chromosome 9 copy number status as a significant mechanism of immune evasion and HMA resistance. Methods: 119 patients with known clinical responses to AZA were selected for this study. Publicly available data largely from TCGA and PubMed was utilized for this study. The aberration and copy number variations from individual cases served as input into the Cellworks Computation Omics Biology Model (CBM), a computational biology multi-omic software model, created using artificial intelligence heuristics and literature sourced from PubMed, to generate a patient-specific protein network map. Disease-biomarkers unique to each patient were identified within protein network maps. The Cellworks Biosimulation Platform has the capacity to biosimulate disease phenotypic behavior and was used to create a disease model and then conduct biosimulations to measure the effect of AZA on a cell growth score comprised of a composite of cell proliferation, viability, apoptosis, metastasis, and other cancer hallmarks. Biosimulation of drug response was conducted to identify and predict therapeutic efficacy. Results: Although AZA treatment increased tumor associated antigens and interferon signaling, it also increased PD-L1 expression to inactivate cytotoxic CD8(+) T cells. Copy number alterations of the chromosome 9p region were found to significantly drive PD-L1 expression with multiple genes such as CD274, IFNA1, IFNA2, JAK2, PDCD1LG and KDM4C playing a role in PD-L1 regulation further increasing immune suppression (Figure 1). Among 6 cases of chromosome 9p aberration in this dataset, 9p  amp (n=2) were clinical non-responders (NR) while 9p  del (n=4) were responders (R) to AZA. In principle, checkpoint immunotherapy could improve outcomes for patients with 9p abnormalities. Additionally, copy number variation loss of key genes located on chromosome 16 involved in antigen processing and presentation such as CIITA, CTCF, IRF8, PSMB10, NLRC5, and SOCS1 were found to negatively impact AZA sensitivity (NR=4; R=0); these patients would also be unlikely to respond to checkpoint immunotherapy. Also, aberrations in melanoma antigen gene (MAGE) family proteins (NR=2; R=O), and STT3A (NR=1; R=5) were found to impact AZA efficacy by decreasing antigen processing on tumor cells. Conclusion: Based on the results from the Cellworks Biosimulation Platform applied to the CBM, copy number variants of chromosome 9p and 16 can be converted into CBM-derived biomarkers for response to checkpoint immunotherapy in combination with HMA. Our results support a future prospective evaluation in larger cohorts of MDS patients. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Howard:  Servier: Consultancy; Cellworks Group Inc.: Consultancy; Sanofi: Consultancy, Other: Speaker fees. Kumar:  Cellworks Group Inc.: Current Employment. Castro:  Bugworks: Consultancy; Exact sciences Inc.: Consultancy; Guardant Health Inc.: Speakers Bureau; Cellworks Group Inc.: Current Employment; Caris Life Sciences Inc.: Consultancy; Omicure Inc: Consultancy. Grover:  Cellworks Group Inc.: Current Employment. Mohapatra:  Cellworks Group Inc.: Current Employment. Kapoor:  Cellworks Group Inc.: Current Employment. Tyagi:  Cellworks Group Inc.: Current Employment. Nair:  Cellworks Group Inc.: Current Employment. Suseela:  Cellworks Group Inc.: Current Employment. Pampana:  Cellworks Group Inc.: Current Employment. Lala:  Cellworks Group Inc.: Current Employment. Singh:  Cellworks Group Inc.: Current Employment. Shyamasundar:  Cellworks Group Inc.: Current Employment. Kulkarni:  Cellworks Group Inc.: Current Employment. Narvekar:  Cellworks Group Inc.: Current Employment. Sahni:  Cellworks Group Inc.: Current Employment. Raman:  Cellworks Group Inc.: Current Employment. Balakrishnan:  Cellworks Group Inc.: Current Employment. Patil:  Cellworks Group Inc.: Current Employment. Palaniyeppa:  Cellworks Group Inc.: Current Employment. Balla:  Cellworks Group Inc.: Current Employment. Patel:  Cellworks Group Inc.: Current Employment. Mundkur:  Cellworks Group Inc: Current Employment. Christie:  Cellworks Group Inc.: Current Employment. Macpherson:  Cellworks Group Inc.: Current Employment. Marcucci:  Abbvie: Other: Speaker and advisory scientific board meetings; Novartis: Other: Speaker and advisory scientific board meetings; Agios: Other: Speaker and advisory scientific board meetings.",
+    "author_names": [
+        "Scott C Howard",
+        "Ansu Kumar",
+        "Michael Castro",
+        "Himanshu Grover",
+        "Subrat Mohapatra",
+        "Shweta Kapoor",
+        "Anuj Tyagi",
+        "Prashant Ramachandran Nair",
+        "Rakhi Purushothaman Suseela",
+        "Anusha Pampana",
+        "Deepak Anil Lala",
+        "Divya Singh",
+        "Vijayashree P Shyamasundar",
+        "Shruthi Kulkarni",
+        "Yugandhara Narvekar",
+        "Kritika Sahni",
+        "Rahul K Raman",
+        "Veena Balakrishnan",
+        "Mamatha Patil",
+        "Naga Ganesh Palaniyeppa",
+        "Ashokraja Balla",
+        "Sanjana Patel",
+        "Nirjhar Mundkur",
+        "James Christie",
+        "Michele Dundas Macpherson",
+        "Guido Marcucci"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Scott C Howard",
+            "author_affiliations": [
+                "Department of Acute and Tertiary Care, University of Tennessee Health Science Center, Memphis, TN"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ansu Kumar",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Castro",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Himanshu Grover",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Subrat Mohapatra",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shweta Kapoor",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anuj Tyagi",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Prashant Ramachandran Nair",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rakhi Purushothaman Suseela",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anusha Pampana",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Deepak Anil Lala",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Divya Singh",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vijayashree P Shyamasundar",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shruthi Kulkarni",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yugandhara Narvekar",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kritika Sahni",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rahul K Raman",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Veena Balakrishnan",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mamatha Patil",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Naga Ganesh Palaniyeppa",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ashokraja Balla",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sanjana Patel",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nirjhar Mundkur",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "James Christie",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michele Dundas Macpherson",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 25,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Guido Marcucci",
+            "author_affiliations": [
+                "Department of Hematological Malignancies Translational Science, Gehr Family Center for Leukemia Research, Hematology Malignancies and Stem Cell Transplantation Institute, Beckman Research Institute, City of Hope, Duarte, CA"
+            ],
+            "author_rank": 26,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T13:02:17",
+    "is_scraped": "1"
 }

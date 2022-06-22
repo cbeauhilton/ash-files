@@ -1,8 +1,133 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4891",
-    "start_url_page_num": "4891",
     "doi": "https://doi.org/10.1182/blood-2021-147583",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/2892/478899/Bone-Marrow-Based-Biomarkers-for-Predicting-aGVHD?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T21:40:47",
-    "is_scraped": "0"
+    "article_title": "Bone Marrow-Based Biomarkers for Predicting aGVHD Using Targeted RNA Next Generation Sequencing and Machine Learning ",
+    "article_date": "November 5, 2021",
+    "session_type": "722.Allogeneic Transplantation: Acute and Chronic GVHD, Immune Reconstitution",
+    "abstract_text": "Introduction: Acute graft-vs.-host disease (aGVHD) remains a major diagnostic and clinical problem in patients after allogenic hematopoietic stem cell transplant (HSCT). Finding biomarkers that play a role in aGVHD not only helps in predicting and diagnosing aGVHD, but might help in developing prophylaxis and therapeutic approaches. Using Next Generation Sequencing (NGS) and targeted RNA sequencing along with a machine learning approach to predict, we investigated the potential of discovering new biomarkers that can predict aGVHD. Methods: RNA extracted from bone marrow aspiration samples collected around day 90 post HSCT from 46 patients were sequenced using 1408 targeted genes. cDNA was first generated, then adapters were ligated. The coding regions of the expressed genes were captured from this library using sequence-specific probes to create the final library. Sequencing was performed using an Illumina NextSeq 550 platform. Ten million reads per sample in a single run were required. Read length was 2 \u00d7 150 bp. Expression profile was generated using Cufflinks. A machine learning system is developed to predict the GVHD cases and to discover the relevant genes. A subset of genes relevant to GVHD is automatically selected for the classification system, based on a k-fold cross-validation procedure (with k=10). For an individual gene, a Na\u00efve Bayesian classifier was constructed on the training of k-1 subsets and tested on the other testing subset. To eliminate the underflow problem commonly associated with the standard Na\u00efve Bayesian classifiers, we applied Geometric Mean Na\u00efve Bayesian (GMNB) as the classifier to predict GVHD. The processes of gene selection and GVHD classification are applied iteratively to obtain an optimal classification system and a subset of genes relevant to GVHD. Results: The analyzed bone marrow samples included patients transplanted for aplastic anemia (#1), acute lymphoblastic leukemia (#9), acute myeloid leukemia (#16), mixed phenotype acute leukemia (#1), myelodysplastic syndrome (#10), chronic myelomonocytic leukemia (#5), and myeloproliferative neoplasm (#4). Of the 46 patients, 30 (65%) had a diagnosis of aGVHD (grade 2-4). The GMNB modified Bayesian model selected 7 genes as top classifiers. These top classifier genes included Class II Major Histocompatibility gene (CIITA), B-cell markers genes (CD19 and CD22), early T-cell related gene (TCL1A), hematopoietic-specific transcription factor (IKZF3), a gene involved in protein-protein interaction, and a gene involved in DNA helicase nucleotide excision repair (ERCC3). When these 7 genes were used in GMNB-modified classifier with 10-fold cross validation to predict aGVHD, the model classified 28 of the 30 positive cases accurately and 14 of the 16 negative cases accurately. The sensitivity was 93% (95% CI, 76%-99%). The specificity was 87.5% (95% CI: 60%-97%). The positive predictive value (PPV) was 93% (95% CI: 76%-99%) and the negative predictive value (NPV) was 87.5% (95% CI: 60%-98%). Conclusion: While most biomarker discovery has been focused on inflammatory cytokines, chemokines, and their receptors, our data suggest that hematopoietic proliferation and transcription regulators in bone marrow might provide important information for the diagnosis and prediction of aGVHD. This data suggests that biomarkers related to B-cell, T-cell, and MHC play a role in aGVHD at the bone marrow level. These findings also suggest that targeting these biomarkers in the bone marrow might be a realistic approach for prophylaxis and treatment that needs to be explored. Although further validation is needed, this study suggests that targeted RNA sequencing by NGS combined with machine learning algorithm can be a practical and cost-effective approach for the diagnosis and prediction of aGVHD. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Pecora:  Genetic testing cooperative: Other: equity investor; Genetic testing cooperative: Membership on an entity's Board of Directors or advisory committees. Goy:  Rosewell Park: Consultancy; Elsevier's Practice Update Oncology, Intellisphere, LLC(Targeted Oncology): Consultancy; Acerta: Consultancy, Research Funding; Genentech/Hoffman la Roche: Research Funding; Vincerx pharma: Membership on an entity's Board of Directors or advisory committees; Physicians' Education Resource: Consultancy, Other: Meeting/travel support; Vincerx: Honoraria, Membership on an entity's Board of Directors or advisory committees; AstraZeneca: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Xcenda: Consultancy; Janssen: Membership on an entity's Board of Directors or advisory committees; AstraZeneca: Membership on an entity's Board of Directors or advisory committees; Gilead: Membership on an entity's Board of Directors or advisory committees; Janssen: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Kite, a Gilead Company: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; OncLive Peer Exchange: Honoraria; Xcenda: Consultancy, Honoraria; AbbVie/Pharmacyclics: Membership on an entity's Board of Directors or advisory committees; COTA (Cancer Outcome Tracking Analysis): Current holder of stock options in a privately-held company, Membership on an entity's Board of Directors or advisory committees, Other: Leadership role; Elsevier PracticeUpdate: Oncology: Consultancy, Honoraria; Infinity/Verastem: Research Funding; Kite Pharma: Membership on an entity's Board of Directors or advisory committees; Bristol Meyers Squibb: Membership on an entity's Board of Directors or advisory committees; MorphoSys: Honoraria, Other; Genomic Testing Cooperative: Current holder of stock options in a privately-held company, Membership on an entity's Board of Directors or advisory committees, Other: Leadership role; Celgene: Consultancy, Honoraria, Research Funding; Novartis: Consultancy, Honoraria; Hoffman la Roche: Consultancy; Michael J Hennessey Associates INC: Consultancy; LLC(Targeted Oncology): Consultancy; Medscape: Consultancy; Bristol Meyers Squibb: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees; AbbVie/Pharmacyclics: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Incyte: Honoraria; Constellation: Research Funding; Janssen: Research Funding; Karyopharm: Research Funding; Phamacyclics: Research Funding; Hackensack Meridian Health, Regional Cancer Care Associates/OMI: Current Employment. Rowley:  ReAlta Life Sciences: Consultancy.",
+    "author_names": [
+        "Maher Albitar",
+        "Hong Zhang",
+        "Andrew L. Pecora",
+        "Andrew Ip",
+        "Andre H. Goy",
+        "Spiraggelos Antzoulatos",
+        "Ivan De Dios",
+        "Wanlong Ma",
+        "Sukhdeep Kaur",
+        "Hyung C. Suh",
+        "Michele L. Donato",
+        "Scott D. Rowley"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Maher Albitar",
+            "author_affiliations": [
+                "Genomic Testing Cooperative, Irvine, CA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hong Zhang",
+            "author_affiliations": [
+                "Genomic Testing Cooperative, Irvine, CA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew L. Pecora",
+            "author_affiliations": [
+                "John Theurer Cancer Center, Hackensack Meridian Health, Division of Multiple Myeloma, Hackensack, NJ"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew Ip",
+            "author_affiliations": [
+                "Division of Lymphoma, Division of Outcomes and Value Research, John Theurer Cancer Center, Hackensack University Medical Center, Hackensack, NJ"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andre H. Goy",
+            "author_affiliations": [
+                "Division of Lymphoma, John Theurer Cancer Center, Hackensack University Medical Center, Hackensack, NJ"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Spiraggelos Antzoulatos",
+            "author_affiliations": [
+                "Genomic Testing Cooperative, Irvine, CA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ivan De Dios",
+            "author_affiliations": [
+                "Genomic Testing Cooperative, Irvine, CA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wanlong Ma",
+            "author_affiliations": [
+                "Genomic Testing Cooperative, Irvine, CA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sukhdeep Kaur",
+            "author_affiliations": [
+                "John Theurer Cancer Center, Hackensack University Medical Center, Hackensack, NJ"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hyung C. Suh",
+            "author_affiliations": [
+                "John Theurer Cancer Center, Hackensack University Medical Center, Hackensack, NJ"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michele L. Donato",
+            "author_affiliations": [
+                "John Theurer Cancer Center, Hackensack University Medical Center, Hackensack, NJ"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Scott D. Rowley",
+            "author_affiliations": [
+                "John Theurer Cancer Center, Myeloma and Lymphoma Divisions, NNJCA, Hackensack, NJ"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T12:58:39",
+    "is_scraped": "1"
 }

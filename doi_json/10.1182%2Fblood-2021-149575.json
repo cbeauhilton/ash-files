@@ -1,8 +1,166 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4799",
-    "start_url_page_num": "4799",
     "doi": "https://doi.org/10.1182/blood-2021-149575",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3694/479823/Patients-Diagnosed-with-Myelodysplastic-Syndromes?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T17:41:43",
-    "is_scraped": "0"
+    "article_title": "Patients Diagnosed with Myelodysplastic Syndromes Display Lower Bone Mass: Assessment Using Bone Marrow Biopsies Manually and with Artificial Intelligence ",
+    "article_date": "November 5, 2021",
+    "session_type": "637.Myelodysplastic Syndromes - Clinical and Epidemiological",
+    "abstract_text": "Background: Murine models of myelodysplastic syndromes (MDS) exhibit lower bone mass (B-Mass), and several reports suggest increased incidence of osteoporosis and fractures in MDS patients. Whether MDS is associated with lower B-Mass is unknown. Aims : 1) to develop a simple method to estimate trabecular B-Mass from bone marrow biopsies (BMB); 2) to compare the trabecular B-Mass of MDS patients at diagnosis and non-MDS controls; 3) to develop an artificial intelligence (AI) algorithm for automated trabecular B-Mass assessment. Methods: In this study we included male patients age \u2265 65 years old with \"lower-risk\" (LR) MDS, diagnosed at Tel Aviv Sourasky Medical Center, between 2011 and 2019 and age-matched controls undergoing bone marrow (BM) biopsy for either unexplained anemia or as a part of staging work-up for newly diagnosed lymphoma. BM slides (H&E stain) were digitally scanned. The total relevant area (TRA, Figure 1A) was identified and bone trabeculae were manually contoured using Adobe Photoshop software. Bone area (BA, figure 1B) was calculated as the sum of all contoured pixels of bone, and B-Mass = BA/TRA(%). The manually annotated data were used to develop a preliminary AI algorithm to automatically detect the BA as well as BM fat for use in the current and future research in the field. The S\u00f8rensen-Dice similarity coefficient (DSC) was used to assess agreement between manual and AI annotations. Results : There were 43 MDS and 36 control patients with mean ages of 80 and 78 years ( p >0.05), respectively. Comorbidities in both groups were similar. Notably, trabecular B-Mass of MDS was significantly lower than that of controls: 11.6% [95%CI 9.9-13.3] vs 18.3% [16.6-20.3], respectively ( p <0.0001). This represented a 37% relative reduction for MDS patients compared to controls. Next, the manually annotated data used to develop an AI algorithm automatically assessed trabecular B-Mass. The devised algorithm, tested on 17 patient samples, yielded a DSC (Mean \u00b1 SEM) of 0.76 \u00b1 0.015 and 0.81 \u00b1 0.02 for bone and fat respectively (Figure 1C and 1D). Conclusions : We have developed a simple technique to estimate trabecular B-Mass based on available BM sections. Importantly, we found that trabecular B-Mass of LR-MDS patients is compromised already at diagnosis. In addition, automated (AI) assessment of B-Mass using available H&E-stained BM slides is feasible and clinically relevant for patients with MDS and other hematological malignancies. Future work will develop the AI technique and expand it to identify all components of the BM, including the cellular compartment. This will enhance our understanding of the osteohematological niche in such patients, and aid in diagnosis as well as treatment planning. This study was supported by a grant from the Dotan Hemato-oncology Fund, the Cancer Biology Research Center, Tel Aviv University to DN, MM and HSO. Figure 1: Bone marrow biopsy (BMB) slide of a representative patient showing (A) the total relevant area, and (B) the bone area - TRA and BA respectively. Demonstrating the artificial intelligence (AI) technique for the same patient, we compare (C) manual annotation to (D) AI-based annotation of both bone (red) and fat (green). Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Mittelman:  Janssen \u00b7 Roche \u00b7 Novartis \u00b7 Takeda \u00b7 Medison / Amgen \u00b7 Neopharm / Celgene / BMS \u00b7 Abbvie \u00b7 Gilead: Research Funding; Novartis \u00b7 Takeda \u00b7 Fibrogen \u00b7 Celgene / BMS \u00b7 Onconova \u00b7 Geron: Other: Clini; Onconova \u00b7 Novartis \u00b7 Takeda \u00b7 Silence: Membership on an entity's Board of Directors or advisory committees; MDS HUB: Consultancy; Celgene / BMS \u00b7 Novartis: Speakers Bureau.",
+    "author_names": [
+        "Albert Kolomansky",
+        "Roy Malka",
+        "Edo Cohen-Karlik",
+        "Gal Barequet",
+        "Sagi Tauber",
+        "Itay Kalev",
+        "Ruben Wolhandler",
+        "Yoav Gaulan",
+        "Roee Esquira",
+        "Moni Shahar",
+        "Yishai Mansour",
+        "Amir Globerson",
+        "Drorit Neumann",
+        "Moshe Mittelman",
+        "Howard S. Oster"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Albert Kolomansky",
+            "author_affiliations": [
+                "Department of Hematology, Tel Aviv Sourasky Medical Center/Sackler Faculty of Medicine, Tel Aviv, Israel",
+                "Department of Cell and Developmental Biology, Sackler Faculty of Medicine, Tel Aviv University, Tel Aviv, Israel",
+                "Department of Internal Medicine A, Tel Aviv Sourasky Medical Center/Sackler Faculty of Medicine, Tel Aviv, Israel"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Roy Malka",
+            "author_affiliations": [
+                "Department of Internal Medicine A, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Edo Cohen-Karlik",
+            "author_affiliations": [
+                "Department of Computer Science, Tel Aviv University, Tel Aviv, Israel"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Gal Barequet",
+            "author_affiliations": [
+                "Department of Computer Science, Tel Aviv University, Tel Aviv, Israel"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sagi Tauber",
+            "author_affiliations": [
+                "Department of Computer Science, Tel Aviv University, Tel Aviv, Israel"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Itay Kalev",
+            "author_affiliations": [
+                "Department of Computer Science, Tel Aviv University, Tel Aviv, Israel"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ruben Wolhandler",
+            "author_affiliations": [
+                "Department of Computer Science, Tel Aviv University, Tel Aviv, Israel"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yoav Gaulan",
+            "author_affiliations": [
+                "Department of Computer Science, Tel Aviv University, Tel Aviv, Israel"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Roee Esquira",
+            "author_affiliations": [
+                "Department of Computer Science, Tel Aviv University, Tel Aviv, Israel"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Moni Shahar",
+            "author_affiliations": [
+                "Center for AI and Data Science (TAD), Tel Aviv University, Tel Aviv, Israel"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yishai Mansour",
+            "author_affiliations": [
+                "Department of Computer Science, Tel Aviv University, Tel Aviv, Israel"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amir Globerson",
+            "author_affiliations": [
+                "Department of Computer Science, Tel Aviv University, Tel Aviv, Israel"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Drorit Neumann",
+            "author_affiliations": [
+                "Department of Cell and Developmental Biology, Sackler Faculty of Medicine, Tel Aviv University, Tel Aviv, Israel"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Moshe Mittelman",
+            "author_affiliations": [
+                "Department of Hematology, Tel Aviv Sourasky Medical Center/Sackler Faculty of Medicine, Tel Aviv, Israel",
+                "Department of Internal Medicine A, Tel Aviv Sourasky Medical Center/Sackler Faculty of Medicine, Tel Aviv, Israel"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Howard S. Oster",
+            "author_affiliations": [
+                "Department of Internal Medicine A, Tel Aviv Sourasky Medical Center/Sackler Faculty of Medicine, Tel Aviv, Israel"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T13:04:58",
+    "is_scraped": "1"
 }

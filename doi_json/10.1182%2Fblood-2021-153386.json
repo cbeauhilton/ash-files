@@ -1,8 +1,73 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4803",
-    "start_url_page_num": "4803",
     "doi": "https://doi.org/10.1182/blood-2021-153386",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3244/479114/Visualizing-Sickle-Cell-Disease-Whole-Blood-Flow?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T17:41:57",
-    "is_scraped": "0"
+    "article_title": "Visualizing Sickle Cell Disease Whole Blood Flow and Viscosity through Modifications to Hemoglobin Levels from a Simple Blood Transfusion ",
+    "article_date": "November 5, 2021",
+    "session_type": "401.Blood Transfusion",
+    "abstract_text": "Red cell transfusions are an effective part of a clinical care regiment in the treatment of chronic sickle cell disease; however, the understanding of the target hemoglobin levels has not been investigated past the standard hematocrit/hemoglobin (HgB) of 10 g/dL. A simple transfusion of packed red cells can be a beneficial clinical treatment of acute pain crisis or even stroke. Along with other transfusion-based complications, when performing a simple transfusion, the changes in blood velocity as a result of increased blood viscosity from the additional red cells can lead to complications of their own. Because of this, clinical treatment has hesitated to transfuse sickle patients above a HgB of 10 g/dL. The complications of sickle cell disease tend to be more pronounced on the microvascular scale than then macrovascular. Along with this, the overall slower blood flow caused by the increase in viscosity from a simple blood transfusion is more probable to lead to complications on the microvascular level. Our device allows us to target the changes in whole blood on multiple scales including down to arteriole sizes. Here, we have begun to investigate how transfusion could be more patient-specific by identifying the velocity profile of whole blood flowing through a \"microvasculature-on-a-chip\" device that mimics the microvascular geometry (Figure 1A). The devices were microfabricated using polydimethylsiloxane (PDMS) and then coated with 0.1% bovine serum albumin (BSA) to help prevent red cell adhesion to channel walls. To simulate various HgB levels, healthy whole blood samples were centrifuged to separate red cells. To simulate a simple clinical transfusion of a sickle patient, isolated red cells were added to sickle whole blood samples. Similar to a clinical setting, sickle samples were only transfused up to higher HgB levels. HgB levels were then confirmed on a differential hematology analyzer (Sysmex XN 330). 3.2mm CA+ was added to various HgB samples to defeat the citrate anticoagulant. Samples were loaded into syringes then perfused into the BSA coated devices (Figure 1B). During perfusion, a 450 frame video of flow was captured at 40x resolution and 163 fps. Following capture, videos parameters such as frame rate and pixel distance were defined in a custom MATLAB (Mathworks, Natick, MA) script. The script segmented videos into cropped frames of the desired regions of interest then a Kanade-Lucas-Tomasi (KLT) tracking algorithm detected red cell features in each frame across 4 frames (Figure 1 B&C). 12 equal spaced bins were created across the width of the channel in the direction of flow; Tracked velocities were assigned to their corresponding bin and averaged to create a velocity profile of function as the distance from the center of the channel (Figure 1 D&E). To create a case study, two patient samples were received with the same starting HgB of 6.8 g/dL and were transfused upwards incrementally to a HgB of 12 g/dL. One patient is currently on a hydroxyurea regiment and the other patient is not. At each HgB level, the perfused whole blood was tracked through several different arteriole-sized vessels (30, 40 & 60 um) at two appropriate flow rates. To quantify the differences in the flow, the average cell velocity (um/s) through the channel and the peak velocity (um/s) through channels were charted against the various HgB levels (Figure 2). Continuing this series of experiments, 2 additional sickle whole blood on hydroxyurea samples were transfused upwards from their respective starting hemoglobin (9.7 & 10 g/dL). The flow was tracked and averages were quantified across the channel through its distance from the center of the channel. As transfused sickle HgB levels were increased, the bluntness of the velocity profile, or the difference between the average flow velocity in the center of the channel and at the walls of the channel, became less dramatic. This could be primarily attributed to the increase in the viscosity from the addition of the red cells (Figure 3). Our data shows that viscosity plays an important factor in whole blood flow. HgB of 10 g/dL is an important target for sickle transfusions; however, this target HgB may be more patient-specific than previously stated. Understanding patient viscosity may prove to be more important than hemoglobin levels. As patient blood increases in viscosity, blood slows down on the microvascular level the most. This may be critical in understanding the appropriate transfusion. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Lam:  Sanguina, Inc.: Current holder of individual stocks in a privately-held company. Kemp:  Parthenon Therapeutics: Membership on an entity's Board of Directors or advisory committees.",
+    "author_names": [
+        "Kirby S. Fibben",
+        "Wilbur A. Lam",
+        "Dan Y. Zhang",
+        "Melissa L. Kemp",
+        "David K. Wood",
+        "Elizabeth Eiffrig"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Kirby S. Fibben",
+            "author_affiliations": [
+                "Wallace H. Coulter Department of Biomedical Engineering, Georgia Insitute of Technology and Emory University, Atlanta, GA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wilbur A. Lam",
+            "author_affiliations": [
+                "Wallace H. Coulter Department of Biomedical Engineering, Emory University/Georgia Tech, Atlanta, GA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dan Y. Zhang",
+            "author_affiliations": [
+                "George W. Woodruff School of Mechanical Engineering, Georgia Institute of Technology, Atlanta, GA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Melissa L. Kemp",
+            "author_affiliations": [
+                "Wallace H. Coulter Department of Biomedical Engineering, Georgia Institute of Technology and Emory University, Atlanta, GA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "David K. Wood",
+            "author_affiliations": [
+                "Department of Biomedical Engineering, University of Minnesota, Minneapolis, MN"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elizabeth Eiffrig",
+            "author_affiliations": [
+                "Emory University, Atlanta, GA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T13:09:26",
+    "is_scraped": "1"
 }

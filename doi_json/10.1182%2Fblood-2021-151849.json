@@ -1,8 +1,74 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4895",
-    "start_url_page_num": "4895",
     "doi": "https://doi.org/10.1182/blood-2021-151849",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/2967/479035/Complete-Blood-Count-Parameters-Outperform?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T21:41:01",
-    "is_scraped": "0"
+    "article_title": "Complete Blood Count Parameters Outperform Putative Inflammatory Markers in Predicting COVID-19 Mortality: A Multimodal Machine Learning Model ",
+    "article_date": "November 5, 2021",
+    "session_type": "901.Health Services Research-Non-Malignant Conditions",
+    "abstract_text": "Introduction: SARS-CoV-2 evoked immunodysregulation drives inflammation, morbidity, and mortality across COVID-19 presentation spectrum. We sought to identify baseline cell counts and proportions reported with a complete blood count (CBC) that contribute independent information to a model predicting mortality in hospitalized patients with laboratory confirmed SARS-CoV-2 infection. Such a model may complement or improve presentation risk stratification informed by putative inflammatory markers. Methods: Our retrospective design, analyses and interpretations followed constructs detailed in the Strengthening the Reporting of Observational Studies in Epidemiology reporting guideline. Under IRB exemption, discharge medical electronic health records underwent extraction of administrative and clinical data. Demographics, anthropometrics, vital signs, laboratory test and ICD-10-CM-based Elixhauser comorbidity categories were included. Univariate logistic regression was used to identify CBC parameters and attendant ratios associated (p<.05) with hospital mortality. Generalized regression with adaptive LASSO modeling was used to evaluate explanatory probability while eliminating collinearities in identified CBC parameters (individual and ratio) associated with mortality while controlling age, sex, race, baseline vital signs, Elixhauser comorbidities and COVID-19 epoch quarters / treatment. Additional analysis with Bootstrap Forest (BF) was employed to evaluate aggregated synergies and retain parameters that optimized generalized RSquared representing multivariate prediction accuracy and explained variance proportion (EV%) in mortality provided by each variable. Further BF analysis was used to examine relative magnitude of EV% versus putative COVID-19 inflammatory markers. CBC variables included in final BF model were temporally parsed in 24h intervals then pooled when measured after 120h since first vital sign at hospitalization. Results were averaged when a patient underwent multiple assays within an interval. A two-way ANOVA was employed to compare survival vs. non-survival pathways. Results: Among patients consecutively discharged between March 14, 2020 through May 31, 2021, 208 (10 %) of 2153 died. Survivor vs. non-survivor patient and clinical characteristics are summarized in Table 1. CBC parameters identified as independently associated with hospital mortality included WBC, lymphocytes, bands, segmented neutrophils, monocytes, and RDW-CV. (Table 2) Ratios of CBC parameters associated with mortality included AMC/ALC and APC/ALC (Table 2). Results of BF EF% modeling including CBC parameters respectively without (Rsquare = 0.65) and with (Rsquare = 0.70) inclusion of putative inflammatory markers are illustrated in Figure 1a and 1b. Inflammatory markers alone exhibited lowest Rsquare (0.52) (Figure 1c). Figure 2 illustrates temporal kinetics of modeled CBC parameters across hospitalization. Intergroup differences at baseline were sustained, save for RDW-CV after 5-days. Conclusions: Machine learning approaches identified several CBC parameters measured at presentation that when modeled with putative COVID-19 inflammatory markers, enhanced early prediction of hospital mortality. CBC parameters are usually more often measured compared to other inflammatory markers that show COVID-19 severity and serve as an easily obtainable source of information to determine which patients may require a higher level of care before clinical symptoms follow. This includes progression to critical illness and hospital mortality. We recommend that CBC parameters, especially bands, APC/ALC ratio and AMC/ALC ratio be considered for baseline risk stratification of COVID-19 severity, as these trends are sustained at least 5-days after hospitalization. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures No relevant conflicts of interest to declare.",
+    "author_names": [
+        "Precious Idogun",
+        "John Sia",
+        "Mindy Ward",
+        "Dillan Patel",
+        "Wilhelmine Wiese-Rometsch",
+        "Anjan J. Patel"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Precious Idogun",
+            "author_affiliations": [
+                "Florida State University, Sarasota, FL"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "John Sia",
+            "author_affiliations": [
+                "Florida State University, Tallahassee, FL"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mindy Ward",
+            "author_affiliations": [
+                "Florida State University, Tallahassee, FL"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dillan Patel",
+            "author_affiliations": [
+                "Florida State University, Tallahassee, FL"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wilhelmine Wiese-Rometsch",
+            "author_affiliations": [
+                "Florida State University, Tallahassee, FL",
+                "Sarasota Memorial hospital, Sarasota, FL"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anjan J. Patel",
+            "author_affiliations": [
+                "Florida Cancer Specialist, Sarasota, FL"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T13:02:51",
+    "is_scraped": "1"
 }
