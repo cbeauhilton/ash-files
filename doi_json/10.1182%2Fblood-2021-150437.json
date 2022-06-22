@@ -1,8 +1,273 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4861",
-    "start_url_page_num": "4861",
     "doi": "https://doi.org/10.1182/blood-2021-150437",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/2113/478302/Machine-Learning-Based-Early-Warning-System-for?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T20:21:21",
-    "is_scraped": "0"
+    "article_title": "Machine-Learning Based Early Warning System for Prediction for Disseminated Intravascular Coagulation after Allogeneic Hematopoietic Stem Cell Transplantation: A Nationwide Multicenter Study ",
+    "article_date": "November 5, 2021",
+    "session_type": "322.Disorders of Coagulation or Fibrinolysis: Clinical and Epidemiological",
+    "abstract_text": "Introduction Allogeneic haematopoietic stem cell transplantation (allo-HSCT) has been demonstrated to be the most effective therapy for various malignant as well as nonmalignant haematological diseases. The wide use of allo-HSCT has inevitably led to a variety of complications after transplantation, with bleeding complications such as disseminated intravascular coagulation (DIC). DIC accounts for a significant proportion of life-threatening bleeding cases occurring after allo-HSCT. However, information on markers for early identification remains limited, and no predictive tools for DIC after allo-HSCT are available. This research aimed to identify the risk factors for DIC after allo-HSCT and establish prediction models to predict the occurrence of DIC after allo-HSCT. Methods The definition of DIC was based on the International Society of Thrombosis and Hemostasis (ISTH) scoring system. Overall, 197 patients with DIC after allo-HSCT at Peking University People's Hospital and other 7 centers in China from January 2010 to June 2021 were retrospectively identified. Each patient was randomly matched to 3 controls based on the time of allo-HSCT (\u00b13 months) and length of follow-up (\u00b16 months). A lasso regression model was used for data dimension reduction, feature selection, and risk factor building. Multivariable logistic regression analysis was used to develop the prediction model. We incorporated the clinical risk factors, and this was presented with a nomogram. The performance of the nomogram was assessed with respect to its calibration, discrimination, and clinical usefulness. Internal and external validation was assessed. Various machine learning models were further used to perform machine learning modeling by attempting to complete the data sample classification task, including XGBClassifier, LogisticRegression, MLPClassifier, RandomForestClassifier, and AdaBoostClassifier. Results A total of 7280 patients received allo-HSCT from January 2010 to June 2021, and DIC occurred in 197 of these patients (incidence of 2.7%). The derivation cohort included 120 DIC patients received allo-HSCT and 360 patients received allo-HSCT from Peking University People's Hospital, and the validation cohort included the remaining 77 patients received allo-HSCT and 231 patients received allo-HSCT from the other 7 centers. The median time for DIC events was 99.0 (IQR, 46.8-220) days after allo-HSCT. The overall survival of patients with DIC was significantly reduced ( P \uff1c 0.0001). By Lasso regression, the 10 variables with the highest importance were found to be prothrombin time activity (PTA), shock, C-reactive protein, internationalization normalized ratio, bacterial infection, oxygenation, fibrinogen, blood creatinine, white blood cell count, and acute respiratory distress syndrome (from highest to lowest). In the multivariate analysis, the independent risk factors for DIC included PTA, bacterial infection and shock (P <0.001), and these predictors were included in the clinical prediction nomogram. The model showed good discrimination, with a C-index of 0.975 (95%CI, 0.939 to 0.987 through internal validation) and good calibration. Application of the nomogram in the validation cohort still gave good discrimination (C-index, 0.778 [95% CI, 0.759 to 0.766]) and good calibration. Decision curve analysis demonstrated that the nomogram was clinically useful. The predictive value ROC curves of different machine learning models show that XGBClassifier is the best performing model for this dataset, with an area under the curve of 0.86. Conclusions Risk factors for DIC after allo-HSCT were identified, and a nomogram model and various machine learning models were established to predict the occurrence of DIC after allo-HSCT. Combined, these can help recognize high-risk patients and provide timely treatment. In the future, we will further refine the prognostic model utilizing nationwide multicenter data and conduct prospective clinical trials to reduce the incidence of DIC after allo-HSCT and improve the prognosis. Disclosures No relevant conflicts of interest to declare.",
+    "author_names": [
+        "Zhuo-Yu An",
+        "Ye-Jun Wu",
+        "Yun He",
+        "Xiao-Lu Zhu",
+        "Yan Su",
+        "Chen-Cong Wang",
+        "Tian-Xiao Han",
+        "Hai-Xia Fu",
+        "Feng-Rong Wang",
+        "Xiao-Dong Mo",
+        "Yu Wang",
+        "Xiang-Yu Zhao",
+        "Yuan-Yuan Zhang",
+        "Wei Han",
+        "Huan Chen",
+        "Yao Chen",
+        "Chen-Hua Yan",
+        "Jing-Zhi Wang",
+        "Ting-Ting Han",
+        "Yu-Hong Chen",
+        "Yi-Fei Cheng",
+        "Ying-Jun Chang",
+        "Lan-Ping Xu",
+        "Kai-Yan Liu",
+        "Xiao Jun Huang",
+        "Xiaohui Zhang"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Zhuo-Yu An",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ye-Jun Wu",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yun He",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xiao-Lu Zhu",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yan Su",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chen-Cong Wang",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tian-Xiao Han",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hai-Xia Fu",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Feng-Rong Wang",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xiao-Dong Mo",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yu Wang",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xiang-Yu Zhao",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yuan-Yuan Zhang",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wei Han",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Huan Chen",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yao Chen",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, Beijing, China"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Chen-Hua Yan",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jing-Zhi Wang",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ting-Ting Han",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yu-Hong Chen",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yi-Fei Cheng",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ying-Jun Chang",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lan-Ping Xu",
+            "author_affiliations": [
+                "Peking University People's Hospital, Beijing, China"
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kai-Yan Liu",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xiao Jun Huang",
+            "author_affiliations": [
+                "Peking University People's Hospital, Beijing, China"
+            ],
+            "author_rank": 25,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xiaohui Zhang",
+            "author_affiliations": [
+                "Peking University People's Hospital, Peking University Institute of Hematology, National Clinical Research Center for Hematologic Disease, Beijing Key Laboratory of Hematopoietic Stem Cell Transplantation, Collaborative Innovation Center of Hematology, Beijing, China"
+            ],
+            "author_rank": 26,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T21:39:34",
+    "is_scraped": "1"
 }
