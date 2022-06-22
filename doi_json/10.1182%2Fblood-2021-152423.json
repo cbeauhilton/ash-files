@@ -1,8 +1,263 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4826",
-    "start_url_page_num": "4826",
     "doi": "https://doi.org/10.1182/blood-2021-152423",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/3550/479702/Biosimulation-Using-the-Cellworks-Computational?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T19:16:28",
-    "is_scraped": "0"
+    "article_title": "Biosimulation Using the Cellworks Computational Omics Biology Model (CBM) Predicted Novel Biomarkers for Hyper-CVAD (CVAD) Treatment Response and Combination of Rituximab and Cladribine (RC) in CVAD Resistant Cases of Mantle Cell Lymphoma (MCL) ",
+    "article_date": "November 5, 2021",
+    "session_type": "623.Mantle Cell, Follicular, and Other Indolent B Cell Lymphomas: Clinical and Epidemiological",
+    "abstract_text": "Background: Mantle Cell Lymphoma (MCL) accounts for 3-10% of all non-Hodgkin lymphomas with a median overall survival of 3-4 years. Hyper-CVAD (CVAD) with or without Rituximab constitutes first line therapy for treatment of MCL, yet the use of this combination is associated with high toxicity and only modest efficacy. On the other hand, impressive clinical efficacy has been reported in relapsed MCL patients treated with rituximab and cladribine (RC). Prediction of response based on cancer genomics heterogeneity creates an opportunity to personalize treatment and avoid toxic therapy which has little chance of response. We conducted a study using the Cellworks Biosimulation Platform to identify novel genomic biomarkers associated with response to CVAD and RC among MCL patients. Method: Newly-diagnosed MCL patients were selected for this study based largely on genomic data (i.e. aberrations and copy number variations) published in PubMed and TCGA. The Cellworks Computational Omics Biology Model (CBM) is a computational multi-omic biology software model created using artificial intelligence heuristics and literature sourced from PubMed, to generate a patient-specific protein network map. Genomic data from each patient served as input for the CBM. Biomarkers unique to each patient were identified within protein network-maps. Drug impact on the disease network was biosimulated using the Cellworks Biosimulation Platform to determine a treatment efficacy value by measuring the treatment effects on the cell growth score, a composite of cell proliferation, viability, apoptosis, metastasis, DNA damage and other cancer hallmarks. The mechanism of action of each drug was mapped to each patient's CBM and the predicted biological consequences were used to determine response. Biosimulation of CVAD was applied to the patients in this cohort. RC was biosimulated on all CVAD non-responders. Results: Among the 94 MCL patients treated with CVAD, the Cellworks Biosimulation Platform identified novel biomarkers (Table 1) to predict treatment response or failure. The biosimulation also identified unique drug combinations for patients that were non-responders (NR) to both treatments. Of the 94 patients, 57 were deemed responders (R) and 37 non-responders (NR). ATM LOF/del, RAD51 del, LIG4A del, RB1 del, ERCC5 del, CARD11 amp, IKZF1 amp, and FANCC del were major predictors of CVAD response. These genes contributed to drug efficacy by impacting various pathways, including DNA repair, oxidative-stress, NFKB activation, spindle formation and mitotic-catastrophe. The frequency of aberration affecting these genes was high among the R group and was low in the NR group. Biosimulation was used to assess response to RC, and predicted, that 41 of 94 patients would respond and 53 would not respond. KMT2D LOF and SMAD4 del were associated with response to RC. Epigenetic dysregulation caused by KMT2D LOF decreased MSH6 -mediated mismatch repair required for futile DNA repair leading to replication fork arrest and apoptosis. Interestingly, KMT2D LOF was identified in 20/41 R to RC. MYC amp, NOTCH 1 GOF, and NT5C2 amp were identified as key non-response markers for RC. In considering both regimens, 27 patients were predicted R to both CVAD and RC, 14 to RC but not to CVAD, 30 to CVAD but not RC, and 23 NR to both regimens. In the latter group, biosimulation predicted that a venetoclax-based combination would be effective in many cases due to the high incidence of TP53 GOF mutation within this subgroup. Conclusions : This pilot study highlights how the Cellworks Biosimulation Platform applied to the patient-specific CBM can identify treatment alternatives for patients with low likelihood of response to standard therapy or who may be ineligible for CVAD because of co-morbidities. RC responsiveness was either an equivalent but much less toxic option to CVAD or superior to CVAD. By using novel biomarkers derived from comprehensive mutational and copy number analysis, the CBM identified pathway-based, polygenic biomarkers that can be employed to determine optimal drug combinations for MCL patients. This biosimulation approach warrants prospective validation in a larger patient cohort. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Marcucci:  Abbvie: Other: Speaker and advisory scientific board meetings; Agios: Other: Speaker and advisory scientific board meetings; Novartis: Other: Speaker and advisory scientific board meetings. Kumar:  Cellworks Group Inc.: Current Employment. Castro:  Bugworks: Consultancy; Caris Life Sciences Inc.: Consultancy; Omicure Inc: Consultancy; Guardant Health Inc.: Speakers Bureau; Cellworks Group Inc.: Current Employment; Exact sciences Inc.: Consultancy. Khandelwal:  Cellworks Group Inc.: Current Employment. Mohapatra:  Cellworks Group Inc.: Current Employment. Kapoor:  Cellworks Group Inc.: Current Employment. Agrawal:  Cellworks Group Inc.: Current Employment. Sauban:  Cellworks Group Inc.: Current Employment. Basu:  Cellworks Group Inc.: Current Employment. Shyamasundar:  Cellworks Group Inc.: Current Employment. Lala:  Cellworks Group Inc.: Current Employment. Raju:  Cellworks Group Inc.: Current Employment. Palaniyeppa:  Cellworks Group Inc.: Current Employment. Ullal:  Cellworks Group Inc.: Current Employment. Joseph:  Cellworks Group Inc.: Current Employment. Behura:  Cellworks Group Inc.: Current Employment. Sahu:  Cellworks Group Inc.: Current Employment. Prakash:  Cellworks Group Inc.: Current Employment. Mitra:  Cellworks Group Inc.: Current Employment. Balla:  Cellworks Group Inc.: Current Employment. Patil:  Cellworks Group Inc.: Current Employment. Mohanty:  Cellworks Group Inc.: Current Employment. Patel:  Cellworks Group Inc.: Current Employment. Macpherson:  Cellworks Group Inc.: Current Employment. Howard:  Sanofi: Consultancy, Other: Speaker fees; Servier: Consultancy; Cellworks Group Inc.: Consultancy.",
+    "author_names": [
+        "Guido Marcucci",
+        "Ansu Kumar",
+        "Michael Castro",
+        "Swati Khandelwal",
+        "Subrat Mohapatra",
+        "Shweta Kapoor",
+        "Ashish Kumar Agrawal",
+        "Mohammed Sauban",
+        "Kabya Basu",
+        "Vijayashree P Shyamasundar",
+        "Deepak Anil Lala",
+        "Karthik Sundara Raju",
+        "Naga Ganesh Palaniyeppa",
+        "Yashaswini S Ullal",
+        "Vishwas Joseph",
+        "Liptimayee Behura",
+        "Diwyanshu Sahu",
+        "Annapoorna Prakash",
+        "Upasana Mitra",
+        "Ashokraja Balla",
+        "Mamatha Patil",
+        "Jharana Mohanty",
+        "Sanjana Patel",
+        "Michele Dundas Macpherson",
+        "Scott C Howard"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Guido Marcucci",
+            "author_affiliations": [
+                "Department of Hematological Malignancies Translational Science, Gehr Family Center for Leukemia Research, Hematology Malignancies and Stem Cell Transplantation Institute, Beckman Research Institute, City of Hope, Duarte, CA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ansu Kumar",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Castro",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Swati Khandelwal",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Subrat Mohapatra",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shweta Kapoor",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ashish Kumar Agrawal",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mohammed Sauban",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kabya Basu",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vijayashree P Shyamasundar",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Deepak Anil Lala",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karthik Sundara Raju",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Naga Ganesh Palaniyeppa",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yashaswini S Ullal",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Vishwas Joseph",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Liptimayee Behura",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Diwyanshu Sahu",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Annapoorna Prakash",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Upasana Mitra",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ashokraja Balla",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mamatha Patil",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jharana Mohanty",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sanjana Patel",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michele Dundas Macpherson",
+            "author_affiliations": [
+                "Cellworks Group Inc., South San Francisco, CA"
+            ],
+            "author_rank": 24,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Scott C Howard",
+            "author_affiliations": [
+                "Department of Acute and Tertiary Care, University of Tennessee Health Science Center, Memphis, TN"
+            ],
+            "author_rank": 25,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T18:44:14",
+    "is_scraped": "1"
 }

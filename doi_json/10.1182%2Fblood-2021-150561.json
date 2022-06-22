@@ -1,8 +1,223 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4831",
-    "start_url_page_num": "4831",
     "doi": "https://doi.org/10.1182/blood-2021-150561",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/2583/478604/Novel-Machine-Learning-Algorithm-Predicts-Disease?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T19:16:45",
-    "is_scraped": "0"
+    "article_title": "Novel Machine Learning Algorithm Predicts Disease Progression in Polycythemia Vera (PV) with Readily-Available Baseline Characteristics ",
+    "article_date": "November 5, 2021",
+    "session_type": "634.Myeloproliferative Syndromes: Clinical and Epidemiological",
+    "abstract_text": "Introduction Risk stratification in PV currently involves thrombosis risk assessment, but few models have been developed to predict progression to myelofibrosis, a major cause of morbidity and late mortality. The goal of this study is to utilize machine learning to develop a clinically relevant tool for predicting progression to myelofibrosis at time of PV diagnosis. Methods We analyzed 527 PV patients within a retrospective multi-institutional cohort as previously described (Ronner Blood 2020). Available features include baseline demographics, cardiovascular risk factors, physical exam findings, and laboratory values. Baseline laboratory values were assessed either at diagnosis, or at first institutional encounter if diagnosis values were unavailable. Progression was determined clinically by the treating physician. The cohort was initially split into a development set (90%) and hold-out set (10%) stratified by disease progression status. Highly missing features, defined as over 50% missing, were excluded. Missing data in the development set were imputed using multiple imputation by chained equations in 7 unique iterations. Random survival forest (RSF) models were trained and evaluated using 5-fold cross validation on each of the 7 imputed copies, resulting in 35 total models. Within each model, the Synthetic Minority Over-Sampling Technique was used to reduce class imbalance of progression vs no progression within the training set. Using minimal depth analysis across all 35 models, a set of biologically plausible features were selected. A final RSF was retrained on complete cases within the development set and evaluated on the hold-out set. Models were compared using time-dependent area under receiver operating characteristics and Harrell's c-index, which is a measure of predicted and observed concordance. To compare c-indices, Wilcoxon signed-rank test was performed. Our RSF model was compared to established PV prediction models, such as the European LeukemiaNet (ELN) score and the International Working Group - Myeloproliferative Neoplasms Research and Treatment (IWG-MRT) score. The ELN score is determined by age and prior thrombosis, while the IWG-MRT score is determined by age, WBC, and prior thrombosis. External validation is ongoing with a single-center cohort of 470 PV patients from Weil Cornell Medical Center. Results A total of 527 patients were included in analysis, of whom 70 progressed and 8 died over a median follow up duration of 6.4 years. The median age at diagnosis was 58 years (IQR 48 - 67), and the median time to progression from PV diagnosis was 9.33 years (IQR 6.04 - 14.7). Laboratory values were available at diagnosis in 314 patients (59.6%). In the other 213 patients (40.4%), the median time from diagnosis to first contact was 4.8 years (IQR 1.9 - 9.8) and 111 (52.1%) were on cytoreductive therapy at that time. Cytogenetics, mutations, and bone marrow features were highly missing with a mean missing rate of 66.1%, and thus were excluded from analysis. The cohort had a median age at diagnosis of 57.8 years (IQR 47.6 - 66.9), WBC 10.8 x 10^9 / L (IQR 8.1 - 14.6), and proportion of neutrophilia 74.2% (IQR 66.8 - 80). After rigorous feature selection, these 3 variables were used in the final RSF model, inputted as continuous values. Across the 35 development training models, our 3-variable RSF model had a median c-index of 0.67 (IQR 0.60 - 0.74). This model significantly outperformed ELN score (0.50, IQR 0.43 - 0.58, p < 0.001) and IWG-MRT score (0.48, IQR 0.43 - 0.59, p < 0.001). In our final static 3-variable RSF trained on complete cases, the final c-index was 0.80, and time-dependent AUROC values of 0.99, 0.90, 0.79 at 3-year, 5-year, and 10-year from diagnosis respectively when predicted on the hold-out set. An interactive web interface for the 3-variable RSF is currently under development. The external validation cohort includes 470 PV patients, of whom 101 progressed over a median follow up 9 years. Model validation will be provided at time of presentation. Conclusions We developed a novel machine learning model for predicting progression in PV using a minimal amount of available clinical parameters. Identifying patients at high risk of progression can inform future interventional trials in high risk populations. Further work is needed in larger homogenous cohorts to assess if molecular analysis, cytoreductive therapies, or dynamic assessment can improve upon these predictions. Figure 1 View large Download slide Figure 1 View large Download slide Close modal Disclosures Abu-Zeinah:  PharmaEssentia: Consultancy. Scandura:  Abbvie: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Constellation: Research Funding; MPN-RF (Foundation): Research Funding; CR&T (Foudation): Research Funding; European Leukemia net: Honoraria, Other: travel fees . Silver:  Abbvie: Consultancy; PharamEssentia: Consultancy, Speakers Bureau. Podoltsev:  CTI BioPharma: Honoraria; Incyte: Honoraria; Celgene: Honoraria; PharmaEssentia: Honoraria; Blueprint Medicines: Honoraria; Pfizer: Honoraria; Bristol-Myers Squib: Honoraria; Novartis: Honoraria. Gotlib:  Cogent Biosciences: Honoraria, Membership on an entity's Board of Directors or advisory committees, Other: Chair for the Eligibility and Central Response Review Committee, Research Funding; Allakos: Consultancy; PharmaEssentia: Honoraria, Membership on an entity's Board of Directors or advisory committees; Kartos: Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; BMS: Research Funding; Abbvie: Membership on an entity's Board of Directors or advisory committees, Research Funding; Deciphera: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Novartis: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Incyte: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding; Blueprint Medicines: Consultancy, Honoraria, Membership on an entity's Board of Directors or advisory committees, Research Funding. Heaney:  Sierra Oncology: Research Funding; CTI: Honoraria, Research Funding; Kartos: Research Funding; Blueprint: Honoraria, Research Funding; Novartis: Honoraria; Cogent: Research Funding; BMS: Research Funding. Kuykendall:  Incyte: Consultancy; Abbvie: Honoraria; Blueprint: Honoraria; Pharmaessentia: Honoraria; Novartis: Honoraria, Speakers Bureau; Protagonist: Consultancy, Research Funding; Celgene/BMS: Honoraria. O'Connell:  Astex Pharmaceuticals: Consultancy, Research Funding; Genentech: Research Funding; Bristol Myers Squibb: Consultancy; Pfizer: Consultancy; Shionogi: Consultancy. Shammo:  NS Pharma: Membership on an entity's Board of Directors or advisory committees; sanofi: Consultancy, Honoraria, Speakers Bureau; Baxter: Current holder of stock options in a privately-held company; Takeda: Consultancy, Current equity holder in publicly-traded company, Current holder of individual stocks in a privately-held company, Honoraria, Research Funding; CTI pharma: Research Funding; Abbvie: Current holder of individual stocks in a privately-held company, Research Funding; Novartis: Consultancy, Honoraria, Research Funding, Speakers Bureau; Astra zeneca: Research Funding; Stemline therapeutics: Research Funding; Kartos Pharma: Research Funding; Incyte: Consultancy, Honoraria, Research Funding, Speakers Bureau; Alexion: Consultancy, Honoraria, Research Funding, Speakers Bureau; BMS: Consultancy, Honoraria, Research Funding, Speakers Bureau; Apellis: Consultancy, Membership on an entity's Board of Directors or advisory committees. Mesa:  La Jolla Pharma: Consultancy; AOP: Consultancy; Promedior: Research Funding; Samus: Research Funding; Constellation Pharmaceuticals: Consultancy, Research Funding; Pharma: Consultancy; Celgene: Research Funding; Gilead: Research Funding; CTI: Research Funding; Sierra Oncology: Consultancy, Research Funding; Incyte Corporation: Consultancy, Research Funding; Abbvie: Research Funding; Novartis: Consultancy; CTI: Research Funding; Genentech: Research Funding. Yacoub:  Incyte: Consultancy, Honoraria, Speakers Bureau; Dynavex: Current equity holder in publicly-traded company; Novartis: Consultancy, Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; CTI Biopharma: Membership on an entity's Board of Directors or advisory committees; ACCELERON PHARMA: Membership on an entity's Board of Directors or advisory committees; Agios: Membership on an entity's Board of Directors or advisory committees, Speakers Bureau; Cara: Current equity holder in publicly-traded company; Ardelyx: Current equity holder in publicly-traded company; Seattle Genetics: Honoraria, Speakers Bureau; Hylapharm: Current equity holder in publicly-traded company. Hoffman:  Novartis: Other: Data Safety Monitoring Board, Research Funding; Kartos Therapeutics, Inc.: Research Funding; Protagonist Therapeutics, Inc.: Consultancy; AbbVie Inc.: Other: Data Safety Monitoring Board, Research Funding. Mascarenhas:  PharmaEssentia: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Merus: Research Funding; Kartos: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Geron: Consultancy; Gilead: Consultancy, Membership on an entity's Board of Directors or advisory committees; Prelude: Consultancy; Merck: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Galecto: Consultancy; Promedior: Consultancy, Membership on an entity's Board of Directors or advisory committees; Constellation: Consultancy, Membership on an entity's Board of Directors or advisory committees; Celgene/BMS: Consultancy, Membership on an entity's Board of Directors or advisory committees; CTI Biopharm: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Forbius: Research Funding; AbbVie: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Roche: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Novartis: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Genentech/Roche: Consultancy, Membership on an entity's Board of Directors or advisory committees; Sierra Oncology: Consultancy, Membership on an entity's Board of Directors or advisory committees; Incyte: Consultancy, Membership on an entity's Board of Directors or advisory committees, Research Funding; Geron: Consultancy, Research Funding.",
+    "author_names": [
+        "Andrew Srisuwananukorn",
+        "Beth Percha",
+        "Ghaith Abu-Zeinah",
+        "Joseph Scandura",
+        "Spencer Krichevsky",
+        "Elwood Taylor, III",
+        "Richard T. Silver",
+        "Santiago Thibaud",
+        "Lukas Ronner",
+        "Nikolai Podoltsev",
+        "Jason Gotlib",
+        "Mark L. Heaney",
+        "Andrew T. Kuykendall",
+        "Casey O'Connell",
+        "Jamile M. Shammo",
+        "Angela Fleischman",
+        "Ruben A. Mesa",
+        "Abdulraheem Yacoub",
+        "Ronald Hoffman",
+        "John Mascarenhas",
+        "Douglas Tremblay"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Andrew Srisuwananukorn",
+            "author_affiliations": [
+                "Tisch Cancer Institute, Division of Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Beth Percha",
+            "author_affiliations": [
+                "Department of Medicine, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ghaith Abu-Zeinah",
+            "author_affiliations": [
+                "Richard T. Silver, M.D. Myeloproliferative Neoplasms (MPN) Center, Cornell, New York, NY"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Joseph Scandura",
+            "author_affiliations": [
+                "Richard T. Silver, M.D. Myeloproliferative Neoplasms (MPN) Center, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Spencer Krichevsky",
+            "author_affiliations": [
+                "Richard T. Silver, M.D. Myeloproliferative Neoplasms (MPN) Center, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elwood Taylor, III",
+            "author_affiliations": [
+                "Richard T. Silver, M.D. Myeloproliferative Neoplasms (MPN) Center, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Richard T. Silver",
+            "author_affiliations": [
+                "Richard T. Silver, M.D. Myeloproliferative Neoplasms (MPN) Center, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Santiago Thibaud",
+            "author_affiliations": [
+                "Tisch Cancer Institute, Division of Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lukas Ronner",
+            "author_affiliations": [
+                "Department of Medicine, Hospital of the University of Pennsylvania, Philadelphia, PA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nikolai Podoltsev",
+            "author_affiliations": [
+                "Yale Cancer Center, Yale University School of Medicine, New Haven, CT"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jason Gotlib",
+            "author_affiliations": [
+                "Divisions of Hematology and Oncology and Stanford Cancer Center, Stanford University School of Medicine, Stanford, CA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mark L. Heaney",
+            "author_affiliations": [
+                "Herbert Irving Comprehensive Cancer Center, Columbia University Medical Center, New York, NY"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrew T. Kuykendall",
+            "author_affiliations": [
+                "Department of Malignant Hematology, H. Lee Moffitt Cancer Center & Research Institute, Tampa, FL"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Casey O'Connell",
+            "author_affiliations": [
+                "Jane Anne Nohl Division of Hematology, Keck School of Medicine of USC, Los Angeles, CA"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jamile M. Shammo",
+            "author_affiliations": [
+                "Division of Hematology/Oncology, Rush University Medical Center, Chicago, IL"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Angela Fleischman",
+            "author_affiliations": [
+                "University of California, Irvine, Irvine, CA"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ruben A. Mesa",
+            "author_affiliations": [
+                "UT Health San Antonio Cancer Center, San Antonio, TX"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Abdulraheem Yacoub",
+            "author_affiliations": [
+                "The University of Kansas Cancer Center, Leawood, KS"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ronald Hoffman",
+            "author_affiliations": [
+                "Division of Hematology/Medical Oncology, Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "John Mascarenhas",
+            "author_affiliations": [
+                "Tisch Cancer Institute, Division of Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Douglas Tremblay",
+            "author_affiliations": [
+                "Tisch Cancer Institute, Division of Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-22T18:47:23",
+    "is_scraped": "1"
 }
