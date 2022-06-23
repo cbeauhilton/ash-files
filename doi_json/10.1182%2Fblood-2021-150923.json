@@ -1,8 +1,117 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4906",
-    "start_url_page_num": "4906",
     "doi": "https://doi.org/10.1182/blood-2021-150923",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/326/478109/Single-Cell-Profiling-Reveals-Contribution-of?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T22:20:11",
-    "is_scraped": "0"
+    "article_title": "Single-Cell Profiling Reveals Contribution of Tumor Extrinsic and Intrinsic Factors to BCMA-Targeted CAR-T Cell Efficacy in Multiple Myeloma ",
+    "article_date": "November 5, 2021",
+    "session_type": "651.Multiple Myeloma and Plasma Cell Dyscrasias: Basic and Translational",
+    "abstract_text": "Background: BCMA CAR-T cell therapy has shown great promise in relapsed/refractory multiple myeloma (RRMM) patients, even though there is unpredictable variability in the duration and depth of response. The mechanisms behind these divergent outcomes and relapse are not well understood and heterogeneity of MM patients at the level of both tumor genomics and tumor microenvironment (TME) likely contributes to this important knowledge gap. To explore this question, we performed a longitudinal high resolution single cell genomic and proteomic analysis of bone marrow (BM) and peripheral blood (PB) samples in MM patients treated with BCMA CAR-T. Methods: Longitudinal comprehensive immune phenotyping of 3.5 million peripheral blood mononuclear cells (PBMC, CD45+CD66b-) from 11 BCMA CAR-T (idecabtagene vicleucel, ide-cel) patients was achieved via mass cytometry (CyTOF) with a panel of 39 markers. In addition, a total of 45,161 bone marrow mononuclear cells (BMMC) were analyzed from 6 patients before initiation of ide-cel therapy and at relapse by unbiased mRNA profiling via single-cell RNA-seq (scRNA-seq) using the GemCode system (10x Genomics). Downstream analysis was performed using the CATALYST and Seurat R packages, respectively. Immune cell populations are reported as % of PBMC and CD138- BMMC respectively, unless noted otherwise. Reported p values correspond to non-parametric tests or paired t test where applicable. Results: We compared baseline immune cell populations in the PB and the TME (BM) with regards to depth of CAR-T response. In PB, good responders (\u2265VGPR) had a higher proportion of CD8+ T cells (37% in good vs 11% in poor responders (<VGPR), p=0.08) and a lower proportion of CD14+ monocytes (30% vs 61%, p=0.28) and NK cells (2% vs 6%, p=0.08). In the TME, a similar trend was confirmed for CD8+ T cells and CD14+ monocytes. (Fig. 1A) Longitudinal analysis of PBMCs revealed phenotypic changes coinciding with CAR-T expansion; CD14+ monocytes declined from week 0 to week 4 after CAR-T infusion (40% vs 13%, p=0.04), while (non-CAR) CD8+ T cells expanded from week 0 to week 4 (32% vs 43%, p=0.15). The non-CAR CD8+ T cell expansion is characterized by differentiation towards a CD8+ effector-memory phenotype (EM, CCR7-CD45RA-) (73% vs 92% of CD8+ T cells, p=0.005). (Fig. 1B) BM samples at CAR-T relapse showed reversal of this shift: CD14+ monocyte levels remain constant or are slightly elevated, while non-CAR CD8+ T cells decrease at relapse. scRNA-seq of BMMC revealed significant gene expression changes between screening and relapse tumor samples, suggesting tumor-intrinsic factors of CAR-T response. For example, when comparing the pre and post tumor samples of a patient with durable response (PFS 652 days), we observed a significant upregulation of gene expression of pro-inflammatory chemokines (CCL3, CCL4), anti-apoptotic genes (MCL-1, FOSB, JUND), and NF-kB signaling genes (NFKBIA) in post tumor. Gene Set Enrichment Analysis (GSEA) of differentially expressed genes showed significant enrichment for TNFA signaling via NF-kB Hallmark Pathway (p.adj = 0.04). We observed similar statistically significant findings between other screening and relapse samples within our cohort, as well as upon comparison of baseline samples of poor vs good responders. (Fig. 1C, D) Thus, our data suggest that anti-apoptotic gene expression could be one of the tumor intrinsic mechanisms of CAR-T therapy resistance. Notably, we did not observe loss of BCMA expression in any tumor samples. Conclusion: Single cell immune profiling and transcriptomic sequencing highlights changes in the PB, TME and within the tumor, which in concert may influence CAR-T efficacy. Our integrated data analysis indicates general immune activation after CAR-T cell infusion that returns to baseline levels at relapse. Specifically, the expansion of non-CAR cytotoxic CD8+ EM T cells provides a rationale for co-administration of IMiDs to enhance CAR-T efficacy. Significant up-regulation of anti-apoptotic genes at baseline in poor responders, and at relapse in good responders, suggest a novel tumor-mediated escape mechanism. Targeting the MCL-1/BCL-2 axis may augment CAR-T efficacy by sensitizing tumor cells and enhancing the effect of CAR-T killing. We will confirm these findings in a longitudinal cohort of BMMC/PBMC CITE-seq patients (n=23) and will present results at the conference. Figure 1 View large Download slide Figure 1 View large Download slide Close modal Disclosures Sebra:  Sema4: Current Employment. Parekh:  Foundation Medicine Inc: Consultancy; Amgen: Research Funding; PFIZER: Research Funding; CELGENE: Research Funding; Karyopharm Inv: Research Funding.",
+    "author_names": [
+        "David T. Melnekoff",
+        "Yogita Ghodke-Puranik",
+        "Oliver Van Oekelen",
+        "Adolfo Aleman",
+        "Bhaskar Upadhyaya",
+        "Robert Sebra",
+        "Sundar Jagannath",
+        "Alessandro Lagana",
+        "Samir Parekh"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "David T. Melnekoff",
+            "author_affiliations": [
+                "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY",
+                "Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY",
+                "Graduate School of Biomedical Sciences, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Yogita Ghodke-Puranik",
+            "author_affiliations": [
+                "Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY",
+                "Department of Medicine, Hematology, and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Oliver Van Oekelen",
+            "author_affiliations": [
+                "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY",
+                "Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY",
+                "Graduate School of Biomedical Sciences, Icahn School of Medicine at Mount Sinai, New York, NY",
+                "Department of Medicine, Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Adolfo Aleman",
+            "author_affiliations": [
+                "Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY",
+                "Graduate School of Biomedical Sciences, Icahn School of Medicine at Mount Sinai, New York, NY",
+                "Department of Medicine, Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bhaskar Upadhyaya",
+            "author_affiliations": [
+                "Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY",
+                "Department of Medicine, Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Robert Sebra",
+            "author_affiliations": [
+                "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sundar Jagannath",
+            "author_affiliations": [
+                "Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY",
+                "Department of Medicine, Hematology and Medical Oncology, Mount Sinai Medical Center, New York, NY"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alessandro Lagana",
+            "author_affiliations": [
+                "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY",
+                "Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY",
+                "Department of Oncological Sciences, Icahn School of Medicine At Mount Sinai, New York, NY"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Samir Parekh",
+            "author_affiliations": [
+                "Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY",
+                "Department of Medicine, Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai, New York, NY",
+                "Department of Oncological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-23T06:38:06",
+    "is_scraped": "1"
 }
