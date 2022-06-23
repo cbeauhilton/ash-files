@@ -1,8 +1,94 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4898",
-    "start_url_page_num": "4898",
     "doi": "https://doi.org/10.1182/blood-2021-151195",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/2953/478976/Predicting-Early-Relapse-for-Patients-with?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T21:41:12",
-    "is_scraped": "0"
+    "article_title": "Predicting Early Relapse for Patients with Multiple Myeloma through Machine Learning ",
+    "article_date": "November 5, 2021",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "AK+NG eq. cont. Introduction Management of multiple myeloma (MM) improved dramatically in the last decade. However, prognosis is still poor for high-risk MM patients experiencing early relapse (ER) within 12 months after primary diagnosis. While some patients achieve long lasting remission with first-line triple combinations including immunomodulatory drugs (IMiDs) and proteasome inhibitors (PI) followed by high dose therapy plus autologous stem cell transplantation (ASCT), ER has been recognized as an independent risk factor of resistance to rescue treatments and shorter overall survival (OS). Individual treatment response duration is influenced by several disease-specific and patient-related features. Despite the availability of several MM prognostic scores, the prediction and prevention of ER in MM is still challenging. Our goal was to construct a holistic MM ER prediction model based on machine learning (ML) algorithms. Methods In this study, we applied ML algorithms to sociodemographic, clinical, and cytogenetic data associated with MM ER collected by the Multiple Myeloma Research Foundation (MMRF) CoMMpass consortium. Our model included the following covariates at baseline: gender, age, BMI, ECOG, creatinine, hemoglobin, platelets, neutrophils, calcium, beta-2-microglobuline, albumin, first-line therapy classification (doublet versus triplet, IMiD- versus PI-based versus combination), ASCT within the first year of primary diagnosis, high-risk cytogenetics as well as best response during first year of therapy. Our core patient characteristics in relation to ER are summarized in Table 1. Only complete case documentations were included in the data set (N = 563). To reduce dimensionality and overfitting, continuous data was converted to ordinal data bins according to standard clinical reference ranges (e.g. American Board of Internal Medicine (ABIM) reference ranges for laboratory tests). To ensure that only relevant patient characteristics are used for ER prediction, the Boruta algorithm (version 7.0.0) was used for feature selection using R 4.0.2. Feature independence was assessed by the calculation of correlation between the selected features using the Spearman correlation coefficient for nominal features and the point-biserial correlation coefficient for the comparison of nominal and dichotomous features. Because only few patients experienced ER, the Synthetic Minority Oversampling Technique (SMOTE) was used to correct for imbalance in the target variable. For classification, 14 different ML algorithms were evaluated with the PyCaret 2.0.0 package for Python 3.8.6, using 70% (N=394) of the data as the training set and 30% (N=169) for testing. Hyperparameter tuning and final evaluation was performed for the model with the highest accuracy. Results The feature selection algorithm identified four features as relevant to predict ER in newly diagnosed MM patients enrolled in the MMRF CoMMpass study (Figure 1). Interestingly, factors that usually guide first-line treatment decision like ECOG and kidney function as well as type of induction therapy had no significant impact on risk for ER. The four most important features selected were \u00b4first year best response\u00b4, followed by \u00b4ASCT during first year of diagnosis\u00b4, \u00b4age\u00b4 and \u00b4beta-2-microglobuline\u00b4. To rule out bias that might have been introduced by e.g. selecting fitter patients for more intensive regimen, feature independency was assessed as described above. No correlation was identified between the selected features except a weak correlation between age and ASCT with a point-biserial correlation coefficient of -0.35 (Figure 2). The best performing model to predict ER considering the reported relevant features was Gradient Boosting Classification. The final model resulted in an accuracy of 73%, whereas 82% and 69% of the patients in the test data were correctly classified regarding ER and non-ER, respectively. The corresponding AUROC curve is displayed in Figure 3. Conclusions Based on ML algorithms, we identified four features associated with ER in patients with newly diagnosed MM. Our results contribute to the early identification of patients with high risk of ER and thus will guide treatment decision in the future. Moreover, our presented features underline the importance of depth of response to first-line treatment and the role of ASCT to prevent ER even in the era of novel agent-based induction therapies. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Hochhaus:  Novartis: Membership on an entity's Board of Directors or advisory committees, Research Funding; Bristol-Myers Squibb: Research Funding; Pfizer: Research Funding; Incyte: Research Funding. Platzbecker:  Janssen: Honoraria; Celgene/BMS: Honoraria; Novartis: Honoraria; AbbVie: Honoraria; Takeda: Honoraria; Geron: Honoraria. Merz:  Sanofi: Honoraria; Takeda: Honoraria; BMS: Honoraria; Celgene: Honoraria; Amgen: Honoraria; Hexal: Honoraria; GSK: Honoraria; Janssen: Honoraria; onkowissen.de: Honoraria.",
+    "author_names": [
+        "Anne Sophie Kubasch",
+        "Nora Grieb",
+        "Alexander Oeser",
+        "Thomas Neumuth",
+        "Olaposi Yomade",
+        "Andreas Hochhaus",
+        "Uwe Platzbecker",
+        "Maximilian Merz"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Anne Sophie Kubasch",
+            "author_affiliations": [
+                "Department of Hematology, Cellular Therapy and Hemostaseology, University Hospital Leipzig, Leipzig, Germany"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nora Grieb",
+            "author_affiliations": [
+                "Department of Hematology, Cellular Therapy and Hemostaseology, University Hospital Leipzig, Leipzig, Germany",
+                "Innovation Center Computer Assisted Surgery (ICCAS), University of Leipzig, Leipzig, Germany"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Alexander Oeser",
+            "author_affiliations": [
+                "Innovation Center Computer Assisted Surgery (ICCAS), University of Leipzig, Leipzig, Germany"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Thomas Neumuth",
+            "author_affiliations": [
+                "Innovation Center Computer Assisted Surgery (ICCAS), University of Leipzig, Leipzig, Germany"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Olaposi Yomade",
+            "author_affiliations": [
+                "Department of Hematology and Medical Oncology, University Hospital Jena, Jena, Germany"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andreas Hochhaus",
+            "author_affiliations": [
+                "Department of Hematology and Medical Oncology, University Hospital Jena, Jena, Germany"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Uwe Platzbecker",
+            "author_affiliations": [
+                "Department of Hematology, Cellular Therapy and Hemostaseology, University Hospital Leipzig, Leipzig, Germany"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maximilian Merz",
+            "author_affiliations": [
+                "Department of Hematology, Cellular Therapy and Hemostaseology, University Hospital Leipzig, Leipzig, Germany"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-23T04:10:59",
+    "is_scraped": "1"
 }

@@ -1,8 +1,141 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4890",
-    "start_url_page_num": "4890",
     "doi": "https://doi.org/10.1182/blood-2021-153841",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/1311/481189/Analysis-of-Single-Cell-Transcriptomics-in-Paired?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T21:19:19",
-    "is_scraped": "0"
+    "article_title": "Analysis of Single Cell Transcriptomics in Paired Pediatric T-ALL Samples Collected at Diagnosis and Following End of Induction Therapy Reveals an MRD-Associated Stem Cell Signature ",
+    "article_date": "November 5, 2021",
+    "session_type": "618.Acute Lymphoblastic Leukemias: Biomarkers, Molecular Markers and Minimal Residual Disease in Diagnosis and Prognosis",
+    "abstract_text": "Introduction Despite recent improvement in outcomes for de novo disease, pediatric T-cell acute lymphoblastic leukemia (T-ALL) remains challenging to treat at relapse. Investigation into genomic markers of treatment response and therapy resistance offers an opportunity to further enhance outcomes for these patients. We previously identified a T-ALL blast-associated gene signature at diagnosis (Dx) and characterized the immune microenvironment in Dx T-ALL marrow samples using single cell transcriptome analysis (Bhasin et al. Blood 2020(ASH)). This approach allowed us to generate a granular expression map of both the T-ALL landscape and the Dx bone marrow (BM) immune microenvironment. Here we expand this work by evaluating samples collected from the same patients Dx and End of Induction (EOI) BM samples from pediatric T-ALL patients. The use of paired samples provides insight into treatment-induced changes in the microenvironment. Further, the inclusion of both minimal residual disease (MRD) positive and MRD negative samples allowed us to compare differences between these groups. Methods Using the 10X genomics platform, we profiled the single cell transcriptome of ~18,000 BM and immune microenvironment cells from viably frozen samples collected from T-ALL patients at Dx or EOI. Five paired Dx and EOI samples and one EOI sample from a patient with relapsed T-ALL were evaluated, for a total of 11 samples. Three paired samples were MRD positive at EOI and two were MRD negative; the relapsed sample was MRD negative. Cell clustering was performed using the Seurat package and differential expression analysis was performed using R/Bioconductor packages (Hao et al. Cell 2021). Cell communication analysis was conducted using the CellChat R tool (v 1.0.0) to infer cell-cell communication within the EOI MRD positive and MRD negative subsets and compare their communication networks (Jin et al. Nature Comm 2021). Results Using our previously described blast-associated gene signature (Bhasin et al. ASH 2020) we were able to identify residual blast populations at EOI in MRD-positive samples. Comparative analysis of gene profiles at Dx and EOI showed significant changes in the microenvironment cell populations with highest increase in erythroid cell populations after induction therapy. The gene expression profiles were significantly different for immune cells at Dx and EOI and the relapsed sample had greater similarity to the Dx samples indicating a persistent immunosuppressive environment. Clustering analysis of the EOI samples (3 MRD positive and 2 MRD negative) demonstrated the presence of patient specific blast cells in MRD positive samples that retained patient-specific transcriptomeheterogeneity at EOI (Fig.1A). Analysis of communication networks between different cell types based on receptor and ligand expression levels between different cell types identified a CD34 + cluster of stem cells that had different interactions with other immune populations in the MRD positive and negative subsets. Differential expression analysis between the MRD positive and MRD negative cells in this CD34 + stem cell cluster identified higher expression of myeloid associated genes such as CEBPB, CEBPD, AZU1 in the MRD negative group relative to the MRD positive cells, which showed higher expression of B-cell related genes such as IGHM, VPREB1, CD79A/ B along with upregulation of P13K signaling in B-lymphocytes, B-cell receptor signaling and autophagy pathways. Analysis of upstream regulators based on the differential gene signature between the MRD positive and MRD negative group demonstrated upregulation of MYC and TCF3 activity and inhibition of TGFB1, CSF3 and CEBPA in MRD positive compared to MRD negative samples (Fig.1B). Conclusions: Leukemic blasts exhibit patient-specific gene expression signatures that are present at EOI in MRD positive samples. Exploration of the impact of minimal residual disease at EOI revealed differential gene expression patterns in stem cells from MRD positive samples, characterized by activation of B cell related signaling pathways and regulators such as MYC and TCF3 . In contrast, a more myeloid-like expression signature was observed in stem cells from MRD negative samples. These findings open the avenues for exploration of therapeutic targets of T-ALL progression. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures DeRyckere:  Meryx: Other: Equity ownership. Graham:  Meryx: Membership on an entity's Board of Directors or advisory committees, Other: Equity ownership.",
+    "author_names": [
+        "Swati S Bhasin",
+        "Beena E Thomas",
+        "Ryan J Summers",
+        "Debasree Sarkar",
+        "Hope L Mumme",
+        "Mohammed Emam Mansour",
+        "William Pilcher",
+        "Sunita I. Park",
+        "Sharon M. Castellino",
+        "Deborah DeRyckere",
+        "Manoj Bhasin",
+        "Douglas K Graham"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Swati S Bhasin",
+            "author_affiliations": [
+                "Aflac Cancer and Blood Disorders Center, Children's Healthcare of Atlanta, Atlanta, GA",
+                "Department of Pediatrics, Emory University School of Medicine, Atlanta, GA"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Beena E Thomas",
+            "author_affiliations": [
+                "Aflac Cancer and Blood Disorders Center, Children's Healthcare of Atlanta, Atlanta, GA",
+                "Emory School of Medicine, Department of Pediatrics, Emory University School of Medicine, Atlanta, GA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ryan J Summers",
+            "author_affiliations": [
+                "Department of Pediatrics, Emory University School of Medicine, Atlanta, GA",
+                "Aflac Cancer and Blood Disorders Center, Children's Healthcare of Atlanta, Decatur, GA"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Debasree Sarkar",
+            "author_affiliations": [
+                "Aflac Cancer and Blood Disorders Center, Children's Healthcare of Atlanta, Atlanta, GA",
+                "Department of Pediatrics, Emory University School of Medicine, Atlanta, GA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hope L Mumme",
+            "author_affiliations": [
+                "Aflac Cancer and Blood Disorders Center, Children's Healthcare of Atlanta, Atlanta, GA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mohammed Emam Mansour",
+            "author_affiliations": [
+                "Department of Pediatrics, Emory University School of Medicine, Atlanta, GA"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "William Pilcher",
+            "author_affiliations": [
+                "Emory University, Wallace H. Coulter Department of Biomedical Engineering, Atlanta, GA"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sunita I. Park",
+            "author_affiliations": [
+                "Department of Pathology, Emory University School of Medicine, Atlanta, GA"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sharon M. Castellino",
+            "author_affiliations": [
+                "Aflac Cancer and Blood Disorders Center, Children's Healthcare of Atlanta, Atlanta, GA",
+                "Department of Pediatrics, Emory University School of Medicine, Atlanta, GA"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Deborah DeRyckere",
+            "author_affiliations": [
+                "Aflac Cancer and Blood Disorders Center, Children's Healthcare of Atlanta, Atlanta, GA",
+                "Department of Pediatrics, Emory University School of Medicine, Atlanta, GA"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manoj Bhasin",
+            "author_affiliations": [
+                "Aflac Cancer and Blood Disorders Center, Children's Healthcare of Atlanta, Atlanta, GA",
+                "Department of Pediatrics, Emory University School of Medicine, Atlanta, GA"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Douglas K Graham",
+            "author_affiliations": [
+                "Department of Pediatrics, Emory University School of Medicine, Atlanta, GA",
+                "Aflac Cancer and Blood Disorders Center, Children's Healthcare of Atlanta, Atlanta, GA"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-23T04:06:23",
+    "is_scraped": "1"
 }
