@@ -1,8 +1,103 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4867",
-    "start_url_page_num": "4867",
     "doi": "https://doi.org/10.1182/blood-2021-150697",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/104/477553/Automated-Comprehensive-Diagnostics-of-Hematologic?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T20:41:44",
-    "is_scraped": "0"
+    "article_title": "Automated Comprehensive Diagnostics of Hematologic Neoplasms By Artificial Intelligence Models Using Flow Cytometric Raw Matrix Data ",
+    "article_date": "November 5, 2021",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Background: Artificial intelligence (AI) has steadily been entering the field supporting diagnostic workup of hematological neoplasms. Its application in flow cytometry (FC) so far mostly included visualization steps with the potential disadvantage of data reduction. Aim: To implement AI models based on raw matrix data for diagnosing main entities of hematologic neoplasms by FC. Methods: For examination of acute myeloid leukemia (AML), acute lymphoblastic leukemia (ALL), myelodysplastic syndromes (MDS), multiple myeloma (MM) and mature T- and B-cell neoplasms (T-NHL, B-NHL), six machine learning (ML) models were trained on the respective dataset consisting of uniformly analyzed samples (Navios and Cytoflex cytometers, Kaluza analysis software, Beckman Coulter, Miami, FL) resulting in \".fcs\" or \".lmd\" files, after being classified and diagnosed by human experts. In total 36,662 cases were included, in detail 3,961 for AML model (3,120 AML, 841 no AML), 2,931 for T-NHL (204 T-NHL, 40 NK-cell neoplasm [NK], 2,687 no NHL), 766 for ALL (364 c-ALL/Pre-B-ALL, 95 Pro-B-ALL, 55 cortical T-ALL, 34 Pre-T-ALL, 11 Pro-T-ALL, 3 mature T-ALL, 15 ETP-ALL, 189 no ALL), 7,503 for MM (1,297 MM, 1,261 consistent with MM (<10% plasma cells by FC), 3,613 consistent with monoclonal gammopathy of undetermined significance (MGUS), 1,332 no MM/MGUS), 9,664 for B-NHL (440 hairy cell leukemia (HCL), 3,771 chronic lymphocytic leukemia (CLL), 3,062 CD5-negative NHL, 1,318 CD5-positive NHL, 1,073 no NHL) and 11,837 for MDS (5,206 consistent with MDS, 6,631 no MDS). For each model, feature engineering (FE) techniques were applied. These included division of values by their maximal values, multiplication by 1024, standardization, arcsinh transformation and one- (for all models) or two- (for T-NHL and ALL) dimensional distribution of marker values using empirical cumulative distribution functions (cdfs), with the number of bins set to two for two-dimensional histograms and between 16 and 128 for one-dimensional histograms optimized for each model. Further expert-based features were applied (for T-NHL, ALL, MM, MDS) including setting positive/negative thresholds on marker values, focusing on cell populations of interest by applying clustering techniques, considering percentages of certain cell types and calculating features to capture their specific properties (e.g. distribution of markers of the subpopulations). For MM, B-NHL and MDS we also calculated covariance between key markers. Taken together, 345 features were applied for AML, 772 features for T-NHL, 339 for ALL, 1,800 for MM, 3,275 for MDS and 3,145 for B-NHL. Following ML models were used: XGBoost, weighted SVC and LinearSVC, hierarchical model (four XGBoost with SMOTE models), AutoGluon (using weighted L2 ensemble of XGBoost, LightGBMXT and CatBoost). For MDS an approach similar to manual gating strategies was implemented dividing cells into five partitions combining predictions for each partition to a final result. Model performance was assessed with stratified five-fold cross validation (training/test set 80/20% of data) repeated 10 times. Test recall (R), precision (P) and prediction probabilities (PP) were recorded. Results: Application of the ML models (see figure 1) detected AML vs no AML with average R (aR) of 99.8% and average P (aP) of 99.9% when considering cases with PP \u22650.9 covering 82% of all cases analyzed for AML. For T-NHL we saw aR of 87% and aP 86.7% for detection of NK, T-NHL and no NHL, respectively. In general PP for NK were low and thus prohibited application of a high PP threshold which would have excluded many cases. With a PP threshold of 0.9 (82% of cases) ALL model resulted in prediction of classes Pro-B-ALL, T-ALL non-cortical, c-ALL, cortical T-ALL and no ALL with aR 91.7% and aP 92.5%. MM model separated consistent with MGUS from consistent with MM and no MM (PP=0.9, 66% of cases) with aR 97.7 % and aP 93.5 %. For MDS aR was 85.6% and aP 84.7% with PP=0.9 (74% of samples). Applying PP of 0.9 (51% of cases) B-NHL model classified CD5 negative, CD5 positive, CLL, HCL and no NHL with aR 84.6% and aP 91.5%. Conclusions: Training AI models for FC using raw matrix data is feasible and yields striking R and P values for various models when restricting to cases with high PP. Besides further improving all models future work will focus on identification of additional sub-entities and application of transfer learning to achieve universal applicability to any FC data. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Haferlach:  MLL Munich Leukemia Laboratory: Other: Part ownership. Haferlach:  MLL Munich Leukemia Laboratory: Other: Part ownership. Kern:  MLL Munich Leukemia Laboratory: Other: Part ownership.",
+    "author_names": [
+        "Frauke Bellos",
+        "Kim Pawelka",
+        "Elena Fortina",
+        "Manusnan Suriyalaksh",
+        "Sven Maschek",
+        "Claudia Haferlach",
+        "Manja Meggendorfer",
+        "Torsten Haferlach",
+        "Wolfgang Kern"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Frauke Bellos",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kim Pawelka",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Elena Fortina",
+            "author_affiliations": [
+                "Amazon Web Services EMEA S\u00e0rl, Luxembourg, Luxembourg"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manusnan Suriyalaksh",
+            "author_affiliations": [
+                "Amazon Web Services EMEA S\u00e0rl, Luxembourg, Luxembourg"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sven Maschek",
+            "author_affiliations": [
+                "Amazon Web Services EMEA S\u00e0rl, Luxembourg, Luxembourg"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Claudia Haferlach",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Manja Meggendorfer",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Torsten Haferlach",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wolfgang Kern",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-23T02:30:59",
+    "is_scraped": "1"
 }

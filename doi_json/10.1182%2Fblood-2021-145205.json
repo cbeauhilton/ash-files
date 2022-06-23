@@ -1,8 +1,63 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4878",
-    "start_url_page_num": "4878",
     "doi": "https://doi.org/10.1182/blood-2021-145205",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/4350/481659/An-Enterohepatic-Recirculation-Population?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T21:18:35",
-    "is_scraped": "0"
+    "article_title": "An Enterohepatic Recirculation Population Pharmacokinetic and MIC-1 Pharmacokinetic-Pharmacodynamic Model for the MDM2 Inhibitor Navtemadlin (KRT-232) in Healthy Subjects ",
+    "article_date": "November 5, 2021",
+    "session_type": "604.Molecular Pharmacology and Drug Resistance: Myeloid Neoplasms",
+    "abstract_text": "Background : Murine double minute 2 (MDM2) is the primary negative regulator of the tumor suppressor protein, p53. Navtemadlin (KRT-232), a potent and selective, orally available MDM2 inhibitor restores p53 activity to drive apoptosis of cancer cells in TP53 WT malignancies. Navtemadlin is currently being evaluated in a phase 3 trial of patients with relapsed or refractory myelofibrosis, as well as in numerous phase 1b/2 trials in various hematologic malignancies and solid tumors. Serum macrophage inhibitor cytokine-1 (MIC-1) is a pharmacodynamic (PD) marker of p53-mediated activity in patients treated with navtemadlin (Allard et al. HemaSphere . 2020). Using pharmacokinetic (PK) and PD data from a healthy subject food effect study (Wong et al. Blood . 2020), we developed a population PK (PPK) model that characterized enterohepatic recirculation (EHR) as a half-life extending element in the PK profiles of navtemadlin and its major acyl glucuronide metabolite M1. MIC-1 PD data were incorporated into the model to quantify plasma concentration-driven MIC-1 excursions and to simulate PK and PD across time and dose in healthy subjects. Methods : PPK and PK-PD models were developed using the first-order conditional estimation with interaction (FOCE-I) method in NONMEM 7.4, with model covariates selected using a stepwise forward addition and backward elimination method based on a 5% significance level. Model quality was checked by inspecting model parameters and confidence intervals, as well as standard residual-based and simulation-based diagnostics, and prediction-corrected visual predictive checks. Navtemadlin plasma concentration and MIC-1 serum concentration-time data from the food effect study (KRT-232-105) were modeled (N=30 subjects after a single 60 mg navtemadlin dose). Candidate PPK semi-mechanistic models that described EHR with multi-compartment structures (gut, central, and peripheral compartments for navtemadlin, and central and gallbladder [GB] compartments for M1), first-order elimination, and mealtime effects on GB emptying were tested. Post hoc parameter estimates from the final PPK model were used to generate individual predicted navtemadlin plasma concentrations for the PK-PD model. Based on exploratory plots, the pharmacological mechanism of action of navtemadlin, and a bile acid recycling model (Guiastrennec et al. CPT Pharmacometrics Syst Pharmacol . 2018), an indirect response equation was selected for the MIC-1 effect compartment ( Figure 1a ). Results: Navtemadlin and M1 plasma concentrations, including a second peak attributed to EHR at ~8-12 h, were well described by a model with central and peripheral compartments, constant basal M1 release rate into bile (KBR BASAL ), and incremental mealtime GB emptying rate (KBR MEAL , Figure 1a ). Figure 1b shows simulated navtemadlin and M1 amounts in various compartments over time. Median oral clearance of navtemadlin was estimated at 36.35 L/h. Estimated median apparent oral clearance of navtemadlin in healthy subjects was higher than PPK estimates for patients with advanced solid tumors (24.9 L/h [Ma et al. Blood . 2019]). The median central and peripheral volumes of navtemadlin were 159 L and 390 L, respectively. Navtemadlin exposure was higher in healthy female subjects relative to male subjects. Between-subject variability in clearance was 31%. Typical MIC-1 maximum stimulatory effect (S max ) was estimated at 6.82, close to the median maximum ratio of MIC-1 to baseline MIC-1 (7.29) in the observed data. SC 50 was estimated at 85.22 ng/mL, with a Hill coefficient of 2.02, indicating a relatively steep increase in MIC-1 serum concentration with increasing navtemadlin concentration. For both PPK and PK-PD models, diagnostic plots confirmed an adequate fit. Subjects with lower baseline MIC-1 had a larger response and reached a maximum MIC-1 concentration later. Older subjects had the largest covariate impact, with a higher MIC-1 response. Conclusion : A two-compartment PPK model with basal and incremental mealtime GB emptying rates captured concentration-time data for navtemadlin and its metabolite M1. EHR was evident and navtemadlin reabsorption following hydrolysis of biliary M1 in the intestine contributed to navtemadlin half-life. An indirect stimulatory PK-PD model effectively described the relationship between navtemadlin and MIC-1 in healthy subjects. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Zhang:  Certara, Inc.: Current Employment; Milad Pharmaceutical Consulting, LLC.: Ended employment in the past 24 months. Wong:  Kartos Therapeutics: Current Employment; AbbVie Biotherapeutics: Current equity holder in publicly-traded company. Slatter:  Telios Pharma: Current holder of stock options in a privately-held company; Kartos Therapeutics: Current Employment, Current holder of stock options in a privately-held company; AstraZeneca: Current equity holder in publicly-traded company; Amgen: Divested equity in a private or publicly-traded company in the past 24 months. OffLabel Disclosure: Yes, navtemadlin (KRT-232) is an investigational small molecule MDM2 inhibitor.",
+    "author_names": [
+        "Lu Zhang",
+        "Bill Poland",
+        "Michelle Green",
+        "Shekman Wong",
+        "J. Greg Slatter"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Lu Zhang",
+            "author_affiliations": [
+                "Certara, Inc., Princeton, NJ"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bill Poland",
+            "author_affiliations": [
+                "Certara, Inc., Princeton, NJ"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michelle Green",
+            "author_affiliations": [
+                "Certara, Inc., Princeton, NJ"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Shekman Wong",
+            "author_affiliations": [
+                "Kartos Therapeutics, Inc., Redwood City, CA"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "J. Greg Slatter",
+            "author_affiliations": [
+                "Kartos Therapeutics, Inc., Redwood City, CA"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-23T02:36:54",
+    "is_scraped": "1"
 }

@@ -1,8 +1,133 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4867",
-    "start_url_page_num": "4867",
     "doi": "https://doi.org/10.1182/blood-2021-147692",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/107/477537/RNA-Sequencing-Improves-Diagnostics-and-Treatment?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T20:41:44",
-    "is_scraped": "0"
+    "article_title": "RNA-Sequencing Improves Diagnostics and Treatment of Pediatric Hematological Malignancies ",
+    "article_date": "November 5, 2021",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Background Diagnosis and treatment of hematological malignancies relies increasingly on the detection of underlying genetic abnormalities. Various laboratory techniques, including karyotyping, SNP-array, FISH, MLPA and RT-PCR are typically required to detect the full spectrum of clinically relevant genetic aberrations. These techniques are also hampered in their sensitivity by their targeted approach or lack of resolution. Ideally, an unbiased genome wide approach like RNA sequencing (RNA-seq) as a one-test-fits-all, could save costs and efforts and streamline diagnostic procedures. In the Netherlands, the care for all children with oncological disorders has been concentrated in a single, national center. Within the Laboratory of Childhood Cancer Pathology, we aim for a comprehensive diagnostic pipeline by implementing RNA-seq to aid diagnosis, prognosis and treatment of all children with cancer in the Netherlands. Methods We have established an RNA-seq based diagnostic pipeline, primarily aimed at detecting gene fusion events. Library prep is performed on 50-300 ng total RNA isolated from fresh (frozen) samples, followed by ribo-depletion and subsequent paired-end sequencing (2x150 nt) using the Illumina NovaSeq platform. Data is analyzed using the StarFusion algorithm for gene-fusion detection. We are prospectively comparing the results with routine diagnostic procedures. In addition, we are validating the detection of single nucleotide variants (SNVs) from RNA-seq data and developing a diagnostic classifier, using a nearest neighbor network approach. Results Based on RNA-seq profiling in diagnostics for all patients entering the Princess Maxima Center, there are several use-cases that highlight the value of RNA-seq. 1) In a prospective cohort of 244 patients (pan-cancer, including 97 hematological malignancies) we have shown that the diagnostic yield for detecting gene fusion events increased by approximately 40% compared to classical methods. An example is the TNIP1--PDGFRB gene fusion in a patient with pre B-ALL, making this patient eligible for imatinib treatment, which was not detected by other methods. 2) Variant calling on RNA-seq shows that activating mutations in e.g. KRAS are detected with high sensitivity, stratifying patients for therapeutic MEK intervention. 3) By expression outlier analysis, we were able to detect various promotor exchanges, e.g. IGH-MYC or IGH--DUX4 , which are typically hard to detect by molecular techniques since the genomic breakpoint is highly variable and no chimeric transcript is formed. 4) Preliminary results from our diagnostic classifier show its potential to predict subclasses of hematological malignancies, e.g. high-hyperdiploid or bi-phenotypic ALL patients. 5) Fusion gene breakpoints detected by RNA-seq serve as a target for MRD analysis, allowing us to monitor disease progression and therapy response in individual patients. Currently, RNA-seq data is available for more than 1500 pediatric tumor samples. At the upcoming conference we will present an update of our results and some typical cases highlighting the added value of RNA-seq in routine diagnostics. Conclusion We show that RNA-seq on pediatric cancer samples is feasible and of great value for routine diagnostics. It has a higher sensitivity to detect gene fusion events compared to targeted assays. RNA-seq based gene fusion detection, in combination with mutation and expression analysis, is also promising to improve classification of malignancies, prognosis and stratification of patients for targeted therapies. Disclosures No relevant conflicts of interest to declare.",
+    "author_names": [
+        "Marco J. Koudijs",
+        "Lennart A. Kester",
+        "Jayne Y. Hehir-Kwa",
+        "Eugene T.P. Verwiel",
+        "Erik Strengman",
+        "Marc van Tuil",
+        "Douwe van der Leest",
+        "Edwin Sonneveld",
+        "Patrick Kemmeren",
+        "Valerie De Haas",
+        "Josef Vormoor",
+        "Bas B.J. Tops"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Marco J. Koudijs",
+            "author_affiliations": [
+                "Princess M\u00e1xima Center for Pediatric Oncology, Utrecht, Netherlands"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lennart A. Kester",
+            "author_affiliations": [
+                "Princess M\u00e1xima Center for Pediatric Oncology, Utrecht, Netherlands"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jayne Y. Hehir-Kwa",
+            "author_affiliations": [
+                "Princess M\u00e1xima Center for Pediatric Oncology, Utrecht, Netherlands"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eugene T.P. Verwiel",
+            "author_affiliations": [
+                "Princess M\u00e1xima Center for Pediatric Oncology, Utrecht, Netherlands"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Erik Strengman",
+            "author_affiliations": [
+                "Princess M\u00e1xima Center for Pediatric Oncology, Utrecht, Netherlands"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marc van Tuil",
+            "author_affiliations": [
+                "Princess M\u00e1xima Center for Pediatric Oncology, Utrecht, Netherlands"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Douwe van der Leest",
+            "author_affiliations": [
+                "Princess M\u00e1xima Center for Pediatric Oncology, Utrecht, Netherlands"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Edwin Sonneveld",
+            "author_affiliations": [
+                "Princess M\u00e1xima Center for Pediatric Oncology, Utrecht, Netherlands"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Patrick Kemmeren",
+            "author_affiliations": [
+                "Princess M\u00e1xima Center for Pediatric Oncology, Utrecht, Netherlands"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Valerie De Haas",
+            "author_affiliations": [
+                "Princess Maxima Center for Pediatric Oncology, Diagnostic Laboratory / DCOG Laboratory, Utrecht, Netherlands"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Josef Vormoor",
+            "author_affiliations": [
+                "Princess M\u00e1xima Center for Pediatric Oncology, Utrecht, Netherlands"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bas B.J. Tops",
+            "author_affiliations": [
+                "Princess M\u00e1xima Center for Pediatric Oncology, Utrecht, Netherlands"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-23T02:31:07",
+    "is_scraped": "1"
 }

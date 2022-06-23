@@ -1,8 +1,248 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4867",
-    "start_url_page_num": "4867",
     "doi": "https://doi.org/10.1182/blood-2021-149582",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/108/477567/Prediction-of-Complete-Remission-and-Survival-in?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T20:41:44",
-    "is_scraped": "0"
+    "article_title": "Prediction of Complete Remission and Survival in Acute Myeloid Leukemia Using Supervised Machine Learning ",
+    "article_date": "November 5, 2021",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Achievement of complete remission (CR) signifies a crucial milestone in the therapy of acute myeloid leukemia (AML) while refractory disease is associated with dismal outcomes. Hence, accurately identifying patients at risk is essential to tailor treatment concepts individually to disease biology. Machine Learning (ML) is a branch of computer science that can process large data sets for a plethora of purposes. The underlying mechanism does not necessarily begin with a manually drafted hypothesis model. Rather the ML algorithms can detect patterns in pre-processed data and derive abstract information. We used ML to predict CR and 2-year overall survival (OS) in a large multi-center cohort of 1383 AML patients who received intensive induction therapy using clinical, laboratory, cytogenetic and molecular genetic data. To enable a customizable and reusable technological approach and achieve optimal results, we designed a data-driven platform with an embedded, automated ML pipeline integrating state-of-the-art software technology for data management and ML models. The platform consists of five scalable modules for data import and modelling, data transformation, model refinement, machine learning algorithms, feature support and performance feedback that are executed in an iterative manner to approach step-wisely the optimal configuration. To reduce dimensionality and the the risk of overfitting, dynamic feature selection was used, i.e. features were selected according to their support by feature selection algorithms. To be included in an ML model, a feature had to pass a pre-determined threshold of overall predictive power determined by summing the normalized scores of the feature selection algorithms. Features below the threshold were automatically excluded from the ML models for the respective iteration. In that way, features of high redundancy or low entropy were automatically filtered out. Our classification algorithms were completely agnostic of pre-existing risk classifications and autonomously selected predictive features both including established markers of favorable or adverse risk as well as identifying markers of so-far controversial relevance. De novo AML, extramedullary AML, double-mutated (dm) CEBPA , mutations of CEBPA-bZIP , NPM1 , FLT3- ITD, ASXL1 , RUNX1 , SF3B1 , IKZF1 , TP53 , U2AF1 , t(8;21), inv(16)/t(16;16), del5/del5q, del17, normal or complex karyotypes, age and hemoglobin at initial diagnosis were statistically significant markers predictive of CR while t(8;21), del5/del5q, inv(16)/t(16;16), del17, dm CEBPA , CEBPA-bZIP , NPM1, FLT3- ITD , DNMT3A, SF3B1, U2AF1, TP53 , age, white blood cell count, peripheral blast count, serum LDH and Hb at initial diagnosis as well as extramedullary manifestations were predictive for 2-year OS. For prediction of CR and 2-year OS, AUROCs ranged between 0.77 - 0.86 and 0.63 - 0.74, respectively. We provide a method to automatically select predictive features from different data types, cope with gaps and redundancies, apply and optimize different ML models, and evaluate optimal configurations in a scalable and reusable ML platform. In a proof-of-concept manner, our algorithms utilize both established markers of favorable or adverse risk and also provide further evidence for the roles of U2AF1, IKZF1,  SF3B1, DNMT3A and bZIP mutations of CEBPA in AML risk prediction. Our study serves as a fundament for prospective validation and data-driven ML-guided risk assessment in AML at initial diagnosis for the individual patient. Image caption: Patient features were automatically selected by machine learning to predict complete remission (CR) and 2-year overall survival (OS) after intensive induction therapy. Based on a continuous feature support metric with a predefined cut-off of 0.5 (determined by optimal classification performance), 27 and 25 features were automatically selected for prediction of CR (A) and 2-year OS (C), respectively. For each of these features predicted by machine learning, odds ratios and 95% confidence intervals (CI) were calculated for CR (B) and 2 year OS (D). BMB: bone marrow blast count; FLT3h/low: FLT3-ITD ratio, h=high>0.5; Hb: hemoglobin; karyotype, c: complex aberrant karyotype (\u2265 3 aberrations); karyotype, n: normal karyotype (no aberrations); LDH: lactate dehydrogenase; PBB: peripheral blood blast count; PLT: platelet count; WBC: white blood cell count. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Schetelig:  Roche: Honoraria, Other: lecture fees; Novartis: Honoraria, Other: lecture fees; BMS: Honoraria, Other: lecture fees; Abbvie: Honoraria, Other: lecture fees; AstraZeneca: Honoraria, Other: lecture fees; Gilead: Honoraria, Other: lecture fees; Janssen: Honoraria, Other: lecture fees . Platzbecker:  Janssen: Honoraria; Celgene/BMS: Honoraria; AbbVie: Honoraria; Novartis: Honoraria; Takeda: Honoraria; Geron: Honoraria. M\u00fcller-Tidow:  Pfizer: Research Funding; Janssen: Consultancy, Research Funding; Bioline: Research Funding. Baldus:  Celgene/BMS: Honoraria; Amgen: Honoraria; Novartis: Honoraria; Jazz: Honoraria. Krause:  Siemens: Research Funding; Takeda: Honoraria; Pfizer: Honoraria; art-tempi: Honoraria; Kosmas: Honoraria; Gilead: Other: travel support; Abbvie: Other: travel support. Haenel:  Bayer Vital: Honoraria; Jazz: Consultancy, Honoraria; GSK: Consultancy; Takeda: Consultancy, Honoraria; Novartis: Consultancy, Honoraria; Roche: Consultancy, Honoraria; Amgen: Consultancy; Celgene: Consultancy, Honoraria. Schliemann:  Philogen S.p.A.: Consultancy, Honoraria, Research Funding; Abbvie: Consultancy, Other: travel grants; Astellas: Consultancy; AstraZeneca: Consultancy; Boehringer-Ingelheim: Research Funding; BMS: Consultancy, Other: travel grants; Jazz Pharmaceuticals: Consultancy, Research Funding; Novartis: Consultancy; Roche: Consultancy; Pfizer: Consultancy. Middeke:  Roche: Consultancy, Honoraria; Janssen: Consultancy, Honoraria, Research Funding; Abbvie: Consultancy, Honoraria; Pfizer: Consultancy, Honoraria; Jazz: Consultancy; Astellas: Consultancy, Honoraria; Sanofi: Honoraria, Research Funding; Novartis: Consultancy; Gilead: Consultancy; Glycostem: Consultancy; UCB: Honoraria.",
+    "author_names": [
+        "Jan-Niklas Eckardt",
+        "Christoph Rollig",
+        "Michael Kramer",
+        "Sebastian Stasik",
+        "Julia-Annabell Georgi",
+        "Peter Heisig",
+        "Frank P. Kroschinsky",
+        "Johannes Schetelig",
+        "Uwe Platzbecker",
+        "Carsten M\u00fcller-Tidow",
+        "Tim Sauer",
+        "Hubert Serve",
+        "Claudia D. Baldus",
+        "Kerstin Schaefer-Eckart",
+        "Martin Kaufmann",
+        "Stefan W. Krause",
+        "Mathias Haenel",
+        "Christoph Schliemann",
+        "Maher Hanoun",
+        "Christian Thiede",
+        "Martin Bornhaeuser",
+        "Karsten Wendt",
+        "Jan Moritz Middeke"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Jan-Niklas Eckardt",
+            "author_affiliations": [
+                "Department of Internal Medicine I, University Hospital Carl Gustav Carus, Dresden, Germany"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christoph Rollig",
+            "author_affiliations": [
+                "Department of Internal Medicine I, University Hospital, Dresden, Germany"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michael Kramer",
+            "author_affiliations": [
+                "Department of Internal Medicine I, University Hospital Carl Gustav Carus, Dresden, Germany"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sebastian Stasik",
+            "author_affiliations": [
+                "Department of Internal Medicine I, University Hospital Carl Gustav Carus, Dresden, Germany"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Julia-Annabell Georgi",
+            "author_affiliations": [
+                "Department of Internal Medicine I, University Hospital Carl Gustav Carus, Dresden, Germany"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter Heisig",
+            "author_affiliations": [
+                "Institute of Software and Multimedia Technology, Technical University Dresden, Dresden, Germany"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Frank P. Kroschinsky",
+            "author_affiliations": [
+                "Department of Internal Medicine I, University Hospital Carl Gustav Carus, Dresden, Germany"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Johannes Schetelig",
+            "author_affiliations": [
+                "DKMS Clinical Trials Unit, Dresden, Germany",
+                "Department of Internal Medicine I, University Hospital Dresden, Dresden, Germany"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Uwe Platzbecker",
+            "author_affiliations": [
+                "Medical Clinic and Policlinic 1, Hematology and Cellular Therapy, University of Leipzig Medical Center, Leipzig, Germany"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Carsten M\u00fcller-Tidow",
+            "author_affiliations": [
+                "National Center for Tumor Diseases (NCT), University of Heidelberg, Heidelberg, Germany",
+                "German Cancer Consortium (DKTK) and German Cancer Research Center (DKFZ), Heidelberg, Germany",
+                "Internal Medicine V - Hematology, Oncology & Rheumatology, University Hospital Heidelberg, Heidelberg, Germany"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Tim Sauer",
+            "author_affiliations": [
+                "Department of Internal Medicine V, Heidelberg University Hospital, Heidelberg, Germany"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Hubert Serve",
+            "author_affiliations": [
+                "Department of Medicine II, Hematology/Oncology, Goethe University, University Hospital, Frankfurt, Germany"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Claudia D. Baldus",
+            "author_affiliations": [
+                "Department of Internal Medicine II, University Hospital Schleswig-Holstein, Kiel, Germany"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Kerstin Schaefer-Eckart",
+            "author_affiliations": [
+                "Klinik f\u00fcr Innere Medizin V, Med. Clinic 5, BMT Unit, Nurnberg, Germany"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martin Kaufmann",
+            "author_affiliations": [
+                "Department of Hematology, Oncology and Palliative Medicine, Robert-Bosch-Hospital, Stuttgart, Germany"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Stefan W. Krause",
+            "author_affiliations": [
+                "Department of Hematology and Medical Oncology, University Hospital Erlangen, Erlangen, Germany"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Mathias Haenel",
+            "author_affiliations": [
+                "Department of Internal Medicine III, Klinikum Chemnitz, Chemnitz, Germany"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christoph Schliemann",
+            "author_affiliations": [
+                "Department of Medicine A, Hematology, Oncology and Pneumology, University Hospital Muenster, Muenster, Germany"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Maher Hanoun",
+            "author_affiliations": [
+                "Department of Hematology and Stem Cell Transplantation, University Hospital Essen, Essen, Germany"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christian Thiede",
+            "author_affiliations": [
+                "Department of Internal Medicine I, University Hospital Carl Gustav Carus, Dresden, Germany"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Martin Bornhaeuser",
+            "author_affiliations": [
+                "Department of Internal Medicine I, University Hospital Carl Gustav Carus, Dresden, Germany",
+                "German Cancer Research Center (DKFZ), partner site Dresden, Heidelberg, Germany",
+                "National Center for Tumor Diseases (NCT), partner site Dresden, Dresden, Germany"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Karsten Wendt",
+            "author_affiliations": [
+                "Institute of Software and Multimedia Technology, Technical University Dresden, Dresden, Germany"
+            ],
+            "author_rank": 22,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Jan Moritz Middeke",
+            "author_affiliations": [
+                "Department of Internal Medicine I, University Hospital Carl Gustav Carus, Dresden, Germany"
+            ],
+            "author_rank": 23,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-23T02:31:11",
+    "is_scraped": "1"
 }

@@ -1,8 +1,223 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4863",
-    "start_url_page_num": "4863",
     "doi": "https://doi.org/10.1182/blood-2021-151258",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/2182/478429/Genomic-Based-Machine-Learning-Towards-Prediction?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T20:41:30",
-    "is_scraped": "0"
+    "article_title": "Genomic-Based Machine Learning Towards Prediction of the Etiology of Bone Marrow Failure Syndromes ",
+    "article_date": "November 5, 2021",
+    "session_type": "508.Bone Marrow Failure",
+    "abstract_text": "Genetic testing has been increasingly used to assist with differential diagnosis of acquired vs inherited bone marrow failure syndromes (IBMFS), a group of rare and heterogeneous diseases. However, the assay is still costly and not routinely available for many hematologists. To improve decision-making for genetic testing, we developed a genomic-based machine-learning model based on a two-step data-driven clustering and classification process to predict the likelihood of BMF patients having either an acquired or inherited disease based on 27 clinical and laboratory variables recorded at initial clinical encounter. Clinical records from two independent cohorts of patients screened for pathogenic variants in genes associated with IBMFS were included in this study: the NIH cohort with 441 consecutive patients followed at the NHLBI and NCI, and the USP cohort with 172 consecutive patients from the Medical School of Ribeir\u00e3o Preto/USP. In a binary target classification, cases were labeled as inherited if they had a pathogenic/likely pathogenic disease-causing variant and as acquired when they had benign or likely benign variants or negative genetic test, regardless of patients' clinical diagnoses. K-means clustering was first applied to resolve our highly dimensional data into two main clusters (Clusters A and B). An optimized bootstrap aggregation ensemble Cluster A specific was trained with cases from the NIH cohort (n=359). The model was then validated with Cluster A cases from the external USP cohort (n=127). The binary classification task was utilized to predict the etiology of BMF cases, labeled as acquired or inherited depending on patients' genomic data. At first, unsupervised clustering separately grouped datasets into Cluster A, the largest group mostly represented by aplastic anemia (AA), and Cluster B, those underrepresented in our cohort including some classical IBMFS at early disease onset. The ensemble model Cluster A-specific was accurate to predict the BMF etiology in 88% of cases, correctly predicting inherited and likely immune BMF in 72% and 92% of cases, respectively. Out of the 27 initial clinical variables included in the model, 25 were found to be important for prediction. Telomere length (TL), age, and clinical variables were most important for the model's predictive accuracy, highlighting that a comprehensive history and physical examination encompassing all organ systems is imperative. Based on our model, genetic testing must be considered for patients in Cluster A predicted to have inherited disease and also for patients in Cluster B as no specific model was available but they were more likely to have IBMFS in comparison to Cluster A (50% vs 30%). We also recommend genetic screening in patients from Cluster A predicted to have acquired disease who are children (age <18 years who may not have clinical signs of IBMFS), have consanguinity in the family, have a diagnosis of myelodysplastic syndromes with or without suspicion for familial predisposition to myeloid malignancies (all cases where the model had limited prediction). A model without TL, an assay that can also be limited in low-resource centers, underperformed for prediction of inherited cases with sensitivity of 55%, highlighting the importance of TL measurement for the model's performance. Our machine-learning model reproduced the clinical knowledge used by clinicians specialized in BMF and accurately predicted BMF etiology in 88% of cases. The model was particularly accurate for differential diagnosis of immune AA in adults, which may allow for selections of patients in whom rapidly starting immunosuppression rather than waiting weeks for genetic results is preferable. Clinical variables were strong predictors and adult patients with severe AA rarely had an inherited disease without a positive family history, a suggestive phenotype of IBMFS, or consanguinity being present. The generalizability of our model indicates that this tool can be used by hematologists not specialized in BMF to prioritize patients that would benefit from genetic testing. TL was a top predictor and a key variable for this model's accuracy. Implementation of TL measurement may be critical for differential diagnosis of BMF, especially in low-resource centers where genetic testing is not feasible or readily available. We plan to continue adding to the model to better predict IBMFS cases that were underrepresented in the current cohort. Disclosures Calado:  Instituto Butantan: Consultancy; Agios: Membership on an entity's Board of Directors or advisory committees; Alexion Brasil: Consultancy; Novartis Brasil: Honoraria; Team Telomere, Inc.: Membership on an entity's Board of Directors or advisory committees; AA&MDS International Foundation: Research Funding. Young:  Novartis: Research Funding.",
+    "author_names": [
+        "Fernanda Gutierrez-Rodrigues",
+        "Eric Munger",
+        "Xiaoyang Ma",
+        "Youbao Tang",
+        "Emma M Groarke",
+        "Bhavisha A. Patel",
+        "Luiz Fernando Bazzo Catto",
+        "Diego V Cl\u00e9",
+        "Marena R. Niewisch",
+        "Fl\u00e1via S Donaires",
+        "Sachiko Kajigaya",
+        "Cynthia E. Dunbar",
+        "Neelam Giri",
+        "Michel Michels De Oliveira",
+        "Lisa J. McReynolds",
+        "Blanche P. Alter",
+        "Sharon A. Savage",
+        "Carmem M. S. Bonfim",
+        "Colin O. Wu",
+        "Rodrigo T. Calado",
+        "Neal S. Young"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Fernanda Gutierrez-Rodrigues",
+            "author_affiliations": [
+                "Hematology Branch, National Heart, Lung, and Blood Institute, National Institute of Health, Bethesda, MD"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eric Munger",
+            "author_affiliations": [
+                "Department of Bioinformatics and Computational Biology,, George Mason University, Fairfax, VA"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Xiaoyang Ma",
+            "author_affiliations": [
+                "Office of Biostatistics Research, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Youbao Tang",
+            "author_affiliations": [
+                "Imaging Biomarkers and Computer-Aided Diagnosis Laboratory, NIH-Clinical Center, Bethesda, MD"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Emma M Groarke",
+            "author_affiliations": [
+                "Hematology Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Bhavisha A. Patel",
+            "author_affiliations": [
+                "Hematology Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Luiz Fernando Bazzo Catto",
+            "author_affiliations": [
+                "Department of Medical Imaging, Hematology, and Clinical Oncology, Ribeir\u00e3o Preto Medical School, University of S\u00e3o Paulo, Ribeir\u00e3o Preto, Brazil"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Diego V Cl\u00e9",
+            "author_affiliations": [
+                "Department of Medical Imaging, Hematology, and Clinical Oncology, Ribeir\u00e3o Preto Medical School, University of S\u00e3o Paulo, Ribeir\u00e3o Preto, Brazil"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Marena R. Niewisch",
+            "author_affiliations": [
+                "Division of Cancer Epidemiology and Genetics, National Cancer Institute, Rockville, MD"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Fl\u00e1via S Donaires",
+            "author_affiliations": [
+                "Department of Medical Imaging, Hematology, and Clinical Oncology, Ribeir\u00e3o Preto Medical School, University of S\u00e3o Paulo, Ribeir\u00e3o Preto, Brazil"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sachiko Kajigaya",
+            "author_affiliations": [
+                "Hematology Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Cynthia E. Dunbar",
+            "author_affiliations": [
+                "Translational Stem Cell Biology Branch, National Heart, Lung, and Blood Institute, Translational Stem Cell Biology Branch, Bethesda, MD"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Neelam Giri",
+            "author_affiliations": [
+                "Division of Cancer Epidemiology and Genetics, National Cancer Institute, Rockville, MD"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Michel Michels De Oliveira",
+            "author_affiliations": [
+                "Bone Marrow Transplantation unit, Federal University of Parana, Curitiba, Brazil"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Lisa J. McReynolds",
+            "author_affiliations": [
+                "Division of Cancer Epidemiology and Genetics, National Cancer Institute, Rockville, MD"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Blanche P. Alter",
+            "author_affiliations": [
+                "Division of Cancer Epidemiology and Genetics, National Cancer Institute, Rockville, MD"
+            ],
+            "author_rank": 16,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Sharon A. Savage",
+            "author_affiliations": [
+                "Division of Cancer Epidemiology and Genetics, National Cancer Institute, Rockville, MD"
+            ],
+            "author_rank": 17,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Carmem M. S. Bonfim",
+            "author_affiliations": [
+                "Bone Marrow Transplantation unit, Federal University of Parana, Curitiba, Brazil"
+            ],
+            "author_rank": 18,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Colin O. Wu",
+            "author_affiliations": [
+                "Office of Biostatistics Research, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD"
+            ],
+            "author_rank": 19,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rodrigo T. Calado",
+            "author_affiliations": [
+                "Department of Medical Imaging, Hematology, and Clinical Oncology, Ribeir\u00e3o Preto Medical School, University of S\u00e3o Paulo, Ribeir\u00e3o Preto, Brazil"
+            ],
+            "author_rank": 20,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Neal S. Young",
+            "author_affiliations": [
+                "Hematology Branch, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD"
+            ],
+            "author_rank": 21,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-23T02:29:33",
+    "is_scraped": "1"
 }

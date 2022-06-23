@@ -1,8 +1,163 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4867",
-    "start_url_page_num": "4867",
     "doi": "https://doi.org/10.1182/blood-2021-150745",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/57/477569/Single-Cell-Multi-Omics-Reveals-That-Pegylated?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T20:41:44",
-    "is_scraped": "0"
+    "article_title": "Single-Cell Multi-Omics Reveals That Pegylated Interferon-Alfa Treatment Differentially Redirects Mutated and Wildtype Hematopoietic Cell Differentiation Trajectories in CALR- mutated Essential Thrombocythemia (ET) Patients ",
+    "article_date": "November 5, 2021",
+    "session_type": "631.Myeloproliferative Syndromes and Chronic Myeloid Leukemia: Basic and Translational",
+    "abstract_text": "Interferon-alpha (IFN), the first approved immunotherapy for cancer, remains an effective therapy for patients with myeloproliferative neoplasms (MPN). The mechanisms of action of IFN on MPN cells are poorly understood, particularly in patients with CALR mutated (MUT) MPNs, who often exhibit clinical but not molecular responses. Previously, by developing Genotyping of Transcriptomes (GoT) that captures mutation status and single-cell RNA-seq (scRNA-seq) in high-throughput, we observed that CALR mutations led to cell identity-dependent effects on CD34 + cells, including a strong megakaryocytic progenitor (MkP) differentiation bias and fitness. We hypothesized that the IFN effects may be cell identity and mutation status dependent; thus we applied GoT to serial bone marrow aspirates (BM) from 5 patients with CALR mutated ET treated with pegylated-IFN-alfa2a who participated in MPD-RC-111/112 clinical trials. To capture the transcriptional impact of IFN, we removed experimental batch effects with Cell Hashing, in which CD34 + cells from serial BM were uniquely labeled and combined for the same GoT experiment (Fig. 1A). Cell clustering based on transcriptomic data alone revealed that the cells on active treatment clustered based on cell identity and IFN effects (Fig. 1B). When off therapy for 3 weeks, the strong transcriptional effects of IFN were largely lost (Fig. 1B). Next, we batch corrected and integrated across time points for each BM sample (Fig. 1C). We observed that IFN caused large shifts in the composition of wildtype (WT) and MUT cell subsets (Fig. 1D). IFN resulted in a dramatic expansion of WT lymphoid progenitors with a corresponding diminution of other progenitors (Fig. 1E). MUT cells at baseline were enriched for MkPs, compared to WT cells; after treatment, we observed an expansion of the immature myeloid (IMP) and neutrophil progenitors, with a less striking expansion of lymphoid progenitors (Fig. 1E). As IFN has been reported to induce cell cycling of murine hematopoietic progenitor cells, we examined whether a differential increase in proliferation by IFN underlies the differentiation shifts in WT and MUT cells. Cell cycle gene expression of ProB cells increased after treatment similarly in MUT and WT cells, while cell cycle expression of IMPs was increased to a greater extent in MUT cells (Fig. 1F), consistent with the differential shifts in populations. Next, we performed differential expression analysis between baseline and treated WT and MUT cells, respectively. We observed enrichment of the IFN pathways post-therapy, whereas TNF-a signaling was downregulated (Fig. 1G). Uniquely in the MUT cells, TGF-b signaling was downregulated, which may underlie improvements in marrow fibrosis following IFN therapy (Fig. 1G). Finally, as the differentiation biases of IFN persisted after discontinuation, we hypothesized that IFN results in chromatin remodeling of the earliest hematopoietic stem progenitor cells (HSPCs), with respect to transcription factor (TF) accessibility. We leveraged single nuclei chromatin accessibility (snATAC-seq) as a powerful measure of TF regulatory activities. We developed GoT-ATAC, an adaptation of the Multiome platform (10x Genomics), to capture snRNA-seq, snATAC-seq and somatic genotyping within the same cells in high-throughput (Fig. 1H). We applied GoT-ATAC to CD34 + cells from the same clinical trial cohorts (Fig. 1I, n = 3 patients: 3 baseline, 2 treated) and identified the expected enrichment of IRFs and STAT2 in treated HSPCs (Fig. 1J). Accessibility of BCL11A, critical for early lymphoid development, was increased in treated MUT and WT HSPCs. We also identified enhanced motif accessibility of PU.1 which can associate with IRF and is essential for myeloid and lymphoid differentiation. Uniquely within the treated MUT cells, we observed enhanced CEBPA motif enrichment, which regulates myeloid differentiation, together with PU.1. In conclusion, GoT revealed that IFN reshapes the differentiation landscape by promoting early lymphoid development and, uniquely in MUT cells, myeloid differentiation, providing a novel mechanism of actions underlying the effects of IFN in MPN patients. Downregulations of TNF-a and TGF-b signaling were other key molecular consequences of IFN. Lastly, GoT-ATAC demonstrated that IFN governs master regulators of hematopoietic differentiation as a function of the underlying mutational status. Figure 1 View large Download slide Figure 1 View large Download slide  Close modal Disclosures Mimitou:  Immunai: Current Employment. Smibert:  Immunai: Current Employment. Hoffman:  AbbVie Inc.: Other: Data Safety Monitoring Board, Research Funding; Novartis: Other: Data Safety Monitoring Board, Research Funding; Protagonist Therapeutics, Inc.: Consultancy; Kartos Therapeutics, Inc.: Research Funding.",
+    "author_names": [
+        "Shira Rosenberg",
+        "Andrea Kubas-Meyer",
+        "Neelang Parghi",
+        "Nathaniel D. Omans",
+        "Neville Dusaj",
+        "Paulina Chamely",
+        "Eleni Mimitou",
+        "Amylou C. Dueck",
+        "Heidi E. Kosiorek",
+        "Rona Singer Weinberg",
+        "Peter Smibert",
+        "Ronan Chaligne",
+        "Dan A. Landau",
+        "Ronald Hoffman",
+        "Anna S Nam"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Shira Rosenberg",
+            "author_affiliations": [
+                "Division of Experimental Pathology, Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, NY, NY"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Andrea Kubas-Meyer",
+            "author_affiliations": [
+                "Division of Experimental Pathology, Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Neelang Parghi",
+            "author_affiliations": [
+                "New York University, New York, NY"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Nathaniel D. Omans",
+            "author_affiliations": [
+                "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Neville Dusaj",
+            "author_affiliations": [
+                "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Paulina Chamely",
+            "author_affiliations": [
+                "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Eleni Mimitou",
+            "author_affiliations": [
+                "New York Genome Center, NY,"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Amylou C. Dueck",
+            "author_affiliations": [
+                "Department of Health Sciences Research, Mayo Clinic, Scottsdale, AZ"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Heidi E. Kosiorek",
+            "author_affiliations": [
+                "Department of Health Sciences Research, Mayo Clinic, Scottsdale, AZ"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rona Singer Weinberg",
+            "author_affiliations": [
+                "New York Blood Center, New York, NY"
+            ],
+            "author_rank": 10,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Peter Smibert",
+            "author_affiliations": [
+                "New York Genome Center, NY,"
+            ],
+            "author_rank": 11,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ronan Chaligne",
+            "author_affiliations": [
+                "Memorial Sloan Kettering Cancer Center, New York, NY"
+            ],
+            "author_rank": 12,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Dan A. Landau",
+            "author_affiliations": [
+                "Division of Hematology and Medical Oncology, Department of Medicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 13,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Ronald Hoffman",
+            "author_affiliations": [
+                "Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY"
+            ],
+            "author_rank": 14,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Anna S Nam",
+            "author_affiliations": [
+                "Division of Experimental Pathology, Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY"
+            ],
+            "author_rank": 15,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-23T02:31:14",
+    "is_scraped": "1"
 }

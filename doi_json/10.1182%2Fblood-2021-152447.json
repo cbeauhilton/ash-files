@@ -1,8 +1,103 @@
 {
-    "search_url": "https://ashpublications.org/blood/search-results?sort=Date+-+Oldest+First&f_ArticleTypeDisplayName=Meeting+Report&fl_SiteID=1000001&page=4867",
-    "start_url_page_num": "4867",
     "doi": "https://doi.org/10.1182/blood-2021-152447",
-    "url": "https://ashpublications.org/blood/article/138/Supplement 1/103/477510/Automated-Peripheral-Blood-Cell-Differentiation?searchresult=1",
-    "datetime_link_obtained": "2022-04-30T20:41:44",
-    "is_scraped": "0"
+    "article_title": "Automated Peripheral Blood Cell Differentiation Using Artificial Intelligence - a Study with More Than 10,000 Routine Samples in a Specialized Leukemia Laboratory ",
+    "article_date": "November 5, 2021",
+    "session_type": "803.Emerging Diagnostic Tools and Techniques",
+    "abstract_text": "Background : Cytomorphology is the gold standard for quick assessment of peripheral blood (PB) and bone marrow samples in hematological neoplasms and is used to orchestrate specific diagnostics. Artificial Intelligence (AI) promises to provide an unbiased way of interrogating blood smear data as reproducibility varies across labs. This is a prospective clinical study (ClinicalTrials.gov Identifier: NCT04466059) conducted on our approach outlined at ASH 2020. Aim : Use an AI model to classify cell images to produce differential counts of PB smears side-by-side to routine diagnostics. Methods : We enrolled 10,082 patient samples which were sent to our lab between 01/2021 and 07/2021 for cytomorphology with a suspected hematologic neoplasm. Blood smears were differentiated by highly skilled technicians (median 5y in lab) and all were reviewed by hematologists. In parallel, all samples were scanned on a MetaSystems (Altlussheim, Germany) Metafer Scanning System (Zeiss (Oberkochen, Germany) Axio Imager.Z2 microscope, automatic slide feeder). Areas of interest were defined and leukocyte positions were flagged by pre-scan in 10x magnification followed by high resolution scan in 40x to generate cell images for analysis. We set up a supervised Machine Learning model based on ImageNet-pretrained Xception using Amazon Sagemaker (AS) and trained it on 8,425 carefully annotated color images to identify 21 predefined classes (including 1 garbage class). Overall accuracy of this model against hold-out-set (10%) was 96%. The algorithm consumes 144x144pixel cell images and produces probability scores (PS) for each class in every image. Results : For routine diagnostics in median 100 cells/sample (range 82 - 103) were differentiated manually, overall 988,130. The automated process gathered 500 cell images/sample (range 101 - 500), overall 4,937,389. Average capture times for 500 cells: 4:37 min. Cropped images were uploaded to a cloud storage and exposed to an AS endpoint to initiate classification and the computation of a PS for each of the predefined 21 classes in the model. For the study we only considered images with a probability of at least 90% (n=3,781,670/4,937,389) and excluded normoblasts, smudge cells and images identified as garbage (together n=2,120,258). Final diagnosis included: no lymphoma detectable (2,186), MDS (1,152), AML (369), in these 11 APL, MPN (658), CLL (558), other mature B-cell neoplasms (377), CML (326), multiple myeloma (155), but also rare entities such as hairy cell leukemia variant (2) or PPBL (3). Comparing the benign normal cells in peripheral blood we identified (all values normalized) segmented neutrophils (manual (M): 516,648=52% vs AI: 882,538=53%), eosinophils (M: 24,860=2.52% vs. AI: 55,699=3.36%), basophils (M: 7159=0,72% vs. AI: 11,957=0,72%), monocytes (M: 74,113=7.5% vs. AI: 110,126=6.64%), lymphocytes (M: 313,518=31.7% vs. AI: 399,249=24%). Pathogenic blasts were detected in 16,048 (0.97%) images by AI (M: 16,290=1.65%). In routine diagnostics 536 cases with blast cells, including \"questionable blasts\" were identified. The AI identified 493 (91%) of these cases. At least one atypical/malignant lymphocyte was found in 2,323 samples manually, out of which the AI identified 2,279 (98%). In few cases manual differentiation relies on the number of pathogenic cells from an immunophenotyping analysis, which the AI does not had. During the course of the study by chance we identified at least 3 instances, were the AI detected pathogenic cells (blasts, atypical promyelocytes (APL) or bilobulated promyelocytes (APL-v)) which were initially missed manually (in some case WBC below .5 G/l) or flagged during subsequent immunophenotyping/molecular genetic analysis. Upon manually revisiting the smear, we could verify the presence of the AI-anticipated cells, revealing the higher sensitivity of the 5 time increase in cells/sample investigated by AI and power of algorithms. Conclusion : We present data of a prospective, blinded clinical study comparing blood smear analysis between humans and AI head-to-head. The concordance is extremely high with 95% for pathogenic cases. Misclassified cells are used for retraining to continuously improve the model and benefit from large datasets even for rare cell types. The model's cloud based implementation makes it easy to connect scanning devices for automated, unbiased classification. Disclosures Haferlach:  MLL Munich Leukemia Laboratory: Other: Part ownership. Kern:  MLL Munich Leukemia Laboratory: Other: Part ownership. Haferlach:  MLL Munich Leukemia Laboratory: Other: Part ownership.",
+    "author_names": [
+        "Torsten Haferlach",
+        "Christian Pohlkamp",
+        "Inseok Heo",
+        "Rudolf Drescher",
+        "Siegfried H\u00e4nselmann",
+        "Thomas L\u00f6rch",
+        "Wolfgang Kern",
+        "Claudia Haferlach",
+        "Niroshan Nadarajah"
+    ],
+    "author_dict_list": [
+        {
+            "author_name": "Torsten Haferlach",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 1,
+            "first_author": 1,
+            "last_author": 0
+        },
+        {
+            "author_name": "Christian Pohlkamp",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 2,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Inseok Heo",
+            "author_affiliations": [
+                "Amazon Web Services, Seattle,"
+            ],
+            "author_rank": 3,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Rudolf Drescher",
+            "author_affiliations": [
+                "MetaSystems, Altlussheim, Germany"
+            ],
+            "author_rank": 4,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Siegfried H\u00e4nselmann",
+            "author_affiliations": [
+                "MetaSystems, Altlussheim, Germany"
+            ],
+            "author_rank": 5,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Thomas L\u00f6rch",
+            "author_affiliations": [
+                "MetaSystems, Altlussheim, Germany"
+            ],
+            "author_rank": 6,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Wolfgang Kern",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 7,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Claudia Haferlach",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 8,
+            "first_author": 0,
+            "last_author": 0
+        },
+        {
+            "author_name": "Niroshan Nadarajah",
+            "author_affiliations": [
+                "MLL Munich Leukemia Laboratory, Munich, Germany"
+            ],
+            "author_rank": 9,
+            "first_author": 0,
+            "last_author": 1
+        }
+    ],
+    "datetime_abstract_obtained": "2022-06-23T02:30:57",
+    "is_scraped": "1"
 }
